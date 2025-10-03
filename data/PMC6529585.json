@@ -1,0 +1,786 @@
+{
+  "pmcid": "PMC6529585",
+  "title": "Proteomic and Metabolomic Characteristics of Extremophilic Fungi Under Simulated Mars Conditions",
+  "abstract": "Filamentous fungi have been associated with extreme habitats, including nuclear power plant accident sites and the International Space Station (ISS). Due to their immense adaptation and phenotypic plasticity capacities, fungi may thrive in what seems like uninhabitable niches. This study is the first report of fungal survival after exposure of monolayers of conidia to simulated Mars conditions (SMC). Conidia of several Chernobyl nuclear accident-associated and ISS-isolated strains were tested for UV-C and SMC sensitivity, which resulted in strain-dependent survival. Strains surviving exposure to SMC for 30 min, ISSFT-021-30 and IMV 00236-30, were further characterized for proteomic, and metabolomic changes. Differential expression of proteins involved in ribosome biogenesis, translation, and carbohydrate metabolic processes was observed. No significant metabolome alterations were revealed. Lastly, ISSFT-021-30 conidia re-exposed to UV-C exhibited enhanced UV-C resistance when compared to the conidia of unexposed ISSFT-021.",
+  "introduction": "Introduction\n\nExtremophiles are of interest to the National Aeronautics and Space Administration (NASA) due to their potential to survive hostile and extraterrestrial conditions. Bacteria, fungi, and archaea have been shown to thrive in habitats characterized by low nutrient availability, desiccation, high and low temperatures, acidic and alkaline pH, or radiation. There is a need for studies that focus on elucidating microbial survival mechanisms in extreme habitats, as a primary goal of the planetary protection policy is to prevent forward and backward contamination of any celestial bodies and the Earth. So far, the majority of such studies have focused on investigating extremophilic bacteria, mainly spore-formers, and rocks containing fungi however, monolayers of fungal conidia have not been studied.\n\nOne investigation revealed that the survival of spacecraft-associated bacteria under simulated Mars UV irradiation, is strain-specific and depends on the isolation site. Spacecraft-associated bacteria were more resistant than Bacillus subtillis 168, used as a dosimetric control. Additionally, exposure of B. subtilis 168 spores to dark space conditions (no UV) outside the International Space Station (ISS) and SMC for 559 days induced the expression of genes involved in DNA and protein damage responses, and oxidative and envelope stress. Further, the first-generation of spores of another bacterium, Bacillus pumillus SAFR-032, isolated from the Jet Propulsion Laboratory (JPL) spacecraft assembly facility (SAF) was more UV-C resistant than the ground control counterparts following exposure to space UV conditions for 18 months. Extensive studies into the whole genome of SAFR-032 revealed the presence of several DNA repair-associated genes that may have facilitated its survival and adaptation to harsh environmental conditions. Further, proteome analysis showed that stress response proteins, like superoxide dismutase, were increased in abundance when compared to the control.\n\nFungi produce conidia or spores as part of their life cycle. Some of these structures can be more resistant to environmental impact than the typical fungal coenocytic cell. Therefore, molecular characterization and further understanding of fungal resistance to UV-C and SMC are of high importance. Additionally, fungi possess a wide variety of mechanisms to protect against solar radiation, which include enzymes removing reactive oxygen species (ROS), DNA repair mechanisms, including nucleotide excision repair (NER) and photoreactivation (PR), and the production of pigments such as melanins and melanin-like compounds, and UV-absorbing metabolites that act as sunscreens. The hardy nature, adaptability and plasticity of fungi enable their persistence in extreme conditions, making them potential contaminants of cleanrooms and, therefore, a forward contamination source.\n\nOn April 25, 1986 one of the most significant nuclear accidents in history took place. Reactor 4 of the Chernobyl nuclear power plant (ChNPP) exploded and high levels of released radioactivity turned the surrounding area into a hostile environment. Within the following 18 years over 2,000 fungal isolates were collected from the nuclear power plant, its 30-km Exclusion Zone and beyond, representing some 200 species in over 90 genera. The observed fungal communities were of low complexity and dominated by melanin-containing strains. Approximately 20% of the isolates displayed a previously unknown phenomenon of growing toward the radiation source referred to as positive radiotropism. Therefore, this unique characteristic of Chernobyl fungi makes them an ideal fungal model for studying adaptation to SMC. Further, the fungal species isolated from Chernobyl have also been detected in built environments, including JPL clean rooms, simulated closed habitats, and on board of the ISS, which further emphasizes the need to study their potential for forward contamination.\n\nThe ISS is another type of environment that may be considered hostile for microorganisms, featuring constant temperature and humidity, controlled airflow, enhanced irradiation, and microgravity. Several reports examining microbial burden aboard the ISS have shown that fungal populations thrive in this environment. Other studies have investigated molecular adaptations of selected species to space conditions, revealing changes in metabolome, and proteome of ISS-isolated strains. In other investigations, several multilayered or embedded cryptoendolithic fungal communities were exposed to space conditions. Tested isolates that adapted to environmental extremes of their habitats survived SMC for extended periods and revealed high stability of the DNA in the surviving cells. Despite these studies, there are significant gaps in our understanding of the molecular mechanisms that facilitate survival of filamentous fungi under SMC and their potential to adapt and survive in outer space.\n\nThis is the first report that evaluated the survival of Chernobyl-associated and ISS-isolated fungal conidia exposed in monolayers to SMC. Dried monolayers of conidia of four filamentous fungi were exposed to SMC and two strains, Aspergillus fumigatus and Cladosporium cladosporoides, which survived exposure to SMC for 30 min, were further analyzed for phenotypic, proteomic and metabolomic changes.",
+  "methods": "Materials and Methods\n\nSample Collection Sites\n\nSubcultures of the isolated strains were obtained from the Institute of Microbiology and Virology, Ukrainian Academy of Sciences, within the framework of a multiyear collaborative research program, to the Center for Environmental Biotechnology at Lawrence Berkeley National Laboratory (LBNL). For this study 12 Chernobyl nuclear accident-associated isolates were selected (Table 1).\n\nPreparation of Aluminum Coupons With Monolayers of Dried Fungal Conidia\n\nHigh-grade aluminum coupons (Al 6061-T6) were precision cleaned for sterility as previously described. Each coupon was seeded with 100 μL of conidia suspension to contain ∼105 conidia per coupon. Conidia were counted using a hemocytometer (Double Neubauer Counting Chamber, Hausser Scientific, Horsham, PA, United States) after harvesting 5 days grown cultures at 26°C on potato dextrose agar (PDA). Conidial suspensions were diluted in molecular biology grade water (Fisher Scientific, Waltham, MA, United States) and ∼105 conidia were added to each coupon followed by drying overnight at the room temperature in a bio-hood. The monolayers of conidia were confirmed by scanning electron microscopy (data not shown).\n\nUV-C Exposure and Recovery\n\nAluminum coupons with dried fungal conidia were placed in a plastic Petri dish, without a lid, and exposed to UV-C using a low-pressure handheld mercury arc UV lamp (model UVG-11; UVP Inc., Upland, CA, United States). The lamp was placed above the sample, and the UV flux at the surface of exposed sample was measured using UVX digital radiometer (UVP Inc.). The exposure time required to produce doses: 0, 50, 100, 500, 1000, and 2,000 J/m2 was calculated at 100 μW cm-2. After exposure to UV-C 100 μL of 10% polyvinyl alcohol (PVA) was applied on each coupon and dried at 37°C for 50 min. Dried PVA along with fungal conidia was peeled using sterile forceps and added to 1 mL of molecular biology grade water (Fisher Scientific). The PVA extraction step was repeated. When PVA was dissolved, serial dilutions were prepared and plated on PDA in duplicates. Colony forming units (CFUs) were counted after 7 days of incubation at 26°C.\n\nSimulated Martian Conditions (SMC)\n\nSurvival and response of fungal strains under SMC were tested in a Mars simulation chamber equipped with a UV transparent fused silica window according to a previously described set up. Coupons prepared following the protocol described above were placed in the sterile Falcon tubes and sent to Netherlands. After arrival (∼1.5 weeks) samples deposited on aluminum coupons were placed inside the simulation chamber and subsequently the chamber was evacuated via an oil-free scroll pump (XDS5, Edwards Vacuum, Crawley, United Kingdom) to reach a base pressure of 20 Pa. While continuously being pumped, the chamber was purged five times with high purity CO2 (99.995%, H20 < 5 ppm, O2 < 5 ppm, Praxair, Danbury, CT, United States), before establishing a continuous CO2 gas flow to maintain a stable chamber pressure of approximately 600 Pa. Samples were exposed at room temperature to simulated solar light (SF150 with a xenon arc lamp, 150W, Sciencetech Inc., London, Canada) via the fused silica window of the simulation chamber. The 200–400 nm wavelength integrated irradiance at the sample distance was 58.7 W/m2 (Figure 6). Samples were exposed for 5 and 30 min to cumulative doses of 2,670 and 16,110 J/m2, respectively, before being removed from the chamber and placed in sterile Falcon tubes for shipment back to JPL (Pasadena, CA, United States) for further analysis. Upon return to JPL, SMC-exposed samples were processed following the aforementioned PVA protocol to assess the survival rates.\n\nSecondary Metabolite Extraction and Analysis\n\nAspergillus fumigatus strains were cultivated at 30°C on GMM agar plates while C. cladosporioides strains were grown at 26°C on MEA agar plates starting with 107 conidia/per Petri plate (D = 10 cm). After 5 days, agar was chopped, extracted with 25 mL methanol, and 25 mL of 1:1 methanol/dichloromethane each followed by 1 h sonication and filtration. After the second filtration, combined crude extracts from each isolate were evaporated in vacuo, suspended in 20 mL of water and partitioned with ethylacetate (20 mL). The ethylacetate layer was evaporated in vacuo, re-dissolved in 1 mL of 20% dimethyl sulfoxide/methanol and 10 μL was examined by high performance liquid chromatography-photodiode array detection-mass spectrometry (HPLC-DAD-MS) analysis. HPLC-MS was carried out using ThermoFinnigan LCQ Advantage ion trap mass spectrometer with an RP C18 column (Alltech Prevail C18 3 mm 2.1 × 100 mm) at a flow rate 125 μL/min. The solvent gradient for LC/MS was 95% acetonitrile/H2O (solvent B) in 5% acetonitrile/H2O (solvent A) both containing 0.05% formic acid, as follows: 0% solvent B from 0 to 5 min, 0 to 100% solvent B from 5 to 35 min, 100% solvent B from 35 to 40 min, 100 to 0% solvent B from 40 to 45 min, and re-equilibration with 0% solvent B from 45 to 50 min.\n\nProteome Samples Extraction and Processing\n\nExposure of fungal conidia to SMC required using ∼106 conidia/coupon to avoid the shadowing effect, however such amount of biomass was not enough to perform detailed proteome analyses. Therefore, to observe permanent alterations in proteomes of SMC-exposed strains when compared to unexposed ones A. fumigatus strains were regrown at 30°C on GMM and C. cladosporioides strains at 26°C on MEA starting with 107 conidia/per Petri plate (D = 10 cm). After 5 days, mycelia and spores from agar plates were collected and stored at -80 °C prior to protein extraction at City of Hope (Duarte, CA, United States). The protein was extracted as previously described. In brief, mycelia, and spores were lysed and homogenized using a bead beater. Protein concentrations were measured by Bradford assay with a bovine serum albumin standard curve (Bio-Rad Laboratories, Inc., Hercules, CA, United States).\n\nThe samples were processed for a tandem mass tag (TMT) labeling as described by with modification. The proteomic profiling of A. fumigatus and C. cladosporioides strains was carried out in two separate TMT LC/MS experiments. A. fumigatus strains ISSFT-021 and ISSFT-021-30 were labeled with TMT6-128 and TMT6-129, respectively. Two biological samples of C. cladosporioides strains IMV00 236 and IMV00 236-30 were labeled with TMT6-128/130 and TMT6-129/131, respectively.\n\nThe samples were analyzed on an Orbitrap Fusion Tribrid mass spectrometer with an EASY-nLC 1000 Liquid Chromatograph, a 75 μm × 2 cm Acclaim PepMap100 C18 trapping column, and a 75 μm × 25 cm PepMap RSLC C18 analytical column, and an Easy-Spray ion source (Thermo Fisher Scientific) as previously described.\n\nQuantitative Proteomics Analysis\n\nAll MS spectra were analyzed using Proteome Discoverer (version 2.2.0.388, Thermo Fisher Scientific) with Sequest-HT search engines. Protein databases were either A. fumigatus Af293 database from NCBI containing 9845 non-redundant sequences or an in-house annotated draft genome sequence of C. cladosporioides (MSJH00000000). The search parameters were described by.\n\nTechnical triplicate measurements for each protein were averaged. Only proteins that were identified with at least one peptide detected in each technical replicate, and quantified in all technical and biological replicates, were considered for the analysis. The identified proteins were then averaged and Log2 transformed. Student t-test was performed to identify proteins that are differentially expressed between each SMC-exposed and unexposed group. Proteins with p-value ≤ 0.05 were further evaluated for up- and down-regulation using a cut-off value of ≥±2-fold change. AspGD gene ontology (GO) Slim terms were used to study the distribution of differentially expressed proteins among biological processes in SMC-exposed ISSFT-021-30 while the cluster of orthologous genes (COG) database used in CloVR was used to study the distribution of differentially expressed proteins in SMC-exposed IMV 00236-30.\n\nGenome Annotation\n\nGenome annotation of C. cladosporioides IMV 00236 was performed on the deposited assembly (MSJH00000000) with Funannotate (v1.5.1). Proteins from Capnodiales fungi (Dothideomycetes), Swissprot database, and transcripts from Cladosporium sphaerospermum UM 843 were used as informant sequences. Conserved genes were identified from BUSCO core set “ascomycota_odb9” and were used to create training set for ab initio gene prediction by Augustus. The ab initio predictor GenemarkHMM-ES was trained using its self-training procedures. These predictions along with splice-aware aligned proteins using DIAMOND followed by refinement with exonerate to improve spliced alignment accuracy. Consensus gene models were generated from the combined evidence with Evidence Modeler. Predicted gene function from conserved protein domains, Swissprot and inferred homology to conserved protein clusters in eggNOGdb, and secondary metabolite cluster prediction.",
+  "results": "Results\n\nIdentification of Fungal Strains\n\nTwelve fungal strains isolated from Chernobyl nuclear accident sites, belonging to nine genera, and one ISS-isolated strain were included in this study. Eight of the Chernobyl isolates were collected over time from the wall surface of the exploded Unit-4 of ChNPP. The other four fungi isolated from soil within the exclusion zone were included for comparison. The strains used in the study were selected based on their ecological and biological significance from the collection of over 2,000 isolates. Speciation was determined by classical cell and colony morphology-based identification techniques. A smaller set of fungi underwent whole genome sequencing. Names, GenBank accession numbers, and their significance are presented in Table 1.\n\nSurvival of Desiccated Conidial Spores Under UV-C Irradiation\n\nThe impact of UV-C irradiation on the survival of dried fungal conidia is presented in Supplementary Table 1. Out of 13 irradiated strains, all but three (Beauveria bassiana IMV 00265, Fusarium oxysporum IMV 00293, and Aureobasidium pullulans IMV 00882) survived exposure to the dose of 2,000 J/m2. Two radiotropic strains, Cladosporium sphaerospermum IMV 00045, and Cladosporium cladosporioides IMV 00236, and the non-radiotropic Penicillium citreonigrum IMV 00738 showed survival at the level of 3.48, 3.60, and 2.18%, respectively, which was higher than the ∼0.1% survival rate observed for the other strains (Figure 1 and Supplementary Table 1). Rapid decrease in conidia survivability was observed at dose of 500 J/m2 (∼2–3 log reduction). From that point until the doses of 1000 or 2000 J/m2, the decrease in survival was less pronounced.\n\nSurvival of Desiccated Conidia Under Simulated Mars Conditions (SMC)\n\nBased on the initial analysis of survival under SMC (not shown) four fungal strains were exposed to SMC for 5 and 30 min at the Leiden Institute of Chemistry, Netherlands. All exposed strains, C. cladosporioides IMV 00236, Apiospora montagnei IMV 01851, C. herbarum IMV 00034 and A. fumigatus ISSFT-021, survived exposure to SMC for 5 min, whereas only two strains: C. cladosporioides IMV 00236 and A. fumigatus ISSFT-021 survived exposure for 30 min (Table 2). Probably the most striking observation was the highest survival rate of IMV 00034 after 5 min exposure to SMC followed by complete eradication after 30 min exposure to SMC. However, because the main focus of the manuscript was to discuss the potential of fungi to survive long-term exposure to SMC we did not further investigate why IMV 00034 may be highly tolerant to SMC-exposure for the short time, but it fails to survive during longer exposure. Nevertheless, it remains an interesting question and a topic for further investigation.\n\nSecondary Metabolite (SM) Profiling of Aspergillus fumigatus and Cladosporium cladosporioides Exposed to SMC\n\nOrganic extracts of unexposed ISSFT-021 and IMV 00236, and 30 min SMC-exposed ISSFT-021-30 and IMV 00236-30 strains were examined to test if exposure to SMC alters SM production. No significant differences were observed in SM production when comparing samples before and after SMC exposure, including yield or type of compound produced, in either of the strains (Figure 2). However, there appeared to be a tendency of increased SM production yield in both strains following exposure to SMC when compared to unexposed counterparts (Figure 2B,D).\n\nProteome Profiling of Aspergillus fumigatus Exposed to SMC\n\nThe proteomic characterization of SMC-exposed ISSFT-021-30 revealed 51-up and 24 down-regulated proteins when compared to unexposed ISSFT-021 (fold-change (FC) > | 2|, P < 0.05) (Supplementary Table 2). Analysis of the distribution of differentially expressed proteins among biological processes revealed that 27 proteins were involved in translation and ribosome biogenesis, 11 in carbohydrate metabolism, and 10 in stress response (Figure 3). Further, significantly over-represented up-regulated biological processes included translation (50% of all up-regulated proteins), and carbohydrate metabolic processes (15%), whereas significantly over-represented down-regulated processes included carbohydrate derivative metabolic processes (12%) (Supplementary Table 3).\n\nApproximately 50% of all up-regulated proteins in ISSFT-021-30 were involved in translation and ribosome biogenesis, including proteins that comprise the small and large ribosomal subunit (Table 3). The majority of these proteins were reported to be differentially expressed during the early development of A. fumigatus. Both Rpl3 (AFUA_2G11850) and ribosomal protein P0 (AFUA_1G05080), whose expression during conidiation are regulated by BrlAp, were more than twofold up-regulated. A number of differentially expressed proteins were involved in carbohydrate metabolism (Table 4), including isocitrate lyase AcuD (AFUA_4G13510), one of the key enzymes in the glyoxylate cycle. Cellobiohydrolases CbhB (AFUA_6G11610) and AFUA_8G01490, both involved in cellulose degradation, and hydrolase AFUA_5G07080 were more than twofold up-regulated in SMC-exposed ISSFT-021-30. A twofold increase in protein abundance was observed for glycerol dehydrogenase GldB (AFUA_4G11730), phosphoglycerate kinase (AFUA_1G10350), and hexokinase HxkA (AFUA_2G05910). Among the proteins involved in carbohydrate metabolism that exhibited decreased abundance were malate and alcohol dehydrogenases [AFUA_6G05210, AFUA_5G06240, respectively] and mannose-6-phosphate isomerase (AFUA_4G08410). Several proteins with increased abundance were involved in response to stress (Table 5). Dehydrin-like protein DprC (AFUA_7G04520), which is known to play a role in protecting cells against freezing, and AFUA_1G14090, which is predicted to be involved in histidine biosynthesis, were twofold up-regulated. Down-regulated stress response proteins included the proliferating cell nuclear antigen (PCNA) (AFUA_1G04900), and the formaldehyde dehydrogenase (AFUA_2G01040), and AFUA_8G04890 with a predicted role in response to salt stress.\n\nProteome Profiling of Cladosporium cladosporioides Exposed to SMC\n\nThe proteomic characterization of C. cladosporioides upon exposure to SMC for 30 min revealed that 51 proteins were up-regulated, and 218 proteins were down-regulated when compared to unexposed IMV 00236 (fold-change (FC) > ∣2∣, P < 0.05) in response to SMC (Supplementary Table 4). The distribution of differentially expressed proteins in SMC-exposed IMV 00236-30 among biological processes is shown in Figure 4. Among differentially expressed proteins 22 were involved in post-translation modification, protein turnover, and chaperones, 21 in carbohydrate transport and metabolism, 20 in energy production and conversion, and 17 in translation and ribosomal structure and biogenesis. Interestingly, the majority of the proteins involved in the translation and ribosomal structure and biogenesis in SMC-exposed IMV 00236-30 exhibited down-regulation (Table 6), which is the opposite expression pattern to ISSFT-021-30. Additionally, a number of proteins involved in post-translational modification and chaperones (Table 7) showed decreased abundance, including an aspartic endopeptidase (BS090_008183/ENOG410PH8I), which is an ortholog of A. fumigatus AFUA_5G13300. BS090_010805/ENOG410PMR5, an ortholog of mitochondrial matrix cochaperone Mge1p (YOR232W) in Saccharomyces cerevisiae was fourfold down-regulated when compared to SMC-unexposed IMV 00236. Proteins involved in carbohydrate metabolism displayed differential abundance (Table 8), including the fourfold up-regulated exo-polygalacturonase involved in pectin degradation BS090_001871/ENOG410PG7M, which is an ortholog of An12g07500 in Aspergillus niger. Chitin deacetylases BS090_000013 and BS090_000044/ENOG410PMJX, and the chitin recognition protein BS090_010953/ENOG410PMF7 were at least threefold up-regulated. Down-regulated proteins involved in carbohydrate metabolism included phosphoglycerate mutase BS090_004087/ENOG410QEDC, which is an ortholog of Aspergillus nidulans AN8720 with a predicted role in gluconeogenesis and glycolysis, glucanase BS090_003291/ENOG410PM6H, and alpha-amylase BS090_011829/ENOG410PMDW. Differentially expressed proteins involved in energy production and conversion (Table 9) included up-regulated BS090_001715/ENOG410PGTG, an ortholog of A. niger NADPH dehydrogenase (An11g08510), and isocytrate lyase and dehydrogenase BS090_001881/ENOG410PGND, and BS090_000939/ENOG410PFHR, respectively. Proteins with decreased abundance included nitrate reductase BS090_004112/ENOG410PUCE and ATP synthase BS090_005644/ENOG41KOG1758.\n\nIncreased Resistance to UV-C of SMC Exposed Aspergillus fumigatus Conidia\n\nSurvival rates of several ISS-isolated and clinical isolates of A. fumigatus following exposure to UV-C are presented in Figure 5. SMC exposed ISSFT-021-30 exhibited increased UV-C resistance (∼20% of conidia survived the UV-C dose of 4,000 J/m2) when compared to unexposed ISSFT-021 and another A. fumigatus ISS isolate IF1SW-F4. Additionally, IF1SW-F4 was more resistant to UV-C exposure, than ISSFT-021 and clinical CEA10 strain, which displayed similar resistance patterns. The clinical isolate Af293 was the most sensitive, showing 2-log reduction when exposed to the highest tested UV-C dose. Exposure experiments were repeated 3 times and showed the same trends.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "fungi",
+    "simulated mars conditions",
+    "proteome",
+    "metabolome",
+    "Chernobyl",
+    "international space station",
+    "extremophiles",
+    "Microbiology",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Proteomic analysis of temperature dependent extracellular proteins from Aspergillus fumigatus grown under solid-state culture condition.",
+      "authors": [
+        "S. S. Adav",
+        "A. Ravindran",
+        "S. K. Sze"
+      ]
+    },
+    {
+      "title": "Integrative analysis of the heat shock response in Aspergillus fumigatus.",
+      "authors": [
+        "D. Albrecht",
+        "R. Guthke",
+        "A. A. Brakhage",
+        "O. Kniemeyer"
+      ]
+    },
+    {
+      "title": "Monitoring of microbial degraders in manned space stations.",
+      "authors": [
+        "T. A. Alekhova",
+        "A. A. Aleksandrova",
+        "T. I. Novozhilova",
+        "L. V. Lysak",
+        "N. A. Zagustina",
+        "A. M. Bezborodov"
+      ]
+    },
+    {
+      "title": "CloVR: a virtual machine for automated and portable sequence analysis from the desktop using cloud computing.",
+      "authors": [
+        "S. V. Angiuoli",
+        "M. Matalka",
+        "A. Gussman",
+        "K. Galens",
+        "M. Vangala",
+        "D. R. Riley"
+      ]
+    },
+    {
+      "title": "Responses of soil bacterial and fungal communities to extreme desiccation and rewetting.",
+      "authors": [
+        "R. L. Barnard",
+        "C. A. Osborne",
+        "M. K. Firestone"
+      ]
+    },
+    {
+      "title": "Whole metagenome profiles of particulates collected from the international space station.",
+      "authors": [
+        "N. A. Be",
+        "A. Avila-Herrera",
+        "J. E. Allen",
+        "N. Singh",
+        "A. Checinska Sielaff",
+        "C. Jaing"
+      ]
+    },
+    {
+      "title": "Damage escape and repair in dried Chroococcidiopsis spp. from hot and cold deserts exposed to simulated space and martian conditions.",
+      "authors": [
+        "D. Billi",
+        "E. Viaggiu",
+        "C. S. Cockell",
+        "E. Rabbow",
+        "G. Horneck",
+        "S. Onofri"
+      ]
+    },
+    {
+      "title": "Proteomic characterization of Aspergillus fumigatus isolated from air and surfaces of the international space station.",
+      "authors": [
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "J. Romsdahl",
+        "M. Kalkum",
+        "C. C. C. Wang",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Human presence impacts fungal diversity of inflated lunar/Mars analog habitat.",
+      "authors": [
+        "A. Blachowicz",
+        "T. Mayer",
+        "M. Bashir",
+        "T. R. Pieber",
+        "P. De León",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "antiSMASH 4.0-improvements in chemistry prediction and gene cluster boundary identification.",
+      "authors": [
+        "K. Blin",
+        "T. Wolf",
+        "M. G. Chevrette",
+        "X. Lu",
+        "C. J. Schwalen",
+        "S. A. Kautsar"
+      ]
+    },
+    {
+      "title": "Molecular and physiological effects of environmental UV radiation on fungal conidia.",
+      "authors": [
+        "G. U. L. Braga",
+        "D. E. N. Rangel",
+        "ÉK. K. Fernandes",
+        "S. D. Flint",
+        "D. W. Roberts"
+      ]
+    },
+    {
+      "title": "Fast and sensitive protein alignment using DIAMOND.",
+      "authors": [
+        "B. Buchfink",
+        "C. Xie",
+        "D. H. Huson"
+      ]
+    },
+    {
+      "title": "The proteomic signature of Aspergillus fumigatus during early development.",
+      "authors": [
+        "S. E. Cagas",
+        "M. R. Jain",
+        "H. Li",
+        "D. S. Perlin"
+      ]
+    },
+    {
+      "title": "The Aspergillus genome database: multispecies curation and incorporation of RNA-Seq data to improve structural gene annotations.",
+      "authors": [
+        "G. C. Cerqueira",
+        "M. B. Arnaud",
+        "D. O. Inglis",
+        "M. S. Skrzypek",
+        "G. Binkley",
+        "M. Simison"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the international space station and spacecraft assembly facilities.",
+      "authors": [
+        "A. Checinska",
+        "A. J. Probst",
+        "P. Vaishampayan",
+        "J. R. White",
+        "D. Kumar",
+        "V. G. Stepanov"
+      ]
+    },
+    {
+      "title": "The genetic landscape of a cell.",
+      "authors": [
+        "M. Costanzo",
+        "A. Baryshnikova",
+        "J. Bellay",
+        "Y. Kim",
+        "E. D. Spear",
+        "C. S. Sevier"
+      ]
+    },
+    {
+      "title": "Ionizing radiation changes the electronic properties of melanin and enhances the growth of melanized fungi.",
+      "authors": [
+        "E. Dadachova",
+        "R. A. Bryan",
+        "X. Huang",
+        "T. Moadel",
+        "A. D. Schweitzer",
+        "P. Aisen"
+      ]
+    },
+    {
+      "title": "Ionizing radiation: how fungi cope, adapt, and exploit with the help of melanin.",
+      "authors": [
+        "E. Dadachova",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "The acuH gene of Aspergillus nidulans, required for growth on acetate and long-chain fatty acids, encodes a putative homologue of the mammalian carnitine/acylcarnitine carrier.",
+      "authors": [
+        "J. R. De Lucas",
+        "A. I. Domínguez",
+        "S. Valenciano",
+        "G. Turner",
+        "F. Laborda"
+      ]
+    },
+    {
+      "title": "Fungi and ionizing radiation from radionuclides.",
+      "authors": [
+        "J. Dighton",
+        "T. Tugay",
+        "N. Zhdanova"
+      ]
+    },
+    {
+      "title": "The Pfam protein families database in 2019.",
+      "authors": [
+        "S. El-Gebali",
+        "J. Mistry",
+        "A. Bateman",
+        "S. R. Eddy",
+        "A. Luciani",
+        "S. C. Potter"
+      ]
+    },
+    {
+      "title": "Investigating the effects of simulated martian ultraviolet radiation on Halococcus dombrowskii and other extremely halophilic archaebacteria.",
+      "authors": [
+        "S. Fendrihan",
+        "A. Bérces",
+        "H. Lammer",
+        "M. Musso",
+        "G. Rontó",
+        "T. K. Polacsek"
+      ]
+    },
+    {
+      "title": "Identification of essential genes in the human fungal pathogen Aspergillus fumigatus by transposon mutagenesis.",
+      "authors": [
+        "A. Firon",
+        "F. Villalba",
+        "R. Beffa",
+        "C. d’Enfert"
+      ]
+    },
+    {
+      "title": "Yeast polypeptide exit tunnel ribosomal proteins L17, L35 and L37 are necessary to recruit late-assembling factors required for 27SB pre-rRNA processing.",
+      "authors": [
+        "M. Gamalinda",
+        "J. Jakovljevic",
+        "R. Babiano",
+        "J. Talkish",
+        "J. de la Cruz",
+        "J. L. Woolford"
+      ]
+    },
+    {
+      "title": "Analysis and survival of amino acids in Martian regolith analogs.",
+      "authors": [
+        "J. R. C. Garry",
+        "I. L. ten Kate",
+        "Z. Martins",
+        "P. Nørnberg",
+        "P. Ehrenfreund"
+      ]
+    },
+    {
+      "title": "Comparative genomics of the environmental stress response in ascomycete fungi.",
+      "authors": [
+        "A. P. Gasch"
+      ]
+    },
+    {
+      "title": "Transcriptomic and proteomic profile of Aspergillus fumigatus on exposure to artemisinin.",
+      "authors": [
+        "P. Gautam",
+        "S. K. Upadhyay",
+        "W. Hassan",
+        "T. Madan",
+        "R. Sirdeshmukh",
+        "C. S. Sundaram"
+      ]
+    },
+    {
+      "title": "Halophilic fungi in a polyhaline estuarine habitat.",
+      "authors": [
+        "V. Gonsalves"
+      ]
+    },
+    {
+      "title": "Microbial ecology of an extreme acidic environment, the tinto river.",
+      "authors": [
+        "E. Gonzalez-Toril",
+        "E. Llobet-Brossa",
+        "E. O. Casamayor",
+        "R. Amann",
+        "R. Amils"
+      ]
+    },
+    {
+      "title": "Roles of chitinases in fungal growth",
+      "authors": [
+        "G. W. Gooday",
+        "A. M. Humphreys",
+        "W. H. McIntosh",
+        "R. Muzzarelli",
+        "C. Jeuniaux",
+        "G. W. Gooday"
+      ]
+    },
+    {
+      "title": "Automated eukaryotic gene structure annotation using EVidenceModeler and the program to assemble spliced alignments.",
+      "authors": [
+        "B. J. Haas",
+        "S. L. Salzberg",
+        "W. Zhu",
+        "M. Pertea",
+        "J. E. Allen",
+        "J. Orvis"
+      ]
+    },
+    {
+      "title": "Stress adaptation",
+      "authors": [
+        "J. Heitman",
+        "B. Howlett",
+        "P. Crous",
+        "E. Stukenbrock",
+        "T. James"
+      ]
+    },
+    {
+      "title": "A novel family of dehydrin-like proteins is involved in stress response in the human fungal pathogen Aspergillus fumigatus.",
+      "authors": [
+        "J. W. S. Hoi",
+        "C. Lamarre",
+        "R. Beau",
+        "I. Meneau",
+        "A. Berepiki",
+        "A. Barre"
+      ]
+    },
+    {
+      "title": "eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses.",
+      "authors": [
+        "J. Huerta-Cepas",
+        "D. Szklarczyk",
+        "D. Heller",
+        "A. Hernández-Plaza",
+        "S. K. Forslund",
+        "H. Cook"
+      ]
+    },
+    {
+      "title": "Isolation of conditional mutations in genes essential for viability of Cryptococcus neoformans.",
+      "authors": [
+        "G. Ianiri",
+        "K. J. Boyce",
+        "A. Idnurm"
+      ]
+    },
+    {
+      "title": "Fungal secondary metabolism — from biochemistry to genomics.",
+      "authors": [
+        "N. P. Keller",
+        "G. Turner",
+        "J. W. Bennett"
+      ]
+    },
+    {
+      "title": "Characterization of Aspergillus fumigatus isolates from air and surfaces of the international space station.",
+      "authors": [
+        "B. P. Knox",
+        "A. Blachowicz",
+        "J. M. Palmer",
+        "J. Romsdahl",
+        "A. Huttenlocher",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "Microbial monitoring of spacecraft and associated environments.",
+      "authors": [
+        "M. T. La Duc",
+        "R. Kern",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Microbial characterization of the Mars Odyssey spacecraft and its encapsulation facility.",
+      "authors": [
+        "M. T. La Duc",
+        "W. Nicholson",
+        "R. Kern",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Pyrosequencing-derived bacterial, archaeal, and fungal diversity of spacecraft hardware destined for Mars.",
+      "authors": [
+        "M. T. La Duc",
+        "P. Vaishampayan",
+        "H. R. Nilsson",
+        "T. Torok",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J. Love",
+        "J. Palmer",
+        "J. Stajich",
+        "T. Esser",
+        "E. Kastman",
+        "D. Winter"
+      ]
+    },
+    {
+      "title": "A new group of exo-acting family 28 glycoside hydrolases of Aspergillus niger that are involved in pectin degradation.",
+      "authors": [
+        "E. S. Martens-Uzunova",
+        "J. S. Zandleven",
+        "J. A. E. Benen",
+        "H. Awad",
+        "H. J. Kools",
+        "G. Beldman"
+      ]
+    },
+    {
+      "title": "Global gene expression analysis of Aspergillus nidulans reveals metabolic shift and transcription suppression under hypoxia.",
+      "authors": [
+        "S. Masuo",
+        "Y. Terabayashi",
+        "M. Shimizu",
+        "T. Fujii",
+        "T. Kitazume",
+        "N. Takaya"
+      ]
+    },
+    {
+      "title": "Temperature and moisture conditions for life in the extreme arid region of the Atacama desert: four years of observations including the El Niño of 1997-1998.",
+      "authors": [
+        "C. P. McKay",
+        "E. I. Friedmann",
+        "B. Gómez-Silva",
+        "L. Cáceres-Villanueva",
+        "D. T. Andersen",
+        "R. Landheim"
+      ]
+    },
+    {
+      "title": "Microorganisms in confined habitats: microbial monitoring and control of intensive care units, operating rooms, cleanrooms and the international space station.",
+      "authors": [
+        "M. Mora",
+        "A. Mahnert",
+        "K. Koskinen",
+        "M. R. Pausan",
+        "L. Oberauner-Wappis",
+        "R. Krause"
+      ]
+    },
+    {
+      "title": "Survival of spacecraft-associated microorganisms under simulated martian UV irradiation.",
+      "authors": [
+        "D. A. Newcombe",
+        "A. C. Schuerger",
+        "J. N. Benardini",
+        "D. Dickinson",
+        "R. Tanner",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Sequencing of Cladosporium sphaerospermum, a dematiaceous fungus isolated from blood culture.",
+      "authors": [
+        "K. P. Ng",
+        "S. M. Yew",
+        "C. L. Chan",
+        "T. S. Soo-Hoo",
+        "S. L. Na",
+        "H. Hassan"
+      ]
+    },
+    {
+      "title": "Transcriptomic responses of germinating Bacillus subtilis spores exposed to 1.5 years of space and simulated martian conditions on the EXPOSE-E experiment PROTECT.",
+      "authors": [
+        "W. L. Nicholson",
+        "R. Moeller",
+        "G. Horneck"
+      ]
+    },
+    {
+      "title": "Genomic sequence of the pathogenic and allergenic filamentous fungus Aspergillus fumigatus.",
+      "authors": [
+        "W. C. Nierman",
+        "A. Pain",
+        "M. J. Anderson",
+        "J. R. Wortman",
+        "H. S. Kim",
+        "J. Arroyo"
+      ]
+    },
+    {
+      "title": "Ability to grow on lipids accounts for the fully virulent phenotype in neutropenic mice of Aspergillus fumigatus null mutants in the key glyoxylate cycle enzymes.",
+      "authors": [
+        "I. Olivas",
+        "M. Royuela",
+        "B. Romero",
+        "M. C. Monteiro",
+        "J. M. Mínguez",
+        "F. Laborda"
+      ]
+    },
+    {
+      "title": "Survival of rock-colonizing organisms after 1.5 years in outer space.",
+      "authors": [
+        "S. Onofri",
+        "R. de la Torre",
+        "J. P. de Vera",
+        "S. Ott",
+        "L. Zucconi",
+        "L. Selbmann"
+      ]
+    },
+    {
+      "title": "Survival of antarctic cryptoendolithic fungi in simulated martian conditions on board the international space station.",
+      "authors": [
+        "S. Onofri",
+        "J.-P. de Vera",
+        "L. Zucconi",
+        "L. Selbmann",
+        "G. Scalzi",
+        "K. J. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Evolution and adaptation of fungi at boundaries of life.",
+      "authors": [
+        "S. Onofri",
+        "L. Selbmann",
+        "G. S. de Hoog",
+        "M. Grube",
+        "D. Barreca",
+        "S. Ruisi"
+      ]
+    },
+    {
+      "title": "Antarctic microfungi as models for exobiology.",
+      "authors": [
+        "S. Onofri",
+        "L. Selbmann",
+        "L. Zucconi",
+        "S. Pagano"
+      ]
+    },
+    {
+      "title": "Effect of shadowing on survival of bacteria under conditions simulating the martian atmosphere and UV radiation.",
+      "authors": [
+        "S. Osman",
+        "Z. Peeters",
+        "M. T. La Duc",
+        "R. Mancinelli",
+        "P. Ehrenfreund",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Responses of the black fungus Cryomyces antarcticus to simulated mars and space conditions on rock analogues.",
+      "authors": [
+        "C. Pacelli",
+        "L. Selbmann",
+        "L. Zucconi",
+        "C. Coleine",
+        "J.-P. de Vera",
+        "E. Rabbow"
+      ]
+    },
+    {
+      "title": "Survival and death of the haloarchaeon Natronorubrum strain HG-1 in a simulated martian environment.",
+      "authors": [
+        "Z. Peeters",
+        "D. Vos",
+        "I. L. ten Kate",
+        "F. Selch",
+        "C. A. van Sluis",
+        "D. Y. Sorokin"
+      ]
+    },
+    {
+      "title": "Characterization of Aspergillus niger Isolated from the international space station.",
+      "authors": [
+        "J. Romsdahl",
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "N. Singh",
+        "J. E. Stajich",
+        "M. Kalkum"
+      ]
+    },
+    {
+      "title": "COSPAR’s planetary protection policy: a consolidated draft.",
+      "authors": [
+        "J. D. Rummel",
+        "P. D. Stabekis",
+        "D. L. Devincenzi",
+        "J. B. Barengoltz"
+      ]
+    },
+    {
+      "title": "LIFE experiment: isolation of cryptoendolithic organisms from Antarctic colonized sandstone exposed to space and simulated Mars conditions on the international space station.",
+      "authors": [
+        "G. Scalzi",
+        "L. Selbmann",
+        "L. Zucconi",
+        "E. Rabbow",
+        "G. Horneck",
+        "P. Albertano"
+      ]
+    },
+    {
+      "title": "Survival of endospores of Bacillus subtilis on spacecraft surfaces under simulated martian environments: implications for the forward contamination of Mars.",
+      "authors": [
+        "A. C. Schuerger",
+        "R. L. Mancinelli",
+        "R. G. Kern",
+        "L. J. Rothschild",
+        "C. P. McKay"
+      ]
+    },
+    {
+      "title": "Rapid inactivation of seven Bacillus spp. under simulated Mars UV irradiation.",
+      "authors": [
+        "A. C. Schuerger",
+        "J. T. Richards",
+        "D. A. Newcombe",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs.",
+      "authors": [
+        "F. A. Simão",
+        "R. M. Waterhouse",
+        "P. Ioannidis",
+        "E. V. Kriventseva",
+        "E. M. Zdobnov"
+      ]
+    },
+    {
+      "title": "Automated generation of heuristics for biological sequence comparison.",
+      "authors": [
+        "G. S. C. Slater",
+        "E. Birney"
+      ]
+    },
+    {
+      "title": "Gene prediction in eukaryotes with a generalized hidden Markov model that uses hints from external sources.",
+      "authors": [
+        "M. Stanke",
+        "O. Schöffmann",
+        "B. Morgenstern",
+        "S. Waack"
+      ]
+    },
+    {
+      "title": "Survival strategies of halophilic oligotrophic and desiccation resistant prokaryotes",
+      "authors": [
+        "H. Stan-Lotter",
+        "S. Fendrihan",
+        "J. Seckbach",
+        "A. Oren",
+        "H. Stan-Lotter"
+      ]
+    },
+    {
+      "title": "The SIB swiss institute of bioinformatics’ resources: focus on curated databases.",
+      "authors": []
+    },
+    {
+      "title": "The COG database: a tool for genome-scale analysis of protein functions and evolution.",
+      "authors": [
+        "R. L. Tatusov",
+        "M. Y. Galperin",
+        "D. A. Natale",
+        "E. V. Koonin"
+      ]
+    },
+    {
+      "title": "Gene prediction in novel fungal genomes using an ab initio algorithm with unsupervised training.",
+      "authors": [
+        "V. Ter-Hovhannisyan",
+        "A. Lomsadze",
+        "Y. O. Chernoff",
+        "M. Borodovsky"
+      ]
+    },
+    {
+      "title": "Proteome profiling and functional classification of intracellular proteins from conidia of the human-pathogenic mold Aspergillus fumigatus.",
+      "authors": [
+        "J. Teutschbein",
+        "D. Albrecht",
+        "M. Pötsch",
+        "R. Guthke",
+        "V. Aimanianda",
+        "C. Clavaud"
+      ]
+    },
+    {
+      "title": "Candidate genes that may be responsible for the unusual resistances exhibited by Bacillus pumilus SAFR-032 Spores.",
+      "authors": [
+        "M. R. Tirumalai",
+        "R. Rastogi",
+        "N. Zamani",
+        "E. O’Bryant Williams",
+        "S. Allen",
+        "F. Diouf"
+      ]
+    },
+    {
+      "title": "Transcriptional profiling identifies a role for BrlA in the response to nitrogen depletion and for StuA in the regulation of secondary metabolite clusters in Aspergillus fumigatus.",
+      "authors": [
+        "K. Twumasi-Boateng",
+        "Y. Yu",
+        "D. Chen",
+        "F. N. Gravelat",
+        "W. C. Nierman",
+        "D. C. Sheppard"
+      ]
+    },
+    {
+      "title": "Survival of Bacillus pumilus spores for a prolonged period of time in real space conditions.",
+      "authors": [
+        "P. A. Vaishampayan",
+        "E. Rabbow",
+        "G. Horneck",
+        "K. J. Venkateswaran"
+      ]
+    },
+    {
+      "title": "A viability-linked metagenomic analysis of cleanroom environments: eukarya, prokaryotes, and viruses.",
+      "authors": [
+        "T. Weinmaier",
+        "A. J. Probst",
+        "M. T. La Duc",
+        "D. Ciobanu",
+        "J.-F. Cheng",
+        "N. Ivanova"
+      ]
+    },
+    {
+      "title": "Protein patterns of black fungi under simulated Mars-like conditions.",
+      "authors": [
+        "K. Zakharova",
+        "G. Marzban",
+        "J.-P. de Vera",
+        "A. Lorek",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "Ionizing radiation attracts soil fungi.",
+      "authors": [
+        "N. N. Zhdanova",
+        "T. Tugay",
+        "J. Dighton",
+        "V. Zheltonozhsky",
+        "P. Mcdermott"
+      ]
+    }
+  ],
+  "original_title": "Proteomic and Metabolomic Characteristics of Extremophilic Fungi Under Simulated Mars Conditions.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/06c4/6529585/3d1d10a2695a/fmicb-10-01013-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/06c4/6529585/df7c248a0553/fmicb-10-01013-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/06c4/6529585/e70e5a9bf9a6/fmicb-10-01013-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/06c4/6529585/7c1caf9a469e/fmicb-10-01013-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/06c4/6529585/6e4c60e064c3/fmicb-10-01013-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/06c4/6529585/a064dff143d2/fmicb-10-01013-g006.jpg"
+  ]
+}

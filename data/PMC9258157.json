@@ -1,0 +1,537 @@
+{
+  "pmcid": "PMC9258157",
+  "title": "Metabolic modeling of the International Space Station microbiome reveals key microbial interactions",
+  "abstract": "Background\n\nRecent studies have provided insights into the persistence and succession of microbes aboard the International Space Station (ISS), notably the dominance of Klebsiella pneumoniae. However, the interactions between the various microbes aboard the ISS and how they shape the microbiome remain to be clearly understood. In this study, we apply a computational approach to predict possible metabolic interactions in the ISS microbiome and shed further light on its organization.\n\nResults\n\nThrough a combination of a systems-based graph-theoretical approach, and a constraint-based community metabolic modeling approach, we demonstrated several key interactions in the ISS microbiome. These complementary approaches provided insights into the metabolic interactions and dependencies present amongst various microbes in a community, highlighting key interactions and keystone species. Our results showed that the presence of K. pneumoniae is beneficial to many other microorganisms it coexists with, notably those from the Pantoea genus. Species belonging to the Enterobacteriaceae family were often found to be the most beneficial for the survival of other microorganisms in the ISS microbiome. However, K. pneumoniae was found to exhibit parasitic and amensalistic interactions with Aspergillus and Penicillium species, respectively. To prove this metabolic prediction, K. pneumoniae and Aspergillus fumigatus were co-cultured under normal and simulated microgravity, where K. pneumoniae cells showed parasitic characteristics to the fungus. The electron micrography revealed that the presence of K. pneumoniae compromised the morphology of fungal conidia and degenerated its biofilm-forming structures.\n\nConclusion\n\nOur study underscores the importance of K. pneumoniae in the ISS, and its potential positive and negative interactions with other microbes, including potential pathogens. This integrated modeling approach, combined with experiments, demonstrates the potential for understanding the organization of other such microbiomes, unravelling key organisms and their interdependencies.\n\nVideo Abstract\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1186/s40168-022-01279-y.",
+  "introduction": "Background\n\nMicroorganisms are ubiquitous and exist in diverse communities around us. They form complex dynamic assemblages in every ecosystem, and their interactions shape the biotic and abiotic environments. Beyond natural environments such as the soil or the ocean, microorganisms abound in all human habitats, where they directly impact human health. The human-made International Space Station (ISS) is a unique and controlled system to study the interplay between the human microbiome and the microbiome of their habitats. The ISS is a hermetically sealed closed system, yet it harbors many microorganisms that survive extreme environmental conditions such as microgravity, radiation and elevated CO2 levels. Recent studies have demonstrated the unique link between crew member microbiomes and surface microbiomes on the ISS. These microorganisms might have been brought into the ISS via routine payloads and astronauts.\n\nSeveral studies have focused on microbial isolation and molecular microbial community analyses of the ISS microbiome, through experiments performed on vacuum filter debris, high-efficiency particle arrestance (HEPA) filters, the ISS environmental surfaces and astronauts’ microbiome. A recent report using a shotgun metagenomic sequencing approach on intact cells of the ISS environmental microbiome revealed the succession and persistence of certain microbial populations on the ISS environmental surfaces. The study posited a dominant, viable presence of Biosafety Level – 2 (BSL-2) pathogens such as Klebsiella pneumoniae, Staphylococcus aureus, Enterococcus faecalis and Salmonella enterica (Figure S1).\n\nK. pneumoniae is well-known for its ability to cause pneumonia and other nosocomial infections and is largely studied for its known resistance to a wide spectrum of antibiotics, such as carbapenems, and its hypervirulence. The present study is motivated by the evidence presented about the dominance of K. pneumoniae at multiple locations of the ISS, its succession over time, and the potential clinical implications it could have on the health of the astronauts inhabiting the ISS.\n\nMetabolic interactions are a key driver in shaping microbial communities. Studying these metabolic interactions can be instrumental in understanding the interplay between various microorganisms in diverse communities. Genome-scale metabolic modeling is a powerful tool to study and understand microbial metabolism. These modeling approaches capture in detail, the known metabolic reactions happening in a microorganism, along with the enzymes that catalyze them, representing them in a mathematical form amenable to simulations. Beyond single microorganisms, metabolic modeling can also be extended to study microbial communities; many paradigms have been developed, including those based on graph theory, and constraint-based modeling, as reviewed elsewhere.\n\nIn this study, we leverage the metagenome datasets that have captured the microbial composition of the ISS surfaces to specifically predict how various species in these communities can influence one another’s metabolism, leading to mutually beneficial interactions and stable microbiomes. In particular, we focus our study on K. pneumoniae and its coexisting species, to elucidate the possible underlying metabolic interactions that drive the structure of these communities. Through a combination of a systems-based graph-theoretical approach, MetQuest, and a constraint-based community modeling approach, SteadyCom, we illustrate the central role of metabolic interactions and dependencies in shaping the ISS microbiome.",
+  "methods": "Methodology\n\nIn this study, a two-pronged computational approach was adopted to investigate and decipher the prevailing microbial interactions in the ISS. In the first graph-based approach, bipartite graphs were created to represent the metabolic networks of microorganisms taken individually, as well as when in pairs or larger communities. The metabolic networks underlying the organisms were represented as bipartite graphs, where two groups of nodes represent metabolites and reactions, and directed edges connect substrates to reactions and reactions to products. These networks were used to identify possible metabolic dependencies between different microorganisms. In the second constraint-based approach, microbial growth rates were predicted, individually and in communities, to gauge the nature of their interactions, as we describe in the following sections. Figure 1 shows a broad overview of the approach of this study, outlining the steps beginning with the identification of microorganisms coexisting with K. pneumoniae to various metabolic network analyses.\n\nData\n\nMicrobial abundances associated with samples taken across three flights at eight ISS locations were previously measured using metagenomic sequencing. Among eight locations, only seven locations yielded measurable metagenomics data. In the present study, the data were further pruned such that only shotgun metagenome sequences associated with propidium monoazide (PMA)-treated samples that recorded a presence of K. pneumoniae were retained. The PMA-treatment removed naked DNA and dead cells, thus retaining sequences associated with viable and intact cells only. Further, only microorganisms that were found to coexist with K. pneumoniae with >1% relative abundance at the location were used in this study.\n\nFor this study, the available whole-genome sequences (WGS) of microorganisms from the ISS, which were compatible with KBase along with reference genomes for the relevant microorganisms taken from the NCBI database, were collected. The RefSeq and GenBank accession identification numbers, along with the underlying reasoning for the choice of these sequences, are provided in Supplementary Table S1. Although the relative abundance of Pantoea sp. PSNIH2 was >1% in some of the locations considered in this study, as its reference genome sequence was removed from the NCBI database, at the time of this study, this microorganism therefore had to be excluded. Metabolic models were constructed for the 52 microorganisms using ModelSEED. The detailed process is elaborated in Supplementary Methods M1. The details of the reconstructions, templates and information about reaction counts are specified in Supplementary Table S2.\n\nPredicting metabolic dependencies in the community\n\nTo investigate the microbial interactions underlying the chosen microbial communities of the ISS, MetQuest, a graph-theoretic algorithm was first employed. Through a novel dynamic-programming-based enumeration, MetQuest assembles reactions into pathways of a specified size producing a given target from a specified set of source molecules (‘seed'). Through a guided breadth-first search, MetQuest can identify all the metabolites that can be traversed from a set of seed metabolites. This functionality was exploited in this study as previously published. Using this algorithm, the present study presents a top-down view of metabolic dependencies in these communities, beginning with predicting the most supportive families, then the most dependent genera, and finally the beneficial and dependent microorganisms by looking at pairs of potentially interacting microorganisms. In each scenario, the extent of benefit derived was calculated using a measure known as the Metabolic Support Index (MSI). This was also extended to measure the possible support an organism derives from (or provides to) a community where it is present, denoted Community Support Index (CSI).\n\nThe composition of the seed metabolites was chosen so as to incorporate the co-factors and coenzymes that would be present in the environment and required by a living cell, and capture the minimal nutrient content offered by the ISS. The minimal medium of each metabolic model was identified by minimizing the components required to achieve a minimum growth rate of 0.1 h-1, using built-in functions in COBRApy, namely minimal_medium from the cobra.medium module. This approach was adopted on the premise that each microorganism is capable of individual growth. For each location at each flight, the minimal medium sets corresponding to each constituent microorganism were pooled together to form a consolidated medium. Additionally, a base set of co-factors and coenzymes were added to each of these sets. The same medium was used for both the graph-based and constraint-based analyses. Supplementary Table S3 contains the list of all such metabolites.\n\nPairwise interactions\n\nFor a pair of microorganisms, A and B, MSI is calculated as follows:\n\nHere, nstuck, A ∣ A ∪ B refers to the number of stuck reactions in A, when present in the community alongside B, while nstuck, A ∣ A refers to the number of stuck reactions in A, when it is present in isolation. Individual bipartite graphs were constructed (n = 52), and the stuck reactions were first determined for every individual microorganism in the dataset, using the MetQuest algorithm as described above, which provided insight into the intrinsic metabolic capabilities of each individual microorganism. Following this, for every pair of coexisting microorganisms that may potentially interact, bipartite graphs were constructed for the two-member community (n = 426), and the stuck reactions were determined for each constituent member of each community, in a flight-location-specific approach (n = 761), to derive the effect of its partner by virtue of being in this community, through the calculation of the MSI.\n\nBuilding further on these interactions, as captured by the MSIs between various microbial pairs, microbial association networks were constructed and visualized using Cytoscape. These networks capture the extent to which a microorganism is able to relieve the stuck reactions of another through metabolic exchanges.\n\nHigher-order interactions\n\nThe enhancement of metabolic capabilities rendered by a microorganism(s) by virtue of it thriving in a community was derived from the MSI, here referred to as the community support index (CSI). The CSI, denoted  throughout this manuscript, was calculated as the fraction of reactions relieved in the rest of the community over the reactions ‘stuck’ in the same in the presence of the microorganism. For a community X and an inhabitant microorganism, or family of microorganisms, A, the effect of A on the rest of the community  = (X − A), where  denotes the rest of the community X devoid of microorganism/family A, is computed as follows:\n\nHere,  refers to the number of stuck reactions in the community X without microorganism A for the given set of seed metabolites. A reaction is considered stuck when it does not have the necessary precursors for the reaction to happen. In other words, these are reactions that cannot occur under the present conditions, without extraneous help in terms of other metabolites from other microorganism(s), or the environment itself. Similarly,  refers to the number of reactions in  that remain stuck, even in the presence of A. We consider only internal reactions (as against transport or extracellular reactions) while computing these numbers.\n\nFor each of the sites considered in this study, bipartite graphs were first constructed (n = 129) for communities devoid of one constituent microorganism, and their respective stuck reactions were determined in the appropriate environment (i.e., the seed metabolites described above and listed in Supplementary Table S3). This approach provided insight into the intrinsic metabolic capabilities of each community devoid of that microorganism. Following this, a total 11 bipartite graphs were constructed, taking into consideration all inhabitant microorganisms of a particular site. The stuck reactions were determined for each community to gather the effect of the interactions by calculating the . A  of unity indicates that A completely supports  and relieves all its stuck reactions, whereas a value of zero indicates that A has no effect on .\n\nMicroorganisms could potentially be metabolically similar, and therefore redundant to the community, offering little or no metabolic support individually. Therefore, microbial interactions were also studied by grouping them by their respective families (n = 7), at each location. The metabolic support provided by groups of microorganisms (e.g., a family) can be readily computed by replacing A in X − A with the set of microorganisms comprising the family in Eq. (1).\n\nIt is also possible to estimate the community benefit, in terms of enhancement of metabolic capabilities, an individual microorganism might receive by virtue of it thriving in a community. Here, the CSI, denoted , was calculated as the fraction of reactions relieved in the microorganism when in a community assemblage over the reactions stuck in the individual. For a community X and an inhabitant microorganism A, the effect of the rest of the community  on A is computed as follows:\n\nThe  thus captures the ‘benefit’ a microorganism or a group of microorganisms receives from another microorganism or group, by virtue of its stuck reactions being relieved via metabolic exchanges with its coexisting microorganisms. For clarity, all CSIs and MSIs have been represented as percentages.\n\nDetermining the nature of interactions\n\nMicrobial interactions have major relevance in building and shaping the community. Based on the effects a microorganism has on another, the interactions can be categorized into six types, namely amensalism, commensalism, competition, neutralism, mutualism and parasitism. The present study reports a constraint-based community modeling study using the algorithm, SteadyCom.\n\nSteadyCom was employed to determine the biomass production rates of all microorganisms that are a part of a community under steady state. The seed metabolites described earlier, in the network-based approach were used here as the medium (see Supplementary Table S3). The lower bounds of the exchange reactions for the uptake of these metabolites were constrained to −10 mmol/gDW-h. Joint models were then created for all pairs of microorganisms that can potentially interact by virtue of being at the location at that point in time. These joint models were optimized using SteadyCom to find the individual biomass rates when existing as a community.\n\nThe growth rate observed for each microorganism in community was compared with that observed for the individual microorganism. A 10% or higher increase or decrease in growth rate, when in a community, was taken to be a significant effect. The interactions were accordingly classified into the types listed above. The equation defined below was used to determine the effect of microorganism B on A, in a two-membered community constituting A and B. where vbio, AB is the community biomass production rate of AB and vbio, A is the biomass production rate of A.\n\nDepending on the value (positive [+], negative [−], or neutral [0]) obtained, the interaction was classified as mutualism (the effect of B on A, and the effect of A on B, both being positive, i.e., +, +), neutralism (effects on each other being not significant, denoted 0,0), competition (a negative effect on each other, denoted by −,−), amensalism (−,0 and 0,−), commensalism (0,+ and +,0), and parasitism (−,+ and +,−).\n\nK. pneumoniae and A. fumigatus interactions\n\nOvernight grown cultures of K. pneumoniae (106 cells per 100 μL) and purified conidia of A. fumigatus (106 per 100 μL) were either mixed or grown alone in a 10-mL sterile potato extract (0.4%; w/v) dextrose (2%; w/v) liquid medium and grown under normal and simulated microgravity conditions using high aspect ratio vessel (HARV; Synthecon inc., Houston, TX) culturing units. The autoclavable HARVs provided oxygenation to the culture media via their large-diameter gas permeable membrane. The HARVs with microbes were incubated at 30 °C; 150 rpm, for 48 h. HARVs were run in parallel in both horizontal rotation (normal gravity control) and vertical rotation (simulated microgravity) orientation during growth. After growth, the bacterial and fungal cells were harvested, then fixed by incubating the cells in 2.5% glutaraldehyde in 0.1M Sodium Cacodylate (Sigma) buffer at 4 °C for 1 h for scanning electron microscopy (SEM) study. Samples were then washed in 0.1M sodium cacodylate buffer three times. Fixed cells were then dehydrated in isopropyl alcohol (IPA, Sigma), using a stepped series of increasing concentrations (50%, 70%, 80%, 90%, 95 to 100%). Each step consisted of a 10-min incubation at 4 °C, followed by 3 x replacements with 100% IPA, and finally stored at 4 °C. Samples were critically point dried in an Automegasamdri 915B critical point dryer (Tousimis, Rockville, MD). Samples were attached in SEM stubs with carbon tape (Ted Pella Inc., Redding, CA), followed by carbon coating with a Leica EM ACE600 Carbon Evaporator (Leica, Wetzlar, Germany) to a thickness of ~12nm. SEM analysis was performed with an FEI Quanta 200F (Thermo Fisher, Waltham, MA).\n\nAvailability of data and materials\n\nThe metagenomic sequence data used in this study can be found under NCBI Short Read Archive (SRA) under the bio-project number PRJNA438545 and GeneLab dataset GLDS-69 (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-69/). The genome-scale metabolic network reconstructions, the seed metabolites, and the codes used in this study, have been provided at https://github.com/RamanLab/Metabolic-Modelling-of-the-ISS-Microbiome.\n\nDeclarations\n\nEthics approval and consent to participate\n\nNo human subjects were analyzed and only environmental samples were collected.\n\nConsent for publication\n\nAll authors participated in this study and given their consent for publishing the results.",
+  "results": "Results\n\nData acquisition and genome-scale metabolic network reconstruction\n\nAccording to the data published by Singh et al. 2018, among the PMA-treated samples, reads of K. pneumoniae were detected in a total of 11 sites—locations #1, #2, and #5 in Flight 1; location #5 in Flight 2; and locations #1, #2, #3, #4, #5, #7, and #8 in Flight 3 (Fig. 2). The relative abundances of microorganisms were calculated at the respective sites, and upon further pruning of this data to include solely those with >1% abundance, a total of 50 different strains of microorganisms that coexist with K. pneumoniae at varied locations and time points were chosen for further study.\n\nAnalysis of the diversity of these microorganisms at each of these locations over time (Fig. 2) reveals the following trends. In Flight 1, among the three locations that were colonized by K. pneumoniae, there was an observed dominance of fungi in location #1, Enterobacteriaceae in location #3, and Erwiniaceae in location #5. In Flight 2, K. pneumoniae was documented to be present only in location #5, coexisting with extant and dominant Erwiniaceae, a member from the Enterobacteriaceae family and another from the Paenibacilleae family. In Flight 3 however, K. pneumoniae spread across the ISS, inhabiting nearly all sampled locations. Additionally, many more members of Erwiniaceae, specifically the Pantoea genus, emerged into view at a majority of these locations, as shown in Fig. 2. Further, with the exception of A. niger and Rhodoturula sp. strain JG-1b, all fungi considered in the dataset appear to be concentrated in location #3. Location #3 is also dominated by a large number of Staphylococcaceae. The list of microorganisms, along with their relative abundances at each location in each flight, is provided in Supplementary Table S4.\n\nEnterobacteriaceae are pivotal contributors to community metabolism\n\nThrough a ‘leave-one-out’ approach, microorganisms were knocked out one at a time from the community to estimate the extent of benefit provided by that single microorganism to the remaining coexisting microorganisms. From the analysis, it was evident that some microorganisms do have an influence on the metabolic capabilities on the rest of the community, albeit low in most cases. Notable among these, were P. rubens at location #3 during Flight 3 ( = 1.15%), and at locations #2 ( = 0.40%) and #5 ( = 0.36%) during Flight 1, and K. oxytoca at location #2 in Flight 1 ( = 0.49%) (Supplementary Table S5 and Supplementary Figure S2).\n\nThese low values of  are expected, given the possible high metabolic overlap between members within a community, thereby rendering individual organisms less important to a community. To examine this, we grouped organisms based on their phylogenetic affiliation, and removed these groups, one at a time, from the community, to study the importance of a given family to the community.\n\nOverall, with respect to the locations considered in this study, the Enterobacteriaceae family comprising species of the Klebsiella, Escherichia, Salmonella, Shigella, and Enterobacter genera, was often found to be the most beneficial of all clusters, with the highest s in six out of a total eleven communities under study (Fig. 3 and Supplementary Table S6), five of which were in Flight 3. With regards to the remaining five communities, Trichocomaceae have the highest s at locations #2 and #5 during Flight 1, Erwiniaceae have the highest s at location #1 in Flight 3 and at location #5 during Flight 2, and Paenibacillaceae has the highest  at location #2 in Flight 3. Here, A refers to the family of microorganisms that provides metabolic support.\n\nPantoea species thrive in the support of the microbiome\n\nThe of an individual microorganism in the presence of its coexisting microorganisms was calculated to gain insight into the combined effect of the community on an individual. The values of Pantoea were found to be among the highest (Supplementary Table S7 and Fig. 4), indicating that these species are benefitted to a comparatively greater extent from the remaining members of the community. Across all locations and flights in the dataset, the  values of these species ranged between 0 and 6.52%, wherein the values at the lower end were predominantly observed in those Pantoea species found at location #1 in Flight 3. P. vagans was found to exhibit the highest dependency amongst all the Pantoea, at location #5 in Flight 2 (Fig. 4).\n\nWith the exception of E. coli and S. enterica, the values of other Enterobacteriaceae fell in the range of 0–0.91%, suggesting an overall lower dependence of members of the Enterobacteriaceae on their coexisting microorganisms (Fig. 4). K. pneumoniae showed no dependency ( = 0%) in six out of the 11 locations that they were found. In addition, S. enterica exhibited the highest community dependence amongst all microorganisms in consideration, with a  = 8.79% at location #3 during Flight 3, and along with E. coli, showed high  values (Fig. 4).\n\nAnalysis across the three flights at location #5 reveals that four out of five organisms present at all instances are benefitted to a lesser extent in Flight 1 compared to Flights 2 and 3 (Fig. 4 and Supplementary Table S7).\n\nK. pneumoniae are beneficial to its coexisting microorganisms\n\nIn every community, microorganisms exchange metabolites, influencing one another’s growth and survival. We performed a pairwise analysis of a total of 761 flight-location-specific communities to identify how every pair of microorganisms interacts with one another, at a given location, during a given flight, and through various metabolic exchanges support each other.\n\nIn communities with K. pneumoniae and a member outside of the Enterobacteriaceae, the MSI values in the presence of K. pneumoniae were found to fall in the range of 0–6.46%. Most Pantoea species were found to be highly dependent on K. pneumoniae, with MSIs at the higher end (4.41–6.46%) of the spectrum (Supplementary Table S8). With the exception of E. coli and S. enterica, the MSI values of all other Enterobacteriaceae members were found to be 0% in the presence of K. pneumoniae (Supplementary Figures S3 and S4). Out of 118 pairs, K. pneumoniae was found to have a non-zero MSI value in only nine such pairs. In these nine pairs, the other interacting member belonged to a species of the Penicillium genus.\n\nSince K. pneumoniae was present across the three flights only at location #5, the corresponding microbial association networks were constructed to gain insights into microbial interaction patterns over time (Fig. 5). In Flight 1, fungi such as P. rubens and Rhodotorula sp. JG-1b are prevalent and shown to decline in abundance over time (Flight 2 and Flight 3). On the contrary, members of the Panteoa genus were observed to dominate this location over time, with many more Pantoea species surfacing. In agreement with earlier results discussed, many species of the Enterobacteriaceae family shown here such as K. pneumoniae and E. cloacae, were beneficial to members of the Erwiniacea family to a great extent (Fig. 5).\n\nConstraint-based modeling suggests the domination of amensalistic and parasitic interactions\n\nThe graph-theoretic approaches described earlier do not explicitly account for the growth of microorganisms in the presence of one another or their rates, although a higher MSI does point towards a possible higher biomass in the community. Complementary to the above approaches, constraint-based modeling approaches such as SteadyCom can shed light on the ability of microorganisms to grow in a steady-state. Based on these predicted growth rates, it is also possible to classify the nature of the interaction between various pairs of microorganisms.\n\nA total of 761 flight-location-specific pairs of microorganisms were studied. Among these, 458 pairs exhibited amensalism and 166 were predicted to be parasitism. Of the remaining, 48 were commensal, 36 were competitive, 34 were mutualistic and 19 were neutral.\n\nLooking closely into the nature of interactions of K. pneumoniae and its coexisting microorganisms, in 118 such pairs, 72 were predicted to be amensal, 14 commensal, 13 involved in competition, 10 were parasitic interactions, seven were mutual and two were neutral. In communities with the Enterobacter species, K. pneumoniae was involved in amensalistic interactions as observed across all such flight-location pairs. While in the interactions with E. cancerogenus and Enterobacter sp. strain NFIX59, the growth rate of K. pneumoniae was predicted to decrease, in the interactions with all other Enterobacter species, there was no significant effect on the predicted growth rate of K. pneumoniae.\n\nIn eight out of nine flight-location-specific communities of K. pneumoniae with E. coli, E. coli was predicted to have no significant change in growth rate while that of K. pneumoniae was predicted to decrease, suggesting an amensalistic interaction. Further, in Flight 3, at location #3, E. coli was predicted to be parasitic towards K. pneumoniae. In the interactions with S. enterica, in four out of the six locations, the growth rate of K. pneumoniae was decreased in its presence, whereas that of S. enterica was increased, resulting in a parasitic interaction. This is in accordance with the previously observed high MSI values at locations #3, #5, #7, and #8 during Flight 3. In the other cases during Flight 1 at location #2 and Flight 3 at location #1, the interaction was predicted to be amensalistic, wherein the growth rate of K. pneumoniae was reduced.\n\nWith other Klebsiella species, the interactions were predicted to be predominantly amensalistic, with the growth rate of K. pneumoniae reduced, except in the interaction with Klebsiella sp. strain MS 92-3, where the reverse was observed. K. pneumoniae was predicted to be parasitic towards K. aerogenes strain IIIF7SW-P1.\n\nThe interactions with Pantoea species, such as P. agglomerans, P. conspicua, Pantoea sp. strain 3.5.1, Pantoea sp. strain A4, Pantoea sp. strain At-9b, Pantoea sp. strain FF5, Pantoea sp. strain NGS-ED-1003, Pantoea sp. strain OXWO6B1 and P. vagans, were amensalistic with a decreased growth rate of the Pantoea species, in all cases except in Flight 3 at location #1, where the interactions were predicted to be competitive. Interactions with P. ananatis however were found to be commensal, with an observed increased growth rate. P. dispersa and Pantoea sp. strain IMH were found to compete with K. pneumoniae at their coexisting locations (Fig. 6 and Supplementary Table S9).\n\nStaphylococcus sp. in Flight 3 at location #2 were found to be mutualistic with K. pneumoniae strain F3-2P(2*), with the exception of S. saprophyticus that was observed to be involved in commensalism. During Flight 3, location #3 however, this interaction of S. saprophyticus with K. pneumoniae was predicted as mutualistic (Supplementary Table S9). This observed change in the nature of interactions may perhaps be attributed to the differences in the simulated medium compositions at the different locations.\n\nThe interactions of K. pneumoniae with A. niger were observed to be parasitic, with an observed decreased growth rate of A. niger and an increased growth rate of K. pneumoniae. With Penicillium species, K. pneumoniae had an amensalistic effect on them, resulting in their decreased growth rates. The interactions with Rhodotorula sp. strain JG-1b were found to depend on the flight and location in which they coexisted. During Flight 1, at location #1, an increased growth rate was observed in Rhodotorula sp. strain JG-1b, whereas there was no significant effect on that of K. pneumoniae, thereby suggesting a commensal interaction. In locations #2 and #5, however, a neutral interaction was predicted, with no significant change in growth rates of either species. In Flight 3, K. pneumoniae was observed to be amensalistic towards Rhodotorula sp. strain JG-1b at location #1 and commensal at location #2. K. pneumoniae increased the growth rate of R. toruloides in Flight 1 at location #1 (Fig. 6 and Supplementary Table S9). Details regarding the nature of interactions of other microorganisms in the community have been delineated in Supplementary Table S9.\n\nDetrimental effect of K. pneumoniae on Aspergillus fumigatus\n\nThe parasitic interactions of K. pneumoniae on A. niger were observed using various microscopic techniques (data not shown). Since A. niger is not a pathogenic bacterium, we extensively characterized an ISS isolated A. fumigatus, a BSL-2 bacterium, to understand the detrimental effect of K. pneumoniae. The scanning electron micrographs confirmed the parasitic effect of K. pneumoniae over A. fumigatus (Fig. 7). Under normal gravity conditions, A. fumigatus was found to be healthy where conidiophore holding vesicle with healthy metulae and phialides harboring conidia were noticed (Fig. 7A), whereas simulated microgravity affected the phialides structure (Fig. 7C) and subsequently conidia-forming cells were not clearly visible. When K. pneumoniae was co-cultured with the fungus, under normal gravity conditions, the bacterial cells (artificially colored in red) were shown to destroy the conidia-forming cells and also partially degraded metulae and phialides (Fig. 7B).\n\nFurthermore, when K. pneumoniae cells were grown with the fungus and incubated in simulated microgravity conditions, bacterial cells destroyed the fungal structure where only vesicle was seen along with the conidia and phialides, additionally the metulae were disformed and the hyphae (Fig. 7D) appeared to be disfigured compared to those seen in Fig. 7A or B. When co-cultured, the hyphae of A. fumigatus appeared to be healthy when grown under normal gravity (Fig. 7B) and mostly dead when exposed to the simulated microgravity (Fig. 7D). The number of conidia were also less and on top of the conidia-forming cells the fungal morphological architecture changed. These changes were more obvious in microcosm where both K. pneumoniae and A. fumigatus were co-cultured and exposed to the simulated microgravity (Fig. 7D) than in the setup that were not exposed to simulated microgravity (Fig. 7B). Interpretation of image data was based on careful analysis of multiple images (n = 100), not only on a single micrograph of each test condition.\n\nAdditional SEM images (n = 4 to 6) per condition are provided in Supplementary Figure S5A to S5D. The mixed nature of the microorganisms (bacteria/fungi), the high magnification necessary to resolve the smaller-sized bacterium (creating narrow field of view) and large morphology (mycelium, and conidiophore/conidia) of the fungus combined to prevent adequate SEM observations that would be necessary to reasonably quantify the cells. Thus, statistical analysis was not possible using the SEM approach. This visualization approach demonstrates that K. pneumoniae in combination with simulated microgravity negatively influenced the growth of the fungi. Both these bacterial and fungal strains were isolated from ISS and potential detrimental effect of K. pneumoniae as predicted by the metabolic model during this study was experimentally demonstrated, confirming the degeneration of A. fumigatus morphological architecture. In addition to these morphological modifications, K. pneumoniae also reduced the biofilm forming capability of the fungus when grown together (Supplementary Figure S6).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Microbial communities",
+    "Space microbiome",
+    "Community modeling",
+    "Network biology",
+    "Metabolic networks",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Functional and phylogenetic assembly of microbial communities in the human microbiome",
+      "authors": [
+        "A Shafquat",
+        "R Joice",
+        "SL Simmons",
+        "C Huttenhower"
+      ]
+    },
+    {
+      "title": "The importance of the microbiome of the plant holobiont",
+      "authors": [
+        "P Vandenkoornhuyse",
+        "A Quaiser",
+        "M Duhamel",
+        "A le Van",
+        "A Dufresne"
+      ]
+    },
+    {
+      "title": "What is microbial community ecology",
+      "authors": [
+        "A Konopka"
+      ]
+    },
+    {
+      "title": "National Academies of Sciences, Eengineering, and Medicine. Microbiomes of the Built Environment: A Research Agenda for Indoor Microbiology, Human Health, and Buildings. Washington, DC: The National Academies Press; 2017.",
+      "authors": []
+    },
+    {
+      "title": "Methylobacterium ajmalii sp. nov., isolated from the international space station",
+      "authors": [
+        "S Bijlani",
+        "NK Singh",
+        "VVR Eedara",
+        "AR Podile",
+        "CE Mason",
+        "CCC Wang"
+      ]
+    },
+    {
+      "title": "Correction to: metagenome to phenome approach enables isolation and genomics characterization of Kalamiella piersonii gen. nov., sp. nov. from the International Space Station",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "SS Mhatre",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Solibacillus kalamii sp. nov., isolated from a high-efficiency particulate arrestance filter system used in the International Space Station",
+      "authors": [
+        "A Checinska Sielaff",
+        "RM Kumar",
+        "D Pal",
+        "S Mayilraj",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood"
+      ]
+    },
+    {
+      "title": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces",
+      "authors": [
+        "A Avila-Herrera",
+        "J Thissen",
+        "C Urbaniak",
+        "NA Be",
+        "DJ Smith",
+        "F Karouia"
+      ]
+    },
+    {
+      "title": "Microbial characterization during the early habitation of the international space station",
+      "authors": [
+        "VA Castro",
+        "AN Thrasher",
+        "M Healy",
+        "CM Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "International Space Station environmental microbiome - microbial inventories of ISS filter debris",
+      "authors": [
+        "K Venkateswaran",
+        "P Vaishampayan",
+        "J Cisneros",
+        "DL Pierson",
+        "SO Rogers",
+        "J Perry"
+      ]
+    },
+    {
+      "title": "Whole metagenome profiles of particulates collected from the International Space Station",
+      "authors": [
+        "NA Be",
+        "A Avila-Herrera",
+        "JE Allen",
+        "N Singh",
+        "A Checinska Sielaff",
+        "C Jaing"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+      "authors": [
+        "A Checinska",
+        "AJ Probst",
+        "P Vaishampayan",
+        "JR White",
+        "D Kumar",
+        "VG Stepanov"
+      ]
+    },
+    {
+      "title": "Correction: a microbial survey of the International Space Station (ISS)",
+      "authors": [
+        "JM Lang",
+        "DA Coil",
+        "RY Neches",
+        "WE Brown",
+        "D Cavalier",
+        "M Severance"
+      ]
+    },
+    {
+      "title": "Correction to: Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "F Karouia",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Population genomics of Klebsiella pneumoniae",
+      "authors": [
+        "KL Wyres",
+        "MMC Lam",
+        "KE Holt"
+      ]
+    },
+    {
+      "title": "Epidemiology and Virulence of Klebsiella pneumoniae",
+      "authors": [
+        "S Clegg",
+        "CN Murphy"
+      ]
+    },
+    {
+      "title": "Clinical relevance of the ESKAPE pathogens",
+      "authors": [
+        "JN Pendleton",
+        "SP Gorman",
+        "BF Gilmore"
+      ]
+    },
+    {
+      "title": "as nosocomial pathogens: epidemiology, taxonomy, typing methods, and pathogenicity factors",
+      "authors": [
+        "R Podschun",
+        "U Ullmann",
+        "Klebsiella spp."
+      ]
+    },
+    {
+      "title": "Klebsiella pneumoniae infection biology: living to counteract host defences",
+      "authors": [
+        "JA Bengoechea",
+        "PJ Sa"
+      ]
+    },
+    {
+      "title": "Metabolic interactions in microbial communities: untangling the Gordian knot",
+      "authors": [
+        "O Ponomarova",
+        "KR Patil"
+      ]
+    },
+    {
+      "title": "Understanding the interactions between bacteria in the human gut through metabolic modeling",
+      "authors": [
+        "S Shoaie",
+        "F Karlsson",
+        "A Mardinoglu",
+        "I Nookaew",
+        "S Bordel",
+        "J Nielsen"
+      ]
+    },
+    {
+      "title": "Metabolic dependencies drive species co-occurrence in diverse microbial communities",
+      "authors": [
+        "A Zelezniak",
+        "S Andrejev",
+        "O Ponomarova",
+        "DR Mende",
+        "P Bork",
+        "KR Patil"
+      ]
+    },
+    {
+      "title": "Designing metabolic division of labor in microbial communities",
+      "authors": [
+        "M Thommes",
+        "T Wang",
+        "Q Zhao",
+        "IC Paschalidis",
+        "D Segrè"
+      ]
+    },
+    {
+      "title": "Basic and applied uses of genome-scale metabolic network reconstructions of Escherichia coli",
+      "authors": [
+        "D McCloskey",
+        "BØ Palsson",
+        "AM Feist"
+      ]
+    },
+    {
+      "title": "A protocol for generating a high-quality genome-scale metabolic reconstruction",
+      "authors": [
+        "I Thiele",
+        "B Palsson"
+      ]
+    },
+    {
+      "title": "Modeling approaches for studying the microbiome",
+      "authors": [
+        "M Kumar",
+        "B Ji",
+        "K Zengler",
+        "J Nielsen"
+      ]
+    },
+    {
+      "title": "Ravikrishnan A, Raman K. Systems-level modeling of microbial communities. Boca Raton: CRC Press; 2018.",
+      "authors": []
+    },
+    {
+      "title": "Enumerating all possible biosynthetic pathways in metabolic networks",
+      "authors": [
+        "A Ravikrishnan",
+        "M Nasre",
+        "K Raman"
+      ]
+    },
+    {
+      "title": "Investigating metabolic interactions in a microbial co-culture through integrated modeling and experiments",
+      "authors": [
+        "A Ravikrishnan",
+        "LM Blank",
+        "S Srivastava",
+        "K Raman"
+      ]
+    },
+    {
+      "title": "SteadyCom: predicting microbial abundances while ensuring community stability",
+      "authors": [
+        "SHJ Chan",
+        "MN Simons",
+        "CD Maranas"
+      ]
+    },
+    {
+      "title": "New perspectives on viable microbial communities in low-biomass cleanroom environments",
+      "authors": [
+        "P Vaishampayan",
+        "AJ Probst",
+        "MT la Duc",
+        "E Bargoma",
+        "JN Benardini",
+        "GL Andersen"
+      ]
+    },
+    {
+      "title": "KBase: The United States department of energy systems biology knowledgebase",
+      "authors": [
+        "AP Arkin",
+        "RW Cottingham",
+        "CS Henry",
+        "NL Harris",
+        "RL Stevens",
+        "S Maslov"
+      ]
+    },
+    {
+      "title": "High-throughput generation, optimization and analysis of genome-scale metabolic models",
+      "authors": [
+        "CS Henry",
+        "M Dejongh",
+        "AA Best",
+        "PM Frybarger",
+        "B Linsay",
+        "RL Stevens"
+      ]
+    },
+    {
+      "title": "COBRApy: constraints-based reconstruction and analysis for Python",
+      "authors": [
+        "A Ebrahim",
+        "JA Lerman",
+        "BO Palsson",
+        "DR Hyduke"
+      ]
+    },
+    {
+      "title": "Cytoscape: a software environment for integrated models of biomolecular interaction networks",
+      "authors": [
+        "P Shannon",
+        "A Markiel",
+        "O Ozier",
+        "NS Baliga",
+        "JT Wang",
+        "D Ramage"
+      ]
+    },
+    {
+      "title": "Synthetic microbial communities",
+      "authors": [
+        "T Großkopf",
+        "OS Soyer"
+      ]
+    },
+    {
+      "title": "Comparative genome-scale metabolic modeling of metallo-beta-lactamase–producing multidrug-resistant Klebsiella pneumoniae clinical isolates",
+      "authors": [
+        "CJ Norsigian",
+        "H Attia",
+        "R Szubin",
+        "AS Yassin",
+        "BØ Palsson",
+        "RK Aziz"
+      ]
+    },
+    {
+      "title": "Anoxic conditions promote species-specific mutualism between gut microbes In Silico",
+      "authors": [
+        "A Heinken",
+        "I Thiele"
+      ]
+    },
+    {
+      "title": "Investigation of simulated microgravity effects on streptococcus mutans physiology and global gene expression",
+      "authors": [
+        "SS Orsini",
+        "AM Lewis",
+        "KC Rice"
+      ]
+    },
+    {
+      "title": "Deciphering microbial interactions in synthetic human gut microbiome communities",
+      "authors": [
+        "OS Venturelli",
+        "A Carr",
+        "G Fisher",
+        "RH Hsu",
+        "R Lau",
+        "BP Bowen"
+      ]
+    },
+    {
+      "title": "Inhibition effect of belzalkonium chloride treatment on growth of common food contaminating fungal species",
+      "authors": [
+        "P Basaran"
+      ]
+    },
+    {
+      "title": "Disinfectant resistance of Klebsiella pneumoniae strains isolated from the International Space Station",
+      "authors": [
+        "N Sushenko",
+        "J Gans",
+        "C Arambula",
+        "N Singh",
+        "K Venkateswaran",
+        "D Moser"
+      ]
+    },
+    {
+      "title": "Antimicrobial activity of silver nanoparticles biosynthesised by Rhodotorula sp. strain ATL72",
+      "authors": [
+        "H Soliman",
+        "A Elsayed",
+        "A Dyaa"
+      ]
+    },
+    {
+      "title": "Erwinia-like microorganisms isolated from animal and human hosts",
+      "authors": [
+        "TF Muraschi",
+        "M Friend",
+        "D Bolles"
+      ]
+    },
+    {
+      "title": "Enterobacter agglomerans (Beijerinck) comb. nov. (the Herbicola-Lathyri Bacteria)",
+      "authors": [
+        "WH Ewing",
+        "MA Fife"
+      ]
+    },
+    {
+      "title": "Phylogeny and identification of Pantoea species associated with plants, humans and the natural environment based on multilocus sequence analysis (MLSA)",
+      "authors": [
+        "C Brady",
+        "I Cleenwerck",
+        "S Venter",
+        "M Vancanneyt",
+        "J Swings",
+        "T Coutinho"
+      ]
+    },
+    {
+      "title": "Polyphasic study of plant- and clinic-associated Pantoea agglomerans strains reveals indistinguishable virulence potential",
+      "authors": [
+        "B Völksch",
+        "S Thon",
+        "ID Jacobsen",
+        "M Gube"
+      ]
+    },
+    {
+      "title": "Quantitative evaluation of the host-colonizing capabilities of the enteric bacterium Pantoea using plant and insect hosts",
+      "authors": [
+        "G Nadarasah",
+        "J Stavrinides"
+      ]
+    },
+    {
+      "title": "Klebsiella pneumoniae prevents spore germination and hyphal development of Aspergillus species",
+      "authors": [
+        "MF Nogueira",
+        "L Pereira",
+        "S Jenull",
+        "K Kuchler",
+        "T Lion"
+      ]
+    },
+    {
+      "title": "Critical assessment of genome-scale metabolic networks: the need for a unified standard",
+      "authors": [
+        "A Ravikrishnan",
+        "K Raman"
+      ]
+    },
+    {
+      "title": "Current status and applications of genome-scale metabolic models",
+      "authors": [
+        "C Gu",
+        "GB Kim",
+        "WJ Kim",
+        "HU Kim",
+        "SY Lee"
+      ]
+    },
+    {
+      "title": "Polarization of microbial communities between competitive and cooperative metabolism",
+      "authors": [
+        "D Machado",
+        "OM Maistrenko",
+        "S Andrejev",
+        "Y Kim",
+        "P Bork",
+        "KR Patil"
+      ]
+    },
+    {
+      "title": "Towards predicting the environmental metabolome from metagenomics with a mechanistic model",
+      "authors": [
+        "DR Garza",
+        "MC van Verk",
+        "MA Huynen",
+        "BE Dutilh"
+      ]
+    },
+    {
+      "title": "Metabolic modeling predicts specific gut bacteria as key determinants for Candida albicans colonization levels",
+      "authors": [
+        "MH Mirhakkak",
+        "S Schäuble",
+        "TE Klassert",
+        "S Brunke",
+        "P Brandt",
+        "D Loos"
+      ]
+    },
+    {
+      "title": "Metagenome-wide association analysis identifies microbial determinants of post-antibiotic ecological recovery in the gut",
+      "authors": [
+        "KR Chng",
+        "TS Ghosh",
+        "YH Tan",
+        "T Nandi",
+        "IR Lee",
+        "AHQ Ng"
+      ]
+    }
+  ],
+  "original_title": "Metabolic modeling of the International Space Station microbiome reveals key microbial interactions.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/e7e0bbe889e2/40168_2022_1279_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/cf9e1b90c492/40168_2022_1279_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/f905ac47f49e/40168_2022_1279_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/2c7b84b23492/40168_2022_1279_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/e4a701993966/40168_2022_1279_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/87adae1f6a61/40168_2022_1279_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/34ab/9258157/be66ccc4541f/40168_2022_1279_Fig7_HTML.jpg"
+  ]
+}

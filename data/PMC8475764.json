@@ -1,0 +1,998 @@
+{
+  "pmcid": "PMC8475764",
+  "title": "Epigenomic Regulators Elongator Complex Subunit 2 and Methyltransferase 1 Differentially Condition the Spaceflight Response in Arabidopsis",
+  "abstract": "Background: Plants subjected to the novel environment of spaceflight show transcriptomic changes that resemble aspects of several terrestrial abiotic stress responses. Under investigation here is whether epigenetic modulations, similar to those that occur in terrestrial stress responses, have a functional role in spaceflight physiological adaptation. The Advanced Plant Experiment-04 – Epigenetic Expression experiment examined the role of cytosine methylation in spaceflight adaptation. The experiment was conducted onboard the International Space Station, and evaluated the spaceflight-altered, genome-wide methylation profiles of two methylation-regulating gene mutants [methyltransferase 1 (met1-7) and elongator complex subunit 2 (elp2-5)] along with a wild-type Col-0 control.\n\nResults: The elp2-5 plants suffered in their physiological adaptation to spaceflight in that their roots failed to extend away from the seed and the overall development of the plants was greatly impaired in space. The met1-7 plants suffered less, with their morphology affected by spaceflight in a manner similar to that of the Col-0 controls. The differentially expressed genes (DEGs) in spaceflight were dramatically different in the elp2-5 and met1-7 plants compared to Col-0, indicating that the disruptions in these mutants resulted in a reprogramming of their spaceflight responses, especially in elp2-5. Many of the genes comprising the spaceflight transcriptome of each genotype were differentially methylated in spaceflight. In Col-0 the majority of the DEGs were representative of the now familiar spaceflight response, which includes genes associated with cell wall remodeling, pathogen responses and ROS signaling. However, the spaceflight transcriptomes of met1-7 and elp2-5 each presented patterns of DEGs that are almost completely different than Col-0, and to each other. Further, the DEGs of the mutant genotypes suggest a more severe spaceflight stress response in the mutants, particularly in elp2-5.\n\nConclusion: Arabidopsis physiological adaptation to spaceflight results in differential DNA methylation in an organ-specific manner. Disruption of Met1 methyltransferase function does not dramatically affect spaceflight growth or morphology, yet met1-7 reprograms the spaceflight transcriptomic response in a unique manner. Disruption of elp2-5 results in poor development in spaceflight grown plants, together with a diminished, dramatically reprogrammed transcriptomic response.",
+  "introduction": "Introduction\n\nPlants cope with environmental changes by reprogramming gene expression and metabolic processes necessary for growth, development, and survival (e.g.,). The adaptability of a genotype to changing environmental conditions is therefore determined by its genome and gene activity, both of which are in turn influenced by epigenetic factors such as DNA methylation (e.g.,). The APEX-04 EPEX spaceflight experiment investigated the role of specific epigenomic changes in determining the physiological adaptation of plants to the spaceflight environment.\n\nDNA methylation profiles within a genome are dynamic and complex, yet integral to plant growth, development, and stress responses (reviewed in:). Many terrestrial abiotic stresses, such as salt stress, heat stress, drought, water stress, and phosphate starvation induce epigenetic changes that aid in the adaptation process (e.g.,). The genes differentially expressed in response to spaceflight share similarities with many documented terrestrial responses. Hallmarks of spaceflight responses include differential expression of genes involved in pathways associated with cell wall remodeling, reactive oxygen species (ROS), pathogen attacks, wounding, salt stress, drought stress, and hormone signaling. Plants further respond to spaceflight with changes in DNA methylation, again similarly to the epigenetic effects that occur during terrestrial stresses. Genome-wide DNA methylation and gene expression alterations occurred in plants grown for part of their life cycle in a satellite experiment. Arabidopsis grown from seed on orbit in the International Space Station (ISS) showed changes in specific DNA methylation contexts, with some of those changes associated with differentially expressed genes (DEGs).\n\nThe patterns of spaceflight-associated DNA methylation are organ-specific. In comparison to roots, spaceflight leaves show higher methylation levels within the protein-coding genes compared to ground controls (GCs). A large proportion of the genes that are differentially expressed and differentially methylated are associated with ROS signaling. ROS can act as signaling molecules in responses to an array of plant stressors and there is growing evidence of an interplay between ROS metabolism and epigenetic regulation during acclimation in terrestrial environments. DNA methylation and other epigenetic modifications have been reported to play a role in regulating the innate immune response and pathogen response. Many components of the gene networks associated with these pathogen-associated pathways are also differentially expressed by plants in spaceflight. This commonality of terrestrial environmental responses with spaceflight responses begged the question: do plants use similar tools to regulate genes in response to spaceflight?\n\nDNA methylation in plants occurs in three main contexts, CG, CHG, and CHH (where H = A, C, or T). Methylation in each context is directly maintained by a distinct pathway and set of enzymes which include: Methyltransferase 1 (MET1), decreased DNA methylation 1 (DDM1)1, and variant in methylation in the CG context, SUVH4-deposited H3K9me2 and CHROMOMETHYLASE 3 (CMT3) in the CHG context, and CMT2 in the CHH context. In addition to these direct enzymatic regulators of DNA methylation, a number of genes indirectly affect DNA methylation through RNA intermediates. RNA-directed DNA methylation facilitates the recruitment of DNA methyltransferases. In plants, small interfering RNAs (siRNAs) direct de novo DNA methylation and maintenance of DNA methylation at asymmetrical CHH sites through the polymerase II (Pol II)-related RNA polymerases Pol IV and Pol V. In Arabidopsis, the siRNA effector ARGONAUTE4 (AGO4) exists in a complex with domains rearranged methyltransferase (DRM) for methylation of the template strand for RNA polymerase V-mediated non-coding RNA transcripts. The Elongator complex is a co-factor of RNA Pol II, and ELP2 is the most likely subunit to interact with the siRNA machinery. To explore the effects of these two DNA methylation pathways in conditioning the spaceflight response, we chose MET1 as a representative of the proteins directly involved in methylation and ELP2 as a model regulator that affects methylation during stress responses through RNA intermediates and regulation of methyltransferases.\n\nThe cytosine DNA methyl transferase gene, Met1, is directly involved in the maintenance of cytosine methylation in Arabidopsis, particularly at CG sites. MET1 is one of several methylation enzymes that also modify the epigenome of plants as part of stress responses. The role MET1 plays in maintaining the CG methylation profile is also important for the subsequent inheritance of those epigenomic changes. Loss of MET1 function non-specifically enhances resistance to bacterial infections. Many of the genes differentially regulated in methylation-mutant met1-3 lines (Supplementary Material,) show a substantial overlap with genes that are differentially expressed in response to spaceflight including genes involved in defense, transcription, response to hormone stimulus and phosphorylation. These methylation mutant transcriptome profiles establish that differential methylation in the genome is central to facilitating stress responses in Arabidopsis, suggesting the hypothesis that the stress response elicited by spaceflight in Arabidopsis may also have an epigenetic component that could involve regulation by MET1.\n\nThe Elongator complex is composed of six protein subunits that are highly conserved among eukaryotes; it acts as a co-factor of RNA Pol II, and has several unique cellular functions, including tRNA modification, DNA modification, and histone acetyltransferase (HAT) activity. Although loss of any component can compromise Elongator complex function the subunits have independent activity and can also function as sub-complexes (e.g.,). Elongator proteins were initially identified in plants as important to various aspects of growth, development, and immune response. Elongator Proteins ELP3 and ELP2 both contribute epigenomic regulation of gene expression in response to developmental and immune response pathways in Arabidopsis. ELP3 exhibits HAT activity while ELP2 interacts with components of the siRNA machinery. In plants, siRNAs can induce cytosine methylation by recruitment of the DNA methyl transferase DRM2 through RNA-directed DNA methylation (e.g.,), and it is by this mode of action that ELP2 regulates plant development and stress responses (reviewed in:).\n\nELP2 is associated with terrestrial pathogen responses (e.g.,) and plays a role in root development (e.g.,), The role of ELP2 in plant pathogen defense is relevant to the spaceflight response in plants as many of the genes comprising the spaceflight transcriptome are also commonly associated with terrestrial pathogen responses (e.g.,). Functionally, ELP2 is a regulator of NONEXPRESSOR OF PATHOGENESIS-RELATED GENES 1 (NPR1) and accelerates the immune responses in Arabidopsis through epigenetic modification of DNA methylation. Deletion of the gene encoding ELP2 has substantial impact on pathogen-induced transcription, and also impacts fundamental processes such as root development and auxin signaling. Many of the genes differentially expressed between elp2 mutants and wild-type plants include hallmarks of abiotic stress responses. Further, many of the genes differentially expressed in elp2 mutants are also represented in Arabidopsis spaceflight transcriptomes and spaceflight methylome (e.g.,). These roles for ELP2 in pathogen responses and abiotic stresses suggest that ELP2 may also play a role in the epigenetic regulation of the spaceflight response pathways in plants.\n\nThe Advanced Plant Experiment 04 – Epigenetic Expression (APEX-04-EPEX) spaceflight experiment reported herein investigated the contribution of epigenomic changes in the physiological adaptation of plants to the spaceflight environment, specifically the role of cytosine DNA methylation in the spaceflight response of Arabidopsis. The experiment was conducted onboard the ISS to evaluate the spaceflight responses of the methylation mutants met1-7 and elp2-5 compared to the Col-0 wild-type background of both mutant lines. Growth patterns, genome-wide methylation profiles, and differential gene expression profiles were used to develop an integrated assessment of the interplay of DNA methylation and transcriptional regulation in the response to spaceflight.",
+  "methods": "Materials and Methods\n\nPlant Material and Experimental Design\n\nThree lines of Arabidopsis thaliana (Arabidopsis) were used: Columbia-0 (Col-0) wild-type (TAIR CS70000), and Col-0 mutants met1-7 and elp2-5 genotype. Mutants met1-7 and elp2-5 previously described in, and were kindly provided by Dr. Zhonglin Mou. Sterilized seeds from each line were sown aseptically onto Petri dishes (100 mm × 15 mm; Fisher Scientific, Pittsburgh, PA, United States), containing 50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 × Murashige–Skoog salts, 0.5% (w/v) sucrose, and 1 × Gamborg’s Vitamin Mixture, and then sealed with breathable tape (3M Micropore®, Maplewood, MN, United States; e.g.,). Seeded plates were prepared to maintain seed dormancy with a combination of far-red light treatment and light-tight wrapping in DuvetyneTM cloth until insertion into Veggie growth facility on orbit. Dormancy preparation details described in.\n\nTen plates (nine for installation in Veggie and one spare) per genotype for each environmental condition (flight and GC) were prepared for launch. The plates were stored at 4°C and remained dormant until their installation into the Vegetable Production System (Veggie) hardware on the ISS, and a comparable set was installed into the Veggie hardware in the ISS environmental simulator (ISSES) chamber at Kennedy space center. Plants in the Veggie hardware (both on the ISS and in the ISSES chamber) were exposed to constant light conditions of 100–135 μmoles/m2s PAR for 11 days before being harvested into Kennedy space center fixation tubes (KFTs) and fixed in RNAlaterTM (Ambion, Grand Island, NY, United States). All of the plants from each plate were harvested into individual KFTs. The KFTs were then stowed at −80°C in the MELFI freezer aboard the ISS. The comparable GC samples were also harvested into KFTs and stored in a standard −80°C freezer. All samples were kept frozen until delivery to the laboratory for analysis. Each plate was intended as a biological replicate and kept separate in tissue preparation operations, but the mass values drove the decision to allow a combination of two plates to comprise a replicate, which resulted in a total of four biological replicates for each of the genotypes and treatments for the analyses. Leaf and root tissues from each sample were dissected using an Olympus stereo-microscope. FromBioanalyzer and quantified with the each plate, the materials from three individual plants were pooled for RNA extraction and transcriptome analyses, and materials from 10 to 15 individual plants from that same plate were allocated for DNA extraction. Molecular analyses were performed on leaf and root tissues dissected from each of the three genotypes. One plate was lost, (met1-7, spaceflight C6) and so one of the spaceflight met1-7 replicates was composed of plants from a single plate rather than two plates. Whole-genome bisulfite sequencing (WGBS) was performed for the methylome analysis and RNA sequencing (RNASeq) for the transcriptome analysis. To summarize, for each genotype under each environmental condition, a total seven (spaceflight met1-7) or eight (all other genotypes and treatments) plates were used to conduct WGBS and RNASeq analyses, four biological replicates for each assay.\n\nExperiment Operations for Spaceflight and Ground Controls\n\nThe plates comprising the NASA APEX-04-EPEX experiment was launched on the SpaceX mission CRS-10 to the ISS. NASA astronauts Peggy Whitson and Shane Kimbrough (expedition 49/50) managed the experiment from insertion into the Veggie growth hardware to harvest (Figures 1A,B). Images and videos of ISS operations are collected in Supplementary Files 1, 2.\n\nThe workflow of the orbital operations was recapitulated for the GCs in the ISSES chamber with a 24 h delay. The delay enabled a precise ground replication of minor changes in daily ISS environmental parameters and crew operations scheduling. Crew operations included the de-stowing of the plates and insertion into Veggie (Figure 1A), daily high-resolution photography of representative plates were taken with a hand-held DSLR camera, and the harvest and fixation of the plates on the final day of growth. Photography and harvests were conducted on the maintenance work area. All plates were photographed before harvest, and representatives of each genotype presented in Figure 1C. The complete set of spaceflight and GC photographs are supplied in the Supplementary File 3. The images were used to assess the growth morphology and general health of the plants.\n\nGenomic DNA Isolation and Whole-Genome Bisulfite Sequencing Library Preparation\n\nDNA extraction was done using a modified phenol/chloroform protocol and genome-wide bisulfite sequencing was performed using a similar procedure as that described by. Briefly, 700–1,700 ng of genomic DNA (>5 Kb in length) observed on the TapeStation Genomic Screen Tape (Agilent) was processed for sequencing library construction. DNA was transferred into 6 × 16 mm glass microtubes with AFA fiber and pre-slit snap caps (Cat# 520045, Covaris, Inc.) and sheared into an average fragment size of ∼400 bp using the Covaris S220 ultrasonic disruptor. Short DNA fragments (<100 bp) were removed using AMPure magnetic beads (Cat# A63881, Beckman Coulter) at a 1:1 bead to sample ratio. 100–250 ng of clean, fragmented DNA was used for the Illumina sequencing library construction. Both the NEBNext® UltraTM II DNA Illumina construction kit (Cat# E7645S, NEB) and the Illumina-specific methylated and dual-index barcoded adaptors (Cat# E7600S NEB) were used as described in the manufacturer’s guidelines. Illumina libraries (containing methylated adaptors) were subjected to sodium bisulfite treatment using the EZ DNA Methylation Direct kit (ZYMO Research, Cat #D5020) according to the manufacturer’s instructions. The resulting libraries were enriched by a 13–15 cycle amplification using a uracil-insensitive polymerase (EpiMark hot start Taq polymerase, NEB, Cat #M0490S). The amplified library products were separated on a 2% agarose gel from which library fragments in the 250–500 bp range were excised (QIAquick gel extraction kit, Cat# 28704, QIAGEN) and AMPure purified (Cat# A63881, Beckman Coulter). Gel staining was done with SYBR Safe (Life Technologies) and visualized on a blue light transilluminator (Life Technologies) to avoid UV damage to the DNA. The final libraries were quantified by the RNA concentration was determined on Qubit® 2.0 Fluorometer (ThermoFisher/Invitrogen, Grand Island, NY, United States), sized on the Agilent TapeStation (DNA5000 Screen Tape) and by qPCR with the Kapa SYBR Fast qPCR reagents (Cat# KK4824, Kapa Biosystems) with monitoring on an ABI7900HT real-time PCR system (LifeTechnologies). The average library size was 350 bp. Care was taken to generate WGBS libraries that were approximately the same size as the RNASeq libraries. Sequencing was performed at the ICBR NextGen Sequencing Core1.\n\nTotal RNA Isolation and RNASeq Library Construction\n\nRNA extraction was performed using RNeasy Plant Mini Kit (Qiagen, Hilden, Germany) according to the manufacturer’s guidelines. RNA concentration was determined on a Qubit® 2.0 Fluorometer, RNA quality was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies, Inc.). The RIN numbers of the total RNA used for RNASeq library construction are between 7.1 and 9.3. Basically, 2 μL of 1:200 diluted RNA spike-in ERCC (half amount of suggested in the ERCC user guide: Cat# 4456740) spike to 1,000 ng of total RNA followed by mRNA isolated using the NEBNext Poly(A) mRNA Magnetic Isolation Module (New England Biolabs, catalog # E7490). This was followed by RNA library construction with the NEBNext Ultra Directional RNA Library Prep Kit (New England Biolabs, catalog #E7420) according to the manufacturer’s user guide. Briefly, RNA was fragmented in NEBNext First Strand Synthesis Buffer via incubation at 94°C for the desired time. This step was followed by first-strand cDNA synthesis using reverse transcriptase and Oligo(dT) primers. Synthesis of ds-cDNA was performed using the second strand master mix provided in the kit, followed by end-repair and adaptor ligation. At this point, Illumina adaptors were ligated to the sample. Finally, each library (uniquely barcoded) was enriched by 10 cycles of amplification, and purified with Agencourt AMPure beads (Beckman Coulter, catalog # A63881). 48 barcoded libraries were sized on the Bioanalyzer and quantified with the Qubit® 2.0 Fluorometer. Finally, these 48 individual libraries were pooled in equimolar concentration. RNASeq libraries were constructed at the UF ICBR Gene Expression Core2.\n\nHiSeq3000 Procedure, Pooled RNASeq, and MethylSeq\n\nUniquely barcoded libraries were normalized to 2.5 nM and pooled (equimolarly) for sequencing on the HiSeq3000 Illumina sequencer. Bisulfite-converted sequencing libraries were sequenced together with RNASeq libraries (uniquely barcoded) to maximize data output. The RNASeq libraries in the pool served to compensate for the low base diversity of bisulfite-converted genomic libraries. The final library was created by mixing RNASeq vs bisulfite-converted libraries at a 60:40% ratio, with a mere 1% PhiX spike-in. Library pools were processed according to the Illumina protocol (HiSeq3000) for clustering on the cBOT machine. After denaturation, neutralization, and mixing with the ExAmp reagent, the final pool concentration for clustering was 0.25 nM. Sequencing was done using a 2 × 101 cycles format (paired-end configuration). The 48-sample project was sequenced on 12 lanes for a robust reads/lane output.\n\nMethylSeq Bioinformatics\n\nThe short reads from the uniquely barcoded bisulfite-converted genomic libraries were trimmed using Trimmomatic v 0.36 and quality control on the original and trimmed reads was performed using FastQC v 0.11.4 and MultiQC v 1.1. The bisulfite-converted reads were aligned to the TAIR10 genome using BSMAP. Methylation calling was performed with CSCALL and the differential methylation analysis was performed using the MCOMP program, which is part of the MOABS package. Cytosine sites with at least a 10x read coverage in at least two out of the four replicates were included in downstream analyses. Methylated cytosine sites for which the p-value of the difference between test and control methylation rates was below 0.01 were considered differentially methylated cytosines (DmCs). In addition, DmCs with a methylation difference > 0 were classified as hypermethylated whereas those < 0 were classified as hypomethylated. DmCs were also categorized based on the characteristics of their genomic locations including the gene body (from transcriptional start site to transcriptional termination site), promoter (2 kb upstream of transcriptional start site), and downstream (2 kb downstream of transcriptional termination site). Differentially methylated regions (DMRs) were defined following the method described in. Briefly, DMRs were determined by comparing the average methylation levels within a 100 bp window between spaceflight and GCs, and those with statistical significance (p < 0.01) were used in the analysis. The reads mapped to the chloroplast reference genome were used to calculate the bisulfite conversion efficiency as previously described.\n\nRNASeq Bioinformatics\n\nThe overall quality of the RNASeq sequence data was first evaluated using FastQC. Low-quality bases were trimmed from the reads using Trimmomatic. STAR Aligner was used to map high-quality paired-end reads to TAIR10 genome. Gene expression values were calculated from these alignments using RSEM. The expected read counts and fragments per kilobase of transcript per million mapped reads (FPKM) were extracted for further analysis. A generalized linear regression model was built to perform the differential gene analysis using edgeR. Prior to the differential expression analysis, hierarchical clustering and principal component analysis (PCA) were conducted to identify potential outliers in the samples. The thresholds for calling significantly DEG were set at, FDR of 0.05, a fold change of greater than 2, and the average FPKM for at least one replicate of each comparison group being higher than 0. DEG lists were analyzed for overlaps using BioVenn. Processing and Analysis of the RNASeq data was performed at the UF ICBR Bioinformatics Core3.\n\nFunctional Categories Enrichment\n\nArabidopsis thaliana gene IDs from each list of differentially methylated, differentially expressed genes (DmC-DEGs) output from combined methylomic and transcriptomic data were submitted to g:Profiler using the standard parameters. Lists of gene ontology (GO) terms enriched within each group of DmC-DEGs were trimmed using REVIGO.\n\nStatistical Analyses\n\nOriginal Student’s t-tests were done with Bonferroni corrections. Two-Factor ANOVA analyses with replication were performed to demonstrate statistical differences in methylation levels between genotypes and plant organ samples.",
+  "results": "Results\n\nCol-0 and met1-7 Exhibited a Typical Spaceflight Growth Morphology, While elp2-5 Displayed an Unusual Spaceflight Morphology\n\nThe three genotypes, Col-0, met1-7, and elp2-5 each demonstrated different growth habits in response to spaceflight. Figure 1C shows a representative plate of each genotype grown on the ISS (spaceflight, FT) and comparable GC. Photos of all the harvested plates are presented in Supplementary File 3.\n\nCol-0 and met1-7 exhibited a typical growth morphology of Arabidopsis grown in Veggie during spaceflight (Figure 1A). The strong directional growth light gradient in Veggie produces a negative phototropism in roots that results in root growth that largely mimics terrestrial gravitropism. For both Col-0 and met1-7 the spaceflight (FT) roots adopt a slightly randomized growth habit compared to the GCs, yet extend well away from the site of germination and the stem, and are generally negatively phototropic in response to the “vertical” orientation of the plates relative to the light source in the Veggie growth habitat. The Col-0 and met1-7 plants presented healthy visual phenotypes, where their leaves were fully expanded and green.\n\nIn contrast, elp2-5 plants exhibit spaceflight growth patterns that were distinct from both Col-0 wild-type and met1-7, and did not appear to be responding to the environmental tropic cues directing roots away from the lights in Veggie (Figure 1C). The roots of elp2-5 in spaceflight did not exhibit any directional growth. Instead, all root growth appeared to occur in random patterns that resulted in most of the root mass staying within 1 cm of the germinated seed. The spaceflight leaves of elp2-5 tended to be darker, with more of the plants exhibiting reddish coloration typical of anthocyanin production. Several of the elp2-5 leaves on each of the spaceflight plates were chlorotic.\n\nIn spite of any morphological differences among the genotypes, all produced the same biomass in spaceflight as on the ground. No statistically supported differences were observed between flight and GCs in either roots or shoots, for all three genotypes (Supplementary Figure 1).\n\nSpaceflight Increased Genome-Wide DNA Methylation Levels in met1-7 and elp2-5 but Not in the Wild-Type Col-0 Plants\n\nIn the GC plant leaves, the methylation level of met1-7 was statistically lower than that of Col-0 and elp2-5 plants in all three methylation contexts. Col-0 and elp2-5 and plants showed similar genome-wide methylation levels (Figures 2A,B). In the GC plant roots, the methylation level of met1-7 was statistically lower than that of Col-0 and elp2-5 plants in the CG and CHG contexts. In the CHH context, there were no statistical differences in methylation among genotypes.\n\nIn spaceflight plants, the methylation levels varied greatly in each genotype, methylation context and tissue type. The flight elp2-5 plants showed a higher methylation level compared to Col-0 in all methylation contexts in both leaves and roots (Figures 2C,D). The flight met1-7 methylation levels were lower than Col-0 in the CG context in both leaves and roots. However, met1-7 showed higher methylation levels than Col-0 in the CHG and CHH contexts in flight leaves while showing similar methylation levels in roots (Figures 2C,D).\n\nIn Col-0 the average genome-wide methylation levels within each context were not significantly different between flight and GC plants, for either leaves or roots (Figures 2E,F). However, met1-7 and elp2-5 both showed significant increases in methylation levels in spaceflight compared to GCs (Figures 2G–J). The elp2-5 mutants showed significant differences in the average genome-wide methylation levels between spaceflight and GCs in each organ and all methylation contexts (Figures 2G,H). The met1-7 mutants shared similar trends as the elp2-5 mutants in their leaves, however, significant differences between FT and GC were only seen in the CG context of root tissues (Figures 2I,J and Supplementary File 4) includes a detailed breakdown of the distribution of methylation levels, divided into bins ranging from 0 to 100% methylation.\n\nSpaceflight Changes in DNA Methylation Levels Were Associated With Protein-Coding Gene Regions\n\nChanges in DNA methylation induced by spaceflight associated with protein-coding and flanking genic regions [2 kb upstream from the transcription start site (TSS), gene body (gold bar), and 2 kb downstream from transcription termination site] are shown in Figure 3. Pairwise comparison between each methylation mutant and the wild type control are depicted using plot lines color-coded to indicate the environmental conditions [flight, (F) and ground (G)], the genotype [Col-0 (C), elp2-5 (E), and met1-7 (M)] and the tissue type [leaves (L) and roots (R)], as indicated in the upper right legend of each comparison plot. Thus, the pink line in Figure 3A, FCL, reflects the percentage of average methylation for flight, Col-0 leaves across a 4 kb protein-coding region of the genome.\n\nThe elp2-5 and met1-7 lines differed in their methylation levels across genic regions compared to Col-0. In leaves, Col-0 and elp2-5 showed similar CG, CHG, and CHH methylation levels across genic regions associated with protein-coding for both spaceflight and GC environments, as seen by the almost overlapping traces in Figure 3A. However, Col-0 and met1-7 leaves demonstrated notable differences in the CG methylation context. The met1-7 mutants had lower average CG methylation levels compared to Col-0 across all genic regions, with a pronounced difference within the gene body region (gold bar in graph). In spaceflight, met1-7 leaves have a higher methylation level across all genic regions when compared to the GCs (Figure 3B).\n\nThe elp2-5 roots showed higher spaceflight-associated CG, CHG, and CHH methylation levels across all genic regions compared to Col-0 (Figure 3C), but there were differences among the contexts with respect to the methylation levels for the other genotypes. In the CG methylation context, the GC Col-0 roots, GC elp2-5 roots, and flight Col-0 roots all had similar methylation levels, whereas flight elp2-5 roots showed increased methylation. In the CHG and CHH context, flight Col-0 roots had a slightly lower average methylation level across all genic regions when compared to GCs.\n\nThe met1-7 roots demonstrated noticeable differences in the CG methylation context, with the most pronounced difference within the gene body region (Figure 3D). Flight Col-0 roots had a lower CG methylation level across the gene body regions when compared to the GCs. The flight met1-7 roots had a higher CG methylation level across flanking upstream and downstream genic regions compared to their GCs. In the CHG methylation contexts, there were no obvious differences between Col-0 and met1-7 genotypes in either flight or GCs. In the CHH context, flight Col-0 roots, GC met1-7 roots, and flight met1-7 roots had similar methylation levels, levels that were slightly lower than GC Col-0 roots (Figure 3D).\n\nSpaceflight Altered the Distribution and Direction of DmCs in elp2-5 and met1-7 Leaves and Roots\n\nThe distribution of cytosines differentially methylated by spaceflight within each methylation context in both leaves and roots was assessed for each mutant relative to the wild-type genotype. DmCs were identified as those cytosines with a differential methylation that was statistically significant to p < 0.01 in each comparison and context (Figure 4). The percentage of DmCs was also mapped to different genomic regions for each methylation context. The percentage maps of Upstream (2 kb upstream of the TSS), UTRs, Exons, Introns, Downstream (2 kb downstream of the polyadenylation site), transposable element, Intergenic, and Pseudogenes are shown for each genotype in the flight vs ground comparisons of leaves and roots (Supplementary Figure 3).\n\nIn spaceflight, the percentage of DmCs of elp2-5 relative to Col-0 in leaves is highest in the CHH context (53%; Figure 4A), whereas in the GCs the percentage was highest in the CG context (47%). Similarly, spaceflight roots (Figure 4B) had a higher percentage of DmCs in the CHH context (60%), while in GC roots the majority of the DmCs were divided about equally between CHH (42%) and CG (43%) contexts. In all cases, the percentages of DmCs in the CHG context in the elp2-5 plants changed very little among organs and environments (15–18%). Most of the elp2-5 DmCs were hypermethylated (Figures 4A,B). In the met1-7 and Col-0 comparison, the majority of the DmCs were in the CG context in both leaves and roots, and both organs had lower percentages of CG DmCs in FT than in GC (Figures 4C,D). In leaves, this decrease in the percentage of CG DmCs in FT compared to GC was larger in leaves (13%) compared to roots (3%). In addition, there was a 10% increase in the percentage of CHH DmCs in FT (29%) compared to GC (19%) in the leaves (Figure 4C). In roots, there was only a 1% increase in FT compared to GC (Figure 4D). As was seen in the elp2-5 plants, the percentage of CHG DmCs changed very little among organs and environments (10–13%). Most of the met1-7 DmCs were hypomethylated (Figures 4C,D).\n\nThe distribution of gene-related DmCs in response to spaceflight was genotype- and organ-specific (Figure 5). In Col-0 leaves, DmCs were primarily hypomethylated. In the upstream and downstream flanking regions, the CHH context predominated, but within the gene body the CHH and CG contexts were about equally represented, and CGH methylation the least represented (Figure 5A). In contrast, in both elp2-5 and met1-7 leaves the DmCs were primarily hypermethylated (Figures 5B,C). In elp2-5 leaves methylation in the CHH context predominated in loci within all genic regions (Figure 5B). In met1-7 leaves the CG and CHH contexts were about equally represented in all genic regions (Figure 5C). In Col-0 roots, DmCs were again primarily hypomethylated, but unlike in leaves, the CHH context predominated within all genic regions (Figure 5D). As with leaves, the DmCs in both elp2-5 and met1-7 roots were predominantly hypermethylated (Figures 5E,F). In elp2-5 roots, methylation of DmCs in the CHH context again predominated in loci within all genic regions, and loci with CG and CHG methylation were about equally distributed in each genic region (Figure 5E). In met1-7 roots, DmCs with methylation in the CHH contexts were slightly more abundant across all genic regions, but methylation in all contexts was higher in the downstream genic region (Figure 5F).\n\nEach genotype displayed distinct, organ-specific distributions of DMRs between spaceflight and the GCs (Figure 6). DMRs were determined by comparing the average methylation levels within 100 bp windows between FT and GC, and regions with a statistically significant difference (p < 0.01) were used in the analysis. In the Col-0 spaceflight response, 659 DMRs were detected in leaves, and 765 DMRs in roots. In both Col-0 tissues, an average of 51% of the DMRs were found within the CHH context, whereas the other half of the DMR were evenly distributed between the CHG and CG contexts at 24.5% each. In elp2-5, there were 717 DMRs in leaves and 2,974 DMRs in roots (Figure 6A). In both elp2-5 tissues, an average of 63% of the DMRs were found in the CHH context, which was 12% more than Col-0. DMRs in the CHG context were distributed similarly to that of Col-0 at an average of 25%, however, DMRs in the CG context were at an average of 12.5% which was about half that of Col-0. In met1-7, there were 6,114 DMRs in leaves and 3,745 DMRs in roots. The majority of the DMRs in both tissues were in the CG context at an average of 83%. DMRs in the CHG context in both tissues were at an average of 8.5% whereas DMRs in the CHH context averaged 12% in the leaves and 5% in the roots (Figure 6A).\n\nThe spaceflight-associated DMRs in Col-0 were distributed between hypo and hypermethylation, while hypomethylated DMRs predominated in the mutants. In Col-0 leaves, 39% of the DMRs were hypomethylated and 61% hypermethylated, whereas in Col-0 roots, 67% of the DMRs were hypomethylated and 33% were hypermethylated. However, in both elp2-5 and met1-7 leaves and roots, DMRs were predominantly hypermethylated ranging from 97 to 99% (Figure 6B). Gene-related DMRs (Figure 6C) reflected organ-specific responses to spaceflight in all genotypes, but the largest difference in the number of DMR loci between leaves and roots was in elp2-5. In Col-0 leaves and roots, the number of DMRs in all genic regions and context was less than 400, with the highest number of DMRs found within the CHH context. In gene-related DMRs in Col-0 leaves hypo- and hypermethylation were fairly evenly distributed across all contexts, whereas in Col-0 roots, gene-related DMRs were mostly hypomethylated (70%). In Col-0 leaves and roots, gene-related DMRs were most abundant in the gene body region. In contrast to wild-type Col-0, the total gene-related DMRs in elp2-5 were substantially higher in the roots compared to the leaves. In elp2-5 roots, DMRs were primarily in the CHH context and were predominantly hypermethylated in all genic regions. The highest number of DMRs in the elp2-5 roots were within the gene body region. In met1-7, DMRs were found at a higher number in the leaves compared to the roots. DMRs in both leaves and roots were predominantly hypermethylated and were distributed primarily in the CG context. In met1-7 leaves, the highest number of DMRs were located upstream of the TSS (Figure 6C).\n\nSpaceflight Affected More Genes in the Roots of elp2-5, and More Genes in the Leaves of met1-7\n\nSpaceflight associated differential gene expression was genotype- and organ-specific; in elp2-5 more genes were affected in roots, while in met1-7 more genes were affected in leaves (Figure 7). Transcripts showing at least a twofold change (−1 ≤ log2 FC ≥ 1) with an FDR value of < 0.05 were identified as DEGs. PCAs of each type of tissue were performed individually, as leaves and roots have widely different patterns of gene expression. The PCA plots of leaves and roots showed different grouping of elp2-5 samples along with the components compared to Col-0 and met1-7 (Supplementary File 2 and Supplementary Figure 1). In the comparison of spaceflight to ground leaves, Col-0 had a total of 207 (123 up-regulated and 84 down-regulated) DEGs, elp2-5 had 36 (26 up-regulated and 10 down-regulated) DEGs, and met1-7 had 226 (160 up-regulated and 66 down-regulated) DEGs (Figure 7A). In roots, a total of 147 (28 up-regulated and 119 down-regulated), 120 (50 up-regulated and 70 down-regulated), and 47 (39 up-regulated and 8 down-regulated) DEGs were found in Col-0, elp2-5, and met1-7, respectively (Figure 7B). Only a few DEGs overlapped between the genotypes in both leaf and root tissues (Figures 7C,D). In leaves, the majority of DEGs were unique to Col-0 and met1-7, whereas, in roots, the majority of DEGs were unique to Col-0 and elp2-5 (Figures 7C,D). The patterns of DEGs in all three genotypes were distinctly organ-specific, and of the 436 DEGs in leaves and 288 in roots, only 35 DEGs were common to both sets (Figure 7E). Although there were overall fewer root-specific DEGs, a greater proportion of the root DEGs were also differentially methylated in response to spaceflight compared to the DEGs of leaves. In roots, 82% of the DEGs also exhibited DmCs, whereas in leaves, 31% of the DEGs also mapped to DmCs (Figure 7F and Supplementary File 5).\n\nThe composition of DmC-DEGs in elp2-5 compared to Col-0 was distinctive in each environmental and organ comparison (Figure 8). In leaves, elp2-5 vs Col-0 on the ground had a total of 2,119 DEGs (1,322 up-regulated and 797 down-regulated) whereas in spaceflight there were a total of 2,149 DEGs (1,448 up-regulated and 701 down-regulated; Figure 8A). Of these, 996 DEGs were also differentially methylated in the GCs, and a total of 1,188 DmC-DEGs were observed in spaceflight (Figure 8B). A total of 497 DmCs-DEGs were shared between both environmental conditions. In roots, the pairwise comparison of elp2-5 and Col-0 revealed a total of 1,667 (725 up-regulated and 942 down-regulated) DEGs on the ground and 1,626 (724 up-regulated and 902 down-regulated) DEGs in spaceflight (Figure 8C). Of these, 1,222 DEGs on the ground were also associated with DmCs and 1,481 DEGs in spaceflight were associated with DmCs. Among these, 723 DmC-DEGs were shared in both spaceflight and GC conditions (Figure 8D). A visual heat-map summary of the organ-specific distribution of DEGs and the DmC-DEGs for all genotypes is presented in the Supplementary Figure 2, which is annotated in Supplementary File 6.\n\nMultiple metabolic processes appeared to be altered in elp2-5 compared to Col-0 (Figure 8E). GO analysis of the DmC-DEGs of elp2-5 compared to Col-0 showed that elp2-5 was engaged with many processes characteristic of stress responses (Figure 8E). Processes shared as enriched between leaf and root DmC-DEGs included general responses to stimuli, oxidoreductase activities, and heme-binding. Leaf-specific DmC-DEGs were enriched in biosynthetic processes of flavonoids and pigments, jasmonic acid, and wounding responses in both GC and FT. DmC-DEGs in GC leaves were more specifically enriched in phenylpropanoid metabolism and the response to oxidative stress, as well as in further oxidoreducatase and peroxidase activities. DmC-DEGs in FT leaves were enriched with defense and hypoxia responses. DmC-DEGs annotated to the plasma membrane and extracellular structures were enriched among both GC and FT roots, in addition to transport processes and activities. Carbohydrate transport and binding were specifically enriched among root GC DmC-DEGs. Thus, elp2-5 shows differential expression and methylation of stress and hormone response pathways, as well as transport and metabolic pathways, when compared to the Col-0 wild-type line within each tissue and growth condition.\n\nRelative to the Col-0 response, there were substantially more DEGs and DmCs in elp2-5 (Figure 8) than were seen in met1-7 (Figure 9). In leaves, elp2-5 vs Col-0 showed a total of 2,119 (1,322 up-regulated and 797 down-regulated) DEGs in GC, whereas 2,149 (1,448 up-regulated and 701 down-regulated) DEGs were observed in FT (Figure 8A). DmC-DEGs in the elp2-5 to Col-0 leaves comparison revealed 996 differentially methylated and expressed transcripts on the GC and 1,188 in FT, of which 499 were unique to GC, 691 unique to FT, and 497 were shared among both conditions (Figure 8B). In the roots, the pairwise comparison of elp2-5 and Col-0 in the GC revealed a total of 1,667 (725 up-regulated and 942 down-regulated) DEGs and a total of 1,626 (724 up-regulated and 902 down-regulated) DEGs in FT (Figure 8C). DmC-DEGs in the elp2-5 to Col-0 roots comparison revealed a total of 1,222 DmC-DEGs in GC roots and 1,481 DmC-DEGs in FT roots, of which 723 were shared in both conditions (Figure 8D). In leaves, met1-7 vs Col-0 showed a total of 840 (355 up-regulated and 485 down-regulated) DEGs in GC, whereas in FT 637 (375 up-regulated and 262 down-regulated) DEGs were observed (Figure 9A). DmC-DEGs in the met1-7 to Col-0 leaves comparison revealed 527 differentially methylated and expressed transcripts on the ground and 408 in flight, of which 261 were unique to GC, 142 unique to FT, and 266 were shared among both conditions (Figure 9B). In the roots, the pairwise comparison of met1-7 and Col-0 in the GC revealed a total of 779 (343 up-regulated and 436 down-regulated) DEGs and a total of 593 (369 up-regulated and 224 down-regulated) DEGs in spaceflight (Figure 9C). DmC-DEGs in the met1-7 to Col-0 roots comparison revealed a total of 648 DmC-DEGs in GC roots and 430 DmC-DEGs in FT roots, of which 313 were shared in both conditions (Figure 9D).\n\nGene ontology analysis of DmC-DEGs between met1-7 and the wild-type line yielded few term enrichments (Figure 8E). Biological process enrichments associated with hypoxic responses and biosynthesis of anthocyanin-containing compounds were present in GC root DmC-DEGs. Molecular functions of ADP binding, sesquiterpene compound synthase activities, and cell wall constituents, and nutrient reservoir activity were enriched in leaf GC DmC-DEGs, leaf FT DmC-DEGs, and root GC DmC-DEGs, respectively.\n\nAlignments of DmC-DEGs in each methylation context in the various genic regions were generated for each genotype and depicted as heatmaps (Figure 10). In leaves, a total of 59 DmC-DEGs were observed in wild-type Col-0, while in elp2-5 and met1-7, there were 11 and 72 DmC-DEGs, respectively. Correlations between differential expression and DNA methylation were used to organize the heatmap. The top bracketed sections of the heatmaps show negative correlations where up-regulated genes aligned with hypomethylated DmCs and down-regulated genes aligned with hypermethylated DmCs are grouped. The following bracketed section shows positive correlations where the converse relationship between DEGs and DmCs was highlighted. The unbracketed section at the bottom of the heatmap shows genes that have no distinguishable correlations between DEGs and DmCs. In Col-0 leaves, 41% (24 out of 59) of genes had a negative correlation and 49% (29 out of 59) had a positive correlation. In elp2-5 leaves, negative and positive correlation were evenly distributed at 45% (5 out of 11), whereas in met1-7 leaves, 26% (19 out of 72) of genes showed a negative correlation and 60% (43 out of 72) had a positive correlation. In roots, there were a total of 114 DmC-DEGs in Col-0, 101 DmC-DEGs in elp2-5, and 28 DmC-DEGs in met1-7 (Figure 11). 16% (19 out of 114) of the wild-type Col-0 root DmC-DEGs had a negative correlation between gene expression and methylation levels, whereas 66% (75 out of 114) were positively correlated. In elp2-5 roots, 54% (55 out of 101) of genes showed a negative correlation, and 42% (42 out of 101) showed a positive correlation. In met1-7 roots, 36% (10 out of 28) of genes showed a negative correlation, and 50% (14 out of 28) showed a positive correlation.\n\nGene ontology analysis of the lists of DmC-DEGs from the FT vs GC contrasts revealed that the elp2-5 and met1-7 lines lacked enrichment of differential expression in traditional spaceflight acclimation processes (Figure 12). In Col-0 leaves, DmC-DEGs were enriched in localization to glyoxosomes (Figure 12A). The DmC-DEGs observed in the spaceflight response of met1-7 leaves were in pathways associated with the metabolism of pigments containing anthocyanins. The enrichments among the Col-0 root FT vs GC DmC-DEGs were primarily associated with defense pathways and responses to hypoxia, as well as the cell wall and membrane nanodomains (Figure 12B and Supplementary Table 1). Col-0 and elp2-5 roots showed enrichments of molecular function GO terms, involving FAD and manganese ion binding, and carbonate dehydratase activity, respectively. A secondary analysis using all FT vs GC DEGs showed that the analysis of only DmC-DEGs recapitulated the majority of the terms associated with the overall transcriptomic response to spaceflight (data not shown). The GO-associated processes, localizations, and functions represented by these terms are gained or lost from the methylation-sensitive aspect of the spaceflight response dependent on the functionality of ELP2 and MET1.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "spaceflight adaptation",
+    "DNA methylation",
+    "epigenetic",
+    "space biology",
+    "microgravity",
+    "elongator complex subunit 2",
+    "methyltransferase 1",
+    "methylation mutants",
+    "Plant Science",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Role of arabidopsis MYC and MYB homologs in drought- and abscisic acid-regulated gene expression.",
+      "authors": [
+        "H. Abe",
+        "K. Yamaguchi-Shinozaki",
+        "T. Urao",
+        "T. Iwasaki",
+        "D. Hosokawa",
+        "K. Shinozaki"
+      ]
+    },
+    {
+      "title": "In Response to Abiotic Stress, DNA Methylation Confers EpiGenetic Changes in Plants.",
+      "authors": [
+        "Z. Akhter",
+        "Z. Bi",
+        "K. Ali",
+        "C. Sun",
+        "S. Fiaz",
+        "F. U. Haider"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S. Andrews"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S. Andrews"
+      ]
+    },
+    {
+      "title": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis.",
+      "authors": [
+        "E. Angelos",
+        "D. K. Ko",
+        "S. Zemelis-Durfee",
+        "F. Brandizzi"
+      ]
+    },
+    {
+      "title": "Epigenetic Mechanisms of Plant Adaptation to Biotic and Abiotic Stresses.",
+      "authors": [
+        "V. V. Ashapkin",
+        "L. I. Kutueva",
+        "N. I. Aleksandrushkina",
+        "B. F. Vanyushin"
+      ]
+    },
+    {
+      "title": "Test of Arabidopsis Space Transcriptome: a Discovery Environment to Explore Multiple Plant Biology Spaceflight Experiments.",
+      "authors": [
+        "R. Barker",
+        "J. Lombardino",
+        "K. Rasmussen",
+        "S. Gilroy"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R. Barker",
+        "S. Swanson",
+        "S. Gilroy"
+      ]
+    },
+    {
+      "title": "Dynamic DNA Methylation in Plant Growth and Development.",
+      "authors": [
+        "A. Bartels",
+        "Q. Han",
+        "P. Nair",
+        "L. Stacey",
+        "H. Gaynier",
+        "M. Mosley"
+      ]
+    },
+    {
+      "title": "Effect of Salt Stress on Cytosine Methylation within GL2, An Arabidopsis thaliana Gene Involved in Root Epidermal Cell Differentiation. Absence of Inheritance in the Unstressed Progeny.",
+      "authors": [
+        "C. C. Beyrne",
+        "N. D. Iusem",
+        "R. M. Gonzalez"
+      ]
+    },
+    {
+      "title": "The Progeny of Arabidopsis thaliana Plants Exposed to Salt Exhibit Changes in DNA Methylation, Histone Modifications and Gene Expression.",
+      "authors": [
+        "A. Bilichak",
+        "Y. Ilnystkyy",
+        "J. Hollunder",
+        "I. Kovalchuk"
+      ]
+    },
+    {
+      "title": "Regulation of plant gravity sensing and signaling by the actin cytoskeleton.",
+      "authors": [
+        "E. B. Blancaflor"
+      ]
+    },
+    {
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data.",
+      "authors": [
+        "A. M. Bolger",
+        "M. Lohse",
+        "B. Usadel"
+      ]
+    },
+    {
+      "title": "Transgenerational response to stress in Arabidopsis thaliana.",
+      "authors": [
+        "A. Boyko",
+        "I. Kovalchuk"
+      ]
+    },
+    {
+      "title": "Root Skewing-Associated Genes Impact the Spaceflight Response of Arabidopsis thaliana.",
+      "authors": [
+        "B. Califar",
+        "N. J. Sng",
+        "A. Zupanska",
+        "A.-L. Paul",
+        "R. J. Ferl"
+      ]
+    },
+    {
+      "title": "STRUBBELIG defines a receptor kinase-mediated signaling pathway regulating organ development in Arabidopsis.",
+      "authors": [
+        "D. Chevalier",
+        "M. Batoux",
+        "L. Fulton",
+        "K. Pfister",
+        "R. K. Yadav",
+        "M. Schellenberg"
+      ]
+    },
+    {
+      "title": "Variation in the transcriptome of different ecotypes of Arabidopsis thaliana reveals signatures of oxidative stress in plant responses to spaceflight.",
+      "authors": [
+        "W. G. Choi",
+        "R. J. Barker",
+        "S. H. Kim",
+        "S. J. Swanson",
+        "S. Gilroy"
+      ]
+    },
+    {
+      "title": "Genome-Wide Quantitative Identification of DNA Differentially Methylated Sites in Arabidopsis Seedlings Growing at Different Water Potential.",
+      "authors": [
+        "A. C. Colaneri",
+        "A. M. Jones"
+      ]
+    },
+    {
+      "title": "Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: implications for gravity-responsive genes.",
+      "authors": [
+        "M. J. Correll",
+        "T. P. Pyle",
+        "K. D. L. Millar",
+        "Y. Sun",
+        "J. Yao",
+        "R. E. Edelmann"
+      ]
+    },
+    {
+      "title": "Effects of abiotic stress on plants: a systems biology perspective.",
+      "authors": [
+        "G. R. Cramer",
+        "K. Urano",
+        "S. Delrot",
+        "M. Pezzotti",
+        "K. Shinozaki"
+      ]
+    },
+    {
+      "title": "Elongator subunit 2 is an accelerator of immune responses in Arabidopsis thaliana.",
+      "authors": [
+        "C. T. DeFraia",
+        "X. Zhang",
+        "Z. Mou"
+      ]
+    },
+    {
+      "title": "Prolonged cold exposure to Arabidopsis juvenile seedlings extends vegetative growth and increases the number of shoot branches.",
+      "authors": [
+        "N. Dhami",
+        "C. I. Cazzonelli"
+      ]
+    },
+    {
+      "title": "Elongator and its epigenetic role in plant development and responses to abiotic and biotic stresses.",
+      "authors": [
+        "Y. Ding",
+        "Z. Mou"
+      ]
+    },
+    {
+      "title": "Widespread dynamic DNA methylation in response to biotic stress.",
+      "authors": [
+        "R. H. Dowen",
+        "M. Pelizzola",
+        "R. J. Schmitz",
+        "R. Lister",
+        "J. M. Dowen",
+        "J. R. Nery"
+      ]
+    },
+    {
+      "title": "MultiQC: summarize analysis results for multiple tools and samples in a single report.",
+      "authors": [
+        "P. Ewels",
+        "M. Magnusson",
+        "S. Lundin",
+        "M. Käller"
+      ]
+    },
+    {
+      "title": "Spaceflight Induces Specific Alterations in the Proteomes of Arabidopsis.",
+      "authors": [
+        "R. J. Ferl",
+        "J. Koh",
+        "F. Denison",
+        "A.-L. Paul"
+      ]
+    },
+    {
+      "title": "The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit.",
+      "authors": [
+        "R. J. Ferl",
+        "A.-L. Paul"
+      ]
+    },
+    {
+      "title": "Reduced DNA methylation in Arabidopsis thaliana results in abnormal plant development.",
+      "authors": [
+        "E. J. Finnegan",
+        "W. J. Peacock",
+        "E. S. Dennis"
+      ]
+    },
+    {
+      "title": "Development of Equipment that Uses Far-Red Light to Impose Seed Dormancy in Arabidopsis for Spaceflight.",
+      "authors": [
+        "C. Fitzgerald",
+        "R. Barker",
+        "W.-G. Choi",
+        "S. Swanson",
+        "S. Stephens",
+        "C. Huber"
+      ]
+    },
+    {
+      "title": "Cell Polarity Signaling: focus on Polar Auxin Transport.",
+      "authors": [
+        "X. Gao",
+        "S. Nagawa",
+        "G. Wang",
+        "Z. Yang"
+      ]
+    },
+    {
+      "title": "Divergent DNA methylation patterns associated with gene expression in rice cultivars with contrasting drought and salinity stress response.",
+      "authors": [
+        "R. Garg",
+        "V. V. S. N. Chevala",
+        "R. Shankar",
+        "M. Jain"
+      ]
+    },
+    {
+      "title": "Structural insights into Elongator function.",
+      "authors": [
+        "S. Glatt",
+        "C. W. Muller"
+      ]
+    },
+    {
+      "title": "Purification, crystallization and preliminary crystallographic analysis of the 23S rRNA methyltransferase RlmM (Cm2498) from Escherichia coli.",
+      "authors": [
+        "H. Y. Guo",
+        "Z. Q. Gao",
+        "H. Zhang",
+        "Y. Wei",
+        "J. H. Xu",
+        "W. Y. Wang"
+      ]
+    },
+    {
+      "title": "RNAseq Analysis of the Response of Arabidopsis thaliana to Fractional Gravity Under Blue-Light Stimulation During Spaceflight.",
+      "authors": [
+        "R. Herranz",
+        "J. P. Vandenbrink",
+        "A. Villacampa",
+        "A. Manzano",
+        "W. L. Poehlman",
+        "F. A. Feltus"
+      ]
+    },
+    {
+      "title": "Cyst Nematode Parasitism Induces Dynamic Changes in the Root Epigenome.",
+      "authors": [
+        "T. Hewezi",
+        "T. Lane",
+        "S. Piya",
+        "A. Rambani",
+        "J. H. Rice",
+        "M. Staton"
+      ]
+    },
+    {
+      "title": "Phytopathogen-induced changes to plant methylomes.",
+      "authors": [
+        "T. Hewezi",
+        "V. Pantalone",
+        "M. Bennett",
+        "C. Neal Stewart",
+        "T. M. Burch-Smith"
+      ]
+    },
+    {
+      "title": "Research on plant abiotic stress responses in the post-genome era: past, present and future.",
+      "authors": [
+        "T. Hirayama",
+        "K. Shinozaki"
+      ]
+    },
+    {
+      "title": "Stimulation of Elongation Growth and Cell Wall Loosening in Rice Coleoptiles under Microgravity Conditions in Space.",
+      "authors": [
+        "T. Hoson",
+        "K. Soga",
+        "R. Mori",
+        "M. Saiki",
+        "Y. Nakamura",
+        "K. Wakabayashi"
+      ]
+    },
+    {
+      "title": "Arabidopsis bZIP16 transcription factor integrates light and hormone signaling pathways to regulate early seedling development.",
+      "authors": [
+        "W. P. Hsieh",
+        "H. L. Hsieh",
+        "S. H. Wu"
+      ]
+    },
+    {
+      "title": "Mechanisms of ROS Regulation of Plant Development and Stress Responses.",
+      "authors": [
+        "H. Huang",
+        "F. Ullah",
+        "D.-X. Zhou",
+        "M. Yi",
+        "Y. Zhao"
+      ]
+    },
+    {
+      "title": "BioVenn – a web application for the comparison and visualization of biological lists using area-proportional Venn diagrams.",
+      "authors": [
+        "T. Hulsen",
+        "J. De Vlieg",
+        "W. Alkema"
+      ]
+    },
+    {
+      "title": "Expression of stress-related genes in zebrawood (Astronium fraxinifolium, Anacardiaceae) seedlings following germination in microgravity.",
+      "authors": [
+        "P. W. Inglis",
+        "A. Y. Ciampi",
+        "A. N. Salomão",
+        "T. D. S. A. Costa",
+        "V. C. R. Azevedo"
+      ]
+    },
+    {
+      "title": "Plant Elongator-Protein Complex of Diverse Activities Regulates Growth, Development, and Immune Responses.",
+      "authors": [
+        "M. Jarosz",
+        "M. Van Lijsebettens",
+        "M. Woloszynska"
+      ]
+    },
+    {
+      "title": "The Arabidopsis thaliana elongator complex subunit 2 epigenetically affects root development.",
+      "authors": [
+        "Y. Jia",
+        "H. Tian",
+        "H. Li",
+        "Q. Yu",
+        "L. Wang",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Arabidopsis MET1 cytosine methyltransferase mutants.",
+      "authors": [
+        "M. W. Kankel",
+        "D. E. Ramsey",
+        "T. L. Stokes",
+        "S. K. Flowers",
+        "J. R. Haag",
+        "J. A. Jeddeloh"
+      ]
+    },
+    {
+      "title": "A structural-maintenance-of-chromosomes hinge domain–containing protein is required for RNA-directed DNA methylation.",
+      "authors": [
+        "T. Kanno",
+        "E. Bucher",
+        "L. Daxinger",
+        "B. Huettel",
+        "G. Böhmdorfer",
+        "W. Gregor"
+      ]
+    },
+    {
+      "title": "Epigenomic plasticity of Arabidopsis msh1 mutants under prolonged cold stress.",
+      "authors": [
+        "S. K. Kenchanmane Raju",
+        "M. R. Shao",
+        "Y. Wamboldt",
+        "S. Mackenzie"
+      ]
+    },
+    {
+      "title": "Structures and Activities of the Elongator Complex and Its Cofactors.",
+      "authors": [
+        "O. Kolaj-Robin",
+        "B. Seraphin"
+      ]
+    },
+    {
+      "title": "DNA Demethylation in Response to Heat Stress in Arabidopsis thaliana.",
+      "authors": [
+        "U. Korotko",
+        "K. Chwialkowska",
+        "I. Sanko-Sawczenko",
+        "M. Kwasniewski"
+      ]
+    },
+    {
+      "title": "Spaceflight induces novel regulatory responses in Arabidopsis seedling as revealed by combined proteomic and transcriptomic analyses.",
+      "authors": [
+        "C. P. S. Kruse",
+        "A. D. Meyers",
+        "P. Basu",
+        "S. Hutchinson",
+        "D. R. Luesse",
+        "S. E. Wyatt"
+      ]
+    },
+    {
+      "title": "Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development.",
+      "authors": [
+        "T. Kwon",
+        "J. A. Sparks",
+        "J. Nakashima",
+        "S. N. Allen",
+        "Y. Tang",
+        "E. B. Blancaflor"
+      ]
+    },
+    {
+      "title": "Changes in DNA Methylation in Arabidopsis thaliana Plants Exposed Over Multiple Generations to Gamma Radiation.",
+      "authors": [
+        "P. Laanen",
+        "E. Saenen",
+        "M. Mysara",
+        "J. Van De Walle",
+        "M. Van Hees",
+        "R. Nauts"
+      ]
+    },
+    {
+      "title": "Analysis of Cytosine Methylation Pattern in Response to Water Deficit in Pea Root Tips.",
+      "authors": [
+        "M. Labra",
+        "A. Ghiani",
+        "S. Citterio",
+        "S. Sgorbati",
+        "F. Sala",
+        "C. Vannini"
+      ]
+    },
+    {
+      "title": "Enabling the Spaceflight Methylome: DNA Isolated from Plant Tissues Preserved in RNAlater Is Suitable for Bisulfite PCR Assay of Genome Methylation.",
+      "authors": [
+        "C. E. LeFrois",
+        "M. Zhou",
+        "D. M. Amador",
+        "N. Sng",
+        "A.-L. Paul",
+        "R. Ferl"
+      ]
+    },
+    {
+      "title": "RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome.",
+      "authors": [
+        "B. Li",
+        "C. N. Dewey"
+      ]
+    },
+    {
+      "title": "Interplay between Hormones and Several Abiotic Stress Conditions on Arabidopsis thaliana Primary Root Development.",
+      "authors": [
+        "B. A. Lopez-Ruiz",
+        "E. Zluhan-Martinez",
+        "M. P. Sanchez",
+        "E. R. Alvarez-Buylla",
+        "A. Garay-Arroyo"
+      ]
+    },
+    {
+      "title": "Detection of Genes in Arabidopsis thaliana L. Responding to DNA Damage from Radiation and Other Stressors in Spaceflight.",
+      "authors": [
+        "V. Manian",
+        "J. Orozco-Sandoval",
+        "V. Diaz-Martinez"
+      ]
+    },
+    {
+      "title": "Network Analysis of Gene Transcriptions of Arabidopsis thaliana in Spaceflight Microgravity.",
+      "authors": [
+        "V. Manian",
+        "J. Orozco",
+        "H. Gangapuram",
+        "H. Janwa",
+        "C. Agrinsoni"
+      ]
+    },
+    {
+      "title": "RNA-Directed DNA Methylation: the Evolution of a Complex Epigenetic Pathway in Flowering Plants.",
+      "authors": [
+        "M. A. Matzke",
+        "T. Kanno",
+        "A. J. Matzke"
+      ]
+    },
+    {
+      "title": "Epigenetic contribution to stress adaptation in plants.",
+      "authors": [
+        "M. Mirouze",
+        "J. Paszkowski"
+      ]
+    },
+    {
+      "title": "The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of Arabidopsis primary roots in microgravity.",
+      "authors": [
+        "J. Nakashima",
+        "F. Liao",
+        "J. A. Sparks",
+        "Y. Tang",
+        "E. B. Blancaflor"
+      ]
+    },
+    {
+      "title": "High-temperature effect on genes engaged in DNA methylation and affected by DNA methylation in Arabidopsis.",
+      "authors": [
+        "M. Naydenov",
+        "V. Baev",
+        "E. Apostolova",
+        "N. Gospodinova",
+        "G. Sablok",
+        "M. Gozmanova"
+      ]
+    },
+    {
+      "title": "The elongata mutants identify a functional Elongator complex in plants with a role in cell proliferation during organ growth.",
+      "authors": [
+        "H. Nelissen",
+        "D. Fleury",
+        "L. Bruno",
+        "P. Robles",
+        "L. De Veylder",
+        "J. Traas"
+      ]
+    },
+    {
+      "title": "Plant Elongator regulates auxin-related genes during RNA polymerase II transcription elongation.",
+      "authors": [
+        "H. Nelissen",
+        "S. D. Groeve",
+        "D. Fleury",
+        "P. Neyt",
+        "L. Bruno",
+        "M. B. Bitonti"
+      ]
+    },
+    {
+      "title": "Widespread natural variation of DNA methylation within angiosperms.",
+      "authors": [
+        "C. E. Niederhuth",
+        "A. J. Bewick",
+        "L. Ji",
+        "M. S. Alabady",
+        "K. D. Kim",
+        "Q. Li"
+      ]
+    },
+    {
+      "title": "Plant growth strategies are remodeled by spaceflight.",
+      "authors": [
+        "A.-L. Paul",
+        "C. E. Amalfitano",
+        "R. J. Ferl"
+      ]
+    },
+    {
+      "title": "Genetic dissection of the Arabidopsis spaceflight transcriptome: are some responses dispensable for the physiological adaptation of plants to spaceflight?",
+      "authors": [
+        "A.-L. Paul",
+        "N. J. Sng",
+        "A. K. Zupanska",
+        "A. Krishnamurthy",
+        "E. R. Schultz",
+        "R. J. Ferl"
+      ]
+    },
+    {
+      "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight.",
+      "authors": [
+        "A.-L. Paul",
+        "A. K. Zupanska",
+        "E. R. Schultz",
+        "R. J. Ferl"
+      ]
+    },
+    {
+      "title": "Methylating the DNA of the Most Repressed: special Access Required.",
+      "authors": [
+        "S. C. Pikaard"
+      ]
+    },
+    {
+      "title": "g:Profiler: a web server for functional enrichment analysis and conversions of gene lists (2019 update).",
+      "authors": [
+        "U. Raudvere",
+        "L. Kolberg",
+        "I. Kuzmin",
+        "T. Arak",
+        "P. Adler",
+        "H. Peterson"
+      ]
+    },
+    {
+      "title": "Epigenome confrontation triggers immediate reprogramming of DNA methylation and transposon silencing in Arabidopsis thaliana F1 epihybrids.",
+      "authors": [
+        "M. Rigal",
+        "C. Becker",
+        "T. Pélissier",
+        "R. Pogorelcnik",
+        "J. Devos",
+        "Y. Ikeda"
+      ]
+    },
+    {
+      "title": "edgeR: a Bioconductor package for differential expression analysis of digital gene expression data.",
+      "authors": [
+        "M. D. Robinson",
+        "D. J. Mccarthy",
+        "G. K. Smyth"
+      ]
+    },
+    {
+      "title": "Gene expression changes induced by space flight in single-cells of the fern Ceratopteris richardii.",
+      "authors": [
+        "M. L. Salmi",
+        "S. J. Roux"
+      ]
+    },
+    {
+      "title": "Maintenance of CpG methylation is essential for epigenetic inheritance during plant gametogenesis.",
+      "authors": [
+        "H. Saze",
+        "O. M. Scheid",
+        "J. Paszkowski"
+      ]
+    },
+    {
+      "title": "A Bird’s-Eye View of Molecular Changes in Plant Gravitropism Using Omics Techniques.",
+      "authors": [
+        "O. Schüler",
+        "R. Hemmersbach",
+        "M. Böhmer"
+      ]
+    },
+    {
+      "title": "A step towards understanding plant responses to multiple environmental stresses: a genome-wide study.",
+      "authors": [
+        "N. Sewelam",
+        "Y. Oshima",
+        "N. Mitsuda",
+        "M. Ohme-Takagi"
+      ]
+    },
+    {
+      "title": "The Arabidopsis ELP3/ELO3 and ELP4/ELO1 genes enhance disease resistance in Fragaria vesca L.",
+      "authors": [
+        "K. J. P. Silva",
+        "A. M. Brunings",
+        "J. A. Pereira",
+        "N. A. Peres",
+        "K. M. Folta",
+        "Z. Mou"
+      ]
+    },
+    {
+      "title": "Arabidopsis Thaliana for Spaceflight Applications – Preparing Dormant Biology for Passive Stowage and On Orbit Activation.",
+      "authors": [
+        "N. Sng",
+        "J. Callaham",
+        "R. J. Ferl",
+        "A.-L. Paul"
+      ]
+    },
+    {
+      "title": "The relationship between transgenerational acquired resistance and global DNA methylation in Arabidopsis.",
+      "authors": [
+        "J. H. M. Stassen",
+        "A. Lopez",
+        "R. Jain",
+        "D. Pascual-Pardo",
+        "E. Luna",
+        "L. M. Smith"
+      ]
+    },
+    {
+      "title": "Comprehensive Analysis of Silencing Mutants Reveals Complex Regulation of the Arabidopsis Methylome.",
+      "authors": [
+        "H. Stroud",
+        "M. V. Greenberg",
+        "S. Feng",
+        "Y. V. Bernatavichute",
+        "S. E. Jacobsen"
+      ]
+    },
+    {
+      "title": "Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight.",
+      "authors": [
+        "M. Sugimoto",
+        "Y. Oono",
+        "O. Gusev",
+        "T. Matsumoto",
+        "T. Yazawa",
+        "M. A. Levinskikh"
+      ]
+    },
+    {
+      "title": "MOABS: model based analysis of bisulfite sequencing data.",
+      "authors": [
+        "D. Sun",
+        "Y. Xi",
+        "B. Rodriguez",
+        "H. J. Park",
+        "P. Tong",
+        "M. Meong"
+      ]
+    },
+    {
+      "title": "REVIGO Summarizes and Visualizes Long Lists of Gene Ontology Terms.",
+      "authors": [
+        "F. Supek",
+        "M. Bošnjak",
+        "N. Škunca",
+        "T. Šmuc"
+      ]
+    },
+    {
+      "title": "Cell walls as a stage for intercellular communication regulating shoot meristem development.",
+      "authors": [
+        "T. Tameshige",
+        "Y. Hirakawa",
+        "K. U. Torii",
+        "N. Uchida"
+      ]
+    },
+    {
+      "title": "Pre-conditioning the epigenetic response to high vapor pressure deficit increases the drought tolerance of Arabidopsis thaliana.",
+      "authors": [
+        "P. J. Tricker",
+        "C. M. R. López",
+        "P. Hadley",
+        "C. Wagstaff",
+        "M. J. Wilkinson"
+      ]
+    },
+    {
+      "title": "A novel blue-light phototropic response is revealed in roots of Arabidopsis thaliana in microgravity.",
+      "authors": [
+        "J. P. Vandenbrink",
+        "R. Herranz",
+        "F. J. Medina",
+        "R. E. Edelmann",
+        "J. Z. Kiss"
+      ]
+    },
+    {
+      "title": "RNA-seq analyses of Arabidopsis thaliana seedlings after exposure to blue-light phototropic stimuli in microgravity.",
+      "authors": [
+        "J. P. Vandenbrink",
+        "R. Herranz",
+        "W. L. Poehlman",
+        "F. Alex Feltus",
+        "A. Villacampa",
+        "M. Ciska"
+      ]
+    },
+    {
+      "title": "Whole-Genome DNA Methylation Analysis in Hydrogen Peroxide Overproducing Transgenic Tobacco Resistant to Biotic and Abiotic Stresses.",
+      "authors": [
+        "A. L. Villagomez-Aranda",
+        "L. F. Garcia-Ortega",
+        "I. Torres-Pacheco",
+        "R. G. Guevara-Gonzalez"
+      ]
+    },
+    {
+      "title": "The Arabidopsis elongator complex subunit2 epigenetically regulates plant immune responses.",
+      "authors": [
+        "Y. Wang",
+        "C. An",
+        "X. Zhang",
+        "J. Yao",
+        "Y. Zhang",
+        "Y. Sun"
+      ]
+    },
+    {
+      "title": "Plant Elongator-mediated transcriptional control in a chromatin and epigenetic context.",
+      "authors": [
+        "M. Woloszynska",
+        "S. Le Gall",
+        "M. Van Lijsebettens"
+      ]
+    },
+    {
+      "title": "BSMAP: whole genome bisulfite sequence MAPping program.",
+      "authors": [
+        "Y. Xi",
+        "W. Li"
+      ]
+    },
+    {
+      "title": "siRNA-directed DNA Methylation in Plants.",
+      "authors": [
+        "M. Xie",
+        "B. Yu"
+      ]
+    },
+    {
+      "title": "Single-base resolution methylome analysis shows epigenetic changes in Arabidopsis seedlings exposed to microgravity spaceflight conditions on board the SJ-10 recoverable satellite",
+      "authors": [
+        "P. Xu",
+        "H. Chen",
+        "J. Jin",
+        "W. Cai"
+      ]
+    },
+    {
+      "title": "Phosphate starvation induces DNA methylation in the vicinity of cis-acting elements known to regulate the expression of phosphate-responsive genes.",
+      "authors": [
+        "L. Yong-Villalobos",
+        "S. A. Cervantes-Perez",
+        "D. Gutierrez-Alanis",
+        "S. Gonzales-Morales",
+        "O. Martinez",
+        "L. Herrera-Estrella"
+      ]
+    },
+    {
+      "title": "Methylome analysis reveals an important role for epigenetic changes in the regulation of the Arabidopsis response to phosphate starvation.",
+      "authors": [
+        "L. Yong-Villalobos",
+        "S. I. González-Morales",
+        "K. Wrobel",
+        "D. Gutiérrez-Alanis",
+        "S. A. Cervantes-Peréz",
+        "C. Hayano-Kanashiro"
+      ]
+    },
+    {
+      "title": "Dynamics and biological relevance of DNA demethylation in Arabidopsis antibacterial defense.",
+      "authors": [
+        "A. Yu",
+        "G. Lepère",
+        "F. Jay",
+        "J. Wang",
+        "L. Bapaume",
+        "Y. Wang"
+      ]
+    },
+    {
+      "title": "Dynamic differential methylation facilitates pathogen stress response in Arabidopsis.",
+      "authors": [
+        "X. Zhang"
+      ]
+    },
+    {
+      "title": "Large-scale comparative epigenomics reveals hierarchical regulation of non-CG methylation in Arabidopsis.",
+      "authors": [
+        "Y. Zhang",
+        "C. J. Harris",
+        "Q. Liu",
+        "W. Liu",
+        "I. Ausin",
+        "Y. Long"
+      ]
+    },
+    {
+      "title": "Differential protein expression profiling of Arabidopsis thaliana callus under microgravity on board the Chinese SZ-8 spacecraft.",
+      "authors": [
+        "Y. Zhang",
+        "L. Wang",
+        "J. Xie",
+        "H. Zheng"
+      ]
+    },
+    {
+      "title": "Molecular mechanism of action of plant DRM de novo DNA methyltransferases.",
+      "authors": [
+        "X. Zhong",
+        "J. Du",
+        "C. J. Hale",
+        "J. Gallego-Bartolome",
+        "S. Feng",
+        "A. A. Vashisht"
+      ]
+    },
+    {
+      "title": "Epigenomics in an extraterrestrial environment: organ-specific alteration of DNA methylation and gene expression elicited by spaceflight in Arabidopsis thaliana.",
+      "authors": [
+        "M. Zhou",
+        "N. J. Sng",
+        "C. E. Lefrois",
+        "A.-L. Paul",
+        "R. J. Ferl"
+      ]
+    },
+    {
+      "title": "Elongator mediates ABA responses, oxidative stress resistance and anthocyanin biosynthesis in Arabidopsis.",
+      "authors": [
+        "X. Zhou",
+        "D. Hua",
+        "Z. Chen",
+        "Z. Zhou",
+        "Z. Gong"
+      ]
+    },
+    {
+      "title": "Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of Arabidopsis thaliana.",
+      "authors": [
+        "A. K. Zupanska",
+        "F. C. Denison",
+        "R. J. Ferl",
+        "A.-L. Paul"
+      ]
+    }
+  ],
+  "original_title": "Epigenomic regulators elongator complex subunit 2 and methyltransferase 1 differentially condition the spaceflight response in Arabidopsis",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/4fa5a485c127/fpls-12-691790-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/9821faf0d83e/fpls-12-691790-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/a1956651b757/fpls-12-691790-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/11c7a165324f/fpls-12-691790-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/88dc3a4bf51c/fpls-12-691790-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/a73f8ef1b6e8/fpls-12-691790-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/4f2eeb30954d/fpls-12-691790-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/e367cae88f37/fpls-12-691790-g008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/6436cb3159af/fpls-12-691790-g009.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/01b15183bd5e/fpls-12-691790-g010.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/dd3ef2802414/fpls-12-691790-g011.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0141/8475764/b5be9f62488e/fpls-12-691790-g012.jpg"
+  ]
+}

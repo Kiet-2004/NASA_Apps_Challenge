@@ -1,0 +1,525 @@
+{
+  "pmcid": "PMC12008199",
+  "title": "Mechanosensing antagonizes ethylene signaling to promote root gravitropism in rice",
+  "abstract": "Root gravitropism relies on gravity perception by the root cap and requires tightly regulated phytohormone signaling. Here, we isolate a rice mutant that displays root coiling in hydroponics but normal gravitropic growth in soil. We identify COILING ROOT IN WATER 1 (CRW1) encoding an ETHYLENE-INSENSITIVE3 (EIN3)-BINDING F-BOX PROTEIN (OsEBF1) as the causative gene for the mutant phenotype. We show that the OsCRW1-EIN3 LIKE 1 and 2 (OsEIL1/2)-ETHYLENE RESPONSE FACTOR 82 (OsERF82) module controls the production of reactive oxygen species in the root tip, subsequently impacting root cap stability, polar localization of PIN-FORMED 2 (OsPIN2), symmetric distribution of auxin, and ultimately gravitropic growth of roots. The OsEIL1/2-OsERF82 ethylene signaling module is effectively impeded by applying gentle mechanical resistance to root tips, including growing in water-saturated paddy soil. We further show that mechanosensing-induced calcium signaling is required and sufficient for antagonizing the ethylene signaling pathway. This study has revealed previously unanticipated interplay among ethylene, auxin, and mechanosensing in the control of plant gravitropism.\n\nThis study demonstrated that amplified ethylene signaling impairs gravitropic growth of rice roots by affecting root cap stability and OsPIN2 polar localization, whereas mechanosensing-induced calcium signaling antagonizes ethylene signaling to safeguard gravitropism.",
+  "introduction": "Introduction\n\nThe terrestrial colonization of plants is a critical milestone in the Earth’s evolution history, dramatically increasing the productivity of organic carbon on land to support highly diverse ecosystems. The emergence of roots with a gravitropic growth pattern is a critical evolution for land plants, enabling them to anchor in the soil and absorb water and nutrients. Root gravitropism features perception of gravity by the root cap and directional growth regulation mediated by auxin. In gravity-oriented roots, symmetrical distribution of auxin in root tips maintain symmetrical growth. When root growth deviates from the direction of gravity, the amyloplasts in the columella cells of the root cap rapidly sink to the plasma membrane at the bottom, triggering the activation of gravity response via LAZY proteins. Such response entails relocation of the auxin exporter PIN-FORMED (PIN) in the cells and redistribution of auxin, thus promoting asymmetric auxin flow and asymmetric cell growth to bend the root tip to the gravity direction. Mutations in auxin transporters and gravity-signaling-related proteins often lead to defective root gravitropism during vertical growth, such as root tips growing toward random directions, wavy roots, and enlarged root angles.\n\nThe gaseous plant hormone ethylene plays crucial roles in plant development, senescence, and stress resistance. Ethylene biosynthesis and signaling are induced by specific conditions or stresses, including flooding, drought, low temperatures, and pathogens. Ethylene signaling pathway starts with ethylene receptors in the endoplasmic reticulum membrane and ends with gene regulation in the nucleus. In the nucleus, the core ethylene response transcription factors ETHYLENE INSENSITIVE3 (EIN3)/ EIN3-Like proteins (EILs) activate the transcription of specific downstream genes in response to ethylene-inducing stress events. When the stress signal fades and the ethylene level goes down, EIN3/EILs are degraded by the EIN3-BINDING F-box protein 1/2 (EBF1/2) mediated ubiquitination/proteasome pathway.\n\nAlthough ethylene is indispensable for plants, high level of ethylene is adverse for root growth. In compacted soil, diffusion of ethylene away from roots is limited, resulting in the accumulation of ethylene and inhibition of root penetration into the soil. Ethylene inhibits root elongation by interacting with other plant hormones, such as auxin and abscisic acid. For example, excess ethylene enhances auxin biosynthesis and promotes Auxin Response Factors (ARFs)-mediated transcriptional regulation to affect cell wall composition, thereby limiting the elongation of root cells. Excess ethylene also weakens root gravitropic response by affecting auxin biosynthesis. In addition, some auxin signaling and transport mutants exhibit both defective gravitropic phenotypes and insensitivity to ethylene. However, the specific mechanism whereby ethylene signaling controls gravitropic growth remains unclear.\n\nIn this study, we isolated an intriguing rice mutant that displays root coiling in hydroponic culture but normal gravitropic growth in soil. The mutated gene represents a loss-of-function allele for the EIN3-binding F-box protein OsCRW1/OsEBF1, leading to overaccumulation of the OsEIL1 and OsEIL2 and amplified ethylene signaling. We show that OsEIL1/2 act on the ethylene response factor OsERF82, which subsequently regulates the transcription of several genes involved in the production of reactive oxygen species (ROS). Overaccumulation of ROS in the root tip leads to premature loss of the root cap structure, impaired polar localization of OsPIN2 and auxin distribution, resulting in severely impaired gravitropism. In the soil-grown plants, however, gravitropism is restored in a mechanosensing-induced calcium signaling-dependent manner, revealing an intricate regulation of gravitropism by crosstalk between ethylene signaling and mechanosensing.",
+  "methods": "Methods\n\nPlant materials and growth conditions\n\nThe japonica rice cultivar Zhonghua11 was used as the wild type (WT) for all experiments. An ethyl methylsulfonate (EMS)-mutagenized population (M3 generation) was used for root phenotype screening. Transgenic plant materials were generated as described below. Seeds were surface sterilized with 15% NaClO for 30 min, washed with sterilized water, and placed in a 37 °C incubator for 2 days to promote germination. Germinated seeds were transferred to hydroponic boxes, soil culture boxes or agar plates to grow depending on the requirements of different experiments. Experiments were carried out in a growth room with the following conditions: temperature 28 °C ± 0.5 °C, humidity 50%–60%, 12-h photoperiod with a light intensity of 100 mmol of photons m−2 s−1. WT and mutant were also grown in two paddy fields (Nanjing and Sanya) to maturity. Agronomic traits, including plant height, tiller number, percentage of filled grains, 1000-grain weight and grain biomass per plant, were determined at plant maturity.\n\nPlasmid construction and plant transformation\n\nThe CRISPR/Cas9 system was used to knock out OsCRW1 (Os06g0605900) and OsEBF2 (Os02g0200900) in the Zhonghua11 background and OsEBF2, OsEIL1 (Os03g0324200), OsEIL2 (Os07g0685700), OsERF2 (Os06g0181700), OsERF81 (Os02g0520000), and OsERF82 (Os04g0399800) in the crw1 background. Two 20-bp target sequences were selected from the coding sequence (CDS) of each gene and cloned into two single-guide RNA (sgRNA) expression cassettes of pYLgRNA-OsU6a and pYLgRNA-OsU6b by overlapping PCR, producing proU6a-T1-sgRNA and proU6b-T2-sgRNA fragments, respectively. The two fragments were sequentially cloned into the BsaI site of the pYLCRISPR-Cas9Pubi-H vector to generate the ultimate plasmids. To generate the complementation constructs of proOsCRW1::OsCRW1, proOs06g0604400:: Os06g0604400 and proOs06g0619600::Os06g0619600, we amplified the promoter (1739 bp of proOsCRW1, 3 Kb of proOs06g0604400 and 3 Kb of proOs06g0619600) and the open reading frame (ORF) of OsCRW1, Os06g0604400 and Os06g0619600 from the DNA of Zhonghua11. The promoter and ORF were cloned together by overlapping PCR and introduced into the EcoRI/XbaI site of the pCAMBIAL1301 vector. To generate proOsCRW1::GFP constructs, we amplified the promoter of OsCRW1 (1739 bp) from the DNA of Zhonghua11and the GFP sequence from the pUN1301 vector with addition of the initiation codon. The promoter and GFP sequence were cloned together by overlapping PCR and introduced into the HindIII/SacI site of the pUN1301 vector. To generate pOsCRW1::GUS constructs, we amplified the promoter of OsCRW1 (1739 bp) from the DNA of Zhonghua11 and introduced OsCRW1 promoter into the HindIII/BamHI site of the p1300 vector. To generate proOsEIL1::OsEIL1-Flag and proOsEIL2::OsEIL2-Flag constructs, we amplified the promoter (2588 bp of proOsEIL1, 2500 bp of proOsEIL2) and the full-length CDS (without the stop codon) of OsEIL1 and OsEIL2 from the DNA and cDNA of Zhonghua11. The promoter and CDS were cloned together by overlapping PCR and introduced into the BamHI/SpeI site of the pTCK303 vector. To generate proUbi::OsEIL1 (OsEIL1-OX) and proUbi::OsEIL2 (OsEIL2-OX) constructs, we amplified the full-length CDS of OsEIL1 and OsEIL2 from the cDNA of cv. ZH11 and introduced the CDS segments into the BamHI/SacI site of the pUN1301 vector. The plasmids were transformed into the callus of Zhonghua11 or crw1 using Agrobacterium-mediated transformation. Transformants were verified by PCR. All primers used in this study are listed in Supplementary Table 1.\n\nZhonghua11 expressing DR5rev::VENUS, proOsPIN2::OsPIN2-GFP, or NES-YC3.6 were obtained from previous studies. These genotypes and Zhonghua11 expressing proOsEIL1::OsEIL1-Flag or proOsEIL2::OsEIL2-Flag were crossed with crw1 or oscrw1KO lines (maternal) to obtain the reporter or tag lines in the mutant background by PCR. The F3 seeds were used for experiments.\n\nRoot growth experiments\n\nGerminated seeds were placed on a net floating on deionized water for ten days and then transferred to ½ strength Kimura B nutrient solution for different durations according to the requirements of experiments. The nutrient solution was changed every three days, and the pH was maintained at 5.6-5.8. To investigate the effects of nutrients, pH, light and dissolved oxygen level on root phenotypes, we grew seedlings of crw1 and WT in hydroponic boxes filled with deionized water or nutrient solution at the ¼ and ½ strength, different solution pH (from 4 to 8), light condition (12 h/12 h light/dark or 24 h dark), with or without aeration treatment (dissolved oxygen level 12.45 and 5.36 mg/L, respectively). To compare the root phenotypes grown in water and solid media, we grew germinated seedlings in water (pH = 5.6-5.8), water-saturated paddy soil, water-saturated vermiculite or water-saturated peat pellet for 2-10 days. Dissolved oxygen concentrations in hydroponic solution and soil were measured using a dissolved oxygen probe. In some experiments, paddy soil was packed at a normal (1.0 g cm−3) and a high (1.6 g cm−3) bulk density. The penetration resistance of soil and other solid growth media was measured by using a soil compactness tester.\n\nTo investigate the effect of mechanical resistance on root phenotypes, we grew seedlings of WT and crw1 in agar-solidified medium with 0.3, 0.4, 0.6, 0.8, 1.0 or 1.2% (w/v) agar in square Petri dishes. The top 2-cm agar was removed and the emerged seminal roots (1-2 mm) of WT and crw1 were embedded in the agar and allowed to grow vertically for 2 to 3 days. To apply resistance on root tips, we made polystyrene foam spherical pellets (1 mm diameter) with a slit in the middle, placed root tip into the slit and grew seedlings in deionized water for 2-3 days. For chemical treatment, L-Kynurenine (L-Kyn, 10 μM), 1-Methylcyclopropene (1-MCP, 10 μM), 1-Aminocyclopropanecarboxylic Acid (ACC, 1 μM), N-acetylcysteine (NAC, 200 μM), diphenyleneiodonium (DPI, 50 nM), salicylhydroxamic acid (SHAM, 10 μM) or LaCl3 (100 μM) were added to deionized water or agar medium according to different experiments. Each genotype and treatment had at least 3 biological replicates, 7-12 plants per replicate in short-term hydroponic experiments, 3-6 plants per replicate in long-term hydroponic experiments, 3-4 plants per replicate in petri dish experiments, and 7-12 plants per replicate in soil-vermiculite experiments.\n\nMutMap-based gene cloning\n\nTo clone the causal gene responsible for the coiling-root phenotype of crw1, we backcrossed crw1 to WT (Zhonghua11) to generate F1 progenies. F1 progenies were selfed to generate F2 progenies. DNA was extracted from 50 F2 plants showing the coiling-root phenotype in water and mixed in equal proportions to generate a pooled genomic DNA of crw1. A pooled genomic DNA of WT was prepared in the same way. Genome sequencing was performed using Illumina Hiseq4000 at 50× and 30× coverage for crw1 and WT, respectively), generating 150-bp paired-end reads. After removing the adapter sequences and low-quality reads, clean reads were mapped to the reference genome sequence (OsNipponbare-Reference-RGAP7, MSU) using BWA software, followed by SNP-calling using GATK software. Causative variant were calculated using the MutMap SNP-index method and candidate SNPs were identified.\n\nTissue expression pattern analysis of OsCRW1\n\nTransgenic rice plants expressing proOsCRW1::GUS were grown in water for 3 days before being used for histochemical staining for the GUS activity in roots, and in nutrient solution for different durations for GUS staining of leaves and reproductive organs. Roots and other tissues were incubated with a GUS staining solution for 2 h at 37 °C, transferred to 70% ethanol overnight, and then photographed under an ultra-depth stereoscopic microscope (Leica, DVM6a). Transgenic rice plants expressing proOsCRW1::GFP were grown in water for 3 days and roots were cut and were placed on a slide for fluorescence imaging under a macro zoom microscope (Carl Zeiss, MVX10). The GFP fluorescence was observed at 505-560 nm for emission and 488 nm for excitation.\n\nSubcellular localization of OsCRW1 and OsERF82\n\nTo generate constructs of GFP-OsCRW1 or GFP-OsERF82 driven by the CaMV35S promoter (pro35S::GFP-OsCRW1 or pro35S::GFP-OsERF82), we amplified the full-length CDS of OsCRW1 or OsERF82 from the cDNA of Zhonghua11 and introduced the CDS into the HindIII/EcoRI site of the pSAT6-GFP-C vector. The fragments of pro35S::GFP-OsCRW1 or pro35S::GFP-OsERF82 were isolated from the pSAT6-GFP-C vector by PI-PspI endonuclease and introduced into the PI-PspI site of the pRCS2 vector. The plasmids were transformed into rice protoplasts for transient expression. Protoplasts were isolated from rice stems and labeled with the nucleus marker 4’,6-diamidino-2-phenylindole (DAPI) for co-localization. The GFP and DAPI fluorescence was observed under a confocal laser-scanning microscope (Carl Zeiss, LSM780) at 505-560 nm and 400-470 nm for emission, respectively, and at 488 nm and 360 nm for excitation, respectively.\n\nRoot cap size observation and amyloplast staining\n\nRoot tips from two-day-old seedlings were cut and stained with 0.1% (w/v) basic fuchsin solution for 6 h. Root tips were resin-embedded, sectioned according to a previous method, and photographed under a microscope to reveal the root cap size. Root tips from two-day-old seedlings were cut, stained with 5% (v/v) Lugol’s solution for 1 minute, washed with distilled water, and photographed under a microscope for the observation of the amyloplasts in the root caps. Lugol’s stock solution was prepared by dissolving 5% (m/v) iodine in 10% (m/v) KI solution.\n\nFluorescence imaging of OsPIN2 localization, auxin response, cytosolic Ca2+ and ROS\n\nPlants expressing proOsPIN2::OsPIN2-GFP or the reporter gene for auxin response (DR5rev::VENUS) or for cytosolic Ca2+ (NES-YC3.6, driven by the maize Ubiquitin promoter) were grown under different growth conditions or treatments for two to three days. Root tips were cut and immediately observed under a confocal laser-scanning microscope. The GFP fluorescence was observed as described above. The VENUS fluorescence was observed at 520-550 nm for emission and 515 nm for excitation. For NES-YC3.6 detection, the measurement of cpVENUS/ECFP ratio shifts was based on fluorescence resonance energy transfer according to a previous method. The ECFP fluorescence was observed at 460-490 nm for emission and 415 nm for excitation. For detection of ROS, roots were incubated with 10 μM H2DCFDA for 10 mins, washed with deionized water, and the ROS fluorescence was observed under a confocal laser-scanning microscope at 505-560 nm and 488 nm for emission and excitation, respectively.\n\nTUNEL assay\n\nThe TUNEL assay was used to detect the programed cell death of root caps. Root tips were sampled and fixed in 4% paraformaldehyde for 30 mins, followed by washing with phosphate-buffered saline (PBS). Root tips were immersed in PBS containing 0.3% Triton X-100 for 5 mins, washed with PBS, and incubated in the TUNEL detection solution (Beyotime, China) at 37 °C for 1 h. The TUNEL fluorescence was observed under a confocal laser-scanning microscope at 515-565 nm and 488 nm for emission and excitation, respectively.\n\nYeast two-hybrid (Y2H)\n\nThe Y2H assay was used to detect the interaction between OsCRW1 and OsEIL1 or OsEIL2.The full-length CDS of OsCRW1 was introduced into the EcoRI/BamHI site of the pGBKT7 vector to generate the pGBKT7-OsCRW1 vector expressing fusion proteins containing the yeast GAL4 transcription binding domain (BD). The full-length CDS of OsEIL1 or OsEIL2 was introduced into the EcoRI/BamHI site of pGADT7 to generate the pGADT7-OsEIL1 and pGADT7-EIL2 vector expressing fusion proteins containing the yeast GAL4 transcription activation domain (AD). The pGBKT7-OsCRW1 plasmid and pGADT7-OsEIL1 or pGADT7-OsEIL2 plasmid were transformed into the Y2H Gold yeast strain alone or in pairs. pGBKT7-53 together with pGADT7-T were transformed as a positive control, and pGBKT7-lam together with pGADT7-T were transformed as a negative control. The yeast colonies were cultured in Synthetic Dropout (SD) liquid medium (-Trp, -Leu) to an optical density (OD) of 0.8. The serially diluted yeast solution was inoculated on a double-deficient SD medium (-Trp, -Leu) and a quadruple-deficient SD medium (-Trp, -Leu, -His, -Ade, +X-α-gal) for growth.\n\nBimolecular fluorescence complementation\n\nThe full-length CDS of OsCRW1 was fused to the vector of pDONR221-P3P2, and the full-length CDS of OsEIL1 and OsEIL2 were fused to the vector of pDONR221-P1P4 by gateway cloning, and then were transferred into pBiFCt-2in1-NN vector alone or in pairs by LR clonase to fuse with the N- and C-terminal fragments of yellow fluorescent protein (YFP). The final plasmids were introduced into Agrobacterium tumefaciens strain GV3101. Bacterial cultures of the test combinations and controls were infiltrated into tobacco (Latin name) leaves. Two days after infiltration, the YFP signal was detected under confocal laser microscopy at 520-550 nm and 515 nm for emission and excitation, respectively.\n\nWestern blot\n\nFor immunological detection of OsEIL1-Flag, OsEIL2-Flag and OsActin in the roots of WT and crw1, total soluble proteins were extracted from 15-20 seminal roots with 1 ml plant protein extraction buffer. Proteins were denatured by heating at 95 oC for 10 min in a metal-bath and separated on 12% SDS-PAGE. Subsequently, proteins were transferred onto a polyvinylidene difluoride (PVDF) membrane and immunoblots were probed with the following antibodies in the TBST solution (100 mM Tris-HCl, 150 mM NaCl, 0.1%(v/v) Tween 20, pH=7.4) with 5% non-fat dry milk. A mouse anti-Flag antibody (Invitrogen, MA1-91878, 1:5000 dilution) and a mouse anti-Actin antibody (Beyotime, AA128, 1:5000 dilution) were used as the primary antibodies and HPR-conjugated goat anti-mouse IgG (Beyotime, A0216, 1:5000 dilution) was used as the secondary antibody. Chemiluminescence was performed using ECL Western Blotting Substrate (Beyotime, China) according to the manufacturer’s instructions.\n\nYeast one-hybrid\n\nThe full-length CDS of OsEIL1, OsEIL2 or OsERF82 was introduced into the EcoRI/BamHI site of the pGADT7 vector to express fusion proteins containing the yeast GAL4 transcription activation domain. To detect the binding of OsEIL1/2 with the EIN3-binding site (EBS, ATGTA) on the promoter of OsERF82, we introduced three copies of EBS into the SmaI/SalI site of the pAbAi vector. A random mutation sequence in EBS was designed (EBSmut, CGAGA) and used as a negative control. To detect the binding of OsERF82 with the GCC-box (GCCGCC), G-box (CACGTG) and DRE/CRT (GCCGAC) on the promoter sequence of OsRBOHH and three Class III OsPRX genes, we introduced three copies of DRE/CRT, GCC box and G box sequence into the SmaI/SalI site of the pAbAi vector. A random mutation sequence in each potential binding site was designed (GCC-boxmut, ACCACC; G-boxmut, AACTTG; DRE/CRTmut, GTCGAA) and used as a negative control. pAbAi carrying different binding sites were transformed into Y1H Gold yeast strain to screen the proper concentration of aureobasidin A (AbA) for inhibiting transcriptional self-activation. pGADT7 carrying OsEIL1 or OsEIL2 or OsERF82, and pAbAi carrying different sequences were co-transformed into Y1H Gold yeast strain. The yeast colonies were cultured in Leu-deficient SD liquid medium to OD of 0.8. The serially diluted yeast solution was inoculated on Leu-deficient SD medium (with or without AbA) for growth.\n\nElectrophoretic mobility shift assay (EMSA)\n\nThe full-length CDS of OsEIL1, OsEIL2 or OsERF82 were introduced into the NdeI/XhoI site of the pET29a vector and transformed into Escherichia coli BL21 to express OsEIL1-His, OsEIL2-His or OsERF82-His fusion protein. OsEIL1-His, OsEIL2-His and OsERF82-His fusion proteins were purified from E. coli by nickel affinity columns. Primers were designed for the EIN3-binding site (EBS, ATGTA) on the promoter sequence of OsERF82 or designed for the ERF-binding sites including the GCC box, the G box and the DRE/CRT sequence on the promoter sequence of OsRBOHH and three Class III OsPRX genes to synthesize biotin-labeled probes, unlabeled probes, and unlabeled mutation probes. The protein and probe were incubated with EMSA reaction solution (prepared according to the manufacturer’s protocol, Beyotime, China) for 20 min at room temperature, separated on a 5% polyacrylamide native gel at 4 °C, and transferred to a nylon membrane. After UV light cross-linking, the DNA on the membrane was detected using the Chemiluminescent Nucleic Acid Detection Module. Primers used are listed in Supplementary Table 2.\n\nChromatin immunoprecipitation (ChIP)- qPCR assay\n\nThe ChIP assay was performed using the BeyoChIP™ ChIP Assay Kit (Beyotime, P2080S, China) according to the manufacturer’s instructions. Plants of pOsEIL2::OsEIL2-Flag/crw1 and pOsEIL2::OsEIL2-Flag/crw1 were grown in water for two day, and 15-20 roots were collected as one biological replicate, with three biological replicates for each experiment. Root tissue was cross-linked in 1% (v/v) formaldehyde under vacuum. Chromatin was extracted from the samples and fragmented via ultrasound treatment to a size of 200-500 bp, and 2% of the yield was set aside as input template. The OsEIL1-DNA and OsEIL2-DNA complex were coimmunoprecipitated with anti-Flag antibody (Invitrogen, MA1-91878, 1:5000 dilution) and protein A/G beads (Beyotime, P2080S, China), or coimmunoprecipitated with IgG (Beyotime, A7028, China) with protein A/G beads. NaCl (0.2 M) was added to the solution of protein-DNA complex and heated at 65 °C for 4 hours to remove the cross-linking between protein and genomic DNA. According to the manufacturer’s instructions, DNA was extracted with phenol/chloroform agent for DNA purification (Solarbio, T0250, China). Primers (Supplementary Table 3) were designed near the three EBS sequences on the OsERF82 promoter. Primers and purified DNA were used for ChIP-qPCR.\n\nTransactivation activity of OsERF82\n\nThe full-length CDS of OsERF82 was introduced into the EcoRI/BamHI site of the pGBKT7 vector to generate the pGBKT7-OsCRW1 vector expressing fusion protein containing the yeast GAL4 transcription binding domain (BD). The pGBKT7-OsERF82 plasmid was transformed into the AH109 yeast strain. pGBKT7 plasmid was transformed as a negative control. The yeast colonies were cultured in Synthetic Dropout (SD) liquid medium (-Trp) to OD = 0.8. The serially diluted yeast solution was inoculated on Trp-deficient SD medium and double-deficient SD medium (-Trp, -His, +X-α-gal) for growth.\n\nRNA sequencing\n\nRNA sequencing was performed on roots of crw1 and WT grown in water or in a soil-vermiculite mixture for two days. Each group contained three replicates with 15-20 plants per replicate. Total RNA was extracted using a Plant Total RNA Extraction Kit (BioTeke). The cDNA libraries were sequenced on the Illumina NovaSeq 6000 sequencing platform at Benagen Technology (Wuhan, China), and 150-bp paired-end reads were generated. For the analysis of gene expression, fragments per kilobase of transcript per million mapped reads and read counts of each unigene were calculated and normalized based on the number of uniquely positioned reads overlapping the exon regions. Differentially expressed genes (DEGs) were identified using R software (v.3.5.1) with the DESeq2 package (http://bioconductor.org/packages/release/bioc/html/DESeq2.html).\n\nRNA extraction and quantitative real-time PCR\n\nTotal RNA was extracted using a Plant Total RNA Extraction Kit (BioTeke, Beijing, China). A HiScript II 1st Strand cDNA Synthesis Kit (Vazyme, Nanjing, China) was used to convert 1 μg of total RNA to 20 μL cDNA. Quantitative real-time PCR was performed on an RT-PCR detection system (CFX96, Bio-Rad) by using SYBR Green Master Mix (Vazyme, Nanjing, China). OsActin and OsHistone were used as the internal reference genes. The expression levels were calculated using the equation 2–Δ(ΔCt). Primers are shown in Supplementary Table 3.\n\nStatistics and reproducibility\n\nThe experiments performed in this study were repeated independently at least three times with similar results. The data are presented as the mean ± SD and the microscope images presented are the most representative of the results. The significance of the difference between two sets of data was tested by one- or two-sided Student’s t-test using Microsoft Excel 2019. The difference among more than two sets of data was analyzed by one-way or two-way ANOVA followed by Tukey’s test as post hoc analysis using IBM SPSS Statistics 21.0. No statistical method was used to predetermine sample size. No data were excluded from the analyses. The experiments were not randomized. The Investigators were not blinded to allocation during experiments and outcome assessment.\n\nReporting summary\n\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.",
+  "results": "Results\n\ncrw1 roots coil in water but not in soil\n\nWe screened an ethyl methylsulfonate-mutagenized population (approximately 5000 lines) of the rice (Oryza sativa L.) cultivar Zhonghua11 and isolated a mutant with root coiling phenotype when grown in hydroponic culture (Fig. 1a, Supplementary Movie 1). Both seminal and adventitious roots of the mutant coiled in the root tip region, resulting in a shorter root depth compared to the wild type (WT, Supplementary Fig. 1). Changes in nutrient supply, solution pH, aeration (dissolved oxygen level), and exposure to light did not alter the root coiling phenotype of the mutant in hydroponic culture (Supplementary Fig. 2). When grown in water-saturated solid media (e.g. paddy soil, soil-vermiculite mixture, vermiculite and peat pellet), however, the root coiling phenotype disappeared (Fig. 1a and Supplementary Fig. 3). We named the mutant coiling root in water (crw1).\n\nIn contrast to the distinctive root phenotype, shoots of crw1 grew normally in hydroponics (Supplementary Fig. 4a, b). Plants were grown to maturity in two paddy fields. In one paddy field, no significant difference was observed between crw1 and WT in any of the agronomic traits determined at plant maturity (Supplementary Fig. 4c–h), whereas in the other field there was a small and significant reduction in the percentage of filled grains and grain biomass per plant in crw1 compared with WT (Supplementary Fig. 4i–n).\n\ncrw1 exhibits smaller root cap, asymmetric auxin distribution and defective gravitropic response in hydroponic\n\nThe coiling phenotype of crw1 suggests that it may be a gravitropic mutant. Compared with WT, crw1 had a smaller root cap (Fig. 1b) and fewer amyloplasts in the root tip (Fig. 1c). When roots were placed horizontally, crw1 responded less sensitively to gravity than WT and started to coil at 6 h after horizontal placement (Fig. 1d, e and Supplementary Fig. 5), indicating impaired gravitropic response.\n\nAuxin distribution is crucial for root gravitropism. To examine the auxin distribution in the root tip, we introduced the auxin reporter DR5rev::VENUS into WT and crw1. When grown in water (Fig. 1g), WT roots showed symmetrical auxin distribution, whereas crw1 showed asymmetric auxin distribution at different stages of coiling (Fig. 1g). When WT roots were placed horizontally, gravity triggered rapid accumulation of auxin on the bottom side of the root tip, causing it to grow towards the gravity direction; once the root tip grew in the gravity direction, symmetrical auxin distribution was restored (Supplementary Fig. 6a). In contrast, crw1 exhibited an asymmetric auxin distribution at all stages under gravitational stimulation (Supplementary Fig. 6b). As expected, asymmetric auxin distribution led to asymmetric cell length on the two sides of the root tip (Supplementary Fig. 7a–c). Compared to WT, crw1 had a shorter meristem and fewer meristem cells (Supplementary Fig. 7d, e). Staining with 5-ethynyl-2-deoxyuridine (EdU) showed a lower proliferation of meristem cells in crw1 than WT (Supplementary Fig. 7f, g). Applying the auxin biosynthesis inhibitor L-Kynurenine (L-Kyn) or removing the root cap resulted in a more even auxin distribution (indicated by DR5rev::VENUS) and rescued the root coiling phenotype of crw1 (Supplementary Fig. 8).\n\nIn Arabidopsis thaliana, symmetrical auxin distribution in the root tip is maintained by the auxin exporter PIN2, which is polarly localized on the top of the root epidermal cells to allow the shootward flow of auxin from the root tip. This pattern of polar localization is conserved in seed plants. To examine the localization of OsPIN2 in the root tip, we introduced OsPIN2-GFP driven by its native promoter (pOsPIN2::OsPIN2-GFP) into WT and crw1 by crossing. OsPIN2-GFP was polarly localized in the epidermal cells in WT, whereas such polarity was lost in crw1 (Fig. 1h), which is consistent with the asymmetric auxin distribution observed in crw1 root tips.\n\nWhen grown in soil, all phenotypes of the mutant, including root coiling, root cap size, OsPIN2 polar localization, auxin distribution, and gravity response, were rescued to similar levels observed in WT (Fig. 1a–h and Supplementary Fig. 5). Taken together, these data suggest that the root coiling phenotype of crw1 in water is caused by a smaller root cap size with fewer amyloplasts and asymmetric auxin distribution resulted from OsPIN2 mis-localization.\n\nCloning the causative gene of crw1\n\nTo clone the causal gene for the crw1 phenotype, we backcrossed WT (paternal) with crw1 (maternal). All F1 plants showed the straight-root phenotype in water (Supplementary Fig. 9a), and the F2 progeny segregated into 340 and 119 straight and coiling-root, respectively, which is consistent with a 3:1 ratio (χ2 = 0.002, P = 0.966) (Supplementary Fig. 9b), indicating that the root coiling phenotype of crw1 resulted from recessive mutation of a single gene. We conducted genomic resequencing mapping and Mut-Map analysis on the F2 progeny and identified three candidate genes, Os06g0604400, Os06g0605900, and Os06g0619600 (Supplementary Fig. 9c, d). Complementation tests identified Os06g0605900 as the causative gene for the mutant phenotype, which we name COILING ROOT IN WATER 1 (OsCRW1) (Fig. 2a–d and Supplementary Fig. 9e, f). Compared to WT, a 3681-bp fragment deletion was identified in the promoter and a portion of the open reading frame of crw1 allele, resulting in a total loss of transcription (Fig. 2a, b). CRISPR/Cas9-mediated knockout of OsCRW1 (oscrw1KO) in WT also generated the same root coiling phenotype in water, which disappeared in soil (Fig. 2e, f and Supplementary Fig. 10a). The three oscrw1KO lines also showed smaller root caps and asymmetric auxin distribution in the root tips when grown in water, and these defective phenotypes were rescued when plants were grown in soil (Supplementary Fig. 10b, c).\n\nAnalysis of transgenic plants expressing pOsCRW1::GFP and pOsCRW1::GUS showed that OsCRW1 was expressed in both roots and shoots (Fig. 2g, h and Supplementary Fig. 11). In roots, OsCRW1 was strongly expressed in root tips, especially in the root cap (Fig. 2g, h). Transient expression of p35S::GFP-OsCRW1 in rice protoplasts showed that OsCRW1 was localized in the nucleus (Fig. 2i).\n\nElevated ethylene response in crw1 when grown in hydroponic\n\nOsCRW1 encodes an F-box domain containing protein (OsEBF1), a homolog of the Arabidopsis EIN3-binding F-box protein 1 (AtEBF1). Recent studies showed that OsEBF1 and OsEBF2 negatively control ethylene signaling like AtEBF1 and AtEBF2, and loss of function of OsEBF1 or OsEBF2 led to a hypersensitivity of root and coleoptile to exogenous ethylene, and a decreased resistance to brown planthopper in rice. To examine whether loss of function of OsEBF2 affects gravitropism, we knocked out OsEBF2 in the WT background using CRISPR/Cas9. No effect on root growth and gravitropism was found (Supplementary Fig. 12a, b). Knockout of OsEBF2 in crw1 did not exacerbate the root coiling phenotype in water, and also did not affect the phenotype recovery in soil (Supplementary Fig. 12c, d), suggesting that OsEBF2, unlike OsCRW1/OsEBF1, does not play a role in root gravitropism.\n\nWe performed RNA-seq analysis on WT and crw1 roots grown in water or soil. Among the differentially expressed genes (DEGs) between crw1 and WT grown in water, ethylene-responsive genes were strongly enriched, with 30 of the 32 DEGs being significantly upregulated in crw1, including 20 ethylene response transcription factors (ERFs) (Fig. 3a, b). When grown in soil, the number of DEGs between crw1 and WT decreased to 5, with 2 ethylene-related genes being upregulated in crw1 compared with WT (Supplementary Fig. 13). Application of 1-MCP, an ethylene response inhibitor, totally rescued the phenotypes of smaller root cap, asymmetric auxin distribution and root coiling in crw1 and three oscrw1KO lines in water (Fig. 3c–f), suggesting that excessive ethylene response leads to the root coiling phenotype.\n\nThe above findings support the notion that OsCRW1/OsEBF1 may, like Arabidopsis AtEBF1, function in the degradation of core ethylene response transcription factors. These may include OsEIL1 and OsEIL2 that are rice homologs of AtEIN3/EIL1 (Supplementary Fig. 14a), the central transcriptional factors controlling the activation of ethylene signaling and targets of AtEBF1. We investigated whether OsCRW1 interacts with OsEIL1/OsEIL2 proteins. Yeast two-hybrid (Y2H) and bimolecular fluorescence complementation (BiFC) assays showed that OsCRW1 physically interacted with OsEIL1 and OsEIL2 (Supplementary Fig. 14b, c). We generated transgenic plants expressing pOsEIL1::OsEIL1-Flag or pOsEIL2::OsEIL2-Flag in WT, and introduced these transgenes into crw1 by crossing. Western blot showed that crw1 roots accumulated much higher levels of OsEIL1 and OsEIL2 than WT when grown in water, but the differences largely disappeared when grown in soil (Fig. 4a, b). WT roots grown in water, submerged paddy soil, vermiculite or soil-vermiculite mixture showed similarly low levels of OsEIL1 (Supplementary Fig. 15), indicative of similar levels of ethylene in these media. In contrast, WT roots grown in a highly compacted soil (bulk density = 1.6 g cm−3) exhibited an elevated level of OsEIL1, indicating an increased ethylene consistent with the report by Pandey et al. Next, we knocked out OsEIL1 (oseil1KO/crw1) or OsEIL2 (oseil2KO/crw1) in crw1 by using CRISPR/Cas9 (Supplementary Fig. 14d, e), which essentially rescued the root coiling phenotype of crw1 in water (Fig. 4c, d), with the effect being greater in oseil1KO/crw1 than in oseil2KO/crw1. These results indicate that loss of function of OsCRW1/OsEBF1 leads to overaccumulation of both OsEIL1 and OsEIL2, causing the root coiling phenotype in water, with OsEIL1 playing a larger role than OsEIL2.\n\nNext, we overexpressed OsEIL1 or OsEIL2 driven by the maize Ubiquitin promoter, increasing the transcription of the two genes by 16-22- and 52-57-fold, respectively (Supplementary Fig. 16a, b). When grown in water, OsEIL1 and OsEIL2 overexpressing lines showed shorter and slightly curved roots compared with WT (Supplementary Fig. 16c). Addition of a small dose of the ethylene precursor ACC (1 μM) in water decreased root growth of WT slightly but caused OsEIL1 and OsEIL2 overexpressing lines to coil in the root tip region, a phenotype resembling crw1 (Supplementary Fig. 16d). Overexpression of OsEIL1 or OsEIL2 alone did not cause root coiling, likely because OsEIL1 or OsEIL2 is degraded in the presence of functional OsCRW1/OsEBF1. In contrast, enhanced ethylene concentration from ACC addition may repress the translation of OsCRW1/OsEBF1 and thus stabilize OsEIL1 and OsEIL2 proteins, as has been shown in Arabidopsis. When grown in soil, the shorter and curvy roots of OsEIL1 and OsEIL2 overexpressing lines were largely rescued (Supplementary Fig. 16e).\n\nOsEIL1 and OsEIL2 act on the ethylene response factor OsERF82\n\nTo search for the direct target genes downstream of OsEIL1 and OsEIL2 that cause root coiling in crw1, we analyzed the expression pattern of all of the 139 ERF genes from the transcriptomic data. We expected that the transcriptional levels of the target genes should match the phenotype changes, i.e. elevated in crw1 only in water but reduced in soil. When grown in water, 20 ERF genes were expressed at higher levels in crw1 roots than WT (Supplementary Fig. 17a). When grown in soil, 17 of these 20 ERF genes were equally highly expressed in both WT and crw1 (Supplementary Fig. 17b), suggesting that these 17 ERF genes may not be related to the root coiling phenotype of crw1. The three remaining ERF genes, OsERF2 (Os06g0181700), OsERF81 (Os02g0520000) and OsERF82 (Os04g0399800) were significantly downregulated in both WT and crw1 when grown in soil (Supplementary Fig. 17b). These ERF genes are potential candidate genes targeted by OsEIL1 and OsEIL2 and associated with the occurrence of the root coiling phenotype (Supplementary Fig. 17b, c and Fig. 4e). We used CRISPR/Cas9 to knock out the three ERF genes individually in the crw1 background (Supplementary Fig. 17d–f) and found that disruption of OsERF82 (oserf82KO/crw1) rescued the root coiling phenotype of crw1 in water to a large extent (Fig. 4f, g), whereas knockout of OsERF2 or OsERF81 had no effect (Supplementary Fig. 17g, h). The OsERF82 protein was localized in the nucleus and exhibited transactivation activity (Supplementary Fig. 18a, b). We used yeast one-hybrid (Y1H) and electrophoretic mobility shift assay (EMSA) to demonstrate that OsEIL1 and OsEIL2 could specifically bind to the EIN3-binding sites (EBS, ATGTA) in the promoter region (2.5 Kb) of OsERF82 (Fig. 4h–j and Supplementary Fig. 18c). Chromatin immunoprecipitation (ChIP)-qPCR of pOsEIL1::OsEIL1-Flag/crw1 and pOsEIL2::OsEIL2-Flag/crw1 transgenic plants showed that OsEIL1 and OsEIL2 bound to the EBS sequences in the OsERF82 promoter in vivo (Fig. 4k, l). Furthermore, knockout of OsEIL1 or OsEIL2 in crw1 largely abolished the upregulation of OsERF82 expression when grown in water (Fig. 4m). Taken together, the transcription factor OsERF82 acts as a direct target of OsEIL1 and OsEIL2 to amplify ethylene signaling and cause root coiling of crw1 in water. The complete rescue of the crw1 phenotype in oseil1/crw1 but the incomplete rescue in oserf82KO/crw1 suggests that other target genes regulated by OsEIL1 may also be involved.\n\nOsEIL1/OsEIL2-OsERF82-ROS nexus controls gravitropism\n\nIn addition to the ethylene signaling pathway, RNA-seq showed that genes related to production of reactive oxygen species (ROS) were also enriched in crw1 when grown in water but not in soil (Fig. 3a and Supplementary Fig. 19a), suggesting that ROS may be involved in the root coiling phenotype. Among the DEGs between crw1 and WT, a ROS-responsive gene Bsr-d1/ZFP36, a respiratory burst oxidase homolog enzyme gene (RBOHH) and four class III peroxidase genes were upregulated in crw1 (Supplementary Fig. 19b). It has been shown OsRBOHH is involved in ROS production in rice roots. The Class III peroxidases are also possibly involved in ROS production in multiple and functionally redundant ways. To examine whether ROS is involved in the root coiling phenotype, we used the ROS fluorescent probe H2DCFDA to monitor root ROS levels in WT and crw1 grown in water. Compared with WT, the ROS level in the root tips of crw1 was elevated dramatically, especially in the coiling region and the sloughing root cap cells (Fig. 5a). Aeration of hydroponic solution had no effect on the ROS level in crw1 (Supplementary Fig. 20). When grown in soil or vermiculite, ROS in crw1 roots returned to a low level comparable to that in WT, corresponding to the recovery of the root phenotype (Supplementary Fig. 19c, d). Increased programmed cell death was observed in the root cap cells of crw1 grown in water by the TUNEL assay (Fig. 5b), which was likely induced by excess ROS and explained why crw1 had a smaller root cap than WT. Application of the ROS scavenger N-acetylcysteine (NAC, 200 μM), the RBOH inhibitor diphenyleneiodonium (DPI, 50 nM), or the inhibitor of the class III peroxidase salicylhydroxamic acid (SHAM, 10 μM) in water reduced ROS in crw1 roots to the level comparable to that in WT (Fig. 5a and Supplementary Fig. 19e, f), prevented the excessive programmed cell death and sloughing of the root cap cells, and largely rescued the root coiling phenotype (Fig. 5b, c and Supplementary Fig. 19g, h). Furthermore, clearance of ROS restored the polar localization of OsPIN2 and symmetric distribution of auxin in the root tips of crw1 (Fig. 5d, e). Taken together, these data suggest that enhanced ROS generation, likely by RBOHs and PRXs, causes root coiling in crw1 by accelerating sloughing of root cap cells and impairing OsPIN2 localization.\n\nTo establish the causal relationship between excess ROS and the amplified OsEIL1/2-OsERF82 module in crw1 roots, we grew WT, crw1, oseil1KO/crw1 lines, oseil2KO/crw1 lines, and oserf82KO/crw1 lines in water and examined the ROS level in root tips. Knockout of OsEIL1, OsEIL2, or OsERF82 in crw1 decreased ROS to a similar level as in WT (Fig. 5f–h), suggesting that the amplified OsEIL1/2-OsERF82 module in crw1 leads to excessive ROS generation in the root tip. To explore how enhanced OsERF82 promotes ROS production, we found that the promoter regions (approximately 3 Kb) of OsRBOHH and three Class III OsPRX genes (Os09g0323700, Os06g0695400 and Os07g0638600) contain potential ERF binding sites, including DRE/CRT (GCCGAC), GCC-box (GCCGCC) and G-box (CACGTG) (Supplementary Fig. 21a). The Yeast one-hybrid (Y1H) and electrophoretic mobility shift assay (EMSA) demonstrated that OsERF82 specifically bound to the binding sites of the DRE/CRT, GCC-box and G-box in the promoter region of OsRBOHH and three Class III OsPRX genes (Supplementary Fig. 21b, c). Quantitative PCR showed that the transcriptional levels of OsRBOHH and the three Class III OsPRX genes were upregulated in crw1 root tips compared with those in WT (Supplementary Fig. 21d), whereas knockout of OsEIL1, OsEIL2 or OsERF82 in crw1 suppressed the upregulation of these genes (Supplementary Fig. 21d). Taken together, amplified OsEIL1/2-OsERF82 causes ROS accumulation in crw1 root tips likely by promoting the transcription of OsRBOHH and Class III OsPRX genes.\n\nMechanical resistance on the root tip rescued the root coiling phenotype of crw1\n\nAfter identifying amplified ethylene signaling module of OsEIL1/2-OsERF82 leading to ROS overproduction as the cause of impaired gravitropism in crw1, we explored the mechanism underlying the rescue of the root coiling phenotype in crw1 when plants were grown in water-saturated paddy soil and other solid media (Supplementary Fig. 3). These solid media were soft and had a penetration resistance of 35-67 Pa (Supplementary Fig. 3a), which is 25-47 folds smaller than that in the same paddy soil unsaturated with water (moisture content 20%) and compacted to a bulk density of 1.6 g cm−3 (i.e. a condition similar to that used in the study of Pandey et al.). To test the strength of mechanical resistance required to rescue the crw1 phenotype, we grew the mutant and WT in agar-solidified medium varying in the hardness by adding different amounts of agar (0.3 – 1.2%, mass/volume). crw1 showed root coiling in 0.3% and 0.4% agar media (penetration resistance 1 - 6 Pa) just as in water or nutrient solution (Supplementary Fig. 2b), curvy roots in 0.6% agar (penetration resistance 19 Pa), and normal straight roots in 0.8 – 1.2% agar (penetration resistance 34 – 77 Pa) (Fig. 6a–c). Similar phenotypic responses to different concentrations of agar (0.4%, 0.8% and 1.2%) were observed when crw1 plants were grown on the surface of vertical agar plates tilted at a 10° angle to allow the root tips in contact with varying degrees of mechanical resistance (Supplementary Fig. 22). These results suggest that a gentle mechanical resistance of ≥ 34 Pa is sufficient to rescue the root coiling phenotype of crw1.\n\nTo further examine the effect of mechanical resistance, we attached a polystyrene foam pellet (1-mm diameter) to the root tip of crw1 grown in water, which applied a mechanical stimulus to the root tip through the buoyance of water against the foam pellet (Fig. 6d). The pellet was open at the top to allow normal gas diffusion. The resistance of the foam pellet to the root tip was estimated to be approximately 104 Pa (Supplementary Fig. 23). The attachment of foam pellet did not affect the root cap size and symmetric auxin distribution in WT, but largely rescued the root cap size, auxin distribution and the root coiling phenotype of crw1 (Supplementary Fig. 24 and Fig. 6e, f), indicating that the root tip is the site for sensing mechanical stimulus which rescues the loss of gravitropism in crw1.\n\nSoil compaction may restrict ethylene diffusion away from plant roots, thus amplifying ethylene signaling and inhibiting root growth. We compared root growth of WT and crw1 in a paddy soil packed at a normal (1.0 g cm−3) and a high (1.6 g cm−3) bulk density. Both levels of bulk density restored the coiling root phenotype of crw1 to straight roots. At 1.0 bulk density, WT, crw1 and two oscrw1KO mutants showed similar root length (Supplementary Fig. 25). Increasing bulk density to 1.6 decreased the root length of WT by 36% and of crw1 and two oscrw1KO mutants by 47-51% (Supplementary Fig. 25). The larger inhibition in crw1 is consistent with the heightened ethylene signaling.\n\nMechanosensing rescuing crw1 phenotype requires calcium signaling in the root cap\n\nCalcium (Ca2+) is a critical signal in plant responses to mechanical stimuli. To investigate whether Ca2+ signaling is involved in the rescue of the root coiling phenotype in crw1, we expressed NES-YC3.6, a cytosolic Ca2+ ([Ca2+]cyt) reporter gene, driven by the maize Ubiquitin promoter in WT and then introduced the gene into crw1 through crossing. The root caps of both WT and crw1 growing in four different solid media showed a significantly higher [Ca2+]cyt signal than those growing in water, and there were no significant differences between WT and crw1 (Fig. 7a, b). Similarly, the [Ca2+]cyt signal remained low in the root caps of both WT and crw1 when grown in 0.3% and 0.4% agar, and increased significantly when both were grown in 0.8-1.2% agar (Supplementary Fig. 26). These results suggest that a gentle mechanical resistance of approximately ≥ 34 Pa enhances [Ca2+]cyt in the root cap and beyond this threshold there is no further increase in [Ca2+]cyt. Moreover, loss of function of OsCRW1/OsEBF1 does not affect [Ca2+]cyt in the root cap or its response to mechanical resistance.\n\nTo investigate whether the enhanced Ca2+ signal in the root cap is involved in the recovery of crw1’s phenotypes, we applied 100 μM LaCl3, a Ca2+ channel blocker, to 0.8% agar. We found that LaCl3 suppressed [Ca2+]cyt in the root caps (Fig. 7c, d) and largely abolished the rescue effect of mechanical resistance on the root cap size and auxin distribution (Fig. 7e, f). Importantly, the addition of LaCl3 abolished the recovery of the root coiling phenotype in crw1 grown in 0.8-1.2% agar (Fig. 7g and Supplementary Fig. 27), indicating the root cap calcium signal triggered by mechanosensing is required for the rescue of gravitropism in crw1.\n\nThe observation that growing in soil prevented overaccumulation of OsEIL1 and OsEIL2 in crw1 roots (Fig. 4a, b) suggests that mechanosensing-Ca2+ signaling may rescue the root coiling phenotype of crw1 by limiting the accumulation of OsEIL1 and OsEIL2. Western blot showed that crw1 roots accumulated OsEIL1 and OsEIL2 when grown in 0.4% agar, and accumulation of the two proteins was suppressed to the WT levels when grown in 0.8% agar (Fig. 7h, i). Addition of 100 μM LaCl3 to 0.8% agar suppressed [Ca2+]cyt in the root caps, resulting in an over-accumulation of OsEIL1 and OsEIL2 in the crw1 roots (Fig. 7h, i). There were no significant differences in the transcript levels of OsEIL1 and OsEIL2 between WT and crw1 in different agar concentrations or between 0.8% agar with and without addition of LaCl3 (Supplementary Fig. 28), suggesting that the effect of mechanosensing-induced Ca2+ signaling on the protein levels of OsEIL1 and OsEIL2 is not related to transcriptional regulation of OsEIL1 and OsEIL2. Furthermore, upregulation of OsERF82 and excess ROS production in crw1 roots were observed when grown in 0.4% agar but not in 0.8% agar, whereas the addition of LaCl3 to 0.8% agar medium significantly increased OsERF82 transcription and ROS accumulation in crw1 roots (Fig. 7j and Supplementary Fig. 29). In WT roots, OsEIL1 and OsEIL2 proteins were kept at low levels because of the presence of OsCRW1, which likely explains the lack of response of OsERF82 transcription and ROS level to mechano-sensing induced Ca2+ signaling in WT. These results suggest that mechano-sensing induced Ca2+ signaling inhibits the amplified module of OsEIL1/OsEIL2-OsERF82-ROS in crw1, and rescues the root cap structure, OsPIN2 polar localization, auxin distribution, and consequently gravitropism.\n\nThe root coiling phenotype in hydroponics occurs in natural rice accessions\n\nRice roots show considerable natural variation in the growth phenotype when grown in hydroponics. During the screen of a panel of 230 rice accessions consisting mainly of landraces in the lower Yangtze River delta in China, we found that 53, 46 and 131 accessions exhibited the root coiling, straight root, and intermediate phenotypes, respectively, when grown in water (Supplementary Fig. 30a). We randomly selected 8 accessions each with coiling or straight roots (Supplementary Fig. 30b, c). Quantitative PCR showed that the group of root coiling accessions had a significantly lower level of OsCRW1 transcript than the group with straight roots (Supplementary Fig. 30d). Addition of 1-MCP to water straightened the coiling roots (Supplementary Fig. 30e), suggesting the phenotype in these rice accessions is likely caused by enhanced ethylene signaling. When grown in water-saturated paddy soil, the root coiling phenotype was completely rescued (Supplementary Fig. 30f), which is consistent with the phenotype recovery of crw1. In highly compacted soil, coiling-root accessions showed shorter root elongation than straight-root accessions, which is consistent with the phenotypes of crw1 and WT, respectively (Supplementary Fig. 30g).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Plant signalling",
+    "Tropism",
+    "Plant hormones",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Palaeozoic landscapes shaped by plant evolution",
+      "authors": [
+        "MR Gibling",
+        "NS Davies"
+      ]
+    },
+    {
+      "title": "Body building on land—morphological evolution of land plants",
+      "authors": [
+        "L Dolan"
+      ]
+    },
+    {
+      "title": "Evolution of fast root gravitropism in seed plants",
+      "authors": [
+        "Y Zhang",
+        "G Xiao",
+        "X Wang",
+        "X Zhang",
+        "J Friml"
+      ]
+    },
+    {
+      "title": "Molecular mechanisms of root gravitropism",
+      "authors": [
+        "S-H Su",
+        "NM Gibbs",
+        "AL Jancewicz",
+        "PH Masson"
+      ]
+    },
+    {
+      "title": "Auxin transport—shaping the plant",
+      "authors": [
+        "J Friml"
+      ]
+    },
+    {
+      "title": "Chen, J. et al. Amyloplast sedimentation repolarizes LAZYs to achieve gravity sensing in plants. Cell, 186, 4788–4802 (2023).",
+      "authors": []
+    },
+    {
+      "title": "Cell polarity linked to gravity sensing is generated by LZY translocation from statoliths to the plasma membrane",
+      "authors": [
+        "T Nishimura"
+      ]
+    },
+    {
+      "title": "Intracellular trafficking and proteolysis of the Arabidopsis auxin-efflux facilitator PIN2 are involved in root gravitropism",
+      "authors": [
+        "L Abas"
+      ]
+    },
+    {
+      "title": "Lateral relocation of auxin efflux regulator PIN3 mediates tropism in Arabidopsis",
+      "authors": [
+        "J Friml",
+        "J Wiśniewska",
+        "E Benková",
+        "K Mendgen",
+        "K Palme"
+      ]
+    },
+    {
+      "title": "Gravity-induced PIN transcytosis for polarization of auxin fluxes in gravity-sensing root cells",
+      "authors": [
+        "J Kleine-Vehn"
+      ]
+    },
+    {
+      "title": "Bending to auxin: fast acid growth for tropisms",
+      "authors": [
+        "L Li",
+        "M Gallei",
+        "J Friml"
+      ]
+    },
+    {
+      "title": "Müller, A. et al. AtPIN2 defines a locus of Arabidopsis for root gravitropism control. EMBO J. 17, 6903–6911 (1998).",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis AUX1 gene: a permease-like regulator of root gravitropism",
+      "authors": [
+        "MJ Bennett"
+      ]
+    },
+    {
+      "title": "LARGE ROOT ANGLE1, encoding OsPIN2, is involved in root system architecture in rice",
+      "authors": [
+        "L Wang"
+      ]
+    },
+    {
+      "title": "Rice auxin influx carrier OsAUX1 facilitates root hair elongation in response to low external phosphate",
+      "authors": [
+        "J Giri"
+      ]
+    },
+    {
+      "title": "A root system architecture regulator modulates OsPIN2 polar localization in rice",
+      "authors": [
+        "Y Li"
+      ]
+    },
+    {
+      "title": "The pivotal role of ethylene in plant growth",
+      "authors": [
+        "M Dubois",
+        "L Van den Broeck",
+        "D Inzé"
+      ]
+    },
+    {
+      "title": "Ethylene signaling in rice and Arabidopsis: New regulators and mechanisms",
+      "authors": [
+        "H Zhao",
+        "C-C Yin",
+        "B Ma",
+        "S-Y Chen",
+        "J-S Zhang"
+      ]
+    },
+    {
+      "title": "Arabidopsis ethylene-response gene ETR1: similarity of product to two-component regulators",
+      "authors": [
+        "C Chang",
+        "SF Kwok",
+        "AB Bleecker",
+        "EM Meyerowitz"
+      ]
+    },
+    {
+      "title": "Ethylene insensitivity conferred by arabidopsis ERS gene",
+      "authors": [
+        "J Hua",
+        "C Chang",
+        "Q Sun",
+        "EM Meyerowitz"
+      ]
+    },
+    {
+      "title": "EIN4 and ERS2 are members of the putative ethylene receptor gene family in Arabidopsis",
+      "authors": [
+        "J Hua"
+      ]
+    },
+    {
+      "title": "CTR1 phosphorylates the central regulator EIN2 to control ethylene hormone signaling from the ER membrane to the nucleus in Arabidopsis",
+      "authors": [
+        "C Ju"
+      ]
+    },
+    {
+      "title": "Processing and subcellular trafficking of ER-tethered EIN2 control response to ethylene gas",
+      "authors": [
+        "H Qiao"
+      ]
+    },
+    {
+      "title": "CTR1, a negative regulator of the ethylene response pathway in Arabidopsis, encodes a member of the raf family of protein kinases",
+      "authors": [
+        "JJ Kieber",
+        "M Rothenberg",
+        "G Roman",
+        "KA Feldmann",
+        "JR Ecker"
+      ]
+    },
+    {
+      "title": "Activation of the ethylene gas response pathway in arabidopsis by the nuclear protein ETHYLENE-INSENSITIVE3 and related proteins",
+      "authors": [
+        "Q Chao"
+      ]
+    },
+    {
+      "title": "Nuclear events in ethylene signaling: a transcriptional cascade mediated by ETHYLENE-INSENSITIVE3 and ETHYLENE-RESPONSE-FACTOR1",
+      "authors": [
+        "R Solano",
+        "A Stepanova",
+        "Q Chao",
+        "JR Ecker"
+      ]
+    },
+    {
+      "title": "Plant responses to ethylene gas are mediated by SCFEBF1/EBF2-dependent proteolysis of EIN3 transcription factor",
+      "authors": [
+        "H Guo",
+        "JR Ecker"
+      ]
+    },
+    {
+      "title": "EIN3-dependent regulation of plant ethylene hormone signaling by two arabidopsis F box proteins: EBF1 and EBF2",
+      "authors": [
+        "T Potuschak"
+      ]
+    },
+    {
+      "title": "Ethylene signaling in rice and arabidopsis: Conserved and diverged aspects",
+      "authors": [
+        "C Yang",
+        "X Lu",
+        "B Ma",
+        "S-Y Chen",
+        "J-S Zhang"
+      ]
+    },
+    {
+      "title": "Plant roots sense soil compaction through restricted ethylene diffusion",
+      "authors": [
+        "BK Pandey"
+      ]
+    },
+    {
+      "title": "Ethylene inhibits rice root elongation in compacted soil via ABA-and auxin-mediated mechanisms",
+      "authors": [
+        "G Huang"
+      ]
+    },
+    {
+      "title": "Rice EIL1 interacts with OsIAAs to regulate auxin biosynthesis mediated by the tryptophan aminotransferase MHZ10/OsTAR2 during root ethylene responses",
+      "authors": [
+        "Y Zhou"
+      ]
+    },
+    {
+      "title": "CELLULOSE SYNTHASE-LIKE C proteins modulate cell wall establishment during ethylene-mediated root growth inhibition in rice",
+      "authors": [
+        "Y Zhou"
+      ]
+    },
+    {
+      "title": "Ethylene modulates flavonoid accumulation and gravitropic responses in roots of Arabidopsis",
+      "authors": [
+        "CS Buer",
+        "P Sukumar",
+        "GK Muday"
+      ]
+    },
+    {
+      "title": "Kong, X. et al. Ethylene regulates auxin-mediated root gravitropic machinery and controls root angle in cereal crops. Plant Physiol. 195, 1969–1980 (2024).",
+      "authors": []
+    },
+    {
+      "title": "EIR1, a root-specific protein involved in auxin transport, is required for gravitropism inArabidopsis thaliana",
+      "authors": [
+        "C Luschnig",
+        "RA Gaxiola",
+        "P Grisafi",
+        "GR Fink"
+      ]
+    },
+    {
+      "title": "E3 ubiquitin ligase SOR1 regulates ethylene response in rice root by modulating stability of Aux/IAA protein",
+      "authors": [
+        "H Chen"
+      ]
+    },
+    {
+      "title": "A translational regulator MHZ9 modulates ethylene signaling in rice",
+      "authors": [
+        "Y-H Huang"
+      ]
+    },
+    {
+      "title": "Novel crosstalk between ethylene- and jasmonic acid-pathway responses to a piercing–sucking insect in rice",
+      "authors": [
+        "F Ma",
+        "X Yang",
+        "Z Shi",
+        "X Miao"
+      ]
+    },
+    {
+      "title": "The F-box protein OsEBF2 confers the resistance to the brown planthopper (Nilparvata lugens Stål)",
+      "authors": [
+        "F Ma"
+      ]
+    },
+    {
+      "title": "Histidine kinase MHZ1/OsHK1 interacts with ethylene receptors to regulate root growth in rice",
+      "authors": [
+        "H Zhao"
+      ]
+    },
+    {
+      "title": "MAOHUZI6/ETHYLENE INSENSITIVE3-LIKE1 and ETHYLENE INSENSITIVE3-LIKE2 regulate ethylene response of roots and coleoptiles and negatively affect salt tolerance in rice",
+      "authors": [
+        "C Yang"
+      ]
+    },
+    {
+      "title": "EIN2-directed translational regulation of ethylene signaling in Arabidopsis",
+      "authors": [
+        "W Li"
+      ]
+    },
+    {
+      "title": "An NADPH oxidase RBOH functions in rice roots during lysigenous aerenchyma formation under oxygen-deficient conditions",
+      "authors": [
+        "T Yamauchi"
+      ]
+    },
+    {
+      "title": "Specific functions of individual class III peroxidase genes",
+      "authors": [
+        "C Cosio",
+        "C Dunand"
+      ]
+    },
+    {
+      "title": "The molecular machinery of regulated cell death",
+      "authors": [
+        "D Tang",
+        "R Kang",
+        "TV Berghe",
+        "P Vandenabeele",
+        "G Kroemer"
+      ]
+    },
+    {
+      "title": "A transcriptional regulator that boosts grain yields and shortens the growth duration of rice",
+      "authors": [
+        "S Wei"
+      ]
+    },
+    {
+      "title": "Calcium signaling mechanisms across kingdoms",
+      "authors": [
+        "S Luan",
+        "C Wang"
+      ]
+    },
+    {
+      "title": "Glutamate triggers long-distance, calcium-based plant defense signaling",
+      "authors": [
+        "M Toyota"
+      ]
+    },
+    {
+      "title": "FRET-based genetically encoded sensors allow high-resolution live cell imaging of Ca2+ dynamics",
+      "authors": [
+        "M Krebs"
+      ]
+    },
+    {
+      "title": "Ethylene biosynthesis and signaling networks",
+      "authors": [
+        "KL-C Wang",
+        "H Li",
+        "JR Ecker"
+      ]
+    },
+    {
+      "title": "Gravitropism in roots of intermediate‐starch mutants of Arabidopsis",
+      "authors": [
+        "JZ Kiss",
+        "JB Wright",
+        "T Caspar"
+      ]
+    },
+    {
+      "title": "Gravitropism in a starchless mutant of arabidopsis: Implications for the starch-statolith theory of gravity sensing",
+      "authors": [
+        "T Caspar",
+        "BG Pickard"
+      ]
+    },
+    {
+      "title": "Root adaptation to H2O2-induced oxidative stress by ARF-GEF BEN1- and cytoskeleton-mediated PIN2 trafficking",
+      "authors": [
+        "M Zwiewka"
+      ]
+    },
+    {
+      "title": "Root growth responses to mechanical impedance are regulated by a network of ROS, ethylene and auxin signalling in Arabidopsis",
+      "authors": [
+        "AGR Jacobsen",
+        "G Jervis",
+        "J Xu",
+        "JF Topping",
+        "K Lindsey"
+      ]
+    },
+    {
+      "title": "Growth conditions modulate root-wave phenotypes in arabidopsis",
+      "authors": [
+        "CS Buer",
+        "J Masle",
+        "GO Wasteneys"
+      ]
+    },
+    {
+      "title": "Ethylene modulates root-wave responses in arabidopsis",
+      "authors": [
+        "CS Buer",
+        "GO Wasteneys",
+        "J Masle"
+      ]
+    },
+    {
+      "title": "Zhang, Z. et al. Arabidopsis MLO4 functions as a Ca2+ channel essential for mechanosensing in root tips. BioRxiv. 2022.06.05.494847 (2022).",
+      "authors": []
+    },
+    {
+      "title": "On the mechanical origins of waving, coiling and skewing in arabidopsis thaliana roots",
+      "authors": [
+        "A Porat",
+        "A Tekinalp",
+        "Y Bhosale",
+        "M Gazzola",
+        "Y Meroz"
+      ]
+    },
+    {
+      "title": "Rain-, wind-, and touch-induced expression of calmodulin and calmodulin-related genes in Arabidopsis",
+      "authors": [
+        "J Braam",
+        "RW Davis"
+      ]
+    },
+    {
+      "title": "In touch: plant responses to mechanical stimuli",
+      "authors": [
+        "J Braam"
+      ]
+    },
+    {
+      "title": "Insights into land plant evolution garnered from the marchantia polymorpha genome",
+      "authors": [
+        "JL Bowman"
+      ]
+    },
+    {
+      "title": "CRISPR-GE: a convenient software toolkit for CRISPR-based genome editing",
+      "authors": [
+        "X Xie"
+      ]
+    },
+    {
+      "title": "Transformation of rice mediated by agrobacterium tumefaciens",
+      "authors": [
+        "Y Hiei",
+        "T Komari",
+        "T Kubo"
+      ]
+    },
+    {
+      "title": "Wang, H.-Q., Zhao, X.-Y., Xuan, W., Wang, P. & Zhao, F.-J. Rice roots avoid asymmetric heavy metal and salinity stress via an RBOH-ROS-auxin signaling cascade. Mol Plant. 16, 1678–1694 (2023).",
+      "authors": []
+    },
+    {
+      "title": "Effect of silicon on the growth and phosphorus uptake of rice",
+      "authors": [
+        "J Ma",
+        "E Takahashi"
+      ]
+    },
+    {
+      "title": "Fast and accurate short read alignment with burrows–wheeler transform",
+      "authors": [
+        "H Li",
+        "R Durbin"
+      ]
+    },
+    {
+      "title": "The genome analysis toolkit: A mapreduce framework for analyzing next-generation DNA sequencing data",
+      "authors": [
+        "A McKenna"
+      ]
+    },
+    {
+      "title": "Genome sequencing reveals agronomically important loci in rice using MutMap",
+      "authors": [
+        "A Abe"
+      ]
+    },
+    {
+      "title": "Arabidopsis mesophyll protoplasts: a versatile cell system for transient gene expression analysis",
+      "authors": [
+        "S-D Yoo",
+        "Y-H Cho",
+        "J Sheen"
+      ]
+    },
+    {
+      "title": "Cadmium inhibits lateral root emergence in rice by disrupting OsPIN-mediated auxin distribution and the protective effect of OsHMA3",
+      "authors": [
+        "H-Q Wang",
+        "W Xuan",
+        "X-Y Huang",
+        "C Mao",
+        "F-J Zhao"
+      ]
+    }
+  ],
+  "original_title": "Gravity signaling in flowering plant roots",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/6272dafdae62/41467_2025_59047_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/c1e7c81c015c/41467_2025_59047_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/8fe77709aa62/41467_2025_59047_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/1f5352ad2af4/41467_2025_59047_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/ecd21bd63286/41467_2025_59047_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/1d1c30467367/41467_2025_59047_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/d3cda9128e3c/41467_2025_59047_Fig7_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5a77/12008199/f94e8b146e5c/41467_2025_59047_Fig8_HTML.jpg"
+  ]
+}

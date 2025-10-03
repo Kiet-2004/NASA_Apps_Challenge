@@ -1,0 +1,171 @@
+{
+  "pmcid": "PMC7516158",
+  "title": "Draft Genome Sequences of Lactobacillales Isolated from the International Space Station",
+  "abstract": "Nineteen strains from the order Lactobacillales were isolated from the International Space Station and commercial resupply vehicle, and whole-genome sequences (WGS) were generated. WGS would permit the characterization of these potentially pathogenic bacteria that have been adapting to the extreme conditions of the space environment.\n\nABSTRACT\n\nNineteen strains from the order Lactobacillales were isolated from the International Space Station and commercial resupply vehicle, and whole-genome sequences (WGS) were generated. WGS would permit the characterization of these potentially pathogenic bacteria that have been adapting to the extreme conditions of the space environment.",
+  "introduction": "ANNOUNCEMENT\n\nThe order Lactobacillales consists of Gram stain-positive, facultative anaerobes validly described by Ludwig et al.. Members of the genus Enterococcus are found to possess human pathogenicity characteristics such as antibiotic resistance and therefore pose health concerns for those on Earth and astronauts residing in the International Space Station (ISS). However, Aerococcus urinaeequi, a nonpathogenic strain, was first isolated from horse urine. Astronauts on long flights are immunocompromised due to microgravity-induced physiological and mental stress. Decreased immune response allows bacteria to take growth advantage due to their adaptability potential in the space environment. Understanding the genomic makeup of these potential pathogens will help the development of suitable countermeasure and mitigation strategies. Members of the order Lactobacillales isolated from the ISS and the commercial resupply vehicle (CRV) surfaces were Enterococcus faecalis, Enterococcus faecium, and Aerococcus urinaeequi. E. faecalis and E. faecium have been reported as nosocomial isolates harboring vancomycin and ampicillin resistance. A. urinaeequi was isolated from a chronic kidney disease patient and has also been reported to be resistant to vancomycin. Further characterization of the whole-genome sequences (WGS) of these ISS environmental strains, including virulence genes, and subsequent confirmation in animal models are required to decipher their potential pathogenicity.\n\nThe strains used for the WGS were collected from three different ISS locations across two flights and seven different surface locations, including one field control on CRV6, and are detailed in Table 1. The samples collected from the ISS were brought back to Earth and aseptically processed, and suitable aliquots of the sample concentrate (100 μl) were plated onto Reasoner’s 2A (R2A) or Trypticase soy agar (TSA) medium and incubated at 25°C for 7 days. A single well-isolated colony on a culture plate was archived at −80°C. Genomic DNA was extracted from the overnight-grown cultures on TSA medium using a ZymoBIOMICS DNA MagBead kit according to the manufacturer’s instructions.\n\nThe WGS of 19 bacterial isolates were prepared using the Illumina Nextera Flex protocol for library preparation, as used in similar studies. The NovaSeq 6000 S4 flow cell paired-end 2 × 150-bp platform was used to execute paired-end sequencing. FastQC v0.11.7 was used to validate the quality of the raw sequencing data. Adapter trimming and quality filtering were carried out using the software fastp v0.20.0 to perform quality control. The cleaned sequences were assembled using SPAdes v3.11.1. The N50 values, numbers of contigs, and total genome lengths were generated using QUAST v5.0.2 and used to assess the quality of the final assembly. The average nucleotide identity was calculated by comparing all strains with their respective type strains, and their taxonomic affiliations, as well as genome statistics, are given in Table 1. The NCBI Prokaryotic Genome Annotation Pipeline v4.12 was used for genome annotation. Default parameters were used for all software.\n\nData availability.\n\nThis WGS project has been deposited at DDBJ/ENA/GenBank, and the accession numbers are given in Table 1 (BioProject accession no. PRJNA645454 with 16 strains and PRJNA649272 with 3 strains). The versions described in this paper are the first versions.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "",
+      "authors": [
+        "W Ludwig",
+        "KH Schleifer",
+        "WB Whitman",
+        "WB Whitman",
+        "P De Vos",
+        "GM Garrity",
+        "D Jones",
+        "NR Krieg",
+        "W Ludwig",
+        "FA Rainey",
+        "KH Schleifer"
+      ]
+    },
+    {
+      "title": "One year cross-sectional study in adult and neonatal intensive care units reveals the bacterial and antimicrobial resistance genes profiles in patients and hospital surfaces",
+      "authors": [
+        "AP Christoff",
+        "AFR Sereia",
+        "BS Braga",
+        "TPL Raduan",
+        "MDV Martino",
+        "FG de Menezes",
+        "LFV de Oliveira",
+        "GNF Cruz",
+        "DCd Bastiani",
+        "VL Silva",
+        "C Hernandes",
+        "APM Nascente",
+        "AA dos Reis",
+        "RG Viessi",
+        "ASP Marques"
+      ]
+    },
+    {
+      "title": "Reclassification of Pediococcus urinaeequi (ex Mees 1934) Garvie 1988 as Aerococcus urinaeequi comb. nov",
+      "authors": [
+        "GE Felis",
+        "S Torriani",
+        "F Dellaglio"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": [
+        "PW Taylor"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "NI Agudelo Higuita",
+        "MM Huycke",
+        "MS Gilmore",
+        "DB Clewell",
+        "Y Ike"
+      ]
+    },
+    {
+      "title": "Vancomycin resistance due to vanA in an Aerococcus viridans isolate",
+      "authors": [
+        "W Zhou",
+        "D Niu",
+        "Z Zhang",
+        "M Ning",
+        "H Shen",
+        "K Zhang"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data",
+      "authors": [
+        "S Andrews"
+      ]
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": [
+        "S Chen",
+        "Y Zhou",
+        "Y Chen",
+        "J Gu"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": [
+        "S-H Yoon",
+        "S-m Ha",
+        "J Lim",
+        "S Kwon",
+        "J Chun"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Lactobacillales Isolated from the International Space Station"
+}

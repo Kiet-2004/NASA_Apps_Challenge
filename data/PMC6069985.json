@@ -1,0 +1,384 @@
+{
+  "pmcid": "PMC6069985",
+  "title": "Effects of liquid cultivation on gene expression and phenotype of C. elegans",
+  "abstract": "Background\n\nLiquid cultures have been commonly used in space, toxicology, and pharmacology studies of Caenorhabditis elegans. However, the knowledge about transcriptomic alterations caused by liquid cultivation remains limited. Moreover, the impact of different genotypes in rapid adaptive responses to environmental changes (e.g., liquid cultivation) is often overlooked. Here, we report the transcriptomic and phenotypic responses of laboratory N2 and the wild-isolate AB1 strains after culturing P0 worms on agar plates, F1 in liquid cultures, and F2 back on agar plates.\n\nResults\n\nSignificant variations were found in the gene expressions between the N2 and AB1 strains in response to liquid cultivation. The results demonstrated that 8–34% of the environmental change-induced transcriptional responses are transmitted to the subsequent generation. By categorizing the gene expressions for genotype, environment, and genotype-environment interactions, we identified that the genotype has a substantial impact on the adaptive responses. Functional analysis of the transcriptome showed correlation with phenotypical changes. For example, the N2 strain exhibited alterations in both phenotype and gene expressions for germline and cuticle in axenic liquid cultivation. We found transcript evidence to approximately 21% of the computationally predicted genes in C. elegans by exposing the worms to environmental changes.\n\nConclusions\n\nThe presented study reveals substantial differences between N2 and AB1 strains for transcriptomic and phenotypical responses to rapid environmental changes. Our data can provide standard controls for future studies for the liquid cultivation of C. elegans and enable the discovery of condition-specific genes.\n\nElectronic supplementary material\n\nThe online version of this article (10.1186/s12864-018-4948-7) contains supplementary material, which is available to authorized users.",
+  "introduction": "Background\n\nAll living systems possess the fundamental property to regulate physical or genetic states in response to environmental stimuli. Caenorhabditis elegans offers one of the unique models to study the effects of environmental changes as it can reproduce in large numbers and has a natural ability to live in both solid and liquid conditions. This eukaryotic organism provides the opportunity to study genetic mechanisms in the whole animal rather than a cell culture. In addition, it can consume a bacterial or an axenic food source thereby enabling the identification of diet-related biological processes. Placing the worms from bacteria seeded agar plates (OP50 NGM) to liquid axenic media poses a drastic change for the animals. For example, the animals display locomotive differences in the liquid by swimming via a rapid C-shape thrashing motion as opposed to crawling via a sinusoidal configuration on solid. Behavior and physiological differences arise when the worms are grown in liquid axenic media (such as CeMM; C. elegans Maintenance Medium or CeHR; C. elegans Habitation and Reproduction). In axenic media, the worms exhibit phenotypical alterations such as delayed development, reduced fecundity, increased longevity, and altered body morphology. Environment changes can trigger different gene expression profiles, and these profiles can be transmitted to the subsequent generations. Changing the environment of the animals from agar to axenic media, therefore, can cause transcriptome-level alterations which may have a sustained effect on the progenies. However, the knowledge about transcriptomic responses to axenic media is limited. For example, in their microarray analysis, Szewczyk et al. could manage to obtain reliable data for only 1202 cDNAs on all three arrays consistently for CeMM-grown worms. The common usage of axenic media in space, toxicology, and pharmacology studies highlights the necessity of a complete transcriptomic analysis, preferably with RNA-sequencing (RNA-seq).\n\nIn its natural habitat, C. elegans occupies microbiota-rich decaying plant material and experiences a continuous environment shift between liquid and solid conditions along with the variations in its diet. The wild-type laboratory strain of C. elegans (N2) has been cultured in both liquid and solid conditions, but bacteria-seeded agar plates are used more commonly. It has been reported that the domestication of the N2 strain has created a selective pressure on the animals. Some of the critical questions that await answers are whether: 1.) the adaptive responses depend on the genotype or the environment change; 2.) the environment change-induced gene expression profiles are transmitted to the successive generation in equal levels for different genotypes; 3.) the environment change-induced gene expression profiles are transmitted to the next generation equally for different environmental conditions.\n\nTo study the maternal effects on transcriptomic responses of C. elegans from solid to liquid environments, we maintained the P0 worms on bacteria-seeded agar plates and F1 in liquid cultures. By culturing F2 generation back on agar, we identified the maintained maternal transcriptional responses. The N2 strain and a wild isolate AB1 strain were used to examine if a different genotype attributes to the transcriptional dynamics. It is important to note that even though the N2 and the AB1 strains are relatively close to each other in the phylogenetic tree, AB1 is not the ancestral strain of N2. Therefore, the observed differences in norm of reaction can stem from the natural genetic differences between N2 and AB1 as much as the impact of laboratory domestication on adaptive responses. We found substantial variances in gene expression profiles resulting from different genotypes, environments, and genotype-environment interactions. Our results from RNA-seq data analysis and microscopy showed consistency for the predicted and observed phenotype. Furthermore, we demonstrated that a large number of genes are expressed only in specific growth conditions, and many of these genes previously lacked experimental expressed sequence tag (EST) or cDNA evidence.",
+  "methods": "Methods\n\nC. elegans strains and growth conditions\n\nWild-type N2, wild-isolate AB1, and MD701 bcIs39 [lim-7p::ced-1::GFP + lin-15(+)] strains were obtained from the Caenorhabditis Genetics Center (CGC). All animals were grown at 21 °C. Embryos were isolated via the bleaching protocol in each step and placed in the following growth media: E. coli OP50 seeded on NGM agar plates (OP50 NGM), 1 mL of S-Medium in 20 mL scintillation vials inoculated with a concentrated E. coli OP50 pellet made in 6 mL of an overnight culture (OP50 S-Medium), and CeHR medium in 20 mL scintillation vials according to Nass and Hamza with minor modifications (we used 50 μM hemin instead of 20 μM and used 30 μM HEPES instead of 10 μM).\n\nRNA isolation, Illumina sequencing\n\nTotal RNA from approximately 100,000 synchronized young adult C. elegans (4 h post L4) were isolated with a modified TRIzol protocol and recovered by alcohol precipitation. Total RNA was further purified by PureLink ™ RNA Mini Kit (Life Technologies). Two micrograms of total RNA were used for library preparations using the TruSeq Stranded mRNA LT Sample Prep Kit (Illumina). Libraries were sequenced on an Illumina HiSeq 2500 instrument set to the rapid run mode using single-end, 1 × 51 cycle sequencing reads as per manufacturer’s instructions.\n\nqRT-PCR\n\nQuantitative RT-PCR was conducted using 1st strand cDNA synthesized from total RNA and gene-specific primers (Additional file 1: Table S3). Each cDNA sample was amplified using the SYBR® Premix Ex Taq ™ II (Takara Bio) on the ABI 7500 Fast Real-time PCR System (Applied Biosystem) according to the manufacturers. The experiment was performed by three independent experiments with biological triplicates.\n\nBioinformatics analyses\n\nThe Tuxedo pipeline was used to find DEGs with default parameters. The reference genome (WBCel235) was obtained from Ensembl. Data from the study conducted by Dallaire et al. were retrieved from Gene Expression Omnibus (accession number GSE54173) to compare the expression of the unconfirmed genes in OP50 NGM-grown N2, and the same pipeline with the same parameters were used for the analysis of the data. The same pipeline with same parameters were used to analyze RNA-seq data. We considered genes with FPKM > 1, FDR adjusted p-values < 0.05, and log2 fold change > 2 as differentially expressed. miRNA, piRNA, and rRNA molecules were discarded from the analysis. The ncRNA molecules (WS250) and unconfirmed genes were acquired from WormBase through the ftp site and personal communications, respectively. The motif enrichment analysis was performed with MEME Suite (v4.11.1). The promoter sequences for the motif enrichment were retrieved from UCSC Genome Browser database for ce11. Find Individual Motif Occurrences (FIMO) was used to find the enrichment of the detected sequence motifs for the known transcription factor recognition sites. We utilized GOMO (v4.12.0) software to identify the enriched human GO terms for the promoter sequence motifs. GO and pathway enrichment analyses was made with the Database for Annotation, Visualization and Integrated Discovery (DAVID) (v6.8), and Benjamini Hochberg corrected and FDR adj. p-values < 0.05 considered significant. Tissue and phenotype enrichment analyses were made by using WormBase Gene Set Enrichment Analysis tool, FDR adj. p-values < 0.05 considered significant. Long, thin, and alae morphology variant phenotype genes were retrieved from WormBase (WS262). R software was used for all statistical analyses and the plots.\n\nMicroscopy\n\nNematodes were fixed in cold (− 20 °C) methanol for 15 min and stained with SYBR Gold (1:500,000 dilution in PBS) or DAPI (100 ng/mL) for 15 min, or Nile Red (5 ng/mL) for 30 min, at 21 °C with gentle rocking. Worms were destained in PBST, washed three times with M9 and mounted on a 2% agarose pad for microscopy. All micrographs were taken with the Zeiss 710 laser scanning confocal microscope with a 40×/1.2 N.A. water immersion objective. Dissected gonads were stained with SYBR gold as mentioned above. Nematodes were placed onto 0.22 μM filters where the excess liquid was removed to visualize cuticular structures via cryo-SEM. Upon attaching the filter paper onto the sample holder, samples were plunged into liquid nitrogen slush. There a vacuum was pulled allowing sample transfer to the Gatan Alto 2500 cryo chamber at a temperature of − 125 °C. Samples were sublimated for 10 min at 90 °C followed by cooling to − 125 °C. A thin layer of Gold Palladium was sputtered onto the samples. The samples were then transferred into a Hitachi S-4700 Field-Emission Scanning Electron Microscope for imaging. At least 20 animals were screened for each phenotype, and the represented figures were used for the observed phenotypes.\n\nAdditional files",
+  "results": "Results\n\nTo induce an adaptive response and observe its sustained effects on the following generation, the P0 generation C. elegans was grown on agar, the F1 generation in liquid, and the F2 generation back on agar (Additional file 1: Figure S1a). We carried out three sets of experiments with different food sources and animal strains. For the first experiment, the F1 generation N2 strain was grown in axenic CeHR Medium. To examine the effect of dietary changes in the liquid cultures, we cultured the F1 generation N2 strain in bacterial S-Medium for the second experiment. Finally, the transcriptomic response differences were investigated by growing F1 generation AB1 strain in CeHR Medium. For each generation, RNA-seq was performed on young adult animals with three replicates to determine the transcriptional responses (Additional file 1: Table S1).\n\nDistinct gene groups are expressed exclusively in specific environmental conditions\n\nThe transcriptome-based clustering of the experiments in the dendrogram of Jensen-Shannon distances demonstrated that the genotypes are separated from each other (Fig. 1a). Exposure to different environmental conditions causes the N2 transcriptome to be separated even further than the AB1 transcriptome as illustrated by the dendrogram and principal component analysis (Fig. 1a, b, Additional file 1: Figure S1b). These results suggest that the genotype plays a key role in adaptive response, and the different strains of the animals can show highly distinct transcriptome profiles under environmental changes. We categorized the genes by using Venn diagrams to identify if their expressions are condition specific (Fig. 1c). We considered the genes expressed if their Fragments Per Kilobase of transcript per Million mapped reads (FPKM) values are greater than one as this is a commonly used criterion for expression. The majority of the expressed genes are conserved among the P0, F1, and F2 generations. Nevertheless, hundreds of genes are expressed only under particular conditions. The number of the uniquely expressed genes showed a significant difference between CeHR grown AB1 and N2 strains, but not within the N2 strain experiments (Chi-squared test with Yates correction; P-value = 0.01 and P-value = 0.9, respectively). In addition, the N2 strain showed an overall decrease in the transcription levels when exposed to the changes in growth conditions (Additional file 1: Figure S2). AB1 strain, however, demonstrated an increase in the total FPKM but a decrease in the average FPKM under CeHR (Additional file 1: Figure S2). Interestingly, the number of gene expression patterns transmitted to the next generation after exposure to an environment change (F1F2) varies among the experiments (Chi-squared test with Yates correction; P-value < 0.001). Together, these results seem to suggest that the transmission of the gene expression is not exclusively dependent on the genotype and the environment separately—but dependent on their interaction, whereas the condition-specific expression of genes is affected by the genotype.\n\nFurther analyses revealed that non-coding RNA (ncRNA) molecules are enriched (16–78%) in our pool of condition-specific transcripts indicating their function in rapid adaptive responses (Fig. 1c). To note, only the polyadenylated ncRNA molecules were included in the analysis, and piRNA and miRNA molecules were excluded from the analysis due to their short lengths. The ncRNA molecules were predominantly observed in the P0 generation of N2 strain compared to the P0 AB1 strain. Moreover, fewer ncRNA molecules were expressed when the animals are exposed to an environment change (Fig. 1c, d, and Additional file 1: Figure S3). Our results indicate that ncRNA expression is mainly silenced when the worms are exposed to the tested environmental changes. The fact that a laboratory condition presents an environment change for the wild-isolate may explain why P0 animals of AB1 showed less ncRNA expression compared to the N2 strain. One particular exception to this pattern is the ncRNA molecules that are commonly expressed in all three generations. We identified that the majority of these ncRNAs (59–66%, n = 322) are conserved among the three experiments (Additional file 2: Dataset S1). This conservation implies that this group of ncRNAs plays important regulatory functions in the cell and their expression is required regardless of the environmental changes. Overrepresented phenotype for these ncRNAs is dendrite development variant (FDR adj. p-value < 0.01, six-fold enrichment) suggesting a potential role for them in generation of neuronal extensions.\n\nWe reasoned that if a particular group of genes is only expressed under specific conditions, we might detect transcript evidence to computationally predicted but experimentally unconfirmed genes, especially considering that CeHR is not a common medium used in C. elegans research. Notably, we were able to identify transcript evidence to 21% of the list of unconfirmed genes from WormBase by simply growing the animals in different environmental conditions (Fig. 1e). Unexpectedly, a substantial amount of the transcript evidence was found with animals raised in commonly used OP50 NGM. We compared our list of expressed unconfirmed genes in OP50 NGM-grown N2 to those from a previous study and found that 54% of the unconfirmed genes from our list (n = 292) have also shown expression in the study by Dallaire et al. but were not reported as transcript evidence in WormBase. The remaining 46% of the genes must have been induced due to the subtle differences introduced in laboratory environment (e.g., light and environment). Similar to the confirmed genes, gene expression transmission to the successive generation after environmental change demonstrated a difference between and within the strains (Chi-squared test with Yates correction; P-value < 0.001, P-value = 0.02, respectively). Given that it can robustly provide transcript evidence to unconfirmed genes, our approach and data can be a rich resource for discovery of novel genes.\n\nEnvironment, genotype, and environment-genotype specific expression of genes\n\nWe grouped the genes based on their genotype, environment, or genotype-environment interaction specific expressions (Fig. 2 and Additional file 3: Dataset S2). For this analysis, a more stringent criterion was used to eliminate any potential noise from the data. That is, we only considered the genes with expression levels higher than pmp-3 of FPKM = 21, and excluded genes with FPKM < 21 from the analysis. This housekeeping gene was selected as a reference because of its stable expression levels found both in our analysis and previous studies. Specifically for the ncRNA molecules, we reasoned that expression levels higher than that of a housekeeping gene should provide strong evidence for expression.\n\nWe defined the genes that are expressed in only one environmental condition for both the strains as “environment-specific”, and found that CeHR-specific gene expression displayed Gene Ontology (GO) enrichment for the neuropeptide signaling pathway. Given that this pathway functions in numerous behavioral activities such as reproduction, locomotion, mechanosensation and chemosensation, it is likely that the neuropeptide signaling pathway plays a crucial role in rapid adaptation to CeHR and is evolutionarily conserved between the strains.\n\nThe “genotype-specific” expression represents the genes found in only one of the strains under a single environmental condition. All the N2 specific genes showed GO enrichment for body morphogenesis in all the three generations while GO enrichment for reproduction and locomotion were observed in P0 and F1 generations (Fig. 2). Previously, we reported that the N2 worms produce less progeny compared to the AB1 animals in CeHR. Our analysis showed that along with the reproduction genes, genes related to hermaphrodite genitalia development were expressed exclusively in the N2 strain in CeHR. This finding may suggest vulva aberrations in the reproductive system. In addition, the exclusive expression of the genes functioning in positive regulation of multicellular organism growth may help the animals readapt to the OP50 NGM condition in the F2 generation of the N2 animals.\n\nThe genes expressed solely under a particular environment and strain were categorized as “genotype-environment interaction” genes (Fig. 2). This group of genes did not demonstrate an enrichment of GO terms. The proportion of ncRNA molecules in our group of genes showed correlation with our hypothesis that the majority of the ncRNAs are silenced under the tested environmental changes. For example, the N2 worms showed relatively higher proportions of ncRNAs for interaction and genotype-related genes on OP50 NGM, but these proportions were much lower in more stressful CeHR and CeHR reversion (Fig. 2).\n\nN2 strain presents higher differential expression under environment changes\n\nTo investigate the differences in transcriptional responses between the strains and among the environmental conditions, we identified the differentially expressed genes (DEGs). We considered genes as differentially expressed if their FPKM is greater than one and their expression is altered over two-folds among the conditions with FDR-adjusted p-values ≤ 0.05. The estimated fold change responses of 20 randomly selected transcripts (ten for OP50 NGM against CeHR and ten for CeHR against CeHR reversion) were confirmed by quantitative RT-PCR (Additional file 1: Figure S4a, b and Additional file 1: Table S2 and S3). We found the highest number of DEGs between OP50 NGM and CeHR conditions for the N2 strain (Fig. 3). This indicates that the change in diet and physical environment triggers more transcriptional responses for adaptation of the N2 strain. The number of DEGs were much lower for the F2 generation of the same experiment, suggesting that the majority of the gene expressions started to resemble the P0 animals. This finding was expected as most of the gene expression patterns return to the steady-state levels after a short period. The change in only the physical condition introduced by the S-Medium apparently did not cause as drastic transcriptional responses as the CeHR since the number of the DEGs were lower (38 and 45% lower number of upregulated and downregulated genes, respectively). However, S-Medium reversion conditions demonstrated higher DEGs compared to OP50 NGM. We note that we are able to maintain the worms in S-Medium for only one generation, potentially because of the toxins released by the bacteria in the liquid environment. Therefore, additional genetic mechanisms may be required for re-adaptation of the animals from S-Medium. Transcriptional variations were more modest across the generations for AB1 animals than the N2 strain.\n\nSubstantial discrepancies have been reported for the C. elegans gene expressions among axenic media studies. We wished to compare our results to those from CeMM-grown worms as CeMM has a very similar base medium to CeHR. For the 21 upregulated and 26 downregulated genes reported in a previous study, we could only identify one common downregulated gene in N2 and AB1 and four and seven common upregulated genes in N2 and AB1, respectively (Additional file 1: Table S4). It is unclear why the DEGs among the axenic media studies mostly disagree, but some potential reasons can be the difference in the technology used and the modifications made in the media. For instance, microarray technology has been reported to introduce more background noise and cross-hybridization and detect a lesser number of DEGs compared to RNA-seq. A more unified study conducted with RNA-seq may help resolve the discrepancy issues among the axenic media experiments.\n\nIn our previous study, we have shown that CeHR-grown N2 and AB1 C. elegans display different phenotypical traits on their body morphology. That is, adult animals of both strains demonstrated physical differences in CeHR compared to the OP50 NGM-grown ones, but the CeHR-grown AB1 strain was even longer and thinner than the CeHR-grown N2 strain in average (N2 length is 825.2 ± 74.3 μm and width is 45.9 ± 10.1 μm, and AB1 length is 876.8 ± 67.0 μm and width is 38.3 ± 4.7 μm). In accordance with this finding, the GO enrichment analysis results demonstrated enrichment for body morphogenesis for upregulated genes in CeHR compared to OP50 NGM in the N2 strain, but not the AB1 strain (Fig. 3). Moreover, genes upregulated under the CeHR condition in the AB1 strain compared to the N2 strain were overrepresented for body morphogenesis. The fact that this GO term is not enriched for AB1 may imply that the phenotype is caused by a separate transcriptional mechanism. To test this, we acquired the genes associated with “long” and “thin” phenotypes from WormBase and compared these genes to the DEGs in our list. These phenotypes are generally found by RNAi knockdown of genes. We found that six and nineteen differentially expressed genes functioning in long or thin phenotypes in N2 and AB1, respectively, but only one gene, his-67, was common between the strains (Additional file 1: Table S5). Thus, it is possible that the different gene expression profiles contribute to the body morphology variations between the strains.\n\nNeuropeptide signaling pathway genes were enriched in response to environmental changes. The pathway genes were upregulated in the liquid environments compared to agar in N2 and AB1. The differential expression of this pathway genes in liquid conditions did not maintain their expression patterns in the next generation. This finding supports our hypothesis that neuropeptide signaling pathway can be a crucial mechanism in rapid adaptive responses and it is conserved in the different strains of C. elegans.\n\nGiven the component differences in OP50 NGM, CeHR, and S-Medium, it is expected to observe variations in the expressions of metabolic process genes among these conditions. We performed pathway enrichment analysis on DEGs to determine whether dietary sensor pathways, such as insulin/insulin-like growth factor (IGF) and target of rapamycin (TOR), are affected in the tested liquid cultivations. We have not observed enrichment for the renowned dietary sensor pathways but found other metabolic pathways to be affected. For instance, in CeHR, metabolic process in N2 and lysosome and fatty acid metabolism in AB1 demonstrated overrepresentation (Table 1). CeMM-grown animals have been reported not to show pathologies related to starvation. Similarly, we have not detected differential expression for dietary restriction linked insulin-like signaling, pha-4/FoxA, skn-1/Nrf, or nhr-49/Hnf4. Together, these results seem to suggest that CeHR does not trigger a starvation response in the worms.\n\nParticular environmental change-triggered DEGs in F1 maintained their upregulation or downregulation in the next generation. The transmission of the environment-induced differential gene expressions to the F2 generation from F1 was between 20 and 34% (Fig. 4a). To assess whether the transmitted differential gene expressions are orchestrated by the same transcriptional regulators (i.e., transcription factors), we first evaluated the promoter regions of these genes for motif enrichments as potential recognition sites. The S-Medium experiment did not present any motif enrichment while the CeHR did for multiple sequence motifs in both the strains. The enriched motifs from both the upregulated and downregulated genes demonstrated differences between the strains, indicating that distinct transcriptional regulators can potentially be in play. We further compared the motifs from the upregulated genes against known transcription factor recognition sites to find if common transcription factors induce gene expressions in CeHR for the strains. One such motif from both the strains is a recognition site for transcription factor MDL-1 (Additional file 1: Figure S5a). This transcription factor has regulatory functions in the inhibition of germline growth and longevity. Other motifs from upregulated genes did not exhibit enrichment for transcription factor recognition. To test the human biological processes related to the putative MDL-1 recognition motifs from both the strains, we performed GO analysis for the DNA motifs against human promoters. Both the motifs were overrepresented with the sensory perception of smell GO term, presumably corresponding to chemosensation functioning in the detection of environmental changes in worms. However, other enriched terms were different for these two motifs. For instance, the motif from the N2 strain had an overrepresentation of DNA damage checkpoint and transcription initiation from RNA polymerase II promoter while the motif from the AB1 strain was enriched for G-protein coupled receptor protein signaling pathway and positive regulation of immune response (Additional file 1: Figure S5a).\n\nWe next sought to identify the transcriptional factor genes expressed at higher levels in the F1 and F2 generations. We considered the F1-induced transcription factor genes as the putative regulators of the environmental change responses and F2-induced ones as the putative regulators of re-adaptive responses. The comparison of our list of DEGs to the putative transcription factor genes revealed that the majority of the differentially expressed transcription factors genes are strain and condition-specific (Additional file 1: Figure S5b). None of the CeHR reversion-induced transcription factor genes were common between the strains indicating different transcriptional re-adaptive responses to agar plates for the N2 and AB1 strains. We identified only five shared CeHR-enriched transcription factor genes between the strains, and six shared genes between the CeHR and S-Medium conditions in N2 (hypergeometric test; p-value < 0.001). Neuron and muscle cell enriched R06C1.6 was commonly induced in CeHR for both the strains and in S-Medium for N2, suggesting a role for R06C1.6 in swimming behavior.\n\nTo explore whether the DEGs among the F1 generations show similar spatial expressions, we performed tissue enrichment analysis (Fig. 4b). We discarded any enrichments on embryonic cells as we conducted all our experiments on the L4 stage worms. The downregulated genes in CeHR demonstrated enrichment for reproductive system-related tissues such as the oocyte, Z2, and Z3 for both the strains. This possibly reflects the changes in the reproduction of the worms in CeHR. However, upregulated genes in CeHR exhibited overrepresentation on different tissues between the strains: DEGs in N2 were mainly enriched for cylindrical hypodermal syncytium in head; DEGs in AB1 were enriched for neuronal tissues. The genes upregulated in response to S-Medium showed overrepresentation for neuronal tissues, but to different ones than the CeHR-exposed AB1 strain genes. Notably, downregulated genes in CeHR for both the strains and in S-Medium for N2 are enriched in cephalic sheath cell (Fig. 4b). Altogether, these findings suggest that laboratory and wild-isolate strain worms show significant variations in the transcriptomic responses to the environmental alteration.\n\nFunctional profiles of the differentially expressed genes show correlation with the observed phenotype\n\nWe wondered if the functional data analysis results indeed point to phenotypical alterations in the animals. To test this, we employed microscopy techniques to detect the potential phenotypes. In the N2 strain, the genes functioning in reproduction and oogenesis have been downregulated in CeHR compared to agar and reversion. In AB1, the DEGs among the conditions did not show the same GO enrichment. This pattern is an indicator of phenotypical changes in the reproductive system that can be observed in CeHR but absent in reversion for N2. To test our prediction, we examined the germlines of N2 and AB1 adults in the different growth conditions via confocal microscopy (Fig. 5a, b, Additional file 1: Figure S8). CeHR grown N2 but not AB1 adults displayed aberrant germlines. Additionally, fewer oocytes were observed in CeHR-grown N2 strain compared to OP50 NGM-grown N2 strain. These findings suggest that the reduced fecundity in CeHR raised N2 animals may have resulted from the inability of animals to make gametes. In agreement with our hypothesis, the worms placed back to agar plates did not exhibit the similar phenotypical abnormalities with CeHR grown animals (Additional file 1: Figure S6).\n\nThen, we asked if these germline abnormalities were caused by an increase in physiological germ cell apoptosis. We utilized a transgenic line of C. elegans that expresses functional CED-1::GFP fusion protein in sheath cells. CED-1 functions by initiating a signaling pathway in phagocytic cells that promotes cell corpse engulfment and is commonly used as a marker to detect cells undergoing the apoptotic pathway. In CeHR grown adults, CED-1::GFP was detected in a much higher proportion of germ cells (Fig. 6a, Additional file 1: Figure S8). Why the number of apoptotic germ cells in CeHR grown N2 adults were increased and whether or not this was the sole cause of aberrant germlines will require further investigations.\n\nFor the N2 worms, another GO enrichment term was collagen and cuticulin-based cuticle development for upregulated genes in CeHR compared to agar and reversion generations. Hence, we reasoned that the cuticles might show morphological differences between agar and CeHR-grown N2 animals. In adult animals, cuticular structures were difficult to distinguish between N2 and AB1 via scanning electron microscopy (SEM). More pronounced cuticular structures were detected in the earlier larval stages (L3) with SEM. We observed more protruding alae structures in CeHR-grown N2 larvae compared to AB1 larvae, but the annuli were indistinguishable between the two strains (Fig. 6b). Comparing 42 genes annotated with alae morphology variant from WormBase to our data, we identified 15 of these genes (dpy-2, dpy-3, dpy-5, dpy-7, dpy-8, dpy-9, dpy-10, dpy-18, lon-3, qua-1, rol-6, sqt-1, sqt-2, sqt-3, and mlt-10) upregulated under CeHR conditions in N2 but not in AB1 (Additional file 1: Figures S7 and S8). Taken together, the correlation between the function of the DEGs and the observed phenotype suggests that these genes can potentially be a part of underlying genetic networks causing these phenotypes.\n\nPreviously, we demonstrated that the CeHR-grown animals were thinner and longer than the OP50 NGM raised animals. We asked if this change in body morphology was due to a reduction in fat stores that may have resulted from the absence of a bacterial diet. N2 animals grown on OP50 NGM and CeHR were stained with Nile Red to visualize fat stores in all tissues of L3 and adult animals. We observed no significant difference in the number of fat stores between OP50 NGM and CeHR-grown N2 animals; however, larger fat stores were apparent in the abdominal and tail regions of OP50 NGM grown N2 adults (Fig. 6c, Additional file 1: Figure S8). Thus, the lack of a bacterial diet apparently contributes to the morphological differences through the fat storage.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Dormant genes",
+    "ncRNA",
+    "Adaptation",
+    "Reaction norm",
+    "Research Article"
+  ],
+  "citations": [
+    {
+      "title": "Genetic analysis of crawling and swimming locomotory patterns in C. elegans",
+      "authors": [
+        "JT Pierce-Shimomura",
+        "BL Chen",
+        "JJ Mun",
+        "R Ho",
+        "R Sarkis",
+        "MI SL"
+      ]
+    },
+    {
+      "title": "Szewczyk NJ, Kozak E, Conley CA. Chemically defined medium and Caenorhabditis elegans. BMC Biotechnol. 2003 ;3:19.[cited 2015 Aug 27] Available from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC270041/?tool=pmcentrez&report=abstract.",
+      "authors": []
+    },
+    {
+      "title": "Nass R, Hamza I. The nematode C. elegans as an animal model to explore toxicology in vivo: solid and axenic growth culture conditions and compound exposure parameters. Curr. Protoc. Toxicol. 2007;Chapter 1:Unit1.9. 1–9.",
+      "authors": []
+    },
+    {
+      "title": "Houthoofd K, Braeckman BP, Lenaerts I, Brys K, De Vreese A, Van Eygen S, et al. Axenic growth up-regulates mass-specific metabolic rate, stress resistance, and extends life span in Caenorhabditis elegans. Exp. Gerontol. 2002 ;37:1371–1378. [cited 2015 Aug 27] Available from: http://www.sciencedirect.com/science/article/pii/S0531556502001730.",
+      "authors": []
+    },
+    {
+      "title": "Szewczyk NJ, Udranszky IA, Kozak E, Sunga J, Kim SK, Jacobson LA, et al. Delayed development and lifespan extension as features of metabolic lifestyle alteration in C. elegans under dietary restriction. J. Exp. Biol. 2006 ;209:4129–4139. [cited 2015 Aug 27] Available from: http://jeb.biologists.org/content/209/20/4129.full.",
+      "authors": []
+    },
+    {
+      "title": "ChIP and Chips : Introducing the WormPharm for correlative studies employing pharmacology and genome-wide analyses in C . elegans",
+      "authors": [
+        "JH Doh",
+        "AB Moore",
+        "İ Çelen",
+        "MT Moore",
+        "CR Sabanayagam"
+      ]
+    },
+    {
+      "title": "Daxinger L, Whitelaw E. Transgenerational epigenetic inheritance: more questions than answers. Genome Res. 2010 ;20:1623–1628. [cited 2015 Jul 30] Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2989988&tool=pmcentrez&rendertype=abstract.",
+      "authors": []
+    },
+    {
+      "title": "Epigenetic regulation of gene expression: how the genome integrates intrinsic and environmental signals",
+      "authors": [
+        "R Jaenisch",
+        "A Bird"
+      ]
+    },
+    {
+      "title": "Heard E, Martienssen RA. Transgenerational epigenetic inheritance: myths and mechanisms. Cell. 2014;157:95–109. [cited 2014 Jul 10] Available from: http://www.sciencedirect.com/science/article/pii/S0092867414002864.",
+      "authors": []
+    },
+    {
+      "title": "Selch F, Higashibata A, Imamizo-Sato M, Higashitani A, Ishioka N, Szewczyk NJ, et al. Genomic response of the nematode Caenorhabditis elegans to spaceflight. Adv. Space Res. 2008;41:807–815. [cited 2015 Oct 22] Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2288577&tool=pmcentrez&rendertype=abstract.",
+      "authors": []
+    },
+    {
+      "title": "The natural history of Caenorhabditis elegans",
+      "authors": [
+        "M-A Félix",
+        "C Braendle"
+      ]
+    },
+    {
+      "title": "The genetics of Caenorhabditis elegans",
+      "authors": [
+        "S Brenner"
+      ]
+    },
+    {
+      "title": "Stiernagle T. Maintenance of C. elegans. WormBook; 2006 1–11. [cited 2015 Apr 27]; Available from: http://www.ncbi.nlm.nih.gov/books/NBK19649/.",
+      "authors": []
+    },
+    {
+      "title": "Sterken MG, Snoek LB, Kammenga JE, Andersen EC. The laboratory domestication of Caenorhabditis elegans. Trends Genet. 2015;31:224–31.",
+      "authors": []
+    },
+    {
+      "title": "Barrière A, Félix M-A, Barriere A, Felix M-A, Barrière A, Félix M-A, et al. Natural variation and population genetics of Caenorhabditis elegans. WormBook. 2005:1–19.",
+      "authors": []
+    },
+    {
+      "title": "Kramer M, Kranz AL, Su A, Winterkorn LH, Albritton SE, Ercan S. Developmental dynamics of X-chromosome dosage compensation by the DCC and H4K20me1 in C. Elegans. PLoS Geenet 2015;11.",
+      "authors": []
+    },
+    {
+      "title": "Blazie SM, Babb C, Wilky H, Rawls A, Park JG, Mangone M. Comparative RNA-Seq analysis reveals pervasive tissue-specific alternative polyadenylation in Caenorhabditis elegans intestine and muscles. BMC Biol 2015;13.",
+      "authors": []
+    },
+    {
+      "title": "Prabh N, Rödelsperger C. Are orphan genes protein-coding, prediction artifacts, or non-coding RNAs? BMC Bioinformatics 2016;17.",
+      "authors": []
+    },
+    {
+      "title": "Genome-wide identification of zero nucleotide recursive splicing in drosophila",
+      "authors": [
+        "MO Duff",
+        "S Olson",
+        "X Wei",
+        "SC Garrett",
+        "A Osman",
+        "M Bolisetty"
+      ]
+    },
+    {
+      "title": "Harris TW, Baran J, Bieri T, Cabunoc A, Chan J, Chen WJ, et al. WormBase 2014: new views of curated biology. Nucleic Acids Res. 2014;42:D789–D793.[cited 2015 Jul 6] Available from: http://nar.oxfordjournals.org/content/42/D1/D789.",
+      "authors": []
+    },
+    {
+      "title": "Dallaire A, Proulx S, Simard MJ, Lebel M. Expression profile of Caenorhabditis elegans mutant for the Werner syndrome gene ortholog reveals the impact of vitamin C on development to increase life span. BMC Genomics 2014;15:940.",
+      "authors": []
+    },
+    {
+      "title": "Selection and validation of a set of reliable reference genes for quantitative sod gene expression analysis in C. elegans",
+      "authors": [
+        "D Hoogewijs",
+        "K Houthoofd",
+        "F Matthijssens",
+        "J Vandesompele",
+        "JR Vanfleteren"
+      ]
+    },
+    {
+      "title": "Zhang Y, Chen D, Smith MA, Zhang B, Pan X. Selection of reliable reference genes in caenorhabditis elegans for analysis of nanotoxicity. PLoS One 2012;7:e31849.",
+      "authors": []
+    },
+    {
+      "title": "Li C, Kim K. Neuropeptides. WormBook. 2008;1–36. Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2749236&tool=pmcentrez&rendertype=abstract.",
+      "authors": []
+    },
+    {
+      "title": "Tuning gene expression to changing environments: from rapid responses to evolutionary adaptation",
+      "authors": [
+        "L López-Maury",
+        "S Marguerat",
+        "J Bähler"
+      ]
+    },
+    {
+      "title": "Gems D, Riddle DL. Genetic, behavioral and environmental determinants of male longevity in Caenorhabditis elegans. Genetics. 2000 ;154:1597–1610. [cited 2017 Jul 17] Available from: http://www.ncbi.nlm.nih.gov/pubmed/10747056.",
+      "authors": []
+    },
+    {
+      "title": "Croll NA, Smith JM, Zuckerman BM. The aging process of the nematode Caenorhabditis elegans in bacterial and axenic culture. Exp. Aging Res. 1977 ;3:175–189.[cited 2017 Jul 17] Available from: http://www.ncbi.nlm.nih.gov/pubmed/334555.",
+      "authors": []
+    },
+    {
+      "title": "Dietary restriction by growth in axenic medium induces discrete changes in the transcriptional output of genes involved in energy metabolism in Caenorhabditis elegans",
+      "authors": [
+        "N Castelein",
+        "D Hoogewijs",
+        "A De Vreese",
+        "BP Braeckman",
+        "JR Vanfleteren"
+      ]
+    },
+    {
+      "title": "Zhao S, Fung-Leung WP, Bittner A, Ngo K, Liu X. Comparison of RNA-Seq and microarray in transcriptome profiling of activated T cells. PLoS One 2014;9:e78644.",
+      "authors": []
+    },
+    {
+      "title": "Narasimhan SD, Yen K, Tissenbaum HA. Converging pathways in lifespan regulation. Curr Biol. 2009;19(15):R657–66.",
+      "authors": []
+    },
+    {
+      "title": "Hibshman JD, Hung A, Baugh LR. Maternal diet and insulin-like signaling control intergenerational plasticity of progeny size and starvation resistance. PLoS Genet 2016;12:e1006396.",
+      "authors": []
+    },
+    {
+      "title": "Bailey TL, Boden M, Buske FA, Frith M, Grant CE, Clementi L, et al. MEME suite: tools for motif discovery and searching. Nucleic Acids Res 2009;37:W202–8.",
+      "authors": []
+    },
+    {
+      "title": "Riesen M, Feyst I, Rattanavirotkul N, Ezcurra M, Tullet JMA, Papatheodorou I, et al. MDL-1, a growth- and tumor-suppressor, slows aging and prevents germline hyperplasia and hypertrophy in &lt;i&gt;C. elegans&lt;/i&gt; Aging (Albany. NY). 2014 ;6:98–117. [cited 2018 Feb 21]Available from: http://www.ncbi.nlm.nih.gov/pubmed/24531613.",
+      "authors": []
+    },
+    {
+      "title": "Reinke V, Krause M, Okkema P. Transcriptional regulation of gene expression in C. elegans. WormBook. 2013;1–34. Available from: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3893038&tool=pmcentrez&rendertype=abstract%5Cn, http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3893038/%5Cn, http://www.ncbi.nlm.nih.gov/pubmed/23801596%5Cn, http://www.pubmedcentral.nih.gov/articlerender.f.",
+      "authors": []
+    },
+    {
+      "title": "CED-1 is a transmembrane receptor that mediates cell corpse engulfment in C. Elegans",
+      "authors": [
+        "Z Zhou",
+        "E Hartwieg",
+        "HR Horvitz"
+      ]
+    },
+    {
+      "title": "Nile red: a selective fluorescent stain for intracellular lipid droplets",
+      "authors": [
+        "P Greenspan",
+        "EP Mayer",
+        "SD Fowler"
+      ]
+    },
+    {
+      "title": "Gerstein MB, Lu ZJ, Van Nostrand EL, Cheng C, Arshinoff BI, Liu T, et al. Integrative analysis of the Caenorhabditis elegans genome by the modENCODE project. Science 2010 ;330:1775–1787. [cited 2015 Oct 29] Available from: http://www.sciencemag.org/content/330/6012/1775.abstract.",
+      "authors": []
+    },
+    {
+      "title": "Hillier LW, Coulson A, Murray JI, Bao Z, Sulston JE, Waterston RH. Genomics in C. elegans: so many genes, such a little worm. Genome Res. 2005 ;15:1651–1660. [cited 2016 May 13] Available from: http://genome.cshlp.org/content/15/12/1651.full.",
+      "authors": []
+    },
+    {
+      "title": "Dollo’s law and the re-evolution of shell coiling",
+      "authors": [
+        "R Collin",
+        "R Cipriani"
+      ]
+    },
+    {
+      "title": "Topoisomerase inhibitors unsilence the dormant allele of Ube3a in neurons",
+      "authors": [
+        "H-S Huang",
+        "JA Allen",
+        "AM Mabb",
+        "IF King",
+        "J Miriyala",
+        "B Taylor-Blake"
+      ]
+    },
+    {
+      "title": "Çelen İ, Ross KE, Arighi CN, Wu CH. Bioinformatics Knowledge Map for Analysis of Beta-Catenin Function in Cancer. PLoS One . Public Library of Science; 2015 [cited 2];10:e0141773. Available from: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141773.",
+      "authors": []
+    },
+    {
+      "title": "Carthew RW, Sontheimer EJ. Origins and Mechanisms of miRNAs and siRNAs. Cell. 2009. p. 642–55.",
+      "authors": []
+    },
+    {
+      "title": "Kaikkonen MU, Lam MTY, Glass CK. Non-coding RNAs as regulators of gene expression and epigenetics. Cardiovasc. Res. 2011. p. 430–40.",
+      "authors": []
+    },
+    {
+      "title": "The snoRNA HBII-52 Regulates Alternative Splicing of the Serotonin Receptor 2C",
+      "authors": [
+        "S Kishore"
+      ]
+    },
+    {
+      "title": "Dynamic interaction of Y RNAs with chromatin and initiation proteins during human DNA replication",
+      "authors": [
+        "AT Zhang",
+        "AR Langley",
+        "CP Christov",
+        "E Kheir",
+        "T Shafee",
+        "TJ Gardiner"
+      ]
+    },
+    {
+      "title": "The functional role of long non-coding RNAs and epigenetics",
+      "authors": [
+        "J Cao"
+      ]
+    },
+    {
+      "title": "Amaral PP, Mattick JS. Noncoding RNA in development. Mamm. Genome. 2008. p. 454–92.",
+      "authors": []
+    },
+    {
+      "title": "Specificity and complexity of the Caenorhabditis elegans innate immune response",
+      "authors": [
+        "S Alper",
+        "SJ McBride",
+        "B Lackford",
+        "JH Freedman",
+        "DA Schwartz"
+      ]
+    },
+    {
+      "title": "Battisti JM, Watson LA, Naung MT, Drobish AM, Voronina E, Minnick MF. Analysis of the Caenorhabditis elegans innate immune response to Coxiella burnetii. Innate Immun. [internet]. 2016;1753425916679255. Available from: http://www.ncbi.nlm.nih.gov/pubmed/27884946.",
+      "authors": []
+    },
+    {
+      "title": "Comparative developmental expression profiling of two C. elegans isolates",
+      "authors": [
+        "EJ Capra",
+        "SM Skrovanek",
+        "L Kruglyak"
+      ]
+    },
+    {
+      "title": "Thompson OA, Snoek LB, Nijveen H, Sterken MG, Volkers RJM, Brenchley R, Van't Hof A, et al. Remarkably divergent regions punctuate the genome assembly of the Caenorhabditis elegans Hawaiian strain CB4856. Genet. 2015;genetics-115.",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": [
+        "J Sulston",
+        "J Hodgkin",
+        "WB Wood"
+      ]
+    },
+    {
+      "title": "Adenle AA, Johnsen B, Szewczyk NJ. Review of the results from the International C. elegans first experiment (ICE-FIRST). Adv Sp Res. 2009;44:210–16.",
+      "authors": []
+    },
+    {
+      "title": "Samuel TK, Sinclair JW, Pinter KL, Hamza I. Culturing Caenorhabditis elegans in axenic liquid media and creation of transgenic worms by microparticle bombardment. J. Vis. Exp. [Internet]. 2014 [cited 2017 Jun 2];e51796. Available from: http://www.jove.com/video/51796/culturing-caenorhabditis-elegans-axenic-liquid-media-creation.",
+      "authors": []
+    },
+    {
+      "title": "Trapnell C, Roberts A, Goff L, Pertea G, Kim D, Kelley DR, et al. Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks. Nat. Protoc. [Internet]. Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.; 2012 [cited 2014 Jul 9];7:562–78. Available from: 10.1038/nprot.2012.016.",
+      "authors": []
+    },
+    {
+      "title": "Cunningham F, Amode MR, Barrell D, Beal K, Billis K, Brent S, et al. Ensembl 2015. Nucleic Acids Res. 2014 ;43:D662–D669. [cited 2014 Nov 25] Available from: http://nar.oxfordjournals.org/content/43/D1/D662.",
+      "authors": []
+    },
+    {
+      "title": "The UCSC genome browser database: 2015 update",
+      "authors": [
+        "KR Rosenbloom",
+        "J Armstrong",
+        "GP Barber",
+        "J Casper",
+        "H Clawson",
+        "M Diekhans"
+      ]
+    },
+    {
+      "title": "FIMO: scanning for occurrences of a given motif",
+      "authors": [
+        "CE Grant",
+        "TL Bailey",
+        "WS Noble"
+      ]
+    },
+    {
+      "title": "Assigning roles to DNA regulatory motifs using comparative genomics",
+      "authors": [
+        "FA Buske",
+        "M Bodén",
+        "DC Bauer",
+        "TL Bailey"
+      ]
+    },
+    {
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "authors": [
+        "DW Huang",
+        "BT Sherman",
+        "RA Lempicki"
+      ]
+    },
+    {
+      "title": "Angeles-Albores D, N. Lee RY, Chan J, Sternberg PW. Tissue enrichment analysis for C. elegans genomics. BMC Bioinformatics. 2016 ;17:366. [cited 2017 Jul 17] Available from: http://www.ncbi.nlm.nih.gov/pubmed/27618863.",
+      "authors": []
+    },
+    {
+      "title": "R Development Core Team. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL http://www.R-project.org/. R Found. Stat. Comput. Vienna, Austria. 2017.",
+      "authors": []
+    }
+  ],
+  "original_title": "Effects of liquid cultivation on gene expression and phenotype of C. elegans.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/1948e2e0c3d5/12864_2018_4948_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/b6ae2f7b66b4/12864_2018_4948_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/45e8eda17c4c/12864_2018_4948_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/5b38457480c9/12864_2018_4948_Tab1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/a5132de087bf/12864_2018_4948_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/592768eceb03/12864_2018_4948_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8d7f/6069985/a82cb3795663/12864_2018_4948_Fig6_HTML.jpg"
+  ]
+}

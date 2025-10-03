@@ -1,0 +1,516 @@
+{
+  "pmcid": "10370681",
+  "title": "Wild mouse gut microbiota limits initial tuberculosis infection in BALB/c mice",
+  "abstract": "Mouse models are critical tools in tuberculosis (TB) research. Recent studies have demonstrated that the wild mouse gut microbiota promotes host fitness and improves disease resistance. Here we examine whether the wild mouse gut microbiota alters the immunopathology of TB in BALB/c mice. Conventional BALB/c mice (LabC) and mice born to germ-free BALB/c mothers reconstituted with the wild mouse gut microbiota (WildR) were used in our studies. WildR mice controlled initial TB infection better than LabC mice. The microbial gut communities of LabC mice and WildR mice had similar richness but significantly different composition prior to infection. TB reduced the gut community richness in both cohorts while differences in community composition remained indicating a general TB-induced dysbiosis. The wild mouse gut microbiota did not alter the typical lung histopathology of TB in the BALB/c model that includes unstructured immune cell infiltrates with infected foamy macrophages invading alveolar spaces. Animals of both cohorts mounted robust T cell responses in lungs and spleen with lower absolute counts of CD4 and CD8 T cells in lungs of WildR mice during acute infection, corresponding with observed differences in pathogen load. In summary, LabC mice and WildR mice showed largely overlapping TB immunopathology and pathogen kinetics, with WildR mice controlling early acute infection better than LabC mice.",
+  "introduction": "Introduction\n\nTuberculosis (TB) remains a major threat to global public health and years of progress made towards ending TB have been reversed by the COVID19 pandemic. Predictive preclinical models for testing novel drugs and vaccine candidates are required to achieve the targets set forth in the End TB Strategy.\n\nLaboratory mice have played a critical role in TB preclinical therapy development and studies of Mycobacterium tuberculosis (Mtb) immunopathology. However, they do not always align closely with clinical observations. Most of the common mouse strains used in research have been inbred for many decades under specific pathogen-free conditions in a controlled environment without dietary variations that led to a loss in microbiota diversity and richness. Moreover, laboratory animals are not exposed to microbes that wild-living mice constantly encounter. Several studies have highlighted that exposure to microbes and pathogens, including mites and pinworms, and the presence of the wild mouse microbiota may improve the translational value of murine models and better reflect human immune responses. However, introduction of murine pathogens to research poses significant challenges for laboratory animal facilities and is often prohibitive because such pathogens are notoriously difficult to contain. Rosshart et al. have defined the wild mouse gut microbiota, which was significantly more diverse and various species were differentially represented as compared to conventional laboratory mice. Reconstitution of germ-free laboratory mice with the wild-mouse gut microbiota enabled their offspring, termed “WildR” by vertical transfer, to experience microbiota-mediated effects before and after birth. The gut microbiota of WildR mice was stable over several generations, promoted host fitness and improved disease resistance to influenza virus infection and mutagen/inflammation-induced colorectal tumorigenesis. A recent study showed that previous intestinal infections in WildR mice increase the gut microbiota’s resistance to subsequent infections by inhibiting pathogen respiration. Taken altogether, WildR mice have demonstrated translational value in several research fields owing to their wild mouse gut microbiota.\n\nThe onset and recurrence of active TB infection in humans are characterized by a decline in the diversity of the gut microbiota. Similarly, mice experience a rapid loss of fecal microbiota diversity upon Mtb infection. Depletion of the microbiome by broad-spectrum antibiotics rendered mice more susceptible to TB and restoring the gut microbiota by fecal transfer reduced the bacterial load of Mtb. Chemotherapy with first-line antimycobacterials led to dysbiosis that persisted beyond the end of drug treatment for at least 3 months in Mtb-infected mice and at least 1.2 years in TB patients. Taken altogether, the crosstalk through the gut-lung axis is bidirectional and impacts both Mtb in the lung and the microbial community of the gut. Because there are striking differences between the microbiota of laboratory mice and wild-living mice, we examine whether laboratory mice reconstituted with the wild-mouse gut microbiome may better resemble the hallmarks of clinical TB than conventional laboratory mice. We chose the BALB/c mouse as the host organism for our studies as this strain is widely used in TB preclinical development. Here we investigate the impact of the wild-mouse gut microbiota on TB infection in the BALB/c model using organ bacterial burden, lung histopathology, microbiome changes, cytokine profiles, and T cell responses as readouts.",
+  "methods": "Materials and methods\n\nEthics statement\n\nThis study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol was approved by the Institutional Animal Care and Use Committee of Hackensack Meridian Health (Protocol Number: 265) and all efforts were made to minimize suffering and pain.\n\nBacterial strains and media\n\nMtb H37Rv (ATCC #27294) was cultured in Middlebrook 7H9 broth supplemented with 0.05% Tween-80, 0.2% glycerol and 10% albumin-dextrose-catalase enrichment (Becton Dickinson) at 37°C and 80 rpm or on Middlebrook 7H11 agar containing 0.5% glycerol and 10% oleic-acid-albumin-dextrose-catalase enrichment (Becton Dickinson) at 37°C. Colonies were counted after 3–4 weeks of incubation.\n\nAerosol infection of mice and pathogen load determination\n\nCohorts of 8–9 weeks old female BALB/c mice born to germ-free BALB/c mothers reconstituted with the gut microbiota of wild-living mice, termed WildR herein, and age-matched conventional laboratory BALB/c females, termed LabC, were obtained from Taconic and maintained under sterile conditions using individually ventilated cages. Both cohorts were simultaneously infected while maintaining strict separation. The infection dose of 100–200 colony-forming units (CFU) of aerosolized Mtb H37Rv was delivered by a whole-body inhalation exposure system (Glas-Col) and verified 3 h post-infection. The bacterial loads of lungs and spleens were determined by plating serial dilutions of individual organs homogenized in 1 ml phosphate buffered saline (PBS)/0.05% Tween 80 onto Middlebrook 7H11 agar.\n\nFeces collection, DNA extraction, 16S rRNA library preparation and sequencing\n\nUp to 2 pieces of feces from individual mice were sterilely collected, heat inactivated and subjected to bead-beating using Lysing Matrix B, 0.1 mm silica spheres (MP Biomedicals). DNA was extracted using a column-based DNA stool mini kit (Qiagen) following the manufacturer’s protocol. Final DNA concentrations and quality were determined by fluorometric analysis (Qubit 2.0 Invitrogen) using quant-iT BR dsDNA reagent kits (Invitrogen) and normalized to a uniform concentration and volume. Microbial 16S rRNA amplicons were constructed by amplification of the V4 region of the 16S rRNA gene with universal primers previously developed against the V4 region, flanked by Illumina standard adapter sequences. Dual-indexed forward and reverse primers were used in all reactions. Amplicon pools at equal concentrations were combined, thoroughly mixed, and purified using Axyprep MagPCR clean-up beads (Axygen) prior to final analysis on a fragment analyzer automated electrophoresis system (Advanced Analytical). Amplicon pools were then diluted following Illumina’s standard protocol for sequencing on a MiSeq instrument generating 2x250 bp paired-end reads.\n\nInformatics analysis\n\n16S rRNA amplicon sequences were processed using Quantitative Insights into Microbial Ecology 2 (QIIME2) v2021.8. Briefly, forward and reverse reads were timed of the universal (515F/806R) primers using cutadapt. If found, the reverse complement of the primer to the reverse read was then removed from the forward reads as were all bases downstream. Thus, a forward read could be trimmed at both ends if the insert was shorter than the amplicon length. The same approach was taken on reverse read, but with the primer ins in the opposite role. Read pairs were rejected if one read or the other did not match a 5’ primer, and an error rate of 0.1 was allowed. Two passes were made over each read to ensure the removal of the second primer. A minimal overlap of 3 bases with the 3’ end of the primer sequence was required for removal.\n\nDADA2 (q2-dada2) was used to denoise, de-replicate, and count amplicon sequence variants (ASVs) incorporating the following parameters: (i) forward and reverse reads were truncated to 150 bases; (ii) forward and reverse reads with the number of expected errors higher than 2.0 were discarded; and (iii) chimeras were detected using the “consensus” method and removed. ASVs were filtered to between 249 and 257 bp in length. Taxonomies were assigned to final sequences using the Silva V138 16S (515F/806R) rRNA SSU reference database using the classify-sklearn procedure.\n\nMicrobiome data were analyzed using the open-source R statistical software v4.2.2. The DADA2-generated feature table was rarefied to 87,953 total features per sample using the rrarefy function from the vegan library. Community richness (i.e., number of unique taxa within a community) was determined using the microbiome library. To assess differences in community composition between samples, a distance matrix was first generated from a quarter-root-transformed feature table with Bray-Curtis distance metrics. A principal coordinate analysis of the distance matrix was then performed using the pcoa function from the ape library with a Calliez correction. Statistical differences in community composition were determined using the adonis2 function from the vegan library which performs a two-way permutational analysis of variance (PERMANOVA). Differential abundance testing was performed using ALDEx2 with the recommended 128 Monte Carlo simulations. Differentially abundant features were determined based on a Benjamini-Hochberg corrected Wilcoxon Rank-Sum test p value < 0.05.\n\nBacterial load of organs and histopathology analysis\n\nOrgans of euthanized animals were aseptically collected. Half of the spleen and the left lung lobe were homogenized individually in gentleMACS M tubes (Miltenyi) with 1 ml PBS/0.05% Tween 80 using a gentleMACS Octo Dissociator (Miltenyi). Subsequently, serial dilutions of organ homogenates were plated on Middlebrook 7H11 agar. For histopathology analysis entire lungs of two mice were perfused with 10 ml PBS and fixed overnight in 10% neutral buffered formalin. Organs were processed, embedded in paraffin, and sectioned at 3 μm thickness with 50 μm between pairs of two adjacent sections throughout the organ. Each pair of sections was subjected to hematoxylin and eosin (H&E) staining and to Ziehl-Neelsen staining, respectively. Histology slides were imaged using a 3D HiStech slide scanner (Pannoramic Desk) to quantify the number of immune cell infiltrates per slide. Images of pathology details were taken using a NiE Research Microscope equipped with CFI Plan APO Lambda objectives and NIS-Elements AR Software (Nikon Instruments).\n\nMultiplex cytokine analysis of organ homogenates\n\nOrgan homogenates were spun at 14,000 rpm for 10 min at 4°C in a microcentrifuge and the supernatants were sterilized by passing them twice through 0.22 μm Spin-X Centrifuge Tube Filters (Corning). For cytokine profiling, we utilized the Bio-Plex Pro Mouse Cytokine 23-plex mouse cytokine assay (BioRAD) according to the manufacturer’s protocol and the FLEXMAP 3D system (Luminex) for data acquisition. The instrument was calibrated, and performance was verified using the FLEXMAP 3D Calibration Kit and the FLEXMAP 3D Performance Verification Kit (Luminex) following the manufacturer’s instructions. Raw data was analyzed using the Belysa Immunoassay Curve-Fitting software V1.0.19 (Merck) and the GraphPad Prism 11 software was used to visualize cytokine profiles and to perform statistical analysis. Principal component analysis was performed in R v.4.2.0 (2022-04-22) with Platform: aarch64-apple-darwin20 (64-bit). The following R packages were used: dplyr (v.1.0.9), ggplot2 (v.3.3.6).\n\nPreparation of single cell suspension, cell staining and flow cytometry analysis\n\nThe superior-, middle-, inferior- and postcaval-lung lobes were dissociated with 2.5 ml of Roswell Park Memorial Institute 1640 Medium (RPMI)/53 μg liberase (Roche) in C tubes using a gentleMACS Octo Dissociator (Miltenyi). The tissue suspension was then incubated for 1 h at 37°C and single cells were counted using an automatic instrument (Lunar II). For cell surface staining, ~2 million cells were washed and resuspended in FACS buffer (PBS, 1% bovine serum albumin, 0.5% sodium azide). Cells were first incubated with Live/Dead Fixable Near-IR (Thermo Fisher Scientific). After washing, cells were incubated for 30 min with a cocktail of fluorochrome-conjugated specific antibodies at appropriate concentrations: anti-mouse CD45 Alexa Fluor 700 (clone 30-F11, Biolegend), anti-mouse CD3 BV605 (clone 17A2, Biolegend), anti-mouse CD4 BUV395 (clone GK1.5, BD), anti-mouse CD8a BB700 (clone 53–6.7, BD), anti-mouse γδTCR FITC (clone GL3, Biolegend) and anti-mouse B220 BUV496 (clone RA3-6B2, BD). Cells were then washed, fixed for 60 min with Cytofix/Cytoperm Fixation and Permeabilization Solution (BD Biosciences) and then acquired on a FACSymphony A3 Cell Analyzer (BD Biosciences). Data analysis was performed using the FlowJo Software V10.8.1 (BD Biosciences).",
+  "results": "Results\n\nWildR mice control initial acute TB lung infection better than conventional mice\n\nWe used commercially available age-matched cohorts of LabC mice and WildR mice that were generated in the BALB/c background. To study the impact of wild-mouse gut microbiota on TB, we simultaneously infected both cohorts in the same aerosol generator chamber by a low dose of aerosolized Mtb. Strict separation between the two animal groups was maintained during the infection process and throughout the experiment to prevent microbiome transfer. We verified delivery of the initial inoculum dose at 24 h post-infection and monitored the progress of TB thereafter by determining the pathogen load of organs at 14, 28 and 56 days. The study design is depicted in Fig 1A. The course of low dose Mtb infection in mice can be divided into the acute phase characterized by rapid Mtb growth (until ~4 weeks), and the chronic phase during which a high pathogen load in organs is maintained. The lungs of WildR mice at 1 day and 14 days post-infection had a significantly lower bacterial burden than LabC mice, and this difference dissipated thereafter (Fig 1B left). In contrast, animals of both cohorts had a similar pathogen load in the spleen at individual time points (Fig 1B right). This suggests that the gut microbiota may shape innate immunity leading to different degrees of TB control in WildR mice and LabC mice in the early time points following infection. Dissemination of TB to secondary organs such as the spleen was not affected by the gut microbiota.\n\nTB infection affects the composition of the LabC and WildR gut microbiome\n\nThe conventional BALB/c mouse model is widely used in TB research, including preclinical development of novel therapies. Laboratory mice have been bred under specific pathogen-free conditions for many generations which led to alteration of their gut microbiota, and consequently, changes in their immune responses relative to wild living mice. It has been reported that TB infection has a profound impact on the gut microbiota of humans and mice. To investigate whether the gut microbiota impacts the course of TB in the BALB/c model, we used animals born to germ-free mothers that were inoculated with the gut microbiota of wild-living mice, and age-matched conventional BALB/c mice. Fecal samples obtained from individual mice of both cohorts prior to and during TB infection were subjected to DNA isolation and sequencing of the 16S rRNA gene V4 region. DADA2 denoising of paired-end reads identified an average of 102,631 (± 7,160) amplicon sequence variants (ASVs) per sample (S1 Table).\n\nMicrobial community analysis of LabC and WildR gut microbiomes revealed that the two communities were similar in community richness prior to and during acute TB infection but were both reduced during chronic infection (Fig 2A). LabC and WildR communities significantly differed in microbial composition prior to and during TB infection suggesting that TB infection induced a dysbiosis of the gut microbiome regardless of the initial community structure (Fig 2B). In support of this, we assessed the Bray-Curtis dissimilarity of samples collected during TB infection compared to pre-infection samples. Infection with TB significantly increased the Bray-Curtis dissimilarity of microbial community relative to pre-infection samples within the first 14 days of infection and persisted through day 56 (Fig 2C). This TB-induced dysbiosis of the gut microbiome has been previously reported in both human and mouse TB infections (reviewed in).\n\nGiven the significant differences in overall community composition between LabC and WildR mice (Fig 2B), we next applied ALDEx2 to detect differentially abundant taxa at the phylum, family, and genus levels (Fig 2D). At the phylum level, Bacteroidota (formerly Bacteroidetes) and Pseudomonadota (formerly Proteobacteria) were dominant in WildR mice, whereas Bacillota (formerly Firmicutes) and Actinobacteriodota were enriched in the LabC mice. Verrucomicrobiota and Campylobacterota were only detected in LabC and WildR mice, respectively. Members of the Bacillota phylum including Ruminococcus (Family Ruminococcaceae), Butyricicoccus (Family Butyricicoccaceae), and multiple Lachnospiraceae groups were enriched in LabC mice. LabC mice also exhibited a higher proportion of Roseburia compared to WildR mice. Interestingly, Roseburia are butyrate-producing bacteria that are associated with beneficial health outcomes in mice and in humans. WildR mice were enriched for Odoribacter (Family Marinifilaceae), Helicobacter (Family Helicobacteraceae), and genera within the Rikenellaceae family. The sulfur-reducing genera Bilophila and Desulfovibrio were also differentially abundant in WildR mice. A full list of differentially abundant taxa at the phylum, family, and genus levels is provided in S2 Table. Our findings in the BALB/c WildR model are consistent with the C57BL/6 WildR mice.\n\nLabC mice and WildR mice develop comparable pulmonary TB histopathology\n\nThe gut microbiota of WildR mice was shown to promote host fitness and improve resistance to influenza infection. To examine whether the microbiome impacts the lung histopathology of TB, we compared H&E-stained lung sections of LabC mice and WildR mice at 14-, 28- and 56-days post-infection. Typical TB lung lesions in conventional BALB/c mice are cellular and consist of lymphocyte aggregates, epithelioid histocytes and intra-alveolar foamy macrophages.\n\nAt 14 days post-infection lymphocytes had accumulated in the lungs of LabC mice and WildR mice, mostly around larger airways (Fig 3A). At 28 days post-infection, unstructured cellular lesions were present, with a diameter often exceeding 0.5 mm that further increased until the end of the study at 56 days (Fig 3A). Foamy macrophages appearing more transparent due to their accumulation of lipid bodies filled out many alveolar spaces and were infected with acid-fast bacilli (Fig 3A, two right panels). The representation of TB lung pathology in both cohorts was very similar (Fig 3A, top and bottom row) and closely resembled reports in conventional BALB/c mice. We then quantified the number of pulmonary immune cell infiltrates in H&E-stained sections. As expected, the number of TB lesions increased over the course of infection reaching 45 to 55 infiltrates per animal at the end of the study with no significant difference between the two cohorts (Fig 3B). We conclude that the wild mouse gut microbiome does not impact the number of lung lesions and the lesion organization in the BALB/c model.\n\nWildR mice have a less pronounced T cell response during acute TB infection\n\nT cells play an essential role in controlling TB infection and growing evidence suggest that T-cell responses can be shaped by the microbiota. To determine the impact of the gut microbiota on T cell immunity to TB, we measured the dynamics of CD4, CD8 and γδ T cells during acute and chronic infection. WildR and LabC mice showed a robust expansion of pulmonary and splenic T cell subsets in response to TB infection (Fig 4A and 4B), which is consistent with the literature. At 14 days post-infection, lungs of WildR mice had lower absolute counts of CD4 and CD8 T cells than LabC mice and these differences faded to undetectable levels at later time points (Fig 4A). Similarly, WildR mice has slightly less γδ T-cells in the lungs at 28 days (Fig 4A). In the spleen, CD4 and CD8 T cell counts were on par throughout the experiment (Fig 4B). In addition, lungs of WildR mice had slightly more γδ T-cells than LabC mice at days 14 post-infection (Fig 4B). CD4 and CD8 T cells represented the majority of T-cell populations in WildR and LabC mice during infection (Fig 4C). WildR mice generally had a less pronounced T-cell response in the lungs at early time points, compared to LabC mice, and a comparable T-cell response in the spleen throughout the TB infections.\n\nWe also examined the protein levels of 23 cytokines and chemokines in the lungs and spleen of LabC and WildR mice at the acute and chronic phases of TB infection. Most cytokine and chemokine levels were much higher in the lungs than in the spleens (S1 Fig). We thus performed principal component analysis to explore if different gut microbiomes would affect cytokine expressions in response to TB infection (Fig 5). Cytokine profiles of mice from the same time points tend to cluster together regardless of their gut microbiome. This suggested that measured cytokine profiles during TB infection are independent of the gut microbiota. In summary, our data shows that the fecal microbiome impacts early T cell responses during acute infection which did not translate into changes in the cytokine profiles.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Research and Analysis Methods",
+    "Animal Studies",
+    "Experimental Organism Systems",
+    "Model Organisms",
+    "Mouse Models",
+    "Animal Models",
+    "Medicine and Health Sciences",
+    "Medical Conditions",
+    "Infectious Diseases",
+    "Bacterial Diseases",
+    "Tuberculosis",
+    "Tropical Diseases",
+    "Biology and Life Sciences",
+    "Organisms",
+    "Bacteria",
+    "Gut Bacteria",
+    "Microbiology",
+    "Medical Microbiology",
+    "Microbiome",
+    "Genetics",
+    "Genomics",
+    "Microbial Genomics",
+    "Physiology",
+    "Immune Physiology",
+    "Cytokines",
+    "Immunology",
+    "Immune System",
+    "Innate Immune System",
+    "Developmental Biology",
+    "Molecular Development",
+    "Actinobacteria",
+    "Mycobacterium Tuberculosis",
+    "Pathology and Laboratory Medicine",
+    "Pathogens",
+    "Animal Pathogens",
+    "Spleen"
+  ],
+  "citations": [
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Animal Models of Tuberculosis Vaccine Research: An Important Component in the Fight against Tuberculosis",
+      "authors": [
+        "W Gong",
+        "Y Liang",
+        "X Wu"
+      ]
+    },
+    {
+      "title": "One Size Fits All? Not in In Vivo Modeling of Tuberculosis Chemotherapeutics",
+      "authors": [
+        "HJ Yang",
+        "D Wang",
+        "X Wen",
+        "DM Weiner",
+        "LE Via"
+      ]
+    },
+    {
+      "title": "Wild Mouse Gut Microbiota Promotes Host Fitness and Improves Disease Resistance",
+      "authors": [
+        "SP Rosshart",
+        "BG Vassallo",
+        "D Angeletti",
+        "DS Hutchinson",
+        "AP Morgan",
+        "K Takeda"
+      ]
+    },
+    {
+      "title": "Normalizing the environment recapitulates adult human immune traits in laboratory mice",
+      "authors": [
+        "LK Beura",
+        "SE Hamilton",
+        "K Bi",
+        "JM Schenkel",
+        "OA Odumade",
+        "KA Casey"
+      ]
+    },
+    {
+      "title": "Sequential Infection with Common Pathogens Promotes Human-like Immune Gene Expression and Altered Vaccine Response.",
+      "authors": [
+        "TA Reese",
+        "K Bi",
+        "A Kambal",
+        "A Filali-Mouhim",
+        "LK Beura",
+        "MC Burger"
+      ]
+    },
+    {
+      "title": "Rapid environmental effects on gut nematode susceptibility in rewilded mice",
+      "authors": [
+        "JM Leung",
+        "SA Budischak",
+        "HC The",
+        "C Hansen",
+        "R Bowcutt",
+        "R Neill"
+      ]
+    },
+    {
+      "title": "Laboratory mice born to wild mice have natural microbiota and model human immune responses",
+      "authors": [
+        "SP Rosshart",
+        "J Herz",
+        "BG Vassallo",
+        "A Hunter",
+        "MK Wall",
+        "JH Badger"
+      ]
+    },
+    {
+      "title": "Old enemies, still with us after all these years.",
+      "authors": [
+        "CB Clifford",
+        "J Watson"
+      ]
+    },
+    {
+      "title": "How colonization by microbiota in early life shapes the immune system",
+      "authors": [
+        "T Gensollen",
+        "SS Iyer",
+        "DL Kasper",
+        "RS Blumberg"
+      ]
+    },
+    {
+      "title": "The maternal microbiota drives early postnatal innate immune development",
+      "authors": [
+        "Ganal-Vonarburg SC Aguero MG de",
+        "T Fuhrer",
+        "S Rupp",
+        "Y Uchimura",
+        "H Li"
+      ]
+    },
+    {
+      "title": "Intraoperative bile culture helps choosing antibiotics in pancreaticoduodenectomy: Mechanistic profiling study of complex rink between bacterobilia and postoperative complications.",
+      "authors": [
+        "R Itoyama",
+        "H Okabe",
+        "YI Yamashita",
+        "F Kitamura",
+        "N Uemura",
+        "Y Nakao"
+      ]
+    },
+    {
+      "title": "Alternation of Gut Microbiota in Patients with Pulmonary Tuberculosis.",
+      "authors": [
+        "M Luo",
+        "Y Liu",
+        "P Wu",
+        "DX Luo",
+        "Q Sun",
+        "H Zheng"
+      ]
+    },
+    {
+      "title": "Characterization of gut microbiota in children with pulmonary tuberculosis",
+      "authors": [
+        "W Li",
+        "Y Zhu",
+        "Q Liao",
+        "Z Wang",
+        "C Wan"
+      ]
+    },
+    {
+      "title": "Aerosol Mycobacterium tuberculosis infection causes rapid loss of diversity in gut microbiota",
+      "authors": [
+        "K Winglee",
+        "E Eloe-Fadrosh",
+        "S Gupta",
+        "H Guo",
+        "C Fraser",
+        "W Bishai"
+      ]
+    },
+    {
+      "title": "Alteration in the Gut Microbiota Provokes Susceptibility to Tuberculosis.",
+      "authors": [
+        "N Khan",
+        "A Vidyarthi",
+        "S Nadeem",
+        "S Negi",
+        "G Nair",
+        "JN Agrewala"
+      ]
+    },
+    {
+      "title": "Longitudinal profiling reveals a persistent intestinal dysbiosis triggered by conventional anti-tuberculosis therapy.",
+      "authors": [
+        "S Namasivayam",
+        "M Maiga",
+        "W Yuan",
+        "V Thovarai",
+        "DL Costa",
+        "LR Mittereder"
+      ]
+    },
+    {
+      "title": "Antibiotic treatment for Tuberculosis induces a profound dysbiosis of the microbiome that persists long after therapy is completed",
+      "authors": [
+        "MF Wipperman",
+        "DW Fitzgerald",
+        "MAJ Juste",
+        "Y Taur",
+        "S Namasivayam",
+        "A Sher"
+      ]
+    },
+    {
+      "title": "Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample",
+      "authors": [
+        "JG Caporaso",
+        "CL Lauber",
+        "WA Walters",
+        "D Berg-Lyons",
+        "CA Lozupone",
+        "PJ Turnbaugh"
+      ]
+    },
+    {
+      "title": "PrimerProspector: de novo design and taxonomic analysis of barcoded polymerase chain reaction primers",
+      "authors": [
+        "WA Walters",
+        "JG Caporaso",
+        "CL Lauber",
+        "D Berg-Lyons",
+        "N Fierer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+      "authors": [
+        "E Bolyen",
+        "JR Rideout",
+        "MR Dillon",
+        "NA Bokulich",
+        "CC Abnet",
+        "GA Al-Ghalith"
+      ]
+    },
+    {
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "authors": [
+        "M. Martin"
+      ]
+    },
+    {
+      "title": "SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB",
+      "authors": [
+        "E Pruesse",
+        "C Quast",
+        "K Knittel",
+        "BM Fuchs",
+        "W Ludwig",
+        "J Peplies"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "RC Team"
+      ]
+    },
+    {
+      "title": "VEGAN, a package of R functions for community ecology",
+      "authors": [
+        "P. Dixon"
+      ]
+    },
+    {
+      "title": "vegan: Community Ecology Package.",
+      "authors": [
+        "J Oksanen",
+        "GL Simpson",
+        "FG Blanchet",
+        "R Kindt",
+        "P Legendre",
+        "PR Minchin"
+      ]
+    },
+    {
+      "title": "microbiome R package.",
+      "authors": [
+        "L Lahti",
+        "S Shetty"
+      ]
+    },
+    {
+      "title": "ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R",
+      "authors": [
+        "E Paradis",
+        "K Schliep"
+      ]
+    },
+    {
+      "title": "Unifying the analysis of high-throughput sequencing datasets: characterizing RNA-seq, 16S rRNA gene sequencing and selective growth experiments by compositional data analysis",
+      "authors": [
+        "AD Fernandes",
+        "JN Reid",
+        "JM Macklaim",
+        "TA McMurrough",
+        "DR Edgell",
+        "GB Gloor"
+      ]
+    },
+    {
+      "title": "dplyr: A Grammar of Data Manipulation.",
+      "authors": [
+        "H Wickham",
+        "R François",
+        "L Henry",
+        "K Müller",
+        "D Vaughan"
+      ]
+    },
+    {
+      "title": "ggplot2, Elegant Graphics for Data Analysis",
+      "authors": [
+        "H. Wickham"
+      ]
+    },
+    {
+      "title": "The chemokine receptor CXCR3 attenuates the control of chronic Mycobacterium tuberculosis infection in BALB/c mice",
+      "authors": [
+        "SD Chakravarty",
+        "J Xu",
+        "B Lu",
+        "C Gerard",
+        "J Flynn",
+        "J Chan"
+      ]
+    },
+    {
+      "title": "Microbiome-immune interactions in tuberculosis",
+      "authors": [
+        "G Mori",
+        "M Morrison",
+        "A Blumenthal"
+      ]
+    },
+    {
+      "title": "Roseburia intestinalis: A Beneficial Gut Organism From the Discoveries in Genus and Species.",
+      "authors": [
+        "K Nie",
+        "K Ma",
+        "W Luo",
+        "Z Shen",
+        "Z Yang",
+        "M Xiao"
+      ]
+    },
+    {
+      "title": "Murine models of susceptibility to tuberculosis",
+      "authors": [
+        "GL Beamer",
+        "J Turner"
+      ]
+    },
+    {
+      "title": "The mouse as a useful model of tuberculosis",
+      "authors": [
+        "IM Orme"
+      ]
+    },
+    {
+      "title": "Pulmonary Tuberculosis in the Mouse.",
+      "authors": [
+        "S Bharath",
+        "V Balasubramanian"
+      ]
+    },
+    {
+      "title": "T cells and adaptive immunity to Mycobacterium tuberculosis in humans",
+      "authors": [
+        "LD Jasenosky",
+        "TJ Scriba",
+        "WA Hanekom",
+        "AE Goldfeld"
+      ]
+    },
+    {
+      "title": "T Cell Responses to the Microbiota",
+      "authors": [
+        "I Ivanov",
+        "T Tuganbaev",
+        "AN Skelly",
+        "K Honda"
+      ]
+    },
+    {
+      "title": "Long-term control of Mycobacterium tuberculosis infection is mediated by dynamic immune responses",
+      "authors": [
+        "V Lazarevic",
+        "D Nolt",
+        "JL Flynn"
+      ]
+    },
+    {
+      "title": "Helicobacter hepaticus infection in BALB/c mice abolishes subunit-vaccine-induced protection against M. tuberculosis",
+      "authors": [
+        "IC Arnold",
+        "C Hutchings",
+        "I Kondova",
+        "A Hey",
+        "F Powrie",
+        "P Beverley"
+      ]
+    },
+    {
+      "title": "Colonization with Helicobacter is concomitant with modified gut microbiota and drastic failure of the immune control of Mycobacterium tuberculosis",
+      "authors": [
+        "L Majlessi",
+        "F Sayes",
+        "JF Bureau",
+        "A Pawlik",
+        "V Michel",
+        "G Jouvion"
+      ]
+    },
+    {
+      "title": "Infection with Helicobacter pylori is associated with protection against tuberculosis",
+      "authors": [
+        "S Perry",
+        "BC de Jong",
+        "JV Solnick",
+        "M de la L Sanchez",
+        "S Yang",
+        "PL Lin"
+      ]
+    },
+    {
+      "title": "The Interplay between the Gut Microbiome and the Immune System in the Context of Infectious Diseases throughout Life and the Role of Nutrition in Optimizing Treatment Strategies.",
+      "authors": [
+        "SP Wiertsema",
+        "J van Bergenhenegouwen",
+        "J Garssen",
+        "LMJ Knippels"
+      ]
+    },
+    {
+      "title": "Crosstalk Between Gut Microbiota and Innate Immunity and Its Implication in Autoimmune Diseases.",
+      "authors": [
+        "Y Jiao",
+        "L Wu",
+        "ND Huntington",
+        "X Zhang"
+      ]
+    },
+    {
+      "title": "Innate Immune Influences on the Gut Microbiome: Lessons from Mouse Models",
+      "authors": [
+        "SJ Robertson",
+        "A Goethel",
+        "SE Girardin",
+        "DJ Philpott"
+      ]
+    },
+    {
+      "title": "The microbiome and innate immunity",
+      "authors": [
+        "CA Thaiss",
+        "N Zmora",
+        "M Levy",
+        "E Elinav"
+      ]
+    },
+    {
+      "title": "Interaction between microbiota and immunity in health and disease",
+      "authors": [
+        "D Zheng",
+        "T Liwinski",
+        "E Elinav"
+      ]
+    },
+    {
+      "title": "The gut microbiome in tuberculosis susceptibility and treatment response: guilty or not guilty?",
+      "authors": [
+        "OA Eribo",
+        "N du Plessis",
+        "M Ozturk",
+        "R Guler",
+        "G Walzl",
+        "NN Chegou"
+      ]
+    }
+  ],
+  "original_title": "Microbial existence in controlled habitats and their resistance to space conditions",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b51/10370681/4d3943df252d/pone.0288290.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b51/10370681/29260f7ea94b/pone.0288290.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b51/10370681/267527524dda/pone.0288290.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b51/10370681/5b645caf77cf/pone.0288290.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b51/10370681/007a77074100/pone.0288290.g005.jpg"
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "pmcid": "PMC8012687",
+  "title": "Effects of Simulated Microgravity on the Proteome and Secretome of the Polyextremotolerant Black Fungus Knufia chersonesos",
+  "abstract": "Black fungi are a group of melanotic microfungi characterized by remarkable polyextremotolerance. Due to a broad ecological plasticity and adaptations at the cellular level, it is predicted that they may survive in a variety of extreme environments, including harsh niches on Earth and Mars, and in outer space. However, the molecular mechanisms aiding survival, especially in space, are yet to be fully elucidated. Based on these premises, the rock-inhabiting black fungus Knufia chersonesos (Wt) and its non-melanized mutant (Mut) were exposed to simulated microgravity—one of the prevalent features characterizing space conditions—by growing the cultures in high-aspect-ratio vessels (HARVs). Qualitative and quantitative proteomic analyses were performed on the mycelia and supernatant of culture medium (secretome) to assess alterations in cell physiology in response to low-shear simulated microgravity (LSSMG) and to ultimately evaluate the role of cell-wall melanization in stress survival. Differential expression was observed for proteins involved in carbohydrate and lipid metabolic processes, transport, and ribosome biogenesis and translation via ribosomal translational machinery. However, no evidence of significant activation of stress components or starvation response was detected, except for the scytalone dehydratase, enzyme involved in the synthesis of dihydroxynaphthalene (DNH) melanin, which was found to be upregulated in the secretome of the wild type and downregulated in the mutant. Differences in protein modulation were observed between K. chersonesos Wt and Mut, with several proteins being downregulated under LSSMG in the Mut when compared to the Wt. Lastly, no major morphological alterations were observed following exposure to LSSMG. Similarly, the strains’ survivability was not negatively affected. This study is the first to characterize the response to simulated microgravity in black fungi, which might have implications on future astrobiological missions.",
+  "introduction": "Introduction\n\nBased on their nature as settlers in extreme environments, microbial extremophiles are of great interest to studies aiming to elucidate stress adaptation and survival mechanisms. Successful examples of extremophiles can be found in the fungal domain, alongside bacteria, and archaea, which for a long time were considered to be the sole colonizers of habitats previously considered uninhabitable. Some of these fungal extremophiles show even higher resistance than that of prokaryotes. Black fungi in particular represent a group of highly melanized microfungi, whose ability to survive in a variety of extreme environments has in recent decades attracted increasing attention. Desiccation, low nutrient availability, excessive radiation, extreme temperatures, salinity, and pH are some of the multiple sources of stress characterizing the habitats where these organisms have been shown to thrive. The highest diversity of black fungi has especially been observed in rocky environments, ranging from mountain summits to the Atacama Desert and the Antarctic cold regions. Rock represents a harsh habitat and a quite ancient niche for life, believed to reflect early Earth conditions, and thus considered to be a model for extraterrestrial life.\n\nThe discovery of melanized fungi in extreme environments has prompted researchers to investigate microbial physiology at the absolute edges of adaptability, aiming at a deeper understanding of the limits for life. Other studies have focused on testing fungal survival in space conditions through simulations in ground-based facilities or in space missions that enabled the assessment of the habitability of extraterrestrial environments and, hence, the possibility of life beyond Earth. Space and outer space conditions are by definition hostile, as they include enhanced irradiation, microgravity, and temperature extremes. Nevertheless, the isolation of melanized fungi from spacecraft and space stations—e.g., the International Space Station (ISS)—has been reported frequently. In this respect, a number of studies have examined the molecular adaptations of ISS-isolated strains to space conditions, showing alterations in metabolome and proteome. Investigations of microbial survival in space are therefore relevant also in the context of space missions, to prevent contaminations and to develop strategies to reduce hazard, especially in the case of opportunistic species.\n\nIn black fungi, astrobiological studies have evaluated the potential effects of Mars or ISS conditions on fungal viability and metabolism. One investigation revealed that a rock isolate from Antarctica, Cryomyces minteri, could survive simulated Martian atmosphere and pressure, temperature fluctuations between −20 and 20°C, ultraviolet radiation, and vacuum. Comparative 2D-PAGE proteomics was carried out for other rock-inhabiting fungi (RIF) (i.e., Cryomyces antarcticus, Knufia perforans, and Exophiala jeanselmei) exposed to these conditions and showed a decrease in protein complexity, followed by recovery of the metabolic activity after 1 week of exposure. Further, survivability of C. antarcticus in outer space was shown via colony counts following a 1.5-year-long exposure on board the EXPOSE-E facility of the ISS. A more recent experiment of C. antarcticus exposure on rock analogs under space and simulated Martian conditions revealed only slight ultra-structural and molecular damage and pointed out the high stability of DNA within melanized cells. In other investigations, the resistance to acute ionizing radiations was demonstrated in RIF. Together, these studies have revealed the ability of rock-colonizing black fungi to endure space conditions; however, to date, reports that specifically evaluate the response to microgravity have not been produced.\n\nMicrogravity is an important factor influencing microbial life in space environments, a condition in which the gravity level is almost zero but not neutralized. Due to the technological and logistical hurdles linked to studies of microgravity in space, different methods have been developed to simulate microgravity and analyze microbial responses. Accordingly, the term low-shear simulated microgravity (LSSMG) is used to describe the environmental condition created by these devices, resembling the low-shear effects of the fluid on the cells. Spaceflight and ground-based microgravity analog experiments have suggested that microgravity can affect microbial gene expression, cell morphology, physiology, and metabolism, also triggering increased virulence in pathogenic bacteria and fungi. Although the effects of microgravity on microbes have been studied for several years, only the responses of a few typical prokaryotic and eukaryotic model organisms—e.g., Escherichia coli, Candida albicans, Saccharomyces cerevisiae, Penicillium sp., Aspergillus sp.—have hitherto been investigated. Hence, studying the reaction of black fungi to microgravity holds potential for the elucidation of the molecular basis of tolerance in extremotolerant and extremophilic fungi, and can also contribute to unearthing the biological uniqueness of these species and their adaptability to space conditions.\n\nIn the present study, the qualitative and quantitative proteomic characterization of a black fungus response to LSSMG was carried out for the first time. The rock-associated Knufia chersonesos (syn. Knufia petricola) was selected as the model organism due to its reported poikilo-tolerance, e.g., the ability to endure xeric conditions, desiccation, high UV-radiation and temperatures and to feed on alternative carbon sources like monoaromatic compounds and synthetic polyesters. K. chersonesos aptitude to withstand levels of gaseous ozone up to 11 ppm was also shown (Tesei et al., unpublished). Furthermore, being the only black fungus known to have a melanin-deficient spontaneous mutant, K. chersonesos allows comparative studies attempting to evaluate the stress-protective role of melanin. Cultures of K. chersonesos wild type and mutant were grown in HARVs and analyzed for changes at the proteome—whole-cell proteome (mycelia) and secretome (culture supernatant)—and at the morphological level, with an eye toward the impact of cell-wall melanization on the physiological response to the stress.",
+  "methods": "Materials and Methods\n\nFungal Strains\n\nThe fungal strains used in this study included the non-pathogenic rock-inhabiting fungus K. chersonesos MA5789 wild type (Wt) and MA5790 mutant (Mut), both obtained from the ACBR fungal culture collection of the University of Natural Resources and Life Sciences, Vienna, Austria. The Wt, characterized by a highly melanized mycelium, was isolated from red sandstone in Ny London, Svalbard, Norway. The pink mutant, whose pigmentation is due to unmasking of carotenoids resulting from the lack of melanin, originated spontaneously under laboratory conditions. K. chersonesos (syn. K. petricola) is an emerging model organism for analyses aiming at the elucidation of the rock-lifestyle and RIF physiology. Along with its ascertained thermo-, pH-, UV- and desiccation tolerance, the fungus was recently reported to have an aptitude for using synthetic polymers as an alternative carbon source. These features and the ability to endure high levels of gaseous ozone (Tesei et al., unpublished), altogether make K. chersonesos particularly suited for astrobiology studies. Further, the availability of a mutant strain allows comparative studies attempting to evaluate the role of melanin in stress protection. Fungal cultures were maintained in flasks containing 50 mL of 2% malt extract broth (MEB, pH 5, 2% malt extract, 2% glucose, 1% peptone) at 21°C with shaking at 63 rpm (Innova, Eppendorf). Cultures at exponential phase were used for inoculation of media for all experiments.\n\nExposure to Low-Shear Simulated Microgravity (LSSMG)\n\nFungal pellets were obtained from 5-day-old cultures by centrifugation, washed in 1X phosphate-buffered saline (PBS; Thermo Fisher Scientific) and subsequently mildly ribolyzed (3 × 20”, speed 4; MP Biomedicals) to separate cells. As clump-like growth is an inherent characteristic of black fungi, mechanical disruption of cell clusters is a prerequisite for both inoculation of cultures and cell counting. Following the cell count (Neubauer), the cell number was adjusted to the initial concentration of 2 × 105 ml–1 with 10 mL fresh 2% MEB and used as seed culture. High-aspect-ratio vessels (HARVs; Synthecon Inc) were filled with the cell suspensions (10 mL) and rotated at 30 rpm (initial rotation rate) in the vertical axis to provide LSSMG conditions inside a chamber with 60% humidity and 22°C, for 7 days. Control runs were set up by rotating the bioreactors in the horizontal axis to provide normal gravity condition (1G). During cultivation, the rotation speed was adjusted to 43 rpm in order to keep the cells pellets orbiting within the vessel in continual fall and to prevent their contact with the vessel walls (Figures 1A,B). A total of two biological replicates were maintained throughout the experiments. An additional set of experiments identical to the conditions mentioned above was established for measurement of cell concentration and microscope observations. Cell concentration was assessed via hemocytometer count at different time points until completion of the experiment, using two biological replicates (i.e., biomass from two different vessels) for each experimental condition. Following removal of the vessel from the rotator base, samples of cells were collected under sterile conditions in a laminar flow hood using a luer-lock syringe and the syringe port in the culture vessel. The sampling was carried out one vessel at a time while the remaining vessels were kept rotating on the rotator base. Cell survivability at the end of the LSSMG exposure was assessed by enumeration of colony forming units (CFU) using ImageJ software, according to.\n\nMicroscopy Studies\n\nScanning Electron Microscopy (SEM)\n\nFor SEM studies, samples from the two strains were collected from all the established cultures—LSSMG and normal gravity condition (1G)—at various timepoints, i.e., 1, 3, 5, and 7 days from the beginning of the cultivation. A 1:10 dilution of each sample was prepared using 1X phosphate-buffered saline (PBS; Thermo Fisher Scientific) and thereafter transferred onto electron microscopy coupons. For each sample, two biological replicates (and two technical replicates each i.e., aliquots of 20 μl) were prepared and let dry at 35°C before examination. A Sirion (FEI, Hillsboro, OR, United States) field-emission scanning electron microscope (FE-SEM) was used for examination of the fungal cells. No specimen preparation procedures, such as sample coating with a surface-conducting (carbon or metal) layer, were performed as they were not necessary when using the FE-SEM. The samples were analyzed using an acceleration voltage of 10–20 kV, beam current of 40–50 mA and positioning the detector 6–10 mm away from the coupon. Secondary electron images were acquired in the high-vacuum mode. For each sample coupon, a minimum of 10 fields was observed, and images were acquired with various magnification (100×–5,000×).\n\nFluorescence Microscopy\n\nFor the cell integrity and viability assay, wheat germ agglutinin (WGA) and propidium iodide (PI) in combination with SYTO 9 were used. The carbohydrate-binding lectin WGA has a known affinity for β-1,4-N-acetylglucosamine (GlcNAc) oligomers present in the fungal polysaccharide chitin. PI, a membrane impermeant dye that is generally excluded from viable cells, was applied together with the nuclear and chromosome counterstain SYTO 9 for a dead/live stain. 200 μl aliquots were collected from all the established cultures after 1, 3, 5, and 7 days from the beginning of the cultivation. Fungal cells were washed twice in 1X PBS and suspended in 500 μl. Following a 1:10 dilution, 100 μl cell suspension was incubated with 50 μl Alexa Fluor 350 conjugate of WGA (Thermo Fisher Scientific) and 15 μl of FungaLight containing equal amounts of PI and SYTO 9 solution (Thermo Fisher Scientific), for 15 min at room temperature in the dark. The chosen amounts of the fluorescent probes are justified by the thickening and the increase in melanization of the cell walls, which hindered the staining process. Cell suspensions were mounted over glass slides and analyzed under an Axioplane microscope equipped with an AxioCam camera (Carl Zeiss). For each sample, two technical replicates were prepared for observation.\n\nTandem Mass Tag (TMT)-Based Quantitative Shotgun Proteomics\n\nSample Preparation\n\nThe content of each vessel was spun at 7500 × g (5810, Eppendorf) and at 4°C for 15 min to separate fungal cell pellet (mycelium) from culture supernatant (secretome). Protease inhibitors (10 μl:1 mL v/v, Halt, Thermo Fisher Scientific) were thereafter added—and mixed with 1 mL 1 × PBS in the case of biomass samples—and samples were stored at −80°C prior to protein extraction. Proteins were extracted as previously described by with some modifications. In brief, 1 mL lysis buffer consisting of 100 mM triethylammonium bicarbonate (TEAB) with 1:100 Halt Protease Inhibitor Cocktail (Thermo Fisher Scientific) was added to fungal cell pellets (i.e., ∼0.5 g) and culture supernatants (i.e., ∼0.5 mL), the latter previously concentrated in a SpeedVac system. Sample homogenization was achieved using a bead beater (Bertin) at 4°C (3 × 5500 rpm for 1 min., with 15 s. breaks in between) and following centrifugation at 17,000 × g and 4°C for 15 min, protein concentrations were determined by BCA assay (Thermo Fisher Scientific). The protein extracts were processed for a tandem mass tag (TMT) labeling as previously described. For each sample, 250 μg proteins were precipitated in 20% TCA at 4°C, reduced by tris(2-carboxyethyl)phosphine (TCEP), alkylated with iodoacetamide (IAA), and digested with Trypsin/LysC (Promega, Madison, WI, United States) overnight at 37°C. Peptide quantitation was performed using the Pierce Quantitative Colorimetric Peptide Assay (Thermo Fisher Scientific). The proteomic and secretomic profiling of K. chersonesos Wt and Mut were carried out in two separate TMT LC/MS experiments. A total of 40 μg peptides from each cell pellet sample or 13 μg peptides from each culture supernatant were labeled with the Thermo Scientific TMT10 plex (TMT10) Isobaric Mass Tagging Kit according to the manufacturer protocol. Eight TMT tags were used to label samples from the same experimental set. The TMT10-131 label was used as a reference that contained a pool of 5 μg of peptides from all samples. All nine labeled-peptide samples were combined into a single tube, mixed and fractionated using the Pierce High pH Reversed-Phase Peptide Fractionation Kit (Thermo Fisher Scientific). The fractionated samples were dried using a SpeedVac concentrator and dissolved in 1% formic acid prior to LC-MS/MS analysis.\n\nLC-MS/MS Analysis\n\nThe samples were analyzed on an Orbitrap Fusion Lumos mass spectrometer with a Dionex UltiMate 3000 RSLCnano system, a 300 μm × 5 mm PepMap100 C18 precolumn, a 75 μm × 50 cm PepMap RSLC C18 analytical column, and an Easy-Spray ion source (Thermo Scientific). The column temperature was maintained at 45°C, and the peptides were eluted at a flow rate of 300 nL/min over a 110 min gradient, from 3 to 30% solvent B (100 min), 30 to 50% solvent B (5 min), 50 to 90% solvent B (1 min), 90% solvent B (1 min), and 90% to 3% solvent B (3 min). Solvent A was 0.1% formic acid in water and solvent B was 0.1% formic acid in acetonitrile. The full MS survey scan (400–1,600 m/z) was acquired in the orbitrap at a resolution of 240,000 and with an automatic gain control (AGC) target of 4 × 105. The maximum injection time for MS scans was 50 ms. Monoisotopic precursor ions were selected with charge states 2–7 within a ± 10 ppm mass window using a 60 s dynamic exclusion. The MS2 scan (400–1,200 m/z) was performed using the linear ion trap with the CID collision energy set to 35%. The ion trap scan rate was set to “rapid,” with an AGC target of 1 × 104, and a maximum injection time of 30 ms. Ten fragment ions from each MS2 experiment were then simultaneously selected for an MS3 experiment. The MS3 scan (100–500 m/z) was performed to generate the TMT reporter ions in the orbitrap at a resolution of 30,000 and using HCD at a collision energy setting of 65%, an AGC target of 5 × 104, and a maximum injection time of 54 ms.\n\nQuantitative Proteomics Analysis\n\nAll MS/MS spectra were analyzed using Proteome Discoverer (version 2.2.0.388, Thermo Fisher Scientific) with the Sequest-HT searching engines against an in-house annotated draft genome sequence of K. chersonesos MA5789 Wt (GCA_002319055.1, assembly ASM231905v1, NCBI) consisting of 9.818 predicted protein coding gene models. The genome was annotated using funannotate (v1.3.4) (doi: 10.5281/zenodo.1284502), which combined predictions from ab initio gene predictors with Augustus trained by BUSCO gene models (fungi_odb9) and GeneMark.hmm informed by protein evidence from Swiss-Prot together into composite gene models with EvidenceModeler. Functional predictions for genes was assigned by protein homology to Pfam, Swiss-Prot/UniProt (v 2018_05), and EggNog (v1.10) databases. The following parameters were selected for the search: A maximum of two missed cleavage sites, a minimum peptide length of six residues, 5 ppm tolerance for precursor ion masses, and 0.6 Da tolerance for fragment ion masses. The static modification settings included carbamidomethyl of cysteine residues, and dynamic modifications included oxidation of methionine, TMT modification of lysine ε-amino groups and peptide N-termini, and acetyl modification of protein N-terminus. A false discovery rate (FDR) of 1% for peptides and proteins was obtained using a target-decoy database search. The reporter ions integration tolerance was 0.5 Da while the co-isolation threshold was 75%. The average signal-to-noise threshold of all reporter peaks was greater than 10. The quantitative abundance of each protein was determined from the total intensity of the detected reporter ions. For statistical analysis, the sum of reporter ion intensities for each protein was log2 transformed, and the technical triplicate measurements for each protein were averaged. Only the proteins that were identified with at least one peptide and quantified in all technical (n = 3) and biological replicates (n = 2), were considered for the statistical analysis. Student’s t-test was performed to identify differentially expressed proteins between each LSSMG-exposed and 1G-exposed group as well as between all groups. To compare all four experimental conditions, each condition was normalized to the reference channel, which contained equal amounts of peptides from each group. To evaluate changes between treatment (LSSMG) and control (1G), the protein abundance levels of each LSSMG-exposed sample were normalized to the 1G-exposed counterpart. Proteins with p-values of ≤0.05 were further evaluated for increased or decreased abundance using a cut-off value of ≥ ± 1.5-fold change (log2 fold change of ≥ ± 0.584).\n\nProtein Identification and Bioinformatics Analysis\n\nProtein identifications and functional insights were obtained from searching for sequence homologs using OmicsBox v. 1.4.11 (BioBam Bioinformatics S.L). To characterize proteins with respect to the biological process they are involved in, Gene Ontology (GO) terms were assigned to domains. The sequences were blasted (cloud BLASTP 2.10.0+, E-Value 1.0E-3, Filter: Fungi), and the blast hits were mapped and annotated with GOs using the GO database (Goa version 2019_111; E-Value 1.0E-6, Filter GO by Taxonomy: taxa: 4751, Fungi). GOs were additionally assigned using InterProScan (IPS) to retrieve domains/motif information in a sequence-wise manner, and EggNOG using precomputed EggNOG-based orthology assignments. Corresponding GOs were then transferred to the sequences and merged with already existing GO terms. The annotations were validated based on the True-Path-Rule by removing all redundant terms to a given sequence. A GO-Slim analysis was run to summarize the GO annotation using the Aspergillus slim. Existing GO terms were additionally mapped to enzymes codes, when possible. A pathway analysis was performed to retrieve metabolic pathways based on the GO terms and the enzyme codes using the Load KEGG Pathway tool. To elucidate the identity of the uncharacterized proteins, a search for homology was further performed in the UniProtKB database2 (BLASTP parameters: E-Threshold: 10; matrix BLOSUM62). In cases of blast results where the most significant match was represented by an uncharacterized protein, the first match in the list of homologous proteins where a protein ID was available was considered. Information about the predicted protein localization was obtained using BUSCA3, based on the identification of signal and transit peptides, GPI-anchors and alpha-helical and beta-stranded transmembrane domains. Protein-protein interaction analyses were performed using STRING v11.0 with high confidence (0.70), selecting the proteome of the black yeast Exophiala dermatitidis as reference database based on its phylogenetic proximity to K. chersonesos.",
+  "results": "Results\n\nGrowth Behavior\n\nCell concentration in the LSSMG-exposed and unexposed samples was measured via hemocytometer at four different time points: (1) start (seed, day 0), (2) acceleration phase (in between lag and exponential phases, day 3), (3) exponential phase (day 5) and (4) at the end of the experiment (stationary phase, day 7). In K. chersonesos WtLSSMG, ∼23.5-fold increase in cell concentration was observed during acceleration phase when compared to the original inoculum (2 × 105 cells/mL). Such an increase during acceleration phase was also noticed in K. chersonesos MutLSSMG (10-fold), K. chersonesos Wt1G (22-fold) and K. chersonesos Mut1G (19-fold). During stationary phase the increase in cell concentration was 28-fold (K. chersonesos WtLSSMG), 30-fold (K. chersonesos MutLSSMG), 42-fold (K. chersonesos Wt1G), and 36-fold (K. chersonesos Mut1G) when compared to original inoculum. Among LSSMG and Earth gravity grown cultures, higher values were recorded at normal gravity condition. Overall, only ∼one log growth in 7 days might be due to the clumping nature of Knufia cells. Cell survivability in simulated microgravity was measured by CFU using ImageJ software according to established protocol and were: K. chersonesos WtLSSMG = 2.8 × 106 cell/mL, K. chersonesos MutLSSMG 2.5 × 106 cell/mL, K. chersonesos Wt1G 2.6 × 106 cell/mL, K. chersonesos Mut1G 2.3 × 106 cell/mL (Supplementary Table 1). Potential mechanical damages or cell lysis caused by cell separation via mild bead beating (i.e., ribolyzer, 3 × 20 s, speed 4) prior to cell count are to be excluded since optical microscope observations and tests involving repeated bead beater treatments indicated that it does not decrease cell viability. However, underestimation of cell survivability by CFU due to cell clumping, an inherent characteristic of black fungi, should be taken into account.\n\nUnder LSMMG conditions, fungal cells showed an increased clumping, resulting in the aggregation of cells to form a mycelial growth in the center of the vessel. However, growth morphology under Earth gravity resembled a biofilm of cells adhering to the vessel’s oxygenation membrane (Figure 1C).\n\nMicroscopy\n\nTo evaluate the presence of LSSMG-dependent alterations of fungal cell morphology in the melanotic (Wt) and non-melanized spontaneous mutant (Mut) strain, we examined cellular differentiation by growing cells at low density. In order to analyze single cellular morphology of the Wt and Mut strain before LSSMG-treatment, exponentially growing fungal cells were spotted on top of aluminum coupons and visualized using FE-SEM. The observation of the control fungal cell morphology in non-coated FE-SEM specimens revealed that the Wt produced biconcave cells, pseudohyphae and hyphae, while the mutant showed smooth spherical cells, pseudohyphae and cell aggregates (Figures 2, 3).\n\nLow-shear simulated microgravity-exposed and 1G-exposed fungal cells were collected at various time points, as described in the section “Materials and Methods.” A detailed examination of fungal cellular morphology in non-coated FE-SEM specimens revealed 1G and LSSMG Wt and mutant strains showing similar morphology at day 1 and 3. Remarkably, the 1G Wt hyphae formation was delayed until day 7, whereas LSSMG induced hyphae formation at day 5 (Figure 2). Notably, the mutant showed no evidence of hyphae formation in LSSMG condition, but the aggregation of cells was evident at day 3 and increased until day 7, similarly to what was observed in the 1G cells (Figure 2). Furthermore, a closer observation of Wt and mutant fungal cells in LSSMG and 1G condition at 2500× magnification clearly shows that the Wt cells form biconcave morphology compared to the mutant cells (Figure 3). LSSMG treatment led to no significant change in cell size relative to 1G conditions, in either strain (Supplementary Table 2). Similarly, images of PI-SYTO 9 and WGA staining generated by confocal microscopy did not reveal changes in cell viability and integrity in response to LSSMG exposure. Greatest fluorescence was seen with WGA at the beginning of the cultivation, although increasing concentrations of the dye were applied; this is most probably due to the thickening of the cell wall and increase of melanization, which naturally occurs in the fungus over the course of cultivation (Supplementary Figure 1). Collectively, these findings uncover that the LSSMG and 1G conditions did not influence the fungal cellular growth and morphology.\n\nOverview of Whole-Cell Proteome and Secretome Analysis\n\nThe 16 samples, comprised of four experimental conditions with two biological replicates each for each of the analyzed strains, yielded 3777 proteins as detected by isobaric TMT labeling-based LC-MS/MS. Of these, 3177 were in the whole-cell proteome and 600 in the secreted fraction. Furthermore, 2602 proteins were unique to the proteome and 25 to the secretome, while 575 were found to overlap (Figure 4A). A total of 3163 were identified by homology search. An overview of the biological and molecular functions of the detected proteins was obtained through an annotation statistics analysis. Distribution of the GO terms for all 3 categories (i.e., biological process BP, molecular function MF, and cellular component CC), with the highest number of associated protein sequences in the whole-cell proteome and the secretome, is displayed in Supplementary Figures 2A,B. Several GOs were common to proteome and secretome, whereas others were instead unique to each set of proteins. GOs for different types of cell metabolic processes were the most represented in both secretory and intracellular proteins, whereas BPs such as response to chemical, cell cycle, and negative regulation of cellular processes were found exclusively within the latter. Conversely, proteins involved in cell communication and positive regulation of cellular process could solely be detected in the secreted fraction of the proteome. Proteins with hydrolase activity (MF GO:0016787) represented the most abundant group in the secretome and second most abundant in the whole-cell proteome, immediately followed by proteins with organic cyclic and heterocyclic compound binding, oxidoreductase and transferase activity. In both sets of samples, proteins with transcription and translation regulation activity were instead detected as the smallest groups. A distribution analysis for cellular component GO terms indicated a prevalence of intracellular, membrane, and cell wall proteins (i.e., CC GO: envelope) also in the culture supernatant—i.e., the ratio of total proteins with predicted extracellular to intracellular localization was approximately 25%:75% in the wild type and 6%:94% in the mutant—where the detection of cytoplasmic proteins is possibly due to mechanical stress and cell death. Nonetheless, the presence of these proteins in the secreted fraction could also depend on active secretion of proteins with no predicted signal peptide, i.e., non-classical protein secretion, which has been recognized in various organisms including fungi, bacteria and plants based on the large number of leaderless proteins detected in extracellular compartments, including extracellular vesicles (EVs). The 25 proteins uniquely detected in the secretome encompassed a number of carboxylic ester hydrolases with predicted extracellular localization alongside cytoplasmic, cell wall– and plasma membrane-associated proteins (Supplementary Table 3).\n\nIn order to detect significant rearrangements in the protein pool upon exposure to LSSMG, a quantitative analysis was carried out by comparing experimental groups. The clustering of the samples, biological and technical replicates included, was confirmed by Hierarchical Cluster (HC) analysis (Figure 4C). However, one of the LSSMG-exposed secretomes from K. chersonesos Wt appeared to deviate from the biological duplicate of the same condition. The number of differentially abundant proteins for each strain is summarized in Figure 4 (fold change of ≥ ± 1.5, p ≤ 0.05), where (B) shows the count of regulated proteins following direct comparison of treatment and control whole-cell proteome and secretome samples. The mutant proteome contained the largest number of modulated proteins (115) compared to the mutant secretome (71), the wild type proteome (97), and the wild type secretome (11).\n\nEffects of LSSMG on Knufia chersonesos Whole-Cell Proteome\n\nThe proteomic quantitative analysis of LSSMG-exposed K. chersonesos Wt and Mut revealed 54-up and 43-down and 45-up and 70-down regulated proteins, respectively, when compared to the 1G-exposed counterparts (fold change of ≥ ± 1.5, p ≤ 0.05) (Supplementary Tables 4, 5). Distribution of over-represented BP GO terms among differentially expressed proteins is displayed in Figure 5A. Most significantly upregulated biological processes included “lipid and carbohydrate metabolism” in both strains (24 to 28% of all upregulated proteins). However, 15% of downregulated proteins were also in the carbohydrate metabolism category. By contrast, proteins involved in lipid metabolic processes were not found to be decreased. Further, “transcription” (12%) and “transport” (27%) were additional highly represented categories of upregulated proteins in the wild type, whereas “transport” (28%) and “amino acid metabolic process” (16%) were well represented categories of upregulated proteins in the mutant.\n\nProteins involved in lipid metabolism included CF317_002955-T1/C7ZGD6_NECH7—predicted to be phospholipase A2—an acetyl-CoA desaturase (CF317_004579-T1/A0A072PJ62_9EURO) and the uncharacterized protein CF317_000532-T1/A0A0D2C8U2_9EURO upregulated in both strains, along with an inositol-3-phosphate synthase (CF317_006213-T1/A0A0D2GI50_9EURO), which was instead solely observed in the mutant. These proteins participate in cellular pathways for the biosynthesis of unsaturated fatty acids (KEGG pathway 01040) and the metabolism of phospho- and glycerophospholipids (KEGG 00564), inositol phosphate (KEGG 00562), arachidonic and linoleic acid, among others (Table 1). Pyruvate metabolism (KEGG 00620), glycolysis/gluconeogenesis (KEGG 00010) and starch and sucrose metabolism, were possibly also involved in the response to LSSMG, as revealed by the KEGG pathway analysis based on the increased abundance of proteins like alcohol dehydrogenase 1 (CF317_005767-T1/A0A0N0NIW7_9EURO) and alpha/beta-glucosidase agdC (CF317_006579-T1/A0A178BWA1_9EURO) in the wild type. Glutamine synthetase and protein FYV10, the first involved in glyoxylate and dicarboxylate metabolism (KEGG 00630) and in nitrogen metabolism and the latter mediating the degradation of enzymes of the gluconeogenesis pathway, were instead detected as upregulated in the mutant. Decreased levels of a number of hydrolytic enzymes destined for secretion were observed in the LSSMG-exposed proteomes for the carboxylic ester hydrolases CF317_0002308-T1/A0A1J9RJA8_9PEZI, CF317_007618-T1/A0A6A6HNE7_9PEZI, CF317_007621-T1/A0A0D2AG04_9PEZI (in Wt) and CF317_002086-T1/A0A0D2BHT9_9EURO (in Mut). The same was observed for the cell wall–degradation enzymes endo- and extracellular glucanases CF317_0009683-T1/W9ZBZ7_9EURO and CF317_009779-T1/H6BQE2_EXODN (in Wt) and the 3,2-trans-enoyl-CoA isomerase CF317_000932-T1/A0A1C1D1N7_9EURO (in Mut), the latter of which is involved in the metabolism of unsaturated fatty acids in beta oxidation.\n\nA differential abundance of proteins involved in transport was also observed (Table 1). Transmembrane ammonium (CF317_007500-T1/A0A072PWW7_9EURO) and iron transporters (i.e., HemS domain-containing protein CF317_008807-T1/L7HNA7_MAGOY) and the choline transport protein (CF317_009191-T1/A0A2P8A4S9_9PEZI) were present in the LSSMG-exposed whole-cell proteome of both strains, but they were more increased in the mutant (over 3-, 2. 4-, and 1.5-folds, respectively) than in the wild type (slightly over 1.5-folds). Additionally, two AA permease 2 domain-containing proteins (CF317_005369-T1/A0A0D2FEL3_9EURO and CF317_002132-T1/A0A438N399_EXOME) responsible for transmembrane amino acid transport were also upregulated in the mutant, whereas proteins with a predicted role in vesicle-mediated transport—i.e., VPS37 C-terminal domain-containing protein (CF317_007988-T1/A0A0D2CPQ3_9EURO) and WD_REPEATS_REGION domain-containing protein (CF317_001709-T1/A0A438MTR2_EXOME)—were exclusively detected in the wild type counterpart. Downregulated proteins included POT family proton-dependent oligopeptide transporter (CF317_001542-T1/A0A072P870_9EURO) and major facilitator superfamily transporters (MFS) (CF317_001911-T1/W9Z1V7_9EURO), involved in transportation of substrate molecules, including sugars, drugs, metabolites, amino acids, vitamins, and both organic and inorganic ions, or small peptides. Together with ABC transporters, MFS transporters are often detected among the cell wall components undergoing changes in response to the shift from normal gravity to microgravity.\n\nLow-shear simulated microgravity additionally triggered upregulation of some proteins involved in cellular amino acid metabolic processes and downregulation of others (Table 1). Glutamate dehydrogenase was threefold and fourfold upregulated in K. chersonesos Wt and Mut, respectively. Together with the glutamine synthase, whose levels were also found to be increased in the mutant, the enzyme is reportedly involved in the primary nitrogen metabolism and in the biosynthesis and metabolism of several amino acids (i.e., arginine biosynthesis, glutamine, alanine and aspartate metabolism). Protein D-3-phosphoglycerate dehydrogenase (CF317_004816-T1/A0A0D2CHE2_9EURO), participating in cysteine, methionine, glycine, serine, and threonine metabolism, was also more enriched in LSSMG-exposed mutant samples. However, a higher number of enzymes involved in cellular amino acid metabolic processes was found to be decreased under LSSMG. Nine were downregulated exclusively in the mutant, while protein CF317_006402-T1 was observed also in the wild type. According to the KEGG analysis, some of these proteins are involved with more than one pathway: 4 proteins are implicated in arginine and proline metabolism (CF317_000519-T1, CF317_007970-T1, CF317_007070-T1, CF317_008030-T1), 3 in tyrosine metabolism (CF317_007412-T1, CF317_006402-T1, CF317_008924-T1), and 2 in histidine metabolism (CF317_007412-T1, CF317_006712-T1), arginine biosynthesis (CF317_002693-T1, CF317_000519-T1) and phenylalanine biosynthesis and metabolism (CF317_007412-T1, CF317_006402-T1). The putative indoleamine 2,3-dioxygenase, involved instead in tryptophan catabolic process to the NAD precursor kynurenine, represented the most decreased protein in both strains, with an over 2-fold downregulation.\n\nSome proteins falling into the GO category “DNA-templated transcription” were enriched exclusively in the LSSMG-exposed wild type proteome. They were mostly phosphatases—known to also regulate pathways important for stress —having abundances nearly 2.5-fold higher than in the control samples (i.e., Alkaline phosphatase CF317_008227-T1/A0A0D2BGD8_9EURO and CF317_003892-T1/A0A0D2BGD8_9EURO) (Table 1). Within the same category, downregulation was observed for a putative serine/threonine-protein kinase TOR and two trans domain-containing proteins involved in DNA binding and transcription. Decreased levels of structural protein constituents of the large ribosomal subunit—i.e., ribosomal protein L37e, L34-B and L24e—were instead detected upon LSSMG exposure exclusively in the wild type, alongside the upregulation of the ribonuclease T1 (CF317_005207-T1/W9XBV2_9EURO) involved in RNA degradation. Also significantly decreased was poly(A)polymerase (CF317_003175-T1/A0A1C1CN69_9EURO), an important component in mRNA synthesis, responsible for the addition of the 3′ polyadenine tail to a newly synthesized pre-messenger RNA.\n\nIn the group of proteins involved in response to stress and chemical, most of the modulated proteins were decreased by LSSMG exposure (Table 1). Downregulated stress response proteins included catalases (i.e., CF317_000687-T1/R8BNJ4_TOGMI, levels 2.7- and 1.9-fold lower than in the unexposed wild type and mutant proteome, respectively; CF317_003242-T1/R4XE87_TAPDE and CF317_008773-T1/U1G9G0_ENDPU), notably involved in the response to oxidative stress, and the 3-phytase CF317_007018-T1/A0A0D2IHR9_9EURO—a phosphatase enzyme with a predicted role in counteracting phosphate deficiency and osmotic stress —in both strains. Further, the glutathione-recycling enzyme glutathione reductase (CF317_008426-T1/A0A0D1ZJU8_9EURO), the histidinol-phosphate aminotransferase (CF317_007412-T1/H6BQ73_EXODN) and the adenylosuccinate synthetase (ASS; F317_004909-T1/W9W243_9EURO), showed lower levels in the mutant under LSSMG conditions. The latter, best known as the first enzyme in the de novo synthesis of AMP from inosine-5′-monophosphate (IMP), is responsive to salt stress, as reported in plants. Among the proteins with increased abundance in both fungal strains, was glutamate dehydrogenase (CF317_004755-T1), involved in amino acid metabolism and for which a stress-dependent regulation has been demonstrated (e.g., abiotic stress generated ROS). Further, the putative cytosolic nitric oxide dioxygenase (CF317_006388-T1/S7Z8A1_PENO1)—reported to play a role in nitric oxide detoxification mechanisms by the conversion of this signaling molecule to nitrate —was present in the wild type and mutant LSSMG-exposed proteomes at levels around 2-fold higher than that of the unexposed ones. Along with the above-mentioned proteins, a number of enzymes, specifically peptidases involved in proteolysis, were found to be upregulated exclusively in K. chersonesos wild type (Table 1). The putative carboxypeptidase CF317_008840-T1/W9XS38_9EURO and CF317_004157/W2S3B3_9EURO; and CF317_000103/A0A6A6DDQ8_9PEZI and CF317_004551/A0A0D2GVY9_9EURO, known to catalyze reactions that are important to various physiological processes, such as the cell cycle, cell growth and differentiation, apoptosis, and stress response, were 2-fold and 1.5-fold upregulated, respectively. Lastly, proteins involved in cytoskeleton and organelle organization showed opposite regulation in the two K. chersonesos strains: The first was decreased in the wild type, whereas the latter was upregulated in the mutant (Table 1).\n\nEffects of LSSMG on Knufia chersonesos Secretome\n\nThe proteomic characterization of K. chersonesos secretome upon exposure to LSSMG for 7 days revealed solely 9-up and 2-down regulated proteins in the wild type and 23-up and 48-down regulated proteins in the mutant, when compared to the 1G-exposed counterparts (fold-change of ≥ ± 1.5, p ≤ 0.05) (Figure 4B). Among these proteins, the ratio of proteins with predicted extracellular to intracellular localization was approximately 20%:80% in both wild type and mutant (Supplementary Tables 6, 7). Out of 14 proteins with predicted signal peptides in the mutant secretome, 12 were regulated following LSSMG-exposure. In the wild type secretome, 2 out of 61 proteins with predicted extracellular localization were regulated in response to microgravity.\n\nThe distribution of differentially expressed proteins among BP GO terms is presented in Figure 5B. In the wild type, the regulated proteins were prevalently involved in transport and metabolic processes, whereas in the mutant strain, regulated proteins were mostly involved with biological processes such as carbohydrate and lipid metabolism (15 proteins), response to chemical and stress (13 proteins), translation, and ribosome biogenesis and transcription (15 proteins). Interestingly, the majority of proteins involved in the above-mentioned GO BP categories exhibited downregulation in LSSMG-exposed secretomes of the mutant and exhibited upregulation in the wild type (Table 2). One protein exhibiting opposite regulation in the two analyzed strains, was the putative scytalone dehydratase CF317_002654-T1, homolog of Phialophora attinorum A0A0N1P280_9EURO. This enzyme, which is reportedly involved in the biosynthesis of dihydroxynaphthalene (DNH) melanin from endogenous substrate, was 1.5-fold increased in the wild type and 1.6-fold decreased in the melanin-deficient mutant. In the wild type, upregulated proteins also included the adenylosuccinate lyase CF317_004119-T1 and the M20_dimer domain-containing protein (Carboxypeptidase S) CF317_006825-T1, both implicated in amino acid (alanine, aspartate and glutamate) metabolism (KEGG pathway pae00250), and the plasma membrane ATPase CF317_002664-T1, partaking in oxidative phosphorylation (Table 2). Also in the wild type, the casein kinase I 1 CF317_004827-T1 and the histone H2A CF317_001633-T1, both involved in DNA repair, were found in the LSSMG-exposed secretome at levels 1.7- and 1.6-fold higher than in the unexposed one. The two downregulated proteins were protein CF317_008131-T1, homolog of the arabinan endo-1,5-alpha-L-arabinosidase from Aspergillus wentii DTO 134E9, and protein CF317_002949-T1, homolog of the feruloyl esterase A0A177BY00_9PLEO from Paraphaeosphaeria sporulosa, both with a predicted extracellular localization and reportedly involved in polysaccharide degradation.\n\nIn the K. chersonesos mutant, LSSMG triggered the upregulation of just a low number of proteins. The malate dehydrogenase CF317_003266-T1/A0A1C1CNC5_9EURO, 1,3-beta-D-glucan-UDP glucosyltransferase CF317_000614-T1/A0A438MTW5_EXOME and alpha, alpha-trehalase CF317_004588-T1/H6C927_EXODN, involved in the metabolism of starch, sucrose, and sphingolipids, were 2. 4-, 1.9-, and 1.8-fold upregulated, respectively. Conversely, proteins with decreased abundance encompassed, among others, enzymes catalyzing different steps throughout the process of glycolysis/gluconeogenesis (KEGG pathway hsa00010)—such as the putative phosphotransferase CF317_008448/W2RU25_9EURO, the phosphoglycerate kinase CF317_004751/W2RJE3_9EURO and the 2-phosphoglycerate dehydratase CF317_003513/H6BNI5_EXODN—fructose and mannose (hsa00051), pyruvate (hsa00620) and glycerolipid metabolism (hsa00561), and the pentose phosphate pathway (hsa00030) (i.e., phosphotransferase, epimerase domain-containing protein CF317_008979 and 6-phosphogluconate dehydrogenase, decarboxylating CF317_005481). Further, the CF317_007096/A0A0U1M0E3_TALIS 6-phosphofructo-2-kinase, acting as an activator of the glycolysis/gluconeogenesis pathway, was the most decreased protein in the GO category of carbohydrate and lipid metabolism, with a 3-fold downregulation.\n\nIncreased levels of proteins with a role in the response to stress and chemicals (Table 2) were observed in the exposed secretomes for the plasma membrane protein CF317_000051-T1/A0A178DA36_9EURO with reported phosphatase activity and the guanine nucleotide-binding protein subunit beta CF317_007665-T1/A0A0D2CV56_9EURO with a role in signal transduction, among others. However, as already observed for the whole-cell proteome, the majority of proteins involved in stress response showed decreased abundance upon exposure to LSSMG. The DNA-repair protein histone H2A (CF317_001633-T1), upregulated in the wild type secretome, was at least twofold downregulated in the mutant, together with the nucleoside diphosphate kinase CF317_007147-T1/A0A178C9G0_9EURO. The latter, ubiquitous enzyme involved in nucleotides biosynthetic process, has been shown to participate in the metabolism of selective drugs like Isoniazid and Fluorouracil (KEGG map00983) in Homo sapiens. The same was observed for the S-formylglutathione hydrolase, whose activity is mainly linked to methane metabolism and the recycling of glutathione in cell detoxification pathways. Similarly, the thioredoxin domain-containing protein CF317_000980-T1 and the 6-phosphogluconate dehydrogenase, decarboxylating CF317_005481-T1/A0A0N0NLG1_9EURO, both involved in cell redox homeostasis and glutathione metabolism, showed an around twofold downregulation.\n\nAlso in the categories of transcription, translation, and ribosome biogenesis, downregulated proteins outnumbered the upregulated ones (Table 2). The most increased protein (almost twofold) was the putative D-amino-acid oxidase (DAO) domain-containing protein CF317_008030-T1/A0A0D1YYX4_9EURO, also involved in penicillin and cephalosporin biosynthesis (KEGG 00311). Elongation factor EF-1 beta and gamma subunit (CF317_008933-T1 and CF317_000379-T1), homologs of Exophiala dermatitidis CBS 525.76 H6BVG8_EXODN and H6BY84_EXODN proteins and involved in purine metabolism (KEGG 00230), were detected in the mutant LSSMG-exposed secretome at levels at least 3.5-fold lower than that of the unexposed ones. Further, four ribosomal proteins—i.e., 40S ribosomal protein S20 and S24 (CF317_001861-T1 and CF317_004501-T1); 60S ribosomal protein P1 and L7 (CF317_007960-T1 and CF317_005516-T1)—showed decreased abundance.\n\nAdditionally downregulated in response to LSSMG were the uncharacterized HIT domain-containing protein CF317_006677-T1 (over 3-fold regulated) and the putative versicolorin reductase CF317_003229-T1 (over 2-fold regulated), the latter known to mediate aflatoxins biosynthetic processes. Modulation was also observed in proteins involved in transport such as the above-mentioned 1,3-beta-D-glucan-UDP glucosyltransferase CF317_000614-T1 with a role on starch and sucrose metabolism, the endoplasmic reticulum transmembrane protein CF317_004472-T1, and the inorganic phosphate transport protein PHO88 CF317_006347-T1, which all appeared to be upregulated. Conversely, the transmembrane transporter “putative inorganic phosphate transporter C8E4.01c” CF317_002531-T1, the uncharacterized NTF2 domain-containing protein CF317_007808-T1, and the glycolytic enzyme phosphotransferase CF317_008448-T1 were detected as downregulated.\n\nKnufia chersonesos Wt and Mut Exhibit Opposite Regulation of Several Differentially Expressed Proteins\n\nThe comparative analysis of all examined samples to a reference sample—a pool of all established experimental conditions—revealed qualitative and quantitative differences between K. chersonesos Wt and Mut at the proteome and secretome level. This was especially evident when examining the top 10 differentially regulated proteins i.e., the 10 most up- and downregulated proteins at each experimental condition. A number of these proteins were found to undergo opposite modulation in the two strains, mainly in the whole-cell proteome. Distribution of the top differentially regulated whole-cell proteins is summarized in Supplementary Table 8: out of 41 different proteins, 6 were found to be top regulated in wild type and mutant under both normal gravity and microgravity condition, 10 only in the Wt and 10 exclusively in the Mut. Around 25% represented ribosomal proteins; 10% were proteins whose identity or function could not be elucidated after homology search; and the remaining proteins were involved in RNA binding, transcription, translation, transport, and carbohydrate metabolism. Out of the 49 top differentially regulated proteins from the secreted fraction, 2 were found in both strains at all experimental conditions, 17 only in the Wt and 17 only in the Mut (Supplementary Table 9). Similar to what was observed for the proteome, 26% of the detected proteins were ribosomal, followed by enzymes involved in carbohydrate metabolism (18%)—secreted esterases and lipases included—and in transport (10%).\n\nAltogether, the eight top differentially regulated proteins common to wild type and mutant in both normal gravity and microgravity—i.e., the large subunit (LSU) ribosomal proteins L28 (CF317_000935-T1), L32 (CF317_002712-T1), L35 (CF317_001879-T1) and L36 (CF317_007709-T1), the small subunit (SSU) ribosomal protein S30 (CF317_005321-T1), the U1 small nuclear ribonucleoprotein C (CF317_001622-T1), the murein transglycosylase (CF317_006383-T1) and the uncharacterized protein CF317_007965-T1—displayed an LSSMG-dependent regulation that also appeared to be specific to the Wt strain (Supplementary Figure 3). As shown in Supplementary Figure 3, all proteins that are upregulated in the Wt strain appear to be downregulated in the Mut strain and vice versa.\n\nA protein-protein interaction analysis was performed to verify the occurrence of these 8 proteins in common pathways, using STRING. A 6-node network was obtained for the proteins which matched homologs (sequence homology) in the STRING database (Supplementary Figure 4) and an interaction was confirmed for ribosomal proteins S30 (homolog of E. dermatitidis XP_009156842.1) and L35 (homolog of XP_009155966.1). As a component of the SSU, S30 has a role in mRNAs binding and selection of cognate aminoacyl-transferase RNA (tRNA), whereas L35 is required for polymerization of the amino acids delivered by tRNAs into a polypeptide chain. The involvement of protein L35 in cell growth regulation and apoptosis has additionally been reported. The proteins’ functional link (combined score: 0.999) was supported by evidence such as the co-expression of orthologs (score 0.963) and their interaction in other organisms (experimental/biochemical data, score: 0.904). Further interactions could not be detected possibly because functional characterization of these proteins in E. dermatitidis is yet to be thoroughly achieved.\n\nKnufia chersonesos Wt and Mut Comparative Analysis Under Normal Gravity (1G)\n\nA comparative analysis of wild type and mutant was performed to evaluate different responses at the proteome and secretome level under control condition, i.e., normal gravity. The analysis of the whole-cell proteome yielded a total of 100 proteins with increased and 40 proteins with decreased abundance in K. chersonesos Mut, compared with the wild type (fold change of ≥ ± 1.5, p ≤ 0.05).\n\nAs shown in Supplementary Figure 5A, “protein translation,” “organelle organization,” and “regulation of biological processes” were detected as the prevalent processes in the mutant, encompassing more than 50% of all upregulated proteins. This includes several ribosomal proteins and ribonucleoproteins. Ribosomal proteins L32 (CF317_002712), L36 (CF317_007709), S30 (CF317_005321) and L37 (CF317_004524-T1) and the small nuclear ribonucleoprotein C (CF317_001622-T1) were among the most upregulated proteins, being present in the mutant at level 8.7 to 3.6 (3.1 to 1.85 log2 fold change) higher than in the wild type (Supplementary Table 10). Increased levels were also observed for proteins involved in RNA metabolic processes and in transcription such as the U3 small nucleolar RNA-associated protein 11 (A0A0D2DFT3_9EURO), the U6 snRNA-associated Sm-like protein LSm4 (CF317_002219-T1) and the pre-mRNA-splicing factor isy1 (CF317_006097-T1),—partaking in nucleolar processing of pre-18S ribosomal RNA and in pre-mRNA splicing —the transcription factors C2H2 and RfeG (CF317_009591-T1 and CF317_000265-T1) and the 2′-phosphotransferase (CF317_002731-T1). Protein modulation also affected enzymes involved in the oxidative phosphorylation, whose levels resulted to be increased in K. chersonesos Mut, i.e., the cytochrome c oxidase assembly factor 6 (CF317_000645-T1 and CF317_000273-T1), cytochrome b-c1 complex subunit 7 (CF317_008279-T1), NADH dehydrogenase ubiquinone 1 alpha subcomplex subunit CF317_000197-T1. Regulation of proteins involved in chemical and stress response was also observed. The histone H2A (CF317_001633-T1)—reported to have a role on DNA repair —and the Nuclear transcription factor Y alpha (CF317_006017-T1)—with multiple roles in development and stress response —were found at levels at least 1.6-fold higher than in the melanized counterpart. Conversely, downregulated processes at normal gravity condition prevalently encompassed carbohydrate, lipid and general cellular metabolism (Supplementary Figure 5A). Decreased levels were observed for glycoside hydrolases and esterolytic enzymes including the alpha-galactosidase (CF317_004369-T1) and cutinases (CF317_007621-T1)—levels 9.7- and 7-fold lower than in the wild type—for the glucan 1,3-beta glucosidase (CF317_002004-T1; 1.69-folds decreased) and for the murein transglycosylase (CF317_004960-T1, CF317_003460-T1, CF317_006383-T1; 1.83-, 2- and 4-fold decreased), enzymes responsible for polymers and microbial degradation by cleavage at the peptidoglycan or the cell wall polysaccharides level. Additionally, proteins involved in lipid metabolic process—i.e., acetyl-CoA C-acetyltransferase (CF317_005988-T1), isocitrate lyase (CF317_004212-T1) and lipase (CF317_005885-T1)—and in protein catabolism—i.e., proteasome subunit alpha type (CF317_008861-T1), proteasome endopeptidase complex (CF317_004788-T1) and peptidase S53 domain-containing protein (CF317_005049-T1)—showed decreased levels between 1.8- and 1.5-fold.\n\nAt the secretome level, the quantitative analysis of K. chersonesos Mut v/s Wt under normal gravity conditions, resulted in the detection of 104 proteins with increased and 87 proteins with decreased abundance in the mutant secretome. Of these proteins, 24% have predicted extracellular localization based on the presence of a signal peptide (Supplementary Table 11). Distribution of over-represented biological process GO terms among differentially expressed proteins is displayed in Supplementary Figure 5B. Most of proteins upregulated in the mutant were involved with carbohydrate metabolism and regulation of biological process (24% of all upregulated proteins), transport (9%), response to stress (8%) and transcription (8%). A number of hydrolases required for the breakdown of β-glucan chains and other cell-wall components— i.e., carboxylic ester hydrolyses (CF317_004653-T1, CF317_008040-T1, CF317_002308-T1, CF317_005799-T1), feruloyl esterase (CF317_002949-T1), alongside glucan 1,3-beta-glucosidase (CF317_002004-T1), murein transglycosylase (CF317_006383-T1) and cutinase (CF317_007621-T1) which were downregulated in the mutant proteome—were present in the secretome at levels comprised between 1.5- and 4-folds higher than in the wild type (Supplementary Table 11). The same for mannan endo-1,6-alpha-mannosidase (CF317_001276-T1) and chitin deacetylase (CF317_003258-T1), which play multiple roles in the function of the fungal cell wall. In the category transport, the multicopper oxidase (CF317_009669-T1; 1.9-fold), the chloride channel protein (CF317_004136-T; 1.7-folds) and the nitrate/nitrite transporter (CF317_004846-T1; 1.6-fold) represented the most upregulated proteins. Increased levels of stress-response proteins were observed for the Histone H2A protein (CF317_001633-T1; 1.7-fold)—found to be overexpressed also in the mutant proteome—alongside the redox protein thioredoxin (CF317_006109-T1; 1.7-fold), catalase A (CF317_009216-T1; 1.7-fold) and the housekeeping enzyme nucleoside diphosphate kinase (CF317_007147-T1; 2.3-fold), whose involvement in the signaling pathway of oxidative stresses has been reported. Normal gravity condition was also characterized by increased levels of peptidyl-prolyl cis-trans isomerase (CF317_005659-T1), EF-1 gamma subunit (CF317_000379-T1), and alkaline phosphatase (CF317_008227-T1; CF317_003892-T1), all involved in transcription. Conversely, decreased levels were observed in the secretome almost exclusively for proteins involved in translation and ribosome biogenesis (Supplementary Figure 5B). Out of 87 downregulated proteins, more than 50 encompassed ribosomal proteins. Of these, the most downregulated ones— the 60S ribosomal proteins L32 (CF317_006070-T1), L35 (CF317_001879-T1) and L33-A (CF317_005595-T1)—were present at levels below 5-fold than their counterparts in the wild type secretome. Other proteins were prevalently involved in stress/chemical response, e.g., plasma membrane phosphatase (CF317_000051-T1), CipC-like antibiotic response protein (CF317_003991-T1), small heat shock protein (SHSP) domain-containing protein (CF317_001628-T1). These findings pose interesting questions regarding the presence of intracellular proteins in K. chersonesos secretome: while it may be indicative of cell lysis during cultivation, it may also suggest that ribosomal and other non-classical secretory proteins are found in the culture supernatant due to EVs-mediated secretion. The co-isolation of these and classical secretory proteins during sample preparation can occur if no prior separation of the vesicle containing fraction from the secretome, is performed.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "microgravity",
+    "black fungi",
+    "extremophiles",
+    "secretomics",
+    "proteomics",
+    "astrobiology",
+    "Knufia chersonesos (syn. K. petricola)",
+    "Genetics",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "",
+      "authors": [
+        "A. Aguilera",
+        "E. González-Toril"
+      ]
+    },
+    {
+      "title": "Increased filamentous growth of Candida albicans in simulated microgravity.",
+      "authors": [
+        "S. D. Altenburg",
+        "S. M. Nielsen-Preiss",
+        "L. E. Hyman"
+      ]
+    },
+    {
+      "title": "Genome-scale data resolve ancestral rock- inhabiting lifestyle in Dothideomycetes (Ascomycota).",
+      "authors": [
+        "C. G. Ametrano",
+        "F. Grewe",
+        "P. W. Crous",
+        "S. B. Goodwin",
+        "C. Liang",
+        "L. Selbmann"
+      ]
+    },
+    {
+      "title": "Phytase overexpression in Arabidopsis improves plant growth under osmotic stress and in combination with phosphate deficiency article.",
+      "authors": [
+        "N. Belgaroui",
+        "B. Lacombe",
+        "H. Rouached",
+        "M. Hanin"
+      ]
+    },
+    {
+      "title": "The structure of the eukaryotic ribosome at 3.0 Å resolution.",
+      "authors": [
+        "A. Ben-Shem",
+        "N. G. de Loubresse",
+        "S. Melnikov",
+        "L. Jenner",
+        "G. Yusupova",
+        "M. Yusupov"
+      ]
+    },
+    {
+      "title": "Proteomic and metabolomic characteristics of extremophilic fungi under simulated Mars conditions.",
+      "authors": [
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "A. Elsaesser",
+        "M. Kalkum",
+        "P. Ehrenfreund",
+        "J. E. Stajich"
+      ]
+    },
+    {
+      "title": "Proteomic characterization of Aspergillus fumigatus isolated from air and surfaces of the International Space Station.",
+      "authors": [
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "J. Romsdahl",
+        "M. Kalkum",
+        "C. C. C. Wang",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Genomic and transcriptomic analysis of the toluene degrading black yeast Cladophialophora immunda.",
+      "authors": [
+        "B. Blasi",
+        "H. Tafer",
+        "C. Kustor",
+        "C. Poyntner",
+        "K. Lopandic",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "Fungal extracellular vesicles with a focus on proteomic analysis.",
+      "authors": [
+        "M. R. Bleackley",
+        "C. S. Dawson",
+        "M. A. Anderson"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "U. A. Bommer",
+        "J. Stahl"
+      ]
+    },
+    {
+      "title": "Modeling the effects of microgravity on oxidation in mitochondria: a protein damage assessment across a diverse set of life forms",
+      "authors": [
+        "O. Bonham-Carter",
+        "J. Pedersen",
+        "L. Najjar",
+        "D. Bastola"
+      ]
+    },
+    {
+      "title": "UniProtKB/Swiss-Prot BT",
+      "authors": [
+        "E. Boutet",
+        "D. Lieberherr",
+        "M. Tognolli",
+        "M. Schneider",
+        "A. Bairoch",
+        "D. Edwards"
+      ]
+    },
+    {
+      "title": "Gid9, a second RING finger protein contributes to the ubiquitin ligase activity of the Gid complex required for catabolite degradation.",
+      "authors": [
+        "B. Braun",
+        "T. Pfirrmann",
+        "R. Menssen",
+        "K. Hofmann",
+        "H. Scheel",
+        "D. H. Wolf"
+      ]
+    },
+    {
+      "title": "Nitric oxide in fungi: is there NO light at the end of the tunnel?",
+      "authors": [
+        "D. Cánovas",
+        "J. F. Marcos",
+        "A. T. Marcos",
+        "J. Strauss"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities.",
+      "authors": [
+        "A. Checinska",
+        "A. J. Probst",
+        "P. Vaishampayan",
+        "J. R. White",
+        "D. Kumar",
+        "V. G. Stepanov"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces.",
+      "authors": [
+        "A. Checinska-Sielaff",
+        "C. Urbaniak",
+        "G. Babu",
+        "M. Mohan",
+        "V. G. Stepanov",
+        "Q. Tran"
+      ]
+    },
+    {
+      "title": "High-Throughput method for automated colony and cell counting by digital image analysis based on edge detection.",
+      "authors": [
+        "P. Choudhry"
+      ]
+    },
+    {
+      "title": "Free radical biology and medicine the role of glutathione reductase and related enzymes on cellular redox homoeostasis network.",
+      "authors": [
+        "N. Couto",
+        "J. Wood",
+        "J. Barber"
+      ]
+    },
+    {
+      "title": "Spaceflight enhances cell aggregation and random budding in Candida albicans.",
+      "authors": [
+        "A. Crabbé",
+        "S. M. Nielsen-Preiss",
+        "C. M. Woolley",
+        "J. Barrila",
+        "K. Buchanan",
+        "J. McCracken"
+      ]
+    },
+    {
+      "title": "Ionizing radiation: how fungi cope, adapt, and exploit with the help of melanin.",
+      "authors": [
+        "E. Dadachova",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Fungi and mycotoxins in space—a review.",
+      "authors": [
+        "G. De Middeleer",
+        "N. Leys",
+        "B. Sas",
+        "S. De Saeger"
+      ]
+    },
+    {
+      "title": "Oxidative modification of nucleoside diphosphate kinase and its identification by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry.",
+      "authors": [
+        "M. L. Desorption",
+        "I. T. Mass",
+        "E. J. Song",
+        "Y. S. Kim",
+        "J. Y. Chung",
+        "E. Kim"
+      ]
+    },
+    {
+      "title": "Synthesis and assembly of fungal melanin.",
+      "authors": [
+        "H. C. Eisenman",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "The Pfam protein families database in 2019.",
+      "authors": [
+        "S. El-gebali",
+        "J. Mistry",
+        "A. Bateman",
+        "S. R. Eddy",
+        "S. C. Potter",
+        "M. Qureshi"
+      ]
+    },
+    {
+      "title": "Medications in space: in search of a pharmacologist’s guide to the galaxy.",
+      "authors": [
+        "S. Eyal",
+        "H. Derendorf"
+      ]
+    },
+    {
+      "title": "Microgravity induces proteomics changes involved in endoplasmic reticulum stress and mitochondrial protection.",
+      "authors": [
+        "B. J. Feger",
+        "J. W. Thompson",
+        "L. G. Dubois",
+        "R. P. Kommaddi",
+        "M. W. Foster",
+        "R. Mishra"
+      ]
+    },
+    {
+      "title": "The effect of spaceflight on growth of ulocladium chartarum colonies on the International Space Station.",
+      "authors": [
+        "I. Gomoiu",
+        "E. Chatzitheodoridis",
+        "S. Vadrucci",
+        "I. Walther"
+      ]
+    },
+    {
+      "title": "Fungi associated with rocks of the Atacama Desert: taxonomy, distribution, diversity, ecology and bioprospection for bioactive compounds.",
+      "authors": [
+        "V. N. Gonçalves",
+        "C. L. Cantrell",
+        "D. E. Wedge",
+        "M. C. Ferreira",
+        "M. A. Soares",
+        "M. R. Jacob"
+      ]
+    },
+    {
+      "title": "Life on the rocks.",
+      "authors": [
+        "A. A. Gorbushina"
+      ]
+    },
+    {
+      "title": "Cellular responses of microcolonial rock fungi to long-term desiccation and subsequent rehydration.",
+      "authors": [
+        "A. A. Gorbushina",
+        "E. R. Kotlova",
+        "O. A. Sherstneva"
+      ]
+    },
+    {
+      "title": "Evolution of fungal pathogens in domestic environments?",
+      "authors": [
+        "C. Gostinčar",
+        "M. Grube",
+        "N. Gunde-Cimerman"
+      ]
+    },
+    {
+      "title": "High-throughput functional annotation and data mining with the Blast2GO suite.",
+      "authors": [
+        "S. Götz",
+        "J. M. García-Gómez",
+        "J. Terol",
+        "T. D. Williams",
+        "S. H. Nagaraj",
+        "M. J. Nueda"
+      ]
+    },
+    {
+      "title": "Extremophilic fungi in arctic ice: a relationship between adaptation to low temperature and water activity.",
+      "authors": [
+        "N. Gunde-Cimerman",
+        "S. Sonjak",
+        "P. Zalar",
+        "J. C. Frisvad",
+        "B. Diderichsen",
+        "A. Plemenitaš"
+      ]
+    },
+    {
+      "title": "Hypersaline waters in saltern – natural ecological niches for halophilic black yeasts.",
+      "authors": [
+        "N. Gunde-Cimerman",
+        "P. Zalar",
+        "G. S. de Hoog",
+        "A. Plemenitaš"
+      ]
+    },
+    {
+      "title": "Automated eukaryotic gene structure annotation using EVidenceModeler and the program to assemble spliced alignments.",
+      "authors": [
+        "B. J. Haas",
+        "S. L. Salzberg",
+        "W. Zhu",
+        "M. Pertea",
+        "J. E. Allen",
+        "J. Orvis"
+      ]
+    },
+    {
+      "title": "Cloning and characterisation of S-formylglutathione hydrolase from Arabidopsis thaliana: a pathway for formaldehyde detoxification.",
+      "authors": [
+        "R. Haslam",
+        "S. Rust",
+        "K. Pallett",
+        "D. Cole",
+        "J. Coleman"
+      ]
+    },
+    {
+      "title": "Ground-based facilities for simulation of microgravity: organism-specific recommendations for their use, and recommended terminology.",
+      "authors": [
+        "R. Herranz",
+        "R. Anken",
+        "J. Boonstra",
+        "M. Braun",
+        "P. C. M. Christianen",
+        "M. de Geest"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight and simulated microgravity on microbial growth and secondary metabolism.",
+      "authors": [
+        "B. Huang",
+        "D. G. Li",
+        "Y. Huang",
+        "C. T. Liu"
+      ]
+    },
+    {
+      "title": "EggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses.",
+      "authors": [
+        "J. Huerta-Cepas",
+        "D. Szklarczyk",
+        "D. Heller",
+        "A. Hernández-Plaza",
+        "S. K. Forslund",
+        "H. Cook"
+      ]
+    },
+    {
+      "title": "7 – Nucleoside-diphosphate kinase: structural and kinetic analysis of reaction pathway and phosphohistidine intermediate",
+      "authors": [
+        "J. Janin",
+        "D. Deville-Bonne",
+        "D. L. Purich"
+      ]
+    },
+    {
+      "title": "Human mitochondrial 3,2-trans-enoyl-CoA isomerase (DCI): gene structure and localization to chromosome 16p13.3.",
+      "authors": [
+        "U. Janssen",
+        "T. Fink",
+        "P. Lichter",
+        "W. Stoffel"
+      ]
+    },
+    {
+      "title": "STRING 8 — a global view on proteins and their functional interactions in 630 organisms.",
+      "authors": [
+        "L. J. Jensen",
+        "M. Kuhn",
+        "M. Stark",
+        "S. Chaffron",
+        "C. Creevey",
+        "J. Muller"
+      ]
+    },
+    {
+      "title": "Simulated microgravity, Mars gravity, and 2g hypergravity affect cell cycle regulation, ribosome biogenesis, and epigenetics in Arabidopsis cell cultures.",
+      "authors": [
+        "K. Y. Kamal",
+        "R. Herranz",
+        "J. J. W. A. Van Loon",
+        "F. J. Medina"
+      ]
+    },
+    {
+      "title": "Differential transcriptional profile through cell cycle progression in Arabidopsis cultures under simulated microgravity.",
+      "authors": [
+        "K. Y. Kamal",
+        "J. J. W. A. van Loon",
+        "F. J. Medina",
+        "R. Herranz"
+      ]
+    },
+    {
+      "title": "KEGG: kyoto encyclopedia of genes and genomes.",
+      "authors": [
+        "M. Kanehisa",
+        "S. Goto"
+      ]
+    },
+    {
+      "title": "Influence of low-shear modeled microgravity on heat resistance, membrane fatty acid composition, and heat stress-related gene.",
+      "authors": [
+        "H. W. Kim",
+        "M. S. Rhee"
+      ]
+    },
+    {
+      "title": "Characterization of Aspergillus fumigatus isolates from air and surfaces of the International Space Station.",
+      "authors": [
+        "B. P. Knox",
+        "A. Blachowicz",
+        "J. M. Palmer",
+        "J. Romsdahl",
+        "A. Huttenlocher",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "Plants and microgravity: patterns of microgravity effects at the cellular and molecular levels.",
+      "authors": [
+        "E. L. Kordyum",
+        "D. K. Chapman"
+      ]
+    },
+    {
+      "title": "6-phosphogluconate dehydrogenase links cytosolic carbohydrate metabolism to protein secretion via modulation of glutathione levels.",
+      "authors": [
+        "H. Li",
+        "M. Ericsson",
+        "B. Rabasha",
+        "B. Budnik",
+        "S. H. Chan",
+        "E. Freinkman"
+      ]
+    },
+    {
+      "title": "Production and detection of muramidase and acetylglucosaminidase from Agaricus bisporus.",
+      "authors": [
+        "S. P. Lincoln",
+        "T. R. Fermor",
+        "D. A. Wood"
+      ]
+    },
+    {
+      "title": "The glyoxylate cycle is required for fungal virulence.",
+      "authors": [
+        "M. C. Lorenz",
+        "G. R. Fink"
+      ]
+    },
+    {
+      "title": "Microgravity-related changes in gene expression after short-term exposure of Arabidopsis thaliana cell cultures.",
+      "authors": [
+        "M. Martzivanou",
+        "M. Babbick",
+        "M. Cogoli-Greuter",
+        "R. Hampp"
+      ]
+    },
+    {
+      "title": "Microgravity induces changes in microsome-associated proteins of Arabidopsis seedlings grown on board the international space station.",
+      "authors": [
+        "C. Mazars",
+        "C. Briére",
+        "S. Grat",
+        "C. Pichereaux",
+        "M. Rossignol",
+        "V. Pereda-Loth"
+      ]
+    },
+    {
+      "title": "Enzymes of ammonia assimilation in fungi: an overview.",
+      "authors": [
+        "R. S. Meti",
+        "S. Ambarish",
+        "P. V. Khajure"
+      ]
+    },
+    {
+      "title": "Evaluation of unconventional protein secretion by Saccharomyces cerevisiae and other Fungi.",
+      "authors": [
+        "N. Miura",
+        "M. Ueda"
+      ]
+    },
+    {
+      "title": "Differentially expressed genes under simulated microgravity in fruiting bodies of the fungus Pleurotus ostreatus.",
+      "authors": [
+        "Y. Miyazaki",
+        "M. Sunagawa",
+        "A. Higashibata",
+        "N. Ishioka",
+        "K. Babasaki",
+        "T. Yamazaki"
+      ]
+    },
+    {
+      "title": "Diverse roles for histone H2A modifications in DNA damage response pathways in yeast.",
+      "authors": [
+        "J. D. Moore",
+        "O. Yazgan",
+        "Y. Ataian",
+        "J. E. Krebs"
+      ]
+    },
+    {
+      "title": "Comparison of Bacillus subtilis transcriptome profiles from two separate missions to the International Space Station.",
+      "authors": [
+        "M. D. Morrison",
+        "P. Fajardo-Cavazos",
+        "W. L. Nicholson"
+      ]
+    },
+    {
+      "title": "What are the functions of chitin deacetylases in Aspergillus fumigatus?",
+      "authors": [
+        "I. Mouyna",
+        "S. Dellière",
+        "A. Beauvais",
+        "F. Gravelat",
+        "S. D. J. Carrion",
+        "E. Pearlman"
+      ]
+    },
+    {
+      "title": "Nutritional physiology of a rock-inhabiting, model microcolonial fungus from an ancestral lineage of the Chaetothyriales (Ascomycetes).",
+      "authors": [
+        "C. Nai",
+        "H. Y. Wong",
+        "A. Pannenbecker",
+        "W. J. Broughton",
+        "I. Benoit",
+        "R. P. de Vries"
+      ]
+    },
+    {
+      "title": "Evaluation of the aflatoxin biosynthetic genes for identification of the Aspergillus section Flavi.",
+      "authors": [
+        "H. Nakamura",
+        "T. Narihiro",
+        "N. Tsuruoka",
+        "H. Mochimaru",
+        "R. Matsumoto",
+        "Y. Tanabe"
+      ]
+    },
+    {
+      "title": "Specificity of peptidases secreted by filamentous fungi.",
+      "authors": [
+        "Y. A. A. H. Neto",
+        "N. G. D. R. Garzon",
+        "R. Pedezzi",
+        "H. Cabral"
+      ]
+    },
+    {
+      "title": "Resistance of Antarctic black fungi and cryptoendolithic communities to simulated space and Martian conditions.",
+      "authors": [
+        "S. Onofri",
+        "D. Barreca",
+        "L. Selbmann",
+        "D. Isola",
+        "E. Rabbow",
+        "G. Horneck"
+      ]
+    },
+    {
+      "title": "Survival of rock-colonizing organisms after 1.5 years in outer space.",
+      "authors": [
+        "S. Onofri",
+        "R. de la Torre",
+        "J.-P. de Vera",
+        "S. Ott",
+        "L. Zucconi",
+        "L. Selbmann"
+      ]
+    },
+    {
+      "title": "Evolution and adaptation of fungi at boundaries of life.",
+      "authors": [
+        "S. Onofri",
+        "L. Selbmann",
+        "G. S. de Hoog",
+        "M. Grube",
+        "D. Barreca",
+        "S. Ruisi"
+      ]
+    },
+    {
+      "title": "Survival, DNA, and ultrastructural integrity of a cryptoendolithic Antarctic fungus in Mars and Lunar Rock analogs exposed outside the International Space Station.",
+      "authors": [
+        "S. Onofri",
+        "L. Selbmann",
+        "C. Pacelli",
+        "L. Zucconi",
+        "E. Rabbow",
+        "J. P. De Vera"
+      ]
+    },
+    {
+      "title": "Survival and redox activity of Friedmanniomyces endolithicus, an Antarctic endemic black meristematic fungus, after gamma rays exposure.",
+      "authors": [
+        "C. Pacelli",
+        "R. A. Bryan",
+        "S. Onofri",
+        "L. Selbmann",
+        "L. Zucconi",
+        "I. Shuryak"
+      ]
+    },
+    {
+      "title": "BIOMEX experiment: ultrastructural alterations, molecular damage and survival of the fungus cryomyces antarcticus after the experiment verification tests.",
+      "authors": [
+        "C. Pacelli",
+        "L. Selbmann",
+        "L. Zucconi",
+        "J.-P. De Vera",
+        "E. Rabbow",
+        "G. Horneck"
+      ]
+    },
+    {
+      "title": "Survival, DNA integrity, and ultrastructural damage in antarctic cryptoendolithic eukaryotic microorganisms exposed to ionizing radiation.",
+      "authors": [
+        "C. Pacelli",
+        "L. Selbmann",
+        "L. Zucconi",
+        "M. Raguse",
+        "R. Moeller",
+        "I. Shuryak"
+      ]
+    },
+    {
+      "title": "Major facilitator superfamily.",
+      "authors": [
+        "S. S. Pao",
+        "I. T. S. M. Paulsen"
+      ]
+    },
+    {
+      "title": "Lipids of yeasts and filamentous fungi and their importance for biotechnology BT",
+      "authors": [
+        "V. Passoth",
+        "A. A. Sibirny"
+      ]
+    },
+    {
+      "title": "EXPOSE-E: an ESA astrobiology mission 1.5 years in space.",
+      "authors": [
+        "E. Rabbow",
+        "P. Rettberg",
+        "S. Barczyk",
+        "M. Bohmeier",
+        "A. Parpart",
+        "C. Panitz"
+      ]
+    },
+    {
+      "title": "EXPOSE-R2: the astrobiological ESA mission on board of the international space station.",
+      "authors": [
+        "E. Rabbow",
+        "P. Rettberg",
+        "A. Parpart",
+        "C. Panitz",
+        "W. Schulte",
+        "F. Molter"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "D. M. Raben",
+        "M. J. Wolfgang"
+      ]
+    },
+    {
+      "title": "Apoplastic exosome-like vesicles: a new way of protein secretion in plants?",
+      "authors": [
+        "M. Regente",
+        "M. Pinedo",
+        "M. Elizalde"
+      ]
+    },
+    {
+      "title": "International Space Station conditions alter genomics, proteomics, and metabolomics in Aspergillus nidulans.",
+      "authors": [
+        "J. Romsdahl",
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "Y. M. Chiang",
+        "S. Masonjones",
+        "J. Yaegashi"
+      ]
+    },
+    {
+      "title": "Characterization of Aspergillus niger isolated from the International Space Station.",
+      "authors": [
+        "J. Romsdahl",
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "N. Singh",
+        "J. E. Stajich",
+        "M. Kalkum"
+      ]
+    },
+    {
+      "title": "Spaceflight and modeled microgravity effects on microbial growth and virulence.",
+      "authors": [
+        "J. A. Rosenzweig",
+        "O. Abogunde",
+        "K. Thomas",
+        "A. Lawal",
+        "Y. U. Nguyen",
+        "A. Sodipe"
+      ]
+    },
+    {
+      "title": "High throughput de novo RNA sequencing elucidates novel responses in Penicillium chrysogenum under microgravity.",
+      "authors": [
+        "Y. Sathishkumar",
+        "C. Krishnaraj",
+        "K. Rajagopal",
+        "D. Sen",
+        "Y. S. Lee"
+      ]
+    },
+    {
+      "title": "Effect of low shear modeled microgravity on phenotypic and central chitin metabolism in the filamentous fungi Aspergillus niger and Penicillium chrysogenum.",
+      "authors": [
+        "Y. Sathishkumar",
+        "N. Velmurugan",
+        "H. M. Lee",
+        "K. Rajagopal",
+        "C. K. Im",
+        "Y. S. Lee"
+      ]
+    },
+    {
+      "title": "BUSCA: an integrative web server to predict subcellular localization of proteins.",
+      "authors": [
+        "C. Savojardo",
+        "P. L. Martelli",
+        "P. Fariselli",
+        "G. Profiti",
+        "R. Casadio"
+      ]
+    },
+    {
+      "title": "LIFE experiment: isolation of cryptoendolithic organisms from Antarctic colonized sandstone exposed to space and simulated Mars conditions on the International Space Station.",
+      "authors": [
+        "G. Scalzi",
+        "L. Selbmann",
+        "L. Zucconi",
+        "E. Rabbow",
+        "G. Horneck",
+        "P. Albertano"
+      ]
+    },
+    {
+      "title": "NIH image to imageJ: 25 years of image analysis.",
+      "authors": [
+        "C. A. Schneider",
+        "W. S. Rasband",
+        "K. W. Eliceiri"
+      ]
+    },
+    {
+      "title": "Modeled microgravity increases filamentation, biofilm formation, phenotypic switching, and antimicrobial resistance in Candida albicans.",
+      "authors": [
+        "S. C. Searles",
+        "C. M. Woolley",
+        "R. A. Petersen",
+        "L. E. Hyman",
+        "S. M. Nielsen-Preiss"
+      ]
+    },
+    {
+      "title": "Fungi at the edge of life: cryptoendolithic black fungi from Antarctic desert.",
+      "authors": [
+        "L. Selbmann",
+        "G. S. De Hoog",
+        "A. Mazzaglia",
+        "E. I. Friedmann",
+        "S. Onofri"
+      ]
+    },
+    {
+      "title": "Drought meets acid: three new genera in a dothidealean clade of extremotolerant fungi.",
+      "authors": [
+        "L. Selbmann",
+        "G. S. de Hoog",
+        "L. Zucconi",
+        "D. Isola",
+        "S. Ruisi",
+        "A. H. G. Gerrits van den Ende"
+      ]
+    },
+    {
+      "title": "Rock black fungi: excellence in the extremes, from the Antarctic to space.",
+      "authors": [
+        "L. Selbmann",
+        "L. Zucconi",
+        "D. Isola",
+        "S. Onofri"
+      ]
+    },
+    {
+      "title": "Effect of microgravity & space radiation on microbes.",
+      "authors": [
+        "G. Senatore",
+        "F. Mastroleo",
+        "N. Leys",
+        "G. Mauriello"
+      ]
+    },
+    {
+      "title": "Coordinate responses to alkaline pH stress in budding yeast.",
+      "authors": [
+        "A. Serra-Cardona",
+        "D. Canadell",
+        "J. Ariño"
+      ]
+    },
+    {
+      "title": "Yeast genomic expression patterns in response to low-shear modeled microgravity.",
+      "authors": [
+        "K. B. Sheehan",
+        "K. McInnerney",
+        "B. Purevdorj-Gage",
+        "S. D. Altenburg",
+        "L. E. Hyman"
+      ]
+    },
+    {
+      "title": "Subglacial Lake Vostok (Antarctica) accretion ice contains a diverse set of sequences from aquatic, marine and sediment-inhabiting bacteria and eukarya.",
+      "authors": [
+        "Y. M. Shtarkman",
+        "Z. A. Koçer",
+        "R. Edgar",
+        "R. S. Veerapaneni",
+        "T. D’Elia",
+        "P. F. Morris"
+      ]
+    },
+    {
+      "title": "Modification of membrane fluidity by gravity.",
+      "authors": [
+        "M. Sieber",
+        "W. Hanke",
+        "F. P. M. Kohn"
+      ]
+    },
+    {
+      "title": "How do yeast and other fungi recognize and respond to genome perturbations?",
+      "authors": [
+        "A. Skoneczna",
+        "K. Krol",
+        "M. Skoneczny",
+        "M. Skoneczny"
+      ]
+    },
+    {
+      "title": "Abiotic stress generates ROS that signal expression of anionic glutamate dehydrogenases to form glutamate for proline synthesis in tobacco and grapevine.",
+      "authors": [
+        "D. S. Skopelitis",
+        "N. V. Paranychianakis",
+        "K. A. Paschalidis",
+        "E. D. Pliakonis",
+        "I. D. Delis",
+        "D. I. Yakoumakis"
+      ]
+    },
+    {
+      "title": "Roles of Candida albicans Dfg5p and Dcw1p cell surface proteins in growth and hypha formation.",
+      "authors": [
+        "E. Spreghini",
+        "D. A. Davis",
+        "R. Subaran",
+        "M. Kim",
+        "A. P. Mitchell"
+      ]
+    },
+    {
+      "title": "Black yeasts and meristematic fungi: ecology, diversity and identification",
+      "authors": [
+        "K. Sterflinger",
+        "G. Péter",
+        "C. Rosa"
+      ]
+    },
+    {
+      "title": "Phylogeny and ecology of meristematic ascomycetes.",
+      "authors": [
+        "K. Sterflinger",
+        "G. S. de Hoog",
+        "G. Haase"
+      ]
+    },
+    {
+      "title": "Fungi in hot and cold deserts with particular reference to microcolonial fungi.",
+      "authors": [
+        "K. Sterflinger",
+        "D. Tesei",
+        "K. Zakharova"
+      ]
+    },
+    {
+      "title": "Harnessing the knowledge of protein secretion for enhanced protein production in filamentous fungi.",
+      "authors": [
+        "X. Sun",
+        "X. Su"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility.",
+      "authors": [
+        "P. W. Taylor"
+      ]
+    },
+    {
+      "title": "Gene prediction in novel fungal genomes using an ab initio algorithm with unsupervised training.",
+      "authors": [
+        "V. Ter-Hovhannisyan",
+        "A. Lomsadze",
+        "Y. O. Chernoff",
+        "M. Borodovsky"
+      ]
+    },
+    {
+      "title": "Proteome of tolerance fine-tuning in the human pathogen black yeast Exophiala dermatitidis.",
+      "authors": [
+        "D. Tesei",
+        "G. Marzban",
+        "M. Marchetti-Deschmann",
+        "H. Tafer",
+        "E. Arcalis",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "Alteration of protein patterns in black rock inhabiting fungi as a response to different temperatures.",
+      "authors": [
+        "D. Tesei",
+        "G. Marzban",
+        "K. Zakharova",
+        "D. Isola",
+        "L. Selbmann",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "Shotgun proteomics reveals putative polyesterases in the secretome of the rock-inhabiting fungus Knufia chersonesos.",
+      "authors": [
+        "D. Tesei",
+        "F. Quartinello",
+        "G. M. Guebitz",
+        "D. Ribitsch",
+        "K. Nöbauer",
+        "E. Razzazi-Fazeli"
+      ]
+    },
+    {
+      "title": "Draft genome sequences of the black rock fungus Knufia petricola and its spontaneous nonmelanized mutant.",
+      "authors": [
+        "D. Tesei",
+        "H. Tafer",
+        "C. Poyntner",
+        "G. Piñar",
+        "K. Lopandic",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "The influence of simulated microgravity on the proteome of Daphnia magna.",
+      "authors": [
+        "B. Trotter",
+        "K. A. Otte",
+        "K. Schoppmann",
+        "R. Hemmersbach",
+        "T. Fröhlich",
+        "G. J. Arnold"
+      ]
+    },
+    {
+      "title": "Genomic characterization and virulence potential of two Fusarium oxysporum isolates cultured from the International Space Station.",
+      "authors": [
+        "C. Urbaniak",
+        "P. van Dam",
+        "A. Zaborin",
+        "O. Zaborina",
+        "J. A. Gilbert",
+        "T. Torok"
+      ]
+    },
+    {
+      "title": "Vesicle and vesicle-free extracellular proteome of Paracoccidioides brasiliensis: comparative analysis with other pathogenic fungi.",
+      "authors": [
+        "M. C. Vallejo",
+        "E. S. Nakayasu",
+        "A. L. Matsuo",
+        "T. J. P. Sobreira",
+        "L. V. G. Longo",
+        "L. Ganiko"
+      ]
+    },
+    {
+      "title": "An advanced genetic toolkit for exploring the biology of the rock – inhabiting black fungus Knufia petricola.",
+      "authors": [
+        "O. Voigt",
+        "N. Knabe",
+        "S. Nitsche",
+        "E. A. Erdmann",
+        "J. Schumacher",
+        "A. A. Gorbushina"
+      ]
+    },
+    {
+      "title": "The growth behavior of the model eukaryotic yeast Saccharomyces cerevisiae in microgravity.",
+      "authors": [
+        "R. G. Willaert"
+      ]
+    },
+    {
+      "title": "Multiple-omics techniques reveal the role of glycerophospholipid metabolic pathway in the response of Saccharomyces cerevisiae against hypoxic stress.",
+      "authors": [
+        "Z. Xia",
+        "X. Zhou",
+        "J. Li",
+        "L. Li",
+        "Y. Ma",
+        "Y. Wu"
+      ]
+    },
+    {
+      "title": "Microbial monitoring of crewed habitats in space-current status and future perspectives.",
+      "authors": [
+        "N. Yamaguchi",
+        "M. Roberts",
+        "S. Castro",
+        "C. Oubre",
+        "K. Makimura",
+        "N. Leys"
+      ]
+    },
+    {
+      "title": "Phenotypic characterization of Aspergillus niger and Candida albicans grown under simulated microgravity using a three-dimensional clinostat.",
+      "authors": [
+        "T. Yamazaki",
+        "M. Yoshimoto",
+        "Y. Nishiyama",
+        "Y. Okubo",
+        "K. Makimura"
+      ]
+    },
+    {
+      "title": "Physiological role of S-formylglutathione hydrolase in C1 metabolism of the methylotrophic yeast Candida boidinii.",
+      "authors": [
+        "H. Yurimoto",
+        "B. Lee",
+        "T. Yano",
+        "Y. Sakai",
+        "N. Kato"
+      ]
+    },
+    {
+      "title": "Protein patterns of black fungi under simulated Mars-like conditions.",
+      "authors": [
+        "K. Zakharova",
+        "G. Marzban",
+        "J.-P. de Vera",
+        "A. Lorek",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "Microcolonial fungi on rocks: a life in constant drought?",
+      "authors": [
+        "K. Zakharova",
+        "D. Tesei",
+        "G. Marzban",
+        "J. Dijksterhuis",
+        "T. Wyatt",
+        "K. Sterflinger"
+      ]
+    },
+    {
+      "title": "OrthoDB v9.1: cataloging evolutionary and functional annotations for animal, fungal, plant, archaeal, bacterial and viral orthologs.",
+      "authors": [
+        "E. M. Zdobnov",
+        "F. Tegenfeldt",
+        "D. Kuznetsov",
+        "R. M. Waterhouse",
+        "F. A. Simao",
+        "P. Ioannidis"
+      ]
+    },
+    {
+      "title": "Differential protein expression profiling of Arabidopsis thaliana callus under microgravity on board the Chinese SZ-8 spacecraft.",
+      "authors": [
+        "Y. Zhang",
+        "L. Wang",
+        "J. Xie",
+        "H. Zheng"
+      ]
+    },
+    {
+      "title": "The amino acid metabolic and carbohydrate metabolic pathway play important roles during salt-stress response in tomato.",
+      "authors": [
+        "Z. Zhang",
+        "C. Mao",
+        "Z. Shi",
+        "X. Kou"
+      ]
+    },
+    {
+      "title": "The Arabidopsis thaliana nuclear factor Y transcription factors.",
+      "authors": [
+        "H. Zhao",
+        "D. Wu",
+        "F. Kong",
+        "K. Lin",
+        "H. Zhang",
+        "G. Li"
+      ]
+    },
+    {
+      "title": "Proteomics-based investigation of salt-responsive mechanisms in plant roots.",
+      "authors": [
+        "Q. Zhao",
+        "H. Zhang",
+        "T. Wang",
+        "S. Chen",
+        "S. Dai"
+      ]
+    },
+    {
+      "title": "Crystal structures of the Lsm complex bound to the 3′ end sequence of U6 small nuclear RNA.",
+      "authors": [
+        "L. Zhou",
+        "J. Hang",
+        "Y. Zhou",
+        "R. Wan",
+        "G. Lu",
+        "P. Yin"
+      ]
+    }
+  ],
+  "original_title": "Effects of simulated microgravity on the proteome and secretome of the polyextremotolerant black fungus Knufia chersonesos.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3759/8012687/9efb8ecffbff/fgene-12-638708-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3759/8012687/32e222529df3/fgene-12-638708-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3759/8012687/98ef51a34b8b/fgene-12-638708-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3759/8012687/2e0abf766e52/fgene-12-638708-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3759/8012687/d71252832a62/fgene-12-638708-g005.jpg"
+  ]
+}

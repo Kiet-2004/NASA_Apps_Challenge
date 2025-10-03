@@ -1,0 +1,1086 @@
+{
+  "pmcid": "PMC6452512",
+  "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+  "abstract": "Background\n\nThe International Space Station (ISS) is a closed system inhabited by microorganisms originating from life support systems, cargo, and crew that are exposed to unique selective pressures such as microgravity. To date, mandatory microbial monitoring and observational studies of spacecraft and space stations have been conducted by traditional culture methods, although it is known that many microbes cannot be cultured with standard techniques. To fully appreciate the true number and diversity of microbes that survive in the ISS, molecular and culture-based methods were used to assess microbial communities on ISS surfaces. Samples were taken at eight pre-defined locations during three flight missions spanning 14 months and analyzed upon return to Earth.\n\nResults\n\nThe cultivable bacterial and fungal population ranged from 104 to 109 CFU/m2 depending on location and consisted of various bacterial (Actinobacteria, Firmicutes, and Proteobacteria) and fungal (Ascomycota and Basidiomycota) phyla. Amplicon sequencing detected more bacterial phyla when compared to the culture-based analyses, but both methods identified similar numbers of fungal phyla. Changes in bacterial and fungal load (by culture and qPCR) were observed over time but not across locations. Bacterial community composition changed over time, but not across locations, while fungal community remained the same between samplings and locations. There were no significant differences in community composition and richness after propidium monoazide sample treatment, suggesting that the analyzed DNA was extracted from intact/viable organisms. Moreover, approximately 46% of intact/viable bacteria and 40% of intact/viable fungi could be cultured.\n\nConclusions\n\nThe results reveal a diverse population of bacteria and fungi on ISS environmental surfaces that changed over time but remained similar between locations. The dominant organisms are associated with the human microbiome and may include opportunistic pathogens. This study provides the first comprehensive catalog of both total and intact/viable bacteria and fungi found on surfaces in closed space systems and can be used to help develop safety measures that meet NASA requirements for deep space human habitation. The results of this study can have significant impact on our understanding of other confined built environments on the Earth such as clean rooms used in the pharmaceutical and medical industries.\n\nElectronic supplementary material\n\nThe online version of this article (10.1186/s40168-019-0666-x) contains supplementary material, which is available to authorized users.",
+  "introduction": "Introduction\n\nThe International Space Station (ISS) is the largest human space platform in low Earth orbit (~ 400 km above Earth’s surface) and for the last 17 years it has been continuously inhabited by an international community of astronauts performing space research. The ISS is a hermetically sealed closed system, subjected to microgravity, radiation, elevated carbon dioxide, and the recirculation of air through HEPA filters and is considered an “extreme environment”. Microbes are known to survive and even thrive in extreme environments, and the microbes that are present on the ISS may have existed since the inception of the ISS while others may be introduced each time new astronauts or payloads arrive.\n\nSince the beginning of the ISS, routine microbial monitoring of surfaces, air, and water has occurred using culture-based techniques as per the National Aeronautics and Space Administration’s (NASA) operations and maintenance requirement procedures. However, culture-based analysis limits our understanding of the diversity of microbes that grow and thrive on the ISS because only a small fraction of organisms in a given environment can be cultured under standard laboratory conditions. Molecular methods, such as quantitative polymerase chain reaction (qPCR) and targeted amplicon sequencing, which can identify and quantify both culturable and unculturable organisms provide a more thorough assessment of what is actually present and in what amounts. However, while it has been recently shown as a proof of concept that PCR and amplicon sequencing can be performed on the ISS, microbial monitoring of the ISS with molecular-based methods is not routinely used because of the lack of simple, compact, and reliable sample processing instruments onboard the ISS. Once such devices are available, rapid, real-time microbial detection, functional analysis are possible for the long duration missions, but baseline information about the ISS environmental microbiome is still needed.\n\nThe importance of cataloging the ISS microbiome, which consists of both culturable and unculturable microbes, parallels the surge in research into the “built microbiome” here on Earth. Emerging studies on the microbiome of homes, offices, classrooms, museums, and hospitals have revealed an assemblage of bacteria, fungi, viruses, and protozoa unique to that indoor environment that are influenced by a variety of factors such as building design, ventilation, humidity, air pressure and flow, occupant numbers, or activities performed. Specific microbes in these indoor spaces have been shown to impact human health by influencing our susceptibility to allergies, infectious diseases, or sick building syndrome. The influence of the indoor microbiome on human health becomes more important for astronauts during flights due to altered immunity associated with space flight and the lack of sophisticated medical interventions that are available on Earth.\n\nIn light of an upcoming new era of human expansion in the universe, such as future space travel to Mars, the microbiome of the closed space environment needs to be examined thoroughly to identify the types of microorganisms that can accumulate in this unique environment, how long they persist and survive, and their impact on human health and spacecraft infrastructure. For this reason, the National Research Council (NRC) Decadal Survey recommended that NASA establish a coordinated, large-scale Microbial Observatory program within the ISS platform. As part of this NASA initiative, the microbial communities on ISS surfaces from eight defined locations over three flight missions, spanning 14 months, were characterized using culture-based techniques, qPCR, and amplicon sequencing of the 16S rRNA gene and internal transcribed spacer (ITS) region. Before DNA extraction, half of the sample was treated with propidium monoazide (PMA) so that the microbiome of intact/viable cells (PMA treatment) could be characterized. The PMA-untreated samples yielded information about the total microbial population (including free DNA, dead cells, cells with a compromised cell membrane, intact cells, and viable cells). PMA binds to DNA, making the DNA unavailable for amplification during PCR steps. Due to its higher molecular weight and/or charge, PMA cannot penetrate into cells that have an intact cell membrane (i.e., viable) but can bind to free floating DNA or DNA inside cells with a compromised cell membrane (i.e., dead cells). It is in this way that many studies have utilized PMA to distinguish between intact/viable cells and compromised/dead cells.\n\nThis comprehensive analysis of the ISS microbiome was used to assess how microbial communities change over time (temporal distribution) and throughout the ISS (spatial distribution). In addition, the ISS environmental microbiome data were compared with other Earth built environmental microbiome data such as the Earth Microbiome Project, Hospital (, Qiita study 10,172), and Office microbiome (, Qiita study 10,423). The implementation of novel molecular techniques to monitor intact microbial populations in this unique environment opens a possibility for broadening the current surveillance practices to maintain the health of the crew and to promote advances in deep space human habitation in the future.",
+  "methods": "Bacteriome analysis\n\nAfter processing the raw data from 48 samples (24 PMA samples and 24 non-PMA-treated samples) and various wipe and reagent controls, amplicon sequence variants (“ASVs”) (a higher resolution analogue of the ubiquitous “OTU”) that had a cumulative sum of more reads in the controls than the cumulative sum of all the samples, were removed from the dataset. Next, ASVs that were found to be statistically significantly higher (ALDEx2 test, P < 0.05) in the control group than in the sample group were further removed from the dataset. Additional file 2: Dataset 1A summarizes the ASV read count in each sample and in each control after the above quality control measures were implemented. Next, the program “SourceTracker” was used to predict what percent of reads in the samples were unique to the samples and what percent were from “contaminating” ASVs (i.e., those were represented in a Dirichlet model trained from the control samples). Additional file 1: Figure S2B summarizes the results from SourceTracker and shows that contamination was negligible in 32 out of 48 samples and for the remaining 16 samples; the contamination was less than 6% of the total sequences. A canonical correspondence analysis (CCA) plot verifies that the bacterial communities of the controls were indeed different than those of the samples (Fig. 4). The ASV table used for downstream analysis, after the above quality control measures were implemented and after verification that the samples represented a unique microbiome, different than that of the controls, is presented in Additional file 2: Dataset S1A.\n\nA summary of read counts, number of ASVs, and most abundant taxa in the samples are presented in Additional file 3: Table S1. Microbial populations (16S rRNA gene copies) from eight locations over the span of 14 months were calculated from PMA-treated samples (viable/intact bacteria) and non-PMA treated samples (dead/compromised bacteria). Figure 5 shows the proportion of different taxa, summarized to the family level, found in these samples and the variations in their viable populations. In both the PMA- and non-PMA-treated groups, Enterobacteriaceae dominated and made up a little over 50% of the sequences detected in all 24 samples combined, followed by Methylobacteriaceae (~ 13%) and Staphylococcaceae (~ 10%).\n\nOf interest was whether the ISS environmental microbiome, and especially the most abundant taxa, changed over time and across locations. The taxa present in the non-PMA-treated (Fig. 6a) and PMA-treated (Fig. 6b) groups showed the same temporal progression: The relative abundances of Enterobacteriaceae was highest during F3 and lowest during F2, whereas Methylobacteriaceae was the lowest during F3 and highest during F1. Paenibacillaceae and members of the class Bacilli and order Bacillales had high relative abundances during F2, and almost negligible amounts during F1 and F3. Interestingly, F1 and F2 had higher relative abundances of sequences that could not be identified, compared to F3. Statistical analysis using ALDEx2 confirmed that the relative abundances over the three flight sessions were different for all taxa shown, expect for Paenibacillaceae in the non-PMA group (Fig. 6a) and Paenibacillacae, Staphylococcaceae, and Sphingomondales in the PMA-treated group (Fig. 6b).\n\nUnlike the differences observed over time, no statistically significant differences in relative abundances were observed between the eight locations (Fig. 6c, d); however, some interesting trends are worth noting: Enterobacteriaceae was well represented at each location, with the highest relative abundance observed at L1, L5, and L6. Methylobacteriaceae was also highly represented across locations except for L2, L5, and L6.\n\nThe barplot in (Additional file 1: Figure S3) provides a more detailed representation of the relative abundances of family level taxa in each sample. Upon visual inspection, it appears that bacterial diversity within a sample was the lowest during Flight 3, which consisted predominately of Enterobacteriaceae, and was the highest during F2. This observation was statistically confirmed (P < 0.05) by calculating (i) Shannon’s diversity index, which measures both taxa presence and relative abundance and (ii) taxon richness, which reports the number of unique taxa in a sample (Additional file 1: Figure S4A and B). Noteworthy, both alpha diversity (measured with Shannon’s diversity index and taxa richness) and beta diversity (measured with ALDEx2) showed no differences between PMA and non-PMA treated samples across all three flights, suggesting that the DNA recovered from the ISS were from intact/viable organisms.\n\nWhen the ASVs were summarized to the genus level, 121 taxa were detected, 77 of which could be assigned to known genera (Additional file 1: Figure S5). Of those 77 genera, 68% of them are known constituents of the human microbiome and the remaining 32% are found in environments such as soil and water.\n\nMycobiome analysis\n\nAmplicon sequencing of the fungal ITS region was performed on samples collected during F1 and F2. Since F3 exhibited low abundance of cultivable fungal counts, it was not possible to generate amplicons for further sequencing. Similar to what was done with bacterial sequences, OTU counts that were higher across controls compared to samples were removed from the dataset. For one OTU, even though the cumulative read count of the controls was 33 times lower than the samples, since the count was 300,000, it was removed from the dataset. Additional file 2: Dataset S1B shows the fungal OTU table that was used for analyses after OTUs associated with controls were removed. The SourceTracker results for the mycobiome are shown in Additional file 1: Figure S6A and the total OTU read count for the sample and control wipes is presented in Additional file 1: Figure S6B.\n\nThe fungal population consisted of four genera plus members belonging to one phylum, two classes, and four families, in addition to sequences that could not be classified (Additional file 1: Figure S7). The temporal and spatial distribution of the five most relatively abundant taxa are shown in Additional file 1: Figure S8. With the exception of Sporidiobolaceae which was higher in F2 compared to F1, there were no other statistically significant differences in fungal taxa between flights.\n\nUnlike bacteria, fungal diversity within samples (i.e., alpha diversity) did not change between Flight 1 and 2 (Additional file 1: Figure S4C and D). Similar to what was observed with bacteria, alpha and beta diversity were similar between the PMA- and non-PMA treated samples across these two flights.\n\nComparison of ISS environmental microbiome with Earth microbiome\n\nPublicly available sequences of PMA-treated samples collected from two JPL clean rooms, ISS dust, ISS HEPA filters, and surface samples from an inflated Lunar Mars analogue habitat (ILMAH) were compared. As is clear from the PCoA plot shown in Additional file 1: Figure S9, the ISS surface microbiome is a unique microbiome, differing from the ISS-dust, ISS-HEPA, JPL clean rooms, and Lunar/Mars-like human-occupied habitats. In addition, PMA-untreated microbial diversity associated with ISS environments was compared to results obtained from the Earth Microbiome Project, hospital environment, and office spaces. The ISS samples grouped with the built environment data, as shown in Fig. 7. This relationship also suggests that, as expected, the environmental locations sampled on the ISS harbored microbes more similar to those on animal surfaces (e.g., skin) than to environmental soil samples. Similar pattern was seen with built environmental samples from Earth. Thus, the ISS samples resembled other Earth built environment samples, and the differences among flights (including differences in DNA extraction and PCR amplification) were relatively small compared to the differences among different sample types.\n\nUsing the unrarefied data, the unique sub-operational taxonomic units (sOTUs) present in the ISS data were also compared with other built environment datasets collected on various locations of Earth to determine whether any sOTUs appear to be unique to the ISS. For this analysis, only Flight 3 data were included since all the other built environment datasets used the same primer set. The sOTUs observed in the ISS controls were removed. There were four sOTUs that appear to be unique relative to all the built environment datasets analyzed (see Additional file 4: Table S4), although they accounted for a very small total amount of the sequence mass (~ 0.0005% of the reads). These unique sOTUs exhibited high identity to Bacteroides sp., Gottschalkia acidurici, Paenibacillus thailandensis, and Thermus thermophilus based on BLAST to nr/nt. One single sOTU belonging to T. thermophilus was unique in Flight 3 samples and was not observed in the Earth Microbiome Project, nor in other built environment datasets on Earth.\n\nMaterials and methods\n\nSample kit preparation and sample collection\n\nSampling wipes were prepared at the Jet Propulsion Laboratory (JPL; Pasadena, CA). Briefly, each polyester wipe (9″ × 9″; ITW Texwipe, Mahwah, NJ) was folded two times and soaked in 15 mL of sterile molecular grade water (Sigma-Aldrich, St. Louis, MO) for 30 min followed by the transfer to a sterile zip lock bag. The sampling kit was assembled at NASA Ames Research Center (ARC, Moffett Field, CA). The implementation team at NASA ARC delivered the kit to the Cargo Mission Contract at Johnson Space Center (Texas) which was then transferred to Kennedy Space Center (Florida) in order to be loaded into the Space Exploration Technologies (SpaceX) Dragon spacecraft prior to launch. Each sampling kit was sent to the ISS onboard the SpaceX-5, -6, -8, rockets and returned to the Earth onboard the Russian vehicle (Soyuz TM-14) and Dragon capsule (SpX-6 or -8). Eight different locations were sampled on the ISS using the polyester wipes described above (see Fig. 1 for a summary of the sampling locations). The metadata associated with the samples and collections is summarized in Additional file 6: Table S3.\n\nThe study requirements stated that there should be no cleaning at least 4 days prior to sampling. When the cleaning occurred during the weekends, it was done at the crew’s discretion without suggestions about the specific locations, therefore following the typical routine of activities on the ISS. The disinfectant wipes that are used in the ISS contain octyl decyl dimethyl ammonium chloride (0.0399%), dioctyl dimethyl ammonium chloride (0.01995%), didecyl dimethyl ammonium chloride (0.01995%), alkyl (50% C14, 40% C12, 10% C16) dimethylbenzylammonium chloride, and dimethylbenzylammonium chloride (0.0532%). During each flight, one astronaut performed all the sampling and used the wipes to sample one square meter. A new pair of individually packed sterile gloves (KIMTEC Pure G3 White; Nitrile Clean-room Certified; Cat. HC61190) were used before sampling the next location. The crew was instructed to collect samples from the same surfaces during all three sampling sessions. A control wipe (environmental control) was taken out from the Zip lock bag, unfolded, waved for 30 s, and packed back inside a new sterile zip lock. One control wipe was included for each flight session. Similarly, an unused wipe that was flown to the ISS and brought back to Earth along with the samples served as a negative control for sterility testing. If field controls (wipes that were exposed to the ISS environment but not used in active sampling) showed any signs of microbial growth, then negative controls would be assayed for cultivable counts to check sterility of the wipes used for sampling. However, none of the field controls showed any CFUs for all three flights. The samples were stored at room temperature in orbit. After sample collection, samples were returned to Earth after 7 days for Flight 1, 9 days for Flight 2, and 6 days for Flight 3. The kits were delivered to JPL immediately after arrival to Earth at 4 °C with processing at JPL commencing within 2 h of receipt.\n\nSample processing\n\nSample processing took place in a ISO 7 (10K class) cleanroom at JPL. In a certified biosafety cabinet, each wipe was aseptically removed from the zip lock bag and transferred to a 500 mL bottle containing 200 mL of sterile phosphate-buffered saline (PBS; pH 7.4). The bottle with the wipe was shaken for 2 min followed by concentration with a Concentrating Pipette (Innova Prep, Drexel, MO) using a 0.22 μm Hollow Fiber Polysulfone tips (Cat #: CC08022). Each sample was concentrated to 4 mL with PBS elution fluid (Cat #). Then, 3 mL of this concentrated sample was split into two 1.5 mL aliquots. One aliquot was treated with PMA (18.25 μL of 2 mM PMA, resulting in a final concentration of 25 μM) to assess cells that were viable or had an intact cell membrane, while the second aliquot was handled in a similar manner but without the addition of PMA. The PMA and non-PMA-treated aliquots were incubated in the dark at RT for 5 min, followed by 15 min of photoactivation using the PMA-Lite™ LED Photolysis Device, specifically designed for photoactivation of PMA (Biotium, Hayward, CA). The PMA- and non-PMA -treated aliquots were then split into two 0.75 mL aliquots. One aliquot was transferred to bead beating tubes containing Lysing Matrix E (MP Biomedicals, Santa Ana, CA), followed by bead beating for 60 s using the vortex sample holder (MO Bio, Carlsbad, CA). The bead-beaten aliquot and the aliquot without bead beating were combined for their corresponding PMA-treated and non-treated samples. DNA extraction was performed with the Maxwell 16 automated system (Promega, Madison, WI), in accordance with manufacture instructions using the Maxwell 16 Tissue LEV Total RNA purification kit. A Maxwell control (MC) without any sample added in its cartridge was run concurrently with each flight sample. The extracted DNA was eluted in 50 μL of water and stored at − 20 °C until further analysis.\n\nEstimation and identification of cultivable microbial population\n\nThe concentrated samples were diluted in PBS (up to 10−6 of each original sample) and 100 μL of each dilution was plated (in duplicate) on Reasoner’s 2A agar (R2A for environmental bacteria), Potato Dextrose Agar with chloramphenicol (100 μg/mL; PDA for fungi), and blood agar (BA for human commensals; Hardy Diagnostics, Santa Maria, CA). R2A and PDA plates were incubated at 25 °C for 7 days and BA plates at 35 °C for 2 days at which time colony forming units (CFU) were calculated. Whenever possible, a minimum of five isolates of distinct morphologies were picked from each plate, from each ISS sampling location. The isolates were then archived in semisolid R2A or PDA slants (agar media diluted 1:10) and stored at room temperature. Once a culture was confirmed to be pure, two cryobead stocks (Copan Diagnostics, Murrieta, CA) were prepared for each isolate and stored at − 80 °C. A loopful of purified microbial culture was directly subjected to PCR and the targeted fragment was amplified (colony PCR), or DNA was extracted with the UltraClean DNA kit (MO Bio, Carlsbad, CA) or Maxwell Automated System (Promega, Madison, WI). The extracted DNA was used for PCR to amplify the 1.5 kb 16S rRNA gene in order to identify bacterial strains. The following primers were used for the 16S rRNA gene amplification: the forward primer, 27F (5′-AGA GTT TGA TCC TGG CTC AG-3′) and the reverse primer, 1492R (5′-GGT TAC CTT GTT ACG ACT T-3′). The PCR conditions were as follows: denaturation at 95 °C for 5 min, followed by 35 cycles consisting of denaturation at 95 °C for 50 s, annealing at 55 °C for 50 s, and extension at 72 °C for 1 min 30 s and finalized by extension at 72 °C for 10 min. The ITS region was amplified using the forward primer ITS1F (5′-TTG GTC ATT TAG AGG AAG TAA-3′) and reverse primer Tw13 (5′-GGT CCG TGT TTC AAG ACG-3′) to obtain a ~ 1.2 kb product. The PCR conditions were as follows: initial denaturation at 95 °C for 3 min followed by 25 cycles of 95 °C for 50 s, annealing at 58 °C for 30 s, and extension at 72 °C for 2 min, followed by a final extension at 72 °C for 10 min. The amplicons were inspected on a 1% agarose gel. When bands for products were visible, amplification products were treated with Antarctic phosphatase and exonuclease (New England Biolabs, Ipswich, MA) to remove 5′- and 3′-phosphates from unused dNTPs before sequencing. The sequencing was performed by Macrogen (Rockville, MD) using 27F and 1492R primers for Bacteria, and ITS1F and Tw13 primers for Fungi. The sequences were assembled using SeqMan Pro from DNAStar Lasergene Package (DNASTAR Inc., Madison, WI). The bacterial sequences were searched against EzTaxon-e database and the fungal sequences against the UNITE database. The identification was based on the closest percentage similarity (> 97%) to previously identified microbial type strains.\n\nqPCR assay\n\nFollowing DNA extraction with the Maxwell Automated system, quantitative polymerase chain reaction (qPCR), targeting the partial 16S rRNA gene (bacteria) or partial ITS region (fungi), was performed with SmartCycler (Cepheid, Sunnyvale, CA) to quantify the microbial abundance. Primers targeting the partial 16S rRNA gene were 1369F (5′-CGG TGA ATA CGT TCY CGG-3′) and modified 1492R (5′-GGW TAC CTT GTT ACG ACT T-3′). Primers targeting the ITS region were NS91 (5′-GTC CCT GCC CTT TGT ACA CAC-3′) and ITS51 (5′-ACC TTG TTA CGA CTT TTA CTT CCT C-3′). Each 25-μL reaction consisted of 12.5 μL of 2X iQ SYBR Green Supermix (BioRad, Hercules, CA), 1 μL each of forward and reverse oligonucleotide primers (10 μM each), and 1 μL of template DNA (PMA treated and non-treated samples). Each sample was run in triplicate; the average and standard deviation were calculated based on these results. Purified DNA from a model microbial community served as the positive control and DNase/RNase free molecular-grade distilled water (Promega, Madison, WI) was used as the negative control in each run. The reaction conditions were as follows: a 3-min denaturation at 95 °C, followed by 40 cycles of denaturation at 95 °C for 15 s, and a combined annealing and extension at 55 °C for 35 s. The number of gene copies in the samples were determined by running a standard curve, which was generated using serial dilutions (108–102) of Bacillus pumilus SAFR-032 16S rRNA gene as described previously. The qPCR efficiency was ~ 98% for each run. The negative control values were not deducted since the values were at ~ 100 copies per 1 or 10 μL and not scalable (yielded the same results despite using 1 μL and 10 μL of DNA templates was used).\n\nIllumina sequencing - Bacteria\n\nFlight sampling 1 and 2\n\nBacterial diversity was assessed by analyzing the V4 hypervariable region of the 16S rRNA gene coding sequence. Amplification was performed with the following primer pair: forward primer, A519F (new nomenclature: S-D-Arch-0519-a-S-15), 5′-CAG CMG CCG CGG TAA-3′, and the reverse primer 802R (new nomenclature: S-D-Bact-0785-b-A-18,) 5′-TAC NVG GGT ATC TAA TCC-3′. Expected amplicon size is 283 for Bacteria as estimated for 16S rRNA gene sequences deposited in the Silva SEED Reference Database.\n\nFungal diversity was assessed by analyzing the ITS1 region between 18S and 5.8S rRNA coding sequences. Amplification primers were ITS1-F_KYO2 (5′-TAG AGG AAG TAA AAG TCG TAA-3′) and ITS2_KYO2 (5′-TTY RCT RCG TTC TTC ATC-3′). Expected amplicon length distribution is 271 ± 90 bp for Ascomycota, 284 ± 42 bp for Basidiomycota, and 216 ± 94 bp for non-Dikarya species.\n\nPCR synthesis of SSU-V4 and ITS1 amplicons was performed using Q5 High-Fidelity PCR Kit (New England Biolabs, Ipswich, MA) according to the manufacturer’s instructions. The 40-μL reaction mixtures were incubated under the following conditions: initial denaturation at 94 °C for 3 min followed by 35 cycles of 94 °C for 30 s, 47 °C for 30 s, and 72 °C for 90 s, with a final extension at 72 °C for 5 min. Afterwards, each reaction mixture was fractionated by electrophoresis on 2% agarose gel, recovering all PCR products in the size range of 200 to 400 bp. The amplicons were isolated from gel slices using silica spin-columns, and eluted with nano-pure water. The purified amplicons were tagged with barcoded Illumina adapters using TruSeq DNA PCR-Free Library Prep Kit LT (Illumina, San Diego, CA) according to the manufacturer’s instructions. The libraries were quantified on a TBS-380 Fluorimeter (Turner BioSystems, Sunnyvale, CA) using PicoGreen dye (Invitrogen, Carlsbad, CA) as a dsDNA-binding fluorogenic reagent. The dsDNA length distribution in individual library preps was assessed by analysis on a 2100 Bioanalyzer with High Sensitivity DNA chip (Agilent Technologies, Santa Clara, CA). The libraries were pooled to be present at equimolar concentrations in each mixed sample with total concentration of 10 nM. The first mixed sample contained 20 16S rRNA-V4 libraries and 17 ITS1 libraries representing the first ISS sampling session together with corresponding controls. The second mixed sample contained 21 16S rRNA-V4 libraries and 20 ITS1 libraries representing the second ISS sampling session and corresponding controls. The two sample sets were sequenced on a NextSeq 500 Sequencing System (Illumina, San Diego, CA) with NextSeq 500/550 Mid-Output v2 Kit for 300 main and 6 index cycles.\n\nFlight sampling 3\n\nDNA from these samples was amplified using 1 μL of gDNA in triplicate 25 μL reactions using Platinum Hot Start PCR master mix (Thermo Fisher cat# 13000012) and custom golay barcoded primers of the 16S V4 region, 515fB (5′-GTG YCA GCM GCC GCG GTA A-3′) and 806rB (5′-GGA CTA CNV GGG TWT CTA AT-3′), (expected amplicon size ~ 291 bp) as described in the http://www.earthmicrobiome.org for 94 °C 3 min and 35 cycles at 94 °C 45 s, 50 °C 60 s, 72 °C 90 s followed by 72 °C 10 min and held at 4 °C. Triplicate reactions were then pooled into a single tube and quality assessed. The amplicons were run on a 2% agarose gel and quantified using PicoGreen to access quality and relative quantity. All samples were pooled in equal volume into a single tube and then processed through the MoBio PCR cleanup kit to remove adaptors and primers. Final cleaned pools were then sequenced on a HiSeq 2500 2 × 150 bp Rapid Run.\n\nIllumina sequence processing—Bacteria (flight 1, 2, and 3)\n\nFor F1 and F2 samples, the forward reads were de-multiplexed by using fastq-multx v. 1.02.772, a tool from ea-utils software package, with the forward amplification primers for prokaryotes as search targets. The reads were further processed to remove all remaining sequences of the amplification primers and the Illumina TruSeq adapters from their 3′-ends using consecutively fastq-mcf v. 1.04.807 program for exact sequence search, and agrep (http://www.tgries.de/agrep/) and treagrep (0.8.0: https://github.com/laurikari/tre/) programs for search allowing up to three mismatches between the primers/adapters and the reads to accommodate for sequencing errors. The F3 reads were demultiplexed and adaptors removed using Qiita (http://qiita.ucsd.edu) using the parameters max_barcode_errors: 1.5; barcode_type: golay_12; and phred_quality_threshold: 3.\n\nThe demultiplexed reads for F1, F2, and F3 were then processed using the DADA2 pipeline, trimming the 3′ end of the forward reads to a length of 130  bp, and setting the filter parameters to maxN = 0, maxEE = 2, trunQ = 2, and rm.phix = True. The DADA2 pipeline (https://benjjneb.github.io/dada2/index.html) was followed to obtain an amplicon sequence variant table (“ASV” table), a “higher resolution analogue of the ubiquitous OTU table”. Taxonomy was assigned used the SILVA reference database.\n\nIllumina sequence processing—Fungi (Flight sampling 1 and 2)\n\nThe forward reads were de-multiplexed by using fastq-multx v. 1.02.772, a tool from ea-utils software package, with the forward amplification primers fungi as search targets.\n\nThe 5′-ends of the sorted reads were trimmed for a predetermined length based on the length of the corresponding amplification primer for each dataset. The reads were further processed to remove all remaining sequences of the amplification primers and the Illumina TruSeq adapters from their 3′-ends using consecutively fastq-mcf v. 1.04.807 program for exact sequence search, and agrep (http://www.tgries.de/agrep/) and treagrep (0.8.0: https://github.com/laurikari/tre/) programs for search allowing up to three mismatches between the primers/adapters and the reads to accommodate for sequencing errors. After primers/adapters were removed, the processed reads exhibited multimodal length distribution. The reads from the fungal datasets formed three groups of 184–223 bp, 224–246 bp, and 246–282 bp length. This correlates well with known length variability of ITS sequences from different fungal phyla. Each of the three groups was separately subjected to the OTU clustering and taxonomy assignment procedures, and the results were merged together for further statistical treatment and visualization. ITS1 sequence clustering and taxonomy assignment were performed using USEARCH version 8.1.1756. For each collection of the related datasets, the OTUs were established by selecting high-quality reads with an expected error rate not exceeding 0.5%. The selected reads were further de-replicated, sorted, clustered at the default 3% difference, and de-chimerized against the UCHIME reference dataset distributed by UNITE. Then, the reads from individual samples were filtered to exclude those with the expected error rate above 6%, and mapped to the OTUs. Taxonomy was assigned using the Warcup training dataset V1 (http://drive5.com/utax/data/utax_warcup_trainset1.tar.gz), with a bootstrap threshold of 50%.\n\nThe ITS targeted amplicon sequencing for Flight 3 samples did not yield any product to move forward in generating sequences and this might be due to the low fungal biomass of the samples.\n\nStatistical analysis\n\nBar graphs and strip charts of CFU and qPCR data were plotted using Prism (GraphPad Software, version 5.0a; Irvine, CA). Significance (P < 0.05) between groups was tested with the Kruskal-Wallis test followed by Dunn’s post-hoc test.\n\nAmplicon sequence analysis\n\nBacterial ASV sequences and Fungal OTUs were summarized to the family and/or genus level using QIIME. The ALDEx R package version 2 was used to statistically compare the relative abundances of bacterial family level taxa between the different flights and locations based on the expected values of 128 Dirichlet Monte Carlo instances of centered log ratio (clr) transformed data. A value of zero indicates that organism abundance was equal to the geometric mean abundance. Thus, organisms more abundant than the mean would have positive values, and those less abundant than the mean would have negative values. Significance was based on the Benjamini-Hochberg corrected P value of the Kruskal-Wallis statistical test (significance threshold P < 0.05). ALDEx2 was also used to compare fungal genus level taxa between flights and differential ASVs and OTUs between samples and controls.\n\nThe R script of SourceTracker (version 0.9.1), the contamination predictor tool, was used to assess contamination of the samples. ISS surface wipes were designated as sink and the field and Maxwell negative controls as sources. Samples were rarified to 1000 reads.\n\nQIIME was also used to calculate Shannon’s diversity and taxa richness. Statistical analysis of Shannon’s diversity and taxa richness was performed in Prism using the non-parametric Kruskal-Wallis test with the Benjamini Hochberg FDR multiple test correction.\n\nGenus level counts were clr transformed using the “compositions” package in R and visualized with a heat-map created with the “gplot” package in R. Barplots, boxplots, CCA plots, and pie charts were all created in R.\n\nComparison of ISS environmental microbiome with Earth microbiome\n\nThe ISS environmental microbiome data were processed by Deblur 1.0.4 trimming at 90 nt with defaults except for setting —min-reads 1 to avoid filtering sequences across samples prior to merging sample sets. The published Earth Microbiome Project 90 nt BIOM table was obtained from ftp://ftp.microbo.me. Deblur 1.0.4 90nt BIOM tables of Hospital Microbiome Project (Qiita study 10,172) and Office Succession Study (Qiita study 10,423) were obtained from Gonzalez et al. using redbiom analysis (https://github.com/biocore/redbiom). Only the reference-hit sOTUs were used across all studies including ISS microbiome datasets. All studies were merged using the BIOM Table Python application programming interface (API). Using the API, sOTUs with fewer than 25 total observed sequences were filtered as was previously performed and samples were rarefied to 1000 sequences per sample. The data were then imported into QIIME2 2018.11 and unique sOTUs were inserted into Greengenes 13_8 using SEPP via the QIIME2 fragment-insertion plugin. For UniFrac, fragment insertion was performed, which was previously shown to ameliorate primer biases. Unweighted UniFrac was computed using Striped UniFrac through QIIME2’s diversity plugin with –p-bypass-tips, principal coordinates were computed using FSVD as used elsewhere and the coordinates were visualized using the EMPeror plugin in QIIME2. Unique sOTUs were assessed in a Jupyter Notebook using the BIOM Table API.\n\nControls and nomenclature of the samples\n\nControls were taken in all steps of the study for all three flight sessions. There was a field control “CTL,” which was a wipe that was opened to the ISS environment but was not used for active sampling and a Maxwell “DNACTL,” which was water that was used during the DNA extraction steps instead of surface or control wipe samples and acted as a DNA extraction reagent control. The field controls were either treated with PMA (“CTL_P”) or left untreated (“CTL”). In total, there were ten controls analyzed during bacterial qPCR and Illumina amplicon sequencing. Likewise, for fungal analysis, the same controls were collected; however, no amplicons were generated for “DNACTL” for either flight nor CTL_P for Flight 1 during qPCR or Illumina library prep and thus were not sent for amplicon sequencing. Similarly, for qPCR and Illumina sequencing, required reagent controls were tested. The samples during this study were designated with flight session number followed by location number (sampling sites). For example, sample number “F1_3” denotes that surface materials were taken from the first flight at location 3 but sample was not treated with PMA, whereas “F1_3P” denotes that same sample was treated with PMA.\n\nAdditional files",
+  "results": "Results\n\nTwenty-four surface wipes were collected from eight locations across the ISS during three flight missions over the course of 14 months. In addition to these 24 wipes, wipes that were taken out of the kits and exposed to the ISS environment, but not used for sampling, were designated as controls and processed in parallel with the sample wipes. A summary of the sampled locations and the associated metadata is presented in Fig. 1 and Table 1.\n\nCultivable microbial population\n\nThe cultivable microbial load from all flight samples and their distribution patterns at various locations are depicted. The average number of bacteria cultured on blood agar (BA) and R2A plates was similar between F1 and F2 but higher at F3 (though this trend was not statistically significant) (Fig. 2a). There were no statistically significant differences in the average bacterial load across the eight locations (Fig. 2b); however, the locations that exceeded 1010 CFU/m2 during at least one flight sampling event were L1 (port panel next to cupola), L5 (overhead 4), L7 (lab 3 overhead), and L8 (crew quarters), with the lowest counts (less than 104 CFU/m2 in at least one sampling event) found at L3 (AREM) and L6 (PMM). Overall, the number of bacteria (combination of R2A and BA growth) isolated from the ISS from all 24 samples ranged from 6.7 × 103 to 7.8 × 1010 CFU/m2.\n\nFungi were also cultured from the ISS, ranging from 1.1 × 105 to 3.1 × 108 CFU/m2. While, there were no statistically significant differences in fungal load over time, the highest average was found during F1 and the lowest at F2 (Fig. 2a). Similar to what was observed with bacterial counts, no differences in fungal counts were evident across the eight locations (Fig. 2b). When compared to bacteria, the fungal population was lower by 2 to 3 logs at all locations except at L6 where fungal load was 100-fold more than bacterial load (Fig. 2b). Due to the high variability between samples, there were no statistically significant differences overall in the average cultivable counts of bacteria (BA and R2A plates) from all 24 samples compared to the average fungal counts measured from the same 24 samples (P > 0.05).\n\nOf the total bacterial and fungal isolates that grew, 133 bacterial isolates and 81 fungal isolates were identified by Sanger sequencing (16S rRNA gene for bacteria; and ITS region for fungi). The bacterial isolates belonged to three phyla: Actinobacteria, Firmicutes, and Proteobacteria. At the genus level, the most predominant genera were Staphylococcus (26% of total isolates identified), Pantoea (23%), and Bacillus (11%) and at the species level, Staphylococcus aureus (10%) and both Pantoea conspicua (9%) and Pantoea gaviniae (9%) (Additional file 1: Figure S1A). Although bacterial counts were similar across all flights (Fig. 2), only members of the family Enterobacteriaceae were cultured from F3 samples (Additional file 1: Figure S1A). S. aureus isolates were tested with the Vitek 2 system (BioMerieux, France) and found to be methicillin-sensitive; however, these isolates were resistant to penicillin, erythromycin, gentamycin, and tobramycin. The whole genomes of 20 biosafety level 2 strains, isolated from these samples, have been sequenced and are publicly available.\n\nThe fungal population was dominated by Rhodotorula mucilaginosa belonging to the family Sporidiobolaceae (41% of the 81 examined fungal isolates) and Penicillium chrysogenum (15% of 81 fungal isolates) (Additional file 1: Figure S1B). The whole genome of one Aspergillus fumigatus strain (isolated from F1, L1 [cupola] sample) was sequenced, its virulence characterized, and this information reported elsewhere .\n\nqPCR-based microbial population\n\nThe 16S rRNA gene and the ITS region were targeted in PMA-qPCR to measure intact/viable bacterial and fungal burden, respectively. The changes were not significantly different (P > 0.05), although the average number of bacterial 16S rRNA gene copies trended toward increase from F1 to F3. On the other hand, the ITS region amplicons decreased over time with F3 being statistically significantly lower than F1 (Fig. 3a). While the average bacterial (Fig. 3b) and fungal (Fig. 3c) load fluctuated across locations, there were no statistically significant differences in microbial load among different locations. Overall, bacterial loads appeared to be highest at L4 and L5 and lowest at L6, with fungal loads appearing to be highest at L1, L4, L5, and L7 and lowest at L2. The average number of bacteria present on the ISS during this study was 3.1 × 109 16S rRNA gene copy number/m2 and 7.1 × 108 ITS copy number/m2 for fungi. A comparison between CFU and gene copy number revealed that on average, 46% of total intact/viable bacteria and 40% of intact/viable fungi could be cultured, while the remainder were viable but yet to be cultured (Additional file 1: Figure S1C).\n\nqPCR was also performed on samples that were not treated with PMA to assess the overall microbial load, which includes intact/viable cells and compromised/dead cells. The average 16S rRNA copy number was 7.1 × 109/m2 and the average ITS copy number was 5.1 × 108 m2 in these non-PMA-treated samples (Additional file 1: Figure S1D). When the 16S rRNA gene copies were summed up for all locations and all flights, no significant difference was observed with and without PMA (Additional file 1: Figure S1D). This calculation may be affected by the artificial inflation of high copy numbers in samples treated with and without PMA. For example, the highest copy numbers of a sample with 1010 copies per m2 (for example, Flight 1, Location #2) might mask the samples with 107 copies per m2 (for example Flight 1, Location #6). The difference in microbial populations between PMA and non-PMA-treated samples were substantial when the data from individual locations were considered. In general, ~ 0.68% (example: Flight 2; Location #3) to ~ 92.8% (example: Flight 3; Location #5) of the microbial load was present in the PMA-treated sample and therefore considered “viable” (Additional file 1: Figure S1E). Similar reduction in microbial abundance in PMA-treated samples when compared to untreated samples was reported in NASA spacecraft assembly facility (SAF) clean room floors (4 to 21%), Lunar Mars Analog Habitat floors (10 to 40%), and HEPA filter particulates of ISS and SAF (1.7 to 66.8%).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "International Space Station",
+    "Microbiome",
+    "16S rRNA",
+    "ITS",
+    "Environmental surface",
+    "Built microbiome",
+    "Propidium monoazide",
+    "Microbial diversity",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Microbial monitoring of crewed habitats in space-current status and future perspectives",
+      "authors": [
+        "N Yamaguchi",
+        "M Roberts",
+        "S Castro",
+        "C Oubre",
+        "K Makimura",
+        "N Leys",
+        "E Grohmann",
+        "T Sugita",
+        "T Ichijo",
+        "M Nasu"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+      "authors": [
+        "A Checinska",
+        "AJ Probst",
+        "P Vaishampayan",
+        "JR White",
+        "D Kumar",
+        "VG Stepanov",
+        "GE Fox",
+        "HR Nilsson",
+        "DL Pierson",
+        "J Perry"
+      ]
+    },
+    {
+      "title": "NASA: MR050L microbial analysis of ISS surfaces using the surface sampler kit (SSK) in. Edited by JSC28913 MRIDM. Houston, TX: NASA; 2005.",
+      "authors": []
+    },
+    {
+      "title": "Mapping the tree of life: progress and prospects",
+      "authors": [
+        "NR Pace"
+      ]
+    },
+    {
+      "title": "Lax S, Sangwan N, Smith D, Larsen P, Handley KM, Richardson M, Guyton K, Krezalek M, Shogan BD, Defazio J, et al. Bacterial colonization and succession in a newly opened hospital. Sci Transl Med. 2017;9(391) 10.1126/scitranslmed.aah6500.",
+      "authors": []
+    },
+    {
+      "title": "Successful amplification of DNA aboard the International Space Station",
+      "authors": [
+        "A-S Boguraev",
+        "HC Christensen",
+        "AR Bonneau",
+        "JA Pezza",
+        "NM Nichols",
+        "AJ Giraldez",
+        "MM Gray",
+        "BM Wagner",
+        "JT Aken",
+        "KD Foley"
+      ]
+    },
+    {
+      "title": "Nanopore sequencing in microgravity",
+      "authors": [
+        "AB McIntyre",
+        "L Rizzardi",
+        "AM Yu",
+        "N Alexander",
+        "GL Rosen",
+        "DJ Botkin",
+        "SE Stahl",
+        "KK John",
+        "SL Castro-Wallace",
+        "K McGrath"
+      ]
+    },
+    {
+      "title": "Nanopore DNA sequencing and genome assembly on the International Space Station",
+      "authors": [
+        "SL Castro-Wallace",
+        "CY Chiu",
+        "KK John",
+        "SE Stahl",
+        "KH Rubins",
+        "ABR McIntyre",
+        "JP Dworkin",
+        "ML Lupisella",
+        "DJ Smith",
+        "DJ Botkin"
+      ]
+    },
+    {
+      "title": "Dispersal in microbes: fungi in indoor air are dominated by outdoor air and show dispersal limitation at short distances",
+      "authors": [
+        "RI Adams",
+        "M Miletto",
+        "JW Taylor",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Longitudinal analysis of microbial interaction between humans and the indoor environment",
+      "authors": [
+        "S Lax",
+        "DP Smith",
+        "J Hampton-Marcell",
+        "SM Owens",
+        "KM Handley",
+        "NM Scott",
+        "SM Gibbons",
+        "P Larsen",
+        "BD Shogan",
+        "S Weiss"
+      ]
+    },
+    {
+      "title": "Indoor air bacterial communities in Hong Kong households assemble independently of occupant skin microbiomes",
+      "authors": [
+        "D Wilkins",
+        "MHY Leung",
+        "PKH Lee"
+      ]
+    },
+    {
+      "title": "'Core species' in three sources of indoor air belonging to the human micro-environment to the exclusion of outdoor air",
+      "authors": [
+        "C Gauzere",
+        "JJ Godon",
+        "H Blanquart",
+        "S Ferreira",
+        "S Moularat",
+        "E Robine",
+        "M Moletta-Denat"
+      ]
+    },
+    {
+      "title": "Office space bacterial abundance and diversity in three metropolitan areas",
+      "authors": [
+        "KM Hewitt",
+        "CP Gerba",
+        "SL Maxwell",
+        "ST Kelley"
+      ]
+    },
+    {
+      "title": "Surface microbes in the neonatal intensive care unit: changes with routine cleaning and over time",
+      "authors": [
+        "NA Bokulich",
+        "DA Mills",
+        "MA Underwood"
+      ]
+    },
+    {
+      "title": "Microbes in the neonatal intensive care unit resemble those found in the gut of premature infants",
+      "authors": [
+        "B Brooks",
+        "BA Firek",
+        "CS Miller",
+        "I Sharon",
+        "BC Thomas",
+        "R Baker",
+        "MJ Morowitz",
+        "JF Banfield"
+      ]
+    },
+    {
+      "title": "Indoor fungal composition is geographically patterned and more diverse in temperate zones than in the tropics",
+      "authors": [
+        "AS Amend",
+        "KA Seifert",
+        "R Samson",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Bacterial communities on classroom surfaces vary with human contact",
+      "authors": [
+        "JF Meadow",
+        "AE Altrichter",
+        "SW Kembel",
+        "M Moriyama",
+        "TK O’Connor",
+        "AM Womack",
+        "GZ Brown",
+        "JL Green",
+        "BJM Bohannan"
+      ]
+    },
+    {
+      "title": "Microorganisms in confined habitats: microbial monitoring and control of intensive care units, operating rooms, cleanrooms and the International Space Station",
+      "authors": [
+        "M Mora",
+        "A Mahnert",
+        "K Koskinen",
+        "MR Pausan",
+        "L Oberauner-Wappis",
+        "R Krause",
+        "AK Perras",
+        "G Gorkiewicz",
+        "G Berg",
+        "C Moissl-Eichinger"
+      ]
+    },
+    {
+      "title": "Infection prevention and control during prolonged human space travel",
+      "authors": [
+        "LA Mermel"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: clinical risk for exploration-class missions",
+      "authors": [
+        "B Crucian",
+        "C Sams"
+      ]
+    },
+    {
+      "title": "National Research Council (U.S.). Committee for the Decadal Survey on Biological and Physical Sciences in Space. Washington, DC: National Academies Press; 2011.",
+      "authors": []
+    },
+    {
+      "title": "Use of propidium monoazide for live/dead distinction in microbial ecology",
+      "authors": [
+        "A Nocker",
+        "P Sossa-Fernandez",
+        "MD Burr",
+        "AK Camper"
+      ]
+    },
+    {
+      "title": "Comparison of propidium monoazide with ethidium monoazide for differentiation of live vs. dead bacteria by selective removal of DNA from dead cells",
+      "authors": [
+        "A Nocker",
+        "CY Cheung",
+        "AK Camper"
+      ]
+    },
+    {
+      "title": "New perspectives on viable microbial communities in low-biomass cleanroom environments",
+      "authors": [
+        "P Vaishampayan",
+        "AJ Probst",
+        "MT La Duc",
+        "E Bargoma",
+        "JN Benardini",
+        "GL Andersen",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Comparison and characterization of microbial communities in sulfide-rich wastewater with and without propidium monoazide treatment",
+      "authors": [
+        "WT Lin",
+        "JF Luo",
+        "Y Guo"
+      ]
+    },
+    {
+      "title": "Live-dead discrimination analysis, qPCR assessment for opportunistic pathogens, and population analysis at ozone wastewater treatment plants",
+      "authors": [
+        "T Jager",
+        "J Alexander",
+        "S Kirchen",
+        "A Dotsch",
+        "A Wieland",
+        "C Hiller",
+        "T Schwartz"
+      ]
+    },
+    {
+      "title": "The biological observation matrix (BIOM) format or: how I learned to stop worrying and love the ome-ome",
+      "authors": [
+        "D McDonald",
+        "JC Clemente",
+        "J Kuczynski",
+        "JR Rideout",
+        "J Stombaugh",
+        "D Wendel",
+        "A Wilke",
+        "S Huse",
+        "J Hufnagle",
+        "F Meyer"
+      ]
+    },
+    {
+      "title": "Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces",
+      "authors": [
+        "C Urbaniak",
+        "AC Sielaff",
+        "KG Frey",
+        "JE Allen",
+        "N Singh",
+        "C Jaing",
+        "K Wheeler",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Checinska Sielaff A, Singh NK, Allen JE, Thissen J, Jaing C, Venkateswaran K. Draft genome sequences of biosafety level 2 opportunistic pathogens isolated from the environmental surfaces of the International Space Station. Genome Announc. 2016;4(6)",
+      "authors": []
+    },
+    {
+      "title": "Singh NK, Blachowicz A, Checinska A, Wang C, Venkateswaran K. Draft genome sequences of two Aspergillus fumigatus strains, isolated from the International Space Station. Genome Announc. 2016;4(4):1.",
+      "authors": []
+    },
+    {
+      "title": "Blachowicz A, Knox BP, Romsdahl J, Palmer JM, Huttenlocher A, Wang CCC, Keller NP, Venkateswaran K: Characterization of Aspergillus fumigatus isolated from air and surfaces of the International Space Station. In: 13th European Conference on Fungal Genetics: April 3–6, 2016; Paris.",
+      "authors": []
+    },
+    {
+      "title": "Microbial succession in an inflated lunar/Mars analog habitat during a 30-day human occupation",
+      "authors": [
+        "T Mayer",
+        "A Blachowicz",
+        "AJ Probst",
+        "P Vaishampayan",
+        "A Checinska",
+        "T Swarmer",
+        "P de Leon",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "DADA2: high-resolution sample inference from Illumina amplicon data",
+      "authors": [
+        "BJ Callahan",
+        "PJ McMurdie",
+        "MJ Rosen",
+        "AW Han",
+        "AJ Johnson",
+        "SP Holmes"
+      ]
+    },
+    {
+      "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+      "authors": [
+        "SF Altschul",
+        "TL Madden",
+        "AA Schaffer",
+        "J Zhang",
+        "Z Zhang",
+        "W Miller",
+        "DJ Lipman"
+      ]
+    },
+    {
+      "title": "Pierson D, Botkin D, Bruce R, Castro V, Smith M, Oubre C, Ott C: Microbial monitoring of the International Space Station. In: Environmental Monitoring: A Comprehensive Handbook Edited by Moldenhauer J: DHI Publishing, LLC, River Grove, IL.; 2012.",
+      "authors": []
+    },
+    {
+      "title": "A microbial survey of the International Space Station (ISS)",
+      "authors": [
+        "JM Lang",
+        "DA Coil",
+        "RY Neches",
+        "WE Brown",
+        "D Cavalier",
+        "M Severance",
+        "JT Hampton-Marcell",
+        "JA Gilbert",
+        "JA Eisen"
+      ]
+    },
+    {
+      "title": "Four-year bacterial monitoring in the International Space Station—Japanese Experiment Module “Kibo” with culture-independent approach",
+      "authors": [
+        "T Ichijo",
+        "N Yamaguchi",
+        "F Tanigaki",
+        "M Shirakawa",
+        "M Nasu"
+      ]
+    },
+    {
+      "title": "Recurrent isolation of extremotolerant bacteria from the clean room where Phoenix spacecraft components were assembled",
+      "authors": [
+        "S Ghosh",
+        "S Osman",
+        "P Vaishampayan",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Tools for the microbiome: nano and beyond",
+      "authors": [
+        "JS Biteen",
+        "PC Blainey",
+        "ZG Cardon",
+        "M Chun",
+        "GM Church",
+        "PC Dorrestein",
+        "SE Fraser",
+        "JA Gilbert",
+        "JK Jansson",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Molecular identification, antifungal susceptibility profile, and biofilm formation of clinical and environmental Rhodotorula species isolates",
+      "authors": [
+        "JM Nunes",
+        "FC Bizerra",
+        "RC e Ferreira",
+        "AL Colombo"
+      ]
+    },
+    {
+      "title": "The role of biofilms as environmental reservoirs of antibiotic resistance",
+      "authors": [
+        "JL Balcázar",
+        "J Subirats",
+        "CM Borrego"
+      ]
+    },
+    {
+      "title": "Metabolic profiling of biofilm bacteria known to cause microbial influenced corrosion",
+      "authors": [
+        "DJ Beale",
+        "PD Morrison",
+        "C Key",
+        "EA Palombo"
+      ]
+    },
+    {
+      "title": "Culture dependent and independent analyses of bacterial communities involved in copper plumbing corrosion",
+      "authors": [
+        "JP Pavissich",
+        "IT Vargas",
+        "B Gonzalez",
+        "PA Pasten",
+        "GE Pizarro"
+      ]
+    },
+    {
+      "title": "Microbial corrosion of aluminum 2024 aeronautical alloy by hydrocarbon degrading bacteria Bacillus cereus ACE4 and Serratia marcescens ACE2",
+      "authors": [
+        "A Rajasekar",
+        "Y-P Ting"
+      ]
+    },
+    {
+      "title": "Microbiologically induced corrosion of aluminum alloys in fuel-oil/aqueous system",
+      "authors": [
+        "SS Yang",
+        "JY Lin",
+        "YT Lin"
+      ]
+    },
+    {
+      "title": "Corrosion of aluminum alloy 2024 caused by Aspergillus niger",
+      "authors": [
+        "X Dai",
+        "H Wang",
+        "L-K Ju",
+        "G Cheng",
+        "H Cong",
+        "N BMZ"
+      ]
+    },
+    {
+      "title": "Knox BP, Blachowicz A, Palmer JM, Romsdahl J, Huttenlocher A, Wang CCC, Keller NP, Venkateswaran K. Characterization of Aspergillus fumigatus isolates from air and surfaces of the International Space Station. mSphere. 2016;1(5):1–15",
+      "authors": []
+    },
+    {
+      "title": "Checinska A, Kimar RM, Pal D, Mayilraj S, Venkateswaran K: Solibacillus kalamii sp. nov., isolated from the International Space Station HEPA filter system. Int J Syst Evol Microbiol 2017;67:896–901",
+      "authors": []
+    },
+    {
+      "title": "Enterobacter bugandensis sp. nov., isolated from neonatal blood",
+      "authors": [
+        "S Doijad",
+        "C Imirzalioglu",
+        "Y Yao",
+        "NB Pati",
+        "L Falgenhauer",
+        "T Hain",
+        "BU Foesel",
+        "B Abt",
+        "J Overmann",
+        "MM Mirambo"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Longitudinal analysis of microbial interaction between humans and the indoor environment",
+      "authors": [
+        "S Lax",
+        "DP Smith",
+        "J Hampton-Marcell",
+        "SM Owens",
+        "KM Handley",
+        "NM Scott",
+        "SM Gibbons",
+        "P Larsen",
+        "BD Shogan",
+        "S Weiss"
+      ]
+    },
+    {
+      "title": "Four-year bacterial monitoring in the International Space Station-Japanese Experiment Module \"Kibo\" with culture-independent approach",
+      "authors": [
+        "T Ichijo",
+        "N Yamaguchi",
+        "F Tanigaki",
+        "M Shirakawa",
+        "M Nasu"
+      ]
+    },
+    {
+      "title": "Diversity of bacterial communities of fitness center surfaces in a U.S. metropolitan area",
+      "authors": [
+        "N Mukherjee",
+        "SE Dowd",
+        "A Wise",
+        "S Kedia",
+        "V Vohra",
+        "P Banerjee"
+      ]
+    },
+    {
+      "title": "Diversity and seasonal dynamics of bacterial community in indoor environment",
+      "authors": [
+        "H Rintala",
+        "M Pitkaranta",
+        "M Toivola",
+        "L Paulin",
+        "A Nevalainen"
+      ]
+    },
+    {
+      "title": "Risk of acquiring antibiotic-resistant bacteria from prior room occupants",
+      "authors": [
+        "SS Huang",
+        "R Datta",
+        "R Platt"
+      ]
+    },
+    {
+      "title": "Bacterial contamination of inanimate surfaces and equipment in the intensive care unit",
+      "authors": [
+        "V Russotto",
+        "A Cortegiani",
+        "SM Raineri",
+        "A Giarratano"
+      ]
+    },
+    {
+      "title": "Risk of acquiring multidrug-resistant gram-negative bacilli from prior room occupants in the intensive care unit",
+      "authors": [
+        "S Nseir",
+        "C Blazejewski",
+        "R Lubret",
+        "F Wallet",
+        "R Courcol",
+        "A Durocher"
+      ]
+    },
+    {
+      "title": "Molecular bacterial community analysis of clean rooms where spacecraft are assembled",
+      "authors": [
+        "C Moissl",
+        "S Osman",
+        "MT La Duc",
+        "A Dekas",
+        "E Brodie",
+        "T DeSantis",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Exploring bacterial diversity in hospital environments by GS-FLX titanium pyrosequencing",
+      "authors": [
+        "M Poza",
+        "C Gayoso",
+        "MJ Gomez",
+        "S Rumbo-Feal",
+        "M Tomas",
+        "J Aranda",
+        "A Fernandez",
+        "G Bou"
+      ]
+    },
+    {
+      "title": "Preparing for the crewed Mars journey: microbiota dynamics in the confined Mars500 habitat during simulated Mars flight and landing",
+      "authors": [
+        "P Schwendner",
+        "A Mahnert",
+        "K Koskinen",
+        "C Moissl-Eichinger",
+        "S Barczyk",
+        "R Wirth",
+        "G Berg",
+        "P Rettberg"
+      ]
+    },
+    {
+      "title": "Functional metagenomics of spacecraft assembly cleanrooms: presence of virulence factors associated with human pathogens",
+      "authors": [
+        "M Bashir",
+        "M Ahmed",
+        "T Weinmaier",
+        "D Ciobanu",
+        "N Ivanova",
+        "TR Pieber",
+        "PA Vaishampayan"
+      ]
+    },
+    {
+      "title": "Microbial diversity of extreme habitats in human homes",
+      "authors": [
+        "AM Savage",
+        "J Hills",
+        "K Driscoll",
+        "DJ Fergus",
+        "AM Grunden",
+        "RR Dunn"
+      ]
+    },
+    {
+      "title": "Bacterial and archaeal communities in the deep-sea sediments of inactive hydrothermal vents in the Southwest India ridge",
+      "authors": [
+        "L Zhang",
+        "M Kang",
+        "J Xu",
+        "J Xu",
+        "Y Shuai",
+        "X Zhou",
+        "Z Yang",
+        "K Ma"
+      ]
+    },
+    {
+      "title": "The black yeast Exophiala dermatitidis and other selected opportunistic human fungal pathogens spread from dishwashers to kitchens",
+      "authors": [
+        "J Zupančič",
+        "M Novak Babič",
+        "P Zalar",
+        "N Gunde-Cimerman"
+      ]
+    },
+    {
+      "title": "Chase J, Fouquier J, Zare M, Sonderegger DL, Knight R, Kelley ST, Siegel J, Caporaso JG: Geography and location are the primary drivers of office microbiome composition. mSystems 2016;1(2):1–18.",
+      "authors": []
+    },
+    {
+      "title": "Size-resolved emission rates of airborne bacteria and fungi in an occupied classroom",
+      "authors": [
+        "J Qian",
+        "D Hospodsky",
+        "N Yamamoto",
+        "WW Nazaroff",
+        "J Peccia"
+      ]
+    },
+    {
+      "title": "Evaluation of the airborne bacterial population in the periodically confined Antarctic base Concordia",
+      "authors": [
+        "R Van Houdt",
+        "P De Boever",
+        "I Coninx",
+        "C Le Calvez",
+        "R Dicasillati",
+        "J Mahillon",
+        "M Mergeay",
+        "N Leys"
+      ]
+    },
+    {
+      "title": "Human presence impacts fungal diversity of inflated lunar/Mars analog habitat",
+      "authors": [
+        "A Blachowicz",
+        "T Mayer",
+        "M Bashir",
+        "TR Pieber",
+        "P De León",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Fungal and bacterial communities in indoor dust follow different environmental determinants",
+      "authors": [
+        "F Weikl",
+        "C Tischer",
+        "AJ Probst",
+        "J Heinrich",
+        "I Markevych",
+        "S Jochner",
+        "K Pritsch"
+      ]
+    },
+    {
+      "title": "Unifying the analysis of high-throughput sequencing datasets: characterizing RNA-seq, 16S rRNA gene sequencing and selective growth experiments by compositional data analysis",
+      "authors": [
+        "AD Fernandes",
+        "JNS Reid",
+        "JM Macklaim",
+        "TA McMurrough",
+        "DR Edgell",
+        "GB Gloor"
+      ]
+    },
+    {
+      "title": "Compositional analysis: a valid approach to analyze microbiome high-throughput sequencing data",
+      "authors": [
+        "GB Gloor",
+        "G Reid"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with international Space Station environmental surfaces",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "F Karouia",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Venkateswaran K, La Duc MT, Vaishampayan P: Genetic inventory task: final report, JPL publication 12–12. In., vol. 1 and 2. Pasadena, CA.: Jet Propulsion Laboratory, California Institute of Technology; 2012: 1–117.",
+      "authors": []
+    },
+    {
+      "title": "Lane DJ: Nucleic acid techniques in bacterial systematics. In: Nucleic Acid Techniques in Bacterial Systematics. Edited by Stackebrandt E, Goodfellow M, vol. 1. New York: Wiley; 1991: 115–175.",
+      "authors": []
+    },
+    {
+      "title": "Investigating deep phylogenetic relationships among cyanobacteria and plastids by small subunit rRNA sequence analysis",
+      "authors": [
+        "S Turner",
+        "KM Pryer",
+        "VP Miao",
+        "JD Palmer"
+      ]
+    },
+    {
+      "title": "Fungal communities from methane hydrate-bearing deep-sea marine sediments in South China see",
+      "authors": [
+        "X Lai",
+        "L Cao",
+        "H Tan",
+        "S Fang",
+        "Y Huang",
+        "S Zhou"
+      ]
+    },
+    {
+      "title": "Community structure of ectomycorrhizal fungi in a Pinus muricata forest: minimal overlap between the mature forest and resistant propagule communities",
+      "authors": [
+        "DL Taylor",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Introducing EzTaxon-e: a prokaryotic 16S rRNA gene sequence database with phylotypes that represent uncultured species",
+      "authors": [
+        "O-S Kim",
+        "Y-J Cho",
+        "K Lee",
+        "S-H Yoon",
+        "M Kim",
+        "H Na",
+        "S-C Park",
+        "YS Jeon",
+        "J-H Lee",
+        "H Yi"
+      ]
+    },
+    {
+      "title": "Towards a unified paradigm for sequence-based identification of fungi",
+      "authors": [
+        "U Koljalg",
+        "RH Nilsson",
+        "K Abarenkov",
+        "L Tedersoo",
+        "AF Taylor",
+        "M Bahram",
+        "ST Bates",
+        "TD Bruns",
+        "J Bengtsson-Palme",
+        "TM Callaghan"
+      ]
+    },
+    {
+      "title": "Quantitative analysis of small-subunit rRNA genes in mixed microbial populations via 5′-nuclease assays",
+      "authors": [
+        "MT Suzuki",
+        "LT Taylor",
+        "EF DeLong"
+      ]
+    },
+    {
+      "title": "Survival of rock-colonizing organisms after 1.5 years in outer space",
+      "authors": [
+        "S Onofri",
+        "R de la Torre",
+        "JP de Vera",
+        "S Ott",
+        "L Zucconi",
+        "L Selbmann",
+        "G Scalzi",
+        "KJ Venkateswaran",
+        "E Rabbow",
+        "FJ Sanchez Inigo"
+      ]
+    },
+    {
+      "title": "Evaluation of procedures for the collection, processing, and analysis of biomolecules from low-biomass surfaces",
+      "authors": [
+        "K Kwan",
+        "M Cooper",
+        "MT La Duc",
+        "P Vaishampayan",
+        "C Stam",
+        "JN Benardini",
+        "G Scalzi",
+        "C Moissl-Eichinger",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Klindworth A, Pruesse E, Schweer T, Peplies J, Quast C, Horn M, Glöckner FO: Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies. Nucleic Acids Res 2013, 41(1)(e1):1–11.",
+      "authors": []
+    },
+    {
+      "title": "The SILVA ribosomal RNA gene database project: improved data processing and web-based tools",
+      "authors": [
+        "C Quast",
+        "E Pruesse",
+        "P Yilmaz",
+        "J Gerken",
+        "T Schweer",
+        "P Yarza",
+        "J Peplies",
+        "FO Glockner"
+      ]
+    },
+    {
+      "title": "High-coverage ITS primers for the DNA-based identification of ascomycetes and basidiomycetes in environmental samples",
+      "authors": [
+        "H Toju",
+        "AS Tanabe",
+        "S Yamamoto",
+        "H Sato"
+      ]
+    },
+    {
+      "title": "Improved selection of internal transcribed spacer-specific primers enables quantitative, ultra-high throughput profiling of fungal communities",
+      "authors": [
+        "NA Bokulich",
+        "DA Mills"
+      ]
+    },
+    {
+      "title": "DNA purification on homemade silica spin-columns",
+      "authors": [
+        "TA Borodina",
+        "H Lehrach",
+        "AV Soldatov"
+      ]
+    },
+    {
+      "title": "Comparison of sequencing utility programs",
+      "authors": [
+        "E Aronesty"
+      ]
+    },
+    {
+      "title": "Improved selection of internal transcribed spacer-specific primers enables quantitative, ultra-high-throughput profiling of fungal communities",
+      "authors": [
+        "NA Bokulich",
+        "DA Mills"
+      ]
+    },
+    {
+      "title": "Search and clustering orders of magnitude faster than BLAST",
+      "authors": [
+        "RC Edgar"
+      ]
+    },
+    {
+      "title": "Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample",
+      "authors": [
+        "JG Caporaso",
+        "CL Lauber",
+        "WA Walters",
+        "D Berg-Lyons",
+        "CA Lozupone",
+        "PJ Turnbaugh",
+        "N Fierer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Bayesian community-wide culture-independent microbial source tracking",
+      "authors": [
+        "D Knights",
+        "J Kuczynski",
+        "ES Charlson",
+        "J Zaneveld",
+        "MC Mozer",
+        "RG Collman",
+        "FD Bushman",
+        "R Knight",
+        "ST Kelley"
+      ]
+    },
+    {
+      "title": "R Development Core Team R: A Language and Environment for Statistical Computing (http://www.r-project.org/).",
+      "authors": []
+    },
+    {
+      "title": "Correcting for microbial blooms in fecal samples during room-temperature shipping",
+      "authors": [
+        "A Amir",
+        "D McDonald",
+        "JA Navas-Molina",
+        "J Debelius",
+        "JT Morton",
+        "E Hyde",
+        "A Robbins-Pianka",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Qiita: rapid, web-enabled microbiome meta-analysis",
+      "authors": [
+        "A Gonzalez",
+        "JA Navas-Molina",
+        "T Kosciolek",
+        "D McDonald",
+        "Y Vazquez-Baeza",
+        "G Ackermann",
+        "J DeReus",
+        "S Janssen",
+        "AD Swafford",
+        "SB Orchanian"
+      ]
+    },
+    {
+      "title": "A communal catalogue reveals Earth’s multiscale microbial diversity",
+      "authors": [
+        "LR Thompson",
+        "JG Sanders",
+        "D McDonald",
+        "A Amir",
+        "J Ladau",
+        "KJ Locey",
+        "RJ Prill",
+        "A Tripathi",
+        "SM Gibbons",
+        "G Ackermann"
+      ]
+    },
+    {
+      "title": "QIIME 2: reproducible, interactive, scalable, and extensible microbiome data science",
+      "authors": [
+        "E Bolyen",
+        "JR Rideout",
+        "MR Dillon",
+        "NA Bokulich",
+        "C Abnet",
+        "GA Al-Ghalith",
+        "H Alexander",
+        "EJ Alm",
+        "M Arumugam",
+        "F Asnicar"
+      ]
+    },
+    {
+      "title": "An improved Greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea",
+      "authors": [
+        "D McDonald",
+        "MN Price",
+        "J Goodrich",
+        "EP Nawrocki",
+        "TZ DeSantis",
+        "A Probst",
+        "GL Andersen",
+        "R Knight",
+        "P Hugenholtz"
+      ]
+    },
+    {
+      "title": "Mirarab S, Nguyen N, Warnow T. SEPP: SATe-enabled phylogenetic placement. Pac Symp Biocomput. 2012:247–58.",
+      "authors": []
+    },
+    {
+      "title": "Phylogenetic placement of exact amplicon sequences improves associations with clinical information",
+      "authors": [
+        "S Janssen",
+        "D McDonald",
+        "A Gonzalez",
+        "JA Navas-Molina",
+        "L Jiang",
+        "ZZ Xu",
+        "K Winker",
+        "DM Kado",
+        "E Orwoll",
+        "M Manary"
+      ]
+    },
+    {
+      "title": "Striped UniFrac: enabling microbiome analysis at unprecedented scale",
+      "authors": [
+        "D McDonald",
+        "Y Vazquez-Baeza",
+        "D Koslicki",
+        "J McClelland",
+        "N Reeve",
+        "Z Xu",
+        "A Gonzalez",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "An algorithm for the principal component analysis of large data sets",
+      "authors": [
+        "N Halko",
+        "P-G Martinsson",
+        "Y Shkolnisky",
+        "M Tygert"
+      ]
+    },
+    {
+      "title": "EMPeror: a tool for visualizing high-throughput microbial community data",
+      "authors": [
+        "Y Vazquez-Baeza",
+        "M Pirrung",
+        "A Gonzalez",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Kluyver T, Ragan-Kelley B, Pérez F, Granger B, Bussonnier M, Frederic J, Kelley K, Hamrick J, Grout J, Corlay S, et al. Jupyter development team. Jupyter Notebooks – a publishing format for reproducible computational workflows. Loizides, Fernando and Scmidt, Birgit (eds.) In Positioning and Power in Academic Publishing: Players, Agents and Agendas. IOS Press. 2016. pp. 87–90. 10.3233/978-1-61499-649-1-87.",
+      "authors": []
+    },
+    {
+      "title": "cual-id: globally unique, correctable, and human-friendly sample identifiers for comparative omics studies",
+      "authors": [
+        "JH Chase",
+        "E Bolyen",
+        "JR Rideout",
+        "JG Caporaso"
+      ]
+    }
+  ],
+  "original_title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/5e077589764a/40168_2019_666_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/5bbff4a2ab9f/40168_2019_666_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/6ca8ba1889a8/40168_2019_666_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/d2c158698a7c/40168_2019_666_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/119809028535/40168_2019_666_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/a98e21096cf0/40168_2019_666_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cb3/6452512/d8d48ebb2a0b/40168_2019_666_Fig7_HTML.jpg"
+  ]
+}

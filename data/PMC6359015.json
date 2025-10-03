@@ -1,0 +1,1205 @@
+{
+  "pmcid": "PMC6359015",
+  "title": "HSFA2 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight",
+  "abstract": "Heat Shock Factor A2 (HsfA2) is part of the Heat Shock Factor (HSF) network, and plays an essential role beyond heat shock in environmental stress responses and cellular homeostatic control. Arabidopsis thaliana cell cultures derived from wild type (WT) ecotype Col-0 and a knockout line deficient in the gene encoding HSFA2 (HSFA2 KO) were grown aboard the International Space Station (ISS) to ascertain whether the HSF network functions in the adaptation to the novel environment of spaceflight. Microarray gene expression data were analyzed using a two-part comparative approach. First, genes differentially expressed between the two environments (spaceflight to ground) were identified within the same genotype, which represented physiological adaptation to spaceflight. Second, gene expression profiles were compared between the two genotypes (HSFA2 KO to WT) within the same environment, which defined genes uniquely required by each genotype on the ground and in spaceflight-adapted states. Results showed that the endoplasmic reticulum (ER) stress and unfolded protein response (UPR) define the HSFA2 KO cells’ physiological state irrespective of the environment, and likely resulted from a deficiency in the chaperone-mediated protein folding machinery in the mutant. Results further suggested that additional to its universal stress response role, HsfA2 also has specific roles in the physiological adaptation to spaceflight through cell wall remodeling, signal perception and transduction, and starch biosynthesis. Disabling HsfA2 altered the physiological state of the cells, and impacted the mechanisms induced to adapt to spaceflight, and identified HsfA2-dependent genes that are important to the adaption of wild type cells to spaceflight. Collectively these data indicate a non-thermal role for the HSF network in spaceflight adaptation.",
+  "introduction": "1. Introduction\n\nSurvival in a challenging environment requires a coordinated system that enables a living organism to respond appropriately to a change. The environment of the International Space Station (ISS) presents novel challenges for all terrestrial organisms, which evolved in the unit gravity of Earth. Microgravity is the most obvious challenge of spaceflight; however, other aspects of the spaceflight environment, such as radiation from galactic cosmic rays and solar energetic particles, and vibration contribute to the complexity of this novel environment. When terrestrial organisms are transported to the ISS, they respond by adjusting metabolic processes to physiologically adapt to this new spaceflight environment. One readout of the physiological changes induced by spaceflight is in the patterns of gene expression. Plants are extremely sensitive to changes in their environment, and are particularity attuned to changes in gravity. Individual genes have been implicated as important to the altered gravity physiological adaptation through assays with deletion mutants and with specific assays of expression. Genome-wide evaluations have also provided a large-scale view of the changes elicited by disrupted terrestrial gravity environments.\n\nPlants exhibit widespread changes in their patterns of gene expression in the absence of gravity, such as in response to the spaceflight environment. Even unicellular plants are capable of sensing a change in the gravitational environment and there have been several spaceflight experiments that examine the transcriptomes of single plant cells, and undifferentiated plants cells, which also lack traditional gravity-sensing organs. The wealth of information on the transcriptional changes that accompany the adjustments to spaceflight begins to suggest common strategies for adjusting to the spaceflight environment; however, the underlying question of why certain genes are necessary remains unanswered. One group of genes strongly represented in many spaceflight transcriptomes is composed of the heat shock transcription factors and proteins that comprise the Heat Shock Factor network.\n\nHeat Shock Factors (HSFs) are transcription factors that activate the expression of genes in response to almost any environmental stress and are essential to the cellular homeostatic control mechanisms (for review, please see). HSF genes are evolutionarily conserved and are represented in the genomes of almost every organism. Given the conservation of the HSF network and its general roles in stress responses, it was perhaps not surprising to see HSFs represented in the response to spaceflight in plants. Their particularly strong representation in cell cultures; however, suggested HSFs could play a unique role in the spaceflight response of undifferentiated cells.\n\nOne hallmark of cellular stress is the accumulation of denatured proteins. The main gene targets of HSF-induced transcriptional activation are the stress response proteins that act as molecular chaperones. These chaperones not only protect a cell from denatured protein accumulation, but also assure proper protein folding and maturation of newly synthesized proteins indispensable in response to stress. The Heat Shock Proteins (HSPs) are the main chaperones of the folding machinery, but there are also other non-chaperone proteins assisting in efficient protein maturation. For instance, a pair of enzymes, including a disulfide carrier protein (protein disulfide isomerase, PDI), and a disulfide-generating enzyme (endoplasmic oxidoreductin-1, ERO1 and protein disulfide isomerase, PDI, PDIs/ERO1) catalyze oxidative protein folding by creating disulfide bonds, thereby assisting in proper protein sorting.\n\nProtein folding occurs within the endoplasmic reticulum (ER), which also serves as the main hub for the secretory pathways and protein delivery to their final destinations. The ER uses an extensive surveillance called the Endoplasmic Reticulum Quality Control (ERQC) system, which assures that only properly folded proteins exit the ER and maintains proper physiological homeostasis in the ER. When there is an accumulation of unfolded proteins in the ER, a stress signal is emitted. Initially, a cell activates the unfolded protein response (UPR) intended to increase the ER folding capacity in an attempt to refold the aberrant proteins. If these UPR solutions to the unfolded protein accumulation problem fail, or if the accumulation of misfolded proteins is massive, then the final UPR step—the endoplasmic reticulum associated degradation (ERAD)—is activated. The ERAD eliminates and destroys the misfolded proteins via proteasome digestion, preventing further protein aggregation. The luminal lectin OS9 in cooperation with a membrane spanning protein SEL1/HRD3 recognizes the unfolded glycosylated proteins which are then ubiquitinylated by the HRD1 E3 ligase, removed from the ER lumen, and degraded by the 26S proteasome in the cytoplasm. Taken collectively, ER homeostasis works as a sensor for environmental stimuli, and the ER stress signal initiates a subcellular stress response system that can secure protein homeostasis during environmental changes.\n\nThe HsfA2 gene is a member of the large family of Hsf genes in the HSF network and is a key regulator of the defense response via HSP chaperone transcriptional activation to several types of environmental stresses, namely extreme temperatures (high and low), hydrogen peroxide, and high light intensity. The HSFA2 protein has been demonstrated itself to be the main coordinator of the UPR during heat stress. The critical involvement of HSFA2 in the response to extreme environments makes it an excellent target candidate for studying the effects of spaceflight on plants and to test if plants use the same universal stress response mechanism evolved terrestrially to accommodate the novel space gravitational environment.\n\nHSFA2 may also have an additional role in the physiological adaptation to the spaceflight environment beyond the UPR induction of the chaperone-based protein folding machinery. The genes encoding HSFs and HSPs were reported to be upregulated in spaceflight in many biological systems. The HsfA2 gene specifically was the highest upregulated gene in the wild type Arabidopsis cell cultures after 12 days in space. Moreover, HSFA2 was shown to function in amplification of the signal in response to brassinosteroids, calcium, and auxin and was reported to be affected in Arabidopsis in spaceflight, and therefore has the potential for playing a role in the gravity sensing signal transduction cascade. In the unicellular yeast (Saccharomyces cerevisiae), the HSF targets represent nearly 3% of the genome and the diversity of their functions supports a broad role for HSF in coordinating the multitude of cellular processes occurring in normal and stressful conditions. Since the HSFs play a role in various cellular processes such as development, cellular lifespan, cell differentiation and proliferation, the likelihood that HSFA2 will play some role in the physiological adaptation to spaceflight increases.\n\nCell lines from wild type (WT) Col-0 and an HsfA2 knockout (HSFA2 KO) in the same Col-0 background were launched to the International Space Station (ISS) for the Cellular Expression Logic (CEL) experiment, which was a component of the Biological Research In Cannisters 17 (BRIC17) payload. The experiments here compare samples fixed in orbit after growth in space to samples grown on the ground. Descriptions and discussions will consider not only the spaceflight adaptation experience for each genotype, but also the gene expression profiles in the ground and spaceflight environments between genotypes. It was our goal to develop a better understanding of how cells, disabled in a primary regulator of environmental stress response, react to an unfamiliar environment outside of their evolutionary experience. The results of the spaceflight experiment presented here have enhanced our understanding not only of HSFA2’s role in adjusting to novel environments, but also the broader scope of the processes involved spaceflight physiological adaptation in plant cells.",
+  "methods": "4. Materials and Methods\n\n4.1. The CEL Experiment of BRIC17\n\nFor details on the CEL experiment of BRIC17, please see, and Figure 1, which provides images of the BRIC Hardware and cells used in these analyses. Briefly, the CEL BRIC17 experiment was launched in the Dragon capsule of SpaceX-3 Commercial Resupply Service (CRS) mission to the International Space Station (ISS) on the 1st of March 2013. The cultured cell lines (both the ground control and the spaceflight samples) were grown within 60 mm Petri plates in Petri Dish Fixation Units (PDFUs) that were housed within the Biological Research in Canisters (BRIC) hardware. The PDFU/BRIC system is a passive, air-tight, non-ventilated, non-illuminated culture system. The BRIC system is certainly not an optimal habitat for plant growth, and its limitations have been reviewed. However, the BRIC habitat is less inimical to undifferentiated cell cultures than for photosynthetic seedlings. In addition, both spaceflight and ground control cells were each exposed to the limitations of the BRIC hardware. The spaceflight samples were launched to the ISS, while the ground controls were “launched” on a 48-h delay, and then maintained in the ISS Environmental Simulator (ISSES) chamber at Kennedy Space Center (KSC). The 48-h delay facilitated the downlink of ISS environmental data for programming the ISSES chamber. The downlinked data included environmental conditions on the ISS that were duplicated in the ISSES. Cells were fixed within the BRIC canisters on the ISS with RNAlaterTM (Ambion) on the 10th day in orbit, and the ground controls were fixed 48 h later. Twenty-four hours after fixation, the entire BRIC was moved to the Minus Eighty-degree Laboratory Freezer for ISS (MELFI) until the spaceflight samples were transported back to Earth, and the ground control samples were transferred to a standard laboratory −80 °C freezer. The total RNA was extracted from the spaceflight samples and the corresponding ground control samples and subjected to microarrays.\n\n4.2. Tissue Culture Cell Lines\n\nArabidopsis callus cultures were established de novo, and each cell line was initiated simultaneously approximately 6 months before launch. Cells derived from hypocotyls were grown and maintained on plates with solid media containing MS salts (4.33 g/L), 3% sucrose (30 g/L), MS vitamins (1 mL of 1000× solution), 2,4-Dichlorophenoxyacetic acid (2,4-D) (0.3 mL/L), 0.5% agar (5 g/L) and kinetin (0.2 mg/L) until dedifferentiated into callus. The callus cells were then transferred to the standard liquid media containing MS salts (4.33 g/L), 3% sucrose (30 g/L), MS vitamins (1 mL of 1000× solution), and 2,4-D (0.5 mL/L) and maintained in a sterile continuous cell suspension culture. Two cell lines, each of Col-0 ecotype, were the subjects of this study: wild type (WT), and a knockout line generated from the HsfA2 T-DNA insertion (SALK_008978C) (HSFA2 KO). The SALK line was obtained through The Arabidopsis Information Resource (TAIR), ().\n\n4.3. Preparation of BRIC17 CEL Cell Culture Plates\n\nLiquid suspension cells growing in log phase were transferred to solid media two and a half days prior to turning over the payload in preparation for launch. The liquid media was decanted, washed once with fresh liquid media, and then decanted again. A sterile scoop was used to place about 1 g of cells on the surface of a 60 mm Petri plate (Falcon, Becton Dickinson Labware, Franklin Lakes, NJ, USA) containing 6.5 mL nutrient agar media (MS salts (4.33 g/L), 3% sucrose (30 g/L), MS vitamins, 2,4-D 2-(N-morpholino)ethanesulfonic acid (MES) buffer (0.5 g/L), 0.8% agar (8 g/L)). The cells were then dispersed evenly across the surface. All plate manipulations were conducted under sterile conditions in a laminar flow hood to assure sterility of both the interior and exterior of plates. Plates were put into a sterile Nalgene™ BioTransport Carrier (Thermo Scientific, Waltham, MA, USA), each layer of plates separated with a sterile non-skid plastic insert. The BioTransporter was then sealed with gas-permeable tape (3M), wrapped in Steri-Wrap™ autoclave wraps (Fisher, Waltham, MA, USA) and then driven to KSC. The BRIC17 CEL experiment was turned over to payload engineers in the SSPF (Space Station Processing Facility) at KSC 48 h before the scheduled launch time.\n\n4.4. RNA Extractions\n\nTotal RNA was extracted using Qiashredder and RNAeasy™ kits from QIAGEN (QIAGEN Sciences, Germantown, MD, USA) according to the manufacturer’s instructions. Residual DNA was removed by performing an on-column digestion using an RNase Free DNase (QIAGEN GmbH, Hilden, Germany). Integrity of the RNA was evaluated using the Agilent 2100 BioAnalyzer (Agilent Technologies, Santa Clara, CA, USA).\n\n4.5. Microarrays\n\ncDNA was synthesized using Ovation Pico WTA System (NuGEN Technologies Inc., Redwood City, CA, USA) and labeled using Encore Biotin Module (NuGEN Technologies Inc.,Redwood City, CA, USA). Amplified and labeled cDNA (5 µg/sample) was fragmented and hybridized with rotation onto Affymetrix GeneChip Arabidopsis ATH1 Genome Arrays for 16 h at 45 °C. Arrays were washed on a Fluidics Station 450 (Affymetrix, Santa Clara, CA, USA) with the Hybridization Wash and Stain Kit (Affymetrix) and the Washing Procedure FS450_0004. Scanning was performed using Affymetrix GeneChip Scanner 3000 7G. For both spaceflight and ground control, 5 plates of WT and 3 plates of HSFA2 KO were analyzed as biological replicates.\n\n4.5.1. Microarray Data Analysis\n\nAffymetrix® Expression Console™ Software (Version 1.3) was used to generate. CEL files for each RNA hybridization. All analysis was performed in R 3.0.0. Background adjustment, summarization, and quantile normalization were performed using Limma package. Normalization was made using the Affymetrix MAS 5.0 normalization algorithm. Data quality was assessed using the arrayQualityMetrics package and various QC charts (Density and Intensity plot, NUSE, RLE, and RNA Degradation Plot). Probes that had signals absent in all samples were removed. For each replicate array, each probe-set signal value from spaceflight samples was compared to the probe-set signal value of ground control samples to give gene expression ratios. Differentially expressed genes were identified using the Limma package with a Benjamini and Hochberg false discovery rate multiple testing correction. Genes were considered as differentially expressed with stringent criteria at P-value < 0.01, abs Fold Change > 2 (−1< FC log2 > +1; labeled as log2 Fold Change) unless stated otherwise.\n\n4.5.2. Comparison Groups\n\nThe groups outlined in the concept of operations and comparisons were established and abbreviated with a combination of two capital letters and a short version of the cell line name in superscript (see Figure 2A). Letters: G—Ground Control, F—Spaceflight; Superscripts: Wt—WT cells, Hsf—HSFA2 KO cells.\n\n4.6. Functional Gene Categorization—Gene Ontology Annotations\n\nAgriGO—An integrated web-based GO analysis toolkit for the agricultural community AgriGO was used. AgriGO query criteria were as follows: Singular Enrichment Analysis (SEA), Arabidopsis genemodel (TAIR9) precomputed background, Fisher was selected as the statistical test method of choice with the NOT-adjust multi-test adjustment method; significance level was set at 0.01 or 0.05, minimum number of mapping of entries was set at 5, plant GO slim was selected from other Gene ontology types. For Parametric Analysis of Gene Set Enrichment (PAGE), the selected species was Arabidopsis thaliana, NOT-adjust was selected for multi-test adjustment method, significance level was set at 0.1, minimum number of mapping of entries was set at 10, and Plant GO slim was selected from other Gene ontology types.\n\nAmiGO—If needed, the GO database was accessed through the AmiGO query tool.\n\nATTED-II—The ATTED-II database of coexpressed genes, developed to identify functionally related genes in Arabidopsis, was also used. The make gene function table function was implemented to retrieve organized information on gene function (based on TAIR annotation) and subcellular localization (as predicted by TargetP and WOLF PSORT).\n\ngProfiler—A web-based toolset for functional profiling of gene lists was used. Arabidopsis thaliana was the selected organism with most of default options except where the Benjamini-Hochberg FDR significance threshold was selected.\n\nGene function was annotated by associations of controlled vocabularies or keywords to data objects (Gene Ontology, GO). Multiple GO toolkits of this controlled vocabulary system were used to collect annotations of gene function. Various lists of gene names were created, and enrichment GO terms were searched after statistical test from pre-calculated backgrounds. All three aspects of gene products (molecular function, biological process, and subcellular location) described by GO controlled vocabularies were considered. A significance level of 0.05 and five genes as minimum number of mapping entries were implemented for the analysis parameters in the following tools:",
+  "results": "2. Results\n\nIn this experiment, the pattern of gene expression that defined the adapted state was established after ten days of growth in the BRIC hardware in two environments: spaceflight, and ground control in the two genotypes: HSFA2 KO, and WT. Cell clusters of both genotypes were applied in comparable density for both treatments, and continued growth in the spaceflight and ground control environments (Figure 1).\n\nMicroarray gene expression data were analyzed in two dimensions. The first or “vertical” dimension of the analysis involved the typical comparison of the gene expression profiles of the cells grown in spaceflight to those grown on the ground for each of the two cell lines (see red box in Figure 2A, and refer also to for a similar experimental design). For clarity, this vertical comparison was termed the physiological adaptation to the spaceflight environment of either HSFA2 KO or WT cells. Genes identified in this vertical comparison contribute to understanding which cellular processes were sensitive to spaceflight in each genotype. The second or “horizontal” dimension of the analysis involved comparison of gene expression profiles between the two genotypes within the same environment: ground (see green box of Figure 2A) and spaceflight (see blue box of Figure 2A). In the ground horizontal comparison, gene expression in HSFA2 KO cells on the ground was compared to gene expression in WT cells on the ground, thus defining unique genes of the ground adapted state for each genotype. Similarly, in a spaceflight horizontal comparison, the gene expression in HSFA2 KO cells in spaceflight was compared to gene expression in WT cells in spaceflight, thus defining unique genes required for the spaceflight adapted state in each genotype. Finally, the sets of genes obtained from a comparison of the first and second dimension were analyzed together, and their interdependence was examined.\n\nThe gene expression datasets were abbreviated as follows: Ground Control WT (GWt), Ground Control HSFA2 KO (GHsf), Spaceflight WT (FWt) and Spaceflight HSFA2 KO (FHsf). The WT physiological adaptation to spaceflight was identified in the FWt : GWt comparison group (see red box on the left in Figure 2A), the HSFA2 KO physiological adaptation to spaceflight was identified in the FHsf : GHsf comparison group (red box on the right in Figure 2A), the genotypic adaptation to ground was identified in the GHsf : GWt comparison group (see green box at the bottom in Figure 2A), and the genotypic adaptation to spaceflight was identified in the FHsf : FWt comparison group (blue box on top in Figure 2A). The genes that were differentially expressed in these comparisons are outlined in the following sections in terms of the numbers of differentially expressed genes represented in general ontology categories. Full annotations of the genes in each category are presented in Appendix A Table A1 and Table A2.\n\n2.1. The HsfA2 Expression Levels across Samples\n\nThe raw gene expression values in microarrays, measured as a fluorescence signal intensity, showed that the HsfA2 transcript was abundant in the WT undifferentiated cells in the ground control samples. The average raw expression of the HsfA2 gene in the 4 biological replicates of the WT ground control cells was 4171 (see Figure S1 in the Supplementary Material). In contrast, the average raw HsfA2 gene expression in the 3 biological replicates of the HSFA2 KO ground control cells was only 39. Thus, there was a deficit of −7.27 log2 Fold Change (P-value 2.9 × 10−9) of the HsfA2 transcript in HSFA2 KO cells than in WT cells on the ground, demonstrating that the T-DNA insertion mutation severely depressed HsfA2 expression.\n\nThere was no statistically significant difference in the HsfA2 expression levels between spaceflight and corresponding ground control for either the WT cells or the HSFA2 KO cells (see Figure S1 in the Supplementary Material).\n\n2.2. Different Genes Characterize the Physiological Adaptation of the WT and HSFA2 KO Cells to Spaceflight\n\n2.2.1. The Genes Characterizing the Physiological Adaptation of WT Cells to Spaceflight—FWt : GWt\n\nThe genes involved in physiological adaptation to spaceflight in WT cells were identified by comparing the gene expression profiles in WT spaceflight cells (FWt) to the WT ground control cells (GWt) in the FWt : GWt group comparison (see Figure 2A). There were 78 genes significantly differentially expressed between spaceflight and ground control at P-value < 0.01 and log2 Fold Change > 1; 46 genes were upregulated and 32 genes were downregulated (see Figure 2B, Figure 3, File S1 GO 78 FWtGWt in the Supplementary Material). The microarray data are publicly available from GEO (GSE95388) and GeneLab (number TBD).\n\nThe upregulated genes identified from the FWt : GWt group comparison represented genes that were overexpressed in WT cells in spaceflight compared to the WT cells on the ground. These genes primarily fell under two GO terms of biological process ontology: response to stimulus (GO:0050896) and regulation of biological processes (GO:0050789). Many of these genes are associated with defense, wounding, and cell wall metabolism (Table A1).\n\nThe downregulated genes identified from FWt : GWt group comparison represented genes that were downregulated in WT cells in spaceflight compared to the WT cells on the ground. These genes primarily fell under the regulation of biological process GO term (GO:0050789) and under the categories of endomembrane systems (GO:0012505) and Golgi associated (GO:0005794). Many of these genes are associated with cellular transport and receptors (Table A1).\n\n2.2.2. HSFA2 KO Cells Changed the Expression of Three Times More Genes than Seen in WT Cells—FHsf : GHsf\n\nThe genes involved in physiological adaptation to spaceflight in HSFA2 KO cells were identified by comparing the gene expression profiles in HSFA2 KO spaceflight cells (FHsf) to HSFA2 KO ground control cells (GHsf) in the FHsf : GHsf group comparison (see Figure 2A). There were 221 genes significantly differentially expressed between spaceflight and ground control at P-value < 0.01 and log2 Fold Change > 1; 112 genes were upregulated, and 109 genes were downregulated (see Figure 2B, Figure 3, File S2 GO 221 FHsfGHsf in the Supplementary Material).\n\nThe upregulated genes identified from FHsf : GHsf group comparison represented genes that were overexpressed in HSFA2 KO cells in spaceflight compared to the HSFA2 KO cells on the ground. These genes primarily fell under 3 GO terms of biological process ontology: the defense response genes to other organism (GO:0098542), including response to wounding, cellular response to sucrose starvation (GO:0043617) and valine, leucine, and isoleucine degradation (GO:0009083) (see Table A1).\n\nThe downregulated genes identified from FHsf : GHsf group comparison represented genes that were underexpressed in HSFA2 KO cells in spaceflight compared to the HSFA2 KO cells on the ground. These genes primarily fell under 2 GO terms of biological process ontology: closely related growth, developmental process (GO:0032502) and anatomical structure morphogenesis (GO:0009653), particularly those involved in cell elongation, cell wall loosening, and multidimensional cell growth. These downregulated genes also fell under 2 GO terms of the cellular component ontology: plant-type cell wall (GO:0009505) and plasma membrane (GO:0005886) (see Table A1).\n\n2.3. WT and HSFA2 KO Show More Difference in Gene Expression Profiles in Their Ground-Adapted State than in Spaceflight-Adapted State\n\n2.3.1. Genotype Specific Genes of the Ground-Adapted State—GHsf : GWt\n\nComparison of the gene expression profiles of the ground-adapted states between the HSFA2 KO and WT cells shows the consequences of the HsfA2 gene loss for cells in the ground environment. The genes differentially expressed in the ground-adapted state between HSFA2 KO cells and WT cells were identified by comparing the gene expression profiles in HSFA2 KO ground cells (GHsf) to WT ground control cells (GWt) in the GHsf : GWt group comparison (see Figure 2). There were 349 genes significantly differentially expressed between WT and HSFA2 KO cells in the ground-adapted state at P-value < 0.01 and log2 Fold Change > 1; 115 genes were upregulated and 234 genes were downregulated (see Figure 2B, Figure 4, File S3 GO 349 GHsfGWt in the Supplementary Material). Genotypes in ground-adapted state displayed the greatest differences in gene expression profiles than in any other comparison group. Thirty-three percent of genes had an enhanced expression in the ground-adapted state in HSFA2 KO cells compared to WT cells, and 67% had diminished expression (see Figure S2 in the Supplementary Material).\n\nIn the HSFA2 KO and WT ground-adapted state, the upregulated genes identified from the GHsf : GWt group comparison represented genes that were overexpressed in cells disabled in HSFA2 KO on the ground compared to WT cells on the ground. These genes primarily fell under multiple GO terms of biological process ontology: response to stimulus (GO:0050896) and defense response to other organism (GO:0098542), particularly to: nematode, fungus, bacterium and to wounding, water deprivation (GO:0009414) related to high salinity, response to endoplasmic reticulum stress (ER stress) (GO:0034976) and unfolded protein response (UPR) (GO:0006986) and response to misfolded protein (GO:0051788), localization (GO:0051179), transport (GO:0006810), establishment of localization (GO:0051234) (see Table A2).\n\nIn the HSFA2 KO and WT ground-adapted state, the downregulated genes identified from the GHsf : GWt group comparison represented genes that were underexpressed in cells disabled in HSFA2 KO on the ground compared to WT cells on the ground. These genes primarily fell under multiple GO terms of biological process ontology: response to stimulus (GO:0050896) and response to stress (GO:0006950), including chaperones and non-chaperones, response to oxidative stress (GO:0006979), response to reactive oxygen species (GO:0000302), response to hydrogen peroxide (GO:0042542), response to sucrose stimulus (GO:0009744) and cellular amino acid and derivative metabolic process (GO:0006519), such as biosynthesis of phenylalanine, asparagine, tryptophan and flavonoid (see Table A2).\n\n2.3.2. Genotype Specific Genes of the Spaceflight-Adapted State—FHsf : FWt\n\nA comparison of the gene expression profiles of spaceflight-adapted states between the HSFA2 KO and WT cells shows cells’ adaptation to spaceflight environment if the HSFA2 function was disabled. Thus, these genes indicate the genotypic adaptation to spaceflight. The genes differentially expressed in the spaceflight-adapted state between HSFA2 KO cells and WT cells were identified by comparing the gene expression profiles in HSFA2 KO spaceflight cells (FHsf) to WT spaceflight cells (FWt) in the FHsf : FWt group comparison (see Figure 2A). There were 220 genes significantly differentially expressed between HSFA2 KO and WT cell samples in spaceflight (see Figure 2B, Figure 4, File S4 GO 220 FHsfFWt in the Supplementary Material). The 95 genes were more highly expressed in HSFA2 KO cells than in WT cells in spaceflight, while 125 genes were downregulated in HSFA2 KO cells as compared to WT cells in spaceflight. In the HSFA2 KO and WT spaceflight-adapted state, the upregulated genes identified from the FHsf : FWt group comparison, represented genes that were overexpressed in cells disabled in HsfA2 in spaceflight compared to WT cells in spaceflight. These genes primarily fell under multiple GO terms of biological process ontology: defense response to other organism (GO:0098542), response to topologically incorrect protein (GO:0035966), response to unfolded protein (UPR) (GO:0006986) and endoplasmic reticulum-associated degradation (ERAD) (GO:0036503), as well as protein localization (GO:0008104), establishment of protein localization (GO:0045184), protein transport (GO:0015031), vesicle-mediated transport (GO:0016192), transport (GO:0006810), establishment of localization (GO:0051234), including protein processing in endoplasmic reticulum, ER to Golgi vesicle-mediated transport and secondary metabolic process (GO:0019748) (see Table A2). Additionally, these upregulated genes represented plasma membrane GO term (GO:0005886) including plasma membrane receptor kinases of the cellular component ontology (see Table A2).\n\nIn the HSFA2 KO and WT spaceflight-adapted state, the downregulated genes identified from the FHsf : FWt group comparison represented genes that were underexpressed in cells disabled in HsfA2 in spaceflight compared to WT cells in spaceflight. These genes primarily fell under 3 GO terms of cellular compartment ontology: cell wall (GO:0005618), external encapsulating structure (GO:0030312) including xylem development, cell wall macromolecule metabolic process, plastid (GO:0009536) and energy reserve metabolic process (GO:0006112) including starch biosynthetic process (GO:0019252) (see Table A2).\n\n2.4. Occurrence of Individual Genes and Gene Function Across Collective Comparisons of Physiological Adaptation, Ground and Spaceflight-Adapted States\n\n2.4.1. In the Response to Spaceflight, There Were Only Four Differentially Expressed Genes Represented in Both the WT and HSFA2 KO Comparisons (FWt : GWt to FHsf : GHsf)\n\nWhen the 78 differentially expressed genes in the FWt : GWt group comparison were compared to the 221 genes differentially expressed in the FHsf : GHsf group comparison, only one gene changed in the exact same way, At2g03760, which encodes a putative steroid sulfotransferase (see Figure 3, Figure 5A, File S5 Gene lists in the Supplementary Material). At2g03760 was upregulated in spaceflight cells relative to their ground counterparts in both cell lines.\n\nTwo of the genes differentially expressed in spaceflight for both HSFA2 KO and WT cells were expressed in opposite directions. During spaceflight, these genes were upregulated in WT cells, while being down regulated HSFA2 KO cells (see Figure 5A, File S5 Gene lists in the Supplementary Material). These genes were: At3g10400-RNA recognition motif, and CCHC-type zinc finger domain containing protein and At4g03570-Cystatin/monellin superfamily protein. However, these two genes showed significant differential expressions in ground-adapted state between HSFA2 KO and WT cells, being overexpressed in HSFA2 KO cells relative to WT cells. The genes were not differentially expressed in the spaceflight-adapted state between HSFA2 KO and WT cells. Therefore, although the genes seemed to be engaged conversely in the physiological adaptation in two cell lines, their expression adjustments in either HSFA2 KO or WT cells resulted in no different expression level in spaceflight-adapted state. The differential expression level on the ground caused HSFA2 KO cells to diminish the expression of these genes, and WT cells to increase in the physiological adaptation to spaceflight.\n\nOne additional gene was expressed in opposite directions in response to spaceflight. At4g02460-PMS1 DNA mismatch repair protein was upregulated in WT and downregulated in HSFA2 KO cells (see Figure 5A, File S5 Gene lists in the Supplementary Material).\n\n2.4.2. Only 28 Genes Differentially Expressed Between the Two Genotypes in the Ground-Adapted State were also Differentially Expressed in the Spaceflight-Adapted State (GHsf : GWt to FHsf : FWt)\n\nWhen the 349 genes differentially expressed in the GHsf : GWt group comparison were juxtaposed to the 220 genes of differentially expressed in the FHsf : FWt group comparison, only 28 genes showed the same differential expression (see Figure 4, Figure 5B).\n\nAmong these genes were those representing response to toxic substance ontology (At2g29490-ATGSTU1 glutathione S-transferase tau 1, At2g29470-ATGSTU3 glutathione S-transferase tau 3, At1g17170-ATGSTU24 glutathione S-transferase tau 24), and transport, establishment of localization, and localization (At3g44340-CEF ER to Golgi vesicle-mediated transport, At1g29310-SecY protein transport family protein, At1g78570-RHM1 RHAMNOSE BIOSYNTHESIS 1 dTDP-glucose 4,6-dehydratase, At1g71140-MATE efflux family protein, At5g54860-Major facilitator superfamily protein).\n\n2.4.3. Required and Corrected Genes for the Spaceflight-Adapted State\n\nSome genes differentially expressed in the ground-adapted state between WT and HSFA2 KO were involved in the physiological adaptation to spaceflight in WT or HSFA2 KO cells. The differential expression of the 349 genes expressed in the ground-adapted state, the GHsf : GWt group comparison, was assessed in the WT physiological adaptation to spaceflight, the FWt : GWt comparison group, and in the HSFA2 KO physiological adaptation to spaceflight, the FHsf : GHsf comparison group.\n\nWT cells changed the expression of the gene in spaceflight compared to ground control.\n\nWT cells differentially expressed the gene on the ground compared to HSFA2 KO cells on the ground.\n\nHSFA2 KO cells did not change the gene’s expression in spaceflight compared to ground control.\n\nHowever, the level of expression of the gene in WT spaceflight was similar to the expression of the gene in HSFA2 KO in spaceflight.\n\nIf the gene differentially expressed between the ground-adapted states in genotypes participated in the physiological adaptation of the WT cells but not of HSFA2 KO cells, then it was defined as required. For a gene to be required it had to meet these criteria:\n\nTherefore, required genes are those whose expression levels in WT cells in spaceflight match the expression in HSFA2 KO in spaceflight. HSFA2 KO cells already have the space-adapted expression level. There were 10 genes that met these criteria (see Figure 5C, File S5 Gene lists in the Supplementary Material).\n\nHSFA2 KO cells changed the expression of the gene in spaceflight compared to ground control.\n\nHSFA2 KO cells differentially expressed the corrected gene on the ground compared to WT cells on the ground.\n\nWT cells did not change the corrected gene expression in spaceflight compared to ground control.\n\nHowever, the level of expression of the gene in HSFA2 KO in spaceflight is similar to the expression level of the gene in WT in spaceflight.\n\nIf the gene differentially expressed between the ground-adapted states in genotypes participated in the physiological adaptation of the HSFA2 KO cells but not of the WT cells, then it was defined as corrected. For a gene to be classified as corrected it needed to meet these criteria:\n\nTherefore, corrected genes are those whose expression levels in HSFA2 KO cells in spaceflight match the WT expression levels in spaceflight. These are genes that HSFA2 KO differentially expressed to match WT levels in order to adapt to spaceflight. These genes would not be revealed in an examination of WT cells alone. There were 66 genes that met these criteria (see Figure 5D, File S5 Gene lists in the Supplementary Material). Thus, these 66 genes were considered to be corrected in the HSFA2 KO physiological adaptation to spaceflight in that their expression levels were returned to WT levels in order adapt to spaceflight. Only 5 genes out of 66 were overexpressed in HSFA2 KO cells on the ground relative to WT cell on the ground and thus were downregulated in the HSFA2 KO physiological adaptation to spaceflight to even the WT expression level in the spaceflight-adapted state. The 61 genes showed diminished expression on the ground in HSFA2 KO cells relative to WT cells on the ground, but were upregulated during spaceflight to match the WT expression level in the spaceflight-adapted state. These 5 genes included: At3g44800-Meprin and TRAF (MATH) homology domain-containing protein of unknown function, At5g52260-myb19 a transcription factor, At2g35340-MEE29 maternal effect embryo arrest 29, At2g46960-CYP709B1 cytochrome P450 functioning in oxidation-reduction processes, and At5g15350-ENODL17 early nodulin-like protein 17 associated with cell wall pectin metabolic process. The 61 genes included genes associated with: response to wounding, mechanical stress, cell wall, valine, leucine and isoleucine degradation, as well as transmembrane transporter and nitrate transporters genes (see Appendix A Table A3).\n\n2.4.4. Genotypic-Specific Spaceflight-Adapted State\n\nA comparison of the spaceflight gene expression patterns between the two genotypes revealed 220 differentially expressed genes between WT and HSFA2 KO. The expression of these 220 differentially expressed in the spaceflight-adapted state (FHsf : FWt) was compared to the WT physiological adaptation to spaceflight, the FWt : GWt comparison group, and the HSFA2 KO physiological adaptation to spaceflight, the FHsf : GHsf comparison group.\n\nHsfA2-Dependent Genes in the WT Genotypic Spaceflight Adaptation\n\nIn the vertical comparison between spaceflight and ground gene expression patterns, there were 7 genes differentially expressed in WT that were not differentially expressed in HSFA2 KO cells. These genes were not differentially expressed between WT and HSFA2 KO in the ground-adapted state, but were differentially expressed between genotypes in the spaceflight-adapted state (see Figure 5E, File S5 Gene lists in the Supplementary Material). Thus, these genes were HsfA2-dependent, as they were adapted to the spaceflight level only if the HsfA2 gene was functional. These genes represent the WT genotypic adaptation to spaceflight.\n\nAll genes but one (At4g07960-ATCSLC12 Cellulose-synthase-like C12 localized to Golgi apparatus, plasmodesma), were downregulated in the WT physiological adaptation and resulted in the higher expression in spaceflight-adapted state in HSFA2 KO than in WT cells. These 6 genes were: At5g19070-SNARE associated Golgi protein family involved in proline transport and localized to plasma membrane, At1g78980-SRF5 STRUBBELIG-receptor family 5 functioning in transmembrane receptor protein tyrosine kinase signaling pathway and localized to extracellular region, two genes, At1g66640-RNI-like superfamily protein and At2g36560-AT hook motif DNA-binding family protein, localized to nucleus, and At2g43240-Nucleotide-sugar transporter and At1g32830-transposable element gene (see Table A3).\n\nCompensated Genes for Disabled HsfA2 in the HSFA2 KO Spaceflight Adaptation\n\nIn the vertical comparison of gene expression patterns between spaceflight and ground controls for WT and HSFA2 KO cells, there were 53 genes differentially expressed in HSFA2 KO that were not differentially expressed in WT. As with the HsfA2-dependent genes described above, these genes were not differentially expressed between the two genotypes in the ground-adapted state, but were differentially expressed between genotypes in the spaceflight-adapted state (see Figure 5F, File S5 Gene lists in the Supplementary Material). These 53 genes were differentially expressed in the spaceflight-adapted state because HSFA2 KO cells engaged these genes in the physiological adaptation to spaceflight, while the WT cells did not. Thus, these genes compensated for the lack of functional HsfA2 gene. These genes represent the HSFA2 KO genotypic adaptation to spaceflight.\n\nThere were 6 genes out of the 53 which were upregulated in the physiological adaptation to spaceflight in HSFA2 KO cells which resulted in the higher expression level in spaceflight-adapted state in HSFA2 KO cells than in WT cells. These genes were associated with ER stress, UPR and vesicle-mediated transport (see Table A3). The remaining 49 genes were all downregulated in the HSFA2 KO physiological adaptation and exhibited diminished expression level in the spaceflight-adapted state in spaceflight in HSFA2 KO relative to WT cells. These genes included genes associated with intra-Golgi vesicle-mediated transport and calcium pump (see Table A3).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "spaceflight",
+    "Arabidopsis",
+    "plant cell culture",
+    "undifferentiated cells",
+    "microgravity",
+    "heat shock",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Rha1, a new mutant of Arabidopsis disturbed in root slanting, gravitropism and auxin physiology",
+      "authors": [
+        "A. Fortunati",
+        "S. Piconese",
+        "P. Tassone",
+        "S. Ferrari",
+        "F. Migliaccio"
+      ]
+    },
+    {
+      "title": "Effects of microgravity and clinorotation on stress ethylene production in two starchless mutants of Arabidopsis thaliana",
+      "authors": [
+        "G.L. Gallegos",
+        "E.M. Hilaire",
+        "B.V. Peterson",
+        "C.S. Brown",
+        "J.A. Guikema"
+      ]
+    },
+    {
+      "title": "Inositol 1,4,5-trisphosphate and Ran expression during simulated and real microgravity",
+      "authors": [
+        "B. Kriegs",
+        "R. Theisen",
+        "H. Schnabl"
+      ]
+    },
+    {
+      "title": "Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of Arabidopsis thaliana",
+      "authors": [
+        "A.K. Zupanska",
+        "F.C. Denison",
+        "R.J. Ferl",
+        "A.-L. Paul"
+      ]
+    },
+    {
+      "title": "Microgravity-related changes in gene expression after short-term exposure of Arabidopsis thaliana cell cultures",
+      "authors": [
+        "M. Martzivanou",
+        "M. Babbick",
+        "M. Cogoli-Greuter",
+        "R. Hampp"
+      ]
+    },
+    {
+      "title": "Changes in gravitational forces induce modifications of gene expression in A. thaliana seedlings",
+      "authors": [
+        "S. Centis-Aubay",
+        "G. Gasset",
+        "C. Mazars",
+        "R. Ranjeva",
+        "A. Graziana"
+      ]
+    },
+    {
+      "title": "Expression of transcription factors after short-term exposure of Arabidopsis thaliana cell cultures to hypergravity and simulated microgravity (2-D/3-D clinorotation, magnetic levitation)",
+      "authors": [
+        "M. Babbick",
+        "C. Dijkstra",
+        "O.J. Larkin",
+        "P. Anthony",
+        "M.R. Davey",
+        "J.B. Power",
+        "K.C. Lowe",
+        "M. Cogoli-Greuter",
+        "R. Hampp"
+      ]
+    },
+    {
+      "title": "The fast and transient transcriptional network of gravity and mechanical stimulation in the Arabidopsis root apex",
+      "authors": [
+        "J.M. Kimbrough",
+        "R. Salinas-Mondragon",
+        "W.F. Boss",
+        "C.S. Brown",
+        "H.W. Sederoff"
+      ]
+    },
+    {
+      "title": "Gene expression changes in Arabidopsis seedlings during short- to long-term exposure to 3-D clinorotation",
+      "authors": [
+        "H. Soh",
+        "C. Auh",
+        "W.Y. Soh",
+        "K. Han",
+        "D. Kim",
+        "S. Lee",
+        "Y. Rhee"
+      ]
+    },
+    {
+      "title": "Identification of unique cis-element pattern on simulated microgravity treated Arabidopsis by in silico and gene expression",
+      "authors": [
+        "H. Soh",
+        "Y. Choi",
+        "T.-K. Lee",
+        "U.-D. Yeo",
+        "K. Han",
+        "C. Auh",
+        "S. Lee"
+      ]
+    },
+    {
+      "title": "Ground based studies of gene expression in Arabidopsis exposed to gravity stresses",
+      "authors": [
+        "A.I. Kittang",
+        "J.J. van Loon",
+        "O. Vorst",
+        "R.D. Hall",
+        "K. Fossum",
+        "T.H. Iversen"
+      ]
+    },
+    {
+      "title": "Proteomic and physiological studies provide insight into photosynthetic response of rice (Oryza sativa L.) seedlings to microgravity",
+      "authors": [
+        "B. Chen",
+        "Y. Wang"
+      ]
+    },
+    {
+      "title": "Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: Implications for gravity-responsive genes",
+      "authors": [
+        "M.J. Correll",
+        "T.P. Pyle",
+        "K.D. Millar",
+        "Y. Sun",
+        "J. Yao",
+        "R.E. Edelmann",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "Spaceflight induces specific alterations in the proteomes of Arabidopsis",
+      "authors": [
+        "R.J. Ferl",
+        "J. Koh",
+        "F. Denison",
+        "A.-L. Paul"
+      ]
+    },
+    {
+      "title": "Comparative transcriptomics indicate changes in cell wall organization and stress response in seedlings during spaceflight",
+      "authors": [
+        "C.M. Johnson",
+        "A. Subramanian",
+        "S. Pattathil",
+        "M.J. Correll",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development",
+      "authors": [
+        "T. Kwon",
+        "J.A. Sparks",
+        "J. Nakashima",
+        "S.N. Allen",
+        "Y. Tang",
+        "E.B. Blancaflor"
+      ]
+    },
+    {
+      "title": "Microsome-associated proteome modifications of Arabidopsis seedlings grown on board the International Space Station reveal the possible effect on plants of space stresses other than microgravity",
+      "authors": [
+        "C. Mazars",
+        "C. Briere",
+        "S. Grat",
+        "C. Pichereaux",
+        "M. Rossignol",
+        "V. Pereda-Loth",
+        "B. Eche",
+        "E. Boucheron-Dubuisson",
+        "I. Le Disquet",
+        "F.J. Medina"
+      ]
+    },
+    {
+      "title": "Arabidopsis gene expression patterns are altered during spaceflight",
+      "authors": [
+        "A.-L. Paul",
+        "M.P. Popp",
+        "W.B. Gurley",
+        "C.L. Guy",
+        "K.L. Norwood",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "Spaceflight transcriptomes: Unique responses to a novel environment",
+      "authors": [
+        "A.-L. Paul",
+        "A.K. Zupanska",
+        "D.T. Ostrow",
+        "Y. Zhang",
+        "Y. Sun",
+        "J.L. Li",
+        "S. Shanker",
+        "W.G. Farmerie",
+        "C.E. Amalfitano",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight",
+      "authors": [
+        "A.-L. Paul",
+        "A.K. Zupanska",
+        "E.R. Schultz",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "Transcriptome and proteomic analyses reveal multiple differences associated with chloroplast development in the spaceflight-induced wheat albino mutant mta",
+      "authors": [
+        "K. Shi",
+        "J. Gu",
+        "H. Guo",
+        "L. Zhao",
+        "Y. Xie",
+        "H. Xiong",
+        "J. Li",
+        "S. Zhao",
+        "X. Song",
+        "L. Liu"
+      ]
+    },
+    {
+      "title": "Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight",
+      "authors": [
+        "M. Sugimoto",
+        "Y. Oono",
+        "O. Gusev",
+        "T. Matsumoto",
+        "T. Yazawa",
+        "M.A. Levinskikh",
+        "V.N. Sychev",
+        "G.E. Bingham",
+        "R. Wheeler",
+        "M. Hummerick"
+      ]
+    },
+    {
+      "title": "Space, the final frontier: A critical review of recent experiments performed in microgravity",
+      "authors": [
+        "J.P. Vandenbrink",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "Genetic dissection of the Arabidopsis spaceflight transcriptome: Are some responses dispensable for the physiological adaptation of plants to spaceflight?",
+      "authors": [
+        "A.-L. Paul",
+        "N.J. Sng",
+        "A.K. Zupanska",
+        "A. Krishnamurthy",
+        "E.R. Schultz",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "A whole-genome microarray study of Arabidopsis thaliana semisolid callus cultures exposed to microgravity and nonmicrogravity related spaceflight conditions for 5 days on board of Shenzhou 8",
+      "authors": [
+        "S. Fengler",
+        "I. Spirer",
+        "M. Neef",
+        "M. Ecke",
+        "K. Nieselt",
+        "R. Hampp"
+      ]
+    },
+    {
+      "title": "Gene expression changes induced by space flight in single-cells of the fern Ceratopteris richardii",
+      "authors": [
+        "M.L. Salmi",
+        "S.J. Roux"
+      ]
+    },
+    {
+      "title": "Differential protein expression profiling of Arabidopsis thaliana callus under microgravity on board the Chinese SZ-8 spacecraft",
+      "authors": [
+        "Y. Zhang",
+        "L. Wang",
+        "J. Xie",
+        "H. Zheng"
+      ]
+    },
+    {
+      "title": "ARG1 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight",
+      "authors": [
+        "A.K. Zupanska",
+        "E.R. Schultz",
+        "J. Yao",
+        "N.J. Sng",
+        "M. Zhou",
+        "J.B. Callaham",
+        "R.J. Ferl",
+        "A.-L. Paul"
+      ]
+    },
+    {
+      "title": "The plant heat stress transcription factor (Hsf) family: Structure, function and evolution",
+      "authors": [
+        "K.D. Scharf",
+        "T. Berberich",
+        "I. Ebersberger",
+        "L. Nover"
+      ]
+    },
+    {
+      "title": "The Plant Heat Stress Transcription Factors (HSFs): Structure, Regulation, and Function in Response to Abiotic Stresses",
+      "authors": [
+        "M. Guo",
+        "J.H. Liu",
+        "X. Ma",
+        "D.X. Luo",
+        "Z.H. Gong",
+        "M.H. Lu"
+      ]
+    },
+    {
+      "title": "Arabidopsis and the heat stress transcription factor world: How many heat stress transcription factors do we need?",
+      "authors": [
+        "L. Nover",
+        "K. Bharti",
+        "P. Doring",
+        "S.K. Mishra",
+        "A. Ganguli",
+        "K.D. Scharf"
+      ]
+    },
+    {
+      "title": "Regulation of the heat-shock response",
+      "authors": [
+        "F. Schoffl",
+        "R. Prandl",
+        "A. Reindl"
+      ]
+    },
+    {
+      "title": "Arabidopsis thaliana J-class heat shock proteins: Cellular stress sensors",
+      "authors": [
+        "V.B. Rajan",
+        "P. D’Silva"
+      ]
+    },
+    {
+      "title": "Mechanisms of the Hsp70 chaperone system",
+      "authors": [
+        "J.C. Young"
+      ]
+    },
+    {
+      "title": "Hsp70 chaperones: Cellular functions and molecular mechanism",
+      "authors": [
+        "M.P. Mayer",
+        "B. Bukau"
+      ]
+    },
+    {
+      "title": "Oxidative protein folding in eukaryotes: Mechanisms and consequences",
+      "authors": [
+        "B.P. Tu",
+        "J.S. Weissman"
+      ]
+    },
+    {
+      "title": "Disulfide formation in the ER and mitochondria: Two solutions to a common process",
+      "authors": [
+        "J. Riemer",
+        "N. Bulleid",
+        "J.M. Herrmann"
+      ]
+    },
+    {
+      "title": "Quality control and protein folding in the secretory pathway",
+      "authors": [
+        "E.S. Trombetta",
+        "A.J. Parodi"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress responses in plants",
+      "authors": [
+        "S.H. Howell"
+      ]
+    },
+    {
+      "title": "Genomic analysis of the unfolded protein response in Arabidopsis shows its connection to important cellular processes",
+      "authors": [
+        "I.M. Martinez",
+        "M.J. Chrispeels"
+      ]
+    },
+    {
+      "title": "The Arabidopsis homolog of the mammalian OS-9 protein plays a key role in the endoplasmic reticulum-associated degradation of misfolded receptor-like kinases",
+      "authors": [
+        "W. Su",
+        "Y. Liu",
+        "Y. Xia",
+        "Z. Hong",
+        "J. Li"
+      ]
+    },
+    {
+      "title": "Unraveling the function of Arabidopsis thaliana OS9 in the endoplasmic reticulum-associated degradation of glycoproteins",
+      "authors": [
+        "S. Huttner",
+        "C. Veit",
+        "J. Schoberer",
+        "J. Grass",
+        "R. Strasser"
+      ]
+    },
+    {
+      "title": "Waste disposal in the endoplasmic reticulum, ROS production and plant salt stress response",
+      "authors": [
+        "A. Ceriotti"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum protein quality control and its relationship to environmental stress responses in plants",
+      "authors": [
+        "J.X. Liu",
+        "S.H. Howell"
+      ]
+    },
+    {
+      "title": "Arabidopsis heat shock transcription factor A2 as a key regulator in response to several types of environmental stress",
+      "authors": [
+        "A. Nishizawa",
+        "Y. Yabuta",
+        "E. Yoshida",
+        "T. Maruta",
+        "K. Yoshimura",
+        "S. Shigeoka"
+      ]
+    },
+    {
+      "title": "AtHsfA2 modulates expression of stress responsive genes and enhances tolerance to heat and oxidative stress in Arabidopsis",
+      "authors": [
+        "C. Li",
+        "Q. Chen",
+        "X. Gao",
+        "B. Qi",
+        "N. Chen",
+        "S. Xu",
+        "J. Chen",
+        "X. Wang"
+      ]
+    },
+    {
+      "title": "Heat stress response in plants: A complex game with chaperones and more than twenty heat stress transcription factors",
+      "authors": [
+        "S.K. Baniwal",
+        "K. Bharti",
+        "K.Y. Chan",
+        "M. Fauth",
+        "A. Ganguli",
+        "S. Kotak",
+        "S.K. Mishra",
+        "L. Nover",
+        "M. Port",
+        "K.D. Scharf"
+      ]
+    },
+    {
+      "title": "The cytosolic protein response as a subcomponent of the wider heat shock response in Arabidopsis",
+      "authors": [
+        "A. Sugio",
+        "R. Dreos",
+        "F. Aparicio",
+        "A.J. Maule"
+      ]
+    },
+    {
+      "title": "Effect of vibrational stress and spaceflight on regulation of heat shock proteins hsp70 and hsp27 in human lymphocytes (Jurkat)",
+      "authors": [
+        "L.A. Cubano",
+        "M.L. Lewis"
+      ]
+    },
+    {
+      "title": "Analysis of the regulation of target genes by an Arabidopsis heat shock transcription factor, HsfA2",
+      "authors": [
+        "A. Nishizawa-Yokoi",
+        "E. Yoshida",
+        "Y. Yabuta",
+        "S. Shigeoka"
+      ]
+    },
+    {
+      "title": "Genome-wide analysis of the biology of stress responses through heat shock transcription factor",
+      "authors": [
+        "J.S. Hahn",
+        "Z. Hu",
+        "D.J. Thiele",
+        "V.R. Iyer"
+      ]
+    },
+    {
+      "title": "Roles of the heat shock transcription factors in regulation of the heat shock response and beyond",
+      "authors": [
+        "L. Pirkkala",
+        "P. Nykanen",
+        "L. Sistonen"
+      ]
+    },
+    {
+      "title": "High-level overexpression of the Arabidopsis HsfA2 gene confers not only increased themotolerance but also salt/osmotic stress tolerance and enhanced callus growth",
+      "authors": [
+        "D. Ogawa",
+        "K. Yamaguchi",
+        "T. Nishiuchi"
+      ]
+    },
+    {
+      "title": "Isolation and proteomic characterization of the Arabidopsis Golgi defines functional and novel components involved in plant cell wall biosynthesis",
+      "authors": [
+        "H.T. Parsons",
+        "K. Christiansen",
+        "B. Knierim",
+        "A. Carroll",
+        "J. Ito",
+        "T.S. Batth",
+        "A.M. Smith-Moritz",
+        "S. Morrison",
+        "P. McInerney",
+        "M.Z. Hadi"
+      ]
+    },
+    {
+      "title": "Genes encoding ADP-ribosylation factors in Arabidopsis thaliana L. Heyn.; genome analysis and antisense suppression",
+      "authors": [
+        "L.K. Gebbie",
+        "J.E. Burn",
+        "C.H. Hocart",
+        "R.E. Williamson"
+      ]
+    },
+    {
+      "title": "Golgi-localized enzyme complexes for plant cell wall biosynthesis",
+      "authors": [
+        "A. Oikawa",
+        "C.H. Lund",
+        "Y. Sakuragi",
+        "H.V. Scheller"
+      ]
+    },
+    {
+      "title": "Membrane trafficking pathways and their roles in plant-microbe interactions",
+      "authors": [
+        "N. Inada",
+        "T. Ueda"
+      ]
+    },
+    {
+      "title": "Saccharomyces cerevisiae heat shock transcription factor regulates cell wall remodeling in response to heat shock",
+      "authors": [
+        "H. Imazu",
+        "H. Sakurai"
+      ]
+    },
+    {
+      "title": "Characterization of cell wall proteins in Saccharomyces cerevisiae clinical isolates elucidates Hsp150p in virulence",
+      "authors": [
+        "P.H. Hsu",
+        "P.C. Chiang",
+        "C.H. Liu",
+        "Y.W. Chang"
+      ]
+    },
+    {
+      "title": "Transcriptome analysis of secondary cell wall development in Medicago truncatula",
+      "authors": [
+        "H. Wang",
+        "J.H. Yang",
+        "F. Chen",
+        "I. Torres-Jerez",
+        "Y. Tang",
+        "M. Wang",
+        "Q. Du",
+        "X. Cheng",
+        "J. Wen",
+        "R. Dixon"
+      ]
+    },
+    {
+      "title": "Role of glucosinolates in insect-plant relationships and multitrophic interactions",
+      "authors": [
+        "R.J. Hopkins",
+        "N.M. van Dam",
+        "J.J. van Loon"
+      ]
+    },
+    {
+      "title": "The genetic basis of constitutive and herbivore-induced ESP-independent nitrile formation in Arabidopsis",
+      "authors": [
+        "M. Burow",
+        "A. Losansky",
+        "R. Muller",
+        "A. Plock",
+        "D.J. Kliebenstein",
+        "U. Wittstock"
+      ]
+    },
+    {
+      "title": "Phosphorylation of a WRKY transcription factor by two pathogen-responsive MAPKs drives phytoalexin biosynthesis in Arabidopsis",
+      "authors": [
+        "G. Mao",
+        "X. Meng",
+        "Y. Liu",
+        "Z. Zheng",
+        "Z. Chen",
+        "S. Zhang"
+      ]
+    },
+    {
+      "title": "A sub-proteome of Arabidopsis thaliana mature stems trapped on Concanavalin A is enriched in cell wall glycoside hydrolases",
+      "authors": [
+        "Z. Minic",
+        "E. Jamet",
+        "L. Negroni",
+        "P. Arsene der Garabedian",
+        "M. Zivy",
+        "L. Jouanin"
+      ]
+    },
+    {
+      "title": "Arabidopsis PECTIN METHYLESTERASE17 is co-expressed with and processed by SBT3.5, a subtilisin-like serine protease",
+      "authors": [
+        "F. Senechal",
+        "L. Graff",
+        "O. Surcouf",
+        "P. Marcelo",
+        "C. Rayon",
+        "S. Bouton",
+        "A. Mareck",
+        "G. Mouille",
+        "A. Stintzi",
+        "H. Hofte"
+      ]
+    },
+    {
+      "title": "PMR6, a pectate lyase-like gene required for powdery mildew susceptibility in Arabidopsis",
+      "authors": [
+        "J.P. Vogel",
+        "T.K. Raab",
+        "C. Schiff",
+        "S.C. Somerville"
+      ]
+    },
+    {
+      "title": "Plant glycoside hydrolases involved in cell wall polysaccharide degradation",
+      "authors": [
+        "Z. Minic",
+        "L. Jouanin"
+      ]
+    },
+    {
+      "title": "Expansins: Ever-expanding numbers and functions",
+      "authors": [
+        "Y. Lee",
+        "D. Choi",
+        "H. Kende"
+      ]
+    },
+    {
+      "title": "The SCARECROW gene regulates an asymmetric cell division that is essential for generating the radial organization of the Arabidopsis root",
+      "authors": [
+        "L. Di Laurenzio",
+        "J. Wysocka-Diller",
+        "J.E. Malamy",
+        "L. Pysh",
+        "Y. Helariutta",
+        "G. Freshour",
+        "M.G. Hahn",
+        "K.A. Feldmann",
+        "P.N. Benfey"
+      ]
+    },
+    {
+      "title": "A collection of Ds insertional mutants associated with defects in male gametophyte development and function in Arabidopsis thaliana",
+      "authors": [
+        "L.C. Boavida",
+        "B. Shuai",
+        "H.J. Yu",
+        "G.C. Pagnussat",
+        "V. Sundaresan",
+        "S. McCormick"
+      ]
+    },
+    {
+      "title": "Extragenic suppressors of the arabidopsis zwi-3 mutation identify new genes that function in trichome branch formation and pollen tube growth",
+      "authors": [
+        "S. Krishnakumar",
+        "D.G. Oppenheimer"
+      ]
+    },
+    {
+      "title": "A plant plasma membrane Ca2+ pump is required for normal pollen tube growth and fertilization",
+      "authors": [
+        "M. Schiott",
+        "S.M. Romanowsky",
+        "L. Baekgaard",
+        "M.K. Jakobsen",
+        "M.G. Palmgren",
+        "J.F. Harper"
+      ]
+    },
+    {
+      "title": "A membrane protein/signaling protein interaction network for Arabidopsis version AMPv2",
+      "authors": [
+        "S. Lalonde",
+        "A. Sero",
+        "R. Pratelli",
+        "G. Pilot",
+        "J. Chen",
+        "M.I. Sardi",
+        "S.A. Parsa",
+        "D.Y. Kim",
+        "B.R. Acharya",
+        "E.V. Stein"
+      ]
+    },
+    {
+      "title": "Transcriptome profiling of genes and pathways associated with arsenic toxicity and tolerance in Arabidopsis",
+      "authors": [
+        "S.F. Fu",
+        "P.Y. Chen",
+        "Q.T. Nguyen",
+        "L.Y. Huang",
+        "G.R. Zeng",
+        "T.L. Huang",
+        "C.Y. Lin",
+        "H.J. Huang"
+      ]
+    },
+    {
+      "title": "Influence of microgravity environment on root growth, soluble sugars, and starch concentration of sweetpotato stem cuttings",
+      "authors": [
+        "D.G. Mortley",
+        "C.K. Bonsi",
+        "W.A. Hill",
+        "C.E. Morris",
+        "C.S. Williams",
+        "C.F. Davis",
+        "J.W. Williams",
+        "L.H. Levine",
+        "B.V. Petersen",
+        "R.M. Wheeler"
+      ]
+    },
+    {
+      "title": "Microgravity effects on leaf morphology, cell structure, carbon metabolism and mRNA expression of dwarf wheat",
+      "authors": [
+        "G.W. Stutte",
+        "O. Monje",
+        "R.D. Hatfield",
+        "A.L. Paul",
+        "R.J. Ferl",
+        "C.G. Simone"
+      ]
+    },
+    {
+      "title": "Composition and physical properties of starch in microgravity-grown plants",
+      "authors": [
+        "O.A. Kuznetsov",
+        "C.S. Brown",
+        "H.G. Levine",
+        "W.C. Piastuch",
+        "M.M. Sanwo-Lewandowski",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "A heat-inducible transcription factor, HsfA2, is required for extension of acquired thermotolerance in Arabidopsis",
+      "authors": [
+        "Y.Y. Charng",
+        "H.C. Liu",
+        "N.Y. Liu",
+        "W.T. Chi",
+        "C.N. Wang",
+        "S.H. Chang",
+        "T.T. Wang"
+      ]
+    },
+    {
+      "title": "Common and distinct functions of Arabidopsis class A1 and A2 heat shock factors in diverse abiotic stress responses and development",
+      "authors": [
+        "H.C. Liu",
+        "Y.Y. Charng"
+      ]
+    },
+    {
+      "title": "The multifunctionality of dehydrins: An overview",
+      "authors": [
+        "M. Hara"
+      ]
+    },
+    {
+      "title": "Arabidopsis mutants deregulated in RCI2A expression reveal new signaling pathways in abiotic stress responses",
+      "authors": [
+        "J. Medina",
+        "M. Rodriguez-Franco",
+        "A. Penalosa",
+        "M.J. Carrascosa",
+        "G. Neuhaus",
+        "J. Salinas"
+      ]
+    },
+    {
+      "title": "Organization and expression of two Arabidopsis DREB2 genes encoding DRE-binding proteins involved in dehydration- and high-salinity-responsive gene expression",
+      "authors": [
+        "K. Nakashima",
+        "Z.K. Shinwari",
+        "Y. Sakuma",
+        "M. Seki",
+        "S. Miura",
+        "K. Shinozaki",
+        "K. Yamaguchi-Shinozaki"
+      ]
+    },
+    {
+      "title": "Could heat shock transcription factors function as hydrogen peroxide sensors in plants?",
+      "authors": [
+        "G. Miller",
+        "R. Mittler"
+      ]
+    },
+    {
+      "title": "Characterization of mitochondrial dynamics and subcellular localization of ROS reveal that HsfA2 alleviates oxidative damage caused by heat stress in Arabidopsis",
+      "authors": [
+        "L. Zhang",
+        "Y. Li",
+        "D. Xing",
+        "C. Gao"
+      ]
+    },
+    {
+      "title": "The 26S proteasome function and Hsp90 activity involved in the regulation of HsfA2 expression in response to oxidative stress",
+      "authors": [
+        "A. Nishizawa-Yokoi",
+        "H. Tainaka",
+        "E. Yoshida",
+        "M. Tamoi",
+        "Y. Yabuta",
+        "S. Shigeoka"
+      ]
+    },
+    {
+      "title": "Identification of sugar-modulated genes and evidence for in vivo sugar sensing in Arabidopsis",
+      "authors": [
+        "S. Gonzali",
+        "E. Loreti",
+        "C. Solfanelli",
+        "G. Novi",
+        "A. Alpi",
+        "P. Perata"
+      ]
+    },
+    {
+      "title": "Multiple signaling pathways in gene expression during sugar starvation. Pharmacological analysis of din gene expression in suspension-cultured cells of Arabidopsis",
+      "authors": [
+        "Y. Fujiki",
+        "M. Ito",
+        "I. Nishida",
+        "A. Watanabe"
+      ]
+    },
+    {
+      "title": "Branched-Chain Amino Acid Metabolism in Arabidopsis thaliana",
+      "authors": [
+        "S. Binder"
+      ]
+    },
+    {
+      "title": "The unfolded protein response in nutrient sensing and differentiation",
+      "authors": [
+        "R.J. Kaufman",
+        "D. Scheuner",
+        "M. Schroder",
+        "X. Shen",
+        "K. Lee",
+        "C.Y. Liu",
+        "S.M. Arnold"
+      ]
+    },
+    {
+      "title": "Glucosinolate metabolites required for an Arabidopsis innate immune response",
+      "authors": [
+        "N.K. Clay",
+        "A.M. Adio",
+        "C. Denoux",
+        "G. Jander",
+        "F.M. Ausubel"
+      ]
+    },
+    {
+      "title": "Plant NBS-LRR proteins: Adaptable guards",
+      "authors": [
+        "L. McHale",
+        "X. Tan",
+        "P. Koehl",
+        "R.W. Michelmore"
+      ]
+    },
+    {
+      "title": "Recruitment and interaction dynamics of plant penetration resistance components in a plasma membrane microdomain",
+      "authors": [
+        "R.A. Bhat",
+        "M. Miklis",
+        "E. Schmelzer",
+        "P. Schulze-Lefert",
+        "R. Panstruga"
+      ]
+    },
+    {
+      "title": "A stress-inducible sulphotransferase sulphonates salicylic acid and confers pathogen resistance in Arabidopsis",
+      "authors": [
+        "D. Baek",
+        "P. Pathange",
+        "J.S. Chung",
+        "J. Jiang",
+        "L. Gao",
+        "A. Oikawa",
+        "M.Y. Hirai",
+        "K. Saito",
+        "P.W. Pare",
+        "H. Shi"
+      ]
+    },
+    {
+      "title": "The Arabidopsis U12-type spliceosomal protein U11/U12-31K is involved in U12 intron splicing via RNA chaperone activity and affects plant development",
+      "authors": [
+        "W.Y. Kim",
+        "H.J. Jung",
+        "K.J. Kwak",
+        "M.K. Kim",
+        "S.H. Oh",
+        "Y.S. Han",
+        "H. Kang"
+      ]
+    },
+    {
+      "title": "Splicing of U12-type introns deposits an exon junction complex competent to induce nonsense-mediated mRNA decay",
+      "authors": [
+        "T. Hirose",
+        "M.D. Shu",
+        "J.A. Steitz"
+      ]
+    },
+    {
+      "title": "Involvement of Arabidopsis ROF2 (FKBP65) in thermotolerance",
+      "authors": [
+        "D. Meiri",
+        "K. Tazat",
+        "R. Cohen-Peer",
+        "O. Farchi-Pisanty",
+        "K. Aviezer-Hagai",
+        "A. Avni",
+        "A. Breiman"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress activates the expression of a sub-group of protein disulfide isomerase genes and AtbZIP60 modulates the response in Arabidopsis thaliana",
+      "authors": [
+        "D.P. Lu",
+        "D.A. Christopher"
+      ]
+    },
+    {
+      "title": "Protein interaction analysis of SCF ubiquitin E3 ligase subunits from Arabidopsis",
+      "authors": [
+        "E.P. Risseeuw",
+        "T.E. Daskalchuk",
+        "T.W. Banks",
+        "E. Liu",
+        "J. Cotelesage",
+        "H. Hellmann",
+        "M. Estelle",
+        "D.E. Somers",
+        "W.L. Crosby"
+      ]
+    },
+    {
+      "title": "A glucosinolate metabolism pathway in living plant cells mediates broad-spectrum antifungal defense",
+      "authors": [
+        "P. Bednarek",
+        "M. Pislewska-Bednarek",
+        "A. Svatos",
+        "B. Schneider",
+        "J. Doubsky",
+        "M. Mansurova",
+        "M. Humphry",
+        "C. Consonni",
+        "R. Panstruga",
+        "A. Sanchez-Vallet"
+      ]
+    },
+    {
+      "title": "Effects of microgravity on the structure and function of plant cell walls",
+      "authors": [
+        "E.M. Nedukha"
+      ]
+    },
+    {
+      "title": "Stimulation of elongation growth and xyloglucan breakdown in Arabidopsis hypocotyls under microgravity conditions in space",
+      "authors": [
+        "K. Soga",
+        "K. Wakabayashi",
+        "S. Kamisaka",
+        "T. Hoson"
+      ]
+    },
+    {
+      "title": "Characterization of novel F-box proteins in plants induced by biotic and abiotic stress",
+      "authors": [
+        "M.T. Maldonado-Calderon",
+        "E. Sepulveda-Garcia",
+        "M. Rocha-Sosa"
+      ]
+    },
+    {
+      "title": "The amidohydrolases IAR3 and ILL6 contribute to jasmonoyl-isoleucine hormone turnover and generate 12-hydroxyjasmonic acid upon wounding in Arabidopsis leaves",
+      "authors": [
+        "E. Widemann",
+        "L. Miesch",
+        "R. Lugan",
+        "E. Holder",
+        "C. Heinrich",
+        "Y. Aubert",
+        "M. Miesch",
+        "F. Pinot",
+        "T. Heitz"
+      ]
+    },
+    {
+      "title": "Mechanical stress induces biotic and abiotic stress responses via a novel cis-element",
+      "authors": [
+        "J.W. Walley",
+        "S. Coughlan",
+        "M.E. Hudson",
+        "M.F. Covington",
+        "R. Kaspi",
+        "G. Banu",
+        "S.L. Harmer",
+        "K. Dehesh"
+      ]
+    },
+    {
+      "title": "Interdependence of threonine, methionine and isoleucine metabolism in plants: Accumulation and transcriptional regulation under abiotic stress",
+      "authors": [
+        "V. Joshi",
+        "J.G. Joung",
+        "Z. Fei",
+        "G. Jander"
+      ]
+    },
+    {
+      "title": "Organization of cellulose synthase complexes involved in primary cell wall synthesis in Arabidopsis thaliana",
+      "authors": [
+        "T. Desprez",
+        "M. Juraniec",
+        "E.F. Crowell",
+        "H. Jouy",
+        "Z. Pochylova",
+        "F. Parcy",
+        "H. Hofte",
+        "M. Gonneau",
+        "S. Vernhettes"
+      ]
+    },
+    {
+      "title": "STRUBBELIG defines a receptor kinase-mediated signaling pathway regulating organ development in Arabidopsis",
+      "authors": [
+        "D. Chevalier",
+        "M. Batoux",
+        "L. Fulton",
+        "K. Pfister",
+        "R.K. Yadav",
+        "M. Schellenberg",
+        "K. Schneitz"
+      ]
+    },
+    {
+      "title": "The yeast Ca2+-ATPase homologue, PMR1, is required for normal Golgi function and localizes in a novel Golgi-like distribution",
+      "authors": [
+        "A. Antebi",
+        "G.R. Fink"
+      ]
+    },
+    {
+      "title": "AtRMR1 functions as a cargo receptor for protein trafficking to the protein storage vacuole",
+      "authors": [
+        "M. Park",
+        "D. Lee",
+        "G.J. Lee",
+        "I. Hwang"
+      ]
+    },
+    {
+      "title": "Morphometric analyses of petioles of seedlings grown in a spaceflight experiment",
+      "authors": [
+        "C.M. Johnson",
+        "A. Subramanian",
+        "R.E. Edelmann",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "Genome-wide insertional mutagenesis of Arabidopsis thaliana",
+      "authors": [
+        "J.M. Alonso",
+        "A.N. Stepanova",
+        "T.J. Leisse",
+        "C.J. Kim",
+        "H. Chen",
+        "P. Shinn",
+        "D.K. Stevenson",
+        "J. Zimmerman",
+        "P. Barajas",
+        "R. Cheuk"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Linear models and empirical bayes methods for assessing differential expression in microarray experiments",
+      "authors": [
+        "G.K. Smyth"
+      ]
+    },
+    {
+      "title": "Robust estimators for expression analysis",
+      "authors": [
+        "E. Hubbell",
+        "W.M. Liu",
+        "R. Mei"
+      ]
+    },
+    {
+      "title": "agriGO: A GO analysis toolkit for the agricultural community",
+      "authors": [
+        "Z. Du",
+        "X. Zhou",
+        "Y. Ling",
+        "Z. Zhang",
+        "Z. Su"
+      ]
+    },
+    {
+      "title": "ATTED-II provides coexpressed gene networks for Arabidopsis",
+      "authors": [
+        "T. Obayashi",
+        "S. Hayashi",
+        "M. Saeki",
+        "H. Ohta",
+        "K. Kinoshita"
+      ]
+    },
+    {
+      "title": "g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments",
+      "authors": [
+        "J. Reimand",
+        "M. Kull",
+        "H. Peterson",
+        "J. Hansen",
+        "J. Vilo"
+      ]
+    }
+  ],
+  "original_title": "HSFA2 Functions in the Physiological Adaptation of Undifferentiated Plant Cells to Spaceflight.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76e5/6359015/f9d90bf85413/ijms-20-00390-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76e5/6359015/4b6e573ba01c/ijms-20-00390-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76e5/6359015/e3e441475210/ijms-20-00390-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76e5/6359015/db7bec09d964/ijms-20-00390-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76e5/6359015/a590439abf91/ijms-20-00390-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/76e5/6359015/1353c741b3aa/ijms-20-00390-g006.jpg"
+  ]
+}

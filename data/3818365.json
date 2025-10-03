@@ -1,0 +1,588 @@
+{
+  "pmcid": "3818365",
+  "title": "IRE1: ER stress sensor and cell fate executor",
+  "abstract": "Cells operate a signaling network termed unfolded protein response (UPR) to monitor protein-folding capacity in the endoplasmic reticulum (ER). IRE1 is an ER transmembrane sensor that activates UPR to maintain ER and cellular function. While mammalian IRE1 promotes cell survive, it can initiate apoptosis via decay of anti-apoptotic microRNAs. Convergent and divergent IRE1 characteristics between plants and animals underscore its significance in cellular homeostasis. This review provides an updated scenario of IRE1 signaling model, discusses emerging IRE1 sensing mechanisms, compares IRE1 features among species, and outlines exciting future directions in UPR research.",
+  "introduction": "ER stress and unfolded protein response\n\nThe membrane trafficking system maintains operation of approximately one-third of the eukaryotic proteome. Most secretory proteins first enter the ER for folding and assembly. To maintain the fidelity of ER functions, cells coordinate a protein quality control system with a signaling network termed unfolded protein response (UPR). UPR is triggered by ER transmembrane sensors upon ER stress, a cellular condition referring to the accumulation of unfolded proteins in the ER (Figure 1). The adaptive response occurring at the initial phase of UPR aims to rebalance the protein-folding homeostasis. If cells fail to recover from ER stress, UPR represses the adaptive response and triggers apoptosis. The inositol-requiring enzyme (IRE1) is the only identified ER stress sensor in yeast and essential for UPR in animals and plants (Figure 1). As an ER transmembrane protein, IRE1 monitors ER homeostasis through an ER luminal stress-sensing domain and triggers UPR through a cytoplasmic kinase domain and an RNase domain. Upon ER stress, IRE1 RNase is activated through conformational change, autophosphorylation, and higher order oligomerization. Mammalian IRE1 initiates diverse downstream signaling of the UPR either through unconventional splicing of the transcription factor Xbp-1 or and through posttranscriptional modifications via Regulated IRE1-Dependent Decay (RIDD) of multiple substrates. In addition, PERK and ATF6 function as two distinct mammalian ER stress sensors to cope with complex UPR scenarios (Figure 1). Similar to IRE1, PERK and ATF6 are ER transmembrane proteins that contain an ER luminal stress-sensing domain and a cytoplasmic enzymatic domain. To prevent a further increase in protein-folding demand in the ER, PERK transiently inhibits general protein translation through phosphorylation of eukaryotic initiation factor 2 (elF2α). Phosphorylated elF2α can also selectively activate translation of mRNAs including ATF4 transcription factor to regulate UPR target genes. ER stress triggers relocation of ATF6 from the ER to the Golgi where it undergoes proteolytic cleavage. The cleaved transcription factor domain of ATF6 enters the nucleus for UPR regulation (Figure 1).\n\nThe main molecular mechanisms underlying IRE1 unconventional splicing are conserved in eukaryotes. In budding yeast, mammals, and plants, there is only one transcription factor identified as a splicing target of IRE1 (Figure 1). The stem-loop structure and cleavage site of the IRE1 splicing substrate are conserved among species. In contrast, RIDD appears more divergent in eukaryotes. In yeast, RIDD is only operated in fission yeast Schizosaccharomyces pombe, but not in budding yeast Saccharomyces cerevisiae. Intriguingly, RIDD-mediated decrease in protein-folding demand is the only identified mechanism of UPR in fission yeast. While plant RIDD may potentially degrade a significant portion of mRNAs encoding secretory proteins, it is undetermined whether plant RIDD processes various substrates to direct UPR outputs like mammalian RIDD. Unlike mammalian UPR, plant PERK orthologs have not been yet identified; however, two functional homologs of ATF6, bZIP28 and bZIP17, exist in plants (Figure 1). Moreover, a component of G-protein complex, AGB1, is essential for plant UPR while an alternative G-protein-coupled receptor is involved in noncanonical UPR in C.elegans. Due to large members of the mammalian G-protein complex, its roles in classical UPR might be more challenging to reveal. While IRE1 and ATF6 arms are partially conserved between plants and animals, it is interesting to establish the degree of UPR diversification between the two species.\n\nThis review presents the latest advances and viewpoints on IRE1-dependent UPR research. We focus on the recent groundbreaking discoveries that define IRE1 as a master regulator in cell fate determination under ER stress. IRE1 was long considered as a positive regulator in cell survival. Thus, the repression of IRE1 was believed to potentiate apoptosis. The recent identification of novel IRE1 regulatory events reveals that IRE1 signaling is persistent during ER stress. Namely, IRE1 can no longer be considered simply as a driving force for cell survival, but rather as an administrator/executor of cell fate determination under ER stress. Through presentation of the recent evidence establishing that IRE1 triggers diverse signaling, we delineate current IRE1-signaling models. It has also become clear that IRE1 monitors cellular homeostasis beyond the protein-folding status in the ER; therefore, the functional relevance of the UPR within physiological processes will be discussed. Finally, we will compare convergent and divergent features of IRE1 between plants and mammals to provide an integrated view of IRE1 in multicellular eukaryotes.\n\nIRE1 signaling in cell fate determination\n\nLife-versus-death determination is constantly scrutinized and tightly controlled. Prevalence of malfunctioning cells due to irremediable ER stress contributes to significant diseases, including cancer and diabetes. Conversely, over-commitment to cell death may result in organ damage or cell degenerative diseases. To reach optimal fitness under ER stress, cell fates are determined through tight coordination of adaptive and apoptotic responses. In mammals, PERK-eIF2α-ATF4 regulates the transcription factor CHOP to activate ER stress-triggered apoptosis. In parallel, IRE1 controls cell fate determination through mitogen protein kinase JNK under ER stress (Figure 1). In contrast, while ER stress can play a role in programmed cell death in plants, very little is known about ER stress-induced cell death in plants. Furthermore, lack of sequence homologs of most mammalian apoptosis regulators in plants hints that divergent mechanisms of ER stress-induced cell death exist among organisms.\n\nRevised model of IRE1α signaling network in mammals\n\nThe mammalian genome encodes two isoforms of IRE1, IRE1α and IRE1β. The IRE1α is expressed ubiquitously and IRE1α knockout mice exhibit embryonic lethality. On the contrary, the IRE1β expression is restricted and IRE1β knockout mice are viable; therefore, most mammalian UPR research conducts on the IRE1α. IRE1α was identified as a positive regulator for cell survival. It was believed that IRE1α signaling was terminated during irremediable ER stress to enable apoptosis. Nevertheless, recent studies have challenged this concept by showing that IRE1α persistently adjusts protein-folding capacity, actively directs UPR signaling, and executes cell fate determination (Figure 2). IRE1α employs splicing and RIDD to direct cell fate throughout ER stress. Despite Xbp-1 being the only identified IRE1α splicing target, numerous types of RNA are proven to be RIDD substrates. Even though the significance of RIDD targets is not completely understood, some RIDD events are critical for IRE1α-dependent cell fate determination. During the adaptive response, IRE1α conducts RIDD on mRNAs encoding ER-translocating proteins to prevent further increases in protein-folding demand in the ER. To augment protein-folding ability, IRE1α splices the transcription factor Xbp-1 mRNA to induce the transcription of ER quality control components. If attempts to restore ER homeostasis fail, IRE1α ceases to splice Xbp-1 mRNA. Alternatively, IRE1α represses adaptive responses and activates apoptosis through RIDD. During the transition phase, occurring between the adaptive and apoptotic response, RIDD increases ER stress intensity through degradation of selective UPR target genes including ER protein chaperone BiP. Once ER stress intensity reaches its threshold, RIDD initiates apoptosis through repression of anti-apoptotic pre-microRNAs. Caspase-2 (CASP2) is a proapoptotic protease essential for apoptosis execution. Upregulation of CASP2 is an indicator of apoptotic initiation. Through decay of anti-Casp2 pre-microRNAs (miRs), IRE1α activates apoptosis through upregulation of Casp2 (Figure 2). A close association of IRE1α activity and cell fate determination has been proposed for years. These findings provide direct evidence that IRE1α is a molecular switch and apoptosis executioner during ER stress. It was previously proposed that the attenuation of IRE1 activity allows cells to initiate apoptosis. The identification of the IRE1α-Casp2 pathway elaborates an intriguing IRE1α signaling model: IRE1α-Xbp-1 is active in the adaptive phase and attenuated in the apoptotic phase. In parallel, activation of IRE1α-Casp2 event initiates cell death in the apoptotic phase (Figure 3).\n\nIs mammalian IRE1α the only major trigger of ER stress-induced apoptosis?\n\nIRE1α is necessary and sufficient to trigger apoptosis while PERK and ATF6 are dispensable in the apoptosis activation. Nonetheless, it cannot be excluded that distinct ER stress sensors may serve as major executioners of cell death in a context-specific manner. Using chemical genetic tools, the regulatory roles of the phosphor-transfer and RNase activity of IRE1α in UPR can be examined separately. The phosphor-transfer function is dispensable for Xbp-1 mRNA splicing and upregulation of CASP2 expression; however, it is required for the subsequent CASP2 cleavage and apoptosis activation, indicating that IRE1α phosphor-transfer function is essential for cell fate switch during ER stress. Notably, the phosphor-transfer function is mostly studied through an in vitro conditional IRE1α induction that mimics ER stress. While this experimental system is valuable to distinguish phosphor-transfer and RNase function of IRE1α, it is important to note that ATF6 and PERK are not activated through ER stress. A potentially compromised crosstalk among UPR arms raises a possibility that the IRE1α induction system might not completely resemble a genuinely biological scenario of ER stress. Hence, careful data interpretation from the conditional induction system and integration of in vivo analyses are necessary to determine whether IRE1α is the master trigger in ER stress-induced apoptosis.\n\nThe substrate specificity of mammalian IRE1α\n\nWhile the four identified IRE1α-cleaved microRNAs, miR-17, miR-34a, miR-96, and miR-125b repress the common substrate Casp2, TXNIP is another target of miR-17. TXNIP is involved in β-cell death and was selected to potentially regulate ER stress-induced apoptosis based on its rapidly elevated expression under severe ER stress. Similar to the IRE1α mutation, TXNIP mutation leads to compromised apoptosis activation, indicating that TXNIP is essential for ER stress-induced apoptosis. While PERK-eIF2α activates TXNIP transcription, IRE1α increases TXNIP expression by degradation of miR-17. Accordingly, it is conceivable that each of four IRE1α-cleaved microRNAs might have specific substrates such as TXNIP. Based on this scenario, IRE1α might differentially degrade its individual target microRNA for fine-tuning of UPR. Another interesting feature of mammalian RIDD is that distinct substrates comprise a degree of sequence similarity within the cleavage site, whereas the flanking sequences of the cleavage sites are relatively divergent. This suggests that the cleavage mechanisms are likely to be conserved while the flanking sequence determines the specificity of substrate recognition. This scenario would support the hypothesis that IRE1α adjust its RNase substrate specificity to activate diverse UPR. The flexibility of IRE1α to target different substrates might rely on combinations of phosphorylation status, conformational changes, and physical associations with IRE1α regulators. As alterations of IRE1α substrate specificity lead to opposite cell fates, further understanding of IRE1α substrate preferences will reveal how IRE1α coordinates cellular homeostasis to determine cell fate under ER stress. Currently the target-switch of RIDD has only been reported in animals. Therefore, in order to gain a deeper understanding of UPR evolution in eukaryotes, further studies are needed to determine whether similar mechanisms exist in yeast and plants.\n\nPlant IRE1 in ER stress response and cell fate determination\n\nDespite the conservation of IRE1 among eukaryotes, divergent IRE1-dependent regulatory events have also been observed between plants and mammals. These evolutionarily conversed and divergent mechanisms are likely the reason for different ER stress and cell fate phenotypes observed between plants and mammals. Unlike mammalian IRE1 isoforms, the two Arabidopsis IRE1 isoforms are expressed ubiquitously with a limited tissue-specific expression pattern. There is no significant defect of UPR in single mutants of Arabidopsis IRE1A or IRE1B while Arabidopsis ire1 double mutants display compromised ER stress tolerance and a UPR activation phenotype. These observations indicate that the two Arabidopsis IRE1 homologues share partially overlapping function during the UPR. Evidence for established, dominant or specific roles of individual Arabidopsis IRE1 isoforms during UPR and cell fate regulation need to be further elucidated. Notably, it is experimentally undetermined that viable Arabidopsis ire1b are knockouts or partial loss-of-function mutants. Failure to recover a homozygous plant of putative IRE1B knockout hints that Arabidopsis IRE1B might be an essential gene similar to mammalian IRE1α. Interestingly, although mammalian IRE1α is essential for UPR in goblet cells, in other cell types, there is no detectable defect in UPR target gene induction in a mammalian ire1 double mutant likely due to partially overlapping function with ATF6 and PERK. In contrast, although two functional homologs of ATF6, bZIP28 and bZIP17, exist in Arabidopsis (Figure 1), Arabidopsis ire1 double mutants exhibit dramatic reduction of UPR target gene activation. These data indicate that the UPR is partially diversified between mammals and plants. On the contrary, similar IRE1 features are also observed between plants and mammals. For instance, ire1 and xbp1-1 mutants display differential phenotypes despite both being essential genes. Likewise, the mutant of Arabidopsis IRE1 splicing target, bZIP60, shows comparable ER stress tolerance with the wild type plants as opposed to Arabidopsis ire1 double mutant, supporting the hypothesis that the function of Arabidopsis IRE1 is not restricted to unconventional splicing like mammalian IRE1.\n\nInterestingly, mutations of IRE1 in plants and mammals lead to opposite effects in ER stress-induced cell death phenotypes. Ire1α−/− mouse embryonic fibroblasts (MEFs) exhibit a greater survival rate than Ire1α+/+ MEFs under ER stress, supporting that mammalian IRE1 is an apoptosis executioner. Contrarily, Arabidopsis ire1 double mutants display compromised ER stress tolerance, instead of a greater survival rate. Consistently, DNA fragmentation and ion leakage are enhanced in the Arabidopsis ire1 double mutant during ER stress, suggesting that plant IRE1 might not function as an apoptosis executioner like its mammalian counterpart. Nevertheless, it cannot be excluded that the differences are related to dissimilar experimental settings: mammalian UPR research is mostly conducted in cell culture, while intact organisms are used in plant UPR studies. Moreover, except potential roles in protein loading reduction under ER stress, biological significance of the plant RIDD in cell fate determination is unknown. Further experimental validation will reveal whether the plant RIDD could process multiple substrates to control cell fate decisions similar to that seen in mammals.\n\nShared components of UPRosome and apoptosis\n\nIRE1α activation is tightly controlled by its interacting protein complex termed UPRosome. Most UPRosome components are involved in apoptosis, supporting that intense crosstalk exists between IRE1α activity and apoptosis activation (Table1). Specifically, although UPRosome comprises multiple components, loss-of-function mutation of the single component, such as PARP16, Bi-1, Aip-1, PTP-1B, NMHCIIB, Jab1, Nck1, and Ask1, is sufficient to alter the IRE1α splicing activity or apoptosis activation (Table 1). Moreover, IRE1α-interactor mutants displaying either elevated or declined IRE1α splicing activity can show enhanced apoptosis, indicating that a precise activation level of IRE1α splicing is important for cell survival. This further suggests IRE1α activation is controlled by a signaling network that maintains a delicate equilibrium of adaptive and apoptotic responses. A subtle imbalance of the equilibrium could disturb cellular homeostasis and thus alter cell fate determination. Furthermore, the observation that a single mutation of UPRosome leads to significant defects in IRE1α signaling hints that IRE1α is differentially regulated in a context-specific manner (Table1). Because UPRosome analyses are conducted under various conditions, systematic and comparable analyses of UPRosome members will connect each hub and thus give a clearer view of IRE1α signaling network.\n\nIRE1 sensing mechanisms\n\nER stress-sensing mechanisms are intensively studied in yeast and animals. The ER stress sensors are silent through physical association with BiP, the most abundant ER-resident chaperone. Dissociation with BiP or interaction with unfolded proteins is the major trigger of IRE1 activation. Yeast IRE1 is activated through association with unfolded proteins rather than disassociation with BiP; however, the physical interaction of BiP is a fine-tuning mechanism to ensure that yeast IRE1 is appropriately activated. Unlike yeast IRE1, the activation mechanisms of mammalian IRE1α rely on its dissociation of BiP as opposed to a direct interaction with unfolded proteins. The differences in activation mechanisms between yeast and mammalian IRE1α can be partially explained by the dissimilarity in protein structure within the sensor domain. Surprisingly, a recent study revealed that mammalian IRE1β tends to interact with unfolded proteins like yeast IRE1 and it is unable to associate with BiP. Accordingly, it is possible that, like yeast IRE1, binding of unfolded proteins is the primary trigger of mammalian IRE1β activation. Despite intense studies in mammals and yeast, the plant IRE1 sensing mechanisms are completely undefined. Further structural and functional analyses in plant IRE1 will be instrumental to reveal ER stress sensing mechanisms in plants.\n\nCell-type specific sensing mechanisms: the role of mammalian IRE1β\n\nHow the cellular homeostasis is maintained in a cell-type specific manner is a fundamental question of cell biology. It has been recently shown that IRE1β is essential for UPR specifically in goblet cells. In goblet cells, IRE1β is dispensable for Xbp-1 splicing and BiP induction. Instead, IRE1β mutation leads to enhance ER stress intensity evidenced by higher level of Xbp-1 splicing and BiP induction. Moreover, IRE1β−/− mice display a distended ER phenotype potentially due to over accumulation of Mucin2 (MUC2), the most prominent protein secreted from goblet cells. This suggests that IRE1β controls MUC2 expression in goblet cells. Thus, IRE1β mutation leads to MUC2 overload in the ER and in turns trigger ER stress. RIDD was proposed to be the mechanism underlying IRE1β regulation on MUC2 level in goblet cells. The cell-type-specific target of IRE1β provides a molecular explanation as to how the UPR maintains a dynamic and specific secretory ability in multicellular organisms. Consistent with the notion that unfolded proteins trigger IRE1β activation, IRE1β might physically interact with specific types of unfolded protein. In the case of goblet cells, IRE1β might specifically monitor the MUC2 level in the ER and adjusts its loading into the ER through RIDD. Based on this scenario, the mammalian ER stress sensors might distinguish the type of unfolded proteins accumulated in the ER and trigger differential UPR signaling. More specifically, if the unfolded proteins are dispensable for cell survival, ER stress sensors could repress the expression of unfolded proteins through RNA decay or translational repression. Conversely, if unfolded proteins are essential for cellular function, the UPR might preferentially augment the expression of chaperones to recover the production of unfolded proteins. While the ER stress duration and intensity are considered major factors in the apoptosis threshold, the type of misfolded protein might be also critical for determination of UPR signaling outputs.\n\nSensing mechanisms beyond protein-folding homeostasis\n\nEmerging evidence shows that IRE1 monitors cellular homeostasis beyond sensing unfolded protein accumulation. For instance, CRY1/CRY2-mediated circadian rhythm regulates IRE1α activity in the liver, suggesting that IRE1α coordinates ER function to cope with circadian-related physiological processes. These observations provide a link between the IRE1α-dependent UPR, circadian regulation, and liver metabolic processes. More importantly, because circadian rhythm has a substantial influence on UPR activation, time course studies of the UPR will require diligent experimental design and appropriate controls to avoid biases. Recently, lipid homeostasis is proven to impact the UPR activation through an unconventional sensing mechanism as the unfolded-protein-sensing domain of IRE1α and PERK is dispensable for lipid-dependent UPR activation. All together, these observations support that the UPR perceives physiological and cellular signaling beyond ER protein folding homeostasis. Although it is unclear whether plant IRE1 senses signaling beyond protein-folding capacity, an Arabidopsis ire1 double mutant displaying a root-specific phenotype under unstressed conditions hints that plant IRE1 also integrates physiological signals to maintain specific secretory activity; however, this hypothesis is still awaiting experimental validation.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "unfolded protein response",
+    "ER stress",
+    "IRE1",
+    "cell fate",
+    "protein quality control",
+    "membrane trafficking system",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Modulating stress responses by the UPRosome: a matter of life and death.",
+      "authors": [
+        "U Woehlbier",
+        "C Hetz"
+      ]
+    },
+    {
+      "title": "The unfolded protein response: from stress pathway to homeostatic regulation.",
+      "authors": [
+        "P Walter",
+        "D Ron"
+      ]
+    },
+    {
+      "title": "The UPR and cell fate at a glance.",
+      "authors": [
+        "PI Merksamer",
+        "FR Papa"
+      ]
+    },
+    {
+      "title": "Signaling cell death from the endoplasmic reticulum stress response.",
+      "authors": [
+        "GC Shore"
+      ]
+    },
+    {
+      "title": "Protein Folding and Modification in the Mammalian Endoplasmic Reticulum.",
+      "authors": [
+        "I Braakman",
+        "NJ Bulleid",
+        "RD Kornberg"
+      ]
+    },
+    {
+      "title": "Protein Quality Control in the Cytosol and the Endoplasmic Reticulum: Brothers in Arms.",
+      "authors": [
+        "A Buchberger"
+      ]
+    },
+    {
+      "title": "The unfolded protein response: controlling cell fate decisions under ER stress and beyond.",
+      "authors": [
+        "C Hetz"
+      ]
+    },
+    {
+      "title": "Unfolded protein response.",
+      "authors": [
+        "SS Cao",
+        "RJ Kaufman"
+      ]
+    },
+    {
+      "title": "Road to Ruin: Targeting Proteins for Degradation in the Endoplasmic Reticulum.",
+      "authors": [
+        "MH Smith"
+      ]
+    },
+    {
+      "title": "Mechanism and components of endoplasmic reticulum-associated degradation.",
+      "authors": [
+        "J Hoseki"
+      ]
+    },
+    {
+      "title": "Novel ubiquitin-dependent quality control in the endoplasmic reticulum.",
+      "authors": [
+        "M Feldman",
+        "FG van der Goot"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress and pancreatic beta-cell death.",
+      "authors": [
+        "SG Fonseca"
+      ]
+    },
+    {
+      "title": "Bidirectional crosstalk between endoplasmic reticulum stress and mTOR signaling.",
+      "authors": [
+        "C Appenzeller-Herzog",
+        "MN Hall"
+      ]
+    },
+    {
+      "title": "The unfolded protein response at the crossroads of cellular life and death during endoplasmic reticulum stress.",
+      "authors": [
+        "R Jager"
+      ]
+    },
+    {
+      "title": "Fine-Tuning of the Unfolded Protein Response: Assembling the IRE1 alpha Interactome.",
+      "authors": [
+        "C Hetz",
+        "LH Glimcher"
+      ]
+    },
+    {
+      "title": "THE UNFOLDED PROTEIN RESPONSE: INTEGRATING STRESS SIGNALS THROUGH THE STRESS SENSOR IRE1 alpha.",
+      "authors": [
+        "C Hetz"
+      ]
+    },
+    {
+      "title": "AtIRE1A/AtIRE1B and AGB1 independently control two essential unfolded protein response pathways in Arabidopsis.",
+      "authors": [
+        "Y Chen",
+        "F Brandizzi"
+      ]
+    },
+    {
+      "title": "Arabidopsis IRE1 catalyses unconventional splicing of bZIP60 mRNA to produce the active transcription factor.",
+      "authors": [
+        "Y Nagashima"
+      ]
+    },
+    {
+      "title": "Structure of the Ire1 autophosphorylation complex and implications for the unfolded protein response.",
+      "authors": [
+        "MMU Ali"
+      ]
+    },
+    {
+      "title": "Messenger RNA targeting to endoplasmic reticulum stress signalling sites.",
+      "authors": [
+        "T Aragon"
+      ]
+    },
+    {
+      "title": "The unfolded protein response signals through high-order assembly of Ire1.",
+      "authors": [
+        "AV Korennykh"
+      ]
+    },
+    {
+      "title": "Regulated Ire1-dependent decay of messenger RNAs in mammalian cells.",
+      "authors": [
+        "J Hollien"
+      ]
+    },
+    {
+      "title": "Silencing of Lipid Metabolism Genes through IRE1 alpha-Mediated mRNA Decay Lowers Plasma Lipids in Mice.",
+      "authors": [
+        "JS So"
+      ]
+    },
+    {
+      "title": "RNA surveillance is required for endoplasmic reticulum homeostasis.",
+      "authors": [
+        "K Sakaki"
+      ]
+    },
+    {
+      "title": "Decay of endoplasmic reticulum-localized mRNAs during the unfolded protein response.",
+      "authors": [
+        "J Hollien",
+        "JS Weissman"
+      ]
+    },
+    {
+      "title": "The unfolded protein response in secretory cell function.",
+      "authors": [
+        "KA Moore",
+        "J Hollien"
+      ]
+    },
+    {
+      "title": "Reinitiation involving upstream ORFs regulates ATF4 mRNA translation in mammalian cells.",
+      "authors": [
+        "KM Vattem",
+        "RC Wek"
+      ]
+    },
+    {
+      "title": "A review of the mammalian unfolded protein response.",
+      "authors": [
+        "A Chakrabarti"
+      ]
+    },
+    {
+      "title": "PERK and PKR: old kinases learn new tricks.",
+      "authors": [
+        "JF Raven",
+        "AE Koromilas"
+      ]
+    },
+    {
+      "title": "Structural basis of the unfolded protein response.",
+      "authors": [
+        "A Korennykh",
+        "P Walter"
+      ]
+    },
+    {
+      "title": "The unfolded protein response in fission yeast modulates stability of select mRNAs to maintain protein homeostasis.",
+      "authors": [
+        "P Kimmig"
+      ]
+    },
+    {
+      "title": "Defects in IRE1 enhance cell death and fail to degrade mRNAs encoding secretory pathway proteins in the Arabidopsis unfolded protein response.",
+      "authors": [
+        "K Mishiba"
+      ]
+    },
+    {
+      "title": "Plant transducers of the endoplasmic reticulum unfolded protein response.",
+      "authors": [
+        "Y Iwata",
+        "N Koizumi"
+      ]
+    },
+    {
+      "title": "Neuronal GPCR controls innate immunity by regulating noncanonical unfolded protein response genes.",
+      "authors": [
+        "J Sun"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress and the inflammatory basis of metabolic disease.",
+      "authors": [
+        "GS Hotamisligil"
+      ]
+    },
+    {
+      "title": "Aberrant lipid metabolism disrupts calcium homeostasis causing liver endoplasmic reticulum stress in obesity.",
+      "authors": [
+        "S Fu"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress in disease: mechanisms and therapeutic opportunities.",
+      "authors": [
+        "T Hosoi",
+        "K Ozawa"
+      ]
+    },
+    {
+      "title": "Unfolded protein response in cancer: the physician's perspective.",
+      "authors": [
+        "X Li"
+      ]
+    },
+    {
+      "title": "The impact of the unfolded protein response on human disease.",
+      "authors": [
+        "S Wang",
+        "RJ Kaufman"
+      ]
+    },
+    {
+      "title": "Integrating the mechanisms of apoptosis induced by endoplasmic reticulum stress.",
+      "authors": [
+        "I Tabas",
+        "D Ron"
+      ]
+    },
+    {
+      "title": "Integrating stress signals at the endoplasmic reticulum: The BCL-2 protein family rheostat.",
+      "authors": [
+        "D Rodriguez"
+      ]
+    },
+    {
+      "title": "CHOP induces death by promoting protein synthesis and oxidation in the stressed endoplasmic reticulum.",
+      "authors": [
+        "SJ Marciniak"
+      ]
+    },
+    {
+      "title": "Tunicamycin and Brefeldin A induce in plant cells a programmed cell death showing apoptotic features.",
+      "authors": [
+        "P Crosti"
+      ]
+    },
+    {
+      "title": "BAX inhibitor-1 modulates endoplasmic reticulum stress-mediated programmed cell death in Arabidopsis.",
+      "authors": [
+        "N Watanabe",
+        "E Lam"
+      ]
+    },
+    {
+      "title": "Function of IRE1 alpha in the placenta is essential for placental development and embryonic viability.",
+      "authors": [
+        "T Iwawaki"
+      ]
+    },
+    {
+      "title": "Negative feedback by IRE1beta optimizes mucin production in goblet cells.",
+      "authors": [
+        "A Tsuru"
+      ]
+    },
+    {
+      "title": "IRE1 signaling affects cell fate during the unfolded protein response.",
+      "authors": [
+        "JH Lin"
+      ]
+    },
+    {
+      "title": "Divergent effects of PERK and IRE1 signaling on cell viability.",
+      "authors": [
+        "JH Lin"
+      ]
+    },
+    {
+      "title": "IRE1alpha cleaves select microRNAs during ER stress to derepress translation of proapoptotic Caspase-2.",
+      "authors": [
+        "JP Upton"
+      ]
+    },
+    {
+      "title": "IRE1 alpha Kinase Activation Modes Control Alternate Endoribonuclease Outputs to Determine Divergent Cell Fates.",
+      "authors": [
+        "D Han"
+      ]
+    },
+    {
+      "title": "The unpredictable caspase-2: what can it do?",
+      "authors": [
+        "H Vakifahmetoglu-Norberg",
+        "B Zhivotovsky"
+      ]
+    },
+    {
+      "title": "IRE1alpha induces thioredoxin-interacting protein to activate the NLRP3 inflammasome and promote programmed cell death under irremediable ER stress.",
+      "authors": [
+        "AG Lerner"
+      ]
+    },
+    {
+      "title": "ER stress activates the NLRP3 inflammasome via an UPR-independent pathway.",
+      "authors": [
+        "P Menu"
+      ]
+    },
+    {
+      "title": "Identification of a consensus element recognized and cleaved by IRE1 alpha.",
+      "authors": [
+        "D Oikawa"
+      ]
+    },
+    {
+      "title": "Characterization of two homologs of Ire1p, a kinase/endoribonuclease in yeast, in Arabidopsis thaliana.",
+      "authors": [
+        "SJ Noh"
+      ]
+    },
+    {
+      "title": "Molecular characterization of two Arabidopsis Ire1 homologs, endoplasmic reticulum-located transmembrane protein kinases.",
+      "authors": [
+        "N Koizumi"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress activates the expression of a sub-group of protein disulfide isomerase genes and AtbZIP60 modulates the response in Arabidopsis thaliana.",
+      "authors": [
+        "DP Lu",
+        "DA Christopher"
+      ]
+    },
+    {
+      "title": "IRE1 and efferent signaling from the endoplasmic reticulum.",
+      "authors": [
+        "F Urano"
+      ]
+    },
+    {
+      "title": "PARP16 is a tail-anchored endoplasmic reticulum protein required for the PERK- and IRE1 alpha-mediated unfolded protein response.",
+      "authors": [
+        "M Jwa",
+        "P Chang"
+      ]
+    },
+    {
+      "title": "BAX Inhibitor-1 Is a Negative Regulator of the ER Stress Sensor IRE1 alpha.",
+      "authors": [
+        "F Lisbona"
+      ]
+    },
+    {
+      "title": "AIP1 is critical in transducing IRE1-mediated endoplasmic reticulum stress response.",
+      "authors": [
+        "DH Luo"
+      ]
+    },
+    {
+      "title": "Protein-tyrosine phosphatase 1B potentiates IRE1 signaling during endoplasmic reticulum stress.",
+      "authors": [
+        "F Gu"
+      ]
+    },
+    {
+      "title": "Nonmuscle myosin IIB links cytoskeleton to IRE1alpha signaling during ER stress.",
+      "authors": [
+        "Y He"
+      ]
+    },
+    {
+      "title": "JAB1 participates in unfolded protein responses by association and dissociation with IRE1.",
+      "authors": [
+        "K Oono"
+      ]
+    },
+    {
+      "title": "Nck-dependent activation of extracellular signal-regulated kinase-1 and regulation of cell survival during endoplasmic reticulum stress.",
+      "authors": [
+        "DT Nguyen"
+      ]
+    },
+    {
+      "title": "ASK1 is essential for endoplasmic reticulum stress-induced neuronal cell death triggered by expanded polyglutamine repeats.",
+      "authors": [
+        "H Nishitoh"
+      ]
+    },
+    {
+      "title": "Proapoptotic BAX and BAK modulate the unfolded protein response by a direct interaction with IRE1alpha.",
+      "authors": [
+        "C Hetz"
+      ]
+    },
+    {
+      "title": "Coupling of stress in the ER to activation of JNK protein kinases by transmembrane protein kinase IRE1.",
+      "authors": [
+        "F Urano"
+      ]
+    },
+    {
+      "title": "Activation of caspase-12, an endoplastic reticulum (ER) resident caspase, through tumor necrosis factor receptor-associated factor 2-dependent mechanism in response to the ER stress.",
+      "authors": [
+        "T Yoneda"
+      ]
+    },
+    {
+      "title": "HSP72 Protects Cells from ER Stress-induced Apoptosis via Enhancement of IRE1 alpha-XBP1 Signaling through a Physical Interaction.",
+      "authors": [
+        "S Gupta"
+      ]
+    },
+    {
+      "title": "Heat shock protein 90 modulates the unfolded protein response by stabilizing IRE1alpha.",
+      "authors": [
+        "MG Marcu"
+      ]
+    },
+    {
+      "title": "Tumour necrosis factor receptor 1 mediates endoplasmic reticulum stress-induced activation of the MAP kinase JNK.",
+      "authors": [
+        "Q Yang"
+      ]
+    },
+    {
+      "title": "Synoviolin promotes IRE1 ubiquitination and degradation in synovial fibroblasts from mice with collagen-induced arthritis.",
+      "authors": [
+        "B Gao"
+      ]
+    },
+    {
+      "title": "USP14 inhibits ER-associated degradation via interaction with IRE1 alpha.",
+      "authors": [
+        "A Nagai"
+      ]
+    },
+    {
+      "title": "A crucial role for RACK1 in the regulation of glucose-stimulated IRE1alpha activation in pancreatic beta cells.",
+      "authors": [
+        "Y Qiu"
+      ]
+    },
+    {
+      "title": "BID, BIM, and PUMA are essential for activation of the BAX- and BAK-dependent cell death program.",
+      "authors": [
+        "D Ren"
+      ]
+    },
+    {
+      "title": "Endoplasmic reticulum stress sensing in the unfolded protein response.",
+      "authors": [
+        "BM Gardner"
+      ]
+    },
+    {
+      "title": "Unfolded Proteins Are Ire1-Activating Ligands That Directly Induce the Unfolded Protein Response.",
+      "authors": [
+        "BM Gardner",
+        "P Walter"
+      ]
+    },
+    {
+      "title": "BiP binding to the ER-stress sensor Ire1 tunes the homeostatic behavior of the unfolded protein response.",
+      "authors": [
+        "D Pincus"
+      ]
+    },
+    {
+      "title": "Activation of mammalian IRE1 alpha upon ER stress depends on dissociation of BiP rather than on direct interaction with unfolded proteins.",
+      "authors": [
+        "D Oikawa"
+      ]
+    },
+    {
+      "title": "Direct association of unfolded proteins with mammalian ER stress sensor, IRE1beta.",
+      "authors": [
+        "D Oikawa"
+      ]
+    },
+    {
+      "title": "Circadian clock-coordinated 12 Hr period rhythmic activation of the IRE1alpha pathway controls lipid metabolism in mouse liver.",
+      "authors": [
+        "G Cretenet"
+      ]
+    },
+    {
+      "title": "Membrane lipid saturation activates endoplasmic reticulum unfolded protein response transducers through their transmembrane domains.",
+      "authors": [
+        "R Volmer"
+      ]
+    },
+    {
+      "title": "Measuring signaling by the unfolded protein response.",
+      "authors": [
+        "DJ Cox"
+      ]
+    },
+    {
+      "title": "MONITORING AND MANIPULATING MAMMALIAN UNFOLDED PROTEIN RESPONSE.",
+      "authors": [
+        "N Hiramatsu",
+        "PM Conn"
+      ]
+    },
+    {
+      "title": "Methods for analyzing eIF2 kinases and translational control in the unfolded protein response.",
+      "authors": [
+        "BF Teske"
+      ]
+    },
+    {
+      "title": "MEASURING ER STRESS AND THE UNFOLDED PROTEIN RESPONSE USING MAMMALIAN TISSUE CULTURE SYSTEM.",
+      "authors": [
+        "CM Oslowski",
+        "F Urano",
+        "PM Conn"
+      ]
+    },
+    {
+      "title": "Heat induces the splicing by IRE1 of a mRNA encoding a transcription factor involved in the unfolded protein response in Arabidopsis.",
+      "authors": [
+        "Y Deng"
+      ]
+    },
+    {
+      "title": "IRE1/bZIP60-mediated unfolded protein response plays distinct roles in plant immunity and abiotic stress responses.",
+      "authors": [
+        "AA Moreno"
+      ]
+    }
+  ],
+  "original_title": "IRE1: ER stress sensor and cell fate executor.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d6a6/3818365/c0d7fa5ed35a/nihms-508396-f0001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d6a6/3818365/9a77965fc35b/nihms-508396-f0002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d6a6/3818365/1afc2f9260b5/nihms-508396-f0003.jpg"
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "pmcid": "PMC9389742",
+  "title": "Modeled microgravity alters apoptotic gene expression and caspase activity in the squid-vibrio symbiosis",
+  "abstract": "Background\n\nSpaceflight is a novel and profoundly stressful environment for life. One aspect of spaceflight, microgravity, has been shown to perturb animal physiology thereby posing numerous health risks, including dysregulation of normal developmental pathways. Microgravity can also negatively impact the interactions between animals and their microbiomes. However, the effects of microgravity on developmental processes influenced by beneficial microbes, such as apoptosis, remains poorly understood. Here, the binary mutualism between the bobtail squid, Euprymna scolopes, and the gram-negative bacterium, Vibrio fischeri, was studied under modeled microgravity conditions to elucidate how this unique stressor alters apoptotic cell death induced by beneficial microbes.\n\nResults\n\nAnalysis of the host genome and transcriptome revealed a complex network of apoptosis genes affiliated with extrinsic/receptor-mediated and intrinsic/stress-induced apoptosis. Expression of apoptosis genes under modeled microgravity conditions occurred earlier and at high levels compared to gravity controls, in particular the expression of genes encoding initiator and executioner caspases. Functional assays of these apoptotic proteases revealed heightened activity under modeled microgravity; however, these increases could be mitigated using caspase inhibitors.\n\nConclusions\n\nThe outcomes of this study indicated that modeled microgravity alters the expression of both extrinsic and intrinsic apoptosis gene expression and that this process is mediated in part by caspases. Modeled microgravity-associated increases of caspase activity can be pharmacologically inhibited suggesting that perturbations to the normal apoptosis signaling cascade can be mitigated, which may have broader implications for maintaining animal-microbial homeostasis in spaceflight.\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1186/s12866-022-02614-x.",
+  "introduction": "Background\n\nMicrogravity is a profound source of physiological stress in animals during spaceflight. A reduction in Earth’s gravity can significantly change the shear forces, buoyancy-driven convection, and hydrostatic pressures that organisms experience, thus altering critical biological pathways at the cellular, subcellular, and molecular level.\n\nOne such pathway that can be negatively impacted during spaceflight and microgravity analogs conditions is apoptosis or programmed cell death. Apoptosis is a tightly regulated process that eliminates damaged and unnecessary cells without inflammation and constitutes a critical lever of physiological homeostasis in multicellular organisms. Anomalies in programmed cell death have been attributed to some of the most debilitating health effects of spaceflight, including muscular atrophy, bone demineralization, immune system dysregulation, cardiovascular deconditioning, and visual impairment. Additionally, rodent studies conducted with the hindlimb unloading model, which mimics the reduced weight-bearing of spaceflight through a 30° head-down tilt, have reported higher rates of myonuclear and osteocytic apoptosis during muscular atrophy and bone loss. Other studies have shown that exposure to actual or simulated microgravity conditions can induce apoptosis in the leukocytes of humans and mice, with effects lingering for up to a week post-flight. Endothelial cells (e.g., coronary arteries) also exhibit increased mortality under microgravity conditions, which may contribute to cardiovascular deterioration in flight. Collectively, these findings indicate a more intricate understanding of the molecular mechanisms underlying microgravity-induced apoptosis in animals is needed to ensure the continued health and wellbeing of crew members during long-term space missions.\n\nIndeed, dysbiosis is a well-known consequence of spaceflight and there is compelling evidence to suggest that disruptions in an animal’s normal, healthy, microbiome may be related to dysfunctional apoptotic cell death in microgravity. Altered proportions of Firmicutes and Bacteroidetes in the gastrointestinal tract of mice have been associated with reduced apoptosis among colonic epithelial cells in modeled microgravity, thus hindering tissue turnover. Simulated weightlessness has also been shown to induce apoptotic damage in the intestinal mucosal barrier of rats, which is paralleled by compositional changes in the gut microbiome.\n\nTo address these issues, the monospecific mutualism between the Hawaiian bobtail squid, Euprymna scolopes, and the gram-negative bacterium Vibrio fischeri has emerged as a tractable model system to study the impact of reduced gravity on bacteria-induced changes to host physiology, including apoptosis. V. fischeri colonizes a specialized light organ (Fig. 1a-c) in the host squid and produces luminescence that the squid uses at night to conceal its shadow from predators. Shortly after E. scolopes hatch, V. fischeri are entrained from the surrounding seawater via ciliated epithelial appendages (CEA) that border each lobe of the nascent light organ (Fig. 1b), and in so doing, potentiate colonization. Shortly thereafter, microbe-associated molecular pattern (MAMP) molecules, including lipopolysaccharide (LPS) and tracheal cytotoxin, induce a post-embryonic remodeling event during which apoptosis is widely induced throughout the light organ’s ciliated fields (Fig. 1c), peaking at 16 h. Subsequently, in the days following colonization, these structures completely regress and the light organ undergoes further maturation.\n\nTo simulate microgravity, high aspect ratio vessels (HARVs) have been successfully used with the squid-vibrio symbiosis to generate a low sheared modeled microgravity (LSMMG) environment (Fig. 1c). Briefly, rotation about a horizontal axis offsets gravitational settling such that the contents of each reactor are maintained in a state of constant suspension under low shear conditions that emulate the quiescent fluid dynamics of low Earth orbit (Fig. 1c). Rotation about a vertical axis, by contrast, allows for sedimentation to occur unperturbed and thus serves as the unit Earth gravity controls (Fig. 1c). The LSMMG environment produced by this ground-based analog has been used for decades to model microgravity, and results obtained with the HARVs have been shown to parallel the findings of many spaceflight studies.\n\nPreviously, studies using the squid-vibrio model in LSMMG revealed that the bacteria-induced development of the light organ is accelerated under modeled microgravity conditions (Fig. 1d), however, the mechanisms by which these changes occur are unknown. In this study, we characterize several aspects of the apoptosis genetic machinery in the host squid, examine the differential expression of several of these apoptosis-related genes, and assess the activity and mitigation potential of several initiator and executioner caspases associated with apoptosis under modeled microgravity conditions. The outcomes provide new insight into the mechanisms underlying apoptotic dysregulation in response to microgravity-like stress and its potential impact on the physiology of animals and beneficial microbes during spaceflight.",
+  "methods": "Methods\n\nGeneral procedures\n\nAdult E. scolopes were collected from Maunalua Bay on O’ahu, Hawai’I, and transported to the Space Life Sciences Lab where they were maintained in a controlled growth chamber set at 23 °C on a 12 h light–dark cycle. Egg clutches laid by the female squid were incubated in separate aquaria from the adults for the entirety of paralarvae development (~ 21 days). Newly hatched paralarvae were rinsed twice in 0.22 μm filtered seawater (FSW), then either preserved in an aposymbiotic state (i.e., without V. fischeri) or rendered symbiotic by inoculation with the wild-type, strain ES114, to a final concentration of 105 cells per mL of FSW. For all experiments, colonization was confirmed by measuring luminescence with an ATP photometer (GloMax 20/20, Promega Corp., Madison, WI). For symbiotic experiments, log cultures of V. fischeri were prepared in seawater tryptone broth and incubated at 28˚C with 225 rpm shaking. For all experiments, animals were anesthetized and euthanized before examination in a 1:1 solution of 0.37 M MgCl2 and filtered sterilized seawater. Euthanasia by over anesthesia is the current accepted practice for cephalopods.\n\nReplicates, data treatment, and statistical analyses\n\nAll experiments were performed in triplicate, with at least three biological and technical replicates unless otherwise noted. Outliers identified via the 1.5 × interquartile range (IQR) method were removed before analysis, and data normality was assessed via Shapiro–Wilk (SW). Statistical significance was evaluated either using a Welch’s t-test (SW p > 0.05) for parametric data or Mann–Whitney-Wilcoxon U test when the data were not normally distributed (SW p ≤ 0.05). Both parametric and non-parametric analyses were two-sided and used a significance cut-off of p ≤ 0.05.\n\nModeled microgravity treatments and DO2 readings\n\nTo mimic the low-shear fluid conditions of spaceflight, 50-mL High Aspect Ratio Vessels (Fig. 1c; HARVs; Synthecon, Houston, TX) were used as previously described. Briefly, for aposymbiotic conditions, the HARVs were filled with FSW, whereas for symbiotic conditions HARVs contained 105 cells of V. fischeri ES114 per mL of FSW. After animals were added to the HARVs, the reactors were then sealed to prevent the formation of bubbles and incubated at 23 °C in a synchronized LED-illuminated Percival incubator (Percival Scientific Inc., Perry, IA) with rotation at 13 rpm. The HARVs were either rotated around a vertical axis to control for unit gravity (Fig. 1c left) or were rotated around a horizontal axis to mimic microgravity conditions (Fig. 1c right). The dissolved oxygen content (DO2) of the FSW collected from the HARVs was also measured at 24 h with a hand-held probe (Sper Scientific, Scottsdale, AZ) in a minimum of three replicates.\n\nFor control purposes, and to establish a baseline for enzyme assays and inhibitor treatments, a cohort of hatchling animals were incubated in borosilicate scintillation vials alongside the HARV reactors until 16 h post-hatching, which marks the peak of developmental cell death in normal gravity. For all treatments, at least one animal from each treatment was put aside to confirm colonization and/or quantify light organ apoptosis. The remaining squid were immediately frozen with liquid nitrogen or dry ice and stored at – 80 °C until downstream analysis.\n\nRNA isolation, quantification, and quality assessment\n\nFor each treatment, RNA was extracted from three dissected light organs in triplicate and pooled using the RNeasy Kit (Qiagen, Valencia, CA) with the previously described modifications. The resultant RNA was quantified using a Qubit 2.0 fluorometer (Life Technologies, Carlsbad, CA) according to the manufacturer’s instructions, and assessments of quality were made using the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, USA) with the RNA 6000 Nano Kit (Agilent Technologies, Palo Alto, CA). For the nCounter analysis, the RNA samples were diluted to a final concentration of 20 ng per mL of nuclease-free water and stored at – 80 °C.\n\nTranscriptome analysis and NanoString nCounter\n\nPreliminary gene selection was made by data-mining the reference transcriptome of E. scolopes for apoptosis-related KEGG identifiers, GO terms, Pfam accession numbers, and SwissProt annotations (Additional File 1). Target genes were selected for further study by cross-referencing the multi-species KEGG pathway for apoptosis (ko04215) with published analyses in other cephalopods. The selected genes (Table 1; Additional File 2) represent those target genes where probes could be designed. Some apoptosis genes within E. scolopes had numerous isoforms and this not all probes were effective. Three LPS-binding proteins (LBPs) from E. scolopes were also included in the final apoposis-gene CodeSet (Table 1), along with the housekeeping genes actin (actB) and pyruvate carboxylase (pyc1). Probes to the selected target genes were synthesized at NanoString Technologies, Inc. in Seattle, WA. Each assay included eight negative control probes to evaluate the non-specific background and six synthetic RNA targets with matching positive control probes.\n\nNanoString quality control, data processing, and differential analysis\n\nThe raw NanoString counts from the nCounter assay were processed using nSolver software (ver 4.0) as previously described. Quality control was conducted based on imaging quality, probe binding density, positive control linearity, and the limit of detection as established by the negative controls. Non-specific background signal was subtracted, and the data were normalized to the internal controls and housekeeping genes to adjust between technical and biological replicates. Next, the data were imported into R Studio (ver 1.2.1335) and a Shapiro–Wilk test was performed to determine data normality. Afterwards, a LIMMA-voom transformation was applied and the output – expressed as log2 counts-per-million (log2CPM) – was used to fit a linear regression model. Finally, the differential expression analysis was computed for pair-wise comparisons using non-parametric empirical Bayes statistics with a Benjamin-Hochberg adjustment for multiple testing (Additional File 2).\n\nPhylogenetic and architectural analysis of caspase enzymes\n\nCaspase protein sequences were obtained from the reference transcriptome for Euprymna scolopes . Homologous sequences were similarly sourced from the National Center Biotechnology Information (NCBI) for other common research organisms (Homo sapiens, Rattus norvegicus, Xenopus laevis, Danio rerio) as well as two species (Mytilus galloprovinciali, and Octopus sinensis) within the Mollusca phylum (Additional File 3). To compare initiator and executioner caspases, a multiple sequence alignment was generated via MUSCLE (ver 3.8.31) according to the default parameters. Maximum likelihood analysis was then performed using MEGA X software (ver 10.2.1) assuming the Whelan-Goldman model of amino acid substitution with 1000 bootstrap iterations. The resultant phylogenetic trees were rendered in MEGA X, with branch support values expressed as percentages on the unrooted trees. Separately, the domain architecture of each caspase sequence was analyzed via SMART, InterProScan, and the NCBI Conserved Domain Search. Estimates of protein isoelectric point and molecular weight were calculated using the ExPASy Compute pI/Mw tool (Table 2). The percent identities of the initiator and executioner caspases in E. scolopes were determined via Clustal Omega at the default parameters.\n\nLight organ protein isolation and quantification\n\nTo examine enzyme activity during light organ apoptosis, total protein was isolated from frozen animals. Per extraction, approximately 60 light organs were dissected into an ice-cold hypotonic extraction buffer containing 24 mM HEPES, 5 mM MgCl2, 1 mM EGTA (pH 7.4) supplemented with a custom protease inhibitor cocktail to a final concentration of 2 μg pepstatin, 5 μg aprotinin, 5 μg leupeptin, and 100 μg Pefabloc per mL of buffer. The light organs were then homogenized on ice with a ground-glass micromortar and pestle, and the exudate was centrifuged at 15,000 × g for 15 min at 4 °C to pellet out debris. The amount of protein in the supernatant was subsequently determined using a Qubit 2.0 fluorometer (Life technologies, Carlsbad, CA) according to the manufacturer’s instructions. Afterwards, the protein extract was diluted with ice-cold extraction buffer and 5 M NaCl to a final concentration of 1 mg of protein and 0.45 M NaCl per mL of buffer. All protein extracts were stored at – 80 °C until use. For each treatment, protein extractions were performed in triplicate.\n\nCaspase activity assays\n\nTo quantify caspase activity in the light organ, Caspase-Glo Assay kits (Promega Corp., Madison, WI) were used according to the manufacturer’s instructions with minor modifications. Briefly, equal volumes of pre-warmed Caspase-Glo reagent and light organ protein were combined in a white-walled, flat-bottomed, 96 well plate with 1X protease inhibitor cocktail (Caspase-Glo 3/7) or 60 μM MG-132 proteasome inhibitor (Caspase-Glo 8 and 9) to reduce non-specific signal. The plate was shaken at 400 rpm for 30 s and then transferred to a Synergy microplate reader (BioTek, Winooski, VT) at 25 °C. Luminescence readings were subsequently collected every 2 min for 2 h. Protein samples were prepared in a hypotonic extraction buffer and assayed in duplicate at a final protein concentration of 20 μg per mL of buffer. Duplicate blank reactions consisting of buffer plus proteasome inhibitor were included for each set of samples, and the average was subtracted as background.\n\nProtease inhibitor treatments\n\nTo determine the contributions of different caspases to bacteria-induced apoptosis, hatchling animals were exposed to a series of targeted protease inhibitors. The inhibitors used in this study include the pan-caspase inhibitor z-VAD-FMK, the caspase 8 inhibitor Ac-IETD-CHO, and the caspase 9 inhibitor Ac-LEHD-CMK (Santa Cruz Biotechnology, Dallas, TX) as well as the irreversible serine protease inhibitor, Pefabloc (Sigma Aldrich, St. Louis, MO). All inhibitor solutions were 0.22 µm-filter sterilized and stored at – 80 °C until use. Caspase inhibitors were used at final concentrations of 60 and 100 μM for vial and HARV experiments, respectively. For all experiments, the final concentration of the serine protease inhibitor Pefabloc was 25 μM. These concentrations were chosen in part as they did not cause apparent toxicity to the animal and did not impede colonization. Inhibitor treatment occurred for 2 h before the start of the experiment. Dimethyl sulfoxide (DMSO) controls were run in parallel where appropriate.\n\nQuantifying apoptotic development in the CEA of the light organ\n\nTo visualize and quantify apoptosis in the light organ, hatchling animals were anesthetized and stained in a 1:1 solution of 0.37 MgCl2 and FSW containing 0.001% acridine orange dye, which intercalates into the condensed chromatin of dying cells (i.e., pycnotic nuclei). After staining, a ventral dissection was performed to expose the light organ, and the pycnotic nuclei in each lobe of the light organ were counted via FITC epifluorescence microscopy with a Zeiss Axioplan microscope (Carl Zeiss, Jena, Germany).\n\nAvailability of data and materials\n\nThe datasets generated and analyzed in this study are included in this published article and supplemental information files.\n\nDeclarations\n\nEthics approval and consent to participate\n\nThese studies were conducted with prior authorization from the Institutional Animal Care and Use Committees at the University of Florida and Kennedy Space Center and in compliance with NASA’s Policy Directive for the ethical treatment of cephalopods in research (NPD 8910.1C).\n\nConsent for publication\n\nNot applicable.",
+  "results": "Results\n\nIdentification of the extrinsic and intrinsic apoptosis network within the host Euprymna scolopes\n\nTo elucidate the apoptosis machinery in the bobtail squid, a detailed map of the putative pathways for apoptosis in the squid host was generated by data-mining the reference transcriptome and genome of E. scolopes (Fig. 2). This search identified 293 transcripts, representing 137 unique genes, involved in the regulation of apoptosis in the host squid (Table S1; Fig. S1). The resultant network revealed an elaborate web of parallel and hierarchical interactions and pro-and anti-apoptotic effectors that appear to govern extrinsic, receptor-mediated, and intrinsic, stress-induced cell death via transcriptional, translational, and post-translational means (Fig. 2).\n\nFor the extrinsic apoptosis network, two tumor necrosis factor receptor superfamily members (Tnfrsf11, Tnfrsf21) and five Tnf-associated factors (Traf 2, 3, 4, 6, and 7) were discovered in E. scolopes (Fig. 2, Table S1). The closely related initiator caspases-8 and -10 were also identified, as well as death domain-associated adaptors Fadd, Daxx, and the stress-associated kinase Ripk1. Interestingly, neither Fas ligand nor its corresponding receptor was found in the reference transcriptome despite the presence of components known to operate downstream (e.g., Fadd). Nevertheless, E. scolopes was determined to harbor all the effectors required to assemble a complete death-inducing signaling complex (DISC) for extrinsic, receptor-mediated apoptosis, which serves as the activation assembly for extrinsic initiator caspases-10 and -8. Additionally, transcripts associated with three LPS-binding proteins (Lbps) and the LPS-induced transcription factor, Litaf, which have been previously described in E. scolopes were also observed in the putative extrinsic, receptor-mediated network (Fig. 2).\n\nWith regards to the intrinsic apoptosis pathway, transcripts encoding both pro-apoptotic (Bnip3, Bcl10, Bcl2L13, Bax, Bak) and anti-apoptotic (Bcl2L1, Mcl1, Ar1) members of the Bcl2 protein family were found in E. scolopes (Fig. 2; Table S1). A variety of mitochondrial proteins (i.e., Aifm1, Aifm3, Diablo, Cytc, Htra2) were identified as well as Apaf1 and the intrinsic initiator caspase-9. Thus, all the requisite parts of the apoptosome, which is the activation complex of the stress-induced pathway for cell death were found in the bobtail squid (Fig. 2). However, the Bh3-only protein Bid, which typically represents a critical junction for crosstalk between the intrinsic and extrinsic pathways for apoptosis in animals, was conspicuously absent. Likewise, the presence of atypical initiator caspase-2 was confirmed along with Pidd1, both of which are constituents of the pro-death, p53-inducible, PIDDosome complex that forms in response to DNA damage; however, no evidence of the third member of this assembly, Raidd/Cradd, was found in the bobtail squid reference transcriptome or genome.\n\nIn addition to Bcl2-type repressors, transcripts encoding numerous inhibitors of apoptosis proteins (Iaps) were discovered in the host squid. Included among these were Xiap, Diap2, three Baculoviral Iap-repeat containing proteins (Birc7b, Birc3, and Birc6), three Bcl2-associated athanogene regulators (Bag 1, 4, and 6), cell death regulator Aven, the peptidyl isomerase Pin1, as well as heat shock proteins Hsp90 and Hsp7c (Table S1). Further examination revealed the presence of numerous cathepsin (B, K, L, L1, L2, Z) and calpain (1–3, 5, 7–9, 11, B, D) proteases, several of which have been previously reported in E. scolopes. The cathepsins recovered from the reference transcriptome were primarily cysteine-dependent, except for cathepsin B, which is a serine protease. Intriguingly, neither aspartic acid-type cathepsins (D and E) were found in the host squid.\n\nAnalysis of the E. scolopes reference transcriptome revealed a variety of nucleus-localizing proteins affiliated with apoptosis (Table S1). Broadly, this included transcription factors (i.e., Aatf, Atf4, Jun, E2f, Hox, Irf, Litaf, NF-κB, p73), p53-type transactivators (i.e., Aspp1, Ccar1), and apoptotic mediators of chromatin condensation and DNA fragmentation (i.e., Acin1, Dffb/Cad, EndoG) (Table S1). Transcripts encoding numerous regulators of apoptotic translation were likewise present in the squid, most notably the eukaryotic initiation factors Eif2, Eif3f, Eif3j, Eif4b, and Eif4e (Table S1). Interestingly, however, no transactivating factors of internal ribosomal entry site (IRES)-mediated translation were present in the transcriptome of E. scolopes, and the nuclear lamin protease and executioner caspase, caspase-6, was not observed.\n\nExtrinsic and intrinsic apoptosis gene expression under LSMMG conditions\n\nTo ascertain the impact of modeled microgravity on the light organ cell death event in the host animal, 41 apoptosis-related genes identified in the reference transcriptome were selected for gene expression analysis using the NanoString nCounter assay (Table 1). These target genes were representative of key components of the apoptosis machinery depicted in Fig. 2. The expression of these target transcripts was quantified over time in hatchling paralarvae incubated within the HARVs under LSMMG and gravity control conditions in the presence and absence of the symbiotic bacterium V. fischeri ES114. Overall, the NanoString results indicated that there was an increase in the transcription of genes associated with both receptor-mediated and stress-induced apoptosis under LSMMG conditions compared to gravity controls (Fig. 3, 4).\n\nWith regards to effectors of extrinsic, receptor-mediated, apoptosis, the LPS binding proteins 1 and 3, along with the endotoxin-induced transcription factor Litaf were significantly up-expressed in modeled microgravity between 6 and 10 h post-hatching (Fig. 3). Likewise, transcripts encoding the adaptor protein Fadd were more abundant during the early hours of development in LSMMG; however, these results were not statistically significant from the gravity controls (Fig. 3).\n\nA similar trend was observed in the NanoString results for genes affiliated with intrinsic, stress-induced apoptosis. The Bh3-only protein Bnip3, membrane permeabilizer Bak, Diablo, and caspase-dependent Aifm3 were significantly up expressed in LSMMG between 8 and 12 h compared to gravity controls (Fig. 3). Bnip3, which overcomes Bcl-2 type suppression of pro-death effectors Bax/Bak, increased overtime under LSMMG peaking at 16 and 18 h in LSMMG compared to the unit gravity controls (Fig. 3). Bnip3 is known to be induced under hypoxic conditions, however, measurements of the dissolved oxygen content were consistent across all treatments at 24 h revealing no difference in oxygen availability in the HARVs (Fig. S2).\n\nExpression of pro-death caspases in host animal under LSMMG conditions\n\nThe identification of caspase-2, -3, -7, -8, -9, and -10 transcripts in the reference transcriptome suggested the presence of canonical pathways for extrinsic and intrinsic apoptosis in E. scolopes (Fig. 4). Additionally, caspase-driven apoptosis has a known role in the bacteria-induced development of the light organ, given that treatment with the pan-caspase inhibitor Z-VAD-FMK has been shown to reduce the number of dying cells observed at 24 h post-inoculation . These results suggested that caspase regulation, either at the level of mRNA and/or protein, was a contributing factor to the accelerated developmental timeline of apoptosis in the host light organ under LSMMG conditions (Fig. 1d).\n\nNanoString analysis was used to examine the differential gene expression of the putative initiator (i.e., casp2, casp8, casp9, and casp10) and executioner (i.e., casp3) caspase genes in symbiotic and aposymbiotic squid under microgravity and gravity conditions. Results revealed that under LSMMG conditions there was a pronounced increase in the pro-death caspase transcripts between 6 and 10 h post-colonization by V. fischeri (Fig. 4), which aligns with early-onset apoptosis previously observed in paralarvae squid exposed to modeled microgravity. Aposymbiotic control animals that were not exposed to V. fischeri showed no differential expression under LSMMG or gravity conditions at these same time points (Fig. S3).\n\nThe architecture of caspase domain structure in Euprymna scolopes\n\nTo evaluate the extent of similarity between the E. scolopes caspase (EsCasp) enzymes and homologs in other animals, the domain architecture of EsCasps was mapped and compared to sequences derived from Homo sapiens, Rattus norvegicus, Danio rerio, and Xenopus laevis (Fig. 5). Additionally, the Mediterranean mussel, Mytilus galloprovincialis, and the East Asian octopus, Octopus sinensis, were included in the analysis to distinguish lineage-specific modifications within the Mollusca phylum and/or among cephalopods (Fig. 5, Additional File 3). Domain analysis via SMART, InterProScan, and the NCBI Conserved Domain Database, as described in the Methods, revealed that the architecture of caspases-2, -3, -7, -8, and -9 in E. scolopes is largely consistent with that of other animals, including both vertebrates and invertebrates alike (Fig. 5). Typically, the EsCasps ranged from 327 to 634 residues in length and weighed between 41.4 and 72.1 kDa (Table 2). The main exception to this was EsCasp10_2X, which was only 297 amino acids long and had a molecular weight of 34.4 kDa (Table 2).\n\nSeveral EsCasps exhibited key structural elements characteristic of caspases in other animals (Fig. 5). For example, the extrinsic initiator caspase-8 of E. scolopes (EsCasp8) exhibited dual twin death effector domains (DED) at the N-terminus, which is characteristic of both vertebrates and invertebrate caspase-8 proteins; however, this dual DED domain was missing in the initiator EsCasp10 isoforms when compared to vertebrates H. sapiens, D. rerio, and X. laevis (Fig. 5). EsCasp10 did harbor a singular caspase activation and recruitment domain (CARD), suggesting a potential misannotation.\n\nThe CARD domain was also observed in EsCasp2 and -9 initiator caspases, which is typical of most vertebrates and invertebrates (Fig. 5). Interestingly, caspase-9 in M. galloprovincialis (MgCasp9) exhibited dual DED in place of the traditional CARD, suggesting a potential misannotation of this protein in M. galloprovincialis. In all sequences examined, a carboxyl-terminal catalytic (CASc) domain was present (Fig. 5, yellow box). The CASc is a 45 kDa precursor that is cleaved during activation to yield the p20 and p10 subunits. Intriguingly, despite the presence of a complete CASc, analysis of EsCasp2_2x and EsCasp9 revealed the smaller p10 subunit was not detected in these two isoforms.\n\nExecutioner caspases-3 and -7 in animals typically lack pro-domains and are therefore shorter as a result (Fig. 5). The executioner caspases of E. scolopes (EsCasp3 and -7) varied from 213 to 370 residues in length and had a molecular weight ranging from 23.9 to 41.5 kDa (Table 2; Table S2), thus were comparable to both the vertebrate and invertebrate species targeted in this analysis. Most EsCasp3 and -7 isoforms exhibited a conserved QACRG pentapeptide in the catalytic region or equivalent (Table 2).\n\nPhylogenetic analysis of host squid caspases\n\nMaximum likelihood analysis of the initiator caspases revealed two distinctive clusters primarily consisting of caspases-8, -9 and -10, and caspase-2, respectively (Fig. 6a), that were reflective of the function of whether the initiator caspases were activated by extrinsic or intrinsic triggers. EsCasp8 clustered with all other caspase-8 proteases sourced from NCBI but was closest to proteases from O. sinensis. Similarly, EsCasp2 also branched closely with both invertebrate and vertebrate caspase-2 initiators.\n\nUnexpectedly, EsCasp9 clustered with the two sequences that were likely misannotated as isoforms of caspase-10. Although the monophyly of the group is indeterminate due to the low outer branch support value (42%), these sequences share several distinguishing features that suggest they may represent a group of caspase-9-like initiators that is specific to Euprymna (Fig. 6a). First, the domain organization of EsCasp9, EsCasp10_1X, and EsCasp10_2X emulates that of canonical caspases -2 and -9, with an N-terminal CARD domain and a C-terminal CASc region (Fig. 5). Second, although the sequences of this group exhibit 94 to 95% identity with one another, their percent identity scores with the other initiator caspases are very low, between 15 and 29%, which indicates they may have distinct structural features (Fig. S4). Third, EsCasp9, EsCasp10_1X, and EsCasp10_2X all exhibit a conserved “QACQP” catalytic pentapeptide (Table 2). Caspases, uniformly, possess a QACXG motif in the active site, with the middle position specifying the catalytic cysteine residue. Given its crucial importance to the protease activity of caspases, variations within this pentapeptide are limited and may denote similar functions.\n\nThe maximum likelihood estimation of executioner caspases formed two several distinctive groups primarily separated into vertebrate and invertebrate clusters (Fig. 6b). For example, the vertebrate caspases-7 and -3 from H. sapiens, R. norvegicus, D. rerio, and X. laevis formed distinctive groupings, that excluded most of the molluscan isoforms. Interestingly, two caspase-7 isoforms from E. scolopes (EsCasp7_2X and EsCasp7_4X) had a higher association with the vertebrate executioner caspases than the other molluscan orthologs for caspase-3 and -7 (Fig. 6b). This phylogeny may allude to a greater degree of differentiation, or perhaps expansion, among the executioner caspases of the squid, which has previously been documented in bivalves. However, the percent identity among the executioners was 47% which makes it difficult to discern whether these sequences represent isoforms of the same gene(s) or an expansion of caspases-3 and -7 in E. scolopes (Fig. S4).\n\nOverall, there appeared to be a relatively high degree of similarity among the executioner caspases of E. scolopes. However, the close affiliation of EsCasp7_2X and EsCasp7_4X with vertebral orthologs suggests the presence of at least two distinct executioner-type caspases in the squid. Unsurprisingly, both the initiator and executioner caspases of E. scolopes were most closely related to O. sinensis, and to a lesser extent, M. galloprovincialis, which is consistent with their categorization as both soft-bodied cephalopods and, more broadly, mollusks.\n\nCaspase activity and mitigation during the onset of symbiosis and light organ morphogenesis under LSMMG and gravity conditions\n\nThe activities of executioner caspases-3/7, extrinsic initiator caspase-8, and intrinsic initiator caspase-9 were quantified in host animals in the presence and absence of the symbiont V. fischeri using Caspase Glo activity kits. Note, due to the similar mechanisms of activity, the kits could not resolve between caspase-3 and caspase-7 activities. All caspases tested were significantly more active in symbiotic animals at 16 h post-colonization, the peak of cell death, compared to 16 h aposymbiotic controls and newly hatched paralarvae (Fig. 7). In all three treatments, there was a 26-fold increase in executioner caspase activity (Fig. 7a) compared to the extrinsic and intrinsic initiators (Fig. 7b, c).\n\nTo test whether the caspases could be inhibited in the host animals, pre-treatment with inhibitors targeting different caspases was used. Treatment with the caspase-8 inhibitor Ac-IETD-CHO, the pan-caspase inhibitor Z-VAD-FMK, and the serine protease inhibitor Pefabloc for two hours prior to the start of the symbiosis significantly reduced apoptotic cell levels at 16 h in symbiotic hatchlings compared to untreated symbiotic controls but did not completely inhibit apoptosis (Fig. 7d). Interestingly, although the Caspase-Glo assays indicated caspase-9 was active during the apex of cell death (Fig. 7c), treatment with the caspase-9 inhibitor Ac-LEHD-CMK did not reduce the level of pycnotic nuclei observed at 16 h relative to the untreated or DMSO-treated controls (Fig. d). Additionally, the coupling of different inhibitors showed no additive effects (Fig. 7d). The colonization of the host squid did not appear to be affected as symbiotic animals exhibited normal luminescence levels throughout the experimental treatments.\n\nTo elucidate the effects of LSMMG stress on caspase activity, 10 h symbiotic animals were examined with Caspase Glo activity kits (Fig. 8). This time point was chosen as it coincided with the higher expression of caspase transcripts in LSMMG (Fig. 4). Results indicated that LSMMG-treated animals exhibited higher levels of caspase-3/7 and caspase-8 activity compared to gravity conditions in symbiotic animals (Fig. 8a, b). Interestingly, no differences were observed in caspase-9 activity in symbiotic animals incubated under LSMMG or gravity conditions, (Fig. 8c). Executioner activity was observed to be several orders of magnitude higher than both initiator caspases, exhibiting up to a 32-fold increase compared to the initiator caspases in both aposymbiotic and symbiotic animals (Fig. 8a-c). Treatment with the caspase-8 inhibitor Ac-IETD-CHO, the pan-caspase inhibitor Z-VAD-FMK, and the serine protease inhibitor Pefabloc abrogated the significant increase in light organ apoptosis observed at 10 h in LSMMG in symbiotic animals (Fig. 8d).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Symbiosis",
+    "Apoptosis",
+    "Caspases",
+    "Microgravity",
+    "Research Article"
+  ],
+  "citations": [
+    {
+      "title": "Physical effects at the cellular level under altered gravity conditions",
+      "authors": [
+        "P Todd"
+      ]
+    },
+    {
+      "title": "Spaceflight and clinorotation cause cytoskeleton and mitochondria changes and increases in apoptosis in cultured cells",
+      "authors": [
+        "H Schatten",
+        "ML Lewis",
+        "A Chakrabarti"
+      ]
+    },
+    {
+      "title": "Apoptosis and the balance of homeostatic and pathologic responses to protozoan infection",
+      "authors": [
+        "LC Gavrilescu",
+        "EY Denkers"
+      ]
+    },
+    {
+      "title": "Acclimation during space flight: effects on human physiology",
+      "authors": [
+        "D Williams",
+        "A Kuipers",
+        "C Mukai",
+        "R Thirsk"
+      ]
+    },
+    {
+      "title": "Spaceflight-induced intracranial hypertension and visual impairment: pathophysiology and countermeasures",
+      "authors": [
+        "LF Zhang",
+        "AR Hargens"
+      ]
+    },
+    {
+      "title": "Osteocyte apoptosis is induced by weightlessness in mice and precedes osteoclast recruitment and bone loss",
+      "authors": [
+        "JI Aguirre",
+        "LI Plotkin",
+        "SA Stewart",
+        "RS Weinstein",
+        "AM Parfitt",
+        "SC Manolagas"
+      ]
+    },
+    {
+      "title": "Evidence for osteocyte regulation of bone homeostasis through RANKL expression",
+      "authors": [
+        "T Nakashima",
+        "M Hayashi",
+        "T Fukunaga",
+        "K Kurata",
+        "M Oh-Hora",
+        "JQ Feng"
+      ]
+    },
+    {
+      "title": "Three weeks of murine hindlimb unloading induces shifts from B to T and from th to tc splenic lymphocytes in absence of stress and differentially reduces cell-specific mitogenic responses",
+      "authors": [
+        "F Gaignier",
+        "V Schenten",
+        "BM De Carvalho",
+        "G Gauquelin-Koch",
+        "JP Frippiat",
+        "C Legrand-Frossi"
+      ]
+    },
+    {
+      "title": "Changes in immune cell signalling, apoptosis and stress response functions in mice returned from the BION-M1 mission in space",
+      "authors": [
+        "EG Novoselova",
+        "SM Lunin",
+        "MO Khrenov",
+        "SB Parfenyuk",
+        "TV Novoselova",
+        "BS Shenkman"
+      ]
+    },
+    {
+      "title": "Impact of simulated microgravity on microvascular endothelial cell apoptosis",
+      "authors": [
+        "CY Kang",
+        "L Zou",
+        "M Yuan",
+        "Y Wang",
+        "TZ Li",
+        "Y Zhang"
+      ]
+    },
+    {
+      "title": "Garrett-Bakelman FE, Darshi M, Green SJ, Gur RC, Lin L, Macias BR, et al. The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science. 2019;364(6436).",
+      "authors": []
+    },
+    {
+      "title": "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight",
+      "authors": [
+        "P Jiang",
+        "SJ Green",
+        "GE Chlipala",
+        "FW Turek",
+        "MH Vitaterna"
+      ]
+    },
+    {
+      "title": "Intestinal microbiota contributes to colonic epithelial changes in simulated microgravity mouse model",
+      "authors": [
+        "J Shi",
+        "Y Wang",
+        "J He",
+        "P Li",
+        "R Jin",
+        "K Wang"
+      ]
+    },
+    {
+      "title": "Responses of Intestinal Mucosal Barrier Functions of Rats to Simulated Weightlessness",
+      "authors": [
+        "M Jin",
+        "H Zhang",
+        "K Zhao",
+        "C Xu",
+        "D Shao",
+        "Q Huang"
+      ]
+    },
+    {
+      "title": "Impact of simulated microgravity on the normal developmental time line of an animal-bacterial symbiosis",
+      "authors": [
+        "JS Foster",
+        "CL Khodadad",
+        "SR Ahrendt",
+        "ML Parrish"
+      ]
+    },
+    {
+      "title": "Modeled microgravity alters lipopolysaccharide and outer membrane vesicle production of the beneficial symbiont Vibrio fischeri",
+      "authors": [
+        "MM Vroom",
+        "Y Rodriguez-Ocasio",
+        "JB Lynch",
+        "EG Ruby",
+        "JS Foster"
+      ]
+    },
+    {
+      "title": "A lasting symbiosis: how the Hawaiian bobtail squid finds and keeps its bioluminescent bacterial partner",
+      "authors": [
+        "SV Nyholm",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Induction of apoptosis by cooperative bacteria in the morphogenesis of host epithelial tissues",
+      "authors": [
+        "JS Foster",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Vibrio fischeri lipopolysaccharide induces developmental apoptosis, but not complete morphogenesis, of the Euprymna scolopes symbiotic light organ",
+      "authors": [
+        "JS Foster",
+        "MA Apicella",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Microbial factor-mediated development in a host-bacterial mutualism",
+      "authors": [
+        "TA Koropatnick",
+        "JT Engle",
+        "MA Apicella",
+        "EV Stabb",
+        "WE Goldman",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Transient exposures to competent bacteria initiates symbiosis-specific squid light organ morphogenesis",
+      "authors": [
+        "JA Doino",
+        "M McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Bacterial quorum-sensing regulation induces morphological change in a key host tissue during the Euprymna scolopes-Vibrio fischeri symbiosis",
+      "authors": [
+        "T Essock-Burns",
+        "BD Bennett",
+        "D Arencibia",
+        "S Moriano-Gutierrez",
+        "M Medeiros",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Casaburi G, Goncharenko-Foster I, Duscher AA, Foster JS. Transcriptomic changes in an animal-bacterial symbiosis under modeled microgravity conditions. Sci Rep. 2017;7.",
+      "authors": []
+    },
+    {
+      "title": "Transcriptional profiling of the mutualistic bacterium Vibrio fischeri and an hfq mutant under modeled microgravity",
+      "authors": [
+        "AA Duscher",
+        "A Conesa",
+        "M Bishop",
+        "MM Vroom",
+        "SD Zubizarreta",
+        "JS Foster"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "R Ramamurthy",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens",
+      "authors": [
+        "JA Rosenzweig",
+        "S Ahmed",
+        "J Eunson",
+        "AK Chopra"
+      ]
+    },
+    {
+      "title": "Apoptosis: a review of programmed cell death",
+      "authors": [
+        "S Elmore"
+      ]
+    },
+    {
+      "title": "LBP/BPI proteins and their relatives: conservation over evolution and roles in mutualism",
+      "authors": [
+        "BC Krasity",
+        "JV Troll",
+        "JP Weiss",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "A role for caspase 2 and PIDD in the process of p53-mediated apoptosis",
+      "authors": [
+        "N Baptiste-Okoh",
+        "AM Barsotti",
+        "C Prives"
+      ]
+    },
+    {
+      "title": "Involvement of a host Cathepsin L in symbiont-induced cell death",
+      "authors": [
+        "SM Peyer",
+        "N Kremer",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Caspases: the executioners of apoptosis",
+      "authors": [
+        "GM Cohen"
+      ]
+    },
+    {
+      "title": "The complexity of apoptotic cell death in mollusks: An update",
+      "authors": [
+        "A Romero",
+        "B Novoa",
+        "A Figueras"
+      ]
+    },
+    {
+      "title": "Phylogenetic analysis of the caspase family in bivalves: implications for programmed cell death, immune response and development",
+      "authors": [
+        "S Vogeler",
+        "S Carboni",
+        "X Li",
+        "A Joyce"
+      ]
+    },
+    {
+      "title": "Host-microbe interactions in microgravity: assessment and implications",
+      "authors": [
+        "JS Foster",
+        "RM Wheeler",
+        "R Pamphile"
+      ]
+    },
+    {
+      "title": "Innate apoptotic immunity: the calming touch of death",
+      "authors": [
+        "RB Birge",
+        "DS Ucker"
+      ]
+    },
+    {
+      "title": "Apoptosis in amphibian organs during metamorphosis",
+      "authors": [
+        "A Ishizuya-Oka",
+        "T Hasebe",
+        "YB Shi"
+      ]
+    },
+    {
+      "title": "The gut microbiome as a major regulator of the gut-skin axis",
+      "authors": [
+        "I Salem",
+        "A Ramser",
+        "N Isham",
+        "MA Ghannoum"
+      ]
+    },
+    {
+      "title": "The microbiome and autoimmunity: a paradigm from the gut-liver axis",
+      "authors": [
+        "B Li",
+        "C Selmi",
+        "R Tang",
+        "ME Gershwin",
+        "X Ma"
+      ]
+    },
+    {
+      "title": "Influence of microgravity on apoptosis in cells, tissues, and other systems in vivo and in vitro",
+      "authors": [
+        "B Prasad",
+        "D Grimm",
+        "SM Strauch",
+        "GS Erzinger",
+        "TJ Corydon",
+        "M Lebert"
+      ]
+    },
+    {
+      "title": "Identifying components of the NF-kappaB pathway in the beneficial Euprymna scolopes-Vibrio fischeri light organ symbiosis",
+      "authors": [
+        "MS Goodson",
+        "M Kojadinovic",
+        "JV Troll",
+        "TE Scheetz",
+        "TL Casavant",
+        "MB Soares"
+      ]
+    },
+    {
+      "title": "Characterization and role of p53 family members in the symbiont-induced morphogenesis of the Euprymna scolopes light organ",
+      "authors": [
+        "MS Goodson",
+        "WJ Crookes-Goodson",
+        "JR Kimbell",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Structural and functional features of a developmentally regulated lipopolysaccharide-binding protein",
+      "authors": [
+        "BC Krasity",
+        "JV Troll",
+        "EM Lehnert",
+        "KT Hackett",
+        "JP Dillard",
+        "MA Apicella"
+      ]
+    },
+    {
+      "title": "Symbiotic organs shaped by distinct modes of genome evolution in cephalopods",
+      "authors": [
+        "M Belcaid",
+        "G Casaburi",
+        "SJ McAnulty",
+        "H Schmidbaur",
+        "AM Suria",
+        "S Moriano-Gutierrez"
+      ]
+    },
+    {
+      "title": "The enigma of caspase-2: the laymen's view",
+      "authors": [
+        "G Krumschnabel",
+        "B Sohm",
+        "F Bock",
+        "C Manzl",
+        "A Villunger"
+      ]
+    },
+    {
+      "title": "The octopus genome and the evolution of cephalopod neural and morphological novelties",
+      "authors": [
+        "CB Albertin",
+        "O Simakov",
+        "T Mitros",
+        "ZY Wang",
+        "JR Pungor",
+        "E Edsinger-Gonzales"
+      ]
+    },
+    {
+      "title": "Conservation and divergence of mitochondrial apoptosis pathway in the Pacific oyster, Crassostrea gigas",
+      "authors": [
+        "Y Li",
+        "L Zhang",
+        "T Qu",
+        "X Tang",
+        "L Li",
+        "G Zhang"
+      ]
+    },
+    {
+      "title": "Massive gene presence-absence variation shapes an open pan-genome in the Mediterranean mussel",
+      "authors": [
+        "M Gerdol",
+        "R Moreira",
+        "F Cruz",
+        "J Gomez-Garrido",
+        "A Vlasova",
+        "U Rosani"
+      ]
+    },
+    {
+      "title": "Effect of spaceflight on ability of monocytes to respond to endotoxins of gram-negative bacteria",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "AS Kapadia",
+        "CM Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Effect of solar particle event radiation and hindlimb suspension on gastrointestinal tract bacterial translocation and immune activation",
+      "authors": [
+        "Y Zhou",
+        "H Ni",
+        "M Li",
+        "JK Sanzari",
+        "ES Diffenderfer",
+        "L Lin"
+      ]
+    },
+    {
+      "title": "Host/microbe interactions revealed through \"omics\" in the symbiosis between the Hawaiian bobtail squid Euprymna scolopes and the bioluminescent bacterium Vibrio fischeri",
+      "authors": [
+        "BA Rader",
+        "SV Nyholm"
+      ]
+    },
+    {
+      "title": "microgravity reduces the differentiation and regenerative potential of embryonic stem cells",
+      "authors": [
+        "EA Blaber",
+        "H Finkelstein",
+        "N Dvorochkin",
+        "KY Sato",
+        "R Yousuf",
+        "BP Burns"
+      ]
+    },
+    {
+      "title": "Hypoxia induces the expression of the pro-apoptotic gene BNIP3",
+      "authors": [
+        "K Guo",
+        "G Searfoss",
+        "D Krolikowski",
+        "M Pagnoni",
+        "C Franks",
+        "K Clark"
+      ]
+    },
+    {
+      "title": "Hypoxia, oxidative stress and inflammation",
+      "authors": [
+        "T McGarry",
+        "M Biniecka",
+        "DJ Veale",
+        "U Fearon"
+      ]
+    },
+    {
+      "title": "Halide peroxidase in tissues that interact with bacteria in the host squid Euprymna scolopes",
+      "authors": [
+        "AL Small",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "NO means 'yes' in the squid-vibrio symbiosis: nitric oxide (NO) during the initial stages of a beneficial association",
+      "authors": [
+        "SK Davidson",
+        "TA Koropatnick",
+        "R Kossmehl",
+        "L Sycuro",
+        "MJ McFall-Ngai"
+      ]
+    },
+    {
+      "title": "Effects of long-term space flight on erythrocytes and oxidative stress of rodents",
+      "authors": [
+        "AM Rizzo",
+        "PA Corsetto",
+        "G Montorfano",
+        "S Milani",
+        "S Zava",
+        "S Tavella"
+      ]
+    },
+    {
+      "title": "Skin physiology in microgravity: a 3-month stay aboard ISS induces dermal atrophy and affects cutaneous muscle and hair follicles cycling in mice",
+      "authors": [
+        "T Neutelings",
+        "BV Nusgens",
+        "Y Liu",
+        "S Tavella",
+        "A Ruggiu",
+        "R Cancedda"
+      ]
+    },
+    {
+      "title": "Structural and functional analysis of caspase active sites",
+      "authors": [
+        "D Chereau",
+        "L Kodandapani",
+        "KJ Tomaselli",
+        "AP Spada",
+        "JC Wu"
+      ]
+    },
+    {
+      "title": "Caspase levels and execution efficiencies determine the apoptotic potential of the cell",
+      "authors": [
+        "A Florentin",
+        "E Arama"
+      ]
+    },
+    {
+      "title": "Activation of executioner caspases is a predictor of progression-free survival in glioblastoma patients: a systems medicine approach",
+      "authors": [
+        "AC Murphy",
+        "B Weyhenmeyer",
+        "J Schmid",
+        "SM Kilbride",
+        "M Rehm",
+        "HJ Huber"
+      ]
+    },
+    {
+      "title": "The protein structures that shape caspase activity, specificity, activation and inhibition",
+      "authors": [
+        "P Fuentes-Prior",
+        "GS Salvesen"
+      ]
+    },
+    {
+      "title": "The apoptotic initiator caspase-8: its functional ubiquity and genetic diversity during animal evolution",
+      "authors": [
+        "K Sakamaki",
+        "K Shimizu",
+        "H Iwata",
+        "K Imai",
+        "Y Satou",
+        "N Funayama"
+      ]
+    },
+    {
+      "title": "Caspase-2 at a glance",
+      "authors": [
+        "LL Fava",
+        "FJ Bock",
+        "S Geley",
+        "A Villunger"
+      ]
+    },
+    {
+      "title": "Creating conditions similar to those that occur during exposure of cells to microgravity induces apoptosis in human lymphocytes by 5-lipoxygenase-mediated mitochondrial uncoupling and cytochrome c release",
+      "authors": [
+        "M Maccarrone",
+        "N Battista",
+        "M Meloni",
+        "M Bari",
+        "G Galleri",
+        "P Pippia"
+      ]
+    },
+    {
+      "title": "Upregulation of erythropoietin receptor in UT-7/EPO cells inhibits simulated microgravity-induced cell apoptosis",
+      "authors": [
+        "LX Zou",
+        "SY Cui",
+        "J Zhong",
+        "ZC Yi",
+        "Y Sun",
+        "YB Fan"
+      ]
+    },
+    {
+      "title": "Ordering the cytochrome c-initiated caspase cascade: hierarchical activation of caspases-2, -3, -6, -7, -8, and -10 in a caspase-9-dependent manner",
+      "authors": [
+        "EA Slee",
+        "MT Harte",
+        "RM Kluck",
+        "BB Wolf",
+        "CA Casiano",
+        "DD Newmeyer"
+      ]
+    },
+    {
+      "title": "Apoptosome-Independent Activation of the Lysosomal Cell Death Pathway by Caspase-9",
+      "authors": [
+        "M Gyrd-Hansen",
+        "T KFarkas",
+        "N Fehrenbacher",
+        "L Batholm",
+        "M Høyer-Hansen",
+        "F Elling"
+      ]
+    },
+    {
+      "title": "Depressed light emission by symbiotic Vibrio fischeri of the sepiolid squid Euprymna scolopes",
+      "authors": [
+        "KJ Boettcher",
+        "EG Ruby"
+      ]
+    },
+    {
+      "title": "Guidelines for the care and welfare of cephalopods in research -a consensus based on an initiative by CephRes, FELASA and the Boyd Group",
+      "authors": [
+        "G Fiorito",
+        "A Affuso",
+        "J Basil",
+        "A Cole",
+        "P de Girolamo",
+        "L D'Angelo"
+      ]
+    },
+    {
+      "title": "Anesthetic Efficacy of Magnesium Chloride and Ethyl Alcohol in Temperate Octopus and Cuttlefish Species",
+      "authors": [
+        "LA Abbo",
+        "NE Himebaugh",
+        "LM DeMelo",
+        "RT Hanlon",
+        "RJ Crook"
+      ]
+    },
+    {
+      "title": "Development and validation of a plasma-based melanoma biomarker suitable for clinical use",
+      "authors": [
+        "R Van Laar",
+        "M Lincoln",
+        "B Van Laar"
+      ]
+    },
+    {
+      "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+      "authors": [
+        "RC Edgar"
+      ]
+    },
+    {
+      "title": "Kumar A, Rani M, Khatoon H. Protein adaptations in extremophiles: An insight into extremophilic connection of mycobacterial proteome. Article in Seminars in Cell and Developmental Biology. 2018.",
+      "authors": []
+    },
+    {
+      "title": "SMART: recent updates, new developments and status in 2020",
+      "authors": [
+        "I Letunic",
+        "S Khedkar",
+        "P Bork"
+      ]
+    },
+    {
+      "title": "CDD: NCBI's conserved domain database",
+      "authors": [
+        "A Marchler-Bauer",
+        "MK Derbyshire",
+        "NR Gonzales",
+        "S Lu",
+        "F Chitsaz",
+        "LY Geer"
+      ]
+    },
+    {
+      "title": "InterProScan 5: genome-scale protein function classification",
+      "authors": [
+        "P Jones",
+        "D Binns",
+        "HY Chang",
+        "M Fraser",
+        "W Li",
+        "C McAnulla"
+      ]
+    },
+    {
+      "title": "Gasteiger E, Hoogland C, Gattiker A, Duvaud S, Wilkins MR. Protein identification and analysis tools on the ExPASy server. In: Walker JM, editor. The Proteomics Protocols Handbook: Humana Press; 2005.",
+      "authors": []
+    },
+    {
+      "title": "Sievers F, Higgins DG. Clustal omega. Curr Protoc Bioinformatics. 2014;48:3 13 1–6",
+      "authors": []
+    }
+  ],
+  "original_title": "Modeled microgravity alters apoptotic gene expression and caspase activity in the squid-vibrio symbiosis",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/489b8db90bda/12866_2022_2614_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/fe7ce49864aa/12866_2022_2614_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/30b7a2218d3f/12866_2022_2614_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/7711f3d7b55b/12866_2022_2614_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/c3a080ecc502/12866_2022_2614_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/890c82044db2/12866_2022_2614_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/1396d44632a3/12866_2022_2614_Fig7_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/55ba/9389742/abe797219162/12866_2022_2614_Fig8_HTML.jpg"
+  ]
+}

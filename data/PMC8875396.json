@@ -1,0 +1,896 @@
+{
+  "pmcid": "PMC8875396",
+  "title": "Genomic Characterization of the Titan-like Cell Producing Naganishia tulchinskyi, the First Novel Eukaryote Isolated from the International Space Station",
+  "abstract": "Multiple strains of a novel yeast belonging to genus Naganishia were isolated from environmental surfaces aboard the International Space Station (ISS). These strains exhibited a phenotype similar to Titan cell (~10 µm diameter) morphology when grown under a combination of simulated microgravity and 5% CO2 conditions. Confocal, scanning, and transmission electron microscopy revealed distinct morphological differences between the microgravity-grown cells and the standard Earth gravity-grown cells, including larger cells and thicker cell walls, altered intracellular morphology, modifications to extracellular fimbriae, budding, and the shedding of bud scars. Phylogenetic analyses via multi-locus sequence typing indicated that these ISS strains represented a single species in the genus Naganishia and were clustered with Naganishia diffluens. The name Naganishia tulchinskyi is proposed to accommodate these strains, with IF6SW-B1T as the holotype. The gene ontologies were assigned to the cell morphogenesis, microtubule-based response, and response to UV light, suggesting a variety of phenotypes that are well suited to respond to microgravity and radiation. Genomic analyses also indicated that the extracellular region, outer membrane, and cell wall were among the highest cellular component results, thus implying a set of genes associated with Titan-like cell plasticity. Finally, the highest molecular function matches included cytoskeletal motor activity, microtubule motor activity, and nuclear export signal receptor activity.",
+  "introduction": "1. Introduction\n\nThe genus Naganishia was resurrected from Cryptococcus and emended to accommodate the albidus clade of Filobasidiales, Tremellomycetes, and Basidiomycota. The genus Naganishia contains the following species as legitimate in MycoBank: N. adeliensis, N. albida, N. albidosimilis, N. antarctica, N. bhutanensis, N. brisbanensis, N. cerealis, N. diffluens, N. friedmannii, N. globosa, N. indica, N. liquefaciens, N. nivalis, N. onofrii, N. qatarensis, N. randhawae, N. uzbekistanensis, N. vaughanmartiniae, and N. vishniacii. However, the addition of N. floricola made the list a total of 20 Naganishia species, but several of these members were yet to be validly described. In an ongoing Microbial Tracking experiment on the International Space Station (ISS), six yeast strains belonging to the family Tremellomycetes were isolated, and whole-genome sequences (WGS) were generated. Some of the Naganishia species that were phylogenetically related to these ISS strains, which were reported to be psychrophilic or psychrotolerant species, isolated from Antarctica, also reported that the ISS Naganishia species might also display properties related to cold adaptation and an increase in radiation resistance. In addition, Naganishia species were also isolated from a variety of ecosystems, such as water, soil, tree trunk, air, Alpine glaciers, cheese, cereals, and human specimens.\n\nMembers of the Cryptococcus species, from which Naganishia species have recently been separated, were reported to possess unique virulence factors associated with the pathogenesis. The morphological transformation of normal Cryptococcus cells into giant (Titan) cells was one of the factors contributing to cryptococcosis (an inhalation acquired infection). It was also reported that titanization was unique to the Cryptococcus neoformans/C. gattii species complex, and not found in other budding basidiomycetous yeasts or in the ascomycetous yeast Saccharomyces cerevisiae, when grown under similar growth conditions. However, occasional enlarged cells have been reported in Cryptococcus terreus. The ISS Naganishia strains exhibited Titan-like cells, a phenotype similar to the C. neoformans/C. gattii species complex, when the ISS isolates were grown under simulated microgravity conditions.\n\nOne of the objectives of this study was to characterize the Titan-like cells of the novel Naganishia species isolated from the ISS environment. The microscopy analyses revealed the presence of Titan-like giant cells with abnormal morphology when Naganishia species were subjected to several stressors, including a combination of hypoxic 5% CO2 and simulated ISS microgravity conditions. The second objective of this study was to utilize WGS for annotation in order to aid in the identification of genetic determinants related to cold adaptation and radiation resistance in N. tulchinskyi. The third objective was to determine the phylogenetic novelty of the ISS Naganishia strains (n = 4) using microscopy and taxonomic affiliation based on multi-locus sequence typing (MLST) analyses, which included a seven gene concatenated (ITS, LSU, SSU, CYTB, RPB1, RPB2, TEF1) phylogeny.",
+  "methods": "2. Materials and Methods\n\n2.1. Sample Collection and Isolation of Microorganisms\n\nDuring the flight experiments of Microbial Tracking-1, several surface samples (1 m2) were collected from various ISS environmental locations. Previous publications had detailed sample collection, processing, and isolation of cultivable microorganisms from the ISS. Briefly, internal ISS surface samples were collected using polyester wipes and then transported to Earth for processing. Samples were collected just prior to departure (within 5 days) and stored at 4 °C in the ISS, transported in cold packs (~4 °C) from ISS to the Earth, hand delivered at Long Beach, California after splash down, which were then carried in ice packs (~4 °C) during ground transportation, before storing at JPL at 4 °C for further processing. Total number of days for sample storage time from sample collection to processing was ~7 days. Unless otherwise stated, all reagents were purchased from Sigma Aldrich (St. Louis, MO, USA). The materials associated with the sampling wipes were placed in 200 mL of sterile phosphate-buffered saline (PBS; pH 7.4) solution and plated onto potato dextrose agar (PDA), supplemented with chloramphenicol (100 µg/mL; v/v), to isolate fungi. Microbial colonies grown at 25 °C for 7 days were picked from the media plates, purified, and stored for further analyses. Based on internal transcribed spacer (ITS) sequencing, six yeast strains were tentatively assigned to the genus Cryptococcus, and subsequent WGS characterization revealed that two strains were identified as Papiliotrema laurentii, while four strains belonged to a yet to be described Naganishia species, making this species the first known novel eukaryote to be isolated from the ISS.\n\n2.2. Whole Genome Sequencing Analyses\n\nThe WGS used for the analyses were previously generated and published. The WGS raw data was filtered with NGS QC Toolkit v2.3 for high-quality (HQ) vector and adaptor-free reads for genome assembly (cutoff read length for HQ, 80%; cutoff quality score, 20). The number of filtered reads obtained were used for assembly with SPAdes 3.14.0 genome assembler (k-mer size—32 to 72 bases) using default parameters. Genomic DNA sequences and predicted proteomes (where available) of all other strains used in this study were downloaded from NCBI, followed by comparative analyses.\n\n2.3. Phylogenetic Analyses\n\nAmong the 20 known Naganishia species, NCBI had ITS sequences available for all the species except N. indica. The gene sequences of all available strains were retrieved from NCBI, except for the four ISS strains, which were derived from their WGS during this study. Phylogenetic analyses based on individual genes (ITS, LSU, SSU, CYTB, RPB1, RPB2, TEF1) and MLST analyses (with the seven genes) were carried out with all available Naganishia species (n = 10). The individual gene sequences for all strains were first aligned separately using ClustalW, and for MLST, seven gene sequences for each strain were concatenated manually, aligned using ClusatalW, and used to generate a Maximum Likelihood Tree using MEGA 7.0.26.\n\n2.4. Morphological Characterization under Simulated Microgravity Conditions\n\n2.4.1. Growth Conditions for Phenotypic Analyses under Different Conditions\n\nNaganishia sp. IF6SW-B1T was streaked on a Yeast extract- Peptone- Dextrose agar (1% yeast extract, 2% peptone, 2% glucose, and 1.5% agar) plate and incubated at 30 °C for 48 h. After 48 h of growth, colonies were resuspended in PBS, and the cells were enumerated using a hemocytometer. The cells were then inoculated at an initial density of 2 × 105 cells/mL in synthetic dextrose (SD) broth. Replicates (n = 3) of each yeast strain were grown under each condition tested. The cells were inoculated in three conditions; (a) the first set was inoculated in 5 mL of liquid media in a tube, incubated at 30 °C, and shaken at 150 rpm; (b) the second set was inoculated in 5 mL liquid media and incubated on a rotating platform in a CO2 incubator (5% CO2) at 30 °C; (c) the final set was grown in 10 mL of liquid media in a high aspect ratio vessels (HARV, Synthecon Inc., Houston, TX, USA) and mounted onto a vertical rotating device (at 30 rpm) to simulate microgravity conditions, these were placed in a CO2 incubator (5% CO2) at 30 °C. The CO2 level of ISS habitat is ~10× more (~4000 ppm) than at Earth conditions. Additionally, Titan cells were observed under 5% CO2 level in C. neoformans. Hence, morphological changes were characterized at this 5% CO2 level. The autoclavable HARVs provided oxygenation via a flat, silicone rubber gas transfer membrane (Synthecon Inc.). The cultures were all incubated as described for 4 days, followed by cell pelleting for further analyses.\n\nThe biochemical and physiological characterizations were characterized by employing BioLog Yeast plates, as described elsewhere. Briefly, 4-days grown colonies in PDA plates were collected in sterile distilled water aseptically, and ~106 cells were transferred into the BioLog Yeast plates (BioLog Inc., Hayward, CA, USA) and incubated at 25 °C for 7 days. The change in coloration and oxidation/assimilation profiles of 94 different carbon sources were documented by visual examination. The clear positive and negatives were scored in 7 days incubation, and delayed reaction (weak) was documented by examining the tetrazolium violet color change after 14 days incubation. Further incubation and observation after 30 days period of time did not yield any difference in results compared to those that were observed at day 7.\n\n2.4.2. Confocal Microscopy\n\nYeast cell samples grown under the three conditions described above were fixed in 4% paraformaldehyde (PFA) in PBS for 15 min at 4 °C. These cells were gently pelleted by centrifugation for 5 min at 3500 rpm, and cells were rinsed 3× with sterile PBS. Subsequent processing steps were carried out in the dark, where samples were covered with aluminum foil and protected from the light. Cell pellets were resuspended in 15 µM Calcofluor White and incubated for 1 h at 37 °C. Samples were then rinsed and pelleted as previously mentioned but with distilled H2O. After the third rinse, samples were pelleted again, and the pellet was resuspended with 1 µM TO-PRO®-3 (Fisher Scientific, Los Angeles, CA, USA) and incubated for 30 min at room temperature. Samples were further rinsed and pelleted, as previously mentioned, using distilled H2O. The resuspended samples were filtered through a 0.2 µM 25 mm Isopore Membrane Filter (GTBP) using a filter manifold. This membrane was removed, placed on a microscope slide, and a drop of antifade was added to the top. A coverslip was placed, and then, the edges were sealed. The samples were viewed using a Zeiss LSM 880 upright laser scanning confocal microscope and an Alpha Plan-APOCHROMAT 63× lens (Zeiss, Oberkochen, Germany). Yeast cell size and cell wall thickness were analyzed using ImageJ.\n\n2.4.3. Scanning Electron Microscopy\n\nYeast cells grown under various conditions were preserved using 4% paraformaldehyde (PFA) in PBS for scanning electron microscopy (SEM) and transmission electron microscopy (TEM). Following the concentration, cells were immersed in a chilled 4% PFA and incubated at 4 °C for 10 min before the PFA was removed and washed in PBS buffer. Fixed cells were transferred into a 24-well plate, dehydrated in an isopropyl alcohol (IPA) series (50% to 100%), and stored at 4 °C. Samples were critically point dried in an Automegasamdri 915B critical point dryer (Tousimis, Rockville, MD, USA). Samples were attached to SEM stubs with carbon tape (Ted Pella Inc., Redding, CA, USA), followed by carbon coating with a Leica EM ACE600 Carbon Evaporator (Leica, Wetzlar, Germany) to a thickness of ~12 nm. SEM analysis was performed with an FEI Quanta 200F (Thermo Fisher, Waltham, MA, USA).\n\n2.4.4. Transmission Electron Microscopy\n\nTEM was performed to examine cell wall thickness variations and analyze organelles’ differences between the different environmental stressors (CO2 and simulated microgravity) induced Titan-like cells and standard cells, grown under Earth gravity, with 5% CO2 and without CO2. For TEM, yeast cells were fixed in 2% glutaraldehyde for at least one hour at 4 °C. Samples were rinsed in 0.1 M sodium cacodylate buffer, pH 7.2, and immersed in 1% osmium tetroxide with 1.6% potassium ferricyanide in 0.1 M sodium cacodylate buffer for 1 h. After rinsing, samples were polymerized at 60 °C for 24–48 h in silicon molds. Thick sections (200 nm) were cut, stained with toluidine blue, and used. Thin sections (70 nm) were collected onto formvar-coated 50 mesh copper grids. The grids were post-stained with 2% uranyl acetate, followed by Reynold’s lead citrate. The sections were imaged using a Tecnai 12 120 kV TEM (FEI, Hillsboro, OR, USA) and data were recorded using an UltraScan 1000 with Digital Micrograph 3 software (Gatan Inc., Pleasanton, CA, USA).\n\n2.4.5. Statistical Analyses\n\nAll statistical analyses were performed using GraphPad Prism version 9.1.0 (GraphPad Software, San Diego, CA, USA). Specifically, data was tested for normal distribution with the D’Agostino and Pearson normality test, followed by non-parametric ANOVA using a post-hoc Kruskal–Wallis analysis.\n\n2.5. Survey of Genes and Proteins Involved in Resistance\n\nGenes and proteins involved in cold resistance from the closely related species N. vishniacii were screened using tBLASTn and BLASTp (Table 1). Cold tolerance included genes involved in carotenoid synthesis: isopentenyl diphosphate isomerase, farnesyltransferase, farnesyl pyrophosphatase synthetase, phytoene-beta carotene synthase, NADP-cytochrome P450 reductase; genes involved in mycosporine synthesis: 2-epi-5-epi-valiolone synthase, catechol o-methyltransferase, and carbamoylphosphate synthase reported in Phaffia rhodozyma; enzymes involved in the formation and degradation of trehalose: trehalose-6-phosphate synthase component TPS1 and TPS2, alpha, alpha-trehalase NTH2, NTH1, and ATH1. Additionally, resistance related proteins for fungi were screened using sequences obtained from NCBI by using ‘microgravity’ and ‘radioresistance’ keywords. Microgravity-related proteins included: Daughter-specific expression protein 1 and 2, GPI-anchored protein 24, Chain A Flocculation protein FLO1, Chain A and B Flocculin, and Chain A proteinase K. Radioresistance proteins including sequences from the DNA repair protein rad9.\n\n2.6. De Novo Genome Annotation\n\nGene annotation on each of the six assemblies (four Naganishia tuchinskyi strains and two closely related species) was performed using MAKER. MAKER identified repeats, aligned expressed sequence tags (ESTs) and proteins to a genome, and produced ab initio gene predictions. A total of 74,830 available ESTs from closely related Naganishia species were downloaded from NCBI (Table 2) and protein sequences from six strains were downloaded from UniProt.\n\nFirstly, de novo repeat identification and masking were performed using RepeatModeler. Then, MAKER control files were generated (maker-CTL), and a first-round was run using the maker_opts.ctl control file. Data for the transcriptome assembly (EST), protein sequences (protein), and repeat annotations (rm_gff) was provided. Additionally, the model_org was set to ‘simple’ to annotate simple repeats, and inference predictions of genes directly from ESTs and protein homology were set (est2genome = 1, protein2genome = 1). Lastly, GFF and FASTA outputs were assembled together with GFF3toolkit.\n\nNext, we predicted genes using the gene models generated with MAKER by training SNAP and Augustus using BUSCO. For SNAP, we used models with an AED of 0.25 or better and a length of 50 or more amino acids. To train Augustus, we excised regions that contain mRNA annotations based on our initial MAKER run, with 1000 bp on each side, as described.\n\nTo run BUSCO, the Eukaryota set of conserved genes was used. The -m genome option was specified to provide regions that included more than just transcripts. The initial HMM model selected was Cryptococcus, which corresponded to the closest genus of Naganishia (augustus_species = cryptococcus). The long option was set to optimize self-training Augustus.\n\nFollowing the BUSCO run, the second round of MAKER was performed using the SNAP and Augustus models. For this purpose, FASTA sequence files were replaced with GFF files (est_gff, protein_gff, and rm_gff), and est2genome and protein2genome were switched to 0. The third run of MAKER was performed, and the gene models were evaluated by counting the number of gene models and the gene lengths after each round and running BUSCO using the transcript sequences (-m transcriptome).\n\n2.7. Functional Annotation\n\nPredicted protein sequences generated by MAKER were analyzed using InterProScan v5.51–85.0 with default parameters. Functional annotations assigned by InterProScan per protein sequence were converted into collections of Gene Ontology (GO) terms using BLAST2GO with default parameters. All assigned GO terms per protein were aggregated and visualized using the REVIGO web tool with the “tiny” similarity cutoff (0.4) searched against the Saccharomyces cerevisiae S288C database and using the SimRel measurement of similarity. Visualizations were generated using the code provided by REVIGO and using R3.6.3.\n\n2.8. Data Availability\n\nThe WGS and raw data have been deposited in GenBank under the BioProject accession number PRJNA623412. The genome sequences have also been deposited in the National Aeronautics and Space Administration (NASA) GeneLab system (GLDS-290; ; accessed on 5 December 2021). In addition to the WGS, we performed amplicon sequencing the ITS region from each strain, and their accession numbers are given below. Naganishia IF6SW-B1 (KY218715.1); Naganishia IF1SW-F1 (KY218664.1); Naganishia IF7SW-B1 (KY218717.1); Naganishia IIF5SW-F1 (KY218695.1).",
+  "results": "3. Results and Discussion\n\nSeveral yeast strains belonging to the Naganishia (Cryptococcus) diffluens clade of Filobasidiales were isolated from two different flight collection experiments conducted aboard the ISS. These strains, referred to as IF6SW-B1T, IF7SW-B1, IF1SW-F1, and IIF5SW-F1, were isolated from four different ISS locations and identified to be novel species belonging to the genus Naganishia, based on genomic characterization via polyphasic taxonomic approaches. The sampling of ISS surfaces, performed for this study, took place within the US on-orbit segments. Sampling campaign (denoted as I) was carried out on 4 March 2015, and the second one (denoted as II) was conducted on 15 May 2015. Samples collected during this study were: Node 3 (Locations #1, #2, and #3), Node 1 (Locations #4 and #5), Permanent Multipurpose Module (Location #6), U.S. Laboratory (Location #7), and Node 2 (Locations #8 and control). A detailed description of the various locations sampled was published elsewhere. Strains IF6SW-B1, IF7SW-B1, and IF1SW-F1, were isolated during first sampling from Locations 6, 7, and 1, respectively. Strain IIF5SW-F1 was isolated from second sampling at Location 5.\n\n3.1. Phylogenetic Analyses of Novel ISS Strains\n\nTo confirm that these four ISS strains form a novel species, their phylogenetic affiliations were analyzed with other species belonging to the genus Naganishia. The MycoBank database documented 19 Naganishia species, and the CBS database showed only 11 Naganishia species. The gene sequences available on NCBI for Naganishia species (n = 10) were used to generate phylogenetic maximum likelihood trees with C. neoformans CBS 132 strain as an outgroup.\n\nPhylogenetic analyses were carried out using seven genes: internal transcribed spacer (ITS) region rRNA gene, D1/D2 domain of large subunit (LSU or 26S) rRNA gene, small subunit (SSU or 18S) rRNA gene, and housekeeping genes, including two subunits of RNA polymerase II (RPB1 and RPB2), translation elongation factor 1-α (TEF1), and cytochrome b (CYTB), which were used for differentiating Tremellomycetes species. The respective gene sequences that were available on NCBI for different Naganishia species were included in the phylogenetic analyses. In addition, genomes of closely related members from Tremellomycetes (Goffeauzyma gastricus CBS 2288 (AF145323.1), Heterocephalacria arrabidensis CBS 8678 (AF444362.2), Piskurozyma cylindrica CBS 8680 (AF444360.1), Solicoccozyma aerius CBS155 (AF145324.1), and Tremella mesenterica CBS 6973 (AF444433.1)) were included with Cryptococcus neoformans CBS 132 (AF444326.1) as the outgroup.\n\nInitially, seven individual phylogenetic trees using ITS, LSU, SSU, CTYB, RPB1, RPB2, and TEF1 genes were generated and are presented in Supplemental Figures S1–S7. When tested individually, the phylogenetic analyses generated based on individual gene, formed a single group for all four ISS strains. There were no significant variations in ITS, LSU, and SSU gene sequences (Figure S3), whereas the other four genes (CYTB, RPB1, RPB2, and TEF1) invariably exhibited higher resolution in differentiating all the Naganishia species. The ITS tree (Supplemental Figure S1) showed that the ISS strains were placed at the same position of the three recognized species, N. diffluens, N. liquefaciens and N. albidosimilis. ITS sequences of the four ISS isolates showed 100% similarity to the sequence of N. albidosimilis CBS 7711T (AF145325), N. liquefaciens CBS 968T (AF444345), and N. diffluens CBS 160T (AF145330). However, ITS sequences of N. vishniacii CBS 7110T shared 97.84% similarity (13 bp difference to GenBank accession no. AF145320.), N. uzbekistanensis CBS 8683T had 97.55% similarity (14 bp difference to GenBank accession no. AF444339), and N. adeliensis CBS 8351T exhibited 97.34% similarity (14 bp difference to GenBank accession no. AF145328) with ISS isolates (Supplemental Figure S1). In the LSU tree (Supplemental Figure S2), the four ISS strains were placed at the same position that phylogenetically distinguished from N. albida, N. adeliensis, N. vishniacii, and N. albidosimilis with low bootstrap support. Comparing the LSU sequences of these ISS strains with closely related species showed a 97.71% similarity to N. albida (type strain, CBS 142; 14 different base pairs; GenBank accession no. AF075474), 96.41% similarity to N. albidosimilis (type strain, CBS 1926; 22 different base pairs; GenBank accession no. AF137601), 96.25% similarly to N. liquefaciens (type strain, CBS 968; 23 different base pairs; GenBank accession no. AF181515), and 95.92% similarity to N. diffluens (type strain, CBS 160; 25 different base pairs; GenBank accession no. AF075502) (Supplemental Figure S2). The taxonomic threshold predicted to discriminate basidiomycetous yeast species is 99.51% in the LSU region and 99.21% in the ITS region. Hence, the sequence data and phylogenetic analysis of the LSU regions of the ISS isolates confirm they belong to a new species in the genus Naganishia (order Filobasidiales). The SSU tree (Supplemental Figure S3) demonstrated that these four strains were not separated from any of the recognized species.\n\nThe other phylogenetic trees based on CYTB, RPB1, RPB2, and TEF1 grouped the ISS strains together, and the closest neighbor was identified as N. diffluens. Subsequently, MLST was carried out by manually concatenating the seven genes (Figure 1). The MLST phylogenetic tree constructed showed the four ISS strains clustered together in the same clade with N. diffluens CBS 160T (Figure 1). The individual gene-based and MLST tree-based analyses both further supported the finding that the four ISS strains belong to the same species which is closely related to, but separate from, N. diffluens. This suggested that the four ISS strains were novel species of the genus Naganishia. All four strains were isolated during different flights and sampling sessions at various locations, suggesting that these isolates are not clonal but persisting in the ISS environment. The ecological significance of this finding, in the closed system aboard the ISS warrants, further study. The genomes of four ISS strains were sequenced, draft genome was assembled, annotated, and the results were published elsewhere. The genome size was ~19.4 Mbp with GC content between 53–56%, similar to other members of the genus Naganishia.\n\n3.2. Titan-like Cell Characterization of Novel ISS Strains\n\nIF6SW-B1T strain was grown under culture conditions similar to those used for titanization of C. neoformans, and analyzed using a variety of microscopy techniques. Cell size and cell wall thickness were determined using Calcofluor White stain (Figure 2), Titan-like cell morphology using SEM (Figure 3), and cell wall structure using TEM (Figure 4). The Calcofluor White Stain (Figure 2A) binds with chitin contained within cell walls, and once triggered by its excitation wavelength (380 nm), the stain fluoresces and emits blue light at 475 nm. Bright-field images were captured alongside Calcofluor White images to show cell distribution and confirm successful Calcofluor White staining, while Calcofluor White micrographs were used to measure the size of the cells and their thickness (Figure 2A). Figure 2B shows the cell size in diameter (µm) under various growth conditions, whereas Figure 2C depicts the cell wall thickness. The size of the cells grown under standard Earth gravity conditions and in the presence of 5% CO2 with standard Earth gravity ranged from 2.5 µm to 6 µm; however, the cells grown under 5% CO2 were statistically significantly larger (p ≤ 0.05). When the strain was grown under 5% CO2 and simulated microgravity (µG) conditions, the cell size increased at least two to three times in size (4 µm to 13 µm; mean increased size of ~10 µm) and was statistically significantly larger than both the standard gravity control (p ≤ 0.0001) and the 5% CO2 treatment (p ≤ 0.0001) (Figure 2B). There was no statistical difference for cell wall thickness between the standard gravity control and the 5% CO2 grow cells (ns). However, the cell wall thickness was two to three-times larger when cells were grown under simulated microgravity conditions compared with the other two culture conditions (0.55 µm and 0.40–0.39 µm, respectively), these findings were statistically significant (p ≤ 0.0001) (Figure 2C).\n\nThe budding scars in IF6SW-B1T strain seemed to exhibit normal bipolar budding pattern when grown under standard gravity (Figure 3A) and when grown and exposed to 5% CO2 with standard Earth gravity (Figure 3B). However, when the strain is grown under simulated microgravity and 5% CO2 conditions, multilateral budding is seen (Figure 3C,D). In addition, the budding cells were not as predominant under microgravity as those grown under normal gravity conditions (Figure 3A). Finally, when the IF6SW-B1T strain was grown under 5% CO2, as well as simulated microgravity (Figure 3C,D) conditions, observations of budding cells were much less commonly observed, whereas the budding scars were evident and appeared to take up a larger proportional area on the yeast cell surface. The budding scars under simulated microgravity conditions range in morphology and size from 2–3 µm raised prominences extending 1–2 µm from the cell surface to large flat raised rings up to 5 µm in diameter (Figure 3C,D). Despite these morphological differences, microgravity grown yeast cells were viable when re-streaked onto a PDA plate. Comparatively, the number of viable cells was less when grown under 5% CO2 and simulated microgravity compared to the other standard atmosphere and gravity conditions (data not shown). These results suggested that the cells were defective in cytoskeleton formation, which might limit the formation of viable daughter cells. Cell wall structure analysis was then performed for the IF6SW-B1T strain using TEM data. A simple comparison of the cell wall thickness of the cells grown under standard Earth gravity (Figure 4A,B) with simulated microgravity (Figure 4E, F) conditions exhibited enormous size (~5×) differences and substantiated the confocal microscopy-based measurements.\n\nComparison of confocal, SEM, and TEM (Figure 2, Figure 3 and Figure 4) between the three different conditions indicated that the µG grown Titan-like cells were much larger and exhibited irregular morphologies, including the novel discovery of peeling and shedding bud scars (Figure 3D, Figure 4E, and Figure S8A–G). Indeed, a large majority of the disfigurement and abnormal cell morphology appeared to be associated with the surface location where daughter cell replication occurred (Figure 3C,D and Figure S8A–C). Further analyses of TEM images emphasized the differences between the growth conditions, with µG grown cells showing large structural alterations within the intracellular space, having thicker cell walls, and a decrease in the amount of surface-associated fimbria (Figure 4E,F). Fimbria have been shown to play roles in both biofilm formation and pathogenesis; thus, the modifications seen in µG grown cell fimbria could alter both biofilm formation and pathogenesis. The increased cell wall thickness of the µG grown cells could impart resistance to osmotic shock or add protection against radiation exposure. These structural alterations seen in TEM are a direct stress response to the microgravity and elevated CO2 conditions, and they could possibly serve to benefit (or hinder) the yeast cell’s survivability in the spaceflight environment.\n\nAdditionally, the µG grown cells showed irregular intracellular organization with what appears to be large unknown membrane bound compartments/structures (Figure 4E). The function and content of these structures is still unclear, and it is currently unknown if these are vacuole or lysome-like vacuoles (Figure 4E). Previous reports have shown that some yeast can produce large numbers of compounds that are subsequently stored in vacuoles, while other yeast can utilize these large storage vesicles to degrade a large variety of substances. Increased vacuole size could suggest a larger assortment and or quantity of nutrients being degraded by the Titan-like cells than by the standard gravity grown cells. Additionally, research has shown that portions of vacuoles can be passed to daughter cells. Thus, it is possible that simulated microgravity induced compounds contained in the vacuoles may be passed to their progeny. Much further work is needed to better identify novel structures within the Titan-like cells, categorize the specific modifications that are occurring to organelles within the cells, determine how each of the cellular modifications alters the cells’ survivability in extreme environments (pH ranges, temperature ranges, osmotic shock, radiation exposure, etc.), and determine if these traits are passed on to their progeny.\n\nCryptococcus species have been shown to produce enlarged Titan-like cells to adapt to stress and contribute to Cryptococcus pathogenesis. Both functions may also be of relevance for these ISS strains. The polyploidy nature of the yeast cells should be investigated as this might shed insights into the adaptation of these cells to microgravity conditions. Even though confocal microscopy measurements and increased fluorescence content in the microgravity-grown cells were documented, analysis of the nucleic acid reads of heterozygous regions of the genomes and a comparison of the ratios for the various alleles is needed to confirm the polyploidy nature of these cells. It is documented in C. neoformans that the enlarged polyploid Titan-like cells were able to generate progeny with aneuploidy. It was additionally found that the progeny of these Titan-like cells have both growth and survival advantages over typical cell progeny under stressful conditions. Further gene characterizations are required to understand the molecular mechanisms associated with adaptation of novel IF6SW-B1T yeast to space conditions.\n\nWhile recent studies suggest that titanization is a rare phenomenon that occurs mostly in members of the C. neoformans/C. gattii species complex, the observation of Titan-like cells in ISS Naganishia species is novel. Understanding how microgravity influences this process is important to predict the emergence of virulence in Naganishia species and develop novel antifungal drugs. These antifungal drugs can be developed to inhibit the phenotypic transitions associated with fungal pathogenicity, especially since these strains were isolated across longitudinal sampling sessions of the ISS and appear persistent. Titanization and the increasing of cell size has been shown to aide Cryptococcus cells evade the immune system. By growing from the normal range of ~1 to 3 μm in diameter to >10 μm, Titan cells cannot be readily ingested by phagocytic cells and, thus, persist in host tissue. Moreover, our data show that Titan-like cells are more likely to survive and produce offspring, when confronted by multiple environmental stress conditions, than typical cells. Additionally, their normally sized offspring maintained an advantage over regular cells in continued exposure to stress. Titan-like cell progeny’s increased survival and genomic diversity might promote rapid adaptation to new or high-stress space conditions; however, more research is needed to confirm this aspect.\n\n3.3. Genomic Analyses of the Novel ISS Strain\n\nUsing BLAST, genes in ISS Naganishia species were compared to known genes that conferred resistance to cold, microgravity, and radiation (Table 1), as well as pigment biosynthesis. The reference genes were a compilation of NCBI queries and previously reported genes related to the spaceflight-related characteristics (Table 1). In addition to our four N. tulchinskyi strains, N. vishniacii (Antarctica strain), Papiliotrema laurentii (ISS isolates), and Saccharomyces cerevisiae (space flown strain) were included for comparison. A total of 24 genes aligned to one or more of the assemblies. Genes related to pigment synthesis and radioresistance were among the most prevalent, while genes associated with microgravity were mostly exclusive of S. cerevisiae.\n\nProteome prediction was performed with MAKER to determine biotechnologically important genetic elements in the four novel Naganishia strains. Protein-coding genes were then assigned gene ontologies (GO) using InterProScan (Figure 5) and passed through REVIGO to summarize GO assignments and remove redundant terms (Figure S1). In total, 4894 protein-coding genes were predicted from the assembled draft genomes, which comprised 128 scaffolds (Supplemental Table S1). A total of 86, 47, and 89 top ontological hits were assigned, respectively, for Biological Process, Cellular Component, and Molecular Function (Table S1), ranked by ontological uniqueness of term with respect to all other terms cataloged in UniProt. Top Biological Processes include cell morphogenesis, microtubule-based response, and response to UV light, reflecting a repertoire that was suited to respond to microgravity and radiation (Figure 5 and Figure S2). The extracellular region, outer membrane, and cell wall were top cellular component results, implying a set of genes associated with Titan-like cell plasticity. Finally, the top molecular function hits included cytoskeletal motor activity, microtubule motor activity, and nuclear export signal receptor activity. Changing these molecular mechanisms can alter the shape of cells, and in fungi, morphological changes in response to environmental stimuli have been reported and mostly attributed to pathogenesis. The highest ontological hits revealed the presence of protein coding genes that might provide insights into the underlying origins of Titan-like cells in N. tulchinskyi. However, more studies are necessary to depict the mechanisms and role of titanization in microgravity.\n\nThe ability of Naganishia species to grow at low temperatures and withstand high doses of UV radiation in extreme environments has led to the ongoing microbial characterization of this genus; however, there are currently only a few genomes publicly available. Unlike the S. cerevisiae genome, which has been extensively studied, the genomic characterization of the Naganishia clade is still in its infancy. The presence of reported genes related to cold resistance, radiation tolerance, and microgravity (Table 1) in ISS strains might indicate the potential of the novel N. tulchinskyi to better withstand the ISS or spaceflight-related conditions. However, only a few genes associated with microgravity have been identified. It has been reported that the RAD51, RAD54, and RDH54 genes seen in ISS strains also play critical roles in C. neoformans to repair gamma-radiation induced DNA damage.\n\nAdditionally, high carotenoid concentration has been correlated with an increased resistance of the cells against freeze damage, environmental stress, and radiation protection, all of which are notable features of the extremophile Deinococcus radiodurans. Biomolecules responsible for the pigment biosynthesis, such as geranylgeranyl diphosphate synthase, cytochrome P450 reductase, farnesyl pyrophosphate synthase, isopentenyl-diphosphate delta isomerase, alpha, alpha-trehalase NTH2, and NTH1, putative trehalose-phosphate synthase Tps2 were present in all strains of Naganishia and S. cerevisiae (Table 1). It has been well documented that carotenoids can efficiently protect the skin from UV-light induced damages, scavenging singlet oxygen and peroxyl radicals. The microbiological synthesis of carotenoids, significance, and biotechnological relevance were extensively reviewed. The phytoene-beta carotene synthase (pbs) was present only in ISS strains but not found in S. cerevisiae. More research is needed here since biosynthesis of tetraterpenoids and pbs involvement in microorganisms is still poorly understood.\n\n3.4. Taxonomy\n\nNovel species: Naganishia tulchinskyi, N. K. Singh and K. Venkateswaran, sp. nov.\n\nMycoBank number: MB838832.\n\nEtymology: Naganishia tulchinskyi (tul.chin. s’ky.i. N.L. gen. n. tulchinskyi named after Igor Tulchinsky, an American Philanthropist supporting biomedical, computational, and space research).\n\nDiagnosis: Based on the morphological characteristics, strains IF6SW-B1T, IF7SW-B1, IF1SW-F1, and IIF5SW-F1 are similar to N. albida group, but phylogenetically distant from all known Naganishia species. Hyphae and pseudohyphae were not present, sexual reproduction was not observed, budding cells were present and ballistoconidia were absent.\n\nType strain: IF6SW-B1T.\n\nHolotype: USA: International Space Station surfaces, March 15, 2015. Nitin K. Singh and Kasthuri Venkateswaran, ex-type living culture (IF6SW-B1T) was preserved in a metabolically inactive state at the Northern Regional Research Laboratory (NRRL 64202) and at the Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSM 113487).\n\nDescription: In PDA medium after 5 days at 25 °C, the cells are round, ovoid to ellipsoidal, 4.1 ± 0.97 μm and occur singly with polar budding. When grown under simulated microgravity at 30 °C, cells are ~3 times larger and formed Titan-like cells (Figure 2). After incubation at 25 °C, the streak culture on PDA agar is butyrous and cream colored, with a smooth surface and an entire margin. Growth occurs at 4, 25, and 30 °C and not at 35 °C on nutrient medium.\n\nBiochemical characteristics: Differential biochemical characteristics of N. tulchinskyi with other closely related Naganishia species are shown in Table 3. N. tulchinskyi strains are able to assimilate D-Arabinose, D-Ribose, L-Sorbose, D-Mannitol, α-D-Glucose, L-Arabinose, Salicin, D-Trehalose, Maltose, D-Xylose, Sucrose, D-Cellobiose, Succinic Acid Mono-Methyl Ester, D-Xylose, and Palatinose as sole carbon source. N. tulchinskyi cells did not utilize Cellobiose, Arbutin, D-Galactose, Glycerol, Hexadecane, L-Malic acid, L-Rhamnose, Lactose, Mannitol, Melezitose, Methyl a-glucoside, Myo-inositol, Raffinose, Xylitol, Citrate, Melibiose, Meso erythritol, Glucono D-lactone, Inulin, and N-acetyl D-glucosamine as sole carbon source. N. tulchinskyi cells assimilate D-arabinose and can be differentiated from N. friedmannii, N. saitoi, N. globosa. Similarly, several carbon substrates are differentially utilized by N. tulchinskyi and are detailed in Table 3.\n\nEcology/Substrate/Host: Distinct Naganishia yeast colonies (n = 4) were isolated over two separate sample collection flights from three different locations. The type strain IF6SW-B1T and two other strains (IF7SW-B1 and IF1SW-F1) were isolated during Flight 1 (March 2015), while the fourth strain (IIF5SW-F1) was isolated during Flight 2 (May 2015). Strain IF6SW-B1T was isolated from a rack that contained crew clothes, crew preference items, office supplies, and ISS medical accessory kits (Location #6, Permanent Multipurpose Module Port 1). The second strain IF7SW-B1 was isolated from a rack being used for basic materials research in the microgravity environment of the ISS (Location #7, Overhead-3 panel surface of the Materials Science Research Rack 1). The third strain IF1SW-F1 was isolated from a viewing port in a small module devoted to the observation of operations outside the ISS, such as robotic activities, spacecraft approaches, and extravehicular activities (Location #1, Port panel of the Cupola). The fourth strain IIF5SW-F1 was the only strain in this study isolated during Flight 2, and it was cultivated from a storage rack made up of Nomex fabrics and used as a pantry to store batteries, printer cartridges, office supplies, etc. (Location #5, Overhead-4, Node 1, US module).\n\nDistribution: This novel species has yet to be found in any samples from other Earth environments.\n\nMaterial examined: The particulate matter associated with 1 m2 surface area of the ISS environmental surfaces was examined.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Naganisha tulchinskyi",
+    "yeast",
+    "International Space Station",
+    "phylogenetic analyses",
+    "Titan-like cells",
+    "simulated microgravity",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Naganishia qatarensis sp. nov., a novel basidiomycetous yeast species from a hypersaline marine environment in Qatar",
+      "authors": [
+        "R. Fotedar",
+        "A. Kolecka",
+        "T. Boekhout",
+        "J.W. Fell",
+        "A. Anand",
+        "A. Al Malaki",
+        "A. Zeyara",
+        "M. Al Marri"
+      ]
+    },
+    {
+      "title": "Phylogeny of tremellomycetous yeasts and related dimorphic and filamentous basidiomycetes reconstructed from multiple gene sequence analyses",
+      "authors": [
+        "X.Z. Liu",
+        "Q.M. Wang",
+        "B. Theelen",
+        "M. Groenewald",
+        "F.Y. Bai",
+        "T. Boekhout"
+      ]
+    },
+    {
+      "title": "Biodiversity and systematics of basidiomycetous yeasts as determined by large-subunit rDNA D1/D2 domain sequence analysis",
+      "authors": [
+        "J.W. Fell",
+        "T. Boekhout",
+        "A. Fonseca",
+        "G. Scorzetti",
+        "A. Statzell-Tallman"
+      ]
+    },
+    {
+      "title": "Systematics of basidiomycetous yeasts: A comparison of large subunit D1/D2 and internal transcribed spacer rDNA regions",
+      "authors": [
+        "G. Scorzetti",
+        "J.W. Fell",
+        "A. Fonseca",
+        "A. Statzell-Tallman"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A.C. Sielaff",
+        "C. Urbaniak",
+        "G.B.M. Mohan",
+        "V.G. Stepanov",
+        "Q. Tran",
+        "J.M. Wood",
+        "J. Minich",
+        "D. McDonald",
+        "T. Mayer",
+        "R. Knight"
+      ]
+    },
+    {
+      "title": "Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station",
+      "authors": [
+        "S. Bijlani",
+        "N.K. Singh",
+        "C.E. Mason",
+        "C.C.C. Wang",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "A Taxonomic Study of Antarctic Yeasts",
+      "authors": [
+        "S. Goto",
+        "J. Sugiyama",
+        "H. Iizuka"
+      ]
+    },
+    {
+      "title": "Cryptococcus antarcticus sp. nov. and Cryptococcus albidosimilis sp. nov., Basidioblastomycetes from Antarctic Soils",
+      "authors": [
+        "H.S. Vishniac",
+        "C.P. Kurtzman"
+      ]
+    },
+    {
+      "title": "Cryptococcus friedmannii, a New Species of Yeast from the Antarctic",
+      "authors": [
+        "H.S. Vishniac"
+      ]
+    },
+    {
+      "title": "Cryptococcus vishniacii sp. nov., an Antarctic Yeast",
+      "authors": [
+        "H.S. Vishniac",
+        "W.P. Hempeling"
+      ]
+    },
+    {
+      "title": "Cryptococcus vaughanmartiniae sp. nov. and Cryptococcus onofrii sp. nov.: Two new species isolated from worldwide cold environments",
+      "authors": [
+        "B. Turchetti",
+        "L. Selbmann",
+        "R.A. Blanchette",
+        "S. Di Mauro",
+        "E. Marchegiani",
+        "L. Zucconi",
+        "B.E. Arenz",
+        "P. Buzzini"
+      ]
+    },
+    {
+      "title": "Chapter 74—Discussion of teleomorphic and anamorphic genera of heterobasidiomycetous yeasts",
+      "authors": [
+        "T. Boekhout",
+        "R.J. Bandoni",
+        "J.W. Fell",
+        "K.J. Kwon-Chung",
+        "C.P. Kurtzman",
+        "J.W. Fell"
+      ]
+    },
+    {
+      "title": "Chapter 138—Cryptococcus Vuillemin (1901)",
+      "authors": [
+        "Á. Fonseca",
+        "T. Boekhout",
+        "J.W. Fell",
+        "C.P. Kurtzman",
+        "J.W. Fell",
+        "T. Boekhout"
+      ]
+    },
+    {
+      "title": "Cryptococcus randhawai sp. nov., a novel anamorphic basidiomycetous yeast isolated from tree trunk hollow of Ficus religiosa (peepal tree) from New Delhi, India",
+      "authors": [
+        "Z.U. Khan",
+        "S. Ahmad",
+        "F. Hagen",
+        "J.W. Fell",
+        "T. Kowshik",
+        "R. Chandy",
+        "T. Boekhout"
+      ]
+    },
+    {
+      "title": "Psychrophilic yeasts in glacial environments of Alpine glaciers",
+      "authors": [
+        "B. Turchetti",
+        "P. Buzzini",
+        "M. Goretti",
+        "E. Branda",
+        "G. Diolaiuti",
+        "C. D’Agata",
+        "C. Smiraglia",
+        "A. Vaughan-Martini"
+      ]
+    },
+    {
+      "title": "Cryptococcus cerealis sp. nov. a psychrophilic yeast species isolated from fermented cereals",
+      "authors": [
+        "V. Passoth",
+        "A.C. Andersson",
+        "M. Olstorpe",
+        "B. Theelen",
+        "T. Boekhout",
+        "J. Schnürer"
+      ]
+    },
+    {
+      "title": "Fungaemia due to Cryptococcus laurentii as a complication of immunosuppressive therapy—A case report",
+      "authors": [
+        "K. Furman-Kuklinska",
+        "B. Naumnik",
+        "M. Mysliwiec"
+      ]
+    },
+    {
+      "title": "First Report of a Case of Meningitis Caused by Cryptococcus adeliensis in a Patient with Acute Myeloid Leukemia",
+      "authors": [
+        "D. Rimek",
+        "G. Haase",
+        "A. Lück",
+        "J. Casper",
+        "A. Podbielski"
+      ]
+    },
+    {
+      "title": "Polyploid titan cells produce haploid and aneuploid progeny to promote stress adaptation",
+      "authors": [
+        "A.C. Gerstein",
+        "M.S. Fu",
+        "L. Mukaremera",
+        "Z. Li",
+        "K.L. Ormerod",
+        "J.A. Fraser",
+        "J. Berman",
+        "K. Nielsen"
+      ]
+    },
+    {
+      "title": "The Cryptococcus neoformans Titan cell is an inducible and regulated morphotype underlying pathogenesis",
+      "authors": [
+        "I.M. Dambuza",
+        "T. Drake",
+        "A. Chapuis",
+        "X. Zhou",
+        "J. Correia",
+        "L. Taylor-Smith",
+        "N. LeGrave",
+        "T. Rasmussen",
+        "M.C. Fisher",
+        "T. Bicanic"
+      ]
+    },
+    {
+      "title": "Titan cell formation is unique to Cryptococcus species complex",
+      "authors": [
+        "M. Dyląg",
+        "R.J. Colon-Reyes",
+        "L. Kozubowski"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+      "authors": [
+        "A. Checinska",
+        "A.J. Probst",
+        "P. Vaishampayan",
+        "J.R. White",
+        "D. Kumar",
+        "V.G. Stepanov",
+        "G.E. Fox",
+        "H.R. Nilsson",
+        "D.L. Pierson",
+        "J. Perry"
+      ]
+    },
+    {
+      "title": "NGS QC Toolkit: A toolkit for quality control of next generation sequencing data",
+      "authors": [
+        "R.K. Patel",
+        "M. Jain"
+      ]
+    },
+    {
+      "title": "SPAdes: A new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A. Bankevich",
+        "S. Nurk",
+        "D. Antipov",
+        "A.A. Gurevich",
+        "M. Dvorkin",
+        "A.S. Kulikov",
+        "V.M. Lesin",
+        "S.I. Nikolenko",
+        "S. Pham",
+        "A.D. Prjibelski"
+      ]
+    },
+    {
+      "title": "MEGA7: Molecular Evolutionary Genetics Analysis Version 7.0 for Bigger Datasets",
+      "authors": [
+        "S. Kumar",
+        "G. Stecher",
+        "K. Tamura"
+      ]
+    },
+    {
+      "title": "Titan cells formation in Cryptococcus neoformans is finely tuned by environmental conditions and modulated by positive and negative genetic regulators",
+      "authors": [
+        "B. Hommel",
+        "L. Mukaremera",
+        "R.J.B. Cordero",
+        "C. Coelho",
+        "C.A. Desjardins",
+        "A. Sturny-Leclère",
+        "G. Janbon",
+        "J.R. Perfect",
+        "J.A. Fraser",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Development of a phenotypic assay for characterisation of ethanologenic yeast strain sensitivity to inhibitors released from lignocellulosic feedstocks",
+      "authors": [
+        "D. Greetham",
+        "T. Wimalasena",
+        "D.W. Kerruish",
+        "S. Brindley",
+        "R.N. Ibbett",
+        "R.L. Linforth",
+        "G. Tucker",
+        "T.G. Phister",
+        "K.A. Smart"
+      ]
+    },
+    {
+      "title": "NIH Image to ImageJ: 25 years of image analysis",
+      "authors": [
+        "C.A. Schneider",
+        "W.S. Rasband",
+        "K.W. Eliceiri"
+      ]
+    },
+    {
+      "title": "Unique genomic traits for cold adaptation in Naganishia vishniacii, a polyextremophile yeast isolated from Antarctica",
+      "authors": [
+        "P. Nizovoy",
+        "N. Bellora",
+        "S. Haridas",
+        "H. Sun",
+        "C. Daum",
+        "K. Barry",
+        "I.V. Grigoriev",
+        "D. Libkind",
+        "L.B. Connell",
+        "M. Moline"
+      ]
+    },
+    {
+      "title": "Comparative genomics provides new insights into the diversity, physiology, and sexuality of the only industrially exploited tremellomycete: Phaffia rhodozyma",
+      "authors": [
+        "N. Bellora",
+        "M. Moliné",
+        "M. David-Palma",
+        "M.A. Coelho",
+        "C.T. Hittinger",
+        "J.P. Sampaio",
+        "P. Gonçalves",
+        "D. Libkind"
+      ]
+    },
+    {
+      "title": "MAKER: An easy-to-use annotation pipeline designed for emerging model organism genomes",
+      "authors": [
+        "B.L. Cantarel",
+        "I. Korf",
+        "S.M. Robb",
+        "G. Parra",
+        "E. Ross",
+        "B. Moore",
+        "C. Holt",
+        "A.S. Alvarado",
+        "M. Yandell"
+      ]
+    },
+    {
+      "title": "UniProt: The universal protein knowledgebase in 2021",
+      "authors": []
+    },
+    {
+      "title": "RepeatModeler",
+      "authors": [
+        "R.H.A. Smit"
+      ]
+    },
+    {
+      "title": "The GFF3toolkit: QC and Merge Pipeline for Genome Annotation",
+      "authors": [
+        "M.M. Chen",
+        "H. Lin",
+        "L.M. Chiang",
+        "C.P. Childers",
+        "M.F. Poelchau"
+      ]
+    },
+    {
+      "title": "Gene finding in novel genomes",
+      "authors": [
+        "I. Korf"
+      ]
+    },
+    {
+      "title": "AUGUSTUS: Ab initio prediction of alternative transcripts",
+      "authors": [
+        "M. Stanke",
+        "O. Keller",
+        "I. Gunduz",
+        "A. Hayes",
+        "S. Waack",
+        "B. Morgenstern"
+      ]
+    },
+    {
+      "title": "BUSCO: Assessing Genome Assembly and Annotation Completeness",
+      "authors": [
+        "M. Seppey",
+        "M. Manni",
+        "E.M. Zdobnov"
+      ]
+    },
+    {
+      "title": "Maker_Genome_Annotation.md",
+      "authors": [
+        "D. Card"
+      ]
+    },
+    {
+      "title": "Expression of the carotenoid biosynthesis genes in Xanthophyllomyces dendrorhous",
+      "authors": [
+        "P. Lodato",
+        "J. Alcaíno",
+        "S. Barahona",
+        "M. Niklitschek",
+        "M. Carmona",
+        "A. Wozniak",
+        "M. Baeza",
+        "A. Jiménez",
+        "V. Cifuentes"
+      ]
+    },
+    {
+      "title": "Cloning of the cytochrome p450 reductase (crtR) gene and its involvement in the astaxanthin biosynthesis of Xanthophyllomyces dendrorhous",
+      "authors": [
+        "J. Alcaino",
+        "S. Barahona",
+        "M. Carmona",
+        "C. Lozano",
+        "A. Marcoleta",
+        "M. Niklitschek",
+        "D. Sepulveda",
+        "M. Baeza",
+        "V. Cifuentes"
+      ]
+    },
+    {
+      "title": "Functional characterization of the Xanthophyllomyces dendrorhous farnesyl pyrophosphate synthase and geranylgeranyl pyrophosphate synthase encoding genes that are involved in the synthesis of isoprenoid precursors",
+      "authors": [
+        "J. Alcaíno",
+        "I. Romero",
+        "M. Niklitschek",
+        "D. Sepúlveda",
+        "M.C. Rojas",
+        "M. Baeza",
+        "V. Cifuentes"
+      ]
+    },
+    {
+      "title": "Expression of an exogenous isopentenyl diphosphate isomerase gene enhances isoprenoid biosynthesis in Escherichia coli",
+      "authors": [
+        "S. Kajiwara",
+        "P.D. Fraser",
+        "K. Kondo",
+        "N. Misawa"
+      ]
+    },
+    {
+      "title": "Life with 6000 genes",
+      "authors": [
+        "A. Goffeau",
+        "B.G. Barrell",
+        "H. Bussey",
+        "R.W. Davis",
+        "B. Dujon",
+        "H. Feldmann",
+        "F. Galibert",
+        "J.D. Hoheisel",
+        "C. Jacq",
+        "M. Johnston"
+      ]
+    },
+    {
+      "title": "The nucleotide sequence of Saccharomyces cerevisiae chromosome IV",
+      "authors": [
+        "C. Jacq",
+        "J. Alt-Mörbe",
+        "B. Andre",
+        "W. Arnold",
+        "A. Bahr",
+        "J.P. Ballesta",
+        "M. Bargues",
+        "L. Baron",
+        "A. Becker",
+        "N. Biteau"
+      ]
+    },
+    {
+      "title": "The genome sequence of Schizosaccharomyces pombe",
+      "authors": [
+        "V. Wood",
+        "R. Gwilliam",
+        "M.A. Rajandream",
+        "M. Lyne",
+        "R. Lyne",
+        "A. Stewart",
+        "J. Sgouros",
+        "N. Peat",
+        "J. Hayles",
+        "S. Baker"
+      ]
+    },
+    {
+      "title": "Alternative splicing of transcripts from crtI and crtYB genes of Xanthophyllomyces dendrorhous",
+      "authors": [
+        "P. Lodato",
+        "J. Alcaino",
+        "S. Barahona",
+        "P. Retamales",
+        "V. Cifuentes"
+      ]
+    },
+    {
+      "title": "Unraveling Fungal Radiation Resistance Regulatory Networks through the Genome-Wide Transcriptome and Genetic Analyses of Cryptococcus neoformans",
+      "authors": [
+        "K.-W. Jung",
+        "D.-H. Yang",
+        "M.-K. Kim",
+        "H.S. Seo",
+        "S. Lim",
+        "Y.-S. Bahn"
+      ]
+    },
+    {
+      "title": "Schizosaccharomyces malidevorans and Sz. octosporus homologues of Sz. pombe rad9, a gene that mediates radioresistance and cell-cycle progression",
+      "authors": [
+        "H.B. Lieberman",
+        "K.M. Hopkins"
+      ]
+    },
+    {
+      "title": "Mercury induced modifications in the stereochemistry of the active site through Cys-73 in a serine protease—Crystal structure of the complex of a partially modified proteinase K with mercury at 1.8 A resolution",
+      "authors": [
+        "S. Gourinath",
+        "M. Degenhardt",
+        "S. Eschenburg",
+        "K. Moore",
+        "L.J. Delucas",
+        "C. Betzel",
+        "T.P. Singh"
+      ]
+    },
+    {
+      "title": "Structure of a serine protease proteinase K from Tritirachium album limber at 0.98 A resolution",
+      "authors": [
+        "C. Betzel",
+        "S. Gourinath",
+        "P. Kumar",
+        "P. Kaur",
+        "M. Perbandt",
+        "S. Eschenburg",
+        "T.P. Singh"
+      ]
+    },
+    {
+      "title": "The mannose-specific lectin domains of Flo1p from Saccharomyces cerevisiae and Lg-Flo1p from S. pastorianus: Crystallization and preliminary X-ray diffraction analysis of the adhesin-carbohydrate complexes",
+      "authors": [
+        "F.S. Ielasi",
+        "P. Goyal",
+        "M. Sleutel",
+        "A. Wohlkonig",
+        "R.G. Willaert"
+      ]
+    },
+    {
+      "title": "Cloning and characterisation of the rad9 DNA repair gene from Schizosaccharomyces pombe",
+      "authors": [
+        "J.M. Murray",
+        "A.M. Carr",
+        "A.R. Lehmann",
+        "F.Z. Watts"
+      ]
+    },
+    {
+      "title": "Complete nucleotide sequence of Saccharomyces cerevisiae chromosome VIII",
+      "authors": [
+        "M. Johnston",
+        "S. Andrews",
+        "R. Brinkman",
+        "J. Cooper",
+        "H. Ding",
+        "J. Dover",
+        "Z. Du",
+        "A. Favello",
+        "L. Fulton",
+        "S. Gattung"
+      ]
+    },
+    {
+      "title": "Role of interactions between SpoIIAA and SpoIIAB in regulating cell-specific transcription factor sF of B. subtilis",
+      "authors": [
+        "B. Diederich",
+        "J.F. Wilkinson",
+        "T. Magnin",
+        "S.M.A. Najafi",
+        "J. Errington",
+        "M. Yudkin"
+      ]
+    },
+    {
+      "title": "The diploid genome sequence of Candida albicans",
+      "authors": [
+        "T. Jones",
+        "N.A. Federspiel",
+        "H. Chibana",
+        "J. Dungan",
+        "S. Kalman",
+        "B.B. Magee",
+        "G. Newport",
+        "Y.R. Thorstenson",
+        "N. Agabian",
+        "P.T. Magee"
+      ]
+    },
+    {
+      "title": "InterProScan 5: Genome-scale protein function classification",
+      "authors": [
+        "P. Jones",
+        "D. Binns",
+        "H.Y. Chang",
+        "M. Fraser",
+        "W. Li",
+        "C. McAnulla",
+        "H. McWilliam",
+        "J. Maslen",
+        "A. Mitchell",
+        "G. Nuka"
+      ]
+    },
+    {
+      "title": "Blast2GO: A universal tool for annotation, visualization and analysis in functional genomics research",
+      "authors": [
+        "A. Conesa",
+        "S. Götz",
+        "J.M. García-Gómez",
+        "J. Terol",
+        "M. Talón",
+        "M. Robles"
+      ]
+    },
+    {
+      "title": "REVIGO Summarizes and Visualizes Long Lists of Gene Ontology Terms",
+      "authors": [
+        "F. Supek",
+        "M. Bošnjak",
+        "N. Škunca",
+        "T. Šmuc"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "N.K. Singh",
+        "J.M. Wood",
+        "F. Karouia",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "A Serratia marcescens OxyR homolog mediates surface attachment and biofilm formation",
+      "authors": [
+        "R.M. Shanks",
+        "N.A. Stella",
+        "E.J. Kalivoda",
+        "M.R. Doe",
+        "D.M. O’Dee",
+        "K.L. Lathrop",
+        "F.L. Guo",
+        "G.J. Nau"
+      ]
+    },
+    {
+      "title": "Capsule and fimbria interaction in Klebsiella pneumoniae",
+      "authors": [
+        "M.A. Schembri",
+        "J. Blom",
+        "K.A. Krogfelt",
+        "P. Klemm"
+      ]
+    },
+    {
+      "title": "The yeast lysosome-like vacuole: Endpoint and crossroads",
+      "authors": [
+        "S.C. Li",
+        "P.M. Kane"
+      ]
+    },
+    {
+      "title": "Structure and function of the yeast vacuole and its role in autophagy",
+      "authors": [
+        "M. Thumm"
+      ]
+    },
+    {
+      "title": "Yeast vacuole inheritance and dynamics",
+      "authors": [
+        "L.S. Weisman"
+      ]
+    },
+    {
+      "title": "Cryptococcal cell morphology affects host cell interactions and pathogenicity",
+      "authors": [
+        "L.H. Okagaki",
+        "A.K. Strain",
+        "J.N. Nielsen",
+        "C. Charlier",
+        "N.J. Baltes",
+        "F. Chrétien",
+        "J. Heitman",
+        "F. Dromer",
+        "K. Nielsen"
+      ]
+    },
+    {
+      "title": "Titan cells in Cryptococcus neoformans: Cells with a giant impact",
+      "authors": [
+        "O. Zaragoza",
+        "K. Nielsen"
+      ]
+    },
+    {
+      "title": "Titan cell production enhances the virulence of Cryptococcus neoformans",
+      "authors": [
+        "J.N. Crabtree",
+        "L.H. Okagaki",
+        "D.L. Wiesner",
+        "A.K. Strain",
+        "J.N. Nielsen",
+        "K. Nielsen"
+      ]
+    },
+    {
+      "title": "InterProScan: Protein domains identifier",
+      "authors": [
+        "E. Quevillon",
+        "V. Silventoinen",
+        "S. Pillai",
+        "N. Harte",
+        "N. Mulder",
+        "R. Apweiler",
+        "R. Lopez"
+      ]
+    },
+    {
+      "title": "Fungal Cell Gigantism during Mammalian Infection",
+      "authors": [
+        "O. Zaragoza",
+        "R. García-Rodas",
+        "J.D. Nosanchuk",
+        "M. Cuenca-Estrella",
+        "J.L. Rodríguez-Tudela",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Draft Genome Sequence of Naganishia liquefaciens Strain N6, Isolated from the Japan Trench",
+      "authors": [
+        "Y.-W. Han",
+        "R. Kajitani",
+        "H. Morimoto",
+        "M. Palihati",
+        "Y. Kurokawa",
+        "R. Ryusui",
+        "B. Argunhan",
+        "H. Tsubouchi",
+        "F. Abe",
+        "S. Kajiwara"
+      ]
+    },
+    {
+      "title": "Draft Genome Sequence of the Oleaginous Yeast Cryptococcus albidus var",
+      "authors": [
+        "S. Vajpeyi",
+        "K. Chandran"
+      ]
+    },
+    {
+      "title": "Functional profiling of the Saccharomyces cerevisiae genome",
+      "authors": [
+        "G. Giaever",
+        "A.M. Chu",
+        "L. Ni",
+        "C. Connelly",
+        "L. Riles",
+        "S. Véronneau",
+        "S. Dow",
+        "A. Lucau-Danila",
+        "K. Anderson",
+        "B. André"
+      ]
+    },
+    {
+      "title": "Proteomics and genomics of microgravity",
+      "authors": [
+        "H.L. Nichols",
+        "N. Zhang",
+        "X. Wen"
+      ]
+    },
+    {
+      "title": "Yeast genomic expression patterns in response to low-shear modeled microgravity",
+      "authors": [
+        "K.B. Sheehan",
+        "K. McInnerney",
+        "B. Purevdorj-Gage",
+        "S.D. Altenburg",
+        "L.E. Hyman"
+      ]
+    },
+    {
+      "title": "Carotenoids are used as regulators for membrane fluidity by Staphylococcus xylosus",
+      "authors": [
+        "W. Seel",
+        "D. Baust",
+        "D. Sons",
+        "M. Albers",
+        "L. Etzbach",
+        "J. Fuss",
+        "A. Lipski"
+      ]
+    },
+    {
+      "title": "Carotenoid Pigmentation in Antarctic Heterotrophic Bacteria as a Strategy to Withstand Environmental Stresses",
+      "authors": [
+        "M. Dieser",
+        "M. Greenwood",
+        "C.M. Foreman"
+      ]
+    },
+    {
+      "title": "Oxidative Stress Resistance in Deinococcus radiodurans",
+      "authors": [
+        "D. Slade",
+        "M. Radman"
+      ]
+    },
+    {
+      "title": "Survival of Deinococcus radiodurans against laboratory-simulated solar wind charged particles",
+      "authors": [
+        "I.G. Paulino-Lima",
+        "E. Janot-Pacheco",
+        "D. Galante",
+        "C. Cockell",
+        "K. Olsson-Francis",
+        "J.R. Brucato",
+        "G.A. Baratta",
+        "G. Strazzulla",
+        "T. Merrigan",
+        "R. McCullough"
+      ]
+    },
+    {
+      "title": "Carotenoids and UV protection",
+      "authors": [
+        "H. Sies",
+        "W. Stahl"
+      ]
+    },
+    {
+      "title": "Carotenoids and Some Other Pigments from Fungi and Yeasts",
+      "authors": [
+        "A. Rapoport",
+        "I. Guzhova",
+        "L. Bernetti",
+        "P. Buzzini",
+        "M. Kieliszek",
+        "A.M. Kot"
+      ]
+    },
+    {
+      "title": "Deregulation of phytoene-β-carotene synthase results in derepression of astaxanthin synthesis at high glucose concentration in Phaffia rhodozyma astaxanthin-overproducing strain MK19",
+      "authors": [
+        "L. Miao",
+        "S. Chi",
+        "M. Wu",
+        "Z. Liu",
+        "Y. Li"
+      ]
+    }
+  ],
+  "original_title": "Genomic Characterization of the Titan-like Cell Producing Naganishia tulchinskyi, the First Novel Eukaryote Isolated from the International Space Station",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ab67/8875396/1ca66803d256/jof-08-00165-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ab67/8875396/c98568e54ba0/jof-08-00165-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ab67/8875396/c5a8d1e47847/jof-08-00165-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ab67/8875396/224bf765e62c/jof-08-00165-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ab67/8875396/7a75ad80d5d8/jof-08-00165-g005.jpg"
+  ]
+}

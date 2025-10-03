@@ -1,0 +1,221 @@
+{
+  "pmcid": "PMC6321533",
+  "title": "Effects of Space Flight on Mouse Liver versus Kidney: Gene Pathway Analyses",
+  "abstract": "Understanding genome wide, tissue-specific, and spaceflight-induced changes in gene expression is critical to develop effective countermeasures. Transcriptome analysis has been performed on diverse tissues harvested from animals flown in space, but not the kidney. We determined the genome wide gene expression using a gene array analysis of kidney and liver tissue from mice flown in space for 12 days versus ground based control animals. By comparing the transcriptome of liver and kidney from animals flown in space versus ground control animals, we tested a unique hypothesis: Are there common gene expression pathways activated in multiple tissue types in response to spaceflight stimuli? Although there were tissue-specific changes, both liver and kidney overexpressed genes in the same four areas: (a) cellular responses to peptides, hormones, and nitrogen/organonitrogen compounds; (b) apoptosis and cell death; (c) fat cell differentiation and (d) negative regulation of protein kinase.",
+  "introduction": "1. Introduction\n\nTranscriptome and proteasome analysis has been performed on diverse tissues harvested from several animal species flown in space. Many gene and gene pathway changes associated with changes due to the diverse stimuli of spaceflight have been identified: microgravity, radiation exposure, reduction, and reduction of convection, to say nothing about the effects of launch, maneuvers, and landing.\n\nBy analyzing the transcriptome of liver and kidney from animals flown in space versus ground control animals, we can test a unique hypothesis: Are there tissue specific gene expression pathways activated in individual tissue types in response to spaceflight stimuli? For pathways that are common, do the same genes predominate, or is the distribution of contributing pathway specific genes differ? Using liver and kidney harvested from the same mice after spaceflight and identically housed ground controls, direct comparison can be made between tissues without confounding effects of sex, strain, species, and age, while minimizing differences in microbiome and epigenetics.\n\nThe mice flew on space shuttle flight STS-108, also known as Utilization Flight 1 (UF-1), to the International Space Station. Data were not published immediately due to a laboratory loss occurred during Hurricane Katrina. We present the data now because contemporary analysis methods can be applied to this unique data set to directly address unanswered but relevant questions.",
+  "methods": "4. Materials and Methods\n\n4.1. Reagents\n\nAll reagents were purchased from Sigma Inc. (St. Louis, MO, USA), unless otherwise noted.\n\n4.2. Spaceflight Conditions and Ground Based Controls.\n\nWorking in collaboration with NASA Ames Research Center and Bioserve Space Technologies, female C57BL/6J mice were housed in the animal enclosure module (AEM) with special food bars, redundant lixit water supply, and a waste management system. The experiment consisted of six AEMs each with eight mice per AEM. On the space shuttle, three AEMs flew and three served as ground controls. The protocol was reviewed by the Ames IACUC (that served as the Flight IACUC) and was approved on 8 August 2001. The title of protocol was “Investigation of osteoprotegerin as a treatment for spaceflight induced osteopenia on UF-1:STS-108:CBT M-01 payload” and the protocol number was 01-028A-1.\n\nThe mice were in space for 11 days and 19 hours. Animals were removed from the space shuttle, released from the AEMs, euthanized, kidney and liver tissues harvested as rapidly as practical, and snapped frozen in liquid nitrogen. In each group, eight mice were analyzed. The animals were controls in a study conducted by Amgen, after review by NASA Kennedy Space Center’s Institutional Animal Care and Use Committee. The present study examines used tissues discarded from Amgen’s studies and therefore did not undergo separate review by the committee.\n\n4.3. RNA Extraction\n\nSamples were transferred to pre-chilled tubes that contained 10 microliters of RNAseOUT (400 U) (Life Technologies, Carlsbad, CA). Added to the tubes and tissues was 3 mL of Trizol homogenized on ice. RNA was extracted using our standard protocol. RNA purity was confirmed by the ratio of OD260 nm to OD 280 nm, which averaged 1.7 and 1.8, and by 1% agarose gel electrophoresis with 18S and 28S ribosomal bands corresponding to sizes on a ladder.\n\n4.4. Gene Arrays\n\nGene arrays were performed on Affymetrix (Santa Clara, CA, USA) GeneChip® Murine Genome U95Av2.1 (MG-U95Av2.1) set arrays. This array contains transcript coverage of the mouse genome to study the expression level of more than 60,000 murine genes and expressed sequence tags, including ~12,000 sequences characterized in terms of function or disease association. Hybridization controls included bioB, bioC, bioD, and cre. Poly A controls were dap, lys, phe, thr, and trp. Housekeeping/control genes were glyceraldehyde 3-phosphate dehydrogenase, beta-actin, transferrin receptor, and interferon-stimulated gene factor-3. Gene arrays were performed at the Medical College of Georgia.\n\n4.5. Data Analysis and Statistics\n\nAffymetrix Gene Chip microarray data underwent strict quality control processing using the affy package in Bioconductor in the R statistical programming environment. Log-scale Robust Multiarray Analysis was used for normalization to eliminate systematic differences across the arrays. Significant differentially expressed genes were identified using a linear regression model with an empirical Bayes method for parameter estimation from the limma package in the Bioconductor. The False Discovery Rate method was employed to control for multiple hypothesis testing.\n\nTo perform GSEA, we used Gene Ontology (GO) pathway gene sets found at the Molecular Signatures Database. The DNA microarray data was compared between space flown and ground control tissues and analyzed as to whether the majority of genes in a set fell in the extremes of the list: the top (overexpressed) and bottom (underexpressed) of the list, corresponding to the largest differences in expression between the two conditions. If the gene set was significantly overexpressed or underexpressed, it was taken to be related to phenotypic differences.\n\n4.6. Gene Ontology (GO) Enrichment Analysis\n\nWe obtained gene ontology annotations of murine genes using ClueGO. ClueGO is a Cytoscape plug-in that visualizes the non-redundant biological terms for large clusters of genes in a functionally grouped network. ClueGO network is created with kappa statistics and reflects the relationships between the terms based on the similarity of their associated genes.\n\nGO biological processes that were too specific (containing less than five genes) or too general (containing greater than 300 genes) were excluded from the analysis.\n\nGiven a query set of genes, we used the hyper geometric test to obtain a P value, estimating the significance with which the set is enriched with genes annotated to a given biological process, relative to a gene universe defined as the set of genes with usable data for both static and rotating conditions.\n\n4.7. Cytoscape Analysis Using ClueGO\n\nWe visualized GO enrichment results with enrichment maps that were generated using an approach similar to the Enrichment Map Cytoscape Plugin v1.1. In contrast to the plugin, the nodes in each map were clustered with Markov cluster (inflation = 2), using the overlap coefficient computed by the plugin as the similarity metric (coefficients less than 0.5 were set to zero). Nodes in the same cluster were assigned the same node color and a cluster label was determined based on common themes in the processes within the cluster.",
+  "results": "2. Results\n\n2.1. Gene Arrays\n\nLiver and kidney tissues showed similar gene response to spaceflight. Figure 1 shows responses of 12,489 genes in liver versus kidney, expressed as a fold change in space flown versus ground controls, as analyzed by Affymetrix hybridization, along with representative heat maps for the two tissues. (Fold change, average expression, t scores, p-values, and adjusted p values for each gene can be found in Supplementary Table S1.) Of note, CYP4A1 was increased in space-flown liver, whereas over 20 other CYP genes did not change.\n\n2.2. Gene Set Enrichment Analysis (GSEA)\n\nGene Set Enrichment Analysis (GSEA) provides a computational method to determine whether an a priori defined set of genes shows statistically significant and concordant differences between spaceflight and ground controls. GSEA calculates a score for the enrichment of an entire set of genes rather than a single gene. It does not, however, require setting a cutoff, but does allow for an analysis of the complete data set and thus identifies the set of relevant genes as part of the analysis, providing a robust statistical framework. Using a modified Fisher’s exact test, the replicates are integrated into the analysis so that no data are lost.\n\nOf the 785 gene ontology (GO) pathways analyzed by GSEA, 764 trended towards concordance between liver and kidney tissue response to spaceflight (Figure 2).\n\nFurthermore, nine pathways were upregulated in the liver and downregulated in the kidney. Five of those pathways were related to T cell activation and the others were related to calcium channel, extracellular matrix structure, heart development, and hormone metabolism (see Table 1 for details). Moreover, 12 pathways were upregulated only in kidney but downregulated in liver, whereas only three of those pathways were related to peptide binding and two were related to coagulation. The others were related to amino acid metabolism, rhodopsin-like receptor, cell division, DNA packaging, Golgi compartment, and cytokinesis (see Table 2 for details).\n\nSupplementary Table S2 lists the statistical parameters including enrichment score, negative normalized enrichment score, false discovery rate, and family wise error rate for all 785 GO pathways.\n\n2.3. Cytoscape/ClueGO\n\nClueGO visualizes the interactions of gene clusters in a functionally grouped network using enrichment maps. Similar to the GSEA analysis, liver and kidney showed striking similarities in the ways that they responded to spaceflight (Figure 3 and Figure 4). Both tissues overexpressed genes in the same four areas: (a) cellular responses to peptides, hormones, and nitrogen/organonitrogen compounds; (b) apoptosis and cell death; (c) fat cell differentiation, and (d) negative regulation of protein kinase. In many cases, the exact same pathways were overexpressed in both tissues, as noted by the clusters identified with arrows in Figure 3 and Figure 4. Additional details of the genes for each node can be found in Supplementary Figures S1 and S2.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "spaceflight",
+    "microgravity",
+    "gene expression",
+    "liver",
+    "kidney",
+    "gene array",
+    "transcriptome",
+    "apoptosis",
+    "Cdkn1a",
+    "CYP4A1",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Bioconductor: Open software development for computational biology and bioinformatics",
+      "authors": [
+        "R.C. Gentleman",
+        "V.J. Carey",
+        "D.M. Bates",
+        "B. Bolstad",
+        "M. Dettling",
+        "S. Dudoit",
+        "B. Ellis",
+        "L. Gautier",
+        "Y. Ge",
+        "J. Gentry"
+      ]
+    },
+    {
+      "title": "Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation",
+      "authors": [
+        "E.M. Martinez",
+        "M.C. Yoshida",
+        "T.L. Candelario",
+        "M. Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Spaceflight Activates Autophagy Programs and the Proteasome in Mouse Liver",
+      "authors": [
+        "E.A. Blaber",
+        "M.J. Pecaut",
+        "K.R. Jonscher"
+      ]
+    },
+    {
+      "title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+      "authors": [
+        "M.J. Pecaut",
+        "X.W. Mao",
+        "D.L. Bellinger",
+        "K.R. Jonscher",
+        "L.S. Stodieck",
+        "V.L. Ferguson",
+        "T.A. Bateman",
+        "R.P. Mohney",
+        "D.S. Gridley"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on innate immune function and antioxidant gene expression",
+      "authors": [
+        "F.P. Baqai",
+        "D.S. Gridley",
+        "J.M. Slater",
+        "X. Luo-Owen",
+        "L.S. Stodieck",
+        "V. Ferguson",
+        "S.K. Chapes",
+        "M.J. Pecaut"
+      ]
+    },
+    {
+      "title": "Analysis of gene and protein expression of cytochrome P450 and stress-associated molecules in rat liver after spaceflight",
+      "authors": [
+        "T. Baba",
+        "M. Nishimura",
+        "Y. Kuwahara",
+        "N. Ueda",
+        "S. Naitoh",
+        "M. Kume",
+        "Y. Yamamoto",
+        "J. Fujita",
+        "Y. Funae",
+        "M. Fukumoto"
+      ]
+    },
+    {
+      "title": "Maintenance of liver functions in rat hepatocytes cultured as spheroids in a rotating wall vessel",
+      "authors": [
+        "L.A. Brown",
+        "L.M. Arterburn",
+        "A.P. Miller",
+        "N.L. Cowger",
+        "S.M. Hartley",
+        "A. Andrews",
+        "P.M. Silber",
+        "A.P. Li"
+      ]
+    },
+    {
+      "title": "Mechanical culture conditions effect gene expression: Gravity-induced changes on the space shuttle",
+      "authors": [
+        "T.G. Hammond",
+        "E. Benes",
+        "K.C. O’Reilly",
+        "D.A. Wolf",
+        "R.M. Linnehan",
+        "A. Taher",
+        "J.H. Kaysen",
+        "P.L. Allen",
+        "T.J. Goodwin"
+      ]
+    },
+    {
+      "title": "Gene pathways analysis of the effects of suspension culture on primary human renal proximal tubular cells",
+      "authors": [
+        "T.G. Hammond",
+        "P.L. Allen",
+        "H.H. Birdsall"
+      ]
+    },
+    {
+      "title": "Genes required for survival in microgravity revealed by genome-wide yeast deletion collections cultured during spaceflight",
+      "authors": [
+        "C. Nislow",
+        "A.Y. Lee",
+        "P.L. Allen",
+        "G. Giaever",
+        "A. Smith",
+        "M. Gebbia",
+        "L.S. Stodieck",
+        "J.S. Hammond",
+        "H.H. Birdsall",
+        "T.G. Hammond"
+      ]
+    },
+    {
+      "title": "The intrinsic factor-vitamin B12 receptor and target of teratogenic antibodies is a megalin-binding peripheral membrane protein with homology to developmental proteins",
+      "authors": [
+        "S.K. Moestrup",
+        "R. Kozyraki",
+        "M. Kristiansen",
+        "J.H. Kaysen",
+        "H.H. Rasmussen",
+        "D. Brault",
+        "F. Pontillon",
+        "F.O. Goda",
+        "E.I. Christensen",
+        "T.G. Hammond"
+      ]
+    },
+    {
+      "title": "Affy—analysis of Affymetrix GeneChip data at the probe level",
+      "authors": [
+        "L. Gautier",
+        "L. Cope",
+        "B.M. Bolstad",
+        "R.A. Irizarry"
+      ]
+    },
+    {
+      "title": "Limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "authors": [
+        "M.E. Ritchie",
+        "B. Phipson",
+        "D. Wu",
+        "Y. Hu",
+        "C.W. Law",
+        "W. Shi",
+        "G.K. Smyth"
+      ]
+    },
+    {
+      "title": "Cytoscape: A software environment for integrated models of biomolecular interaction networks",
+      "authors": [
+        "P. Shannon",
+        "A. Markiel",
+        "O. Ozier",
+        "N.S. Baliga",
+        "J.T. Wang",
+        "D. Ramage",
+        "N. Amin",
+        "B. Schwikowski",
+        "T. Ideker"
+      ]
+    },
+    {
+      "title": "ClueGO: A Cytoscape plug-in to decipher functionally grouped gene ontology and pathway annotation networks",
+      "authors": [
+        "G. Bindea",
+        "B. Mlecnik",
+        "H. Hackl",
+        "P. Charoentong",
+        "M. Tosolini",
+        "A. Kirilovsky",
+        "W.H. Fridman",
+        "F. Pages",
+        "Z. Trajanoski",
+        "J. Galon"
+      ]
+    }
+  ],
+  "original_title": "Effects of space flight on mouse liver versus kidney: Gene pathway analyses.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/72a5/6321533/7fb7398244a0/ijms-19-04106-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/72a5/6321533/3a2cd1f2daed/ijms-19-04106-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/72a5/6321533/4e7bd9c06c1f/ijms-19-04106-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/72a5/6321533/ad5e4596d643/ijms-19-04106-g004.jpg"
+  ]
+}

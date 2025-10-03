@@ -1,0 +1,753 @@
+{
+  "pmcid": "6343501",
+  "title": "The multiscale structural and mechanical effects of mouse supraspinatus muscle unloading on the mature enthesis",
+  "abstract": "The musculoskeletal system is sensitive to its loading environment; this is of particular concern under conditions such as disuse, paralysis, and extended-duration space flight. Although structural and mechanical changes to tendon and bone following paralysis and disuse are well understood, there is a pressing need to understand how this unloading affects the bone-tendon interface (enthesis); the location most prone to tears and injury. We therefore elucidated these effects of unloading in the entheses of adult mice shoulders that were paralyzed for 21 days by treatment with botulinum toxin A. Unloading significantly increased the extent of mechanical failure and was associated with structural changes across hierarchical scales. At the millimeter scale, unloading caused bone loss. At the micrometer scale, unloading decreased bioapatite crystal size and crystallographic alignment in the enthesis. At the nanometer scale, unloading induced compositional changes that stiffened the bioapatite/collagen composite tissue. Mathematical modeling and mechanical testing indicated that these factors combined to increase local elevations of stress while decreasing the ability of the tissue to absorb energy prior to failure, thereby increasing injury risk. These first observations of the multiscale effects of unloading on the adult enthesis provide new insight into the hierarchical features of structure and composition that endow the enthesis with increased resistance to failure.\n\nGraphical Abstract",
+  "introduction": "Introduction\n\nThe musculoskeletal system is sensitive to its loading environment. Mechanical forces are necessary to maintain tissue structure and composition capable of bearing loads. Loss of these forces due to disuse, paralysis, or microgravity leads to significant functional deficit in these tissues. For example, bone unloading results in rapid resorption and loss of mass, leading to decreased mechanical properties. Likewise, unloading of tendon results in decreased collagen production, stiffness, and strength. Tendon near myotendinous junction is affected in response to muscle unloading. However, little is known about how protracted unloading affects the site of load transfer between bone and tendon and the most common site of rotator cuff tears, the enthesis. Previous work has demonstrated that muscle loading is necessary for the fetal and postnatal development of the enthesis and can affect the healing of injuries to the enthesis. However, the effects of unloading on the homeostasis of the mature enthesis is not understood.\n\nThe healthy enthesis is a hierarchical composite structure optimized to efficiently transfer loads from tendon to bone to produce joint motion. At the millimeter length scale, tendon attaches to bone with a splayed morphology over a large surface area to minimize stresses. At the micrometer length scale, mineralized and unmineralized fibrocartilage interdigitate, providing a mechanism to increase the toughness of the attachment. In addition to interdigitations, gradients in mineral content, collagen orientation, and extracellular matrix composition exist across the interface to minimize stress singularities. The width of the mineral gradient, however, does not vary with muscle force, as local stresses are invariant between species and during growth. At the nanometer length scale, prior studies of the mineral gradient suggest that crystal organization and its location relative to the collagen fibrils are different in regions of high mineralization compared to regions of low mineralization. Protracted unloading has been shown to change the composition and crystallinity of the mineral crystals within the gradient of developing entheses. These changes in the structure and organization of bioapatite crystals at the enthesis in healthy and unloaded tissues can have significant effects on the tendon-to-bone attachment mechanics. However, it is not known how mineral crystal composition and organization change as a function of loading. As hierarchical structures across multiple length scales participate in load transfer at the enthesis, it is important to establish which of these are compromised as a result of unloading. This understanding will allow for the development of focused and relevant therapeutic approaches.\n\nIn this study, we investigated the effects of unloading on adult shoulders at multiple hierarchical scales. We hypothesized that unloading would result in compromised mechanics and structural modifications at the nano-, micro- and macro-scales. To test this, the shoulders of adult mice were locally paralyzed via botulinum toxin A (botox) injections. Mechanical testing, spectroscopic, and imaging techniques were employed to examine the effects of extended unloading on the enthesis across a wide range of spatial scales. Our results provide the first multiscale description of how unloading affects the adult shoulder.",
+  "methods": "Experimental Procedures\n\nSample preparation\n\nThe use of animals for this study was approved by the Animal Studies Committee at Washington University. Forty adult male CD-1 mice aged 30–34 weeks of age (Charles River labs, Wilmington, MA) were separated into two groups: control and injected. Control mice remained in normal cage activity conditions for the duration of the study. Injected mice received 2 U of botulinum toxin A (Botox; Allergan, Irvine, CA, 0.2 U/10μl) per 100 g of body weight in the left supraspinatus muscle and a matching volume of saline in the right supraspinatus muscle. A single injection maintained paralysis for the three-week duration of the study. Mice were euthanized 21 days after injection or after an equivalent period of normal cage activity. After sacrifice, the humerus-supraspinatus complexes were collected and separated for characterization by: (1) microcomputed tomography (μCT) and mechanical testing (N=12 per group), (2) Raman spectroscopy and synchrotron nano-X-ray diffraction and X-ray fluorescence (N=5 per group), or (3) μCT and scanning transmission electron microscopy-electron energy loss spectroscopy spectral imaging (TEM-EELS, N=3 per group).\n\nMillimeter-scale assay – Mechanical properties\n\nUniaxial tensile testing to determine the mechanical properties of the entheses was performed on thawed, previously fresh-frozen supraspinatus tendon-humeral head specimens (N=12 per group). Prior to mechanical testing, thawed samples were imaged by μCT in a fresh state (see Section 2.3.1). After μCT analysis, the humerus was potted in epoxy up to the humeral head to stabilize the bone. A paperclip embedded in additional epoxy was placed over the articular surface of the humeral head to minimize the risk of fracture of the growth plate. Immediately before tensile testing, the tendons were cleaned of all attached muscle by gentle scraping and secured between two layers of thin paper with a drop of cyanoacrylate adhesive before being mounted in the top clamp grip of custom aluminum grips. The potted bone, while hanging from the gripped tendon was lowered into the bottom grip consisting of a hollow mount with three radially placed screws. The screws were tightened to grip the potted bone while maintaining alignment with the tendon. Samples were tested in a 37 °C saline bath attached to an Instron ElectroPuls E1000 (Instron Corp., Canton, MA) fitted with a 5 lb load cell. The tendon gauge length was determined optically.\n\nThe testing protocol (WaveMatrix software, Instron Corp., Canton, MA) consisted first of a 300 mN preload followed by 5 cycles of preconditioning using a triangle waveform at 0.1 Hz with a peak strain of 1%. Tendons were returned to the baseline state and held isometrically for 150 sec before loading to failure at 0.5%/s.\n\nEstimates of the stiffness and maximum force were made from the load–displacement curves of each load-to-failure test. The stiffness of each sample was determined from the linear portion of each load–displacement curve. The linear portion was identified by adjusting a window of points within the load–deformation or stress–strain so as to maximize the R2 value for a linear-least-squares regression of the data in the window.\n\nTo determine elastic and failure material properties, force values were normalized by a tissue cross-sectional area to obtain stress. Choosing a cross-sectional area for normalization is a difficult challenge in complex systems like the tendon-bone unit. For that reason we measured 3 cross-sectional areas for all samples: the tendon minimum cross-sectional area, the footprint area, and the failure area as discussed in Section 2.3.1. Historically, the minimum tendon cross-sectional area has been used in calculating material properties for these samples. We used it here in the measure of elastic properties to provide comparison with the literature; however, when it came to the failure properties it seemed unreasonable to use this value, as the entire tendon clearly does not participate in the failure. Visual inspection after failure showed that the tendon was surrounded by an exterior sheath, which remained intact even after bony avulsion at the enthesis. This structure was included in the cross-sectional area evaluation, but not in the mechanics. This spatial relation was similarly true of the footprint area, which remained mostly undamaged during failure. Instead, we felt that it was most accurate to use an area that is known to participate fully in the failure. Any cross-sectional area chosen would have been imperfect, but we determined that this was the most accurate measurement.\n\nStrain was calculated as the displacement divided by the initial gage length. Maximum force, stiffness, strength (i.e., maximum stress), toughness, and energy-to-yield were determined from the stress-strain curves of each load-to-failure test. The energy-to-yield was defined as the total area under the stress–strain plot beginning from the point at which the tendon reached a load of 0.05 N and continuing until the yield stress was attained. The yield stress was defined as the stress value when the tangent modulus decreased to 50% of the maximum value in the load-to-failure tests. Note that yield is poorly defined in biological materials in general, and that the yield point noted by this criterion likely does not, as in metals, indicate a threshold at which inelastic deformation begins to take place. The toughness was defined as the total area under the stress–strain curve beginning at 0.05 N and continuing until this baseline value of stress was again attained. The strength was defined as the peak values on the stress–strain curves. Samples that failed either at the grip or the growth plate were excluded from analysis (exclusions: 2 Botox, 4 Saline). This resulted in a final sample size of N=10 for Botox, N=8 for Saline samples, and N=12 for Control.\n\nMicrometer-scale assays\n\nBone morphometry (microcomputed tomography)\n\nBotox, Saline, and Control group samples (N=12 per group for subsequent mechanical testing and 3 per group for subsequent TEM-EELS analysis) were prepared and scanned for micro-computed tomography (μCT) analysis using a Scanco μCT40 scanner (ScancoMedical AG, Switzerland). The humerus-suprapintus complexes and the bone was embedded in agarose and mounted such that the bone, muscle, and tendon were in line and hung loosely within the micro-computed tomography system (μCT40; ScancoMedical AG, Switzerland). Scans were performed at X-ray tube settings of 55 kV and 145 μA with an isometric resolution of 20 μm. Following the initial μCT imaging of the specimens, 12 specimens were prepared for mechanical testing followed by subsequent μCT imaging (see section 2.2), and 3 were fixed for later analysis by STEM-EELS (see section 2.4.1).\n\nUsing μCT scans, measurements were made of the minimum tendon cross-sectional area, the footprint attachment area, and the bone morphometry in the humeral head adjacent to the tendon enthesis. Minimum cross-sectional tendon area was determined from thresholded cross-sectional areas of sagittal slices through the tendon. Since the absorption coefficient of the tendon did not change significantly between samples, a single set of threshold values was selected that visually encompassed the area of the tendon. In order to measure the footprint area of the tendon, two regions of interest were selected to calculate the surface area of the tendon attachment. The first region represents the surface of the bone, contoured using the manufacturer’s semi-automated implementation of a snake contouring algorithm (Scanco, Zurich, Switzerland). The second region represents a volume that intersects the surface of the bone along the outer edge of the tendon attachment. The edge of this region was visually determined by an experienced operator as the location where the soft tissue thinned to the thickness of the periosteum. The outer surfaces of the bone and outer volume were then triangularly meshed using an implementation of the cgalsurf library in MATLAB. The triangles on the surface of the bone contained within the volume were considered as the attachment area.\n\nBone morphometry parameters such as bone volume/total volume (BV/TV), trabecular thickness (Tb.Th.), and trabecular spacing (Tb.Sp.) of the trabecular bone in the humeral head were measured using the commercial μCT analysis software of the instrument (Scanco, Zurich, Switzerland). The region of interest for bone histomorphometry was contoured by an experienced user to only include the trabecular space in slices above the growth plate but within the inner surface of the humeral head cortical bone. Bone within this volume was thresholded to a single set of values that visually covered the bone area.\n\nAfter failure, all samples exhibited a failure crater at the attachment site where the mineralized tissue was fractured during mechanical testing. Stress-strain diagrams showed a single rapid drop in stress indicating that bone avulsion occurred very rapidly as a single catastrophic event. Thus, the failure crater did not appear to widen substantially after the peak load was reached. The area of the crater was measured by reconstructing the 3D volume of the humeral head and determining the area of the crater using Image J. In Image J, the outline of the crater was drawn manually, by an experienced operator; the area enclosed by the outline was measured using the program’s built-in area measurement tool.\n\nMineral gradient width (Raman Spectroscopy)\n\nFor Raman spectroscopic analysis of the mineral gradient, freshly dissected samples were mounted in Optimal Cutting Temperature (OCT) compound, frozen at −80 °C, and sectioned to 20 μm on a cryostat (N=5 per group). Spectra were collected using a laser Raman microprobe (HoloLab Series 5000 fiberoptically coupled Raman Microscope, Kaiser Optical Systems, Inc.) using techniques described previously. A 532 nm laser was focused to a ~1 μm beam spot, delivering 10 mW of power to the surface of the sample. The scattered light was then collected as 32 4-second acquisitions in a backscattered configuration. Raman spectra were collected across the enthesis from the unmineralized to the fully mineralized region with a step size of 3–5 μm.\n\nSpectra were analyzed as previously described. Briefly, spectra were background corrected, and peaks within the spectral range 700–1200 Δcm−1 were deconvolved. The ratio of peak intensities between the ν1 P–O stretching band of hydroxylapatite (~960 Δcm−1) and the aromatic ring stretching band of phenylalanine residues in collagen (~1003 Δcm−1) were determined at each measurement position to obtain relative mineral/matrix ratios. The width of the mineral gradient was calculated from the maximum spectral mineral-to-matrix ratio divided by the slope of the gradient.\n\nFor each set of measurements across the gradient, at least 5 of the data points fell in the region of high mineralization. Levels of carbonate concentration within the mineral were determined from these five points by taking the ratio of peak heights between the carbonate peak at 1070 Δcm−1 and the phosphate peak at 960 Δcm-1. The ratios were averaged across the 5 locations for each sample.\n\nNanometer-scale assays\n\nMineral crystal imaging (transmission electron microscopy)\n\nThe nanometer-scale organization of the mineral at the enthesis was studied in 3 samples from each group. After dissection, humeral head-supraspinatus tendon complexes were fixed, embedded in Epon (Polysciences, INC., Warington, PA), and sectioned to a ~70 nm thickness using a Leica EM UC6 ultramicrotome. Sections were deposited onto copper TEM grids coated with holey carbon support film.\n\nEnthesis sections were characterized using a JEOL JEM-2100F field-emission scanning transmission electron microscope equipped with high-resolution pole piece. This instrument was operated at 200 kV with a rated point resolution of 0.23 nm and a lattice resolution of 0.1 nm. Relative positions of the detectors allowed for simultaneous acquisition of STEM high-angle annular darkfield (HAADF) images along with STEM-EELS. Bone-tendon interfaces were located using conventional TEM bright-field (BF) imaging. Each interface was then imaged using STEM-HAADF/BF, and multiple images were stitched together to produce a montage image of the entire interface. From that image, typically four ROIs for each interface were selected for STEM-HAADF/EELS spectral imaging. Only ROIs that overhung holes in the amorphous-C support film that coated the TEM grids were examined to avoid C edge signal from the support film. The STEM-EELS spectral images were obtained by collecting an EELS spectrum at each pixel within a ROI area. The areas of the ROIs ranged from 13.6×104 to 21.9×104 in total pixels (spatial resolutions between 3.0 – 5.7 nm/pixel). Each core-loss spectrum was collected with an energy dispersion of 0.3 eV/channel over the energy range 200 – 814.4 eV (2048 channels per spectrum). Raster dwell times were 2.5 s per pixel, corresponding to total acquisition times from 9.5 to 15.25 hrs per spectral image. From the core-loss spectra, the following elements were mapped using the specified absorption edge when present: C (K-edge), Ca (L2,3-edge), N (K-edge), and O (K-edge).\n\nMineral crystal X-ray analysis\n\nSample preparation\n\nFour botox samples and 5 control samples of cage activity, 56 day old, CD-1 mice (Charles River Labs) were frozen in OCT, sectioned, and deposited onto silicon nitride windows. Both XRD and XRF measurements were performed at beamline 2-ID-D of the Advanced Photon Source (Argonne National Lab) using the X-ray microprobe described elsewhere. Beam energies of 10.1 and 10.5 keV were employed for the control and botox-treated entheses, respectively. The area of attachment was positioned in the X-ray beam by observing radiographs of the specimen and translated such that the X-ray beam was at the interface between mineralized and unmineralized tissue. The beam was scanned across the attachment over a length of ~25 μm spanning the interface with XRF and XRD measurements taken every 200 and 250 nm for the control and botox-treated entheses, respectively. Exposure times for the diffraction measurements were 60–120 sec and 1–100 sec for fluorescence. This procedure was repeated three times for each sample with a spacing of 1 and 5 μm between line scans for the control and botox-treated entheses, respectively.\n\nA Vortex-EX silicon drift detector (SII Nanotechnology USA, Northridge, CA) was used to capture X-ray fluorescence signals. The Ca peak was used to determine the location of hydroxylapatite mineral. A Mar165 detector was used to record the wide-angle X-ray scattering produced by the hydroxylapatite mineral. The detector was placed at a sample-to-detector distance of ~50 mm such that the (002), (004) and unresolved (211)+(112)+(300) hydroxylapatite diffraction rings were recorded in their entirety.\n\nFluorescence analysis\n\nTo correct for variations in X-ray beam intensity, fluorescence intensity values were normalized to the incident beam fluence. Normalized fluorescence intensities from Ca were plotted as a function of position across the attachment area. The width of the gradient was determined by multiplying the slope by the highest measured Ca fluorescence intensity.\n\nDiffraction analysis: Orientation\n\nThe analysis of the diffraction data was performed as described elsewhere and summarized here. A pseudo-Voigt type curve was used to fit the shape of the hydroxylapatite (002) diffraction peak. The FWHM of the peaks in the intensity vs. azimuth plots was calculated as a measure of mineral alignment.\n\nDiffraction analysis: Residual strains\n\nThe radial position of the (002) diffraction ring, R, was determined from the location of the center of the pseudo-Voigt fit for the (002) peaks. These radial positions were then converted to d-spacings, d, using Bragg’s law. The longitudinal residual strains in the hydroxylapatite mineral were calculated from , where do is the d-spacing for the unstrained mineral.\n\nDiffraction analysis: Size and root mean square strain\n\nBroadening of the diffraction peaks is caused by instrumental and specimen (e.g., size and strain) effects. The FWHM of the (002) and (004) diffraction rings were measured from the FWHM of the pseudo-Voigt fit peaks in the direction of maximum intensity. The root mean square (RMS) strain, εrms, defined as distribution of hydroxylapatite strain in the sampled volume, and the crystal size D was calculated according to the equation:  where Δ2θ is the instrument corrected FWHM of the diffraction peak. At least two equations are needed to solve for both D and εrms, and these were obtained from the (002) and (004) peaks.\n\nStatistical Analysis\n\nOne-way analyses of variance (ANOVAs) were used to determinate statistically significant differences (defined as p<0.05) between control, saline, and botox groups. Tukey’s pairwise comparison was used to identify the significance between groups. For the synchrotron XRD data, statistical differences were determined by performing an analysis of covariance (ANCOVA) to control for the effect of the covariate position. The effects of heteroscedasticity were determined to be negligible after calculating the F statistics and finding Fmax to be less than 5.All statistical analysis was performed using Minitab18 (Minitab Inc, State College, PA). Values are reported as means ± standard deviations.\n\nGroup sizes were estimated using our previous data sets for μCT and biomechanical analyses. For an ANOVA, a power of 0.8 and a significance level of 0.05, and coefficients of variation taken from our previous data sets, a sample size of 10 per group is sufficient to detect differences between groups of 25% in stiffness and 13% in max force. This was determined to be reasonable as our previous experiments using botox during development resulted in a changes in max force of 50–87% and in stiffness of 30–66%. 15 samples per group is sufficient to measure a 14% change for BV/TV, 7% change for trabecular thickness and a 0.3% change in trabecular spacing. This was considered reasonable, as our previous botox work on developing mice showed a 33% decrease in BV/TV and a 39% decrease in Trabecular spacing. A sample size of 5 per group is sufficient to detect differences between groups of 12% in carbonate content in bone mineral. This was considered adequate as previous botox studies showed a 20% decrease in carbonate content.",
+  "results": "Results\n\nMillimeter scale: Mechanical Properties\n\nBotox-induced unloading had only marginal effects on the load-deformation behavior of the enthesis. The maximum force was unchanged between the control, botox, and saline samples (control: 5.0 ± 0.7 N, saline: 4.6 ± 0.8 N, botox: 4.1 ± 1.4 N, Fig 1A). The stiffness of the enthesis was similar among the three groups: 9.2 ± 2.9 N/mm for control samples, 9.1 ± 2.5 for saline samples, and 8.7 ± 2.0 N/mm for botox-treated samples (Fig 1B).\n\nTo determine the stresses underlying fracture of the entheses, three areas were measured before and after failure: tendon minimum cross-sectional area, attachment footprint area, and failure area. The tendon minimum cross-sectional area did not change significantly with unloading, from 0.68 ± 0.23 mm2 for control, 0.56 ± 0.33 mm2 in saline samples, and 0.44 ± 0.23 mm2 in botox samples (Fig 1C). The footprint area, which represents the area over which the tendon attaches to the humeral head, did not change significantly with unloading, from 1.39 ± 0.29 mm2 for control samples, 1.50 ± 0.19 mm2 saline samples, and 1.63 ± 0.31 mm2 in botox samples (Fig 1F).\n\nIn all cases, enthesis fracture occurred in the mineralized portion of the attachment, leading to removal of a disc-shaped plug of mineralized tissue during rupture (Fig 1G). This bone plug formation resulted in a cylindrical crater that appeared to extend through the mineralized cartilage and subchondral bone, exposing the marrow space. The failure area of the crater increased with unloading when comparing control and saline samples to botox samples. Specifically, the average failure area increased significantly from 0.19 ± 0.11 mm2 and 0.22 ± 0.13 mm2 in the control and saline samples, respectively, to 0.43 ± 0.30 mm2 in the botox samples (Fig 1H). This failure area was used for estimating stresses associated with failure.\n\nProtracted unloading had significant effects on the failure properties of the enthesis. The strength of the attachment trended towards a decrease, from 33 ± 35 MPa and 36 ± 20 MPa in the control and saline samples, respectively, to 12 ± 7 MPa in the botox-treated samples (Fig 1D). The toughness of the enthesis was significantly decreased by unloading: botox samples exhibited an average toughness of 3.6 ± 2.5 MPa compared to 12 ± 10 and 14 ± 10 MPa for the control and saline samples, respectively (Fig 1E). In contrast, energy-to-yield (the area under the stress-strain curve through the yield point) was not significantly affected by botox-induced unloading (1.3 ± 0.6, 2.2 ± 2.2, and 1.7 ± 1.4 MPa for the control, saline and botox samples, respectively).\n\nMicrometer scale: Bone morphology and mineral gradient width\n\nUnloading led to significant changes in the morphology of the humeral head, as measured by μCT. The ratio of bone volume to total volume (BV/TV) decreased with unloading compared to control samples (0.44 ± 0.08 for control samples, 0.39 ± 0.07 for saline samples, and 0.27±0.08 for botox samples; Fig. 2A). Trabecular thickness decreased with unloading compared to control samples (0.080 ± 0.004 cm for control samples, 0.070 ± 0.006 for saline samples, and 0.060 ± 0.007 mm for botox samples; Fig. 2B). Trabecular spacing increased significantly with unloading, from 0.14 ± 0.03 mm and 0.14 ± 0.02 mm in control and saline samples, respectively, to 0.16 ± 0.02 mm in botox samples (Fig 2C).\n\nTo determine the local mineral concentration along the enthesis, XRD and XRF measurements were taken at positions ranging from the unmineralized fibrocartilage to the mineralized fibrocartilage in control and unloaded samples (saline samples were not examined). The XRF signal showed that Ca levels increased monotonically across the interface from unmineralized to mineralized regions of enthesis fibrocartilage, and that the associated slope in mineral content was significantly lower in the control samples (0.07 ± 0.03 μm−1) compared to the botox samples (0.13 ± 0.01 μm−1). Further, the width of the mineral gradient was 15.1 ± 5.5 μm for the control attachments and 8.0 ± 0.5 μm for the botox-treated samples (Fig. 2D). In contrast, the Raman-determined mineral gradient width did not change with unloading: 18.7 ± 4.8, 19.2 ± 5.3, and 16.9 ± 10.8 μm for botox, saline, and control samples, respectively (Fig. 2D). These values were similar to those measured in prior studies using synchrotron and Raman spectroscopy for control samples.\n\nNanometer scale: Mineral structure, organization, and composition\n\nDiffraction patterns of the enthesis exhibited variations in azimuthal intensity for individual rings, which occur when crystals approximately share a common orientation but vary through a range of orientations. Assuming a Gaussian distribution, the FWHM of the peaks obtained by plotting this intensity as a function of azimuth for the 002 peak decreased with increased mineralization, showing that the alignment of mineral particles within the enthesis increased with increasing degree of mineralization (Fig 3A). In the low mineralization region of the control attachments, the FWHM of the intensity peaks was ~72°. It decreased quickly in the first 4 μm of the gradient before reaching a plateau of ~63°. Although noisier, the FWHM of the botox-treated attachments exhibited a similar trend. The FWHM in the low mineralization region was ~100°. This decreased quickly to a value of ~80 ° in the first 4 μm of the gradient before reaching a plateau. The FWHM of the botox-treated attachments was significantly higher than the control attachments. The FWHMs of these samples were higher than those previously reported for bovine dentin and cortical bone, 60.0° ± 1.5° and 53.8° ± 1.6°, respectively.\n\nThe mean size of the mineral crystals increased with increasing mineral content (i.e., from unmineralized to mineralized fibrocartilage, Fig. 3B) for both the control and botox-unloaded specimens. For the control samples, the length of the crystals along the c-axis increased from ~45 to ~80 nm. The botox-unloaded samples showed a similar trend, although the lengths tended to be smaller than those of the control samples (p=0.10). These values are in agreement with crystal sizes determined for bovine and chick bones and smaller than those found for dog and rat bone.\n\nThe control and botox-unloaded samples showed similar trends for the residual strain as a function of position (Fig. 3C). The residual strain in the mineral platelets along the c-axis was initially tensile, with values ~600 με in the areas of low mineralization. For the first 4 μm of the enthesis, with increasing mineral content, the residual strain became more compressive. Beyond the first few micrometers, the residual strain plateaued to a compressive value of approximately −100 με. This is lower than the residual strain of ~2000 με typically reported for bulk bone and dentin but on the order of the strains measured for thin sections of bovine dentin.\n\nThe RMS strain, which describes the distributions of strains within the sampling volume, also decreased with increased mineralization for control and botox-unloaded samples (Fig 3D). In the regions of low mineralization, the RMS strain was ~125,000 με and decreased to 90,000 με over the first 4 μm. The strain continued to decrease, but at a much slower rate, for the remainder of the enthesis width. These values are over one order of magnitude greater than the levels of RMS strain usually measured in bulk bone. A decrease in RMS strain may indicate increased crystallinity with increased mineral content or a more homogeneous crystal environment.\n\nWhen examining mineral composition, the carbonate levels in bone mineral were significantly decreased with unloading compared to the contralateral saline controls. Carbonate levels were determined from Raman microscopy by comparing the ratio of the 1070/960 Δcm−1 carbonate/phosphate peak heights, and were 0.16 ± 0.02, 0.16 ± 0.02, and 0.15 ± 0.01 for the control, saline, and botox samples, respectively (Supplementary Figure S1).\n\nThe STEM-EELS spectral images acquired at varying locations within the depth of the gradient indicated that the mineral location relative to the collagen changed with depth (Fig. 4). In both the botox-unloaded and saline-treated entheses, the mineral was predominantly outside the collagen fibrils in regions of low mineralization. In mineralized regions farthest from the bone, the mineral crystals were organized in random groupings or rosettes. As mineralization increased, the mineral was found predominantly in the long thin regions between the collagen fibrils. In regions of high mineralization, the mineral appeared as both intra- and extrafibrillar.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Enthesis",
+    "Biomechanics",
+    "Paralysis",
+    "Unloading",
+    "Structure",
+    "Shoulder",
+    "Rotator Cuff",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Review of roentgenographic bone demineralization studies of the Gemini space flights",
+      "authors": [
+        "GP Vose"
+      ]
+    },
+    {
+      "title": "Space flight and bone formation",
+      "authors": [
+        "SB Doty"
+      ]
+    },
+    {
+      "title": "Medical baseline data collection on bone and muscle change with space flight",
+      "authors": [
+        "A Miyamoto",
+        "T Shigematsu",
+        "T Fukunaga",
+        "K Kawakami",
+        "C Mukai",
+        "C Sekiguchi"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R Turner",
+        "G Wakley",
+        "B Szukalski"
+      ]
+    },
+    {
+      "title": "Space flight effects on skeletal bones of rats",
+      "authors": [
+        "VS Yagodovsky",
+        "LA Trifaranidi",
+        "GP Goroklova"
+      ]
+    },
+    {
+      "title": "Suppression of osteoblast differentiation during weightlessness",
+      "authors": [
+        "WE Roberts",
+        "PG Mozsary",
+        "ER Morey"
+      ]
+    },
+    {
+      "title": "Arrested bone formation during space flight results in hypomineralized skeletal defect",
+      "authors": [
+        "M Spector"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "CE Cann",
+        "S Churchill"
+      ]
+    },
+    {
+      "title": "Weightlessness and skeleton homeostasis",
+      "authors": [
+        "K Ziambaras",
+        "R Civitelli",
+        "SS Papavasiliou"
+      ]
+    },
+    {
+      "title": "The current state of bone loss research: data from spaceflight and microgravity simulators",
+      "authors": [
+        "MP Nagaraja",
+        "D Risin"
+      ]
+    },
+    {
+      "title": "Influence of 90-day simulated microgravity on human tendon mechanical properties and the effect of resistive countermeasures",
+      "authors": [
+        "ND Reeves",
+        "CN Maganaris",
+        "G Ferretti",
+        "MV Narici"
+      ]
+    },
+    {
+      "title": "Reduction in tendon elasticity from unloading is unrelated to its hypertrophy",
+      "authors": [
+        "R Kinugasa",
+        "JA Hodgson",
+        "VR Edgerton",
+        "DD Shin",
+        "S Sinha"
+      ]
+    },
+    {
+      "title": "Muscle and tendon connective tissue adaptation to unloading, exercise and NSAID",
+      "authors": [
+        "K Dideriksen"
+      ]
+    },
+    {
+      "title": "Differential strain patterns of the human gastrocnemius aponeurosis and free tendon, in vivo",
+      "authors": [
+        "SP Magnusson",
+        "P Hansen",
+        "P Aagaard",
+        "J Brond",
+        "P Dyhre-Poulsen",
+        "J Bojsen-Moller",
+        "M Kjaer"
+      ]
+    },
+    {
+      "title": "Myotendinous junction: Morphological changes and mechanical failure associated with muscle cell atrophy",
+      "authors": [
+        "JG Tidball"
+      ]
+    },
+    {
+      "title": "The role of muscle loading on bone (Re)modeling at the developing enthesis",
+      "authors": [
+        "AM Tatara",
+        "JH Lipner",
+        "R Das",
+        "HM Kim",
+        "N Patel",
+        "E Ntouvali",
+        "MJ Silva",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "The effect of unloading on gene expression of healthy and injured rotator cuffs",
+      "authors": [
+        "ML Killian",
+        "CT Lim",
+        "S Thomopoulos",
+        "N Charlton",
+        "HM Kim",
+        "LM Galatz"
+      ]
+    },
+    {
+      "title": "Muscle loading is necessary for the formation of a functional tendon enthesis",
+      "authors": [
+        "AG Schwartz",
+        "JH Lipner",
+        "JD Pasteris",
+        "GM Genin",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Effects of selective paralysis of the supraspinatus muscle using botulinum neurotoxin a in rotator cuff healing in rats",
+      "authors": [
+        "A Ficklscherer",
+        "TK Hartl",
+        "M Scharf",
+        "B Sievers",
+        "C Schroder",
+        "S Milz",
+        "T Niethammer",
+        "MF Pietschmann",
+        "PE Muller"
+      ]
+    },
+    {
+      "title": "Healing of rotator cuff tendons using botulinum toxin A and immobilization in a rat model",
+      "authors": [
+        "MN Gilotra",
+        "MJ Shorofsky",
+        "JA Stein",
+        "AM Murthi"
+      ]
+    },
+    {
+      "title": "Effect of intramuscular botulinum toxin-A in a rat rotator cuff repair model: an experimental study",
+      "authors": [
+        "E Sahin",
+        "M Kalem",
+        "S Zehir",
+        "M Songur",
+        "M Demirtas"
+      ]
+    },
+    {
+      "title": "Allometry of the Tendon Enthesis: Mechanisms of Load Transfer Between Tendon and Bone",
+      "authors": [
+        "AC Deymier-Black",
+        "JD Pasteris",
+        "GM Genin",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Collagen fiber orientation at the tendon to bone insertion and its influence on stress concentrations",
+      "authors": [
+        "S Thomopoulos",
+        "JP Marquez",
+        "B Weinberger",
+        "V Birman",
+        "GM Genin"
+      ]
+    },
+    {
+      "title": "The concentration of stress at the rotator cuff tendon-to-bone attachment site is conserved across species",
+      "authors": [
+        "F Saadat",
+        "AC Deymier",
+        "V Birman",
+        "S Thomopoulos",
+        "GM Genin"
+      ]
+    },
+    {
+      "title": "Stochastic interdigitation as a toughening mechanism at the interface between tendon and bone",
+      "authors": [
+        "Y Hu",
+        "V Birman",
+        "A Deymier-Black",
+        "AG Schwartz",
+        "S Thomopoulos",
+        "GM Genin"
+      ]
+    },
+    {
+      "title": "Mineral distributions at the developing tendon enthesis",
+      "authors": [
+        "AG Schwartz",
+        "JD Pasteris",
+        "GM Genin",
+        "TL Daulton",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "The tendon-to-bone transition of the rotator cuff: a preliminary raman spectroscopic study documenting the gradual mineralization across the insertion in rat tissue samples",
+      "authors": [
+        "B Wopenka",
+        "A Kent",
+        "JD Pasteris",
+        "Y Yoon",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Functional grading of mineral and collagen in the attachment of tendon to bone",
+      "authors": [
+        "GM Genin",
+        "A Kent",
+        "V Birman",
+        "B Wopenka",
+        "JD Pasteris",
+        "PJ Marquez",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "The nanometre-scale physiology of bone: steric modelling and scanning transmission electron microscopy of collagen-mineral structure",
+      "authors": [
+        "B Alexander",
+        "TL Daulton",
+        "GM Genin",
+        "J Lipner",
+        "JD Pasteris",
+        "B Wopenka",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Modelling the mechanics of partially mineralized collagen fibrils, fibres and tissue",
+      "authors": [
+        "Y Liu",
+        "S Thomopoulos",
+        "C Chen",
+        "V Birman",
+        "MJ Buehler",
+        "GM Genin"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "FC Campbell"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "Q Fang",
+        "DA Boas"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "W Rasband"
+      ]
+    },
+    {
+      "title": "Integration of a hard x-ray microprobe with a diffractometer for microdiffraction",
+      "authors": [
+        "J Libera",
+        "Z Cai",
+        "B Lai",
+        "S Xu"
+      ]
+    },
+    {
+      "title": "Effect of high-energy X-ray doses on bone elastic properties and residual strains",
+      "authors": [
+        "A Singhal",
+        "AC Deymier-Black",
+        "JD Almer",
+        "DC Dunand"
+      ]
+    },
+    {
+      "title": "Internal Strains and stresses measured in cortical bone via high-energy X-radiation",
+      "authors": [
+        "JD Almer",
+        "SR Stock"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "BG Tabachnick",
+        "LS Fidell"
+      ]
+    },
+    {
+      "title": "The developing shoulder has a limited capacity to recover after a short duration of neonatal paralysis",
+      "authors": [
+        "R Potter",
+        "N Havlioglu",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Allometry of the Tendon Enthesis: Mechanisms of Load Transfer Between Tendon and Bone",
+      "authors": [
+        "AC Deymier-Black",
+        "JD Pasteris",
+        "GM Genin",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Effect of stress and temperature on the micromechanics of creep in highly irradiated bone and dentin",
+      "authors": [
+        "A Singhal",
+        "AC Deymier-Black",
+        "JD Almer",
+        "DC Dunand"
+      ]
+    },
+    {
+      "title": "Structural relations between collagen and mineral in bone as determined by high voltage electron microscopic tomography",
+      "authors": [
+        "WJ Landis",
+        "KJ Hodgens",
+        "J Arena",
+        "MJ Song",
+        "BF McEwen"
+      ]
+    },
+    {
+      "title": "Bone Crystal Sizes: A Comparison of Transmission Electron Microscopic and X-Ray Diffraction Line Width Broadening Techniques",
+      "authors": [
+        "V Ziv",
+        "S Weiner"
+      ]
+    },
+    {
+      "title": "Effect of X-ray irradiation on the elastic strain evolution in the mineral phase of bovine bone under creep and load-free conditions",
+      "authors": [
+        "AC Deymier-Black",
+        "A Singhal",
+        "JD Almer",
+        "DC Dunand"
+      ]
+    },
+    {
+      "title": "Crystallographic texture and elemental composition mapped in bovine root dentin at the 200 nm level",
+      "authors": [
+        "AC Deymier-Black",
+        "A Veis",
+        "Z Cai",
+        "SR Stock"
+      ]
+    },
+    {
+      "title": "Bone Ridge Patterning during Musculoskeletal Assembly Is Mediated through SCX Regulation of Bmp4 at the Tendon-Skeleton Junction",
+      "authors": [
+        "E Blitz",
+        "S Viukov",
+        "A Sharir",
+        "Y Shwartz",
+        "JL Galloway",
+        "BA Pryce",
+        "RL Johnson",
+        "CJ Tabin",
+        "R Schweitzer",
+        "E Zelzer"
+      ]
+    },
+    {
+      "title": "The temporal responses of protein synthesis, gene expression and cell signalling in human quadriceps muscle and patellar tendon to disuse",
+      "authors": [
+        "MD de Boer",
+        "A Selby",
+        "P Atherton",
+        "K Smith",
+        "OR Seynnes",
+        "CN Maganaris",
+        "N Maffulli",
+        "T Movin",
+        "MV Narici",
+        "MJ Rennie"
+      ]
+    },
+    {
+      "title": "The effect of immobilization on the native and repaired tendon-to-bone interface",
+      "authors": [
+        "CM Hettrich",
+        "S Gasinu",
+        "BS Beamer",
+        "A Fox",
+        "O Ying",
+        "XH Deng",
+        "SA Rodeo"
+      ]
+    },
+    {
+      "title": "The biomechanical and morphological changes in the medial collateral ligament of the rabbit after immobilization and remobilization",
+      "authors": [
+        "SL Woo",
+        "MA Gomez",
+        "TJ Sites",
+        "PO Newton",
+        "CA Orlando",
+        "WH Akeson"
+      ]
+    },
+    {
+      "title": "Immobilization of the knee joint alters the mechanical and ultrastructural properties of the rabbit anterior cruciate ligament",
+      "authors": [
+        "PO Newton",
+        "SLY Woo",
+        "DA MacKenna",
+        "WH Akeson"
+      ]
+    },
+    {
+      "title": "Unloaded rat Achilles tendons continue to grow, but lose viscoelasticity",
+      "authors": [
+        "P Eliasson",
+        "A Fahlgren",
+        "B Pasternak",
+        "P Aspenberg"
+      ]
+    },
+    {
+      "title": "Age-related prevalence of rotator cuff tears in asymptomatic shoulders",
+      "authors": [
+        "S Tempelhof",
+        "S Rupp",
+        "R Seil"
+      ]
+    },
+    {
+      "title": "Arthroscopic Treatment of Greater Tuberosity Avulsion Fractures",
+      "authors": [
+        "JA Godin",
+        "JC Katthagen",
+        "EM Fritz",
+        "J Pogorzelski",
+        "PJ Millett"
+      ]
+    },
+    {
+      "title": "The Bony Partial Articular Surface Tendon Avulsion Lesion: An Arthroscopic Technique for Fixation of the Partially Avulsed Greater Tuberosity Fracture",
+      "authors": [
+        "DN Bhatia",
+        "JF de Beer",
+        "KS van Rooyen"
+      ]
+    },
+    {
+      "title": "The “Double-Pulley” Technique for Arthroscopic Fixation of Partial Articular-Side Bony Avulsion of the Supraspinatus Tendon: A Rare Case of Bony PASTA Lesion",
+      "authors": [
+        "L Murena",
+        "G Canton",
+        "DA Falvo",
+        "EA Genovese",
+        "MF Surace",
+        "P Cherubino"
+      ]
+    },
+    {
+      "title": "Characteristics of an isolated greater tuberosity fracture of the humerus",
+      "authors": [
+        "E Kim",
+        "HK Shin",
+        "CH Kim"
+      ]
+    },
+    {
+      "title": "Arthroscopic Transtendinous Modified Double-Row Suture Bridge Repair of a Bony PASTA Lesion",
+      "authors": [
+        "JS Johnson",
+        "PE Caldwell",
+        "SE Pearson"
+      ]
+    },
+    {
+      "title": "Arthroscopic treatment of symptomatic shoulders with minimally displaced greater tuberosity fracture",
+      "authors": [
+        "S-H Kim",
+        "K-I Ha"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "A Schwartz",
+        "G Genin",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "The morphology of ligament insertions after failure at low strain velocity: an evaluation of ligament entheses in the rabbit knee",
+      "authors": [
+        "J Gao",
+        "T Räsänen",
+        "J Persliden",
+        "K Messner"
+      ]
+    },
+    {
+      "title": "Biomechanics of anterior cruciate ligament failure: an analysis of strain-rate sensitivity and mechanisms of failure in primates",
+      "authors": [
+        "FR Noyes",
+        "JL DeLucas",
+        "PJ Torvik"
+      ]
+    },
+    {
+      "title": "Effect of proton irradiation followed by hindlimb unloading on bone in mature mice: A model of long-duration spaceflight",
+      "authors": [
+        "SA Lloyd",
+        "ER Bandstra",
+        "JS Willey",
+        "SE Riffle",
+        "L Tirado-Lee",
+        "GA Nelson",
+        "MJ Pecaut",
+        "TA Bateman"
+      ]
+    },
+    {
+      "title": "Quantitative trait loci that modulate trabecular bone’s risk of failure during unloading and reloading",
+      "authors": [
+        "E Ozcivici",
+        "W Zhang",
+        "LR Donahue",
+        "S Judex"
+      ]
+    },
+    {
+      "title": "Decreased muscle loading delays maturation of the tendon enthesis during postnatal development",
+      "authors": [
+        "S Thomopoulos",
+        "HM Kim",
+        "SY Rothermich",
+        "C Biederstadt",
+        "R Das",
+        "LM Galatz"
+      ]
+    },
+    {
+      "title": "Mechanical properties of the scapholunate ligament correlate with bone mineral density measurements of the hand",
+      "authors": [
+        "JD Johnston",
+        "CF Small",
+        "ML Bouxsein",
+        "DR Pichora"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "V Birman"
+      ]
+    },
+    {
+      "title": "Respective effects of hindlimb suspension, confinement and spaceflight on myotendinous junction ultrastructure",
+      "authors": [
+        "AJ Zamora",
+        "A Carnino",
+        "S Roffino",
+        "JF Marini"
+      ]
+    },
+    {
+      "title": "Toughening of fibrous scaffolds by mobile mineral deposits",
+      "authors": [
+        "J Lipner",
+        "JJ Boyle",
+        "Y Xia",
+        "V Birman",
+        "GM Genin",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Unification through disarray",
+      "authors": [
+        "GM Genin",
+        "S Thomopoulos"
+      ]
+    },
+    {
+      "title": "Variation of biomechanical, structural, and compositional properties along the tendon to bone insertion site",
+      "authors": [
+        "S Thomopoulos",
+        "GR Williams",
+        "JA Gimbel",
+        "M Favata",
+        "LJ Soslowsky"
+      ]
+    },
+    {
+      "title": "Micro-mechanical properties of the tendon-to-bone attachment",
+      "authors": [
+        "AC Deymier",
+        "Y An",
+        "JJ Boyle",
+        "AG Schwartz",
+        "V Birman",
+        "GM Genin",
+        "S Thomopoulos",
+        "AH Barber"
+      ]
+    },
+    {
+      "title": "Non-mineralized fibrocartilage shows the lowest elastic modulus in the rabbit supraspinatus tendon insertion: Measurement with scanning acoustic microscopy",
+      "authors": [
+        "H Sano",
+        "Y Saijo",
+        "S Kokubun"
+      ]
+    },
+    {
+      "title": "The Relationship Between Crimp Pattern and Mechanical Response of Human Patellar Tendon-Bone Units",
+      "authors": [
+        "DC Stouffer",
+        "DL Butler",
+        "D Hosny"
+      ]
+    },
+    {
+      "title": "The microstructure and micromechanics of the tendon-bone insertion",
+      "authors": [
+        "L Rossetti",
+        "LA Kuntz",
+        "AR Bausch",
+        "E Kunold",
+        "J Schock",
+        "KW Muller",
+        "H Grabmayr",
+        "J Stolberg-Stolberg",
+        "F Pfeiffer",
+        "SA Sieber",
+        "R Burgkart"
+      ]
+    },
+    {
+      "title": "Mechanical properties and the hierarchical structure of bone",
+      "authors": [
+        "J-Y Rho",
+        "L Kuhn-Spearing",
+        "P Zioupos"
+      ]
+    },
+    {
+      "title": "Novel synthesis and characterization of an AB-type carbonate-substituted hydroxyapatite",
+      "authors": [
+        "IR Gibson",
+        "W Bonfield"
+      ]
+    },
+    {
+      "title": "Calcium phosphates in oral biology and medicine",
+      "authors": [
+        "RZ LeGeros"
+      ]
+    },
+    {
+      "title": "Calcium Phosphate Biominerals",
+      "authors": [
+        "JC Elliott"
+      ]
+    },
+    {
+      "title": "Protein-free formation of bone-like apatite: New insights into the key role of carbonation",
+      "authors": [
+        "AC Deymier",
+        "AK Nair",
+        "JD Pasteris",
+        "B Depalle",
+        "Z Qin",
+        "K Arcot",
+        "C Drouet",
+        "CH Yoder",
+        "MJ Buehler",
+        "S Thomopoulos",
+        "GM Genin"
+      ]
+    }
+  ],
+  "original_title": "Effects of spaceflight on the muscles of the murine shoulder.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/318fa4f9e83f/nihms-1510799-f0001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/35d0945efc42/nihms-1510799-f0002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/a20d7b8fb0b6/nihms-1510799-f0003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/62b2ea97aea8/nihms-1510799-f0004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/53d387025ba2/nihms-1510799-f0005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/b0d2e64debc1/nihms-1510799-f0006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e27/6343501/9afa300bbfff/nihms-1510799-f0007.jpg"
+  ]
+}

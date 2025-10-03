@@ -1,0 +1,915 @@
+{
+  "pmcid": "PMC8191917",
+  "title": "A parasitoid wasp of Drosophila employs preemptive and reactive strategies to deplete its host’s blood cells",
+  "abstract": "The wasps Leptopilina heterotoma parasitize and ingest their Drosophila hosts. They produce extracellular vesicles (EVs) in the venom that are packed with proteins, some of which perform immune suppressive functions. EV interactions with blood cells of host larvae are linked to hematopoietic depletion, immune suppression, and parasite success. But how EVs disperse within the host, enter and kill hematopoietic cells is not well understood. Using an antibody marker for L. heterotoma EVs, we show that these parasite-derived structures are readily distributed within the hosts’ hemolymphatic system. EVs converge around the tightly clustered cells of the posterior signaling center (PSC) of the larval lymph gland, a small hematopoietic organ in Drosophila. The PSC serves as a source of developmental signals in naïve animals. In wasp-infected animals, the PSC directs the differentiation of lymph gland progenitors into lamellocytes. These lamellocytes are needed to encapsulate the wasp egg and block parasite development. We found that L. heterotoma infection disassembles the PSC and PSC cells disperse into the disintegrating lymph gland lobes. Genetically manipulated PSC-less lymph glands remain non-responsive and largely intact in the face of L. heterotoma infection. We also show that the larval lymph gland progenitors use the endocytic machinery to internalize EVs. Once inside, L. heterotoma EVs damage the Rab7- and LAMP-positive late endocytic and phagolysosomal compartments. Rab5 maintains hematopoietic and immune quiescence as Rab5 knockdown results in hematopoietic over-proliferation and ectopic lamellocyte differentiation. Thus, both aspects of anti-parasite immunity, i.e., (a) phagocytosis of the wasp’s immune-suppressive EVs, and (b) progenitor differentiation for wasp egg encapsulation reside in the lymph gland. These results help explain why the lymph gland is specifically and precisely targeted for destruction. The parasite’s simultaneous and multipronged approach to block cellular immunity not only eliminates blood cells, but also tactically blocks the genetic programming needed for supplementary hematopoietic differentiation necessary for host success. In addition to its known functions in hematopoiesis, our results highlight a previously unrecognized phagocytic role of the lymph gland in cellular immunity. EV-mediated virulence strategies described for L. heterotoma are likely to be shared by other parasitoid wasps; their understanding can improve the design and development of novel therapeutics and biopesticides as well as help protect biodiversity.\n\nAuthor summary\n\nParasitoid wasps serve as biological control agents of agricultural insect pests and are worthy of study. Many parasitic wasps develop inside their hosts to emerge as free-living adults. To overcome the resistance of their hosts, parasitic wasps use varied and ingenious strategies such as mimicry, evasion, bioactive venom, virus-like particles, viruses, and extracellular vesicles (EVs). We describe the effects of a unique class of EVs containing virulence proteins and produced in the venom of wasps that parasitize fruit flies of Drosophila species. EVs from Leptopilina heterotoma are widely distributed throughout the Drosophila hosts’ circulatory system after infection. They enter and kill macrophages by destroying the very same subcellular machinery that facilitates their uptake. An important protein in this process, Rab5, is needed to maintain the identity of the macrophage; when Rab5 function is reduced, macrophages turn into a different cell type called lamellocytes. Activities in the EVs can eliminate lamellocytes as well. EVs also interfere with the hosts’ genetic program that promotes lamellocyte differentiation needed to block parasite development. Thus, wasps combine specific preemptive and reactive strategies to deplete their hosts of the very cells that would otherwise sequester and kill them. These findings have applied value in agricultural pest control and medical therapeutics.",
+  "introduction": "Introduction\n\nParasitoid (parasitic) wasps have an obligatory relationship with their insect hosts. Engaged in a biological “arms race,” each partner continuously adapts to the other to emerge alive. For reproductive success, parasitic wasps target their hosts’ behavior, development and immune system. Their attack mechanisms range from biochemical warfare and mimicry, to passive evasion and active immune suppression. Drosophila and their parasitic wasps are an emerging model for studying how wasps evade or suppress host defenses. The generalist Leptopilina heterotoma (Lh) succeeds on the Drosophila species within and beyond the melanogaster group. Its close relative, L. boulardi (Lb), considered a specialist, mainly infects flies of the melanogaster group. Both wasps are highly successful on D. melanogaster; they consume its developing larval and pupal stages to emerge as free-living adults.\n\nOviposition into second-to-early-third D. melanogaster larval hosts by Lb and Lh wasps yields divergent immunological effects. Lb infection activates many components of humoral and cellular immunity: Toll-NF-κB, JAK-STAT, and the melanization pathways and their target genes are transcriptionally upregulated; there is a burst of hematopoietic proliferation and differentiation of blood cells (also called hemocytes) in the lymph gland and in circulation. If the immune responses are strong and sustained, macrophages and lamellocytes encapsulate and kill wasp eggs. Lh infection in contrast suppresses immune gene expression and kills immature and mature larval hemocytes.\n\nLb and Lh females (and also L. victoriae, a sister species of Lh) produce discrete immune-suppressive extracellular vesicle- (EV) like structures in their venom glands (called multi-strategy extracellular vesicles, MSEVs in Lh and venosomes in Lb). Previously called virus like particles, these EVs lack clear viral features. They are produced in the venom gland, a structure made up of the long gland and a reservoir. The secretory cells of the long gland synthesize and secrete proteins, some of which are initially incorporated into discrete non-spiked vesicle-like structures. In sister species Lh and Lv, these structures mature in the reservoir and assume a stellate morphology with 4–8 spikes radiating from the center. Mature EVs are roughly 300 nm in diameter,. Packed with more than 150 proteins, EVs are, in part, responsible for divergent physiological outcomes in infected hosts.\n\nAmong the most abundant in the Lh EV proteins is a 40 kDa surface/spike protein (SSp40). SSp40 shares structural similarities with the IpaD/SipD family of proteins of the gastroenteric disease-causing Gram negative bacteria, Shigella and Salmonella. Similar to SSp40’s localization to Lh EV spike tips, IpaD localizes to the tips of the T3 secretion injectisome, a bacterial transfer system that injects virulence proteins into mammalian cells. IpaD itself promotes apoptosis of mammalian macrophages. These parallels between Lh SSp40 and bacterial IpaD/SipD suggest that Lh EVs may share some similarities with bacterial secretion systems. Comparative transcriptomic/proteomic approaches revealed that SSp40 and a few other EV proteins are not expressed in the Lb venom.\n\nWhereas Lh EVs lyse lamellocytes within a few hours of wasp attack, Lb EVs do not have the same effect. Our immune-inhibition experiments suggested that Lh’s SSp40 mediates EV interactions with lamellocytes. Lh infection also uniquely promotes apoptosis of larval macrophages and of lymph gland hemocytes. Macrophages make up more than 95% of all hematopoietic cells while differentiated lamellocytes are rarely found in naïve hosts. Work in the field strongly suggests that the protein activities concentrated within the Lh EVs are responsible for the destruction of these mature and immature blood cells. However, how a macro-endoparasite targets the hematopoietic system and accesses its progenitor population has not been studied. The modes of Lh EV entry into these cells and the pathways of destruction are also not well understood.\n\nThe goal of this study was to obtain a macro-level view of Lh EV interactions with cells of the larval hemolymphatic system after infection. The term hemolymph refers to the interstitial fluid that distributes hormones, peptides and other macromolecules into organs through the pumping action of an unbranched tubular heart, or the dorsal vessel. Dozens of macrophages circulate in the hemolymph. The heart lumen is surrounded by a column of paired cardiomyocytes and associated pericardial cells. This tubular structure is held in place by alary muscles. Hematopoietic cells are organized in paired cell clusters (or lobes) on the dorsal vessel. In third instar larvae, the anterior-most lobes have blood cells at various stages of differentiation; the least differentiated progenitors are confined adjacent to the dorsal vessel, whereas the developing macrophages are sequestered in the cortical regions of the lobes (Fig 1A). In naïve hosts, the progenitor state is maintained by a putative niche (also called the posterior signaling center, PSC). The PSC is a tight unit of about 25–50 cells and is positioned posteriorly to the progenitors. Upon Lb infection, the PSC reprograms hematopoiesis inducing macrophage and lamellocyte differentiation. The entire structure is covered by the acellular basement membrane.\n\nUsing Drosophila genetics, cell-specific markers and SSp40 staining as a proxy for Lh EV localization, we have pieced together a broad view of this host-parasite interaction interface. We show an abundance of Lh EVs in (a) the lumen of the larval dorsal vessel, (b) along the collagen/perlecan-based basement membrane around the dorsal vessel and surrounding clusters of lymph gland progenitors, and (c) inside the progenitor and mature macrophages. Moreover, high EV signal correlates with the disassembly of the cohesive PSC unit. PSC ablation limits EV internalization and loss of lymph gland hemocytes, while PSC inactivation via hedgehog (hh) knockdown (KD) does not have this effect. We also show that lymph gland hemocytes can phagocytose Lh EVs using the classical Rab5-mediated retrograde transport (RGT) pathway. Surprisingly, Rab5 also maintains fly macrophage identity, as Rab5 KD leads to over-proliferation, lamellocyte differentiation and tumorigenesis; Rab5 function is cell-autonomous. Thus lymph glands are not merely a source of mature blood cells but are themselves immune competent organs and can clear the immune-suppressive Lh EVs to defend the host. However, Lh EVs proactively dislodge cells of the PSC, blocking differentiation of the protective immune cells. Lh EVs target the endomembrane system of macrophages that ultimately results in their apoptosis, thus highlighting central and previously unrecognized roles of the lymph gland in cellular immunity. These observations help explain why Lh infections target the larval lymph gland. The direct EV-macrophage interactions and cellular outcomes set the stage for future molecular analyses in both the hosts and parasites.",
+  "methods": "Materials and methods\n\nStocks and crosses\n\nAll D. melanogaster stocks were raised on standard fly medium containing cornmeal flour, sucrose, yeast, and agar at 25°C.\n\nGAL4 lines: PSC drivers were: Antp-GAL4; mCD8GFP (, from S. Minakhina) and y w; Collier-GAL4/CyO y+ ( from M. Crozatier). The truncated HandΔ promoter is active in cardiomyocytes of the dorsal vessel (, from M. Crozatier). Hemocyte drivers were: Pxn-GAL4, UAS-GFP (, from U. Banerjee); Hemese-GAL4 (He-GAL4) (, from D. Hultmark); eater (ea)-GAL4 (, from R.A. Schulz); Collagen-GAL4 (Cg>GFP) (, from C. Dearolf); Serpent (Srp)-GAL4 and TepIV-GAL4 (both from N. Fossett); Hemolectin-GAL4 (Hml>GFP) (, from J-M. Reichhart).\n\nUAS lines: The UAS-Slit-N (; Slit gain-of-function) and UAS-Robo2-HA (for overexpression of Robo2,) lines were obtained from T. Volk and T. Kidd.\n\nStrains from the Bloomington Drosophila Stock Center: UAS-Rab5RNAi (#30518); UAS-GFP-Rab5 (#43336); UAS-GFP-Rab7 (#42706); UAS-Rab5.S43N (#42704); UAS-GFP-LAMP; nSyb-GAL4/CyO:TM6B (#42714), and UAS-hhRNAi (#25794)).\n\nOther lines: A homozygous Bc stock devoid of other mutations (from B. Lemaitre) was balanced with CyO-GFP for crosses with the homozygous Pxn-GAL4, UAS-GFP strain. Protein trap lines were: Collagen IV (Viking) and perlecan (Trol) (from A. Spradling and L. Cooley). In the hhf4f-GFP; Antp-GAL4/TM6 Tb Hu strain, the PSC is marked (from R.A. Schulz). In the Dome-MESO-GFP strain, the lymph gland medulla is GFP positive (, from M. Crozatier). We recombined this latter insertion with the Antp-GAL4 insertion to make a UAS-mCD8GFP; Antp-GAL4, Dome-MESO-GFP (AntpDMG) stock. hopTum-l, msn-GAL4; UAS-mCD8GFP uses the misshapen (msn) driver to mark lamellocytes. For PSC-less animals, UAS-Hid females were crossed with Collier-GAL4/CyO y+ males. For FLP-out clones, hsp70-flp; Actin>CD2>GAL4 flies were crossed with the Rab5RNAi flies; progeny was heat shocked at 37°C as described. UAS-GAL4 crosses were maintained at 27°C.\n\nWasp infections\n\ny w flies were used to rear wasps. Unless specified otherwise, infections were done with either Lb17 or Lh14. LhNY was used to validate results with the Lh14 strain. Ten to twelve trained female wasps were introduced to hosts from a 12-hr egg-lay. Hosts were allowed to recover after an 8–12 hr infection. Dissections were typically done one-to-two days after infection. Uninfected controls followed the same timeline. In general, longer infection regimes led to stronger responses: more lamellocytes differentiated after Lb infection and more lobe cells were lost after Lh infection. Under our experimental conditions, superparasitism by either wasp was rare and for our analyses, we avoided hosts with more than one parasite.\n\nImmunohistochemistry\n\nAntibody staining was performed according to. Primary mouse anti-SSp40 (1:1000) and Cy3 AffiniPure donkey anti-mouse secondary (1:200) (Jackson Immuno Research) were used to detect Lh EVs. Mouse anti-Antennapedia (1:10; Developmental Studies Hybridoma Bank 8C11, and macrophage-specific mouse anti-P1 (1:20; I. Ando) were similarly detected. Nuclear dye (Hoechst 33258, Invitrogen, 1:500) and Rhodamine or Alexa Fluor 488-tagged Phalloidin (Invitrogen) were used for counterstaining cells. For mitotic index, rabbit anti-phospho-histone3 (1:200 Molecular Probes)-positive hemocytes were scored in randomly selected 1000 μm2 areas of imaged lobes.\n\nSamples were mounted in VectaShield (Vector Laboratories). Lamellocytes were visualized by (a) high F-actin staining signal, (b) integrin-β (1:200, Developmental Studies Hybridoma Bank CF.6G11) expression, or (c) msnf9-GFP expression. Representative results from twelve or more dissections from at least three independent experiments are presented, unless specified otherwise.\n\nConfocal imaging\n\nMounted samples were imaged with Zeiss laser scanning confocal microscopes LSM 510 or LSM 710. For each experiment, images were scanned on the same microscope with the same software and scan settings. Images were gathered at 0.8 μm -1.5 μm and recorded at 8 bit. Laser amplifier gain and offset values were set with negative controls lacking either primary antibodies or wasp infection. Images were processed with Zeiss LSM image browser or Zen Lite 2012. Figures were assembled in Adobe Photoshop v12.0.4 and CC 2015.5 or Illustrator CC 2015.3.",
+  "results": "Results\n\nLh EVs are present within the larval lymphatic system\n\nLb17 attack triggers lamellocyte differentiation in the larval lymph gland cortex (Fig 1A–1C). At an equivalent time-point, Lh-infected lobes are significantly smaller (Fig 1D–1K). Surprisingly, unlike Antp>mCD8GFP-expressing PSCs of naïve and Lb-infected lobes that remain tightly clustered (Fig 1A–1C), PSC cells of Lh-infected hosts are dislodged and some are distributed in the body of the lobe (Fig 1D).\n\nTo understand these responses, we imaged more than 25 hosts in multiple experiments. Throughout these studies, we used a polyclonal antibody to mark SSp40, an Lh EV-specific protein. Lh infection of Pxn>GFP animals reduced Pxn>GFP expression (Fig 1E–1H). (Pxn is normally active in the cortex and its expression mimics that of many other genes downregulated by Lh infection). An abundance of Lh EVs was observed in anterior- and posterior-lobe hemocytes, in the dorsal vessel, and in circulating hemocytes (Fig 1F–1H and 1J–1L). This staining signal is absent in glands from naïve animals (Fig 1E and 1I). Thus, Lb and Lh attack have drastically different outcomes and Lh EVs appear to interact directly with most lymph gland hemocytes.\n\nIn our analyses across experiments, we found that the degree of tissue loss and EV distribution varies. Lobe morphologies ranged from nearly intact and filled with EVs (Fig 1F and 1J) to damaged lobes, with few to many EVs (Fig 1G, 1H and 1K). This variation is likely due to (a) the duration of infection (i.e., time between oviposition and dissection); (b) the injected EV dose; or (c) the dynamics of EV circulation. Dissections at later time points showed loss of almost all lymph gland hemocytes.\n\nTo then probe how Lh EVs enter the lymphatic system, we stained Lh-infected glands from fly strains with GFP-tagged Collagen IV (basement membrane, Viking) or GFP-tagged proteoglycan core protein, Perlecan/Trol. In both cases, EV puncta were clearly localized with the continuous GFP signals of these extracellular matrix (ECM) proteins along the dorsal vessel as well as in the interstitial spaces around clustered hematopoietic progenitors (yellow puncta in Fig 2A–2D’ arrows). Surprisingly, punctate staining was also seen inside immature progenitors, adjacent to the dorsal vessel (Fig 2B, 2B’ 2D and 2D’). EVs were also observed inside some cardiomyocytes as evidenced by SSp40 colocalization with the mCD8GFP signal in HandΔ>mCD8GFP larvae (Fig 2E–2F’, arrows). Thus, Lh EVs associate with ECM proteins of the lymphatic system, enter the dorsal vessel lumen and even some cardiomyocytes.\n\nEffects of Lh infection on PSC integrity\n\nPrevious studies have demonstrated that upon Lb infection, the PSC reprograms hematopoietic development and promotes lamellocyte differentiation. Similar to controls, Lb infected PSCs remain tightly clustered. We found that regardless of the Lh strain, PSC cells dislodged from their normal posterior position into the body of the lobe (Figs 1D and S1A and S1B). At the time points we examined, half of the PSC cells relocated into the lobe, of which an overwhelming majority (> 95%) were present as single cells or as groups of two cells. The other half remained in their original place, although some were not as tightly clustered (Figs 1D and S1; n = 24 PSCs from 12 lymph glands). As expected, in 14 lobes from naïve controls, all PSC cells were tightly packed. Strikingly, in samples from infected animals, where the PSCs were still intact, EVs congregated in regions adjacent to the PSC, but were never found inside the PSC cells (S1A and S1B Fig).\n\nThe Slit ligand, originating from adjacent cardiomyocytes, controls PSC integrity via the Robo receptors in the PSC; Robo2 has the strongest effect. Indeed, the effect of Lh infection on the PSC resembles Slit/Robo2 KD, which promotes PSC disassembly (Figs 1 and S1). A cohesive PSC is important in hematopoietic development as fewer macrophages and crystal cells develop in Slit/Robo2 KD lobes compared to controls. But differing from Lh infection, Slit KD PSCs are larger and there is no apparent loss of progenitors. In spite of different outcomes in the two conditions, we hypothesized that the initial steps might be shared and that Lh EVs might inactivate the Slit-Robo signal, which might explain PSC disassembly.\n\nTo test this idea, we infected animals in which the Slit-Robo pathway was manipulated to promote constitutive signaling. We found that neither expressing active Slit nor overexpressing Robo2 altered Lh EVs’ ability to disassemble the PSC. Lh infection of HandΔ>Slit-N animals still promoted PSC disassembly (S2A–S2C’ Fig; n = 16 lobes) even though gain-of-function Slit-N reverses the effects of Slit KD. Similarly, Lh infection bypassed the effects of Robo2 overexpression (Antp>Robo2-HA) and promoted PSC disassembly S2D–S2F’ Fig). Many EVs are observed around these PSCs (S3 Fig; n = 16). Thus, either EVs inactivate PSC function independently of the Slit-Robo signal, or they possess redundant mechanisms that disable constitutive Slit-Robo signaling.\n\nPSC-less lymph glands remain intact\n\nPSC-less lymph glands were unable to induce lamellocyte differentiation after Lb infection. We asked if ablating the PSC might similarly inhibit the Lh infection responses. PSC-less lobes (Col>Hid) lacked Antp staining and Lh14 infection did not affect lobe integrity (S4A–S4D’ Fig; n > 12 lobes). Moreover, while Lh-infected UAS-Hid lobes lost progenitors and exhibited high levels of EV uptake (Fig 3A, 3B, 3D and 3E), Lh-infected PSC-less lobes remained intact and showed low, non-specific SSp40 staining signal in anterior and posterior lobes (Fig 3C and 3F; n > 12 lobes for each condition). In contrast to the non-responsive Col>Hid lobes, Antp>hhRNAi lobes responded to Lh infection and suffered progenitor cell loss (S5A–S5F Fig; n > 12 lobes for each condition). Thus, inactivating the signaling function of the PSC does not appear to affect the wasp’s ability to disassemble the PSC. P1 staining revealed that Lh infection does not block macrophage differentiation (S5C Fig). Taken together, these results suggest that the PSC plays a structural role in trafficking of EVs from either the hemolymph or the dorsal vessel into the lobes and that the cell-lethal effects of Lh EVs is distinct from the PSC’s niche function.\n\nThe larval lymph gland is phagocytically competent\n\nWe next studied if EV uptake into hematopoietic cells occurs via RGT mechanisms. In Pxn>GFP; +/Bc heterozygous lymph glands, we observed blackened, dead crystal cells in the cytoplasm of the GFP-positive cortical cells (S6 Fig). This observation suggests that GFP-positive lymph gland cells are phagocytically competent. We therefore investigated if Lh EV uptake depends on Rab5, an early endosomal protein. Rab5 mediates trafficking from the plasma membrane to early endosomes. In contrast to Pxn>GFP macrophages, where EV staining is bright and punctate throughout the cytoplasm (Fig 4A and 4B), Pxn>GFP, Rab5RNAi cells show peripheral punctate staining, presumably from intact EVs, trapped in early endosomes, both in lymph gland and circulating hemocytes (Fig 4C and 4D; arrows). In lamellocytes, the EV signal is diffuse and nuclear, and Rab5 KD shows no change in staining intensity or distribution (Fig 4E and 4F; arrowheads), suggesting that Rab5-independent uptake mechanisms are involved. msn-GFP- and integrin-β-positive lamellocyte fragments were also observed in Lh-infected macrophages suggesting occurrence of efferocytosis (S7 Fig).\n\nLh EVs negatively impact phagolysosomal organization in macrophages\n\nRab7 mediates late endosome formation and trafficking between late endosomes and lysosomes is marked by Rab7 and LAMP1, respectively. To evaluate if Lh EVs impact the RGT machinery, infected glands expressing GFP-tagged Rab5, Rab7, or LAMP1 proteins were examined (Fig 5). Under our experimental conditions, Lh EVs rarely colocalized with early endosomes and Rab5 compartment morphology remained comparable to uninfected controls (only 14% of SSp40 puncta are Rab5-positive; n = 221 cells; 6 lobes; Fig 5A–5C). In contrast, Lh EVs were consistently found with GFP-Rab7 and GFP-LAMP1 and these compartments were grossly distorted (100% co-localization; n = 115 and 112 cells, Rab7 and LAMP, respectively, 6 lobes each; Fig 5D–5E”). Moreover, the Rab7/EV and LAMP1/EV signals were asymmetrically localized in Lh-affected cells. In contrast, Lb infection did not distort LAMP-positive compartments and they retained their normal morphology (Fig 5F and 5G). These observations suggest that high numbers of Lh EVs transit through early endosomes, but that they are retained in late RGT compartments including lysosomes. Thus, Lh EVs have a detrimental effect on RGT compartment integrity and this loss of integrity may promote lysosomal leakage and labilization.\n\nRab5 suppresses proliferation and maintains the macrophage fate\n\nWe were surprised to find that Pxn>GFP Rab5RNAi animals developed melanized tumors (S8A and S8B Fig); the hematopoietic population is significantly expanded and lamellocyte differentiation is robust, affecting viability (S8C–S8F Fig). (Variability in viability and tumor development in Rab5 KD animals is likely due to differences in the strengths and expression patterns of the GAL4 drivers.) A similar result was observed with the expression of the dominant negative Rab5S43N protein which cannot bind GTP). Rab5 KD even in the lymph gland medullary zone (TepIV>Rab5RNAi) resulted in lamellocyte differentiation (Fig 6A and 6B).\n\nHematopoietic expansion correlated with increased mitotic index (MI) in lobes of tumor-bearing Pxn>GFP Rab5RNAi animals (Fig 6C and 6D) suggesting that normal Rab5 function checks over-proliferation and ectopic progenitor differentiation. (MI = 2.2 ± 2.15 in control Pxn>GFP; 2.9 ± 1.1, and 5.5 ± 1.9 in experimental Pxn>GFP, Rab5RNAi animals without and with tumors, respectively (n = 10 for each condition). These results suggest that Rab5 acts as a tumor suppressor and maintains hematopoietic immune quiescence.\n\nControl “FLP-out” clones without Rab5RNAi contained small cells that did not express integrin-β; experimental clones with Rab5RNAi had larger, F-actin-rich cells with a typical lamellocyte morphology, that were also integrin-β-positive (Fig 6E–6H). These results suggest that Rab5’s requirement in maintaining the progenitor or macrophage fate is cell-autonomous.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Biology and Life Sciences",
+    "Anatomy",
+    "Body Fluids",
+    "Lymph",
+    "Medicine and Health Sciences",
+    "Physiology",
+    "Cell Biology",
+    "Cellular Types",
+    "Animal Cells",
+    "Blood Cells",
+    "White Blood Cells",
+    "Macrophages",
+    "Immune Cells",
+    "Immunology",
+    "Hemocytes",
+    "Developmental Biology",
+    "Cell Differentiation",
+    "Research and Analysis Methods",
+    "Animal Studies",
+    "Experimental Organism Systems",
+    "Model Organisms",
+    "Drosophila Melanogaster",
+    "Animal Models",
+    "Zoology",
+    "Entomology",
+    "Insects",
+    "Drosophila",
+    "Organisms",
+    "Eukaryota",
+    "Animals",
+    "Invertebrates",
+    "Arthropoda",
+    "Life Cycles",
+    "Larvae",
+    "Oncology",
+    "Cancers and Neoplasms"
+  ],
+  "citations": [
+    {
+      "title": "Manipulation of host behavior by parasitic insects and insect parasites",
+      "authors": [
+        "F Libersat",
+        "A Delago",
+        "R Gal"
+      ]
+    },
+    {
+      "title": "Evolution of developmental strategies in parasitic Hymenoptera",
+      "authors": [
+        "F Pennacchio",
+        "M.R Strand"
+      ]
+    },
+    {
+      "title": "Virulence strategies in parasitoid Hymenoptera as an example of adaptive diversity",
+      "authors": [
+        "M Poirie",
+        "Y Carton",
+        "A Dubuffet"
+      ]
+    },
+    {
+      "title": "Insights from natural host-parasite interactions: the Drosophila model",
+      "authors": [
+        "ES Keebaugh",
+        "TA Schlenke"
+      ]
+    },
+    {
+      "title": "Harnessing the natural -parasitoid model for integrating insect immunity with functional venomics",
+      "authors": [
+        "ME Heavner",
+        "AD Hudgins",
+        "R Rajwani",
+        "J Morales",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "An introduction to parasitic wasps of Drosophila and the antiparasite immune response",
+      "authors": [
+        "C Small",
+        "I Paddibhatla",
+        "R Rajwani",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Contrasting infection strategies in generalist and specialist wasp parasitoids of Drosophila melanogaster",
+      "authors": [
+        "TA Schlenke",
+        "J Morales",
+        "S Govind",
+        "AG Clark"
+      ]
+    },
+    {
+      "title": "Cellular immune response to parasite infection in the Drosophila lymph gland is developmentally regulated",
+      "authors": [
+        "RP Sorrentino",
+        "Y Carton",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Postembryonic hematopoiesis in Drosophila",
+      "authors": [
+        "R Lanot",
+        "D Zachary",
+        "F Holder",
+        "M Meister"
+      ]
+    },
+    {
+      "title": "Transdifferentiation and proliferation in two distinct hemocyte lineages in drosophila melanogaster larvae after wasp infection",
+      "authors": [
+        "I Anderl",
+        "L Vesala",
+        "TO Ihalainen",
+        "L-M Vanha-aho",
+        "I Andó",
+        "M Rämet"
+      ]
+    },
+    {
+      "title": "Two novel venom proteins underlie divergent parasitic strategies between a generalist and a specialist parasite",
+      "authors": [
+        "J Huang",
+        "J Chen",
+        "G Fang",
+        "L Pang",
+        "S Zhou",
+        "Y Zhou"
+      ]
+    },
+    {
+      "title": "Leptopilina heterotoma and L. boulardi: strategies to avoid cellular defense responses of Drosophila melanogaster",
+      "authors": [
+        "TM Rizki",
+        "R.M Rizki",
+        "Y Carton"
+      ]
+    },
+    {
+      "title": "Natural infection of D. melanogaster by virulent parasitic wasps induces apoptotic depletion of hematopoietic precursors",
+      "authors": [
+        "H Chiu",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Venom Atypical Extracellular Vesicles as Interspecies Vehicles of Virulence Factors Involved in Host Specificity: The Case of a Drosophila Parasitoid Wasp",
+      "authors": [
+        "B Wan",
+        "E Goguet",
+        "M Ravallec",
+        "O Pierre",
+        "S Lemauf",
+        "AN Volkoff"
+      ]
+    },
+    {
+      "title": "Novel Organelles with Elements of Bacterial and Eukaryotic Secretion Systems Weaponize Parasites of Drosophila",
+      "authors": [
+        "ME Heavner",
+        "J Ramroop",
+        "G Gueguen",
+        "G Ramrattan",
+        "G Dolios",
+        "M Scarpati"
+      ]
+    },
+    {
+      "title": "Parasitoid virus-like particles destroy Drosophila cellular immunity",
+      "authors": [
+        "RM Rizki",
+        "TM Rizki"
+      ]
+    },
+    {
+      "title": "Immune suppressive virus-like particles in a Drosophila parasitoid: significance of their intraspecific morphological variations",
+      "authors": [
+        "S Dupas",
+        "M Brehelin",
+        "F Frey",
+        "Y Carton"
+      ]
+    },
+    {
+      "title": "Biogenesis, structure, and immune-suppressive effects of virus-like particles of a Drosophila parasitoid, Leptopilina victoriae",
+      "authors": [
+        "J Morales",
+        "H Chiu",
+        "T Oo",
+        "R Plaza",
+        "S Hoskins",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "A Behavior-Manipulating Virus Relative as a Source of Adaptive Genes for Drosophila Parasitoids",
+      "authors": [
+        "D Di Giovanni",
+        "D Lepetit",
+        "B Guinet",
+        "B Bennetot",
+        "M Boulesteix",
+        "Y Coute"
+      ]
+    },
+    {
+      "title": "Identification and immuno-electron microscopy localization of p40, a protein component of immunosuppressive virus-like particles from Leptopilina heterotoma, a virulent parasitoid wasp of Drosophila",
+      "authors": [
+        "H Chiu",
+        "J Morales",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "VLPs of Leptopilina boulardi share biogenesis and overall stellate morphology with VLPs of the heterotoma clade",
+      "authors": [
+        "G Gueguen",
+        "R Rajwani",
+        "I Paddibhatla",
+        "J Morales",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "A supracellular system of actin-lined canals controls biogenesis and release of virulence factors in parasitoid venom glands",
+      "authors": [
+        "R Ferrarese",
+        "J Morales",
+        "D Fimiarz",
+        "BA Webb",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Immune Suppressive Extracellular Vesicle Proteins of Leptopilina heterotoma Are Encoded in the Wasp Genome",
+      "authors": [
+        "B Wey",
+        "ME Heavner",
+        "KT Wittmeyer",
+        "T Briese",
+        "KR Hopper",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "IpaD localizes to the tip of the type III secretion system needle of Shigella flexneri",
+      "authors": [
+        "M Espina",
+        "AJ Olive",
+        "R Kenjale",
+        "DS Moore",
+        "SF Ausar",
+        "RW Kaminski"
+      ]
+    },
+    {
+      "title": "Macrophage Apoptosis Triggered by IpaD from Shigella flexneri",
+      "authors": [
+        "O Arizmendi",
+        "W. D Picking",
+        "W. L Picking"
+      ]
+    },
+    {
+      "title": "The origin of intraspecific variation of virulence in an eukaryotic immune suppressive parasite",
+      "authors": [
+        "D Colinet",
+        "A Schmitz",
+        "D Cazes",
+        "J.-L Gatti",
+        "M Poirie"
+      ]
+    },
+    {
+      "title": "Lineage tracing of lamellocytes demonstrates Drosophila macrophage plasticity",
+      "authors": [
+        "M Stofanko",
+        "S.Y Kwon",
+        "P Badenhorst"
+      ]
+    },
+    {
+      "title": "On the Morphology of the Drosophila Heart",
+      "authors": [
+        "B Rotstein",
+        "A Paululat"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "T Rizki",
+        "MaWT Ashburner"
+      ]
+    },
+    {
+      "title": "Drosophila as a Genetic Model for Hematopoiesis",
+      "authors": [
+        "U Banerjee",
+        "JR Girard",
+        "LM Goins",
+        "CM Spratford"
+      ]
+    },
+    {
+      "title": "A Hedgehog- and Antennapedia-dependent niche maintains Drosophila haematopoietic precursors",
+      "authors": [
+        "L Mandal",
+        "JA Martinez-Agosto",
+        "CJ Evans",
+        "V Hartenstein",
+        "U Banerjee"
+      ]
+    },
+    {
+      "title": "Control of blood cell homeostasis in Drosophila larvae by the posterior signalling centre",
+      "authors": [
+        "J Krzemien",
+        "L Dubois",
+        "R Makki",
+        "M Meister",
+        "A Vincent",
+        "M Crozatier"
+      ]
+    },
+    {
+      "title": "Patterns in evolution: veins of the Drosophila wing",
+      "authors": [
+        "M Crozatier",
+        "B Glise",
+        "A Vincent"
+      ]
+    },
+    {
+      "title": "Ontogeny of the Drosophila larval hematopoietic organ, hemocyte homeostasis and the dedicated cellular immune response to parasitism",
+      "authors": [
+        "J Krzemien",
+        "M Crozatier",
+        "A Vincent"
+      ]
+    },
+    {
+      "title": "Polydnaviral ankyrin proteins aid parasitic wasp survival by coordinate and selective inhibition of hematopoietic and immune NF-kappa B signaling in insect hosts",
+      "authors": [
+        "G Gueguen",
+        "M.E Kalamarz",
+        "J Ramroop",
+        "J Uribe",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "The EBF transcription factor Collier directly promotes Drosophila blood cell progenitor maintenance independently of the niche",
+      "authors": [
+        "B Benmimoun",
+        "C Polesello",
+        "M Haenlin",
+        "L Waltzer"
+      ]
+    },
+    {
+      "title": "Oxidative stress in the haematopoietic niche regulates the cellular immune response in Drosophila",
+      "authors": [
+        "SA Sinenko",
+        "J Shim",
+        "U Banerjee"
+      ]
+    },
+    {
+      "title": "An unexpected link between notch signaling and ROS in restricting the differentiation of hematopoietic progenitors in Drosophila",
+      "authors": [
+        "C Small",
+        "J Ramroop",
+        "M Otazo",
+        "LH Huang",
+        "S Saleque",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Modulation of occluding junctions alters the hematopoietic niche to trigger immune activation",
+      "authors": [
+        "RJ Khadilkar",
+        "W Vogl",
+        "K Goodwin",
+        "G Tanentzapf"
+      ]
+    },
+    {
+      "title": "Hematopoiesis at the onset of metamorphosis: terminal differentiation and dissociation of the Drosophila lymph gland",
+      "authors": [
+        "M Grigorian",
+        "L Mandal",
+        "V Hartenstein"
+      ]
+    },
+    {
+      "title": "A protein trap strategy to detect GFP-tagged proteins expressed from their endogenous loci in Drosophila",
+      "authors": [
+        "X Morin",
+        "R Daneman",
+        "M Zavortink",
+        "W Chia"
+      ]
+    },
+    {
+      "title": "Flytrap, a database documenting a GFP protein-trap insertion screen in Drosophila melanogaster",
+      "authors": [
+        "RJ Kelso",
+        "M Buszczak",
+        "AT Quinones",
+        "C Castiblanco",
+        "S Mazzalupo",
+        "L Cooley"
+      ]
+    },
+    {
+      "title": "Cellular immune response to parasitization in Drosophila requires the EBF orthologue collier",
+      "authors": [
+        "M Crozatier",
+        "JM Ubeda",
+        "A Vincent",
+        "M Meister"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species-dependent Toll/NF-kappaB activation in the Drosophila hematopoietic niche confers resistance to wasp parasitism",
+      "authors": [
+        "I Louradour",
+        "A Sharma",
+        "I Morin-Poulard",
+        "M Letourneau",
+        "A Vincent",
+        "M Crozatier"
+      ]
+    },
+    {
+      "title": "Vascular control of the Drosophila haematopoietic microenvironment by Slit/Robo signalling",
+      "authors": [
+        "I Morin-Poulard",
+        "A Sharma",
+        "I Louradour",
+        "N Vanzo",
+        "A Vincent",
+        "M Crozatier"
+      ]
+    },
+    {
+      "title": "Slit cleavage is essential for producing an active, stable, non-diffusible short-range signal that guides muscle migration",
+      "authors": [
+        "E Ordan",
+        "M Brankatschk",
+        "B Dickson",
+        "F Schnorrer",
+        "T Volk"
+      ]
+    },
+    {
+      "title": "Rab proteins: the key regulators of intracellular vesicle transport",
+      "authors": [
+        "T Bhuin",
+        "JK Roy"
+      ]
+    },
+    {
+      "title": "Thirty-one flavors of Drosophila rab proteins",
+      "authors": [
+        "J Zhang",
+        "KL Schulze",
+        "PR Hiesinger",
+        "K Suyama",
+        "S Wang",
+        "M Fish"
+      ]
+    },
+    {
+      "title": "Parasitoid-induced cellular immune deficiency in Drosophila",
+      "authors": [
+        "TM Rizki",
+        "RM Rizki"
+      ]
+    },
+    {
+      "title": "Developmental analysis of Ganaspis xanthopoda, a larval parasitoid of Drosophila melanogaster",
+      "authors": [
+        "JP Melk",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Suppression of the Drosophila cellular immune response by Ganaspis xanthopoda",
+      "authors": [
+        "H Chiu",
+        "RP Sorrentino",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Virus-like particles in venom of Meteorus pulchricornis induce host hemocyte apoptosis",
+      "authors": [
+        "M Suzuki",
+        "T Tanaka"
+      ]
+    },
+    {
+      "title": "Mechanism of reduction in the number of the circulating hemocytes in the Pseudaletia separata host parasitized by Cotesia kariyai",
+      "authors": [
+        "T Teramoto",
+        "T Tanaka"
+      ]
+    },
+    {
+      "title": "Nucleopolyhedrovirus infection and/or parasitism by Microplitis pallidipes Szepligeti affect hemocyte apoptosis of Spodoptera exigua (Hubner) larvae",
+      "authors": [
+        "NF Wan",
+        "XY Ji",
+        "H Zhang",
+        "JH Yang",
+        "JX Jiang"
+      ]
+    },
+    {
+      "title": "The Drosophila lymph gland as a developmental model of hematopoiesis",
+      "authors": [
+        "SH Jung",
+        "CJ Evans",
+        "C Uemura",
+        "U Banerjee"
+      ]
+    },
+    {
+      "title": "Drosophila Cellular Immunity Against Parasitoid Wasps: A Complex and Time-Dependent Process",
+      "authors": [
+        "C Kim-Jo",
+        "JL Gatti",
+        "M Poirie"
+      ]
+    },
+    {
+      "title": "Hedgehog signaling from the Posterior Signaling Center maintains U-shaped expression and a prohemocyte population in Drosophila",
+      "authors": [
+        "R Baldeosingh",
+        "H Gao",
+        "X Wu",
+        "N Fossett"
+      ]
+    },
+    {
+      "title": "Gene regulatory networks controlling hematopoietic progenitor niche cell production and differentiation in the Drosophila lymph gland",
+      "authors": [
+        "Y Tokusumi",
+        "T Tokusumi",
+        "DA Shoue",
+        "RA Schulz"
+      ]
+    },
+    {
+      "title": "Dual role of wingless signaling in stem-like hematopoietic precursor maintenance in Drosophila",
+      "authors": [
+        "SA Sinenko",
+        "L Mandal",
+        "JA Martinez-Agosto",
+        "U Banerjee"
+      ]
+    },
+    {
+      "title": "Hematopoietic progenitors and hemocyte lineages in the Drosophila lymph gland",
+      "authors": [
+        "J Krzemien",
+        "J Oyallon",
+        "M Crozatier",
+        "A Vincent"
+      ]
+    },
+    {
+      "title": "Exosome secretion promotes chemotaxis of cancer cells",
+      "authors": [
+        "BH Sung",
+        "AM Weaver"
+      ]
+    },
+    {
+      "title": "Exosomes Mediate LTB4 Release during Neutrophil Chemotaxis",
+      "authors": [
+        "R Majumdar",
+        "A Tavakoli Tameh",
+        "CA Parent"
+      ]
+    },
+    {
+      "title": "Contrasting Lifestyles Within the Host Cell",
+      "authors": [
+        "EDR Case",
+        "JE Samuel"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M Heavner"
+      ]
+    },
+    {
+      "title": "Role of macrophage apoptosis in the pathogenesis of Yersinia",
+      "authors": [
+        "Y Zhang",
+        "JB Bliska"
+      ]
+    },
+    {
+      "title": "Salmonella-induced macrophage death: multiple mechanisms, different outcomes",
+      "authors": [
+        "K Hueffer",
+        "JE Galan"
+      ]
+    },
+    {
+      "title": "Caspase-1 activation by Salmonella",
+      "authors": [
+        "HA Jarvelainen",
+        "A Galmiche",
+        "A Zychlinsky"
+      ]
+    },
+    {
+      "title": "Parasitoid wasp venom vesicles (venosomes) enter Drosophila melanogaster lamellocytes through a flotillin/lipid raft-dependent endocytic pathway",
+      "authors": [
+        "B Wan",
+        "M Poirie",
+        "JL Gatti"
+      ]
+    },
+    {
+      "title": "dOCRL maintains immune cell quiescence by regulating endosomal traffic",
+      "authors": [
+        "SJ Del Signore",
+        "SA Biber",
+        "KS Lehmann",
+        "SR Heimler",
+        "BH Rosenfeld",
+        "TL Eskin"
+      ]
+    },
+    {
+      "title": "Atg6 is required for multiple vesicle trafficking pathways and hematopoiesis in Drosophila",
+      "authors": [
+        "BV Shravage",
+        "JH Hill",
+        "CM Powers",
+        "L Wu",
+        "EH Baehrecke"
+      ]
+    },
+    {
+      "title": "Retromer promotes immune quiescence by suppressing Spätzle-Toll pathway in Drosophila",
+      "authors": [
+        "B Zhou",
+        "E.Y Yun",
+        "L Ray",
+        "J You",
+        "Y.T Ip",
+        "X Lin"
+      ]
+    },
+    {
+      "title": "Spatial and temporal regulation of the homeotic selector gene Antennapedia is required for the establishment of leg identity in Drosophila",
+      "authors": [
+        "BS Emerald",
+        "SM Cohen"
+      ]
+    },
+    {
+      "title": "Hand is a direct target of the forkhead transcription factor Biniou during Drosophila visceral mesoderm differentiation",
+      "authors": [
+        "D Popichenko",
+        "J Sellin",
+        "M Bartkuhn",
+        "A Paululat"
+      ]
+    },
+    {
+      "title": "Live imaging of wound inflammation in Drosophila embryos reveals key roles for small GTPases during in vivo cell migration",
+      "authors": [
+        "B Stramer",
+        "W Wood",
+        "MJ Galko",
+        "MJ Redd",
+        "A Jacinto",
+        "SM Parkhurst"
+      ]
+    },
+    {
+      "title": "Hemese, a hemocyte-specific transmembrane protein, affects the cellular immune response in Drosophila",
+      "authors": [
+        "E Kurucz",
+        "CJ Zettervall",
+        "R Sinka",
+        "P Vilmos",
+        "A Pivarcsi",
+        "S Ekengren"
+      ]
+    },
+    {
+      "title": "New hemocyte-specific enhancer-reporter transgenes for the analysis of hematopoiesis in Drosophila",
+      "authors": [
+        "T Tokusumi",
+        "DA Shoue",
+        "Y Tokusumi",
+        "JR Stoller",
+        "RA Schulz"
+      ]
+    },
+    {
+      "title": "Analysis of Ras-induced overproliferation in Drosophila hemocytes",
+      "authors": [
+        "H Asha",
+        "I Nagy",
+        "G Kovacs",
+        "D Stetson",
+        "I Ando",
+        "CR Dearolf"
+      ]
+    },
+    {
+      "title": "Cooperation between the GATA and RUNX factors Serpent and Lozenge during Drosophila hematopoiesis",
+      "authors": [
+        "L Waltzer",
+        "G Ferjoux",
+        "L Bataille",
+        "M Haenlin"
+      ]
+    },
+    {
+      "title": "Transcriptional regulation of eater gene expression in Drosophila blood cells",
+      "authors": [
+        "PT Kroeger",
+        "T Tokusumi",
+        "RA Schulz"
+      ]
+    },
+    {
+      "title": "Drosophila hemolectin gene is expressed in embryonic and larval hemocytes and its knock down causes bleeding defects",
+      "authors": [
+        "A Goto",
+        "T Kadowaki",
+        "Y Kitagawa"
+      ]
+    },
+    {
+      "title": "Distinct protein domains and expression patterns confer divergent axon guidance functions for Drosophila Robo receptors",
+      "authors": [
+        "B Spitzweck",
+        "M Brankatschk",
+        "BJ Dickson"
+      ]
+    },
+    {
+      "title": "Role of Drosophila Rab5 during endosomal trafficking at the synapse and evoked neurotransmitter release",
+      "authors": [
+        "T Wucherpfennig",
+        "M Wilsch-Brauninger",
+        "M Gonzalez-Gaitan"
+      ]
+    },
+    {
+      "title": "Drosophila Vps16A is required for trafficking to lysosomes and biogenesis of pigment granules",
+      "authors": [
+        "S Pulipparacharuvil",
+        "MA Akbar",
+        "S Ray",
+        "EA Sevrioukov",
+        "AS Haberman",
+        "J Rohrer"
+      ]
+    },
+    {
+      "title": "The Transgenic RNAi Project at Harvard Medical School: Resources and Validation",
+      "authors": [
+        "LA Perkins",
+        "L Holderbaum",
+        "R Tao",
+        "Y Hu",
+        "R Sopko",
+        "K McCall"
+      ]
+    },
+    {
+      "title": "defines two distinct control pathways in the Drosophila host defense",
+      "authors": [
+        "B Lemaitre",
+        "E Kromer-Metzger",
+        "L Michaut",
+        "E Nicolas",
+        "M Meister",
+        "P Georgel"
+      ]
+    },
+    {
+      "title": "Two Independent Functions of Collier/Early B Cell Factor in the Control of Drosophila Blood Cell Homeostasis",
+      "authors": [
+        "J Oyallon",
+        "N Vanzo",
+        "J Krzemien",
+        "I Morin-Poulard",
+        "A Vincent",
+        "M Crozatier"
+      ]
+    },
+    {
+      "title": "Discovery of aspirin-triggered eicosanoid-like mediators in a Drosophila metainflammation-blood tumor model",
+      "authors": [
+        "S Panettieri",
+        "I Paddibhatla",
+        "J Chou",
+        "R Rajwani",
+        "R Moore",
+        "T Goncharuk"
+      ]
+    },
+    {
+      "title": "Characterization of a lamellocyte transcriptional enhancer located within the misshapen gene of Drosophila melanogaster",
+      "authors": [
+        "T Tokusumi",
+        "RP Sorrentino",
+        "M Russell",
+        "R Ferrarese",
+        "S Govind",
+        "RA Schulz"
+      ]
+    },
+    {
+      "title": "Drob-1, a Drosophila member of the Bcl-2/CED-9 family that promotes cell death",
+      "authors": [
+        "T Igaki",
+        "H Kanuka",
+        "N Inohara",
+        "K Sawamoto",
+        "G Nunez",
+        "H Okano"
+      ]
+    },
+    {
+      "title": "Organizing activity of wingless protein in Drosophila",
+      "authors": [
+        "G Struhl",
+        "K Basler"
+      ]
+    },
+    {
+      "title": "Role for sumoylation in systemic inflammation and immune homeostasis in Drosophila larvae",
+      "authors": [
+        "I Paddibhatla",
+        "MJ Lee",
+        "ME Kalamarz",
+        "R Ferrarese",
+        "S Govind"
+      ]
+    },
+    {
+      "title": "Generation of anti-Antennapedia monoclonal antibodies and Antennapedia protein expression in imaginal discs",
+      "authors": [
+        "JM Condie",
+        "J.A. Mustard JA",
+        "DL Brower"
+      ]
+    },
+    {
+      "title": "Definition of Drosophila hemocyte subsets by cell-type specific antigens",
+      "authors": [
+        "E Kurucz",
+        "B Vaczi",
+        "R Markus",
+        "B Laurinyecz",
+        "P Vilmos",
+        "J Zsamboki"
+      ]
+    },
+    {
+      "title": "Related cell-surface antigens expressed with positional specificity in Drosophila imaginal discs",
+      "authors": [
+        "DL Brower",
+        "M Wilcox",
+        "M Piovant",
+        "RJ Smith",
+        "LA Reger"
+      ]
+    }
+  ],
+  "original_title": "A parasitoid wasp of Drosophila employs preemptive and reactive strategies to deplete its host's blood cells",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/786e3d990822/ppat.1009615.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/4473a78805e1/ppat.1009615.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/b325debea47a/ppat.1009615.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/ecfbb64a3f4c/ppat.1009615.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/3d58fdf586a5/ppat.1009615.g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/ed0e865bf7e5/ppat.1009615.g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7c3e/8191917/c914d893dd8c/ppat.1009615.g007.jpg"
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "pmcid": "PMC4507784",
+  "title": "Brassinazole resistant 1 (BZR1)-dependent brassinosteroid signalling pathway leads to ectopic activation of quiescent cell division and suppresses columella stem cell differentiation",
+  "abstract": "Highlight\n\nBrassinosteroids (BRs) lead to ectopic activation of quiescent centre division as well as modulation of the columella stem cells differentiation in Arabidopsis roots in a BR concentration- and BZR1-/BES1-dependent manner.\n\nPrevious publications have shown that BRI1 EMS suppressor 1 (BES1), a positive regulator of the brassinosteroid (BR) signalling pathway, enhances cell divisions in the quiescent centre (QC) and stimulates columella stem cell differentiation. Here, it is demonstrated that BZR1, a BES1 homologue, also promotes cell divisions in the QC, but it suppresses columella stem cell differentiation, opposite to the action of BES1. In addition, BR and its BZR1-mediated signalling pathway are shown to alter the expression/subcellular distribution of pin-formed (PINs), which may result in changes in auxin movement. BR promotes intense nuclear accumulation of BZR1 in the root tip area, and the binding of BZR1 to the promoters of several root development-regulating genes, modulating their expression in the root stem cell niche area. These BZR1-mediated signalling cascades may account for both the ectopic activation of QC cell divisions as well as the suppression of the columella stem cell differentiation. They could also inhibit auxin-dependent distal stem cell differentiation by antagonizing the auxin/WOX5-dependent pathway. In conclusion, BZR1-/BES1-mediated BR signalling pathways show differential effects on the maintenance of root apical meristem activities: they stimulate ectopic QC division while they show opposite effects on the differentiation of distal columella stem cells in a BR concentration- and BZR1-/BES1-dependent manner.",
+  "introduction": "Introduction\n\nThe apical regions of plant roots are composed of mitotically inactive quiescent centre (QC) cells and the surrounding meristemic stem cell initials (epidermal-lateral root cap initials, cortical-endodermal initials, stele initials, and columella initials), which form a ‘stem cell niche’ (SCN) (Supplementary Figure S1 available at JXB online). Each initial cell gives rise to the different root tissues, being the outermost lateral root cap, epidermis, ground tissue (cortex and endodermis), pericycle, and the innermost vascular tissues to make up a radial arrangement of root tissues. Along the longitudinal axis, the root is composed of a distal structure [lateral root cap and columella layers derived from the columella stem cell initials (CSCs)], the SCN, proximal meristem, transition zone, elongation zone, and differentiation zone. This cylinder-like concentric root structure is established by a balance between cell division in initials, stem cells, and meristematic cells of the proximal/distal meristems, and differentiation of these cells into diverse cell types in the elongation/differentiation zone. This balance is under the tight control of unknown QC-directed signals and environmental cues that regulate the spatiotemporal expression of master regulatory genes for cell fate determination. In general, when asymmetric division of a stem cell initial occurs, the daughter cell that has contact with the QC remains as an initial cell whereas the other daughter cell—which is separate from the QC—divides to form transit-amplifying cells at the boundary of the proximal meristem.\n\nMany hormones and protein factors have been shown to be involved in the specification and maintenance of QC and stem cell identity, and the resulting determination of radial and longitudinal patterning (reviewed in). Among them, auxin is a major cell fate-instructive hormone that is synthesized at the shoot tip and transported down to the QC and CSCs at the root tip to form an auxin maximum. The auxin maximum specifies the hypophysis and the QC and regulates formation of the root meristem. The presence of the auxin maximum and the auxin gradient along the root are the result of collective activities and topologies of auxin carrier proteins including the pin-formed (PINs). Antagonistic regulation of PIN phosphorylation/dephosphorylation by the pinoid (PID) protein kinase and protein phosphatase 2A (PP2A), respectively, directs topological patterning of PINs and the subsequent auxin flux.\n\nBrassinosteroids (BRs) are polyhydroxylated steroid hormones that play pivotal roles in a wide range of plant growth and developmental processes. Upon binding of a BR to its receptor, brassinosteroid insensitive 1 (BRI1) forms a heterodimeric complex with bri1-associated receptor kinase1/somatic embryogenesis receptor kinase3 (BAK1/SERK3), and the fully activated BRI1/BAK1 complex then initiates a signalling cascade that activates the positively acting transcription factors brassinazole resistant 1/BRI1 EMS suppressor 2 (BZR1/BES2) and BZR2/BES1 to regulate expression of a wide range of genes and the subsequent plant growth and development. BR-induced nuclear localization of BZR1/BES1 is crucial for BR activities, and this localization is dependent on the phosphorylation and 14-3-3 modification status of the BZR1/BES1 proteins. Brassinosteroid-insensitive 2 (BIN2) is a GSK3/Shaggy-like kinase that phosphorylates BZR1/BES1, thus acting as a negative regulator of the BR signal transduction pathway. In contrast, PP2A dephosphorylates BZR1 and abolishes BZR1 binding to the 14-3-3- proteins to activate BR-responsive gene expression and plant growth.\n\nBRs regulate root growth in a concentration-dependent manner: they promote root growth at low concentrations and inhibit it at high concentrations. They also play a regulatory role in the control of cell cycle progression and differentiation in the Arabidopsis root meristem: plants treated with BR or mutants with enhanced BR signalling, such as bes1-D, show premature cell cycle exit that results in early differentiation of meristematic cells. In addition, BRs promote QC division and differentiation of distal stem cells. In fact, the BRI1-like 3 (BRL3) signalosome complex containing BAK1 and BRL1 modulates root growth and development by contributing to the cellular activities of provascular and QC cells. Recently two BR transcriptional targets— brassinosteroids at vascular and organizing centre (BRAVO) and ethylene response factor 115 (ERF115)—regulating QC quiescence in opposite ways have been identified. BRAVO acts as a cell-specific repressor of QC divisions, and BR-regulated BES1 counteracts its action by directly repressing and physically interacting with the BRAVO. ERF115 induces QC cell division by acting through phytosulfokines 5 (PSK5) signalling, and BR drives QC proliferation by stimulating ERF115 expression.\n\nHere it is revealed that BR-induced accumulation of BZR1 in the root tips and down-regulation/re-localization of PIN3, PIN4, and PIN7 proteins may result in changes in auxin distribution and the resulting auxin maximum area. This alteration in the auxin localization domain together with gene expression regulation of BRAVO, ERF115, and other root-regulating genes may lead to ectopic activation of QC division and suppression of CSC differentiation. It is also demonstrated that BR and the related BZR1-/BES1-mediated signalling pathways have opposite effects on the differentiation of distal CSCs in Arabidopsis roots in a BR concentration-dependent and a signalling molecule-dependent manner.",
+  "methods": "Materials and methods\n\nPlant materials and growth conditions\n\nWild-type Arabidopsis thaliana (Columbia-0, Col-0), its ethylene biosynthesis mutant eto1-11 and BR-related mutants (det2, bri1-116, bzr1-D, and bri1-116/bzr1-D), and wild-type Arabidopsis thaliana (Enkheim-2, En-2) and its mutant bes1-D plants were used for QC, CSC, and columella cell (CC) phenotype analysis and root-regulating gene expression analysis. pBZR1::BZR1-YFP and p35S::BES1-GFP plants were used for BZR1 subcellular localization study and ChIP-qPCR assays. Promoter-driven reporter seeds were kindly provided by Dr Wang at Carnegie Institution for Science, USA (pBZR1::BZR1-YFP, pBZR1::bzr1-D-CFP, and 35S::BES1-GFP); Dr Laux at the University of Freiburg, Germany (pWOX5::GFP); Dr Benfey at Duke University, USA (pSCR::SCR-GFP); Dr Guilfoyle at University of Missouri, Columbia, USA (DR5::GFP and DR5::GUS); Dr Friml at Ghent University, Belgium (pPIN3::PIN3-GFP, pPIN4::PIN4-GFP, and pPIN7::PIN7-GFP); and Dr Scheres at Ultrecht University, The Netherlands (pCo2::YFP H2B, and J2341). The following plants were generated: bzr1-D x pWOX5::GFP, bzr1-D x pSCR::SCR-GFP, bzr1-D x pC O 2::YFP H2B, DR5::GFP x bzr1-D, and DR5::GFP x mx3 (pBZR1::bzr1-D-CFP). These reporter seedlings were used to trace expression and behaviour of the fusion proteins under the confocal laser-scanning microscope.\n\nSeeds were surface-sterilized by sequential washing with 70% EtOH/0.1% Triton X-100 for 20min, 70% EtOH for 10min, and 95% EtOH for 10min. Seeds were dried on a clean bench and cold-treated in the dark at 4 °C for 72h. These sterilized seeds were then sown on 1/2 MS agar medium containing 0.8% phytoagar (pH 5.7) in the presence or absence of the indicated chemicals. Plants were grown in a growth chamber operating under a cycle of 16h light and 8h dark at 23–25 °C with 70% humidity. All seedlings were grown vertically.\n\nChemicals\n\nBrassinolide (BL) and X-GLUC were purchased from Duchefa (The Netherlands) and MB Cell (USA), respectively. All other chemicals used in this report were purchased from Sigma-Aldrich (USA) unless otherwise indicated. Brassinazole (BRZ), bikinin (BK), and α-(phenyl ethyl-2-one)-IAA (PEO-IAA) were kindly provided by Dr Yoshida (RIKEN, Japan), Dr Beeckman (Ghent University, Belgium), and Dr Hayashi (Okayama University of Science, Japan), respectively.\n\nHistochemical staining\n\nFor propidium iodide (PI) staining (reported in Figs 1 and 5), roots were incubated for 30min in PI (5 μg/ml), rinsed, and mounted in H2O before confocal microscopic observation.\n\nStaining and detection of β-glucuronidase (GUS) activity was performed according to the method of, with some modifications. In brief, roots were fixed in 90% acetone for 20min and infiltrated with staining buffer [0.1M phosphate (pH 7.0), 10mM EDTA, 2.5mM K4Fe(CN)6·3H20, and 1mg/ml X- GLUC]. The resulting stained root tissues were then fixed and processed as described in mPS-PI staining method.\n\nmPS-PI staining was performed according to the method of with some modifications to reveal cell shape, the presence of starch granules, and auxin maximum (described in Figs 2, 3 and 4). In brief, roots were fixed in fixative (50% methanol and 10% acetic acid) and then incubated in 1% periodic acid after rinsing with water. Next, the tissues were treated with modified Pseudo Schiff reagent (100mM sodium metabisulphite and 0.15N HCl, supplemented with freshly added PI to a final concentration of 100 μg/ml). The samples were transferred onto microscope slides and covered with a chloral hydrate solution (4g chloral hydrate, 1ml glycerol, and 2ml water) for 5min to observe fluorescence or reflection signals using the Zeiss Confocal microscope.\n\nConfocal microscopy\n\nPI, YFP/GFP, and GUS signals were obtained using a Zeiss LSM 710 confocal laser-scanning microscope equipped with an argon 2 ion laser (488nm) and a He/Ne 1 ion laser (543nm). For observation of PI-stained roots, samples were excited at 543nm to collect the PI signal at 595–615nm or excited at 488nm to detect GFP signal at 493–545nm or YFP signal at 521–560nm. For observation of mPS-PI-stained roots, samples were excited at 488nm and the emission was collected at 520–720nm to detect the PI signal. The stained signal for GUS activity was obtained using the reflection mode of the confocal microscope. In this case, the excitation wavelength was 488nm, and the reflection signal was collected at 485–491nm. Images were compiled and analysed using the LSM 710 ZEN image browser software.\n\nQuantitative real-time PCR analysis\n\nTotal RNA was isolated from root tissues using the Plant RNA Extraction Kit (Intron Biotechnology, Korea) and treated with RQ1 RNase-Free DNase (Promega, USA) according to the manufacturer’s instructions. Quantitative real-time PCR (qRT-PCR) was performed by the SYBR green method using the Applied Biosystems Step One Plus System (Applied Biosystems, USA). The expression of each transcript was normalized against the amount of UBC1 control in each sample. CPD was used as a control for BR-repressed genes. The results were reported as expression relative to the Col-0 mock control (Figs 1G, 1H, 5A, 5B, 6A, and 6B) or Col-0 or En-2 genetic control (Figs 1I, 5C, and 6C). Three to five biological replicates were included in each experiment, and the data were statistically analysed using the Student’s t-test. Primers used for the qRT-PCRs are summarized in Supplementary Table S1 (available at JXB online).\n\nChIP-qPCR assay\n\nChIP experiments were performed as previously described with minor modifications using the non-transgenic Columbia-0, plants expressing native promoter-driven BZR1-GFP (pBZR1::BZR1-YFP), and plants constitutively expressing BES1-GFP (p35S::BES1-GFP). In brief, week-old seedlings were cross-linked with 1% formaldehyde and the chromatin DNA fragments (~500bp in length) were isolated from their nuclei of root tissues to retrieve BZR1 or BES1-binding DNA fragments using rabbit polyclonal anti-GFP antibodies (Abcam, UK). The bound DNA fragments were then extracted using the Gel/PCR DNA fragments extraction kit (RBC Bioscience, Korea) and the amount of the bound DNA was measured by performing real-time PCRs with the primer sets listed in Supplementary Table S2 (available at JXB online) using equal amounts of DNA from the input and the CoIP fractions.",
+  "results": "Results\n\nBoth BZR1- and BES1-mediated BR signalling pathways stimulate mitotic reactivation of QC cells\n\nThe QC is the source of stem cell initials and is maintained at the G1/S cell cycle checkpoint and thus divides infrequently. BR-induced nuclear localization of BES1, a positive regulator of the BR signalling pathways, in the QC promotes QC reactivation, leading to production of two layers of QC cells and results in CSC differentiation. In this report, whether BZR1, a BES1 homologue, is also actively involved in BR-regulated QC regulation was tested. BZR1 is primarily localized in the nucleus of epidermal cells and some cortex cells of the proximal root tips of pBZR1:BZR1-YFP plants when they are grown in medium lacking BL (a type of BR) (Fig. 1A). It was found that, contrary to a previous report, supplying BL in the medium enhanced nuclear localization of BZR1 in the cells of the SCN area, so that concentrated nuclear expression was found in the root tip cells including the QC, cells above the QC, the CSC, and CCs (Fig. 1A). Similar localization of BZR1 was evident within 15min when BL was applied to 7-d-old seedlings (data not shown). This implies that not only the reported BES1- but also the BZR1-mediated BR signalling pathway may actively be involved in QC division and the distal CSC differentiation.\n\nTo assess roles of the BZR1-mediated signalling pathway in these developmental processes, whether the BR and BZR1-mediated signalling pathway modulates the mitotically inactive status of the QC was investigated. Col-0 plants grown on medium containing 10−10 M BL showed an increased frequency of mitotically activated QC cells, such that 58% of plants had two layers of QC cells with periclinal division by 7 d after germination (DAG) as determined by morphologic lineage (Fig. 1B). In comparison, 5% of untreated Col-0 plants harboured double layers of QC cells. Consistent with a previous report, more than 80% of plants with the bes1-D BR-signalling enhancing mutation in an En-2 background showed reactivated QC cell layers by 7 DAG, increasing to 100% by 14 DAG (Fig 1B, C; Supplementary Table S3, available at JXB online). It was next examined whether BZR1-mediated BR signalling results in similar QC reactivation. It was found that the QC was also frequently reactivated in BR-signalling enhanced bzr1-D plants, such that two QC layers were observed in 50% of the plants by 7 DAG and in 75% of the plants by 14 DAG (Fig. 1B, C; Supplementary Table S3). This QC reactivation was less frequent than that in bes1-D plants, but was greatly enhanced compared with Col-0 and BR-signalling defective bri1-116 plants, which hardly ever showed QC division at 7 DAG. Introduction of bzr1-D clearly reactivated the QC of bri1-116 (divided QCs were present in 37% of the bri1-116/bzr1-D plants by 7 DAG and 69% by 14 DAG), which implies that BRI1/BZR1-mediated BR signalling is actively involved in reactivation of QC division.\n\nWOX5 expression in the embryonic cell lineage leads to QC formation and is involved in maintaining the stem cell state in a non-autonomous manner. It was demonstrated that the QC marker WOX5 was expressed in both divided QC cells while a cortex marker (pC O 2::YFP H2B,), was unchanged in its expression pattern when these plants were grown on medium containing BL (Fig. 1D). SCARECROW (SCR) is required for specification of QC identity, stem cell homeostasis and asymmetric cell division. In this study, the SCR reporter plants grown on medium containing BL reactivated QC cell division as determined by morphologic cell lineage but, unexpectedly, SCR protein accumulated predominantly in the upper QC in most BL-treated cells. To verify the effect of BR on QC division, bzr1-D was crossed with different cell-specific marker lines (Fig. 1D). For bzr1-D×pWOX5::GFP, 50% of the plants showed GFP expression in both the upper and lower cells of the QC whereas the other 50% showed expression only in the upper cell. In most bzr1-D×pSCR::GFP, the GFP signal was present only in the upper cell of the QC. This lack of WOX5 and SCR expression in the rootward QC cells may indicate an asymmetric QC division and loss of functional QC identity.\n\nEthylene overexpressor 1 (ETO1) and CULLIN3 (CUL3) are a part of the ubiquitin E3 ligase complex that modulates the level of 1-Aminocyclopropane-1 carboxylic acid (ACC) synthase 5 (ACS5) catalysing the rate-limiting step of ethylene biosynthesis. It was previously reported that the gain-of-function eto1-11 mutant overproduces ethylene and promotes QC cell division. In this regard, it was tested whether the BZR1-mediated BR signalling pathway interacts with ETO1-promoted ethylene pathway in the regulation of the QC cell division. bzr1-D plants grown for 8 DAG showed QC cell division at a frequency of 74% (Fig. 1E). Treatment of neither an ethylene action inhibitor AgNO3 nor biosynthetic inhibitors, aminoethoxy-vinylglycine (AVG) and CoCl2, interfered with this bzr1-D-induced QC cell division. Similarly, treatment of eto1-11 mutants with BRZ, a BR biosynthesis inhibitor, did not significantly influence the QC reactivation frequency of eto1-11 plants (Fig. 1F). Moreover, both eto1-11 genetic background provoking QC cell division at a frequency of 61% and treatment of BL inducing cell division at a frequency of 45% additively coordinated the promotion of QC cell reactivation, thus BL-treated eto1-11 plants showed two-layered reactivated QC cells at a frequency of 97%. These results indicate that BZR1-mediated BR signalling and ETO1-promoted ethylene signalling pathways independently act on the QC reactivation event in a parallel manner.\n\nSupporting BZR1-mediated QC reactivation, expression of WOX5, SCR, and SHR genes was significantly increased by both short-term (3h, Fig. 1G) and long-term (7 DAG, Fig. 1H) treatments of BL. Consistent with BR-induced up-regulation, their expression was significantly repressed in BR signalling-defective bri1-116 plants, but greatly increased in signalling-enhanced bzr1-D plants and bri1-116/bzr1-D double mutants (Fig. 1I). In addition, BL treatment greatly suppressed gene expression of BRAVO (a negative regulator of QC divisions) and increased the expression of ERF115 (a positive regulator of QC division) in both the short-term and long-term treated Col-0 plants (Fig. 1G, H). Again, their expression was tightly controlled in a BRI1/BZR1-mediated signalling-dependent manner (Fig. 1I). Expression of BRAVO and ERF115 was similarly regulated in bes1-D plants to those of bzr1-D plants. Expression of genes regulating ethylene biosynthesis was also examined, and it was found that expression of CUL3, ACS5, and ETO1 was not regulated by BR treatment nor was it different in bzr1-D or bes1-D plants compared with the Col-0 or En-2 plants, respectively (Fig 1G–I). These results support the conclusion that BRs promote QC cell division independently from the ethylene pathway.\n\nBRs apparently exert opposite effects on the differentiation of distal CSCs in a concentration- and BZR1-/BES1-dependent manner\n\nResults presented thus far have shown that the BRI1/BZR1-mediated BR signalling pathway was able to reactivate and produce multiple layers of the QC (Fig. 1B; Supplementary Table S3 available at JXB online). In addition, BL treatment greatly enhanced expression of a columella initial marker, J2341, and expanded its expression to the QC, CC, and other root tip cells (Fig. 1D). These observations, together with BL-induced intense nuclear localization of BZR1 in the QC, CSCs, and CCs (Fig. 1A), prompted an investigation of the effects of BR on the maintenance and differentiation of distal CSCs by examining the development of starch-accumulated columella cells.\n\nFirst, the cell layer number of QC, CSC, and CC was measured for Col-0 (Fig. 2A) and BR biosynthesis-defective de-etiolated2 (det2) (Fig. 2B) plants grown on media containing various concentrations of BL, ranging from 10−15 to 10−9 M. To do this, root tips were stained with PI by performing mPS-PI staining to mark cell walls and starch granules. As expected, BL stimulated division of the QC in a concentration-dependent manner in both Col-0 and det2 plants. Less than 10% of Col-0 plants grown on media lacking BL carried two layers of QC, and the proportion of plants with the divided QC was greatly increased after exogenous treatment with BL: 60% and 82% of Col-0 plants grown on medium containing 10−10 M and 10−9 M, respectively, contained two layers of QC (Fig. 2A, D). In contrast, differentiation of CSC into CC was inhibited by the BL treatment. Most Col-0 plants grown on media lacking BL carried a single layer of CSCs, and only 15% of plants had two layers of CSCs. The proportion of Col plants with two CSC layers was moderately increased (25–30%) by the 10−15 M to 10−11 M of BL treatment, and it reached to 52% by the 10−10 M BL treatment, which implies that BL inhibits CSC differentiation into CC. Consistent with this, treatment of exogenous BL reduced the number of CC layers. For example, Col plants grown without exogenous BL had 57% seedlings with four layers of CCs and 43% with three layers of CCs (Fig. 2A). Interestingly, the proportion of plants with fewer CC layers steadily increased with increasing amount of BL treatment, so that plants grown on medium containing 10−10 M BL showed 25% seedlings with four layers of CCs, 68% with three layers of CCs, and 7% with two layers of CCs. These concentration-dependent developmental trends of QC, CSC, and CC layers were clearly reproduced in BL-treated det2 plants (Fig. 2B).\n\nSurprisingly, treatment of Col-0 plants with a higher concentration of exogenous BL resulted in opposite effects on CSC differentiation and CC development: it promoted CSC differentiation and the resulting CC development. Seventeen percent of Col-0 plants grown on 10−9 M BL had two layers of CSCs, which is far below the frequency compared with those of the plants grown on 10−15 M to 10−11 M of BL, and is about the same frequency as with mock-treated plants. Moreover, plants with no CSC (whose starch granules of cells resided underneath the QC were stained with PI) were present at a frequency of 18%, which was hardly observed in the mock- and lower BL-treated Col-0 plants (Fig. 2A, D). Consistent with this observation, an increased frequency of plants with a higher number of CC layers was observed in plants grown on medium containing 10−9 M BL than in plants grown with lower concentrations of BL. Similar observations were previously reported in Col-0 plants treated with 4×10−9 M BL and the bes1-D BR gain-of-function mutant. Interestingly, this effect was not observed in BL-treated det2 plants (Fig. 2B). Treatment of BR-deficient det2 plants with higher concentrations of BL further increased the number of CSC layers and dramatically decreased the number of CC layers accordingly. These results strongly indicate that BRs differentially regulate distal CSC differentiation in a concentration-dependent manner: they inhibit the stem cell differentiation at low concentrations and promote it at higher concentrations. In support of data presented here, Col-0 plants grown on media containing BK, an inhibitor of BIN2 (a negative regulator of the BR signalling pathway) showed similar results to plants treated with lower concentrations of BL (data not shown). Also of note was that BL treatments not only modulated CSC differentiation, as determined by counting the number of cell layers stained with PI or below the stained cells, but also weakened the intensity of PI staining (Fig. 2D). At the extreme, most Col-0 plants treated with 10−9 M BL had 1–3 cells in the lowest layers that were not stained at all. This result implies that BR may be involved in starch development as well as differentiation of the distal meristem.\n\nNext, to investigate the BRI1/BZR1-dependent regulation of QC division and CSC differentiation, the frequency of QC, CSC, and CC layers in diverse BR-related mutant plants was examined. As previously reported, bes1-D plants grown in MS media under the present experimental conditions showed enhanced QC reactivation and distal cell differentiation (Fig. 2C, E). Twenty percent of En-2 plants had two layers of QC and the remaining 80% carried a single QC cell layer. In comparison, more than 70% of bes1-D plants harboured two-layered QCs. Moreover, the proportion of bes1-D plants with no CSC also dramatically increased. It was found that 52% of the bes1-D plants had single-layered CSCs and the rest had no CSC, while 83% of En-2 plants carried single-layered CSCs and the remaining 17% had two-layered CSCs. In accordance, the frequency of plants with higher CC layers was increased in the bes1-D in that 16% of the plants had five layers, 39% four layers, and 45% three layers. In comparison, En-2 plants showed 3% with five-layered, 27% with four-layered, and the remaining 70% with three-layered CCs.\n\nComparing Col-0 plants with bri1-116, bzr1-D, and bri1-116/bzr1-D plants, 17% of Col-0 plants had two-layered QCs and the remaining 83% showed single-layered QCs by 8 DAG on MS media (Fig. 2C, E). In the same population of Col-0 plants, it was found that 90% of plants carried single-layered CSCs and a half developed four-layered CCs while the other half developed five-layered CCs. In comparison, the frequency of plants with single-layered QCs and CSCs in a BR-signalling defective mutant was slightly increased so that 98% of the bri1-116 plants carried single-layered QC or CSC. This implies that a defective BR signalling pathway may result in retardation of QC or CSC cell division or differentiation. Development of CCs was also slightly inhibited compared with the Col-0 plants: 20% of bri1-116 plants had five-layered, 72% four-layered, and the remaining 8% had three-layered CCs. Interestingly, a similar trend of reduction in CC layers was also observed in the BRZ-treated Col plants (data not shown). A BR-signalling enhanced mutant, bzr1-D, showed an increased frequency of plants with two-layered QCs as expected (80% with two-layered and the remaining 20% with single-layered plants). In addition, the frequency of plants with two-layered CSCs also dramatically increased (45% with two-layered and the rest with single-layered plants) as seen in the case of BL-treated Col-0 plants. Concurrently, the frequency of plants with fewer CC layers in the bzr1-D mutant was greatly increased in that 32% of the plants had four CC layers and the remaining 68% had three-layered CCs. A double mutant of the BR signal pathway, bri1-116/bzr1-D, had a similar frequency of plants with QC layers to bzr1-D and an intermediate frequency of plants with CSC and CC layers between bri1-116 and bzr1-1D. These results imply that differentiation of CSC and the resulting development of CC are under the control of the BRI1/BZR1-mediated BR signalling pathway, and that the BZR1-mediated BR signalling pathway, in opposition to BES1-mediated signalling, inhibits the differentiation of distal CSCs, thus delaying development of starch-filled columella cells. In addition, it seems that a defect in either BR biosynthesis (in the case of BRZ-treated Col plants) or in the signalling pathway (in the case of bri1-116) show similar results to BL treatment and BZR1-mediated signal enhancement.\n\nBZR1-mediated BR signalling pathway partly acts on the auxin pathway and shows an antagonistic effect on auxin-stimulated CSC differentiation\n\nThe auxin signalling pathway that stimulates differentiation of CSCs requires activation of auxin responding factors, ARF10 and ARF16 and subsequent restriction of WOX5 transcription in the QC. Based on these findings, whether the inhibitory effect of the BZR1-mediated BR signalling pathway involves interaction with auxin activities in the distal area was examined. Ninety percent of Col-0 plants grown on MS media without exogenous BL carried a single-layered CSC and the remaining 10% of plants had two layers of CSCs (Fig. 3A, B). In the same population, 23% of the Col-0 plants had five- or six-layered, 64% had four-layered, and 13% had three-layered CCs. As reported previously, Col-0 seedlings grown on medium supplemented with an auxin (1-naphthaleneacetic acid, NAA) led to a decrease in CSC layers and a resulting increase in CC layers. For example, the frequency of plants with single-layered CSCs in NAA-treated Col-0 seedlings was greatly decreased to 52% from 90% in the untreated Col-0 plants. Moreover, 48% of the NAA-treated plants showed no CSC at all. Accordingly, the frequency of NAA-treated plants with more CC layers increased significantly: 30% of the auxin-treated plants carried six-layered CCs, 35% with five-layered, and the remaining 35% had four-layered CCs. Conversely, treatment of plants with an auxin action inhibitor (PEO-IAA,) increased plants with more CSC layers and with fewer CC layers compared with those of Col-0 plants.\n\nIt has been shown in BL-treated Col-0 and bzr1-D plants that the frequency of plants with a higher number of CSC layers was increased and the number of CC layers was decreased compared with those of Col plants (Figs 2A–C and 3A). However, NAA greatly negated the effects of the bzr1-D mutation, so that it led to a dramatic increase in the frequency of plants with fewer CSC layers and subsequent enhanced differentiation of CSC into CC layers, as in the case of Col-0 plants treated with the same chemicals (Fig. 3A, B). For example, 32% of PEO-IAA-treated bzr1-D plants carried no CSC layer while only 6% of the untreated plants had no CSC layer. For CC layers, 58% of PEO-IAA-treated bzr1-D plants carried five-layered CSCs while only 5% were observed in untreated plants. In addition, treatment of PEO-IAA to the bzr1-D plants slightly augmented the bzr1-D mutation effect, so that the frequency of plants with more CSC layers and with fewer CC layers was slightly increased compared with the untreated bzr1-D plants. For example, 45% of PEO-IAA-treated bzr1-D plants carried two-layered CSCs while 31% of the untreated plants had two-layered CSCs. For CC layers, 72% of PEO-IAA-treated bzr1-D plants carried four-layered CSCs while this was observed in 66% of the untreated plants. Nonetheless, it was noticed that treatment of NAA or PEO-IAA to the bzr1-D plants did not completely lead to frequencies of CSC and CC layers observed in Col-0 plants treated by the same auxin-related chemicals. These results indicate that BZR1-mediated BR regulation on CSC differentiation and the following CC development partly act on the auxin action antagonistically, and a part of BZR1-mediated BR regulation for these developments may act in parallel to auxin.\n\nBZR1-mediated BR signalling pathway alters the expression/subcellular distribution of PIN proteins resulting in proximal relocation of the auxin localization domain in roots\n\nAuxin is synthesized at the shoot tip and transported down to the QC and columella initials in the root tip where the auxin maximum is formed. Disruption of the auxin expression domain leads to defective development of the distal meristem. Based on the finding that BR acts antagonistically on auxin action in the regulation of CSC differentiation, whether BR modulates the auxin expression domain (auxin maximum) was examined in the root tip using DR5::GUS and DR5::GFP plants as auxin-sensing reporters. To do this, roots were stained by performing either a GUS activity assay followed by mPS-PI staining to reveal cell walls and starch granules together with auxin-accumulating cells (Fig. 4A, C), or regular PI staining with live tissues to reveal cell walls (Fig. 4B). Auxin gradually accumulated from the QC to the CCs with the highest concentration at the CSC, CC1, and CC2 areas in most plants grown on MS medium without BL (Fig. 4A). About 35% of seedlings also showed auxin maximum at the root tip cells including the QC. Increasing the concentration of BL in the MS medium to 10−10 M shifted this expression domain longitudinally upward so that auxin was heavily concentrated at the QC, CSC, CC1, and the proximal area. For instance, more than 80% of BL (10−10 M)-treated DR5::GUS seedlings showed this pattern of auxin expression. Similarly, the DR5::GFP expression domain in bzr1-D plants and mx3 transgenic plants ectopically expressing the mutated form of BZR1 (pBZR1::bzr1-D-CFP) moved to the proximal area (Fig. 4B). Consistent with the BL-driven proximal shift of the auxin maximum, BK treatment mimicking the BR-induced positive signalling pathway moved the auxin-accumulating domain to the proximal area, whereas treatment of the GUS reporter plants with BRZ reversed the BR effect on the maximum movement (Fig. 4C). Interestingly, some DR5::GUS plants treated with 10−9 M BL resulted in enforced accumulation of auxin in the root tip area including the proximal zone, QC, and CCs (Fig. 4A). This is coincident with the finding that treatment of Col-0 plants with higher concentrations of exogenous BL resulted in opposite effects on CSC differentiation and CC development compared with those induced by lower concentrations of BL (Fig. 2A, D). As expected, the gradual expression of DR5::GUS and correct establishment of auxin maximum were dramatically abolished in plants grown in medium supplied with NAA, in which auxin was uniformly accumulated in all root tip areas at a high level (Fig. 4C). Supplying BL together with the NAA in the growth medium did not reverse this tendency, thus a high amount of auxin remained through the root tip.\n\nThe presence of the auxin maximum and the auxin gradient along the root are the result of collective activities and topologies of the PIN proteins. Specifically, PIN3, PIN4, and PIN7 play important roles in the positioning of auxin maximum and the following regulation of root patterning and distal meristem differentiation. To examine whether BR modulates transcript expression and protein localization of PINs in the root tip area, BL was applied to the root of Col-0 and PIN reporter plants for 3h or for 7 DAG and their gene expression and subcellular protein localization was examined. Interestingly, BL differentially regulated the expression of PINs in a concentration-dependent manner: treatment of Col-0 roots for a short period (3h) with BR at low concentration (5×10−10 M) greatly suppressed expression of PIN3, PIN4, and PIN7 genes whereas treatment with a higher concentration of BL (5×10−6 M) resulted in enhanced expression of PIN7 (Fig. 5A). A similar down-regulation of PIN gene expression was also observed for plants growing on a MS solid medium containing 5×10−10 M BL for a long period (7 DAG) (Fig. 5B). This regulation of PIN genes, especially for PIN4, was dependent on BRI1-/BZR1-mediated signalling pathways so that gene expression of PIN3, PIN4, and PIN7 was significantly enhanced in a bri1-116 background compared with the Col-0 plants. On the other hand, expression was significantly down-regulated (PIN4), slightly increased (PIN3) without statistical significance, or maintained at the Col-0 control level (PIN7) in bzr1-D plants (Fig. 5C). Moreover, up-regulation of the PIN genes by bri1-116 mutation was partly negated by the bzr1-D mutation background in bri1-116/bzr1-D double mutants. This bzr1-D down-regulation effect of PIN genes resembles exogenous BL treatment at lower concentrations. In contrast, PIN7 expression was greatly increased in bes1-D mutants, which resembles the gene expression in plants treated with a higher concentration of BL. These results are consistent with the observation that BR has opposing effects on the differentiation of distal CSCs in concentration- and BZR1-/BES1-dependent manners.\n\nNext, the PIN reporter plants were treated with BL, as done for the gene expression analysis, and PIN protein expression and subcellular localization was examined (Fig. 5D–F). Without BL treatment, PIN3-GFP protein of pPIN3::PIN3-GFP plants in this experimental condition accumulated in the cell membrane of CSC and CC1 to the CC3 with predominant expression in CC1 and CC2 (Fig. 5D, F; upper panel). In contrast when BL was added to the incubation medium at a higher concentration (10−6 M) for 3h, the PIN3 expression domain was restricted mainly to CC1 and CC2 and disappeared from CC3. At the same time, the characteristic plasma membrane-localized PIN3 pattern was gradually diminished, and PIN3 appeared in endosome- or vesicle-like internal structures (Fig. 5D) at a frequency of 25% in mock-treated plants, which jumped to 65% in the BL-treated plants (Fig. 5E). Finally, growing PIN3 reporter seedlings on medium supplemented with 10−10 M BL for 7 DAG resulted in a significant decrease in the number of PIN3 expression layers and intensity of the PIN3 protein expressed (Fig. 5F). For example, 44.4% of the reporter plants showed PIN3-GFP expression in >3 columella cell layers with high expression level while 27.8 % expressed in 1–2 columella cell layers with low expression intensity. In contrast, BL-treated plants displayed 36.8% of plants with expression in >3 columella cell layers with high or medium expression intensity, and 57.9% of plants showed expression in one columella cell layer with low expression intensity. PIN4-GFP protein showed a nonpolar localization mainly in the membrane of CC1 to CC3 with prominent basal accumulation (Fig. 5F; middle panels). PIN7-GFP protein showed a similar expression pattern with prominent expression in CC2 (Fig. 5F; lower panel). Similar to the BL-treated PIN3::PIN3-GFP plants, treatment of BL (10−10 M) to pPIN4::PIN4-GFP and pPIN7::PIN7-GFP plants for 7 DAG resulted in a reduction in expression layers and intensity of reporter proteins. In conclusion, the BR signalling pathway modulates PIN gene expression and protein localization, which may lead to proximal relocation of the auxin maximum in the root tip.\n\nBR regulates transcriptional expression of diverse root-controlling genes in a BZR1-dependent manner\n\nTranscriptional regulation of many protein factors plays an important role in the establishment, maintenance, and differentiation of the root apical meristem (reviewed in). In this report, results have shown that BR-induced and BZR1-mediated signalling pathway regulates expression of several root-regulating genes including PINs and WOX5. To have a better understanding of how BR regulates CSC differentiation, transcriptional expression of other key root-regulating genes was examined in the presence or absence of BL.\n\nSOMBRERO (SMB) and FEZ proteins antagonistically regulate distal stem cell differentiation through transcriptional negative feedback regulation: FEZ promotes periclinal root cap-forming cell divisions and SMB negatively regulates FEZ activity, repressing stem cell-like divisions in the root cap daughter cells. Therefore, it was determined whether BR regulates expression of SMB and FEZ and whether the mode of this regulation is opposite for these genes. In Col-0 plants, BL up-regulated SMB expression whereas it down-regulated FEZ expression for short- and long-treatment with both low and high concentrations of BL (Fig. 6A, B). In bri1-116 plants, SMB expression was down-regulated but recovered to the level of Col-0 plants by introducing a bzr1-D mutation (bri1-116/bzr1-D, Fig. 6C). Given the fact that the smb-3 mutant has more CC layers and fez-2 has fewer CC layers, these results indicate that the BR-induced up-regulation of SMB and down-regulation of FEZ may contribute to the BR-induced and BZR1-mediated suppression of CSC differentiation. In support of this idea, FEZ expression was significantly down-regulated in bzr1-D plants. BEARSKIN 1 (BRN1) and BRN2, together with SMB, directly activate transcription of both vascular nac domain (VND) and nac secondary wall thickening promoting factor (NST) to regulate cell maturation in the root cap, which undergoes terminal differentiation and detachment from the root. The results showed that BR up-regulated BRN2 expression in Col-0 plants during both short- and long-term treatment, and that this was under the control of BRI1/BZR1-mediated gene expression (Fig. 6A–C). The expression of BRN1 in Col-0 plants was not significantly changed by short-term treatment of BL, but was slightly decreased by prolonged treatment with 5×10−10 M of BL. Interestingly, its expression was enhanced in bes1-D plants. Further studies are needed to carefully analyse how this regulation of gene expression is linked to BR- and BZR1-mediated root cap maturation.\n\nSince BR regulates transcriptional expression of diverse root-controlling genes in a BZR1 or BES1-dependent manner in this system, it was tested whether BZR1 or BES1 binds to the promoter of these genes in vivo by performing ChIP-qPCR analysis using pBZR1::BZR1-YFP and p35S::BES1-GFP plants. It was found that BRAVO and ERF115 contain at least one or two BZR1 and/or BES1-binding motifs in their promoter regions (Fig. 6D), and this is consistent with the previous result showing that their expression was tightly controlled by BRI1/BZR1-mediated signalling (Fig. 1I). PIN3, PIN4, and PIN7 genes contain at least one BZR1- and BES1-binding motif, and these results are strongly supported by a previous report demonstrating that BZR1 may bind to PIN3, PIN4, PIN7 as evidenced by ChIP microarray (ChIP-chip) performed using transgenic Arabidopsis plants expressing the BZR1-CFP protein from the BZR1 promoter. The BRN1 gene had at least one BZR1 and BES1-binding motif (Fig. 6D), but their effect on gene expression was different from each other (Fig. 6C). Taken together, these data indicate that BR-induced nuclear BZR1 regulates expression of several key root-controlling genes by binding to their promoters, which may be resulting in BR-induced modulation of root stem cell division and differentiation in the root tip area including columella cell layers.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Auxin",
+    "brassinosteroid",
+    "BZR1",
+    "columella stem cell",
+    "PINs",
+    "quiescent centre (QC)",
+    "root apical meristem",
+    "root development.",
+    "Research Paper"
+  ],
+  "citations": [
+    {
+      "title": "Characterization of brassinazole, a triazole-type brassinosteroid biosynthesis inhibitor",
+      "authors": [
+        "T Asami",
+        "YK Min",
+        "N Nagata",
+        "K Yamagishi",
+        "S Takasuto",
+        "S Fujioka",
+        "N Murofushi",
+        "I Yamaguchi",
+        "S Yoshida"
+      ]
+    },
+    {
+      "title": "Brassinosteroids interact with auxin to promote lateral root development in Arabidopsis",
+      "authors": [
+        "F Bao",
+        "J Shen",
+        "SR Brady",
+        "GK Muday",
+        "T Asami",
+        "Z Yang"
+      ]
+    },
+    {
+      "title": "Single-cell-based system to monitor carrier driven cellular auxin homeostasis",
+      "authors": [
+        "E Barbez",
+        "M Lankova",
+        "M Parezova",
+        "A Maizel",
+        "E Zazimalova",
+        "J Petrasek",
+        "J Friml",
+        "J Kleine-Vehn"
+      ]
+    },
+    {
+      "title": "Root development- Two meristems for the price of one?",
+      "authors": [
+        "T Bennett",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "SOMBRERO, BEARSKIN1, and BEARSKIN2 regulate root cap maturation in Arabidopsis",
+      "authors": [
+        "T Bennett",
+        "A van den Toorm",
+        "GF Sanchez-Perez",
+        "A Campilho",
+        "V Willemsen",
+        "B Snel",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "Root Apical Meristem Pattern: Hormone Circuitry and transcriptional networks",
+      "authors": [
+        "MB Bitonti",
+        "A Chiappetta",
+        "Lüttge"
+      ]
+    },
+    {
+      "title": "The PIN auxin efflux facilitator network controls growth and patterning in Arabidopsis roots",
+      "authors": [
+        "I Blilou",
+        "M Wildwater",
+        "V Willemsen",
+        "I Paponov",
+        "J Friml",
+        "R Heidstra",
+        "M Aida",
+        "K Palme",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "A novel sensor to map auxin response and distribution at high spatio-temporal resolution",
+      "authors": [
+        "G Brunoud",
+        "DM Wells",
+        "M Oliva"
+      ]
+    },
+    {
+      "title": "Visualization of BRI1 and BAK1(SERK3) membrane receptor heterooligomers during brassinosteroid signaling",
+      "authors": [
+        "CA Bücherl",
+        "GW van Esse",
+        "A Kruis",
+        "J Luchtenberg",
+        "AH Westphal",
+        "J Aker",
+        "A van Hoek",
+        "C Albrecht",
+        "JW Borst",
+        "SC de Vries"
+      ]
+    },
+    {
+      "title": "Spatiotemporal brassinosteroid signaling and antagonism with auxin pattern stem cell dynamics in Arabidopsis roots",
+      "authors": [
+        "J Chaiwanon",
+        "Z-Y Wanf"
+      ]
+    },
+    {
+      "title": "Chemical inhibition of a subset of Arabidopsis thaliana GSK3-like kinases activates brassinosteroid signaling",
+      "authors": [
+        "B De Rybel",
+        "D Audenaert",
+        "G Vert"
+      ]
+    },
+    {
+      "title": "Auxin regulates distal stem cell differentiation in Arabidopsis roots",
+      "authors": [
+        "Z Ding",
+        "J Friml"
+      ]
+    },
+    {
+      "title": "The BRASSINOSTEROID INSENSITIVE1-LIKE3 signalosome complex regulates Arabidopsis root development",
+      "authors": [
+        "N Fàbregas",
+        "N Li",
+        "S Boeren",
+        "TE Nash",
+        "MB Goshe",
+        "SD Clouse",
+        "S de Vries",
+        "AI Caño-Delgado"
+      ]
+    },
+    {
+      "title": "Brassinosteroids in growth control: How, when and where",
+      "authors": [
+        "Y Fridman",
+        "S Savaldi-Goldstein"
+      ]
+    },
+    {
+      "title": "AtPIN4 mediates sink-driven auxin gradients and root patterning in Arabidopsis",
+      "authors": [
+        "J Friml",
+        "E Benkova",
+        "I Blilou"
+      ]
+    },
+    {
+      "title": "Efflux dependent auxin gradients establish the apical–basal axis of Arabidopsis",
+      "authors": [
+        "J Friml",
+        "A Vieten",
+        "M Sauer",
+        "D Weijers",
+        "H Schwarz",
+        "T Hamann",
+        "R Offringa",
+        "G Jurgens"
+      ]
+    },
+    {
+      "title": "An essential role for 14-3-3 proteins in brassinosteroid signal transduction in Arabidopsis",
+      "authors": [
+        "SS Gampala",
+        "TW Kim",
+        "JX He"
+      ]
+    },
+    {
+      "title": "Profiling histone modification patterns in plants using genomic tilling microarrays",
+      "authors": [
+        "AV Gendrel",
+        "Z Lippman",
+        "R Martienssen",
+        "V Colot"
+      ]
+    },
+    {
+      "title": "Brassinosteroids control meristem size by promoting cell cycle progression in Arabidopsis roots",
+      "authors": [
+        "M-P Gonzalez-Garcia",
+        "J Vilarrasa-Blasi",
+        "M Zhiponova",
+        "F Divol",
+        "S Mora-Garcia",
+        "E Russinova",
+        "AI Caño-Delgado"
+      ]
+    },
+    {
+      "title": "Auxin transport is sufficient to generate a maximum and gradient guiding root growth",
+      "authors": [
+        "VA Grieneisen",
+        "J Xu",
+        "AF Marée",
+        "P Hogeweg",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "Brassinosteroid perception in the epidermis controls root meristem size",
+      "authors": [
+        "Y Hacham",
+        "N Holland",
+        "C Butterfield",
+        "S Ubeda-Tomas",
+        "MJ Bennett",
+        "J Chory",
+        "S Savaldi-Goldstein"
+      ]
+    },
+    {
+      "title": "BRI1 activity in the root meristem involves post-transcriptional regulation of PIN auxin efflux carriers",
+      "authors": [
+        "Y Hacham",
+        "A Sela",
+        "L Friedlander",
+        "S Salvaldi-Goldstein"
+      ]
+    },
+    {
+      "title": "Expression dynamics of WOX genes mark cell fate decisions during early embryonic patterning in Arabidopsis thaliana",
+      "authors": [
+        "A Haecker",
+        "R Grob-Hardt",
+        "B Geiges",
+        "A Sarkar",
+        "H Breuninger",
+        "A Herrmann",
+        "T Laux"
+      ]
+    },
+    {
+      "title": "BZR1 is a transcriptional repressor with dual roles in brassinosteroid homeostasis and growth responses",
+      "authors": [
+        "JX He",
+        "JM Gendron",
+        "Y Sun",
+        "SS Gampala",
+        "N Gendron",
+        "CQ Sun",
+        "Z-Y Wang"
+      ]
+    },
+    {
+      "title": "Mosaic analyses using marked activation and deletion clones dissect Arabidopsis SCARECROW action in asymmetric cell division",
+      "authors": [
+        "R Heidstra",
+        "D Welch",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "ERF115 controls root quiescent center cell division and stem cell replenishment",
+      "authors": [
+        "J Heyman",
+        "T Cools",
+        "F Vandenbussche"
+      ]
+    },
+    {
+      "title": "Assaying chimeric genes in plants: The GUS gene fusion system",
+      "authors": [
+        "RA Jefferson"
+      ]
+    },
+    {
+      "title": "Regulation of root apical meristem development",
+      "authors": [
+        "K Jiang",
+        "LJ Feldman"
+      ]
+    },
+    {
+      "title": "Elongation and gravitropic responses of Arabidopsis roots are regulated by brassinolide and IAA",
+      "authors": [
+        "T-W Kim",
+        "S-M Lee",
+        "S-H Joo"
+      ]
+    },
+    {
+      "title": "Hormonal regulation of stem cell maintenance in roots",
+      "authors": [
+        "Y Lee",
+        "WS Lee",
+        "S-H Kim"
+      ]
+    },
+    {
+      "title": "Regulation of brassinosteroid signaling by a GSK3/SHAGGY-like kinase",
+      "authors": [
+        "J Li",
+        "KH Nam"
+      ]
+    },
+    {
+      "title": "Brassinosteroids stimulate plant tropisms through modulation of polar auxin transport in Brassica and Arabidopsis",
+      "authors": [
+        "L Li",
+        "J Xu",
+        "Z-H Xu",
+        "H-W Xue"
+      ]
+    },
+    {
+      "title": "Antagonistic regulation of PIN phosphorylation by PP2A and PINOID directs auxin flux",
+      "authors": [
+        "M Michniewicz",
+        "MK Zago",
+        "L Abas"
+      ]
+    },
+    {
+      "title": "Spatial coordination between stem cell activity and cell differentiation in the root meristem",
+      "authors": [
+        "L Moubayidin",
+        "RD Mambro",
+        "R Sozzani"
+      ]
+    },
+    {
+      "title": "Brassinosteroids promote root growth in Arabidopsis",
+      "authors": [
+        "C Müssig",
+        "G-H Shin",
+        "T Altmann"
+      ]
+    },
+    {
+      "title": "Arabidopsis det2 is defective in the conversion of (24R)-24-methylcholest-4-En-3-One to (24R)-24-methyl-5α-cholestan-3-One in brassinosteroid biosynthesis",
+      "authors": [
+        "T Noguchi",
+        "S Fujioka",
+        "S Takatsuto",
+        "A Sakurai",
+        "S Yoshida",
+        "J Li",
+        "J Chory"
+      ]
+    },
+    {
+      "title": "Ethylene modulates stem cell division in the Arabidopsis thaliana root",
+      "authors": [
+        "O Ortega-Martinez",
+        "M Pernas",
+        "RJ Carol",
+        "L Doran"
+      ]
+    },
+    {
+      "title": "Analysis of root meristem size development",
+      "authors": [
+        "S Perilli",
+        "S Sabatini",
+        "L. Hennig",
+        "C. Kohler"
+      ]
+    },
+    {
+      "title": "Growth and development of the root apical meristem",
+      "authors": [
+        "S Perilli",
+        "R Di Mambro",
+        "S Sabatini"
+      ]
+    },
+    {
+      "title": "Nucleocytoplasmic shuttling of BZR1 mediated by phosphorylation is essential in Arabidopsis brassinosteroid signaling",
+      "authors": [
+        "H Ryu",
+        "K Kim",
+        "H Cho",
+        "J Park",
+        "S Choe",
+        "I Hwang"
+      ]
+    },
+    {
+      "title": "Phosphorylation dependent nucleocytoplasmic shuttling of BES1 is a key regulatory event in brassinosteroid signaling",
+      "authors": [
+        "H Ryu",
+        "H Cho",
+        "K Kim",
+        "I Hwang"
+      ]
+    },
+    {
+      "title": "An auxin-dependent distal organizer of pattern and polarity in the Arabidopsis root",
+      "authors": [
+        "S Sabatini",
+        "D Beis",
+        "H Wolkenfelt"
+      ]
+    },
+    {
+      "title": "SCARECROW is involved in positioning the stem cell niche in the Arabidopsis root meristem",
+      "authors": [
+        "S Sabatini",
+        "R Heidstra",
+        "M Wildwater",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "Conserved factors regulate signaling in Arabidopsis thaliana shoot and root stem cell organizers",
+      "authors": [
+        "AK Sarkar",
+        "M Luijten",
+        "S Miyashima",
+        "M Lenhard",
+        "T Hashimoto",
+        "K Nakajima",
+        "B Scheres",
+        "R Heidstra",
+        "T Laux"
+      ]
+    },
+    {
+      "title": "Stem-cell niches: nursery rhymes across kingdoms",
+      "authors": [
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "Integration of brassinosteroid signal transduction with the transcription network for plant growth regulation in Arabidopsis",
+      "authors": [
+        "Y Sun",
+        "X-Y Fan",
+        "D-M Cao"
+      ]
+    },
+    {
+      "title": "PP2A activates brassinosteroid-responsive gene expression and plant growth by dephosphorylating BZR1",
+      "authors": [
+        "W Tang",
+        "M Yuan",
+        "R Wang"
+      ]
+    },
+    {
+      "title": "High-resolution whole-mount imaging of three-dimensional tissue organization and gene expression enables the study of phloem development and structure in Arabidopsis",
+      "authors": [
+        "E Truernit",
+        "H Bauby",
+        "B Dubreucq",
+        "O Grandjean",
+        "J Runions",
+        "J Barthelemy",
+        "J-C Palauqui"
+      ]
+    },
+    {
+      "title": "Aux/IAA proteins repress expression of reporter genes containing natural and highly active synthetic auxin response elements",
+      "authors": [
+        "T Ulmasov",
+        "J Murfett",
+        "G Hagen",
+        "TJ Guilfoyle"
+      ]
+    },
+    {
+      "title": "Short-range control of cell differentiation in the Arabidopsis root meristem",
+      "authors": [
+        "C van den Berg",
+        "V Willemsen",
+        "G Hendricks",
+        "P Weisbeek",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "Regulation of plant stem cell quiescence by a brassinosteroid signaling module",
+      "authors": [
+        "J Vilarrasa-Blasi",
+        "MP González-García",
+        "D Frigola"
+      ]
+    },
+    {
+      "title": "Nuclear-localized BZR1 mediates brassinosteroid-induced growth and feedback suppression of brassinosteroid biosynthesis",
+      "authors": [
+        "XY Wang",
+        "T Nakano",
+        "J Gendron"
+      ]
+    },
+    {
+      "title": "Control of root cap formation by MicroRNA-targeted auxin response factors in Arabidopsis",
+      "authors": [
+        "JW Wang",
+        "LJ Wang",
+        "YB Mao",
+        "WJ Cai",
+        "HW Xue",
+        "XY Chen"
+      ]
+    },
+    {
+      "title": "The NAC domain transcription factors FEZ and SOMBRERO control orientation of cell division plane in Arabidopsis root stem cells",
+      "authors": [
+        "V Willemsen",
+        "M Bauch",
+        "T Bennett",
+        "A Campilho",
+        "H Wolkenfelt",
+        "J Xu",
+        "J Haseloff",
+        "B Scheres"
+      ]
+    },
+    {
+      "title": "BIN2 functions redundantly with other Arabidopsis GSK-Like kinases to regulate brassinosteroid signaling",
+      "authors": [
+        "Z Yan",
+        "J Zhao",
+        "P Peng",
+        "R K Chihara",
+        "J Li"
+      ]
+    },
+    {
+      "title": "BES1 accumulates in the nucleus in response to brassinosteroids to regulate gene expression and promote stem elongation",
+      "authors": [
+        "Y Yin",
+        "Z-Y Wang",
+        "S Mora-Garcia",
+        "J Li",
+        "S Yoshida",
+        "T Asami",
+        "J Chory"
+      ]
+    },
+    {
+      "title": "A new class of transcription factors mediates brassinosteroid-regulated gene expression in Arabidopsis",
+      "authors": [
+        "Y Yin",
+        "D Vafeados",
+        "Y Tao",
+        "S Yoshida",
+        "T Asami",
+        "J Chory"
+      ]
+    },
+    {
+      "title": "A chemical biology approach reveals an opposite action between thermospermine and auxin in xylem development in Arabidopsis thaliana",
+      "authors": [
+        "K Yoshimoto",
+        "Y Noutoshi",
+        "K-H Hayashi",
+        "K Shirasu",
+        "T Takahashi",
+        "H Motose"
+      ]
+    },
+    {
+      "title": "A brassinosteroid transcriptional network revealed by genome-wide identification of BES1 target genes in Arabidopsis thaliana",
+      "authors": [
+        "X Yu",
+        "L Li",
+        "J Zola"
+      ]
+    },
+    {
+      "title": "ABA promotes quiescence of the quiescent centre and suppresses stem cell differentiation in the Arabidopsis primary root meristem",
+      "authors": [
+        "H Zhang",
+        "W Han",
+        "ID Smet",
+        "P Talboys",
+        "R Loya",
+        "A Hassan",
+        "H Rong",
+        "G Jügens",
+        "JP Knox",
+        "M-H Wang"
+      ]
+    },
+    {
+      "title": "Brassinosteroid signalling",
+      "authors": [
+        "J-Y Zhu",
+        "J Sae-Seaw",
+        "Z-Y Wang"
+      ]
+    }
+  ],
+  "original_title": "Brassinazole resistant 1 (BZR1)-dependent brassinosteroid signalling pathway leads to ectopic activation of quiescent cell division and suppresses columella stem cell differentiation",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e602/4507784/be193eea0fa0/exbotj_erv316_f0001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e602/4507784/08364d9a4be9/exbotj_erv316_f0005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e602/4507784/6b31c85fdfe1/exbotj_erv316_f0002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e602/4507784/c3fbd6321b11/exbotj_erv316_f0004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e602/4507784/c1d0fc999eb9/exbotj_erv316_f0006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e602/4507784/492be5e35e17/exbotj_erv316_f0003.jpg"
+  ]
+}

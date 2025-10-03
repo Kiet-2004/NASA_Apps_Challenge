@@ -1,0 +1,766 @@
+{
+  "pmcid": "PMC7825584",
+  "title": "Mechanotransduction in Prokaryotes: A Possible Mechanism of Spaceflight Adaptation",
+  "abstract": "Our understanding of the mechanisms of microgravity perception and response in prokaryotes (Bacteria and Archaea) lag behind those which have been elucidated in eukaryotic organisms. In this hypothesis paper, we: (i) review how eukaryotic cells sense and respond to microgravity using various pathways responsive to unloading of mechanical stress; (ii) we observe that prokaryotic cells possess many structures analogous to mechanosensitive structures in eukaryotes; (iii) we review current evidence indicating that prokaryotes also possess active mechanosensing and mechanotransduction mechanisms; and (iv) we propose a complete mechanotransduction model including mechanisms by which mechanical signals may be transduced to the gene expression apparatus through alterations in bacterial nucleoid architecture, DNA supercoiling, and epigenetic pathways.",
+  "introduction": "1. Introduction\n\nOn 17 December 1946, the first documented experiment to study the response of a living organism to spaceflight was performed, with the launch and recovery of fungal spores on a V-2 rocket from White Sands, New Mexico. Since that time, considerable theoretical and experimental effort has been devoted to understanding how living organisms sense, respond, and adapt to long-term spaceflight, particularly regarding their exposure to chronic microgravity. Extensive investigations conducted in space have resulted in a relative wealth of understanding of microgravity effects at the mechanistic level in eukaryotic organisms including humans, animals, plants, and protists. In contrast to the situation in eukaryotes, it has proven more difficult to elucidate at the mechanistic level how single-celled prokaryotes (Bacteria and Archaea) sense and respond to reduced gravity.\n\nIn this hypothesis paper, we briefly review the state of our understanding of how eukaryotic cells sense, respond, and adapt to spaceflight microgravity, via various pathways responsive to the unloading of mechanical stress. We observe that prokaryotic cells possess many structures analogous to mechanosensitive structures in eukaryotes. We review and update the evidence indicating that prokaryotes possess and actively utilize mechanosensing and mechanotransduction mechanisms, and we expand upon existing models to include the role of the bacterial nucleoid in converting external mechanical information into the modulation of gene expression. This hypothesis builds upon, updates, and expands previous work in the field, to which the reader is referred for background information.\n\n2. Mechanosensing in Eukaryotes\n\nTerrestrial life on Earth has evolved in the continuous presence of gravity, and eukaryotic organisms have developed systems to sense their orientation in the gravity field and to respond appropriately. A large body of evidence has accumulated supporting the idea that mechanics play a key role in regulating various eukaryotic cell functions such as cell division, differentiation, immunity, development, and motility. Many of these diverse cellular functions are mediated through pathways of mechanosensing and mechanotransduction, the molecular details of which are currently being elucidated. A generalized and simplified schematic diagram of the steps involved in eukaryotic mechanotransduction is presented in Figure 1 and described below.\n\nIn the simplified model depicted in Figure 1, external force can consist of any number of mechanical phenomena, such as shear, stretch, compression, or sedimentation of otoliths or statoliths. Physical forces can also be exerted on a cell through interaction with the extracellular matrix, or with other cells connected via tight junctions. In addition, while not strictly an “external” force, because the nucleus itself is suspended in the cytoskeletal matrix, and its density differs from the surrounding cytoplasm, the nucleus itself exerts mechanical stress on the cell.\n\nThe simplified model above depicts an idealized mechanoreceptor as a protein complex embedded in the cytoplasmic membrane that senses external physical forces (Figure 1). The actual situation is almost certainly more complex, and likely differs considerably depending on the type of receptor, cell, tissue, or organism studied. On the simpler end of the spectrum are single transmembrane mechanosensitive ion channels that respond to membrane deformation. On a more complex level, the surfaces of many eukaryotic cells exhibit focal adhesion (FA) structures which physically link the extracellular matrix to the internal cytoskeleton through complexes of signaling proteins, among them mechanosensitive transmembrane proteins. Such structures establish both physical and functional connections between the cell and its external environment (reviewed in).\n\nAs DNA is separated from the cytoplasmic compartment and contained within a membrane-bound nucleus (Figure 1), how do mechanical signals reach the DNA to modulate gene expression? In addition to the cytoplasmic cytoskeleton, the nucleus itself contains a skeleton (the nucleoskeleton) composed of actin and lamin filaments. Furthermore, the cytoskeleton and nucleoskeleton are physically connected through Linker of Nucleus and Cytoskeleton (LINC) protein complexes (Figure 1). Evidence is accumulating that LINC complexes allow for the rapid mechanotransduction of signals from the cytoplasmic membrane and cytoskeleton directly through the nuclear membrane to the nucleoskeleton, enabling rapid gene expression responses (reviewed in). It is thought that the LINC complex is intimately involved in modulation of genome expression in response to mechanical stimuli through chromatin remodeling and recruitment of DNA and RNA polymerases, ligases, acetylases, methylases, and cyclin-dependent kinases, resulting in changes in gene expression at the transcriptional, translational, post-translational, and epigenetic levels. The details of the myriad of eukaryotic mechanotransduction systems, though not yet completely elucidated, are currently being actively investigated.\n\nIn the freefall environment of spaceflight, gravitational loading is negated. Numerous studies using various cell types have shown that eukaryotic cells exhibit a morphological sensitivity to microgravity, exposure to which can cause alterations in cell shape, size, volume, and adherence properties. These signals are converted into alterations in chromosomal architecture, which in turn regulate the transcriptional apparatus. In spaceflight research, this general “mechanotransduction” model successfully explains the pathways for sensing and response to microgravity by plant and mammalian whole organisms, as well as single eukaryotic cells. It is unclear whether such responses to microgravity are direct or indirect (resulting from, say, downstream effects of microgravity on chemical gradients or fluid shear). However, results from parabolic aircraft and sounding rocket flights demonstrated that the transcriptomes of human monocytes responded immediately—within seconds—after exposure to microgravity or hypergravity (1.8 × g) suggesting that, in this case at least, gravity or its absence is exerting a direct effect on gene expression.\n\n3. Does a Microbial Analog of Eukaryotic Mechanotransduction Exist?\n\nIn contrast to our relatively detailed understanding of the eukaryotic microgravity response in terms of mechanosensing and mechanotransduction mechanisms, no such detailed model exists to explain how prokaryotes respond to gravity in general, much less to spaceflight microgravity. The origins of this situation can be traced back to an influential and often-cited theoretical study from 1965 asserting that microorganisms smaller than 10 micrometers should not be able to perceive gravitational forces. Despite a lack of empirical evidence supporting this contention, it has nevertheless persisted in the spaceflight microgravity literature over the ensuing half century (for reviews, see).\n\nDue to a lack of fluid convection in microgravity, spaceflight has been considered to be a quiescent environment characterized by low hydrodynamic shear and lack of convective transfer of mass and heat. To emulate this low-shear environment on Earth, various rotating devices called clinostats have been developed and utilized as microgravity analog systems. Early experiments cultivating microbes in clinostats indicated that certain phenotypes such as microcin B17 production by Escherichia coli and virulence in Salmonella enterica were altered in the clinostat environment. These and similar observations led to the notion of mechanotransduction as a possible mechanism for a microgravity response in prokaryotes, proposed in a 2004 review. Numerous subsequent investigations have been conducted to characterize the response of various microorganisms to the low fluid shear environment using both spaceflight and clinorotation (; reviewed extensively in). These studies clearly established a role for hydrodynamic shear stress, or its absence, in influencing some aspects of gene expression and some phenotypes in some, but not all, bacteria tested. Subsequent work mapping transcriptomic responses of S. enterica and Pseudomonas aeruginosa to spaceflight and clinorotation identified the molecular chaperone and global regulator Hfq as being implicated in the low-shear response, although its mechanism of action is currently unknown. Several studies have mapped global transcriptomic responses of bacteria to the low-shear environment, comparing cells grown in spaceflight and clinostat conditions with corresponding ground controls, but to date, these studies have failed to yield insights into a detailed underlying molecular mechanism.\n\n3.1. Microbial Internal Structure\n\nIf we are to draw upon the eukaryotic mechanotransduction model of spaceflight signal transduction as depicted in Figure 1 and extend it to microbes, it is worthwhile first to review our current understanding of the internal structure of prokaryotes, paying particular attention to structures involved in mechanosensing and mechanotransduction. Our understanding of the interior architecture of living microbial cells has lagged behind that of eukaryotes, due to their small size at the limits of optical resolution and the lack of techniques for mechanical manipulation of such small cells. Indeed, until relatively recently the interior of the prokaryotic cell was thought to be an unordered “bag of enzymes” with little or no intracellular compartmentalization. Advances in molecular biology, microscopic imaging technologies, and the development of fluorescent molecular tags have changed this view radically within the past two decades; microbial cells are now known to exhibit a high level of subcellular organization rivaling that of eukaryotic cells.\n\nAs was mentioned in a previous review, microbes possess both functional and structural analogs of the eukaryotic cytoskeleton; indeed, cytoskeletal components from all three domains of life (Bacteria, Archaea, and Eukarya) are phylogenetically related, indicating their descent from a common ancestor early in evolution. An updated comparison of eukaryotic and prokaryotic cytoskeletal analogs is presented in Table 1.\n\nAs can be seen in Table 1, numerous proteins belonging to both the actin and tubulin superfamilies of eukaryotic cytoskeletal proteins have been identified in Bacteria and Archaea. In addition to the canonical actin/tubulin/intermediate filament superfamilies, prokaryotes contain a large number of filament-forming proteins that do not have eukaryotic homologs, such as ParA/B, MinC/D, and bactofilins. Many of these protein filaments organize collaboratively through interactions between themselves and supramacromolecular structures such as the bacterial membrane, cell wall, and nucleoid. In prokaryotic cells, internal filaments serve a variety of functions, including: organizing cell division; control of cell shape; organization and segregation of chromosomal, plasmid, and phage DNA; membrane remodeling; organization of cell wall synthesis; and scaffolding of spore structures in spore-forming Firmicutes. In addition, in many cases cytoskeletal filaments have been directly visualized and characterized in prokaryotic cells using high-resolution fluorescence microscopy and cryo-electron microscopy techniques.\n\n3.2. Mechanosensing in Prokaryotes\n\nSince the early days of microbiology in the 19th century, prokaryotes have been known to monitor and respond to their external chemical environment. More recently, microbes have also been shown to respond to mechanical forces such as fluid flow, pressure, and contact with surfaces or other cells. Similar to eukaryotic cells, bacteria possess mechanosensory proteins either displayed on the cell surface (e.g., adhesins) or extending into the extracellular environment (e.g., flagella, pili). Proteins residing in the cell envelope can sense and respond to deformations of the cell surface. The integral membrane proteins MscS and MscL sense membrane deformation resulting from osmotic stress and respond by opening or closing their pores to allow passage of osmotically active solutes (e.g., potassium, glutamate, or trehalose) in order to maintain osmotic balance and turgor pressure. Adhesins present on the cell surface are able to sense forces such as shear, compression, or tension and transduce these signals to the cell interior, activating the production of second messenger molecules such as cAMP and cyclic di-GMP which in turn activate or repress transcription of target genes. Protein filaments such as flagella and Type IV pili are anchored in the cell surface and extend into the extracellular environment. These structures have long been associated with motility (flagella) and adhesion (pili), but recently have also been implicated in the regulation of gene expression via mechanosensing and mechanotransduction mechanisms (reviewed in). For example, motility of Gram-positive Bacillus subtilis cells through liquid media is due to the rotation of helical flagella driven by rotary motors embedded in the cell membrane. Contact of cells with a surface increases the torque applied onto flagella, inhibiting their rotation. This rotational inhibition increases strain on the flagellar motor embedded in the membrane, which generates a signal sensed by the two-component system histidine kinase DegS. DegS in turn phosphorylates the DegU response regulator, and phosphorylated DegU up-regulates the transcription of an entire class of genes involved in biofilm production. Thus, an outside mechanical force can be sensed by a bacterial cell and transduced to the transcriptional apparatus to dramatically change its phenotype from a solitary free-swimming cell to a sessile member of a biofilm community.\n\n3.3. Mechanotransduction in Prokaryotes\n\nIn the above examples, perception of mechanical stress was shown to trigger classic chemical transducers, such as second messengers or two-component systems, to effect altered gene expression. Such mechanisms do not rely on mechanotransduction through a cytoskeleton. Indeed, at present cytoskeletal mechanotransduction in prokaryotes has been much less thoroughly investigated than its eukaryotic counterpart, although recent studies have begun to uncover the roles played by prokaryotic cytoskeletal protein homologs in the regulation of cell physiology. Some examples follow.\n\n3.3.1. Cell Growth and Division\n\nThe prokaryotic cell wall is a dynamic network of peptidoglycan (PG) making up the sacculus that maintains cell shape, resists lysis of the cell by turgor pressure, and which must accommodate cell growth in varying environments. Morphogenesis of the cell wall is ultimately governed by cytoskeletal proteins (reviewed recently in). At least two distinct machineries exist to accomplish this feat, the elongasome and the divisome. Filaments of MreB, FtsZ, and FtsA proteins serve to organize and direct the growth and division machinery to their proper locations.\n\nThe elongasome is responsible for the insertion of new PG into the growing sacculus and is organized by the actin homolog MreB (Table 1). MreB filaments move circumferentially around rod-shaped cells and organize the multiprotein PG synthetic machinery to add PG in a helical fashion along the cell cylinder, allowing cell length to increase.\n\nThe divisome is the molecular machine responsible for cell separation (cytokinesis) under the control of the tubulin homolog FtsZ and the actin homolog FtsA (Table 1). FtsZ filaments organize into a centrally located ring-shaped structure (the Z-ring) that directs the PG machinery to produce the division septum during cytokinesis. Cytokinesis also involves the separation of the cell membrane. FtsA forms filaments that directly interact with FtsZ filaments and anchor the constricting Z-ring to the cytoplasmic membrane, ensuring that all layers of the cell envelope are constricted and separated during cytokinesis. In addition, placement of the division septum at mid-cell and suppression of division at the cell poles is accomplished by filaments of DivIVA, MinC, and MinD which form a complex structure at the cell poles.\n\n3.3.2. DNA Division, Repair, and Gene Expression\n\nIn prokaryotes, filament-forming proteins perform numerous functions on DNA including chromosome division, chromosome and plasmid segregation, DNA repair, and regulation of gene expression (reviewed in). The actin homolog MreB is involved with the initial stages of bacterial chromosome segregation coupled with DNA synthesis. With help of ParB, the ParA protein forms collaborative filaments with DNA and is involved with chromosome movement and segregation during cell division using a currently unknown mechanism. The RecA protein is central both in DNA repair and homologous recombination; it binds and forms filaments with both single- and double-stranded DNA and has been shown to exert cytomotive properties in the movement of DNA during double-strand break repair. H-NS proteins are a class of transcriptional repressors that nucleate at specific regulatory sequences and form stiff collaborative filaments that sterically hinder RNA polymerase from binding to promoters in the vicinity. It is estimated H-NS regulates the transcription of up to 5% of the genes in E. coli. However, at present, the mechanism(s) of exactly how cytoskeletal filaments are involved in coordinating DNA synthesis and chromosomal division with membrane and cell wall synthesis and cytokinesis in prokaryotes is currently unknown and an active area of research.\n\n3.4. Prokaryotic Nucleoid Architecture\n\nThe prokaryotic counterpart of the eukaryotic nucleus is the bacterial chromosome or nucleoid. The nucleoid consists of genomic DNA in a complex with its complement of nucleoid-associated proteins (NAPs). The nucleoid is not bounded by its own membrane and is in direct contact with the cytoplasm. In the last two decades, using fluorescence microscopy to track chromosomal loci inside bacteria cells, researchers have found that bacterial chromosomes are organized into stereotypical patterns, with specific chromosomal regions localizing to defined cellular locations (reviewed in). Over the past few years, the application of genome-wide high-resolution chromosome conformation capture (Hi-C) assays to bacteria has provided a detailed picture of the three-dimensional folding characteristics of the entire chromosome. In parallel, super-resolution microscopy techniques have strongly advanced our knowledge of bacterial nucleoid organization.\n\nIt is increasingly appreciated that the nucleoid adopts a specific architecture, which alters dramatically in response to the growth phase, cellular development, and environmental changes. Recent Hi-C studies of a number of bacterial species provided insights into the three-dimensional folding of the bacterial chromosome. In Caulobacter crescentus and B. subtilis, but not E. coli, the chromosome exhibits long-range interactions. The two replication arms are juxtaposed from the origin to the terminus region, mediated by the SMC condensin complex. For all three bacterial species, the genome along its entire length is organized into chromosome interaction domains (CIDs), ranging from ~30 to >400 kilobase pairs. Regions within each domain interact with each other more frequently than with regions in other domains. The domain boundaries are often enriched with highly transcribed genes, and inhibition of transcription essentially abolishes all domain boundaries, indicating that the 3D architecture of the nucleoid is intimately linked to transcription.\n\n3.5. DNA Supercoiling\n\nThe nucleoid is a highly condensed structure that must allow the replication and transcription machinery to access specific genes in a coordinated fashion, in order to optimize cell metabolism and replication under a wide range of environmental conditions. To accomplish this feat, selected parts of the nucleoid are constantly and dynamically de- and re-condensed in response to environmental signals. Dynamic restructuring of the nucleoid depends critically on a host of enzymes that control DNA topology, collectively known as topoisomerases, which maintain DNA in an optimal state of negative supercoiling. Transcription of a gene is dependent upon the local DNA superhelical state, and in turn, the transcription process itself influences DNA supercoiling, by overwinding DNA ahead of the transcription complex and underwinding it behind (reviewed in). A growing body of evidence points to changes in DNA supercoiling as being a key mediator between environmental sensing by a microbe and its response through modulation of global transcription patterns. It has been shown experimentally that DNA supercoiling is sensitive to variations in the physical environment such as: pH, oxygen, temperature, osmotic pressure, oxidative stress, nutrition, and growth phase, among others (reviewed in). In turn, it has also been shown experimentally that alterations in DNA supercoiling can influence the global pattern of bacterial gene transcription, and ultimately the phenotypic response to environmental changes (reviewed in). Historically, most studies in this area have been performed using Gram-negative bacteria (E. coli, S. enterica, Vibrio cholerae); however, these investigations have been recently extended to the Gram-positive opportunist Streptococcus pneumoniae. Recent evidence suggests active transcription drives the formation of boundaries between CIDs, likely through alterations in DNA topology, thus highlighting the three-way interactions between nucleoid architecture, supercoiling, and transcription.\n\n3.6. Epigenetic Modification of DNA\n\nEpigenetics is the study of heritable changes in gene expression that occur without changes in DNA sequence (reviewed in). In bacteria, the most-studied epigenetic modification of DNA is base methylation. Specific DNA methyltransferases are responsible for the post-replicative addition of a methyl group to the N6-position of adenine (6mA), the C5-position of cytosine (5mC), or the N4-position of cytosine (4mC). Base methylation can modulate the interaction of DNA-binding proteins with their cognate sites, and methylation of DNA controls genome defense, chromosome replication and segregation, nucleoid organization, cell cycle control, DNA repair, and regulation of transcription (reviewed in). In particular, a number of specific systems have been described in which gene transcription is directly regulated by DNA methylation/demethylation/hemimethylation (; reviewed in). Furthermore, both nucleoid organization and chromosome replication are controlled by DNA methylation. Therefore, the available evidence indicates that nucleoid architecture, DNA supercoiling, epigenetic DNA modification, and transcription are all tightly linked in prokaryotes.\n\n4. Does Mechanotransduction Play a Role in the Prokaryotic Microgravity Response?\n\nFrom the examination of the studies cited above, we have seen that eukaryotic cells possess mechanosensing and mechanotransduction systems that modulate their gene expression in response to microgravity. Further, we have seen from the results of recent studies utilizing model bacterial species that it is becoming increasingly clear that prokaryotes also possess complex intracellular compartmentalization, analogs of cytoskeletal proteins, and sophisticated signal transduction networks comparable to those of eukaryotic cells. These networks serve to sense external environmental cues through surface structures and to transmit this information to the transcription apparatus via traditional signaling pathways such as two-component systems. From the available information and by analogy, we hypothesize that the prokaryotic cytoskeletal apparatus functions in an analogous manner to its eukaryotic counterpart. We further propose that the microbial cytoskeleton plays a key role in transducing mechanical changes sensed at the cell surface to the nucleoid, altering its architecture and the global transcriptional apparatus. Testing of this hypothesis will necessitate conducting new types of experiments in the spaceflight environment, such as: visualization of cytoskeletal structures, mapping of nucleoid architecture, and measurements of DNA supercoiling and methylation patterns, to name a few. As many of these measurements can be very sensitive to differences in sample handling, it will be of high importance in this endeavor to match as precisely as possible media and growth conditions, spaceflight hardware, and pre- and post-flight sample handling, to eliminate all possible variables with the exception of gravity. Ideally, it would be preferable to perform all exposures in the microgravity environment (providing 1 × g by centrifugation) and to perform all inoculations, fixations, freezing, etc. at the same time and using the same protocols. Results from such experiments hold the promise for uncovering a new and fundamental mechanism for microbial adaptation to spaceflight microgravity, mechanosensing and mechanotransduction.\n\nPublisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "bacteria",
+    "gravity",
+    "mechanosensing",
+    "mechanotransduction",
+    "Hypothesis"
+  ],
+  "citations": [
+    {
+      "title": "Biology on sounding rockets: History, requirements, results, and scientific interpretation",
+      "authors": [
+        "R. Demets",
+        "L. Ouwehand"
+      ]
+    },
+    {
+      "title": "The effects of weightlessness on the human organism and mammalian cells",
+      "authors": [
+        "J. Pietsch",
+        "J. Bauer",
+        "M. Egli",
+        "M. Infanger",
+        "P. Wise",
+        "C. Ulbrich",
+        "D. Grimm"
+      ]
+    },
+    {
+      "title": "Behavioural and functional vestibular disorders after space flight: 2. Fish, amphibians and birds",
+      "authors": [
+        "D.V. Lychakov"
+      ]
+    },
+    {
+      "title": "Space, the final frontier: A critical review of recent experiments performed in microgravity",
+      "authors": [
+        "J.P. Vandenbrink",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "Gravireceptors in eukaryotes-a comparison of case studies on the cellular level",
+      "authors": [
+        "D.P. Hader",
+        "M. Braun",
+        "D. Grimm",
+        "R. Hemmersbach"
+      ]
+    },
+    {
+      "title": "Spaceflight and modeled microgravity effects on microbial growth and virulence",
+      "authors": [
+        "J.A. Rosenzweig",
+        "O. Abogunde",
+        "K. Thomas",
+        "A. Lawal",
+        "Y.U. Nguyen",
+        "A. Sodipe",
+        "O. Jejelowo"
+      ]
+    },
+    {
+      "title": "Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens",
+      "authors": [
+        "J.A. Rosenzweig",
+        "S. Ahmed",
+        "J. Eunson",
+        "A.K. Chopra"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": [
+        "P.W. Taylor"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": [
+        "C.A. Nickerson",
+        "C.M. Ott",
+        "J.W. Wilson",
+        "R. Ramamurthy",
+        "D.L. Pierson"
+      ]
+    },
+    {
+      "title": "Mechanotransduction as an adaptation to gravity",
+      "authors": [
+        "T. Najrana",
+        "J. Sanchez-Esteban"
+      ]
+    },
+    {
+      "title": "Balancing forces: Architectural control of mechanotransduction",
+      "authors": [
+        "C.C. DuFort",
+        "M.J. Paszek",
+        "V.M. Weaver"
+      ]
+    },
+    {
+      "title": "Molecular mechanisms of cellular mechanosensing",
+      "authors": [
+        "T. Luo",
+        "K. Mohan",
+        "P.A. Iglesias",
+        "D.N. Robinson"
+      ]
+    },
+    {
+      "title": "Mechanosensitive control of plant growth: Bearing the load, sensing, transducing, and responding",
+      "authors": [
+        "B. Moulia",
+        "C. Coutand",
+        "J.L. Julien"
+      ]
+    },
+    {
+      "title": "Role of trp channels in dinoflagellate mechanotransduction",
+      "authors": [
+        "J.B. Lindstrom",
+        "N.T. Pierce",
+        "M.I. Latz"
+      ]
+    },
+    {
+      "title": "Cellular mechanotransduction: From tension to function",
+      "authors": [
+        "F. Martino",
+        "A.R. Perestrelo",
+        "V. Vinarský",
+        "S. Pagliari",
+        "G. Forte"
+      ]
+    },
+    {
+      "title": "Gene regulation through dynamic actin control of nuclear structure",
+      "authors": [
+        "J. Sankaran",
+        "G. Uzer",
+        "A.J. van Wijnen",
+        "J. Rubin"
+      ]
+    },
+    {
+      "title": "The nuclear envelope: Lincing tissue mechanics to genome regulation in cardiac and skeletal muscle",
+      "authors": [
+        "R. Piccus",
+        "D. Brayson"
+      ]
+    },
+    {
+      "title": "Mechanosensitive channels: What can they do and how do they do it?",
+      "authors": [
+        "E.S. Haswell",
+        "R. Phillips",
+        "D.C. Rees"
+      ]
+    },
+    {
+      "title": "Putative receptors for gravity sensing in mammalian cells: The effects of microgravity",
+      "authors": [
+        "M. Aventaggiato",
+        "F. Barreca",
+        "E. Vernucci",
+        "M. Bizzarri",
+        "E. Ferretti",
+        "M.A. Russo",
+        "M. Tafani"
+      ]
+    },
+    {
+      "title": "Modeling the impact of microgravity at the cellular level: Implications for human disease",
+      "authors": [
+        "P. Bradbury",
+        "H. Wu",
+        "J.U. Choi",
+        "A.E. Rowan",
+        "H. Zhang",
+        "K. Poole",
+        "J. Lauko",
+        "J. Chou"
+      ]
+    },
+    {
+      "title": "Regulation of genome organization and gene expression by nuclear mechanotransduction",
+      "authors": [
+        "C. Uhler",
+        "G.V. Shivashankar"
+      ]
+    },
+    {
+      "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight",
+      "authors": [
+        "A.L. Paul",
+        "A.K. Zupanska",
+        "E.R. Schultz",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "The role of the cytoskeleton in sensing changes in gravity by nonspecialized cells",
+      "authors": [
+        "D. Vorselen",
+        "W.H. Roos",
+        "F.C. MacKintosh",
+        "G.J.L. Wuite",
+        "J. van Loon"
+      ]
+    },
+    {
+      "title": "Rapid coupling between gravitational forces and the transcriptome in human myelomonocytic U937 cells",
+      "authors": [
+        "C.S. Thiel",
+        "S. Tauber",
+        "S. Christoffel",
+        "A. Huge",
+        "B.A. Lauber",
+        "J. Polzer",
+        "K. Paulsen",
+        "H. Lier",
+        "F. Engelmann",
+        "B. Schmitz"
+      ]
+    },
+    {
+      "title": "Theoretical studies on living systems in the absence of mechanical stress",
+      "authors": [
+        "E.C. Pollard"
+      ]
+    },
+    {
+      "title": "Space microbiology",
+      "authors": [
+        "G. Horneck",
+        "D.M. Klaus",
+        "R.L. Mancinelli"
+      ]
+    },
+    {
+      "title": "Simulation of microgravity for studies in gravitational biology: Principles, devices, and applications",
+      "authors": [
+        "R. Anken"
+      ]
+    },
+    {
+      "title": "Ground-based facilities for simulation of microgravity: Organism-specific recommendations for their use, and recommended terminology",
+      "authors": [
+        "R. Herranz",
+        "R. Anken",
+        "J. Boonstra",
+        "M. Braun",
+        "P.C. Christianen",
+        "M. de Geest",
+        "J. Hauslage",
+        "R. Hilbig",
+        "R.J. Hill",
+        "M. Lebert"
+      ]
+    },
+    {
+      "title": "Effect of simulated microgravity and shear stress on microcin B17 production by Escherichia coli and on its excretion into the medium",
+      "authors": [
+        "A. Fang",
+        "D.L. Pierson",
+        "D.W. Koenig",
+        "S.K. Mishra",
+        "A.L. Demain"
+      ]
+    },
+    {
+      "title": "Microgravity as a novel environmental signal affecting Salmonella enterica serovar Typhimurium virulence",
+      "authors": [
+        "C.A. Nickerson",
+        "C.M. Ott",
+        "S.J. Mister",
+        "B.J. Morrow",
+        "L. Burns-Keliher",
+        "D.L. Pierson"
+      ]
+    },
+    {
+      "title": "Spaceflight enhances cell aggregation and random budding in Candida albicans",
+      "authors": [
+        "A. Crabbé",
+        "S.M. Nielsen-Preiss",
+        "C.M. Woolley",
+        "J. Barrila",
+        "K. Buchanan",
+        "J. McCracken",
+        "D.O. Inglis",
+        "S.C. Searles",
+        "M.A. Nelman-Gonzalez",
+        "C.M. Ott"
+      ]
+    },
+    {
+      "title": "Spaceflight modifies Escherichia coli gene expression in response to antibioticc exposure and reveals role of oxidative stress response",
+      "authors": [
+        "T.R. Aunins",
+        "K.E. Erickson",
+        "N. Prasad",
+        "S.E. Levy",
+        "A. Jones",
+        "S. Shrestha",
+        "R. Mastracchio",
+        "L. Stodieck",
+        "D. Klaus",
+        "L. Zea"
+      ]
+    },
+    {
+      "title": "Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen",
+      "authors": [
+        "A. Crabbé",
+        "M.J. Schurr",
+        "P. Monsieurs",
+        "L. Morici",
+        "J. Schurr",
+        "J.W. Wilson",
+        "C.M. Ott",
+        "G. Tsaprailis",
+        "D.L. Pierson",
+        "H. Stefanyshyn-Piper"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "J.W. Wilson",
+        "C.M. Ott",
+        "K.H.Z. Bentrup",
+        "R. Ramamurthy",
+        "L. Quick",
+        "S. Porwollik",
+        "P. Cheng",
+        "M. McClelland",
+        "G. Tsaprailis",
+        "T. Radabaugh"
+      ]
+    },
+    {
+      "title": "Genomic and transcriptomic analysis of NDM-1 Klebsiella pneumoniae in spaceflight reveal mechanisms underlying environmental adaptability",
+      "authors": [
+        "J. Li",
+        "F. Liu",
+        "Q. Wang",
+        "P. Ge",
+        "P.C. Woo",
+        "J. Yan",
+        "Y. Zhao",
+        "G.F. Gao",
+        "C.H. Liu",
+        "C. Liu"
+      ]
+    },
+    {
+      "title": "Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation",
+      "authors": [
+        "A. Crabbé",
+        "B. Pycke",
+        "R. Van Houdt",
+        "P. Monsieurs",
+        "C. Nickerson",
+        "N. Leys",
+        "P. Cornelis"
+      ]
+    },
+    {
+      "title": "Experimental design and environmental parameters affect Rhodospirillum rubrum S1H response to space flight",
+      "authors": [
+        "F. Mastroleo",
+        "R. Van Houdt",
+        "B. Leroy",
+        "M.A. Benotmane",
+        "A. Janssen",
+        "M. Mergeay",
+        "F. Vanhavere",
+        "L. Hendrickx",
+        "R. Wattiez",
+        "N. Leys"
+      ]
+    },
+    {
+      "title": "Comparison of Bacillus subtilis transcriptome profiles from two separate missions to the International Space Station",
+      "authors": [
+        "M.D. Morrison",
+        "P. Fajardo-Cavazos",
+        "W.L. Nicholson"
+      ]
+    },
+    {
+      "title": "Media ion composition controls regulatory and virulence response of Salmonella in spaceflight",
+      "authors": [
+        "J.W. Wilson",
+        "C.M. Ott",
+        "L. Quick",
+        "R. Davis",
+        "K.H.Z. Bentrup",
+        "A. Crabbé",
+        "E. Richter",
+        "S. Sarker",
+        "J. Barrila",
+        "S. Porwollik"
+      ]
+    },
+    {
+      "title": "Meta-analysis of data from spaceflight transcriptome experiments does not support the idea of a common bacterial “spaceflight response”",
+      "authors": [
+        "M.D. Morrison",
+        "W.L. Nicholson"
+      ]
+    },
+    {
+      "title": "Comparisons of transcriptome profiles from Bacillus subtilis cells grown in space versus High Aspect Ratio Vessel (HARV) clinostats reveal a low degree of concordance",
+      "authors": [
+        "M.D. Morrison",
+        "W.L. Nicholson"
+      ]
+    },
+    {
+      "title": "Use of fluorescence microscopy to study intracellular signaling in bacteria",
+      "authors": [
+        "D. Kentner",
+        "V. Sourjik",
+        "S. Gottesman",
+        "C.S. Harwood"
+      ]
+    },
+    {
+      "title": "The hidden side of the prokaryotic cell: Rediscovering the microbial world",
+      "authors": [
+        "R. Guerrero",
+        "M. Berlanga"
+      ]
+    },
+    {
+      "title": "Microcompartments and protein machines in prokaryotes",
+      "authors": [
+        "M.H. Saier"
+      ]
+    },
+    {
+      "title": "Mechanomicrobiology: How bacteria sense and respond to forces",
+      "authors": [
+        "Y.F. Dufrene",
+        "A. Persat"
+      ]
+    },
+    {
+      "title": "Bacterial mechanotransduction",
+      "authors": [
+        "A. Persat"
+      ]
+    },
+    {
+      "title": "Protein subcellular localization in bacteria",
+      "authors": [
+        "D.Z. Rudner",
+        "R. Losick"
+      ]
+    },
+    {
+      "title": "The evolution of the cytoskeleton",
+      "authors": [
+        "B. Wickstead",
+        "K. Gull"
+      ]
+    },
+    {
+      "title": "Collaborative protein filaments",
+      "authors": [
+        "D. Ghosal",
+        "J. Löwe"
+      ]
+    },
+    {
+      "title": "Prokaryotic cytoskeletons: Protein filaments organizing small cells",
+      "authors": [
+        "J. Wagstaff",
+        "J. Löwe"
+      ]
+    },
+    {
+      "title": "Multidimensional view of the bacterial cytoskeleton",
+      "authors": [
+        "K. Celler",
+        "R.I. Koning",
+        "A.J. Koster",
+        "G.P. van Wezel"
+      ]
+    },
+    {
+      "title": "A brief history of bacterial growth physiology",
+      "authors": [
+        "M. Schaechter"
+      ]
+    },
+    {
+      "title": "Bacterial mechanosensitive channels: Progress towards an understanding of their roles in cell physiology",
+      "authors": [
+        "I.R. Booth"
+      ]
+    },
+    {
+      "title": "Defects in the flagellar motor increase synthesis of poly-gamma-glutamate in Bacillus subtilis",
+      "authors": [
+        "J.M. Chan",
+        "S.B. Guttenplan",
+        "D.B. Kearns"
+      ]
+    },
+    {
+      "title": "A mechanical signal transmitted by the flagellum controls signalling in Bacillus subtilis",
+      "authors": [
+        "L.S. Cairns",
+        "V.L. Marlow",
+        "E. Bissett",
+        "A. Ostrowski",
+        "N.R. Stanley-Wall"
+      ]
+    },
+    {
+      "title": "Regulation of peptidoglycan synthesis and remodelling",
+      "authors": [
+        "A.J.F. Egan",
+        "J. Errington",
+        "W. Vollmer"
+      ]
+    },
+    {
+      "title": "Chromosome organization and segregation in bacteria",
+      "authors": [
+        "M. Thanbichler",
+        "L. Shapiro"
+      ]
+    },
+    {
+      "title": "Spatial organization of bacterial chromosomes",
+      "authors": [
+        "X.D. Wang",
+        "D.Z. Rudner"
+      ]
+    },
+    {
+      "title": "High-resolution mapping of the spatial organization of a bacterial chromosome",
+      "authors": [
+        "T.B.K. Le",
+        "M.V. Imakaev",
+        "L.A. Mirny",
+        "M.T. Laub"
+      ]
+    },
+    {
+      "title": "Multiscale structuring of the E. coli chromosome by nucleoid-associated and condensin proteins",
+      "authors": [
+        "V.S. Lioy",
+        "A. Cournac",
+        "M. Marbouty",
+        "S. Duigou",
+        "J. Mozziconacci",
+        "O. Espéli",
+        "F. Boccard",
+        "R. Koszul"
+      ]
+    },
+    {
+      "title": "Condensin- and replication-mediated bacterial chromosome folding and origin condensation revealed by Hi-C and super-resolution imaging",
+      "authors": [
+        "M. Marbouty",
+        "A. Le Gall",
+        "D.I. Cattoni",
+        "A. Cournac",
+        "A. Koh",
+        "J.B. Fiche",
+        "J. Mozziconacci",
+        "H. Murray",
+        "R. Koszul",
+        "M. Nollmann"
+      ]
+    },
+    {
+      "title": "Condensin promotes the juxtaposition of DNA flanking its loading site in Bacillus subtilis",
+      "authors": [
+        "X.D. Wang",
+        "T.B.K. Le",
+        "B.R. Lajoie",
+        "J. Dekker",
+        "M.T. Laub",
+        "D.Z. Rudner"
+      ]
+    },
+    {
+      "title": "Bacillus subtilis SMC complexes juxtapose chromosome arms as they travel from origin to terminus",
+      "authors": [
+        "X.D. Wang",
+        "H.B. Brandao",
+        "T.B.K. Le",
+        "M.T. Laub",
+        "D.Z. Rudner"
+      ]
+    },
+    {
+      "title": "Physical descriptions of the bacterial nucleoid at large scales, and their biological implications",
+      "authors": [
+        "V.G. Benza",
+        "B. Bassetti",
+        "K.D. Dorfman",
+        "V.F. Scolari",
+        "K. Bromek",
+        "P. Cicuta",
+        "M.C. Lagomarsino"
+      ]
+    },
+    {
+      "title": "DNA supercoiling and transcription in bacteria: A two-way street",
+      "authors": [
+        "C.J. Dorman"
+      ]
+    },
+    {
+      "title": "DNA supercoiling is a fundamental regulatory principle in the control of bacterial gene expression",
+      "authors": [
+        "C.J. Dorman",
+        "M.J. Dorman"
+      ]
+    },
+    {
+      "title": "The transcriptome of Streptococcus pneumoniae induced by local and global changes in supercoiling",
+      "authors": [
+        "A.G. de la Campa",
+        "M.J. Ferrándiz",
+        "A.J. Martín-Galiano",
+        "M.T. García",
+        "J.M. Tirado-Vélez"
+      ]
+    },
+    {
+      "title": "Transcription rate and transcript length drive formation of chromosomal interaction domain boundaries",
+      "authors": [
+        "T.B.K. Le",
+        "M.T. Laub"
+      ]
+    },
+    {
+      "title": "Phasevarions of bacterial pathogens: Methylomics sheds new light on old enemies",
+      "authors": [
+        "J.M. Atack",
+        "A. Tan",
+        "L.O. Bakaletz",
+        "M.P. Jennings",
+        "K.L. Seib"
+      ]
+    },
+    {
+      "title": "DNA methylation in bacteria: From the methyl group to the methylome",
+      "authors": [
+        "M.A. Sanchez-Romero",
+        "I. Cota",
+        "J. Casadesus"
+      ]
+    },
+    {
+      "title": "The bacterial epigenome",
+      "authors": [
+        "M.A. Sanchez-Romero",
+        "J. Casadesús"
+      ]
+    },
+    {
+      "title": "The functions of DNA methylation by CcrM in Caulobacter crescentus: A global approach",
+      "authors": [
+        "D. Gonzalez",
+        "J.B. Kozdon",
+        "H.H. McAdams",
+        "L. Shapiro",
+        "J. Collier"
+      ]
+    },
+    {
+      "title": "OxyR-dependent formation of DNA methylation patterns in OpvABOFF and OpvABON cell lineages of Salmonella enterica",
+      "authors": [
+        "I. Cota",
+        "B. Bunk",
+        "C. Spröer",
+        "J. Overmann",
+        "C. König",
+        "J. Casadesús"
+      ]
+    },
+    {
+      "title": "Regulation of traJ transcription in the Salmonella virulence plasmid by strand-specific DNA adenine hemimethylation",
+      "authors": [
+        "E.M. Camacho",
+        "J. Casadesús"
+      ]
+    },
+    {
+      "title": "DNA binding of the cell cycle transcriptional regulator gcrA depends on N6-adenosine methylation in Caulobacter crescentus and other Alphaproteobacteria",
+      "authors": [
+        "A. Fioravanti",
+        "C. Fumeaux",
+        "S.S. Mohapatra",
+        "C. Bompard",
+        "M. Brilli",
+        "A. Frandi",
+        "V. Castric",
+        "V. Villeret",
+        "P.H. Viollier",
+        "E.G. Biondi"
+      ]
+    },
+    {
+      "title": "Phase variation controls expression of Salmonella lipopolysaccharide modification genes by a DNA methylation-dependent mechanism",
+      "authors": [
+        "S.E. Broadbent",
+        "M.R. Davies",
+        "M.W. van der Woude"
+      ]
+    },
+    {
+      "title": "Regulation of pyelonephritis-associated pili phase-variation in Escherichia coli: Binding of the PapI and the Lrp regulatory proteins is controlled by DNA methylation",
+      "authors": [
+        "X. Nou",
+        "B. Skinner",
+        "B. Braaten",
+        "L. Blyn",
+        "D. Hirsch",
+        "D. Low"
+      ]
+    },
+    {
+      "title": "Dynamic distribution of SeqA protein across the chromosome of Escherichia coli K-12",
+      "authors": [
+        "M.A. Sánchez-Romero",
+        "S.J. Busby",
+        "N.P. Dyer",
+        "S. Ott",
+        "A.D. Millard",
+        "D.C. Grainger"
+      ]
+    },
+    {
+      "title": "Replication fork movement and methylation govern SeqA binding to the Escherichia coli chromosome",
+      "authors": [
+        "T. Waldminghaus",
+        "C. Weigel",
+        "K. Skarstad"
+      ]
+    }
+  ],
+  "original_title": "Mechanotransduction in Prokaryotes: A Possible Mechanism of Spaceflight Adaptation",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cbf5/7825584/baf5837e701f/life-11-00033-g001.jpg"
+  ]
+}

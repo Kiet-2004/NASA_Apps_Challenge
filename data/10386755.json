@@ -1,0 +1,2172 @@
+{
+  "pmcid": "10386755",
+  "title": "Sequencing the Genomes of the First Terrestrial Fungal Lineages: What Have We Learned?",
+  "abstract": "The first genome sequenced of a eukaryotic organism was for Saccharomyces cerevisiae, as reported in 1996, but it was more than 10 years before any of the zygomycete fungi, which are the early-diverging terrestrial fungi currently placed in the phyla Mucoromycota and Zoopagomycota, were sequenced. The genome for Rhizopus delemar was completed in 2008; currently, more than 1000 zygomycete genomes have been sequenced. Genomic data from these early-diverging terrestrial fungi revealed deep phylogenetic separation of the two major clades—primarily plant—associated saprotrophic and mycorrhizal Mucoromycota versus the primarily mycoparasitic or animal-associated parasites and commensals in the Zoopagomycota. Genomic studies provide many valuable insights into how these fungi evolved in response to the challenges of living on land, including adaptations to sensing light and gravity, development of hyphal growth, and co-existence with the first terrestrial plants. Genome sequence data have facilitated studies of genome architecture, including a history of genome duplications and horizontal gene transfer events, distribution and organization of mating type loci, rDNA genes and transposable elements, methylation processes, and genes useful for various industrial applications. Pathogenicity genes and specialized secondary metabolites have also been detected in soil saprobes and pathogenic fungi. Novel endosymbiotic bacteria and viruses have been discovered during several zygomycete genome projects. Overall, genomic information has helped to resolve a plethora of research questions, from the placement of zygomycetes on the evolutionary tree of life and in natural ecosystems, to the applied biotechnological and medical questions.",
+  "introduction": "1. Introduction\n\nThe first “land” fungi retained their flagella for motility and remained adapted to life in water, and several diverging lineages switched to multicellularity while exploiting new environments. A hallmark of the process of adapting to terrestrial life was the loss of the flagellum, which occurred independently several times during fungal evolution, giving rise to fungi with a hyphal growth form. Prominent among early-divergent fungi is a group of lineages historically known as the zygomycetes, which are unified by similarities in reproductive biology (e.g., the formation of sexual zygospores via undifferentiated gametangia) and mostly do not form macroscopic fruiting bodies, making them more difficult to study than Dikarya. Zygomycetes have also been challenging to study because many species are involved in obligate symbiotic interactions and have not been successfully grown in pure culture. However, subsequent molecular studies have shown that the zygomycete fungi are paraphyletic. Today, zygomycetes are recognized as two independent monophyletic groups divided into six subphyla. Terrestrial environments posed novel challenges to early fungi, and the adaptive solutions that these lineages evolved can today be gleaned from the vast library of genes contained within their genomes. While these first land colonizers are now extinct, many of their features are preserved in the genomes of extant zygomycetes. One instance, in which whole-genome data have proven useful, is in understanding the origin and evolution of fungi. About 450 million years ago, combined activities of fungi and plants placed the terrestrial world on a trajectory toward its current state, setting the stage for subsequent evolutionary transitions. Primitive mycorrhiza-like relationships and other forms of fungal–plant associations helped facilitate the successful colonization of land by the first terrestrial plants, and the genes responsible for such interactions are still preserved in fungal genomes. Hence, zygomycete genomes have and will continue to play an integral role in our current understanding of the initial transition of organisms to land.\n\nThe number of sequenced fungal genomes continues to grow exponentially, and genomic data have become widely and freely accessible. While most sequenced genomes are from Ascomycota and Basidiomycota (Dikarya) species, there have been concerted efforts to sequence genomes of early-diverging and underrepresented lineages. Since 2014, the number of zygomycete genomes has grown from a dozen to nearly a thousand. However, 70% of these genomes are still in the draft stage, and not all of them are available. While the number of species with sequenced genomes for all organisms is on the rise, the available pool of zygomycete genomes is exceptional due to its diversity, i.e., one-third of ca. 1000 known zygomycete species have already been sequenced (Supplementary Table S1).\n\nThe sequencing efforts have not been uniform among different groups of Mucoromycota and Zoopagomycota; for most species, only a single representative genome is available. While several major clades lack a single published genome (e.g., Eryniopsis and Neozygites in Entomophthoromycotina, and several genera in Zoopagomycotina), numerous isolates of several other species have been sequenced (Figure 1). This discrepancy can be largely explained by practical interests since focal species are sometimes chosen for their relevance to human health or biotechnology. In addition, some taxa are common in culture collections whereas other taxa are challenging to grow in vitro or presumably uncultivable. The goal of this review is to (1) provide background into the methods that have been used to sequence zygomycete genomes and which genomes have been sequenced, and (2) consider insights into the genomic architecture, gene content, and evolutionary history gained from these data.\n\n2. Sequencing the Zygomycetes\n\nAxenic cultures remain the preferred and most straightforward method of obtaining high-molecular-weight genomic DNA for sequencing projects. Typically, the easier a species is to grow in culture, the easier it is to obtain pure, unfragmented DNA of high quality. In some cases, however, DNA from a single cell or even nuclei can be extracted and sequenced. This technique has been especially successful for the mycoparasites or fungal parasites of animals (e.g., Piptocephalis, Stylopage, and Zoopage) or for resolving questions on genetic diversity of the nuclei in Glomeromycotina, such as Rhizophagus. When neither culturing nor single-cell genomics is possible, fungal DNA can be extracted along with that of the host organism. The two genomes can be distinguished bioinformatically (e.g., in the case of Entomopthorales pathogens of insects). In rare cases, high-quality tissue from field-collected fruiting bodies can be used to generate genomes (e.g., Endogone, Jimgerdemannia, and Modicella).\n\nThe diversity of DNA sequencing technologies allows researchers to select the tools that are most appropriate for addressing specific questions but also requires setting minimal reporting standards for each type of sequencing technology. During sequence processing, genomic DNA is cut and sequenced in length spans from 100–300 base pairs (short reads, Illumina) to 1000–60,000 base pairs (long reads, PacBio, or MinION). Illumina short-read sequencing remains the dominant technology used to generate fungal genomes, while long-read technologies such as PacBio and Oxford nanopore are being used with increased frequency, especially for larger genomes (Supplementary Table S1). Illumina sequencing generally provides the greatest sequencing quality and accuracy, although millions of short raw reads (150–300 bp) are produced; as a result, genome assembly can be challenging especially with genomes featuring large amounts of repetitive DNA. Assembly quality might be adjusted by combining the use of short reads from Illumina with long reads from another sequencing platform. The use of longer reads (up to 60,000 bp) facilitates read alignment and/or mapping, often achieving the length of the chromosome and allows precise resolution of repetitive sequences of rDNA. However, PacBio and other long-read technologies typically demand higher quality and quantity of DNA than Illumina. On the other hand, these technologies are changing rapidly as different companies compete for the market share and make efforts to increase the number and length of reads and to maintain and improve sequence accuracy.\n\nThe majority of zygomycete genomes are assembled de novo, even when assemblies of closely related species are already available. Choice of assembly software usually depends on the data type. For example, AllPaths-LG works best for assembling Illumina short-read sequences, while Falcon is preferred for longer PacBio reads (Supplementary Table S1). The most widely used genome assemblers for zygomycetes include gsAssembler (Roche Diagnostics, Indianapolis, IN, USA), Newbler, Velvet, Arachne, Celera, HGAP, JGI Jazz (especially among earlier assemblies from 2001–2014), Ray, CLC Genomics Workbench 20.0 (, accessed on 10 July 2023), MaSuRCA, Falcon, AllPaths-LG, SOAPdenovo, SPAdes, SOLiD, Canu, FinisherSC, Flye, and MEGAHIT (Figure 2).\n\nMost zygomycete genome assemblies are similar in size to the average fungal genome: 30–50 Mb (Supplementary Table S1). Notable exceptions include species in Entomophthoromycotina, Glomeromycotina, and Mucoromycotina, whose large genomes compare in size to Arabidopsis thaliana (135 Mb), Caenorhabditis elegans (100 Mb), or Drosophila melanogaster (140 Mb). However, there are still far smaller than the genomes of some of the Basidiomycete fungi that cause rust diseases on plants, which includes the largest fungal genome sequenced to date (Austropuccinia psidii, 1 Gb). Most zygomycete genomes contain over 10,000 predicted genes. Rhizophagus spp. (Glomeromycotina) are a notable exception; they contain more than double the typical number with 26–30 K predicted genes (Figure 3). The smallest numbers of genes are found in Zoopagomycotina (4–8 K), followed by 6–11 K in Kickxellomycotina, 9–16 K in Entomophthoromycotina, Mucoromycotina and Mortierellomycotina, and 20–30 K in Glomeromycotina (Supplementary Table S1). However, these numbers may change for Entomophthoromycotina and Zoopagomycotina since there are only a few representative genomes available for those lineages.\n\nDuring the assembly process DNA sequences are combined into contigs, which are sometimes merged to form scaffolds (if sufficient evidence exists to support these merges). These scaffolds of assembled DNA sequences should ideally equal the number of chromosomes. In practice, the number of scaffolds rarely matches exactly the number of chromosomes and, for most species, the exact number of chromosomes is unknown. Many genomes of easily culturable Mucoromycota with small genomes have the lowest number of scaffolds (e.g., 12 in Actinomortierella wolfii), while the genomes of species with larger genomes (e.g., taxa in Glomeromycotina and Entomophthoromycotina) are more fragmented such as 210 contigs in Rhizophagus irregularis, or 373,021 in Massospora cicadina. These larger assemblies are due to larger overall genomes (e.g., larger number of chromosomes) and because of the difficulties with assembly caused by polyploidy, numerous repeats, and transposons; these aspects are prevalent in many Mucoromycota and Zoopagomycota genomes (Supplementary Table S1). However, the sequenced genomes with hundreds of thousands of scaffolds often reflect low sequence coverage relative to the size of the genome, resulting in highly fragmented assemblies. All these factors contribute to the number of the scaffolds, not reflecting the actual numbers of chromosomes.\n\nGenome quality is also improved by increasing the sequence coverage. Some zygomycete genomes have been sequenced at a depth of 500–700× and many genome projects aim for a mean depth of ca. 100× coverage (Supplement Table S1). High-quality genome assemblies rely on increased sequencing depth, particularly in cases of high intraspecific polymorphism or variable genome architecture, e.g., species of Glomeromycotina and many noncoding regions and transposons, as in the genomes of Entomophthoromycotina species. However, some researchers have used low-coverage genome sequencing (ca. 10× coverage) as a cheap and efficient method to obtain a smaller number of orthologous gene regions for phylogenomic analyses.\n\n3. Genomes and the Evolution of the Zygomycetes\n\nThe first genome sequence of a zygomycete fungus was from a clinical strain of Rhizopus delemar that was isolated from a patient with mucormycosis—a highly destructive and lethal infection that is typically seen in immunocompromised hosts. Sequencing of the R. delemar genome was driven from the clinical perspective, but it also provided the first genome of a fungus outside of the Dikarya. Moving forward a decade, a landmark project generated genomic sequences of all species known to cause mucoromycosis in humans. Thirty zygomycete genomes were sequenced and assembled for this project. Another substantial advance in zygomycete genomics was made by the ZyGoLife team, comprising the efforts of 12 mycological labs across the USA and Canada in collaboration with the US Department of Energy Joint Genome Institute (JGI). The phylogenomic study by Spatafora et al. found that the former Zygomycota phylum was not monophyletic but instead comprised two distinct lineages—the primarily plant-associated saprotrophic and mycorrhizal Mucoromycota versus the primarily mycoparasitic or animal-associated parasites and commensals in the Zoopagomycota. However, further analyses using phylogenomics data to resolve the evolutionary relationships of zygomycetes have yielded slightly conflicting results. Although Zoopagomycota and Mucoromycota are maintained as monophyletic lineages, a recent study by Li et al. found that Zoopagomycota and Mucoromycota formed one larger monophyletic clade in some (but not all) of their analyses. In contrast, other recent phylogenomic studies by Strassert and Monaghan and Galindo et al. recovered a topology that was similar to Spatafora et al., where the Zoopagomycota were resolved as the sister group to all terrestrial fungi. In many of the studies, the position of Glomeromycotina has been problematic, suggesting that more work will be needed to resolve the placement of this clade.\n\nOne of the greatest debates in early-diverging fungal evolution was the ploidy of the dominant life form given the predominantly haploid nature seen in the Dikarya. One outcome of the analysis of genome sequences of zygomycetes species is that diploids are more common than expected.\n\n3.1. Mucoromycota\n\nMucoromycota comprises many critically important plant symbionts, including the arbuscular mycorrhizal fungi (Glomeromycotina), Endogonales (Mucoromycotina), “fine root endophytes” (Mucoromycotina), and putative root endophytic species including Mortierella (Mortierellomycotina), Pygmaeomycetaceae (Mucoromycotina), and Umbelopsis (Mucoromycotina). On the other hand, many fungi within this group are also noted plant pathogens (e.g., Rhizopus microsporus, which causes rice seedling blight, and various Choanephora, Gilbertella, and Mucor species that cause post-harvest rots) as well as numerous species (Actinomucor, Apophysomyces, Cokeromyces, Cunninghamella, Lichtheimia, Mucor, Rhizomucor, Rhizopus, Saksenea, Syncephalastrum) that can cause the disease mucormycosis in humans and other animals.\n\nMost zygomycete genomes are of species within Mucoromycota (Figure 1); as a result, much of what we know about genome evolution among early-diverging fungi comes from this phylum. Genome duplication appears to have played a significant role in their evolution, as first described for Rhizopus delemar and Mucor circinelloides. Genome sequencing has also revealed a diversity of endobacteria that may be found as symbionts in the Mucoromycota, e.g., in Rhizopus microsporus and Endogone pisiformis (Mucoromycotina), Linnemannia elongata and Mortierella alpina (Mortierellomycotina), and Rhizophagus irregularis (Glomeromycotina). Many plant-associated fungal lineages contain endobacteria, but the potential role of these symbionts in the land colonization process remain to be characterized. “Foreign” DNA in the form of diverse mycoviruses has also been frequently detected during genome sequencing of zygomycetes. Genomics enabled the systematic study of genome architecture, genetic manipulations, and intra-isolate genomic variations. Genome-wide searches and comparisons have also detected evidence for transposon spread through genomes and uniquely high 6-methyladenine DNA modifications in zygomycete fungi as compared to Dikarya. Studies on metabolic patterns across the fungal kingdom, the search for the mating gene loci and protein families, and the phylogenies of certain taxonomic groups have also been conducted using-whole genome sequencing data. Genome-based research has also provided insights into the trophic modes of zygomycete fungi, including the evolution of mycorrhizae and commonalities in the pathogenicity of Mucoralean fungi.\n\n3.2. Mucoromycotina\n\nGenome sequencing of this subphylum has been the most comprehensive among all the basal fungal lineages although genomes are still unavailable for several genera, including species of Siepmannia, Chlamydoabsidia, and Utharomyces, as well as for two new root-associated species of Pygmaeomyces of the new genus and family Pygmaeomycetaceae. Furthermore, the plant-associated order Endogonales remains highly undersampled despite recent advances. Some of its “fine root endophytes” colonize early-diverging plants, and sometimes co-occur with AMF. The average genome size in Mucoromycotina species ranges from 35 to 50 Mbp, with species of Umbelopsis at the low end of the spectrum (22–30 Mbp) and Endogonales such as Jimgerdemannia species at the higher end (240 Mbp) (Supplementary Table S1). For some genera, several hundred genomes have already been sequenced. For example, there are >220 genomes available for species of Rhizopus, mostly of R. arrhizus (syn. R. oryzae) and its varieties and synonyms, and of R. microsporus, R. delemar, and R. stolonifer (Supplement Table S1). Rhizopus is increasingly studied as a model organism thanks to its availability in culture collections and to its important role in biotechnology and human health. Genomic information might be helpful for future studies of pathogenicity in Rhizopus species since infections by members of this genus are the leading cause of human mucormycosis. Phylogenomic data suggest that species of Rhizopus are part of a well resolved monophyletic group. However, this is in stark contrast to the situation among members of the genus Mucor (>150 genomes), which is incredibly diverse and is likely polyphyletic (Figure 4). The additional Mucoromycotina genomes consist mostly of saprotrophic species that are relevant to human health (species of Lichtheimia and Cunninghamella) and biotechnology (Phycomyces blakesleeanus). Genomes of Endogonales (as well as Glomeromycotina) contain effectors to facilitate plant–fungus interactions, which apparently aided in the terrestrialization of Earth by early land plants. Genome information helped to describe and clarify the phylogenetic placement of new lineages and species, such as Bifiguratus and Calcarisporiella.\n\n3.3. Mortierellomycotina\n\nThis subphylum contains an estimated 170 species and was recently circumscribed into 13 monophyletic genera using multi-locus and low-coverage genome sequencing. Reference genome sequences of both low quality and high quality are now available for representatives for most genera, including Actinomortierella, Benniella, Dissophora, Entomortierella, Gamsiella, Gryganskiella, Linnemannia, Lobosporangium, Lunasporangiospora, Mortierella, Necromortierella, Podila, and the sporocarpic genus Modicella. A high diversity of Mortierellomycotina species can be isolated from soil, but it appears that genera may differ in their ecological roles. For example, Necromortierella species appear to be necrotrophic, whereas Actinomortierella spp. are often associated with millipedes, and Entomortierella spp. are often associated with arthropods. Many genera, such as Linnemannia and Podila, have been recovered as rhizosphere associates and endophytes of plant roots, and they appear to improve plant growth and impact flower and seed production. Several species such as Mortierella alpina have been sequenced due to their use in industry and biotechnology for lipid production.\n\n3.4. Glomeromycotina\n\nArbuscular mycorrhizal fungi (AMFs) are arguably the most common and oldest symbionts of terrestrial plants, credited with the role in the facilitation of plant transition to the terrestrial habitat. AMFs supply their plant hosts with mineral nutrients translocated from the soil in return for plant-assimilated carbon. Yet, there are not many genomic sequences of these organisms available due to historical impediments hampering sequencing projects, including multinucleate spores with different genotypes, obligate biotrophy of AMFs, and the initial uncertainty concerning their genome sizes, with conflicting size estimates in Rhizophagus irregularis ranging from 14.1 to 154.8 Mb. Once these obstacles were surmounted, genomic data confirmed that AMFs have unusually large genomes, ranging from 153 Mb in R. irregularis to 773.1 Mb in Gigaspora margarita. This size enhancement relative to other Mucoromycota is driven by lineage-specific expansions of gene families and massive proliferation of transposable elements. Genomic data also revealed that AMFs display several other features that differentiate them not only from Mucoromycota but also from other fungi. For example, despite the lack of morphological evidence of sexual reproduction, the R. irregularis genome harbors a candidate mating-type locus with two genes encoding homeodomain-like transcription factors. If these homeodomain-like genes indeed control sex, then regulation of the reproductive processes in AMFs would resemble mating in Dikarya rather than in Mucoromycota, which rely on HMG domain proteins for sex determination. Rhizophagus irregularis differs also from other fungi in the organization of its rRNA operons. Instead of being tandemly arrayed as they are in other fungi, the rRNA operons in Glomeromycotina are dispersed individually across the genome. This important discovery put an end to a long-lasting debate on whether intraindividual rRNA gene variation typical for AMFs is distributed among dissimilar nuclei or contained in each nucleus, supporting the latter scenario. Lastly, genome-based inferences of metabolic capacity revealed that AMFs lack the gene encoding fatty acid synthase, which makes them obligately dependent on plant hosts for lipids. As in other fastidious organisms, this information is important for devising cultivation strategies that complement fatty acid auxotrophy of AMF. Even though accumulation of genomic data for AMF has lagged behind other Mucoromycota, the insights gathered so far have been critical for resolving several puzzles in the biology of these unique organisms. PacBio HiFi and Hi-C sequencing of all available AMF heterokaryons helped to discover the two sets of coexisting homologous chromosomes in one heterokaryon. Genes required for plant colonization were found in gene-sparse, repeat-reach compartments. Another important question that remains to be addressed is which genomic features of AMFs contribute to superior yield outcomes in agronomic crop species, as AMFs do not universally benefit all plant hosts.\n\n3.5. Zoopagomycota\n\nIn contrast to Mucoromycota, most species of Zoopagomycota are parasites or pathogenes of animals and fungi. This includes the insect pathogenic group Entomophthoromycotina (some members of which exhibit behavioral control over their hosts), the Kickxellomycotina that includes a mixture of ecologies (including commensalistic arthropods gut fungi), and Zoopagomycotina, which are parasites of fungi (mainly in Mucoromycota) and microinvertebrates (e.g., amoebae, nematodes, rotifers). There are also opportunistic human pathogens in this phylum, including species of Basidiobolus and Conidiobolus. Axenic culturing of some fungi in Zoopagomycota is possible but extracting high-quality genomic DNA from many species remains difficult. Sometimes there is a need to extract genomic material of the parasite together with the host (often another fungus or insect) and separate their genomes during assembly, which creates additional challenges. Small amounts of available DNA have necessitated the use of single-cell DNA extraction in some cases, especially in species with dramatically reduced vegetative mycelial structures. Much greater success has been achieved for putative saprotrophic fungi such as dung-inhabiting species of Kickxellales (Supplementary Table S1). Genomes and transcriptomes have been used primarily to resolve various evolutionary questions, including the monophyletic origin of Zoopagales, evolution of ploidy from a diploid ancestral stage, and loss of a large number of pectinases and other plant cell-wall-degrading enzymes in Zoopagomycota. Genome data were also successfully used to resolve evolutionary relationships within particular taxonomic groups, such as Massospora, to track other evolutionary events such as horizontal gene transfer events in gut fungi, and to reveal the genetic toolbox in insect symbionts. These studies help us to understand the evolutionary trajectories of genome size, namely, a dramatic increase in genome size for the insect pathogens and insect endosymbionts as compared to the genome size in the saprobes and mycoparasites. Genome data have also helped to clarify fundamental differences among Zoopagomycota lineages in their production of secondary metabolites, as well as metabolic pathways in general. Mating genetics in this phylum is still not well understood, and that is a question that remains to be addressed with genomic data.\n\n3.6. Kickxellomycotina\n\nThis subphylum contains an interesting mix of mycoparasites (Dimargaritales), putative saprotrophs (Kickxellales), and obligate insect endobionts (Asselariales, Barbatosporales, Harpellales, and Orphellales). The Dimargaritales are similar to mycoparasites in the Zoopagales in that they form penetration hyphae (haustoria) and mostly attack similar host species in the Mucoromycota. In contrast to the Zoopagales mycoparasites, species of Dimargaritales appear to be rare in the environment and have mostly been isolated from dung rather than soil. Recent genomic analyses have also highlighted that members of the Dimargaritales that have larger genomes and more predicted secondary metabolite genes compared to their close relatives. Furthermore, single-cell genome data have suggested that Dimargaris cristalligena may be nonhaploid and missing certain enzymes from metabolic pathways (e.g., thiamine biosynthesis and biotin metabolism). Identifying such genomic features of symbiotic species can provide targets for further experimental tests to understand the molecular interactions between hosts and parasites.\n\nOn the other hand, the Kickxellales is the only group of Zoopagomycota containing mostly saprotrophic species, and many appear to be rare in the environment, having only been reported in the literature one or a few times. An exception is the genus Coemansia, the species of which are commonly isolated from soil and dung samples. Genome sequencing efforts have demonstrated that Kickxellales species have small genomes (less than 40 MB) and variability in their predicted secondary metabolite genes, with Coemansia and Linderina, along with more polyketide synthases than other Kickxellales and D. cristalligena having more nonribosomal peptide synthetases than other Kickxellales. A preliminary rDNA phylogeny showed polyphyly among Kickxellales, and a large-scale sequencing project that utilized low-coverage genome data from >100 isolates to test these hypotheses, as well as explore the diversity of Coemansia species, resolved many of these relationships.\n\nThe gut fungi (Trichomycetes) include arthropod symbionts for which several draft genomes have been available since 2016. These fungi are distinct from the saprotrophic and coprophilic relatives (i.e., Kickxellales) and belong to four distinct phylogenetic lineages—Asellariales, Barbatosporales, Harpellales, and Orphellales. Asellariales are associated with isopods and spring tails (Collembola). Species within the three genera (Asellaria, Baltomyces, and Orchesellaria) have been recovered from the both terrestrial and aquatic hosts, but their phylogenetic relationships remain unclear, as sequence data have only been obtained from Asellaria, and no cultures are available for this group.\n\nHarpellales species are usually found in lower Diptera insect larvae and have coevolved with their hosts for over 200 million years. Species of Orphellales are stonefly nymph symbionts with unusual morphological characters (i.e., asexual and sexual spore shapes, and thalli protruding beyond the anus of insect hosts), which cluster together with other Trichomycetes and the Spiromycetales for a sister clade to Kickxellales. Smittium is a well-studied genus within Harpellales with approximately 100 described species. However, there are only nine whole-genome sequences available for these insect gut-dwelling fungi, and all were made from culturable Harpellales species, with the best assembly—Capniomyces stellatus—having 72 scaffolds. Barbatosporales are monotypic, and the single species (Barbatospora ambicaudata) has only been recorded from black fly larvae collected in the Great Smoky Mountains National Park in Tennessee, obtained in axenic culture.\n\nAlthough we only have a handful of Harpellales genomes, they have already expanded our knowledge and understanding of these enigmatic microbial fungi in multiple ways. For example, a mosquito-like polyubiquitin gene has been identified in Zancudomyces culisetae (Harpellales), which was presumably acquired via a horizontal gene transfer event. Comparative genomics revealed a fungus–insect symbiotic core gene toolbox (FISCoG) that is shared among the insect-associated fungi (e.g., Harpellales, Basidiobolus, and Conidiobolus) and higher-ranked Hypocreales (Ascomycota). However, the insect pathogens (Hypocreales and Entomophthoromycotina members) tend to have genomes enriched in genes that are useful for pathogenic processes such as the platelet-activating factor acetyl-hydrolase coding genes, whereas the gut commensals have genomes enriched in cell adhesion genes for a successful gut-dwelling lifestyle. In addition, Harpellales genomes also facilitated a kingdom-wide study to confirm the production of selenoproteins in early-diverging fungal lineages. As a major group of early-diverging fungi, representing seven of the nine fungal species that utilize selenoproteins, Harpellales may take the advantages of selenocysteine over cysteine for specific oxidoreductase functions.\n\nUnfortunately, no efforts have been successful in obtaining genome information of the Asellariales, Barbatosporales, and Orphellales, which colonize different host types. However, multigene analyses incorporating low-coverage genome data (along with data from Asellariales and Orphellales) suggested an alternate hypothesis for the evolution of fungal–insect associations. Contrary to previous topologies that suggested multiple events, the larger dataset showed a possible single origin of gut fungi. Further evolutionary evidence may be identified with the help of their genome sequences to understand how these gut-dwelling microbial fungi interact with various aquatic insect hosts and evaluate the origins of the symbiosis.\n\n3.7. Zoopagomycotina\n\nZoopagomycotina species are fascinating, partially due to their cryptic ecological niches and ability to parasitize various hosts such as amoebae, nematodes, rotifers, and other fungi. It is still challenging to culture most of the Zoopagomycotina isolates. Thus, it is not surprising to see that the Zoopagomycotina has the lowest number of available genomes, the qualities of which are not comparable to other lineages, especially the well-sequenced Mucoromycotina. Recently developed single-cell genomic techniques have provided an alternative, culture-independent method to obtain their genomic information. On the basis of single-cell or multiple-cell libraries, the completeness of genome assemblies can be as high as 89.6% (Piptocephalis tieghemiana RSA 1565). The assembled Zoopagomycotina genomes indicate that this clade of fungi is characterized by small genome size, but the numbers of protein-coding genes are not necessarily low. Some of the genomes can encode close to 10,000 genes (e.g., Zoophagus insidians, a predator of rotifers and nematodes (Supplement Table S1). It seems likely that these completely microscopic fungi are capable of more complicated and yet-to-be identified interactions with their animal and/or fungal hosts, but more work will be needed to explore these interactions.\n\nTwo additional Zoopagales have remarkably small genomes: a species of Acaulopage (11 Mbp) and a species of Zoopage (14 Mbp). No genomes have yet been published for the following genera: Amoebophilus, Aplectosoma, Bdellospora, Brachymyces, Cystopage, Endocochlus, Euryancale, Helicocephalum, Reticulocephalis, and Sigmoideomyces.\n\n3.8. Entomophthoromycotina\n\nThis lineage remains the most insufficiently sequenced fungal group at the subphylum level. Despite many genomes from the genus Conidiobolus, there are only a few other species (all from the key family Entomophthoraceae) for which genomes are available. The genus Conidiobolus is a polyphyletic assemblage of multiple lineages. This group of Conidiobolus-like fungi was recently phylogenetically divided into three new families, using a combined multi-gene and phylogenomic approach, revealing that the ballistic conidia arose prior to their transition to a parasitic lifestyle. Difficulties with culturing and, therefore, obtaining enough high-molecular-weight genomic DNA represent a reason why some species only have transcriptomes available. Alternatively, in some cases, the fungal pathogen is sequenced together with its host, and then the reads are separated bioinformatically. Aside from the polyphyletic genus Conidiobolus and entomophthoroid-like Basidiobolus, genome or transcriptome data are available only for a few species of Entomophaga, Entomophthora, Massospora, Pandora, and Zoophthora. No genomes yet exist for Ancylistes, Apterivorax, Batkoa, Erynia, Eryniopsis, Furia, Macrobiotophthora, Meristacrum, Neozygites, Orthomyces, Tabanomyces, Thaxterosporium, Schizangiella, and Strongwellsea. The largest genomes recovered are over 2000 Mbp in Massospora and 650 Mbp in Zoophthora, with possibly similar genome sizes in Entomophthora and Entomophaga (Supplementary Table S1). Phylogenetic analysis recently demonstrated that Basidiobolus, a genus of amphibian gut-dwelling fungi, does not belong to Entomophthorales, where it was traditionally placed, mostly on the basis of its production of forcibly discharged conidia that are morphologically similar to those in other entomophthoralean fungi. The genus was difficult to place with rDNA data, but was inferred either as a separate clade sister to the Mucoromycota or as the earliest diverging lineage within Zoopagomycota, on the basis of phylogenomic data. The ballistic spore dispersal mechanism, which differs structurally from that found in the Entomophthorales, is likely an example of convergent evolution among fungi that appear to be similar but are distantly related. In addition to being evolutionarily enigmatic, the genomes of B. meristosporus and B. heterosporus are larger than most other basal fungi and contained a much higher proportion of secondary metabolite-encoding genes than other Zoopagomycota species that have been studied thus far. Furthermore, Basidiobolus genomes contain numerous genes that putatively originated from horizontal gene transfer events from bacteria.\n\n4. Insights from Genomics\n\n4.1. Adaptation to Terrestrial Life Inferred from Genomes\n\nThe transition to a terrestrial environment placed novel constraints on species of early-diverging fungi, especially in terms of their resistance to desiccation and solar radiation. Genomes have been essential to studying which zygomycete genes made this transition possible.\n\nSensing of and response to light have been explored in the model Mucorales species Phycomyces blakesleeanus. Mutants impaired in photoresponses, especially phototropism, were isolated as reported in the 1970s. However, the first genes related to photoresponses were not reported until 2006. These were identified using a candidate gene approach in which P. blakesleeanus was assumed to have similar blue light sensors as the Dikarya species, wherein a two-protein complex was first identified in Neurospora crassa, defining a sensing and signaling system that uses a light-sensing domain coupled to transcription factor roles for signal transmission. With the release of the P. blakesleeanus genome sequence in 2010, identifying a candidate gene for madB as encoding the interacting protein was achieved using BLAST against the genome sequence. The genome sequence was performed along with that of M. circinelloidies and revealed an expansion of this pair of genes required for light responses (3–4 copies of each). Being able to make targeted gene mutations in M. circinelloides of these homologs, as based of genome sequence information, provided a clear example of subfunctionalization after gene duplication. The identification of the mutations in madI and madC mutants in P. blakesleeanus used traditional genetic mapping with molecular markers derived from the comparison of the genomes between two strains. With the regions narrowed, candidate genes could be identified and confirmed by sequencing. These genes play conserved roles in photobiology in the Dikarya species, suggesting that this innovation for terrestrial life had already evolved in early-diverging fungal lineages. For instance, phenotypic analysis of the P. blakesleeanus madA and madB mutants indicated that this pair of genes has a conserved function in protecting fungi from harmful ultraviolet light.\n\nIn addition to responding to light, many Mucorales species can sense gravity. This has been correlated with the formation of vacuolar crystals in P. blakesleeanus. Through purification of such crystals, followed by mass spectrometry of the associated proteins using the mass database derived from the genome sequence, the OCTIN protein was identified. A gravity-insensitive mutant had a mutation within the corresponding gene. Remarkably, phylogenetic comparison revealed that the origin of the gravity-sensing gene OCTIN in the Mucorales was most likely via a horizontal gene transfer from a bacterial species. Other challenges associated with terrestrial life, such as fluctuations in temperature and desiccation, have yet to explored from a genomic standpoint among zygomycetes. Some of the early diverging lineages such as Glomeromycotina and Mortierellomycotina lack ergosterol, what can increase their membrane stiffness. Ergosterol has long been considered as one of the regulators of dry–wet cycles.\n\n4.2. Endobacteria\n\nSymbiotic associations with highly coevolved endocellular bacteria stand out among the most prominent features differentiating Mucoromycota from other fungi, including the Dikarya. Thus far, most of these endosymbionts have been identified as representatives of two bacterial families, Burkholderiaceae and Mycoplasmataceae. While some of the Mucoromycota associations with bacteria are mutually beneficial for both partners, in others, the fungi appear to be negatively impacted by their endosymbionts. The application of “omics” tools has been essential in elucidating the molecular underpinnings of the mutualism between Glomeromycotina and their ancient and uncultivable endosymbiont “Candidatus Glomeribacter gigasporarum” (CaGg, Burkholderiaceae). In this symbiosis, CaGg improves hyphal proliferation in the presymbiotic growth stage of the host fungus, which can be attributed to endobacteria-mediated reprograming of the fungal metabolism. “Omics” approaches were also critical in understanding the biology and devising a cultivation strategy for Mycoavidus cysteinexigens (Burkholderiaceae), a cysteine auxotroph and ancient antagonistic endosymbiont of Mortierellomycotina. Comparative genomics also revealed that “Candidatus Mycoavidus necroximicus” produces several nematocidal metabolites that protect the fungal host Mortierella verticillata from feeding by nematodes. Endobacteria have also been shown to regulate and control mating and asexual reproduction in Rhizopus microsporus, produce toxins (rhizoxin) that enable pathogenicity on plants, and provide protection from predators, as well as potentially protect fungal spores from the human immune system via anti-phagocyte activity. The ease of partner manipulation in the mutualism between R. microsporus and Mortierellaceae (Mucoromycotina) and Mycetohabitans spp. (formerly Burkholderia) elevated this association to a model system for studying fungal-bacterial symbioses.\n\nWhile the symbioses of Mucoromycota with Burkholderiaceae endobacteria are well characterized for some species, Mucoromycota associations with Mycoplasmataceae, referred to as Mollicutes- or mycoplasma-related endobacteria (MREs), are only beginning to be unraveled. MREs have been detected in all three subphyla of Mucoromycota: Glomeromycotina, Mortierellomycotina, and Mucoromycotina. MREs of Glomeromycotina are classified as “Candidatus Moeniiplasma glomeromycotorum” (CaMg). Genomic features of CaMg have been examined in depth, including evidence of gene acquisition from fungal hosts. However, the role of CaMg in the biology of Glomeromycotina remains uncertain. Naito et al. speculated that CaMg is an antagonist of Glomeromycotina. If this is confirmed, then CaMg would resemble the lifestyle of the MREs associated with Mortierellomycotina.\n\nMoreover, bacterial–fungal interactions seem to be much more common and diverse than previously thought, and Mucoromycota representatives are no exception. Telagathoti et al. showed recently that 30% of Mortierellales isolates were associated with different groups of bacteria. Another survey of Mucoromycota cultures from soil indicated diverse Paraburkholderia-related sequences detected with 20% frequency from Mortierella and Umbelopsis strains. The ecological meaning of these interactions remains to be described.\n\nOutside of the Mucoromycota, however, the importance or prevalence of endosymbiotic bacteria remains less clear. Despite bacterial sequences always present in the environmental samples of entomophthoralean fungi (A.P. Gryganskyi, personal observation), nothing is known about their connection to the entomopathogens and their role in pathogenic processes that impact insects. However, six recently constructed metagenome assemblies of four various bacterial species in connection with Massospora cicadina might indicate their symbiotic relationship to this entomopathogenic species. Among Zoopagomycotina, Davis et al. detected 16S sequences with close matches to Mycoavidus cysteinexexigens in the genome of Stylopage hadra (nematode parasitic fungus). A recent genomic assessment of Kickxellomycotina fungi did not reveal any obvious colonization by endosymbiotic bacteria, suggesting that these bacterial associations might be less important or prevalent in Zoopagomycota than in Mucoromycota.\n\n4.3. Secretomes, Gene Clusters, and Secondary Metabolites\n\nAll fungi explore and exploit their environment by secreting various substances. The secretome composition of basal fungal lineages was shaped by diversification early in their evolution. Characterization of secretome compositions of 132 zygomycete genomes revealed that current trophic mode plays a less significant role as compared to the phylogenetic relationships of the fungi. This is in part because Mucoromycota and Zoopagomycota each had their own unique lineage-specific expansion of secreted digestive enzymes, according to their historical substrate differences and their different evolutionary trajectories.\n\nGenomic screenings of available genomes for novel natural compounds also show promising potential. These screenings discovered the presence of gene clusters harboring polyketide synthases (PKS), non-ribosomal peptides, terpenoids, and L-tryptophan dimethylallyl transferases with transcription factor coding genes in proximity to some of the gene clusters. Since then, NRPS clusters have been detected in some Mortierellomycotina and Mucoromycotina. For example, the mycelium of Mortierella alpina produces diverse novel compounds. Similarly, the transcripts corresponding to PKS and NRPS were recently described in transcriptomes of five Mucor species. Mucor circinelloides was shown to produce carotenoids and terpenoids, and the genes associated with terpene biosynthesis were identified recently in Mucor and Rhizopus genomes. Siderophore production has been reported from Glomus, Apophysomyces, Rhizopus, and Basidiobolus. Rhizoferrin from Rhizopus delemar has been further characterized and showed a glycosylation pattern that was classified as a member of the sodium (Na)–iodide symporter gene family. The best-studied compound isolated from early diverging fungi is an antimitotic agent called rhizoxin produced by an endosymbiotic bacterium (Mycetohabitans rhizoxinica) and encoded by a huge NRPS–PKS cluster. The genome of amphibian gut symbiont Basidiobolus is enriched with the genes and gene clusters involved in the production of secondary metabolites through horizontal gene transfer from bacteria. Genomes of mycoparasitic Dimargaritales (Kickxellomycotina) are also enriched for secondary metabolites, especially when compared to mycoparasitic Zoopagomycotina (Piptocephalis and Syncephalis) whose genomes appear depauperate in these genes. These groups of mycoparasites are very similar in their morphology and ecology; thus, the reasons underpinning the observed difference in metabolite genes remain unclear.\n\n4.4. Transposable Elements\n\nTransposable elements (TEs) are abundant in zygomycete genomes. Genomes of Entomophtorales, Basidiobolales, and Endogonales are particularly rich in TEs, while species of Umbelopsidales and Zoopagomycotina have very few. Genomes of Rhizopus species comprised approximately 40% repetitive sequences with only ~10% potentially active elements. In taxa with more compact genomes such as Umbelopsis isabellina, transposons account for as little as 5% of their genome size. In contrast, Jimgerdemannia flammicorona can have more than 77% of its genome occupied by repetitive elements and transposons. In most of the analyzed genomes, long terminal repeat retrotransposons from the Ty3/Gypsy family dominate the TE landscape. Mucoromycotina, Kickxellomycotina, and Blastocladiomycota possess transposons with a tyrosine recombinase from a gene family which seem to be lost in Dikarya. While the function of mobile elements in zygomycete genomes is not well understood, in Ascomycota, large mobile elements (termed “starships”) may carry a variety of genes (e.g., secondary metabolites, virulence factors, and heavy-metal tolerance) and contribute to the overall variation in genome structure.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "fungal evolution",
+    "ecological relevance",
+    "saprotrophs",
+    "pathogens",
+    "model organisms",
+    "Review"
+  ],
+  "citations": [
+    {
+      "title": "A Mechanistic Explanation of the Transition to Simple Multicellularity in Fungi",
+      "authors": [
+        "L.L.M. Heaton",
+        "N.S. Jones",
+        "M.D. Fricker"
+      ]
+    },
+    {
+      "title": "Fungi Took a Unique Evolutionary Route to Multicellularity: Seven Key Challenges for Fungal Multicellular Life",
+      "authors": [
+        "L.G. Nagy",
+        "T. Varga",
+        "Á. Csernetics",
+        "M. Virágh"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "G.S. de Hoog",
+        "J. Guarro",
+        "J. Gené",
+        "M.J. Figueras"
+      ]
+    },
+    {
+      "title": "Challenges and Future Perspectives in the Systematics of Kickxellomycotina, Mortierellomycotina, Mucoromycotina, and Zoopagomycotina",
+      "authors": [
+        "G.L. Benny",
+        "M.E. Smith",
+        "P.M. Kirk",
+        "E.D. Tretter",
+        "M.M. White",
+        "D.-W. Li"
+      ]
+    },
+    {
+      "title": "A Molecular Phylogeny of the Flagellated Fungi (Chytridiomycota) and Description of a New Phylum (Blastocladiomycota)",
+      "authors": [
+        "T.Y. James",
+        "P.M. Letcher",
+        "J.E. Longcore",
+        "S.E. Mozley-Standridge",
+        "D. Porter",
+        "M.J. Powell",
+        "G.W. Griffith",
+        "R. Vilgalys"
+      ]
+    },
+    {
+      "title": "A Phylum-Level Phylogenetic Classification of Zygomycete Fungi Based on Genome-Scale Data",
+      "authors": [
+        "J.W. Spatafora",
+        "Y. Chang",
+        "G.L. Benny",
+        "K. Lazarus",
+        "M.E. Smith",
+        "M.L. Berbee",
+        "G. Bonito",
+        "N. Corradi",
+        "I. Grigoriev",
+        "A. Gryganskyi"
+      ]
+    },
+    {
+      "title": "Complex Multicellularity in Fungi: Evolutionary Convergence, Single Origin, or Both?",
+      "authors": [
+        "L.G. Nagy",
+        "G.M. Kovács",
+        "K. Krizsán"
+      ]
+    },
+    {
+      "title": "Comparative Genomics Reveals the Origin of Fungal Hyphae and Multicellularity",
+      "authors": [
+        "E. Kiss",
+        "B. Hegedüs",
+        "M. Virágh",
+        "T. Varga",
+        "Z. Merényi",
+        "T. Kószó",
+        "B. Bálint",
+        "A.N. Prasanna",
+        "K. Krizsán",
+        "S. Kocsubé"
+      ]
+    },
+    {
+      "title": "Fungal Genomes and Insights into the Evolution of the Kingdom",
+      "authors": [
+        "J.E. Stajich"
+      ]
+    },
+    {
+      "title": "Early Diverging Fungi: Diversity and Impact at the Dawn of Terrestrial Life",
+      "authors": [
+        "M.L. Berbee",
+        "T.Y. James",
+        "C. Strullu-Derrien"
+      ]
+    },
+    {
+      "title": "Leveraging Single-Cell Genomics to Expand the Fungal Tree of Life",
+      "authors": [
+        "S.R. Ahrendt",
+        "C.A. Quandt",
+        "D. Ciobanu",
+        "A. Clum",
+        "A. Salamov",
+        "B. Andreopoulos",
+        "J.-F. Cheng",
+        "T. Woyke",
+        "A. Pelin",
+        "B. Henrissat"
+      ]
+    },
+    {
+      "title": "Resolving the Mortierellaceae Phylogeny through Synthesis of Multi-Gene Phylogenetics and Phylogenomics",
+      "authors": [
+        "N. Vandepol",
+        "J. Liber",
+        "A. Desirò",
+        "H. Na",
+        "M. Kennedy",
+        "K. Barry",
+        "I.V. Grigoriev",
+        "A.N. Miller",
+        "K. O’Donnell",
+        "J.E. Stajich"
+      ]
+    },
+    {
+      "title": "Interpreting the COVID-19 Test Results: A Guide for Physiatrists",
+      "authors": [
+        "M.C. Chang",
+        "J. Hur",
+        "D. Park"
+      ]
+    },
+    {
+      "title": "The Fungal Tree of Life: From Molecular Systematics to Genome-Scale Phylogenies",
+      "authors": [
+        "J.W. Spatafora",
+        "M.C. Aime",
+        "I.V. Grigoriev",
+        "J.E. Stajich",
+        "M. Blackwell"
+      ]
+    },
+    {
+      "title": "Mycoparasites, Gut Dwellers, and Saprotrophs: Phylogenomic Reconstructions and Comparative Analyses of Kickxellomycotina Fungi",
+      "authors": [
+        "N.K. Reynolds",
+        "J.E. Stajich",
+        "G.L. Benny",
+        "K. Barry",
+        "S. Mondo",
+        "K. LaButti",
+        "A. Lipzen",
+        "C. Daum",
+        "I.V. Grigoriev",
+        "H.-M. Ho"
+      ]
+    },
+    {
+      "title": "Whole Genome Sequencing and the Zygomycota",
+      "authors": [
+        "A.P. Gryganskyi",
+        "A. Muszewska"
+      ]
+    },
+    {
+      "title": "Big Data: Astronomical or Genomical?",
+      "authors": [
+        "Z.D. Stephens",
+        "S.Y. Lee",
+        "F. Faghri",
+        "R.H. Campbell",
+        "C. Zhai",
+        "M.J. Efron",
+        "R. Iyer",
+        "M.C. Schatz",
+        "S. Sinha",
+        "G.E. Robinson"
+      ]
+    },
+    {
+      "title": "Genomic Analysis of the Basal Lineage Fungus Rhizopus oryzae Reveals a Whole-Genome Duplication",
+      "authors": [
+        "L.-J. Ma",
+        "A.S. Ibrahim",
+        "C. Skory",
+        "M.G. Grabherr",
+        "G. Burger",
+        "M. Butler",
+        "M. Elias",
+        "A. Idnurm",
+        "B.F. Lang",
+        "T. Sone"
+      ]
+    },
+    {
+      "title": "A Method for the Large Scale Isolation of High Transformation Efficiency Fungal Genomic DNA",
+      "authors": [
+        "D. Zhang",
+        "Y. Yang",
+        "L.A. Castlebury",
+        "C.E. Cerniglia"
+      ]
+    },
+    {
+      "title": "Genome-Scale Phylogenetics Reveals a Monophyletic Zoopagales (Zoopagomycota, Fungi)",
+      "authors": [
+        "W.J. Davis",
+        "K.R. Amses",
+        "G.L. Benny",
+        "D. Carter-House",
+        "Y. Chang",
+        "I. Grigoriev",
+        "M.E. Smith",
+        "J.W. Spatafora",
+        "J.E. Stajich",
+        "T.Y. James"
+      ]
+    },
+    {
+      "title": "Building de Novo Reference Genome Assemblies of Complex Eukaryotic Microorganisms from Single Nuclei",
+      "authors": [
+        "M. Montoliu-Nerin",
+        "M. Sánchez-García",
+        "C. Bergin",
+        "M. Grabherr",
+        "B. Ellis",
+        "V.E. Kutschera",
+        "M. Kierczak",
+        "H. Johannesson",
+        "A. Rosling"
+      ]
+    },
+    {
+      "title": "Single Nucleus Genome Sequencing Reveals High Similarity among Nuclei of an Endomycorrhizal Fungus",
+      "authors": [
+        "K. Lin",
+        "E. Limpens",
+        "Z. Zhang",
+        "S. Ivanov",
+        "D.G.O. Saunders",
+        "D. Mu",
+        "E. Pang",
+        "H. Cao",
+        "H. Cha",
+        "T. Lin"
+      ]
+    },
+    {
+      "title": "Transcriptome of an Entomophthoralean Fungus (Pandora formicae) Shows Molecular Machinery Adjusted for Successful Host Exploitation and Transmission",
+      "authors": [
+        "J. Małagocka",
+        "M.N. Grell",
+        "L. Lange",
+        "J. Eilenberg",
+        "A.B. Jensen"
+      ]
+    },
+    {
+      "title": "Phylogenomics of Endogonaceae and Evolution of Mycorrhizas within Mucoromycota",
+      "authors": [
+        "Y. Chang",
+        "A. Desirò",
+        "H. Na",
+        "L. Sandor",
+        "A. Lipzen",
+        "A. Clum",
+        "K. Barry",
+        "I.V. Grigoriev",
+        "F.M. Martin",
+        "J.E. Stajich"
+      ]
+    },
+    {
+      "title": "Pacific Biosciences Sequencing Technology for Genotyping and Variation Discovery in Human Data",
+      "authors": [
+        "M.O. Carneiro",
+        "C. Russ",
+        "M.G. Ross",
+        "S.B. Gabriel",
+        "C. Nusbaum",
+        "M.A. DePristo"
+      ]
+    },
+    {
+      "title": "Evidence of Non-Tandemly Repeated RDNAs and Their Intragenomic Heterogeneity in Rhizophagus irregularis",
+      "authors": [
+        "T. Maeda",
+        "Y. Kobayashi",
+        "H. Kameoka",
+        "N. Okuma",
+        "N. Takeda",
+        "K. Yamaguchi",
+        "T. Bino",
+        "S. Shigenobu",
+        "M. Kawaguchi"
+      ]
+    },
+    {
+      "title": "The Most Frequently Used Sequencing Technologies and Assembly Methods in Different Time Segments of the Bacterial Surveillance and RefSeq Genome Databases",
+      "authors": [
+        "B. Segerman"
+      ]
+    },
+    {
+      "title": "Next-Generation Sequence Assembly: Four Stages of Data Processing and Computational Challenges",
+      "authors": [
+        "S. El-Metwally",
+        "T. Hamza",
+        "M. Zakaria",
+        "M. Helmy"
+      ]
+    },
+    {
+      "title": "Velvet: Algorithms for de Novo Short Read Assembly Using de Bruijn Graphs",
+      "authors": [
+        "D.R. Zerbino",
+        "E. Birney"
+      ]
+    },
+    {
+      "title": "Survey of Early-Diverging Lineages of Fungi Reveals Abundant and Diverse Mycoviruses",
+      "authors": [
+        "J.M. Myers",
+        "A.E. Bonds",
+        "R.A. Clemons",
+        "N.A. Thapa",
+        "D.R. Simmons",
+        "D. Carter-House",
+        "J. Ortanez",
+        "P. Liu",
+        "A. Miralles-Durán",
+        "A. Desirò"
+      ]
+    },
+    {
+      "title": "Nonhybrid, Finished Microbial Genome Assemblies from Long-Read SMRT Sequencing Data",
+      "authors": [
+        "C.-S. Chin",
+        "D.H. Alexander",
+        "P. Marks",
+        "A.A. Klammer",
+        "J. Drake",
+        "C. Heiner",
+        "A. Clum",
+        "A. Copeland",
+        "J. Huddleston",
+        "E.E. Eichler"
+      ]
+    },
+    {
+      "title": "Outline of the Assembly Process: JAZZ, the JGI In-House Assembler",
+      "authors": [
+        "H. Shapiro"
+      ]
+    },
+    {
+      "title": "Ray Meta: Scalable de Novo Metagenome Assembly and Profiling",
+      "authors": [
+        "S. Boisvert",
+        "F. Raymond",
+        "É. Godzaridis",
+        "F. Laviolette",
+        "J. Corbeil"
+      ]
+    },
+    {
+      "title": "The MaSuRCA Genome Assembler",
+      "authors": [
+        "A.V. Zimin",
+        "G. Marçais",
+        "D. Puiu",
+        "M. Roberts",
+        "S.L. Salzberg",
+        "J.A. Yorke"
+      ]
+    },
+    {
+      "title": "ALLPATHS: De Novo Assembly of Whole-Genome Shotgun Microreads",
+      "authors": [
+        "J. Butler",
+        "I. MacCallum",
+        "M. Kleber",
+        "I.A. Shlyakhter",
+        "M.K. Belmonte",
+        "E.S. Lander",
+        "C. Nusbaum",
+        "D.B. Jaffe"
+      ]
+    },
+    {
+      "title": "SOAPdenovo2: An Empirically Improved Memory-Efficient Short-Read de Novo Assembler",
+      "authors": [
+        "R. Luo",
+        "B. Liu",
+        "Y. Xie",
+        "Z. Li",
+        "W. Huang",
+        "J. Yuan",
+        "G. He",
+        "Y. Chen",
+        "Q. Pan",
+        "Y. Liu"
+      ]
+    },
+    {
+      "title": "SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing",
+      "authors": [
+        "A. Bankevich",
+        "S. Nurk",
+        "D. Antipov",
+        "A.A. Gurevich",
+        "M. Dvorkin",
+        "A.S. Kulikov",
+        "V.M. Lesin",
+        "S.I. Nikolenko",
+        "S. Pham",
+        "A.D. Prjibelski"
+      ]
+    },
+    {
+      "title": "Assembly Algorithms for Next-Generation Sequencing Data",
+      "authors": [
+        "J.R. Miller",
+        "S. Koren",
+        "G. Sutton"
+      ]
+    },
+    {
+      "title": "Canu: Scalable and Accurate Long-Read Assembly via Adaptive k-Mer Weighting and Repeat Separation",
+      "authors": [
+        "S. Koren",
+        "B.P. Walenz",
+        "K. Berlin",
+        "J.R. Miller",
+        "N.H. Bergman",
+        "A.M. Phillippy"
+      ]
+    },
+    {
+      "title": "FinisherSC: A Repeat-Aware Tool for Upgrading de Novo Assembly Using Long Reads",
+      "authors": [
+        "K.-K. Lam",
+        "K. LaButti",
+        "A. Khalak",
+        "D. Tse"
+      ]
+    },
+    {
+      "title": "Assembly of Long, Error-Prone Reads Using Repeat Graphs",
+      "authors": [
+        "M. Kolmogorov",
+        "J. Yuan",
+        "Y. Lin",
+        "P.A. Pevzner"
+      ]
+    },
+    {
+      "title": "MEGAHIT: An Ultra-Fast Single-Node Solution for Large and Complex Metagenomics Assembly via Succinct de Bruijn Graph",
+      "authors": [
+        "D. Li",
+        "C.-M. Liu",
+        "R. Luo",
+        "K. Sadakane",
+        "T.-W. Lam"
+      ]
+    },
+    {
+      "title": "CHAPTER 1—Genome Size Evolution in Animals",
+      "authors": [
+        "T.R. Gregory",
+        "T.R. Gregory"
+      ]
+    },
+    {
+      "title": "Genome Size Diversity and Its Impact on the Evolution of Land Plants",
+      "authors": [
+        "J. Pellicer",
+        "O. Hidalgo",
+        "S. Dodsworth",
+        "I.J. Leitch"
+      ]
+    },
+    {
+      "title": "Genome Size Analyses of Pucciniales Reveal the Largest Fungal Genomes",
+      "authors": [
+        "S. Tavares",
+        "A.P. Ramos",
+        "A.S. Pires",
+        "H.G. Azinheira",
+        "P. Caldeirinha",
+        "T. Link",
+        "R. Abranches",
+        "M. do Céu Silva",
+        "R.T. Voegele",
+        "J. Loureiro"
+      ]
+    },
+    {
+      "title": "Chromosome Level Assembly and Comparative Genome Analysis Confirm Lager-Brewing Yeasts Originated from a Single Hybridization",
+      "authors": [
+        "A.N. Salazar",
+        "A.R. Gorter de Vries",
+        "M. van den Broek",
+        "N. Brouwers",
+        "P. de la Torre Cortès",
+        "N.G.A. Kuijpers",
+        "J.-M.G. Daran",
+        "T. Abeel"
+      ]
+    },
+    {
+      "title": "Chromosome Visualisation in Filamentous Fungi",
+      "authors": [
+        "W. Wieloch"
+      ]
+    },
+    {
+      "title": "Psychoactive Plant- and Mushroom-Associated Alkaloids from Two Behavior Modifying Cicada Pathogens",
+      "authors": [
+        "G.R. Boyce",
+        "E. Gluck-Thaler",
+        "J.C. Slot",
+        "J.E. Stajich",
+        "W.J. Davis",
+        "T.Y. James",
+        "J.R. Cooley",
+        "D.G. Panaccione",
+        "J. Eilenberg",
+        "H.H. De Fine Licht"
+      ]
+    },
+    {
+      "title": "Assembly of Polymorphic Genomes: Algorithms and Application to Ciona savignyi",
+      "authors": [
+        "J.P. Vinson",
+        "D.B. Jaffe",
+        "K. O’Neill",
+        "E.K. Karlsson",
+        "N. Stange-Thomann",
+        "S. Anderson",
+        "J.P. Mesirov",
+        "N. Satoh",
+        "Y. Satou",
+        "C. Nusbaum"
+      ]
+    },
+    {
+      "title": "An Integrated Genomic and Transcriptomic Survey of Mucormycosis-Causing Fungi",
+      "authors": [
+        "M.C. Chibucos",
+        "S. Soliman",
+        "T. Gebremariam",
+        "H. Lee",
+        "S. Daugherty",
+        "J. Orvis",
+        "A.C. Shetty",
+        "J. Crabtree",
+        "T.H. Hazen",
+        "K.A. Etienne"
+      ]
+    },
+    {
+      "title": "A Genome-Scale Phylogeny of the Kingdom Fungi",
+      "authors": [
+        "Y. Li",
+        "J.L. Steenwyk",
+        "Y. Chang",
+        "Y. Wang",
+        "T.Y. James",
+        "J.E. Stajich",
+        "J.W. Spatafora",
+        "M. Groenewald",
+        "C.W. Dunn",
+        "C.T. Hittinger"
+      ]
+    },
+    {
+      "title": "Phylogenomic Insights into the Early Diversification of Fungi",
+      "authors": [
+        "J.F.H. Strassert",
+        "M.T. Monaghan"
+      ]
+    },
+    {
+      "title": "Phylogenomics of a New Fungal Phylum Reveals Multiple Waves of Reductive Evolution across Holomycota",
+      "authors": [
+        "L.J. Galindo",
+        "P. López-García",
+        "G. Torruella",
+        "S. Karpov",
+        "D. Moreira"
+      ]
+    },
+    {
+      "title": "Fungal Evolution: Diversity, Taxonomy and Phylogeny of the Fungi",
+      "authors": [
+        "M.A. Naranjo-Ortiz",
+        "T. Gabaldón"
+      ]
+    },
+    {
+      "title": "The Case of the Missing Ancient Fungal Polyploids",
+      "authors": [
+        "M.A. Campbell",
+        "A.R.D. Ganley",
+        "T. Gabaldón",
+        "M.P. Cox"
+      ]
+    },
+    {
+      "title": "Diploidy within a Haploid Genus of Entomopathogenic Fungi",
+      "authors": [
+        "K.N. Nielsen",
+        "J.F.M. Salgado",
+        "M.E. Natsopoulou",
+        "T. Kristensen",
+        "J.E. Stajich",
+        "H.H. De Fine Licht"
+      ]
+    },
+    {
+      "title": "Diploid-Dominant Life Cycles Characterize the Early Evolution of Fungi",
+      "authors": [
+        "K.R. Amses",
+        "D.R. Simmons",
+        "J.E. Longcore",
+        "S.J. Mondo",
+        "K. Seto",
+        "G.H. Jerônimo",
+        "A.E. Bonds",
+        "C.A. Quandt",
+        "W.J. Davis",
+        "Y. Chang"
+      ]
+    },
+    {
+      "title": "Unique and Common Traits in Mycorrhizal Symbioses",
+      "authors": [
+        "A. Genre",
+        "L. Lanfranco",
+        "S. Perotto",
+        "P. Bonfante"
+      ]
+    },
+    {
+      "title": "Mucoromycotina Fine Root Endophyte Fungi Form Nutritional Mutualisms with Vascular Plants",
+      "authors": [
+        "G.A. Hoysted",
+        "A.S. Jacob",
+        "J. Kowal",
+        "P. Giesemann",
+        "M.I. Bidartondo",
+        "J.G. Duckett",
+        "G. Gebauer",
+        "W.R. Rimington",
+        "S. Schornack",
+        "S. Pressel"
+      ]
+    },
+    {
+      "title": "Mortierella alpina CS10E4, an Oleaginous Fungal Endophyte of Crocus sativus L. Enhances Apocarotenoid Biosynthesis and Stress Tolerance in the Host Plant",
+      "authors": [
+        "Z.A. Wani",
+        "A. Kumar",
+        "P. Sultan",
+        "K. Bindu",
+        "S. Riyaz-Ul-Hassan",
+        "N. Ashraf"
+      ]
+    },
+    {
+      "title": "Pygmaeomycetaceae, a New Root-Associated Family in Mucoromycotina from the Pygmy Pine Plains",
+      "authors": [
+        "E. Walsh",
+        "J. Luo",
+        "S. Khiste",
+        "A. Scalera",
+        "S. Sajjad",
+        "N. Zhang"
+      ]
+    },
+    {
+      "title": "Effects of Inoculated Mycorrhizal Fungi and Non-Mycorrhizal Beneficial Micro-Organisms on Plant Traits, Nutrient Uptake and Root-Associated Fungal Community Composition of the Cymbidium hybridum in Greenhouse",
+      "authors": [
+        "S. Liu",
+        "M. Liu",
+        "Q.-G. Liao",
+        "F.-B. Lü",
+        "X.-L. Zhao"
+      ]
+    },
+    {
+      "title": "Clinical Review of Mucormycosis",
+      "authors": [
+        "J.M. Steinbrink",
+        "M.H. Miceli"
+      ]
+    },
+    {
+      "title": "Expansion of Signal Transduction Pathways in Fungi by Extensive Genome Duplication",
+      "authors": [
+        "L.M. Corrochano",
+        "A. Kuo",
+        "M. Marcet-Houben",
+        "S. Polaino",
+        "A. Salamov",
+        "J.M. Villalobos-Escobedo",
+        "J. Grimwood",
+        "M.I. Álvarez",
+        "J. Avalos",
+        "D. Bauer"
+      ]
+    },
+    {
+      "title": "Pathogenic Fungus Harbours Endosymbiotic Bacteria for Toxin Production",
+      "authors": [
+        "L.P. Partida-Martinez",
+        "C. Hertweck"
+      ]
+    },
+    {
+      "title": "Mosaic Genome of Endobacteria in Arbuscular Mycorrhizal Fungi: Transkingdom Gene Transfer in an Ancient Mycoplasma-Fungus Association",
+      "authors": [
+        "G. Torres-Cortés",
+        "S. Ghignone",
+        "P. Bonfante",
+        "A. Schüßler"
+      ]
+    },
+    {
+      "title": "Nondegenerative Evolution in Ancient Heritable Bacterial Endosymbionts of Fungi",
+      "authors": [
+        "S.J. Mondo",
+        "A. Salvioli",
+        "P. Bonfante",
+        "J.B. Morton",
+        "T.E. Pawlowska"
+      ]
+    },
+    {
+      "title": "Who Lives in a Fungus? The Diversity, Origins and Functions of Fungal Endobacteria Living in Mucoromycota",
+      "authors": [
+        "P. Bonfante",
+        "A. Desirò"
+      ]
+    },
+    {
+      "title": "Comparative Genomics of Mortierella elongata and Its Bacterial Endosymbiont Mycoavidus cysteinexigens",
+      "authors": [
+        "J. Uehling",
+        "A. Gryganskyi",
+        "K. Hameed",
+        "T. Tschaplinski",
+        "P.K. Misztal",
+        "S. Wu",
+        "A. Desirò",
+        "N. Vande Pol",
+        "Z. Du",
+        "A. Zienkiewicz"
+      ]
+    },
+    {
+      "title": "Distribution and Population Structure of Endobacteria in Arbuscular Mycorrhizal Fungi at North Atlantic Dunes",
+      "authors": [
+        "O.A. Lastovetsky",
+        "E. Ahn",
+        "S.J. Mondo",
+        "K.H. Toomer",
+        "A. Zhang",
+        "L.M. Johnson",
+        "T.E. Pawlowska"
+      ]
+    },
+    {
+      "title": "Narnaviruses: Novel Players in Fungal-Bacterial Symbioses",
+      "authors": [
+        "A.N. Espino-Vázquez",
+        "J.R. Bermúdez-Barrientos",
+        "J.F. Cabrera-Rangel",
+        "G. Córdova-López",
+        "F. Cardoso-Martínez",
+        "A. Martínez-Vázquez",
+        "D.A. Camarena-Pozos",
+        "S.J. Mondo",
+        "T.E. Pawlowska",
+        "C. Abreu-Goodger"
+      ]
+    },
+    {
+      "title": "Genomic Organization and Mechanisms of Inheritance in Arbuscular Mycorrhizal Fungi: Contrasting the Evidence and Implications of Current Theories",
+      "authors": [
+        "J.D. Bever",
+        "H.-J. Kang",
+        "W. Kaonongbua",
+        "M. Wang",
+        "A. Varma"
+      ]
+    },
+    {
+      "title": "The Long Hard Road to a Completed Glomus intraradices Genome",
+      "authors": [
+        "F. Martin",
+        "V. Gianinazzi-Pearson",
+        "M. Hijri",
+        "P. Lammers",
+        "N. Requena",
+        "I.R. Sanders",
+        "Y. Shachar-Hill",
+        "H. Shapiro",
+        "G.A. Tuskan",
+        "J.P.W. Young"
+      ]
+    },
+    {
+      "title": "Comparative Genomics Applied to Mucor Species with Different Lifestyles",
+      "authors": [
+        "A. Lebreton",
+        "E. Corre",
+        "J.-L. Jany",
+        "L. Brillet-Guéguen",
+        "C. Pèrez-Arques",
+        "V. Garre",
+        "M. Monsoor",
+        "R. Debuchy",
+        "C. Le Meur",
+        "E. Coton"
+      ]
+    },
+    {
+      "title": "Mucor circinelloides: Growth, Maintenance and Genetic Manipulation",
+      "authors": [
+        "S. Vellanki",
+        "M.I. Navarro-Mendoza",
+        "A.E. Garcia",
+        "L. Murcia",
+        "C. Perez-Arques",
+        "V. Garre",
+        "F.E. Nicolas",
+        "S.C. Lee"
+      ]
+    },
+    {
+      "title": "Intra-Isolate Genome Variation in Arbuscular Mycorrhizal Fungi Persists in the Transcriptome",
+      "authors": [
+        "E. Boon",
+        "E. Zimmerman",
+        "B.F. Lang",
+        "M. Hijri"
+      ]
+    },
+    {
+      "title": "Metabolic Potential, Ecology and Presence of Associated Bacteria Is Reflected in Genomic Diversity of Mucoromycotina",
+      "authors": [
+        "A. Muszewska",
+        "A. Okrasińska",
+        "K. Steczkiewicz",
+        "O. Drgas",
+        "M. Orłowska",
+        "U. Perlińska-Lenart",
+        "T. Aleksandrzak-Piekarczyk",
+        "K. Szatraj",
+        "U. Zielenkiewicz",
+        "S. Piłsyk"
+      ]
+    },
+    {
+      "title": "DIRS and Ngaro Retrotransposons in Fungi",
+      "authors": [
+        "A. Muszewska",
+        "K. Steczkiewicz",
+        "K. Ginalski"
+      ]
+    },
+    {
+      "title": "Cut-and-Paste Transposons in Fungi with Diverse Lifestyles",
+      "authors": [
+        "A. Muszewska",
+        "K. Steczkiewicz",
+        "M. Stepniewska-Dziubinska",
+        "K. Ginalski"
+      ]
+    },
+    {
+      "title": "Widespread Adenine N6-Methylation of Active Genes in Fungi",
+      "authors": [
+        "S.J. Mondo",
+        "R.O. Dannebaum",
+        "R.C. Kuo",
+        "K.B. Louie",
+        "A.J. Bewick",
+        "K. LaButti",
+        "S. Haridas",
+        "A. Kuo",
+        "A. Salamov",
+        "S.R. Ahrendt"
+      ]
+    },
+    {
+      "title": "Evolution of the P-Type II ATPase Gene Family in the Fungi and Presence of Structural Genomic Changes among Isolates of Glomus intraradices",
+      "authors": [
+        "N. Corradi",
+        "I.R. Sanders"
+      ]
+    },
+    {
+      "title": "Conserved Meiotic Machinery in Glomus spp., a Putatively Ancient Asexual Fungal Lineage",
+      "authors": [
+        "S. Halary",
+        "S.-B. Malik",
+        "L. Lildhar",
+        "C.H. Slamovits",
+        "M. Hijri",
+        "N. Corradi"
+      ]
+    },
+    {
+      "title": "Mating Type Gene Homologues and Putative Sex Pheromone-Sensing Pathway in Arbuscular Mycorrhizal Fungi, a Presumably Asexual Plant Root Symbiont",
+      "authors": [
+        "S. Halary",
+        "L. Daubois",
+        "Y. Terrat",
+        "S. Ellenberger",
+        "J. Wöstemeyer",
+        "M. Hijri"
+      ]
+    },
+    {
+      "title": "Phylogenetic and Phylogenomic Definition of Rhizopus Species",
+      "authors": [
+        "A.P. Gryganskyi",
+        "J. Golan",
+        "S. Dolatabadi",
+        "S. Mondo",
+        "S. Robb",
+        "A. Idnurm",
+        "A. Muszewska",
+        "K. Steczkiewicz",
+        "S. Masonjones",
+        "H.-L. Liao"
+      ]
+    },
+    {
+      "title": "The Early Terrestrial Fungal Lineage of Conidiobolus-Transition from Saprotroph to Parasitic Lifestyle",
+      "authors": [
+        "A.P. Gryganskyi",
+        "Y. Nie",
+        "A.E. Hajek",
+        "K.T. Hodge",
+        "X.-Y. Liu",
+        "K. Aadland",
+        "K. Voigt",
+        "I.M. Anishchenko",
+        "V.B. Kutovenko",
+        "L. Kava"
+      ]
+    },
+    {
+      "title": "Genome of an Arbuscular Mycorrhizal Fungus Provides Insight into the Oldest Plant Symbiosis",
+      "authors": [
+        "E. Tisserant",
+        "M. Malbreil",
+        "A. Kuo",
+        "A. Kohler",
+        "A. Symeonidi",
+        "R. Balestrini",
+        "P. Charron",
+        "N. Duensing",
+        "N. Frei dit Frey",
+        "V. Gianinazzi-Pearson"
+      ]
+    },
+    {
+      "title": "Divergent Evolution of Early Terrestrial Fungi Reveals the Evolution of Mucormycosis Pathogenicity Factors",
+      "authors": [
+        "Y. Wang",
+        "Y. Chang",
+        "J. Ortañez",
+        "J.F. Peña",
+        "D. Carter-House",
+        "N.K. Reynolds",
+        "M.E. Smith",
+        "G. Benny",
+        "S.J. Mondo",
+        "A. Salamov"
+      ]
+    },
+    {
+      "title": "Multigene Phylogeny of Endogonales, an Early Diverging Lineage of Fungi Associated with Plants",
+      "authors": [
+        "A. Desirò",
+        "W.R. Rimington",
+        "A. Jacob",
+        "N.V. Pol",
+        "M.E. Smith",
+        "J.M. Trappe",
+        "M.I. Bidartondo",
+        "G. Bonito"
+      ]
+    },
+    {
+      "title": "Fern Gametophytes of Angiopteris lygodiifolia and Osmunda japonica Harbor Diverse Mucoromycotina Fungi",
+      "authors": [
+        "Y. Ogura-Tsujita",
+        "K. Yamamoto",
+        "Y. Hirayama",
+        "A. Ebihara",
+        "N. Morita",
+        "R. Imaichi"
+      ]
+    },
+    {
+      "title": "Evolution and Networks in Ancient and Widespread Symbioses between Mucoromycotina and Liverworts",
+      "authors": [
+        "W.R. Rimington",
+        "S. Pressel",
+        "J.G. Duckett",
+        "K.J. Field",
+        "M.I. Bidartondo"
+      ]
+    },
+    {
+      "title": "A New Genetic Linkage Map of the Zygomycete Fungus Phycomyces blakesleeanus",
+      "authors": [
+        "S. Chaudhary",
+        "S. Polaino",
+        "V.P.S. Shakya",
+        "A. Idnurm"
+      ]
+    },
+    {
+      "title": "De Novo Whole-Genome Sequence and Genome Annotation of Lichtheimia ramosa",
+      "authors": [
+        "J. Linde",
+        "V. Schwartze",
+        "U. Binder",
+        "C. Lass-Flörl",
+        "K. Voigt",
+        "F. Horn"
+      ]
+    },
+    {
+      "title": "Gene Expansion Shapes Genome Architecture in the Human Pathogen Lichtheimia corymbifera: An Evolutionary Genomics Analysis in the Ancient Terrestrial Mucorales (Mucoromycotina)",
+      "authors": [
+        "V.U. Schwartze",
+        "S. Winter",
+        "E. Shelest",
+        "M. Marcet-Houben",
+        "F. Horn",
+        "S. Wehner",
+        "J. Linde",
+        "V. Valiante",
+        "M. Sammeth",
+        "K. Riege"
+      ]
+    },
+    {
+      "title": "Bifiguratus adelaidae, Gen. et Sp. Nov., a New Member of Mucoromycotina in Endophytic and Soil-Dwelling Habitats",
+      "authors": [
+        "T.J. Torres-Cruz",
+        "T.L. Billingsley Tobias",
+        "M. Almatruk",
+        "C.N. Hesse",
+        "C.R. Kuske",
+        "A. Desirò",
+        "G.M.N. Benucci",
+        "G. Bonito",
+        "J.E. Stajich",
+        "C. Dunlap"
+      ]
+    },
+    {
+      "title": "The Anamorphic Genus Calcarisporiella Is a New Member of the Mucoromycotina",
+      "authors": [
+        "D. Hirose",
+        "Y. Degawa",
+        "S. Inaba",
+        "S. Tokumasu"
+      ]
+    },
+    {
+      "title": "Where Is the Unseen Fungal Diversity Hidden? A Study of Mortierella Reveals a Large Contribution of Reference Collections to the Identification of Fungal Environmental Sequences",
+      "authors": [
+        "L.G. Nagy",
+        "T. Petkovits",
+        "G.M. Kovács",
+        "K. Voigt",
+        "C. Vágvölgyi",
+        "T. Papp"
+      ]
+    },
+    {
+      "title": "Phylogenetic Analysis of the Genus Modicella Reveals an Independent Evolutionary Origin of Sporocarp-Forming Fungi in the Mortierellales",
+      "authors": [
+        "M.E. Smith",
+        "A. Gryganskyi",
+        "G. Bonito",
+        "E. Nouhra",
+        "B. Moreno-Arroyo",
+        "G. Benny"
+      ]
+    },
+    {
+      "title": "Evolutionary Relationships among Massospora Spp. (Entomophthorales), Obligate Pathogens of Cicadas",
+      "authors": [
+        "A.M. Macias",
+        "D.M. Geiser",
+        "J.E. Stajich",
+        "P. Łukasik",
+        "C. Veloso",
+        "D.C. Bublitz",
+        "M.C. Berger",
+        "G.R. Boyce",
+        "K. Hodge",
+        "M.T. Kasson"
+      ]
+    },
+    {
+      "title": "Isolating a Functionally Relevant Guild of Fungi from the Root Microbiome of Populus",
+      "authors": [
+        "G. Bonito",
+        "K. Hameed",
+        "R. Ventura",
+        "J. Krishnan",
+        "C.W. Schadt",
+        "R. Vilgalys"
+      ]
+    },
+    {
+      "title": "Linnemannia elongata (Mortierellaceae) Stimulates Arabidopsis thaliana Aerial Growth and Responses to Auxin, Ethylene, and Reactive Oxygen Species",
+      "authors": [
+        "N. Vandepol",
+        "J. Liber",
+        "A. Yocca",
+        "J. Matlock",
+        "P. Edger",
+        "G. Bonito"
+      ]
+    },
+    {
+      "title": "Mortierella elongata Increases Plant Biomass among Non-Leguminous Crop Species",
+      "authors": [
+        "K. Zhang",
+        "G. Bonito",
+        "C.-M. Hsu",
+        "K. Hameed",
+        "R. Vilgalys",
+        "H.-L. Liao"
+      ]
+    },
+    {
+      "title": "Bacterial-like Nonribosomal Peptide Synthetases Produce Cyclopeptides in the Zygomycetous Fungus Mortierella alpina",
+      "authors": [
+        "J.M. Wurlitzer",
+        "A. Stanišić",
+        "I. Wasmuth",
+        "S. Jungmann",
+        "D. Fischer",
+        "H. Kries",
+        "M. Gressler"
+      ]
+    },
+    {
+      "title": "Four Hundred-Million-Year-Old Vesicular Arbuscular Mycorrhizae",
+      "authors": [
+        "W. Remy",
+        "T.N. Taylor",
+        "H. Hass",
+        "H. Kerp"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S. Smith",
+        "D. Read"
+      ]
+    },
+    {
+      "title": "The Arbuscular Mycorrhizal Fungus Glomus intraradices Is Haploid and Has a Small Genome Size in the Lower Limit of Eukaryotes",
+      "authors": [
+        "M. Hijri",
+        "I.R. Sanders"
+      ]
+    },
+    {
+      "title": "Estimation of the Glomus intraradices Nuclear DNA Content",
+      "authors": [
+        "K.A. Sędzielewska",
+        "J. Fuchs",
+        "E.M. Temsch",
+        "K. Baronian",
+        "R. Watzke",
+        "G. Kunze"
+      ]
+    },
+    {
+      "title": "At the Nexus of Three Kingdoms: The Genome of the Mycorrhizal Fungus Gigaspora margarita Provides Insights into Plant, Endobacterial and Fungal Interactions",
+      "authors": [
+        "F. Venice",
+        "S. Ghignone",
+        "A. Salvioli di Fossalunga",
+        "J. Amselem",
+        "M. Novero",
+        "X. Xianan",
+        "K. Sędzielewska Toro",
+        "E. Morin",
+        "A. Lipzen",
+        "I.V. Grigoriev"
+      ]
+    },
+    {
+      "title": "Evidence for the Sexual Origin of Heterokaryosis in Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "J. Ropars",
+        "K.S. Toro",
+        "J. Noel",
+        "A. Pelin",
+        "P. Charron",
+        "L. Farinelli",
+        "T. Marton",
+        "M. Krüger",
+        "J. Fuchs",
+        "A. Brachmann"
+      ]
+    },
+    {
+      "title": "Identification of the Sex Genes in an Early Diverged Fungus",
+      "authors": [
+        "A. Idnurm",
+        "F.J. Walton",
+        "A. Floyd",
+        "J. Heitman"
+      ]
+    },
+    {
+      "title": "Evidence for the Evolution of Multiple Genomes in Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "G. Kuhn",
+        "M. Hijri",
+        "I.R. Sanders"
+      ]
+    },
+    {
+      "title": "Organization of Genetic Variation in Individuals of Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "T.E. Pawlowska",
+        "J.W. Taylor"
+      ]
+    },
+    {
+      "title": "Fatty Acid Synthesis and Lipid Metabolism in the Obligate Biotrophic Fungus Rhizophagus irregularis during Mycorrhization of Lotus japonicus",
+      "authors": [
+        "V. Wewer",
+        "M. Brands",
+        "P. Dörmann"
+      ]
+    },
+    {
+      "title": "A Survey of the Gene Repertoire of Gigaspora rosea Unravels Conserved Features among Glomeromycota for Obligate Biotrophy",
+      "authors": [
+        "N. Tang",
+        "H. San Clemente",
+        "S. Roy",
+        "G. Bécard",
+        "B. Zhao",
+        "C. Roux"
+      ]
+    },
+    {
+      "title": "The Genome of Rhizophagus clarus HR1 Reveals a Common Genetic Basis for Auxotrophy among Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "Y. Kobayashi",
+        "T. Maeda",
+        "K. Yamaguchi",
+        "H. Kameoka",
+        "S. Tanaka",
+        "T. Ezawa",
+        "S. Shigenobu",
+        "M. Kawaguchi"
+      ]
+    },
+    {
+      "title": "Arbuscular Mycorrhiza-Specific Enzymes FatM and RAM2 Fine-Tune Lipid Biosynthesis to Promote Development of Arbuscular Mycorrhiza",
+      "authors": [
+        "A. Bravo",
+        "M. Brands",
+        "V. Wewer",
+        "P. Dörmann",
+        "M.J. Harrison"
+      ]
+    },
+    {
+      "title": "Plants Transfer Lipids to Sustain Colonization by Mutualistic Mycorrhizal and Parasitic Fungi",
+      "authors": [
+        "Y. Jiang",
+        "W. Wang",
+        "Q. Xie",
+        "N. Liu",
+        "L. Liu",
+        "D. Wang",
+        "X. Zhang",
+        "C. Yang",
+        "X. Chen",
+        "D. Tang"
+      ]
+    },
+    {
+      "title": "Lipid Transfer from Plants to Arbuscular Mycorrhiza Fungi",
+      "authors": [
+        "A. Keymer",
+        "P. Pimprikar",
+        "V. Wewer",
+        "C. Huber",
+        "M. Brands",
+        "S.L. Bucerius",
+        "P.-M. Delaux",
+        "V. Klingl",
+        "E. von Röpenack-Lahaye",
+        "T.L. Wang"
+      ]
+    },
+    {
+      "title": "Fatty Acids in Arbuscular Mycorrhizal Fungi Are Synthesized by the Host Plant",
+      "authors": [
+        "L.H. Luginbuehl",
+        "G.N. Menard",
+        "S. Kurup",
+        "H. Van Erp",
+        "G.V. Radhakrishnan",
+        "A. Breakspear",
+        "G.E.D. Oldroyd",
+        "P.J. Eastmond"
+      ]
+    },
+    {
+      "title": "Stimulation of Asymbiotic Sporulation in Arbuscular Mycorrhizal Fungi by Fatty Acids",
+      "authors": [
+        "H. Kameoka",
+        "I. Tsutsui",
+        "K. Saito",
+        "Y. Kikuchi",
+        "Y. Handa",
+        "T. Ezawa",
+        "H. Hayashi",
+        "M. Kawaguchi",
+        "K. Akiyama"
+      ]
+    },
+    {
+      "title": "Myristate Can Be Used as a Carbon and Energy Source for the Asymbiotic Growth of Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "Y. Sugiura",
+        "R. Akiyama",
+        "S. Tanaka",
+        "K. Yano",
+        "H. Kameoka",
+        "S. Marui",
+        "M. Saito",
+        "M. Kawaguchi",
+        "K. Akiyama",
+        "K. Saito"
+      ]
+    },
+    {
+      "title": "Resolving the Haplotypes of Arbuscular Mycorrhizal Fungi Highlights the Role of Two Nuclear Populations in Host Interactions",
+      "authors": [
+        "J. Sperschneider",
+        "G. Yildirir",
+        "Y. Rizzi",
+        "C.M. Malar",
+        "E. Sorwar",
+        "E.C. Chen",
+        "W. Iwasaki",
+        "E.K. Brauer",
+        "W. Bosnich",
+        "C. Gutjahr"
+      ]
+    },
+    {
+      "title": "From So Simple a Beginning: The Evolution of Behavioral Manipulation by Fungi",
+      "authors": [
+        "D.P. Hughes",
+        "J.P.M. Araújo",
+        "R.G. Loreto",
+        "L. Quevillon",
+        "C. de Bekker",
+        "H.C. Evans"
+      ]
+    },
+    {
+      "title": "Human Pathogenic Entomophthorales",
+      "authors": [
+        "R. Vilela",
+        "L. Mendoza"
+      ]
+    },
+    {
+      "title": "Phylogenetic Systematics of Syncephalis (Zoopagales, Zoopagomycotina), a Genus of Ubiquitous Mycoparasites",
+      "authors": [
+        "K.L. Lazarus",
+        "G.L. Benny",
+        "H.-M. Ho",
+        "M.E. Smith"
+      ]
+    },
+    {
+      "title": "Behavioral Betrayal: How Select Fungal Parasites Enlist Living Insects to Do Their Bidding",
+      "authors": [
+        "B. Lovett",
+        "A. Macias",
+        "J.E. Stajich",
+        "J. Cooley",
+        "J. Eilenberg",
+        "H.H. de Fine Licht",
+        "M.T. Kasson"
+      ]
+    },
+    {
+      "title": "Phylogenomic Analyses Indicate That Early Fungi Evolved Digesting Cell Walls of Algal Ancestors of Land Plants",
+      "authors": [
+        "Y. Chang",
+        "S. Wang",
+        "S. Sekimoto",
+        "A.L. Aerts",
+        "C. Choi",
+        "A. Clum",
+        "K.M. LaButti",
+        "E.A. Lindquist",
+        "C. Yee Ngan",
+        "R.A. Ohm"
+      ]
+    },
+    {
+      "title": "Genome-Wide Survey of Gut Fungi (Harpellales) Reveals the First Horizontally Transferred Ubiquitin Gene from a Mosquito Host",
+      "authors": [
+        "Y. Wang",
+        "M.M. White",
+        "S. Kvist",
+        "J.-M. Moncalvo"
+      ]
+    },
+    {
+      "title": "Comparative Genomics Reveals the Core Gene Toolbox for the Fungus-Insect Symbiosis",
+      "authors": [
+        "Y. Wang",
+        "M. Stata",
+        "W. Wang",
+        "J.E. Stajich",
+        "M.M. White",
+        "J.-M. Moncalvo"
+      ]
+    },
+    {
+      "title": "Phylogenomic Analyses of Non-Dikarya Fungi Supports Horizontal Gene Transfer Driving Diversification of Secondary Metabolism in the Amphibian Gastrointestinal Symbiont, Basidiobolus",
+      "authors": [
+        "J.F. Tabima",
+        "I.A. Trautman",
+        "Y. Chang",
+        "Y. Wang",
+        "S. Mondo",
+        "A. Kuo",
+        "A. Salamov",
+        "I.V. Grigoriev",
+        "J.E. Stajich",
+        "J.W. Spatafora"
+      ]
+    },
+    {
+      "title": "Preliminary Phylogeny of Coemansia (Kickxellales), with Descriptions of Four New Species from Taiwan",
+      "authors": [
+        "S.-C. Chuang",
+        "H.-M. Ho",
+        "N. Reynolds",
+        "M.E. Smith",
+        "G.L. Benny",
+        "C.-Y. Chien",
+        "J.-L. Tsai"
+      ]
+    },
+    {
+      "title": "Draft Genome Sequence of Capniomyces stellatus, the Obligate Gut Fungal Symbiont of Stonefly",
+      "authors": [
+        "Y. Wang",
+        "M.M. White",
+        "J.-M. Moncalvo"
+      ]
+    },
+    {
+      "title": "An Eight-Gene Molecular Phylogeny of the Kickxellomycotina, Including the First Phylogenetic Placement of Asellariales",
+      "authors": [
+        "E.D. Tretter",
+        "E.M. Johnson",
+        "G.L. Benny",
+        "R.W. Lichtwardt",
+        "Y. Wang",
+        "P. Kandel",
+        "S.J. Novak",
+        "J.F. Smith",
+        "M.M. White"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R.W. Lichtward"
+      ]
+    },
+    {
+      "title": "Diversification of the Gut Fungi Smittium and Allies (Harpellales) Co-Occurred with the Origin of Complete Metamorphosis of Their Symbiotic Insect Hosts (Lower Diptera)",
+      "authors": [
+        "Y. Wang",
+        "M.M. White",
+        "J.-M. Moncalvo"
+      ]
+    },
+    {
+      "title": "New Species and Emendations of Orphella: Taxonomic and Phylogenetic Reassessment of the Genus to Establish the Orphellales, for Stonefly Gut Fungi with a Twist",
+      "authors": [
+        "M.M. White",
+        "L. Guàrdia Valle",
+        "R.W. Lichtwardt",
+        "A. Siri",
+        "D.B. Strongman",
+        "R.T. William",
+        "W.J. Gause",
+        "E.D. Tretter"
+      ]
+    },
+    {
+      "title": "Overview of 75 Years of Smittium Research, Establishing a New Genus for Smittium culisetae, and Prospects for Future Revisions of the “Smittium” Clade",
+      "authors": [
+        "Y. Wang",
+        "E.D. Tretter",
+        "R.W. Lichtwardt",
+        "M.M. White"
+      ]
+    },
+    {
+      "title": "Trichomycete Insect Symbionts in Great Smoky Mountains National Park and Vicinity",
+      "authors": [
+        "M.M. White",
+        "A. Siri",
+        "R.W. Lichtwardt"
+      ]
+    },
+    {
+      "title": "Utilization of Selenocysteine in Early-Branching Fungal Phyla",
+      "authors": [
+        "M. Mariotti",
+        "G. Salinas",
+        "T. Gabaldón",
+        "V.N. Gladyshev"
+      ]
+    },
+    {
+      "title": "A Taxonomic Revision of the Genus Conidiobolus (Ancylistaceae, Entomophthorales): Four Clades Including Three New Genera",
+      "authors": [
+        "Y. Nie",
+        "D.-S. Yu",
+        "C.-F. Wang",
+        "X.-Y. Liu",
+        "B. Huang"
+      ]
+    },
+    {
+      "title": "Synopsis of a Revised Classification for the Entomophthorales (Zygomycotina)",
+      "authors": [
+        "R.A. Humber"
+      ]
+    },
+    {
+      "title": "Phylogenetic Divergence of the Entomophthoralean Fungi: Evidence from Nuclear 18S Ribosomal RNA Gene Sequences",
+      "authors": [
+        "T. Nagahama",
+        "H. Sato",
+        "M. Shimazu",
+        "J. Sugiyama"
+      ]
+    },
+    {
+      "title": "Mutants of Phycomyces with Abnormal Phototropism",
+      "authors": [
+        "K. Bergman",
+        "A.P. Eslava",
+        "E. Cerdá-Olmedo"
+      ]
+    },
+    {
+      "title": "The Phycomyces MadA Gene Encodes a Blue-Light Photoreceptor for Phototropism and Other Light Responses",
+      "authors": [
+        "A. Idnurm",
+        "J. Rodríguez-Romero",
+        "L.M. Corrochano",
+        "C. Sanz",
+        "E.A. Iturriaga",
+        "A.P. Eslava",
+        "J. Heitman"
+      ]
+    },
+    {
+      "title": "Photoreception in Neurospora: A Tale of Two White Collar Proteins",
+      "authors": [
+        "Y. Liu",
+        "Q. He",
+        "P. Cheng"
+      ]
+    },
+    {
+      "title": "Phycomyces MadB Interacts with MadA to Form the Primary Photoreceptor Complex for Fungal Phototropism",
+      "authors": [
+        "C. Sanz",
+        "J. Rodríguez-Romero",
+        "A. Idnurm",
+        "J.M. Christie",
+        "J. Heitman",
+        "L.M. Corrochano",
+        "A.P. Eslava"
+      ]
+    },
+    {
+      "title": "Distinct White Collar-1 Genes Control Specific Light Responses in Mucor circinelloides",
+      "authors": [
+        "F. Silva",
+        "S. Torres-Martínez",
+        "V. Garre"
+      ]
+    },
+    {
+      "title": "A Ras GTPase Associated Protein Is Involved in the Phototropic and Circadian Photobiology Responses in Fungi",
+      "authors": [
+        "S. Polaino",
+        "J.M. Villalobos-Escobedo",
+        "V.P.S. Shakya",
+        "A. Miralles-Durán",
+        "S. Chaudhary",
+        "C. Sanz",
+        "M. Shahriari",
+        "E.M. Luque",
+        "A.P. Eslava",
+        "L.M. Corrochano"
+      ]
+    },
+    {
+      "title": "The Uve1 Endonuclease Is Regulated by the White Collar Complex to Protect Cryptococcus neoformans from UV Damage",
+      "authors": [
+        "S. Verma",
+        "A. Idnurm"
+      ]
+    },
+    {
+      "title": "Protein Crystals in Phycomyces Sporangiophores Are Involved in Graviperception",
+      "authors": [
+        "C. Schimek",
+        "P. Eibel",
+        "T. Horie",
+        "P. Galland",
+        "T. Ootaki"
+      ]
+    },
+    {
+      "title": "Evolutionary Novelty in Gravity Sensing through Horizontal Gene Transfer and High-Order Protein Assembly",
+      "authors": [
+        "T.A. Nguyen",
+        "J. Greig",
+        "A. Khan",
+        "C. Goh",
+        "G. Jedd"
+      ]
+    },
+    {
+      "title": "Ergosterol Biosynthesis: A Fungal Pathway for Life on Land?",
+      "authors": [
+        "S. Dupont",
+        "G. Lemetais",
+        "T. Ferreira",
+        "P. Cayot",
+        "P. Gervais",
+        "L. Beney"
+      ]
+    },
+    {
+      "title": "Biology of Fungi and Their Bacterial Endosymbionts",
+      "authors": [
+        "T.E. Pawlowska",
+        "M.L. Gaspar",
+        "O.A. Lastovetsky",
+        "S.J. Mondo",
+        "I. Real-Ramirez",
+        "E. Shakya",
+        "P. Bonfante"
+      ]
+    },
+    {
+      "title": "The Mycobiota: Fungi Take Their Place between Plants and Bacteria",
+      "authors": [
+        "P. Bonfante",
+        "F. Venice",
+        "L. Lanfranco"
+      ]
+    },
+    {
+      "title": "New Endohyphal Relationships between Mucoromycota and Burkholderiaceae Representatives",
+      "authors": [
+        "A. Okrasińska",
+        "A. Bokus",
+        "K. Duk",
+        "A. Gęsiorska",
+        "B. Sokołowska",
+        "A. Miłobędzka",
+        "M. Wrzosek",
+        "J. Pawłowska"
+      ]
+    },
+    {
+      "title": "“Candidatus Glomeribacter Gigasporarum” Gen. Nov., Sp. Nov., an Endosymbiont of Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "V. Bianciotto",
+        "E. Lumini",
+        "P. Bonfante",
+        "P. Vandamme"
+      ]
+    },
+    {
+      "title": "Presymbiotic Growth and Sporal Morphology Are Affected in the Arbuscular Mycorrhizal Fungus Gigaspora margarita Cured of Its Endobacteria",
+      "authors": [
+        "E. Lumini",
+        "V. Bianciotto",
+        "P. Jargeat",
+        "M. Novero",
+        "A. Salvioli",
+        "A. Faccio",
+        "G. Bécard",
+        "P. Bonfante"
+      ]
+    },
+    {
+      "title": "Symbiosis with an Endobacterium Increases the Fitness of a Mycorrhizal Fungus, Raising Its Bioenergetic Potential",
+      "authors": [
+        "A. Salvioli",
+        "S. Ghignone",
+        "M. Novero",
+        "L. Navazio",
+        "F. Venice",
+        "P. Bagnaresi",
+        "P. Bonfante"
+      ]
+    },
+    {
+      "title": "Metabolome Changes Are Induced in the Arbuscular Mycorrhizal Fungus Gigaspora margarita by Germination and by Its Bacterial Endosymbiont",
+      "authors": [
+        "S.P. Dearth",
+        "H.F. Castro",
+        "F. Venice",
+        "E.D. Tague",
+        "M. Novero",
+        "P. Bonfante",
+        "S.R. Campagna"
+      ]
+    },
+    {
+      "title": "Mycoavidus cysteinexigens Gen. Nov., Sp. Nov., an Endohyphal Bacterium Isolated from a Soil Isolate of the Fungus Mortierella elongata",
+      "authors": [
+        "S. Ohshima",
+        "Y. Sato",
+        "R. Fujimura",
+        "Y. Takashima",
+        "M. Hamada",
+        "T. Nishizawa",
+        "K. Narisawa",
+        "H. Ohta"
+      ]
+    },
+    {
+      "title": "Integrated Proteomics and Metabolomics Suggests Symbiotic Metabolism and Multimodal Regulation in a Fungal-Endobacterial System",
+      "authors": [
+        "Z. Li",
+        "Q. Yao",
+        "S.P. Dearth",
+        "M.R. Entler",
+        "H.F. Castro Gonzalez",
+        "J.K. Uehling",
+        "R.J. Vilgalys",
+        "G.B. Hurst",
+        "S.R. Campagna",
+        "J.L. Labbé"
+      ]
+    },
+    {
+      "title": "Prevalence and Intra-Family Phylogenetic Divergence of Burkholderiaceae-Related Endobacteria Associated with Species of Mortierella",
+      "authors": [
+        "Y. Takashima",
+        "K. Seto",
+        "Y. Degawa",
+        "Y. Guo",
+        "T. Nishizawa",
+        "H. Ohta",
+        "K. Narisawa"
+      ]
+    },
+    {
+      "title": "Bacterial Endosymbionts Protect Beneficial Soil Fungus from Nematode Attack",
+      "authors": [
+        "H. Büttner",
+        "S.P. Niehs",
+        "K. Vandelannoote",
+        "Z. Cseresnyés",
+        "B. Dose",
+        "I. Richter",
+        "R. Gerst",
+        "M.T. Figge",
+        "T.P. Stinear",
+        "S.J. Pidot"
+      ]
+    },
+    {
+      "title": "Bacterial Endosymbionts Influence Host Sexuality and Reveal Reproductive Genes of Early Divergent Fungi",
+      "authors": [
+        "S.J. Mondo",
+        "O.A. Lastovetsky",
+        "M.L. Gaspar",
+        "N.H. Schwardt",
+        "C.C. Barber",
+        "R. Riley",
+        "H. Sun",
+        "I.V. Grigoriev",
+        "T.E. Pawlowska"
+      ]
+    },
+    {
+      "title": "Toxin-Producing Endosymbionts Shield Pathogenic Fungus against Micropredators",
+      "authors": [
+        "I. Richter",
+        "S. Radosa",
+        "Z. Cseresnyés",
+        "I. Ferling",
+        "H. Büttner",
+        "S.P. Niehs",
+        "R. Gerst",
+        "K. Scherlach",
+        "M.T. Figge",
+        "F. Hillmann"
+      ]
+    },
+    {
+      "title": "A Bacterial Endosymbiont of the Fungus Rhizopus microsporus Drives Phagocyte Evasion and Opportunistic Virulence",
+      "authors": [
+        "H. Itabangi",
+        "P.C.S. Sephton-Clark",
+        "D.P. Tamayo",
+        "X. Zhou",
+        "G.P. Starling",
+        "Z. Mahamoud",
+        "I. Insua",
+        "M. Probert",
+        "J. Correia",
+        "P.J. Moynihan"
+      ]
+    },
+    {
+      "title": "A Gene Cluster Encoding Rhizoxin Biosynthesis in “Burkholderia rhizoxina”, the Bacterial Endosymbiont of the Fungus Rhizopus microsporus",
+      "authors": [
+        "L.P. Partida-Martinez",
+        "C. Hertweck"
+      ]
+    },
+    {
+      "title": "Whole Genome Analyses Suggests That Burkholderia sensu lato Contains Two Additional Novel Genera (Mycetohabitans gen. nov., and Trinickia gen. nov.): Implications for the Evolution of Diazotrophy and Nodulation in the Burkholderiaceae",
+      "authors": [
+        "P. Estrada-de Los Santos",
+        "M. Palmer",
+        "B. Chávez-Ramírez",
+        "C. Beukes",
+        "E.T. Steenkamp",
+        "L. Briscoe",
+        "N. Khan",
+        "M. Maluk",
+        "M. Lafos",
+        "E. Humm"
+      ]
+    },
+    {
+      "title": "Molecular Dialogues between Early Divergent Fungi and Bacteria in an Antagonism versus a Mutualism",
+      "authors": [
+        "O.A. Lastovetsky",
+        "L.D. Krasnovsky",
+        "X. Qin",
+        "M.L. Gaspar",
+        "A.P. Gryganskyi",
+        "M. Huntemann",
+        "A. Clum",
+        "M. Pillay",
+        "K. Palaniappan",
+        "N. Varghese"
+      ]
+    },
+    {
+      "title": "The Obligate Endobacteria of Arbuscular Mycorrhizal Fungi Are Ancient Heritable Components Related to the Mollicutes",
+      "authors": [
+        "M. Naumann",
+        "A. Schüßler",
+        "P. Bonfante"
+      ]
+    },
+    {
+      "title": "Molecular Evolution Patterns Reveal Life History Features of Mycoplasma-Related Endobacteria Associated with Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "K.H. Toomer",
+        "X. Chen",
+        "M. Naito",
+        "S.J. Mondo",
+        "H.C. den Bakker",
+        "N.W. VanKuren",
+        "Y. Lekberg",
+        "J.B. Morton",
+        "T.E. Pawlowska"
+      ]
+    },
+    {
+      "title": "Mycoplasma-Related Endobacteria within Mortierellomycotina Fungi: Diversity, Distribution and Functional Insights into Their Lifestyle",
+      "authors": [
+        "A. Desirò",
+        "Z. Hao",
+        "J.A. Liber",
+        "G.M.N. Benucci",
+        "D. Lowry",
+        "R. Roberson",
+        "G. Bonito"
+      ]
+    },
+    {
+      "title": "Endogone, One of the Oldest Plant-Associated Fungi, Host Unique Mollicutes-Related Endobacteria",
+      "authors": [
+        "A. Desirò",
+        "A. Faccio",
+        "A. Kaech",
+        "M.I. Bidartondo",
+        "P. Bonfante"
+      ]
+    },
+    {
+      "title": "“Candidatus Moeniiplasma Glomeromycotorum”, an Endobacterium of Arbuscular Mycorrhizal Fungi",
+      "authors": [
+        "M. Naito",
+        "A. Desirò",
+        "J.B. González",
+        "G. Tao",
+        "J.B. Morton",
+        "P. Bonfante",
+        "T.E. Pawlowska"
+      ]
+    },
+    {
+      "title": "Minimal Genomes of Mycoplasma-Related Endobacteria Are Plastic and Contain Host-Derived Genes for Sustained Life within Glomeromycota",
+      "authors": [
+        "M. Naito",
+        "J.B. Morton",
+        "T.E. Pawlowska"
+      ]
+    },
+    {
+      "title": "Widespread Bacterial Diversity within the Bacteriome of Fungi",
+      "authors": [
+        "A.J. Robinson",
+        "G.L. House",
+        "D.P. Morales",
+        "J.M. Kelliher",
+        "L.V. Gallegos-Graves",
+        "E.S. LeBrun",
+        "K.W. Davenport",
+        "F. Palmieri",
+        "A. Lohberger",
+        "D. Bregnard"
+      ]
+    },
+    {
+      "title": "Habitat, Snow-Cover and Soil PH, Affect the Distribution and Diversity of Mortierellaceae Species and Their Associations to Bacteria",
+      "authors": [
+        "A. Telagathoti",
+        "M. Probst",
+        "U. Peintner"
+      ]
+    },
+    {
+      "title": "Metagenome-Assembled Genomes of Bacteria Associated with Massospora cicadina Fungal Plugs from Infected Brood VIII Periodical Cicadas",
+      "authors": [
+        "C.L. Ettinger",
+        "B. Lovett",
+        "M.T. Kasson",
+        "J.E. Stajich"
+      ]
+    },
+    {
+      "title": "Evolution of Zygomycete Secretomes and the Origins of Terrestrial Fungal Ecologies",
+      "authors": [
+        "Y. Chang",
+        "Y. Wang",
+        "S. Mondo",
+        "S. Ahrendt",
+        "W. Andreopoulos",
+        "K. Barry",
+        "J. Beard",
+        "G.L. Benny",
+        "S. Blankenship",
+        "G. Bonito"
+      ]
+    },
+    {
+      "title": "2 Genomics to Study Basal Lineage Fungal Biology: Phylogenomics Suggests a Common Origin",
+      "authors": [
+        "E. Shelest",
+        "K. Voigt"
+      ]
+    },
+    {
+      "title": "15 Genetic and Metabolic Aspects of Primary and Secondary Metabolism of the Zygomycetes",
+      "authors": [
+        "K. Voigt",
+        "T. Wolf",
+        "K. Ochsenreiter",
+        "G. Nagy",
+        "K. Kaerger",
+        "E. Shelest",
+        "T. Papp"
+      ]
+    },
+    {
+      "title": "Terpenoid Biosynthesis Dominates among Secondary Metabolite Clusters in MUcoromycotina Genomes",
+      "authors": [
+        "G. Koczyk",
+        "J. Pawłowska",
+        "A. Muszewska"
+      ]
+    },
+    {
+      "title": "Fungal Biosurfactants from Mortierella alpina",
+      "authors": [
+        "F. Baldeweg",
+        "P. Warncke",
+        "D. Fischer",
+        "M. Gressler"
+      ]
+    },
+    {
+      "title": "Comparative Analysis of Five Mucor Species Transcriptomes",
+      "authors": [
+        "A. Lebreton",
+        "L. Meslet-Cladière",
+        "S. Morin-Sardin",
+        "E. Coton",
+        "J.-L. Jany",
+        "G. Barbier",
+        "E. Corre"
+      ]
+    },
+    {
+      "title": "A Search for Glomuferrin: A Potential Siderophore of Arbuscular Mycorrhizal Fungi of the Genus Glomus",
+      "authors": [
+        "G. Winkelmann"
+      ]
+    },
+    {
+      "title": "Apophysomyces variabilis: Draft Genome Sequence and Comparison of Predictive Virulence Determinants with Other Medically Important Mucorales",
+      "authors": [
+        "H. Prakash",
+        "S.M. Rudramurthy",
+        "P.S. Gandham",
+        "A.K. Ghosh",
+        "M.M. Kumar",
+        "C. Badapanda",
+        "A. Chakrabarti"
+      ]
+    },
+    {
+      "title": "The Rhizoferrin Biosynthetic Gene in the Fungal Pathogen Rhizopus delemar Is a Novel Member of the NIS Gene Family",
+      "authors": [
+        "C.S. Carroll",
+        "C.L. Grieve",
+        "I. Murugathasan",
+        "A.J. Bennet",
+        "C.M. Czekster",
+        "H. Liu",
+        "J. Naismith",
+        "M.M. Moore"
+      ]
+    },
+    {
+      "title": "Rhizoferrin Glycosylation in Rhizopus microsporus",
+      "authors": [
+        "A. Škríba",
+        "R.H. Patil",
+        "P. Hubáček",
+        "R. Dobiáš",
+        "A. Palyzová",
+        "H. Marešová",
+        "T. Pluháček",
+        "V. Havlíček"
+      ]
+    },
+    {
+      "title": "Genome Sequence of the Mucoromycotina Fungus Umbelopsis isabellina, an Effective Producer of Lipids",
+      "authors": [
+        "I. Takeda",
+        "K. Tamano",
+        "N. Yamane",
+        "T. Ishii",
+        "A. Miura",
+        "M. Umemura",
+        "G. Terai",
+        "S.E. Baker",
+        "H. Koike",
+        "M. Machida"
+      ]
+    },
+    {
+      "title": "Giant Starship Elements Mobilize Accessory Genes in Fungal Genomes",
+      "authors": [
+        "E. Gluck-Thaler",
+        "T. Ralston",
+        "Z. Konkel",
+        "C.G. Ocampos",
+        "V.D. Ganeshan",
+        "A.E. Dorrance",
+        "T.L. Niblack",
+        "C.W. Wood",
+        "J.C. Slot",
+        "H.D. Lopez-Nicora"
+      ]
+    },
+    {
+      "title": "A Large Transposable Element Mediates Metal Resistance in the Fungus Paecilomyces variotii",
+      "authors": [
+        "A.S. Urquhart",
+        "N.F. Chong",
+        "Y. Yang",
+        "A. Idnurm"
+      ]
+    }
+  ],
+  "original_title": "Plant chemical genomics: gravity sensing and response.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f82a/10386755/800cce7a2c76/microorganisms-11-01830-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f82a/10386755/6661337749ed/microorganisms-11-01830-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f82a/10386755/b1e7eb24efa3/microorganisms-11-01830-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f82a/10386755/920492c0fbbc/microorganisms-11-01830-g004.jpg"
+  ]
+}

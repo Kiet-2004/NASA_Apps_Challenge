@@ -1,0 +1,743 @@
+{
+  "pmcid": "PMC7358545",
+  "title": "A Conditional Mutation in SCD1 Reveals Linkage Between PIN Protein Trafficking, Auxin Transport, Gravitropism, and Lateral Root Initiation",
+  "abstract": "Auxin is transported in plants with distinct polarity, defined by transport proteins of the PIN-formed (PIN) family. Components of the complex trafficking machinery responsible for polar PIN protein localization have been identified by genetic approaches, but severe developmental phenotypes of trafficking mutants complicate dissection of this pathway. We utilized a temperature sensitive allele of Arabidopsis thaliana SCD1 (stomatal cytokinesis defective1) that encodes a RAB-guanine nucleotide exchange factor. Auxin transport, lateral root initiation, asymmetric auxin-induced gene expression after gravitropic reorientation, and differential gravitropic growth were reduced in the roots of the scd1-1 mutant relative to wild type at the restrictive temperature of 25°C, but not at the permissive temperature of 18°C. In scd1-1 at 25°C, PIN1- and PIN2-GFP accumulated in endomembrane bodies. Transition of seedlings from 18 to 25°C for as little as 20 min resulted in the accumulation of PIN2-GFP in endomembranes, while gravitropism and root developmental defects were not detected until hours after transition to the non-permissive temperature. The endomembrane compartments that accumulated PIN2-GFP in scd1-1 exhibited FM4-64 signal colocalized with ARA7 and ARA6 fluorescent marker proteins, consistent with PIN2 accumulation in the late or multivesicular endosome. These experiments illustrate the power of using a temperature sensitive mutation in the gene encoding SCD1 to study the trafficking of PIN2 between the endosome and the plasma membrane. Using the conditional feature of this mutation, we show that altered trafficking of PIN2 precedes altered auxin transport and defects in gravitropism and lateral root development in this mutant upon transition to the restrictive temperature.",
+  "introduction": "Introduction\n\nThe process of auxin transport drives many aspects of plant development, including primary root elongation, lateral root development, and asymmetric growth in response to gravity and light gradients. Auxin (indole-3-acetic acid; IAA) is transported long distances in two polarities in two root cell layers. Cell to cell IAA transport is mediated by AUX/LAX influx carriers and by efflux carriers of the PIN and ABCB families. Directionality is controlled by asymmetric localization of PIN proteins at the plasma membrane. In Arabidopsis roots, PIN1 is localized to the stele and implicated in auxin transport toward the root apex, which is now called rootward transport and this auxin flow is required for lateral root development. In contrast, PIN2 is localized to the epidermal and cortical cell layers of roots and mediates shootward transport from the root apex, which is integral to root elongation and gravitropism. PIN3 is localized to the columella cells at the root tip, where the angle of the gravity vector is perceived, and in the vascular cylinder, consistent with functions in gravitropism and root development, respectively.\n\nThe polar distribution of the PIN proteins is dynamic. Targeting of PIN proteins to the membrane in response to stimuli may be an important mechanism to allow changes in auxin transport and dependent growth processes. PIN proteins travel through the endosome to the plasma membrane after de novo synthesis through a highly regulated process involving the RAB and ARF families of small G proteins. GNOM, a well-studied ARF-GEF and target of the drug Brefeldin A, is critical in targeting of PIN1 and PIN2 between the endosome and the plasma membrane. Although genetic approaches have identified pathways for targeting PIN proteins, non-conditional mutants with impaired auxin transport, such as gnom, have profound developmental phenotypes. This complicates determination of whether altered auxin transport causes developmental phenotypes or the converse.\n\nThis study used a conditional scd1-1 mutant to test whether auxin transport trafficking defects precede growth or developmental phenotypes. The SCD1 protein has a DENN domain, found exclusively in RAB-GEFs. SCD1 and an associated protein, SCD2, have been shown to complex with a RabE1 at the exocyst in Arabidopsis roots, where it plays a role in exocytosis and recycling of membrane proteins. Three scd1 mutant alleles have been described: scd1-1, scd1-2, and scd1-3. scd1-2 and scd1-3 are loss of function mutants with altered guard cell development, and profound root growth and developmental phenotypes. However, the temperature sensitive scd1-1 allele, displays these phenotypes only at the restrictive temperature of 25°C.\n\nThis study utilizes the unique features of a temperature sensitive scd1-1 mutant allele to demonstrate that the growth and developmental effects in Arabidopsis roots at the restrictive temperature are tied to altered auxin transport protein targeting. The developmental and auxin transport defects can be induced by transition to the restrictive temperature and reversed by return to the permissive temperature. We report the effects of these treatments on polar auxin transport and dependent physiological processes including lateral root development, gravity response, and root elongation. At the restrictive temperature, PIN2 fused to GFP accumulates in endomembrane vesicles in scd1-1, which is consistent with a role of SCD1 in controlling PIN endomembrane targeting. Auxin transport and endomembrane accumulation of a PIN2 reporter were examined both in scd1-1 grown continuously at the restrictive temperature or in seedlings transitioned briefly to this temperature. The endomembrane bodies in which the PIN2 fusion protein is localized also accumulate other proteins that are linked to the late multivesicular endosome and the endosome dye FM4-64 after an extended incubation. These results provide support for the hypothesis that SCD1 protein functions to regulate the movement of PIN2 to and from the plasma membrane and that these transient changes in localization occur more rapidly than changes in auxin transport and dependent developmental processes.",
+  "methods": "Materials and Methods\n\nGrowth of Mutant and Transgenic Seedlings\n\nSeeds were sterilized (75% ethanol, 0.01% Triton X-100) for 2 min, followed by a 95% ethanol rinse. The culture medium was 0.8% (w/v) agar (MP Biomedical), 1X MS nutrients (macro and micro salts: MSP01-50LT, Caisson Labs, Inc.), vitamins (1 μg/mL–1 thiamine, 1 μg/mL–1 pyridoxine HCL, and 0.5 μg/mL–1 nicotinic acid), 1.5% sucrose (w/v), and 0.05% MES (w/v); pH adjusted to 6.0 with 1M KOH. The seeds were placed in the dark at 4°C for 48 h before being moved to the permissive (18°C) or the restrictive (25°C) temperatures. The seedlings were grown vertically under continuous light at an intensity of 100 μmol m–2s–1 for 5 or 7 days at the specified temperature.\n\nThe Arabidopsis scd1-1 mutant was crossed with a number of fluorescent protein fusions all driven by their endogenous promoters: PIN2-GFP, PIN1-GFP, PIN3-GFP, MDR1(ABCB19)-GFP, AUX1-YFP, and the auxin responsive promoter driven GFP reporter, DR5-GFP. The F2 generation was screened for lines homozygous for mutant phenotype and for reporter GFP expression. scd1-1 containing PIN2-GFP was also crossed with reporters that localize to specific endomembrane compartments, with these organelle specific reporters listed in Supplementary Table S1.\n\nCharacterization of scd1-1 Root Length and Lateral Root Development\n\nSeedlings of similar size were placed on fresh agar plates on the 5th day after growth at 18 or 25°C. Lateral roots initiation events corresponding to stages VI and VII of primordia and emerged lateral roots (defined as any root that broke through the epidermis of the primary root) were quantified using a dissecting microscope.\n\nTo examine lateral root formation in seedlings that were moved between temperature conditions, Col(g) and scd1-1 seedlings were grown at 18 or 25°C continuously or transferred from 18 to 25°C at 2, 4, or 6 days. Parallel experiments were performed where seedlings were grown at 25°C continuously or transferred from 25 to 18°C at the indicated times. The number of lateral root initiation events and the number of emerged lateral roots were quantified by DIC microscopy using the Zeiss AxioObserver inverted microscope with a Plan Apochromatic 40x objective and the reported data is from 20 seedlings.\n\nIAA Transport Assays\n\nPulse-chase rootward (acropetal) IAA transport assays were performed using a previously published method in Col(g) seedlings at 9 and 6 days at 18 and 25° C, respectively. scd1-1 seedlings were assayed at 10 days for both 18°C and 25°C to more closely match the length of scd1-1 and Col(g). An agar droplet (1.25% agar w/v) containing 1 μM tritiated IAA was placed at the root shoot junction and incubated at 18 or 25°C for 10 min. The seedlings were transferred to a new agar plate and exposed to a “chase” droplet of unlabeled 1 μM IAA. After 50 min, 2 mm sections were excised beginning at the base of the droplet toward the root tip. Three to six segments were recovered from all plants, and each segment was counted separately, and IAA levels quantitated using a Beckman LS6500 liquid scintillation counter. The average and SE of 19–25 seedlings is reported in all transport assays.\n\nShootward IAA transport was measured by applying 500 nM tritiated IAA (3H-IAA) to root tips of 5 day seedlings grown at 18 or 25°C. For temperature switch experiments, seedlings were transferred to the appropriate temperature 4, 8, and 24 h before assay. Agar droplets containing 500 nM 3H-IAA were applied to the root tips, and seedlings were placed into the indicated temperatures under yellow filters to prevent auxin degradation. After 2 h, the droplets were removed from the root tip. A 5 mm segment was excised 2 mm from the site of 3H-IAA application, and radioactivity was measured.\n\nShootward IAA transport was also measured indirectly using the artificial DR5 promoter driving expression of green fluorescent protein (GFP). Droplets containing 1 μM unlabeled IAA in 1.25% agar were applied to the root tips of 5-day old seedlings grown at 18 or 25°C for the designated times. GFP fluorescence was visualized using a Zeiss 710 LSCM (Jena, Germany) using the argon laser with excitation at 488 nm. Images of root tips were captured using 80% laser power with 40x magnification, a pinhole of 2.64 airy units (AU), 560 gain and an emission spectrum of 493-656 nm. Images were exported to Adobe Photoshop, and the distance of GFP fluorescence in the epidermal layers was measured using the line tool.\n\nGravitropic Response Assays\n\nFive-day old Col(g) and scd1-1 seedlings grown at 18°C were placed in diffuse light at 20–22 μmol m–2 s–1 and re-oriented 90°. Images were captured for low temporal resolution analysis at time 0 and at 2 h intervals until 8 h after re-orientation, with a final image 24 h after re-orientation. Images were captured using an Epson Perfection 3200 Photo Perfection flatbed scanner (Nagano, Japan) with 16-bit grayscale and 800 dpi resolution. Images were exported to ImageJ to measure degree of curvature.\n\nThe gravitropic root response was also observed using high temporal resolution imaging using an AVT Marlin camera (Stadtroda, Germany). Root curvature after gravity stimulation was measured by a MATLAB based custom image analysis software and is the average and standard error of 12 seedlings of each genotype.\n\nAsymmetric Auxin Induced Gene Expression After Gravitropic Reorientation\n\nCol(g) and scd1-1 seedlings crossed with the proDR5-GFP construct were imaged after roots were reoriented 90° relative to the gravity vector. Seedlings were placed on agar plates on the 5th day after growth at 18 or 25°C. After 1 h, seedlings were placed in diffuse light at 20–22 μmol m–2s–1 and reoriented 90°. Images were captured at time 0 and at 2 h intervals until 8 h after re-orientation. Seedlings were stained with propidium iodide (PI) to visualize root structure and mounted in dH20 on slides. The root tips were visualized with the 40x objective of a Zeiss 710 LSCM using the argon laser at an excitation wavelength of 488nm and a pinhole of 1.0 AU. GFP emission was collected between 492 and 547 nm, while PI was collected at 567–735. All images were collected at identical gain and laser power and exported to Adobe Photoshop for analysis. Representative images of more than 5 roots at each time point and from each genotype were shown.\n\nLocalization of Auxin Transport Protein-Fluorescent Protein Fusions\n\nCol(g) and scd1-1 seedlings containing PIN2-GFP, PIN1-GFP, PIN3-GFP, ABCB19-GFP, and AUX1-YFP (protein fusions driven by endogenous promoters) were grown for 7 days at a constant 18 or 25°C. Seedlings were mounted in dH2O and maintained at the indicated temperatures using a Julabo F25 temperature stage (Seelbach, Germany). Images were captured using a 63x water objective with or without a 1.5x optical zoom on a Zeiss 710 LSCM, using the argon laser for excitation at 488 nm with a pinhole of 1.0AU. PIN2-GFP, PIN1-GFP, PIN3-GFP, and MDR1-GFP were imaged with an emission spectrum of 500–525 nm, while AUX1-YFP was imaged with an emission spectrum of 519–621 nm.\n\nFor temperature shift experiments, wild-type and scd1-1 were grown at 18°C for 7 days. Seedlings were transferred to microscope slides and then placed on the temperature-controlled stage at 25°C. Samples were imaged as described above at various times after transfer. For each reporter construct more than 5 roots were analyzed at each treatment, with representative images shown.\n\nPIN2-GFP and FM4-64 Analysis\n\nSeedlings grown at 25°C were incubated in 5 μM FM4-64 to visualize endosomes for either 5 or 20 min, as indicated. The roots were rinsed in dH2O and imaged at various times after staining. The GFP and FM4-64 signals were visualized using a multi-track setting, as described above. No FM4-64 fluorescence was detected in the GFP channel. The FM4-64 signal was imaged using 80% laser power, a pinhole of 1.0 AU, 510 gain, and an emission spectrum of 632–759 nm. No GFP signal was detected in the FM4-64 channel. Individual images for each fluorophore and an overlay are shown with magenta for FM4-64, green for PIN2-GFP, and white for any pixels with both FM4-64 and PIN2. The red signal in these images was converted to magenta in Photoshop, changing the hue saturation. To better identify spatial colocalization independent of intensity, a thresholding function was applied to individual channels in Photoshop or in the Zeiss Zen colocalization module. We then prepared a thresholded overlay in which pixels are indicated as magenta for FM4-64, green for PIN2-GFP, and white for any pixels with both FM4-64 and GFP. To examine the change in colocalization of PIN2-GFP and FM4-64 over time, the number of PIN2-GFP, FM4-64, or both, signals in each cell with a PIN2-GFP labeled endomembrane compartment was quantified, and the percentage was determined for 740 cells from 20 roots. In the temperature shift experiments, scd1-1 seedlings grown at 18°C for 7 days were transferred to 5 mM FM4-64 for 5 min, rinsed briefly, and then imaged at intervals of 2 min on a temperature-controlled stage at 25°C.\n\nColocalization of PIN2 and Endosomal Markers\n\nCol(g) and scd1-1 seedlings containing PIN2-GFP were crossed with fluorescently labeled endomembrane marker lines. These constructs and their localization patterns are summarized in Supplementary Table S1. The seedlings were grown for 7 days at 25°C. Seedling roots were visualized using the Zeiss 710 laser scanning confocal microscope. GFP and RFP signals were resolved in dual channel mode with excitation at 488 and 594 nm, and emission wavelengths of 493–582 and 599–754 nm, respectively. For all samples, we verified the absence of RFP signal in the GFP channel and vice versa, using single-labeled samples. For colocalization analysis, samples were examined using Zeiss Zen software. The threshold for RFP or GFP was determined within each image, using regions that had only signal from one fluorophore. We selected regions of interest (ROI) of consistent size, focusing on individual endomembrane compartments from at least 4 roots each of Ara6 and Ara7 reporters, measuring 21 and 17 endomembranes, respectively. Colocalization was quantified using both Pearson’s coefficients (weighted colocalization coefficients) and Manders’ overlap coefficients.\n\nLines containing both PIN2-GFP and other RFP reporters were examined in dual channel mode as described above. PIN2-GFP SYP61-CFP transgenics were imaged using spectral imaging and linear unmixing at an excitation wavelength of 458 nm and a 464–648 nm filter.",
+  "results": "Results\n\nRoot Elongation and Lateral Root Development Are Temperature-Sensitive in scd1-1\n\nIf scd1-1 has a defect in targeting of auxin transport proteins, then alterations in auxin transport-dependent root responses, including primary root elongation, gravitropism, and lateral root development, would be expected. Root growth and development of scd1-1 were compared to its parental line, Columbia glabrous-1 [(Col(g)], at 18°C and at 25°C. At 18°C, Col(g) and scd1-1 had similar primary root elongation rates and lateral root numbers (Figure 1). At 25°C scd1-1 primary roots were substantially shorter than Col(g) (Figure 1B), and the number of lateral roots were dramatically reduced (Figures 1B,C). We performed a two-way ANOVA to determine which of these differences were statistically significant across this time course. In both root elongation and lateral root development, scd1-1 was significantly impaired relative to Col(g) at both temperatures with p < 0.01 for all comparisons.\n\nThe temperature sensitive phenotype of the scd1-1 mutant allowed us to ask if shorter-term growth at 25°C could induce this lateral root phenotype and whether the impaired root development at this restrictive temperature could be rescued by transition back to the permissive temperature. Col(g) and scd1-1 seedlings were grown at constant 18°C, or constant 25°C, or grown at 18°C and then transferred to 25°C after 2, 4, or 6 days (Figures 1D,E). For all these treatments, the number of lateral roots was quantified on the 10th day after sowing, there was a significant difference in the number of lateral root initiation events between 18 and 25°C for both Col(g) and scd1-1. Growth at 25°C increased lateral root formation in Col(g) and decreased lateral root formation in scd1-1. When scd1-1 seedlings were grown at 18°C for 2 days before transfer to 25°C, significantly fewer lateral roots formed than in plants grown continuously at 18°C, while roots grown at 18°C for 4 or 6 days before transfer to 25°C formed an equivalent number of lateral roots to the continuous 18°C scd1-1 control (red box, Figure 1D), consistent with SCD1 function at 18°C allowing lateral root development.\n\nIn a parallel experiment, Col(g) and scd1-1 seedlings were grown at 25°C and transferred to 18°C after 2, 4, and 6 days (Figure 1E) to determine if the ability to form roots could be restored upon transition to the permissive temperature. There were significantly more lateral root primordia formed on scd1-1 seedlings switched from 25 to 18°C at days 2 and 4 than seedlings grown at a constant 25°C or transitioned after 6 days. These two experiments indicate that there is a developmental window between 2 and 6 days in which SCD1 function is required for lateral root formation.\n\nGravitropic Curvature Is Delayed in scd1-1\n\nWe examined the gravity response in wild type and scd1-1 seedling roots. Wild type and scd1-1 seedlings grown at 18 or 25°C for 5 days were rotated 90° (Figure 2). At 18°C, scd1-1 and wild type had identical gravitropic responses. However, at 25°C, Col(g) showed a more rapid response than at 18°C, with root curvature reaching 80° and 50° by 8 h at 25° and 18°C, respectively. In contrast, scd1-1 at 25°C showed a 50% reduction in the gravitropic response relative to Col(g), with root curvature reaching a mean angle of only 40°.\n\nTo eliminate developmental consequences of the scd1-1 phenotype at the restrictive temperature on gravity response, we asked whether the gravity response would be impaired in plants grown at 18°C for 5 days and transferred to 25°C for 4–12 h prior to reorientation. The gravitropic response in the scd1-1 mutant 12 h after transition to 25°C was slower than Col(g), impaired to levels equivalent to seedlings grown continuously at 25°C (Figure 2E). In contrast, scd1-1 seedlings transferred from 18 to 25°C for 4 h before reorientation did not show a decrease in gravitropic curvature as compared to Col(g), while 8 h at 25°C led to a significant, but not complete, inhibition of curvature (Figure 2F). The elongation of roots of Col(g) and scd1-1 seedlings grown at 18°C and then transferred to 25°C were also monitored (Supplementary Figure S1). A significant decrease in the growth rate of scd1-1 was observed beginning at 5 h after transfer to 25°C, consistent with the impaired symmetric and asymmetric elongation of scd1-1 roots at 25°C, but not 18°C.\n\nIt is possible that the gravity defect observed in scd1-1 was due to a change in physical structure of the gravity perception machinery, either the columella cells or their statoliths. When roots were grown at 18°C or switched from 18 to 25°C for 24 h, Col(g) and scd1-1 had similar numbers of statoliths per cell and number of columella cells, suggesting that the gravitropic defect in scd1-1 was not due to altered perception of the gravity vector (Supplementary Figure S2).\n\nIAA Transport Is Impaired in the scd1-1 Mutant at the Restrictive Temperature\n\nRootward IAA transport, which is required for lateral root emergence was measured using an IAA pulse chase assay. At 18°C, rootward transport was equivalent in Col(g) and scd1-1 (Figure 3A). At 25°C, the length of the zone of transported IAA was reduced (Figure 3B) and a significant reduction in the total rootward IAA transport (the sum of samples in Figures 3A,B) was evident in scd1-1 relative to wild-type (Figure 3C). When rootward IAA transport in Col(g) and scd1-1 grown at constant 18 or 25°C was compared to transport in plants grown at 18°C and transferred to 25°C for 6 h, reduced IAA transport was evident in scd1-1 plants grown at constant 25°C or at 18°C and transferred to 25°C for 6 h (Figure 3D).\n\nTo determine whether shootward IAA transport, which controls gravity response, was impaired in scd1-1, 3H-IAA was applied to the root tip of 5-day old wild type and scd1-1 seedlings grown at 18 or 25°C. After 2 h, shootward transport was measured. At 18°C, there was no significant difference between wild type and scd1-1 in the amount of IAA transported (Figure 3E). At 25°C, wild type roots had a twofold greater shootward auxin transport compared to those grown at 18°C, while scd1-1 showed equivalent levels of IAA transport at 18 and 25°C (Figure 3E). Thus unlike the wild type, scd1-1 does not display a temperature-dependent increase in auxin transport, and had significantly less transport than Col(g) at 25°C. scd1-1 seedlings were grown at 18°C for 5 days then transferred to 25°C, and the amount of shootward 3H-IAA transport was determined. Within 8 h of transfer there was a significant decrease in IAA transport compared to wild type, with a further decrease by 24 h (Figure 3F).\n\nWild type and scd1-1 seedlings expressing the auxin-responsive promoter driven reporter (DR5-GFP) were used to follow movement of an auxin-induced gene expression signal using a previously published method. Unlabeled IAA was applied to the root tips of wild type and scd1-1 seedlings, and the spread of GFP fluorescence in epidermal cells from the root tip toward the shoot was visualized (Figures 3G,H). Before application of IAA, epidermal fluorescence was limited to the root tip (Figure 3G). At 18°C, for up to 4 h after IAA application, a similar steady elongation of the zone of fluorescence along the root tip was observed in wild type and scd1-1 seedlings (Figure 3G). However, at 25°C, scd1-1 roots showed a significantly slower shootward progression of GFP signal than wild type, and even accumulated a bolus of fluorescence near the root tip, consistent with the ability to take up IAA, but not to transport IAA away from the root tip (Figure 3H). These results are consistent with impaired IAA transport from the root tip at the restrictive temperature leading to reduced growth and gravitropic curvature.\n\nGravity-Directed Asymmetric pDR5-GFP Expression Is Altered in scd1-1\n\nWild type and scd1-1 seedlings containing a reporter of auxin-induced gene expression in which the auxin-responsive DR5 artificial promoter drives GFP synthesis (DR5-GFP) were used to determine whether the altered gravitropic response of scd1-1 was accompanied by a temperature-sensitive defect in the lateral redistribution of auxin at the root tip. Seedlings were grown at 18°C for 5 days then were reoriented 90°, and then imaged at 2 h intervals after staining with propidium iodide (PI) to reveal the boundaries of cells. GFP fluorescence was captured in optical slices through the center of the root with settings optimized to visualize the signal in the epidermis on the lower side of the root. At 18°C roots of both genotypes showed asymmetric auxin-induced GFP fluorescence signal with the GFP signal moving a greater distance from the tip back on the lower side of roots beginning 4 h after reorientation (Figure 4). At 25°C, the wild type seedlings showed this same asymmetric GFP fluorescence, also beginning at 4 h post-reorientation. However, in scd1-1 at 25°C, weak asymmetric DR5-GFP fluorescence was not detected until 6 h post-re-orientation and was substantially less than scd1-1 at 18°C and wild type at either temperature. These data are consistent with reduced asymmetric auxin transport from the root tip affecting the shootward progression of auxin in scd1-1 roots reoriented relative to the gravity vector at 25°C, consistent with a role of SCD1 protein in auxin transport-dependent processes.\n\nscd1-1 Shows Altered Localization of PIN Proteins\n\nThe effects of the scd1-1 mutation on root development, gravitropism, and IAA transport suggests altered targeting of auxin transport proteins. To test this hypothesis, the distribution of PIN2pro::PIN2-GFP (PIN2-GFP) fusion protein was examined in wild type and scd1-1 seedlings (Figure 5). Wild type seedlings grown at 18 and 25°C, and scd1-1 seedlings grown at 18°C displayed a typical asymmetric plasma membrane localization of PIN2-GFP at the shootward face of the plasma membrane of root epidermal cells. The scd1-1 seedlings grown at 25°C showed a reduced region of plasma membrane-localized PIN2-GFP fluorescence, with expression limited to epidermal cells near the root tip, disappearing at the start of the maturation zone (Figure 5A). scd1-1 seedlings grown at 25°C also revealed PIN2-GFP signal in endomembrane bodies, aberrant vesicular compartments in epidermal and cortical cells, similar to those reported previously in response to treatment with chemical that blocks targeting. The PIN2-GFP endomembrane accumulation was most profound and consistent in the cortical cells in the transition zone (Figure 5B).\n\nTo determine the time course of the appearance of the PIN2-GFP containing endomembrane bodies in the root epidermis, scd1-1 seedlings were grown at 18°C, shifted to 25°C, and observed continuously for 35 min on a temperature-controlled stage at 25°C. In scd1-1, the PIN2-GFP signal was detected in endomembrane bodies 10–15 min after temperature shift, with an increase in frequency continuing over the next 10–15 min (Figure 5C). In Col(g), PIN2-GFP was rarely detected in endomembrane bodies, although a few are evident at 20 min after transition to 25°C.\n\nPIN1 localizes to the rootward surface of cells in the root vascular cylinder. The PIN1pro::PIN1-GFP(PIN1-GFP) was also found in endomembrane bodies in scd1-1 mutants at 25°C, but not in wild type (Figure 6). However, at 25°C, PIN3pro::PIN3-GFP (PIN3-GFP) was not detected in endomembrane bodies. The localization of ABCB19 and AUX1 fused to fluorescent proteins was not altered in scd1-1 (Figure 6). These data suggest that without fully functional SCD1 protein, the membrane targeting of PIN1 and PIN2 auxin transport proteins is disrupted.\n\nscd1-1 PIN2-GFP Endomembrane Bodies Co-localize With FM4-64\n\nWe used the endocytic tracer FM4-64 to determine whether the PIN2-containing endomembrane bodies in scd1-1 at 25°C were endosomes. Root tips of PIN2-GFP scd1-1 were incubated in FM4-64 for 20 min and co-localization of the fluorescent signals was quantified over time. Images captured at 60 min after treatment with FM4-64 contain endomembranes that exhibit FM4-64 fluorescence (magenta) or PIN2-GFP fluorescence (green), with the majority of endomembrane bodies containing both fluorescent signals (Figure 7A). These images contrast with scd1-1 roots treated with FM4-64 for 20 min, where the endomembrane bodies had either PIN2-GFP fluorescence or FM4-64 signal (Supplementary Figure S3) and with Col(g) root where no PIN2-GFP was visible in endomembranes, and there was no colocalization of FM4-64 and PIN2-GFP signal (Supplementary Figure S4). A threshold function was applied to individual channels to quantify co-localization independent of intensity in more than 30 cells from multiple roots at each time point. The thresholded overlay in which pixels were indicated as magenta for FM4-64, green for PIN2-GFP, and white for overlay of FM4-64 and GFP is shown in Figure 7A and Supplementary Figure S3. The percentage of the endomembrane bodies that showed overlapping signals increased steadily over the 60 min time course (Figure 7B), consistent with GFP accumulating in the late endosomes in scd1-1.\n\nTo provide details of the kinetics of this response, the accumulation of FM4-64 and PIN2-GFP was observed over time in root tips of scd1-1 seedlings grown at 18°C for 7 days and placed in FM4-64 for 5 min before transition to 25°C. The formation of PIN2-GFP-positive endomembrane bodies was observed within 15 min after transfer to the non-permissive temperature and remained at relatively constant levels over a 30 min window (Figure 7C). The frequency and brightness of FM4-64 stained endomembranes increases as the dye moves from early to late endosomes. At 15 min some colocalization of FM4-64 and PIN2-GFP was observed, which increased over time with almost complete overlapping endomembrane signals by 20 min. The non-overlapping signals for PIN2-GFP and FM4-64 at early time points and increased colocalization at later time points is consistent with PIN2-GFP accumulation in late endosomes.\n\nscd1-1 PIN2-GFP Endomembrane Bodies Co-localize With ARA7 and ARA6\n\nTo identify the specific endomembrane compartment in which PIN2-GFP accumulated in scd1-1 mutants grown at 25°C, these lines were crossed with plants expressing red or cyan fluorescent protein fusion markers for five distinct endomembrane compartments (Supplementary Table S1). ARA6 and ARA7 are RAB5 GTPase homologs, found in recycling endosomes (ARA6) or in late endosomes, prevacuolar compartments and the trans Golgi network (ARA7). When scd1-1 seedlings expressing PIN2-GFP (green) and RFP-ARA7 (magenta) were grown at 25°C, endomembrane bodies were observed that have only PIN2-GFP signal (green) or RFP-ARA7 (magenta) signal, while a subset contain both signals (white) (Figure 8). Higher magnification images of this localization are shown in Figure 9. To determine if PIN2-GFP in endomembrane bodies colocalized with both of these markers in scd1-1 mutants we performed a quantitative colocalization analysis examining signal in multiple PIN2-GFP positive endomembranes. The weighted Manders coefficients for the colocalization of PIN2-GFP were 0.94 and 0.91 with ARA7 and ARA6, respectively, and Pearson’s overlap coefficients were 0.82 and 0.83, respectively (Supplementary Table S2). The presence of both RFP-ARA7 or ARA6-RFP and PIN2-GFP in a subset of these vesicles is consistent with other cargo proteins that move through a subset of the ARA7-positive endosomes interacting with distinct sets of RAB5 proteins.\n\nWe found little or no overlap in the endomembrane localization of PIN2-GFP fluorescence in lines containing reporters localized in either the early endosome (VHA1-RFP) TGN (SYP61-CFP), or the sorting endosome (SNX1-RFP) (; Supplementary Figure S5). These results are consistent with PIN2-GFP in scd1-1 accumulating in late multivesicular endosomes and not in other compartments.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "SCD1",
+    "gravitropism",
+    "lateral root",
+    "auxin transport",
+    "PIN2",
+    "Arabidopsis thaliana",
+    "Plant Science",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Intracellular trafficking and proteolysis of the Arabidopsis auxin-efflux facilitator PIN2 are involved in root gravitropism.",
+      "authors": [
+        "L. Abas",
+        "R. Benjamins",
+        "N. Malenica",
+        "T. Paciorek",
+        "J. Wisniewska",
+        "J. C. Moulinier-Anzola"
+      ]
+    },
+    {
+      "title": "PIN-Dependent auxin transport: action, regulation, and evolution.",
+      "authors": [
+        "M. Adamowski",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Dynamic control of auxin transport-dependent growth by AGCVIII protein kinases.",
+      "authors": [
+        "I. C. Barbosa",
+        "C. Schwechheimer"
+      ]
+    },
+    {
+      "title": "Spatio-temporal cellular dynamics of the Arabidopsis flagellin receptor reveal activation status-dependent endosomal sorting.",
+      "authors": [
+        "M. Beck",
+        "J. Zhou",
+        "C. Faulkner",
+        "D. MacLean",
+        "S. Robatzek"
+      ]
+    },
+    {
+      "title": "Shoot-derived auxin is essential for early lateral root emergence in Arabidopsis seedlings.",
+      "authors": [
+        "R. P. Bhalerao",
+        "J. Eklöf",
+        "K. Ljung",
+        "A. Marchant",
+        "M. Bennett",
+        "G. Sandberg"
+      ]
+    },
+    {
+      "title": "FM-dyes as experimental probes for dissecting vesicle trafficking in living plant cells.",
+      "authors": [
+        "S. Bolte",
+        "C. Talbot",
+        "Y. Boutte",
+        "O. Catrice",
+        "N. D. Read",
+        "B. Satiat-Jeunemaitre"
+      ]
+    },
+    {
+      "title": "Complex physiological and molecular processes underlying root gravitropism.",
+      "authors": [
+        "R. Chen",
+        "C. Guan",
+        "K. Boonsirichai",
+        "P. H. Masson"
+      ]
+    },
+    {
+      "title": "Structure and function of endosomes in plant cells.",
+      "authors": [
+        "A. L. Contento",
+        "D. C. Bassham"
+      ]
+    },
+    {
+      "title": "Activation of the Rab7 GTPase by the MON1-CCZ1 complex is essential for PVC-to-vacuole trafficking and plant growth in Arabidopsis.",
+      "authors": [
+        "Y. Cui",
+        "Q. Zhao",
+        "C. Gao",
+        "Y. Ding",
+        "Y. Zeng",
+        "T. Ueda"
+      ]
+    },
+    {
+      "title": "Clusters of bioactive compounds target dynamic endomembrane networks in vivo.",
+      "authors": [
+        "G. Drakakaki",
+        "S. Robert",
+        "A. M. Szatmari",
+        "M. Q. Brown",
+        "S. Nagawa",
+        "D. Van Damme"
+      ]
+    },
+    {
+      "title": "A practical guide to evaluating colocalization in biological microscopy.",
+      "authors": [
+        "K. W. Dunn",
+        "M. M. Kamocka",
+        "J. H. McDonald"
+      ]
+    },
+    {
+      "title": "A membrane trafficking pathway regulated by the plant-specific RAB GTPase ARA6.",
+      "authors": [
+        "K. Ebine",
+        "M. Fujimoto",
+        "Y. Okatani",
+        "T. Nishiyama",
+        "T. Goh",
+        "E. Ito"
+      ]
+    },
+    {
+      "title": "Endosomal trafficking pathway regulated by ARA6, a RAB5 GTPase unique to plants.",
+      "authors": [
+        "K. Ebine",
+        "N. Miyakawa",
+        "M. Fujimoto",
+        "T. Uemura",
+        "A. Nakano",
+        "T. Ueda"
+      ]
+    },
+    {
+      "title": "SCD1 is required for cytokinesis and polarized cell expansion in Arabidopsis thaliana [corrected].",
+      "authors": [
+        "T. G. Falbel",
+        "L. M. Koch",
+        "J. A. Nadeau",
+        "J. M. Segui-Simarro",
+        "F. D. Sack",
+        "S. Y. Bednarek"
+      ]
+    },
+    {
+      "title": "Colocalization of fluorescent markers in confocal microscope images of plant cells.",
+      "authors": [
+        "A. P. French",
+        "S. Mills",
+        "R. Swarup",
+        "M. J. Bennett",
+        "T. P. Pridmore"
+      ]
+    },
+    {
+      "title": "Lateral relocation of auxin efflux regulator PIN3 mediates tropism in Arabidopsis",
+      "authors": [
+        "J. Friml",
+        "J. Wiśniewska",
+        "E. Benková",
+        "K. Mendgen",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "Regulation of polar auxin transport by AtPIN1 in Arabidopsis vascular tissue.",
+      "authors": [
+        "L. Galweiler",
+        "C. Guan",
+        "A. Muller",
+        "E. Wisman",
+        "K. Mendgen",
+        "A. Yephremov"
+      ]
+    },
+    {
+      "title": "Auxin transport during root gravitropism: transporters and techniques.",
+      "authors": [
+        "M. Geisler",
+        "B. Wang",
+        "J. Zhu"
+      ]
+    },
+    {
+      "title": "Cell polarity in plants: a PARspective on PINs.",
+      "authors": [
+        "N. Geldner"
+      ]
+    },
+    {
+      "title": "The Arabidopsis GNOM ARF-GEF mediates endosomal recycling, auxin transport, and auxin-dependent plant growth.",
+      "authors": [
+        "N. Geldner",
+        "N. Anders",
+        "H. Wolters",
+        "J. Keicher",
+        "W. Kornberger",
+        "P. Muller"
+      ]
+    },
+    {
+      "title": "Auxin transport inhibitors block PIN1 cycling and vesicle trafficking.",
+      "authors": [
+        "N. Geldner",
+        "J. Friml",
+        "Y. D. Stierhof",
+        "G. Jurgens",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "Endosomal signaling of plant steroid receptor kinase BRI1.",
+      "authors": [
+        "N. Geldner",
+        "D. L. Hyman",
+        "X. Wang",
+        "K. Schumacher",
+        "J. Chory"
+      ]
+    },
+    {
+      "title": "Partial loss-of-function alleles reveal a role for GNOM in auxin transport-related, post-embryonic development of Arabidopsis.",
+      "authors": [
+        "N. Geldner",
+        "S. Richter",
+        "A. Vieten",
+        "S. Marquardt",
+        "R. A. Torres-Ruiz",
+        "U. Mayer"
+      ]
+    },
+    {
+      "title": "The march of the PINs: developmental plasticity by dynamic polar targeting in plant cells.",
+      "authors": [
+        "W. Grunewald",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "The Arabidopsis AAA ATPase SKD1 is involved in multivesicular endosome function and interacts with its positive regulator LYST-INTERACTING PROTEIN5.",
+      "authors": [
+        "T. J. Haas",
+        "M. K. Sliwinski",
+        "D. E. Martinez",
+        "M. Preuss",
+        "K. Ebine",
+        "T. Ueda"
+      ]
+    },
+    {
+      "title": "ARL2, ARG1 and PIN3 define a gravity signal transduction pathway in root statocytes.",
+      "authors": [
+        "B. R. Harrison",
+        "P. H. Masson"
+      ]
+    },
+    {
+      "title": "Patterns of auxin transport and gene expression during primordium development revealed by live imaging of the Arabidopsis inflorescence meristem.",
+      "authors": [
+        "M. G. Heisler",
+        "C. Ohno",
+        "P. Das",
+        "P. Sieber",
+        "G. V. Reddy",
+        "J. A. Long"
+      ]
+    },
+    {
+      "title": "Integration of two RAB5 groups during endosomal transport in plants.",
+      "authors": [
+        "E. Ito",
+        "K. Ebine",
+        "S. W. Choi",
+        "S. Ichinose",
+        "T. Uemura",
+        "A. Nakano"
+      ]
+    },
+    {
+      "title": "Evidence for a sorting endosome in Arabidopsis root cells.",
+      "authors": [
+        "Y. Jaillais",
+        "I. Fobis-Loisy",
+        "C. Miege",
+        "T. Gaude"
+      ]
+    },
+    {
+      "title": "AtSNX1 defines an endosome for auxin-carrier trafficking in Arabidopsis.",
+      "authors": [
+        "Y. Jaillais",
+        "I. Fobis-Loisy",
+        "C. Miege",
+        "C. Rollin",
+        "T. Gaude"
+      ]
+    },
+    {
+      "title": "PIN2 turnover in Arabidopsis root epidermal cells explored by the photoconvertible protein Dendra2.",
+      "authors": [
+        "J. Jasik",
+        "B. Boggetti",
+        "F. Baluska",
+        "D. Volkmann",
+        "T. Gensch",
+        "T. Rutten"
+      ]
+    },
+    {
+      "title": "Effects of auxins on PIN-FORMED2(PIN2) dynamics are not mediated by inhibiting PIN2 endocytosis.",
+      "authors": [
+        "J. Jasik",
+        "B. Bokor",
+        "S. Stuchlik",
+        "K. Micieta",
+        "J. Turna",
+        "E. Schmelzer"
+      ]
+    },
+    {
+      "title": "ARA7(Q69L) expression in transgenic Arabidopsis cells induces the formation of enlarged multivesicular bodies.",
+      "authors": [
+        "T. Jia",
+        "C. Gao",
+        "Y. Cui",
+        "J. Wang",
+        "Y. Ding",
+        "Y. Cai"
+      ]
+    },
+    {
+      "title": "ARF GEF-dependent transcytosis and polar delivery of PIN auxin carriers in Arabidopsis.",
+      "authors": [
+        "J. Kleine-Vehn",
+        "P. Dhonukshe",
+        "M. Sauer",
+        "P. B. Brewer",
+        "J. Wisniewska",
+        "T. Paciorek"
+      ]
+    },
+    {
+      "title": "Differential degradation of PIN2 auxin efflux carrier by retromer-dependent vacuolar targeting.",
+      "authors": [
+        "J. Kleine-Vehn",
+        "J. Leitner",
+        "M. Zwiewka",
+        "M. Sauer",
+        "L. Abas",
+        "C. Luschnig"
+      ]
+    },
+    {
+      "title": "Subcellular trafficking of the Arabidopsis auxin influx carrier AUX1 uses a novel pathway distinct from PIN1.",
+      "authors": [
+        "J. Kleine-Vehn",
+        "P. Dhonukshe",
+        "R. Swarup",
+        "M. Bennett",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Root system architecture from coupling cell shape to auxin transport.",
+      "authors": [
+        "M. Laskowski",
+        "V. A. Grieneisen",
+        "H. Hofhuis",
+        "C. A. Hove",
+        "P. Hogeweg",
+        "A. F. Maree"
+      ]
+    },
+    {
+      "title": "Lateral root development in Arabidopsis: fifty shades of auxin.",
+      "authors": [
+        "J. Lavenus",
+        "T. Goh",
+        "I. Roberts",
+        "S. Guyomarc’h",
+        "M. Lucas",
+        "I. De Smet"
+      ]
+    },
+    {
+      "title": "The Arabidopsis rab5 homologs rha1 and ara7 localize to the prevacuolar compartment.",
+      "authors": [
+        "G. J. Lee",
+        "E. J. Sohn",
+        "M. H. Lee",
+        "I. Hwang"
+      ]
+    },
+    {
+      "title": "Separating the roles of acropetal and basipetal auxin transport on gravitropism with mutations in two Arabidopsis multidrug resistance-like ABC transporter genes.",
+      "authors": [
+        "D. R. Lewis",
+        "N. D. Miller",
+        "B. L. Splitt",
+        "G. Wu",
+        "E. P. Spalding"
+      ]
+    },
+    {
+      "title": "Measurement of auxin transport in Arabidopsis thaliana.",
+      "authors": [
+        "D. R. Lewis",
+        "G. K. Muday"
+      ]
+    },
+    {
+      "title": "Ethylene inhibits lateral root development, increases IAA transport and expression of PIN3 and PIN7 auxin efflux carriers.",
+      "authors": [
+        "D. R. Lewis",
+        "S. Negi",
+        "P. Sukumar",
+        "G. K. Muday"
+      ]
+    },
+    {
+      "title": "Different endomembrane trafficking pathways establish apical and basal polarities.",
+      "authors": [
+        "R. Li",
+        "C. Rodriguez-Furlan",
+        "J. Wang",
+        "W. van de Ven",
+        "T. Gao",
+        "N. V. Raikhel"
+      ]
+    },
+    {
+      "title": "Organization and cell differentiation in lateral roots of Arabidopsis thaliana.",
+      "authors": [
+        "J. E. Malamy",
+        "P. N. Benfey"
+      ]
+    },
+    {
+      "title": "Measurement of coloclaization of objects in dual-color confocal images.",
+      "authors": [
+        "E. Manders",
+        "F. Verbeek",
+        "J. Aten"
+      ]
+    },
+    {
+      "title": "DENN domain proteins: regulators of Rab GTPases.",
+      "authors": [
+        "A. L. Marat",
+        "H. Dokainish",
+        "P. S. McPherson"
+      ]
+    },
+    {
+      "title": "SCD1 and SCD2 form a complex that functions with the exocyst and RabE1 in exocytosis and cytokinesis.",
+      "authors": [
+        "J. R. Mayers",
+        "T. Hu",
+        "C. Wang",
+        "J. J. Cardenas",
+        "Y. Tan",
+        "J. Pan"
+      ]
+    },
+    {
+      "title": "Mediation of clathrin-dependent trafficking during cytokinesis and cell expansion by Arabidopsis stomatal cytokinesis defective proteins.",
+      "authors": [
+        "C. M. McMichael",
+        "G. D. Reynolds",
+        "L. M. Koch",
+        "C. Wang",
+        "N. Jiang",
+        "J. Nadeau"
+      ]
+    },
+    {
+      "title": "Polar auxin transport: controlling where and how much.",
+      "authors": [
+        "G. K. Muday",
+        "A. DeLong"
+      ]
+    },
+    {
+      "title": "Auxin transport and the integration of gravitropic growth",
+      "authors": [
+        "G. K. Muday",
+        "A. Rahman",
+        "S. Gilroy",
+        "P. H. Masson"
+      ]
+    },
+    {
+      "title": "AtPIN2 defines a locus of Arabidopsis for root gravitropism control.",
+      "authors": [
+        "A. Muller",
+        "C. Guan",
+        "L. Galweiler",
+        "P. Tanzler",
+        "P. Huijser",
+        "A. Marchant"
+      ]
+    },
+    {
+      "title": "Gravity-regulated differential auxin transport from columella to lateral root cap cells.",
+      "authors": [
+        "I. Ottenschläger",
+        "P. Wolff",
+        "C. Wolverton",
+        "R. P. Bhalerao",
+        "G. Sandberg",
+        "H. Ishikawa"
+      ]
+    },
+    {
+      "title": "Auxin inhibits endocytosis and promotes its own efflux from cells.",
+      "authors": [
+        "T. Paciorek",
+        "E. Zazimalova",
+        "N. Ruthardt",
+        "J. Petrasek",
+        "Y. D. Stierhof",
+        "J. Kleine-Vehn"
+      ]
+    },
+    {
+      "title": "Endocytosis and endosomal trafficking in plants.",
+      "authors": [
+        "J. Paez Valencia",
+        "K. Goodman",
+        "M. S. Otegui"
+      ]
+    },
+    {
+      "title": "Rab35 and its GAP EPI64C in T cells regulate receptor recycling and immunological synapse formation.",
+      "authors": [
+        "G. Patino-Lopez",
+        "X. Dong",
+        "K. Ben-Aissa",
+        "K. M. Bernot",
+        "T. Itoh",
+        "M. Fukuda"
+      ]
+    },
+    {
+      "title": "Intracellular trafficking and PIN-mediated cell polarity during tropic responses in plants.",
+      "authors": [
+        "H. Rakusova",
+        "M. Fendrych",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Basipetal auxin transport is required for gravitropism in roots of Arabidopsis.",
+      "authors": [
+        "A. M. Rashotte",
+        "S. R. Brady",
+        "R. C. Reed",
+        "S. J. Ante",
+        "G. K. Muday"
+      ]
+    },
+    {
+      "title": "Inhibition of auxin movement from the shoot into the root inhibits lateral root development in Arabidopsis.",
+      "authors": [
+        "R. C. Reed",
+        "S. R. Brady",
+        "G. K. Muday"
+      ]
+    },
+    {
+      "title": "Endosidin1 defines a compartment involved in endocytosis of the brassinosteroid receptor BRI1 and the auxin transporters PIN2 and AUX1.",
+      "authors": [
+        "S. Robert",
+        "S. N. Chary",
+        "G. Drakakaki",
+        "S. Li",
+        "Z. Yang",
+        "N. V. Raikhel"
+      ]
+    },
+    {
+      "title": "Regulation of endocytic recycling by C. elegans Rab35 and its regulator RME-4, a coated-pit protein.",
+      "authors": [
+        "M. Sato",
+        "K. Sato",
+        "W. Liou",
+        "S. Pant",
+        "A. Harada",
+        "B. D. Grant"
+      ]
+    },
+    {
+      "title": "The ESCRT-related CHMP1A and B proteins mediate multivesicular body sorting of auxin carriers in Arabidopsis and are required for plant development.",
+      "authors": [
+        "C. Spitzer",
+        "F. C. Reyes",
+        "R. Buono",
+        "M. K. Sliwinski",
+        "T. J. Haas",
+        "M. S. Otegui"
+      ]
+    },
+    {
+      "title": "Preventing photochemistry in culture media by long-pass light filters alters growth of cultured tissues.",
+      "authors": [
+        "T. C. Stasinopoulos",
+        "R. P. Hangarter"
+      ]
+    },
+    {
+      "title": "The auxin influx carrier LAX3 promotes lateral root emergence.",
+      "authors": [
+        "K. Swarup",
+        "E. Benkova",
+        "R. Swarup",
+        "I. Casimiro",
+        "B. Peret",
+        "Y. Yang"
+      ]
+    },
+    {
+      "title": "ABCB19/PGP19 stabilises PIN1 in membrane microdomains in Arabidopsis.",
+      "authors": [
+        "B. Titapiwatanakun",
+        "J. J. Blakeslee",
+        "A. Bandyopadhyay",
+        "H. Yang",
+        "J. Mravec",
+        "M. Sauer"
+      ]
+    },
+    {
+      "title": "Functional differentiation of endosomes in Arabidopsis cells.",
+      "authors": [
+        "T. Ueda",
+        "T. Uemura",
+        "M. H. Sato",
+        "A. Nakano"
+      ]
+    },
+    {
+      "title": "Molecular and cellular aspects of auxin-transport-mediated development.",
+      "authors": [
+        "A. Vieten",
+        "M. Sauer",
+        "P. B. Brewer",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Endocytic and secretory traffic in Arabidopsis merge in the trans-Golgi network/early endosome, an independent and highly dynamic organelle.",
+      "authors": [
+        "C. Viotti",
+        "J. Bubeck",
+        "Y. D. Stierhof",
+        "M. Krebs",
+        "M. Langhans",
+        "W. van den Berg"
+      ]
+    },
+    {
+      "title": "Dynamic PIN-FORMED auxin efflux carrier phosphorylation at the plasma membrane controls auxin efflux-dependent growth.",
+      "authors": [
+        "B. Weller",
+        "M. Zourelidou",
+        "L. Frank",
+        "I. C. Barbosa",
+        "A. Fastner",
+        "S. Richter"
+      ]
+    },
+    {
+      "title": "Polar PIN localization directs auxin flow in plants.",
+      "authors": [
+        "J. Wisniewska",
+        "J. Xu",
+        "D. Seifertova",
+        "P. B. Brewer",
+        "K. Ruzicka",
+        "I. Blilou"
+      ]
+    },
+    {
+      "title": "Mutations in Arabidopsis multidrug resistance-like ABC transporters separate the roles of acropetal and basipetal auxin transport in lateral root development.",
+      "authors": [
+        "G. Wu",
+        "D. R. Lewis",
+        "E. P. Spalding"
+      ]
+    },
+    {
+      "title": "Dissection of Arabidopsis ADP-RIBOSYLATION FACTOR 1 function in epidermal cell polarity.",
+      "authors": [
+        "J. Xu",
+        "B. Scheres"
+      ]
+    },
+    {
+      "title": "Family-wide characterization of the DENN domain Rab GDP-GTP exchange factors.",
+      "authors": [
+        "S. Yoshimura",
+        "A. Gerondopoulos",
+        "A. Linford",
+        "D. J. Rigden",
+        "F. A. Barr"
+      ]
+    },
+    {
+      "title": "Auxin transporters - why so many?",
+      "authors": [
+        "E. Zazimalova",
+        "A. S. Murphy",
+        "H. B. Yang",
+        "K. Hoyerova",
+        "P. Hosek"
+      ]
+    }
+  ],
+  "original_title": "A conditional mutation in SCD1 reveals linkage between PIN protein trafficking, auxin transport, gravitropism, and lateral root initiation.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/5df0be98afb0/fpls-11-00910-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/3eedeeeea14a/fpls-11-00910-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/af12e61458d7/fpls-11-00910-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/2112882be2f8/fpls-11-00910-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/a44e11763341/fpls-11-00910-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/a6c963095265/fpls-11-00910-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/e63a5fd1f54c/fpls-11-00910-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/1622d0d7d791/fpls-11-00910-g008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8af7/7358545/92be0e671f2f/fpls-11-00910-g009.jpg"
+  ]
+}

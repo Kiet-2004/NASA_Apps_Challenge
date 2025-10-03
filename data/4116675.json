@@ -1,0 +1,401 @@
+{
+  "pmcid": "4116675",
+  "title": "Overexpression of CupB5 activates alginate overproduction in Pseudomonas aeruginosa by a novel AlgW-dependent mechanism",
+  "abstract": "Summary\n\nIn P. aeruginosa, alginate overproduction, also known as mucoidy, is negatively regulated by the transmembrane protein MucA, which sequesters the alternative sigma factor AlgU. MucA is degraded via a proteolysis pathway that frees AlgU from sequestration, activating alginate biosynthesis. Initiation of this pathway normally requires two signals: peptide sequences in unassembled outer-membrane proteins (OMPs) activate the AlgW protease, and unassembled lipopolysaccharides bind periplasmic MucB, releasing MucA and facilitating its proteolysis by activated AlgW. To search for novel alginate regulators, we screened a transposon library in the non-mucoid reference strain PAO1, and identified a mutant that confers mucoidy through overexpression of a protein encoded by the chaperone-usher pathway gene cupB5. CupB5-dependent mucoidy occurs through the AlgU pathway and can be reversed by overexpression of MucA or MucB. In the presence of activating OMP peptides, peptides corresponding to a region of CupB5 needed for mucoidy further stimulated AlgW cleavage of MucA in vitro. Moreover, the CupB5 peptide allowed OMP-activated AlgW cleavage of MucA in the presence of the MucB inhibitor. These results support a novel mechanism for conversion to mucoidy in which the proteolytic activity of AlgW and its ability to compete with MucB for MucA is mediated by independent peptide signals.",
+  "introduction": "Introduction\n\nPseudomonas aeruginosa is an important opportunistic human pathogen, capable of thriving in different environmental niches. Activation of the AlgU-regulated extracytoplasmic stress response results in the production of copious amounts of an exopolysaccharide called alginate, forming a capsule that protects the bacterium from the host-immune system. Alginate production by P. aeruginosa is a particular problem for patients with cystic fibrosis, whose dehydrated mucus-filled lungs provide an environment especially suited for bacterial infection. Nonmucoid strains initially colonize the lungs, and alginate overproduction caused by mutations in mucA results in a mucoid phenotype and a chronic lung infection. Among many roles in pathogenesis, alginate can promote adherence to lung epithelial cells, reduce the efficiency of phagocytosis, and protect bacteria from antibiotics.\n\nThe extracytoplasmic stress-response pathways in P. aeruginosa, Escherichia coli, and other Gram-negative bacteria involve regulated intramembrane proteolysis and share common features. For example, outer-membrane and periplasmic stress initiates a proteolytic cascade that ultimately degrades a transmembrane anti-sigma factor and releases the sigma factor to up-regulate stress-response genes. In P. aeruginosa, proteolysis of wild type MucA, the anti-sigma factor, releases the AlgU sigma factor, which enhances transcription of the genes responsible for alginate biosynthesis from the algD promoter.\n\nIn P. aeruginosa, degradation of MucA is normally initiated by cleavage by the AlgW protease at site 1 near the periplasmic face of the inner membrane, continues with cleavage by the MucP protease at site 2 near the cytoplasmic face of the membrane, and is completed in the cytoplasm by AAA+ proteases such as ClpXP. Two signals are required to initiate this proteolytic cascade. The C-terminal peptides of proteins that accumulate in the periplasm during stress, including outer-membrane proteins (OMPs), bind to the PDZ domains of the trimeric AlgW protease and allosterically activate site-1 cleavage of MucA, but MucB competes for MucA binding and can inhibit this cleavage. Recent studies show that lipopolysaccharides (LPS), a key component of the outer membrane, can bind MucB and cause release of MucA.\n\nHere, we identify CupB5 as a novel activator of the alginate-production pathway. CupB5, an adhesive protein, is a member of one of the chaperone/usher pathways (CupA-E) that mediate assembly of pili and play roles in bacterial pathogenesis, adhesion, and biofilm formation. These secretion systems, which are best characterized in Gram-negative bacteria, contain a periplasmic chaperone that maintains proteins to be secreted in an unassembled state and an usher that transports these proteins through the outer membrane. We find that overexpression of CupB5 in the absence of its chaperone induces a mucoid phenotype in P. aeruginosa and provide evidence that a peptide signal in CupB5 enhances OMP-activated cleavage of MucA by AlgW, even in the presence of MucB, allowing initiation of AlgU signaling.",
+  "methods": "Experimental procedures\n\nBacteria strains, plasmids, and growth conditions\n\nBacteria strains and plasmids used in this study are shown in Table S2. Escherichia coli strains were grown at 37°C in Lennox broth (LB) or LB agar. P. aeruginosa strains were grown at 37°C in LB, Pseudomonas isolation broth (PIB, Alpha Bioscience) or on Pseudomonas isolation agar (PIA) plates (Difco). When required, the concentration of carbenicillin, tetracycline or gentamicin added to LB broth or plates was 100 μg ml−1, 20 μg ml−1, or 15 μg ml−1, respectively, and 300 μg ml−1, 150 μg ml&−1, or 200 μg ml−1 when added to PIB or PIA plates, respectively.\n\nTransposon mutagenesis\n\nTransposon mutagenesis was carried out via biparental conjugations using E. coli SM10 λpir carrying plasmid pFAC as the donor strain and PAO1 as the recipient strain. After incubating PAO1 and E. coli cells on LB agar plates at 37°C for 6 h, bacteria were collected, re-suspended in PBS and then plated onto PIA supplemented with gentamicin (200 μg ml−1). Mucoid colonies were identified. The chromosomal DNA of mucoid mutants was isolated using the QIAamp genomic DNA Extraction kit (Qiagen, USA). Approximately, 2 μg of DNA was digested with SalI overnight at 37°C, followed by purification and self-ligation using Fast-Link DNA ligase (Epicentre, USA). The circular closed DNA was used as a template for inverse PCR using GM3OUT and GM5OUT primers. The PCR products were purified and sequenced. Finally, Southern-blot hybridization was also conducted to monitor the copy number of transposon insertions using the Gmr gene as the probe.\n\nGenetic construction, transformation and conjugation\n\nAll DNA cloning was performed using PCR products digested with appropriate restriction enzymes and ligated into the E. coli to Pseudomonas shuttle vector pHERD20T. All constructs of pHERD20T were sequenced to verify the correct DNA sequences. DNA sequencing was carried out by the Marshall University Genomics Core Facility. The primer sequences used for PCR cloning will be provided upon request. The transformation of One Shot TOP10 (Invitrogen, USA) was performed according to the supplier’s instruction. The transfer of pHERD20T and its derivatives was performed via triparental conjugation using the helper plasmid pRK2013.\n\nProtein preparation and Western blotting\n\nFor extraction of total cellular protein, PeriPreps™ Periplasting Kit (Epicentre, USA) was used. Bacteria were inoculated in PIB medium and incubated in shake culture for several hours, until the OD600 was ~0.6. At this point 0.1% L-arabinose was added to induce protein expression. Two hours after induction, bacteria were collected for cell lysis. The protein concentration was measured using Bio-Rad Dc protein assay reagents (Bio-Rad). Equivalent proteins were mixed with 2×sample loading buffer and analyzed on 10–20% pre-cast SDS-PAGE gels (Bio-Rad). Proteins were then transferred to a PVDF membrane (GE) by electro-blotting for immunodetection. A primary antibody, rat Anti-HA (Roche, USA), was used at a dilution of 1:5000. Goat anti-rat immunoglobulin G (heavy and light chains) conjugated with horseradish peroxidase (Pierce, USA) diluted 1: 5000 was used as the secondary antibody. Finally, the proteins on the membrane were visualized using the Amersham ECL kit (GE, USA).\n\nAlginate assay\n\nP. aeruginosa strains were grown at 37°C on triplicate PIA plates for 24 h. Bacteria were collected, suspended in PBS, and the OD600 was measured and adjusted to ~0.5 by addition of PBS. The suspensions were analyzed for the amount of uronic acid in comparison with a standard curve made with D-mannuronic acid lactone (Sigma-Aldrich, USA) as described.\n\nβ-galactosidase assay\n\nPseudomonas strains carrying the lacZ vector pLP170 containing PalgU, and PalgD were cultured on PIA plates. After 24 h, bacteria were harvested, resuspended in PBS, and OD600 was measured and adjusted to ~0.3. Cells were then permeabilized using toluene, and β-galactosidase activity was measured at OD420 and OD550. The results in Miller Units were calculated according to the follow formula: Miller Units=1000×[OD 420−(1.75 × OD 550)]/[Reaction time (m) × Volume (ml) × OD 600]. The reported values represent an average of three independent experiments ± SEM.\n\nProteins and peptides\n\nPurifications of P. aeruginosa MucA, MucB and AlgW and E. coli RseA, RseB and DegS were performed as described after plasmid-mediated overexpression in E. coli strain X90(DE3). Cultures containing 100 μg/mL ampicillin were grown to an OD600 of ~0.6, and protein expression was induced with 100 mM IPTG for two h before harvesting. Cells overexpressing MucB, AlgW, RseB or DegS were resuspended in native lysis buffer [P. aeruginosa proteins: 50 mM sodium phosphate (pH 8), 500 mM KCl, 20 mM imidazole; E. coli proteins: 50 mM sodium phosphate (pH 8), 300 mM NaCl, 10 mM imidazole] and lysed by sonication. Cells overexpressing MucA or RseA were resuspended in denaturing lysis buffer [50 mM sodium phosphate (pH 8), 8 M guanidine hydrochloride (pH 8)] and allowed to lyse at room temperature for 30 min. For all preparations, lysates were cleared by centrifugation and applied to Ni-NTA columns pre-equilibrated in native lysis buffer or denaturing lysis buffer. Columns were washed with lysis buffer and proteins eluted with elution buffer [P. aeruginosa proteins: 50 mM sodium phosphate (pH 8), 500 mM KCl, 500 mM imidazole; E. coli proteins: 50 mM sodium phosphate (pH 8), 300 mM NaCl, 300 mM imidazole]. Proteins were then dialyzed overnight against storage buffer [P. aeruginosa proteins: 50 mM sodium phosphate (pH 7.4), 200 mM KCl, 10% glycerol; E. coli proteins: 50 mM sodium phosphate (pH 8), 200 mM NaCl, 1 mM EDTA] and then again against fresh buffer before being stored frozen at −80°C. Prior to dialysis and storage, MucB and RseB were chromatographed on a size-exclusion column and only fractions corresponding to the dimer were collected. To obtain radiolabeled 35S-MucA,35S-RseA, or 35S-MucB, cells were grown in a defined rich medium (TekNova) lacking methionine and 35S-methionine was added upon induction. Purification of 35S-MucA and 35S-RseA then proceeded as described above for unlabeled MucA and RseA. Cells expressing 35S-MucB were lysed by the addition of lysozyme and three freeze-thaw cycles, and purification then proceeded as described above. All peptides were synthesized by GenScript and purified by reverse-phase HPLC using a C18 column. Purified products were lyophilized, stored at −20°C, then resuspended in storage buffer and used immediately. The L-IIA LPS fragment was a gift from Santiago Lima (MIT).\n\nCleavage assays\n\nAssays were performed as described. Briefly, cleavage reactions were performed at 25°C in reaction buffer [P. aeruginosa proteins: 50 mM sodium phosphate (pH 7.4), 200 mM KCl, 10% glycerol; E. coli proteins: 150 mM sodium phosphate (pH 8.3), 380 mM NaCl, 10% glycerol, 4 mM EDTA]. Reactions were initiated by the addition of protease and quenched after different times by addition of cold 10% trichloroacetic acid. Following centrifugation, acid-soluble reaction products were quantified by scintillation counting and compared to total radioactivity from control samples. Cleavage activity for peptide-activation assays and experiments involving MucB are reported as a second-order rate constant calculated by dividing the rate of substrate cleavage by the substrate and enzyme concentrations. Activity at different substrate concentrations for the Michaelis-Menten curve was calculated by dividing the rate of substrate cleavage by the enzyme concentration.\n\nMucA-resin assay\n\nDry cyanogen-bromide activated Sepharose B4 resin (66 mg) was washed with 1 M HCl, equilibrated with coupling buffer [25 mM sodium phosphate (pH 8.3), 50 mM NaCl], and incubated with purified MucA (900 μg) for 1.5 hours. After removal of free protein, reactive groups on the resin were blocked by incubation in 0.5 M ethanolamine (pH 8.3) for 1 h. The MucA resin was washed, resuspended in coupling buffer, and stored at 4 °C. For assays, MucA resin was drained, incubated with a four-fold molar excess of 35S-MucB, washed again, incubated with ligand for 30 min, added to a pre-wetted 96-well Multiscreen HTS-HV Filter Plate (Millipore) over a 96-well polypropylene receiving plate (Greiner), and centrifuged at 1500 × g for 1 min. Elution of 35S-MucB was measured by scintillation counting and normalized by dividing by the total initial 35S-MucB radioactivity.",
+  "results": "Results\n\nOverexpression of CupB5 induces mucoidy\n\nTo identify new alginate regulatory genes, we performed mariner-transposon mutagenesis in the nonmucoid P. aeruginosa reference strain PAO1. We isolated a mucoid variant (PAO1-VE22) and identified the site of a single-copy insertion by inverse PCR and Southern-blot analysis (data not shown). The transposon insertion was six base pairs before the TAG stop codon at the 3′ end of cupB4 (Fig. 1A) and introduced a σ70-dependent PGm promoter that drove expression of the gentamicin resistance cassette and downstream genes. Alginate production by PAO1-VE22 (31 ± 1.5 μg/ml/OD600) was substantially higher than that of PAO1 (8.5 ± 0.02 μg/ml/OD600) after 24 h growth at 37°C. To test if altered expression of cupB4, cupB5, or cupB6 was responsible for the mucoidy of PAO1-VE22, we cloned each individual coding sequence with an N-terminal HA epitope and C-terminal H6 tag in pHERD20T under control of an arabinose-inducible promoter. Plasmids expressing the tagged variant of CupB5, but not of CupB4 or CupB6, induced mucoid conversion and high-level alginate production in PAO1 (Fig. 1B). Western-blot analysis indicated that the plasmid-expressed CupB4, CupB5, and CupB6 variants were detectable when overexpressed in PAO1, albeit with fragmentation of CupB5 (Fig. 1C). We conclude that enhanced expression of CupB5 or a CupB5 fragment induces mucoidy and increased alginate in PAO1-VE22.\n\nGenetic requirements for CupB5-induced mucoidy\n\nDeletion of five single genes required for the AlgU response (algW, mucP, clpX, clpP, or algU) in PAO1 prevented mucoidy and high-level alginate production when HA-CupB5-H6 was overproduced from a plasmid in these strains (Fig. 2A). In-frame deletion of algW in PAO1-VE22 also prevented alginate overproduction and mucoidy, a phenotype that was complemented by plasmid expression of AlgW but not AlgW lacking its PDZ domain (Fig. 2B). Consistently, when AlgU-dependent promoters were fused to lacZ and introduced into PAO1-VE22 or PAO1-VE2, a strain in which AlgW is activated by overproduction of MucE, β-galactosidase levels were increased markedly compared to the same promoter fusions in PAO1 (Fig. S1). CupB5 is normally an extracellular protein. However, its overexpression in the absence of corresponding levels of the CupB4 chaperone and usher could result in periplasmic accumulation that acts directly or indirectly through AlgW to activate alginate production.\n\nCupB5 contains an internal signal for alginate overproduction\n\nBecause C-terminal sequences terminating with an aromatic residue and α-carboxylate can activate AlgW, we initially tested if the C-terminal residues of CupB5 (Asn1016-Ile1017-Trp1018) were responsible for activating AlgW and inducing mucoidy. However, overexpression of CupB5 variants with a C-terminal H6 tag or containing a deletion of the Asn1016-Ile1017-Trp1018 sequence and a C-terminal H6 tag still induced mucoidy in PAO1 (Table S1). Thus, the extreme C-terminal residues of CupB5 play little or no role in mediating alginate overproduction. Moreover, overproduction of variants containing just the N-terminal 491 residues of CupB5 also induced mucoidy (Table S1), indicating that a major inducing signal is located in this portion of the protein.\n\nDeletion analyses revealed that the Thr489-Val490-Val491 sequence of CupB5 appeared important for alginate overproduction. Specifically, overexpression of CupB51–491 produced substantially more alginate than overexpression of CupB51–489 or CupB51–488 (Fig. 3A), and Western blotting showed that these proteins were present at a similar intracellular levels (Fig. 3B). Cells expressing CupB51–490 also produced less alginate (Fig. 3A), but this protein appeared to be severely truncated by degradation (Fig. 3B). Based on these results, we hypothesized that the CupB5 activating signal included some or all of the Thr489-Val490-Val491 sequence.\n\nCupB5 peptides stimulate OMP-activated AlgW cleavage of MucA and partially relieve MucB inhibition in vitro\n\nWe initially tested if synthetic peptides including the Thr489-Val490-Val491 CupB5 sequence might stimulate alginate production in a manner analogous to OMPs by activating AlgW cleavage of 35S-MucA. One peptide (GYYYTVV) corresponded to the seven C-terminal residues of CupB51–491, another (YVGYVTY) was a sequence-scrambled variant, and a third (GYYYT) corresponded to the C-terminus of CupB51–489, which did not stimulate alginate production in vivo. We assayed the kinetics of AlgW cleavage of 35S-MucA in vitro by the production of acid-soluble peptide fragments in the presence of different concentrations of the CupB5 peptides. Each CupB5 peptide stimulated AlgW cleavage of 35S-MucA to a small degree, but at far lower rates than a peptide (WVF) corresponding to the C-terminal residues of MucE, a potent activator of AlgW (Fig. 4A & 4B). Thus, the CupB5 peptides do not substitute for OMP-like peptides in robust activation of AlgW cleavage of MucA.\n\nAs expected from previous studies, addition of MucB suppressed cleavage of 35S-MucA by WVF-activated AlgW (Fig. 4C). Moreover, addition of just the GYYYTVV, YVGYVTY, or GYYYT CupB5 peptides did not result in AlgW cleavage of MucA when MucB was present (Fig. 4C). Next, we tested if the wild-type or scrambled CupB5 peptides could relieve MucB inhibition of AlgW cleavage of 35S-MucA in the presence of the WVF activating peptide. Importantly, titration of GYYYTVV or GYYYT into reactions containing MucA, MucB, AlgW, and WVF peptide resulted in a dose-dependent increase in the rate of MucA cleavage (Fig. 4D). Almost no increase in MucA cleavage was observed with the scrambled YVGYVTY peptide (Fig. 4D), demonstrating sequence specificity. Interestingly, activation of MucA cleavage by GYYYT occurred at lower peptide concentrations and was less cooperative as judged by the Hill constant than activation by the GYYYTVV peptide (Fig. 4D). Thus, the C-terminal valine residues of GYYYTVV are not necessary for activation of MucA cleavage in the presence of MucB in vitro. Although the GYYYTVV and GYYYT peptides activated AlgW cleavage of MucA to similar levels in the presence of WVF peptide and MucB, these levels were approximately one-third of the MucA cleavage rate observed with WVF and AlgW alone (compare Figs. 4B and 4D). We conclude that the CupB5 peptides can partially relieve MucB inhibition of WVF-activated AlgW cleavage of MucA.\n\nLipopolysaccharides bind MucB and competitively displace MucA. Because MucB normally binds peptide sequences in MucA, it seemed plausible that CupB5 peptides might also compete for MucA binding to MucB. We tested this possibility by assaying the ability of the CupB5 peptides to elute 35S-MucB from MucA that had been covalently bound to agarose resin (Fig. 5A). In this assay, the L-IIA lipopolysaccharide fragment and free MucA efficiently competed with resin-bound MucA for MucB binding. However, incubation of 35S-MucB•MucA resin with the GYYYTVV, YVGYVTY, or GYYYT peptides resulted in no more 35S-MucB release than observed in the buffer control (Fig. 5A). This result strongly suggests that the CupB5 peptides do not relieve MucB inhibition by directly competing for its binding to MucA. Binding of the L-IIA lipopolysaccharide fragment converts MucB dimers to tetramers. By contrast, incubation of MucB with GYYYTVV peptide resulted in no substantial change in elution during gel-filtration chromatography (Fig. S2).\n\nBecause CupB5 peptides did not strongly activate AlgW cleavage of MucA in the absence of the WVF peptide or release MucA from MucB, we speculated that they might act in concert with the WVF peptide to allow AlgW to bind and degrade MucA more efficiently and thus to compete better with MucB for the MucA substrate. This model predicts that MucA should be degraded at a faster rate in the presence of both the WVF and CupB5 peptides. Indeed, when we assayed the rate of cleavage of different concentrations of 35S-MucA by AlgW, faster cleavage was observed when both the WVF and wild-type CupB5 peptides were present compared to only the WVF peptide or the WVF peptide and scrambled CupB5 control peptide (Fig. 5B). We also measured the rate of AlgW cleavage of a fixed concentration of MucA in the presence of increasing concentrations of WVF peptide with or without additional GYYYTVV peptide (Fig. 5C). When GYYYTVV peptide was present, the maximum rate of MucA cleavage increased almost two-fold. We conclude that the CupB5 peptides and WVF peptide act synergistically to enhance AlgW cleavage of MucA, allowing better competition with MucB.\n\nIn E. coli, RseA, RseB, and DegS are homologs of MucA, MucB, and AlgW. A YYF peptide efficiently activates DegS cleavage of RseA in the absence of RseB or in the presence of both RseB and lipopolysaccharides. The CupB5 peptides did not substantially stimulate cleavage of 35S-RseA by YYF-activated DegS in the presence of RseB (Fig. S3), suggesting that they do not interact with DegS. This result is not surprising, as DegS and AlgW share only 44% sequence homology.\n\nSuppressing and enhancing alginate production\n\nIf CupB5 allows AlgW to compete more efficiently with MucB for MucA binding and cleavage, then overproduction of MucB in strain PAO1-VE22 would be expected to decrease alginate production. Indeed, plasmid-mediated MucB overproduction had this effect, as did plasmid-mediated overproduction of MucA (Fig. 6A). The latter result suggests that with enough additional uncleaved MucA, AlgU is efficiently inhibited even when more MucA is degraded than usual. Even the CupB5-induced elevated rate of AlgW cleavage of MucA in this strain must be too slow to free enough AlgU to fully enhance transcription of alginate biosynthesis genes.\n\nPlasmid-expressed MucB or MucA also decreased alginate production in PAO1-VE2, a strain expressing higher MucE levels (Fig. 6A). The rate of AlgW cleavage of MucA in PAO1-VE2 is apparently too low to fully degrade the excess MucA, resulting in greater inhibition of AlgU and reduced alginate production. Excess MucB presumably outstrips the endogenous anti-MucB signals in PAO1-VE2 and mass action results in enhanced binding to MucA, reducing the rate of MucA cleavage by activated AlgW.\n\nTo determine how simultaneous overexpression of MucE and CupB5 affected alginate levels,, we transformed PAO1-VE2 with a plasmid expressing HA-CupB5-H6. Notably, alginate levels in this strain were higher than in the empty-vector control (Fig. 6B), suggesting that activation of AlgW through MucE and through CupB5 occur synergistically. Our biochemical results predict that MucB should not be genetically required for CupB5-mediated pathway activation. To test this prediction, we used a transposon-insertion strain, PAO1-mucB::tetR, which displayed an elevated level of basal alginate production and mucoid phenotype (Fig. 6B). When we transformed PAO1-mucB::tetR with a plasmid expressing HA-CupB5-H6, alginate production increased compared to the empty-vector control (Fig. 6B), indicating that CupB5 overexpression induces pathway activation by a MucB-independent mechanism. Finally, we tested if expression of the CupB4 chaperone, which should facilitate export of CupB5 rather than its periplasmic accumulation, would decrease alginate production. Indeed, when we transformed PAO1-VE22 with a plasmid expressing HA-CupB4-H6, alginate production was suppressed and the mucoid phenotype of the parent strain was reversed (Fig. 6B). This result supports a model in which interactions between accumulated periplasmic CupB5 and periplasmic AlgW leads to induction of alginate production and mucoidy.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Pseudomonas aeruginosa",
+    "alginate",
+    "MucA",
+    "MucB",
+    "CupB5",
+    "signal transduction",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "RseP (YaeL), an Escherichia coli RIP protease, cleaves transmembrane sequences",
+      "authors": [
+        "Y Akiyama",
+        "K Kanehara",
+        "K Ito"
+      ]
+    },
+    {
+      "title": "DegS and YaeL participate sequentially in the cleavage of RseA to activate the sigma(E)-dependent extracytoplasmic stress response",
+      "authors": [
+        "BM Alba",
+        "JA Leeds",
+        "C Onufryk",
+        "CZ Lu",
+        "CA Gross"
+      ]
+    },
+    {
+      "title": "Mucoid Pseudomonas aeruginosa in cystic fibrosis: characterization of muc mutations in clinical isolates and analysis of clearance in a mouse model of respiratory infection",
+      "authors": [
+        "JC Boucher",
+        "H Yu",
+        "MH Mudd",
+        "V Deretic"
+      ]
+    },
+    {
+      "title": "Inhibition of regulated proteolysis by RseB",
+      "authors": [
+        "BO Cezairliyan",
+        "RT Sauer"
+      ]
+    },
+    {
+      "title": "Control of Pseudomonas aeruginosa AlgW protease cleavage of MucA by peptide signals and MucB",
+      "authors": [
+        "BO Cezairliyan",
+        "RT Sauer"
+      ]
+    },
+    {
+      "title": "Design principles of the proteolytic cascade governing the sigmaE-mediated envelope stress response in Escherichia coli: keys to graded, buffered, and rapid signal transduction",
+      "authors": [
+        "R Chaba",
+        "IL Grigorova",
+        "JM Flynn",
+        "TA Baker",
+        "CA Gross"
+      ]
+    },
+    {
+      "title": "Occurrence of hypermutable Pseudomonas aeruginosa in cystic fibrosis patients is associated with the oxidative stress caused by chronic lung inflammation",
+      "authors": [
+        "O Ciofu",
+        "B Riis",
+        "T Pressler",
+        "HE Poulsen",
+        "N Hoiby"
+      ]
+    },
+    {
+      "title": "The Pseudomonas aeruginosa sensor kinase KinB negatively controls alginate production through AlgW-dependent MucA proteolysis",
+      "authors": [
+        "FH Damron",
+        "D Qiu",
+        "HD Yu"
+      ]
+    },
+    {
+      "title": "Replication of an origin-containing derivative of plasmid RK2 dependent on a plasmid function provided in trans",
+      "authors": [
+        "DH Figurski",
+        "DR Helinski"
+      ]
+    },
+    {
+      "title": "Modulating substrate choice: the SspB adaptor delivers a regulator of the extracytoplasmic-stress response to the AAA+ protease ClpXP for degradation",
+      "authors": [
+        "JM Flynn",
+        "I Levchenko",
+        "RT Sauer",
+        "TA Baker"
+      ]
+    },
+    {
+      "title": "Adaptation of Pseudomonas aeruginosa to the cystic fibrosis airway: an evolutionary perspective",
+      "authors": [
+        "A Folkesson",
+        "L Jelsbak",
+        "L Yang",
+        "HK Johansen",
+        "O Ciofu",
+        "N Hoiby"
+      ]
+    },
+    {
+      "title": "The PprA-PprB two-component system activates CupE, the first non-archetypal Pseudomonas aeruginosa chaperone-usher pathway system assembling fimbriae",
+      "authors": [
+        "C Giraud",
+        "CS Bernard",
+        "V Calderon",
+        "L Yang",
+        "A Filloux",
+        "S Molin"
+      ]
+    },
+    {
+      "title": "Microbial pathogenesis in cystic fibrosis: mucoid Pseudomonas aeruginosa and Burkholderia cepacia",
+      "authors": [
+        "JR Govan",
+        "V Deretic"
+      ]
+    },
+    {
+      "title": "Cross-sectional analysis of clinical and environmental isolates of Pseudomonas aeruginosa: biofilm formation, virulence, and genome diversity",
+      "authors": [
+        "NE Head",
+        "H Yu"
+      ]
+    },
+    {
+      "title": "Stage-specific adaptation of hypermutable Pseudomonas aeruginosa isolates during chronic pulmonary infection in patients with cystic fibrosis",
+      "authors": [
+        "M Hogardt",
+        "C Hoboth",
+        "S Schmoldt",
+        "C Henke",
+        "L Bader",
+        "J Heesemann"
+      ]
+    },
+    {
+      "title": "Construction and expression of recombinant plasmids encoding type 1 or D-mannose-resistant pili from a urinary tract infection Escherichia coli isolate",
+      "authors": [
+        "RA Hull",
+        "RE Gill",
+        "P Hsu",
+        "BH Minshew",
+        "S Falkow"
+      ]
+    },
+    {
+      "title": "YaeL (EcfE) activates the sigma(E) pathway of stress response through a site-2 cleavage of anti-sigma(E), RseA",
+      "authors": [
+        "K Kanehara",
+        "K Ito",
+        "Y Akiyama"
+      ]
+    },
+    {
+      "title": "The exopolysaccharide alginate protects Pseudomonas aeruginosa biofilm bacteria from IFN-gamma-mediated macrophage killing",
+      "authors": [
+        "JG Leid",
+        "CJ Willson",
+        "ME Shirtliff",
+        "DJ Hassett",
+        "MR Parsek",
+        "AK Jeffers"
+      ]
+    },
+    {
+      "title": "Dual molecular signals mediate the bacterial response to outer-membrane stress",
+      "authors": [
+        "S Lima",
+        "MS Guo",
+        "R Chaba",
+        "CA Gross",
+        "RT Sauer"
+      ]
+    },
+    {
+      "title": "Horizontal gene transfer of the Escherichia coli pap and prs pili operons as a mechanism for the development of tissue-specific adhesive properties",
+      "authors": [
+        "BI Marklund",
+        "JM Tennent",
+        "E Garcia",
+        "A Hamers",
+        "M Baga",
+        "F Lindberg"
+      ]
+    },
+    {
+      "title": "Characterization of a locus determining the mucoid status of Pseudomonas aeruginosa: AlgU shows sequence similarities with a Bacillus sigma factor",
+      "authors": [
+        "DW Martin",
+        "BW Holloway",
+        "V Deretic"
+      ]
+    },
+    {
+      "title": "Posttranslational control of the algT (algU)-encoded sigma22 for expression of the alginate regulon in Pseudomonas aeruginosa and localization of its antagonist proteins MucA and MucB (AlgN)",
+      "authors": [
+        "K Mathee",
+        "CJ McPherson",
+        "DE Ohman"
+      ]
+    },
+    {
+      "title": "Genetic adaptation of Pseudomonas aeruginosa to the airways of cystic fibrosis patients is catalyzed by hypermutation",
+      "authors": [
+        "A Mena",
+        "EE Smith",
+        "JL Burns",
+        "DP Speert",
+        "SM Moskowitz",
+        "JL Perez"
+      ]
+    },
+    {
+      "title": "Expression of Pseudomonas aeruginosa CupD fimbrial genes is antagonistically controlled by RcsB and the EAL-containing PvrR response regulators",
+      "authors": [
+        "H Mikkelsen",
+        "G Ball",
+        "C Giraud",
+        "A Filloux"
+      ]
+    },
+    {
+      "title": "beta-galactosidase assay",
+      "authors": [
+        "JH Miller",
+        "JH Miller"
+      ]
+    },
+    {
+      "title": "Role of alginate O acetylation in resistance of mucoid Pseudomonas aeruginosa to opsonic phagocytosis",
+      "authors": [
+        "GB Pier",
+        "F Coleman",
+        "M Grout",
+        "M Franklin",
+        "DE Ohman"
+      ]
+    },
+    {
+      "title": "PBAD-based shuttle vectors for functional analysis of toxic and highly regulated genes in Pseudomonas and Burkholderia spp. and other bacteria",
+      "authors": [
+        "D Qiu",
+        "FH Damron",
+        "T Mima",
+        "HP Schweizer",
+        "HD Yu"
+      ]
+    },
+    {
+      "title": "ClpXP proteases positively regulate alginate overexpression and mucoid conversion in Pseudomonas aeruginosa",
+      "authors": [
+        "D Qiu",
+        "VM Eisinger",
+        "NE Head",
+        "GB Pier",
+        "HD Yu"
+      ]
+    },
+    {
+      "title": "Regulated proteolysis controls mucoid conversion in Pseudomonas aeruginosa",
+      "authors": [
+        "D Qiu",
+        "VM Eisinger",
+        "DW Rowen",
+        "HD Yu"
+      ]
+    },
+    {
+      "title": "In vivo transposition of mariner-based elements in enteric bacteria and mycobacteria",
+      "authors": [
+        "EJ Rubin",
+        "BJ Akerley",
+        "VN Novik",
+        "DJ Lampe",
+        "RN Husson",
+        "JJ Mekalanos"
+      ]
+    },
+    {
+      "title": "The ‘P-usher’, a novel protein transporter involved in fimbrial assembly and TpsA secretion",
+      "authors": [
+        "S Ruer",
+        "G Ball",
+        "A Filloux",
+        "S de Bentzmann"
+      ]
+    },
+    {
+      "title": "Assembly of fimbrial structures in Pseudomonas aeruginosa: functionality and specificity of chaperone-usher machineries",
+      "authors": [
+        "S Ruer",
+        "S Stender",
+        "A Filloux",
+        "S de Bentzmann"
+      ]
+    },
+    {
+      "title": "Chaperone-assisted pilus assembly and bacterial attachment",
+      "authors": [
+        "FG Sauer",
+        "M Barnhart",
+        "D Choudhury",
+        "SD Knight",
+        "G Waksman",
+        "SJ Hultgren"
+      ]
+    },
+    {
+      "title": "Control of AlgU, a member of the sigma E-like family of stress sigma factors, by the negative regulators MucA and MucB and Pseudomonas aeruginosa conversion to mucoidy in cystic fibrosis",
+      "authors": [
+        "MJ Schurr",
+        "H Yu",
+        "JM Martinez-Salazar",
+        "JC Boucher",
+        "V Deretic"
+      ]
+    },
+    {
+      "title": "Allosteric activation of DegS, a stress sensor PDZ protease",
+      "authors": [
+        "J Sohn",
+        "RA Grant",
+        "RT Sauer"
+      ]
+    },
+    {
+      "title": "Bacterial adhesins: common themes and variations in architecture and assembly",
+      "authors": [
+        "GE Soto",
+        "SJ Hultgren"
+      ]
+    },
+    {
+      "title": "The chaperone/usher pathways of Pseudomonas aeruginosa: identification of fimbrial gene clusters (cup) and their involvement in biofilm formation",
+      "authors": [
+        "I Vallet",
+        "JW Olson",
+        "S Lory",
+        "A Lazdunski",
+        "A Filloux"
+      ]
+    },
+    {
+      "title": "Structural biology of the chaperone-usher pathway of pilus biogenesis",
+      "authors": [
+        "G Waksman",
+        "SJ Hultgren"
+      ]
+    },
+    {
+      "title": "OMP peptide signals initiate the envelope-stress response by activating DegS protease via relief of inhibition mediated by its PDZ domain",
+      "authors": [
+        "NP Walsh",
+        "BM Alba",
+        "B Bose",
+        "CA Gross",
+        "RT Sauer"
+      ]
+    },
+    {
+      "title": "Genetic footprinting with mariner-based transposition in Pseudomonas aeruginosa",
+      "authors": [
+        "SM Wong",
+        "JJ Mekalanos"
+      ]
+    },
+    {
+      "title": "Cell wall-inhibitory antibiotics activate the alginate biosynthesis operon in Pseudomonas aeruginosa: roles of σ22 (AlgT) and the AlgW and Prc proteases",
+      "authors": [
+        "LF Wood",
+        "AJ Leech",
+        "DE Ohman"
+      ]
+    }
+  ],
+  "original_title": "Overexpression of CupB5 activates alginate overproduction in Pseudomonas aeruginosa by a novel AlgW-dependent mechanism",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ef2/4116675/c76c88829423/nihms604546f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ef2/4116675/8de3ece5b97c/nihms604546f2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ef2/4116675/169eedc79e9e/nihms604546f3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ef2/4116675/c2bdf2b9be0f/nihms604546f4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ef2/4116675/0d72b96c35f2/nihms604546f5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7ef2/4116675/5facdad7fa87/nihms604546f6.jpg"
+  ]
+}

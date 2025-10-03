@@ -1,0 +1,377 @@
+{
+  "pmcid": "PMC11999716",
+  "title": "Metagenomic interrogation of urban Superfund site reveals antimicrobial resistance reservoir and bioremediation potential",
+  "abstract": "Abstract\n\nAims\n\nWe investigate the bioremediation potential of the microbiome of the Gowanus Canal, a contaminated waterway in Brooklyn, NY, USA, designated a Superfund site by the US Environmental Protection Agency due to high concentrations of contaminants, including polychlorinated biphenyls, petrochemicals, and heavy metals.\n\nMethods and results\n\nWe present a metagenomic analysis of the Gowanus Canal sediment, consisting of a longitudinal study of surface sediment and a depth-based study of sediment core samples. We demonstrate that the resident microbiome includes 455 species, including extremophiles across a range of saltwater and freshwater species, which collectively encode 64 metabolic pathways related to organic contaminant degradation and 1171 genes related to heavy metal utilization and detoxification. Furthermore, our genetic screening reveals an environmental reservoir of antimicrobial resistance markers falling within 8 different classes of resistance, as well as de-novo characterization of 2319 biosynthetic gene clusters and diverse groups of secondary metabolites with biomining potential.\n\nConclusion\n\nThe microbiome of the Gowanus Canal is a biotechnological resource of novel metabolic functions that could aid in efforts for bioremediation, AMR reservoir mapping, and heavy metal mitigation.",
+  "introduction": "The Gowanus Canal Superfund site is emblematic of the many post-industrial sites facing a legacy of hazardous pollutants, and its resident microbiome harbors the potential to remediate anthropogenic contaminants.\n\nIntroduction\n\nHistorical background of the gowanus canal\n\nThe Gowanus Canal in Brooklyn, NY, USA is an Environmental Protection Agency (EPA) Superfund site (Miller) which contains significant amounts of chemicals of concern (Mandigo et al.). These include heavy metals like arsenic, copper, lead, and iron; halogenated compounds, including polychlorinated biphenyl (PCB); chlorinated solvents and fungicides, including carbon tetrachloride and ethylene dibromide; polycyclic aromatic hydrocarbons (PAH); volatile organic compounds (VOC) and semivolatile organic compounds; petroleum products; and dissolved salts, including brine and other acids such as tartaric acid (U.S. EPA). Following the 2010 designation of the canal as a Superfund site on the National Priorities List, plans were announced to dredge and sub-aquatically cap the waterway over a decade (U.S. EPA) in a multiphase project expected to finish in mid-2025 (Krisel).\n\nMicrobial response to anthropogenic contamination\n\nThe Gowanus Canal is an extreme environment with both built and natural components in the most populated city in the U.S. (U.S. Census Bureau), and provides a testbed for studying the impact of engineered environments on resident ecosystems. Studies have shown that microorganisms, especially extremophiles, respond to the challenge of anthropogenic contaminants through adaptive degradation and biosorption (Xu et al., Ghosh and Das, McCutcheon et al., Sharma et al.). One such example includes the rapid shifts in marine microbial population observed after the DeepWater Horizon Spill both in open ocean (Mason et al., Redmond and Valentine, Kimes et al.) and coastal wetlands (King et al.), where the relative abundance of petrochemical-degrading species increased significantly after the spill. In addition to natural adaptation of endogenous species, microbial remediation can occur by introducing target species to an environment. For example, introduction of a consortium consisting of probiotic bacteria efficient in degrading naturally occurring petroleum hydrocarbons to coral environments was shown to be effective in remediating oil spills without negatively impacting the coral holobiont, unlike using chemical dispersants (Fragoso ados Santos et al.). A two-stage fungal remediation study to tackle textile industry dye effluent utilizing both adsorption and accumulation illustrated the potential of integrated approaches in bioremediation (Mathur et al.). Microbial bioremediation, while presenting constraints of efficacy and scale, can be considered preferable over physico-chemical remediation as it does not leave further residues (Das and Dash).\n\nSuperfund sites, with their high concentrations of toxic compounds, can be considered an extreme environment and extremophiles are known for their potential for bioremediation (Kaushik et al.). While every Superfund site is unique in its composition of contaminants, a growing body of literature has shown that microbial bioremediation often develops spontaneously. While microbial diversity can be decreased at a toxic site, the abundance of bioremediation-related species increases (Lowe et al.) with specific functions such as the microbial dechlorination of compounds, including PCBs (Rodenburg et al.). Microbial bioremediation is a long standing practice (Antizar-Ladislao), and more recently sequencing technologies and metagenomic analyses have enabled the identification of genes and species responsible for observed remediation-related metabolisms (Dangi et al., Gupta et al.). These observations, in addition to the accelerated evolution of microbial communities in extreme environments (Li et al.), make Superfund sites candidates for metabolism mining—both with respect to contaminant-related functions, such as metal rare earth element binding, and also for discovery of novel functions or metabolites of potential biotechnological interest. Indeed, microorganisms in the environment can produce a wealth of secondary metabolites (SMs) which have been historically used for various biotechnological applications, including production of antibiotics, anticancer agents, and agrochemicals (Katz and Baltz). SMs synthesized through the expression of biosynthetic gene clusters (BGCs) can be hard to identify using bioactivity screens as BGCs are often silent, only activated under pleiotropic environmental triggers such as growth condition variation or introduction of competing species (Rutledge and Challis). Genome mining using high-throughput sequencing approaches has been used to identify BGCs responsible for encoding these SMs without the need for identifying the appropriate activation triggers (Udwary et al.). In particular, environmental microbiomes, even urban ones, can be a rich substrate for the discovery of such molecules (Charlop-Powers et al.). Given the Gowanus Canal’s unique—and extreme—environment, we hypothesize that its microbiome might be a source of novel BGCs.\n\nTo provide a detailed molecular portrait of the microbial adaptations in the Canal, we used shotgun metagenomic sequencing and a suite of bioinformatic tools with the goals to (i) characterize species diversity, (ii) assess potential for bioremediation, and (iii) discover novel BGCs. As a community that has thrived in a highly contaminated environment for over a century and a half, this microbiome may hold keys for living and thriving under uniquely toxic selection pressures as particular to the putative Anthropocene era (Waters and Turner).",
+  "methods": "Materials and methods\n\nSite selection and sample collection\n\nSediment sampling was performed across fourteen sites along the length (2.9 km) of the Canal (numbered 01–14 in Fig. 1). Sediment was sampled from a canoe, using a 4.5 m long PVC (PolyVinyl Chloride) pipe as a sampling device. The pipe was driven approximately 10–15 cm into the sediment, capped, and pulled up to the surface. Upon uncapping, the retained sediment was dispensed into a 50 ml sterile tube. Core samples were obtained through the EPA and private stakeholders during the feasibility study for the EPA Superfund site cleanup. The GPS coordinates of the fourteen sediment sample locations, as well as the core sample location and additional metadata are reported in Table S1.\n\nSampling scheme\n\nSamples were collected from the sediment surface as well as one sediment core. Surface sediment samples were collected in 14 different locations along the length of the Canal, at two different timepoints (December 2014 and April 2015). These are samples from the top 15 cm of sediment, under 1–5 m of water. These will be referred to as “sediment samples” throughout this paper. Core samples were collected at a single location, from a core taken 3.5 m deep from the surface of the sediment, in 0.5 m depth increments (Fig. 1a for a map of these locations, and Fig. 1b for images of the process). These were collected from a core taken by the Department of Environmental Protection, and depth refers to the depth under the surface of the sediment. These will be referred to as “core samples.” See sample metadata in Table S1.\n\nDNA extraction and sequencing\n\nSediment and core samples were stored at −80°C until processing. DNA was extracted using the MoBio PowerSoil DNA Isolation Kit (catalog no. 12888–50) according to the manufacturer’s instructions, with 250 mg of starting material and lysis step performed on the Qiagen PowerLyzer (3 × 30 s agitation) then purified with Ampure XP beads (Beckman Coulter A63881). Sediment sample libraries were prepared using the Qiagen GeneRead DNA Library I Core Kit (180 432) with the Qiagen GeneRead DNA Library I Amp Kit (180455) along with Qiagen Adapter I Set A 12-plex (180985) and Qiagen Adapter I Set B 12-plex (180986) and sequenced on the Illumina HiSeq 4000 platform. Core sample libraries were prepared with the Roche KAPA HyperPrep Kit (KK8504, 07962363 001) and sequenced on the Illumina NovaSeq 6000 platform. For both platforms, paired-end 150 bp reads were generated, with an average of 26.5 million read pairs (53 million total reads) per sample. Sample metadata, including sequencing platform and read numbers are reported in Table S1.\n\nBioinformatics analysis\n\nAll bioinformatic analyses were performed on the High Performance Computing cluster at New York University. Preprocessing and AMR was calculated using the MetaSUB CAP pipeline (https://github.com/MetaSUB/MetaSUB_CAP) (Danko et al.). Unless specified otherwise, default settings were used for the tools listed below.\n\nPreprocessing\n\nShotgun metagenome raw sequence data, available as pair-end reads, was first processed with AdapterRemoval (v2.2.2) (Schubert et al.), for the removal of low-quality reads and reads with ambiguous bases. This was followed by using Bowtie2 (v2.2.3) (Langmead and Salzberg) for the alignment to the human genome (hg38, including alternate contigs). Read pairs where one or both ends mapped to the human genome were discarded while read pairs where neither mate mapped (referred to as “non-human reads” hereafter) were used for further analysis.\n\nStatistical analysis and visualization\n\nAll statistical analysis and visualization was done in RStudio v4.1.2 (RStudio Team). The statistical tests performed are reported in scripts (see github repository below) as well as figures. Packages used for plotting include Vennerable (Jia et al.), igraph (Csárdi and Nepusz), ggraph (Pedersen), circlize (Gu et al.), ggPlot2 (Wickham), and RainCloudPlots (Allen et al.). The code for the plots is available at https://github.com/HenaffLab/2023_Gowanus_Publication.\n\nTaxonomic assignment\n\nNon-human reads were used for taxonomic profiling using MetaPhlAn3 (v3.0.7) (Beghini et al.), which produces species-level resolution using clade-specific marker genes for profiling taxonomy. MetaPhlAn was run with the flags “—add_viruses” to include viral markers and “—tax_lev ‘s’” to specify taxonomic resolution at the species level, with taxonomy distributions reported as relative abundance (Table S2).\n\nDimensionality reduction\n\nDimensionality reduction of taxonomic data was performed using the R package Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP) (Becht et al.) as it not only preserves the global structure, but also performs a non-parametric mapping. In order to investigate sequencing depth as a factor in UMAP groupings (core samples were sequenced at higher depth that the Sediment samples, see Table S1 for read depths), we downsampled the core reads to the average sediment read depth to generate a normalized dataset. This normalized dataset also generates a similar UMAP plot as seen in Figure S2, and the full dataset was used for all subsequent analyses.\n\nDiversity metrics\n\nThe R Vegan package (Dixon) was used for calculation of diversity metrics. Alpha diversity was calculated using the Simpson and Shannon (also referred to as Shannon–Wiener) indices. The Simpson index or the dominance index accounts for the proportionality of a species in the sample. The Shannon–Wiener index takes into account the randomness present at the site. It also accounts for both the species’ equitability and richness. We report species richness which refers to the total number of different species present in an ecological community. We use Bray–Curtis dissimilarity to report Beta diversity, which quantifies the compositional differences between two sites, accounting for species counts. We use non-metric multidimensional scaling (NMDS) for visualization of beta diversity using Bray–Curtis dissimilarity.\n\nMicrobial species annotation\n\nWe used The Microbe Directory v2 (TMD) (Shaaban et al., Sierra et al.) to annotate species based on ecological and phenotypical features. TMD is a machine readable and hand curated database consisting of taxonomic annotation of viruses, bacteria, fungi, and eukaryotes. The features we reported include extremophilic nature, type of metabolism, and known microbiome isolation location. Automatic characterization of microbes remains challenging, and the breadth and depth of current TMD results can vary based on emerging literature and as more microbes are characterized and accessioned. We have used TMD v2 for characterizing most of the microbes referred to in Table S3, but for some species, we have collected additional literature review, which is referenced in the body of this manuscript.\n\nBioremediation and metabolic studies\n\nNon-human reads were used to characterize metabolic function using the Human Microbiome Project Unified Metabolic Analysis Network3 (HUMAnN3) (v3.0.0.alpha.4) (Beghini et al.), specifying DIAMOND (Buchfink et al.) as the alignment algorithm and UniRef50 (Suzek et al.) as the target database. This tool references the METACYC database for assembling pathways based on genes identified. We utilized the pathway abundances (Table S9) and the pathway coverage files for further analysis (all output files available with supplementary data at https://github.com/HenaffLab/2023_Gowanus_Publication). Pathway abundance values were normalized to copies per million and stratified using the script “humann_infer_taxonomy” provided by HUMAnN3, specifying resolution at the species level (Table S7). Following this, the pathways identified by HUMAnN3 were cross-referenced with the Biocatalysis/Biodegradation Database (http://eawag-bbd.ethz.ch) (Gao et al.), to select pathways with bioremediation potential (Table S8).\n\nAntimicrobial resistance\n\nWe generated AMR profiles by using non-human reads as input to MEGARES2 v1.0.1 using Bowtie2 v2.2.3 (—end-to-end mode, very-sensitive option). MEGARes includes an ontology to group resistance genes according to gene groups (Table S4) and AMR mechanisms (Table S5) and resistance classes (Table S6). The alignment was analyzed using Resistome Analyzer (commit 15a52dd to github.com/cdeanj/resistomeanalyzer) followed by normalization using reads per kilobase million per gene. This workflow is implemented as part of the CAP pipeline (Danko et al.).\n\nGenome mining\n\nBiological Gene Clusters were identified using the BioSynthetic Spades option (“spades.py –bio”) within the Spades assembler (Bankevich et al.) (v3.14.1). This option produces an assembly of the sample sequences (scaffolds.fasta) as well as an assembly enriched only for the classes of non-ribosomal (NRPS) and polyketide (PKS) gene clusters (gene_clusters.fasta). As we are looking to identify BGCs across all potential classes, we proceeded with the full assembly (scaffold.fasta) for the subsequent steps. This analysis was performed separately for each sample. The standalone version of AntiSMASH5 (v5.2.0) (Blin et al.) was used for identification of BGCs in the assembled scaffolds, as well as their classification corresponding to specific types of SMs, and annotation based on similarity to entries in the database of BGCs with known output compounds MIBiG2 (Kautsar et al.). We used prodigal (Hyatt et al.) for gene finding and concentrated on bacteria as taxa. Full specified settings are “—genefinding-tool prodigal—taxon bacteria—cb-general—asf—smcog-trees—cb-knownclusters—cb-subclusters—pfam2go”. This analysis was also performed separately for each sample.\n\nWe combined the AntiSMASH output from all the samples into a list of all BGCs identified across all samples, and used BiG-SCAPE/CORASON (Navarro-Muñoz et al.) to generate gene cluster families according to structural characteristics (using similarity networks) and sequence characteristics (using the Pfam directory). We also used Big-SCAPE to also annotate the families which encode a product similar to the known products in MIBiG2 using the “—mibig” setting.",
+  "results": "Results\n\nMicrobial community characteristics as related to environmental context\n\nMicrobial community metrics\n\nSpecies abundance was computed for all the samples. Kendall correlation (Fig. S1) shows groupings of Gowanus samples into two broad sets, the Core Samples and the Sediment Samples. UMAP dimensional reduction (Fig. 2a) reflects a differential distribution of species based on both location and data type, and groups the samples as Core, Sediment_Winter14 and Sediment_Spring_15, with an overlap between the two Sediment samples. In order to investigate sequencing depth as a factor in this grouping (Core samples were sequenced at higher depth that the Sediment samples, see Table S1 for read depths), we downsampled the Core reads to the average Sediment read depth to generate a normalized dataset. This normalized dataset also generates a similar UMAP plot as seen in Fig. S2, and the full dataset was used for all subsequent analyses. Of a total of 455 species identified across all samples (Table S2), we identified including 13 archaeal species, 241 species of bacteria, and 201 viruses/phages. Of these, 85 species are shared across all the 3 sample sets, and the 2 sediment sample sets share 128 species (Fig. 2d).\n\nWe next evaluated intra-sample alpha and beta taxonomic diversity of our collections. We found that samples from the Core set were different from Sediment samples with lower alpha-diversity (Fig. 2c). While the Shannon index accounts for species richness by including rare species, the Simpson index gives more weight to evenness and common species. Both metrics are independent of group size, therefore the uneven distribution of sample numbers in Core and Sediment sets does not affect the alpha diversity metric (Roswell et al.). Shannon [Kruskal–Wallis, chi-squared = 16.202, P-value = 0.0003033] and Simpson indices [Kruskal–Wallis, chi-squared = 16.022, P-value = 0.0003318] attain statistical significance. Beta-diversity was calculated by Bray–Curtis dissimilarity index and scaled using NDMS (Fig. 2b). The NDMS plot of the taxonomic profiles showed slight separation between the two groups of Sediment sample sets; however, these differences were minor. The samples in the Core set are different from the samples in the Sediment set according to this metric, also previously observed in the UMAP plot (Fig. 2a).\n\nSpecies characterization according to environmental and historical context\n\nMarine organisms related to geographic environment\n\nOriginally in a productive tidal estuary stewarded by the Lenni Lenape people for over 9000 years before colonial contact (Doyle), the present-day environment of the canal is a combination of original sediment, over 150 years of industrial waste, inputs from surrounding runoff and combined sewage overflows (CSOs), and tidal influx. Accordingly, many species found in the Gowanus Canal were previously identified in either marine or freshwater sediment, water or soil. (See Methods for microbial characterization strategies.) Marine sediment species identified include Modestobacter marinus [also radiation-tolerant (Normand et al.)], Labilibaculum filiforme, Draconibacterium orientale (Du et al.), Maribacter arcticus, Sedimentitalea nanhaiensis, Halioglobus lutimaris, Shimia aestuarii, and Thiobacillus denitrificans; and Planktomarina temperata from sea water. Fewer freshwater sediment species were identified, including Methanobacterium lacus and Xanthobacter autotrophicus. Known soil microbes identified include Micrococcus aloeverae and Mycolicibacterium chubuense.\n\nExtremophiles related to contamination\n\nGiven their high concentrations of contaminants, Superfund sites are considered to be extreme environments (Tighe et al.). We identified a number of extremophiles in the Canal, including psychrophilic, thermophilic, and halophilic organisms. Psychrophiles (cryophiles) are organisms capable of surviving in low temperatures especially in deep sea beds and sediments. We identified psychrophiles such as Cryobacterium arcticum (Bajerski et al.), Desulfobacter hydrogenophilus, Hyphomonas jannaschiana (also a barophile), Labilibaculum filiforme, Ma. arcticus, and Thiobacillus denitrificans. The EPA and the New York Department of Environmental Conservation has classified Gowanus as Class SD type saline environment (GEI Consultants). Consistent with this, we observed halophiles, defined as organisms tolerant to hyper saline environments, including Desulfobacterium autotrophicum, Mi. aloeverae (also an alkaliphile), Se. nanhaiensis, and Vibrio diazotrophicus. We also observed a few thermophiles which are organisms adapted for survival in higher temperatures such as Lachnospira pectinoschiza and Thermoleophilum album. On a species level, some of the extremotolerant organisms identified are known for their bioremediation properties. Microbacterium laevaniformans, which has been identified across multiple samples, has previously been isolated from areas contaminated with heavy metals (Brown et al.).\n\nMicrobial species related to the human gut\n\nConsistent with the frequent CSO from the 11 sewage outfalls (see report “Gowanus Canal—DEP” by U.S. EPA) that can release untreated waste into the Canal, we have identified species usually associated with the human gut. In the following list of species, those known for their potential for developing resistance to clinically used antimicrobial drugs are starred (*). These include Gram-negative bacteria like Acinetobacter johnsonii, Adlercreutzia equolifaciens, Gemmiger formicilis, and Tyzzerella nexilis and Gram-positive human gastrointestinal bacteria, including Clostridium leptum, Anaerostipes hadrus, Blautia obeum, Holdemanella biformis, Bulleidia extructa*, Collinsella aerofaciens*, Collinsella intestinalis*, ​​Enorma massiliensis*, Gardnerella vaginalis*, Mycobacterium gordonae*, Lach. pectinoschiza*, and Streptococcus salivarius*. Lactobacillus animalis* also isolated from the Canal, is a commonly consumed probiotic. Archaeal commensal species known to be components of the gut microbiome were identified, including Methanobrevibacter smithii* and Methanobacterium formicicum. See Table S3 for annotation of microbial characteristics generated through the Microbe Directory (Sierra et al.).\n\nGowanus canal as a reservoir of antimicrobial resistance\n\nInvestigating further the potential for the Gowanus Canal to be a reservoir of AMR, we characterized the known classes and mechanisms using the database MEGARes (Table S4 for list of genes associated with AMR, Table S5 for their mechanisms and Table S6 for their classification). We identified 28 genes within 8 classes of antibiotic resistance, the major ones being Rifamycin (which includes Rifampin) and Aminoglycosides, and others, including Tetracyclines, Elfamycins, Phenicol, Sulfonamides, Multi-Drug Resistance, and MLS as shown in Figure S3a. Of these, the most frequently identified gene (ARO:3 003 465, confiring rifampicin resistance) has been identified in 15 out of the 37 samples. The common drug-class mechanisms through which the above noted genes confer resistance is shown in Figure S3b.\n\nThe above analysis attributes genus-level classification when possible to the identified genes, and in this analysis, two of the AMR genes were attributed to Mycobacterium (one Aminoglycoside and one Rifampin, Table S4). While we might assume that these AMR all come from human gut species as those flagged above, some environmental species identified in this dataset are known to harbor resistance genes as well. These include species previously isolated from water and sediment such as the sulfate-reducing Desulfobacter hydrogenophilus and Desulfobacterium autotrophicum, as well as Thermoleophilum album, Se. nanhaiensis, My. gilvum, and My. fallax. Other species potentially harboring AMR have been previously isolated from soil (My. chubuense and My. obuense), and plants (Mi. aloeverae) (Prakash et al.).\n\nCharacterization of bioremediation metabolisms\n\nBioremediation pathways overview\n\nTo further understand the relationship between the Canal microbiome and its environment, we classified metabolic pathways as defined by the MetaCYC (Caspi et al.) database using the software HumanN3 (Beghini et al.), (Table S7 for pathway list). Among them, we identified 64 pathways related to the Canal’s history of contamination, using the list of biotransformation pathways compiled by EAWAG (Gao et al.) as keywords. Among these, 61 pathways fall within the MetaCyc superclass of Degradation/Utilization/Assimilation (DUA), two pathways belonging to the Biosynthesis superclass and one in Detoxification (Table S8). Within the DUA superclass, Aromatic Degradation is the most represented with 52 pathways, including compounds of historical relevance such as toluene, cresols, catechol and phenolic compounds (Fig. 3a).\n\nBioremediation pathways of historical relevance and potential biotech applications\n\nAromatic compound degradation\n\nWithin the Aromatic Degradation class, toluene degradation is the most prevalent subclass (28%), followed by catechol (23%) and phenolic compound degradation (12%) (Fig. 3a). Seven of the bioremediation pathways were attributed to specific microbial species (7 species) (Fig. 3b). In two cases, we observe a one-to-many relationship: a given pathway is attributed to multiple species (e.g. “4-methylcatechol degradation” is associated to My. chlorophenicum and Mycobacterium sp Root135) and in one case, a many-to-one, i.e. a given species is associated with multiple pathways (e.g. Cycloclasticus zancles is associated to “catechol degradation to 2-oxopent-4-enoate II”, “catechol degradation I”, and “catechol degradation II”). In three cases, we observe a one-to-one relationship.\n\nMost of the pathways identified here are related to compounds identified by the EPA Superfund study (see report “Gowanus Canal Site Profile” by U.S. EPA); however, some metabolisms relate to compounds that are not reported in this assessment, such as the PAHs mandelate and gallate.\n\nBesides aromatic compound degradation, the DUA pathways identified also fall in the C1 compound (Lee et al.) utilization and alcohol degradation classes. Relevant to historical contaminants, these include formaldehyde assimilation, also not listed in the EPA site profile report.\n\nHeavy metal superstar\n\nIn addition to organic contaminants, we assessed the metabolic potential of the Gowanus Canal microbiome for response to inorganic contaminants, specifically heavy metals.\n\nOf the 2 808 569 total genes identified by HumanN3 (available at https://github.com/HenaffLab/2023_Gowanus_Publication), 3153 encode proteins that are associated with heavy metals, with the largest number of genes associated with Iron (1743 genes) followed by Cobalt (446), Copper (441), and Nickel (286). Cadmium, Chromate, Lead, Mercury, Vanadium, Arsenic, and Aluminum all counted <100 genes for a given metal. Mechanisms include resistance (141 genes), oxidation/reduction (299), chelation (88), efflux (43), transport (939), and binding (752) (Table S10).\n\nOf the 3153 total metal-associated genes, 1172 are associated with one or more of 201 unique bacterial species (Table S12). Some of these species are associated with a large number of these genes, covering multiple metals (top species are Desulfobacterium autotrophicum, Methanobacterium lacus, Desulfococcus oleovorans, Ruminococcus torques, Desulfobacter hydrogenophilus, Methanosarcina_sp_MTP4, each encoding more than 20 metal related genes).\n\nBGC discovery\n\nOur approach to BGC discovery differs from the sequence similarity based functional analyses described above, since our method (1) identifies gene cluster structures in genomic data, as well as the sequence characteristics, and (2) utilizes assembled scaffolded contigs, rather than using single reads.\n\nSM compounds were divided into six classes depending on their biosynthetic origin: polyketides (PKs), non-ribosomal peptides (NRPs), Ribosomally synthesized and post-translationally modified peptides (RiPPs), terpenoids, saccharides, and indole alkaloids (Keller et al., Medema et al.). Overall, we identified 2319 assembled BGCs in our 37 total samples, including both sediment and core samples [using AntiSMASH5 (Blin et al.) on assembled contigs, see Methods for more details]. Of the 2319 assembled BGCs, 1600 (69%) were classified into 5 predominant classes [using Big-SCAPE (Navarro-Muñoz et al.), which represents a broad range of structural classes], with the remaining 719 unclassified (31%). The SM classes identified include Polyketides (PKS1 and PKSOthers, 18%), Ribosomally synthesized and post-translationally modified Peptides (RiPPs, 21%), followed by nonribosomal peptide synthetases (NRPS, 15%), Terpenes (14%), and PKS-NRP Hybrids (<1%).\n\nBGCs can be grouped into gene cluster families (GCFs, or “families” hereon) that are functionally closely related and encode the production of the same or very similar molecules, which Big-SCAPE characterizes according to structural and sequence characteristics. Of the 2319 BGCs identified in our samples, 44% (1005) exhibited homology with at least one other BGC, grouping into 309 families, while 56% (1314) were singletons (considered as 1314 families of one). These total to 1623 families defining the 2319 total gene clusters identified (Fig. 4a). The largest family counts 28 BGCs, found in the group PKSOthers, followed by 12 in the RiPPs group. The average number of BGCs per family is 1 or 2 in every group.\n\nWhile many families of BGCs have been computationally defined, few have been associated with specific SM compounds experimentally. The Minimum Information about a BGC (MIBiG 2.0) database (Kautsar et al.) records such BGCs with known outputs, and among the 1623 families in our dataset, 13 of these display high similarity (>80%) with BGCs in MiBIG (calculated as the % of genes in the query cluster that have significant BLAST hits with a gene in the target cluster) (Fig. 4b). The remaining 1610 are not associated with a specific compound, and could potentially encode unknown (novel) compounds.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "EPA Superfund",
+    "environmental contamination",
+    "metagenomics",
+    "bioremediation",
+    "antimicrobial resistance",
+    "biomining",
+    "Research Article",
+    "AcademicSubjects/SCI01150"
+  ],
+  "citations": [
+    {
+      "title": "The role of emerging organic contaminants in the development of antimicrobial resistance",
+      "authors": []
+    },
+    {
+      "title": "Identification of the bacterial biosynthetic gene clusters of the oral microbiome illuminates the unexplored social language of bacteria during health and disease",
+      "authors": []
+    },
+    {
+      "title": "Raincloud plots: a multi-platform tool for robust data visualization",
+      "authors": []
+    },
+    {
+      "title": "The role of metal ions in biological systems and medicine",
+      "authors": []
+    },
+    {
+      "title": "Bioremediation: working with bacteria",
+      "authors": []
+    },
+    {
+      "title": "Cryobacterium arcticum sp. nov., a psychrotolerant bacterium from an Arctic soil",
+      "authors": []
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": []
+    },
+    {
+      "title": "Dimensionality reduction for visualizing single-cell data using UMAP",
+      "authors": []
+    },
+    {
+      "title": "Integrating taxonomic, functional, and strain-level profiling of diverse microbial communities with bioBakery 3",
+      "authors": []
+    },
+    {
+      "title": "antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline",
+      "authors": []
+    },
+    {
+      "title": "Draft genome sequence for microbacterium laevaniformans strain OR221, a bacterium tolerant to metals, nitrate, and low pH",
+      "authors": []
+    },
+    {
+      "title": "Fast and sensitive protein alignment using DIAMOND",
+      "authors": []
+    },
+    {
+      "title": "The MetaCyc database of metabolic pathways and enzymes—a 2019 update",
+      "authors": []
+    },
+    {
+      "title": "Urban park soil microbiomes are a rich reservoir of natural product biosynthetic diversity",
+      "authors": []
+    },
+    {
+      "title": "Biosorption and bioaccumulation—the prospects for practical applications",
+      "authors": []
+    },
+    {
+      "title": "The igraph software package for complex network research",
+      "authors": []
+    },
+    {
+      "title": "Bioremediation through microbes: systems biology and metabolic engineering approach",
+      "authors": []
+    },
+    {
+      "title": "A global metagenomic map of urban microbiomes and antimicrobial resistance",
+      "authors": []
+    },
+    {
+      "title": "Microbial bioremediation: a potential tool for restoration of contaminated areas",
+      "authors": []
+    },
+    {
+      "title": "Vegan, a package of R functions for community ecology",
+      "authors": []
+    },
+    {
+      "title": "A systematic analysis of biosynthetic gene clusters in the human microbiome reveals a common family of antibiotics",
+      "authors": []
+    },
+    {
+      "title": "A history and bibliography of the Lenni Lenape",
+      "authors": []
+    },
+    {
+      "title": "Draconibacterium orientale gen. nov., sp. nov., isolated from two distinct marine environments, and proposal of Draconibacteriaceae fam nov",
+      "authors": []
+    },
+    {
+      "title": "Understanding the contribution of environmental factors in the spread of antimicrobial resistance",
+      "authors": []
+    },
+    {
+      "title": "Impact of oil spills on coral reefs can be reduced by bioremediation using probiotic microbiota",
+      "authors": []
+    },
+    {
+      "title": "The University of Minnesota Biocatalysis/Biodegradation Database: improving public access",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Metagenomic insights into the microbial diversity in manganese-contaminated mine tailings and their role in biogeochemical cycling of manganese",
+      "authors": []
+    },
+    {
+      "title": "Seasonal Ely Copper Mine Superfund site shotgun metagenomic and metatranscriptomic data analysis",
+      "authors": []
+    },
+    {
+      "title": "Circlize implements and enhances circular visualization in R",
+      "authors": []
+    },
+    {
+      "title": "Advancement of omics: prospects for bioremediation of contaminated soils",
+      "authors": []
+    },
+    {
+      "title": "Prodigal: prokaryotic gene recognition and translation initiation site identification",
+      "authors": []
+    },
+    {
+      "title": "Venn diagrams in bioinformatics",
+      "authors": []
+    },
+    {
+      "title": "Review of rare earth elements recovery from secondary resources for clean energy technologies: grand opportunities to create wealth from waste",
+      "authors": []
+    },
+    {
+      "title": "Natural product discovery: past, present, and future",
+      "authors": []
+    },
+    {
+      "title": "Potential of extremophiles for bioremediation",
+      "authors": []
+    },
+    {
+      "title": "MIBiG 2.0: a repository for biosynthetic gene clusters of known function",
+      "authors": []
+    },
+    {
+      "title": "Fungal secondary metabolism—from biochemistry to genomics",
+      "authors": []
+    },
+    {
+      "title": "Microbial transformation of the Deepwater Horizon oil spill—past, present, and future perspectives",
+      "authors": []
+    },
+    {
+      "title": "Microbial responses to the Deepwater Horizon oil spill: from coastal wetlands to the Deep Sea",
+      "authors": []
+    },
+    {
+      "title": "Gentrifying a superfund site: why Gowanus, Brooklyn is becoming a real estate hot spot",
+      "authors": []
+    },
+    {
+      "title": "Nonhuman labor and the making of resources: making soils a resource through microbial labor",
+      "authors": []
+    },
+    {
+      "title": "Fast gapped-read alignment with Bowtie 2",
+      "authors": []
+    },
+    {
+      "title": "C1 Compound biosensors: design, functional study, and applications",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial activity of metals: mechanisms, molecular targets and applications",
+      "authors": []
+    },
+    {
+      "title": "Microbial communities evolve faster in extreme environments",
+      "authors": []
+    },
+    {
+      "title": "Geochemistry and microbial diversity of a trichloroethene-contaminated Superfund site undergoing intrinsic in situ reductive dechlorination",
+      "authors": []
+    },
+    {
+      "title": "Heavy metals: biological importance and detoxification strategies",
+      "authors": []
+    },
+    {
+      "title": "Chemical contamination of soils in the New York City area following Hurricane Sandy",
+      "authors": []
+    },
+    {
+      "title": "Metagenome, metatranscriptome and single-cell sequencing reveal microbial response to Deepwater Horizon oil spill",
+      "authors": []
+    },
+    {
+      "title": "Performance evaluation of two Aspergillus spp. for the decolourization of reactive dyes by bioaccumulation and biosorption",
+      "authors": []
+    },
+    {
+      "title": "Mineral phosphorus drives glacier algal blooms on the Greenland Ice Sheet",
+      "authors": []
+    },
+    {
+      "title": "Minimum information about a biosynthetic gene cluster",
+      "authors": []
+    },
+    {
+      "title": "Super fun Superfund: polluted protection along the Gowanus Canal",
+      "authors": []
+    },
+    {
+      "title": "A computational framework to explore large-scale biosynthetic diversity",
+      "authors": []
+    },
+    {
+      "title": "Fungal bioremediation approaches for the removal of toxic pollutants: mechanistic understanding for biorefinery applications",
+      "authors": []
+    },
+    {
+      "title": "A genomic catalog of Earth’s microbiomes",
+      "authors": []
+    },
+    {
+      "title": "A rapid and efficient strategy to identify and recover biosynthetic gene clusters from soil metagenomes",
+      "authors": []
+    },
+    {
+      "title": "Genome sequence of radiation-resistant Modestobacter marinus strain BC501, a representative actinobacterium that thrives on calcareous stone surfaces",
+      "authors": []
+    },
+    {
+      "title": "Metal effect on intein splicing: a review",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Description of Micrococcus aloeverae sp. nov., an endophytic actinobacterium isolated from Aloe vera",
+      "authors": []
+    },
+    {
+      "title": "Natural gas and temperature structured a microbial community response to the Deepwater Horizon oil spill",
+      "authors": []
+    },
+    {
+      "title": "Microbial dechlorination of polychlorinated biphenyls, dibenzo-p-dioxins, and -furans at the Portland Harbor Superfund Site, Oregon, USA",
+      "authors": []
+    },
+    {
+      "title": "A conceptual guide to measuring species diversity",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Discovery of microbial natural products by activation of silent biosynthetic gene clusters",
+      "authors": []
+    },
+    {
+      "title": "Strategies for microbial bioremediation of environmental pollutants from industrial wastewater: a sustainable approach",
+      "authors": []
+    },
+    {
+      "title": "A comprehensive review on immobilized microbes—biochar and their environmental remediation: mechanism, challenges and future perspectives",
+      "authors": []
+    },
+    {
+      "title": "AdapterRemoval v2: rapid adapter trimming, identification, and read merging",
+      "authors": []
+    },
+    {
+      "title": "The Microbe Directory: an annotated, searchable inventory of microbes’ characteristics",
+      "authors": []
+    },
+    {
+      "title": "Bioremediated techniques for remediation of metal pollutants using metagenomics approaches: a review",
+      "authors": []
+    },
+    {
+      "title": "The microbe directory v2.0: an expanded database of ecological and phenotypical features of microbes",
+      "authors": []
+    },
+    {
+      "title": "Microbiome and metagenomic analysis of Lake Hillier Australia reveals pigment-rich polyextremophiles and wide-ranging metabolic adaptations",
+      "authors": []
+    },
+    {
+      "title": "UniRef clusters: a comprehensive and scalable alternative for improving sequence similarity searches",
+      "authors": []
+    },
+    {
+      "title": "Genomic methods and microbiological technologies for profiling novel and extreme environments for the Extreme microbiome Project (XMP)",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Gowanus Canal superfund site proposed plan",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Feasibility study Gowanus Canal",
+      "authors": []
+    },
+    {
+      "title": "New keys to unlock the treasure trove of microbial natural products",
+      "authors": []
+    },
+    {
+      "title": "Biosynthetic potential of uncultured Antarctic soil bacteria revealed through long-read metagenomic sequencing",
+      "authors": []
+    },
+    {
+      "title": "Defining the onset of the Anthropocene",
+      "authors": []
+    },
+    {
+      "title": "ggplot2",
+      "authors": []
+    },
+    {
+      "title": "Responses of microbial community functional structures to pilot-scale uranium in situ bioremediation",
+      "authors": []
+    }
+  ],
+  "original_title": "Metagenomic interrogation of urban Superfund site reveals antimicrobial resistance reservoir and bioremediation potential.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f183/11999716/39566a00921f/lxaf076fig1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f183/11999716/f7be2e228d3a/lxaf076fig2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f183/11999716/0e7e3ae9264f/lxaf076fig3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f183/11999716/14bf3be8b4f7/lxaf076fig4.jpg"
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "pmcid": "PMC5460135",
+  "title": "Investigation of simulated microgravity effects on Streptococcus mutans physiology and global gene expression",
+  "abstract": "Astronauts have been previously shown to exhibit decreased salivary lysozyme and increased dental calculus and gingival inflammation in response to space flight, host factors that could contribute to oral diseases such as caries and periodontitis. However, the specific physiological response of caries-causing bacteria such as Streptococcus mutans to space flight and/or ground-based simulated microgravity has not been extensively investigated. In this study, high aspect ratio vessel S. mutans simulated microgravity and normal gravity cultures were assessed for changes in metabolite and transcriptome profiles, H2O2 resistance, and competence in sucrose-containing biofilm media. Stationary phase S. mutans simulated microgravity cultures displayed increased killing by H2O2 compared to normal gravity control cultures, but competence was not affected. RNA-seq analysis revealed that expression of 153 genes was up-regulated ≥2-fold and 94 genes down-regulated ≥2-fold during simulated microgravity high aspect ratio vessel growth. These included a number of genes located on extrachromosomal elements, as well as genes involved in carbohydrate metabolism, translation, and stress responses. Collectively, these results suggest that growth under microgravity analog conditions promotes changes in S. mutans gene expression and physiology that may translate to an altered cariogenic potential of this organism during space flight missions.\n\nMicrobiology: Cavities-causing bacteria altered by space-like conditions\n\nThe gene expression patterns, metabolism and physiology of tooth cavities-causing microbes change in a space-like gravity environment. These findings could help explain why astronauts are at a greater risk for dental diseases when in space. Kelly Rice and colleagues from the University of Florida, Gainesville, USA, cultured Streptococcus mutans bacteria under simulated microgravity and normal gravity conditions. The bacteria grown in microgravity were more susceptible to killing with hydrogen peroxide, tended to aggregate in more compact cellular structures, showed changes in their metabolite profile and expressed around 250 genes at levels that were either much higher or lower than normal gravity control cultures. These genes included many involved in carbohydrate metabolism, protein production and stress responses. The observed changes collectively suggest that space flight and microgravity could alter the cavities-causing potential of S. mutans.",
+  "introduction": "Introduction\n\nStreptococcus mutans is a primary causative agent of dental caries, demonstrated by its isolation from carious tooth lesions in humans, its ability to initiate caries in germ-free rodent models of infection, and the established link between high levels of this bacterium in the oral cavity and active caries. Although preventable by fluoridation of water and various dental procedures,, caries remains the most common chronic disease among children, and remains untreated in up to 30% of adults over 35 years-old. S. mutans transient bacteremias can also initiate endocarditis in at-risk patient groups. Successful colonization of the oral cavity and persistence in multi-species dental plaque by S. mutans is inherently dependent on both its ability to form biofilm and its rapid metabolism of carbohydrates by the glycolytic pathway. The low pH that results from accumulation of acidic metabolic end-products favors the growth of S. mutans and other acid-tolerant species relative to healthy plaque microflora, as well as the eventual demineralization of tooth enamel and the development of caries. Adherence of S. mutans to the tooth surface and subsequent biofilm development are mediated by several bacterial factors, including production of sucrose-dependent extracellular glucan polymers by glucosyltransferase enzymes, specific cell surface adhesins, the major autolysin AtlA, the quorum-sensing competence (com) system, and extracellular DNA.\n\nTo protect the health of astronauts during space flight missions, it is critical to understand the effects of this environment on both host biology and the host microbiota. Simulated microgravity exposure has been shown to cause increased mandibular and alveolar bone loss and decreased saliva flow, significant predisposing host factors that could contribute to development of caries and/or periodontal disease. Traditionally, the approach to maintaining astronaut oral health during space flight missions has been routed in preventative dentistry, whereby astronauts are subjected to rigorous preflight dental screening and treatment. However, in the face of future long-term space flight missions, research and discovery of new methods for maintaining oral hygiene and dental health under a microgravity environment are required. Previous studies on the effects of spaceflight on the oral microbiota have primarily focused on culture-dependent methods of quantifying the numbers of oral bacteria in human subjects before and after spaceflight. Furthermore, astronauts have been shown to exhibit decreased salivary lysozyme and increased dental calculus and gingival inflammation in response to space flight. However, assessment of the physiology and virulence potential of oral pathogens such as S. mutans under controlled microgravity analog conditions has been relatively lacking. In this respect, rotating wall vessel bioreactors are a common technology used to grow bacteria under microgravity analog conditions in ground-based studies. When completely filled with media (lacking air bubbles or “head space”) and rotated on the axis perpendicular to the Earth’s gravitational vector, these reactors maintain a low-shear environment (<1 dyn/cm2) whereby gravitational vectors are randomized over the surface of the cells or particles contained within the vessel. As such, this simulated environment models “weightlessness” by counteracting gravitational forces that would otherwise promote cellular sedimentation. The low-shear force experienced in this microgravity analog system boasts the additional advantage of mimicking the low-shear force of saliva flow (<0.8 dyn/cm2) experienced by plaque bacteria in the oral cavity. In this study, high-aspect rotating vessels (HARVs) were therefore used to ascertain the effects of simulated microgravity on S. mutans gene expression, physiology, oxidative stress resistance, and competence, using both culture-dependent and “-omic” (metabolomics and RNA-seq) approaches.",
+  "methods": "Materials and methods\n\nBacterial strain and growth conditions\n\nS. mutans UA159 was used for all of the experiments described below. All S. mutans cultures (including HARV vessels) were grown at 37 °C in a 5% CO2 incubator. For each experiment, S. mutans was freshly streaked from a frozen 30% (vol vol−1) glycerol stock onto Brain heart infusion (BHI) agar and grown for 48 h. A single colony was then inoculated into 30 ml BHI broth, and grown as a static culture for 16–18 h prior to inoculation of HARVs. Disposable vessel rotary cell culture systems (Synthecon) with vertical and horizontal 4-station rotator bases were used to simulate microgravity (HARV rotated on axis perpendicular to gravitational vector) and “normal” (1 × g) gravity (HARV rotated on axis parallel to gravitational vector), respectively (Supplemental Figure S4). All HARV manipulations were performed under a Class II A2 biosafety cabinet (Labconco). HARV vessels were filled with sterile media according to manufacturer’s recommendations, and incubated at room temperature for 18 h prior to each experiment. This media was then aseptically removed, and 20× dilute S. mutans overnight culture (approximate OD600 = 0.06/ml) in room-temperature semi-defined biofilm media (BM) containing 11 mM glucose and 10 mM sucrose, was used to fill each HARV. Prior to HARV rotation and incubation, sterile 5-ml luer lock syringes were used to remove air bubbles according to manufacturer’s protocols.\n\nContinuous HARV growth curves\n\nFor each experiment (n = 3 independent experiments per growth condition), overnight S. mutans cultures were used to inoculate 120 ml of sterile BM containing 11 mM glucose and 10 mM sucrose. This inoculum was mixed well by vigorous swirling and vortexing, and 1 ml withdrawn to measure the time-of-inoculation (t = 0) CFU/ml. The remaining inoculum volume was then subjected again to vigorous swirling and vortexing and immediately used to fill 2 × 50 ml disposable HARVs as described above. Each HARV was rotated either vertically (“simulated microgravity”) or horizontally (“normal gravity”) at 37 °C, 5% CO2 for 24 h. HARVs were rotated at 30 RPM for the first 8 h of growth, and the rotation speed of each reactor was increased to 32 RPM after 8 h of growth to ensure that S. mutans cell aggregates did not settle to the bottom of the simulated microgravity HARV. At 2, 4, 6, 8, 12, and 24 h postinoculation, each HARV was removed from the incubator, vigorously agitated to remove adherent cell clumps from the walls and membrane of the HARV reactor and evenly dispersing cell clumps, and 1 ml culture was immediately removed for CFU/ml assessment. The same volume of sterile media was then added back to each HARV and air bubbles removed as described above prior to re-initiation of simulated microgravity or normal gravity HARV growth. For CFU/ml quantification, each 1 ml sample was vortexed vigorously for at least 30 s to resuspend cell clumps, followed immediately by serial dilution (each tube vortexed vigorously for at least 15 s between each dilution) and CFU/ml determination using the track plating method.\n\nHARV “end-point” growth curves\n\nOvernight S. mutans cultures were used to inoculate 500 ml sterile BM containing 11 mM glucose and 10 mM sucrose to an approximate OD600 = 0.06/ml as described above. This inoculum was mixed well by vigorous swirling and vortexing, and 1 ml was withdrawn to measure the t = 0 OD600, pH, and CFU/ml. The remaining inoculum volume was then immediately used to fill 8 × 50 ml disposable HARVs (inoculum volume was subjected to vigorous swirling and vortexing before addition to each HARV). For end-point growth curve analysis at t = 4, 6, 8, and 12 h (n = 2 independent experiments total per time point per growth condition), four simulated microgravity and four normal gravity HARV cultures were grown in parallel at 37 °C, 5% CO2. HARVs were rotated at 30 RPM for the first 8 h of growth, and the rotation speed of each reactor was increased to 32 RPM after 8 h of growth to ensure that S. mutans cell aggregates did not settle to the bottom of the simulated microgravity cultures. At each time point, one simulated microgravity and one normal gravity HARV were each harvested as follows: 25 ml of HARV culture was transferred to a sterile 50 ml Falcon tube. The HARV was then closed and shaken vigorously for approximately 5 s (until there were no remaining visible clumps of bacteria stuck to the inside walls and membrane of the HARV). The reactor was then immediately uncapped and the remaining culture transferred to the 50 ml Falcon tube, which was vortexed at high speed for 30 s prior to removing 100 µl for CFU counts. The tube was vortexed again for 10 s, and 900 µl immediately removed for measuring OD600 and pH readings. OD600 readings were obtained using a Genesys 10 Bio spectrophotometer (Thermo Scientific), culture pH measured with colorpHast indicator strips (EMD), and CFU/ml calculated by serial dilution plating as described above. For the end-point growth curve analysis at t = 24 and t = 48 h, a separate experiment (n = 2 biological replicates for each time point) was performed as described above.\n\nHARV end-point growth for metabolomic and RNA-seq analyses\n\nOvernight S. mutans cultures were used to inoculate 350 ml sterile BM containing 11 mM glucose and 10 mM sucrose to an approximate OD600 = 0.06/ml as described above. This inoculum was mixed well by vigorous swirling and vortexing, and 1 ml was withdrawn to measure the t = 0 OD600, pH, and CFU/ml. The remaining inoculum volume was then immediately used to fill 6 × 50 ml disposable HARVs (inoculum volume was subjected to vigorous swirling and vortexing before addition to each HARV). A sterile media control was also collected at the beginning of each experiment and stored at −80 °C for metabolomics analysis (see below). For each experiment (n = 3 independent experiments total), three simulated microgravity and three normal gravity HARV cultures were grown in parallel at 37 °C, 5% CO2 as described above for the end-point growth curve analysis. For each experiment, one simulated microgravity and one normal gravity HARV were each harvested at t = 4, t = 8 h, and t = 24 h growth, as described above for the end-point growth curve analysis (for a total of n = 3 independent samples per time point per growth condition). HARVs were photographed prior to culture disruption and harvest to document macroscopic growth observations. After harvesting, 34 ml of each t = 4, 8, and 24 h HARV culture was centrifuged at 3000 RPM, 4 °C for 20 min and immediately placed on ice. 1 ml of culture supernatant was removed from each centrifuged sample, transferred to 1.5 ml tubes, and immediately frozen at −80 °C. The remaining culture supernatants were decanted and cell pellets immediately frozen at −80 °C. For RNA-seq samples (t = 8 h only), a 10-ml aliquot of each HARV culture was also centrifuged at 3000 RPM, 4 °C for 20 min and immediately placed on ice. Culture supernatants were decanted and 1 ml RNAlater (Ambion) was added to each cell pellet prior to immediate storage at −80 °C.\n\nMetabolite extraction and metabolomics analysis\n\nExtraction of metabolites (n = 3 independent biological samples per time point and growth condition) and all metabolomics analyses (including statistics) were performed by Metabolon, Inc. (Durham, NC) following previously-published methods. Details specific to this experiment can be found in Supplemental File S1 (Supplemental Materials and Methods).\n\nRNA isolation and RNA-seq analysis\n\nRNA was isolated from t = 8 h cell pellets stored at −80 °C in RNAlater (collected from n = 3 independent experiments each for simulated microgravity and normal gravity HARV cultures) with the RNeasy Kit (Qiagen) and FASTPREP lysing matrix B tubes (MP Biomedical) using previously-described methods. Each RNA sample was then subjected to a second DNAse treatment using the TURBO DNA-free™ Kit (Thermo Fisher Scientific) per the manufacturer’s protocols. Lack of contaminating genomic DNA in each RNA sample was then determined using quantitative real-time PCR (i.e. no cDNA synthesis step) and S. mutans-specific primers (1547-F/R; Supplemental Table S3) prior to sending ≥5 µg of each RNA sample to Seqwright Genomic Services (Houston, TX), who performed all steps of the RNA-seq workflow, data curation, differential expression, and corresponding statistical analysis. In brief, each RNA sample was subjected to an mRNA enrichment step and generation of a library of cDNA template molecules of known strand origin using the TruSeq Total mRNA Sample Preparation Kit (Illumina). Sequencing was performed using the Illumina HiSeq 2500 platform, generating 2 × 100 bp read lengths for a total of 2 × 10 M reads per sample. Illumina CASAVA software was used to create genomic builds and count reads, whereas TopHat-2.0.8b and Cufflinks-2.0.1 were used to align reads to the S. mutans UA159 genome (Genbank accession # NC_004350.2). ﻿All RNA-seq data have been deposited to NCBI's Gene Expression Omnibus and are accessible through GEO Series accession number GSE90166.﻿\n\nHydrogen peroxide (H2O2) assay\n\nFor each experiment (n = 3 independent biological samples each for simulated microgravity and normal gravity HARV cultures), two S. mutans 10-ml HARV cultures were inoculated as described above, and each was grown for either 4, 8, or 16 h. For the 4 and 8 h experiments, the HARV rotation speed was 30 RPM. For the 16 h experiment, the HARV rotation speed was 30 RPM for the first 8 h of growth, and was then increased to 35 RPM to counteract sedimentation of cellular aggregates. S. mutans cultures were then harvested from each HARV vessel, transferred to a 50 ml Falcon tube, and centrifuged for 10 min at 4000 RPM. Cell pellets were resuspended in 5 ml sterile 1× Hanks Buffered Salt Solution (HBSS), and 100 µl was withdrawn from each tube and subjected to serial dilution plating as described above to enumerate CFU/ml of each cell suspension at “t = 0” (prior to H2O2 addition). H2O2 was added to each remaining 4.9 ml cell suspension to a final concentration of 5 mM, and incubated at 37 °C, 5% CO2. Samples of each cell suspension were removed at 15, 30, 45, 60, and 120 min post-H2O2 addition to enumerate CFU/ml, and % survival for each sample was calculated by 100× (t = × CFU/ml/t = 0 CFU/ml).\n\nCompetence assay\n\nThe ability of S. mutans to take up exogenous DNA was assessed in microgravity and normal gravity HARV cultures based on previously-described methods. For each experiment (n = 3 independent biological samples each for simulated microgravity and normal gravity HARV cultures), S. mutans 10-ml micro-gravity and normal gravity HARV cultures were grown in BM containing 11 mM glucose and 10 mM sucrose for 90 min [corresponding to 2.3 × 106 CFU/ml (±3.0 × 105 SEM) for normal gravity and 3.1 × 106 CFU/ml (±1.5 × 105 SEM) for simulated microgravity] at 30 RPM. HARVS were removed from rotator bases and 2 µg of unmethylated pOri23 plasmid DNA was added to each reactor. Microgravity and normal gravity HARVs were then incubated for 2.5 h at 30 RPM prior to serial dilution and plating of each culture on BHI agar ±10 µg/ml erythromycin (Erm; selectable antibiotic for pOri23). CFU/ml were determined after 48 h plate growth, and transformation efficiencies were calculated as the percentage of transformants (BHI-Erm10 CFU/ml) among the total viable cells (BHI CFU/ml). For each experiment, a non-rotating control culture (15-ml Falcon tube containing 15 ml of S. mutans culture) was grown in parallel and assessed for competence as described above.\n\nBioinformatics\n\nThe DAVID Bioinformatics Resource was used to aid in functional categorization of the RNA-seq differential expression data and to perform functional annotation clustering. Only genes with statistically-significant log2-fold changes of at least ±1.0 were included in these analyses. The lowest classification stringency was used for functional categorization. For functional annotation clustering analysis, the default analysis parameters were used: Medium classification stringency, similarity threshold = 0.5, enrichment threshold (EASE score) = 1.0. As recommended previously, an enrichment score cutoff of ≥1.3 was applied to the functional annotation clustering analysis. For identifying trends in metabolic pathway changes, all statistically-significant RNA-seq differential expression data with a log2-fold change of at least ±0.6 were also analyzed using Metacyc.\n\nStatistics\n\nFor metabolomics, statistical analyses were performed in ArrayStudio on log transformed data. For those analyses not standard in ArrayStudio, the programs R (http://cran.r-project.org/) or JMP (SAS, http://www.jmp.com) were used as previously described. Two-way ANOVA was used to compare the effects of treatment (simulated microgravity vs. normal gravity growth) and growth time (t = 4, 8, and 24 h) on metabolite differences. Multiple comparisons were accounted for with the false discovery rate (FDR) method, and each FDR was estimated by q-values. PCA was also applied to the metabolomics data. For RNA-seq, differential expression analysis was performed by Seqwright Genomic Services using FPKM (fragments per kilobase per million mapped reads) values and fold-change was expressed as log2 (FPKM normal gravity/FPKM simulated microgravity). For all other data, statistical analyses were performed using Sigmaplot version 12.5 (Build 12.5.0.38, Systat Software, Inc.). Data was tested for normality and equal variance, followed by a T-test or Rank-sum test, as appropriate.",
+  "results": "Results\n\nS. mutans HARV growth curves and cell aggregation\n\nTo probe the effect of simulated microgravity growth on S. mutans, continuous growth curves (whereby cell samples were removed from the same HARV at different time points) were performed (n = 3 independent experiments each) in biofilm media (BM) containing 11 mM glucose and 10 mM sucrose over a 24 h period. In this analysis, no statistically significant differences in CFU/ml at each time point were observed (Supplemental Fig. S1). An initial decrease in CFU/ml was observed in both the simulated microgravity and normal gravity HARV cultures between t = 0 (time of inoculation) and t = 2 h growth, which was likely a function of sucrose-dependent cell aggregation. Very small differences in cell viability patterns in early stationary phase (6–8 h growth) suggest that the simulated microgravity HARV culture may have entered stationary phase slightly sooner than the normal gravity HARV culture in this experiment. As well, the simulated microgravity culture persisted in stationary phase until approximately 12 h growth, followed by a somewhat rapid death phase, with a 1-log loss of viability between 12 and 24 h growth. In contrast, the viability of normal gravity culture underwent a more gradual decrease in cell viability between 12 and 24 h of growth.\n\nMonitoring of cell growth by CFU/ml in the continuous growth curve experiments described above required constant disruption of the HARV cultures, making it difficult to assess potential macroscopic differences in cell aggregation in the simulated microgravity and normal gravity conditions. Therefore, these growth curves were also performed using an “end-point” approach, whereby simulated microgravity and normal gravity HARV cultures (n = 2 independent experiments per time point per growth condition) were grown undisturbed in replicate HARV vessels for t = 4, 6, 8, 12, 24, and 48 h (Fig. 1). Using this end-point approach, no significant differences in CFU/ml were observed between the simulated microgravity and normal gravity HARV cultures at the assessed time points (Fig. 1), and the initial drop in CFU/ml observed early in the growth curves of the continuous cultures (Supplemental Fig. S1) was not observed in these end-point cultures. As well, both the simulated microgravity and normal gravity cultures underwent the same pattern of growth when monitored with this end-point approach: Log phase growth occurred between 0 and 6 h, and both cultures were in early stationary phase at 8 h growth, followed by entry into late stationary phase/death phase between 24 and 48 h growth. Interestingly, differences in macroscopic cell aggregation were consistently observed between the simulated microgravity and normal gravity HARV conditions when using the end-point growth analysis. Specifically, the simulated microgravity condition tended to form round/compact cellular structures, whereas the aggregates in the normal gravity growth condition tended to form less compact structures (Fig. 2).\n\nMetabolomics analysis of “end-point” HARV cultures\n\nTo monitor potential differences in the metabolome of simulated microgravity and normal gravity HARV cultures, cell pellets and culture supernatants were harvested from a second end-point HARV culture experiment (n = 3 independent experiments per time point per growth condition) at t = 4, t = 8, and t = 24 h samples, corresponding to log-phase, early stationary phase, and late stationary/death phase, respectively (Supplemental Fig. S2 ). Given that macroscopic differences in the self-aggregating clusters of S. mutans cells were consistently observed at the t = 8 h time point (Fig. 2), RNA-seq analysis was also performed on the t = 8 h samples. Principle component analysis (PCA) of metabolomics data generated from t = 4, 8, and 24 h HARV cultures (Supplemental Files S2 and S3) revealed a strong relationship between the time of growth (t = 4, 8, and 24 h) and metabolite profile for each of the simulated microgravity and normal gravity cultures (Fig. 3). However, a much weaker “time-treatment” relationship existed when comparing the metabolite profile between simulated microgravity vs. normal gravity cultures at each time point. Welch’s two sample t tests revealed 8, 14, and 10 statistically significant differences (p ≤ 0.05) in cellular metabolite production between cells grown under normal gravity and microgravity conditions at the 4, 8, and 24 h time points, respectively (Supplemental File S2). Likewise, 21, 21, and 23 statistically significant differences were observed between the corresponding culture supernatant samples at these time points (Supplemental File S3). Keeping in mind the caveat that the number of significant differences at each time point were close to that expected by random chance alone (5% error rate), the significant changes of cell-associated and supernatant metabolites of the 8 h HARV cultures are summarized in Table 1, and their potential relationship to the corresponding 8 h RNA-seq data are discussed below.\n\nRNA-seq analysis\n\nBecause macroscopic structural differences between the S. mutans simulated microgravity and normal gravity HARV cultures were consistently observed at 8 h growth (early stationary phase), we chose to perform RNA-seq analysis on n = 3 independent biological samples per growth condition (simulated microgravity and normal gravity) isolated from this time point. Compared to the metabolomics data, differential expression analysis of the 8 h RNA-seq data revealed a large number of statistically significant gene expression changes in normal gravity relative to simulated microgravity growth (Supplemental File S4). Specifically, 94 genes were up-regulated (log2 fold-change ≥1.0) and 153 genes were down-regulated (log2 fold-change ≤−1.0) in normal gravity cultures relative to simulated microgravity cultures. These patterns in gene expression were confirmed by qPCR for a subset of genes (Supplemental Table S1). Functional classification (Fig. 4) revealed that expression of a large number of genes associated with transposon sequences, as well as several genes encoding predicted phage proteins, were down-regulated in normal gravity cultures relative to simulated microgravity growth. A second trend of interest was the significant down-regulated expression of genes involved in carbohydrate metabolism, including various phosphotransferase (PTS) systems, the carbon catabolite protein regulator ccpA, and the redox sensitive transcriptional regulator rex, in the 8 h normal gravity cultures relative to the simulated microgravity cultures (Fig. 4 and Supplemental File S4). Increased expression of genes encoding ribosomal proteins, tRNAs and other aspects of protein translation was also observed in the normal gravity cultures compared to simulated microgravity growth, whereas expression of a large number of genes encoding transcriptional regulators was decreased in the normal gravity cultures (Fig. 4). As well, altered expression of stress genes was also observed in the normal gravity HARV cultures, including decreased expression of the toxin–antitoxin (TA) systems mazEF (SMU_172/173) and relBE (SMU_895/896), decreased expression of the holin-like lrgA, decreased expression of the peroxide resistance gene dpr, and increased expression of genes encoding glutathione S-transferase (SMU_1296) and glutaredoxin (SMU_669c) (Fig. 4).\n\nDAVID bioinformatics resource was used to further probe the RNA-seq dataset for functional annotation groups that were enriched in the genes that displayed a log2 fold change expression of at least ±1.0 in the normal gravity vs. simulated microgravity HARV cultures (Supplemental Table S2). This analysis revealed the presence of four significant (enrichment scores ≥1.3) functional annotation clusters in the down-regulated normal gravity genes, which included genes involved in carbohydrate metabolism and transport (cluster I), transcriptional regulators (clusters II and III), and carbohydrate transporters/other membrane proteins (cluster IV). As well, functional annotation clusters involved in arginine metabolism (cluster V) and nucleoside/tRNA metabolism (cluster VI) were significantly enriched (enrichment scores ≥1.3) in the up-regulated normal gravity genes. To identify metabolic pathways potentially altered under the simulated microgravity growth condition, all statistically-significant changes in 8 h growth gene expression from the RNA-seq differential expression analysis with a minimum log2 fold-change of at least ±0.6 were also analyzed using the bioinformatics program Metacyc.. The top metabolic pathways identified by this analysis were mixed acid fermentation (seven genes), arginine biosynthesis (six genes), and pyrimidine deoxyribonucleotide biosynthesis (five genes) (Supplemental Fig. S3). Specifically, genes involved in the conversion of acetyl-CoA to 2-oxoglutarate (a TCA cycle intermediate), arginine biosynthesis, and dCDP/dTMP biosynthesis were upregulated in the normal gravity HARV cultures, whereas genes involved in ethanol and acetate fermentation were down-regulated in normal gravity HARV cultures. Interestingly, when comparing these metabolic pathways to statistically-significant changes in cellular metabolites at 8 h growth (Table 1), several matched to the corresponding metabolic pathway changes (Supplemental Fig. S3) identified in the RNA-seq data by Metacyc, including 2-oxogluarate (alpha-ketoglutarate; mixed acid fermentation), pyruvate (mixed acid fermentation), argininosuccinate (arginine biosynthesis), uridine monophosphate and uracil (pyrmidine deoxynucleotide de novo biosynthesis). The apparent increased sensitivity of the RNA-seq data in detecting more changes in S. mutans metabolism relative to the corresponding metabolomics data may reflect a suboptimal component of the metabolomics sample collection method and/or processing time.\n\nAssessment of oxidative stress and competence phenotypes\n\nS. mutans encounters significant oxidative stress in the oral cavity in the form of H2O2 production by competing non-cariogenic oral streptococci, as well as from dental care products (toothpastes, mouthwash) that contain H2O2. Furthermore, expression of several oxidative stress-related genes (dpr, rex, SMU_1296, SMU_669c) was altered in the 8 h simulated microgravity HARV cultures. Therefore, the ability of S. mutans to survive exogenous H2O2 treatment was compared in cells isolated from exponential (t = 4), early-stationary (t = 8) and late stationary (t = 16) simulated microgravity and normal gravity HARV cultures (Fig. 5). Although no significant differences in oxidative stress resistance were observed between normal gravity and simulated microgravity cells isolated from 4 and 8 h growth, the H2O2-treated 4 h cells (Fig. 5a) displayed a greater overall loss of viability (~1% survival after 90 min of treatment) compared to the 8 h cells (Fig. 5b; ~50% survival after 90 min of treatment). Interestingly, when this experiment was repeated on cells from normal gravity and simulated microgravity cultures harvested at 16 h growth (Fig. 5c), the simulated microgravity cells displayed significantly (P < 0.05, one-tailed T test) increased H2O2 killing (~22% survival after 60 min treatment) compared to the normal gravity cells (~43% survival after 60 min treatment).\n\nBecause previous S. mutans studies have implicated a complex link between oxidative stress, biofilm formation, and natural competence [reviewed in], we were curious if competence was also subject to regulation by the low-shear modeled microgravity ﻿(LSMMG) environment. Therefore early-exponential phase (growth phase at which S. mutans is most competent during standard in vitro growth) simulated microgravity and normal gravity HARV cultures were tested for their ability to uptake plasmid DNA. However, transformation efficiency (as measured by uptake of a plasmid conferring erythromycin resistance) was nearly identical between simulated microgravity and normal gravity HARV cultures (Fig. 6). The transformation efficiency was also not affected by HARV growth itself, as the HARV transformation efficiencies were similar to those measured in a parallel non-rotating culture of S. mutans (Fig. 6).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "The predominant microflora of nursing caries lesions",
+      "authors": [
+        "S Marchant",
+        "SR Brailsford",
+        "AC Twomey",
+        "GJ Roberts",
+        "D Beighton"
+      ]
+    },
+    {
+      "title": "Experimental caries and gingival pathologic changes in the gnotobiotic rat",
+      "authors": [
+        "RJ Fitzgerald",
+        "HV Jordan",
+        "HR Stanley"
+      ]
+    },
+    {
+      "title": "Longitudinal study of dental caries incidence associated with Streptococcus mutans and Streptococcus sobrinus in pre-school children",
+      "authors": [
+        "M Okada"
+      ]
+    },
+    {
+      "title": "Effectiveness of methods used by dental professionals for the primary prevention of dental caries",
+      "authors": [
+        "RG Rozier"
+      ]
+    },
+    {
+      "title": "U.S. Department of Health and Human Services. Oral Health in America: a Report of the Surgeon General. Rockville, MD: US Department of Health and Human Services, National Institute of Dental and Craniofacial Research, National Institutes of Health (2000).",
+      "authors": []
+    },
+    {
+      "title": "Detection of cariogenic Streptococcus mutans in extirpated heart valve and atheromatous plaque specimens",
+      "authors": [
+        "K Nakano"
+      ]
+    },
+    {
+      "title": "Contributions of three glycosyltransferases to sucrose-dependent adherence of Streptococcus mutans",
+      "authors": [
+        "T Ooshima"
+      ]
+    },
+    {
+      "title": "Functional variation of the antigen I/II surface protein in Streptococcus mutans and Streptococcus intermedius",
+      "authors": [
+        "FC Petersen",
+        "S Assev",
+        "HC van der Mei",
+        "HJ Busscher",
+        "AA Scheie"
+      ]
+    },
+    {
+      "title": "Functional characterization of cell-wall-associated protein WapA in Streptococcus mutans",
+      "authors": [
+        "L Zhu"
+      ]
+    },
+    {
+      "title": "The atlA operon of Streptococcus mutans: role in autolysin maturation and cell surface biogenesis",
+      "authors": [
+        "SJ Ahn",
+        "RA Burne"
+      ]
+    },
+    {
+      "title": "Quorum sensing and biofilm formation by Streptococcus mutans",
+      "authors": [
+        "D Senadheera",
+        "DG Cvitkovitch"
+      ]
+    },
+    {
+      "title": "Role of eDNA on the adhesion forces between Streptococcus mutans and substratum surfaces: influence of ionic strength and substratum hydrophobicity",
+      "authors": [
+        "T Das",
+        "PK Sharma",
+        "BP Krom",
+        "HC van der Mei",
+        "HJ Busscher"
+      ]
+    },
+    {
+      "title": "Bone mineral density, bone mineral content, gingival crevicular fluid (matrix metalloproteinases, cathepsin K, osteocalcin), and salivary and serum osteocalcin levels in human mandible and alveolar bone under conditions of simulated microgravity",
+      "authors": [
+        "B Rai",
+        "J Kaur",
+        "M Catalina"
+      ]
+    },
+    {
+      "title": "Evaluation by an aeronautic dentist on the adverse effects of a six-week period of microgravity on the oral cavity",
+      "authors": [
+        "B Rai",
+        "J Kaur",
+        "BH Foing"
+      ]
+    },
+    {
+      "title": "The history and importance of aeronautic dentistry",
+      "authors": [
+        "B Rai",
+        "J Kaur"
+      ]
+    },
+    {
+      "title": "Brown, L.R., Frome, W. J., Handler, S., Wheatcroft, M. G. & Rider, L. J. Skylab oral health studies in Biomedical Results from Skylab National Aeronautics and Space Administration (Johnston, R. S. & Dietlein, L. F.) (Johnson Space Center, 1977). pp. 35–44.",
+      "authors": []
+    },
+    {
+      "title": "Effects of a simulated skylab mission on the oral health of astronauts",
+      "authors": [
+        "LR Brown",
+        "MG Wheatcroft",
+        "WJ Frome",
+        "LJ Rider"
+      ]
+    },
+    {
+      "title": "Interaction peculiarities between microbial cenosis and local immunity of periodontium of humans under extreme conditions",
+      "authors": [
+        "AI Volozhin",
+        "VN Tsarev",
+        "NS Malneva",
+        "TI Sashkina",
+        "IV Saldusova"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "R Ramamurthy",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Low-shear modeled microgravity: a global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis",
+      "authors": [
+        "CA Nickerson"
+      ]
+    },
+    {
+      "title": "Quantifying the strength of bacterial adhesive interactions with salivary glycoproteins",
+      "authors": [
+        "A Prakobphol",
+        "CA Burdsal",
+        "SJ Fisher"
+      ]
+    },
+    {
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "authors": [
+        "W Huang da",
+        "BT Sherman",
+        "RA Lempicki"
+      ]
+    },
+    {
+      "title": "Bioinformatics enrichment tools: paths toward the comprehensive functional analysis of large gene lists",
+      "authors": [
+        "W Huang da",
+        "BT Sherman",
+        "RA Lempicki"
+      ]
+    },
+    {
+      "title": "The MetaCyc database of metabolic pathways and enzymes and the BioCyc collection of pathway/genome databases",
+      "authors": [
+        "R Caspi"
+      ]
+    },
+    {
+      "title": "Streptococcal antagonism in oral biofilms: Streptococcus sanguinis and Streptococcus gordonii interference with Streptococcus mutans",
+      "authors": [
+        "J Kreth",
+        "Y Zhang",
+        "MC Herzberg"
+      ]
+    },
+    {
+      "title": "Involvement of gshAB in the interspecies competition within oral biofilm",
+      "authors": [
+        "X Zheng"
+      ]
+    },
+    {
+      "title": "Streptococcus mutans: a new Gram-positive paradigm?",
+      "authors": [
+        "JA Lemos",
+        "RG Quivey",
+        "H Koo",
+        "J Abranches"
+      ]
+    },
+    {
+      "title": "Characterization of Escherichia coli MG1655 grown in a low-shear modeled microgravity environment",
+      "authors": [
+        "DL Tucker"
+      ]
+    },
+    {
+      "title": "Induction of attachment-independent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus",
+      "authors": [
+        "SL Castro",
+        "M Nelman-Gonzalez",
+        "CA Nickerson",
+        "CM Ott"
+      ]
+    },
+    {
+      "title": "Low-shear modeled microgravity enhances Salmonella enterica resistance to hydrogen peroxide through a mechanism involving katG and katN",
+      "authors": [
+        "F Pacello",
+        "G Rotilio",
+        "A Battistoni"
+      ]
+    },
+    {
+      "title": "Low-shear modeled microgravity alters the Salmonella enterica serovar typhimurium stress response in an RpoS-independent manner",
+      "authors": [
+        "JW Wilson"
+      ]
+    },
+    {
+      "title": "Microgravity as a novel environmental signal affecting Salmonella enterica serovar Typhimurium virulence",
+      "authors": [
+        "CA Nickerson"
+      ]
+    },
+    {
+      "title": "The effects of low-shear stress on adherent-invasive Escherichia coli",
+      "authors": [
+        "CA Allen",
+        "DW Niesel",
+        "AG Torres"
+      ]
+    },
+    {
+      "title": "Use of the rotating wall vessel technology to study the effect of shear stress on growth behaviour of Pseudomonas aeruginosa PA01",
+      "authors": [
+        "A Crabbe"
+      ]
+    },
+    {
+      "title": "Spaceflight promotes biofilm formation by Pseudomonas aeruginosa",
+      "authors": [
+        "W Kim"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "JW Wilson"
+      ]
+    },
+    {
+      "title": "Media ion composition controls regulatory and virulence response of Salmonella in spaceflight",
+      "authors": [
+        "JW Wilson"
+      ]
+    },
+    {
+      "title": "Microarray analysis identifies Salmonella genes belonging to the low-shear modeled microgravity regulon",
+      "authors": [
+        "JW Wilson"
+      ]
+    },
+    {
+      "title": "Effects of simulated microgravity on Streptococcus mutans physiology and biofilm structure",
+      "authors": [
+        "X Cheng"
+      ]
+    },
+    {
+      "title": "Large gradient high magnetic fields affect osteoblast ultrastructure and function by disrupting collagen I or fibronectin/alphabeta1 integrin",
+      "authors": [
+        "AR Qian"
+      ]
+    },
+    {
+      "title": "Spaceflight and modeled microgravity effects on microbial growth and virulence",
+      "authors": [
+        "JA Rosenzweig"
+      ]
+    },
+    {
+      "title": "Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens",
+      "authors": [
+        "JA Rosenzweig",
+        "S Ahmed",
+        "J Eunson",
+        "AK Chopra"
+      ]
+    },
+    {
+      "title": "Regulation of gbpC expression in Streptococcus mutans",
+      "authors": [
+        "I Biswas",
+        "L Drake",
+        "S Biswas"
+      ]
+    },
+    {
+      "title": "CcpA regulates central metabolism and virulence gene expression in Streptococcus mutans",
+      "authors": [
+        "J Abranches"
+      ]
+    },
+    {
+      "title": "Multiple sugar: phosphotransferase system permeases participate in catabolite modification of gene expression in Streptococcus mutans",
+      "authors": [
+        "L Zeng",
+        "RA Burne"
+      ]
+    },
+    {
+      "title": "Functional genomics approach to identifying genes required for biofilm development by Streptococcus mutans",
+      "authors": [
+        "ZT Wen",
+        "RA Burne"
+      ]
+    },
+    {
+      "title": "Transcriptional repressor Rex is involved in regulation of oxidative stress response and biofilm formation by Streptococcus mutans",
+      "authors": [
+        "JP Bitoun",
+        "AH Nguyen",
+        "Y Fan",
+        "RA Burne",
+        "ZT Wen"
+      ]
+    },
+    {
+      "title": "The redox-sensing regulator Rex modulates central carbon metabolism, stress tolerance response and biofilm formation by Streptococcus mutans",
+      "authors": [
+        "JP Bitoun",
+        "S Liao",
+        "X Yao",
+        "GG Xie",
+        "ZT Wen"
+      ]
+    },
+    {
+      "title": "Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation",
+      "authors": [
+        "A Crabbe"
+      ]
+    },
+    {
+      "title": "Identification of the Streptococcus mutans LytST two-component regulon reveals its contribution to oxidative stress tolerance",
+      "authors": [
+        "SJ Ahn",
+        "MD Qu",
+        "E Roberts",
+        "RA Burne",
+        "KC Rice"
+      ]
+    },
+    {
+      "title": "The Streptococcus mutans Cid and Lrg systems modulate virulence traits in response to multiple environmental signals",
+      "authors": [
+        "SJ Ahn",
+        "KC Rice",
+        "J Oleas",
+        "KW Bayles",
+        "RA Burne"
+      ]
+    },
+    {
+      "title": "Regulation of the intracellular free iron pool by Dpr provides oxygen tolerance to Streptococcus mutans",
+      "authors": [
+        "Y Yamamoto"
+      ]
+    },
+    {
+      "title": "An iron-binding protein, Dpr, from Streptococcus mutans prevents iron-dependent hydroxyl radical formation in vitro",
+      "authors": [
+        "Y Yamamoto",
+        "LB Poole",
+        "RR Hantgan",
+        "Y Kamio"
+      ]
+    },
+    {
+      "title": "Genetics and physiology of acetate metabolism by the Pta-Ack pathway of Streptococcus mutans",
+      "authors": [
+        "JN Kim",
+        "SJ Ahn",
+        "RA Burne"
+      ]
+    },
+    {
+      "title": "Ribonucleases in bacterial toxin-antitoxin systems",
+      "authors": [
+        "GM Cook"
+      ]
+    },
+    {
+      "title": "Prokaryotic toxin–antitoxin stress response loci",
+      "authors": [
+        "K Gerdes",
+        "SK Christensen",
+        "A Lobner-Olesen"
+      ]
+    },
+    {
+      "title": "Effect of simulated microgravity on growth and production of exopolymeric substances of Micrococcus luteus space and earth isolates",
+      "authors": [
+        "L Mauclaire",
+        "M Egli"
+      ]
+    },
+    {
+      "title": "Escherichia coli biofilms formed under low-shear modeled microgravity in a ground-based system",
+      "authors": [
+        "SV Lynch",
+        "K Mukundakrishnan",
+        "MR Benoit",
+        "PS Ayyaswamy",
+        "A Matin"
+      ]
+    },
+    {
+      "title": "Bacterial biofilm formation under microgravity conditions",
+      "authors": [
+        "RJ McLean",
+        "JM Cassanto",
+        "MB Barnes",
+        "JH Koo"
+      ]
+    },
+    {
+      "title": "Modeled microgravity increases filamentation, biofilm formation, phenotypic switching, and antimicrobial resistance in Candida albicans",
+      "authors": [
+        "SC Searles",
+        "CM Woolley",
+        "RA Petersen",
+        "LE Hyman",
+        "SM Nielsen-Preiss"
+      ]
+    },
+    {
+      "title": "Spaceflight enhances cell aggregation and random budding in Candida albicans",
+      "authors": [
+        "A Crabbe"
+      ]
+    },
+    {
+      "title": "Enhanced transformation of Streptococcus mutans by modifications in culture conditions",
+      "authors": [
+        "GR Shah",
+        "PW Caufield"
+      ]
+    },
+    {
+      "title": "Simplified agar plate method for quantifying viable bacteria",
+      "authors": [
+        "BD Jett",
+        "KL Hatter",
+        "MM Huycke",
+        "MS Gilmore"
+      ]
+    },
+    {
+      "title": "Untargeted metabolomic profiling as an evaluative tool of fenofibrate-induced toxicology in Fischer 344 male rats",
+      "authors": [
+        "T Ohta"
+      ]
+    },
+    {
+      "title": "Integrated, nontargeted ultrahigh performance liquid chromatography/electrospray ionization tandem mass spectrometry platform for the identification and relative quantification of the small-molecule complement of biological systems",
+      "authors": [
+        "AM Evans",
+        "CD DeHaven",
+        "T Barrett",
+        "M Mitchell",
+        "E Milgram"
+      ]
+    },
+    {
+      "title": "Untargeted LC-MS metabolomics of bronchoalveolar lavage fluid differentiates acute respiratory distress syndrome from health",
+      "authors": [
+        "CR Evans"
+      ]
+    },
+    {
+      "title": "Organization of GC/MS and LC/MS metabolomics data into chemical libraries",
+      "authors": [
+        "CD Dehaven",
+        "AM Evans",
+        "H Dai",
+        "KA Lawton"
+      ]
+    },
+    {
+      "title": "Statistical significance for genomewide studies",
+      "authors": [
+        "JD Storey",
+        "R Tibshirani"
+      ]
+    },
+    {
+      "title": "The Staphylococcus aureus cidC gene encodes a pyruvate oxidase that affects acetate metabolism and cell death in stationary phase",
+      "authors": [
+        "TG Patton",
+        "KC Rice",
+        "MK Foster",
+        "KW Bayles"
+      ]
+    },
+    {
+      "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks",
+      "authors": [
+        "C Trapnell"
+      ]
+    },
+    {
+      "title": "A transcriptional regulator and ABC transporters link stress tolerance, (p)ppGpp, and genetic competence in Streptococcus mutans",
+      "authors": [
+        "K Seaton",
+        "SJ Ahn",
+        "AM Sagstetter",
+        "RA Burne"
+      ]
+    },
+    {
+      "title": "Comparative metabolic profiling between desiccation-sensitive and desiccation-tolerant species of Selaginella reveals insights into the resurrection trait",
+      "authors": [
+        "A Yobi"
+      ]
+    }
+  ],
+  "original_title": "Investigation of simulated microgravity effects on Streptococcus mutans physiology and global gene expression.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8423/5460135/cda2ed846e6c/41526_2016_6_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8423/5460135/5a75a3e7de10/41526_2016_6_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8423/5460135/a88ff3b78b59/41526_2016_6_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8423/5460135/2f0d1b2d0c85/41526_2016_6_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8423/5460135/7b9561070602/41526_2016_6_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8423/5460135/765ca73bf957/41526_2016_6_Fig6_HTML.jpg"
+  ]
+}

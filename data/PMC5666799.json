@@ -1,0 +1,670 @@
+{
+  "pmcid": "PMC5666799",
+  "title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+  "abstract": "Space radiation may pose a risk to skeletal health during subsequent aging. Irradiation acutely stimulates bone remodeling in mice, although the long-term influence of space radiation on bone-forming potential (osteoblastogenesis) and possible adaptive mechanisms are not well understood. We hypothesized that ionizing radiation impairs osteoblastogenesis in an ion-type specific manner, with low doses capable of modulating expression of redox-related genes. 16-weeks old, male, C57BL6/J mice were exposed to low linear-energy-transfer (LET) protons (150 MeV/n) or high-LET 56Fe ions (600 MeV/n) using either low (5 or 10 cGy) or high (50 or 200 cGy) doses at NASA’s Space Radiation Lab. Five weeks or one year after irradiation, tissues were harvested and analyzed by microcomputed tomography for cancellous microarchitecture and cortical geometry. Marrow-derived, adherent cells were grown under osteoblastogenic culture conditions. Cell lysates were analyzed by RT-PCR during the proliferative or mineralizing phase of growth, and differentiation was analyzed by imaging mineralized nodules. As expected, a high dose (200 cGy), but not lower doses, of either 56Fe or protons caused a loss of cancellous bone volume/total volume. Marrow cells produced mineralized nodules ex vivo regardless of radiation type or dose; 56Fe (200 cGy) inhibited osteoblastogenesis by more than 90% (5 weeks and 1 year post-IR). After 5 weeks, irradiation (protons or 56Fe) caused few changes in gene expression levels during osteoblastogenesis, although a high dose 56Fe (200 cGy) increased Catalase and Gadd45. The addition of exogenous superoxide dismutase (SOD) protected marrow-derived osteoprogenitors from the damaging effects of exposure to low-LET (137Cs γ) when irradiated in vitro, but had limited protective effects on high-LET 56Fe-exposed cells. In sum, either protons or 56Fe at a relatively high dose (200 cGy) caused persistent bone loss, whereas only high-LET 56Fe increased redox-related gene expression, albeit to a limited extent, and inhibited osteoblastogenesis. Doses below 50 cGy did not elicit widespread responses in any parameter measured. We conclude that high-LET irradiation at 200 cGy impaired osteoblastogenesis and regulated steady-state gene expression of select redox-related genes during osteoblastogenesis, which may contribute to persistent bone loss.",
+  "introduction": "1. Introduction\n\nStructural degradation and oxidative stress following exposure to space radiation potentially endangers skeletal health of astronauts, both during the mission and later in life. Weightlessness-induced musculoskeletal atrophy, psychological stress, and confinement pose additional risks to astronaut health. For exploration missions into deep space, galactic cosmic-rays (GCR) are of particular concern because of the high-energy and densely ionizing pattern of energy deposition from heavy ions, which can induce oxidative stress in various tissues. Both solar particle-emissions (SPE) and GCR contribute to the mixed composition of low-energy radiation (such as protons and γ rays), high linear-energy-transfer (LET) particles (such as ionized 56Fe- and 12C-nuclei), and secondary constituents, such as Bremmstrahlung, fragmentation products, and neutrons. Estimates of the total absorbed dose during a Mars mission (180-day transits with 500-day surface operations) to be between 28–47 cGy, with GCR contributing 27 cGy. Currently, risk of exposure-induced death from a fatal cancer drives the NASA astronaut career radiation-exposure limit, though NASA is investigating additional risks associated with acute and late tissue degeneration following radiation exposure.\n\nIrradiation perturbs the redox balance within the bone and marrow compartment in a complex and transient manner. Total-body irradiation (137Cs, 200 cGy) induces rapid reactive oxidative species formation in the marrow and increases expression of the master transcription factor that binds to the antioxidant response element, nuclear factor (erythroid-derived 2)-like 2 (Nrf2). Excess reactive oxygen species (ROS) can interfere with osteogenesis of bone marrow derived osteoprogenitors as well as contribute to bone resorption by osteoclasts. High-LET 56Fe (≥200 cGy) impairs cell proliferation during osteoblastogenesis from marrow progenitors in a dose-dependent manner. Further, irradiation in vitro with 56Fe (100 cGy) arrests the cell cycle and inhibits proliferation of mesenchymal stem cells. At higher doses (400–800 cGy), irradiation with X-rays increases ROS, depletes antioxidant stores, increases Nrf2 protein levels, and reduces differentiation in osteoblast-like cells. However, the role of oxidative stress on the potential for total-body irradiation (TBI) to impair osteoblastogenesis over the long term, in particular low-dose, high-LET species, has not been fully characterized.\n\nWe posed three principal questions to address in this study. First, are the severity of acute bone loss and impairment of osteoblastogenesis following TBI dependent on radiation type (LET) or dose? Secondly, which pathways are activated? Finally, do irradiation-induced insults to skeletal structure and osteoblastogenesis persist long after exposure? We hypothesized that: (1) irradiation induces bone loss, shown previously to be dominated by total dose of exposure, and leads to temporal perturbations in antioxidant defenses; (2) TBI induces both persistent changes in redox-related genes and cancellous microarchitecture in an ion-dependent manner; and, (3) addition of an antioxidant, here the enzyme superoxide dismutase (SOD), mitigates irradiation-induced damage to osteoprogenitors and stem cells when exposed in vitro, implicating an oxidative-stress dependent mechanism.\n\nTo address these questions, we conducted in vivo and in vitro experiments. For in vivo work, we selected protons and 56Fe ions as representative radiation for the abundant low-LET particles in space radiation and the heavy-ion component of galactic cosmic radiation, respectively. For in vitro work, we selected 137Cs γ rays as a low-LET reference radiation to enable high-throughput countermeasure testing. In vivo, there were persistent and profound decrements in mineralized nodules after TBI (at 200 cGy) with 56Fe, while protons had a milder effect. In contrast to our hypothesis, few changes were observed in the steady-state expression of redox-related genes during ex vivo osteoblastogenesis following TBI, although there was some indication of altered expression of select genes during the proliferative phase (at 200 cGy 56Fe, but not lower doses). Furthermore, scavenging ROS with an antioxidant (i.e., SOD) mitigated adverse effects of in vitro irradiation with γ rays, but failed to protect fully from irradiation with an equivalent dose of heavy ions.",
+  "methods": "4. Materials and Methods\n\n4.1. Animals\n\nMale C57BL/6J mice (Jackson Laboratories, Bar Harbor, ME, USA) were individually housed under standard conditions and provided food (LabDiet 5001, Purina, St. Louis, MO, USA) and water ad libitum as described by. As a general measure of animal health, we measured body mass weekly for the duration of the study. Additionally, we blindly scored coat color as black or grey at the one-year post-irradiation endpoint. Animals were euthanized by cardiac puncture while under isoflurane overdose followed by cervical dislocation. The Institutional Animal Care and Use Committees for NASA Ames Research Center (Protocol NAS-10-001-Y2, 17 February 2011) and Brookhaven National Laboratory (Protocol #431, 8 February 2011) approved all of the procedures.\n\n4.2. In Vivo Experiment Design and Radiation Exposure\n\nTwo experiments using mice were conducted to assess the effect of radiation type on skeletal antioxidant response, osteoblastogenesis, and bone structure. In the first experiment (Figure 1A), conscious 16-weeks old, male, C57BL6/J mice were exposed to low-LET protons (150 MeV/n, LET ~ 0.52 keV/µm) or high-LET 56Fe ions (600 MeV/n, LET ~ 175 keV/µm) at 5, 10, 50, or 200 cGy at NASA’s Space Radiation Lab at Brookhaven National Lab (Upton, NY, USA). Between 7–9 days after irradiation, mice were shipped overnight from Brookhaven to NASA Ames Research Center, Moffett Field, CA, USA. Select groups of mice were euthanized and tissues harvested after 35–38 days for 56Fe, 36–39 days for proton, or 36–38 days for the sham (these three groups are deemed 5 weeks post-irradiation and had n = 8 per group) and late (358 or 360 days, here deemed 1 year post-irradiation and had n = 13 per group) for ex vivo osteoprogenitor culture of marrow cells. Tibiae or femora were collected for cancellous microarchitecture assessment with microcomputed tomography. For the 5-week endpoint, osteoblast cultures (n = 6–7 mice/group) were analyzed by real-time qPCR (n = 4 mice/group, see below for details), total DNA quantification, and alkaline phosphatase activity during the proliferative phase (seven days after plating) or the mineralization phase (19–21 days after plating) stages of osteoblast differentiation. At the termination of cultures, mineralized nodules were imaged and analyzed for percent surface area at the end of the culture period. For the 1-year endpoint, osteoblast cultures (n = 6/group) were analyzed for colony number during the proliferative phase (eight days after plating) or for mineralized nodule area during the mineralization phase (28 days after plating) of osteoblast differentiation.\n\nIn the second experiment (Figure 1B), we aimed to determine the effects of total-body irradiation on the antioxidant capacity of the extracellular fluid surrounding the marrow cells. To evaluate ion effects, conscious 16-wk old, male, C57BL6/J mice mice were exposed to 10 or 200 cGy of low-LET protons (n = 6–8 per group) or 5 or 200 cGy of high-LET 56Fe ions (n = 8 per group) as described above, or were sham irradiated (n = 13 per group). Mice were euthanized and tissues harvested at one or seven days after exposure, at which point tibial marrow was processed for extracellular fluid collection and quantification of total antioxidant capacity, described in more detail below.\n\n4.3. In Vitro Experiment Design and Radiation Exposure\n\nOsteoprogenitors were grown in vitro from the bone marrow of 16-week old, male C57Bl/6 mice, as previously described. Cells were irradiated three days after plating (day 3) with either γ (137Cs, sham or 10–500 cGy, JL Shepherd Mark I) or 56Fe (sham or 50–200 cGy, NSRL), and then grown until day 10. Cell behavior was assessed by measuring changes in DNA content between day three and day 10 (as a surrogate for cell growth) with the Cyquant assay as previously described. For the SOD experiment, multiple doses were tested in preliminary experiments (100–600 U/mL of SOD or vehicle, for 2 or 3 days of treatment at different times). The protocol selected for more extensive dose-response experiments entailed the addition of SOD (200 U/mL), or vehicle (α-MEM) 2 h before irradiation (day 3), twice a day, through the 4th day after exposure to radiation. Experiments were repeated 2–3 times. Data were normalized to the sham-control.\n\n4.4. Total Antioxidant Capacity\n\nWe measured the antioxidant capacity of the extracellular fluid of the marrow (i.e., the marrow plasma) with a colorimetric assay based on the reduction potential of Cu2+ to Cu1+ as compared to Trolox equivalent standards (Oxford Biomedical, Oxford, MI, USA). In brief, we isolated marrow ex vivo, using 150 µL of sterile saline to flush the marrow from the tibial diaphysis, as described previously. The solution was centrifuged and supernatant preserved as the extracellular fluid at −80 °C for further assessment. The BCA assay assessed the protein concentration of the extracellular fluid against albumin standards, which enabled the normalization of the antioxidant capacity by the protein concentration to account for changes in protein levels with treatment.\n\n4.5. Bone Microarchitecture and Geometry\n\nWe assessed the bone volume and microarchitecture of the cancellous tissue in the proximal tibial metaphysis using microcomputed tomography (6.7 µm pixel size, 3500 ms integration time, 50 kV, Skyscan 1174; Bruker microCT, Kontich, Belgium) as described in. For cancellous quantification, a 1.0-mm thick region located 0.24 mm distal to the proximal growth plate was semi-autonomously contoured to include cancellous tissue. We assessed changes in cancellous bone using the three-dimensional bone volume to total volume fraction (BV/TV, %), trabecular thickness (Tb.Th, mm), trabecular number (Tb.N, 1/mm), trabecular thickness (Tb.Th, mm), and trabecular separation (Tb.Sp, mm). We assessed the changes in cortical bone at the midshaft of the femur using bone volume and cortical thickness. All analyses follow conventional guidelines.\n\n4.6. Ex Vivo Osteoblastogenic Assays and qRT-PCR Analyses\n\nFor osteoblastogenic culture, femur marrow was flushed using saline and treated with lysis buffer specific for red blood cells (Sigma-Aldrich, St. Louis, MO, USA), centrifuged for ten minutes at 1000× g, and supernatant removed. Cells were then re-suspended and plated at 3.0 × 105 cells/cm2 in 6-well plates. Osteoblastogenic growth medium (alpha minimum essential medium with 15% FBS (Gibco, Gaithersburg, MD, USA), 1× anti-biotic/mycotic, 50 µg/mL ascorbic acid, 10 mM β-glycerophosphate) was replenished every 2–3 days.\n\nFor qPCR analyses (n = 4/group), cells were collected in a solution of 1% β-mercapthoethanol in RLT Buffer (Qiagen, Valencia, CA, USA) and stored at −80 °C until RNA isolation via RNeasy minikit (Qiagen). RNA quantity and purity was measured using a nanodrop spectrophotometer (Nanodrop 2000, Thermoscientific, Waltham, MA, USA) while RNA quality was assessed using a 0.8% non-denaturing gel. A RT2PCR custom array (PAMM-999A-1, SYBR probes, Qiagen, Hilden, Germany) was processed with an Applied Biosystems 7500 cycler to generate gene expression data. The ΔΔCt method was used to analyze the raw data. Cycle values above 35 were defined as non-detectable. Statistical analyses were performed on log2-transformed data. Fifteen representative genes were analyzed to assess osteoblast differentiation, proliferation, oxidative metabolism, or apoptosis, see Table 3. All genes were normalized to housekeeping gene Hprt. Technical issues forced the loss of one specimen from the 56Fe, 200 cGy group during the proliferative phase and the loss of all four specimens in the proton, 10 cGy group from mineralization phase.\n\nFor ALP and DNA analyses, cells were collected in a solution of Tris buffer containing Triton-X and MgCl2 and stored at −80 °C. Quantification of ALP enzymatic activity and total DNA content was performed using Alkaline Phosphatase Activity Colorimetric Assay (Biovision, Mountain View, CA, USA) and CyQuant Cell Proliferation Assay Kit (Thermo Fisher Scientific, Waltham, MA, USA), respectively.\n\nColony counts early in culture assessed the successful adherence and proliferation of colony forming units. Parameters defining a colony included having distinct region of radial colony growth and having more than 30 cells with a majority of cells having of morphological homogeneity.\n\nTo quantify densely mineralizing area (i.e., the nodule area), we harvested cultures in the differentiation phase. First, we washed cultures with saline and scanned the plates at 300 dpi resolution. We quantified the percentage of well area having mineralizing nodules with Image J, using a custom algorithm to threshold the grayscale image.\n\n4.7. Statistics\n\nWe report parametric data with mean and standard deviation (SD). For these data, to determine significant differences, a 1-way analysis of variance was used followed by Dunnett’s post-hoc test, which allowed for the comparison of respective radiation types and doses to the age-matched sham control (0 cGy). For non-parametric data (i.e., nodule area data, as values near zero display skew), we report the median with interquartile range. For these data, to determine significant differences, we used a Kruskal-Wallis test with a Steel post-hoc test, which allowed for the comparison of respective radiation types and doses to the age-matched, sham control (0 cGy). We assessed temporal (within subjects) treatment (between subjects) effects in body mass, and their interaction (i.e., time × treatment), using Repeated Measures ANOVA and Wilks’ Lamda test. Throughout, a p-value ≤ 0.05 was accepted as significant. We performed all analyses using JMP 13 (SAS).",
+  "results": "2. Results\n\n2.1. TBI Experiment Design\n\nTo evaluate the individual effects of radiation type, our study queried a dose response to high-LET 56Fe or low-LET protons (see Methods below for details) at one day, seven days, or five weeks post-exposure. Additionally, we assessed the sequelae of 56Fe irradiation at a late, 1-year post exposure endpoint (Figure 1A,B). Tibiae and femora were collected for assessment of the cancellous microarchitecture. Bone-marrow cells were cultured ex vivo in osteoblastogenic media for colony counts and mineralization assays. Additionally, the effects of total body irradiation on gene expression were assayed at two points, during the proliferation and mineralization phase, of osteoblastogenesis.\n\n2.2. Body Mass Temporal Responses and Coat Color\n\nBody mass was measured (±0.1 g), at least weekly, throughout the study as an index of general health (Figure 2, showing the 1-year post irradiation cohorts). As determined by one-way analysis of variance (ANOVA) and Dunnett’s posthoc, within six days of exposure, 56Fe (200 cGy) reduced the cohort’s mean body mass by 4% relative to the starting weights. Other doses and ions had no significant effect relative to starting weights. Shipment of the mice from Brookhaven National Lab (BNL) to NASA Ames between days 6 and 8, caused a 5% decline in body weights of all of the groups.\n\nFollowing shipment, the body mass of all groups rose over time (+7% for the 5-weeks endpoint and +46% for the 1-year endpoint), with no treatment effect, nor interaction of time × treatment (Figure 2). By the time of euthanasia at 5-weeks or 1-year post-irradiation, body mass did not significantly differ between irradiated and age-matched sham-controls.\n\nAdditionally, as an index of general health, the coat color was assessed as grey or black at the end of the experiment (1-year post-irradiation). In sham controls, 1 out of 13 mice had a grey coat (Table 1). In contrast, 56Fe (200 cGy) caused all of the 11 to have grey coats. The lower doses of 56Fe irradiation, 10 or 50 cGy, did not modulate coat color compared to sham-controls, respectively.\n\n2.3. Bone Structure\n\nMicrocomputed tomography was used to assess the effects of aging and irradiation on the cancellous tissue in the proximal tibial metaphysis at the 5 week and 1 year endpoints (Figure 1A) and cortical geometry of the femoral midshaft at the 1-year endpoint. In sham-treated animal cohorts, aging caused a 54% reduction of cancellous bone volume/total volume (BV/TV) between the 5-week (Figure 3A, 21.1 ± 2.2%) and 1-year (Table 1, 9.7 ± 3.1%) post-treatment endpoints.\n\nAt 5 weeks post-irradiation, 50 and 200 cGy 56Fe caused a decrement in BV/TV (Figure 3A, −16% and −31%, respectively) and strut number (Tb.N, Figure 3B, −16% and −31%, respectively) in the cancellous region of the proximal tibia, compared to shams. For protons, 200 cGy caused a −22% decrement in BV/TV (Figure 3A) and Tb.N (Figure 3B), while 50 cGy showed a trend towards decreased BV/TV (−11%, p = 0.12) and Tb.N (−13%, p = 0.06). Additionally, irradiation at 200 cGy increased trabecular separation, but did not affect trabecular thickness. At 5 or 10 cGy, neither 56Fe, nor protons, showed any detectable bone loss, by any structural measure.\n\nAt 1 year post-irradiation, 56Fe (200 cGy) showed a trend of decreased BV/TV and Tb.N (−25%, p = 0.12, Table 1) in the cancellous region of the proximal tibia, as compared to age-matched controls. No changes were observed at 10 or 50 cGy doses when compared to controls. Additionally, no significant changes in cortical geometry of the femur at midshaft (bone volume and cortical thickness,) were detected, as compared to age-matched controls.\n\n2.4. Ex Vivo Osteoblastogenesis\n\nTo assess the cellular responses to irradiation during ex vivo osteoblast growth and maturation, we cultured marrow progenitor cells at the 5 week and 1 year post-irradiation endpoints. For cultures plated 5 weeks post-irradiation, gene expression, alkaline phosphatase activity, colony counts, and DNA content analyses were performed during the proliferative phase (seven days after plating) and mineralization phase (19 to 21 days after plating). At the end of the latter phase, the mineralized area was quantified to assess the functional outcome of differentiation.\n\nDuring the mineralization phase, we observed well-formed nodules in the sham and proton-irradiated (200 cGy) groups (Figure 4A,B), with sham values displaying wide variance. In contrast, we observed very few, yet fully mineralized, nodules in the 56Fe-irradiated (200 cGy) group (Figure 4A,B). After quantifying the nodule area, irradiation with 56Fe (200 cGy) tended to cause a −91% decrement (p = 0.06, Figure 4A,B) in the mineralization area (median) as compared to sham-irradiated controls. This inhibitory effect is consistent with findings from our other experiments with this dose of 56Fe at various times after exposure. Although, mineralization area of cultures from animals exposed to protons (200 cGy) tended to be lower than sham-controls (−70%, p = 0.10, Figure 4A,B), nodules from proton-irradiated mice appeared larger and more widespread than in cultures from 56Fe-irradiated mice (Figure 4B). Lower doses of either species did not affect mineralized area or any other measured parameters.\n\nRadiation exposure did not modify expression levels for most of the genes analyzed during the mineralization phase (Table 2), although a high dose of 56Fe (200 cGy) tended to decrease expression of the osteoblast differentiation gene Alpl by −60% (p = 0.12), Figure 4C. Additionally, a low dose of 56Fe (10 cGy) increased the expression of the antioxidant gene CuZnSOD (+90%) as compared to sham-controls, whereas proton exposure did not modify expression levels for any of the genes assayed. Taken together, these data suggest mild effects late in culture, but only for 56Fe, not protons.\n\nDuring the proliferative phase, most doses and types of radiation exposure did not modify the expression levels for the genes analyzed when compared to sham-controls (Table 2). A high-dose of 56Fe (200 cGy) did however increase the expression levels of genes for the cell cycle arrest marker Gadd45 (+223%) and the antioxidant Catalase (+81%), and also tended to increase the late-osteoblastic marker Bglap (+196%, p = 0.08) (Figure 4D). A lower dose of 56Fe (5 cGy) decreased the gene expression of the nitric oxide generator iNOS by −53% and increased Gadd45 by +91%, respectively, when compared to sham controls.\n\nFor the ex vivo marrow culture performed 1-year post irradiation, the numbers of colonies were counted eight days after plating and nodule areas were assessed 28 days after plating. 56Fe irradiation (200 cGy) tended to reduce colony counts at day eight (−45%, Figure 5A) when compared to controls, whereas lower doses of 56Fe (10 and 50 cGy) had no effect. At 28 days after plating, cells from 56Fe (200 cGy)-irradiated mice tended to show reduced mineralized area (−96% reduction of median, p < 0.06, Figure 5B), whereas lower doses had no effect as compared to controls. Taken together, these data suggest that only the highest dose of 56Fe had a persistent effect to inhibit osteoblastogenesis, as assessed by colony formation.\n\n2.5. Total Antioxidant Capacity of the Marrow Extracellular Fluid\n\nTo assess the changes in the redox microenvironment in the marrow cavity following irradiation, we measured the antioxidant capacity of the extracellular fluid from the marrow, (normalized by protein concentration) at one and seven days after exposure to 56Fe or protons (Figure 1B). Protons (200 cGy) or 56Fe (200 cGy) decreased the total antioxidant capacity of the marrow extracellular fluid by over 35% within one day of exposure (Figure 6). In contrast, seven days after exposure, protons caused a 62% elevation of antioxidant capacity (Figure 6), whereas 56Fe did not differ from sham controls. Lower doses of radiation (5 cGy 56Fe or 10 cGy proton), did not modify antioxidant capacity per proton concentration with sham-controls at either timepoint.\n\n2.6. In Vitro Radiation Effects on Osteoblastogenesis\n\nWe hypothesized that a radiation-induced rise in ROS damages osteoprogenitors, leading to a decrease in number and activity of differentiated progeny and therefore exogenous antioxidant is expected to mitigate adverse effects of radiation on the proliferation and subsequent differentiation of osteoprogenitors derived from the marrow. The influence of a low-LET species (137Cs) was compared to that of high-LET 56Fe. Adherent marrow cells grown under osteoblastogenic culture conditions were irradiated at day 3 in culture and the percentage change in DNA content between day 3 (day of irradiation) and day 10 calculated as a surrogate of culture growth (proliferation). Analysis of the dose-response to 137Cs and 56Fe revealed significant decrements in growth after exposure to 137Cs (200 cGy and 500 cGy) or 56Fe (100 cGy, 200 cGy), but not after exposure to lower doses (Figure 7A). Colony counts also were affected at the higher doses of radiation. In summary, as shown in Figure 7A, osteoprogenitors appeared more sensitive to high-LET 56Fe than low-LET 137Cs γ.\n\nTo begin to assess the contribution of oxidative stress after in vitro radiation exposure of osteoprogenitors, several antioxidants (including SOD with and without polyethylene glycol (PEG); SOD with nanoparticles or liposomes; Catalase with and without PEG) were screened by addition to the culture media, with SOD (without carrier) showing the most promising results. Addition of exogenous SOD (200 U/mL) provided twice a day (on day 3 and day 4) effectively protected cell growth from irradiation with 137Cs, whereas higher doses of SOD or longer periods of treatment were less effective. As shown in Figure 7B, addition of SOD prevented the inhibition of growth by 137Cs (200 cGy). In contrast, addition of SOD was not as sufficient to rescue the cell death incurred after exposure to an equivalent dose of 56Fe (200 cGy).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "cancellous bone",
+    "osteoblast",
+    "ionizing radiation",
+    "spaceflight",
+    "oxidative stress",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "",
+      "authors": [
+        "J.C. McPhee",
+        "J.B. Charles"
+      ]
+    },
+    {
+      "title": "Msl-rad radiation environment measurements",
+      "authors": [
+        "J. Guo",
+        "C. Zeitlin",
+        "R.F. Wimmer-Schweingruber",
+        "D.M. Hassler",
+        "B. Ehresmann",
+        "J. Kohler",
+        "E. Bohm",
+        "S. Bottcher",
+        "D. Brinza",
+        "S. Burmeister"
+      ]
+    },
+    {
+      "title": "Icrp publication 123: Assessment of radiation exposure of astronauts in space",
+      "authors": [
+        "G. Dietze",
+        "D.T. Bartlett",
+        "D.A. Cool",
+        "F.A. Cucinotta",
+        "X. Jia",
+        "I.R. McAulay",
+        "M. Pelliccioni",
+        "V. Petrov",
+        "G. Reitz",
+        "T. Sato"
+      ]
+    },
+    {
+      "title": "Physical basis of radiation protection in space travel",
+      "authors": [
+        "M. Durante",
+        "F.A. Cucinotta"
+      ]
+    },
+    {
+      "title": "Functional consequences of radiation-induced oxidative stress in cultured neural stem cells and the brain exposed to charged particle irradiation",
+      "authors": [
+        "B.P. Tseng",
+        "E. Giedzinski",
+        "A. Izadi",
+        "T. Suarez",
+        "M.L. Lan",
+        "K.K. Tran",
+        "M.M. Acharya",
+        "G.A. Nelson",
+        "J. Raber",
+        "V.K. Parihar"
+      ]
+    },
+    {
+      "title": "Radiation persistently promoted oxidative stress, activated mtor via pi3k/akt, and downregulated autophagy pathway in mouse intestine",
+      "authors": [
+        "K. Datta",
+        "S. Suman",
+        "A.J. Fornace"
+      ]
+    },
+    {
+      "title": "Space radiation accelerator experiments – the role of neutrons and light ions",
+      "authors": [
+        "J.W. Norbury",
+        "T.C. Slaba"
+      ]
+    },
+    {
+      "title": "Mars’ surface radiation environment measured with the mars science laboratory’s curiosity rover",
+      "authors": [
+        "D.M. Hassler",
+        "C. Zeitlin",
+        "R.F. Wimmer-Schweingruber",
+        "B. Ehresmann",
+        "S. Rafkin",
+        "J.L. Eigenbrode",
+        "D.E. Brinza",
+        "G. Weigle",
+        "S. Bottcher",
+        "E. Bohm"
+      ]
+    },
+    {
+      "title": "Measurements of energetic particle radiation in transit to mars on the mars science laboratory",
+      "authors": [
+        "C. Zeitlin",
+        "D.M. Hassler",
+        "F.A. Cucinotta",
+        "B. Ehresmann",
+        "R.F. Wimmer-Schweingruber",
+        "D.E. Brinza",
+        "S. Kang",
+        "G. Weigle",
+        "S. Bottcher",
+        "E. Bohm"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": [
+        "L.W. Townsend",
+        "G.D. Badhwar",
+        "L.A. Braby",
+        "E.A. Blakely",
+        "F.A. Cucinotta",
+        "S.B. Curtis",
+        "R.J.M. Fry",
+        "C.E. Land",
+        "D.F. Smart"
+      ]
+    },
+    {
+      "title": "Oxidative stress and gamma radiation-induced cancellous bone loss with musculoskeletal disuse",
+      "authors": [
+        "H. Kondo",
+        "K. Yumoto",
+        "J.S. Alwood",
+        "R. Mojarrab",
+        "A. Wang",
+        "E.A. Almeida",
+        "N.D. Searby",
+        "C.L. Limoli",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Ionizing radiation stimulates expression of pro-osteoclastogenic genes in marrow and skeletal tissue",
+      "authors": [
+        "J.S. Alwood",
+        "M. Shahnazari",
+        "B. Chicana",
+        "A.S. Schreurs",
+        "A. Kumar",
+        "A. Bartolini",
+        "Y. Shirazi-Fard",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Increased lipid oxidation causes oxidative stress, increased peroxisome proliferator-activated receptor-gamma expression, and diminished pro-osteogenic wnt signaling in the skeleton",
+      "authors": [
+        "M. Almeida",
+        "E. Ambrogini",
+        "L. Han",
+        "S.C. Manolagas",
+        "R.L. Jilka"
+      ]
+    },
+    {
+      "title": "Gone with the wnts: Beta-catenin, t-cell factor, forkhead box o, and oxidative stress in age-dependent diseases of bone, lipid, and glucose metabolism",
+      "authors": [
+        "S.C. Manolagas",
+        "M. Almeida"
+      ]
+    },
+    {
+      "title": "Hydrogen peroxide is essential for estrogen-deficiency bone loss and osteoclast formation",
+      "authors": [
+        "J.M. Lean",
+        "C.J. Jagger",
+        "B. Kirstein",
+        "K. Fuller",
+        "T.J. Chambers"
+      ]
+    },
+    {
+      "title": "Short-term effects of whole-body exposure to (56)fe ions in combination with musculoskeletal disuse on bone cells",
+      "authors": [
+        "K. Yumoto",
+        "R.K. Globus",
+        "R. Mojarrab",
+        "J. Arakaki",
+        "A. Wang",
+        "N.D. Searby",
+        "E.A. Almeida",
+        "C.L. Limoli"
+      ]
+    },
+    {
+      "title": "Differential effects of x-rays and high-energy 56fe ions on human mesenchymal stem cells",
+      "authors": [
+        "K. Kurpinski",
+        "D.J. Jang",
+        "S. Bhattacharya",
+        "B. Rydberg",
+        "J. Chu",
+        "J. So",
+        "A. Wyrobek",
+        "S. Li",
+        "D. Wang"
+      ]
+    },
+    {
+      "title": "Irradiation inhibits the maturation and mineralization of osteoblasts via the activation of nrf2/ho-1 pathway",
+      "authors": [
+        "S.H. Kook",
+        "K.A. Kim",
+        "H. Ji",
+        "D. Lee",
+        "J.C. Lee"
+      ]
+    },
+    {
+      "title": "Risedronate prevents early radiation-induced osteoporosis in mice at multiple skeletal locations",
+      "authors": [
+        "J.S. Willey",
+        "E.W. Livingston",
+        "M.E. Robbins",
+        "J.D. Bourland",
+        "L. Tirado-Lee",
+        "H. Smith-Sielicki",
+        "T.A. Bateman"
+      ]
+    },
+    {
+      "title": "Exposure to low-dose x-ray radiation alters bone progenitor cells and bone microarchitecture",
+      "authors": [
+        "F. Lima",
+        "J.M. Swift",
+        "E.S. Greene",
+        "M.R. Allen",
+        "D.A. Cunningham",
+        "L.A. Braby",
+        "S.A. Bloomfield"
+      ]
+    },
+    {
+      "title": "A murine model for bone loss from therapeutic and space-relevant sources of radiation",
+      "authors": [
+        "S.A. Hamilton",
+        "M.J. Pecaut",
+        "D.S. Gridley",
+        "N.D. Travis",
+        "E.R. Bandstra",
+        "J.S. Willey",
+        "G.A. Nelson",
+        "T.A. Bateman"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J.S. Alwood",
+        "L.H. Tran",
+        "A.-S. Schreurs",
+        "Y. Shirazi-Fard",
+        "A. Kumar",
+        "D. Hilton",
+        "C.G.T. Tahimic",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Simulating the lunar environment: Partial weightbearing and high-let radiation-induce bone loss and increase sclerostin-positive osteocytes",
+      "authors": [
+        "B.R. Macias",
+        "F. Lima",
+        "J.M. Swift",
+        "Y. Shirazi-Fard",
+        "E.S. Greene",
+        "M.R. Allen",
+        "J. Fluckey",
+        "H.A. Hogan",
+        "L. Braby",
+        "S. Wang"
+      ]
+    },
+    {
+      "title": "Senile hair graying: H2o2-mediated oxidative stress affects human hair color by blunting methionine sulfoxide repair",
+      "authors": [
+        "J.M. Wood",
+        "H. Decker",
+        "H. Hartmann",
+        "B. Chavan",
+        "H. Rokos",
+        "J.D. Spencer",
+        "S. Hasse",
+        "M.J. Thornton",
+        "M. Shalbaf",
+        "R. Paus"
+      ]
+    },
+    {
+      "title": "Free radical theory of aging: An update: Increasing the functional life span",
+      "authors": [
+        "D. Harman"
+      ]
+    },
+    {
+      "title": "Aging: A theory based on free radical and radiation chemistry",
+      "authors": [
+        "D. Harman"
+      ]
+    },
+    {
+      "title": "Total-body irradiation of postpubertal mice with 137cs acutely compromises the microarchitecture of cancellous bone and increases osteoclasts",
+      "authors": [
+        "H. Kondo",
+        "N.D. Searby",
+        "R. Mojarrab",
+        "J. Phillips",
+        "J. Alwood",
+        "K. Yumoto",
+        "E.A.C. Almeida",
+        "C.L. Limoli",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Bone marrow-derived stem cells and radiation response",
+      "authors": [
+        "J.S. Greenberger",
+        "M. Epperly"
+      ]
+    },
+    {
+      "title": "Dried plum diet protects from bone loss caused by ionizing radiation",
+      "authors": [
+        "A.S. Schreurs",
+        "Y. Shirazi-Fard",
+        "M. Shahnazari",
+        "J.S. Alwood",
+        "T.A. Truong",
+        "C.G. Tahimic",
+        "C.L. Limoli",
+        "N.D. Turner",
+        "B. Halloran",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Cell cycle delay in murine pre-osteoblasts is more pronounced after exposure to high-let compared to low-let radiation",
+      "authors": [
+        "Y. Hu",
+        "C.E. Hellweg",
+        "C. Baumstark-Khan",
+        "G. Reitz",
+        "P. Lau"
+      ]
+    },
+    {
+      "title": "Gene expression profiling after irradiation: Clues to understanding acute and persistent responses?",
+      "authors": [
+        "A.R. Snyder",
+        "W.F. Morgan"
+      ]
+    },
+    {
+      "title": "DNA repair pathway stimulated by the forkhead transcription factor foxo3a through the gadd45 protein",
+      "authors": [
+        "H. Tran",
+        "A. Brunet",
+        "J.M. Grenier",
+        "S.R. Datta",
+        "A.J. Fornace",
+        "P.S. DiStefano",
+        "L.W. Chiang",
+        "M.E. Greenberg"
+      ]
+    },
+    {
+      "title": "Foxo forkhead transcription factors induce g(2)-m checkpoint in response to oxidative stress",
+      "authors": [
+        "Y. Furukawa-Hibi",
+        "K. Yoshida-Araki",
+        "T. Ohta",
+        "K. Ikeda",
+        "N. Motoyama"
+      ]
+    },
+    {
+      "title": "Foxo proteins restrain osteoclastogenesis and bone resorption by attenuating h2o2 accumulation",
+      "authors": [
+        "S.M. Bartell",
+        "H.N. Kim",
+        "E. Ambrogini",
+        "L. Han",
+        "S. Iyer",
+        "S. Serra Ucer",
+        "P. Rabinovitch",
+        "R.L. Jilka",
+        "R.S. Weinstein",
+        "H. Zhao"
+      ]
+    },
+    {
+      "title": "Modulation of oxidative stress as an anticancer strategy",
+      "authors": [
+        "C. Gorrini",
+        "I.S. Harris",
+        "T.W. Mak"
+      ]
+    },
+    {
+      "title": "Redox regulation of foxo transcription factors",
+      "authors": [
+        "L.O. Klotz",
+        "C. Sanchez-Ramos",
+        "I. Prieto-Arroyo",
+        "P. Urbanek",
+        "H. Steinbrenner",
+        "M. Monsalve"
+      ]
+    },
+    {
+      "title": "Interaction of foxo with beta-catenin inhibits beta-catenin/t cell factor activity",
+      "authors": [
+        "D. Hoogeboom",
+        "M.A. Essers",
+        "P.E. Polderman",
+        "E. Voets",
+        "L.M. Smits",
+        "B.M. Burgering"
+      ]
+    },
+    {
+      "title": "Functional interaction between beta-catenin and foxo in oxidative stress signaling",
+      "authors": [
+        "M.A. Essers",
+        "L.M. de Vries-Smits",
+        "N. Barker",
+        "P.E. Polderman",
+        "B.M. Burgering",
+        "H.C. Korswagen"
+      ]
+    },
+    {
+      "title": "Rogue proliferation versus restorative protection: Where do we draw the line for wnt and forkhead signaling?",
+      "authors": [
+        "K. Maiese",
+        "Z.Z. Chong",
+        "Y.C. Shang",
+        "J. Hou"
+      ]
+    },
+    {
+      "title": "Acute exposure to high dose gamma-radiation results in transient activation of bone lining cells",
+      "authors": [
+        "R.T. Turner",
+        "U.T. Iwaniec",
+        "C.P. Wong",
+        "L.B. Lindenmaier",
+        "L.A. Wagner",
+        "A.J. Branscum",
+        "S.A. Menn",
+        "J. Taylor",
+        "Y. Zhang",
+        "H. Wu"
+      ]
+    },
+    {
+      "title": "Devastation of adult stem cell pools by irradiation precedes collapse of trabecular bone quality and quantity",
+      "authors": [
+        "D.E. Green",
+        "B.J. Adler",
+        "M.E. Chan",
+        "C.T. Rubin"
+      ]
+    },
+    {
+      "title": "Irradiation induces bone injury by damaging bone marrow microenvironment for stem cells",
+      "authors": [
+        "X. Cao",
+        "X. Wu",
+        "D. Frassica",
+        "B. Yu",
+        "L. Pang",
+        "L. Xian",
+        "M. Wan",
+        "W. Lei",
+        "M. Armour",
+        "E. Tryggestad"
+      ]
+    },
+    {
+      "title": "Heavy ion irradiation and unloading effects on mouse lumbar vertebral microarchitecture, mechanical properties and tissue stresses",
+      "authors": [
+        "J.S. Alwood",
+        "K. Yumoto",
+        "R. Mojarrab",
+        "C.L. Limoli",
+        "E.A. Almeida",
+        "N.D. Searby",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Aging increases stromal/osteoblastic cell-induced osteoclastogenesis and alters the osteoclast precursor pool in the mouse",
+      "authors": [
+        "J.J. Cao",
+        "T.J. Wronski",
+        "U. Iwaniec",
+        "L. Phleger",
+        "P. Kurimoto",
+        "B. Boudignon",
+        "B.P. Halloran"
+      ]
+    },
+    {
+      "title": "Low-dose, ionizing radiation and age-related changes in skeletal microarchitecture",
+      "authors": [
+        "J.S. Alwood",
+        "A. Kumar",
+        "L.H. Tran",
+        "A. Wang",
+        "C.L. Limoli",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Long-term loss of osteoclasts and unopposed cortical mineral apposition following limited field irradiation",
+      "authors": [
+        "M.E. Oest",
+        "V. Franken",
+        "T. Kuchera",
+        "J. Strauss",
+        "T.A. Damron"
+      ]
+    },
+    {
+      "title": "Spaceflight-relevant types of ionizing radiation and cortical bone: Potential let effect?",
+      "authors": [
+        "S.A. Lloyd",
+        "E.R. Bandstra",
+        "N.D. Travis",
+        "G.A. Nelson",
+        "J.D. Bourland",
+        "M.J. Pecaut",
+        "D.S. Gridley",
+        "J.S. Willey",
+        "T.A. Bateman"
+      ]
+    },
+    {
+      "title": "Association of inter- and intrachromosomal exchanges with the distribution of low- and high-let radiation-induced breaks in chromosomes",
+      "authors": [
+        "M. Hada",
+        "Y. Zhang",
+        "A. Feiveson",
+        "F.A. Cucinotta",
+        "H. Wu"
+      ]
+    },
+    {
+      "title": "Investigation of the mechanisms underpinning il-6 cytokine release in bystander responses: The roles of radiation dose, radiation quality and specific ros/rns scavengers",
+      "authors": [
+        "L.G. Mariotti",
+        "A. Bertolotti",
+        "E. Ranza",
+        "G. Babini",
+        "A. Ottolenghi"
+      ]
+    },
+    {
+      "title": "A single exposure to low- or high-let radiation induces persistent genomic damage in mouse epithelial cells in vitro and in lung tissue",
+      "authors": [
+        "E. Werner",
+        "Y. Wang",
+        "P.W. Doetsch"
+      ]
+    },
+    {
+      "title": "A phenolic acid phenethyl urea derivative protects against irradiation-induced osteoblast damage by modulating intracellular redox state",
+      "authors": [
+        "K.A. Kim",
+        "S.H. Kook",
+        "J.H. Song",
+        "J.C. Lee"
+      ]
+    },
+    {
+      "title": "Actein alleviates 2,3,7,8-tetrachlorodibenzo-p-dioxin-mediated cellular dysfunction in osteoblastic mc3t3-e1 cells",
+      "authors": [
+        "E. Mi Choi",
+        "K. Sik Suh",
+        "W.W. Jung",
+        "S. Young Park",
+        "S. Ouk Chin",
+        "S. Youl Rhee",
+        "Y. Kim Pak",
+        "S. Chon"
+      ]
+    },
+    {
+      "title": "Role of nadph oxidase as a mediator of oxidative damage in low-dose irradiated and hindlimb-unloaded mice",
+      "authors": [
+        "X.W. Mao",
+        "N.C. Nishiyama",
+        "M. Campbell-Beachler",
+        "P. Gifford",
+        "K.E. Haynes",
+        "D.S. Gridley",
+        "M.J. Pecaut"
+      ]
+    },
+    {
+      "title": "Simulated space radiation sensitizes bone but not muscle to the catabolic effects of mechanical unloading",
+      "authors": [
+        "A.R. Krause",
+        "T.L. Speacht",
+        "Y. Zhang",
+        "C.H. Lang",
+        "H.J. Donahue"
+      ]
+    },
+    {
+      "title": "Bone turnover markers in peripheral blood and marrow plasma reflect trabecular bone loss but not endocortical expansion in aging mice",
+      "authors": [
+        "M. Shahnazari",
+        "D. Dwyer",
+        "V. Chu",
+        "F. Asuncion",
+        "M. Stolina",
+        "M. Ominsky",
+        "P. Kostenuik",
+        "B. Halloran"
+      ]
+    },
+    {
+      "title": "Guidelines for assessment of bone microstructure in rodents using micro-computed tomography",
+      "authors": [
+        "M.L. Bouxsein",
+        "S.K. Boyd",
+        "B.A. Christiansen",
+        "R.E. Guldberg",
+        "K.J. Jepsen",
+        "R. Muller"
+      ]
+    }
+  ],
+  "original_title": "Dose- and Ion-Dependent Effects in the Oxidative Stress Response to Space-Like Radiation Exposure in the Skeletal System",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/adf134a2a598/ijms-18-02117-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/ca05c1a0ca8a/ijms-18-02117-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/e021d80133d8/ijms-18-02117-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/61c31460b485/ijms-18-02117-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/9500ba6192db/ijms-18-02117-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/3ea951c6538a/ijms-18-02117-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f4d0/5666799/c350b1d2868a/ijms-18-02117-g007.jpg"
+  ]
+}

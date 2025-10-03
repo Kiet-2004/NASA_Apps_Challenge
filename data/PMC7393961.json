@@ -1,0 +1,180 @@
+{
+  "pmcid": "PMC7393961",
+  "title": "Draft Genome Sequences of Rhodotorula mucilaginosa Strains Isolated from the International Space Station",
+  "abstract": "The whole-genome sequences (WGS) of 28 isolates from the International Space Station were generated and identified as Rhodotorula mucilaginosa, a pigmented yeast that has been classified as an emerging human pathogen in recent times. These WGS enable the identification of genes responsible for synthesizing compounds with biological implications.\n\nABSTRACT\n\nThe whole-genome sequences (WGS) of 28 isolates from the International Space Station were generated and identified as Rhodotorula mucilaginosa, a pigmented yeast that has been classified as an emerging human pathogen in recent times. These WGS enable the identification of genes responsible for synthesizing compounds with biological implications.",
+  "introduction": "ANNOUNCEMENT\n\nRhodotorula mucilaginosa of phylum Basidiomycota is found in soil, air, food, stool, and other environments and produces carotenoids, making it easily identifiable by its distinctive pink, yellow, orange, or red colonies. Carotenoids are important for various biological activities, including vitamin A biosynthesis, enhancement of the immune system, reduction of the risk of various diseases, and protection from radiation. For these reasons, R. mucilaginosa carotenoids are used as food additives and hold pharmaceutical potential. R. mucilaginosa, which was previously considered to be nonpathogenic, has now been classified as an emerging pathogen and has been shown to colonize central venous catheters, causing fungemia due to biofilm formation.\n\nAmong the 28 recognized members of the genus Rhodotorula, R. mucilaginosa is the most common species isolated from the environment and the most abundant yeast isolated from surfaces of the International Space Station (ISS). The ability of this yeast to produce biofilms makes it very important to study ISS strains since the harsh conditions of the ISS (microgravity and radiation) were shown to enhance antimicrobial resistance and biofilm formation. Due to their ability to form biofilms and colonize life support systems, such as water tanks and pipes containing clean water, characterization of whole-genome sequences (WGS) of R. mucilaginosa would allow for the development of countermeasures to eradicate this potential threat.\n\nSamples were collected from ISS surfaces using premoistened polyester wipes. Each sample was aseptically transferred into 200 ml of phosphate-buffered saline, vigorously shaken, and concentrated using an InnovaPrep (Drexel, MO) CP-150 concentrated pipette. A 100-μl aliquot from each sample was plated onto potato dextrose agar (PDA) with 100 μg/ml chloramphenicol (25°C; 7 days). A single colony was obtained and restreaked onto PDA plates (25°C; 7 days), and a single colony was collected for DNA extraction. Genomic DNA was extracted by using a ZymoBIOMICS DNA MagBead kit (Zymo, Irvine, CA).\n\nTo acquire the WGS of these 28 fungal strains, shotgun libraries were prepared using the Illumina Nextera Flex protocol. Paired-end sequencing was performed on a NovaSeq 6000 S4 flowcell paired-end (PE) 2 × 150-bp platform. Quality analysis was performed with FastQC (v0.11.7) to validate the quality of the raw sequencing data. For quality control, adapter trimming and quality filtering were performed using the software fastp (v0.20.0), and then the cleaned sequences were assembled using SPAdes (v3.11.1). Three functions of fastp were used, namely, correction of mismatches in overlapped regions of paired-end reads, trimming of autodetected adapter sequences, and quality trimming at the 5′ and 3′ ends. SPAdes ran using an option to reduce the number of mismatches and short indels in the final contigs, the automatic read coverage cutoff value, and the default values of k-mer sizes. To assess the assembly quality, the number of contigs, N50 values, median coverage, and the genome size were calculated using QUAST (v5.0.2) (Table 1). The G+C content ranged between 60.53% and 60.55%. All other statistics are given in Table 1.\n\nData availability.\n\nThis whole-genome shotgun project has been deposited at DDBJ/ENA/GenBank under the accession numbers given in Table 1 (BioProject no. PRJNA625575). The version described in this paper is the first version.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "New and emerging yeast pathogens",
+      "authors": [
+        "KC Hazen"
+      ]
+    },
+    {
+      "title": "Whole genome sequencing of Rhodotorula mucilaginosa isolated from the chewing stick (Distemonanthus benthamianus): insights into Rhodotorula phylogeny, mitogenome dynamics and carotenoid biosynthesis",
+      "authors": [
+        "HM Gan",
+        "BN Thomas",
+        "NT Cavanaugh",
+        "GH Morales",
+        "AN Mayers",
+        "MA Savka",
+        "AO Hudson"
+      ]
+    },
+    {
+      "title": "Biotechnological production of carotenoids by yeasts: an overview",
+      "authors": [
+        "LC Mata-Gómez",
+        "JC Montañez",
+        "A Méndez-Zavala",
+        "CN Aguilar"
+      ]
+    },
+    {
+      "title": "Effects of cellular stress on pigment production in Rhodotorula mucilaginosa/alborubescens AJB01 strain from the Caribbean region of Colombia",
+      "authors": [
+        "AG Cortes",
+        "JAG Vásquez",
+        "YCA Díaz",
+        "MR Castrillón"
+      ]
+    },
+    {
+      "title": "Production and stability analysis of yellowish pink pigments from Rhodotorula rubra MTCC 1446",
+      "authors": [
+        "B Kaur",
+        "D Chakraborty",
+        "H Kaur"
+      ]
+    },
+    {
+      "title": "Emerging opportunistic yeast infections",
+      "authors": [
+        "MH Miceli",
+        "JA Díaz",
+        "SA Lee"
+      ]
+    },
+    {
+      "title": "Epidemiology of Rhodotorula: an emerging pathogen",
+      "authors": [
+        "F Wirth",
+        "LZ Goldani"
+      ]
+    },
+    {
+      "title": "Rhodotorula fungaemia: a life-threatening complication of indwelling central venous catheters",
+      "authors": [
+        "DK Braun",
+        "CA Kauffman"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "C Kurtzman",
+        "JW Fell"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Four-year bacterial monitoring in the International Space Station—Japanese Experiment Module “Kibo” with culture-independent approach",
+      "authors": [
+        "T Ichijo",
+        "N Yamaguchi",
+        "F Tanigaki",
+        "M Shirakawa",
+        "M Nasu"
+      ]
+    },
+    {
+      "title": "Multi-resistant biofilm-forming pathogens on the International Space Station",
+      "authors": [
+        "A Vaishampayan",
+        "E Grohmann"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "FastQC: a quality tool for high throughput sequence data",
+      "authors": [
+        "S Andrews"
+      ]
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": [
+        "S Chen",
+        "Y Zhou",
+        "Y Chen",
+        "J Gu"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Rhodotorula mucilaginosa Strains Isolated from the International Space Station"
+}

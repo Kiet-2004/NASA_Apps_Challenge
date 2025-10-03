@@ -1,0 +1,406 @@
+{
+  "pmcid": "PMC8364238",
+  "title": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development",
+  "abstract": "SPIRRIG and SCAR/WAVE are molecular determinants of actin-mediated root hair development in Arabidopsis.\n\nAbstract\n\nRoot hairs are single-cell protrusions that enable roots to optimize nutrient and water acquisition. These structures attain their tubular shapes by confining growth to the cell apex, a process called tip growth. The actin cytoskeleton and endomembrane systems are essential for tip growth; however, little is known about how these cellular components coordinate their activities during this process. Here, we show that SPIRRIG (SPI), a beige and Chediak Higashi domain-containing protein involved in membrane trafficking, and BRK1 and SCAR2, subunits of the WAVE/SCAR (W/SC) actin nucleating promoting complex, display polarized localizations in Arabidopsis thaliana root hairs during distinct developmental stages. SPI accumulates at the root hair apex via post-Golgi compartments and positively regulates tip growth by maintaining tip-focused vesicle secretion and filamentous-actin integrity. BRK1 and SCAR2 on the other hand, mark the root hair initiation domain to specify the position of root hair emergence. Consistent with the localization data, tip growth was reduced in spi and the position of root hair emergence was disrupted in brk1 and scar1234. BRK1 depletion coincided with SPI accumulation as root hairs transitioned from initiation to tip growth. Taken together, our work uncovers a role for SPI in facilitating actin-dependent root hair development in Arabidopsis through pathways that might intersect with W/SC.",
+  "introduction": "Introduction\n\nRoot hairs are single-cell tubular projections that emerge from root epidermal cells. Root hairs increase the effective surface area of the root system by extending laterally into soil pores, thus enabling increased access to nutrients and water. Root hairs have been studied extensively by plant biologists for decades because they serve as excellent models to unravel mechanisms by which cell size and shape in plants are regulated. To attain their cylindrical shapes, root hairs undergo tip growth, a process in which expansion of the cell is confined to its apical domain. Tip growth involves a balance between the directed delivery of post-Golgi compartments carrying protein complexes and cell wall building blocks to the cell apex and localized cell wall loosening and recycling of excess membranes. Besides root hairs, tip growth is exhibited by other cell types such as pollen tubes, fungal hyphae, and rhizoids of mosses, liverworts, and algae.\n\nRoot epidermal cells called trichoblasts are the cell types that form root hairs. Work in Arabidopsis thaliana has shown that trichoblasts are specified to become root hair-forming cells early during root development through the patterned assembly of protein complexes of transcriptional activators and repressors in different cell files. Upon establishing their identity, trichoblasts undergo two developmental stages that lead to root hair outgrowth. The first stage is the establishment of a root hair initiation domain (RHID) that eventually leads to a conspicuous root hair bulge at the basal (root-tip oriented) end of the trichoblast. Several proteins accumulate at the RHID, most prominently, the Rho of Plants (ROP) small GTPases and their guanine nucleotide exchange factor (GEF) activators. The second stage is tip growth. In addition to small GTPases, the cytoskeleton, the endomembrane trafficking machinery, cytoplasmic calcium, phosphoinositide lipids, hormones (e.g. auxin and ethylene), and reactive oxygen species are other major players in signaling pathways that modulate root hair development.\n\nThe filamentous-actin (F-actin) and microtubule cytoskeletons orchestrate root hair development. The actin cytoskeleton in particular has been studied widely during tip growth, as it functions as tracks for the trafficking of cellular cargo to the cell apex. Many insights into the role of the actin cytoskeleton in tip growth have been demonstrated through work with Arabidopsis mutants and pharmacological approaches involving the use of chemicals that disrupt F-actin. For example, the actin-disrupting compound latrunculin B (LatB) inhibits tip growth, while also inducing the formation of root hairs and pollen tubes with irregular shapes. In this regard, Arabidopsis mutants with defects in the root hair-expressed vegetative ACTIN2 (ACT2) gene are characterized by root hairs that mirror those treated with LatB. Furthermore, ACT2 and ACT7 mutants display an apical (shoot-ward) shift in the position of the RHID compared to the wild-type.\n\nTo fulfill its cellular functions, the actin cytoskeleton is organized into higher order networks that correspond to the growth strategy of the cell. This is evident in tip-growing cells, whereby the base and shank of the cell consist mostly of thick, longitudinal F-actin bundles, while the apex contains actin fringes, rings, patches, or a fine meshwork, depending on the plant species or cell type. To sustain tip growth, the integrity and organization of these tip-focused F-actin arrays must be maintained, a task facilitated by a diverse collection of actin-binding proteins and actin nucleators (Li et al., 2015).\n\nThe actin-related protein (ARP2/3) complex and its activator, suppressor of cAMP receptor (SCAR)-WASP family verprolin homologous (WAVE) complex (W/SC), is one of the most well-characterized actin nucleators in plants. Upon conversion from an inactive open conformation to an active closed conformation, the ARP2/3 complex promotes F-actin nucleation from the sides of existing filaments by forming a surface that mimics stable actin dimers. Activation of ARP2/3 for efficient nucleation of F-actin requires the W/SC nucleation promoting factor (NPF) complex. In addition to W/SC, the NPF consists of the proteins SRA1, NAP1, ABI1, and HSPC300/BRICK1 (BRK1) (b,). Studies of Arabidopsis trichome development have been most instrumental in revealing insights into the function of W/SC-ARP2/3 in plants. Plant counterparts to the mammalian W/SC-ARP2/3 subunits were first uncovered through the cloning of disrupted genes in a set of DISTORTED (DIS) Arabidopsis trichome mutants (; El-). W/SC is the only known NPF for ARP2/3, and BRK1 and SCAR mutants display null arp2/3 trichome phenotypes (Le et al., 2006).\n\nIn addition to trichome development, the W/SC-ARP2/3 actin filament-nucleating module has been implicated in specifying leaf pavement cell shape, light and auxin-dependent root growth, stomatal gating, gravitropism, responses to salinity stress, and plant immunity (; Li et al., 2014). The W/SC and ARP2/3 complexes have been shown to play essential roles in some tip growing cells, such as the protonemal cells of the moss Physcomitrium (formerly Physcomitrella) patens. This was shown when RNA interference of transcripts encoding selected subunits of the moss W/SC and ARP2/3 complexes resulted in substantial protonemal tip growth defects. The importance of the W/SC andARP2/3 complexes was further demonstrated by), who showed that two of its components, BRK1 and ARPC4, accumulated in tips of moss protonemal cells. In contrast, Arabidopsis plants with mutations in components of the W/SC and ARP2/3 complexes displayed minimal or no defects in root hair or pollen tube growth, and none of the subunits have been conclusively shown to exhibit clear polar localization in these cell types. Therefore, the extent by which the W/SC and ARP2/3 complexes function in tip growing cells of plants remains to be determined.\n\nSPIRRIG (SPI) is one of eight genes that has been considered to be a member of the DIS group, but compared to other DIS mutants, the trichome phenotypes of spi are less severe and the mutant does not display early stage cell swelling that is diagnostic of the DIS group. SPI was shown to encode a 3,571 amino acid long protein with N-terminally located armadillo and concanavalin A-like lectin domains and C-terminally located pleckstrin homology, beige and Chediak Higashi (BEACH), and WD40 repeat domains. BEACH domain-containing proteins are highly conserved in eukaryotes and are known to function in membrane dynamics, vesicle transport, apoptosis, and receptor signaling. This family of proteins is of clinical importance as they have been implicated in a variety of human disorders, such as cancer, autoimmunity syndrome, and autism.\n\nIn addition to mild trichome defects, Arabidopsis SPI mutants have short root hairs characterized by fragmented vacuoles, suggesting that SPI, like other eukaryotic BEACH domain-containing proteins, functions in membrane trafficking. Additionally, showed that SPI physically interacts with proteins involved in endosomal sorting, reinforcing its role in membrane remodeling. SPI was also demonstrated to localize to mRNA processing bodies (P-bodies) in transiently transfected Arabidopsis epidermal cells, thereby suggesting a novel role for SPI in post-transcriptional regulation. Because SPI had a substantial but incomplete overlap with distorted mutant phenotypes, it was suggested that SPI might be involved in actin-mediated cell developmental processes, and perhaps function in coordination with W/SC and ARP2/3 complexes. However, SPI is not a known W/SC or ARP2/3 subunit; therefore, its relationship to ARP2/3 function is unclear. Moreover, the uncertainty with regard to SPI function is confounded by the fact that its subcellular localization in root hairs, which exhibit the most profound phenotype when SPI is mutated, remains unknown.\n\nIn the current study, we addressed these questions by generating a fully functional SPI fluorescent protein fusion and documented its spatial and temporal localization during root hair development. In addition, we used live cell microscopy to simultaneously image the dynamics of SPI and W/SC and correlate SPI localization with root hair tip-focused F-actin. Taken together, our results point to potential functional relationships among SPI, W/SC, and actin during root hair development.",
+  "methods": "Materials and methods\n\nForward-genetic screening and map-based cloning\n\nThe A. thaliana hlb mutants from which the spi-5 mutant allele was identified were isolated from a population of T-DNA seeds (Arabidopsis Biological Research Center stock CS31100). Plants generated from these seeds were transformed with the activation tagging pSKI015 plasmid. Briefly, mutagenized seeds were surface sterilized in 95% (v/v) ethanol and 20% bleach (v/v), followed by three washes in sterile deionized water. A solution of 0.5× Murashige and Skoog (MS) basal salt medium with vitamins (PhytoTech Labs, USA) and 1% (w/v) sucrose was prepared, and the pH of the solution was adjusted to 5.7. After adding 0.5% agar (w/v) (Sigma-Aldrich), the solution was autoclaved and allowed to cool at room temperature. Upon reaching 55°C, a stock solution of 10-mM LatB (CalBiochem-EMD Chemicals) in 100% dimethyl sulfoxide (DMSO) was added to make a final LatB concentration of 100 nM. Sterilized seeds were suspended in the MS–agar–LatB medium and gently swirled to evenly distribute the seeds. The seed–MS–agar–LatB mixture was poured to a thickness of 2 mm on the bases of 10 cm × 10 cm Petri dishes. After incubating the plates at 4°C for 48 h, they were positioned vertically in a Conviron plant growth chamber set to 24°C with a 14-h light (120 µmol m−2 s−1)/10-h dark cycle. Six days after transfer to the Conviron growth chamber, seedlings that exhibited severe growth inhibition were transplanted to LatB-free medium and grown to maturity.\n\nFor LatB hypersensitivity assays, seeds from selected plants and the hlb2 mutant were planted on the surface of a 3 mm layer of polymerized 0.5× MS—1% agar growth medium in gridded square 10 cm × 10 cm Petri plates and grown in the same Conviron used for screening. Four-day-old seedlings with primary roots that were ∼1 cm long were selected. Selected seedlings were transplanted to a new set of square Petri dishes containing MS medium supplemented with 50-nM LatB or MS supplemented with the appropriate volume of LatB solvent (i.e. DMSO). During transplantation, the tip of the root was positioned at the grid line of the Petri dish and maintained in a vertical orientation. Four days after transplanting, images of the roots were captured with a Nikon Insight digital camera mounted on a copy stand. Primary root length was expressed as the distance between the position of the root tip 4 d after transplantation and the grid line where the root tip was positioned during transplantation (Supplemental Figure S1).\n\nTo identify the HLB2 gene, homozygous hlb2 (Col-0 ecotype) was out-crossed to the Landsberg erecta ecotype to generate seeds for map-based cloning because attempts to identify the responsible mutation for the hlb2 phenotype using TAIL-PCR had been unsuccessful. Segregating F2 seedlings were surface sterilized as described above and grown for 3 d. These seedlings were then transferred to MS medium containing 50 nM LatB and root lengths were marked on the plates to track root growth. Transferred seedlings were grown vertically for an additional 4 d in the growth chamber and seedlings that showed root hypersensitivity to 50-nM LatB were selected for mapping. Briefly, DNA was extracted from approximately 2,600 LatB sensitive seedlings and cloned with simple sequence length polymorphism and cleavage of amplified polymorphic site markers to chromosome one between the AT1G02740 and AT1G03410 loci, which spanned 248 kb and contained 77 annotated genes. Primers were then designed to several candidate genes based on the sequenced 248-kb region. Nucleotide sequencing revealed that the hlb2 mutation had a 10-base pair deletion (Chr1 position 720, 152–720, 161) in exon 14 of the AT1G03060 gene. In addition, we obtained a T-DNA insertional mutant (SALK_065311) from the ABRC with a predicted insertion in SPI. After genotyping, SALK_065311 was subjected to similar LatB hypersensitivity and growth assays as hlb2 as mentioned above. Allelism was determined by examining the F1 progeny from a cross between hlb2 × SALK_065311. Following the nomenclature of, SALK_065311 and hlb2 were named spi-3 and spi-5, respectively.\n\nGeneration of fluorescent protein-tagged constructs and plant lines\n\nThe SPI protein was tagged at the C-terminus with the fluorescent protein 3x-YPet via the recombineering method. Agrobacterium tumefaciens UIA143 pMP90 harboring a SPI-YPet recombineering construct was used to transform the spi-5 mutant by the floral dip method. Transgenic lines were isolated based on resistance to kanamycin and restoration of the wild-type root length. The SPI-YPet transgene was amplified with primers (5′-ATTCCACAAGCAACCAGTCAC-3′ and 5′-AACAGAGTTGAGAGTGGCTCG-3′) and sequenced to confirm the correct configuration. Final validation of SPI-YPet expression was accomplished by screening selected lines under the confocal microscope for YPet fluorescence and complementation of the short root hair phenotype.\n\nSCAR2-mCherry lines were also generated by recombineering in which an mCherry tag was fused to an internal region of SCAR2. The mCherry tag was inserted after amino acid 585 in SCAR2 to generate SCAR2-i2mCherry. Recombineering primers were designed as follows: the forward primer contained 50 SCAR2 nucleotides upstream from the insertion site of SCAR2 and 18 nucleotides of the 5′-end of the mCherry cassette, which had a 5× Glycine, 1 Alanine linker. The reverse primer contained 50 nucleotides after the insert site of SCAR2 and 24 nucleotides of the 3′-end of the mCherry cassette. The JAtY75L14 clone was transformed into the recombineering competent Escherichia coli strain SW105 and recombined with the SCAR2-i2mCherry recombineering cassettes. A flippase recombination reaction removed the ampicillin resistance marker. The sequence between the two test primers was verified by DNA sequencing. The clones were transformed into Agrobacterium and then into scar1234 plants. Because both scar1234 plants and the recombineering clones were Basta resistant, plants on MS plates were screened by eye for rescued trichome phenotypes. Rescued plants were genotyped with the recombineering test primers and screened for fluorescence under a confocal microscope.\n\nThe BRK1promoter: BRK1-YFP introduced into the brk1-1 mutant and ARPC5-GFP are described in and, respectively. For the BRK1-mRuby3 construct, the fluorescent protein 3x-mRUBY3 was tagged with a C-terminal linker (10 Alanine, Glycine) using Thermo Fisher Scientific GeneArt to include BamH1 and XbaI sites at its 5′- and 3′-ends, respectively. Codon optimization for Arabidopsis was performed on the 3x-mRUBY3 and internal linkers prior to synthesis. The 3X-mRuby3 fragment was inserted as a BamH1/XbaI into the plasmid pBRK:YFPpEZRK.The Agrobacterium floral dip method was used to transform brk1-2 plants, and transformation was confirmed when this construct fully restored defective brk1-2 trichomes.\n\nPlants expressing BRK1-YFP were crossed with spi-5 to generate BRK1-YFP in the spi-5 background. In parallel, plants expressing SPI-YPet were crossed with brk1 to obtain SPI-YPet in the brk1 background. Spi-5 was directly transformed with the UBQ10:mGFP-Lifeact construct by the floral dip method. Spi-5 expressing SEC-RFP was generated by crossing spi-5 with SEC7-RFP-expressing wild-type plants, and progeny in subsequent generations that exhibited fluorescence and the spi root hair phenotypes were selected for analysis.\n\nGeneration of dual fluorescent protein-labeled plant lines\n\nTo generate plant lines co-expressing SPI-YPet and BRK1-mRuby3, SPI-YPet in spi-5 was crossed with BRK1-mRuby3 in the brk1-2 background. Progeny from subsequent generations that exhibited yellow and red fluorescence and rescued root hair and trichome phenotypes were selected for the analysis. For lines expressing SPI-YPet and mRuby3-Lifeact, SPI-YPet in the spi-5 background was directly transformed with a UBQ10:Lifeact-mRuby3 construct. Seedlings that showed both YPet and mRuby3 fluorescence were selected under the confocal microscope.\n\nEvaluation of root hair growth rate\n\nSeeds were surface-sterilized in ethanol and bleach as described above. To evaluate root hair growth rate, seeds were planted on 48 × 64 mm coverslips coated with 0.5× MS, 1% sucrose, and 0.4% (w/v) Gelzan CM (Sigma Aldrich, USA) according to. The coverslips were placed in 9-cm round Petri dishes and the seeds stratified at 4°C for 48 h. After stratification, the coverslip system with planted seed were kept in a 24°C growth chamber under a 14-h light (120 µmol m−2s−1)/10-h dark cycle for 5–6 d.\n\nTo quantify root hair growth rate, time-lapse sequences of elongating root hairs at intervals of 10 min over a period of 60 min from a region of the primary root located between 2 and 3 mm from the root tip were captured with a Nikon Eclipse TE300 inverted microscope using a 10× objective. Root hair lengths at various time points were extracted from digital images using ImageJ (v1.51) software (https://imagej.nih.gov/ij/). The displacement of the root hair tip after each 10-min interval was obtained and divided by 10 to obtain growth rate as µm/min.\n\nChemical treatments of root hairs\n\nFor BFA treatment, a stock solution of 10 mM was made by dissolving BFA powder (Sigma-Aldrich) in DMSO. Subsequently, the working solution of 50 µM was diluted in 0.5× MS, 1% sucrose solution, and loaded into a 1-mL syringe. The BFA solution was injected directly next to the roots of 4- to 5-d-old Arabidopsis seedlings grown on coverslips and incubated at room temperature for 10 min prior to microscopy.\n\nFM 1-43 dye (ThermoFisher Scientific) was dissolved in DMSO to make a 10-mM stock solution. The dye was diluted to 4 µM in 0.5× MS, 1% sucrose solution. The dye was loaded into a 1-mL syringe, and the solution was injected next to the roots as described above.\n\nMicroscopy and image analysis\n\nLive cell imaging of root hairs using confocal microscopy was performed on 4- or 5-d-old seedlings grown on the 48 mm × 64 mm coverslip system described above. Coverslips with seedlings were placed horizontally on the stage of an inverted Leica SP8-X point scanning confocal microscope (Leica Microsystems, Buffalo Grove, IL, USA) or an UltraView ERS spinning-disc confocal microscope (Perkin Elmer Life and Analytical Sciences, Waltham, MA, USA) equipped with 40 × water (numerical aperture = 1.10) or 100 × oil (numerical aperture = 1.40) immersion objectives. SPI-YPet and YFP-BRK1 were imaged by illuminating roots growing along the coverslip surface with the 514 nm line of the SP8-XArgon laser and emission detected at 527 nm. Images of root hairs expressing SCAR2-mCherry, BRK1-mRuby3, Lifeact-mRuby, and SEC7-RFP were acquired by illumination with the tunable SP8-X white light laser (560-580 nm) and detecting emission at 610 nm. Excitation and emission parameters for GFP (GFP-ARPC5 and mGFP-Lifeact) were 488 nm and 510 nm, respectively. Time-lapse movies or single time point images were collected using Volocity acquisition version 6.3.5 (Improvision) or SPX-8 LAS software, for the UltraView and Leica SP8-X, respectively.\n\nQuantification of fluorescence from root hair images was conducted on 8-bit confocal images acquired at a single fixed focal plane that spanned the median of the cell (SPI-YPet, BRK1-YFP, SEC-RFP, and BFA and FM 1-43 treatments) or from maximum projected images (mGFP-Lifeact). For SPI-YPet and SEC-RFP, an oval region of interest (ROI) at the root hair tip was drawn and mean fluorescence within this area was acquired using ImageJ. Fluorescence was expressed as the ratio of mean fluorescence within the root tip ROI to background fluorescence. For SPI-YPet, the background used was the region adjacent to but outside of the root hair tip (Figure 1C), while for SEC-RFP, the background used was an area on the sub-apical region of the root hair tip (Figure 2F). For BRK1-YFP, a ROI was drawn along the apical-most root hair tip that was approximately 20 pixels wide using the selection brush tool of ImageJ. The ratio of fluorescence within this area to background fluorescence was obtained (Figure 2C). For BFA, a variable ROI was selected based on the size of BFA-induced agglomerates using the selection brush tool of ImageJ. The ratio of fluorescence was calculated based on similarly sized ROI in the cytoplasmic region. For FM 1-43 experiment, the same quantification technique as for SEC-RFP was used.\n\nRoot hair growth rate data for scatter plots in Figures 1 and 5 were derived from the same root hair images in which fluorescence images were acquired under a Leica SP8-X. For the former, an image of a root hair was taken at time 0 and every 5 min thereafter. Scatter plots to determine the relationship between growth rate and tip-focused fluorescence were generated in R using the ggplot function in the ggplot2 package. Linear regression analysis between two variables was performed using the lme4 package in R software.\n\nRoot hair growth rate for Figure 3Q was obtained directly on a Nikon TE300 from root hairs growing in 0.5× MS, 1% sucrose, and 0.4% Gelzan in 5-cm diameter round Petri dishes. Time-lapse images were taken every 10 min over a period of 60 min. The growth rate refers to the displacement of the root hair tip in micrometer divided by time elapsed (min).\n\nTo quantify tip-focused F-actin, 25 optical sections were taken at 0.5-µm intervals using an UltraView spinning-disc confocal microscope. Raw Ultraview Z-stacks were exported to Imaris image analysis software version 9.2.0 (Bitplane). Transverse sections of the root hair tip were obtained from Z-stacks using the surpass view interface of Imaris software and exported as 8-bit TIFF files. From these images, an ROI spanning the circular area of the root hair tip was drawn using ImageJ and mean fluorescence was extracted (Figure 3O). The ratio of the tip fluorescence to background was obtained from 18 to 21 root hairs.\n\nPairwise t tests and ANOVA tests were performed using the lsmeans package in R. Violin plots for planar polarity in Figure 5F were designed with the ggplot function in the ggplot2 package. Pairwise Kolmogorov–Smirnov test was selected to compare the shapes of two empirical cumulative distributions for planar polarity of two genotypes using the basic package in R. Statistical results of t tests and ANOVA are shown in Supplemental Tables S1 and S2, respectively.\n\nAccession numbers\n\nSequence data from this article can be found in the Arabidopsis Genome Initiative or GenBank/EMBL databases under the following accession numbers: SPI (AT1G03060), BRK1 (AT2G22640), SCAR1 (AT2G34150), SCAR2 (AT2G38440), SCAR3 (AT1G29170), and SCAR4 (AT5G01730)",
+  "results": "Results\n\nIsolation of a new SPIRRIG mutant allele\n\nWe previously described a forward genetic screen that led to the isolation of three nonallelic recessive Arabidopsis mutants that were hypersensitive to the growth inhibitory effects of LatB. The hypersensitive to LatB1 (hlb1) and hlb3 mutants have been described previously. hlb1 was disrupted in a gene encoding a trans-Golgi network-localized tetratricopeptide repeat protein involved in actin-mediated membrane recycling, whereas the genetic lesion in hlb3 was found to encode the class II actin nucleator formin. Here, we report on hlb2, the third of these recessive mutants. Like hlb1 and hlb3, primary root growth was more severely inhibited by LatB in hlb2 compared to the wild-type. In the absence of LatB or at low (i.e. 25 nM) LatB concentrations, the primary root length of hlb2 was similar to the wild-type. Differences in root length between wild-type and hlb2 became apparent when seedlings were grown on a concentration of 50-nM LatB and higher (Supplemental Figure S1, A–C).\n\nThrough map-based cloning, we found that the mutation in hlb2 was confined to a region between the AT1G02740 and AT1G03410 loci. Nucleotide sequencing revealed that hlb2 had a 10-base pair deletion (Chr1 position: 720,152–720,161) in exon 14 of the AT1G03060 gene. This 10-base pair deletion led to an open-reading frame shift at the Asp1526 codon, resulting in a truncated protein (Supplemental Figure S2A). AT1G03060 encodes the BEACH domain-containing protein SPI (; Supplemental Figure S2A). Because the first spi mutant alleles were reported to have short root hairs, we examined root hairs of hlb2. The growth rate of hlb2 root hairs was approximately 70% slower than the wild-type, with some root hairs forming only small bulges (Supplemental Figure S2, B and C). Moreover, hlb2 had mild trichome defects that were reminiscent of the phenotypes of previously isolated spi mutant alleles (Supplemental Figure S2D). To further verify if HLB2 is SPI, we obtained a mutant from the publicly available SALK collection (SALK_065311), which had a T-DNA insertion in the 10th exon of the SPI gene (Supplemental Figure S2A). The SALK_065311 line we obtained is the same as the spi-3 mutant allele reported previously in. In addition to having similar root hair and trichome defects to hlb2, primary roots of spi-3 were hypersensitive to LatB (Supplemental Figure S2E), and a cross between hlb2 and SALK_065311 failed to complement each other in the F1 hybrid. Taken together, these results indicate that hlb2 is a new spi mutant allele. Based on earlier nomenclature, we renamed hlb2 as spi-5 (Supplemental Figure S2A). The spi-5 mutant allele was used for all subsequent experiments.\n\nSPIRRIG localizes to the tips of rapidly elongating root hairs\n\nSPI fluorescent protein fusions were previously demonstrated to associate with P-bodies and endosomes. However, these constructs have not been shown to complement the defective root hair and trichome phenotypes of spi. Due to the large size of SPI, we were unable to generate native promoter-driven fluorescent protein fusions to the full-length SPI complementary DNA or genomic DNA. To overcome this problem, SPI was tagged with the 3x-Yellow Fluorescent Protein (YFP) for energy transfer (YPet) using a method called recombineering. This method involves tagging the gene of interest in the context of transformation-competent bacterial artificial chromosomes to ensure that all regulatory sequences are included in the fluorescent protein fusion.\n\nOnce spi was transformed with a recombineered SPI-YPet construct, primary root hypersensitivity to LatB, short root hairs, and defective trichome phenotypes were rescued, indicating that the construct was functional (Figure 1A;Supplemental Figure S3). Transgenic complementation of spi with SPI-YPet provided additional evidence that HLB2 is SPI. Confocal microscopy of more than 150 root hairs from at least 25 seedlings revealed that SPI-YPet signal was strongest in the tips of rapidly elongating root hairs (Figure 1, B and C; (Supplemental Movies S1 and S2). Low magnification time-lapse movies showed that 100% of rapidly elongating root hairs had robust SPI-YPet signal at the tips (Supplemental Movie S1). Weak or no SPI-YPet fluorescence was detected at the RHID and during early root hair bulge formation, but the signal intensified as the root hairs transitioned to tip growth (Figure 1C;Supplemental Movie S3). SPI-YPet signal dissipated as the root hairs matured and the tip growth rate declined (Figure 1, B and C; Supplemental Movie S4). A linear regression analysis showed that the intensity of SPI-YPet fluorescence in root hair tips is significantly positively correlated to rapid root hair growth (Figure 1D). These results indicate that the SPI protein has functions related to root hair elongation, which is consistent with the short root hair phenotypes of spi.\n\nSPIRRIG is transported to the root hair tip via post-Golgi compartments\n\nThe prominent SPI-YPet signal at the tips of elongating root hairs is reminiscent of the localization patterns of post-Golgi markers such as RAB small GTPases, which are known to function in tip-directed secretion. We therefore hypothesized that SPI is trafficked to the tips of root hairs via post-Golgi compartments. To test this hypothesis, we treated seedlings expressing SPI-YPet with Brefeldin A (BFA). BFA is a fungal toxin that is routinely used to investigate endomembrane dynamics because it prevents vesicle formation for exocytosis by inhibiting ADP ribosylation factor GEFs (ARF-GEFs), while still enabling endocytosis and some retrograde pathways to continue. In Arabidopsis roots, BFA binds to the ARF-GEF GNOM, which is localized to early endosomes in the endocytic pathway, and possibly also in the trans-Golgi network (TGN). Consequently, BFA treatment in Arabidopsis roots causes the formation of TGN/endosomal agglomerations called BFA-induced compartments. Treatment of seedlings expressing SPI-YPet with 50-µM BFA induced the formation of SPI-YPet agglomerates in root hairs (Figure 2, A–C). The average number of BFA-induced compartments per root hair was 3.69 ± 4.05 (sd). We also quantified the effect of BFA by obtaining the fluorescence ratio of the SPI-YPet agglomerates to the fluorescence of the root hair cytoplasm that did not contain any agglomerates (Figure 2D, inset). The higher fluorescence ratio of BFA-treated root hairs compared to untreated controls reinforces our qualitative observations of the sensitivity of SPI-YPet to BFA (Figure 2D). The appearance of fluorescent puncta at the shank of root hairs also suggests that SPI-YPet is trafficked to the tip via post-Golgi compartments (Supplemental Movies S2–S4). These results indicate that SPI-YPet is associated with endomembranes and is trafficked to the root hair tips via BFA-sensitive post-Golgi compartments.\n\nThe slow root hair growth of spi and the formation of SPI-YPet agglomerates after BFA treatment suggest that spi may be defective in tip-directed protein secretion, which would partly explain the short root hair phenotypes of spi. To address this question, we expressed the secreted (SEC)-red fluorescent protein (RFP), which contains a cleavable sporamin signal peptide that accumulates in the apoplast, and observed changes in endocytosis using the membrane selective dye FM 1–43 in both spi and wild-type genotypes. Similar to previous reports, rapidly elongating wild-type root hairs had a tip-focused gradient of SEC-RFP (; Figure 2E). In contrast, slow-growing root hairs of spi lacked these tip-focused SEC-RFP gradients (Figure 2E). We quantified tip-focused SEC-RFP in elongating wild-type and spi root hairs by obtaining the ratio of tip fluorescence to the subapical cytoplasm (Figure 2F, inset). The lower fluorescence ratio of spi root hairs compared to the wild-type confirmed our qualitative observations (Figure 2F). These results were corroborated by examining FM 1-43 dye uptake. spi root hairs showed a significantly reduced tip-focused FM 1-43 gradient compared to the wild-type (Supplemental Figure S4, A–C). Altogether, the loss of tip-focused secretion indicated that the spi mutants had defects in tip-directed bulk flow exocytosis.\n\nSPIRRIG maintains root hair tip-focused F-actin\n\nIn a study of other spi mutant alleles, the similarities in phenotypes among spi, w/sc, and arp2/3 mutants suggested that SPI could function in actin-dependent cellular processes. However, because the trichome defects of spi were mild compared to other w/sc and arp2/3 mutants, no obvious actin phenotypes were observed in spi trichomes. To clarify the relationship between SPI and actin, we focused on investigating actin organization in root hairs, since these structures displayed the most obvious growth defects in SPI-altered plants.\n\nTo study actin organization, we expressed the live F-actin reporter UBQ10: mGFP-Lifeact in spi. This particular F-actin reporter was selected because it prominently labels the tip-focused F-actin meshwork typically observed in root hairs that are rapidly growing. In the wild-type, fine F-actin networks were observed in the root hair bulge, which had a weaker signal compared to the thicker actin bundles in other regions of the trichoblast (Figure 3A). As the root hair bulge expanded and the root hair transitioned to rapid tip growth, the tip-focused F-actin meshwork, which consisted of short filaments and dynamic puncta, became more conspicuous (Figure 3, B–E; Supplemental Movie S5)). When wild-type root hairs stopped elongating, the tip-focused F-actin meshwork was replaced by thick F-actin cables (Figure 3F).\n\nF-actin organization in the tips of spi root hairs was different from that of the wild-type. As noted, some root hairs of spi were only able to form small bulges due to premature termination of tip-growth (Supplemental Figure S2). In spi root hairs, the distinct F-actin meshwork observed in wild-type root hairs was unable to form. Instead, F-actin in these spi root hair bulges contained thick F-actin cables that resembled those of wild-type root hairs that had terminated growth (Figure 3, G and H). However, the thick F-actin cables in nongrowing spi root hair bulges were unstable, as they dissipated (Figure 3I) and reformed again at a later time (Figure 3J). In the small population of spi root hairs that were able to undergo tip growth, a few exhibited a tip-focused F-actin meshwork that resembled those observed in elongating wild-type root hairs (Figure 3K). However, most of these slow-growing spi root hairs lacked a tip-focused F-actin meshwork (Figure 3, L and M; Supplemental Movie S5) or had thick F-actin bundles protruding to the tip, a feature that was reminiscent of nongrowing, mature wild-type root hairs (Figure 3N). We quantified the disruption of the tip-focused F-actin meshwork in spi by measuring F-actin fluorescence from computer-reconstructed transverse sections of the root hair tip and by taking the ratio of the average fluorescence over background signal. A higher ratio indicates a higher signal of tip-focused F-actin (Figure 3O). Our analysis showed that the fluorescence ratio in spi root hairs was significantly reduced compared to the wild-type root hairs, supporting visual observations that the tip-focused F-actin meshwork in spi root hairs is disrupted (Figure 3P).\n\nTo ensure that the mGFP-Lifectact probe did not interfere with normal root hair elongation or F-actin organization, we compared the growth rates of the wild-type and spi with and without the reporter. The root hair growth rates of wild-type root hairs without the mGFP-Lifeact probe were not significantly different from that of wild-type root hairs expressing the reporter. Similarly, the growth rate of spi expressing mGFP-Lifectact was not significantly different from that of spi without the reporter (Figure 3Q).\n\nWe generated plants expressing both SPI-YPet and mRuby-Lifeact to examine the correlation between SPI and F-actin in growing root hairs. In elongating root hairs of dual labeled seedlings, SPI-YPet and the mRuby-labeled F-actin meshwork overlapped at the tips of actively elongating root hairs (Figure 4A;Supplemental Movie S6). In one time-lapse sequence, when the root hair stopped growing at the 80–120 min time points, both SPI-YPet and mRuby-labeled F-actin meshwork dissipated from the root tip (Figure 4A). Quantification of both SPI-YPet and mRuby-Lifeact from at least three root hair time-lapse sequences revealed that the appearances of both markers at the tip were highly correlated to each other (Figure 4, B and C). This supports the notion that root hair tip-localized SPI is strongly associated with the tip-focused F-actin meshwork, and as such is involved in sustaining normal root hair elongation in coordination with actin.\n\nBRK1 and SCAR2 are molecular determinants of the root hair initiation domain\n\nThe identification of SPI as one of the genes in the DIS group that also included genes encoding subunits of the W/SC and ARP2/3 complexes raises the possibility that SPI might function in root hair developmental pathways mediated by W/SC-ARP2/3. Furthermore, the observation that SPI-YPET accumulation at the root hair tip (Figure 1) mirrors the enrichment of BRK1-YFP and ARPC4-GFP at the apex of Physcomitrium protonemal cells raises the possibility that the W/SC and ARP2/3 complexes are localized to the root hair. In an attempt to link SPI with the W/SC and ARP2/3 pathways, we imaged roots of brk1 complemented with BRK1promoter:BRK1-YFP (hereafter referred to as BRK1-YFP). Unlike SPI-YPet, we did not observe a BRK1-YFP fluorescence gradient in rapidly elongating root hairs. However, closer examination of trichoblasts revealed prominent BRK1-YFP signal at the plasma membrane of the RHID that mirrored the localization of other known early root hair initiation site markers such as ROP (Figure 5A). Unlike ROP, which has a persistent plasma membrane localization throughout root hair development, BRK1-YFP signal was transient and dissipated as root hairs transitioned to rapid tip growth (Figure 5B;Supplemental Movie S7). This observation was in contrast to the intensification of SPI-YPet fluorescence as root hairs proceeded with rapid tip growth (see Figure 1). In agreement with our visual observations, a linear regression analysis showed that BRK1-YFP fluorescence is inversely proportional to the root hair growth rate (Figure 5C).\n\nGiven that BRK1 stabilizes the entire family of SCAR proteins and is required for functional W/SC assembly (Le et al., 2006), we investigated if the SCAR protein localized to the RHID, as did BRK1. To address this question, we imaged a recombineered SCAR2-mCherry fusion expressed in the scar1 scar2 scar3 scar4 (scar1234) quadruple mutant background. Like BRK1-YFP, SCAR2-mCherry marked the RHID and dissipated when rapid root hair tip growth commenced (Figure 5D).\n\nThe accumulation of BRK1-YFP and SCAR2-mCherry at the RHID led us to hypothesize that brk1 and scar1234 might have defects in root hair initiation. One parameter that has been studied extensively as an indicator of root hair initiation defects is planar polarity, which is a measure of root hair position along the length of the trichoblast. We found that the root hair positions of brk1 and scar1234 shifted apically (i.e. toward the shoot) compared to the wild-type (Figure 5F). The planar polarity defects of brk1 were rescued by expressing BRK1-YFP in brk1, while partial complementation of scar1234 was achieved by expressing SCAR2-mCherry in scar1234 (Figure 5F).\n\nWe also investigated if the ARP2/3 pathway was involved in RHID, since the W/SC complex can interact with the ARP2/3 pathway. APR2/3 subunit mutants arp2, arp3, and arpc5 exhibited significantly apically shifted root hairs that were similar to those of brk1 and scar1234 (Figure 5F). Nonetheless, we did not observe polarized accumulation of ARPC5-GFP at the RHID or at root hair tips (Supplemental Figure S5). These results suggest that the ARP2/3 pathway may interact with the W/SC complex at the RHID but is not essential for root hair positioning.\n\nTaken together, our results reveal that BRK1 and SCAR2 are molecular determinants of the RHID that are required for specifying the position of root hair emergence and can do so in both an ARP2/3-dependent and -independent manner.\n\nSPI is required for the depletion of BRK1 as root hairs transition to tip growth\n\nLive cell microscopy of BRK1-YFP and SPI-YPet revealed contrasting spatial and temporal dynamics, with the former intensifying and the latter dissipating as root hairs elongated (Figures 1 and 5). To observe BRK1 and SPI simultaneously within the same root hair, we generated plants expressing both SPI-YPet and BRK1-mRuby3. Similar to BRK1-YFP, BRK1-mRuby3 labeled the RHID and dissipated as the root hair bulge expanded (Figure 6A). Within the same root hair cell, SPI-YPet fluorescence at the tip intensified as BRK1-mRuby3 dissipated (Figure 6A;Supplemental Movie S8). To better understand the relationship between SPI and BRK1, we expressed BRK1-YFP in spi and SPI-YPet in brk1. Unlike BRK1-YFP in the complemented brk1 background (Figure 5B), BRK1-YFP signal in spi persisted throughout the entire imaging time course (Figure 6B). In several cases, BRK1-YFP remained visible in nongrowing root hair bulges of spi for more than 60 min. The persistence of BRK1-YFP signal was also observed in short root hair outgrowths of spi (Figure 6C;Supplemental Movie S9). To support our visual observations with quantitative data, we selected root hairs of spi and brk1 expressing BRK1-YFP that were of approximately equal lengths. From these root hairs, the ratio of BRK1-YFP tip fluorescence to subapical fluorescence was obtained (Figure 6D). These analyses showed that BRK1-YFP signal persisted in spi, as demonstrated by the higher fluorescence ratio (Figure 6E). In contrast, BRK1-YFP in brk1 root hairs disappeared from RHID when root hairs experienced rapid tip growth and thus did not exhibit a fluorescence gradient at the root tips (Figure 6, D and E). In addition, SPI-YPet in brk1 exhibited similar dynamics to SPI-YPet in the complemented spi (Figure 6F). In brk1, SPI-YPet signal was weak during early root hair bulge formation and intensified as root hair tip growth accelerated (Figure 6F). Taken together, these results strongly indicate that SPI contributes to the stability of BRK1 during the transition from root hair initiation to rapid tip growth. On the other hand, BRK1 does not appear to have direct effects on SPI during root hair initiation or rapid tip growth.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Breakthrough Report",
+    "AcademicSubjects/SCI02286",
+    "AcademicSubjects/SCI02287",
+    "AcademicSubjects/SCI01270",
+    "AcademicSubjects/SCI01280",
+    "AcademicSubjects/SCI02288"
+  ],
+  "citations": [
+    {
+      "title": "Genome-wide insertional mutagenesis of Arabidopsis thaliana",
+      "authors": []
+    },
+    {
+      "title": "Expression polymorphism at the ARPC4 locus links the actin cytoskeleton with quantitative disease resistance to Sclerotinia sclerotiorum in Arabidopsis thaliana",
+      "authors": []
+    },
+    {
+      "title": "F-actin-dependent endocytosis of cell wall pectins in meristematic root cells. Insights from Brefeldin A-induced compartments",
+      "authors": []
+    },
+    {
+      "title": "Recent surprising similarities between plant cells and neurons",
+      "authors": []
+    },
+    {
+      "title": "Interplay between ions, the cytoskeleton, and cell wall properties during tip growth",
+      "authors": []
+    },
+    {
+      "title": "Simultaneous imaging and functional studies reveal a tight correlation between calcium and actin networks",
+      "authors": []
+    },
+    {
+      "title": "Interchangeable functions of Arabidopsis PIROGI and the human WAVE complex subunit SRA1 during leaf epidermal development",
+      "authors": []
+    },
+    {
+      "title": "DISTORTED3/SCAR2 is a putative Arabidopsis WAVE complex subunit that activates the Arp2/3 complex and is required for epidermal morphogenesis",
+      "authors": []
+    },
+    {
+      "title": "Fitting linear mixed-effects models using lme4",
+      "authors": []
+    },
+    {
+      "title": "Microtubules regulate tip growth and orientation in root hairs of Arabidopsis thaliana",
+      "authors": []
+    },
+    {
+      "title": "Direct observation of dendritic actin filament networks nucleated by Arp2/3 complex and WASP/Scar proteins",
+      "authors": []
+    },
+    {
+      "title": "FM-dyes as experimental probes for dissecting vesicle trafficking in living plant cells",
+      "authors": []
+    },
+    {
+      "title": "An improved recombineering toolset for plants",
+      "authors": []
+    },
+    {
+      "title": "Root hairs enable high transpiration rates in drying soils",
+      "authors": []
+    },
+    {
+      "title": "Actin in action: the interplay between the actin cytoskeleton and synaptic efficacy",
+      "authors": []
+    },
+    {
+      "title": "Floral dip: a simplified method for Agrobacterium-mediated transformation of Arabidopsis thaliana",
+      "authors": []
+    },
+    {
+      "title": "The BEACH is hot: a LYST of emerging roles for BEACH-domain containing proteins in human disease",
+      "authors": []
+    },
+    {
+      "title": "SEL-2, the C. elegans neurobeachin/LRBA homolog, is a negative regulator of lin-12/Notch activity and affects endosomal traffic in polarized epithelial cells",
+      "authors": []
+    },
+    {
+      "title": "Arp2/3 and SCAR: plants move to the fore",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis NAP1 is essential for Arp2/3-dependent trichome morphogenesis",
+      "authors": []
+    },
+    {
+      "title": "Distinct RopGEFs successively drive polarization and outgrowth of root hairs",
+      "authors": []
+    },
+    {
+      "title": "BRICK1/HSPC300 functions with SCAR and the ARP2/3 complex to regulate epidermal cell shape in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "Small molecules unravel complex interplay between auxin biology and endomembrane trafficking",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Plasma membrane-associated SCAR complex subunits promote cortical F-actin accumulation and normal growth characteristics in Arabidopsis roots",
+      "authors": []
+    },
+    {
+      "title": "SCAR mediates light-induced root elongation in Arabidopsis through photoreceptors and proteasomes",
+      "authors": []
+    },
+    {
+      "title": "A simple and rapid method for the preparation of plant genomic DNA for PCR analysis",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis GNARLED encodes a NAP125 homolog that positively regulates ARP2/3",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis GNARLED encodes a NAP125 homolog that positively regulates ARP2/3",
+      "authors": []
+    },
+    {
+      "title": "A missense mutation in the Arabidopsis COPII coat protein Sec24A induces the formation of clusters of the endoplasmic reticulum and Golgi apparatus",
+      "authors": []
+    },
+    {
+      "title": "The knock-out of ARP3a gene affects F-actin cytoskeleton organization altering cellular tip growth, morphology and development in moss Physcomitrella patens",
+      "authors": []
+    },
+    {
+      "title": "Latrunculin B has different effects on pollen germination and tube growth",
+      "authors": []
+    },
+    {
+      "title": "Root hairs",
+      "authors": []
+    },
+    {
+      "title": "Actin-related protein2/3 complex component ARPC1 is required for proper cell morphogenesis and polarized cell growth in Physcomitrella patens",
+      "authors": []
+    },
+    {
+      "title": "PtdIns(4,5)P-restricted plasma membrane localization of FAN is involved in TNF-induced actin reorganization",
+      "authors": []
+    },
+    {
+      "title": "The mechanism forming the cell surface of tip-growing rooting cells is conserved among land plants",
+      "authors": []
+    },
+    {
+      "title": "Genetic dissection of trichome cell development in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "Actin filament reorganisation controlled by the SCAR/WAVE complex mediates stomatal response to darkness",
+      "authors": []
+    },
+    {
+      "title": "Probing plant membranes with FM dyes: tracking, dragging or blocking?",
+      "authors": []
+    },
+    {
+      "title": "The Arabidopsis Rop2 GTPase is a positive regulator of both root hair initiation and tip growth",
+      "authors": []
+    },
+    {
+      "title": "A role for ABIL3 in plant cell morphogenesis",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis AIP1-2 restricted by WER-mediated patterning modulates planar polarity",
+      "authors": []
+    },
+    {
+      "title": "Requirements for Arabidopsis ATARP2 and ATARP3 during epidermal development",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis BRICK1/HSPC300 is an essential WAVE-complex subunit that selectively stabilizes the Arp2/3 activator SCAR2",
+      "authors": []
+    },
+    {
+      "title": "Least-squares means: the R Package lsmeans",
+      "authors": []
+    },
+    {
+      "title": "Signaling to actin stochastic dynamics",
+      "authors": []
+    },
+    {
+      "title": "The putative Arabidopsis arp2/3 complex controls leaf cell morphogenesis",
+      "authors": []
+    },
+    {
+      "title": "ARP2/3 complex-mediated actin dynamics is required for hydrogen peroxide-induced stomatal closure in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "The BEACH-containing protein WDR81 coordinates p62 and LC3C to promote aggrephagy",
+      "authors": []
+    },
+    {
+      "title": "Positional cloning in Arabidopsis. Why it feels good to have a genome initiative working for you",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Mutations in actin-related proteins 2 and 3 affect cell shape development in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "Filopodia: molecular architecture and cellular functions",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis thaliana Rop GTPases are localized to tips of root hairs and control polar growth",
+      "authors": []
+    },
+    {
+      "title": "Outer, inner and planar polarity in the Arabidopsis root",
+      "authors": []
+    },
+    {
+      "title": "Evolutionary optimization of fluorescent proteins for intracellular FRET",
+      "authors": []
+    },
+    {
+      "title": "Dendritic spine formation and synaptic function require neurobeachin",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "The role of ARPC4 in tip growth and alignment of the polar axis in filaments of Physcomitrella patens",
+      "authors": []
+    },
+    {
+      "title": "BRICK1 is required for apical cell growth in filaments of the moss Physcomitrella patens but not for gametophore morphology",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis thaliana plants lacking the ARP2/3 complex show defects in cell wall assembly and auxin distribution",
+      "authors": []
+    },
+    {
+      "title": "The Arabidopsis Rab GTPase RabA4b localizes to the tips of growing root hair cells",
+      "authors": []
+    },
+    {
+      "title": "ACTIN2 is essential for bulge site selection and tip growth during root hair development of Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "BFA effects are tissue and not just plant specific",
+      "authors": []
+    },
+    {
+      "title": "Crystal structure of Arp2/3 complex",
+      "authors": []
+    },
+    {
+      "title": "Conformational changes in the Arp2/3 complex leading to actin nucleation",
+      "authors": []
+    },
+    {
+      "title": "Significance of root hairs at the field scale - modelling root water and phosphorus uptake under different field conditions",
+      "authors": []
+    },
+    {
+      "title": "The cell morphogenesis gene SPIRRIG in Arabidopsis encodes a WD/BEACH domain protein",
+      "authors": []
+    },
+    {
+      "title": "Regulation of epidermal cell fate in Arabidopsis roots: the importance of multiple feedback loops",
+      "authors": []
+    },
+    {
+      "title": "Regulation of cell expansion by the DISTORTED genes in Arabidopsis thaliana: actin controls the spatial organization of microtubules",
+      "authors": []
+    },
+    {
+      "title": "Recombineering: a homologous recombination-based method of genetic engineering",
+      "authors": []
+    },
+    {
+      "title": "GTL1 and DF1 regulate root hair growth through transcriptional repression of ROOT HAIR DEFECTIVE 6-LIKE 4 in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "HLB1 is a tetratricopeptide repeat domain-containing protein that operates at the intersection of the exocytic and endocytic pathways at the TGN/EE in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "The BEACH domain protein SPIRRIG is essential for Arabidopsis salt stress tolerance and functions as a regulator of transcript stabilization and localization",
+      "authors": []
+    },
+    {
+      "title": "Physical, functional and genetic interactions between the BEACH domain protein SPIRRIG and LIP5 and SKD1 and its role in endosomal trafficking to the vacuole in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "Actin fringes of polar cell growth",
+      "authors": []
+    },
+    {
+      "title": "TDNAscan: a software to identify complete and truncated T-DNA insertions",
+      "authors": []
+    },
+    {
+      "title": "The actin cytoskeleton: functional arrays for cytoplasmic organization and cell shape control",
+      "authors": []
+    },
+    {
+      "title": "Breaking the WAVE complex: the point of Arabidopsis trichomes",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Myosin XI is essential for tip growth in Physcomitrella patens",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis NAP1 regulates the formation of autophagosomes",
+      "authors": []
+    },
+    {
+      "title": "Neurobeachin: a protein kinase A - anchoring, beige/Chediak-Higashi protein homolog implicated in neuronal membrane traffic",
+      "authors": []
+    },
+    {
+      "title": "Activation tagging in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Patterning mechanisms of cytoskeletal and cell wall systems during leaf trichome morphogenesis",
+      "authors": []
+    },
+    {
+      "title": "ARP2/3-dependent growth in the plant kingdom: SCARs for life",
+      "authors": []
+    },
+    {
+      "title": "AGD1, a class 1 ARF-GAP, acts in common signaling pathways with phosphoinositide metabolism and the actin cytoskeleton in controlling Arabidopsis root hair polarity",
+      "authors": []
+    },
+    {
+      "title": "Arabidopsis SCARs function interchangeably to meet actin-related protein 2/3 activation thresholds during morphogenesis",
+      "authors": []
+    },
+    {
+      "title": "IRREGULAR TRICHOME BRANCH1 in Arabidopsis encodes a plant homolog of the actin-related protein2/3 complex activator Scar/WAVE that regulates actin and microtubule organization",
+      "authors": []
+    },
+    {
+      "title": "IRREGULAR TRICHOME BRANCH1 in Arabidopsis encodes a plant homolog of the actin-related Protein2/3 complex activator scar/WAVE that regulates actin and microtubule organization",
+      "authors": []
+    },
+    {
+      "title": "The actin-related Protein2/3 complex regulates mitochondrial-associated calcium signaling during salt stress in Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "A recombineering-based gene tagging system for Arabidopsis",
+      "authors": []
+    },
+    {
+      "title": "The role of Arabidopsis Actin-Related Protein 3 in amyloplast sedimentation and polar auxin transport in root gravitropism",
+      "authors": []
+    }
+  ],
+  "original_title": "Spatial and temporal localization of SPIRRIG and WAVE/SCAR reveal roles for these proteins in actin-mediated root hair development.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/5cb9dd061be4/koab115f8.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/b548154e9f05/koab115f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/48e9eb5db0a9/koab115f2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/77dcc47bd59f/koab115f3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/a84fd0136b0e/koab115f4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/ab05f8f501cd/koab115f5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfce/8364238/4151d03e74aa/koab115f6.jpg"
+  ]
+}

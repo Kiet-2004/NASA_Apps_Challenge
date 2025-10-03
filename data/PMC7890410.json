@@ -1,0 +1,679 @@
+{
+  "pmcid": "PMC7890410",
+  "title": "Spaceflight affects neuronal morphology and alters transcellular degradation of neuronal debris in adult Caenorhabditis elegans",
+  "abstract": "Summary\n\nExtended space travel is a goal of government space agencies and private companies. However, spaceflight poses risks to human health, and the effects on the nervous system have to be better characterized. Here, we exploited the unique experimental advantages of the nematode Caenorhabditis elegans to explore how spaceflight affects adult neurons in vivo. We found that animals that lived 5 days of adulthood on the International Space Station exhibited hyperbranching in PVD and touch receptor neurons. We also found that, in the presence of a neuronal proteotoxic stress, spaceflight promotes a remarkable accumulation of neuronal-derived waste in the surrounding tissues, suggesting an impaired transcellular degradation of debris released from neurons. Our data reveal that spaceflight can significantly affect adult neuronal morphology and clearance of neuronal trash, highlighting the need to carefully assess the risks of long-duration spaceflight on the nervous system and to develop adequate countermeasures for safe space exploration.\n\nGraphical Abstract\n\nHighlights\n\nSpaceflight induces morphological remodeling of adult neurons in C. elegans\n\nHyperbranching is a common response of adult neurons to spaceflight\n\nNeuronal debris accumulates in the hypodermis of proteo-stressed space-flown animals\n\nNeuroscience; developmental neuroscience; space sciences",
+  "introduction": "Introduction\n\nHumankind as long been fascinated by space exploration. Yuri Gagarin first showed in 1961 that humans could survive in space, and Neil Armstrong and Edwin ‘Buzz’ Aldrin became the first to walk on the moon in 1969. Now, the International Space Station (ISS), a multinational collaborative station that orbits Earth, has been continuously occupied with crew since November 2000. Into the future, both governmental space agencies and private companies plan to send crewed missions to Mars and beyond. Research to date, however, makes evident that spaceflight poses health risks to the human body, including detrimental effects to musculoskeletal, cardiovascular, and immune systems. Particularly striking is the loss of up to 20% of muscle mass in short-duration spaceflights, which can be ameliorated by regular physical exercise. Much less is known about the effects of spaceflight on neuronal morphology and function, especially in vivo and at the single-neuron level. Given the impracticality of conducting such studies in humans, the use of animal models in which detailed high-resolution neuronal analyses can be performed is invaluable for assessing conserved neuronal responses to spaceflight and developing effective countermeasures to mitigate the consequences of long-duration missions.\n\nThe nematode Caenorhabditis elegans is a genetic model widely used in neurobiology, aging, and stress research that is amenable for assessing the effects of spaceflight on neuronal biology given its unique advantages: ease of culture in large numbers due to its microscopic size; a transparent body that permits in vivo imaging of multiple tissues, single cells, and even cellular organelles; and a short lifespan (2–3 weeks) that allows for even a short-duration spaceflight mission to correspond to a large portion of the C. elegans lifetime. Importantly, the spaceflight-induced muscle atrophy observed in humans is conserved in C. elegans, as several studies reported a downregulation of muscular components in space-flown nematodes. The aging C. elegans musculature also displays the fundamental characteristics of human sarcopenia (the pervasive age-associated loss of muscle mass and strength that contributes to human frailty), and physical exercise in C. elegans mimics human exercise by inducing multi-systemic health benefits. In addition to muscle changes, space-flown C. elegans have altered metabolism and differential expression of longevity-related genes. The C. elegans nervous system is composed of exactly 302 neurons, each one with a well-described morphology. Thus, transgenic nematodes in which neuronal subpopulations are fluorescently labeled allow for in vivo single-neuron assessments that are virtually impossible in the highly complex mammalian brain.\n\nHere, we show that adult C. elegans that lived 5 days on the ISS exhibit morphological changes in two distinct types of sensory neurons when compared to ground control animals. We identify hyperbranching as a common response of adult neurons to spaceflight. We also studied proteostressed touch neurons with a focus on a formerly unrecognized mechanism by which C. elegans neurons can extrude large membrane-surrounded vesicles that contain neuronal waste (e.g. protein aggregates and damaged organelles). On Earth, the extruded neurotoxic components are, in most cases, efficiently degraded by the surrounding tissues, which in the case studied is the nematode hypodermis. We find that, under spaceflight conditions, proteostressed neurons are associated with a striking accumulation of neuronal debris in the surrounding tissues not apparent in ground controls, indicating a severe dysregulation in the ability to clear neuronal waste in space-flown, middle-aged animals. Our results reveal spaceflight-associated challenges to systemic proteostasis and underscore the need to carefully assess the cellular consequences of long-duration spaceflight as strategies to maintain health are developed.",
+  "methods": "Methods\n\nAll methods can be found in the accompanying Transparent methods supplemental file.",
+  "results": "Results\n\nA spaceflight protocol that features adult-only C. elegans culture and enables analysis of microgravity impact on a cohort that spans early adult life to middle age\n\nFor all experiments presented in this study, we grew C. elegans in a liquid culture of S-Basal with freeze-dried E. coli OP50 as a food source. Prior to launch, we cultured synchronized populations of young adult nematodes that we loaded into polyethylene (PE) bags with 6.5 mL of liquid culture (∼300 animals/bag) on December 2, 2018 (see detailed optimization of culture conditions). Importantly, given our goal of assessing the effects of spaceflight during adult life rather than during animal development, we added 5-fluoro-2′-deoxyuridine (FUdR) to the culture bags to suppress production of progeny and to guarantee that the animals we loaded into the bags would be the same ones we scored upon their return to Earth, as opposed to their progeny. Our samples were loaded into SpaceX CRS-16, the 16th Commercial Resupply Service mission to the ISS, and launched on December 5, 2018 aboard a Falcon 9 rocket. SpaceX CRS-16 docked to the ISS on December 8, 2018, and the C. elegans samples, which were kept in cold stowage (8–13°C) once introduced into their flight bags, were transferred to 20°C for five days, beginning on December 9, 2018. After five days, the C. elegans culture bags were transferred to −80°C and kept frozen until return to Earth (Figure 1). For ground control samples, we loaded young adult nematodes into PE bags on December 5, 2018 and exposed C. elegans to the same time frame/temperatures as space samples but maintained cultures on Earth. A key aspect of our experimental design is thus that we generated middle-aged nematodes that experienced most of their physiological aging in microgravity (ISS) vs. normal gravity (Earth).\n\nSpaceflight induces morphological remodeling of adult PVD sensory neurons\n\nWe started by studying the effects of spaceflight in the morphology of PVD sensory neurons, polymodal nociceptors with spectacular morphologies that sense harsh touch, cold temperature, and posture. The two PVD neurons (one on the left side and one on the right side of the body) extend processes that branch to cover most of the body and, together with FLP neurons in the head, possess the most complex dendritic arborization structure of all C. elegans neurons (Figure 2A). The highly branched, yet stereotyped, morphology of PVD dendrites arises sequentially during larval development, with primary (1°) branches forming during the L2 stage, secondary (2°) and tertiary (3°) branches forming during the L3 stage, and quaternary (4°) branches forming during the early L4 stage. By the late L4 stage, PVD patterning is completed, and the repetitive structural units resembling candelabras or menorahs become apparent (Figure 2A).\n\nWe used a C. elegans strain in which PVD neurons express a translational fusion of transmembrane protein DES-2 and green fluorescent protein (GFP) (DES-2::GFP). All tiers of the PVD dendrites are well visualized by GFP in this strain, and approaches toward quantitative imaging of branching have been published. We compared PVD neurons from middle-aged space-flown vs. ground control animals by scoring 1°–4° branch structures. We found that the space-flown PVD neurons did not degenerate en masse nor did they exhibit major dendritic gaps relative to ground control PVD neurons (n = 51–56 PVD neurons/condition) (Figures 2B and 2C). However, when we carefully quantified the number of branches and other menorah-related phenotypes in a 100-μm domain anterior to the PVD soma (Figure 2A), we registered consistent differences between control and spaceflight animals. More specifically, space-flown animals exhibited increased numbers of 2° and 3° branches, whereas the number of 4° branches remained constant between control and spaceflight animals (Figure 2D), indicating a plastic morphological restructuring during adult life with outcome that differs consequent to microgravity experience.\n\nOn Earth, the PVD dendritic pattern is established during larval stages, but adult neurons still exhibit a limited plasticity of the dendritic trees, with dynamic growth and retraction events occurring during lifetime. Moreover, the PVD dendritic trees show age-dependent hyperbranching, disorganization, and loss of self-avoidance within tree branches. Whether these changes reflect deleterious aspects of aging or adaptive processes as the animal grows remains unclear. With regard to spaceflight samples, our quantification of the number of extra branches derived from 4° branches (5°, 6°, and 7° branches) and the number of ectopic branches (ectopic 2°, 3°, and 4°) found that space-flown animals displayed an increased number of 5° branches (Figure 3A) and ectopic 3° branches (Figure 3B) relative to ground control animals. Retrograde branches (4° or higher-order branches that migrate toward the 3° branch by forming a hook) were also present at significantly higher numbers in spaceflight PVD neurons when compared to control counterparts (Figure 3C). We observed that spaceflight increased the proportion of disorganized menorahs (menorahs with extra/ectopic branches) (Figure 3D) and the proportion of self-avoidance defects (no gap in 3° branch between adjacent menorahs) (Figure 3E). PVD dendrites also exhibit age-associated degeneration characterized by the appearance of bead- or bubble-like structures along the dendrites, which are enriched in autophagosomes and fragmented microtubules. We focused on this morphological feature but found no difference in the number of beads/bubbles present in PVD dendrites of space-flown animals relative to ground control animals (Figure 3F).\n\nOverall, our data reveal that spaceflight induces significant remodeling of the PVD dendritic tree in adult C. elegans without promoting neurodegeneration. Importantly, the morphological changes we report here for sensory neurons occurred during adult life, indicating that microgravity can influence the morphology of adult neurons.\n\nSpaceflight promotes modest morphological changes in adult touch receptor neurons\n\nThe complex dendritic tree of PVD neurons contrasts with the simple morphology of a single unbranched process adopted by most C. elegans neurons. The six touch receptor neurons (AVM, ALML, ALMR, PVM, PLML, and PLMR) mediate the response to gentle touch, with each extending a single major dendritic process anteriorly (Figure 4A). We sought to investigate the effects of spaceflight on touch receptor neuron morphology by studying a C. elegans strain in which touch receptor neurons are specifically labeled with soluble GFP (Pmec-4GFP).\n\nWe found that middle-aged nematodes that lived five days of adulthood on the ISS exhibited touch receptor neurons with an overall morphology similar to ground control animals, with no obvious degeneration, dendritic gaps, or soma/process mislocalization (n = 54–64 of each touch receptor neuron/condition) (Figures 4B and 4C). For a detailed morphological characterization of each neuron, we quantified age-dependent morphological changes previously reported for touch receptor neurons, including new branches that extend from the main process (“branches”) and new processes emerging from the soma (“outgrowths”) (Figure 4D). We observed an overall trend in space-flown animals for increased number of branches in all six touch receptor neurons (statistically significant for ALMR and PLML) relative to ground control animals (Figure 4E), whereas we found the number of outgrowths was generally unchanged by spaceflight (except for PVM) (Figure 4F). Thus, C. elegans adult touch receptor neurons undergo minor structural changes consequent to space travel. Together, our data reveal that spaceflight during adult life does not promote major morphological changes in touch receptor neurons. Still, the hyperbranching phenotype detected in specific adult touch receptor neurons and the morphological changes observed in adult PVD neurons suggest that modest neuronal restructuring might constitute a general neuronal response to microgravity and/or other stresses associated with spaceflight.\n\nSpaceflight induces a distinctive response to neuronal mCherry extrusion\n\nSpaceflight includes novel stresses experienced by organisms during lift-off/reentry and extended microgravity periods, and some of these stresses have been suggested to contribute to accelerated aging. Among the many stress response pathways activated and compromised by aging are proteostasis pathways such as autophagy and protein degradation processes. Although fluxes through such pathways are difficult to measure in spaceflight samples, we considered some physical readouts thought to reflect proteostasis status.\n\nExpression of GFP in touch receptor neurons can induce high-intensity fluorescent puncta in the soma (Figure 4D). We found that the absolute numbers of GFP puncta in touch neurons did not differ between middle-aged nematodes on Earth and the ones that spent the corresponding five days on the ISS (Figure S1A). However, we did observe a trend in space-flown animals for an increased proportion of large GFP puncta (diameter ≥0.9 μm) in the soma of touch receptor neurons as compared to ground control animals (Figure S1B). Although we cannot distinguish whether the touch neuron puncta correspond to aggregates, developing aggresomes, or liquid phase droplets, the differential handling of introduced GFP suggests physiological differences between Earth and spaceflight neurons.\n\nWe also reasoned that we might readily evaluate one proteostress response using fluorescence imaging of marked neurons – the extrusion of neuronal garbage. Touch receptor neurons can extrude large membrane-surrounded vesicles called exophers that contain protein aggregates and organelles (Figure 4D). Exopher production increases under enhanced proteostress, as well as under environmental stresses such as elevated superoxide production, possibly as a conserved protective mechanism of proteostasis. Under standard conditions, exopher production in GFP-labeled neurons is a relatively rare event. We found that spaceflight did not significantly increase overall exopher detection in touch receptor neurons of Pmec-4GFP animals (Figure 4G). We did, however, note an interesting switch in the apparent rates of exopher production in individual touch receptor neurons. On Earth, adult ALMR neurons reproducibly produce more baseline exophers than other neurons, including the left side counterpart ALML, but in spaceflight animals, left side ALML produced more baseline exophers (Figure 4G). Our observations raise the possibility that maintained gravitational forces may influence left/right asymmetries associated with stresses or their management in particular neurons.\n\nGFP-expressing touch receptor neurons have been studied extensively and are not thought to experience any particular stress as a consequence of the GFP expression. Other transgenically supplied reporters such as mCherry can appear disruptive to normal physiology and are associated with an enhanced level of selective extrusion in exophers. We wondered whether “at risk” neurons, pre-sensitized by the genetic introduction of a noxious mCherry-induced proteostress, might be impacted by spaceflight. Thus, we examined space-flown animals of a strain that over-produces an mCherry reporter well characterized to elevate the production of exophers in touch receptor neurons (Pmec-4mCherry1). We examined the neuronal morphology, apparent protein aggregation, and exopher-genesis in the presence of the mCherry stressor. We found that touch receptor neurons of space-flown Pmec-4mCherry1 animals exhibited a generally normal neuronal morphology (n = 42–66 of each touch receptor neuron/condition). We observed a trend in spaceflight animals for increased number of mCherry foci in the soma of specific touch receptor neurons (AVM, ALMR, PLML, and statistically significant in PLMR) relative to ground control animals (Figure S2A), whereas we detected no significant differences in the proportion of large internal mCherry foci (diameter ≥0.9 μm) between both conditions (Figure S2B). We found no significant differences in the absolute number of exophers present in middle-aged control vs. spaceflight touch neurons (Figure S2C).\n\nWe did, however, observe a striking difference in mCherry reporter signal present outside the touch receptor neurons: a remarkably large proportion of Pmec-4mCherry1 animals that spent 5 days of adulthood on the ISS contained numerous mCherry-fluorescent structures throughout the body, a phenotype we never observed in ground control animals (Figures 5A, 5B, and S3). While exophers produced by ground control animals are found almost exclusively near touch receptor neuron cell bodies, in limited numbers (one or two exophers produced at the most per neuron), and with characteristic sizes, fluorescent structures in space-flown animals ranged from small particles to large rounded structures that could appear as a continuous layer covering multiple regions of the body (Figures 5B and S3).\n\nC. elegans touch receptor neurons run through and are fully surrounded by hypodermal tissue. When exophers are extruded, they must therefore enter the hypodermis, which attempts digestion of exopher contents via its extensive lysosomal network. mCherry exopher contents that cannot be digested in the surrounding hypodermis are eventually extruded from the hypodermis into the C. elegans pseudocoelom. Materials floating through the pseudocoelom can be taken up by scavenger cells called coelomocytes. During the process of transit through the hypodermis, the mCherry exopher contents often become dispersed in the hypodermal lysosomal network, appearing as small fluorescent particles (we refer to this as a “Starry Night” phenotype). The unexpected distribution of fluorescence that we observed in spaceflight Pmec-4mCherry1 animals appears comprised of two main components (Figure 6A): small fluorescent particles resembling the Starry Night phenotype and large rounded fluorescent structures (“spaceflight vesicles” or “sVesicles”) that we have not previously found in this C. elegans strain under standard culture conditions (even in much older adults). These large rounded structures have the appearance of the enlarged hypodermal lysosomes that can be found in C. elegans mutants defective in lysosomal function and assembly.\n\nWe characterized the presence and location of both Starry Night and sVesicles in our samples. We found a striking increase in the proportion of animals with Starry Night in control vs. spaceflight (7% vs. 67%) (Figure 6B). In ground control animals, we always found Starry Night in the mid-body and in the hypodermis (peripheral layer surrounding the body) (Figures 6C and 6D). In space-flown animals, we still found Starry Night predominantly in the mid-body, but in approximately half of the cases, the Starry Night dispersed fluorescence expanded into the anterior and/or the posterior region of the body (Figure 6C). Regarding tissue location, we detected that Starry Night after spaceflight was always present in the hypodermis (Videos S1 and S2) but could also spread into the intestine (15% of animals) or other tissues (48% of animals) (Figure 6D). We did not observe sVesicles in any of the 72 ground control animals analyzed, whereas 52 out of the 83 space-flown animals (63%) exhibited sVesicles (Figure 6E). The location distribution of sVesicles in spaceflight animals was similar to Starry Night location, with sVesicles found predominantly in the mid-body but also in the anterior and posterior regions of the body (Figure 6F), and the primarily hypodermal location (Videos S1 and S2) extended into the intestine (7% of animals) or other tissues (56% of animals) (Figure 6G). Despite the extensive mCherry fluorescence found outside the touch receptor neurons in spaceflight animals, we rarely observed mCherry fluorescence in coelomocytes in this sample (only 1 out of 56 animals). The similar distribution patterns of Starry Night and sVesicles, together with the fact that 96% of the animals that exhibited sVesicles also had Starry Night, strongly support a link between both phenomena.\n\nWe tried to identify the sVesicles found in spaceflight nematodes by performing antibody staining for the lysosomal marker LMP-1 but were unable to get specific staining, possibly due to the paraformaldehyde fixation that we had to perform when thawing the frozen nematodes (essential to maintain a strong fluorescence from reporters). Moreover, it appeared that the sVesicles could be readily disrupted as we found that alternative fixation methods (e.g. methanol and acetic acid) led to the disappearance of most mCherry fluorescence outside the touch receptor neurons. The fragility of the sVesicle structures limited our ability to definitively confirm the nature of the hypodermal structures we observed. We did find that the fluorescence intensity of the sVesicles varied greatly, ranging from a bright to a diffuse, dim fluorescence (Figure 6H), which is consistent with sVesicles being at different stages of lysosomal degradation.\n\nWe were fortunate that an unanticipated feature of the flight population enabled us to compare mCherry distribution in some escaper progeny in the culture bag from the ISS. We found that despite our use of FUdR to limit reproduction, some progeny were able to develop up to young adulthood. We could easily identify these animals from older adults by their reduced size. Young adult animals present in the same culture bag as the middle-aged adults that were our major focus exhibited the fluorescent structures at extremely low levels (Figure S4), suggesting that the dramatic sVesicle profiles in the hypodermis could be age dependent. We cannot rule out, however, that a variable introduced during development in spaceflight could be responsible for the lack of the large sVesicle pattern in younger animals.\n\nOverall, our data reveal that, in the presence of an internal cell-specific proteotoxic stress (i.e., mCherry overexpression in touch receptor neurons), spaceflight is associated with significant extrusion of the offensive protein in middle-aged touch receptor neurons. Unexpectedly, the extruded material appears to become stuck in the hypodermal lysosomal network, and the lysosomal network adopts a morphology similar to that observed when lysosomes are unable to degrade their substrates. Our data suggest that in microgravity, extruded neuronal garbage is not handled as efficiently by the neighboring cell that collects neuronal debris and attempts degradation.\n\nFuture experiments will be necessary to determine the exact mechanism causing mCherry accumulation in large quantities in multiple tissues of C. elegans consequent to spaceflight. Still, it is interesting that our results suggest that spaceflight can increase mCherry spread from touch receptor neurons to neighboring tissues (via exophers and/or unknown mechanisms) and that these significant extrusions are not processed in neighboring tissues as occurs on Earth. The abnormal fluorescent structures observed primarily in the hypodermis suggest that the degradative pathways of middle-aged animals may become overwhelmed in response to spaceflight with the resulting inability to quickly clear neuronal trash. Thus, in upcoming spaceflight missions, it will be fascinating to specifically track the hypodermal lysosomal network and to determine whether other proteostressors such as aggregation-prone human neurodegenerative disease proteins tau, amyloid beta, huntingtin, or alpha-synuclein promote similar distinctive outcomes.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "neuroscience",
+    "developmental neuroscience",
+    "space sciences",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Skeletal muscle unweighting: spaceflight and ground-based models",
+      "authors": [
+        "G.R. Adams",
+        "V.J. Caiozzo",
+        "K.M. Baldwin"
+      ]
+    },
+    {
+      "title": "Review of the results from the International C. elegans first experiment (ICE-FIRST)",
+      "authors": [
+        "A.A. Adenle",
+        "B. Johnsen",
+        "N.J. Szewczyk"
+      ]
+    },
+    {
+      "title": "C. elegans multi-dendritic sensory neurons: morphology and function",
+      "authors": [
+        "A. Albeg",
+        "C.J. Smith",
+        "M. Chatzigeorgiou",
+        "D.G. Feitelson",
+        "D.H. Hall",
+        "W.R. Schafer",
+        "D.M. Miller",
+        "M. Treinin"
+      ]
+    },
+    {
+      "title": "Quantitative approaches for scoring in vivo neuronal aggregate and organelle extrusion in large exopher vesicles in C. elegans",
+      "authors": [
+        "M.L. Arnold",
+        "J. Cooper",
+        "B.D. Grant",
+        "M. Driscoll"
+      ]
+    },
+    {
+      "title": "Spaceflight activates autophagy programs and the proteasome in mouse liver",
+      "authors": [
+        "E.A. Blaber",
+        "M.J. Pecaut",
+        "K.R. Jonscher"
+      ]
+    },
+    {
+      "title": "Developmental genetics of the mechanosensory neurons of Caenorhabditis elegans",
+      "authors": [
+        "M. Chalfie",
+        "J. Sulston"
+      ]
+    },
+    {
+      "title": "Green fluorescent protein as a marker for gene expression",
+      "authors": [
+        "M. Chalfie",
+        "Y. Tu",
+        "G. Euskirchen",
+        "W.W. Ward",
+        "D.C. Prasher"
+      ]
+    },
+    {
+      "title": "Specific roles for DEG/ENaC and TRP channels in touch and thermosensation in C. elegans nociceptors",
+      "authors": [
+        "M. Chatzigeorgiou",
+        "S. Yoo",
+        "J.D. Watson",
+        "W.H. Lee",
+        "W.C. Spencer",
+        "K.S. Kindt",
+        "S.W. Hwang",
+        "D.M. Miller",
+        "M. Treinin",
+        "M. Driscoll"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions",
+      "authors": [
+        "B.E. Crucian",
+        "A. Chouker",
+        "R.J. Simpson",
+        "S. Mehta",
+        "G. Marshall",
+        "S.M. Smith",
+        "S.R. Zwart",
+        "M. Heer",
+        "S. Ponomarev",
+        "A. Whitmire"
+      ]
+    },
+    {
+      "title": "Human pathophysiological adaptations to the space environment",
+      "authors": [
+        "G.C. Demontis",
+        "M.M. Germani",
+        "E.G. Caiani",
+        "I. Barravecchia",
+        "C. Passino",
+        "D. Angeloni"
+      ]
+    },
+    {
+      "title": "Muscle- and skin-derived cues jointly orchestrate patterning of somatosensory dendrites",
+      "authors": [
+        "C.A. Diaz-Balzac",
+        "M. Rahman",
+        "M.I. Lazaro-Pena",
+        "L.A. Martin Hernandez",
+        "Y. Salzberg",
+        "C. Aguirre-Chen",
+        "Z. Kaprielian",
+        "H.E. Bulow"
+      ]
+    },
+    {
+      "title": "An antimicrobial peptide and its neuronal receptor regulate dendrite degeneration in aging and infection",
+      "authors": [
+        "L. E",
+        "T. Zhou",
+        "S. Koh",
+        "M. Chuang",
+        "R. Sharma",
+        "N. Pujol",
+        "A.D. Chisholm",
+        "C. Eroglu",
+        "H. Matsunami",
+        "D. Yan"
+      ]
+    },
+    {
+      "title": "Human fiber size and enzymatic properties after 5 and 11 days of spaceflight",
+      "authors": [
+        "V.R. Edgerton",
+        "M.Y. Zhou",
+        "Y. Ohira",
+        "H. Klitgaard",
+        "B. Jiang",
+        "G. Bell",
+        "B. Harris",
+        "B. Saltin",
+        "P.D. Gollnick",
+        "R.R. Roy"
+      ]
+    },
+    {
+      "title": "Cytoskeleton modifications and autophagy induction in TCam-2 seminoma cells exposed to simulated microgravity",
+      "authors": [
+        "F. Ferranti",
+        "M. Caruso",
+        "M. Cammarota",
+        "M.G. Masiello",
+        "K. Corano Scheri",
+        "C. Fabrizi",
+        "L. Fumagalli",
+        "C. Schiraldi",
+        "A. Cucina",
+        "A. Catizone"
+      ]
+    },
+    {
+      "title": "Functional and structural adaptations of skeletal muscle to microgravity",
+      "authors": [
+        "R.H. Fitts",
+        "D.R. Riley",
+        "J.J. Widrick"
+      ]
+    },
+    {
+      "title": "Simulated microgravity enhances CDDP-induced apoptosis signal via p53-independent mechanisms in cancer cells",
+      "authors": [
+        "T. Fukazawa",
+        "K. Tanimoto",
+        "L. Shrestha",
+        "T. Imura",
+        "S. Takahashi",
+        "T. Sueda",
+        "N. Hirohashi",
+        "E. Hiyama",
+        "L. Yuge"
+      ]
+    },
+    {
+      "title": "The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "F.E. Garrett-Bakelman",
+        "M. Darshi",
+        "S.J. Green",
+        "R.C. Gur",
+        "L. Lin",
+        "B.R. Macias",
+        "M.J. McKenna",
+        "C. Meydan",
+        "T. Mishra",
+        "J. Nasrini"
+      ]
+    },
+    {
+      "title": "Impaired mitochondrial respiration promotes dendritic branching via the AMPK signaling pathway",
+      "authors": [
+        "A. Gioran",
+        "P. Nicotera",
+        "D. Bano"
+      ]
+    },
+    {
+      "title": "Swimming exercise and transient food deprivation in Caenorhabditis elegans promote mitochondrial maintenance and protect against chemical-induced mitotoxicity",
+      "authors": [
+        "J.H. Hartman",
+        "L.L. Smith",
+        "K.L. Gordon",
+        "R. Laranjeiro",
+        "M. Driscoll",
+        "D.R. Sherwood",
+        "J.N. Meyer"
+      ]
+    },
+    {
+      "title": "Stochastic and genetic factors influence tissue-specific decline in ageing C. elegans",
+      "authors": [
+        "L.A. Herndon",
+        "P.J. Schmeissner",
+        "J.M. Dudaronek",
+        "P.A. Brown",
+        "K.M. Listner",
+        "Y. Sakano",
+        "M.C. Paupard",
+        "D.H. Hall",
+        "M. Driscoll"
+      ]
+    },
+    {
+      "title": "Microgravity elicits reproducible alterations in cytoskeletal and metabolic gene and protein expression in space-flown Caenorhabditis elegans",
+      "authors": [
+        "A. Higashibata",
+        "T. Hashizume",
+        "K. Nemoto",
+        "N. Higashitani",
+        "T. Etheridge",
+        "C. Mori",
+        "S. Harada",
+        "T. Sugimoto",
+        "N.J. Szewczyk",
+        "S.A. Baba"
+      ]
+    },
+    {
+      "title": "Decreased expression of myogenic transcription factors and myosin heavy chains in Caenorhabditis elegans muscles developed during spaceflight",
+      "authors": [
+        "A. Higashibata",
+        "N.J. Szewczyk",
+        "C.A. Conley",
+        "M. Imamizo-Sato",
+        "A. Higashitani",
+        "N. Ishioka"
+      ]
+    },
+    {
+      "title": "Genes down-regulated in spaceflight are involved in the control of longevity in Caenorhabditis elegans",
+      "authors": [
+        "Y. Honda",
+        "A. Higashibata",
+        "Y. Matsunaga",
+        "Y. Yonezawa",
+        "T. Kawano",
+        "A. Higashitani",
+        "K. Kuriyama",
+        "T. Shimazu",
+        "M. Tanaka",
+        "N.J. Szewczyk"
+      ]
+    },
+    {
+      "title": "Spaceflight and ageing: reflecting on Caenorhabditis elegans in space",
+      "authors": [
+        "Y. Honda",
+        "S. Honda",
+        "M. Narici",
+        "N.J. Szewczyk"
+      ]
+    },
+    {
+      "title": "Microgravity induces autophagy via mitochondrial dysfunction in human Hodgkin's lymphoma cells",
+      "authors": [
+        "A.J. Jeong",
+        "Y.J. Kim",
+        "M.H. Lim",
+        "H. Lee",
+        "K. Noh",
+        "B.H. Kim",
+        "J.W. Chung",
+        "C.H. Cho",
+        "S. Kim",
+        "S.K. Ye"
+      ]
+    },
+    {
+      "title": "The glymphatic system: a beginner's guide",
+      "authors": [
+        "N.A. Jessen",
+        "A.S. Munk",
+        "I. Lundgaard",
+        "M. Nedergaard"
+      ]
+    },
+    {
+      "title": "Proteostasis and aging",
+      "authors": [
+        "S. Kaushik",
+        "A.M. Cuervo"
+      ]
+    },
+    {
+      "title": "The fusogen AFF-1 can rejuvenate the regenerative potential of adult dendritic trees by self-fusion",
+      "authors": [
+        "V. Kravtsov",
+        "M. Oren-Suissa",
+        "B. Podbilewicz"
+      ]
+    },
+    {
+      "title": "Single swim sessions in C. elegans induce key features of mammalian exercise",
+      "authors": [
+        "R. Laranjeiro",
+        "G. Harinath",
+        "D. Burke",
+        "B.P. Braeckman",
+        "M. Driscoll"
+      ]
+    },
+    {
+      "title": "Swim exercise in Caenorhabditis elegans extends neuromuscular and gut healthspan, enhances learning ability, and protects against neurodegeneration",
+      "authors": [
+        "R. Laranjeiro",
+        "G. Harinath",
+        "J.E. Hewitt",
+        "J.H. Hartman",
+        "M.A. Royal",
+        "J.N. Meyer",
+        "S.A. Vanapalli",
+        "M. Driscoll"
+      ]
+    },
+    {
+      "title": "Transcriptional regulation and stabilization of left-right neuronal identity in C. elegans",
+      "authors": [
+        "B.J. Lesch",
+        "A.R. Gehrke",
+        "M.L. Bulyk",
+        "C.I. Bargmann"
+      ]
+    },
+    {
+      "title": "The lysosomal membrane protein SCAV-3 maintains lysosome integrity and adult longevity",
+      "authors": [
+        "Y. Li",
+        "B. Chen",
+        "W. Zou",
+        "X. Wang",
+        "Y. Wu",
+        "D. Zhao",
+        "Y. Sun",
+        "Y. Liu",
+        "L. Chen",
+        "L. Miao"
+      ]
+    },
+    {
+      "title": "Sarcomeres pattern proprioceptive sensory dendritic endings through UNC-52/Perlecan in C. elegans",
+      "authors": [
+        "X. Liang",
+        "X. Dong",
+        "D.G. Moerman",
+        "K. Shen",
+        "X. Wang"
+      ]
+    },
+    {
+      "title": "Neuronal aggregates: formation, clearance, and spreading",
+      "authors": [
+        "J. Lim",
+        "Z. Yue"
+      ]
+    },
+    {
+      "title": "Autophagy-dependent ribosomal RNA degradation is essential for maintaining nucleotide homeostasis during C. elegans development",
+      "authors": [
+        "Y. Liu",
+        "W. Zou",
+        "P. Yang",
+        "L. Wang",
+        "Y. Ma",
+        "H. Zhang",
+        "X. Wang"
+      ]
+    },
+    {
+      "title": "Mitophagy contributes to endothelial adaptation to simulated microgravity",
+      "authors": [
+        "L. Locatelli",
+        "A. Cazzaniga",
+        "C. De Palma",
+        "S. Castiglioni",
+        "J.A.M. Maier"
+      ]
+    },
+    {
+      "title": "Physical training for long-duration spaceflight",
+      "authors": [
+        "J.A. Loehr",
+        "M.E. Guilliams",
+        "N. Petersen",
+        "N. Hirsch",
+        "S. Kawashima",
+        "H. Ohshima"
+      ]
+    },
+    {
+      "title": "C. elegans neurons jettison protein aggregates and mitochondria under neurotoxic stress",
+      "authors": [
+        "I. Melentijevic",
+        "M.L. Toth",
+        "M.L. Arnold",
+        "R.J. Guasp",
+        "G. Harinath",
+        "K.C. Nguyen",
+        "D. Taub",
+        "J.A. Parker",
+        "C. Neri",
+        "C.V. Gabel"
+      ]
+    },
+    {
+      "title": "Extrinsic repair of injured dendrites as a paradigm for regeneration by fusion in Caenorhabditis elegans",
+      "authors": [
+        "M. Oren-Suissa",
+        "T. Gattegno",
+        "V. Kravtsov",
+        "B. Podbilewicz"
+      ]
+    },
+    {
+      "title": "The fusogen EFF-1 controls sculpting of mechanosensory dendrites",
+      "authors": [
+        "M. Oren-Suissa",
+        "D.H. Hall",
+        "M. Treinin",
+        "G. Shemer",
+        "B. Podbilewicz"
+      ]
+    },
+    {
+      "title": "Molecular muscle experiment: hardware and operational lessons for future astrobiology space experiments",
+      "authors": [
+        "A.K. Pollard",
+        "C.J. Gaffney",
+        "C.S. Deane",
+        "M. Balsamo",
+        "M. Cooke",
+        "R.A. Ellwood",
+        "J.E. Hewitt",
+        "B.E. Mierzwa",
+        "A. Mariani",
+        "S.A. Vanapalli"
+      ]
+    },
+    {
+      "title": "Mechanisms of abeta clearance and degradation by glial cells",
+      "authors": [
+        "M. Ries",
+        "M. Sastre"
+      ]
+    },
+    {
+      "title": "Simulated microgravity contributes to autophagy induction by regulating AMP-activated protein kinase",
+      "authors": [
+        "H.W. Ryu",
+        "S.H. Choi",
+        "S. Namkoong",
+        "I.S. Jang",
+        "D.H. Seo",
+        "I. Choi",
+        "H.S. Kim",
+        "J. Park"
+      ]
+    },
+    {
+      "title": "Skin-derived cues control arborization of sensory dendrites in Caenorhabditis elegans",
+      "authors": [
+        "Y. Salzberg",
+        "C.A. Diaz-Balzac",
+        "N.J. Ramirez-Suarez",
+        "M. Attreed",
+        "E. Tecle",
+        "M. Desbois",
+        "Z. Kaprielian",
+        "H.E. Bulow"
+      ]
+    },
+    {
+      "title": "Microgravity control of autophagy modulates osteoclastogenesis",
+      "authors": [
+        "Y. Sambandam",
+        "M.T. Townsend",
+        "J.J. Pierce",
+        "C.M. Lipman",
+        "A. Haque",
+        "T.A. Bateman",
+        "S.V. Reddy"
+      ]
+    },
+    {
+      "title": "Evaluation of gene, protein and neurotrophin expression in the brain of mice exposed to space environment for 91 days",
+      "authors": [
+        "D. Santucci",
+        "F. Kawano",
+        "T. Ohira",
+        "M. Terada",
+        "N. Nakai",
+        "N. Francia",
+        "E. Alleva",
+        "L. Aloe",
+        "T. Ochiai",
+        "R. Cancedda"
+      ]
+    },
+    {
+      "title": "Genomic response of the nematode Caenorhabditis elegans to spaceflight",
+      "authors": [
+        "F. Selch",
+        "A. Higashibata",
+        "M. Imamizo-Sato",
+        "A. Higashitani",
+        "N. Ishioka",
+        "N.J. Szewczyk",
+        "C.A. Conley"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on cardiovascular physiology and health",
+      "authors": [
+        "M. Shen",
+        "W.H. Frishman"
+      ]
+    },
+    {
+      "title": "Spaceflight-induced bone loss: is there an osteoporosis risk?",
+      "authors": [
+        "J.D. Sibonga"
+      ]
+    },
+    {
+      "title": "Neurite sprouting and synapse deterioration in the aging Caenorhabditis elegans nervous system",
+      "authors": [
+        "M.L. Toth",
+        "I. Melentijevic",
+        "L. Shah",
+        "A. Bhatia",
+        "K. Lu",
+        "A. Talwar",
+        "H. Naji",
+        "C. Ibanez-Ventoso",
+        "P. Ghose",
+        "A. Jevince"
+      ]
+    },
+    {
+      "title": "The RBG-1-RBG-2 complex modulates autophagy activity by regulating lysosomal biogenesis and function in C. elegans",
+      "authors": [
+        "Z. Wang",
+        "H. Zhao",
+        "C. Yuan",
+        "D. Zhao",
+        "Y. Sun",
+        "X. Wang",
+        "H. Zhang"
+      ]
+    },
+    {
+      "title": "The mec-3 gene of Caenorhabditis elegans requires its own product for maintained expression and is expressed in three neuronal cell types",
+      "authors": [
+        "J.C. Way",
+        "M. Chalfie"
+      ]
+    },
+    {
+      "title": "The astrocyte: powerhouse and recycling center",
+      "authors": [
+        "B. Weber",
+        "L.F. Barros"
+      ]
+    },
+    {
+      "title": "The structure of the nervous system of the nematode Caenorhabditis elegans",
+      "authors": [
+        "J.G. White",
+        "E. Southgate",
+        "J.N. Thomson",
+        "S. Brenner"
+      ]
+    },
+    {
+      "title": "Acclimation during space flight: effects on human physiology",
+      "authors": [
+        "D. Williams",
+        "A. Kuipers",
+        "C. Mukai",
+        "R. Thirsk"
+      ]
+    },
+    {
+      "title": "Comparative transcriptomics identifies neuronal and metabolic adaptations to hypergravity and microgravity in Caenorhabditis elegans",
+      "authors": [
+        "C.R.G. Willis",
+        "N.J. Szewczyk",
+        "S.V. Costes",
+        "I.A. Udranszky",
+        "S.S. Reinsch",
+        "T. Etheridge",
+        "C.A. Conley"
+      ]
+    },
+    {
+      "title": "The GTP-binding protein Septin 7 is critical for dendrite branching and dendritic-spine morphology",
+      "authors": [
+        "Y. Xie",
+        "J.P. Vessey",
+        "A. Konecna",
+        "R. Dahm",
+        "P. Macchi",
+        "M.A. Kiebler"
+      ]
+    },
+    {
+      "title": "Beyond being innervated: the epidermis actively shapes sensory dendritic patterning",
+      "authors": [
+        "W.K. Yang",
+        "C.T. Chien"
+      ]
+    },
+    {
+      "title": "Dynein and EFF-1 control dendrite morphology by regulating the localization pattern of SAX-7 in epidermal cells",
+      "authors": [
+        "T. Zhu",
+        "X. Liang",
+        "X.M. Wang",
+        "K. Shen"
+      ]
+    }
+  ],
+  "original_title": "Spaceflight affects neuronal morphology and alters transcellular degradation of neuronal debris in adult Caenorhabditis elegans",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/b706f45b9784/fx1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/64ceb386bc38/gr1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/5100e8c8a304/gr2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/59d3d0db5225/gr3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/221cf1449740/gr4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/a678ffaf64ee/gr5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0bc6/7890410/5d83f9410d2c/gr6.jpg"
+  ]
+}

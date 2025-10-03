@@ -1,0 +1,1017 @@
+{
+  "pmcid": "PMC11988970",
+  "title": "Molecular Mechanism of Microgravity-Induced Intestinal Flora Dysbiosis on the Abnormalities of Liver and Brain Metabolism",
+  "abstract": "Space flight has many adverse effects on the physiological functions of astronauts. Certain similarities have been observed in some physiological processes of rodents and astronauts in space, although there are also differences. These similarities make rodents helpful models for initial investigations into space-induced physiological changes. This study uses a 3D-Clinostat to simulate microgravity and explores the role of microgravity in space flight-induced liver and brain abnormalities by comparing changes in the gut microbiota, serum metabolites, and the function and physiological biochemistry of liver and brain tissues between the simulated microgravity (SMG) group mice and the wild type (WT) group mice. The study, based on hematoxylin-eosin (HE) staining, 16S sequencing technology, and non-targeted metabolomics analysis, shows that the gut tissue morphology of the SMG group mice is abnormal, and the structure of the gut microbiota and the serum metabolite profile are imbalanced. Furthermore, using PICRUST 2 technology, we have predicted the functions of the gut microbiota and serum metabolites, and the results indicate that the liver metabolism and functions (including lipid metabolism, amino acid metabolism, and sugar metabolism, etc.) of the SMG group mice are disrupted, and the brain tissue metabolism and functions (including neurotransmitters and hormone secretion, etc.) are abnormal, suggesting a close relationship between microgravity and liver metabolic dysfunction and brain dysfunction. Additionally, the high similarity in the structure of the gut microbiota and serum metabolite profile between the fecal microbiota transplant (FMT) group mice and the SMG group mice, and the physiological and biochemical differences in liver and brain tissues compared to the WT group mice, suggest that microgravity induces imbalances in the gut microbiota, which in turn triggers abnormalities in liver and brain metabolism and function. Finally, through MetaMapp analysis and Pearson correlation analysis, we found that valeric acid, a metabolite of gut microbiota, is more likely to be the key metabolite that relates to microgravity-induced gut microbiota abnormalities, disorders of amino acid and lipid metabolism, and further induced metabolic or functional disorders in the liver and brain. This study has significant practical application value for deepening the understanding of the adaptability of living organisms in the space environment.",
+  "introduction": "1. Introduction\n\nThe space environment is extremely complex, characterized by strong radiation, high vacuum, extreme temperatures, and microgravity, as well as other environmental factors. These factors are collectively referred to as space composite stress, which can directly or indirectly threaten the health and safety of astronauts. Microgravity, in particular, is a significant factor affecting the health of astronauts aboard a spacecraft and has therefore received considerable attention from researchers. This is primarily because weightlessness not only leads to the redistribution of body fluids towards the head but also deprives the human body of gravitational load. Prolonged stays in space can increase the risks of decreased cardiovascular capacity, impaired immune system, reduced bone density, neurological disorders, and muscle atrophy. When a spacecraft carrying astronauts rotates around the Earth, the interior is theoretically a zero-gravity environment. However, due to the influence of residual atmospheric drag and the spacecraft’s rotation, the interior actually exhibits a microgravity environment. Nevertheless, true space flight experiments are rarely conducted due to their scarcity of opportunities, high costs, and operational complexity. As a result, most research on the effects of microgravity on the human body is conducted through ground-based simulation experiments, with actual flight tests providing supplementary validation. Ground-based simulation studies of microgravity effects can provide referable data and experimental methods for actual space flight experiments. These simulations are crucial for understanding the physiological impacts of microgravity and developing countermeasures to protect astronaut health during space missions.\n\nExploring the role of microgravity in the damage caused by space composite stress has become an important topic in ground-based experiments in recent years. Various damages or abnormalities caused by microgravity in the body are collectively referred to as microgravity effects. The microgravity effects are mainly manifested as changes in multiple physiological systems such as the cardiovascular, liver, bone, muscle, nervous, endocrine, and immune systems. In recent years, researchers have conducted studies on multiple physiological systems related to microgravity, either independently or focusing on some of their interactive effects. However, these studies mainly concentrate on the musculoskeletal and cardiovascular systems, while there are relatively few studies on the liver–brain system, especially on its mechanisms. The liver, as the largest internal organ involved in detoxification and metabolism to maintain the body’s homeostasis, experiences significant gravitational changes. Comparisons between flight specimens and ground controls have shown that among ten types of mouse tissues including muscle, eyes, and kidneys, the liver has the largest number of differentially expressed genes and proteins. As an important detoxification organ for preventing physical injuries caused by space risks, the liver also has a significant impact on the pharmacokinetic and pharmacodynamic properties of drugs taken during spaceflight. In addition, microgravity exposure can lead to liver dysfunction, resulting in liver injuries and inflammation related to apoptosis and oxidative stress, impaired metabolism, changes in the liver’s exogenous biotransformation mechanism, and lipid deposition. Obviously, these dysfunctions are related to changes in liver metabolism or morphological structure caused by microgravity. Specifically, the major pathophysiological steps involved in these processes are summarized as follows: (1) apoptosis and oxidative stress: microgravity can disrupt the intracellular redox balance, leading to increased production of reactive oxygen species (ROS). Excessive ROS can attack biomacromolecules such as lipids, proteins, and DNA within liver cells, causing oxidative damage. Microgravity also activates apoptotic signaling pathways in liver cells, such as the mitochondrial pathway and the death receptor pathway. In the mitochondrial pathway, microgravity induces changes in mitochondrial membrane permeability, causing cytochrome c to be released into the cytoplasm. This activates caspase-9 and downstream caspase-3, triggering cell apoptosis; (2) inflammatory response: microgravity can induce or exacerbate liver injury by stimulating the release of inflammatory factors and the infiltration of inflammatory cells; (3) metabolic impairment: microgravity affects pathways or enzymes related to glucose metabolism, lipid metabolism, and protein metabolism, leading to metabolic abnormalities of glucose, lipids, and proteins; (4) changes in the liver’s exogenous biotransformation mechanism: microgravity can influence the expression and activity of drug-metabolizing enzymes (such as the CYP450 enzyme system) in the liver, as well as alter the expression levels of drug transporters (such as P-glycoprotein and organic anion-transporting polypeptides); and (5) lipid deposition: microgravity disrupts the activity of enzymes related to fatty acid metabolism in the liver, leading to increased fatty acid synthesis and decreased oxidation. Additionally, microgravity affects the expression of genes related to lipoprotein synthesis in the liver, reducing the synthesis and secretion of lipoproteins. Long-term Space Composite Stress in Rats (LSCS) can also trigger depression and cognitive impairments in the body in multiple ways. The possible pathogenic mechanisms remain elusive and poorly understood, involving multiple aspects, including the dysregulation of neural plasticity in astronauts’ brains, decreased levels of neurotransmitters, dysfunction of the hypothalamic–pituitary–adrenal (HPA) axis, oxidative stress, and abnormal inflammatory responses. Among them, the volume of brain regions, neurotransmitters such as 5-hydroxytryptamine (5-HT) and dopamine (DA) in the hippocampus, and antioxidant capacity are greatly affected by spaceflight. These physiological indicators with abnormal changes have become the targets for studying the pathogenesis of cognitive impairments. Besides other factors such as space radiation, isolation and confinement, and circadian rhythm disorders, increasing evidence suggests that microgravity itself can affect the brain through multiple mechanisms, including vestibular deprivation, weightlessness, and cerebrospinal fluid shift.\n\nIn addition, gut microbiota, as a research hotspot involved in the regulation of multiple physiological systems of the body in recent years, has also been reported to undergo abnormal changes after spaceflight. Although changes in gut microbiota during spaceflight have attracted the attention of relevant scholars, there are few reports on its role in the process of liver and brain abnormalities in the body after flight. Ground-based studies have found that gut microbiota can interact with the body through pathways such as the liver–gut axis and the brain–gut axis. The key pathway among them refers to the neurohumoral network through which intestinal functions communicate with the liver and brain. This pathway integrates multiple elements such as nerves, hormones, and metabolism. In order to study microgravity effects at different levels, ground-based experiments often need to establish different models, including cell models, Caenorhabditis elegans models, and mouse models. For the mouse model, weight loss and bone loss are extremely important changes, and this characteristic is often used as a sign of the successful simulation of microgravity in ground-based mouse models. Traditional ground-based microgravity mouse models mainly simulate microgravity by completely unloading or inducing limb disuse. However, tail suspension still causes certain mechanical injuries to mice, which may have an impact on the simulation results of microgravity. The 3D-Clinostat, independently developed by the National Space Science Center of the Chinese Academy of Sciences, is often used to study the microgravity effects on model plants and the model animal Caenorhabditis elegans. Its principle is to continuously and randomly adjust the experimental samples in the center of the frame in the biaxial direction, averaging the gravity vector close to zero.\n\nThis study is based on the principle of the 3D-Clinostat causing bone loss in mice to establish a new microgravity model in mice, and explores the effects of microgravity on the structure of the gut microbiota and serum metabolites in mice. Combined with the functional prediction of PICRUST 2, behavioral experiments, and a series of physiological and biochemical tests of liver and brain tissues, it has been verified that microgravity changes the structure of the gut microbiota and serum metabolic profile, with abnormal changes in liver and brain tissues. Furthermore, through fecal microbiota transplantation technology, we have also explored the important role of the imbalance of gut microbiota in the abnormal changes in liver and brain tissues caused by microgravity.",
+  "methods": "4. Materials and Methods\n\n4.1. Materials and Reagents\n\nVancomycin (50 mg/kg), Neomycin (100 mg/kg), Metronidazole (100 mg/kg), Ampicillin (1 mg/mL), and 4% Paraformaldehyde were purchased from Macleans Biochemical Technology Co., Ltd. (Shanghai, China). Acetonitrile (99.9%), Methanol (99.9%), and Diethyl Ether (99.9%) were purchased from Sigma Chemical Co., Ltd. (St. Louis, MO, USA). Standard compounds of neurotransmitters Serotonin (5-HT), Norepinephrine (NE), Dopamine (DOPA), Acetylcholine (ACH), Glutamate (Glu), and Gamma-Aminobutyric Acid (GABA) were obtained from Alfa Aesar Chemical Co., Ltd. (Shanghai, China).\n\n4.2. Structure and Parameters of the 3D-Clinostat\n\nThe 3D-Clinostat was purchased from the National Space Science Center of the Chinese Academy of Sciences. The principles and methods for simulating microgravity were referenced from the previous literature and modified based on our team’s experience. The parameters of the 3D-Clinostat are as follows: rotating frames: 2, capable of independent rotation; sample stage: area 400 mm × 300 mm, load capacity 0–3 kg; rotation mode: random; rotation speed: ±0–10 rpm, with speed resolution of 0.1 rpm, and capable of long-term continuous operation (≥30 days).\n\n4.3. Animals Experimental Design\n\nC57BL/6 male mice (specific pathogen free, SPF grade, 6 weeks, weighing (20 ± 2)g) and sterilized mouse growth maintenance feed were obtained from Changsheng Biotech (Benxi, China). The brief experimental protocol is as follows. Two batches of mice were sequentially obtained. For the first batch, the mice were randomly divided into two groups (6 mice per group): group 1 (SMG), mice were used to establish a microgravity model and investigate its effects; and group 2 (WT), mice served as a control reference. In the second batch (group 3, FMT), mice underwent fecal microbiota transplantation to replicate the gut microbiota structure of the SMG group, thereby exploring the role of the gut microbiota in microgravity effects. The details are as follows. Mice were housed in a controlled environment at 22 °C with a 12 h light/dark cycle for 1–2 weeks for acclimation, with food and water provided ad libitum. For the establishment of the microgravity simulation model using a 3D-Clinostat, after two weeks of acclimation, the first batch of mice underwent a one-week adaptation training on the clinostat (6 h of rotation on the first day, followed by 18 h of rest; 12 h of rotation for the second and third days, with 12 h of rest; 24 h of rotation on the fourth day, and a rest day on the fifth; and another 24 h of rotation on the sixth day, with a rest day on the seventh). On the eighth day (denoted as Day 1), the mice were randomly divided into two groups (n = 6): the 3D-Clinostat group with 3D-printed mouse survival boxes (Patent No.: ZL202022855659.9) and the WT group with 3D-printed mouse survival boxes only, labeled as SMG (Simulated Microgravity) and WT (Wild Type), respectively. The SMG group underwent a 42-day rotation treatment. During this period, both groups were fed with solid agar and normal growth maintenance feed (with water and food separated inside the survival boxes), and daily weight, water, and food intake were recorded. The water and food were replaced regularly, and the survival boxes were cleaned to ensure a comfortable living environment for the mice. After the 42 days of rotation, fecal samples were collected from both groups. Some samples were directly stored at −80 °C for 16S sequencing after morphological observation, and others were stored with 30% glycerol at −80 °C for subsequent FMT. The learning and memory capabilities of the mice were assessed using the Barnes maze and Y-maze tests. Subsequently, small animal magnetic resonance imaging was used to scan the brains of both groups to observe any differences in brain region volume and morphology between SMG and WT mice. After dissection, bilateral femurs were collected for length and weight measurement. Micro-CT and HE staining were then used to observe the morphology of the mouse femur tissue to confirm the success of the microgravity simulation. Intestinal, liver, serum, and brain samples from both groups were collected for further testing. For the establishment of the pseudo-germ-free mouse model induced by a mixture of antibiotics, we referred to the studies of Hoedt EC, Hueston CM, Cash N, et al.. In brief, six mice after one week of acclimation were intragastrically administered a mixture of vancomycin (50 mg/kg), neomycin (100 mg/kg), and metronidazole (100 mg/kg) every 12 h, with a gavage volume of 10 mL/kg; ampicillin (1 mg/mL) was also added to the drinking water. This intervention was continued, and mouse feces were collected daily for anaerobic culture counts. On the seventh day, we found that the total number of viable bacteria in the feces was less than 1 CFU/mg, indicating the successful establishment of germ-free mice. After the pseudo-germ-free mice underwent the same adaptation training as before, they were housed in 3D-printed mouse survival boxes without simulated microgravity treatment for 42 days. During this period, the feces from the SMG group were used to intragastrically administer the pseudo-germ-free mice twice every seven days. After 42 days, the group was labeled as the FMT (Fecal Microbiota Transplantation) group. Feces were collected as before, and the mice’s learning and memory abilities were assessed. The mice were then dissected, and their livers, serum, and brains were collected for subsequent tests.\n\nAll animal experiments were approved by the Institutional Animal Care and Use Committee of Harbin Institute of Technology (Approval Number: IACUC-2023003, 15 February 2023; IACUC-2024141, 10 December 2024) and conducted in accordance with the Guide for the Care and Use of Laboratory Animals.\n\n4.4. Micro-CT of Bone Tissue\n\nThe right femurs of mice fixed with 4% paraformaldehyde were scanned using a Micro-CT scanner (Quantum GX2, PerkinElmer, Berlin, Germany) with appropriate scanning parameters. The scanning parameters were set as follows: voltage at 85 kV, current at 200 μA, and exposure time at 384 ms. The images were reconstructed using GPU NRecon Server V1.7.4.2 software. Microstructural analysis of the bone was conducted on a region located 0.5 mm above the growth plate in the metaphysis of the distal femur, with a width of 0.5 mm. This analysis provides insights into the bone’s microarchitecture, which is crucial for understanding the effects of microgravity simulation on bone tissue.\n\n4.5. Brain Magnetic Resonance Imaging (MRI)\n\nThe magnetic resonance imaging (MRI) equipment used was a small animal MRI scanner from the Institute of Laboratory Animal Science, Chinese Academy of Medical Sciences. After anesthetizing the mice with 5% isoflurane to stabilize their condition, scans were conducted. A three-dimensional T2-weighted imaging with a rapid acquisition and relaxation enhancement (RARE) sequence was employed to acquire structural images with the following parameters: repetition time (TR) of 1800 ms, echo time (TE) of 45 ms, a flip angle of 90°, a sampling matrix of 256 × 256, voxel size of 0.078 mm × 0.078 mm × 0.512 mm, 32 slices, and slice thickness/spacing of 0.512/0 mm. The images, originally in DICOM format, were converted to NIFTI format. ITKSNAP 3.6.0 and MATLAB R2022a (MathWorks, Natick, MA, USA) software were utilized to automatically and manually remove the mouse brain scalp. Voxel-based morphometry (VBM) analysis was performed using SPM 8.3.2.0 in conjunction with MATLAB software.\n\n4.6. Behavioral Experiments (Barnes Maze and Y-Maze)\n\nThe Y-maze and Barnes maze are authoritative tests for assessing short-term memory and spatial learning in mice. The specific methods are as follows. The Barnes maze consists of a gray-white circular platform (diameter = 122 cm) with 20 holes evenly spaced around the perimeter. One hole (the target hole) is connected to an escape box that is not perceptible to the experimental animal, while the other holes have no such connection. Before the experimental day, each mouse is allowed a 5 min adaptive exploration in the device. During the subsequent 5 days of training, mice are forced to find a hidden box under the stimulation of bright light. The trial ends when the mouse enters the target hole or when the exploration lasts for 5 min. Each mouse’s escape box is positioned in the same location. To eliminate the influence of the previous mouse, the device is wiped with 75% ethanol before starting a new trial. The escape tracks and time (escape latency) were recorded by SuperMaze V2.0 (Shanghai Xinruan Information Technology, Shanghai, China). The Y-maze comprises three arms (35 cm long, 15 cm high, 5 cm wide) that converge at the same angle (120°). The mouse is placed in the center of the maze and allowed to explore spontaneously for 8 min. During the exploration, the total number of arm entries (Nt) and the number of successive entries into different arms in overlapping triplet sets (Na) are recorded. All data are recorded through SuperMaze software (Shanghai Xinruan Information Technology, Shanghai, China). The percentage of spontaneous alternation is calculated using the following formula: spontaneous alternation = (Na/(Nt − 2)) × 100%.\n\n4.7. Hematoxylin-Eosin (HE) Staining\n\nFollowing the methods of previous studies, intestinal and liver tissues were carefully collected and stained with Hematoxylin-Eosin (HE). Briefly, after fixing the tissues in 4% (w/v) paraformaldehyde for 24 h, they were embedded in paraffin. The tissues were then sectioned into 5 μm slices and stained with HE before being observed under a microscope (Olympus, Tokyo, Japan).\n\n4.8. Enzyme-Linked Immunosorbent Assays (ELISA)\n\nInflammation-related cytokines in colonic tissue, including IL-1β, TNF-α, and IL-6, as well as the levels of serum ATCH, high-density lipoprotein (HDL), and low-density lipoprotein (LDL), were measured using corresponding enzyme-linked immunosorbent assay (ELISA) kits (Institute of Nanjing Jiancheng Bioengineering, Nanjing, China) according to the manufacturer’s instructions.\n\n4.9. Detection of Lipid Levels, Liver Function, and Antioxidant Capacity in Liver and Brain\n\nThe serum levels of total cholesterol (TC) and triglycerides (TG), as well as the activities of aspartate aminotransferase (AST) and alanine aminotransferase (ALT) in both serum and liver, were measured using commercial diagnostic kits (Institute of Nanjing Jiancheng Bioengineering, China) according to the instructions. The total antioxidant capacity (T-AOC), superoxide dismutase (SOD), catalase (CAT), glutathione peroxidase (GSH-Px), and malondialdehyde (MDA) in liver and brain tissues were also analyzed with the respective commercial diagnostic kits.\n\n4.10. Detection of Neurotransmitters and Corticosteroids\n\nMouse brain tissue samples (20 mg) were washed with sterile saline. Deionized water (200 μL) and a mixture of acetonitrile–methanol solution (800 μL) were added to the brain tissue samples. The mixture was sonicated at 4 °C, then vortexed and quickly frozen with liquid nitrogen. The mixture was allowed to return to 25 °C, and the process was repeated three times to obtain a homogenate of brain tissue. The contents of representative neurotransmitters such as serotonin (5-HT), norepinephrine (NE), dopamine (DOPA), acetylcholine (ACH), glutamate (Glu), and gamma-aminobutyric acid (GABA) in the brain tissue homogenate were detected using liquid chromatography–mass spectrometry (LC–MS). The treatment method and testing conditions were referenced from the literature. The expression levels of cortisol and corticosterone in serum were also measured by LC–MS. Briefly, diethyl ether (500 μL) was added to the serum samples (800 μL) and rotated for 5 min. After centrifugation at 10,000 rpm, the upper organic phase was collected, and the process was repeated once more. The product was dried with nitrogen gas and then dissolved in methanol (200 μL), vortexed for 3 min, and centrifuged at 10,000 rpm for 10 min. The supernatant (100 μL) was used for LC–MS detection. Reference standards for these substances were purchased from Sigma-Aldrich Corporation (St. Louis, MO, USA).\n\n4.11. DNA Extraction and 16S rDNA Sequencing\n\nMouse feces were collected between 20:00 and 20:30, quickly frozen with liquid nitrogen, and stored at −80 °C. The detailed methods for DNA extraction from feces and 16S rDNA sequencing analysis are as follows. The total DNA was extracted using the TIANamp Stool DNA Kit (Tiangen Biotech, Beijing, China). The primers used for the V3-V4 regions of the 16S rDNA are 343F: 5′-TACGGRAGGCAGCAG-3′ and 798R: 5′-AGGGTATCTAATCCT-3′ (referencing the literature on the design of 16S rRNA gene primers for 454 pyrosequencing of the human foregut microbiome). Extraction and purification of genomic DNA were carried out using the AxyPrep DNA gel extraction kit (Axygen Biosciences, Union City, CA, USA). The samples were sequenced on the Illumina MiSeq platform, and the sequencing analysis was performed by Shanghai OE Biotech Co., Ltd. (Shanghai, China) Operational taxonomic units (OTUs) were identified using Usearch (version 7.1). Alpha-diversity, beta-diversity, and principal coordinate analysis (PCoA) were generated using QIIME2 (2018.11) in combination with the R-package vegan (version 3.5.3). Differential abundance analysis was performed using the Wilcoxon rank-sum test.\n\n4.12. Serum Untargeted Metabolomics Analysis\n\nSerum metabolites were extracted using a mixture of methanol and acetonitrile (2/1, v/v) by ultrasonication. After centrifugation, the supernatant was filtered and used for liquid chromatography–mass spectrometry (LC–MS) analysis. A Dionex Ultimate 3000 RS UHPLC system coupled with a Q-Exactive quadrupole-Orbitrap mass spectrometer equipped with a heated electrospray ionization (ESI) source (Thermo Fisher Scientific, Waltham, MA, USA) was utilized to analyze the metabolic profiling in both positive and negative ESI modes. An ACQUITY UPLC BEH C18 column (1.7 μm, 2.1 × 100 mm) was employed for both positive and negative modes.\n\nMetabolites were identified using Progenesis QI 2.0 (Waters Corporation, Milford, MA, USA) Data Processing Software, based on public databases such as the Human Metabolome Database (HMDB) and LIPID MAPS, as well as self-built databases. Principle component analysis (PCA) and orthogonal partial least-squares-discriminant analysis (OPLS-DA) were performed to visualize the metabolic alterations among experimental groups after mean centering (Ctr) and Pareto variance (Par) scaling, respectively. The Hotelling’s T2 region, depicted as an ellipse in the score plots of the models, defines the 95% confidence interval of the modeled variation. Variable importance in the projection (VIP) assesses the overall contribution of each variable to the OPLS-DA model, with variables having VIP > 1 considered relevant for group discrimination. In this study, a default 7-round cross-validation was applied, excluding 1/seventh of the samples from the mathematical model in each round to prevent overfitting. The positive and negative data were combined to obtain a comprehensive dataset. Differential metabolites were selected based on a statistically significant threshold of variable influence on projection (VIP) values from the OPLS-DA model and p values from a two-tailed Student’s t-test on the normalized peak areas. Metabolites with VIP values > 1.0 and p values < 0.05 were considered differential metabolites. Metabolite classification and functional analysis were completed using MetaboAnalyst 6.0 and the KEGG database.\n\n4.13. Statistical Analysis\n\nAll data are presented as mean ± standard deviation (SD) and were analyzed using GraphPad Prism 8.0 software (GraphPad Software, Inc., La Jolla, CA, USA). Differences between groups for 16S data were assessed using the Wilcoxon rank-sum test, while metabolic profiling data and physiological parameter data were evaluated using a two-tailed, unpaired Student’s t-test. A p-value < 0.05 was considered statistically significant.",
+  "results": "2. Results\n\n2.1. Establishment of Microgravity Mouse Model Based on 3D-Clinostat\n\nWe established a microgravity animal model for C57BL/6 mice using a 3D-Clinostat (Figure 1a), with Video S1 showing the operation of the clinostat and Figure S1a demonstrating the design drawing of the mouse survival box. During the 42-day experimental period, we measured the daily food and water intake of the mice in both groups and found that the rotation treatment did not affect the mice’s consumption of food and water (Figure 1b). To evaluate the impact of simulated microgravity on the growth and development of mice, we monitored their body weight throughout the treatment period. We observed that compared to the wild type (WT) group, the body weight of mice in the simulated microgravity (SMG) group showed a declining trend from Day 0 to Day 7, then gradually returned to normal growth, and stabilized after Day 21 (Figure S1b). Statistical analysis of the body weight differences between the two groups on Days 0, 7, 14, and 21 revealed that the body weight of the SMG group was significantly lower than that of the WT group on Days 7, 14, and 21 (Figure 1b). This suggests that the 3D-Clinostat treatment may have caused damage to the mice, leading to a decrease in body weight. Although the mice gradually adapted and returned to normal growth after Day 7, there was still a difference compared to the WT group. Furthermore, on Day 42, we performed autopsies on the mice and analyzed their main organ indices, finding no significant change in the heart index but a significant decrease in the liver, spleen, and thymus indices, indicating that the 3D-Clinostat treatment may have affected the mice’s digestive and immune systems (Figure 1b).\n\nTo determine whether the damage caused by the 3D-Clinostat treatment was due to simulated microgravity, we investigated the osteoporosis condition of the mice’s hindlimb femurs. Osteoporosis is a characteristic effect of the body under microgravity stress, and therefore, changes in femur-related indices can be used as a basis for judging the effectiveness of the microgravity simulation. First, we examined the femur index, femur length, and femur diameter of the mice’s hindlimb right femur and found no significant differences after treatment with the 3D-Clinostat (Figure S2). Then, we used Micro-CT and HE staining to assess the morphological structure of the mouse femur. The three-dimensional reconstruction of the mouse femur from Micro-CT images showed that the number of trabeculae in the femur tissue was significantly reduced after treatment with the 3D-Clinostat, with sparse arrangement and even fractures, wider trabecular spacing, and increased separation (Figure 1c).\n\nHE staining for the morphological examination of the bone tissue of the right hindlimb femur revealed that in the WT group, the trabeculae were clear, evenly distributed, neatly arranged, with a larger thickness and smaller spacing, closely linked, and the marrow cavity was clear with a relatively intact structure (Figure 1c). In contrast, the model group mice showed significantly thinner and narrower trabeculae, with increased spacing, loose and incomplete arrangement, and areas of trabecular loss. Furthermore, we measured the microstructural parameters of the cancellous bone and found that after treatment with the 3D-Clinostat, the BV/TV (bone volume fraction), Tb. N (trabecular number), Tb. Th (trabecular thickness), and Ct. Th (cortical thickness) were significantly decreased, while the Tb. Sp (trabecular separation) and trabecular bone pattern factor significantly increased (Figure 1d). These findings collectively indicate that the mice’s femurs exhibited a significant state of osteoporosis, suggesting the successful establishment of the microgravity mouse model.\n\n2.2. Microgravity-Induced Imbalance in Mouse Gut Microbiota\n\nMicrogravity, as an environmental stressor in spaceflight, induces physiological changes including alterations in the intestinal tissue and gut microbiota. Through HE staining of colonic tissue, we observed that simulated microgravity (SMG) caused damage to the colonic lumen, characterized by thinning of the epithelium, inflammatory cell infiltration, and reduced crypt damage (Figure 2a). We also observed that the feces of the SMG-treated mice were softer and more yellowish, whereas those of the WT group were normal, dark brown, and granular, with a moderate texture (Figure 2b). The differences in fecal status indicated gastrointestinal dysfunction and poor food digestion and absorption in the SMG-treated mice. Concurrent with the colonic tissue damage, we found a significant increase in the secretion of intestinal cytokines IL-1β, TNF-α, and IL-6 in SMG-treated mice (Figure 2c). Changes in the intestinal physiological environment led to alterations in the gut microbiota. To investigate whether microgravity restructured the mouse gut microbiota, we analyzed and compared the diversity differences between SMG and WT groups, including α-diversity and β-diversity indices. Among the α-diversity indices, the Shannon and Simpson indices decreased in the SMG group compared to the WT group (p < 0.05) (Figure 2d,e). Analysis methods for β-diversity, including unweighted pair-group method with arithmetic means (UPGMA, Figure 2f), Principal Component Analysis (PCA, Figure 2g), and Principal Coordinates Analysis (PCoA, Figure 2h), were employed to study the similarities or differences in sample community composition. We found that samples from the SMG group clustered together, distinct from those of the WT group, regardless of the β-diversity analysis method used. Additionally, by statistically analyzing the number of significantly different microorganisms at various taxonomic levels between SMG and WT groups (Figure 2i), we identified 6 significantly different phyla (Firmicutes, Acidobacteria, Actinobacteria, Verrucomicrobia, Bacteroidetes, and Deferribacteres, Figure S3a), 7 significantly different classes, including Bacilli, Acidobacteria, Deferribacteres, Deltaproteobacteria, Bacteroidia, Actinobacteria, and Verrucomicrobia (Figure S3b), as well as 7 significantly different orders (Figure S3c), 15 significantly different families (Figure S3d), and 26 significantly different genera (Figure S3e).\n\n2.3. Microgravity-Induced Dysbiosis Leads to Metabolic Imbalance in Liver and Brain\n\nThe composition of the mouse gut microbiota is closely related to its function, and local intestinal functional changes may affect the host’s physiology. To explore the functional characteristics of the gut microbiota after microgravity restructuring, we focused on the KEGG predictions involving cellular processes, environmental information processing, genetic information processing, and metabolism. We found that the functional differences in the gut microbiota were mainly enriched in 49 related pathways of metabolic functions and 14 related pathways of organismal system functions (Figure 3a). To more intuitively discover the significance of the altered metabolic pathways, we focused on the changed pathway enrichment in the metabolism and organismal systems at KEGG level 2. The study found that secondary pathways related to metabolic functions mainly involved lipid metabolism and the biosynthesis of other secondary metabolites (Figure 3b). Those related to organismal system functions primarily concerned digestive system metabolism, the nervous system, and the endocrine system (Figure 3c). Furthermore, tertiary pathways involved in lipid metabolism included glycerolipid metabolism, sphingolipid metabolism, and fatty acid degradation (Figure 3d). Tertiary pathways related to the digestive system included mineral absorption, carbohydrate digestion and absorption, pancreatic secretion, and salivary secretion (Figure 3e). Pathways involved in the biosynthesis of other secondary metabolites included tropane, piperidine, and pyridine alkaloid biosynthesis, carbapenem biosynthesis, and phenazine biosynthesis (Figure 3f). Pathways related to the nervous and endocrine systems included the glucagon signaling pathway, progesterone-mediated oocyte maturation, estrogen signaling pathway, and prolactin signaling pathway (Figure 3g). These results suggest that microgravity restructured the composition and function of the gut microbiota, causing damage to the host’s lipid metabolic functions and the health of the digestive system, including the gut and liver, as well as the nervous and endocrine systems involving the brain.\n\n2.4. Replicability of Gut Microbiota in Mice Under Microgravity\n\nTo further explore the replicability of gut microbiota, we used the fecal microbiota transplantation (FMT) technique to intragastrically administer the fecal suspension of mice in the SMG group to wild-type C57BL/6 mice, and this group was marked as FMT. The intestinal contents of this group were analyzed by 16S sequencing, and the microbiota structure was compared with those of the WT and SMG groups. We found that the α diversity (Shannon index and Simpson index) of the gut microbiota in the WT group mice was significantly different from that in the SMG group and the FMT group (Figure 4a,b). For β-diversity, it can also be seen from UPGMA (Figure 4c), PCA (Figure 4d), and PCoA (Figure 4e) that the WT group was significantly independent in spatial distance from the other two groups, while the gut microbiota diversity of the SMG group and the FMT group showed a highly overlapping state. By analyzing the microbiota structure among the three groups using Circos software (version 0.69-9), it was also found that the gut microbiota in the SMG and FMT groups were very similar in composition structure and were clearly distinguishable from the WT group (Figure 4f). Comparing the differences in the top 15 gut microbiota with relative abundances in mice under the three different treatment methods at the phylum, class, and order levels (Figure 4g–i), similar results were obtained.\n\nIn addition, we counted the total number of microorganisms with significant differences at each taxonomic level between FMT and WT and identified 6 phyla, 7 classes, 8 orders, 16 families, and 38 genera with significant differences (Figure 5a). This was close to the number of microorganisms with significant differences obtained at each taxonomic level between SMG and WT. Furthermore, to analyze the gut microbiota related to the microgravity effect, we screened the common differential microbiota at each taxonomic level between the WT group and the SMG group as well as between the WT group and the FMT group. It was found that there were 5, 6, 6, 10, and 23 common differential bacteria at the phylum, class, order, family, and genus levels, respectively (Figure 5b–f). In Figure S4a–e, we showed the specific up-regulation and down-regulation trends of the common differential bacteria in the SMG and FMT groups compared with the WT group. We found that the up-regulation and down-regulation trends of each genus were consistent in the SMG group and the FMT group. These common differential genera between SMG vs. WT and FMT vs. WT may play an important role in the response of gut microbiota to microgravity stress. The above results indicate that FMT can reproduce the characteristics of gut microbiota under microgravity well, whether in terms of microbiota diversity, structure, differences at each taxonomic level, or up-regulation and down-regulation trends.\n\n2.5. Microgravity Induces an Imbalance of Serum Metabolites in the Body\n\nChanges in the gut microbiota are closely related to nutrient absorption and metabolism, which can lead to alterations in a multitude of endogenous small molecule metabolites in the serum, including highly polar amino acids, glucose, nucleosides, as well as less polar lipids and sterols. Monitoring these fluctuations in serum metabolites can provide insights into the biochemical activities within an organism, thereby assessing the stress response and health status under specific environmental conditions. To explore the reconstructive effects of microgravity on mouse serum metabolites, we employed LC–MS technology to analyze the metabolic profiles of the mice’s serum. To distinguish the differences in serum metabolites among the three groups, orthogonal projections to latent structures discriminant analysis (OPLS-DA) was conducted. All sample data points fell within the 95% confidence interval (CI). R2X and R2Y were used to evaluate the accuracy of the model construction, while Q2 reflected the predictive power of the model. The OPLS-DA model revealed distinct metabolic profiles among the three groups in both the ESI positive ion mode (SMG/WT: R2X = 0.692, R2Y = 0.997, Q2 = 0.803; FMT/WT: R2X = 0.536, R2Y = 0.997, Q2 = 0.765, Figure 6a–e) and the negative ion mode (SMG/WT: R2X = 0.625, R2Y = 0.999, Q2 = 0.929; FMT/WT: R2X = 0.562, R2Y = 0.999, Q2 = 0.911, Figure 6f–j).\n\nSimilar to the distribution of gut microbiota diversity, we observed that the serum metabolite profiles of the SMG group and the FMT group were essentially overlapping, while being significantly separated from the WT group. The similar microbial community characteristics and serum metabolic profiles between the SMG and FMT groups suggest that microgravity may alter the serum metabolic spectrum by restructuring the gut microbiota of the mice. This finding implies that the changes in the gut microbiota under microgravity conditions could be a key factor in the metabolic shifts observed in the serum, potentially leading to a better understanding of the physiological impacts of microgravity on the organism.\n\n2.6. Microgravity-Induced Disruption of Serum Metabolites by the Gut Microbiota Leading to Hepatic and Cerebral Metabolic Disorders\n\nTo explore the impact of microgravity-altered metabolic profiles on the organism, we further analyzed the significantly different metabolites (SDMs) and their functions. Based on the variable importance projection (VIP) being greater than 1 and a p-value less than 0.05, we identified 27 differentially upregulated metabolites and 68 differentially downregulated metabolites in the SMG group compared to the WT group. Similarly, 32 metabolites were increased, while 42 were decreased in the FMT group compared to the WT group (Figure 7a). To uncover the metabolites closely associated with the gut microbiota, we found 61 core SDMs that appeared in both the SMG and FMT groups compared to the WT (Figure 7b,c). Using MetaboAnalyst 6.0, we classified these 61 core SDMs, with 56 being attributed to their respective subcategories. The top five categories of compounds by the number of SDMs were fatty acids and conjugates, accounting for 23.21% of the total, with 13 metabolites; amino acids, peptides, and analogs, representing 19.64%, with 11 metabolites; and fatty acid esters, making up 5.36%, with 3 metabolites (Figure 7d). This suggests that both the SMG and FMT groups exhibited evident disruptions in lipid and amino acid metabolism compared to the WT group.\n\nTo investigate the health effects of the metabolic disorders induced by microgravity, we performed KEGG functional enrichment analysis on the differential metabolites of the SMG group compared to the WT group. The top 20 pathways affected were primarily involved in metabolism, organismal systems, and environmental information processing. In terms of metabolism, 25 SDMs were involved in lipid metabolism, 7 in amino acid metabolism, and 5 in nucleotide metabolism. Regarding organismal systems, eight SDMs impacted the digestive system, and five affected the endocrine system. For environmental information processing, nine SDMs were involved in membrane transport, and three in signal transduction (Figure 7e). Similarly, we conducted KEGG functional enrichment analysis on the differential metabolites of the FMT group compared to the WT group, revealing that the top 20 pathways were also related to metabolism, organismal systems, and environmental information processing. In metabolism, 18 SDMs were involved in lipid metabolism, and 16 in amino acid metabolism. For organismal systems, 14 SDMs impacted the digestive system. In environmental information processing, 10 SDMs were involved in membrane transport, and 4 in signal transduction (Figure 7f).\n\nFurthermore, to explore the role of the gut microbiota in the physiological disorders induced by microgravity, we analyzed the common metabolic pathways involved by the SDMs (differential metabolites) of both the SMG and FMT groups compared to the WT group, identifying 48 pathways (Figure 7g). Consistent with the predicted functional impacts of gut microbiota under microgravity, the shared metabolic pathways included lipid metabolism, amino acid metabolism, and sugar metabolism in metabolism; the digestive, nervous, and endocrine systems in organismal systems; and signal transduction and membrane transport in environmental information processing (Figure 7h). Tables S1 and S2 list the shared pathways for SMG vs. WT and FMT vs. WT, respectively. Additionally, we compared the 48 metabolic pathways involving 42 common SDMs between the SMG and FMT groups with those identified in the SMG and FMT groups, finding 42 shared pathways (Figure 7i, Table S3). Interestingly, these pathways were primarily involved in lipid and amino acid metabolism in metabolism, the digestive, nervous, and endocrine systems in organismal systems, and signal transduction and membrane transport in environmental information processing. This suggests that the imbalance of the gut microbiota under microgravity may lead to host lipid and neuroendocrine disorders, with the 61 common SDMs potentially playing a crucial role in these physiological responses. To elucidate the role of these 61 common differential metabolites in the main physiological effects induced by microgravity, including amino acid metabolism, lipid metabolism, digestive system, nervous system, endocrine system, membrane transport, and signal transduction, we performed technical analysis of their involvement in the metabolic pathways of interest. We found that several common differential metabolites (e.g., L-Glutamine, L-Leucine, Dodecanoic acid, etc.) were involved in the primary physiological effects triggered by microgravity (Table S4). Based on these results, we hypothesize that the imbalance of the gut microbiota induced by microgravity may lead to significant changes in key serum metabolites, which in turn could cause hepatic and cerebral metabolic disorders.\n\n2.7. Hepatic and Cerebral Metabolic Disorders Induced by Microgravity\n\nThe findings from gut microbiota and serum metabolomics suggest that microgravity may cause an imbalance in the gut microbiota, leading to disruptions in amino acid and lipid metabolism, and potentially inducing functional damage to the digestive and endocrine systems. The liver, being the primary organ involved in lipid and amino acid metabolism within the digestive system, and the brain, as the central control hub of the nervous and endocrine systems, are of particular interest. To verify the hypothesis that microgravity-induced restructuring of the gut microbiota could lead to metabolic disorders in the liver and brain, we examined the morphological structure of the liver and brain in the SMG, FMT, and WT groups of mice using HE staining and magnetic resonance imaging.\n\nIn the pathological sections of mouse liver tissue and quantification the vesicular steatosis, we observed micro/macrovesicular steatosis (fatty liver), inflammation, inflammatory cell infiltration, more vacuole, and higher percentages of the hepatic parenchymal area occupied by vacuole in the SMG group (Figure 8a and Figure S5). The FMT group showed minor fatty degeneration, inflammation, inflammatory cell infiltration, medium vacuole, and less higher percentages of the hepatic parenchymal area occupied by vacuole. Magnetic resonance imaging analysis of the brain revealed that the volumes of various brain regions, including the striatum, ventricles, and hippocampus, were expanded in the SMG and FMT groups compared to the WT group, although not significantly (Figure 8b,c). Furthermore, we assessed potential brain functional abnormalities using the Barnes maze and Y-maze. The Barnes maze was used to evaluate spatial memory in mice. As shown in Figure 8d, we categorized the paths of mice from all groups during the Barnes maze experiment (including the four days of training) into five characteristics. We observed that the distribution of latency times for mice in the SMG, FMT, and WT groups increased in the 90–120 s range, while those in the 0–30 s range decreased (Figure 8f). Scoring revealed that the SMG group had lower scores than the FMT, which in turn was lower than the WT (Table S5). Additionally, a daily analysis of latency times during the Barnes maze experiment (Figure 8e) showed no significant differences in latency among the three groups during the first two days. However, on the third day, the SMG group’s time to find the goal hole was significantly longer than that of the WT group (p < 0.05), with no significant difference between the FMT and WT groups. From the fourth to the fifth day, the escape latency of both the SMG and FMT groups was significantly higher than that of the WT group.\n\nThe Y-maze was used to assess the working memory differences among the SMG, FMT, and WT groups. We found that the SMG group had significantly fewer spontaneous alternations compared to the WT group, indicating memory loss (p < 0.001), and the FMT group showed a similar trend (p < 0.05), suggesting that the gut microbiota may be involved in the cognitive dysfunction induced by microgravity (Figure 8g). Subsequently, we also examined the antioxidant capacity and neurotransmitter levels in the brain tissue of the SMG, FMT, and WT groups and found that the T-AOC, SOD, CAT, GSH-Px, Glu, ACH, DOPA, 5-HT, and NE levels in the brain tissue of the WT group were significantly higher than those in the microgravity and FMT groups, while MDA and GABA levels were significantly lower (Figure 9b,e). The antioxidant capacity data in liver tissue also indicated that the T-AOC, SOD, CAT, and GSH-Px levels in the liver tissue of the WT group were significantly higher than those in the microgravity and FMT groups, while MDA, ALT, and AST showed opposite results (Figure 9a,c,d). Serum tests also revealed that the levels of AST, ALT, TC, TG, and LDL in the WT group were significantly lower than in the other two groups, with HDL being significantly higher (Figure 10a). Additionally, the levels of cortisol and ACTH (cortisol and adrenocortic hormone) in serum were on average lower in the other two groups. Notably, the level of corticosterone, although not significantly elevated in the FMT group as with microgravity treatment, still showed a certain increase, suggesting neuroendocrine disorders in the SMG and FMT groups (Figure 10b). These results collectively suggest that microgravity may induce metabolic disorders in the liver and brain through the imbalance of the gut microbiota, leading to oxidative stress and further promoting structural or functional damage to the liver and brain.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "microgravity",
+    "gut microbiota",
+    "metabolic dysfunction",
+    "liver",
+    "brain",
+    "3D-Clinostat",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "The Challenges of Piezoelectric Actuators and Motors Application in a Space Environment",
+      "authors": [
+        "L. Sisovas",
+        "A. Ceponis",
+        "S. Borodinas"
+      ]
+    },
+    {
+      "title": "The Impact of Oxidative Stress on the Bone System in Response to the Space Special Environment",
+      "authors": [
+        "Y. Tian",
+        "X.L. Ma",
+        "C.F. Yang",
+        "P.H. Su",
+        "C. Yin",
+        "A.R. Qian"
+      ]
+    },
+    {
+      "title": "Extraterrestrial Gynecology: Could Spaceflight Increase the Risk of Developing Cancer in Female Astronauts? An Updated Review",
+      "authors": [
+        "R. Drago-Ferrante",
+        "R. Di Fiore",
+        "F. Karouia",
+        "Y. Subbannayya",
+        "S. Das",
+        "B.A. Mathyk",
+        "S. Arif",
+        "A.P. Guevara-Cerdán",
+        "A. Seylani",
+        "A.S. Galsinh"
+      ]
+    },
+    {
+      "title": "Integrative Analysis of Regulatory Module Reveals Associations of Microgravity with Dysfunctions of Multi-body Systems and Tumorigenesis",
+      "authors": [
+        "M.Q. Yuan",
+        "H.Z. Liu",
+        "S.H. Zhou",
+        "X. Zhou",
+        "Y.E. Huang",
+        "F. Hou",
+        "W. Jiang"
+      ]
+    },
+    {
+      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "F.E. Garrett-Bakelman",
+        "M. Darshi",
+        "S.J. Green",
+        "R.C. Gur",
+        "L. Lin",
+        "B.R. Macias",
+        "M.J. McKenna",
+        "C. Meydan",
+        "T. Mishra",
+        "J. Nasrini"
+      ]
+    },
+    {
+      "title": "Cells’ Flow and Immune Cell Priming under alternating g-forces in Parabolic Flight",
+      "authors": [
+        "D. Moser",
+        "S.J. Sun",
+        "N. Li",
+        "K. Biere",
+        "M. Hoerl",
+        "S. Matzel",
+        "M. Feuerecker",
+        "J.I. Buchheim",
+        "C. Strewe",
+        "C.S. Thiel"
+      ]
+    },
+    {
+      "title": "Influence of Microgravity on Apoptosis in Cells, Tissues, and Other Systems In Vivo and In Vitro",
+      "authors": [
+        "B. Prasad",
+        "D. Grimm",
+        "S.M. Strauch",
+        "G.S. Erzinger",
+        "T.J. Corydon",
+        "M. Lebert",
+        "N.E. Magnusson",
+        "M. Infanger",
+        "P. Richter",
+        "M. Krüger"
+      ]
+    },
+    {
+      "title": "May the Force Be with You (Or Not): The Immune System under Microgravity",
+      "authors": [
+        "M. ElGindi",
+        "J. Sapudom",
+        "I.H. Ibrahim",
+        "M. Al-Sayegh",
+        "W.Q. Chen",
+        "A. Garcia-Sabaté",
+        "J.C.M. Teo"
+      ]
+    },
+    {
+      "title": "Research on Microgravity Measurement Technology of Manned Spacecraft",
+      "authors": [
+        "Z. Li",
+        "M. An",
+        "Q. Zhang",
+        "Z.C. Du"
+      ]
+    },
+    {
+      "title": "Opportunities for nutritional amelioration of radiation-induced cellular damage",
+      "authors": [
+        "N.D. Turner",
+        "L.A. Braby",
+        "J. Ford",
+        "J.R. Lupton"
+      ]
+    },
+    {
+      "title": "The biophysical limitations in physiological transport and exchange in plants grown in microgravity",
+      "authors": [
+        "D.M. Porterfield"
+      ]
+    },
+    {
+      "title": "Simulated weightlessness procedure, head-down bed rest has reversible effects on the metabolism of rhesus macaque",
+      "authors": [
+        "Y.T. Li",
+        "X. Zhang",
+        "Z. Xu",
+        "X.X. Chu",
+        "Z.Q. Hu",
+        "Z.Y. Ye",
+        "C.Q. Li",
+        "Z.B. Wang",
+        "B. Zeng",
+        "J.Y. Pan"
+      ]
+    },
+    {
+      "title": "Effects of microgravity on osteoclast bone resorption and osteoblast cytoskeletal organization and adhesion",
+      "authors": [
+        "N. Nabavi",
+        "A. Khandani",
+        "A. Camirand",
+        "R.E. Harrison"
+      ]
+    },
+    {
+      "title": "Hepatology in space: Effects of spaceflight and simulated microgravity on the liver",
+      "authors": [
+        "M. Vinken"
+      ]
+    },
+    {
+      "title": "Modeling the Impact of Microgravity at the Cellular Level: Implications for Human Disease",
+      "authors": [
+        "P. Bradbury",
+        "H. Wu",
+        "J.U. Choi",
+        "A.E. Rowan",
+        "H.Y. Zhang",
+        "K. Poole",
+        "J. Lauko",
+        "J. Chou"
+      ]
+    },
+    {
+      "title": "Comprehensive Multi-omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact",
+      "authors": [
+        "W.A. da Silveira",
+        "H. Fazelinia",
+        "S.B. Rosenthal",
+        "E.C. Laiakis",
+        "M.S. Kim",
+        "C. Meydan",
+        "Y. Kidane",
+        "K.S. Rathi",
+        "S.M. Smith",
+        "B. Stear"
+      ]
+    },
+    {
+      "title": "Drugs in space: Pharmacokinetics and pharmacodynamics in astronauts",
+      "authors": [
+        "J. Kast",
+        "Y. Yu",
+        "C.N. Seubert",
+        "V.E. Wotring",
+        "H. Derendorf"
+      ]
+    },
+    {
+      "title": "How do the pharmacokinetics of drugs change in astronauts in space?",
+      "authors": [
+        "S. Eyal"
+      ]
+    },
+    {
+      "title": "Effects of space flight on mouse liver versus kidney: Gene pathway analyses",
+      "authors": [
+        "T.G. Hammond",
+        "P.L. Allen",
+        "H.H. Birdsall"
+      ]
+    },
+    {
+      "title": "Spaceflight activates autophagy programs and the proteasome in mouse liver",
+      "authors": [
+        "E.A. Blaber",
+        "M.J. Pecaut",
+        "K.R. Jonscher"
+      ]
+    },
+    {
+      "title": "Morphology and Molecular Mechanisms of Hepatic Injury in Rats under Simulated Weightlessness and the Protective Effects of Resistance Training",
+      "authors": [
+        "F. Du",
+        "Y. Ding",
+        "J. Zou",
+        "Z.L. Li",
+        "J.J. Tian",
+        "R.P. She",
+        "D.S. Wang",
+        "H.J. Wang",
+        "D.Q. Lv",
+        "L.L. Chang"
+      ]
+    },
+    {
+      "title": "The effects of space flight on some rat liver enzymes regulating carbohydrate and lipid metabolism",
+      "authors": [
+        "S. Abraham",
+        "H.P. Klein",
+        "C.Y. Lin",
+        "C. Volkmann"
+      ]
+    },
+    {
+      "title": "Variations in digestive physiology of rats after short duration flights aboard the US space shuttle",
+      "authors": [
+        "S. Rabot",
+        "O. Szylit",
+        "L. Nugon-Baudon",
+        "J.C. Meslin",
+        "P. Vaissade",
+        "F. Popot",
+        "M. Viso"
+      ]
+    },
+    {
+      "title": "Hepatic function in rats after spaceflight: Effects on lipids, glycogen, and enzymes",
+      "authors": [
+        "A.H. Merrill",
+        "E. Wang",
+        "D.P. Jones",
+        "J.L. Hargrove"
+      ]
+    },
+    {
+      "title": "Biochemical changes in rat liver after 18.5 days of spaceflight",
+      "authors": [
+        "S. Abraham",
+        "C.Y. Lin",
+        "C.M. Volkmann",
+        "H.P. Klein"
+      ]
+    },
+    {
+      "title": "Altered carbohydrate, lipid, and xenobiotic metabolism by liver from rats flown on Cosmos 1887",
+      "authors": [
+        "A.H. Merrill",
+        "M. Hoel",
+        "E. Wang",
+        "R.E. Mullins",
+        "J.L. Hargrove",
+        "D.P. Jones",
+        "I.A. Popova"
+      ]
+    },
+    {
+      "title": "Long-term spaceflight composite stress induces depression and cognitive impairment in astronauts-insights from neuroplasticity",
+      "authors": [
+        "Y.S. Yin",
+        "J.L. Liu",
+        "Q.C. Fan",
+        "S. Zhao",
+        "X.R. Wu",
+        "J.P. Wang",
+        "Y. Liu",
+        "Y.Z. Li",
+        "W.H. Lu"
+      ]
+    },
+    {
+      "title": "Can stress cause depression?",
+      "authors": [
+        "H.M. van Praag"
+      ]
+    },
+    {
+      "title": "The role of dopamine in the pathophysiology of depression",
+      "authors": [
+        "B.W. Dunlop",
+        "C.B. Nemeroff"
+      ]
+    },
+    {
+      "title": "Role of trophic factors GDNF, IGF-1 and VEGF in major depressive disorder: A comprehensive review of human studies",
+      "authors": [
+        "A.N. Sharma",
+        "B.F. da Costa e Silva",
+        "J.C. Soares",
+        "A.F. Carvalho",
+        "J. Quevedo"
+      ]
+    },
+    {
+      "title": "Cognitive Neuroscience in Space",
+      "authors": [
+        "G.G. De la Torre"
+      ]
+    },
+    {
+      "title": "The contribution of the gut-liver axis to the immune signaling pathway of NAFLD",
+      "authors": [
+        "J.Y. Liu",
+        "A.D. Wu",
+        "J.J. Cai",
+        "Z.G. She",
+        "H.L. Li"
+      ]
+    },
+    {
+      "title": "Genetic diversity modulates the physical and transcriptomic response of skeletal muscle to simulated microgravity in male mice",
+      "authors": [
+        "Y. Zeineddine",
+        "M.A. Friedman",
+        "E.G. Buettmann",
+        "L.B. Abraham",
+        "G.A. Hoppock",
+        "H.J. Donahue"
+      ]
+    },
+    {
+      "title": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver",
+      "authors": [
+        "K.R. Jonscher",
+        "A. Alfonso-Garcia",
+        "J.L. Suhalim",
+        "D.J. Orlicky",
+        "E.O. Potma",
+        "V.L. Ferguson",
+        "M.L. Bouxsein",
+        "T.A. Bateman",
+        "L.S. Stodieck",
+        "M. Levi"
+      ]
+    },
+    {
+      "title": "Effect of simulated microgravity on testosterone and sperm motility in mice",
+      "authors": [
+        "H. Kamiya",
+        "S. Sasaki",
+        "T. Ikeuchi",
+        "Y. Umemoto",
+        "H. Tatsura",
+        "Y. Hayashi",
+        "S. Kaneko",
+        "K. Kohri"
+      ]
+    },
+    {
+      "title": "Rodent retinal microcirculation and visual electrophysiology following simulated microgravity",
+      "authors": [
+        "X.F. Dai",
+        "S.M. Ye",
+        "X. Chen",
+        "T. Jiang",
+        "H.X. Huang",
+        "W.J. Li",
+        "H.Q. Yu",
+        "J.H. Bao",
+        "H. Chen"
+      ]
+    },
+    {
+      "title": "miR-138-5p negatively regulates osteoblast differentiation through inhibiting β-catenin under simulated microgravity in MC3T3-E1 cells",
+      "authors": [
+        "Z.H. Chen",
+        "Y. Zhang",
+        "F. Zhao",
+        "C. Yin",
+        "C.F. Yang",
+        "Y. Huai",
+        "S.J. Liang",
+        "S.Y. Liu",
+        "X. Xu",
+        "Z.X. Wu"
+      ]
+    },
+    {
+      "title": "The mechanism of anti-osteoporosis effects of 3-hydroxybutyrate and derivatives under simulated microgravity",
+      "authors": [
+        "Q. Cao",
+        "J.Y. Zhang",
+        "H.T. Liu",
+        "Q. Wu",
+        "J.C. Chen",
+        "G.Q. Chen"
+      ]
+    },
+    {
+      "title": "CKIP-1 knockout offsets osteoporosis induced by simulated microgravity",
+      "authors": [
+        "X.C. Zhang",
+        "Q.S. Wang",
+        "Z.M. Wan",
+        "J.Y. Li",
+        "L. Liu",
+        "X.Z. Zhang"
+      ]
+    },
+    {
+      "title": "The effects of combined environmental factors on the intestinal flora of mice based on ground simulation experiments",
+      "authors": [
+        "P.M. Sun",
+        "J.Q. Yang",
+        "B. Wang",
+        "H. Ma",
+        "Y. Zhang",
+        "J.H. Guo",
+        "X.P. Chen",
+        "J.W. Zhao",
+        "H.W. Sun",
+        "J.W. Yang"
+      ]
+    },
+    {
+      "title": "Changes in intestinal microbiota and their effects on allogeneic stem cell transplantation",
+      "authors": [
+        "R.M. Shallis",
+        "C.M. Terry",
+        "S.H. Lim"
+      ]
+    },
+    {
+      "title": "Neuromodulatory effects and targets of the SCFAs and gasotransmitters produced by the human symbiotic microbiota",
+      "authors": [
+        "A.V. Oleskin",
+        "B.A. Shenderov"
+      ]
+    },
+    {
+      "title": "Metabolic-associated fatty liver disease and lipoprotein metabolism",
+      "authors": [
+        "J. Heeren",
+        "L. Scheja"
+      ]
+    },
+    {
+      "title": "Lipometabolism and Glycometabolism in Liver Diseases",
+      "authors": [
+        "H.R. Ding",
+        "J.L. Wang",
+        "H.Z. Ren",
+        "X.L. Shi"
+      ]
+    },
+    {
+      "title": "Beige adipocytes mediate the neuroprotective and anti-inflammatory effects of subcutaneous fat in obese mice",
+      "authors": [
+        "D.H. Guo",
+        "M. Yamamoto",
+        "C.M. Hernandez",
+        "H. Khodadadi",
+        "B. Baban",
+        "A.M. Stranahan"
+      ]
+    },
+    {
+      "title": "Human Pathophysiological Adaptations to the Space Environment",
+      "authors": [
+        "G.C. Demontis",
+        "M.M. Germani",
+        "E.G. Caiani",
+        "I. Barravecchia",
+        "C. Passino",
+        "D. Angeloni"
+      ]
+    },
+    {
+      "title": "Additive effects of simulated microgravity and ionizing radiation in cell death, induction of ROS and expression of RAC2 in human bronchial epithelial cells",
+      "authors": [
+        "S.B. Tan",
+        "W.W. Pei",
+        "H. Huang",
+        "G.M. Zhou",
+        "W.T. Hu"
+      ]
+    },
+    {
+      "title": "Total Flavonoids of Drynariae Rhizoma Prevent Bone Loss Induced by Hindlimb Unloading in Rats",
+      "authors": [
+        "S.H. Song",
+        "Z.Y. Gao",
+        "X.J. Lei",
+        "Y.B. Niu",
+        "Y. Zhang",
+        "C.Q. Li",
+        "Y. Lu",
+        "Z.Z. Wang",
+        "P. Shang"
+      ]
+    },
+    {
+      "title": "Regional blood flow in conscious rats after head-down suspension",
+      "authors": [
+        "L. Somody",
+        "S. Fagette",
+        "S. Blanc",
+        "J. Frutoso",
+        "C. Gharib",
+        "G. Gauquelin-Koch"
+      ]
+    },
+    {
+      "title": "Effect of Long-Term Antiorthostatic Suspension in a Murine Model of Acute Lung Injury",
+      "authors": [
+        "T.Y. Jang",
+        "A.Y. Jung",
+        "Y.H. Kim"
+      ]
+    },
+    {
+      "title": "Upregulation of miR-223 in the rat liver inhibits proliferation of hepatocytes under simulated microgravity",
+      "authors": [
+        "Y.J. Chen",
+        "J. Xu",
+        "C. Yang",
+        "H.Y. Zhang",
+        "F. Wu",
+        "J. Chen",
+        "K. Li",
+        "H.L. Wang",
+        "Y. Li",
+        "Y.H. Li"
+      ]
+    },
+    {
+      "title": "Effect of short-term space flight on structure of liver, lungs, bone and bone marrow of Japanese quail hatched on orbital station Mir",
+      "authors": [
+        "M. Zibrín",
+        "V. Cigánková",
+        "J. Kocisová",
+        "E. Tomajková",
+        "T. Komorová",
+        "K. Boda",
+        "P. Weismann",
+        "O.A. Dadasheva",
+        "T.S. Guryeva"
+      ]
+    },
+    {
+      "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+      "authors": [
+        "A. Beheshti",
+        "K. Chakravarty",
+        "H. Fogle",
+        "H. Fazelinia",
+        "W.A. da Silveira",
+        "V. Boyko",
+        "S.H.L. Polo",
+        "A.M. Saravia-Butler",
+        "G. Hardiman",
+        "D. Taylor"
+      ]
+    },
+    {
+      "title": "Effects of long-term simulated microgravity on liver metabolism in rhesus macaques",
+      "authors": [
+        "B.B. Zong",
+        "Y.J. Wang",
+        "J.Y. Wang",
+        "P. Zhang",
+        "G.H. Kan",
+        "M.Y. Li",
+        "J. Feng",
+        "Y.F. Wang",
+        "X.P. Chen",
+        "R. Jin"
+      ]
+    },
+    {
+      "title": "Protective effects of ginsenosides Rg1 and Rb1 against cognitive impairment induced by simulated microgravity in rats",
+      "authors": [
+        "N. Jiang",
+        "J.W. Lv",
+        "Y.W. Zhang",
+        "X.R. Sun",
+        "C.H. Yao",
+        "Q. Wang",
+        "Q.H. He",
+        "X.M. Liu"
+      ]
+    },
+    {
+      "title": "Glutamic acid and histamine-sensitive neurons in the ventral hippocampus and the basolateral amygdala of the rat: Functional interaction on memory and learning processes",
+      "authors": [
+        "E.O. Alvarez",
+        "M.B. Ruarte"
+      ]
+    },
+    {
+      "title": "Excitatory amino acid receptors and synaptic plasticity",
+      "authors": [
+        "G.L. Collingridge",
+        "W. Singer"
+      ]
+    },
+    {
+      "title": "Essential role of neocortical acetylcholine in spatial memory",
+      "authors": [
+        "J. Winkler",
+        "S.T. Suhr",
+        "F.H. Gage",
+        "L.J. THAL",
+        "L.J. FISHER"
+      ]
+    },
+    {
+      "title": "Acetylcholine and memory: A long, complex and chaotic but still living relationship",
+      "authors": [
+        "J. Micheau",
+        "A. Marighetto"
+      ]
+    },
+    {
+      "title": "The role of serotonin in memory: Interactions with neuro-transmitters and downstream signaling",
+      "authors": [
+        "M. Seyedabadi",
+        "G. Fakhfouri",
+        "V. Ramezani",
+        "S.E. Mehr",
+        "R. Rahimian"
+      ]
+    },
+    {
+      "title": "Noradrenergic activation of the basolateral amygdala modulates consolidation of object recognition memory",
+      "authors": [
+        "B. Roozendaal",
+        "N.A. Castello",
+        "G. Vedana",
+        "A. Barsegyan",
+        "J.L. McGaugh"
+      ]
+    },
+    {
+      "title": "Morris water maze learning in Long-Evans rats is differentially affected by blockade of D1-like and D2-like dopamine receptors",
+      "authors": [
+        "A. Stuchlik",
+        "L. Rehakova",
+        "P. Telensky",
+        "K. Vales"
+      ]
+    },
+    {
+      "title": "Memory time-course: mRNA 5-HT1A and 5-HT7 receptors",
+      "authors": [
+        "G. Perez-Garcia",
+        "A. Meneses"
+      ]
+    },
+    {
+      "title": "What Do We Really Know About 5-HT(1A) Receptor Signaling in Neuronal Cells?",
+      "authors": [
+        "P.S. Rojas",
+        "J.L. Fiedler"
+      ]
+    },
+    {
+      "title": "Dopamine neuronal loss contributes to memory and reward dysfunction in a model of Alzheimer’s disease",
+      "authors": [
+        "A. Nobili",
+        "E.C. Latagliata",
+        "M.T. Viscomi",
+        "V. Cavallucci",
+        "D. Cutuli",
+        "G. Giacovazzo",
+        "P. Krashia",
+        "F.R. Rizzo",
+        "R. Marino",
+        "M. Federici"
+      ]
+    },
+    {
+      "title": "The cortical dopamine system: Role in memory and cognition",
+      "authors": [
+        "P.S. Goldman-Rakic"
+      ]
+    },
+    {
+      "title": "Immune adaptations that maintain homeostasis with the intestinal microbiota",
+      "authors": [
+        "L.V. Hooper",
+        "A.J. Macpherson"
+      ]
+    },
+    {
+      "title": "Gut Microbiota and Coronary Artery Disease",
+      "authors": [
+        "T. Yamashita",
+        "T. Emoto",
+        "N. Sasaki",
+        "K. Hirata"
+      ]
+    },
+    {
+      "title": "The potential impact of gut microbiota on your health:Current status and future challenges",
+      "authors": [
+        "S. Sirisinha"
+      ]
+    },
+    {
+      "title": "Cross talk between neutrophils and the microbiota",
+      "authors": [
+        "D. Zhang",
+        "P.S. Frenette"
+      ]
+    },
+    {
+      "title": "Do nutrient-gut-microbiota interactions play a role in human obesity, insulin resistance and type 2 diabetes?",
+      "authors": [
+        "M. Diamant",
+        "E.E. Blaak",
+        "W.M. de Vos"
+      ]
+    },
+    {
+      "title": "Human Amniotic Epithelial Stem Cells Promote Colonic Recovery in Experimental Colitis via Exosomal MiR-23a-TNFR1-NF-κB Signaling",
+      "authors": [
+        "Y.H. Kou",
+        "J.Y. Li",
+        "Y.Y. Zhu",
+        "J. Liu",
+        "R.Z. Ren",
+        "Y.Q. Jiang",
+        "Y.Y. Wang",
+        "C. Qiu",
+        "J.Y. Zhou",
+        "Z.H. Yang"
+      ]
+    },
+    {
+      "title": "Efficient stool collection methods for evaluating the diarrhea score in mouse diarrhea models",
+      "authors": [
+        "S.K. Yim",
+        "S.W. Kim",
+        "S.T. Lee"
+      ]
+    },
+    {
+      "title": "Impact of Microgravity on Virulence, Antibiotic Resistance and Gene Expression in Beneficial and Pathogenic Microorganisms",
+      "authors": [
+        "M. Salavatifar",
+        "S.M. Ahmadi",
+        "S.D. Todorov",
+        "K. Khosravi-Darani",
+        "A. Tripathy"
+      ]
+    },
+    {
+      "title": "MetaMapp: Mapping and Visualizing Metabolomic Data by Integrating Information from Biochemical Pathways and Chemical and Mass Spectral Similarity",
+      "authors": [
+        "D.K. Barupal",
+        "P.K. Haldiya",
+        "G. Wohlgemuth",
+        "T. Kind",
+        "S.L. Kothari",
+        "K.E. Pinkerton",
+        "O. Fiehn"
+      ]
+    },
+    {
+      "title": "A simulated microgravity environment causes a sustained defect in epithelial barrier function",
+      "authors": [
+        "R. Alvarez",
+        "C.A. Stork",
+        "A. Sayoc-Becerra",
+        "R.R. Marchelletta",
+        "G.K. Prisk",
+        "D.F. McCole"
+      ]
+    },
+    {
+      "title": "New insights into the intestinal barrier through “gut-organ” axes and a glimpse of the microgravity’s effects on intestinal barrier",
+      "authors": [
+        "H.Y. Nie",
+        "J. Ge",
+        "G.X. Huang",
+        "K.G. Liu",
+        "Y. Yue",
+        "H. Li",
+        "H.G. Lin",
+        "T. Zhang",
+        "H.F. Yan",
+        "B.X. Xu"
+      ]
+    },
+    {
+      "title": "The pathogenesis of gut microbiota in hepatic encephalopathy by the gut-liver-brain axis",
+      "authors": [
+        "R.R. Zhu",
+        "L.W. Liu",
+        "G.Z. Zhang",
+        "J.X. Dong",
+        "Z.G. Ren",
+        "Z.Q. Li"
+      ]
+    },
+    {
+      "title": "Cellular and Molecular Effects of Microgravity on the Immune System: A Focus on Bioactive Lipids",
+      "authors": [
+        "M. Fava",
+        "N. De Dominicis",
+        "G. Forte",
+        "M. Bari",
+        "A. Leuti",
+        "M. Maccarrone"
+      ]
+    },
+    {
+      "title": "Lycopene attenuates western-diet-induced cognitive deficits via improving glycolipid metabolism dysfunction and inflammatory responses in gut–liver–brain axis",
+      "authors": [
+        "J. Wang",
+        "Z. Wang",
+        "B. Li",
+        "Y. Qiang",
+        "T. Yuan",
+        "X.T. Tan",
+        "Z.H. Wang",
+        "Z.G. Liu",
+        "X.B. Liu"
+      ]
+    },
+    {
+      "title": "Targeting the Liver-Brain axis with hop-derived flavonoids improves lipid metabolism and cognitive performance in mice",
+      "authors": [
+        "I.L. Paraiso",
+        "J.S. Revel",
+        "J. Choi",
+        "C.L. Miranda",
+        "P. Lak",
+        "C. Kioussi",
+        "G. Bobe",
+        "A.F. Gombart",
+        "J. Raber",
+        "C.S. Maier"
+      ]
+    },
+    {
+      "title": "Long-term spaceflight composite stress induces depressive behaviors in model rats through disrupting hippocampus synaptic plasticity",
+      "authors": [
+        "Y.S. Yin",
+        "Y.B. Zhu",
+        "J.L. Liu",
+        "Q.C. Fan",
+        "X.R. Wu",
+        "S. Zhao",
+        "J.P. Wang",
+        "Y. Liu",
+        "Y.Z. Li",
+        "W.H. Lu"
+      ]
+    },
+    {
+      "title": "Unraveling the Liver-Brain Axis: Resveratrol’s Modulation of Key Enzymes in Stress-Related Anxiety",
+      "authors": [
+        "V.E. Tseilikman",
+        "O.B. Tseilikman",
+        "V.A. Shevyrin",
+        "O.N. Yegorov",
+        "A.A. Epitashvili",
+        "M.R. Aristov",
+        "M.N. Karpenko",
+        "I.A. Lipatov",
+        "A.A. Pashkov",
+        "M.V. Shamshurin"
+      ]
+    },
+    {
+      "title": "Preparation for mice spaceflight: Indications for training C57BL/6J mice to adapt to microgravity effect with three-dimensional clinostat on the ground",
+      "authors": [
+        "C.C. Song",
+        "T.S. Kang",
+        "K. Gao",
+        "X.D. Shi",
+        "M. Zhang",
+        "L.L. Zhao",
+        "L. Zhou",
+        "J.G. Guo"
+      ]
+    },
+    {
+      "title": "A synbiotic mixture of selected oligosaccharides and bifidobacteria assists murine gut microbiota restoration following antibiotic challenge",
+      "authors": [
+        "E.C. Hoedt",
+        "C.M. Hueston",
+        "N. Cash",
+        "R.S. Bongers",
+        "J.M. Keane",
+        "K. van Limpt",
+        "K. Ben Amor",
+        "J. Knol",
+        "J. MacSharry",
+        "D. van Sinderen"
+      ]
+    },
+    {
+      "title": "Methionine restriction alleviates age-associated cognitive decline via fibroblast growth factor 21",
+      "authors": [
+        "B. Ren",
+        "L. Wang",
+        "L. Shi",
+        "X. Jin",
+        "Y. Liu",
+        "R.H. Liu",
+        "F. Yin",
+        "E. Cadenas",
+        "X.S. Dai",
+        "Z.G. Liu"
+      ]
+    },
+    {
+      "title": "High-fiber diet mitigates maternal obesity-induced cognitive and social dysfunction in the offspring via gut-brain axis",
+      "authors": [
+        "X.N. Liu",
+        "X. Li",
+        "B. Xia",
+        "X. Jin",
+        "Q.H. Zou",
+        "Z.H. Zeng",
+        "W.Y. Zhao",
+        "S.K. Yan",
+        "L. Li",
+        "S.F. Yuan"
+      ]
+    },
+    {
+      "title": "Mouse model of Graves’ orbitopathy induced by the immunization with TSHR A and IGF-1R α subunit gene",
+      "authors": [
+        "R. Wu",
+        "N. Li",
+        "X. Wang",
+        "S. Wang",
+        "J. Tan",
+        "R. Wang",
+        "W. Zheng"
+      ]
+    },
+    {
+      "title": "Comparison of the effect of Sunset yellow on the stomach and small intestine of developmental period of mice",
+      "authors": [
+        "E. Şensoy"
+      ]
+    },
+    {
+      "title": "Effects of Fragrance-Loaded Mesoporous Silica Nanocolumns on Central Nervous System",
+      "authors": [
+        "Z.G. Lu",
+        "T.L. Zhang",
+        "J. Shen",
+        "Z.B. Xiao",
+        "J. Hu",
+        "Y.W. Niu",
+        "D. Yu",
+        "L. Chen",
+        "X. Zhang"
+      ]
+    }
+  ],
+  "original_title": "Investigation of Spaceflight Induced Changes to Astronaut Microbiomes",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/bda1a615730a/ijms-26-03094-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/93757f831927/ijms-26-03094-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/dab2adbea418/ijms-26-03094-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/00b6f915f977/ijms-26-03094-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/46a0c2967c2c/ijms-26-03094-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/7305f817ab3d/ijms-26-03094-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/b261963e0d1a/ijms-26-03094-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/c6d8220c196d/ijms-26-03094-g008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/71be00c349d9/ijms-26-03094-g009.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/29ad/11988970/291ec5a716a1/ijms-26-03094-g010.jpg"
+  ]
+}

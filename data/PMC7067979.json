@@ -1,0 +1,809 @@
+{
+  "pmcid": "PMC7067979",
+  "title": "Microbiological and Nutritional Analysis of Lettuce Crops Grown on the International Space Station",
+  "abstract": "The ability to grow safe, fresh food to supplement packaged foods of astronauts in space has been an important goal for NASA. Food crops grown in space experience different environmental conditions than plants grown on Earth (e.g., reduced gravity, elevated radiation levels). To study the effects of space conditions, red romaine lettuce, Lactuca sativa cv ‘Outredgeous,’ plants were grown in Veggie plant growth chambers on the International Space Station (ISS) and compared with ground-grown plants. Multiple plantings were grown on ISS and harvested using either a single, final harvest, or sequential harvests in which several mature leaves were removed from the plants at weekly intervals. Ground controls were grown simultaneously with a 24–72 h delay using ISS environmental data. Food safety of the plants was determined by heterotrophic plate counts for bacteria and fungi, as well as isolate identification using samples taken from the leaves and roots. Molecular characterization was conducted using Next Generation Sequencing (NGS) to provide taxonomic composition and phylogenetic structure of the community. Leaves were also analyzed for elemental composition, as well as levels of phenolics, anthocyanins, and Oxygen Radical Absorbance Capacity (ORAC). Comparison of flight and ground tissues showed some differences in total counts for bacteria and yeast/molds (2.14 – 4.86 log10 CFU/g), while screening for select human pathogens yielded negative results. Bacterial and fungal isolate identification and community characterization indicated variation in the diversity of genera between leaf and root tissue with diversity being higher in root tissue, and included differences in the dominant genera. The only difference between ground and flight experiments was seen in the third experiment, VEG-03A, with significant differences in the genera from leaf tissue. Flight and ground tissue showed differences in Fe, K, Na, P, S, and Zn content and total phenolic levels, but no differences in anthocyanin and ORAC levels. This study indicated that leafy vegetable crops can produce safe, edible, fresh food to supplement to the astronauts’ diet, and provide baseline data for continual operation of the Veggie plant growth units on ISS.",
+  "introduction": "Introduction\n\nCrop production in space may be a necessary and desirable component of future exploration systems. Fresh produce can be grown in situ to supplement a stored, packaged diet, and crops may provide beneficial nutrients as well as dietary variety. Veggie is a small plant growth chamber designed and built by Orbital Technologies Corporation (Now Sierra Nevada Corp., Madison, WI, United States) to grow vegetable crops in space.\n\nThe first Veggie plant growth chamber was launched to the International Space Station (ISS) in April, 2014 along with eighteen plant (rooting) pillows for the VEG-01 experiment. Veggie is a simple plant growth facility that uses LED lights and fans to circulate ISS air through the plant growth volume. A transparent, extensible bellows attached to the light unit via magnets contains the growing plants and any debris, and directs air flow from the bottom of the canopy to the top of the growth volume (Figure 1). Screens remove large particles from the cabin air before it passes through the plant growth chamber, however, no level of filtration is present, so plants growing in Veggie are exposed to any microbial or chemical constituents present in the ISS environment. More details about the Veggie facility can be found in. For the VEG-01 and VEG-03 demonstration tests, plants were grown from seeds in plant pillows. Plant pillows are small growing bags that interact with a root mat water reservoir on the Veggie baseplate. Pillows contain a calcined clay substrate mixed with controlled release fertilizer and wicks for seed attachment. Surface sanitized seeds are glued into these plant pillow wicks, and pillows are packaged for flight under sterile air. Further details of seed and pillow preparation are provided by.\n\nA major focus of our research in the past several years has been to identify crop candidates with high potential for dietary supplementation, given the constraints associated with the current space diet. Ongoing testing has indicated that some essential human nutrients are either deficient in the processed and pre-packaged space foods (e.g., potassium, Vitamin K) or may degrade to inadequate levels over the times required for long duration missions (e.g., Vitamin B1, Vitamin C). Several of these nutrients may be supplemented through fresh salad crops and will provide antioxidants and phytochemicals in a natural, whole-food form. Previous studies with salad crops have focused on combinations of environmental conditions (e.g., light, temperature, CO2 concentration) needed to optimize plant growth for space settings. While the macro nutritional value of crops was often evaluated in productivity studies (calories, protein, fats, and carbohydrates), micro nutritional data are limited. In order to utilize “pick-and-eat” produce such as the lettuce crops grown in VEG-01 and 03 as a supplemental food for space, nutritional assessment is essential. In this study we compare the nutritional quality of red romaine lettuce (Lactuca sativa, cv. Outredgeous) grown on ISS to ground controls grown under the same ISS environmental conditions including relative humidity, CO2 concentration and temperature. Within a Veggie chamber, conditions such as humidity and temperature can vary from ISS conditions outside the chamber, for example, the temperature and humidity inside the Veggie tend to be slightly elevated compared to the open cabin air. These differences may have an impact on the elemental, nutritional and microbiological components of the plant. Increased temperatures have been shown to decrease macronutrient content in red leaf lettuce while increasing flavonoids and phenolics. Studies have shown that increased humidity initiates a positive response in biomass yield in many agricultural crops while concomitantly decreasing transpiration rate altering the uptake of water and some nutrients.\n\nMicrobiological testing is an integral part of any food safety program to verify quality, production and proper handling processes but few studies exist for space grown plants. We conducted microbiological testing of Veggie-grown produce to understand potential risks to astronauts as consumers. Good agricultural practices and procedures are in place to minimize microbial contamination of crops grown in Veggie, and microbial testing is one tool to verify the effectiveness of these processes. Plant-growth conditions, the surrounding environment, mineral nutrition, and plant species can all influence the microbial populations living on plant surfaces. A variety of microorganisms can be found on fresh produce, most as part of the normal flora of the plant with no adverse effect on humans if consumed.\n\nMicrobiological analysis can also provide insight on the microbial ecology (population density and types of bacteria and fungi) of Veggie-grown plants. The likelihood of contamination and growth of potential human pathogens on plants grown in Veggie is low since sterilization/sanitization of seeds, plant growth medium, irrigation water, and hardware can be controlled. However, if a contamination event were to occur, the risks to the crew of exposure to food borne pathogens could be increased considering the association of immune dysregulation to spaceflight. Heterotrophic bacterial counts and the presence of Enterobacteriaceae that serve as an indicator of contamination of processed foods, irrigation water, and food processing surfaces are frequently present in raw foods like fresh produce making those tests irrelevant as risk indicators for fruits and vegetables. The microbial load on crops intended for consumption by astronauts presumably should fall within an acceptable range of microbiological standards set for food. Currently, however, there are no standards in place for microbial levels in fresh produce grown in space. The closest related NASA standards are for non-thermostabilized food items including any of the freeze dried foods consumed in orbit, e.g., shrimp cocktail, chocolate candy, granola bars. For example, the current limit for aerobic bacteria on a non-thermostabilized food item is <2 × 104 colony-forming units (CFU) per gram on one sample or <1 × 104 on two out of five samples however, these standards apply to prepackaged food sent from Earth. For fresh produce grown on ISS, the microbiological acceptability is assessed on a case-by-case basis relying on microbiological analysis of crops grown in ground studies analogous to Veggie grown crops. Microbiological analysis has been performed previously on edible plants grown in the Russian Lada chamber on ISS. Mizuna, barley and radish from Lada were stored at −80°C after harvest until analysis was performed at Kennedy Space Center, Merritt Island, FL, United States. A range of microbial densities as indicated by aerobic bacterial and fungal plate counts was found depending on plant type and location. The four samples of mizuna, the only leafy green tested, were grown in different Lada root modules at different times and counts ranged from 3.1 × 103 – 8.7 × 105. When compared to field grown or market produce of similar types these numbers are well within the expected range of microbial densities or even lower (; Hummerick et al., unpublished data).\n\nHowever, not all microorganisms can be cultured in the laboratory and alternate methods of community characterization are needed. Genomic DNA analysis using whole genome or amplicon sequencing provides the capability of identifying 98–99% of the microbes present in a complex, heterogeneous microbial community. With the current advances in technology, the Illumina MiSeq provided a platform for capturing the community structure of the leaf and root material returned from the ISS and for the ground control samples. Identifying the community makeup is the first step in understanding the complex structure and interactions between mutualistic or symbiotic partners in plant growth systems.\n\nThe purpose of this study was to determine the effects of ISS and Veggie environmental conditions on the microbiological and nutritional quality of Veggie grown lettuce intended for crew consumption.",
+  "methods": "Materials and Methods\n\nPlant Growth and Harvest\n\nThe Veggie production system on ISS is a small plant growth chamber designed and built by ORBITEC (Madison, WI, United States) to grow crops in space. The Veggie production system, equipped with LED lighting and a passive watering system, launched to the ISS in 2014 aboard Space X’s third Commercial Resupply (CRS-3) mission (Figure 1). Red romaine lettuce Lactuca sativa cv. ‘Outredgeous’ was grown in Veggie rooting pillows as described by. Briefly, plants were grown in Veggie pillows containing solid, porous, arcillite (calcined clay) substrate in two different blends, either 100% sized to 600 μ–1 mm or a 1:1 ratio of that size to 1–2 mm (Turface Proleague, Profile Products, LLC) and controlled release fertilizer (Nutricote 18-6-8, type 180, Florikan, Sarasota, FL, United States). Procedures for detailed substrate and pillow preparation are outlined in. Two surface sanitized seeds were attached with guar in each plant pillow between paired germination wicks. All plant rooting pillows with attached seeds were kept dry in heat sealed, gas-impermeable Tedlar bags until test initiation on the ISS. Seeds for three separate, independent plantings (biological replicates) were germinated and grown for 33–56 days on ISS and ground controls were run in controlled environment chambers under ISS environmental conditions with a 24 h delay for VEG-01A and B and a 72 h delay for VEG-03A. Each experiment began with six rooting pillows. Germinated seeds were thinned to one plant per pillow at day 7. Each independent planting was grown at different times aboard ISS with parallel ground experiments for comparison (Table 1).\n\nVEG-01A was grown from May 8 to June 10, 2014; VEG-01B was grown from July 8 to August 10, 2015, and VEG-03A was grown from October 25 to December 28, 2016. VEG-01A and B were harvested after 33 days of growth using sanitized scissors to remove the leaves (Table 1). VEG-03A leaves were harvested sequentially starting at 33 days followed by 3 weekly harvests. Harvested leaves from each plant were wrapped in foil and placed into a −80°C freezer. The first, third, and half of the fourth harvests were consumed by the crew. Only the 2nd harvest and the remaining leaves (approximately half of the total leaves) of the final harvest from VEG-03A were stored for sample return. After completion of the final harvest for all three plantings, two rooting pillows from each independent experiment were removed from Veggie hardware and placed into bags and frozen at −80°C. Ground control samples were processed and stored the same as flight samples. The Veggie baseplate was positioned 30.5–31.75 cm below the LED light array to provide approximately 200 μmol⋅m2⋅s–1of photosynthetically active radiation at the surface of the pillows in the center of the Veggie unit at a ratio of 12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm). A photoperiod was set to 16 h light/8 h dark. Environmental conditions from the three experiments are summarized in Supplementary Table S1. Both the VEG-01A and part of the VEG-03A experiment on ISS had data collected inside the Veggie chamber using a temperature and relative humidity data logger.\n\nSample Processing\n\nAfter return to Kennedy Space Center, Merritt Island, FL, United States samples from all three experiments were maintained in a −80°C freezer until analysis. Plant samples were removed from the freezer and processed immediately while pillows were thawed at 4°C overnight. Leaf biomass was divided for microbiological and chemical analysis. The samples intended for chemical analysis were subsequently frozen at −80°C, freeze dried, then ground up using an IKA Tekmar A10 Analytical Grinding Mill. Roots were removed from each pillow and divided for microbiological and molecular analysis.\n\nMicrobiological Analysis\n\nLeaf and pillow root samples were placed into sterile 50 ml centrifuge tubes with sterile phosphate buffered saline (PBS) with glass beads, weighed then shaken vigorously for 2 min. Sample extracts were diluted into PBS and appropriate dilutions were plated in duplicate onto trypticase soy agar (TSA) and inhibitory mold agar (IMA). Plates were incubated at 30°C for 48 h for TSA and 72–120 h for IMA before enumeration of colonies. Individual colony phenotypes were selected for each sample and streaked for isolation. Isolated bacterial colonies were identified using the Micro Id System (Biolog, Hayward, CA, United States) or MicroSEQ 16S rDNA sequencing kit for bacteria (Thermo Fisher Scientific, Waltham, MA, United States). Fungal colonies were identified using the MicroSEQ D2 LSU rDNA kit for fungi (Thermo Fisher Scientific, Waltham, MA, United States). Sequencing was completed on the ABI 3130 Genetic Analyzer (Thermo Fisher Scientific, Waltham, MA, United States). Bacterial and fungal DNA sequences were identified using MicroSEQ ID Software V2.0 (Bacterial Library, 2009; Fungal Library, 2011, Applied Biosystems, Life Technologies, Foster City, CA, United States) and/or NCBI Basic Local Alignment Search Tool (BLAST).\n\nFor microbial food safety screening, sample extracts were plated onto E. coli/coliform and Staph Express Petrifilm (3M, St. Paul, MN, United States) according to manufacturer’s instructions. Petrifilms were incubated at 35°C for 24 h and colonies positive for E. coli and S. aureus were enumerated. Coliform colonies, if present, were re-isolated and further identified using Biolog GEN III plates. Screening for Salmonella was done by inoculating buffered peptone water (BPW) with 1 ml of sample extract followed by incubation at 35°C for 24 h. For selective enrichment, 1 ml of the incubated BPW was transferred into 5 ml of Rappaport-Vassiliadis (RV) broth or Tetrathionate broth (Thermo Fisher Scientific, Waltham, MA, United States) and incubated for 24 h at 35°C. Broths were then streaked onto selective media for Salmonella and incubated at 35°C for 24–48 h. These methods were adapted from the FDA bacteriological analytical manual.\n\nMicrobial DNA Isolation, 16S and ITS PCR, and Sequencing\n\nDNA was isolated from sample material processed for microbiological analysis described above. Each sample was centrifuged at 13,000 rpm to pellet microbial cells, suspended in RNAlater and stored at −80°C until processing for DNA isolation was completed. DNA was extracted from plant leaf and root material of the Veggie pillows using the Microbial Cell DNA Isolation Kit (Qiagen, Inc, Carlsbad, CA, United States) then quantified using the Qubit 2.0 double stranded DNA assay (Invitrogen, Grand Island, NY, United States). The variable 4 region of the 16S ribosomal RNA gene (rRNA) was selected as a phylogenetic marker to identify microorganisms taxonomically to the species level. A dual indexing system for multiplexing was adapted for these communities and polymerase chain reaction (PCR) was optimized for reagent concentrations and volume. Each community was labeled with two barcoded primers for identification at completion of sequencing. Amplicons were created in triplicate using 1 ng of template DNA, and final reagent concentrations of 1X buffer, 200 μM dNTP’s, 25 mM MgCl2, and 300 nM each barcoded 16S rRNA gene primer for bacterial identification or barcoded ITS primers for fungal identification. The PCR cycling conditions were 95°C for 5 min to denature the Taq polymerase enzyme, followed by 30 cycles of 95°C for 1 min, 58°C for annealing and 72°C for 2 min for extension. A final 10 min extension of 72°C completed the PCR run on a Bio-Rad C-1000 thermocycler. After PCR all amplicons were purified using the Min-Elute System (Qiagen, Carlsbad, CA, United States) and quantified with the Qubit 2.0 high sensitivity ds DNA assay (Invitrogen, Grand Island, NY, United States). The purified amplicons were then pooled in an equimolar concentration to create the library following Illumina protocols. The sample library was combined with a 10% Phi-X control library to create diversity and sequenced on the Illumina MiSeq using a V2 500-cycle kit (Illumina, Inc, San Diego, CA, United States).\n\nSequence Analysis\n\nAll 16S and ITS FASTQ sequences were obtained using the Illumina MiSeq Control Software and default settings for demultiplexing all samples. Sequence analyses for 16S sequences were completed using RDP GreenGenes to obtain the taxonomic reference. ITS FASTQ results were analyzed with the UNITE database to analyze the reference sequences and for taxonomic assignment. The Shannon Index was calculated for alpha diversity for each sample with MiSeq control Software (Illumina, Inc. San Diego, CA, United States) while the Bray–Curtis statistics methods calculated beta diversity between samples.\n\nTotal Anthocyanins\n\nApproximately 100 mg of each dry sample powder was placed in an ASE350 cell of the Dionex Automated Solvent Extraction System (Dionex Corporation, Sunnyvale, CA, United States) and extracted with a solvent mixture of methanol:water:acetic acid (MWA) 85:14.5:0.5 (V/V/V) (methanol and acetic acid; Sigma-Aldrich, St. Louis, MO, United States). Parameters for the ASE 350 were: 100°C with 5 min static time; 70% flush; 90 s purge; 1 cycle; and 1500 psi. Extracts were analyzed immediately after extraction for total anthocyanin content by reading their absorbance at 530 and 650 nm (Beckman DU 700). A standard curve was created using Cyandin-3-Glycoside (Sigma-Aldrich, St. Louis, MO, United States).\n\nORAC and Total Phenolic Content\n\nA separate extract was prepared for the determination, firstly, of the antioxidant capacity using the hydrophilic Oxygen Radical Adsorption Capacity (ORAC-FL) assay and secondly, the total phenolics in the sample. Twenty five milligrams (25 mg) of the freeze dried sample was placed in an ASE 350 cell and extracted with acetone:water:acetic acid (AWA) at the ratio of 70%:29.5%:0.5%. Parameters for the ASE 350 were: 80°C with 5 min static time; 60% flush; 60 s purge; 1 cycle; and 1500 psi. Aliquots of 0.2 ml were subsequently reacted with Folin-Ciocalteu phenol reagent (Sigma Aldrich, St. Louis, MO, United States) for the determination of total phenolics by the modified Folin-Ciocalteu assay. A series of known concentrations of gallic acid (Sigma Aldrich, St. Louis, MO, United States) was prepared and reacted with the same reagent to create a calibration curve that was in turn used to determine the concentration in the sample extracts. Consequently, the total phenolics were expressed as gallic acid (GA) equivalents. A diluted (1/50) AWA extract was subjected to the ORAC-FL assay as described by and. Specifically, dilutions of the AWA extracted samples were prepared in a 75 mM phosphate buffer solution (pH 7.0). Aliquots of 20 μL of the diluted sample were placed (in triplicate) in a 96 well transparent flat bottom microplate (Thermo Fisher Scientific, Waltham, MA, United States), along with appropriately diluted Trolox [(±)-6-Hydroxy-2,5,7,8-tetramethylchromane- 2-carboxylic acid; Sigma-Aldrich, St Louis, MO, United States] standards (in triplicate), under subdued light. A “forward-then-reverse” pattern was used to place samples in the microplates, and edge wells were not used for standards or samples due to possible plate effects. Samples were analyzed on a BioTek Synergy Hybrid plate reader (BioTek, Winooski, VT, United States) which automatically added 200 μL of diluted fluorescein (Sigma-Aldrich, St. Louis, MO, United States) into each well, followed by 20 μL of the peroxyl radical generator (AAPH [2′2′azobis (2-amidinopropane)] Sigma-Aldrich, St. Louis, MO, United States). The assay was monitored every few minutes for 2 h, at 37°C. The ORAC-FL value was calculated from the area under the decay curve, and was reported as μmol Trolox equivalents (TE)/g dry weight.\n\nElemental Analysis\n\nDried and ground plant material (0.2–0.5 g) was digested in an open vessel system using a graphite-heating block (Mod Block, PN 4370-010007, CPI International). The plant material was digested at 95°C using a modification of the Environmental Protection Agency, (EPA) Method 3050B, as described below. A 5 ml aliquot of 70% nitric acid (70% Trace Metal Grade, Fisher Scientific, Suwanee, GA, United States) was added to the samples and then boiled for approximately 2 h (or until sample was completely clear). After cooling 2.5 ml of 30% hydrogen peroxide (Fisher Scientific, Suwannee, GA, United States) was applied. When the peroxide reaction ceased, samples were reheated for an additional 50 m in covered vials. Samples were cooled overnight, diluted to 50 ml with ultra-pure DI water and then passed through a 25 mm 0.45 μm syringe filter (GE Whatman, Pittsburgh, PA, United States).\n\nSamples were analyzed via Inductively Coupled Optical Emission Spectrometry. (iCAP 7000 Series, Thermo Fisher Scientific, Waltham, MA, United States) A multi-element standard (Environmental Express) was diluted to the same acid concentration as the samples and quantification was done by external calibration.\n\nStatistical Analysis\n\nData from microbiological counts (log transformed) and chemistry values were compared using a one-way ANOVA followed by Tukey’s multiple comparisons test using GraphPad Prism version 8.0.0 for Windows (GraphPad Software, San Diego, CA, United States). Alpha diversity was determined using the Shannon Diversity Index and was calculated by Illumina RDP Control Software (Illumina, San Diego, CA, United States). Beta diversity of community sequencing was determined with Bray–Curtis dissimilarity using a one-way ANOVA (QIIME 2.0). A t-test (Microsoft Excel) was done to compare differences in the percent phyla identified.",
+  "results": "Results\n\nMicrobial Counts on Leaves and Roots\n\nVEG-01A was the first time the Veggie facility had been used for plant growth on ISS so presumably it would have been the least likely of the three plantings described in this study to harbor microbial contamination. Aerobic plate counts for the leaves harvested from VEG-01B flight plants were significantly higher than the counts from both harvests of VEG-03A flight and the ground controls (P < 0.05) (Figure 2). With the exception of VEG-01B, the flight and ground control aerobic plate counts on leaves were not significantly different. The bacterial counts on ground control samples from VEG-01B were significantly lower than the flight leaves by orders of magnitude (P < 0.0001) (Figure 2). Previous studies have shown an increase in microbial counts with a repeated harvest or “cut and come again” protocol as was done in VEG-03A. An increase between the 2nd and 4th harvests was not seen in bacterial counts on the leaves, however, fungal counts in the flight leaves were significantly higher in the 4th harvest when compared to the 2nd harvest (P = 0.0002) (Figure 3).\n\nThe bacterial counts on lettuce leaves grown on ISS in VEG-01A, B and both harvests from VEG-03A were relatively low on average, 3.53, 4.86, 2.89, and 2.14 log10 CFU/g respectively (Figure 2), when compared to farm or market produce counts of similar type. Fungal counts on Veggie grown lettuce ranging from 2.3 to 4.3 log10 CFU/g were within the range of yeast and mold counts on lettuce reported in the literature (Figure 3).\n\nBacterial counts from the roots in the VEG-03A grow out were significantly lower than the other two grow outs and lower than the corresponding ground control (Figure 3) although these counts were in a range of 106-108 per gram which is typical of lettuce root tissue.\n\nScreening for potential food borne pathogens, E. coli, Salmonella sp., and S. aureus on the leaf tissue yielded negative results. These screening results were corroborated by NGS data.\n\nCultivated Bacterial and Fungal Isolate Identification\n\nCultivation of individual bacterial colony phenotypes on TSA from VEG-01 and VEG-03 samples yielded 14 genera identified from the leaf samples (Table 2) and 19 from the root samples (Table 3). It is important to note that culture based isolation utilized in this study is limited to the selection of the mostly dominant colony phenotypes that grew under aerobic conditions on one type of general growth media. A majority of the bacterial taxa isolated from the Veggie grown leaves are known endophytic and/or epiphytic phyllosphere commensals or symbionts including Arthrobacter, Methylobacterium, Sphingomonas, Pantoea, Burkholderia, and Curtobacterium. Paenibacillus is ubiquitous in soil and is associated with plants predominately as a rhizosphere bacterium exhibiting plant growth promoting characteristics. A few of the leaf isolates are known to be transients on the surface of the leaf and are not typically part of the normal phyllosphere microbial community including Bacillus and Staphylococcus. Human associated bacteria of the genus Staphylococcus were found on the leaves of both flight and ground samples from VEG-03A. These are not natural inhabitants of the plant phyllosphere, however certain strains can be pathogenic to humans and cause food borne illness under optimal growth conditions.\n\nThe bacterial genera isolated from the roots (Table 3) are predominately associated with soil and plant phyllosphere and rhizosphere. Ten of the 19 root isolates were also recovered from the leaf samples excluding the four genera Macrococcus, Micrococcus, Staphylococcus, and Sphingomonas.\n\nNine genera of fungi were isolated and identified from leaf tissue (Table 4), while six were recovered from root (Table 5). All the fungal genera present in the roots were also present on the leaves with the exception of Alternaria. The fungi Aspergillus, Penicillium, and Alternaria are ubiquitous, saprophytic fungi often isolated from soil and the environment including ISS surface and air samples. found many of these genera of filamentous fungi as endophytes in the Indian Lily plant root. Among the fungi, the basidiomycete, Rhodotorula was the most common and in fact was isolated from every Veggie sample with the exception of the VEG-03 leaf tissue.\n\nCommunity Sequencing\n\nSampling and sequencing of the flight and ground Veggie grown plants were completed on a minimum of two root pillows and up to five leaf samples per grow out. Sequencing profiles for each of the Veggie plantings were used to calculate and investigate the Shannon Species Diversity Index (Alpha Diversity) (Table 6) and establish relative diversity within the bacterial communities in leaf and root and ground and flight samples. Leaf diversity was lower than root in each of the three lettuce crops and there was no significant difference between flight and ground samples (Table 6). Although diversity was similar in all roots or leaves, there appeared to be variation in the dominant genera.\n\nAlpha diversity in leaf tissue of the three Veggie experiments showed a significant difference between ground and flight leaf samples of VEG-03A only (P = 0.01). VEG-01A and B flight samples were not significantly different from the respective ground samples. There was also no significant difference in Beta diversity between VEG-01A, VEG-01B, and VEG-03A experiments. Bray Curtis dissimilarity calculations comparing all three experiments were not significantly different between any leaf or root samples of the three tests (P > 0.05).\n\nA majority of the bacterial community sequencing at the phyla level were assigned to phyla Proteobacteria, Bacteroidetes, Actinobacteria, and Chloroflexi. Comparison at the phyla taxonomic level indicated no significant difference between ground and flight root communities nor in the leaf communities. The dominant phyla for all plants, both ground and flight, was Proteobacteria. VEG-03A flight roots had the lowest percent of the Proteobacteria reads at 59% while the corresponding flight leaf sample was 76% of the total bacterial communities. All other plants from VEG-01A and B ranged from 80 to 96% Proteobacterial reads. However, this disparity was not significantly different. A closer look at the genera contained in the Veggie leaf and root samples showed that Burkholderia, Ralstonia, and Janthinobacterium dominated the Proteobacteria phyla (Figure 4). Other Proteobacteria present in the samples were Azospirillum, and Herbaspirillum, which were detected in higher abundance in VEG-03A as well as Bradyrhizobium and Mesorhizobium, all of which may play a role in nitrogen fixation. The dominant genera representing the Chloroflexi was the gram positive, thermophilic, Thermogemmatispora, a soil microbe. These microbes were also transported to the leaf but were detected in much lower abundances (percentage), particularly in the flight and ground samples in VEG-03A. Thermogemmatispora was also detected in higher percentages than other microbes but was less than in VEG-03A. The dominant microbe representing the Bacteroidetes, which took second to the Proteobacteria in numerous samples was Chitinophaga. Chitinophaga was higher in abundance of reads in flight sample roots with only VEG-01B showing an elevated abundance in the ground samples (Figure 4).\n\nFungal communities from VEG-01A and VEG-01B were surveyed and it was determined that the Ascomycota phyla dominated both flight and ground communities as well as leaf and root communities (92–99%). Few Basidiomycota were detectable. VEG-01A flight roots presented the highest representation at 7% with VEG-01B flight root community containing 6%. All other communities contained 2% or less of total fungi detected (Figure 5).\n\nFungal diversity in the root samples for both flight and ground was significantly higher than leaf – an expected outcome (P < 0.05). Among the dominating genera in flight and ground leaf samples was Microidium, an obligate biotroph. Leaf samples also housed Alternaria, Fusarium (VEG-01B only), and Malassezia, a yeast like fungi. Root samples from all three growth tests had increased levels of Alternaria, Phaeoacremonium, and Rhodosporidiobolus (Figure 5). Alternaria was found in all samples with the exception of VEG-01A leaf tissue while Phaeoacremonium was present in increased abundance in VEG-01A root and in reduced numbers in VEG-01A leaf tissue (Figure 5).\n\nComparison of culturable and non-culturable microbes in all samples provided corroborating evidence in that all culturable microbes were identified in the sequencing data. However, sequencing data revealed many additional genera present, increasing the species diversity.\n\nElemental Analysis\n\nLeaf tissue from flight and ground experiments were analyzed for changes in elemental composition (Table 7). There was no significant differences between ground and flight samples within each experiment, however when comparing among all three experiments, Fe and K content were significantly lower in VEG-03A samples compared to VEG-01A and VEG-01B (Fe, P ≤ 0.001; K, P ≤ 0.0001). On the other hand, Na content was found to be significantly higher in VEG-01B compared to VEG-01A or VEG-03A (P ≤ 0.0001). Phosphate (P) measured among all three experiments showed that VEG-01B had higher P contents than VEG-01A and VEG-03A (P ≤ 0.05). Similarly, sulfate measured as S and Zn contents were statistically higher in VEG-01B compared to either VEG-01A or VEG-03A (S, P ≤ 0.05; Zn, P ≤ 0.0001). No significant differences were observed in either Ca, Mg, or Mn content.\n\nTotal Phenolics, Anthocyanins and ORAC Analysis\n\nAs a measure of antioxidant capacity, total phenolics, anthocyanins and oxygen radical absorbance capacity (ORAC) were measured on lettuce leaf tissue, flight and ground samples from all three tests (Table 8). Comparing total phenolics, VEG-03A with 15.0 (ground) and 19.6 (flight) mg/g of dry weight (gallic acid equivalents) had the statistically lowest amounts when compared to either VEG-01A or VEG-01B (P ≤ 0.001). Anthocyanins measured as cyanidin-3-glucoside equivalents showed no difference among all three experiments compared. Similarly, ORAC units measured among all three experiments did not exhibit any observable variance.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "lettuce",
+    "microgravity",
+    "ISS",
+    "phyllosphere",
+    "rhizosphere",
+    "space",
+    "microbes",
+    "Plant Science",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "In vitro antagonists of Rhizoctonia solani tested on lettuce: rhizosphere competence, biocontrol efficiency and rhizosphere microbial community response: research article.",
+      "authors": [
+        "M. F. Adesina",
+        "R. Grosch",
+        "A. Lembke",
+        "T. D. Vatchev",
+        "K. Smalla"
+      ]
+    },
+    {
+      "title": "A new method for non-parametric multivariate analysis of variance.",
+      "authors": [
+        "M. J. Anderson"
+      ]
+    },
+    {
+      "title": "Improved selection of internal transcribed spacer-specific primers enables quantitative, ultra-high-throughput profiling of fungal communities.",
+      "authors": [
+        "N. A. Bokulich",
+        "D. A. Mills"
+      ]
+    },
+    {
+      "title": "QIIME 2: Reproducible, interactive, scalable, and extensible microbiome data science.",
+      "authors": [
+        "E. Bolyen",
+        "J. R. Rideout",
+        "M. R. Dillion",
+        "N. A. Bokulich",
+        "C. Abnet",
+        "G. A. Al-Ghalith"
+      ]
+    },
+    {
+      "title": "Microgravity and immune responsiveness: implications for space travel.",
+      "authors": [
+        "A. T. Borchers",
+        "C. L. Keen",
+        "M. E. Gershwin"
+      ]
+    },
+    {
+      "title": "Taxonomic manual of the erysiphales (Powdery Mildew).",
+      "authors": [
+        "U. Braun",
+        "R. T. A. Cook"
+      ]
+    },
+    {
+      "title": "Viable but nonculturable bacteria in drinking water.",
+      "authors": [
+        "J. J. Byrd",
+        "H. Xu",
+        "R. R. Colwell"
+      ]
+    },
+    {
+      "title": "Microbial characterization during the early habitation of the international space station.",
+      "authors": [
+        "V. A. Castro",
+        "A. N. Thrasher",
+        "M. Healy",
+        "C. M. Ott",
+        "D. L. Pierson"
+      ]
+    },
+    {
+      "title": "Evidence for ecological flexibility in the cosmopolitan genus Curtobacterium.",
+      "authors": [
+        "A. B. Chase",
+        "P. Arevalo",
+        "M. F. Polz",
+        "R. Berlemont",
+        "J. B. H. Martiny"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the international space station and spacecraft assembly facilities.",
+      "authors": [
+        "A. Checinska",
+        "A. J. Probst",
+        "P. Vaishampayan",
+        "J. R. White",
+        "D. Kumar",
+        "V. G. Stepanov"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M. R. Cooper"
+      ]
+    },
+    {
+      "title": "Bacterial communities associated with surfaces of leafy greens: shift in composition and decrease in richness over time.",
+      "authors": [
+        "M. W. Dees",
+        "E. Lysøe",
+        "B. Nordskog",
+        "M. B. Brurberg"
+      ]
+    },
+    {
+      "title": "Greengenes, a chimera-checked 16S rRNA gene database and workbench compatible with ARB.",
+      "authors": [
+        "T. Z. DeSantis",
+        "P. Hugenholtz",
+        "N. Larsen",
+        "M. Rojas",
+        "E. L. Brodie",
+        "K. Keller"
+      ]
+    },
+    {
+      "title": "Members of the genus Burkholderia: good and bad guys.",
+      "authors": [
+        "L. Eberl",
+        "P. Vandamme"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "E. Epstein"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Screening of microbial communities associated with endive lettuce during postharvest processing on industrial scale.",
+      "authors": [
+        "A. Fröhling",
+        "A. Rademacher",
+        "B. Rumpold",
+        "M. Klocke",
+        "O. Schlüter"
+      ]
+    },
+    {
+      "title": "Relative humidity and nutrient concentration affect nutrient uptake and growth of Begonia× hiemalis.",
+      "authors": [
+        "H. R. Gislerød",
+        "L. M. Mortensen"
+      ]
+    },
+    {
+      "title": "Current knowledge and perspectives of Paenibacillus: a review.",
+      "authors": [
+        "E. N. Grady",
+        "J. MacDonald",
+        "L. Liu",
+        "A. Richman",
+        "Z. C. Yuan"
+      ]
+    },
+    {
+      "title": "A survey of the microbial population and ethanol content of bagged salad.",
+      "authors": [
+        "R. D. Hagenmair",
+        "R. A. Baker"
+      ]
+    },
+    {
+      "title": "Microbial contamination of fruit and vegetables and the behaviour of enteropathogens in the phyllosphere: a review.",
+      "authors": [
+        "J. C. Heaton",
+        "K. Jones"
+      ]
+    },
+    {
+      "title": "Agricultural and management practices and bacterial contamination in greenhouse versus open field lettuce production.",
+      "authors": [
+        "K. Holvoet",
+        "I. Sampers",
+        "M. Seynnaeve",
+        "L. Jacxsens",
+        "M. Uyttendaele"
+      ]
+    },
+    {
+      "title": "Microbiological analysis of Lada Vegetable Production Units (VPU) to define critical control points and procedures to ensure the safety of space grown vegetables",
+      "authors": [
+        "M. Hummerick",
+        "J. Garland",
+        "G. Bingham",
+        "V. Sychev",
+        "I. Podolsky"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M. Hummerick",
+        "J. Garland",
+        "G. Bingham",
+        "R. Wheeler",
+        "S. Topham",
+        "V. Sychev"
+      ]
+    },
+    {
+      "title": "The effect of plant cultivar, growth media, harvest method and post harvest treatment on the microbiology of edible crops",
+      "authors": [
+        "M. Hummerick",
+        "J. Gates",
+        "B.-T. Nguyen",
+        "G. Massa",
+        "R. Wheeler"
+      ]
+    },
+    {
+      "title": "Changes in developing plant microbial community structure as affected by contaminated water.",
+      "authors": [
+        "A. M. Ibekwe",
+        "C. M. Grieve"
+      ]
+    },
+    {
+      "title": "Culture dependent and independent analysis of bacterial communities associated with commercial salad leaf vegetables.",
+      "authors": [
+        "C. R. Jackson",
+        "K. C. Randolph",
+        "S. L. Osborn",
+        "H. L. Tyler"
+      ]
+    },
+    {
+      "title": "Staphylococcus aureus and staphylococcal food-borne disease: an ongoing challenge in public health.",
+      "authors": [
+        "J. Kadariya",
+        "T. C. Smith",
+        "D. Thapaliya"
+      ]
+    },
+    {
+      "title": "Isolation of new bacterial species from drinking water biofilms and proof of their in situ dominance with highly specific 16S rRNA probes.",
+      "authors": [
+        "S. Kalmbach",
+        "W. Manz",
+        "U. Szewzyk"
+      ]
+    },
+    {
+      "title": "High population of Sphingomonas species on plant surface.",
+      "authors": [
+        "H. Kim",
+        "M. Nishiyama",
+        "T. Kunito",
+        "K. Senoo",
+        "K. Kawahara",
+        "K. Murakami"
+      ]
+    },
+    {
+      "title": "Global diversity and distribution of Arbuscular Mycorrhizal fungi.",
+      "authors": [
+        "S. N. Kivlin",
+        "C. V. Hawkes",
+        "K. K. Treseder"
+      ]
+    },
+    {
+      "title": "Toward the Development of a “Salad Machine”. SAE Technical Paper 2006–2308",
+      "authors": [
+        "M. Kliss",
+        "G. Hevenga",
+        "A. Hoehn",
+        "L. Stodieck"
+      ]
+    },
+    {
+      "title": "Microbiology of the Space Shuttle water system.",
+      "authors": [
+        "D. W. Koenig",
+        "D. L. Pierson"
+      ]
+    },
+    {
+      "title": "Towards a unified paradigm for sequence-based identification of fungi.",
+      "authors": [
+        "U. Kõljalg",
+        "M. Bahram",
+        "P. Kohout",
+        "J. Oja",
+        "M. Peterson",
+        "K. Põldmaa"
+      ]
+    },
+    {
+      "title": "Draft genome sequence of Thermogemmatispora onikobensis NBRC 111776 T, an aerial mycelium- and spore-forming thermophilic bacterium belonging to the class ktedonobacteria.",
+      "authors": [
+        "H. Komaki",
+        "A. Hosoyama",
+        "S. Yabe",
+        "A. Yokota",
+        "Y. Uchino",
+        "H. Takano"
+      ]
+    },
+    {
+      "title": "Development of a dual-index sequencing strategy and curation pipeline for analyzing amplicon sequence data on the MiSeq illumina sequencing platform.",
+      "authors": [
+        "J. J. Kozich",
+        "S. L. Westcott",
+        "N. T. Baxter",
+        "S. K. Highlander",
+        "P. D. Schloss"
+      ]
+    },
+    {
+      "title": "Bacterial communities associated with the surfaces of fresh fruits and vegetables.",
+      "authors": [
+        "J. W. Leff",
+        "N. Fierer"
+      ]
+    },
+    {
+      "title": "Effects of relative humidity on infection, colonization and conidiation of Magnaporthe orzyae on perennial ryegrass.",
+      "authors": [
+        "Y. Li",
+        "W. Uddin",
+        "J. E. Kaminski"
+      ]
+    },
+    {
+      "title": "Microbiology of the phyllosphere MINIREVIEW microbiology of the phyllosphere.",
+      "authors": [
+        "S. E. Lindow",
+        "M. T. Brandl"
+      ]
+    },
+    {
+      "title": "Life support systems for Mars transit.",
+      "authors": [
+        "R. D. MacElroy",
+        "M. Kliss",
+        "C. Straight"
+      ]
+    },
+    {
+      "title": "B. thuringiensis is a poor colonist of leaf surfaces.",
+      "authors": [
+        "P. Maduell",
+        "G. Armengol",
+        "M. Llagostera",
+        "S. Orduz",
+        "S. Lindow"
+      ]
+    },
+    {
+      "title": "Ecological succession and stochastic variation in the assembly of Arabidopsis thaliana phyllosphere communities.",
+      "authors": [
+        "L. Maignien",
+        "E. A. DeForce",
+        "M. E. Chafee",
+        "A. M. Eren",
+        "S. L. Simmons"
+      ]
+    },
+    {
+      "title": "Leaf mineral nutrient remobilization during leaf senescence and modulation by nutrient deficiency.",
+      "authors": [
+        "A. Maillard",
+        "S. Diquelou",
+        "V. Billard",
+        "P. Laine",
+        "M. Garnica",
+        "M. Prudent"
+      ]
+    },
+    {
+      "title": "Veggie hardware validation testing on the international space station.",
+      "authors": [
+        "G. D. Massa",
+        "N. F. Dufour",
+        "J. A. Carver",
+        "M. E. Hummerick",
+        "R. M. Wheeler",
+        "R. C. Morrow"
+      ]
+    },
+    {
+      "title": "Preparation for the veggie plant growth system on the international space station.",
+      "authors": [
+        "G. D. Massa",
+        "G. Newsham",
+        "M. E. Hummerick",
+        "R. C. Morrow",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "Growth chambers on the international space station for large plants.",
+      "authors": [
+        "G. D. Massa",
+        "R. M. Wheeler",
+        "R. C. Morrow",
+        "H. G. Levine"
+      ]
+    },
+    {
+      "title": "Effect of CO2 levels on nutrient content of lettuce and radish.",
+      "authors": [
+        "J. D. McKeehen",
+        "D. J. Smart",
+        "C. L. Mackowiack",
+        "R. M. Wheeler",
+        "S. S. Nielsen"
+      ]
+    },
+    {
+      "title": "Microidium phyllanthi-reticulati sp. nov. on Phyllanthus reticulatus.",
+      "authors": [
+        "J. Meeboon",
+        "S. Takamatsu"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R. C. Morrow",
+        "R. W. Remiker"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R. C. Morrow",
+        "R. W. Remiker",
+        "M. J. Mischnick",
+        "L. K. Tuominen",
+        "M. C. Lee",
+        "T. M. Crabb"
+      ]
+    },
+    {
+      "title": "Species of Phaeoacremonium associated with infections in humans and environmental reservoirs in infected woody plants.",
+      "authors": [
+        "L. Mostert",
+        "J. Z. Groenewald",
+        "R. C. Summerbell",
+        "V. Robert",
+        "D. A. Sutton",
+        "A. A. Padhye"
+      ]
+    },
+    {
+      "title": "Complete genome sequence of Bradyrhizobium sp. s23321: insights into symbiosis evolution in soil oligotrophs.",
+      "authors": [
+        "T. Okubo",
+        "T. Tsukui",
+        "H. Maita",
+        "S. Okamoto",
+        "K. Oshima",
+        "T. Fujisawa"
+      ]
+    },
+    {
+      "title": "Microbiological quality of fresh lettuce from organic and conventional production.",
+      "authors": [
+        "M. Oliveira",
+        "J. Usall",
+        "I. Viñas",
+        "M. Anguera",
+        "F. Gatius",
+        "M. Abadias"
+      ]
+    },
+    {
+      "title": "Prevention of microbial hazard on fresh-cut lettuce through adoption of food safety and hygienic practices by lettuce farmers.",
+      "authors": [
+        "L. A. Oyinlola",
+        "A. O. Obadina",
+        "A. M. Omemu",
+        "O. B. Oyewole"
+      ]
+    },
+    {
+      "title": "Mutual interplay between phytopathogenic powdery mildew fungi and other microorganisms.",
+      "authors": [
+        "R. Panstruga",
+        "H. Kuhn"
+      ]
+    },
+    {
+      "title": "Alternaria in food products.",
+      "authors": [
+        "A. Patriarca"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M. Perchonok",
+        "G. Douglas",
+        "M. Cooper"
+      ]
+    },
+    {
+      "title": "Leaf-FISH: microscale imaging of bacterial taxa on phyllosphere.",
+      "authors": [
+        "E. L. Peredo",
+        "S. L. Simmons"
+      ]
+    },
+    {
+      "title": "Standard methods for the determination of antioxidant capacity and phenolics in food and dietary supplements.",
+      "authors": [
+        "R. L. Prior",
+        "X. Wu",
+        "K. Schaich"
+      ]
+    },
+    {
+      "title": "Fresh-cut fruits and vegetables: critical factors influencing microbiology and novel approaches to prevent microbial risks. A review.",
+      "authors": [
+        "O. S. Qadri",
+        "B. Yousuf",
+        "A. K. Srivastava"
+      ]
+    },
+    {
+      "title": "Hypobaria and hypoxia affects growth and phytochemical contents of lettuce.",
+      "authors": [
+        "N. C. Rajapakse",
+        "C. He",
+        "L. Cisneros-Zevallos",
+        "F. T. Davies"
+      ]
+    },
+    {
+      "title": "Leaf microbiota in an agroecosystem: spatiotemporal variation in bacterial community composition on field-grown lettuce.",
+      "authors": [
+        "G. Rastogi",
+        "J. J. Tech",
+        "G. L. Coaker",
+        "J. H. J. Leveau",
+        "A. Sbodio",
+        "T. V. Suslow"
+      ]
+    },
+    {
+      "title": "Effects of lighting intensity and supplemental CO2 on yield of potential salad crops for ISS",
+      "authors": [
+        "J. T. Richards",
+        "S. L. Edney",
+        "N. C. Yorio",
+        "G. W. Stutte",
+        "N. Cranston",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "Yields of salad crops grown under potential lunar or Mars habitat environments: effect of temperature and lighting intensities",
+      "authors": [
+        "J. T. Richards",
+        "S. L. Edney",
+        "N. C. Yorio",
+        "G. W. Stutte",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "Microbiology of hydroponically-grown lettuce.",
+      "authors": [
+        "E. C. Riser",
+        "J. Grabowski",
+        "E. P. Glenn"
+      ]
+    },
+    {
+      "title": "Applied mycology & biotechnology an international series.",
+      "authors": [
+        "J. C. Royer",
+        "K. T. Madden",
+        "T. C. Norman",
+        "K. F. Lobuglio"
+      ]
+    },
+    {
+      "title": "Ralstonia pickettii in environmental biotechnology: potential and applications.",
+      "authors": [
+        "M. P. Ryan",
+        "J. T. Pembroke",
+        "C. C. Adley"
+      ]
+    },
+    {
+      "title": "Drought stress enhances nutritional and bioactive compounds, phenolic acids and antioxidant capacity of Amaranthus leafy vegetable.",
+      "authors": [
+        "U. Sarker",
+        "S. Oba"
+      ]
+    },
+    {
+      "title": "Use of 5-cyano-2,3-ditolyl tetrazolium chloride for quantifying planktonic and sessile respiring bacteria in drinking water.",
+      "authors": [
+        "G. Schaule",
+        "H. C. Flemming",
+        "H. F. Ridgway"
+      ]
+    },
+    {
+      "title": "Isolation of Arthrobacter species from the phyllosphere and demonstration of their epiphytic fitness.",
+      "authors": [
+        "T. R. Scheublin",
+        "J. H. J. Leveau"
+      ]
+    },
+    {
+      "title": "An endohyphal bacterium (Chitinophaga, Bacteroidetes) alters carbon source use by Fusarium keratoplasticum (F. solani species complex, Nectriaceae).",
+      "authors": [
+        "J. P. Shaffer",
+        "J. M. U’Ren",
+        "R. E. Gallery",
+        "D. A. Baltrus",
+        "A. E. Arnold"
+      ]
+    },
+    {
+      "title": "The Effect of environment and nutrients on hydroponic lettuce yield, quality, and phytonutrients.",
+      "authors": [
+        "W. Sublett",
+        "T. Barickman",
+        "C. Sams"
+      ]
+    },
+    {
+      "title": "The effects of weather on fungal abundance and richness among 25 communities in the Intermountain West.",
+      "authors": [
+        "S. M. Talley",
+        "P. D. Coley",
+        "T. A. Kursar"
+      ]
+    },
+    {
+      "title": "Humidity and plants.",
+      "authors": [
+        "T. W. Tibbitts"
+      ]
+    },
+    {
+      "title": "Factors influencing leaf- and root-associated communities of bacteria and fungi across 33 plant orders in a grassland.",
+      "authors": [
+        "H. Toju",
+        "H. Kurokawa",
+        "T. Kenta"
+      ]
+    },
+    {
+      "title": "Microbiological quality of bagged cut spinach and lettuce mixes.",
+      "authors": [
+        "I. Valentin-Bon",
+        "A. Jacobson"
+      ]
+    },
+    {
+      "title": "Microbial characteristics of ISS environment surfaces",
+      "authors": [
+        "K. Venkateswaran",
+        "A. Checinska",
+        "N. Singh",
+        "G. B. Mohan",
+        "C. Urbaniak",
+        "A. Blachowicz"
+      ]
+    },
+    {
+      "title": "International space station environmental microbiome - microbial inventories of ISS filter debris.",
+      "authors": [
+        "K. Venkateswaran",
+        "P. Vaishampayan",
+        "J. Cisneros",
+        "D. L. Pierson",
+        "S. O. Rogers",
+        "J. Perry"
+      ]
+    },
+    {
+      "title": "Endophytic fungal flora from roots and fruits of an Indian neem plant Azadirachta indica A. Juss., and impact of culture media on their isolation.",
+      "authors": [
+        "V. C. Verma",
+        "S. K. Gond",
+        "A. Kumar",
+        "R. N. Kharwar",
+        "L. Boulanger",
+        "G. A. Strobel"
+      ]
+    },
+    {
+      "title": "Exploring biodiversity in the bacterial community of the Mediterranean phyllosphere and its relationship with airborne bacteria.",
+      "authors": [
+        "D. Vokou",
+        "K. Vareli",
+        "E. Zarali",
+        "K. Karamanoli",
+        "H. I. A. Constantinidou",
+        "N. Monokrousos"
+      ]
+    },
+    {
+      "title": "Effect of elevated carbon dioxide on nutritional quality of tomato.",
+      "authors": [
+        "R. M. Wheeler",
+        "C. L. Mackowiack",
+        "G. W. Stutte",
+        "N. C. Yorio",
+        "W. L. Berry"
+      ]
+    },
+    {
+      "title": "Proximate composition of CELSS crops grown in NASA’s biomass production chamber.",
+      "authors": [
+        "R. M. Wheeler",
+        "C. L. Mackowiak",
+        "J. C. Sager",
+        "W. M. Knott"
+      ]
+    },
+    {
+      "title": "Phyllosphere microbiology with special reference to diversity and plant genotype.",
+      "authors": [
+        "J. M. Whipps",
+        "P. Hand",
+        "D. Pink",
+        "G. D. Bending"
+      ]
+    },
+    {
+      "title": "Microbiological survey of locally grown lettuce sold at farmers’ markets in Vancouver, British Columbia.",
+      "authors": [
+        "J. L. Wood",
+        "J. C. Chen",
+        "E. Friesen",
+        "P. Delaquis",
+        "K. J. Allen"
+      ]
+    },
+    {
+      "title": "Characterization of anthocyanins and proanthocyanidins in some cultivars of Ribes, Aronia, and Sambucus and their antioxidant capacity.",
+      "authors": [
+        "X. Wu",
+        "L. Gu",
+        "L. Prior",
+        "S. McKay"
+      ]
+    },
+    {
+      "title": "Microbial monitoring of crewed habitats in space-current status and future perspectives.",
+      "authors": [
+        "N. Yamaguchi",
+        "M. Roberts",
+        "S. Castro",
+        "C. Oubre",
+        "K. Makimura",
+        "N. Leys"
+      ]
+    },
+    {
+      "title": "Survey of foodborne pathogens, aerobic plate counts, total coliform counts, and Escherichia coli counts in leafy greens, sprouts, and melons marketed in the United States.",
+      "authors": [
+        "G. Zhang",
+        "Y. Chen",
+        "L. Hu",
+        "D. Melka",
+        "H. Wang",
+        "A. Laasri"
+      ]
+    }
+  ],
+  "original_title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/b11ddadc8eaa/fpls-11-00199-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/307124fb0400/fpls-11-00199-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/ec26aeb63f21/fpls-11-00199-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/d6466f6ae2cb/fpls-11-00199-t002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/1588f39c850a/fpls-11-00199-t003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/40ef72f68022/fpls-11-00199-t004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/250150a482f6/fpls-11-00199-t005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/76396ca7269e/fpls-11-00199-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/712eacc49c97/fpls-11-00199-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/f85b92390255/fpls-11-00199-t007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/caf6/7067979/1d939f189080/fpls-11-00199-t008.jpg"
+  ]
+}

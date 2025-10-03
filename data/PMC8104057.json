@@ -1,0 +1,88 @@
+{
+  "pmcid": "PMC8104057",
+  "title": "Draft Genome Sequences of Aspergillus and Penicillium Species Isolated from the International Space Station and Crew Resupply Vehicle Capsule",
+  "abstract": "The draft whole-genome sequences (WGS) of 30 fungal strains isolated from the International Space Station and belonging to the Penicillium and Aspergillus genera were assembled. The WGS will allow for detailed genomic characterization to determine the possible applications and importance for space and biotechnological industries.\n\nABSTRACT\n\nThe draft whole-genome sequences (WGS) of 30 fungal strains isolated from the International Space Station and belonging to the Penicillium and Aspergillus genera were assembled. The WGS will allow for detailed genomic characterization to determine the possible applications and importance for space and biotechnological industries.",
+  "introduction": "ANNOUNCEMENT\n\nDuring an ongoing microbial tracking study of the International Space Station (ISS), 30 strains representing seven species belonging to the Penicillium (n = 5) and Aspergillus (n = 2) genera were isolated, and whole-genome sequences (WGS) were generated. The Penicillium genus encompasses more than 350 species found worldwide in soil, vegetation, air, indoor environments, and food. Aspergillus species are saprophytes found in a variety of environmental niches; however, some of them are also opportunistic human pathogens. Members of the Penicillium and Aspergillus genera are of economic and industrial importance, including Penicillium chrysogenum, which is used to produce β-lactam antibiotics, Penicillium camemberti, which is used for maturation of soft cheeses such as Camembert, Brie, and Neufchatel, and Aspergillus niger, which is a known producer of citric acid. Recently, Penicillium polonicum has been shown to tolerate and effectively remove lead (Pb) from polluted water, indicating a promising solution for new remediation strategies to purify contaminated water. Lastly, Aspergillus unguis, Penicillium dipodomyicola, and Penicillium griseoroseum have been reported to produce novel bioactive compounds. Considering existing and yet-to-be uncovered, versatile applications of Penicillium and Aspergillus species, characterization of WGS of these fungi is critical. Additionally, since fungi are excellent models for studying evolution and adaptation, due to their experimental features, the ISS-isolated species are of unique significance for investigating how microgravity and irradiation affect them when compared to their ground counterparts.\n\nThe procedure for collecting samples and performing consecutive processing steps has been described elsewhere. Briefly, surface samples were collected with premoistened polyester wipes and then resuspended in 200 ml of sterile phosphate-buffered saline (PBS) with vigorous shaking. The extracted samples were concentrated using InnovaPrep (Drexel, MO) CP-150 concentrating pipettes. Aliquots (100 μl) of each sample were plated onto potato dextrose agar (PDA) containing 100 μg/ml chloramphenicol and incubated at 25°C for 7 days. A single colony was picked, restreaked onto PDA, and incubated at 25°C for 7 days. About 1 μg of biomass grown overnight was collected and used for DNA extraction with the ZymoBIOMICS DNA MagBead kit (Zymo Corp., Irvine, CA). To acquire the WGS, shotgun libraries were prepared following the Illumina Nextera Flex protocol, and paired-end sequencing of 30 strains was performed on a NovaSeq 6000 S4 flow cell paired-end 2 × 150-bp platform. The quality of the raw reads obtained was confirmed with FastQC (v0.11.7). Assessment of the quality filtering steps and adapter removal were performed using fastp (v0.20.0). The cleaned sequences were assembled with SPAdes using the automatic coverage cutoff value (v3.11.1). Assembly quality, number of contigs, N50 values, and genome size were calculated using QUAST (v5.0.2). Default parameters were used for all software. The species were identified based on the internal transcribed spacer (ITS), calmodulin, and β-tubulin sequences extracted from the assembled genomes. The details of the final assemblies and phylogenetic identification are summarized in Table 1.\n\nData availability.\n\nThe WGS and raw data have been deposited in GenBank under the BioProject accession numbers PRJNA659567 and PRJNA667181. This project has also been deposited in the NASA GeneLab system (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-350/). The versions described in this paper are the first versions.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": []
+    },
+    {
+      "title": "Identification and nomenclature of the genus Penicillium",
+      "authors": []
+    },
+    {
+      "title": "Aspergillus species in indoor environments and their possible occupational and public health hazards",
+      "authors": []
+    },
+    {
+      "title": "The current role of Aspergillus and Penicillium in human and animal health",
+      "authors": []
+    },
+    {
+      "title": "Engineering of the filamentous fungus Penicillium chrysogenum as cell factory for natural products",
+      "authors": []
+    },
+    {
+      "title": "Domestication of the emblematic white cheese-making fungus Penicillium camemberti and its diversification into two varieties",
+      "authors": []
+    },
+    {
+      "title": "Utilization of different agro-industrial wastes for sustainable bioproduction of citric acid by Aspergillus niger",
+      "authors": []
+    },
+    {
+      "title": "Biotechnological production of citric acid",
+      "authors": []
+    },
+    {
+      "title": "Removal mechanism of Pb(II) by Penicillium polonicum: immobilization, adsorption, and bioaccumulation",
+      "authors": []
+    },
+    {
+      "title": "A new alkaloid from Penicillium dipodomyicola",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial and antioxidant activities of different extracts from Aspergillus unguis SPMD-EGY grown on different media",
+      "authors": []
+    },
+    {
+      "title": "Depsidone and phthalide derivatives from the soil-derived fungus Aspergillus unguis PSU-RSPG199",
+      "authors": []
+    },
+    {
+      "title": "Genome sequencing and secondary metabolism of the postharvest pathogen Penicillium griseofulvum",
+      "authors": []
+    },
+    {
+      "title": "Fungal evolutionary genomics provides insight into the mechanisms of adaptive divergence in eukaryotes",
+      "authors": []
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": []
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data",
+      "authors": []
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": []
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": []
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Aspergillus and Penicillium Species Isolated from the International Space Station and Crew Resupply Vehicle Capsule"
+}

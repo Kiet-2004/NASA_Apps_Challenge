@@ -1,0 +1,827 @@
+{
+  "pmcid": "PMC9400218",
+  "title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+  "abstract": "Background\n\nAntimicrobial resistance (AMR) has a detrimental impact on human health on Earth and it is equally concerning in other environments such as space habitat due to microgravity, radiation and confinement, especially for long-distance space travel. The International Space Station (ISS) is ideal for investigating microbial diversity and virulence associated with spaceflight. The shotgun metagenomics data of the ISS generated during the Microbial Tracking–1 (MT-1) project and resulting metagenome-assembled genomes (MAGs) across three flights in eight different locations during 12 months were used in this study. The objective of this study was to identify the AMR genes associated with whole genomes of 226 cultivable strains, 21 shotgun metagenome sequences, and 24 MAGs retrieved from the ISS environmental samples that were treated with propidium monoazide (PMA; viable microbes).\n\nResults\n\nWe have analyzed the data using a deep learning model, allowing us to go beyond traditional cut-offs based only on high DNA sequence similarity and extending the catalog of AMR genes. Our results in PMA treated samples revealed AMR dominance in the last flight for Kalamiella piersonii, a bacteria related to urinary tract infection in humans. The analysis of 226 pure strains isolated from the MT-1 project revealed hundreds of antibiotic resistance genes from many isolates, including two top-ranking species that corresponded to strains of Enterobacter bugandensis and Bacillus cereus. Computational predictions were experimentally validated by antibiotic resistance profiles in these two species, showing a high degree of concordance. Specifically, disc assay data confirmed the high resistance of these two pathogens to various beta-lactam antibiotics.\n\nConclusion\n\nOverall, our computational predictions and validation analyses demonstrate the advantages of machine learning to uncover concealed AMR determinants in metagenomics datasets, expanding the understanding of the ISS environmental microbiomes and their pathogenic potential in humans.\n\nVideo Abstract\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1186/s40168-022-01332-w.",
+  "introduction": "Background\n\nAccording to the World Health Organization, the widespread use of antibiotics worldwide and the slow discovery of major types on antibiotics in the last thirty years has made antibiotic resistance one of the biggest threats to human health, food security, and development. Accordingly, with NASA setting the course to return to the Moon with the Artemis mission and eventually venture out to Mars, maintaining the health of astronauts during long-term spaceflight is of paramount importance. One area of particular concern is the reported increase in virulence and antibiotic resistance of microorganisms in space experiments. Combined with a depressed or altered immune response in astronauts, there is an increased risk of opportunistic microbial infection. Spaceflight promotes biofilm formation, and bacteria cultured from astronauts during flight were more resistant than isolates obtained from the same individual either pre- or post-flight. Mutations also occurred more frequently in long-term spaceflights. An alternative non-mutually exclusive hypothesis to increased virulence or microbial resistance to antibiotics is that spaceflight conditions might alter the stability of pharmaceuticals. In any case, bacterial infections might be more challenging to treat in space.\n\nThe International Space Station (ISS) is a closed-built environment with its own environmental microbiome shaped by microgravity, radiation, and limited human presence. We and others have shown that microbiomes are dynamic, diverse and sometimes intertwined at the ISS. Be et al. analyzed antibiotic resistance and virulence genes from dust and vacuum filter samples of ISS (treated with propidium monoazide, or PMA), demonstrating that human skin-associated microbes impact the ISS microbiome. Indeed, the skin and intestinal microbiomes of astronauts that spent 6 to 12 months in the ISS have been shown to be altered. In addition, the salivary microbiome of astronauts changed as a result of spaceflight, potentially activating microbes that promote viral replication and altering the abundance of some antimicrobial resistance (AMR) genes. The ISS itself also presents specific core microbiome signatures on its surfaces that we characterized recently using shotgun metagenome and amplicon sequencing, analogous to microbiome signatures found in specific geographies on Earth.\n\nFurther analyses across several missions have revealed that the microbiome of the crew's skin resembled those of the surfaces inside the ISS collected by the crewmember on the same flight. To better understand the composition of these bacterial populations we and others have characterized shotgun whole-genome sequencing (WGS) of several ISS microorganisms. Although most of them have been found to be non-pathogenic to humans, there are exceptions such as antibiotic-resistant Enterobacter bugandensis strains that could have an increased chance of pathogenicity.\n\nComputational analyses of microbiome data collected in Earth have shown that AMR can be predicted from genomic sequence of pure cultures alone, but a consensus approach on the best way to detect AMRs in metagenomic datasets has yet to be established. Generally, predictions are restricted to high identity (high sequence similarity to databases) cut-offs, requiring a ‘best-hit’ on an appropriate AMR database with a sequence identity greater than 80% by many programs such as ResFinder. Although the ‘best-hit’ approach has a low false-positive rate, the false-negative rate can be very high, and a large number of actual Antibiotic Resistance Genes (ARGs) are predicted as non-ARGs, thus concealing the identification of potentially functional ARGs. Another method of identification is to link the immune repertoire of the astronaut to the peptides of the microbes on the ISS, but this requires complex coordination with crew sampling and is rare. However, it has been shown recently that deep learning, a class of machine learning algorithms, can expand the catalog of AMR genes and increase the accuracy of the predictions based on metagenomic data. We then hypothesized that the characterization of AMR from sequencing data at the ISS could be investigated from an artificial intelligence perspective using a robust deep learning framework. For that, we analyzed whole-genome sequences of 226 pure strains (cultivable microbes), metagenome sequences of 21 environmental samples, and 24 MAGs retrieved from PMA treated samples (Fig. 1) using the supervised deep learning approach proposed by Arango-Argoty et al., which has shown high sensitivity for detection of AMR genes in an independent benchmark.",
+  "methods": "Methods\n\nMetagenome-Assembled Genomes (MAGs) methodology\n\nThe paired-end 100-bp metagenomic reads from NCBI Short Read Archive (SRA) under the bio-project number PRJNA438545 were processed with Trimmomatic to trim adapter sequences and low-quality ends, with a minimum Phred score of 20 across the entire length of the read used as a quality cut-off. Reads shorter than 80 bp were removed after trimming. Remaining high-quality reads were subsequently assembled using metaSPAdes. Contigs were binned using Metabat2 v2.11.3. Recovered genomes were evaluated with CheckM, and a recovered genome was considered good with at least 90% completeness and at most 10% contamination. Each genome was subsequently annotated with the help of Rapid Annotations using Subsystems Technology (RAST), and near identifications were predicted.\n\nSample collection for Microbial Tracking 1 mission\n\nDuring the microbial tracking investigation to characterize airborne and surface-associated microbial population aboard the International Space Station, samples were collected from ISS locations, and ground samples were collected from the Crew resupply vehicle. A sterile polyester wipe premoistened with Phosphate buffered saline (PBS) was used to collect the samples from various areas across these ISS locations, and the details and description of the sample collection and cultivation have already been reported in Checinska Sielaff et al. and Singh et al.. Pure isolates were selected and sub-cultured, and the sub-cultures were sequenced.\n\nIsolates from Microbial Tracking 1 mission\n\nTo create the whole-genome sequences (WGS) of these strains, shotgun libraries were prepared using the Illumina Nextera Flex protocol, using NovaSeq 6000 S4 flow cell 2150 paired-end (PE) sequencing. Verification of the quality of the raw sequencing data was carried out using FastQC v0.11.7. Quality control for adapter trimming and quality filtering were performed using fastp v0.20.0, and then SPAdes v3.11.1 was used to assemble all the cleaned sequences. Fastp quality control was based on the following three parameters: (i) correction of mismatches in overlapped regions of paired-end reads, (ii) trimming of autodetected adapter sequences, and (iii) quality trimming at the 59 and 39 ends. To determine the quality of the assembled sequences, the number of contigs, the N50 value, and the total length were calculated using QUAST v5.0.2. Default parameters were used for all software. The average nucleotide identity (ANI) was calculated using OrthoANIu by comparing each of the scaffolds to the WGS of the respective type strains.\n\nIdentification of ORFs in microbial DNA sequences\n\nGlimmer (Gene Locator and Interpolated Markov ModelER) v3.02 was used with default parameters to identify the coding regions and distinguish them from non-coding DNA in MAGs and MT-1 scaffolds that could be used as an input in DeepARG-LS. Minimum gene length was indicated as 50 bp (‘glimmer3 -g50’). Glimmer reads DNA sequences in a FASTA file format and predicts genes in them using an Interpolated Context Model.\n\nPrediction of antibiotic resistance genes in short reads and full-gene length sequences\n\nDeepARG version 2, a deep learning-based approach for predicting ARGs and annotation, was run with the ‘--reads’ option (DeepARG-SS) for NGS reads and the ‘--genes’ option (DeepRG-LS) for longer gene-like sequences obtained with Glimmer. The DeepARG model consists of four dense hidden layers of 2000, 1000, 500, and 100 units that propagate a bit score distribution. The output layer of the deep neural network consists of 30 units that correspond to the antibiotic resistance categories (102 antibiotics consolidated into 30 antibiotic categories). The model was trained with a curated database of 14,933 genes from three databases (CARD, ARDB, and UNIPROT). Default options were used: 50% minimum percentage of identity to consider, significance of the prediction probability cut-off of 0.8 as recommended, and E-value of alignments (default 1e−10). The software was downloaded from https://bitbucket.org/gusphdproj/deeparg-ss.\n\nMicrobial nucleotide BLAST\n\nNucleotide-Nucleotide BLAST 2.10.1+ (https://blast.ncbi.nlm.nih.gov/Blast.cgi) was used to identify microbial species associated to MT-1 scaffolds. Sequences producing significant alignments were ranked and the species associated to maximum Score (bits) and minimum E value was deemed as the closest match.\n\nGene annotations and pan-genome analysis of MT-1 scaffolds\n\nA Docker image with the software tool Prokka v1.14.5 was pulled and used with default parameters to annotate bacterial isolates. The master annotations in GFF3 format for the 226 isolates have been deposited at the Zenodo platform [DOI: 10.5281/zenodo.6518836]. Using the annotated assemblies in GFF3 format for E. bugandensis and B. cereus strains, Roary v3.13.0 was run with default parameters to compare isolates based on genes and the number of isolates they are present in.\n\nPhenotypic antibiotic resistance testing\n\nDisc assays experiments were performed and reported in Urbaniak et al.. The isolates were streaked from glycerol stocks onto R2A plates. A single colony was inoculated into 5 mL Tryptic Soy Broth (TSB) and grown overnight at 30°C. Aliquots of 100 μL were plated on TSA. Agar diffusion discs (BD BBLTM Sensi-DiscTM, Franklin Lakes, NJ) were placed aseptically on a plate and the strains were incubated at 37 °C for 24 h. The tested antibiotics included: 30-μg cefazolin (CZ-30); 30-μg cefoxitin (FOX-30), 5 μg ciprofloxacin (CIP-5), 15 μg erythromycin (E-15), 10-μg gentamicin (GM-10), 1-μg oxacillin (OX), 10-μg penicillin (P-10), 5-μg rifampin (RA-5), and 10 μg tobramycin (NN-10). The diameter of inhibition zones was measured for each antibiotic disk and recorded in millimeters. The resistance results were compared with the zone diameter interpretive charts provided by the manufacturer. When the spontaneous mutants were present in response to some antibiotics, they were isolated, subcultured and tested for the specific antibiotic resistance.\n\nData availability\n\nRaw metagenomics reads from three flights on multiple locations were downloaded from NASA GeneLab repository https://genelab.nasa.gov (GLDS-69). The ISS MAGs datasets are available at the SRA database under the accession number: PRJNA438545 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA438545/]. Microbial tracking-1 (MT-1) datasets (raw sequencing data and sequence assembly files) were obtained from GLDS-67, GLDS-302, GLDS-303, GLDS-309, GLDS-311 and GLDS-350. The rest of the samples are deposited at DDBJ/ ENA/GenBank or are unpublished.\n\nAvailability of data and materials\n\nThe code use for the analysis is available at https://github.com/pmb59/AMRISS.\n\nDeclarations\n\nEthics approval and consent to participate\n\nNot applicable.\n\nConsent for publication\n\nAll authors have read and agreed with the manuscript.",
+  "results": "Results\n\nPredictions based on short metagenomics sequences and ORFs partly overlap with previous analyses and reveal new AMR determinants at the ISS surface microbiome\n\nThe first shotgun metagenome sequencing of intact microbial cells (Propidium monoazide-PMA treated) without whole-genome amplification was performed by Singh et al.. There, samples were taken in 8 locations across three flights (F1, F2, F3) during a period of 12 months. A detailed description of sampling procedures and locations, species diversity and functional characterization can be found in Singh et al.. To deploy a deep learning approach for predicting antibiotic resistance genes from metagenomic data, we used DeepARG, a computational resource proven to be more accurate than traditional approaches. We first run DeepARG-SS (DeepARG for short reads) using the recommended prediction probability cut-off of 0.8 to obtain read counts of AMR genes (Fig. 2a). As in the seminal paper, quantification of antibiotics associated with AMR revealed ‘beta lactams’ ranking first and ‘peptide’ second, and generally more AMR reads counts observed in Flight 3 (F3) than in previous two flights (Fig. 2a). However, reads counts in certain antibiotics such as pleuromutilin, mupirocin and rifamycin were found largely in Flight 2 (Fig. 2a). Our read counts correlate (r = 0.86, p = 6.879e−7; Pearson’s product-moment correlation) with read counts obtained for antimicrobial resistance by Singh et al. (Fig. 2b). Taken together, these suggest a partial overlap with results obtained in Singh et al. analyzed using the traditional approach.\n\nWhile more AMR reads counts were found in Flight 3, we also observed variability between the different locations and flights, and an increasing number of read counts associated with time. For instance, location 4 (L4, surface of the dining table) increased the number of AMR reads counts with successive flights (Fig. 2b, c). While resistance to ‘beta lactams’ was evenly distributed across flights and locations, resistance to ‘polymyxin’ and especially ‘peptide’ represents a more significant proportion of AMR counts in locations of Flight 3 (Fig. 2c). In addition, we also observed the widespread presence of reads related to Macrolides, Lincosamides, Streptogamines (MLS), and tetracycline resistance.\n\nTo investigate the possible association between AMR patterns and specific microbes, we assembled the short reads into Metagenome-Assembled Genomes (MAGs; see Methods), identified their Open Reading Frames (ORFs), and repeated the prediction of ARGs using DeepARG-LS. Figure 3a shows the distribution of DeepARG classification probabilities and best-hit identity of ARGs in MAGs from the ISS. As we can retrieve highly probable ARGs (probability > 0.8) presenting low sequence identity (for many ARGs, identity is < 40%), this method is likely more advantageous than using the ‘best-hit’ approach only. Compared to DeepARG-SS results obtained previously, the analysis of MAGs did not reveal significant differences in the number of ARGs predicted in the ORFs for the different flights (Fig. 3b). However, interestingly the results show a smaller number bacterial species having ARGs in Flight #1 (F1) when compared to Flights #2 and #3 (Fig. 3b, c) (data is shown for MAGs with at least 1 predicted ARG; the total number of MAGs analyzed is 24). Specifically, the number of locations is smaller in Flight 1 (n = 3) than in F2 (n = 6) and F3 (n = 7) (Fig. 3b). Many ARGs were identified in Kalamiella piersonii MAGs in multiple locations during F3, showing AMR patterns related to (glyco)peptide, fluoroquinolone and MLS (Fig. 3c). Of note, the K. piersonii strain closely related to one found at the ISS has been associated to human urinary tract infection. The potentially very pathogenic microbe E. bugandensis was found in location 2 (forward side panel wall of the Waste and Hygiene Compartment) in Flight 1, presenting more than 40 ARGs. In addition, in the original study, Pantoea species were found to be the dominant genus in samples in 5 out of 7 locations sampled from Flight 3, especially at location 5 (surface rack). In our re-analysis, we observed Pantoea brenneri and Pantoea dispersa having ARGs related to beta-lactams and peptide, as well as to triclosan and polymyxin resistance.\n\nOverall, our results partially agree with earlier findings while providing new insights into previously unobserved antibiotic resistance classes (of the 30 antibiotic resistance categories included in the model). Specifically, the re-analysis of short sequences and MAGs from the ISS reveals dominance of K. piersonii antibiotic resistance in different locations of Flight 3 (Fig. 3c).\n\nDistribution of antibiotic resistance genes in scaffolds of Microbial Tracking-1 strains isolated from the ISS\n\nWe then applied DeepARG-LS to 226 Microbial Tracking-1 (MT-1) isolates (Mason and Venkateswaran labs, published and unpublished WGS of MT-1 pure strains isolated from ISS environment). We found a range of 2 to 92 ARGs in 184 out of 226 isolates (Fig. 4a; Table S1). This machine learning approach allowed us to go beyond the traditional cut-off based only on high sequence DNA similarity (Figure S1). These results suggest a widespread presence of potential ARGs in the isolates, with ‘multi-drug’ class being first, followed by glycopeptides, beta-lactams, bacitracin, and tetracyclines. The ‘multi-drug’ antibiotic class was defined by aggregating several antibiotic names from the CARD and ARDB databases (efflux, multi-drug and na_antimicrobials). We then used BLAST to match isolates showing AMR sequences predicted by DeepARG to microbial species (Fig. 4a) and identified Bacillus cereus and E. bugandensis, which were previously profiled organisms on the ISS as the top 2 ranking species with a high number of ARGs. We have previously shown that five E. bugandensis isolates were almost equivalent to nosocomial earth isolates showing resistance to multi-drug antibiotic compounds, fluoroquinolones, and fosfomycin. In addition, E. bugandensis strains were shown to be resistant to 9 antibiotics. Our results reinforce the potential pathogenicity of this microbe. Nonetheless, antimicrobial resistance was not examined for B. cereus strains in Venkateswaran et al.. B. cereus is a food poisoning microorganism that might be a concern for crew members' health. In addition, we found novel ARGs associated with other species such as K. pneumoniae, Pantoea, Paenibacillus polymyxa, Bacillus velezensis, Enterococcus faecalis, Sphingomonas, and, with a lower number of ARGs, several species of Staphylococcus. E. faecalis virulence was previously shown to be affected by microgravity. We then used the tool Prokka to fully annotate the bacterial isolates, finding as expected that the number of coding sequences, but not the number of ARGs, increased in proportion to genome sizes (Figure S2a). Then, we ran the pan-genome analysis tool Roary to compare isolates of E. bugandensis (10) and B. cereus (10) finding that the core set of genes was highly conserved among strains of the same species (Figure S2b).\n\nTo experimentally validate machine learning predictions on previously unobserved AMR patterns above, we performed Antibacterial Susceptibility Tests (AST) for the species found to be potentially most pathogenic, in our case E. bugandensis and B. cereus as they have a higher number of ARGs (Table S1; Fig. 4a). For that, we use disc diffusion on strains isolated at the ISS for the following antimicrobials: Cefazolin (beta−lactam), Cefoxitin (beta−lactam), Ciprofloxacin (quinolone), Erythromycin (MLS), Gentamycin (aminoglycoside), Oxacillin (beta−lactam), Penicillin (beta−lactam), Rifampin (rifamycin), and Tobramycin (aminoglycoside) (Fig. 4b). The prediction patterns closely matched the AST results (Fig. 4b), although DeepARG failed to detect Rifampin resistance, especially for E. bugandensis.\n\nAlthough different antibiotics have different inhibitory zone cut-offs for a strain to be considered as resistant (Table S2), remarkably we found an inverse correlation between the zone of inhibition and ARG count for B. cereus (r = − 0.637, Pearson's product-moment correlation, p = 2.2e−7) and E. bugandensis (r = − 0.517; p = 0.0002765) (Fig. 4c), demonstrating the applicability and high accuracy of computational prediction of AMR for microbiome data obtained in space.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "ISS",
+    "Metagenomics",
+    "Antibiotic resistance",
+    "Machine learning",
+    "Space Omics",
+    "Microbiome",
+    "Built-environment",
+    "Microbial Tracking-1",
+    "NGS",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration",
+      "authors": [
+        "E Afshinnekoo",
+        "RT Scott",
+        "M Nelman-Gonzalez",
+        "BE Crucian",
+        "SA Ponomarev",
+        "OI Orlov",
+        "D Shiba",
+        "M Muratani",
+        "M Yamamoto",
+        "SE Richards",
+        "PA Vaishampayan",
+        "C Meydan",
+        "MJ MacKay",
+        "J Foox",
+        "J Myrrhe",
+        "E Istasse",
+        "N Singh",
+        "K Venkateswaran",
+        "JA Keune",
+        "HE Ray",
+        "M Basner",
+        "J Miller",
+        "MH Vitaterna",
+        "E Pariset",
+        "DM Taylor",
+        "D Wallace",
+        "K Rubins",
+        "SM Bailey",
+        "P Grabham",
+        "SV Costes",
+        "CE Mason",
+        "A Beheshti",
+        "E Cekanaviciute",
+        "R Barker",
+        "S Gilroy",
+        "D Hassane",
+        "SM Smith",
+        "SR Zwart"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S Andrews"
+      ]
+    },
+    {
+      "title": "DeepARG: a deep learning approach for predicting antibiotic resistance genes from metagenomic data",
+      "authors": [
+        "G Arango-Argoty",
+        "E Garner",
+        "A Pruden",
+        "LS Heath",
+        "P Vikesland",
+        "L Zhang"
+      ]
+    },
+    {
+      "title": "Spaceflight modifies escherichia coli gene expression in response to antibiotic exposure and reveals role of oxidative stress response",
+      "authors": [
+        "TR Aunins",
+        "KE Erickson",
+        "N Prasad"
+      ]
+    },
+    {
+      "title": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces",
+      "authors": [
+        "A Avila-Herrera",
+        "J Thissen",
+        "C Urbaniak"
+      ]
+    },
+    {
+      "title": "The RAST Server: rapid annotations using subsystems technology",
+      "authors": [
+        "RK Aziz",
+        "D Bartels",
+        "F Meyer",
+        "GJ Olsen",
+        "R Olson",
+        "AL Osterman",
+        "RA Overbeek",
+        "LK Mcneil",
+        "D Paarmann",
+        "T Paczian",
+        "B Parrello",
+        "GD Pusch",
+        "AA Best",
+        "C Reich",
+        "R Stevens",
+        "O Vassieva",
+        "V Vonstein",
+        "A Wilke",
+        "O Zagnitko",
+        "M Dejongh",
+        "T Disz",
+        "RA Edwards",
+        "K Formsma",
+        "S Gerdes",
+        "EM Glass",
+        "M Kubal"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "Whole metagenome profiles of particulates collected from the International Space Station",
+      "authors": [
+        "NA Be",
+        "A Avila-Herrera",
+        "JE Allen"
+      ]
+    },
+    {
+      "title": "Identification and reconstruction of novel antibiotic resistance genes from metagenomes",
+      "authors": [
+        "F Berglund",
+        "T Österlund",
+        "F Boulund",
+        "NP Marathe",
+        "DGJ Larsson",
+        "E Kristiansson"
+      ]
+    },
+    {
+      "title": "Draft Genome Sequences of Sphingomonas Species Associated with the International Space Station",
+      "authors": [
+        "S Bijlani",
+        "NK Singh",
+        "CE Mason",
+        "CCC Wang",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station",
+      "authors": [
+        "S Bijlani",
+        "NK Singh",
+        "CE Mason",
+        "CCC Wang",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+      "authors": [
+        "AM Bolger",
+        "M Lohse",
+        "B Usadel"
+      ]
+    },
+    {
+      "title": "Sequencing-based methods and resources to study antimicrobial resistance",
+      "authors": [
+        "M Boolchandani",
+        "AW D'Souza",
+        "G Dantas"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": [
+        "S Chen",
+        "Y Zhou",
+        "Y Chen",
+        "J Gu"
+      ]
+    },
+    {
+      "title": "Antimicrobial resistance prediction for gram-negative bacteria via game theory-based feature evaluation [published correction appears in Sci Rep. 2020 Jan 30;10(1):1846]",
+      "authors": [
+        "AS Chowdhury",
+        "DR Call",
+        "SL Broschat"
+      ]
+    },
+    {
+      "title": "PathogenFinder--distinguishing friend from foe using bacterial whole genome sequence data [published correction appears in PLoS One. 2013;8(12). doi:10.1371/annotation/b84e1af7-c127-45c3-be22-76abd977600f]",
+      "authors": [
+        "S Cosentino",
+        "M Voldby Larsen",
+        "F Møller Aarestrup",
+        "O Lund"
+      ]
+    },
+    {
+      "title": "International MetaSUB Consortium. A global metagenomic map of urban microbiomes and antimicrobial resistance",
+      "authors": [
+        "D Danko",
+        "D Bezdan",
+        "K Kuchin",
+        "M Karasikov",
+        "A Lyons",
+        "L Mak",
+        "D Meleshko",
+        "H Mustafa",
+        "B Mutai",
+        "RY Neches",
+        "A Ng",
+        "O Nikolayeva",
+        "EE Afshin",
+        "T Nikolayeva",
+        "E Png",
+        "KA Ryon",
+        "JL Sanchez",
+        "H Shaaban",
+        "MA Sierra",
+        "D Thomas",
+        "B Young",
+        "OO Abudayyeh",
+        "J Alicea",
+        "S Ahsanuddin",
+        "M Bhattacharyya",
+        "R Blekhman",
+        "E Castro-Nallar",
+        "AM Cañas",
+        "AD Chatziefthimiou",
+        "RW Crawford",
+        "F De Filippis",
+        "Y Deng",
+        "C Desnues",
+        "E Dias-Neto",
+        "C Bhattacharya",
+        "M Dybwad",
+        "E Elhaik",
+        "D Ercolini",
+        "A Frolova",
+        "D Gankin",
+        "JS Gootenberg",
+        "AB Graf",
+        "DC Green",
+        "I Hajirasouliha",
+        "JJA Hastings",
+        "DJ Butler",
+        "M Hernandez",
+        "G Iraola",
+        "S Jang",
+        "A Kahles",
+        "FJ Kelly",
+        "K Knights",
+        "NC Kyrpides",
+        "PP Łabaj",
+        "PKH Lee",
+        "MHY Leung",
+        "KR Chng",
+        "PO Ljungdahl",
+        "G Mason-Buck",
+        "K McGrath",
+        "C Meydan",
+        "EF Mongodin",
+        "MO Moraes",
+        "N Nagarajan",
+        "M Nieto-Caballero",
+        "H Noushmehr",
+        "M Oliveira",
+        "D Donnellan",
+        "S Ossowski",
+        "OO Osuolale",
+        "O Özcan",
+        "D Paez-Espino",
+        "N Rascovan",
+        "H Richard",
+        "G Rätsch",
+        "LM Schriml",
+        "T Semmler",
+        "OU Sezerman",
+        "J Hecht",
+        "L Shi",
+        "T Shi",
+        "R Siam",
+        "LH Song",
+        "H Suzuki",
+        "DS Court",
+        "SW Tighe",
+        "X Tong",
+        "KI Udekwu",
+        "JA Ugalde",
+        "K Jackson",
+        "B Valentine",
+        "DI Vassilev",
+        "EM Vayndorf",
+        "TP Velavan",
+        "J Wu",
+        "MM Zambrano",
+        "J Zhu",
+        "S Zhu",
+        "CE Mason"
+      ]
+    },
+    {
+      "title": "Danko DC, Singh N, Butler DJ, Mozsary C, Jiang P, Keshavarzian A, et al. Genetic and immunological evidence for microbial transfer between the international space station and an astronaut. bioRxiv. 2020. 11.10.376954. 10.1101/2020.11.10.376954.",
+      "authors": []
+    },
+    {
+      "title": "Tripartite assembly of RND multidrug efflux pumps",
+      "authors": [
+        "L Daury",
+        "F Orange",
+        "JC Taveau",
+        "A Verchere",
+        "L Monlezun",
+        "C Gounou",
+        "RK Marreddy",
+        "M Picard",
+        "I Broutin",
+        "KM Pos"
+      ]
+    },
+    {
+      "title": "Identifying bacterial genes and endosymbiont DNA with Glimmer",
+      "authors": [
+        "AL Delcher",
+        "KA Bratke",
+        "EC Powers",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "Fatal family outbreak of Bacillus cereus-associated food poisoning",
+      "authors": [
+        "K Dierick",
+        "E Van Coillie",
+        "I Swiecicka",
+        "G Meyfroidt"
+      ]
+    },
+    {
+      "title": "Evaluation of physical and chemical changes in pharmaceuticals flown on space missions",
+      "authors": [
+        "B Du",
+        "VR Daniels",
+        "Z Vaksman",
+        "JL Boyd",
+        "C Crady",
+        "L Putcha"
+      ]
+    },
+    {
+      "title": "Analysis of deletion mutations of the rpsL gene in the yeast Saccharomyces cerevisiae detected after long-term flight on the Russian space station Mir",
+      "authors": [
+        "T Fukuda",
+        "K Fukuda",
+        "A Takahashi"
+      ]
+    },
+    {
+      "title": "The NASA twins study: a multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman",
+        "M Darshi",
+        "BD Piening",
+        "LF Rizzardi",
+        "K Sharma",
+        "JH Siamwala",
+        "L Taylor",
+        "MH Vitaterna",
+        "M Afkarian",
+        "E Afshinnekoo",
+        "S Ahadi",
+        "A Ambati",
+        "SJ Green",
+        "M Arya",
+        "D Bezdan",
+        "CM Callahan",
+        "S Chen",
+        "AMK Choi",
+        "GE Chlipala",
+        "K Contrepois",
+        "M Covington",
+        "BE Crucian",
+        "I De Vivo",
+        "RC Gur",
+        "DF Dinges",
+        "DJ Ebert",
+        "JI Feinberg",
+        "JA Gandara",
+        "KA George",
+        "J Goutsias",
+        "GS Grills",
+        "AR Hargens",
+        "M Heer",
+        "RP Hillary",
+        "L Lin",
+        "AN Hoofnagle",
+        "VYH Hook",
+        "G Jenkinson",
+        "P Jiang",
+        "A Keshavarzian",
+        "SS Laurie",
+        "B Lee-McMullen",
+        "SB Lumpkins",
+        "M MacKay",
+        "MG Maienschein-Cline",
+        "BR Macias",
+        "AM Melnick",
+        "TM Moore",
+        "K Nakahira",
+        "HH Patel",
+        "R Pietrzyk",
+        "V Rao",
+        "R Saito",
+        "DN Salins",
+        "JM Schilling",
+        "DD Sears",
+        "MJ McKenna",
+        "CK Sheridan",
+        "MB Stenger",
+        "R Tryggvadottir",
+        "AE Urban",
+        "T Vaisar",
+        "B Van Espen",
+        "J Zhang",
+        "MG Ziegler",
+        "SR Zwart",
+        "JB Charles",
+        "C Meydan",
+        "CE Kundrot",
+        "GBI Scott",
+        "SM Bailey",
+        "M Basner",
+        "AP Feinberg",
+        "SMC Lee",
+        "CE Mason",
+        "E Mignot",
+        "BK Rana",
+        "SM Smith",
+        "T Mishra",
+        "MP Snyder",
+        "FW Turek",
+        "J Nasrini"
+      ]
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    },
+    {
+      "title": "How to discover new antibiotic resistance genes?",
+      "authors": [
+        "L Hadjadj",
+        "SA Baron",
+        "SM Diene",
+        "JM Rolain"
+      ]
+    },
+    {
+      "title": "Effects of microgravity on the virulence of Listeria monocytogenes, Enterococcus faecalis, Candida albicans, and methicillin-resistant Staphylococcus aureus",
+      "authors": [
+        "TG Hammond",
+        "L Stodieck",
+        "HH Birdsall"
+      ]
+    },
+    {
+      "title": "Using Genomics to Track Global Antimicrobial Resistance",
+      "authors": [
+        "RS Hendriksen",
+        "V Bortolaia",
+        "H Tate",
+        "GH Tyson",
+        "FM Aarestrup",
+        "PF McDermott"
+      ]
+    },
+    {
+      "title": "Long-term exposure to spaceflight conditions affects bacterial response to antibiotics",
+      "authors": [
+        "MA Juergensmeyer",
+        "EA Juergensmeyer",
+        "JA Guikema"
+      ]
+    },
+    {
+      "title": "MetaBAT, an efficient tool for accurately reconstructing single genomes from complex microbial communities",
+      "authors": [
+        "DD Kang",
+        "J Froula",
+        "R Egan",
+        "Z Wang"
+      ]
+    },
+    {
+      "title": "Spaceflight promotes biofilm formation by Pseudomonas aeruginosa",
+      "authors": [
+        "W Kim",
+        "FK Tengra",
+        "Z Young"
+      ]
+    },
+    {
+      "title": "Hierarchical Hidden Markov models enable accurate and diverse detection of antimicrobial resistance sequences",
+      "authors": [
+        "SM Lakin",
+        "A Kuhnle",
+        "B Alipanahi"
+      ]
+    },
+    {
+      "title": "Fulminant liver failure in association with the emetic toxin of Bacillus cereus",
+      "authors": [
+        "H Mahler",
+        "A Pasi",
+        "JM Kramer",
+        "P Schulte"
+      ]
+    },
+    {
+      "title": "Investigation of Spaceflight Induced Changes to Astronaut Microbiomes",
+      "authors": [
+        "MD Morrison",
+        "JB Thissen",
+        "F Karouia",
+        "S Mehta",
+        "C Urbaniak",
+        "K Venkateswaran",
+        "DJ Smith",
+        "C Jaing"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "R Ramamurthy",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "metaSPAdes: a new versatile metagenomic assembler",
+      "authors": [
+        "S Nurk",
+        "D Meleshko",
+        "A Korobeynikov",
+        "PA Pevzner"
+      ]
+    },
+    {
+      "title": "Roary: rapid large-scale prokaryote pan genome analysis",
+      "authors": [
+        "AJ Page",
+        "CA Cummins",
+        "M Hunt",
+        "VK Wong",
+        "S Reuter",
+        "MT Holden",
+        "M Fookes",
+        "D Falush",
+        "JA Keane",
+        "J Parkhill"
+      ]
+    },
+    {
+      "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+      "authors": [
+        "DH Parks",
+        "M Imelfort",
+        "CT Skennerton",
+        "P Hugenholtz",
+        "GW Tyson"
+      ]
+    },
+    {
+      "title": "First Report of Pathogenic Bacterium Kalamiella piersonii Isolated from Urine of a Kidney Stone Patient: Draft Genome and Evidence for Role in Struvite Crystallization",
+      "authors": [
+        "PD Rekha",
+        "A Hameed",
+        "MAP Manzoor",
+        "MV Suryavanshi",
+        "SD Ghate",
+        "AB Arun",
+        "SS Rao",
+        "SK Bajire",
+        "M Mujeeburahiman",
+        "CC Young"
+      ]
+    },
+    {
+      "title": "Prediction of the intestinal resistome by a three-dimensional structure-based method",
+      "authors": [
+        "E Ruppé",
+        "A Ghozlane",
+        "J Tap"
+      ]
+    },
+    {
+      "title": "Prokka: rapid prokaryotic genome annotation",
+      "authors": [
+        "T Seemann"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "F Karouia",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Metagenome to phenome approach enables isolation and genomics characterization of Kalamiella piersonii gen. nov., sp. nov. from the International Space Station",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "SS Mhatre",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Immune function during space flight",
+      "authors": [
+        "G Sonnenfeld",
+        "WT Shearer"
+      ]
+    },
+    {
+      "title": "Genome-based prediction of bacterial antibiotic resistance",
+      "authors": [
+        "M Su",
+        "SW Satola",
+        "TD Read"
+      ]
+    },
+    {
+      "title": "Bacterial multidrug efflux pumps: mechanisms, physiology and pharmacological exploitations",
+      "authors": [
+        "J Sun",
+        "Z Deng",
+        "A Yan"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": [
+        "PW Taylor"
+      ]
+    },
+    {
+      "title": "Study of minimal inhibitory concentration of antibiotics on bacteria cultivated in vitro in space (Cytos 2 experiment)",
+      "authors": [
+        "R Tixador",
+        "G Richoilley",
+        "G Gasset"
+      ]
+    },
+    {
+      "title": "Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces",
+      "authors": [
+        "C Urbaniak",
+        "AC Sielaff",
+        "KG Frey"
+      ]
+    },
+    {
+      "title": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation",
+      "authors": [
+        "C Urbaniak",
+        "H Lorenzi",
+        "J Thissen"
+      ]
+    },
+    {
+      "title": "International Space Station environmental microbiome - microbial inventories of ISS filter debris",
+      "authors": [
+        "K Venkateswaran",
+        "P Vaishampayan",
+        "J Cisneros",
+        "DL Pierson",
+        "SO Rogers",
+        "J Perry"
+      ]
+    },
+    {
+      "title": "Non-Toxin-Producing Bacillus cereus Strains Belonging to the B. anthracis Clade Isolated from the International Space Station",
+      "authors": [
+        "K Venkateswaran",
+        "NK Singh",
+        "A Checinska Sielaff"
+      ]
+    },
+    {
+      "title": "Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome",
+      "authors": [
+        "AA Voorhies",
+        "C Mark Ott",
+        "S Mehta"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "JW Wilson",
+        "CM Ott",
+        "K Höner zu Bentrup"
+      ]
+    },
+    {
+      "title": "Wissel EF, Talbot BM, Johnson BA, Petit RA, Hertzberg V, Dunlop A, et al. Benchmarking software to predict antibiotic resistance phenotypes in shotgun metagenomes using simulated data. bioRxiv. 2022.01.13.476279. 10.1101/2022.01.13.476279.",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": [
+        "S-H Yoon",
+        "S-M Ha",
+        "J Lim",
+        "S Kwon",
+        "J Chun"
+      ]
+    },
+    {
+      "title": "Identification of acquired antimicrobial resistance genes",
+      "authors": [
+        "E Zankari",
+        "H Hasman",
+        "S Cosentino"
+      ]
+    },
+    {
+      "title": "Phenotypic Changes Exhibited by E. coli Cultured in Space",
+      "authors": [
+        "L Zea",
+        "M Larsen",
+        "F Estante"
+      ]
+    },
+    {
+      "title": "Fecal fusobacterium nucleatum for the diagnosis of colorectal tumor: a systematic review and meta-analysis",
+      "authors": [
+        "X Zhang"
+      ]
+    }
+  ],
+  "original_title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b0dd/9400218/b858f5badaa0/40168_2022_1332_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b0dd/9400218/7b0ec2f7657b/40168_2022_1332_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b0dd/9400218/b6ddeabebcc5/40168_2022_1332_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b0dd/9400218/96f067171c68/40168_2022_1332_Fig4_HTML.jpg"
+  ]
+}

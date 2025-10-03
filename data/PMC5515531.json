@@ -1,0 +1,296 @@
+{
+  "pmcid": "PMC5515531",
+  "title": "Exposure of Mycobacterium marinum to low-shear modeled microgravity: effect on growth, the transcriptome and survival under stress",
+  "abstract": "Waterborne pathogenic mycobacteria can form biofilms, and certain species can cause hard-to-treat human lung infections. Astronaut health could therefore be compromised if the spacecraft environment or water becomes contaminated with pathogenic mycobacteria. This work uses Mycobacterium marinum to determine the physiological changes in a pathogenic mycobacteria grown under low-shear modeled microgravity (LSMMG). M. marinum were grown in high aspect ratio vessels (HARVs) using a rotary cell culture system subjected to LSMMG or the control orientation (normal gravity, NG) and the cultures used to determine bacterial growth, bacterium size, transcriptome changes, and resistance to stress. Two exposure times to LSMMG and NG were examined: bacteria were grown for ~40 h (short), or 4 days followed by re-dilution and growth for ~35 h (long). M. marinum exposed to LSMMG transitioned from exponential phase earlier than the NG culture. They were more sensitive to hydrogen peroxide but showed no change in resistance to gamma radiation or pH 3.5. RNA-Seq detected significantly altered transcript levels for 562 and 328 genes under LSMMG after short and long exposure times, respectively. Results suggest that LSMMG induced a reduction in translation, a downregulation of metabolism, an increase in lipid degradation, and increased chaperone and mycobactin expression. Sigma factor H (sigH) was the only sigma factor transcript induced by LSMMG after both short and long exposure times. In summary, transcriptome studies suggest that LSMMG may simulate a nutrient-deprived environment similar to that found within macrophage during infection. SigH is also implicated in the M. marinum LSMMG transcriptome response.",
+  "introduction": "Introduction\n\nRecent studies have demonstrated that the spacecraft environment can be contaminated with numerous microbial species. Samples to check for microbes are frequently taken from surfaces, air, and water on the International Space Station (ISS) and tests to identify bacterial species include sequencing of 16s rRNA and culturing viable bacteria. A variety of bacterial phyla have been identified including Actinobacteria, Bacteroidetes, Cyanobacteria, Acidobacteria, Firmicutes, Proteobacteria, SR1, Tenericutes, and TM7 and a number of genera have been identified within each phylum. The bacteria most frequently found on the ISS include species of Staphylococcus, Bacillus, and Micrococcus. Experiments to determine the effect of spaceflight or low-shear modeled microgravity (LSMMG) on bacteria have determined that different phenotypes are induced in different types of bacteria. Compared with normal gravity controls alterations to growth, culture density, biofilm formation, aggregation, virulence, and changes in resistance to stress from acid, oxidative stress, heat shock, or antibiotics have been identified. It is not possible to generalize or predict how a bacterial species will react to microgravity or LSMMG. An example is resistance to oxidative stress: exposure to LSMMG increased oxidative stress resistance of Pseudomonas aeruginosa but decreased oxidative stress resistance of Staphylococcus aureus. Changes in the bacterial transcriptome are also induced by microgravity and LSMMG, and changes to the bacterial phenotype are likely due to alterations in the bacterial transcriptome. The diverse phenotypes induced by spaceflight or LSMMG highlights the need to understand more about how different species of bacteria are altered by microgravity and the importance of identifying key molecules that promote survival under the stress of microgravity.\n\nMycobacterium marinum is a member of a family of closely related mycobacteria, most of which are pathogenic. They include Mycobacterium tuberculosis, Mycobacterium avium, and Mycobacterium ulcerans. Although M. tuberculosis, the cause of human tuberculosis, live and replicate only in a host in nature, M. marinum and M. avium grow in macrophage and aquatic environments. M. marinum grows at 28–35 °C and infects poikilothermic hosts such as fish and frogs, but can infect humans resulting in granulomatous skin lesions, which pathologically are identical to lesions produced by dermal M. tuberculosis. The pathogenic M. avium complex, which includes the subspecies avium, paratuberculosis, and intracellulare, has been linked with hard-to-treat non-tuberculosis human pulmonary infections in non-immunocompromised as well as immunocompromised individuals.\n\nM. marinum and M. avium form biofilms and can grow in biofilms in water distribution systems, taps, and showerheads. Thirty percent of biofilms tested from showerheads across the USA contained M. avium even though they were linked to municipal water supplies treated with chlorine. M. avium grown in a biofilm is more resistant to chlorine, even when the biofilm is disrupted. Pathogenic waterborne mycobacteria could pose a potential threat during space travel not only to astronaut health, but also to the spacecraft environment and potable water. In fact, M. avium was identified in water samples taken from the Russian Mir space station.\n\nPathogenic bacteria that have the potential to have increased antimicrobial resistance and virulence are a concern inside spacecraft because astronauts already have a compromised immune system, especially when in space for long periods of time. Uncovering the signaling pathways that result in the altered physiology of bacteria has the potential to reveal new targets for drug development or disinfection that will be essential for long space flights.\n\nThere are no published studies on the effect of microgravity or LSMMG on waterborne mycobacteria. Hfq has been identified as a factor regulating microgravity gene expression in P. aeruginosa, S. aureus, and Salmonella enteric serovar Typhimurium (S. typhimurium), but mycobacteria do not encode Hfq. M. marinum is closely related genetically to M. tuberculosis and M. avium and has similar mechanisms of infection and survival inside host macrophage. Although all of these mycobacterium species can grow in specialized medium in the laboratory, growth of M. marinum even at the lower temperature of 30–32 °C is faster than M. tuberculosis and M. avium. M. marinum is also a lower risk (bisoafety level 2) to researchers. Hence M. marinum is a good model for pathogenic mycobacteria.\n\nThe aim of this study was to identify factors involved in the adaptation of M. marinum to the LSMMG stressful environment and determine how LSMMG alters mycobacterium physiology. Two strains of M. marinum (1218R and LHM4) were used for this study. Strain 1218R was originally isolated from fish and LHM4 was generated from 1218R by integrating a plasmid into the genome that encodes for kanamycin resistance and the red fluorescent protein. Previous work studying the effect of LSMMG on bacteria with doubling times of <1 h exposed the bacteria to LSMMG for 10, 20, 24 h or 10 generations. M. marinum has a doubling time of 6–7 h at 30 °C and hence two exposure times to LSMMG or NG (short ~40 h and long 4 days and ~35 h) were selected to allow the bacteria to undergo multiple replication cycles during the experiments. The exposure protocol was designed so that short and long LSMMG- or NG-exposed cultures were in exponential phase and hence alterations to the transcriptome or resistance to treatment with hydrogen peroxide (H2O2), acid or gamma radiation were due to different exposure times to LSMMG and not due to different phases of growth.\n\nIn summary, this work characterizes the growth, stress survival, and transcriptome of M. marinum grown under LSMMG and identifies nutrient deprivation as a signal involved in changes to gene expression and the sigma factor SigH as a factor modulating the LSMMG transcriptome in a waterborne mycobacterium.",
+  "methods": "Materials and methods\n\nBacterial strains and culture\n\nM. marinum strain 1218R, a strain isolated from infected fish, and a derivative of this strain, LHM4, were used for this study. LHM4 carries an integrated plasmid pDEAM2, which encodes red fluorescent protein and confers kanamycin resistance. Bacteria were grown in the dark at 30 °C in tubes in a rotating incubator (120 r.p.m.) or in HARVs attached to a rotating cell culture system (RCCS, Synthecon, Houston, TX, USA) in Middlebrook 7H9 broth (Difco, Detroit, MI, USA) supplemented with ADS (5% BSA Fraction V, 2% Dextrose, 0.81% NaCl) to 10%, 0.5% glycerol, 100 μg cycloheximide/ml, and 0.2% Tween 80. Cultures were also grown on solid Middlebrook 7H10 agar (Difco) supplemented with 10% ADS, 0.5% glycerol, and 100 μg cycloheximide/ml. LHM4 cultures also contained 20 μg kanamycin/ml. To initiate cultures, solid medium was inoculated from a frozen stock and incubated for ~7 days to obtain colonies. Colonies were used to inoculate tube cultures (~3 ml). The tube cultures were grown for 5–7 days to an OD600 ~1. This tube culture was then diluted to OD600 0.0005 or 0.002 before growth in 10 or 50 ml HARVs, respectively. The lower OD600 of the culture at the start of growth in the 10 ml HARVs prevented the cultures from being at saturation density for the majority of the 4-day exposure time. For the short exposure time, the cultures were grown in 50 ml HARVs. For the long exposure, the cultures were grown in 10 ml HARVs for 4 days and then re-diluted to OD600 0.002 in 50 ml HARVs for another ~35 h. For NG, HARVs were rotated (25 r.p.m.) on an axis parallel to the direction of gravitational force, while they were rotated (25 r.p.m.) on an axis perpendicular to the direction of the gravitational force for LSMMG.\n\nGrowth studies\n\nFor the continuous growth studies, one large volume of OD600 0.0005 culture was prepared from an initiating tube culture and split between two 10 ml HARVs: one was subjected to NG and the other to LSMMG. After 4 days the cultures were removed and the OD600 was determined. The statistical difference between the LSMMG and NG cultures was tested by a T-test performed using SAS 9.4 (SAS Gary, NC, USA). To examine culture density during exponential growth, one large volume of OD600 0.002 culture was prepared from an initiating tube culture and split between two 50 ml HARVs: one was subjected to NG and the other to LSMMG. Where specified, 3 μg catalase/ml (0.06 U/ml; ThermoFisher Scientific, Waltham, MA, USA) was included. Bacteria were grown for ~150 h but the HARVs were stopped to remove samples (1–2 ml). Liquid medium was added to the HARV to replace the removed sample volume (2–4% of the volume) to maintain a low-shear environment. In order to obtain accurate OD600 and CFU measurements, a disaggregation procedure was used: SDS (final concentration 0.01%) was added; the culture was passed through a 27.5 gauge needle and either vortexed before measurement of the OD600 or preparation of dilutions, or the bacteria were allowed to settle for 5 min before growth on solid medium. Use of the syringe needle, vortexing, and then allowing the culture to settle before plating on solid medium is standard procedure for mycobacterium. Colonies from each sample were grown on at least two plates of solid medium for 7–10 days. Colonies were counted for each time point and the CFU/ml calculated. Preliminary experiments confirmed by microscopy that disaggregation of cultures was achieved using the syringe needle, and initial experiments determined that the addition of the SDS to the NG and LSMMG cultures only during the disaggregation and dilution stage did not alter colony forming ability (data not shown).\n\nTo determine statistical differences between LSMMG and NG cultures during the 37–70 h time period of growth, regression analysis was performed on the OD600 data using SAS 9.4 (SAS).\n\nSize of bacterium\n\nA portion of the LHM4 culture grown for 4 days in a 10 ml HARV was passed through a 27.5 gauge needle and fixed by the addition of 30 μl 4% paraformaldehyde to 10 μl of culture. Samples were placed at 4 °C for at least 24 h before the measurement of the diameter and length of 50 bacteria using microscopy. The Instat3 program and the Unpaired T-test or the Mann–Whitney test was used to compare the lengths and diameters of the bacterium.\n\nRNA preparation\n\nRNA extraction from M. marinum strain 1218R was performed according to Rustad et al. RNA integrity (Supplementary Table 1) was assessed on an Agilent 2100 Bioanalyzer (Agilent, Santa Clara, CA, USA) and quantitated using the Qubit RNA BR assay (Invitrogen, ThermoFisher, Waltham, MA, USA).\n\nRNA-Seq analyses\n\nRNA samples were subjected to DNase treatment, purification with the RNeasy MinElute Cleanup kit (Qiagen, Valencia, CA, USA) and removal of the rRNA and preparation of the RNA-Seq libraries using the ScriptSeq Complete kit for bacteria (Epicentre Biotechnologies, Madison, WI, USA). The DNA libraries (4 nmol/l) were pooled, denatured with 0.2 mol/l sodium hydroxide, and diluted to 12 pmol/l. A 76-cycle paired-end read sequencing run was performed on an Illumina Miseq desktop sequencer (Illumina, Inc., San Diego, USA). The number of sequence reads is shown in Supplementary Table 1.\n\nSeventy-five base-paired-end RNA-Seq reads were aligned to the M. marinum strain M genome (Genbank accession number CP000854) using the Spliced Transcripts Alignment to a Reference (STAR) aligner. Reads were visualized using the Integrative Genomics Viewer (IGV, Broad Institute, http://www.broadinstitute.org/igv/home). Reads were aligned to the M. marinum strain M transcriptome using RSEM version 1.2.9 for transcript quantification. The fragments per kilobase of transcript per million mapped reads (FPKM) was calculated for each gene and sample gene level differential expression analysis was performed using EBseq version 1.1.5 within RSEM. For the short or long exposure times, the LSMMG samples were compared with NG samples. The LSMMG samples from the two exposure times (short and long) were also compared. Changes in expression were significant if P<0.05. The functions of genes were assigned according to the Marinolist (http://mycobrowser.epfl.ch/marinolist.html). Pathway assignment used the Marinolist advanced search and the literature, and M. marinum orthologs of M. tuberculosis genes were identified using http://tuberculist.epfl.ch. Transcript levels for the genes assigned to pathways were analyzed and heat maps generated using GeneSifter (http://www.geospiza.com/Products/AnalysisEdition.shtml). RNA-Seq data has been deposited in the GeneLab database.\n\nReverse-transcriptase quantitative PCR\n\nRNA samples were treated with DNase and converted to cDNA using Moloney Murine Leukemia Virus reverse transcriptase. qPCR reactions in duplicate were performed with primers (Supplementary Table 8) and Power SYBR Green PCR Master Mix (Applied Biosystems, Foster City, CA, USA) using a 7500 Fast Real-Time PCR system (Applied Biosystems) according to the manufacturer’s recommendations. The cDNA level for transcripts was normalized to the cDNA level for 16s rRNA for each sample. This ratio was averaged for the three independent samples and the fold change in expression was calculated by dividing the LSMMG average by the NG average.\n\nSurvival studies\n\nLHM4 were removed from the HARV and the OD600 measured in a sample after disaggregation. Bacteria were in exponential phase (OD600 0.09–0.2). For radiation and hydrogen peroxide (H2O2) studies, bacteria were centrifuged and washed in phosphate-buffered saline containing 0.2% Tween 80 (Tw-PBS), before resuspension at OD600 ~0.2 in Tw-PBS. Two samples (200 μl in a sealed tube) were prepared for each time point or dose. One sample was treated (1–4 h) with 5 mmol/l H2O2 at 30 °C or with gamma radiation (100–400 Gy) at room temperature. The second sample was not treated and was used as the control to determine the CFU/ml at zero treatment at the time point. A similar method was used to treat the bacteria with acid. The bacteria were centrifuged and resuspended at OD600 ~0.2 in growth medium (control) or growth medium at pH 3.5. A small amount of one mole per liter citric acid was added to the medium to reach pH 3.5. Once the bacteria were resuspended, the pH was checked using pH paper. The control and acid-treated samples were incubated at 30 °C for 1–4 h. After all treatment regimens, bacteria were disaggregated and diluted as described above and grown on three plates containing solid medium. Bacteria were incubated at 30 °C for 7–10 days and the CFU/ml calculated for each control and treated sample. Survival was calculated by:\n\nThe survival data were compared by calculating the area under the curve for each data set using the Trapezoidal Rule, and the Student’s T-test was used to compare the values. These statistical analyses were performed using SAS 9.4 (SAS).\n\nSupplementary Information accompanies the paper on the npj Microgravity (http://www.nature.com/npmgrav)\n\nThe authors declare no conflict of interest.",
+  "results": "Results\n\nThe effect of LSMMG exposure time had to be assessed with bacteria in the same phase of growth, as we found stress resistance altered as the M. marinum progressed from early to late exponential phase (data not shown) and it would be expected that the transcriptome of replicating bacteria is very different from bacteria in stationary phase. For the short exposure, M. marinum were diluted to an optical density at 600 nm (OD600) of 0.002 at the initiation of the high aspect ratio vessel (HARV) culture to make sure that the bacteria would be in exponential phase (OD600~0.1–0.2) after ~40 h. This exposure time allowed ~6 generations. For the longer exposure time, M. marinum were subjected to 4 days of growth under LSMMG or NG, the bacteria removed from the HARV, re-diluted in fresh medium and the LSMMG or NG exposure continued in new HARVs for a further ~35 h (see Materials and Methods for full details).\n\nLSMMG did not alter aggregation of M. marinum\n\nPrevious published studies observed increased aggregation of bacteria exposed to microgravity or LSMMG. Mycobacterium under normal laboratory conditions grow as aggregates and standard culture procedure uses Tween 80 in the medium to minimize clumping. Even in the presence of 0.2% Tween 80, M. marinum still aggregate. Cultures exposed to NG or LSMMG for various times were examined by microscopy to determine whether exposure to LSMMG altered aggregation. Similar size aggregates were detected in both LSMMG and NG cultures (Supplementary Figure 1A), so growth under LSMMG and standard culture medium did not increase clumping of M. marinum. To determine whether the Tween 80 in the culture medium prevented the detection of structure alterations under LSMMG, 1218R and LHM4 were grown initially in a tube with 0.2% Tween 80 until OD600 ~1 in the rotating incubator as described in the Materials and Methods section. The cultures were then diluted to OD600 0.002 in growth medium without Tween 80. One dilution for each strain was used to prepare two 50 ml HARVs and a tube culture. The cultures in the tube and HARVs were grown for 67 h (LHM4) or 69 h (1218R). The tube was incubated in the rotating incubator at 120 r.p.m. and the HARVs were grown under NG or LSMMG. The culture in the tube grew as small clumps (data not shown) and clumps were also visible in the HARV cultures. When the culture was removed from the HARVs it was not possible to determine the optical density of the culture as bacteria had adhered to the base of the HARV grown under NG, preventing an accurate measurement. Samples of each culture were examined by microscopy (Supplementary Figure 1B and C) and cording of the mycobacterium was seen in all cultures. This cording structure is known to form in broth as well as biofilms. Under the conditions examined, there was no obvious difference between the NG and LSMMG cultures. Further studies are required to determine whether there are subtle structure differences between the cords or whether cord formation is accelerated under LSMMG. As growth in the absence of Tween 80 prevents accurate measurements of culture density and total recovery of the culture from the HARVs, all further studies were performed in the presence of 0.2% Tween 80.\n\nM. marinum grown under LSMMG transition from exponential phase earlier than NG-exposed M. marinum\n\nThirteen independent cultures of LHM4 and three independent cultures of 1218R were grown continuously for 4 days in 10 ml HARVs under LSMMG or NG and significantly different OD600 were obtained for LSMMG compared with NG cultures (Figure 1a). The OD600 of the LSMMG culture was reduced by at least 50% compared with the NG culture. To determine in more detail how growth was altered by LSMMG, growth studies of LHM4 (Figure 1b) and 1218R (Figure 1c) were performed over a period of 150 h where the OD600 was monitored by removal of a sample of the culture at the different time points. Experiments were performed in triplicate and all data points from these experiments were pooled and plotted to examine the effect of LSMMG on growth (Figure 1b and c). The LSMMG cultures of LHM4 and 1218R had slightly lower OD600 compared with the NG culture at ~37 h after culture initiation and this difference increased with time (Figure 1e and f). This was very consistent and detected in all experiments with both M. marinum strains. A similar result was found when LHM4 colony forming units per ml (CFU/ ml) was plotted against time (Supplementary Figure 2). As the OD600 measurements for the NG cultures began to plateau at around 90 h, indicating an exit from logarithmic growth, the data between 37 and 70 h were considered (Figure 1e and f). Regression analyses determined that during this time period that the data were significantly different (P<0.0001) for the LSMMG and NG cultures of LHM4 and 1218R. To examine the extent of change on growth during this transition from exponential phase, the doubling times during this time period were calculated from Figure 1e and f: doubling times were 10 h (LHM4) and 11 h (1218R) for NG cultures, and 15.5 h (LHM4) and 16 h (1218R) for LSMMG cultures. The LSMMG culture did eventually reach a similar culture density to the NG culture at later time points (Figure 1b).\n\nAs OD600 can be influenced by size of the bacteria, the diameter and length of 50 bacteria in an LHM4 culture grown for 4 days under LSMMG (OD600=1.3) or NG (OD600=2.3) were determined. No statistical significant difference was found for the diameter (NG=0.72±0.05 μm, LSMMG=0.73±0.07 μm) or the length (NG=2.7±0.45 μm, LSMMG=2.7±0.5 μm) between the two cultures.\n\nPublished studies have determined that LSMMG induces oxidative stress genes in bacteria; suggesting LSMMG disturbs the normal redox environment. Catalase breaks down H2O2 and is present in standard M. tuberculosis medium (3 μg/ml). Growth experiments for 1218R were therefore performed with medium containing catalase (3 μg/ml) to remove extracellular H2O2. No change in growth was detected when the medium contained catalase, which suggests extracellular H2O2 did not hinder growth under LSMMG (Figure 1d).\n\nM. marinum transcriptome response to LSMMG\n\nRNA samples isolated from triplicate independent cultures of 1218R grown under LSMMG or NG cultures for the short or long exposure times were used for RNA-Seq analyses, and 6–10 million reads were sequenced for each biological sample (Supplementary Table 1). RNA-Seq using 5–10 million non-rRNA reads has previously been found to provide sufficient depth of sequencing to detect the majority of alterations in bacterial gene expression. Following transcript quantification a comparison of LSMMG with NG after short or long exposure times (Supplementary Excel Worksheets 1 and 2) identified 562 and 328 genes, respectively, with significantly altered transcript levels. From the 10 categories of mycobacterial genes (http://mycobrowser.epfl.ch/marinolist.html), the intermediary metabolism and respiration category had the greatest number of genes with significant transcript changes (Supplementary Table 2).\n\nTo determine the genes with the greatest physiological relevance to growth under LSMMG the real fold change (RFC) was calculated (Supplementary Excel Worksheets). Reverse-transcriptase quantitative PCR (RT-qPCR) was also performed for 9 different genes and the majority of the LSMMG/NG fold changes in expression determined by RNA-Seq and RT-qPCR were similar (Supplementary Table 3). The genes with the greatest RNA-Seq RFC (top 10%) after short and long exposure times are shown in Supplementary Tables 4 and 5.\n\nGenes that changed expression ⩾1.5-fold (RFC⩽0.67 or ⩾1.5) by RNA-Seq were identified and the log10 RFC plotted for the genes according to category (Figure 2). The category with the greatest number of genes for LSMMG versus NG at each exposure time (Figure 2a and b) was intermediary metabolism, and there was an even distribution of genes with increased and decreased expression. The categories of genes relating to the cell wall and the conserved hypotheticals had the next highest number of genes that significantly changed. Even though these categories also had an even distribution of genes with increased and decreased expression (Figure 2a and b), some genes relating to these two categories had the highest RFC, especially after a short exposure to LSMMG (Supplementary Tables 4 and 5). Unfortunately the function of the conserved hypothetical genes is unknown. The majority of genes involved in the information pathway and lipid metabolism categories decreased expression, whereas the genes in the PE/PPE and virulence categories increased expression (Figure 2a and b). There were also genes in the regulatory protein category that were significantly changed by LSMMG, but genes were again evenly distributed for increased and decreased expression. When the data from the LSMMG samples for short versus long exposure times were statistically compared, it was evident that gene expression continued to change with greater exposure to LSMMG (Figure 2c), and the categories for cell wall, intermediary metabolism, PE/PPE, and virulence increased expression.\n\nTo identify genes involved in adaptation to LSMMG, genes were considered that significantly changed ⩾1.5-fold at both the short and long exposure time points (Table 1). The changes for the majority of these 97 genes were very similar at the two time points. Transcript changes include a ~2-fold decrease for ribosomal proteins and a decrease for most of the genes in categories related to lipid metabolism and intermediary metabolism (Table 1). The greatest changes were in genes encoding chaperone proteins.\n\nExpression of cell metabolism genes\n\nGroups of genes linked with specific metabolic pathways were examined using hierarchical clustering in GeneSifter to determine whether gene expression changes were linked to growth under LSMMG. Hierarchical clustering of all the LSMMG samples suggests changes in gene expression were linked to LSMMG. Genes involved in glycolysis (12 genes), electron transport chain (ETC, 87 genes), pentose phosphate pathway (7 genes), gluconeogenesis (15 genes), methylcitrate cycle (10 genes), glyoxylate cycle (14 genes), and citric acid cycle (TCA, 19 genes) were examined. The majority of these pathways had few significant changes or changes not related to LSMMG (data not shown). An example is ETC, where 22 genes had significant alterations but the changes were not linked to growth under LSMMG (Supplementary Figure 3A). However, 17/19 TCA genes had altered expression linked to LSMMG (Supplementary Figure 3B). Transcript levels for aconitase decreased after short exposure to LSMMG. Succinate dehydrogenase is also a TCA enzyme, but also forms complex II of the ETC. There are two forms of succinate dehydrogenase (Sdh1 and Sdh2) and transcript levels of 3 (sdhB-D) of the four genes encoding Sdh2 decreased at the short exposure time point, while transcripts from sdhB and sdhD decreased after long exposure. There was no change in expression of the genes encoding Sdh1. Proline oxidation can also donate electrons to ETC. Transcripts from MMAR_4252 (putA, proline dehydrogenase) and MMAR_4253 (pyrroline-5-carboxylate dehydrogenase) were increased 2–4-fold by LSMMG after the short exposure time (Supplementary Worksheets 1 and 2). After the long exposure time, only MMAR_4252 was increased 2.6-fold (Table 1). Isocitrate lyase (Icl) is an enzyme that connects the TCA and glyoxylate cycle and transcript levels from icl (MMAR_0792) decreased by ~10-fold in LSMMG bacteria after the long exposure time (Supplementary Table 5).\n\nTranscription of genes involved in lipid degradation and catabolism of fatty acids were altered significantly in LSMMG bacteria. We identified 104 genes in M. marinum involved in lipid degradation and 53 had ⩾1.5-fold significant change in transcript levels after growth under LSMMG (Figure 3a). Of the 53 genes, 16 had decreased expression and 37 had increased expression, the majority of which encode enzymes involved in fatty acid β oxidation. Fatty acids are also used for polyketide lipid synthesis of phenolic glycolipids and phthiocerol dimycocerosates, mycolic acid (MA) synthesis, production of cell membrane phospholipids, as well as production of carbon stores in the form of triacylglycerol. Although there were no alterations in expression of genes encoding triacylglycerol synthase (MMAR_2634, MMAR_2598, MMAR_1519 and MMAR_1157), genes involved in polyketide lipid synthesis (fadD22 and pks15/1) were decreased 1.5- to 2-fold (Supplementary Excel Worksheets 1 and 2) and multiple genes encoding proteins involved in MA synthesis were also decreased (Table 1 and Figure 3b). Two genes (desA3 and desA3_2) encoding membrane-bound desaturases showed increased expression at both time points in LSMMG bacteria (Table 1 and Figure 3b). These desaturases are involved in oleic acid production and potentially the production of cis double bonds in meromycolic acids.\n\nMycobactins chelate iron from the environment and are also known to be important for mycobacterial growth during infection of macrophage. Sixteen genes involved in mycobactin synthesis were identified and six increased expression after LSMMG exposure for 4 days and ~35 h (Figure 3c).\n\nSigH: a possible regulator of the mycobacteria LSMMG response\n\nsigH transcript levels increased 1.5-fold at both time points (Table 1). SigH is known to regulate chaperone encoding genes (hsp and the dnaK, dnaJ, grpE and hspR operon) and hsp transcript levels increased at both time points (Table 1). Transcripts from all the dnaK operon genes increased after ~40 h of LSMMG exposure (Supplementary Table 4 and Excel Worksheet 1), while only transcripts from dnaK and hspR increased after LSMMG exposure for 4 days and ~35 h (Supplementary Table 5 and Excel Worksheet 2). M. tuberculosis SigH directly/indirectly regulated genes have been identified in a study where wild-type and sigH mutant M. tuberculosis were allowed to recover after diamide treatment: RNA analysis identified 44 genes at 0 min and 91 genes at 30 min of recovery as SigH-regulated genes. We identified the M. marinum orthologs of these genes (40 at 0 min and 78 at 30 min) and using GeneSifter determined that >50% of these orthologs altered expression significantly after growth under LSMMG (Figure 4).\n\nChanges in expression of genes related to the enduring hypoxic response and the nutrient starvation response\n\nThe enduring hypoxic response (EHR) and the relA nutrient starvation response are well characterized in M. tuberculosis. We identified 147 M. marinum orthologs from the 230 M. tuberculosis genes involved in EHR, and 105 M. marinum orthologs from the 147 M. tuberculosis genes involved in the nutrient starvation response. These orthologs (58 for EHR and 46 for nutrient starvation response) were also found to significantly alter expression⩾1.5-fold due to LSMMG (Figure 5). The EHR genes that overlap with the LSMMG changes in M. marinum (Figure 5a) include sigH and SigH-regulated genes. For M. tuberculosis, all the genes in Figure 5a increase expression during EHR, whereas 25 increased transcript levels under LSMMG. A major group of overlapping genes between the nutrient starvation response in M. tuberculosis and the LSMMG response in M. marinum are related to translation. The nutrient starvation response includes 23 translation-related genes and 22 decrease expression during the response. There are 21 corresponding M. marinum orthologs, 17 changed expression in M. marinum under LSMMG and 16 decreased expression (Figure 5b and Table 1).\n\nComparison of M. marinum exposed to LSMMG and P. aeruginosa exposed to spaceflight or LSMMG\n\nDuring spaceflight, 167 genes were differentially regulated in P. aeruginosa and Hfq was identified as a transcription regulator of the bacterial response to microgravity and LSMMG. Mycobacteria do not have a gene encoding Hfq, but there is overlap in the lists of genes that are differentially regulated in P. aeruginosa exposed to spaceflight or LSMMG and M. marinum subjected to LSMMG (Supplementary Tables 6 and 7). A hypergeometric distribution test was performed to determine whether the number of genes found to overlap were significant or could have occurred by chance. The number of protein coding sequences in M. marinum is 5,452 (refs) and from the short exposure to LSMMG there were 562 significant changes, of which 38 overlapped with P. aeruginosa exposed to spaceflight (where 167 changes were detected) and 47 overlapped with P. aeruginosa exposed to LSMMG (where 330 changes were detected). From the long exposure of M. marinum to LSMMG, there were 328 significant changes, of which 38 overlapped with P. aeruginosa exposed to spaceflight and 34 overlapped with P. aeruginosa exposed to LSMMG. The number of overlapping genes in each case was found to be significant (short exposure M. marinum and spaceflight P. aeruginosa representation factor 2.2, P<1.513e−6, short exposure M. marinum and LSMMG P. aeruginosa representation factor 1.4, P<0.012, long exposure M. marinum and spaceflight P. aeruginosa representation factor 3.8, P<2.17e−13, long exposure M. marinum and LSMMG P. aeruginosa representation factor 1.7, P<0.001).\n\nWhen comparing the LSMMG M. marinum data with the spaceflight data from P. aeruginosa, the largest overlap in downregulated genes encode ribosomal proteins and other common downregulated genes produce proteins involved in transcription and translation. Genes encoding the metabolic enzymes Icl and Sdh2 are also downregulated in both organisms, suggesting similar downregulation of metabolic pathways. Interestingly there were no genes with decreased transcript levels detected for P. aeruginosa grown under LSMMG, but 330 transcript levels increased by ⩾1.5-fold. From this list a number of transcripts encoding proteins of similar function were increased in P. aeruginosa subjected to LSMMG but decreased in LSMMG-grown M. marinum (Supplementary Table 7). These include transcripts for 13 ribosomal proteins, Sdh2 (sdhB and sdhD), Icl, RNA polymerase alpha subunit (rpoA) and elongation factor Ts (tsf). A common group of genes with increased transcript levels in LSMMG M. marinum and P. aeruginosa were the stress response genes for heat shock and chaperone proteins.\n\nTranscriptome data therefore suggest that M. marinum grown under LSMMG exhibit similar stress responses as LSMMG-grown P. aeruginosa, but have transcriptional, translational, and metabolic alterations similar to spaceflight-exposed P. aeruginosa.\n\nSurvival of LHM4 NG- and LSMMG-exposed cultures to stressful conditions\n\nIonizing radiation and H2O2 produce an oxidizing environment in cells. Compared with NG, LSMMG-exposed bacteria showed no change in resistance to ionizing radiation (Figure 6a), but were more sensitive to H2O2 (Figure 6b) with the sensitivity increasing with longer exposure to LSMMG. LHM4 exposed to NG and LSMMG for 4 days and ~35 h were also tested for sensitivity to pH 3.5 for up to 4 h and no cell death occurred (Figure 6c).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "International space station environmental microbiome—microbial inventories of ISS filter debris",
+      "authors": []
+    },
+    {
+      "title": "Microbial monitoring of crewed habitats in space—current status and future perspectives",
+      "authors": []
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": []
+    },
+    {
+      "title": "Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens",
+      "authors": []
+    },
+    {
+      "title": "Growth of 48 built environment bacterial isolates on board the International Space Station (ISS)",
+      "authors": []
+    },
+    {
+      "title": "Comparative growth, cross stress resistance, transcriptomics of Streptococcus pyogenes cultured under low shear modeled microgravity and normal gravity",
+      "authors": []
+    },
+    {
+      "title": "Influence of low-shear modeled microgravity on heat resistance, membrane fatty acid composition, and heat stress-related gene expression in Escherichia coli O157:H7 ATCC 35150, 43889 and 43895",
+      "authors": []
+    },
+    {
+      "title": "Space microbiology",
+      "authors": []
+    },
+    {
+      "title": "Simulated microgravity affects ciprofloxacin susceptibility and expression of acrAB-tolC genes in E.coli ATCC25922",
+      "authors": []
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": []
+    },
+    {
+      "title": "Response of Pseudomonas aeruginosa PAO1 to low shear modeled microgravity involves AlgU regulation",
+      "authors": []
+    },
+    {
+      "title": "Induction of attachment-independent biofilm formation and repression of hfq expression by low-fluid shear culture of Staphylococcus aureus",
+      "authors": []
+    },
+    {
+      "title": "Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen",
+      "authors": []
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": []
+    },
+    {
+      "title": "Insights from the complete genome sequence of Mycobacterium marinum on the evolution of Mycobacterium tuberculosis",
+      "authors": []
+    },
+    {
+      "title": "The secret lives of the pathogenic mycobacteria",
+      "authors": []
+    },
+    {
+      "title": "Respiratory infections associated with nontuberculosis mycobacteria in non-HIV patients",
+      "authors": []
+    },
+    {
+      "title": "The international epidemiology of disseminated Mycobacterium avium complex infection in AIDS. International MAC study group",
+      "authors": []
+    },
+    {
+      "title": "Mycobacterium marinum biofilm formation reveals cording morphology",
+      "authors": []
+    },
+    {
+      "title": "Factors influencing numbers of Mycobacterium avium, Mycobacterium intracellulare, and other mycobacteria in drinking water distribution systems",
+      "authors": []
+    },
+    {
+      "title": "Opportunistic pathogens enriched in showerhead biofilms",
+      "authors": []
+    },
+    {
+      "title": "Effect of growth in biofilms on chlorine susceptibility of Mycobacterium avium and Mycobacterium intracellulare",
+      "authors": []
+    },
+    {
+      "title": "Bacterial population in Russian space station ‘Mir’",
+      "authors": []
+    },
+    {
+      "title": "Infection prevention and control during prolonged human space travel",
+      "authors": []
+    },
+    {
+      "title": "Dysbiosis and immune dysregulation in outer space",
+      "authors": []
+    },
+    {
+      "title": "The role of Hfq in bacterial pathogens",
+      "authors": []
+    },
+    {
+      "title": "Laboratory maintenance of Mycobacterium marinum",
+      "authors": []
+    },
+    {
+      "title": "Genomic homogeneity between Mycobacterium avium subsp. avium and Mycobacterium avium subsp. paratuberculosis belies their divergent growth rates",
+      "authors": []
+    },
+    {
+      "title": "Low-shear modeled microgravity alters the Salmonella enteric serovar Typhimurium stress response in an RpoS-independent manner",
+      "authors": []
+    },
+    {
+      "title": "Low-shear modeled microgravity enhances Salmonella enteric resistance to hydrogen peroxide through a mechanism involving KatG and KatN",
+      "authors": []
+    },
+    {
+      "title": "Characterization of Escherichia coli MG1655 grown in a low-shear modeled microgravity environment",
+      "authors": []
+    },
+    {
+      "title": "Use of gene dosage effects for a whole-genome screen to identify Mycobacterium marinum macrophage infection loci",
+      "authors": []
+    },
+    {
+      "title": "Cord formation in a clinical isolate of Mycobacterium marinum",
+      "authors": []
+    },
+    {
+      "title": "How deep is deep enough for RNA-Seq profiling of bacterial transcriptomes?",
+      "authors": []
+    },
+    {
+      "title": "Role of the methylcitrate cycle in Mycobacterium tuberculosis metabolism, intracellular growth, and virulence",
+      "authors": []
+    },
+    {
+      "title": "Energetics of respiration and oxidative phosphorylation in mycobacteria",
+      "authors": []
+    },
+    {
+      "title": "Chewing the fat: lipid metabolism and homeostasis during M. tuberculosis infection",
+      "authors": []
+    },
+    {
+      "title": "Mycolic acids: structures, biosynthesis and beyond",
+      "authors": []
+    },
+    {
+      "title": "The salicylate-derived mycobactin siderphores of Mycobacterium tuberculosis are essential for growth in macrophages",
+      "authors": []
+    },
+    {
+      "title": "The alternative sigma factor SigH regulates major components of oxidative and heat stress responses in Mycobacterium tuberculosis",
+      "authors": []
+    },
+    {
+      "title": "Functional genomics reveals extended roles of the Mycobacterium stress response factor σH",
+      "authors": []
+    },
+    {
+      "title": "The enduring hypoxic response of Mycobacterium tuberculosis",
+      "authors": []
+    },
+    {
+      "title": "The role of RelMtb-mediated adaptation to stationary phase in long-term persistence of Mycobacterium tuberculosis in mice",
+      "authors": []
+    },
+    {
+      "title": "KEGG Genome information available at http://www.genome.jp/kegg-bin/show_organism?org=mmi. Accessed on 20 April, 2016.",
+      "authors": []
+    },
+    {
+      "title": "Bacterial growth in space flight: logistic growth curve parameters for Escherichia coli and Bacillus subtilis",
+      "authors": []
+    },
+    {
+      "title": "Regulation of ribosome biosynthesis in Escherichia coli and Saccharomyces cerevisiae: diversity and common principles",
+      "authors": []
+    },
+    {
+      "title": "Evaluation of a nutrient starvation model of Mycobacterium tuberculosis persistence by gene and protein expression profiling",
+      "authors": []
+    },
+    {
+      "title": "Global adaptation to a lipid environment triggers the dormancy-related phenotype of Mycobacterium tuberculosis",
+      "authors": []
+    },
+    {
+      "title": "Essentiality of succinate dehydrogenase in Mycobacterium smegmatis and its role in the generation of membrane potential under hypoxia",
+      "authors": []
+    },
+    {
+      "title": "Differential gene expression in response to exposure to antimycobacterial agents and other stress conditions among seven Mycobacterium tuberculosis whiB-like genes",
+      "authors": []
+    },
+    {
+      "title": "The physiology and genetics of oxidative stress in mycobacteria",
+      "authors": []
+    },
+    {
+      "title": "Transcriptional adaptation of Mycobacterium tuberculosis within macrophages: insights into the phagosomal environment",
+      "authors": []
+    },
+    {
+      "title": "Comparative sigma factor-mRNA levels in Mycobacterium marinum under stress conditions and during host infection",
+      "authors": []
+    },
+    {
+      "title": "The sigma factors of Mycobacterium tuberculosis: regulation of the regulators",
+      "authors": []
+    },
+    {
+      "title": "RshA, an anti-sigma factor that regulates the activity of the mycobacterial stress response sigma factor SigH",
+      "authors": []
+    },
+    {
+      "title": "Regulation of the SigH stress response regulon by an essential protein kinase in Mycobacterium tuberculosis",
+      "authors": []
+    },
+    {
+      "title": "The Mycobacterium tuberculosis ECF sigma factor σE: role in global gene expression and survival in macrophages",
+      "authors": []
+    },
+    {
+      "title": "Site-specific integration of mycobacteriophage L5: Integration-proficient vectors for Mycobacterium smegmatis, Mycobacterium tuberculosis, and bacilli Calmette-Guérin",
+      "authors": []
+    },
+    {
+      "title": "Expression of common fluorescent reporters may modulate virulence for Mycobacterium marinum: dramatic attenuation results from Gfp over-expression",
+      "authors": []
+    },
+    {
+      "title": "Conservation of the low-shear modeled microgravity response in enterobacteriaceae and analysis of the trp genes in this response",
+      "authors": []
+    },
+    {
+      "title": "Radiation and hydrogen peroxide induced free radical damage to DNA",
+      "authors": []
+    },
+    {
+      "title": "Harrison, L. in DNA Repair and Cancer (eds Madhusudan S. & Wilson D. M. III) Ch. 4 (Science Publishers/CRC Press, 2013) 92–136.",
+      "authors": []
+    },
+    {
+      "title": "Teaching the basics of redox biology to medical and graduate students: oxidants, antioxidants and disease mechanisms",
+      "authors": []
+    },
+    {
+      "title": "Hydroperoxide-induced DNA damage and mutations",
+      "authors": []
+    },
+    {
+      "title": "Mycobacterium tuberculosis exploits asparagine to assimilate nitrogen and resist acid stress during infection",
+      "authors": []
+    },
+    {
+      "title": "The Mycobacterium tuberculosis stress response factor SigH is required for bacterial burden as well as immunopathology in primate lungs",
+      "authors": []
+    },
+    {
+      "title": "Key role for the alternative sigma factor, SigH, in the intracellular life of Mycobacterium avium subsp. paratuberculosis during macrophage infection",
+      "authors": []
+    },
+    {
+      "title": "Isolation of mycobacterial RNA",
+      "authors": []
+    }
+  ],
+  "original_title": "Exposure of Mycobacterium marinum to low-shear modeled microgravity: Effect on growth, the transcriptome and survival under stress.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e09/5515531/9cc26d6cf4b4/npjmgrav201638-f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e09/5515531/fbfd4df6ff63/npjmgrav201638-f2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e09/5515531/63591f0ffe51/npjmgrav201638-f3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e09/5515531/355ff2e57f24/npjmgrav201638-f4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e09/5515531/e29e2991c300/npjmgrav201638-f5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e09/5515531/c3416ce7ea34/npjmgrav201638-f6.jpg"
+  ]
+}

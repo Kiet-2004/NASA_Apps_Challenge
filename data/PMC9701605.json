@@ -1,0 +1,1709 @@
+{
+  "pmcid": "PMC9701605",
+  "title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight",
+  "abstract": "Summary\n\nSingle-cell RNA sequencing (scRNA-seq) and spatially resolved transcriptomics (SRT) have experienced rapid development in recent years. The findings of spaceflight-based scRNA-seq and SRT investigations are likely to improve our understanding of life in space and our comprehension of gene expression in various cell systems and tissue dynamics. However, compared to their Earth-based counterparts, gene expression experiments conducted in spaceflight have not experienced the same pace of development. Out of the hundreds of spaceflight gene expression datasets available, only a few used scRNA-seq and SRT. In this perspective piece, we explore the growing importance of scRNA-seq and SRT in space biology and discuss the challenges and considerations relevant to robust experimental design to enable growth of these methods in the field.\n\nIn this perspective, Overbey et al. summarize the current datasets available that have profiled mammalian spaceflight samples using single-cell RNA sequencing and spatially resolved transcriptomics. They also discuss special considerations needed for tissue preservation and data analysis for these sample types.",
+  "introduction": "Introduction\n\nFor decades, the health risks associated with space exploration have been increasingly documented and characterized. For some of these risks, countermeasures have been sufficiently developed to sustain human health in low-Earth orbit, the orbital distance from Earth that includes the International Space Station (ISS). However, as humankind plans for a permanent presence on the moon and seeks to advance to Mars, the limits to our countermeasures and the research gaps that have insofar remained unaddressed will create health challenges that rival the engineering challenges of long-duration space missions.\n\nTo gain a comprehensive understanding of how spaceflight affects the human body, the molecular responses of the body to spaceflight factors must be robustly profiled. Recent advances in omics technologies have already revolutionized our approach to understanding disease and have created new pathways for tackling health challenges on Earth. However, the spaceflight environment presents a unique set of factors where the genomic impact is largely unknown. Furthermore, the microgravity and radiation environment of space remains difficult to model on Earth. Therefore, given that the opportunities to study the influence of spaceflight on the human genome have historically been, and still are, limited, it is of paramount importance to perform all omics experiments in spaceflight to the highest standards.\n\nThe ISS is currently the only research laboratory available off-world and the source of the majority of spaceflight omics experiments performed to date. Most mammalian omics studies aboard the ISS have used Mus musculus, the standard laboratory rodent, as a model organism. To scale the number of mammalian studies performed in space, NASA launched their rodent research (RR) program in 2014, with the first omics experiment published in the NASA funded GeneLab database in 2015. Since the program began, the RR program has launched over a dozen missions generating a steady stream of new omics data on a variety of murine tissues and cell systems. These missions have proven essential for understanding the molecular response of terrestrial life to the environmental stressors of space by providing gene expression data for a subset of mouse tissues. These studies have helped illuminate changes within biological systems including the mitochondria, musculoskeletal system, circadian rhythm, and microRNA (miRNA) profiles.\n\nThe majority of experiments from rodent tissue obtained via the RR missions have been subject to bulk RNA sequencing (RNA-seq), where the whole tissue is homogenized and RNA is extracted. Bulk transcriptomic assays are currently the most common omics assay performed in space biology, with more than 270 transcriptomic datasets available from spaceflight and spaceflight-analogue experiments in the NASA GeneLab database. Of these studies, microarray-based experiments have been used to obtain approximately half of the gene expression data stored in GeneLab. As the cost of next-generation sequencing (NGS) decreased, RNA-seq started to replace microarrays as the predominant method for spaceflight transcriptomic studies. However, given recent advances in the field of genomics, bulk RNA-seq is being displaced by higher-resolution methods rapidly on Earth. State-of-the-art tools can now resolve gene expression at the single-cell level via single-cell RNA-seq (scRNA-seq) or maintain 2D topography via spatially resolved transcriptomics (SRT). While these two types of approaches are becoming standard practice for gene expression research conducted on Earth, the collection protocols for cells and tissues obtained from experiments in spaceflight have not yet been optimized for the application of these methods.\n\nIn this perspective piece, we present the current status of scRNA-seq and SRT in spaceflight experiments, the optimal tissue preservation protocols that should be implemented to ensure the success of these experiments, and the downstream computational tools that are used to obtain high-resolution gene expression insights.",
+  "methods": "scRNA-seq: Importance to spaceflight and prior ISS study designs\n\nIn less than a decade, the field of scRNA-seq has matured and produced multiple robust protocols for examining the gene expression of individual cells. This has resulted in a paradigm shift in the field of transcriptomics that has enabled the identification of new cell types, uncovered rare cell populations, revealed cellular heterogeneity, charted cell-lineage trajectories during development and disease, and profiled the perturbation of cellular states.\n\nscRNA-seq also has great potential when applied to cell systems and tissues exposed to spaceflight. While gene expression changes have been observed in cell systems and tissues, the exact cell populations driving these expression differences have not yet been characterized. For example, large changes in gene expression have been observed in the murine retina, but the differences attributable to specific retinal subpopulations, such as rod photoreceptors, cone photoreceptors, retinal ganglion cells, bipolar cells, amacrine cells, and horizontal cells, have yet to be pinpointed. Similarly, differences in immune function have been observed during spaceflight in the past, where the application of scRNA-seq would have enabled further dissection of specific gene expression differences in the cell populations of, for example, peripheral blood mononuclear cells (PBMCs), thymus tissue, and bone marrow. Overall, the possibility of identifying exact cell populations that are dysregulated during spaceflight enables the development of more precise therapeutics and countermeasures.\n\nWhile there is a spectrum of approaches for scRNA-seq that have been applied across ground-based experiments, only two platforms (Chromium by 10X Genomics and Rhapsody Single-Cell Analysis System by BD Biosciences) have been applied to samples flown in spaceflight. These were applied to two experiments: the second rodent research reference mission (RRRM-2) and the NASA Twins Study. In both, single-cell suspensions were obtained, cells were physically isolated from one another, and polyadenylated mRNA was captured using oligo(dT)s that were uniquely labeled per cell to differentiate mRNA of different cells in the experiment.\n\nIn the RRRM-2 experiment, 40 mice were flown to the ISS and were part of four distinct groups distinguished by age, duration spent on the ISS, and whether the animal was ISS-terminal or Earth-acclimatized after live animal return (LAR) (Figure 1A). A matching set of 40 mice were also housed on Earth to serve as a ground control. Out of the 80 mice between the ground control and spaceflight groups, 16 animals that were part of the LAR group were selected for single-cell sequencing. Single-cell sequencing of spleen tissue, PBMCs, humerus bone marrow, and femur bone marrow was performed using the 10X Genomics Chromium platform. Data for these experiments are publicly available in GeneLab (Table 1) and analysis of these datasets is underway in NASA’s Analysis Working Groups (https://genelab.nasa.gov/awg/charter).\n\nThe only other published experiment that has used scRNA-seq from a spaceflight study is the NASA Twins Study. In this experiment, a set of identical twins participated in a set of omics assays. One twin served as a ground control and remained on Earth while the other twin spent 340 days aboard the ISS. For scRNA-seq, whole blood was collected via venipuncture into cell processing tubes (CPTs) containing sodium citrate as a preservative (Figure 1B). The CPTs were returned immediately to the lab and centrifuged to collect PBMCs. The BD Biosciences Single-Cell Analysis System was used to collect single-cell expression data (Table 1). One important caveat to this study is that there was no in-flight time point, and blood was collected for scRNA-seq pre-launch and post-landing. The time it takes to return cargo, such as CPTs, to Earth is one of the factors limiting the ease of single-cell experiments. CPTs can be spun-down and frozen before returning to Earth, but this direct freezing process will lyse cells. With cell lysis, it is still possible to generate a sample-wide RNA-seq profile but not at single-cell resolution. To generate single-cell profiles from spaceflight samples, cells will need to be either returned to Earth immediately or cells will need to be preserved using a process that prevents lysis.\n\nSpatially resolved transcriptomics: Leveraging legacy samples and steps for proper experimental design prior to spaceflight\n\nWhile scRNA-seq has greatly improved gene expression experiments, it does have one major limitation: the loss of locational information due to breakdown of tissues into single-cell suspensions. This makes it difficult to identify gene expression changes that may correlate with the topology of the tissue and limits our ability to decipher cell-to-cell interactions and microenvironment-level changes. In order to retain locational information, a variety of SRT methods have been developed in recent years (see Table 2 for a list of recent SRT methods) and applied to a range of sample and tissue types.\n\nDue to various complexities in data collection and analysis, SRT methods are less mature than scRNA-seq methods. Additionally, because of the requirement that tissues remain intact during the SRT workflow, these methods are also more sensitive to the tissue types and structures selected for study. This poses an extra challenge when SRT methods are to be applied to legacy space-flown samples that were collected and stored without planning SRT studies from the start of the missions and their morphology is not fully preserved. For these reasons, we believe improvements can be made in the tissue collection process to better preserve tissue morphology. Specifically, when designing future studies to be performed in spaceflight, where specimens will undergo SRT analysis, experiments should first be optimized on Earth before being translated to experiments performed in space. The overall testing cycle for SRT techniques can be divided into three phases: (1) tissue evaluation, (2) tissue preparation, and (3) 2D RNA analysis.\n\nTissue evaluation will require selection of the proper area of interest of the tissue, which may vary in length, width, and thickness depending on the SRT method of interest. Tissue preparation will require testing to determine the optimal duration of exposure to the fixative agent, which may vary depending on tissue type and method of fixation (e.g., flash frozen [FF], formalin-fixed paraffin-embedded [FFPE] tissue, or a different method). It should be noted that most SRT methods to date have been validated with FF and FFPE tissues (Table 2). The third phase, 2D RNA analysis, will analyze the RNA spatial distribution in the tissue under study by applying one of the SRT methods available at the time of the experiment (Table 2). Due to the scarce availability of tissues flown in spaceflight, it is critical that SRT researchers employ a testing cycle before proceeding to their spaceflight samples.",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "spaceflight",
+    "RNA-sequencing",
+    "transcriptomics",
+    "single-cell",
+    "spatially resolved transcriptomics",
+    "spatial",
+    "Perspective"
+  ],
+  "citations": [
+    {
+      "title": "Multi-omics approaches to disease",
+      "authors": [
+        "Y. Hasin",
+        "M. Seldin",
+        "A. Lusis"
+      ]
+    },
+    {
+      "title": "Genome, transcriptome and proteome: the rise of omics data and their integration in biomedical sciences",
+      "authors": [
+        "C. Manzoni",
+        "D.A. Kia",
+        "J. Vandrovcova",
+        "J. Hardy",
+        "N.W. Wood",
+        "P.A. Lewis",
+        "R. Ferrari"
+      ]
+    },
+    {
+      "title": "The omics revolution continues: the Maturation of high-throughput biological data sources",
+      "authors": [
+        "E. Mathé",
+        "J. Hays",
+        "D. Stover",
+        "J. Chen"
+      ]
+    },
+    {
+      "title": "The crucial role of multiomic approach in cancer research and clinically relevant outcomes",
+      "authors": [
+        "M. Lu",
+        "X. Zhan"
+      ]
+    },
+    {
+      "title": "Application of OMICS technologies in occupational and environmental health research; current status and projections",
+      "authors": [
+        "J. Vlaanderen",
+        "L.E. Moore",
+        "M.T. Smith",
+        "Q. Lan",
+        "L. Zhang",
+        "C.F. Skibola",
+        "N. Rothman",
+        "R. Vermeulen"
+      ]
+    },
+    {
+      "title": "Application of omics technology to combat the COVID-19 pandemic",
+      "authors": [
+        "J. Yang",
+        "Y. Yan",
+        "W. Zhong"
+      ]
+    },
+    {
+      "title": "NASA GeneLab: interfaces for the exploration of space omics data",
+      "authors": [
+        "D.C. Berrios",
+        "J. Galazka",
+        "K. Grigorev",
+        "S. Gebre",
+        "S. Costes"
+      ]
+    },
+    {
+      "title": "Rodent Research-1 (RR1) National Lab Validation Flight: Mouse Liver Transcriptomic, Proteomic, and Epigenomic Data",
+      "authors": [
+        "R. Globus",
+        "S. Cadena",
+        "J. Galazka"
+      ]
+    },
+    {
+      "title": "Rodent Research-1 (RR1) NASA Validation Flight: Mouse Liver Transcriptomic, Proteomic, and Epigenomic Data",
+      "authors": [
+        "R. Globus",
+        "J.M. Galazka",
+        "O. Marcu",
+        "S.G. Gebre",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "H.W. Fogle",
+        "H. Bense",
+        "K. Chakravarty",
+        "R.B. Chen"
+      ]
+    },
+    {
+      "title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological Hub for spaceflight impact",
+      "authors": [
+        "W.A. da Silveira",
+        "H. Fazelinia",
+        "S.B. Rosenthal",
+        "E.C. Laiakis",
+        "M.S. Kim",
+        "C. Meydan",
+        "Y. Kidane",
+        "K.S. Rathi",
+        "S.M. Smith",
+        "B. Stear"
+      ]
+    },
+    {
+      "title": "Mammalian and Invertebrate models as Complementary tools for gaining Mechanistic insight on muscle responses to spaceflight",
+      "authors": [
+        "T. Cahill",
+        "H. Cope",
+        "J.J. Bass",
+        "E.G. Overbey",
+        "R. Gilbert",
+        "W.A. da Silveira",
+        "A.M. Paul",
+        "T. Mishra",
+        "R. Herranz",
+        "S.S. Reinsch"
+      ]
+    },
+    {
+      "title": "Integrated RNA-seq analysis Indicates Asynchrony in Clock genes between tissues under spaceflight",
+      "authors": [
+        "S.-I. Fujita",
+        "L. Rutter",
+        "Q. Ong",
+        "M. Muratani"
+      ]
+    },
+    {
+      "title": "Circulating miRNA spaceflight Signature reveals targets for countermeasure development",
+      "authors": [
+        "S. Malkani",
+        "C.R. Chin",
+        "E. Cekanaviciute",
+        "M. Mortreux",
+        "H. Okinula",
+        "M. Tarbier",
+        "A.S. Schreurs",
+        "Y. Shirazi-Fard",
+        "C.G. Tahimic",
+        "D.N. Rodriguez"
+      ]
+    },
+    {
+      "title": "Single-cell RNA-seq technologies and related computational data analysis",
+      "authors": [
+        "G. Chen",
+        "B. Ning",
+        "T. Shi"
+      ]
+    },
+    {
+      "title": "Spatially resolved transcriptomes-next generation tools for tissue exploration",
+      "authors": [
+        "M. Asp",
+        "J. Bergenstråhle",
+        "J. Lundeberg"
+      ]
+    },
+    {
+      "title": "A human liver cell atlas reveals heterogeneity and epithelial progenitors",
+      "authors": [
+        "N. Aizarani",
+        "A. Saviano",
+        "Sagar",
+        "L. Mailly",
+        "S. Durand",
+        "J.S. Herman",
+        "P. Pessaux",
+        "T.F. Baumert",
+        "D. Grun"
+      ]
+    },
+    {
+      "title": "A revised airway epithelial hierarchy includes CFTR-expressing ionocytes",
+      "authors": [
+        "D.T. Montoro",
+        "A.L. Haber",
+        "M. Biton",
+        "V. Vinarsky",
+        "B. Lin",
+        "S.E. Birket",
+        "F. Yuan",
+        "S. Chen",
+        "H.M. Leung",
+        "J. Villoria"
+      ]
+    },
+    {
+      "title": "Colonic epithelial cell diversity in health and inflammatory bowel disease",
+      "authors": [
+        "K. Parikh",
+        "A. Antanaviciute",
+        "D. Fawkner-Corbett",
+        "M. Jagielowicz",
+        "A. Aulicino",
+        "C. Lagerholm",
+        "S. Davis",
+        "J. Kinchen",
+        "H.H. Chen",
+        "N.K. Alham"
+      ]
+    },
+    {
+      "title": "Single-cell transcriptomics of the mouse kidney reveals potential cellular targets of kidney disease",
+      "authors": [
+        "J. Park",
+        "R. Shrestha",
+        "C. Qiu",
+        "A. Kondo",
+        "S. Huang",
+        "M. Werth",
+        "M. Li",
+        "J. Barasch",
+        "K. Susztak"
+      ]
+    },
+    {
+      "title": "Defining cell types and states with single-cell genomics",
+      "authors": [
+        "C. Trapnell"
+      ]
+    },
+    {
+      "title": "Cell Atlas technologies and insights into tissue architecture",
+      "authors": [
+        "A. Wilbrey-Clark",
+        "K. Roberts",
+        "S.A. Teichmann"
+      ]
+    },
+    {
+      "title": "Spaceflight influences gene expression, photoreceptor integrity, and oxidative stress-related damage in the murine retina",
+      "authors": [
+        "E.G. Overbey",
+        "W.A. da Silveira",
+        "S. Stanbouly",
+        "N.C. Nishiyama",
+        "G.D. Roque-Torres",
+        "M.J. Pecaut",
+        "D.C. Zawieja",
+        "C. Wang",
+        "J.S. Willey",
+        "M.D. Delp"
+      ]
+    },
+    {
+      "title": "How does spaceflight affect the acquired immune system?",
+      "authors": [
+        "T. Akiyama",
+        "K. Horie",
+        "E. Hinoi",
+        "M. Hiraiwa",
+        "A. Kato",
+        "Y. Maekawa",
+        "A. Takahashi",
+        "S. Furukawa"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on innate immune function and antioxidant gene expression",
+      "authors": [
+        "F.P. Baqai",
+        "D.S. Gridley",
+        "J.M. Slater",
+        "X. Luo-Owen",
+        "L.S. Stodieck",
+        "V. Ferguson",
+        "S.K. Chapes",
+        "M.J. Pecaut"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for Deep space exploration missions",
+      "authors": [
+        "B.E. Crucian",
+        "A. Chouker",
+        "R.J. Simpson",
+        "S. Mehta",
+        "G. Marshall",
+        "S.M. Smith",
+        "S.R. Zwart",
+        "M. Heer",
+        "S. Ponomarev",
+        "A. Whitmire"
+      ]
+    },
+    {
+      "title": "Quantitation of mRNA transcripts and proteins using the BD Rhapsody™ single-cell analysis system",
+      "authors": [
+        "E.Y. Shum",
+        "E.M. Walczak",
+        "C. Chang",
+        "H. Christina Fan"
+      ]
+    },
+    {
+      "title": "Massively parallel digital transcriptional profiling of single cells",
+      "authors": [
+        "G.X.Y. Zheng",
+        "J.M. Terry",
+        "P. Belgrader",
+        "P. Ryvkin",
+        "Z.W. Bent",
+        "R. Wilson",
+        "S.B. Ziraldo",
+        "T.D. Wheeler",
+        "G.P. McDermott",
+        "J. Zhu"
+      ]
+    },
+    {
+      "title": "Single Cell Transcriptional Profiling of Spleens from Mice Flown on Rodent Research Reference Mission-2 (RRRM-2)",
+      "authors": [
+        "J.M. Galazka",
+        "C. Juran",
+        "V. Ferguson",
+        "E. Cekanaviciute",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "V. Boyko",
+        "L. Stodieck",
+        "M. Roberts",
+        "S.V. Costes",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "Single Cell Transcriptional Profiling of Peripheral Blood Mononuclear Cells (PBMCs) from Mice Flown on Rodent Research Reference Mission-2 (RRRM-2)",
+      "authors": [
+        "J.M. Galazka"
+      ]
+    },
+    {
+      "title": "Single Cell Transcriptional Profiling of Humerus Bone Marrow from Mice Flown on Rodent Research Reference Mission-2 (RRRM-2)",
+      "authors": [
+        "J.M. Galazka",
+        "C. Juran",
+        "V. Ferguson",
+        "E. Cekanaviciute",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "V. Boyko",
+        "L. Stodieck",
+        "M. Roberts",
+        "S.V. Costes",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "Single Cell Transcriptional Profiling of Femur Bone Marrow from Mice Flown on Rodent Research Reference Mission-2 (RRRM-2)",
+      "authors": [
+        "J.M. Galazka",
+        "C. Juran",
+        "V. Ferguson",
+        "E. Cekanaviciute",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "V. Boyko",
+        "L. Stodieck",
+        "M. Roberts",
+        "S.V. Costes",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "F.E. Garrett-Bakelman",
+        "M. Darshi",
+        "S.J. Green",
+        "R.C. Gur",
+        "L. Lin",
+        "B.R. Macias",
+        "M.J. McKenna",
+        "C. Meydan",
+        "T. Mishra",
+        "J. Nasrini"
+      ]
+    },
+    {
+      "title": "Multi-omic, single-cell, and Biochemical profiles of astronauts guide Pharmacological strategies for returning to gravity",
+      "authors": [
+        "M.L. Gertz",
+        "C.R. Chin",
+        "D. Tomoiaga",
+        "M. MacKay",
+        "C. Chang",
+        "D. Butler",
+        "E. Afshinnekoo",
+        "D. Bezdan",
+        "M.A. Schmidt",
+        "C. Mozsary"
+      ]
+    },
+    {
+      "title": "Uncovering an Organ’s molecular architecture at single-cell resolution by spatially resolved transcriptomics",
+      "authors": [
+        "J. Liao",
+        "X. Lu",
+        "X. Shao",
+        "L. Zhu",
+        "X. Fan"
+      ]
+    },
+    {
+      "title": "Spatially resolved transcriptomics and its applications in cancer",
+      "authors": [
+        "S. Maniatis",
+        "J. Petrescu",
+        "H. Phatnani"
+      ]
+    },
+    {
+      "title": "Automation of Spatial Transcriptomics library preparation to enable rapid and robust insights into spatial organization of tissues",
+      "authors": [
+        "E. Berglund",
+        "S. Saarenpaa",
+        "A. Jemt",
+        "J. Gruselius",
+        "L. Larsson",
+        "L. Bergenstrahle",
+        "J. Lundeberg",
+        "S. Giacomello"
+      ]
+    },
+    {
+      "title": "Shotgun transcriptome, spatial omics, and isothermal profiling of SARS-CoV-2 infection reveals unique host responses, viral diversification, and drug interactions",
+      "authors": [
+        "D. Butler",
+        "C. Mozsary",
+        "C. Meydan",
+        "J. Foox",
+        "J. Rosiene",
+        "A. Shaiber",
+        "D. Danko",
+        "E. Afshinnekoo",
+        "M. MacKay",
+        "F.J. Sedlazeck"
+      ]
+    },
+    {
+      "title": "A new era for plant science: spatial single-cell transcriptomics",
+      "authors": [
+        "S. Giacomello"
+      ]
+    },
+    {
+      "title": "System-wide transcriptome damage and tissue identity loss in COVID-19 patients",
+      "authors": [
+        "J. Park",
+        "J. Foox",
+        "T. Hether",
+        "D.C. Danko",
+        "S. Warren",
+        "Y. Kim",
+        "J. Reeves",
+        "D.J. Butler",
+        "C. Mozsary",
+        "J. Rosiene"
+      ]
+    },
+    {
+      "title": "In situ sequencing for RNA analysis in preserved tissue and cells",
+      "authors": [
+        "R. Ke",
+        "M. Mignardi",
+        "A. Pacureanu",
+        "J. Svedlund",
+        "J. Botling",
+        "C. Wahlby",
+        "M. Nilsson"
+      ]
+    },
+    {
+      "title": "Single-cell in situ RNA profiling by sequential hybridization",
+      "authors": [
+        "E. Lubeck",
+        "A.F. Coskun",
+        "T. Zhiyentayev",
+        "M. Ahmad",
+        "L. Cai"
+      ]
+    },
+    {
+      "title": "Genome-wide RNA Tomography in the zebrafish embryo",
+      "authors": [
+        "J. Junker",
+        "E. Noel",
+        "V. Guryev",
+        "K. Peterson",
+        "G. Shah",
+        "J. Huisken",
+        "A. McMahon",
+        "E. Berezikov",
+        "J. Bakkers",
+        "A. van Oudenaarden"
+      ]
+    },
+    {
+      "title": "Transcriptome in vivo analysis (TIVA) of spatially defined single cells in live tissue",
+      "authors": [
+        "D. Lovatt",
+        "B.K. Ruble",
+        "J. Lee",
+        "H. Dueck",
+        "T.K. Kim",
+        "S. Fisher",
+        "C. Francis",
+        "J.M. Spaethling",
+        "J.A. Wolf",
+        "M.S. Grady"
+      ]
+    },
+    {
+      "title": "Fluorescent in situ sequencing (FISSEQ) of RNA for gene expression profiling in intact cells and tissues",
+      "authors": [
+        "J.H. Lee",
+        "E.R. Daugharthy",
+        "J. Scheiman",
+        "R. Kalhor",
+        "T.C. Ferrante",
+        "R. Terry",
+        "B.M. Turczyk",
+        "J.L. Yang",
+        "H.S. Lee",
+        "J. Aach"
+      ]
+    },
+    {
+      "title": "High-throughput single-cell gene-expression profiling with multiplexed error-robust fluorescence in situ hybridization",
+      "authors": [
+        "J.R. Moffitt",
+        "J. Hao",
+        "G. Wang",
+        "K.H. Chen",
+        "H.P. Babcock",
+        "X. Zhuang"
+      ]
+    },
+    {
+      "title": "Laser capture microscopy coupled with Smart-seq2 for precise spatial transcriptomic profiling",
+      "authors": [
+        "S. Nichterwitz",
+        "G. Chen",
+        "J. Aguila Benitez",
+        "M. Yilmaz",
+        "H. Storvall",
+        "M. Cao",
+        "R. Sandberg",
+        "Q. Deng",
+        "E. Hedlund"
+      ]
+    },
+    {
+      "title": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics",
+      "authors": [
+        "P.L. Ståhl",
+        "F. Salmen",
+        "S. Vickovic",
+        "A. Lundmark",
+        "J.F. Navarro",
+        "J. Magnusson",
+        "S. Giacomello",
+        "M. Asp",
+        "J.O. Westholm",
+        "M. Huss"
+      ]
+    },
+    {
+      "title": "Spatial transcriptomic analysis of cryosectioned tissue samples with Geo-seq",
+      "authors": [
+        "J. Chen",
+        "S. Suo",
+        "P.P. Tam",
+        "J.D.J. Han",
+        "G. Peng",
+        "N. Jing"
+      ]
+    },
+    {
+      "title": "Three-dimensional intact-tissue sequencing of single-cell transcriptional states",
+      "authors": [
+        "X. Wang",
+        "W.E. Allen",
+        "M.A. Wright",
+        "E.L. Sylwestrak",
+        "N. Samusik",
+        "S. Vesuna",
+        "K. Evans",
+        "C. Liu",
+        "C. Ramakrishnan",
+        "J. Liu"
+      ]
+    },
+    {
+      "title": "High-definition spatial transcriptomics for in situ tissue profiling",
+      "authors": [
+        "S. Vickovic",
+        "G. Eraslan",
+        "F. Salmen",
+        "J. Klughammer",
+        "L. Stenbeck",
+        "D. Schapiro",
+        "T. Aijo",
+        "R. Bonneau",
+        "L. Bergenstrahle",
+        "J.F. Navarro"
+      ]
+    },
+    {
+      "title": "High-spatial-resolution multi-omics sequencing via Deterministic barcoding in tissue",
+      "authors": [
+        "Y. Liu",
+        "M. Yang",
+        "Y. Deng",
+        "G. Su",
+        "A. Enninful",
+        "C.C. Guo",
+        "T. Tebaldi",
+        "D. Zhang",
+        "D. Kim",
+        "Z. Bai"
+      ]
+    },
+    {
+      "title": "GeoMx™ RNA assay: high Multiplex, digital, spatial analysis of RNA in FFPE tissue",
+      "authors": [
+        "D.R. Zollinger",
+        "S.E. Lingle",
+        "K. Sorg",
+        "J.M. Beechem",
+        "C.R. Merritt"
+      ]
+    },
+    {
+      "title": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2",
+      "authors": [
+        "R.R. Stickels",
+        "E. Murray",
+        "P. Kumar",
+        "J. Li",
+        "J.L. Marshall",
+        "D.J. Di Bella",
+        "P. Arlotta",
+        "E.Z. Macosko",
+        "F. Chen"
+      ]
+    },
+    {
+      "title": "Single-cell Stereo-seq enables cell type-specific spatial transcriptome characterization in Arabidopsis leaves",
+      "authors": [
+        "K. Xia",
+        "H.-X. Sun",
+        "J. Li",
+        "J. Li",
+        "Y. Zhao",
+        "R. Chen",
+        "G. Liu",
+        "Z. Chen",
+        "R. Yin",
+        "S. Hao"
+      ]
+    },
+    {
+      "title": "Highly resolved spatial transcriptomics for detection of rare events in cells",
+      "authors": [
+        "S. Groiss",
+        "D. Pabst",
+        "C. Faber",
+        "A. Meier",
+        "A. Bogdoll",
+        "C. Unger",
+        "B. Nilges",
+        "S. Strauss",
+        "E. Foderl-Hobenreich",
+        "M. Hardt"
+      ]
+    },
+    {
+      "title": "High-plex multiomic analysis in FFPE at Subcellular level by spatial molecular imaging",
+      "authors": [
+        "S. He",
+        "R. Bhatt",
+        "C. Brown",
+        "E.A. Brown",
+        "D.L. Buhr",
+        "K. Chantranuvatana",
+        "P. Danaher",
+        "D. Dunaway",
+        "R.G. Garrison",
+        "G. Geiss"
+      ]
+    },
+    {
+      "title": "Effects of post-mortem and physical degradation on RNA integrity and quality",
+      "authors": [
+        "M. Sidova",
+        "S. Tomankova",
+        "P. Abaffy",
+        "M. Kubista",
+        "R. Sindelka"
+      ]
+    },
+    {
+      "title": "The highways and byways of mRNA decay",
+      "authors": [
+        "N.L. Garneau",
+        "J. Wilusz",
+        "C.J. Wilusz"
+      ]
+    },
+    {
+      "title": "Decay rates of human mRNAs: correlation with functional characteristics and sequence attributes",
+      "authors": [
+        "E. Yang",
+        "E. van Nimwegen",
+        "M. Zavolan",
+        "N. Rajewsky",
+        "M. Schroeder",
+        "M. Magnasco",
+        "J.E. Darnell"
+      ]
+    },
+    {
+      "title": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function",
+      "authors": [
+        "G. Eraslan",
+        "E. Drokhlyansky",
+        "S. Anand",
+        "E. Fiskin",
+        "A. Subramanian",
+        "M. Slyper",
+        "J. Wang",
+        "N. Van Wittenberghe",
+        "J.M. Rouhana",
+        "J. Waldman"
+      ]
+    },
+    {
+      "title": "Single-nucleus RNA-sequencing profiling of mouse lung. Reduced dissociation bias and improved rare cell-type detection compared with single-cell RNA sequencing",
+      "authors": [
+        "J.R. Koenitzer",
+        "H. Wu",
+        "J.J. Atkinson",
+        "S.L. Brody",
+        "B.D. Humphreys"
+      ]
+    },
+    {
+      "title": "Advantages of single-nucleus over single-cell RNA sequencing of adult kidney: rare cell types and novel cell states revealed in Fibrosis",
+      "authors": [
+        "H. Wu",
+        "Y. Kirita",
+        "E.L. Donnelly",
+        "B.D. Humphreys"
+      ]
+    },
+    {
+      "title": "Fly Cell Atlas: a single-nucleus transcriptomic atlas of the adult fruit fly",
+      "authors": [
+        "H. Li",
+        "J. Janssens",
+        "et al.",
+        "M. De Waegeneer",
+        "S.S. Kolluru",
+        "K. Davie",
+        "V. Gardeux",
+        "W. Saelens",
+        "F.P.A. David",
+        "M. Brbic",
+        "K. Spanier"
+      ]
+    },
+    {
+      "title": "Transcriptional Profiling of Livers from Mice Flown on Rodent Research Reference Mission-1 (RRRM-1)",
+      "authors": [
+        "J.M. Galazka",
+        "S.-H.L. Polo",
+        "S.V. Costes",
+        "A.M. Saravia-Butler",
+        "H. Charles",
+        "V. Boyko",
+        "L. Degoricija",
+        "S. Narang",
+        "M. Roberts",
+        "L. Stodieck",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "Rodent Research-3-CASIS: Mouse Liver Transcriptomic, Proteomic, and Epigenomic Data",
+      "authors": [
+        "R. Smith",
+        "M. Cramer",
+        "R. Globus",
+        "J. Galazka"
+      ]
+    },
+    {
+      "title": "Rodent Research-3-CASIS: Mouse Eye Transcriptomic and Proteomic Data",
+      "authors": [
+        "R. Smith",
+        "M. Cramer",
+        "R. Globus",
+        "J. Galazka"
+      ]
+    },
+    {
+      "title": "Rodent Research-3-CASIS: Mouse Kidney Transcriptomic, Proteomic, and Epigenomic Data",
+      "authors": [
+        "R. Smith",
+        "M. Cramer",
+        "R. Globus",
+        "J. Galazka"
+      ]
+    },
+    {
+      "title": "Rodent Research-3-CASIS: Mouse Retina Transcriptomic Data",
+      "authors": [
+        "R. Smith",
+        "M. Cramer",
+        "R. Globus",
+        "J. Galazka"
+      ]
+    },
+    {
+      "title": "Validation of a new rodent experimental system to investigate Consequences of long duration space Habitation",
+      "authors": [
+        "S.Y. Choi",
+        "A. Saravia-Butler",
+        "Y. Shirazi-Fard",
+        "D. Leveson-Gower",
+        "L.S. Stodieck",
+        "S.M. Cadena",
+        "J. Beegle",
+        "S. Solis",
+        "A. Ronca",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "RNAseq analysis of rodent spaceflight experiments is confounded by sample collection techniques",
+      "authors": [
+        "S.-H. Lai Polo",
+        "A.M. Saravia-Butler",
+        "V. Boyko",
+        "M.T. Dinh",
+        "Y.C. Chen",
+        "H. Fogle",
+        "S.S. Reinsch",
+        "S. Ray",
+        "K. Chakravarty",
+        "O. Marcu"
+      ]
+    },
+    {
+      "title": "Methods for isolation and transcriptional profiling of individual cells from the human heart",
+      "authors": [
+        "N. Pimpalwar",
+        "T. Czuba",
+        "M.L. Smith",
+        "J. Nilsson",
+        "O. Gidlof",
+        "J.G. Smith"
+      ]
+    },
+    {
+      "title": "Transcriptome and proteome responses in RNAlater preserved tissue of Arabidopsis thaliana",
+      "authors": [
+        "C.P.S. Kruse",
+        "P. Basu",
+        "D.R. Luesse",
+        "S.E. Wyatt"
+      ]
+    },
+    {
+      "title": "A −180° C Cryogenic Freezer for the International Space Station",
+      "authors": [
+        "T. Andersen",
+        "C. Aubry",
+        "T. Benschop",
+        "G. Crippa",
+        "M.N. De Parolis",
+        "S. Quemerais",
+        "M. Renz",
+        "O. Ryckebosch",
+        "J. Schawer",
+        "A. Seidel"
+      ]
+    },
+    {
+      "title": "Transcriptional analysis of soleus from mice preserved with the Rapid Freeze hardware",
+      "authors": [
+        "A.M. Saravia-Butler",
+        "J. Galazka",
+        "M.L. Torres",
+        "Y.-C. Chen",
+        "S. Choi",
+        "R. Klotz",
+        "S. Perreau",
+        "D.L. Gower",
+        "Y. Shirazi",
+        "S.-H.L. Polo"
+      ]
+    },
+    {
+      "title": "Transcriptional analysis of livers from mice preserved with the Rapid Freeze hardware",
+      "authors": [
+        "A.M. Saravia-Butler",
+        "J. Galazka",
+        "M.L. Torres",
+        "Y.-C. Chen",
+        "S. Choi",
+        "R. Klotz",
+        "S. Perreau",
+        "D.L. Gower",
+        "Y. Shirazi",
+        "S.-H.L. Polo"
+      ]
+    },
+    {
+      "title": "Transcriptional analysis of spleens from mice preserved with the Rapid Freeze hardware",
+      "authors": [
+        "A.M. Saravia-Butler",
+        "J. Galazka",
+        "M.L. Torres",
+        "Y.-C. Chen",
+        "S. Choi",
+        "R. Klotz",
+        "S. Perreau",
+        "D.L. Gower",
+        "Y. Shirazi",
+        "S.-H.L. Polo"
+      ]
+    },
+    {
+      "title": "Preservation of multiple mammalian tissues to Maximize science return from ground based and spaceflight experiments",
+      "authors": [
+        "S. Choi",
+        "H.E. Ray",
+        "S.-H. Lai",
+        "J.S. Alwood",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "A tissue retrieval and postharvest processing regimen for rodent reproductive tissues compatible with long-term storage on the international space station and postflight biospecimen sharing program",
+      "authors": [
+        "V. Gupta",
+        "L. Holets-Bondar",
+        "K.F. Roby",
+        "G. Enders",
+        "J.S. Tash"
+      ]
+    },
+    {
+      "title": "RNAseq analysis of the response of Arabidopsis thaliana to fractional gravity under blue-light stimulation during spaceflight",
+      "authors": [
+        "R. Herranz",
+        "J.P. Vandenbrink",
+        "A. Villacampa",
+        "A. Manzano",
+        "W.L. Poehlman",
+        "F.A. Feltus",
+        "J.Z. Kiss",
+        "F.J. Medina"
+      ]
+    },
+    {
+      "title": "The importance of Earth reference controls in spaceflight -omics research: characterization of nucleolin mutants from the Seedling Growth experiments",
+      "authors": [
+        "A. Manzano",
+        "A. Villacampa",
+        "J. Saez-Vasquez",
+        "J.Z. Kiss",
+        "F.J. Medina",
+        "R. Herranz"
+      ]
+    },
+    {
+      "title": "Plant molecular biology in the space station era: utilization of KSC fixation tubes with RNAlater",
+      "authors": [
+        "A.-L. Paul",
+        "H.G. Levine",
+        "W. McLamb",
+        "K.L. Norwood",
+        "D. Reed",
+        "G.W. Stutte",
+        "H. William Wells",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "Spaceflight transcriptomes: unique responses to a novel environment",
+      "authors": [
+        "A.-L. Paul",
+        "A.K. Zupanska",
+        "D.T. Ostrow",
+        "Y. Zhang",
+        "Y. Sun",
+        "J.L. Li",
+        "S. Shanker",
+        "W.G. Farmerie",
+        "C.E. Amalfitano",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "A method for preparing spaceflight RNAlater-fixed Arabidopsis thaliana (Brassicaceae) tissue for scanning electron microscopy",
+      "authors": [
+        "E.R. Schultz",
+        "K.L. Kelley",
+        "A. Paul",
+        "R.J. Ferl"
+      ]
+    },
+    {
+      "title": "RNA-seq analyses of Arabidopsis thaliana seedlings after exposure to blue-light phototropic stimuli in microgravity",
+      "authors": [
+        "J.P. Vandenbrink",
+        "R. Herranz",
+        "W.L. Poehlman",
+        "F. Alex Feltus",
+        "A. Villacampa",
+        "M. Ciska",
+        "F. Javier Medina",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "From spaceflight to Mars g-levels: Adaptive response of A. thaliana seedlings in a reduced gravity environment is enhanced by red-light photostimulation",
+      "authors": [
+        "A. Villacampa",
+        "M. Ciska",
+        "A. Manzano",
+        "J.P. Vandenbrink",
+        "J.Z. Kiss",
+        "R. Herranz",
+        "F.J. Medina"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on human induced Pluripotent stem cell-derived Cardiomyocyte structure and function",
+      "authors": [
+        "A. Wnorowski",
+        "A. Sharma",
+        "H. Chen",
+        "H. Wu",
+        "N.Y. Shao",
+        "N. Sayed",
+        "C. Liu",
+        "S. Countryman",
+        "L.S. Stodieck",
+        "K.H. Rubins"
+      ]
+    },
+    {
+      "title": "Molecular and cellular characterization of space flight effects on Microvascular Endothelial cell function – PreparatoryWork for the SFEF project",
+      "authors": [
+        "M. Balsamo",
+        "I. Barravecchia",
+        "S. Mariotti",
+        "A. Merenda",
+        "C. De Cesari",
+        "M. Vukich",
+        "D. Angeloni"
+      ]
+    },
+    {
+      "title": "Space station biomining experiment demonstrates rare earth element extraction in microgravity and Mars gravity",
+      "authors": [
+        "C.S. Cockell",
+        "R. Santomartino",
+        "K. Finster",
+        "A.C. Waajen",
+        "L.J. Eades",
+        "R. Moeller",
+        "P. Rettberg",
+        "F.M. Fuchs",
+        "R. Van Houdt",
+        "N. Leys"
+      ]
+    },
+    {
+      "title": "Analysis of the effects of spaceflight and local administration of thrombopoietin to a femoral defect injury on distal skeletal sites",
+      "authors": [
+        "A. Zamarioli",
+        "Z.R. Campbell",
+        "K.A. Maupin",
+        "P.J. Childress",
+        "J.P.B. Ximenez",
+        "G. Adam",
+        "N. Chakraborty",
+        "A. Gautam",
+        "R. Hammamieh",
+        "M.A. Kacena"
+      ]
+    },
+    {
+      "title": "Feasibility, potency, and safety of growing human mesenchymal stem cells in space for clinical application",
+      "authors": [
+        "P. Huang",
+        "A.L. Russell",
+        "R. Lefavor",
+        "N.C. Durand",
+        "E. James",
+        "L. Harvey",
+        "C. Zhang",
+        "S. Countryman",
+        "L. Stodieck",
+        "A.C. Zubair"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight aboard the International Space Station on mouse estrous cycle and ovarian gene expression",
+      "authors": [
+        "X. Hong",
+        "A. Ratri",
+        "S.Y. Choi",
+        "J.S. Tash",
+        "A.E. Ronca",
+        "J.S. Alwood",
+        "L.K. Christenson"
+      ]
+    },
+    {
+      "title": "Transcriptional Analysis of Lung from Mice Flown on the RR-6 Mission",
+      "authors": [
+        "J.M. Galazka",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "H.W. Fogle",
+        "N. Bense",
+        "V. Boyko",
+        "M.T. Dinh",
+        "S.V. Costes",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "Effect of spaceflight on liver from mice flown on the ISS for 33 days: Transcriptional analysis",
+      "authors": [
+        "J.M. Galazka",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "H.W. Fogle",
+        "N. Bense",
+        "Y.-C. Chen",
+        "S. Narang",
+        "M.T. Dinh",
+        "S.V. Costes",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "Transcriptional profiling of thymus from mice flown on the RR-9 Mission",
+      "authors": [
+        "J.M. Galazka",
+        "L. Degoricija",
+        "S.-H.L. Polo",
+        "A.M. Saravia-Butler",
+        "V. Boyko",
+        "M.T. Dinh",
+        "C. Houseman",
+        "S.V. Costes",
+        "S.G. Gebre"
+      ]
+    },
+    {
+      "title": "Nanopore DNA sequencing and genome assembly on the International Space Station",
+      "authors": [
+        "S.L. Castro-Wallace",
+        "C.Y. Chiu",
+        "K.K. John",
+        "S.E. Stahl",
+        "K.H. Rubins",
+        "A.B.R. McIntyre",
+        "J.P. Dworkin",
+        "M.L. Lupisella",
+        "D.J. Smith",
+        "D.J. Botkin"
+      ]
+    },
+    {
+      "title": "Off earth identification of bacterial populations using 16S rDNA nanopore sequencing",
+      "authors": [
+        "A.S. Burton",
+        "S.E. Stahl",
+        "S.L. Castro-Wallace",
+        "K.K. John",
+        "M. Jain",
+        "S. Juul",
+        "D.J. Turner",
+        "E.D. Harrington",
+        "D. Stoddart",
+        "B. Paten",
+        "M. Akeson"
+      ]
+    },
+    {
+      "title": "Real-time culture-Independent microbial profiling onboard the international space station using Nanopore sequencing",
+      "authors": [
+        "S. Stahl-Rommel",
+        "M. Jain",
+        "H.N. Nguyen",
+        "R.R. Arnold",
+        "S.M. Aunon-Chancellor",
+        "G.M. Sharp",
+        "C.L. Castro",
+        "K.K. John",
+        "S. Juul",
+        "D.J. Turner"
+      ]
+    },
+    {
+      "title": "A CRISPR-based assay for the study of eukaryotic DNA repair onboard the International Space Station",
+      "authors": [
+        "S. Stahl-Rommel",
+        "D. Li",
+        "M. Sung",
+        "R. Li",
+        "A. Vijayakumar",
+        "K.D. Atabay",
+        "G.G. Bushkin",
+        "C.L. Castro",
+        "K.D. Foley",
+        "D.S. Copeland"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A. Checinska Sielaff",
+        "C. Urbaniak",
+        "G.B.M. Mohan",
+        "V.G. Stepanov",
+        "Q. Tran",
+        "J.M. Wood",
+        "J. Minich",
+        "D. McDonald",
+        "T. Mayer",
+        "R. Knight"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R. Spivey",
+        "L. Jeter",
+        "C. Vonk"
+      ]
+    },
+    {
+      "title": "Real-time 3D high-resolution microscopy of human cells on the international space station",
+      "authors": [
+        "C.S. Thiel",
+        "S. Tauber",
+        "C. Seebacher",
+        "M. Schropp",
+        "R. Uhl",
+        "B. Lauber",
+        "J. Polzer",
+        "S. Neelam",
+        "Y. Zhang",
+        "O. Ullrich"
+      ]
+    },
+    {
+      "title": "An automated approach to prepare tissue-derived spatially barcoded RNA-sequencing libraries",
+      "authors": [
+        "A. Jemt",
+        "F. Salmen",
+        "A. Lundmark",
+        "A. Mollbrink",
+        "J. Fernandez Navarro",
+        "P.L. Stahl",
+        "T. Yucel-Lindberg",
+        "J. Lundeberg"
+      ]
+    },
+    {
+      "title": "Enabling automated and reproducible spatially resolved transcriptomics at scale",
+      "authors": [
+        "L. Stenbeck",
+        "F. Taborsak-Lines",
+        "S. Giacomello"
+      ]
+    },
+    {
+      "title": "NASA GeneLab RNA-seq consensus pipeline: standardized processing of short-read RNA-seq data",
+      "authors": [
+        "E.G. Overbey",
+        "A.M. Saravia-Butler",
+        "Z. Zhang",
+        "K.S. Rathi",
+        "H. Fogle",
+        "W.A. da Silveira",
+        "R.J. Barker",
+        "J.J. Bass",
+        "A. Beheshti",
+        "D.C. Berrios"
+      ]
+    },
+    {
+      "title": "A survey of best practices for RNA-seq data analysis",
+      "authors": [
+        "A. Conesa",
+        "P. Madrigal",
+        "A. Mortazavi",
+        "S. Tarazona",
+        "D. Gomez-Cabrero",
+        "A. Cervera",
+        "A. McPherson",
+        "M.W. Szczesniak",
+        "D.J. Gaffney",
+        "L.L. Elo",
+        "X. Zhang"
+      ]
+    },
+    {
+      "title": "Eleven grand challenges in single-cell data science",
+      "authors": [
+        "D. Lähnemann",
+        "J. Koster",
+        "E. Szczurek",
+        "D.J. McCarthy",
+        "S.C. Hicks",
+        "M.D. Robinson",
+        "C.A. Vallejos",
+        "K.R. Campbell",
+        "N. Beerenwinkel",
+        "A. Mahfouz"
+      ]
+    },
+    {
+      "title": "Tutorial: guidelines for the computational analysis of single-cell RNA sequencing data",
+      "authors": [
+        "T.S. Andrews",
+        "V.Y. Kiselev",
+        "D. McCarthy",
+        "M. Hemberg"
+      ]
+    },
+    {
+      "title": "Current best practices in single-cell RNA-seq analysis: a tutorial",
+      "authors": [
+        "M.D. Luecken",
+        "F.J. Theis"
+      ]
+    },
+    {
+      "title": "Integrative single-cell analysis",
+      "authors": [
+        "T. Stuart",
+        "R. Satija"
+      ]
+    },
+    {
+      "title": "Integrated analysis of multimodal single-cell data",
+      "authors": [
+        "Y. Hao",
+        "S. Hao",
+        "E. Andersen-Nissen",
+        "W.M. Mauck",
+        "S. Zheng",
+        "A. Butler",
+        "M.J. Lee",
+        "A.J. Wilk",
+        "C. Darby",
+        "M. Zager"
+      ]
+    },
+    {
+      "title": "Squidpy: a scalable framework for spatial omics analysis",
+      "authors": [
+        "G. Palla",
+        "H. Spitzer",
+        "M. Klein",
+        "D. Fischer",
+        "A.C. Schaar",
+        "L.B. Kuemmerle",
+        "S. Rybakov",
+        "I.L. Ibarra",
+        "O. Holmberg",
+        "I. Virshup"
+      ]
+    },
+    {
+      "title": "SpatialCPie: an R/Bioconductor package for spatial transcriptomics cluster evaluation",
+      "authors": [
+        "J. Bergenstråhle",
+        "L. Bergenstråhle",
+        "J. Lundeberg"
+      ]
+    },
+    {
+      "title": "Spatial transcriptomics at subspot resolution with BayesSpace",
+      "authors": [
+        "E. Zhao",
+        "M.R. Stone",
+        "X. Ren",
+        "J. Guenthoer",
+        "K.S. Smythe",
+        "T. Pulliam",
+        "S.R. Williams",
+        "C.R. Uytingco",
+        "S.E.B. Taylor",
+        "P. Nghiem"
+      ]
+    },
+    {
+      "title": "Fusion transcript detection using spatial transcriptomics",
+      "authors": [
+        "S. Friedrich",
+        "E.L.L. Sonnhammer"
+      ]
+    },
+    {
+      "title": "ST viewer: a tool for analysis and visualization of spatial transcriptomics datasets",
+      "authors": [
+        "J. Fernández Navarro",
+        "J. Lundeberg",
+        "P.L. Ståhl"
+      ]
+    },
+    {
+      "title": "Robust decomposition of cell type mixtures in spatial transcriptomics",
+      "authors": [
+        "D.M. Cable",
+        "E. Murray",
+        "L.S. Zou",
+        "A. Goeva",
+        "E.Z. Macosko",
+        "F. Chen",
+        "R.A. Irizarry"
+      ]
+    },
+    {
+      "title": "GCNG: graph convolutional networks for inferring gene interaction from spatial transcriptomics data",
+      "authors": [
+        "Y. Yuan",
+        "Z. Bar-Joseph"
+      ]
+    },
+    {
+      "title": "sepal: identifying transcript profiles with spatial patterns by diffusion-based modeling",
+      "authors": [
+        "A. Andersson",
+        "J. Lundeberg"
+      ]
+    },
+    {
+      "title": "SpatialDE: identification of spatially variable genes",
+      "authors": [
+        "V. Svensson",
+        "S.A. Teichmann",
+        "O. Stegle"
+      ]
+    },
+    {
+      "title": "CoSTA: unsupervised convolutional neural network learning for spatial transcriptomics analysis",
+      "authors": [
+        "Y. Xu",
+        "R.P. McCord"
+      ]
+    },
+    {
+      "title": "Assessing heterogeneity in spatial data using the HTA index with applications to spatial transcriptomics and imaging",
+      "authors": [
+        "A. Levy-Jurgenson",
+        "X. Tekpli",
+        "Z. Yakhini"
+      ]
+    },
+    {
+      "title": "Imputation of spatially-resolved transcriptomes by graph-regularized tensor completion",
+      "authors": [
+        "Z. Li",
+        "T. Song",
+        "J. Yong",
+        "R. Kuang"
+      ]
+    },
+    {
+      "title": "Seamless integration of image and molecular analysis for spatial transcriptomics workflows",
+      "authors": [
+        "J. Bergenstråhle",
+        "L. Larsson",
+        "J. Lundeberg"
+      ]
+    },
+    {
+      "title": "Cell2location maps fine-grained cell types in spatial transcriptomics",
+      "authors": [
+        "V. Kleshchevnikov",
+        "A. Shmatko",
+        "E. Dann",
+        "A. Aivazidis",
+        "H.W. King",
+        "T. Li",
+        "R. Elmentaite",
+        "A. Lomakin",
+        "V. Kedlian",
+        "A. Gayoso"
+      ]
+    },
+    {
+      "title": "Single-cell and spatial transcriptomics enables probabilistic inference of cell type topography",
+      "authors": [
+        "A. Andersson",
+        "J. Bergenstrahle",
+        "M. Asp",
+        "L. Bergenstrahle",
+        "A. Jurek",
+        "J. Fernandez Navarro",
+        "J. Lundeberg"
+      ]
+    },
+    {
+      "title": "Integration of spatial and single-cell transcriptomic data elucidates mouse organogenesis",
+      "authors": [
+        "T. Lohoff",
+        "S. Ghazanfar",
+        "A. Missarova",
+        "N. Koulena",
+        "N. Pierson",
+        "J.A. Griffiths",
+        "E.S. Bardot",
+        "C.H.L. Eng",
+        "R.C.V. Tyser",
+        "R. Argelaguet"
+      ]
+    },
+    {
+      "title": "Statistical and machine learning methods for spatially resolved transcriptomics with histology",
+      "authors": [
+        "J. Hu",
+        "A. Schroeder",
+        "K. Coleman",
+        "C. Chen",
+        "B.J. Auerbach",
+        "M. Li"
+      ]
+    },
+    {
+      "title": "Computational challenges and opportunities in spatially resolved transcriptomic data analysis",
+      "authors": [
+        "L. Atta",
+        "J. Fan"
+      ]
+    },
+    {
+      "title": "Protocol improvement for RNA extraction from Compromised frozen specimens generated in Austere conditions: a Path forward to transcriptomics-Pathology systems integration",
+      "authors": [
+        "N. Chakraborty",
+        "C.W. Schmitt",
+        "C.L. Honnold",
+        "C. Moyler",
+        "S. Butler",
+        "H. Nachabe",
+        "A. Gautam",
+        "R. Hammamieh"
+      ]
+    },
+    {
+      "title": "BIOPACK: the ground controlled late access biological research facility.",
+      "authors": [
+        "J.J.W.A. van Loon",
+        "J.J.W.A. BIOPACK"
+      ]
+    },
+    {
+      "title": "Both gravistimulation onset and removal trigger an increase of cytoplasmic free calcium in statocytes of roots grown in microgravity",
+      "authors": [
+        "F. Bizet",
+        "V. Pereda-Loth",
+        "H. Chauvet",
+        "J. Gerard",
+        "B. Eche",
+        "C. Girousse",
+        "M. Courtade",
+        "G. Perbal",
+        "V. Legue"
+      ]
+    },
+    {
+      "title": "Microgravity significantly influences neural stem cells size and numbers: Implications for long-term space missions",
+      "authors": [
+        "S. Shaka",
+        "N. Carpo",
+        "V. Tran",
+        "C. Cepeda",
+        "A. Espinosa-Jeffrey"
+      ]
+    },
+    {
+      "title": "3D biofabrication of a cardiac tissue construct for sustained longevity and function",
+      "authors": [
+        "M. Alonzo",
+        "R. El Khoury",
+        "N. Nagiah",
+        "V. Thakur",
+        "M. Chattopadhyay",
+        "B. Joddar"
+      ]
+    },
+    {
+      "title": "Chromatin and gene-regulatory dynamics of the developing human cerebral cortex at single-cell resolution",
+      "authors": [
+        "A.E. Trevino",
+        "F. Muller",
+        "J. Andersen",
+        "L. Sundaram",
+        "A. Kathiria",
+        "A. Shcherbina",
+        "K. Farh",
+        "H.Y. Chang",
+        "A.M. Pașca",
+        "A. Kundaje"
+      ]
+    },
+    {
+      "title": "Simple oligonucleotide-based multiplexing of single-cell chromatin accessibility",
+      "authors": [
+        "K. Wang",
+        "Z. Xiao",
+        "Y. Yan",
+        "R. Ye",
+        "M. Hu",
+        "S. Bai",
+        "E. Sei",
+        "Y. Qiao",
+        "H. Chen",
+        "B. Lim"
+      ]
+    },
+    {
+      "title": "Spatial-ATAC-seq: spatially resolved chromatin accessibility profiling of tissues at genome scale and cellular level",
+      "authors": [
+        "R. Fan",
+        "Y. Deng",
+        "M. Bartosovic",
+        "S. Ma",
+        "D. Zhang",
+        "Y. Liu",
+        "X. Qin",
+        "G. Su",
+        "M. Xu",
+        "S. Halene"
+      ]
+    },
+    {
+      "title": "Spatially mapped single-cell chromatin accessibility",
+      "authors": [
+        "C.A. Thornton",
+        "R.M. Mulqueen",
+        "K.A. Torkenczy",
+        "A. Nishida",
+        "E.G. Lowenstein",
+        "A.J. Fields",
+        "F.J. Steemers",
+        "W. Zhang",
+        "H.L. McConnell",
+        "R.L. Woltjer"
+      ]
+    },
+    {
+      "title": "Cloud labs: where robots do the research",
+      "authors": [
+        "C. Arnold"
+      ]
+    },
+    {
+      "title": "Machine learning for perturbational single-cell omics",
+      "authors": [
+        "Y. Ji",
+        "M. Lotfollahi",
+        "F.A. Wolf",
+        "F.J. Theis"
+      ]
+    }
+  ],
+  "original_title": "Challenges and considerations for single-cell and spatially resolved transcriptomics sample collection during spaceflight.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bf40/9701605/f0cc90611446/gr1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bf40/9701605/25523032cf43/gr2.jpg"
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "pmcid": "PMC4923109",
+  "title": "Cultivation of Staphylococcus epidermidis in the Human Spaceflight Environment Leads to Alterations in the Frequency and Spectrum of Spontaneous Rifampicin-Resistance Mutations in the rpoB Gene",
+  "abstract": "Bacteria of the genus Staphylococcus are persistent inhabitants of human spaceflight habitats and represent potential opportunistic pathogens. The effect of the human spaceflight environment on the growth and the frequency of mutations to antibiotic resistance in the model organism Staphylococcus epidermidis strain ATCC12228 was investigated. Six cultures of the test organism were cultivated in biological research in canisters–Petri dish fixation units for 122 h on orbit in the International Space Station (ISS) as part of the SpaceX-3 resupply mission. Asynchronous ground controls (GCs) consisted of identical sets of cultures cultivated for 122 h in the ISS Environmental Simulator at Kennedy Space Center. S. epidermidis exhibited significantly lower viable counts but significantly higher frequencies of mutation to rifampicin (Rif) resistance in space vs. GC cultures. The spectrum of mutations in the rpoB gene leading to RifR was altered in S. epidermidis isolates cultivated in the ISS compared to GCs. The results suggest that the human spaceflight environment induces unique physiologic stresses on growing bacterial cells leading to changes in mutagenic potential.",
+  "introduction": "Introduction\n\nPlanning is currently underway for future long-duration missions through interplanetary space to the Moon, near-Earth asteroids, or Mars. Both the National Research Council (NRC) and the International Space Exploration Coordination Group (ISECG) have assigned a high priority to studies aimed at better understanding astronaut health risks during space exploration; furthermore, these agencies have recognized the International Space Station (ISS) as the best available platform to conduct research activities to address these challenges.\n\nStudies conducted during short- and medium-duration missions (from a few days up to ~1 year) in vehicles such as Spacelab, Soyuz, Shuttle, Mir, and ISS have provided a wealth of information concerning astronaut health and function in the spaceflight environment of low-Earth orbit (LEO). Based on the knowledge gained from these missions, NASA has developed successful risk mitigation strategies. However, long-duration missions (greater than 1 year) into interplanetary space are more likely to expose astronauts to new and higher risks to their health and performance than excursions to LEO, primarily due to: (i) chronic exposure to microgravity; (ii) increased exposure to ionizing radiation from solar and galactic sources; and (iii) extreme confinement and isolation. One particular concern for planners of long-duration missions is the possibility of infectious disease. Prolonged exposure to the stresses of spaceflight can lead to dysregulation of astronauts’ immune systems, thus increasing their susceptibility to infectious disease. To minimize the possibility of bringing infectious disease agents onboard, pre-launch mitigation protocols are in place such as screening astronauts for certain microbes and irradiation of food. However, the essential nature of the human microbiome renders it impossible to remove all potentially infectious microorganisms from astronauts. Indeed, deterioration of astronauts’ immune systems in space has led to increased reactivation of latent viral infections by Varicella–Zoster, Epstein–Barr, and Cytomegalovirus during 12–16 day Shuttle flights. Opportunistic bacterial infections of the urinary tract, upper respiratory tract, and subcutaneous tissue have been documented from Shuttle missions STS-1 to STS-108, and conjunctivitis, respiratory tract, and dental infections were documented among long-term inhabitants of space station Mir.\n\nNumerous studies have been conducted to understand how bacteria themselves respond to the human spaceflight environment, with particular regard to the possibility of their enhanced pathogenic potential or resistance to antimicrobial treatments [reviewed extensively in ]. In some spaceflight experiments, it has been observed that spaceflight can lead to enhanced virulence in some bacteria (Salmonella typhimurium, Escherichia coli, and Pseudomonas aeruginosa), but not in others (S. typhimurium, Staphylococcus aureus MRSA, Enterococcus faecalis, and Listeria monocytogenes; note: in S. typhimurium, both cases have been observed in different spaceflight experiments; reviewed in). Taken together, the data suggest that the combined phenomena of altered astronaut immunity and heightened virulence of some microbes in the spaceflight environment might lead to an increased incidence of astronaut infections by some opportunistic pathogens during extended missions.\n\nSpace stations start out as basically clean environments, but upon habitation, they are rapidly colonized by numerous environmental and astronaut-associated species of microorganisms, which proceed to adapt and evolve in response to selective pressures unique to the spaceflight environment. A number of opportunistic pathogens have been isolated from space station crew quarters and from astronauts, including both Gram-positive genera (Bacillus, Enterococcus, Staphylococcus, and Streptococcus) and Gram-negative genera (Citrobacter, Enterobacter, Escherichia, Flavobacterium, Haemophilus, Klebsiella, Morganella, Proteus, Pseudomonas, Ralstonia, Serratia, Stenotrophomonas, and Yersinia). From studies of astronauts on space stations Mir and ISS, it was documented that the microbial diversity of the upper respiratory and gastrointestinal tracts was lowered during spaceflight, while the proportion of opportunistic pathogens increased. In addition, extensive exchange of microbial flora of the upper respiratory and gastrointestinal tracts has been documented among astronauts sharing confined space habitats [reviewed in ]. Recent microbial monitoring of the ISS environment revealed that Bacillus and Staphylococcus spp., are the most ubiquitous organisms cultured from the ISS, being especially abundant in samples taken from crew quarters, vacuum debris, and HEPA filters. Not surprisingly, Staphylococcus epidermidis was the most frequently encountered organism in the ISS microbiome, due to its close association with humans as a skin commensal.\n\nAs on Earth, antibiotics are the predominant treatment of choice for bacterial infections on human spaceflight missions. Knowledge about the efficacy of antimicrobial interventions to treat infections during spaceflight is limited, given the difficulty to assess the interplay between pharmacokinetics of antibiotics or the physiologies of host and microbiome, both of which are altered in the spaceflight environment. Decreased susceptibility of microbes to antibiotics has been observed in the space environment during experiments performed on Salyut 7 and the Space Shuttles Challenger and Discovery.\n\nMutation is a common mechanism by which bacteria become resistant to antibiotics. A body of evidence indicates that the spectrum of spontaneous mutation to antibiotic resistance can be altered by the environment to which microbes are exposed, including the spaceflight environment. In the experiments described here, we chose to study mutations leading to resistance to the antibiotic rifampcin (Rif), because: (i) Rif is a clinically relevant antibiotic used singly and in combination to treat a wide variety of infections; and (ii) RifR mutations are easily identified by nucleotide sequencing, as they reside within small regions of the rpoB gene encoding the β-subunit of RNA polymerase.\n\nTaken together, the above observations indicate that the possibility must be considered of antibiotic-resistant strains emerging, and potentially becoming dominant types, in the microbiomes of crew members. Therefore, to explore the development of antibiotic resistance in a potential opportunistic pathogen during long-term human habitation in space, the present communication describes experiments using the biological research in canisters (BRIC) hardware in which growth of S. epidermidis, as well as the frequency and spectrum of mutation to RifR, were measured after spaceflight on the ISS and compared to asynchronous ground controls (GCs).",
+  "methods": "Materials and Methods\n\nBacterial Strain, Media, and Growth Conditions\n\nThe strain used was S. epidermidis strain ATCC12228 obtained from the American Type Culture Collection, Manassas, VA, USA. Medium used throughout was trypticase soy yeast extract (TSY) medium consisting of (g/L): tryptone, 15; soytone, 5; NaCl, 5; yeast extract, 3; K2HPO4, 2.5; glucose, 2.5; and final pH 7. For semisolid plates, agar was added to TSY at 15.0 g/L. As appropriate, the antibiotic rifampicin (Rif; Sigma–Aldrich) was added to TSY at a final concentration of 5 μg/mL.\n\nSample Preparation\n\nStaphylococcus epidermidis cells were prepared by overnight growth in TSY liquid medium and a calibration curve was constructed relating Optical Density at 660 nm (OD660) to viable cell titer. Overnight cultures were diluted in TSY to a working concentration of 108 CFU per mL prior to use. Aliquots of 0.1 mL (~107 CFU) of the suspension were applied to the bottoms of sterile 60-mm diameter Petri dishes (Falcon cat. no. 1007) and air-dried for 48–72 h at room temperature prior to use.\n\nBRIC Spaceflight Hardware\n\nThe experiments described here utilized BRIC spaceflight hardware, which has been described in detail previously. BRIC canisters hold six 60-mm diameter Petri dish bottom halves in small subcompartments called Petri dish fixation units (PDFUs). Each PDFU allows for injection of medium, referred to as actuation, to initiate bacterial growth. For flight (FL) experiments, one BRIC canister was used containing six PDFUs. Immediately, adjacent to the FL canister was deployed a HOBO® temperature data logger (Onset Computer Co., Bourne, MA, USA). Post-flight asynchronous GC experiments were conducted using the same hardware and configuration as in the FL experiment. Each PDFU was loaded with a Petri dish containing air-dried cells, and 13 mL of sterile TSY medium was loaded into a separate reservoir. To prevent contamination, all reagents and equipment used were sterilized prior to use and PDFUs were assembled using aseptic technique within a biological containment hood.\n\nSpaceflight Timeline\n\nThe BRIC–PDFU payload described above was the 18th BRIC mission to space, and was designated BRIC-18. The BRIC-18 hardware payload was launched on the third SpaceX cargo resupply mission to the ISS (SpaceX-3) on April 18, 2014, using the Falcon 9 rocket and Dragon capsule configuration. The Dragon capsule docked with the ISS on April 21, 2014. The BRIC canister was transferred to the ISS on April 22, 2014 and stowed in the US laboratory module. Actuation of the PDFUs was performed on April 30, 2014 at 10:08 EDT (Figure 1A) and samples were incubated at ISS ambient temperature (Figure 1B) until May 5, 2014 at 12:04 PM EDT, resulting in a total incubation time of 122 h. Growth was terminated by transfer of the BRIC canister to the onboard −80°C MELFI freezer. Samples were returned to Earth in the Dragon capsule on May 18, 2014 and were maintained in the frozen state until return to Kennedy Space Center (KSC) for de-integration and further processing.\n\nGround Control Timeline\n\nAsynchronous GC experiments were performed in a BRIC canister according to the timeline determined during the FL experiment. Samples were incubated in the KSC ISS Environmental Simulation Chamber following the temperature regime recorded during flight (Figure 1B), and growth was terminated by transfer to a −80°C freezer, where samples were stored until further processing.\n\nPost-Experiment Sample Processing\n\nBoth FL and GC BRIC canisters were transferred from storage at −80°C to a +4°C refrigerator and allowed to thaw overnight. Petri dishes were removed from PDFUs and cells were resuspended using sterile disposable rubber spatulas. Resuspended cultures were transferred to sterile 50-mL conical centrifuge tubes, and the total volume recovered was measured. For viable counts, aliquots from cultures were diluted serially 10-fold in TSY medium, dilutions plated on TSY, and colonies counted after incubation at 37°C for 24 h to obtain CFU/mL. To obtain the total CFU per PDFU, the CFU/mL were multiplied by the volume of liquid recovered. To select for RifR mutants, cultures were concentrated by centrifugation, plated without dilution onto TSY + Rif plates, and colonies counted after incubation at 37°C for 24 h. The frequency of mutation to RifR was calculated by dividing the total number of RifR mutants by the total number of viable cells from each culture. Individual RifR mutants were streak-purified on TSY + Rif plates and processed for DNA sequencing.\n\nDNA Sequencing and Analyses\n\nPrimers used for PCR amplification of two RifR regions of the S. epidermidis rpoB gene are listed in Table 1. The corresponding rpoB regions were amplified by PCR directly from cells as previously described and their nucleotide sequences determined at the University of Florida Interdisciplinary Center for Biotechnology Research (UF-ICBR). Multiple rpoB sequences were aligned using the online Clustal Omega server1 to identify the position of mutations relative to the wild-type rpoB sequence obtained in parallel from S. epidermidis ATCC12228.\n\nStatistical Analyses\n\nNon-parametric statistical parameters and tests of significance (Kruskal–Wallis) were computed on log10-transformed data using Kaleidagraph version 4.5.2 (Synergy Software, Reading, PA, USA).",
+  "results": "Results\n\nTemperature Data in FL vs. GC Experiments\n\nTemperature data were logged at 10-min intervals during the FL and GC experiments and the data are presented in Figure 1B. The average temperature recorded during the growth period in FL was 25.1 ± 0.12°C until 107 h, at which time the immediately adjacent FL HOBO unit malfunctioned for the duration of the experiment (Figure 1B). However, the HOBO malfunction did not affect the course of the FL experiment, as other HOBO units in nearby BRIC canisters functioned correctly and confirmed a nominal temperature profile (data not shown). The average temperature in the GC experiment was 24.8 ± 0.16°C, differing from the FL experiment by only 0.3°C. The HOBO unit in the GC experiment performed nominally for the entire 122 h duration of the experiment (Figure 1B).\n\nStaphylococcus epidermidis Growth and Frequency of Mutation to RifR in FL vs. GC\n\nViable counts of the cultures in all six PDFUs were determined for both FL and GC samples (Figure 2A). All S. epidermidis cultures grew to high titers in both FL and GC experiments, and viable counts were significantly higher in the GC cultures (Figure 2A). To determine the frequency of mutation to RifR, cells from the FL and GC cultures were concentrated by centrifugation and plated onto TSY + Rif. FL cultures of S. epidermidis exhibited a 24-fold higher frequency of mutation to RifR than did GC cultures, and this difference was found to be highly significant (Figure 2B).\n\nSpectrum of RifR rpoB Mutations in FL vs. GC Experiments in S. epidermidis\n\nChromosomal DNA was isolated from a total of 67 FL and 57 GC RifR mutants, and the N-cluster and Clusters I, II, and III of their rpoB genes were amplified by PCR and sequenced. The data are presented in Tables 2 and 3 and summarized graphically in Figure 3. Examination of the data revealed notable differences in the mutational spectrum within rpoB between the FL and GC samples.\n\nN-Cluster\n\nNo mutations were detected in the N-cluster of the S. epidermidis rpoB gene in either the FL or GC samples.\n\nCluster I\n\nAll of the RifR mutations identified in both FL and GC samples of S. epidermidis were found to occur in Cluster I (Table 2; Figure 3). In agreement with previous reports, the most common amino acid changes in Cluster I leading to RifR were found at amino acids Q469, H482, and S487. At codon Q469, both FL (3/8) and GC (4/4) samples exhibited C-to-A transversions in the first position leading to a Q469K substitution (Table 2; Figure 3). However, FL samples also exhibited two changes at the second position of codon Q469; an A-to-T transversion and an A-to-G transition, leading to the amino acid substitutions Q469L and Q469R, respectively (Table 2; Figure 3). Together, these two mutations accounted for 5/8, or 63% of the total mutations found in FL samples, but were not represented at all in GC samples.\n\nAt codon H482 were found the majority of RifR mutations in GC samples (40/57 total, or 70%). In comparing the spectrum of RifR mutations between FL and GC samples, it was observed that all of the RifR mutations identified in the GC samples were found to occur at the first position of codon H482, either C-to-G transversions leading to substitution H482Y (33/35, or 94%), or C-to-T transitions leading to H482D (2/35, or 6%). FL samples also exhibited these same mutations (4/6, or 67% for H482Y; 1/6 or 17% for H482D, respectively; Table 2; Figure 3). In addition, a single mutation was identified at the second position of codon H482 only in FL samples; this was an A-to-G transition resulting in an H482R substitution (Table 2; Figure 3).\n\nAt codon R485, G-to-A transitions were detected at the second position in both FL and GC samples, leading to an R485H amino acid substitution at a slightly higher frequency in GC samples (7/57 total, or 12%) than in FL samples (3/67 total, or 4.5%; Table 2; Figure 3).\n\nAt codon, S487 was found the majority of RifR mutations in FL samples (47/67 total, or 70%). The largest proportion of RifR mutations in both FL samples (42/47, or 89%) and GC samples (8/10, or 80%) were found to consist of C-to-T transitions at the second position, resulting in the S487F substitution (Table 2 and Figure 3). The remaining mutations at S487 consisted of C-to-T transitions at the second position, resulting in the amino acid substitution S487Y, found in 5/47 (11%) of FL samples and 2/10 (20%) of GC samples, respectively.\n\nDouble Mutations in FL Samples\n\nSequence analysis of RifR mutations in S. epidermidis rpoB revealed two double mutations in FL samples that were not detected in GC samples (Table 2 and Figure 3). The first resulted in the double amino acid change D472Y + S487C and the second resulted in the double amino acid change E461Q + Q469K. While the single amino acid changes D472Y and Q469K have both been associated with RifR in other species, namely E. coli and Bacillus subtilis, at present it is unclear if single mutations in rpoB leading to the E461Q or S487C substitutions by themselves can confer RifR in S. epidermidis.\n\nDistribution of RifR rpoB Mutations by PDFU\n\nExamination of Table 2 indicated that in some PDFUs an unusually high number of repeats of the same RifR mutant were found. For example, 12 out of 17 RifR mutants sequenced from FL PDFU-1 were S487F, and 7 out of 10 mutants sequenced from GC PDFU-2 were H482Y (Table 2). These data suggested that some of the populations in both FL and GC samples contained “jackpots,” i.e., cultures in which the progeny of early-arising RifR mutants became over-represented in the final culture, which may have skewed the results reported in Table 2 and their interpretation. We therefore re-analyzed the data by counting each type of mutation as either “present” (at least once) or “absent” in each PDFU, the results of which are presented in Table 3. When re-examined in this way, differences in the distribution of RifR mutants in FL vs. GC samples were still apparent. For example, the Q469L mutation was found in three FL PDFUs, but in zero GC PDFUs (Table 3). Conversely, present in nearly all GC PDFUs were the H482Y (6/6) and R485H (5/6) mutations but these mutations were present in only two FL PDFUs (Table 3). In addition, it appeared that the mutation leading to S487F was predominant in both FL (6/6) and GC (5/6) PDFUs, suggesting that mutation at this site was not affected by spaceflight (Table 3).\n\nTransition vs. Transversion Mutations in FL and GC Samples\n\nAs reported above, differences were observed in the location of rpoB mutations in FL vs. GC samples in S. epidermidis RifR mutants. These observations prompted us to examine the nature of nucleotide changes (i.e., transition vs. transversion mutations) in cells cultivated in spaceflight and on the ground. Examination of the distribution of transitions and transversions in S. epidermidis samples revealed the G:A and C:T transitions, and C:A and C:G transversions, were found both in FL and GC samples (Table 3). However, FL samples also exhibited A:G transitions and A:T, G:T, and G:C transversions that were not found in GC samples. Thus, the spectrum of mutational classes (transitions vs. transversions) was also altered in FL vs. GC samples.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "antibiotic resistance",
+    "mutation",
+    "rpoB",
+    "rifampicin",
+    "Staphylococcus epidermidis",
+    "space flight",
+    "Microbiology",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Rifampicin-resistance, rpoB polymorphism and RNA polymerase genetic engineering.",
+      "authors": [
+        "P. Alifano",
+        "C. Palumbo",
+        "D. Pasanisi",
+        "A. Talà"
+      ]
+    },
+    {
+      "title": "Simulation of microgravity for studies in gravitational biology: principles, devices, and applications.",
+      "authors": [
+        "R. Anken"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": [
+        "J. R. Ball",
+        "C. H. J. Evans"
+      ]
+    },
+    {
+      "title": "Microgravity, bacteria, and influence of motility.",
+      "authors": [
+        "M. R. Benoit",
+        "D. M. Klaus"
+      ]
+    },
+    {
+      "title": "Structural mechanism for rifampicin inhibition of bacterial RNA polymerase.",
+      "authors": [
+        "E. Campbell",
+        "N. Korzheva",
+        "A. Mustaev",
+        "K. Murakami",
+        "S. Nair",
+        "A. Goldfarb"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities.",
+      "authors": [
+        "A. Checinska",
+        "A. J. Probst",
+        "P. Vaishampayan",
+        "J. R. White",
+        "D. Kumar",
+        "V. G. Stepanov"
+      ]
+    },
+    {
+      "title": "The human microbiome: at the interface of health and disease.",
+      "authors": [
+        "I. Cho",
+        "M. J. Blaser"
+      ]
+    },
+    {
+      "title": "Terrestrial stress analogs for spaceflight associated immune system dysregulation.",
+      "authors": [
+        "B. Crucian",
+        "R. J. Simpson",
+        "S. Mehta",
+        "R. Stowe",
+        "A. Chouker",
+        "S. A. Hwang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "B. Crucian",
+        "R. P. Stowe",
+        "C. M. Ott",
+        "J. L. Becker",
+        "R. Haddon",
+        "K. A. McMonigal"
+      ]
+    },
+    {
+      "title": "Delayed repair of radiation induced clustered DNA damage: friend or foe?",
+      "authors": [
+        "L. J. Eccles",
+        "P. O’Neill",
+        "M. E. Lomax"
+      ]
+    },
+    {
+      "title": "Differing responses in growth and spontaneous mutation to antibiotic resistance in Bacillus subtilis and Staphylococcus epidermidis cells exposed to simulated microgravity.",
+      "authors": [
+        "P. Fajardo-Cavazos",
+        "R. Narvel",
+        "W. L. Nicholson"
+      ]
+    },
+    {
+      "title": "Methods for determining spontaneous mutation rates.",
+      "authors": [
+        "P. L. Foster"
+      ]
+    },
+    {
+      "title": "Mutation as a stress response and the regulation of evolvability.",
+      "authors": [
+        "R. Galhardo",
+        "P. Hastings",
+        "S. Rosenberg"
+      ]
+    },
+    {
+      "title": "Could spaceflight-associated immune system weakening preclude the expansion of human presence beyond Earth’s orbit?",
+      "authors": [
+        "N. Guéguinou",
+        "C. Huin-Schohn",
+        "M. Bascove",
+        "J. L. Bueb",
+        "E. Tschirhart",
+        "C. Legrand-Frossi"
+      ]
+    },
+    {
+      "title": "Space microbiology.",
+      "authors": [
+        "G. Horneck",
+        "D. M. Klaus",
+        "R. L. Mancinelli"
+      ]
+    },
+    {
+      "title": "Microbiological status of cosmonauts during orbital spaceflights on Salyut and Mir orbital stations.",
+      "authors": [
+        "V. K. Ilyin"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Effect of spaceflight on Pseudomonas aeruginosa final cell density is modulated by nutrient and oxygen availability.",
+      "authors": [
+        "W. Kim",
+        "F. K. Tengra",
+        "J. Shong",
+        "N. Marchand",
+        "H. K. Chan",
+        "Z. Young"
+      ]
+    },
+    {
+      "title": "Antibiotic efficacy and microbial virulence during space flight.",
+      "authors": [
+        "D. M. Klaus",
+        "H. N. Howard"
+      ]
+    },
+    {
+      "title": "Antibiotic activity in space.",
+      "authors": [
+        "L. Lapchine",
+        "N. Moatti",
+        "G. Gasset",
+        "G. Richoilley",
+        "J. Templier",
+        "R. Tixador"
+      ]
+    },
+    {
+      "title": "Novel rpoB mutations conferring rifampin resistance on Bacillus subtilis: global effects on growth, competence, sporulation, and germination.",
+      "authors": [
+        "H. Maughan",
+        "B. Galeano",
+        "W. L. Nicholson"
+      ]
+    },
+    {
+      "title": "Multiple latent viruses reactivate in astronauts during Space Shuttle missions.",
+      "authors": [
+        "S. K. Mehta",
+        "M. L. Laudenslager",
+        "R. P. Stowe",
+        "B. E. Crucian",
+        "C. F. Sams",
+        "D. L. Pierson"
+      ]
+    },
+    {
+      "title": "Role of altered rpoB alleles in Bacillus subtilis sporulation and spore resistance to heat, hydrogen peroxide, formaldehyde, and glutaraldehyde.",
+      "authors": [
+        "R. Moeller",
+        "I. Vlašič",
+        "G. Reitz",
+        "W. L. Nicholson"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "The spectrum of spontaneous rifampin resistance mutations in the rpoB gene of Bacillus subtilis 168 spores differs from that of vegetative cells and resembles that of Mycobacterium tuberculosis.",
+      "authors": [
+        "W. L. Nicholson",
+        "H. Maughan"
+      ]
+    },
+    {
+      "title": "Anaerobic growth of Bacillus subtilis alters the spectrum of spontaneous mutations in the rpoB gene leading to rifampicin resistance.",
+      "authors": [
+        "W. L. Nicholson",
+        "R. Park"
+      ]
+    },
+    {
+      "title": "Low-shear modeled microgravity: a global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis.",
+      "authors": [
+        "C. A. Nickerson",
+        "C. M. Ott",
+        "J. W. Wilson",
+        "R. Ramamurthy",
+        "C. L. LeBlanc",
+        "K. Höner zu Bentrup"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments.",
+      "authors": [
+        "C. A. Nickerson",
+        "C. M. Ott",
+        "J. W. Wilson",
+        "R. Ramamurthy",
+        "D. L. Pierson"
+      ]
+    },
+    {
+      "title": "Review of the knowledge of microbial contamination of the Russian manned spacecraft.",
+      "authors": [
+        "N. D. Novikova"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Microbial stress: spaceflight-induced alterations in microbial virulence and infectious disease risks for the crew",
+      "authors": [
+        "C. M. Ott",
+        "A. Crabbé",
+        "J. W. Wilson",
+        "J. Barrila",
+        "S. L. Castro",
+        "C. A. Nickerson",
+        "A. Chouker"
+      ]
+    },
+    {
+      "title": "Spaceflight transcriptomes: unique responses to a novel environment.",
+      "authors": [
+        "A. L. Paul",
+        "A. K. Zupanska",
+        "D. T. Ostrow",
+        "Y. Zhang",
+        "Y. Sun",
+        "J. L. Li"
+      ]
+    },
+    {
+      "title": "Uncovering new metabolic capabilities of Bacillus subtilis using phenotype profiling of rifampin-resistant rpoB mutants.",
+      "authors": [
+        "A. E. Perkins",
+        "W. L. Nicholson"
+      ]
+    },
+    {
+      "title": "Isolation of rpoB mutations causing rifampicin resistance in Bacillus subtilis spores exposed to simulated martian surface conditions.",
+      "authors": [
+        "A. E. Perkins",
+        "A. C. Schuerger",
+        "W. L. Nicholson"
+      ]
+    },
+    {
+      "title": "NUNDO: a numerical model of a human torso phantom and its application to effective dose equivalent calculations for astronauts at the ISS.",
+      "authors": [
+        "M. Puchalska",
+        "P. Bilski",
+        "T. Berger",
+        "M. Hajek",
+        "T. Horwacik",
+        "C. Körner"
+      ]
+    },
+    {
+      "title": "Characteristic of the radiation field in low Earth orbit and in deep space.",
+      "authors": [
+        "G. Reitz"
+      ]
+    },
+    {
+      "title": "Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens.",
+      "authors": [
+        "J. A. Rosenzweig",
+        "S. Ahmed",
+        "J. Eunson",
+        "A. K. Chopra"
+      ]
+    },
+    {
+      "title": "The human in space: lesson from ISS",
+      "authors": [
+        "C. F. Sams"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "C. E. H. Scott-Conner",
+        "D. R. Masys",
+        "C. T. Liverman",
+        "M. A. McCoy",
+        "Rapporteurs"
+      ]
+    },
+    {
+      "title": "Rifampicin region revisited – new rifampicin-resistant and streptolidigin-resistant mutants in the beta-subunit of Escherichia coli RNA polymerase.",
+      "authors": [
+        "K. Severinov",
+        "M. Soushko",
+        "A. Goldfarb",
+        "V. Nikiforov"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility.",
+      "authors": [
+        "P. W. Taylor"
+      ]
+    },
+    {
+      "title": "Towards rational treatment of bacterial infections during extended space travel.",
+      "authors": [
+        "P. W. Taylor",
+        "A. P. Sommer"
+      ]
+    },
+    {
+      "title": "Behavior of bacteria and antibiotics under space conditions.",
+      "authors": [
+        "R. Tixador",
+        "G. Gasset",
+        "B. Eche",
+        "N. Moatti",
+        "L. Lapchine",
+        "C. Woldringh"
+      ]
+    },
+    {
+      "title": "Study of minimal inhibitory concentration of antibiotics on bacteria cultivated in vitro in space (Cytos 2 experiment).",
+      "authors": [
+        "R. Tixador",
+        "G. Richoilley",
+        "G. Gasset",
+        "J. Templier",
+        "J. C. Bes",
+        "N. Moatti"
+      ]
+    },
+    {
+      "title": "Microbial detection and monitoring in advanced life support systems like the International Space Station.",
+      "authors": [
+        "S. P. van Tongeren",
+        "J. Krooneman",
+        "G. C. Raangs",
+        "G. W. Welling",
+        "H. Harmsen"
+      ]
+    },
+    {
+      "title": "International Space Station environmental microbiome – microbial inventories of ISS filter debris.",
+      "authors": [
+        "K. Venkateswaran",
+        "P. Vaishampayan",
+        "J. Cisneros",
+        "D. L. Pierson",
+        "S. O. Rogers",
+        "J. Perry"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "V. E. Wotring"
+      ]
+    },
+    {
+      "title": "rpsL mutation induction after space flight on MIR.",
+      "authors": [
+        "F. Yatagai",
+        "T. Saito",
+        "A. Takahashi",
+        "A. Fujie",
+        "S. Nagaoka",
+        "M. Sato"
+      ]
+    },
+    {
+      "title": "Measurements of energetic particle radiation in transit to Mars on the Mars Science Laboratory.",
+      "authors": [
+        "C. Zeitlin",
+        "D. M. Hassler",
+        "F. A. Cucinotta",
+        "B. Ehresmann",
+        "R. F. Wimmer-Schweingruber",
+        "D. E. Brinza"
+      ]
+    }
+  ],
+  "original_title": "Cultivation of Staphylococcus epidermidis in the human spaceflight environment leads to alterations in the frequency and spectrum of spontaneous rifampicin-resistance mutations in the rpoB gene",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cdc/4923109/87f4e8902871/fmicb-07-00999-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cdc/4923109/a9c9d53aaccb/fmicb-07-00999-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6cdc/4923109/9fb04a0b04ff/fmicb-07-00999-g003.jpg"
+  ]
+}

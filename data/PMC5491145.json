@@ -1,0 +1,693 @@
+{
+  "pmcid": "PMC5491145",
+  "title": "Genetic dissection of the Arabidopsis spaceflight transcriptome: Are some responses dispensable for the physiological adaptation of plants to spaceflight?",
+  "abstract": "Experimentation on the International Space Station has reached the stage where repeated and nuanced transcriptome studies are beginning to illuminate the structural and metabolic differences between plants grown in space compared to plants on the Earth. Genes that are important in establishing the spaceflight responses are being identified, their roles in spaceflight physiological adaptation are increasingly understood, and the fact that different genotypes adapt differently is recognized. However, the basic question of whether these spaceflight responses are actually required for survival has yet to be posed, and the fundamental notion that spaceflight responses may be non-adaptive has yet to be explored. Therefore the experiments presented here were designed to ask if portions of the plant spaceflight response can be genetically removed without causing loss of spaceflight survival and without causing increased stress responses. The CARA experiment compared the spaceflight transcriptome responses in the root tips of two Arabidopsis ecotypes, Col-0 and WS, as well as that of a PhyD mutant of Col-0. When grown with the ambient light of the ISS, phyD plants displayed a significantly reduced spaceflight transcriptome response compared to Col-0, suggesting that altering the activity of a single gene can actually improve spaceflight adaptation by reducing the transcriptome cost of physiological adaptation. The WS genotype showed an even simpler spaceflight transcriptome response in the ambient light of the ISS, more broadly indicating that the plant genotype can be manipulated to reduce the cost of spaceflight adaptation, as measured by transcriptional response. These differential genotypic responses suggest that genetic manipulation could further reduce, or perhaps eliminate the metabolic cost of spaceflight adaptation. When plants were germinated and then left in the dark on the ISS, the WS genotype actually mounted a larger transcriptome response than Col-0, suggesting that the in-space light environment affects physiological adaptation, which implies that manipulating the local habitat can also substantially impact the metabolic cost of spaceflight adaptation.",
+  "introduction": "Introduction\n\nPlants, as much as any other complex eukaryotic organisms, mount specific transcriptional responses to an environment in order to accomplish physiological adaptation and survival in that environment. Heat shock, salt, cold, drought and hypoxia are among the most well studied environmental responses in plants, and mutant studies of these responses have been key to showing that a given aspect of the response is necessary and appropriate for survival (e.g.). However, in each of these examples, the environmental stress was a part of the evolutionary history of plants and the development of a stress response for survival seems logically appropriate. Knocking out those appropriate responses has a negative effect on survival under that environmental stress (e.g.), and manipulation of the response can modify the degree of stress that can be overcome (e.g.). Spaceflight, however, presents an environmental situation that is well outside of the evolutionary history of plants, wherein plants have had no exposure to develop adaptive strategies, and this situation creates the possibility that environmental signals in spaceflight could be inappropriately activating non-adaptive responses.\n\nThe possibility of non-adaptive responses to spaceflight presents an added dimension to the goal of understanding plant growth in space and the fundamental biological questions of adaptation to truly novel environments. What is the measure of successful adaptation to a new environment? Is it possible to gauge the impact of a novel environment on the basis of molecular responses? Can inappropriate responses be genetically removed, thereby reducing the transcriptome costs of developing appropriate adaptation responses? In this study, these questions were explored simply on the basis of measuring the intensity and complexity of the patterns of differential gene expression in response to spaceflight in different genotypes. The data presented here look at a very specific set of cells–the last 2 mm of the primary root of Arabidopsis (Arabidopsis thaliana), which represents the primary gravity-sensing region of the plant root (e.g.. These data compared specific genotypes in order to dissect the spaceflight responses of plants as they germinated and continued their development on the International Space Station. These plants were not undergoing transitional physiological adaptation to a new environment, but rather, from the moment of germination, they experienced an environment that is outside the evolutionary experience of any terrestrial organism.\n\nThis study therefore identifies the genes engaged by the cells of the root tip in the spaceflight environment compared to similar plants on the ground, and then asks how variations in genetic background, and the lighting sub-environment on the International Space Station, impact the differential expression of genes.\n\nThe experimental design extrapolates primarily from the APEX01 (Advanced Plant Experiment 01) Arabidopsis spaceflight experiment. APEX01 illustrated that during spaceflight in microgravity, Arabidopsis plants utilized the gradient of light established in the growth hardware to orient the directional axis of growth, and demonstrated unique, genotype-specific patterns of root growth. On the ground, the roots grew vertically down the surface of the plate, but surprisingly, so did the roots on orbit, but not straight “down” in a negatively phototropic direction; the roots instead progressed in a distinctive skewing pattern, such as seen on Earth when grown on tilted surfaces (e.g.. The skewing growth pattern was interesting from the perspective that skewing was long thought to require gravity, but also from the perspective that the two genotypes flown–Wassilewskija (WS) and Columbia-0 (Col-0)–exhibited distinctly different skewing morphometrics, which were enhanced over what was typical on the ground. WS and Col-0 are genotypically distinct and therefore possess potentially different tools to respond to any given set of environments. Spaceflight studies by Blancaflor and colleagues demonstrated that Col-0 skews more dramatically in the dark than in the light, and that genes associated with the actin cytoskeleton can impact root morphology in microgravity. Spaceflight studies by Kiss and colleagues established that the interplay of specific wavelengths of light and manipulation of light-receptor genes can have a dramatic impact on the morphology of seedling growth in microgravity and fractional gravity, and have shown that the Arabidopsis cultivar Landsberg also exhibits skewing. Light plays a larger role in root behavior in the spaceflight environment, and nuanced impact of the genomic background appears to be more easily revealed when gravity is not the dominant tropic force acting on the plant.\n\nAmong the genes that differ between WS and Col-0 is phytochrome D (PhyD), which encodes a PHYB-like member of the family. PHYD appears to work in conjunction with PHYB for shade avoidance in terrestrial habitats, but appears to have virtually no role in gravitropism. However, although WS lacks PhyD transcription it does contain normal levels of PhyA, PhyB, and PhyC. There is considerable overlap in the roles of the members of the phytochrome family, but a mutation in PhyD in a Col-0 background mimics some of the phenotypic features of the WS ecotype (e.g.). The role of PhyD in shade avoidance, and also its lack of a role in gravity sensing, contributed to our interest in the gene, but the fact that the deletion of a single, seemingly inconsequential gene in Col-0 could also phenocopy features of the wild-type WS cultivar was especially intriguing, and led us to choose the Col-0 phyD line for inclusion in a transcriptome comparison of the wild type WS and Col-0 genotypes in the spaceflight environment.\n\nThe experiment described here examined the influence of genotype on the physiological adaptation to spaceflight as measured by gene expression patterns. RNAseq transcriptome profiling provided the metric by which to measure the impact of the environment, and address whether it is possible to eliminate all or part of the spaceflight response by manipulating the genotype of the plant.",
+  "methods": "Materials and methods\n\nCARA experiment seed lines and planting\n\nThree seed lines wild-types Wassilewskija (WS), Columbia-0 (Col-0) and Col-0 PhyD (phyD) (SALK_027956C) were tested for viability, sterility and the ability to maintain dormancy before launch. Vetted batches of seeds were planted on Phytagel plates. One genotype was planted per plate, and six plates were planted of each genotype. One complete set of 18 plates was planted for growth on the International Space Station (ISS), and a comparable set of 18 plates was planted 24 hours later for the ground controls. The plates were wrapped such that every surface of the plate was covered by at least two layers of Duvetyne Black-Out cloth (Seattle Fabrics) to help preserve dormancy. The plates were stored at 4°C until launch (six days). All seed lines are available through TAIR (https://www.arabidopsis.org/).\n\nLaunch, orbital operations of flight and ground control plates\n\nThe plates of the CARA experiment launched in a cold-stow bag to maintain the plates at 4°C within the Dragon Capsule. Launch of SpaceX CRS-3 occurred on April 18th, 2014 to the ISS (increment 39). The cargo Dragon Capsule was carried by a Falcon 9 rocket launched from Complex 40, Cape Canaveral Air Force Station, Florida. CARA is also identified by the NASA operations nomenclature (OpNom) of “Petri Plants”, and was one of the ARK1 payloads flown by the Center for Advancement of Science in Space (CASIS) (http://www.nasa.gov/mission_pages/station/research/experiments/1064.html). The astronaut attending the experiment on the ISS was Expedition 39 Flight Engineer Steve Swanson.\n\nThe dormant plates were activated on the ISS by bringing them out of cold stowage and removing the Black-Out cloth wrapping, 12 days after launch. The plates were then secured to a fabric support affixed to the wall in the US Lab of the Destiny module (Fig 1). The plants were allowed to grow on orbit for 11 days; some in the ambient light of ISS and some in the dark. A standard light meter was not available on the ISS, so ambient light levels were approximated through the use of iPad (iPad3, iOS 5.1.1) application “Light Meter HD- lux measurement tool”, which was executed by astronaut Steve Swanson. It was estimated that the light-grown plates received between 4–6 μmoles m-2 s-1 total light. The dark-grown plates were first activated by exposure to light, (the Black-Out cloth was removed from the designated plates for 4 hours), and then re-wrapped in Black-Out cloth for the duration of the growth period.\n\nAt 11 days, seedlings were photographed, and then harvested into Kennedy Space Center Fixation Tubes (KFTs) containing RNAlater. The plants were allowed to perfuse for 12–18 hours at ambient temperature within the KFTs, and then the KFTs were transferred to the MELFI (Minus Eighty-degree Laboratory Freezer for ISS). The frozen KFTs were returned to cold stowage within the Dragon Capsule at the end of the docked operations period, and were returned to Earth on May 18, 2014. Following the Dragon Capsule splashdown in the Pacific Ocean, the frozen KFTs were transferred to the Cold Stowage charter plane at the Long Beach Airport, placed into an insulated shipper with dry ice, and flown to Johnson Space Center (JSC). The KFTs were then transferred via FedEx ground to the Kennedy Space Center. The KFTs were removed from dry ice and transferred to a -80°C freezer on May 22, 2014. The PIs retrieved the plant samples from the KFTs on May 29, 2014 and transferred the frozen samples back to the University of Florida.\n\nA comparable set of plates and operations comprised the experimental control set (referred to as the ground control). The plates of the ground control were grown at Kennedy Space Center (KSC) within the ISS Environment Simulator (ISSES) Chamber. The ground control was initiated 24 hours after the initiation of the spaceflight experiment to facilitate the programing the ISSES Chamber with the ISS environmental conditions experienced by the flight plates in the prior 24 hours. The environmental parameters that were monitored and then programed into the ISSES chamber included temperature, CO2 and relative humidity. In addition, the lighting in the ISSES chamber was adjusted to recapitulate the light levels being experienced by the plants on orbit. Light measurements in the ISSES chamber were taken with the same iPad model and operating system (iPad3, iOS 5.1.1) used on the ISS, with the “Light Meter HD- lux measurement tool” application.\n\nSample preparation for transcriptomics\n\nSeedlings preserved in RNAlater were removed from -80°C storage and then allowed to thaw at 4°C. The focus of the current study was restricted to the organ defined by the root tip, which was defined as the last 2mm of the root for the light-grown plants and the last 1mm for the dark-grown plants. The root tips were dissected from the intact plant roots while remaining submerged in RNAlater, and kept at or below 4°C until RNA extractions.\n\nThree independent roots were used as biological replicates for the transcriptomic analysis. Dissected root tips were transferred into pre-labeled micro-centrifuge tubes, flash frozen in liquid nitrogen, and total RNA extracted using the Picopure RNA isolation kit (Arcturus®, Life technologies). RNA concentration was determined on a Qubit platform (Thermo Fisher/Life Technologies, Inc) and sample quality was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies, Inc.). Five ng RNA from each sample was used for RNA sequencing.\n\nSequencing experiments were performed at the Interdisciplinary Center for Biotechnology Research (ICBR) gene expression and sequencing core, University of Florida. Initial data analysis was performed at the ICBR bioinformatics core, University of Florida.\n\nLibrary preparation and Illumina sequencing\n\nRNASeq libraries preparation using SMART-Seq V4 ultra low input RNA kit for sequencing combined with Illumina Nextera DNA Sample Preparation Kit\n\nFive ng of total RNA was used for each cDNA library construction using the CloneTech SMART-Seq V4 ultra low input RNA kit for sequencing (Clontech Laboratories, Inc, cat#: 634890) according to the manufacturer's protocol. Briefly, first strand cDNA was primed by the SMART-Seq v4 oligonucleotide and then base-pairs with these additional nucleotides, creating an extended template. The reverse transcriptase then switched templates and continued transcribing to the end of the oligonucleotide, resulting in full-length cDNA that contains an anchor sequence, which served as a universal priming site for second strand synthesis. cDNA was amplified with primer II A for 9 PCR cycles. Then Illumina sequencing libraries were generated with 120 pg of cDNA using Illumina Nextera DNA Sample Preparation Kit (Cat#: FC-131-1024) according to manufacturer’s instructions. Briefly, 120 pg of cDNA was used as input for the Nextera tagmentation reaction (fragmentation and tagging) and then adapter sequences added onto template cDNA by PCR amplification. Libraries were quantitated by Bioanalyzer and qPCR (Kapa Biosystems, catalog number: KK4824). Finally, the libraries were pooled equal molar concentration and sequenced by Illumina 2X75 NextSeq 500.\n\nNextSeq500 sequencing: RNA seq\n\nIn preparation for sequencing, barcoded libraries were sized on the Bioanalyzer, and quantified by QUBIT and qPCR (Kapa Biosystems, catalog number: KK4824). Individual samples were pooled equimolarly at 4 nM. This working pool was used as input in the NextSeq500 instrument sample preparation protocol (Illumina, Part # 15048776, Rev A). Typically, a 1.3 pM library concentration resulted in optimum clustering density (approximately 200,000 clusters per mm2). Samples were sequenced on three flowcells, using a 2x75 cycles (paired-end) configuration. A typical sequencing run in the NextSeq500 produced 750–800 million paired-end read with a Q30> = 85%. For RNA seq, around 40 million reads provided sufficient depth for transcriptome analysis.\n\nMapping reads to genome data, annotated transcripts, and profiling of gene expression\n\nThe paired end reads were mapped to the Arabidopsis thaliana var. Col-0 reference genome (TAIR10) using Spliced Transcripts Alignment to a Reference (STAR) software. Multi-step process of transcriptome assembly and differential expression analysis was done using the Cufflinks tool. Reads that map to each transcript were counted and normalized based on fragment length and total reads. Normalized counts were expressed in terms of FPKM values (fragments per kilobase of transcript per million mapped fragments). FPKM is directly proportional to abundance of the transcript. The expression data were generated at a False Discovery Rate = 0.05 (FDR). At this FDR, a total of 33,999 genes were tested.\n\nCluster analyses and genome annotation\n\nThe cluster analyses used in all heatmaps were generated with GeneE (https://software.broadinstitute.org/GENE-E/). The clusters were generated using only genes that were assigned Atg numbers and called significant by the cuffdiff analysis (FDR 0.05), and were differentially expressed by at least two-fold (+/- 1 log2). For each cluster analysis, genes that showed significant differential expression in at least one comparison were sorted according to their Atg numbers and hierarchical clustering using Jaccard distance. Genes with a differential expression value of less than two-fold, and genes that have an FDR > 0.05 are depicted in gray. The fold-change color scale on the heatmaps ranges from -3 log2 (down 8-fold) to +3 log2 (up 8-fold). Genes with a differential expression value greater than 8-fold will be depicted with the same hue as for an 8-fold change. Gene annotations and functional relationships we obtained through ATTED-II (http://atted.jp/).\n\nAvailability of data\n\nThe datasets supporting the conclusions of this article are available in the Gene Expression Omnibus (GEO) repository, Series GSE94983 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94983). In addition, the gene expression data and spaceflight-relevant metadata are deposited with NASA’s GeneLab repository (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-120).",
+  "results": "Results\n\nPlant growth and development in the open ISS habitat\n\nIn contrast to the focused lighting and environmentally controlled habitat used in the APEX01 experiment, the CARA Petri plates were deployed to a wall inside the Destiny module of the ISS, where they received just the ambient, low level, indirect lighting of the module. It was not possible to completely eliminate all lighting gradients, as the surface of the Petri plate mounted on the wall (both on the ISS and in the ISSES chamber for the ground controls) will naturally not receive ambient light through the surface flush to the wall. The plates also received the ambient cabin air, temperature and humidity (Fig 1A). The design of the experiment included a set of light-grown plates and dark-grown plates, with three replicate plates of each genotype (WS, Col-0 and phyD) in each condition. All of the plates were configured to keep the seeds in a dormant state until integration on the ISS, a process that included protecting the seeds from light with black cloth wrappings. Thus, the first action of the astronaut was to expose all of the plates to light to activate germination (Fig 1A) and then to re-wrap the dark-grown plates in light-proof cloth (Fig 1B). Identical procedures were initiated in the comparable ground controls grown in the ISSES chamber (Fig 1C and 1D).\n\nDevelopment without clear directional cues\n\nThe developmental progress of plant growth was followed through a series of photographs taken by the attending astronaut on the ISS, and by the attending technician at KSC, providing an independent “pseudonaut” on the ground in order to mimic astronaut activities on the ISS. The photographs in Fig 2 show representative images that compared the progress of growth after 3d, 6d and 9d for each genotype. The photographs were taken through the back of each plate. The region of interest was cropped from each astronaut-captured photograph to better display the progress of plant development. The full, uncropped, photographs are deposited in the NASA GeneLab database (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-120). The spaceflight-grown plants are shown in the left-hand column (Flight).\n\nIn spaceflight, the diffuse light elicited root growth that was primarily perpendicular to the orientation of vegetative growth, in that the hypocotyls were growing away from the surface of the media, and the roots grew in coils along the surface of the solid media of the plate. This configuration of plant growth closely resembles patterns seen in plates grown horizontally on the ground (Phytagel surface parallel to Earth’s surface). However, unlike horizontal growth in a unit gravity environment, the root coils were loose and somewhat unorganized. In contrast, the roots of the ground control plants shown in the right-hand column (Ground) grew in a clear, positively gravitropic manner along the surface of the plate media. As described in the Methods section, the ground control plates were oriented vertically (Phytagel surface perpendicular to the Earth’s surface), a growth configuration that encourages root growth along the surface of the Phytagel in a reasonably straight, positively geotropic manner. The hypocotyls were generally oriented in a negatively geotropic manner, but were also angled away from the less well-lit surface of the plate adjacent to the wall, towards the relatively lighter environment of the room. These types of spaceflight growth patterns are distinctly different from what has been seen in the high-light plant growth hardware of Veggie and the strong, directional lighting of the ABRS hardware.\n\nThe developmental image series in Fig 2 shows that both the spaceflight (left column) and ground control (right column) plants of all three genotypes were virtually identical in terms of apparent health, vigor, and developmental age within each environment. However, due to the rather dim lighting environment, neither the light-grown spaceflight nor light-grown ground control plants had the developmental appearance Arabidopsis plants of comparable ages grown in the more optimal lighting regimes of the ABRS and Veggie plant growth habitats.\n\nFinal photographs of the plants were taken after 11 days of growth, and then the plants were harvested to KFTs (Kennedy Space Center Fixation Tubes) containing RNAlater. Fig 3 shows the photographs taken just prior to harvest. These photographs were taken from the front surface with the plate lid removed. The light-grown plants are shown in Fig 3A. The 11 day spaceflight seedlings (Flight) are shown on the left, and the comparable ground controls (Ground) are shown on the right. The dark-grown plants are shown in Fig 3B, again with the spaceflight grown plants on the left, and the ground controls on the right. There are some minor morphological differences in the manner in which the different genotypes grow, but these differences in coiling and skewing are well characterized features of each genotype, and consistent with morphometric evaluations from previous spaceflight experiments (e.g.).\n\nAll three genotypes were healthy on orbit as judged by appearance in the photographs of Fig 3, and all three genotypes were equally productive on orbit as determined by analysis of root length in Fig 4. These observations suggest that regardless of the gene expression changes among these genotypes, all three were equally able to adapt to spaceflight. Root length was chosen as a key, quantifiable trait for plant productivity in light-grown plants; root length has been associated with plant health and crop success, and the photos taken on the ISS provide clear resolution of root growth. Fig 4 compares the root length of each genotype in both spaceflight and ground control environments derived from the images. Root measurements were made using ImageJ, and the data were analyzed using R and two-way ANOVAs with Type II sum of squares to compare the independent variables of genotype and environment. When grown in the light, only WS grown on the ground was significantly different from any other combination of genotype and environment (F2,310 = 12.112, p<0.001), WS, Col-0 and phyD were not different from each other with regards to root length in spaceflight.\n\nGenotype matters in spaceflight transcriptional responses\n\nThe transcriptional response that each genotype mounted in their respective environments was very distinct. The Venn diagrams of Fig 5 provide an overview of the Spaceflight to Ground root-tip transcriptome comparisons of each genotype; values from light-grown plants are shown in Fig 5A, and dark-grown plants in Fig 5B. The size of the Venn circles are to scale with respect to the numbers of differentially expressed genes. The genes that comprise the list show at least a two-fold change (-1<log2<1) with FDR<0.05. The greatest difference in the transcriptomes of spaceflight and ground control plants was seen in light-grown Col-0 plants, with a total of 297 genes. The spaceflight to ground differences in the other two light-grown genotypes were a total of 130 in phyD, and then only 71 in the WS genotype. A fourth (18/71) of the WS differentially expressed genes were also coordinately expressed in the other two genotypes. Almost all (6/7) of the coordinately expressed genes that were downregulated compared to the ground controls were associated with light signaling. In the upregulated genes, about half (6/11) were associated with plant defense or cell wall metabolism.\n\nIn the dark-grown plants, the distribution of differentially expressed genes between spaceflight and ground is quite different than was seen in the light-grown plants. In the dark, the WS and Col-0 cultivars showed roughly the same number of differentially expressed genes (218 and 224, respectively. In the dark, phyD exhibited the fewest differentially expressed genes (131). There were fewer coordinately expressed genes common to all genotypes (only 11). The single down regulated gene was associated with methionine biosynthesis, and two of the 10 upregulated genes have been associated with plant defense or cell wall metabolism.\n\nAmong the three genotypes, 129 genes were differentially expressed in both the light and the dark (Supporting S1 Table). However, only one gene was coordinately expressed in both the light and the dark in all three genotypes: ATARD3 (AT2G26400—Acireductone Dioxygenase 3). There were also a small number of genes that while overlapping in significant, differential expression between genotypes, rather than being coordinately expressed they were changed in the opposite direction. These genes (11 in the light and 17 in the dark) are not included among the genes represented in the Venn Diagram of Fig 5.\n\nGenes associated with cell wall metabolism seemed prevalent among the differentially expressed genes. In order to create a standardized evaluation of the number of genes representing cell wall associated process, the differentially expressed gene sets used in Fig 5 were cross-referenced with two cell wall databases: the Purdue University Cell Wall Related Gene Families data sets (https://cellwall.genomics.purdue.edu/families/index.html) and the SUBcellular localization database for Arabidopsis proteins (SUBA3—http://suba3.plantenergy.uwa.edu.au/). Genes were considered as cell wall associated if they were identified as such in either database. For graphic visualization, the numbers of genes identified with these comparisons are indicated as black dots within each Venn section in Fig 5. In addition, each gene ID number is identified with bold text and gold highlighting in the fully annotated Supplementary S2 and S3 Tables.\n\nTranscriptional responses between flight and ground\n\nThe genes enumerated in the Venn diagram of Fig 5 are shown as transcriptome heat-maps in Fig 6, in order to illustrate the distribution of differential expression among the genotypes along with fold-change. Fig 6 presents two sets of transcriptome heat maps that compare the patterns of gene expression between spaceflight and the equivalent ground controls for each genotype in the Light (Fig 6A) and in the Dark (Fig 6B). The heat maps were generated with GeneE software, utilizing statistically significant (FDR<0.05) expressed genes with differential expression of at least two-fold (-1<log2<1) in at least one comparison. The genes were sorted by Atg number, and hierarchical clustering was established using Jaccard distance. Each row of the heat map within each treatment (6A and 6B, respectively) corresponds to the same gene within each genotype. Significantly down regulated genes are indicated in green and significantly upregulated are in red. Genes depicted as gray did not meet either the fold-change or FDR criteria within that genotype. The gene rows are not collinear between 6A and 6B, but each heat map is presented to the same vertical scale. In the light, there were a total of 394 genes that were significantly, differentially expressed by at least two-fold in at least one genotype, and in the dark there were 461. Both the Light and Dark heat maps are annotated with the gene ID for selected cell wall-associated genes represented in the clusters of genes unique to a single genotype. The fully annotated heat maps can be found in Supporting S2 Table (FLT vs GC–Light) and Supporting S3 Table (FLT vs GC–Dark). In the Supporting tables, gene entries that have been associated with the cell wall (criteria described above) are indicated in bold text, and the gene ID number has been highlighted in gold.\n\nIn the light, the physiological adaptation of cultivar WS to the spaceflight environment required the fewest number of changes in gene expression, while cultivar Col-0 required about five times as many changes in gene expression. The mutation of the PhyD gene in Col-0 resulted in an almost 3-fold reduction in the number of differentially expressed genes in response to spaceflight. As presented in the Venn Diagrams of Fig 5, there were very few genes that were coordinately expressed among all three genotypes, and differentially expressed genes held in common between even two genotypes were also scarce.\n\nThe differentially expressed genes unique to each genotype were more abundant than those differentially expressed genes that were shared with another genotype. In the light, the upregulated differentially expressed genes unique to WS were largely associated with the cell wall, and processes in root hairs, including pathogen responses and development. The unique downregulated genes largely encoded transporters, along with several associated with plant defense, abiotic stress and cytokinin signaling. The over 200 uniquely expressed genes of Col-0 represented a wide range of diverse functions; defense, oxidative stress, cell wall metabolism, biotic and abiotic stress, and hormone signaling, and were well represented in both up and down regulated genes. The uniquely expressed genes of the Col-0 phyD mutant also encoded a similar diversity of gene categories, however phyD did not express the same representative genes from these categories, and there were fewer representatives of genes associated with stress responses in phyD. All three genotypes uniquely expressed about the same proportion of genes associated with the cell wall, with values ranging between 14% and 17%.\n\nIn the dark, WS and Col-0 exhibited about the same total number of differentially expressed genes for the physiological adaptation to spaceflight. About 20% were coordinately expressed in both cultivars, but the types of genes that are coordinately expressed do not appear to represent a substantially different category of genes than those which are uniquely expressed in each genotype. In the dark, phyD exhibited the smallest number of differentially expressed genes among the three genotypes, and only about 15% were also differentially expressed in Col-0. In the dark, although many genes were again associated with defense, oxidative stress, and cell wall metabolism, there were also more genes associated with hormone metabolism (auxin, ABA and GA), and gravitropism than were seen in the light. Again, all three genotypes uniquely expressed about the same proportion of genes associated with the cell wall, with values ranging between 14% and 16%.\n\nThe transcriptomic differences exhibited by the different genotypes in response to spaceflight are underscored by the transcriptome differences between the genotypes in any given environment. Fig 7 shows the extent of how the transcriptomic responses of each genotype varied from each other when grown on the ground or in spaceflight. Pair-wise comparisons are shown between Col-0 and phyD, Col-0 and WS, and then phyD and WS; each within the four different environments: lighted environment on the ground, lighted environment in spaceflight, dark environment on the ground, and dark environment in spaceflight. In the light, there are fewer differences among genotypes in the ground controls than in spaceflight, whereas in the dark, there are more differences among genotypes on the ground than in spaceflight. The fully annotated heat maps can be found in Supporting S4, S5, S6, S7 and S8 Tables.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Physical Sciences",
+    "Astronomical Sciences",
+    "Space Exploration",
+    "Spaceflight",
+    "Biology and Life Sciences",
+    "Genetics",
+    "Gene Expression",
+    "Computational Biology",
+    "Genome Analysis",
+    "Transcriptome Analysis",
+    "Genomics",
+    "Molecular Biology",
+    "Molecular Biology Techniques",
+    "Gene Mapping",
+    "Research and Analysis Methods",
+    "Developmental Biology",
+    "Plant Growth and Development",
+    "Root Growth",
+    "Plant Science",
+    "Cell Biology",
+    "Cellular Structures and Organelles",
+    "Cell Walls",
+    "Plant Cell Walls",
+    "Cellular Types",
+    "Plant Cells",
+    "Plant Cell Biology",
+    "Experimental Organism Systems",
+    "Model Organisms",
+    "Arabidopsis Thaliana",
+    "Organisms",
+    "Plants",
+    "Brassica",
+    "Plant and Algal Models",
+    "Physiology",
+    "Physiological Processes",
+    "Physiological Adaptation",
+    "Medicine and Health Sciences"
+  ],
+  "citations": [
+    {
+      "title": "Making sense of low oxygen sensing",
+      "authors": [
+        "J Bailey-Serres",
+        "T Fukao",
+        "DJ Gibbs",
+        "MJ Holdsworth",
+        "SC Lee",
+        "F Licausi"
+      ]
+    },
+    {
+      "title": "Drought, salt, and temperature stress-induced metabolic rearrangements and regulatory networks",
+      "authors": [
+        "J Krasensky",
+        "C Jonak"
+      ]
+    },
+    {
+      "title": "Arabidopsis transcriptome profiling indicates that multiple regulatory pathways are activated during cold acclimation in addition to the CBF cold response pathway",
+      "authors": [
+        "S Fowler",
+        "MF Thomashow"
+      ]
+    },
+    {
+      "title": "The Plant Heat Stress Transcription Factors (HSFs): Structure, Regulation, and Function in Response to Abiotic Stresses",
+      "authors": [
+        "M Guo",
+        "JH Liu",
+        "X Ma",
+        "DX Luo",
+        "ZH Gong",
+        "MH Lu"
+      ]
+    },
+    {
+      "title": "Transcriptional variation in response to salt stress in commonly used Arabidopsis thaliana accessions",
+      "authors": [
+        "Z Chan",
+        "W Loescher",
+        "R Grumet"
+      ]
+    },
+    {
+      "title": "Physiological genomics of response to soil drying in diverse Arabidopsis accessions",
+      "authors": [
+        "DL Des Marais",
+        "JK McKay",
+        "JH Richards",
+        "S Sen",
+        "T Wayne",
+        "TE Juenger"
+      ]
+    },
+    {
+      "title": "Identification of novel heat shock factor-dependent genes and biochemical pathways in Arabidopsis thaliana",
+      "authors": [
+        "W Busch",
+        "M Wunderlich",
+        "F Schoffl"
+      ]
+    },
+    {
+      "title": "The role of class A1 heat shock factors (HSFA1s) in response to heat and other stresses in Arabidopsis",
+      "authors": [
+        "HC Liu",
+        "HT Liao",
+        "YY Charng"
+      ]
+    },
+    {
+      "title": "RD20, a stress-inducible caleosin, participates in stomatal control, transpiration and drought tolerance in Arabidopsis thaliana",
+      "authors": [
+        "Y Aubert",
+        "D Vile",
+        "M Pervent",
+        "D Aldon",
+        "B Ranty",
+        "T Simonneau"
+      ]
+    },
+    {
+      "title": "Stromal Hsp70 is important for protein translocation into pea and Arabidopsis chloroplasts",
+      "authors": [
+        "PH Su",
+        "HM Li"
+      ]
+    },
+    {
+      "title": "Multiple PLDs required for high salinity and water deficit tolerance in plants",
+      "authors": [
+        "BO Bargmann",
+        "AM Laxalt",
+        "B ter Riet",
+        "B van Schooten",
+        "E Merquiol",
+        "C Testerink"
+      ]
+    },
+    {
+      "title": "Overexpression of the Arabidopsis CBF3 transcriptional activator mimics multiple biochemical changes associated with cold acclimation",
+      "authors": [
+        "SJ Gilmour",
+        "AM Sebolt",
+        "MP Salazar",
+        "JD Everard",
+        "MF Thomashow"
+      ]
+    },
+    {
+      "title": "Transcription factor CBF4 is a regulator of drought adaptation in Arabidopsis",
+      "authors": [
+        "V Haake",
+        "D Cook",
+        "JL Riechmann",
+        "O Pineda",
+        "MF Thomashow",
+        "JZ Zhang"
+      ]
+    },
+    {
+      "title": "Arabidopsis heat shock transcription factor A2 as a key regulator in response to several types of environmental stress",
+      "authors": [
+        "A Nishizawa",
+        "Y Yabuta",
+        "E Yoshida",
+        "T Maruta",
+        "K Yoshimura",
+        "S Shigeoka"
+      ]
+    },
+    {
+      "title": "Knock-out of Arabidopsis AtNHX4 gene enhances tolerance to salt stress",
+      "authors": [
+        "HT Li",
+        "H Liu",
+        "XS Gao",
+        "H Zhang"
+      ]
+    },
+    {
+      "title": "New insights into root gravitropic signalling",
+      "authors": [
+        "EM Sato",
+        "H Hijazi",
+        "MJ Bennett",
+        "K Vissenberg",
+        "R Swarup"
+      ]
+    },
+    {
+      "title": "Root gravitropism: an experimental tool to investigate basic cellular and molecular processes underlying mechanosensing and signal transmission in plants",
+      "authors": [
+        "K Boonsirichai",
+        "C Guan",
+        "R Chen",
+        "PH Masson"
+      ]
+    },
+    {
+      "title": "Plant growth strategies are remodeled by spaceflight",
+      "authors": [
+        "A-L Paul",
+        "CE Amalfitano",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight",
+      "authors": [
+        "A-L Paul",
+        "AK Zupanska",
+        "ER Schultz",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Waving and skewing: how gravity and the surface of growth media affect root development in Arabidopsis",
+      "authors": [
+        "M Oliva",
+        "C Dunand"
+      ]
+    },
+    {
+      "title": "Morphological and physiological traits of three major Arabidopsis thaliana accessions",
+      "authors": [
+        "F Passardi",
+        "J Dobias",
+        "L Valerio",
+        "S Guimil",
+        "C Penel",
+        "C Dunand"
+      ]
+    },
+    {
+      "title": "What has natural variation taught us about plant development, physiology, and adaptation?",
+      "authors": [
+        "C Alonso-Blanco",
+        "MG Aarts",
+        "L Bentsink",
+        "JJ Keurentjes",
+        "M Reymond",
+        "D Vreugdenhil"
+      ]
+    },
+    {
+      "title": "Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development",
+      "authors": [
+        "T Kwon",
+        "JA Sparks",
+        "J Nakashima",
+        "SN Allen",
+        "Y Tang",
+        "EB Blancaflor"
+      ]
+    },
+    {
+      "title": "The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of Arabidopsis primary roots in microgravity",
+      "authors": [
+        "J Nakashima",
+        "F Liao",
+        "JA Sparks",
+        "Y Tang",
+        "EB Blancaflor"
+      ]
+    },
+    {
+      "title": "A novel blue-light phototropic response is revealed in roots of Arabidopsis thaliana in microgravity",
+      "authors": [
+        "JP Vandenbrink",
+        "R Herranz",
+        "FJ Medina",
+        "RE Edelmann",
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "Prediction of Bluetongue virus seropositivity on pastoral properties in northern Australia using remotely sensed bioclimatic variables",
+      "authors": [
+        "B Klingseisen",
+        "M Stevenson",
+        "R Corner"
+      ]
+    },
+    {
+      "title": "Light and gravity signals synergize in modulating plant development",
+      "authors": [
+        "JP Vandenbrink",
+        "JZ Kiss",
+        "R Herranz",
+        "FJ Medina"
+      ]
+    },
+    {
+      "title": "Phototropism of Arabidopsis thaliana in microgravity and fractional gravity on the International Space Station",
+      "authors": [
+        "JZ Kiss",
+        "KD Millar",
+        "RE Edelmann"
+      ]
+    },
+    {
+      "title": "An endogenous growth pattern of roots is revealed in seedlings grown in microgravity",
+      "authors": [
+        "KD Millar",
+        "CM Johnson",
+        "RE Edelmann",
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "A deletion in the PHYD gene of the Arabidopsis Wassilewskija ecotype defines a role for phytochrome D in red/far-red light sensing",
+      "authors": [
+        "MJ Aukerman",
+        "M Hirschfeld",
+        "L Wester",
+        "M Weaver",
+        "T Clack",
+        "RM Amasino"
+      ]
+    },
+    {
+      "title": "Phytochrome D acts in the shade-avoidance syndrome in Arabidopsis by controlling elongation growth and flowering time",
+      "authors": [
+        "PF Devlin",
+        "PR Robson",
+        "SR Patel",
+        "L Goosey",
+        "RA Sharrock",
+        "GC Whitelam"
+      ]
+    },
+    {
+      "title": "The roles of phytochromes in elongation and gravitropism of roots",
+      "authors": [
+        "MJ Correll",
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "Isolation and characterization of phyC mutants in Arabidopsis reveals complex crosstalk between phytochrome signaling pathways",
+      "authors": [
+        "E Monte",
+        "JM Alonso",
+        "JR Ecker",
+        "Y Zhang",
+        "X Li",
+        "J Young"
+      ]
+    },
+    {
+      "title": "Arabidopsis thaliana for spaceflight applications—preparing dormant biology for passive stowage and on orbit activation",
+      "authors": [
+        "N Sng",
+        "J Callaham",
+        "RJ Ferl",
+        "A-L Paul"
+      ]
+    },
+    {
+      "title": "STAR: ultrafast universal RNA-seq aligner",
+      "authors": [
+        "A Dobin",
+        "CA Davis",
+        "F Schlesinger",
+        "J Drenkow",
+        "C Zaleski",
+        "S Jha"
+      ]
+    },
+    {
+      "title": "Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks",
+      "authors": [
+        "C Trapnell",
+        "A Roberts",
+        "L Goff",
+        "G Pertea",
+        "D Kim",
+        "DR Kelley"
+      ]
+    },
+    {
+      "title": "ATTED-II in 2016: A Plant Coexpression Database Towards Lineage-Specific Coexpression",
+      "authors": [
+        "Y Aoki",
+        "Y Okamura",
+        "S Tadaka",
+        "K Kinoshita",
+        "T Obayashi"
+      ]
+    },
+    {
+      "title": "The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of Arabidopsis primary roots in microgravity",
+      "authors": [
+        "J Nakashima",
+        "F Liao",
+        "JA Sparks",
+        "Y Tang",
+        "EB Blancaflor"
+      ]
+    },
+    {
+      "title": "The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit",
+      "authors": [
+        "RJ Ferl",
+        "A-L Paul"
+      ]
+    },
+    {
+      "title": "Skewing in Arabidopsis roots involves disparate environmental signaling pathways",
+      "authors": [
+        "ER Schultz",
+        "AK Zupanska",
+        "NJ Sng",
+        "A-L Paul",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Root Growth Patterns and Morphometric Change Based on the Growth Media",
+      "authors": [
+        "ER Schultz",
+        "AL Paul",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Root Traits and Phenotyping Strategies for Plant Improvement",
+      "authors": [
+        "A Paez-Garcia",
+        "CM Motes",
+        "WR Scheible",
+        "R Chen",
+        "EB Blancaflor",
+        "MJ Monteros"
+      ]
+    },
+    {
+      "title": "ANOVA for unbalanced data: Use Type II instead of Type III sums of squares",
+      "authors": [
+        "Ø Langsrud"
+      ]
+    },
+    {
+      "title": "Genomics of plant cell wall biogenesis",
+      "authors": [
+        "W Yong",
+        "B Link",
+        "R O'Malley",
+        "J Tewari",
+        "CT Hunter",
+        "CA Lu"
+      ]
+    },
+    {
+      "title": "SUBA3: a database for integrating experimentation and prediction to define the SUBcellular location of proteins in Arabidopsis",
+      "authors": [
+        "SK Tanz",
+        "I Castleden",
+        "CM Hooper",
+        "M Vacher",
+        "I Small",
+        "HA Millar"
+      ]
+    },
+    {
+      "title": "A whole-genome microarray study of Arabidopsis thaliana semisolid callus cultures exposed to microgravity and nonmicrogravity related spaceflight conditions for 5 days on board of Shenzhou 8",
+      "authors": [
+        "S Fengler",
+        "I Spirer",
+        "M Neef",
+        "M Ecke",
+        "K Nieselt",
+        "R Hampp"
+      ]
+    },
+    {
+      "title": "Spaceflight induces specific alterations in the proteomes of Arabidopsis",
+      "authors": [
+        "RJ Ferl",
+        "J Koh",
+        "F Denison",
+        "AL Paul"
+      ]
+    },
+    {
+      "title": "Differential protein expression profiling of Arabidopsis thaliana callus under microgravity on board the Chinese SZ-8 spacecraft",
+      "authors": [
+        "Y Zhang",
+        "L Wang",
+        "J Xie",
+        "H Zheng"
+      ]
+    },
+    {
+      "title": "Microgravity induces changes in microsome-associated proteins of Arabidopsis seedlings grown on board the international space station",
+      "authors": [
+        "C Mazars",
+        "C Briere",
+        "S Grat",
+        "C Pichereaux",
+        "M Rossignol",
+        "V Pereda-Loth"
+      ]
+    },
+    {
+      "title": "Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of Arabidopsis thaliana",
+      "authors": [
+        "AK Zupanska",
+        "FC Denison",
+        "RJ Ferl",
+        "A-L Paul"
+      ]
+    },
+    {
+      "title": "Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: implications for gravity-responsive genes",
+      "authors": [
+        "MJ Correll",
+        "TP Pyle",
+        "KD Millar",
+        "Y Sun",
+        "J Yao",
+        "RE Edelmann"
+      ]
+    },
+    {
+      "title": "Spaceflight transcriptomes: unique responses to a novel environment",
+      "authors": [
+        "A-L Paul",
+        "A Zupanska",
+        "DT Ostrow",
+        "Y Zhang",
+        "Y Sun",
+        "J-L Li"
+      ]
+    },
+    {
+      "title": "Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight",
+      "authors": [
+        "M Sugimoto",
+        "Y Oono",
+        "O Gusev",
+        "T Matsumoto",
+        "T Yazawa",
+        "MA Levinskikh"
+      ]
+    },
+    {
+      "title": "Gene expression changes induced by space flight in single-cells of the fern Ceratopteris richardii",
+      "authors": [
+        "ML Salmi",
+        "SJ Roux"
+      ]
+    },
+    {
+      "title": "Arabidopsis gene expression patterns are altered during spaceflight",
+      "authors": [
+        "A-L Paul",
+        "MP Popp",
+        "WB Gurley",
+        "CL Guy",
+        "KL Norwood",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Proteomics and Transcriptomics Analysis of Arabidopsis Seedlings in Microgravity [Internet]. NASA GeneLab. 2015.",
+      "authors": []
+    },
+    {
+      "title": "Comparison of the spaceflight transcriptome of four commonly used Arabidopsis thaliana ecotypes [Internet]. NASA GeneLab. 2015.",
+      "authors": []
+    },
+    {
+      "title": "A Bird's-Eye View of Molecular Changes in Plant Gravitropism Using Omics Techniques",
+      "authors": [
+        "O Schuler",
+        "R Hemmersbach",
+        "M Bohmer"
+      ]
+    },
+    {
+      "title": "Spaceflight exploration in plant gravitational biology",
+      "authors": [
+        "AL Paul",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Conducting plant experiments in space",
+      "authors": [
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "Plant biology in space: recent accomplishments and recommendations for future research",
+      "authors": [
+        "G Ruyters",
+        "M Braun"
+      ]
+    },
+    {
+      "title": "Plant’s response to space environment: a comprehensive review including mechanistic modelling for future space gardeners",
+      "authors": [
+        "L Poulet",
+        "JP Fontaine",
+        "CG Dussap"
+      ]
+    },
+    {
+      "title": "Space, the final frontier: A critical review of recent experiments performed in microgravity",
+      "authors": [
+        "JP Vandenbrink",
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "Microsome-associated proteome modifications of Arabidopsis seedlings grown on board the International Space Station reveal the possible effect on plants of space stresses other than microgravity",
+      "authors": [
+        "C Mazars",
+        "C Briere",
+        "S Grat",
+        "C Pichereaux",
+        "M Rossignol",
+        "V Pereda-Loth"
+      ]
+    },
+    {
+      "title": "Exploration of plant growth and development using the European Modular Cultivation System facility on the International Space Station",
+      "authors": [
+        "AI Kittang",
+        "TH Iversen",
+        "KR Fossum",
+        "C Mazars",
+        "E Carnero-Diaz",
+        "E Boucheron-Dubuisson"
+      ]
+    },
+    {
+      "title": "Pipecolic Acid Orchestrates Plant Systemic Acquired Resistance and Defense Priming via Salicylic Acid-Dependent and -Independent Pathways",
+      "authors": [
+        "F Bernsdorff",
+        "AC Doring",
+        "K Gruner",
+        "S Schuck",
+        "A Brautigam",
+        "J Zeier"
+      ]
+    },
+    {
+      "title": "The Arabidopsis KH-Domain RNA-Binding Protein ESR1 Functions in Components of Jasmonate Signalling, Unlinking Growth Restraint and Resistance to Stress",
+      "authors": [
+        "LF Thatcher",
+        "LG Kamphuis",
+        "JK Hane",
+        "L Onate-Sanchez",
+        "KB Singh"
+      ]
+    },
+    {
+      "title": "Accumulation of N-acetylglucosamine oligomers in the plant cell wall affects plant architecture in a dose-dependent and conditional manner",
+      "authors": [
+        "B Vanholme",
+        "R Vanholme",
+        "H Turumtay",
+        "G Goeminne",
+        "I Cesarino",
+        "F Goubet"
+      ]
+    }
+  ],
+  "original_title": "Genetic dissection of the Arabidopsis spaceflight transcriptome: Are some responses dispensable for the physiological adaptation of plants to spaceflight?",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/f0fa937058aa/pone.0180186.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/f00d4347f43e/pone.0180186.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/006a7ae02932/pone.0180186.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/aaec69172952/pone.0180186.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/77a86d29e019/pone.0180186.g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/c5f1fc6b9b28/pone.0180186.g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8847/5491145/71e9f0bb64f3/pone.0180186.g007.jpg"
+  ]
+}

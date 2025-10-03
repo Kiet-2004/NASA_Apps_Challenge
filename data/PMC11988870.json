@@ -1,0 +1,853 @@
+{
+  "pmcid": "PMC11988870",
+  "title": "Microgravity and Cellular Biology: Insights into Cellular Responses and Implications for Human Health",
+  "abstract": "Microgravity, defined by minimal gravitational forces, represents a unique environment that profoundly influences biological systems, including human cells. This review examines the effects of microgravity on biological processes and their implications for human health. Microgravity significantly impacts the immune system by disrupting key mechanisms, such as T cell activation, cytokine production, and macrophage differentiation, leading to increased susceptibility to infections. In cancer biology, it promotes the formation of spheroids in cancer stem cells and thyroid cancer cells, which closely mimic in vivo tumor dynamics, providing novel insights for oncology research. Additionally, microgravity enhances tissue regeneration by modulating critical pathways, including Hippo and PI3K-Akt, thereby improving stem cell differentiation into hematopoietic and cardiomyocyte lineages. At the organ level, microgravity induces notable changes in hepatic metabolism, endothelial function, and bone mechanotransduction, contributing to lipid dysregulation, vascular remodeling, and accelerated bone loss. Notably, cardiomyocytes derived from human pluripotent stem cells and cultured under microgravity exhibit enhanced mitochondrial biogenesis, improved calcium handling, and advanced structural maturation, including increased sarcomere length and nuclear eccentricity. These advancements enable the development of functional cardiomyocytes, presenting promising therapeutic opportunities for treating cardiac diseases, such as myocardial infarctions. These findings underscore the dual implications of microgravity for space medicine and terrestrial health. They highlight its potential to drive advances in regenerative therapies, oncology, and immunological interventions. Continued research into the biological effects of microgravity is essential for protecting astronaut health during prolonged space missions and fostering biomedical innovations with transformative applications on Earth.",
+  "introduction": "1. Introduction\n\nMicrogravity, a condition characterized by minimal and almost imperceptible gravitational forces, occurs primarily in space or in specialized environments designed to simulate this state. In cellular biology, microgravity presents a unique opportunity to study how cells respond to the drastic reduction in gravity—a fundamental factor that regulates numerous cellular processes on Earth. Under microgravity conditions, mechanical forces that influence cell structure and function undergo significant alterations, impacting cytoskeletal organization, cell adhesion, and intracellular signaling. These changes in turn affect critical cellular processes, including proliferation, differentiation, communication, and survival.\n\nHistorically, research on microgravity has been conducted aboard space stations, such as the International Space Station, and on suborbital platforms. More recently, terrestrial laboratories have adopted advanced technologies, such as rotating bioreactors, to simulate microgravity conditions. These investigations, conducted both in space and on Earth, have gained importance due to their dual applications: safeguarding astronaut health and addressing terrestrial diseases.\n\nThis review aims to explore recent advances in understanding the effects of microgravity on biological processes, emphasizing its implications and applications for human health.",
+  "methods": "2. Materials and Methods\n\nPopulation: Stem cells, T cells, endothelial cells, cancer cells, kidney cells, and bone cells.\n\nIntervention: Microgravity, simulated microgravity, or microgravity conditions.\n\nComparison: Cells under normal or standard gravity conditions.\n\nOutcomes: Effects on cell proliferation, tissue regeneration, cellular metabolism, organ homeostasis, and immune health.\n\nTiming: Publications with no start date restriction, available up to November 2024.\n\nA comprehensive literature review was conducted using PubMed, Scopus, and Embase databases. Search terms were structured following the PICOT framework, with the components defined as follows:\n\nThe research question, based on the PICO framework, was as follows:\n\n“How does microgravity (including simulated conditions) affect stem cells, T cells, endothelial cells, kidney cells, and other biological cells compared to cells under normal gravity conditions, specifically in terms of cell proliferation, tissue regeneration, cellular metabolism, organ homeostasis, and immune health?”\n\nTo ensure a comprehensive search, relevant Medical Subject Headings (MeSH) terms were included. Key terms covered the study populations (e.g., stem cells, T cells, endothelial cells, cancer cells, kidney cells, bone cells), conditions (e.g., microgravity, simulated microgravity, standard gravity), and outcomes of interest (e.g., cell proliferation, tissue regeneration, cellular metabolism, organ homeostasis, immune health).\n\nThe literature search was performed in December 2024 and included publications in English and Spanish. Eligible studies encompassed observational studies, in vitro research, and experimental investigations that addressed the effects of microgravity on critical biological processes. The retrieved results were systematically categorized based on their focus, enabling a detailed analysis of microgravity’s impact on different biological functions. The findings were then contrasted with observations from cells maintained under standard gravity conditions, providing a comprehensive comparison of cellular adaptations in these environments.\n\n3. Effects of Microgravity on the Immune System\n\n3.1. Alterations in Immune Cells\n\nMicrogravity significantly impacts the immune system, compromising the development, function, and response of immune cells, which weakens the body’s defenses in space environments. Hematopoietic stem cells, essential for generating immune cells, show impaired differentiation into macrophages, critical for infection control. Furthermore, an imbalance between M1 (pro-inflammatory) and M2 (anti-inflammatory and repair) macrophages disrupts the immune system’s ability to handle infections and repair tissues.\n\nDendritic cells, pivotal in T lymphocyte activation via antigen presentation, are also adversely affected. Key molecules such as the major histocompatibility complex (MHC) and costimulatory proteins CD80 and CD86 show reduced expression, diminishing dendritic cell functionality. Notably, brief exposures to microgravity transiently enhance dendritic cell activity; however, this effect is not sustained over the long term.\n\nNeutrophils exhibit increased numbers in microgravity but with reduced functionality, impairing their ability to destroy microorganisms effectively. B lymphocytes, responsible for humoral immunity, demonstrate decreased proliferation and increased apoptosis. Similarly, natural killer (NK) cells, critical for innate immunity, experience reduced cytotoxic activity, limiting their ability to eliminate tumors or infected cells (Figure 1).\n\n3.2. Impact on T Cells\n\nMicrogravity profoundly affects T cell-mediated immunity, disrupting activation, proliferation, and apoptosis. Studies using concanavalin A—a standard activator of resting T cells—revealed significant inhibition of activation and proliferation in CD4+ and CD8+ T cells, with the effects intensifying over longer exposure durations. Reduced expression of activation markers such as CD25 (IL-2 receptor), CD69 (early activation marker), and CD71 (iron transport marker) underscores this dysfunction.\n\nCD4+ T cells, critical for regulating immune responses through cytokines like IL-2 and IFN-γ, show a greater reduction in proliferation and cytokine production compared to CD8+ T cells. Even brief exposure (8 h) to microgravity notably suppresses CD4+ cell functions, while CD8+ cells require longer exposure (16 h) to exhibit similar impairments.\n\nCytokine production is notably compromised under microgravity. CD4+ cells exhibit decreased secretion of IL-2, essential for T cell expansion, and IFN-γ, crucial for macrophage activation and antiviral defense. These deficiencies indicate a reduced capacity of T cells to coordinate and amplify immune responses.\n\nApoptosis of T cells is accelerated under microgravity, with an earlier onset of late apoptotic processes. Pre-exposed cells show an increase in late-stage apoptosis and a reduction in early-stage apoptosis, indicating a faster progression through apoptotic pathways compared to controls under normal gravity. This effect is linked to increased expression of the Fas receptor in CD8+ cells, a critical component of the Fas/FasL pathway, which regulates apoptosis through external signals (Figure 1).\n\n3.3. Impact on Key Molecular Pathways\n\nAt the molecular level, microgravity disrupts critical signaling pathways, including RAS, ERK, and NF-κB. The RAS pathway, which governs cell proliferation and survival, shows reduced activity under microgravity, leading to impaired cell growth. Similarly, ERK, which is essential for cell differentiation and responses to external stimuli, undergoes alterations that hinder the activation and specialization of macrophages and lymphocytes. NF-κB, a key regulator of inflammatory responses, exhibits inconsistent activation in microgravity, resulting in inadequate immune responses.\n\nResearch on microgravity has also revealed significant effects on cancer biology, including the formation of multicellular spheroids (MCS), the reorganization of the cytoskeleton, and the regulation of key proteins such as p53 (a tumor suppressor), NF-κB (a regulator of immune responses and inflammation), and BAX (a pro-apoptotic protein involved in programmed cell death). These processes promote apoptosis in various cancer cell types. In cell lines from breast (MCF-7), thyroid (FTC-133), and lung (A549) cancers, microgravity-induced changes include decreased cell adhesion and altered gene expression, particularly in molecules like E-cadherin (important for cell adhesion and tumor invasion suppression), vascular endothelial growth factor (VEGF, which promotes angiogenesis), and vimentin (a protein associated with epithelial–mesenchymal transition and cell migration), thereby affecting tumor proliferation and dissemination.\n\n4. Impact on Cancer Biology\n\n4.1. Cancer Stem Cells\n\nThe study of cancer stem cells (CSCs) under simulated microgravity conditions provides critical insights into their behavior in extreme environments, with profound implications for oncology and regenerative medicine. CSCs, characterized by their self-renewal and differentiation capabilities, contribute to tumor heterogeneity, treatment resistance, and metastasis.\n\nIn cancers such as breast, lung, and gastrointestinal cancer, CSCs are identified using specific markers, enabling their isolation and detailed analysis. Under simulated microgravity, these cells exhibit significant changes in morphology and growth patterns, including the formation of multicellular spheroids. These three-dimensional structures closely mimic in vivo tumor organization, offering a robust model for studying the effects of microgravity on tumor biology.\n\nExposure to microgravity induces notable cellular changes, including increased apoptosis and decreased expression of pluripotency-related markers, suggesting a shift toward differentiation. This differentiation reduces CSC resistance, potentially enhancing their susceptibility to treatments. In gastrointestinal cancers like colon and pancreatic cancer, simulated microgravity has been linked to increased expression of specific markers, reflecting alterations in the regulatory mechanisms of cell growth and differentiation. These changes can significantly influence tumor progression and the efficacy of oncological treatments (Figure 2).\n\nMicrogravity modulates apoptosis, a key defense against abnormal cell proliferation. Many cancer cells under microgravity show increased apoptosis due to altered mechanical forces, while some acquire stem-like properties, enhancing resistance, plasticity, and therapy resistance. Microgravity also induces the formation of multicellular spheroids (MCS), which mimic solid tumors and exhibit increased resistance to chemotherapy and radiation, suggesting more aggressive cancer states. Additionally, reduced gravity downregulates adhesion proteins (e.g., E-cadherin, vinculin, paxillin), weakening cell–cell interactions and potentially enhancing metastatic potential. The combination of microgravity and ionizing radiation exacerbates DNA damage, genomic instability, and mutations in tumor cells, highlighting the need for protective measures during space missions and offering insights into cancer treatment.\n\nSimulated microgravity, using devices like the rotating wall bioreactor (RWV) and random positioning machine (RPM), replicates certain effects of real microgravity (r-µg) but with some differences. High-energy radiation with high linear energy transfer (high LET) increases genomic instability and mutation risks, promoting apoptosis and chromosomal aberrations.\n\nIn gliomas (U251 model), microgravity reduces the activity of focal adhesion kinase (FAK), RhoA, and Nek2 kinase, inhibiting tumor cell migration. Immune cells, such as T lymphocytes and macrophages, show decreased functionality, compromising immunosurveillance and hindering cancer detection.\n\nRecent findings suggest that microgravity could offer therapeutic benefits by inhibiting NF-κB, reducing cancer spread, and decreasing VEGF activity to limit tumor growth through reduced angiogenesis. Changes in the Wnt/β-catenin pathway may slow tumor growth and metastasis. CSCs, typically resistant to therapies, become more vulnerable under microgravity, which also alters extracellular vesicle (EV) protein and microRNA content, opening opportunities for new biomarkers and targeted therapies.\n\nThe mechanosensitive channel ELKIN1 plays a crucial role in cellular responses to microgravity. Microgravity reduces tumor cell adhesion and invasion, offering potential therapeutic benefits, but these effects are ELKIN1-dependent. Its absence preserves cell structure and adhesion stability in microgravity, protecting healthy cells during prolonged exposure, but may enhance the persistence of cancer cells, limiting therapy effectiveness.\n\nAt the molecular level, microgravity reduces the nuclear localization of the transcriptional regulator YAP1, limiting excessive cell proliferation and invasiveness. This effect depends on ELKIN1 expression; its absence could lead to resistance or diminished responsiveness to mechanical stimuli. ELKIN1-mediated reduction in focal adhesion proteins may limit tumor aggressiveness but could pose a structural disadvantage for healthy tissues during extended space missions.\n\n4.2. Thyroid Cancer\n\nMicrogravity, whether experienced in space or simulated on Earth, provides a unique experimental environment that has greatly advanced our understanding of cancer biology, particularly thyroid cancer. For nearly two decades, studies on thyroid cancer cells under microgravity have yielded valuable insights into tumor behavior that are difficult to achieve under conventional laboratory conditions.\n\nIn microgravity, adherent thyroid cancer cells lose their adhesion properties and organize into multicellular spheroids. These structures closely resemble the physiological characteristics of tumors in vivo, making them ideal models for studying metastasis and evaluating novel targeted therapies.\n\nMicrogravity also affects fundamental cellular processes, including apoptosis, cytoskeletal organization, and extracellular matrix dynamics, which are critical for cell growth and proliferation. Notably, follicular thyroid cancer cells exposed to microgravity have demonstrated a tendency to adopt a less malignant phenotype. This suggests that microgravity conditions may induce favorable changes, potentially aiding in the treatment of thyroid cancer.\n\nThe findings from these studies have the potential to revolutionize traditional oncology research approaches. They facilitate the identification of key cellular alterations in cancer pathogenesis and support the development of innovative therapies aimed at improving patient outcomes. Furthermore, these investigations pave the way for novel preventive strategies and more effective treatments based on the unique cellular properties observed under microgravity.\n\n5. Impacts on Tissues and Organ Systems\n\n5.1. Microvascular Endothelial Cells\n\nSimulated microgravity profoundly affects microvascular endothelial cells, which play a pivotal role in vascular homeostasis by regulating inflammation, angiogenesis, and vascular permeability.\n\nUnder normal gravity, endothelial cells respond to mechanical and chemical stimuli to preserve vascular function. However, under simulated microgravity, significant alterations are observed. One prominent effect is the inhibition of cell proliferation, which delays the repair of damaged blood vessels. Reduced production of interleukin-6 (IL-6), a cytokine crucial for the inflammatory response, further compromises immune functionality and vascular repair capacity.\n\nInterestingly, microgravity stimulates the synthesis of nitric oxide, a critical mediator for blood vessel dilation and angiogenesis. This effect is linked to the activation of endothelial nitric oxide synthase (eNOS). While nitric oxide promotes vascular adaptation, its dysregulation can lead to pathological states, depending on the physiological context.\n\nResearch on simulated microgravity has also revealed significant effects on endothelial cell integrity and function. In one study, human umbilical vein endothelial cells, essential regulators of cardiovascular homeostasis, were exposed to simulated microgravity for up to 72 h using an RPM, which continuously rotates to nullify Earth’s gravitational vector.\n\nAfter 24 h, notable changes in cellular biomechanical properties were observed, including a marked reduction in cell stiffness (Young’s modulus) and viscosity. Specifically, cellular elasticity decreased by approximately 30%, reaching critical levels with a 75% reduction after 72 h. This loss of rigidity makes endothelial cells more vulnerable to external hemodynamic stress, potentially impairing vascular integrity and increasing the risk of endothelial dysfunction.\n\nAdditionally, endothelial cells exhibited morphological changes under simulated microgravity conditions. Normally elongated and spindle-shaped, cells adopted a distinctly rounded phenotype after 24 h. The increase in circularity—more than three times greater than that of control cells—indicates significant cytoskeletal reorganization, which could affect vascular permeability and the cells’ ability to respond to mechanical stress over time.\n\nAt the molecular level, these morphological alterations were associated with substantial reductions in key cytoskeletal components. Western blot analysis revealed a 65% reduction in actin filament levels and a 26% reduction in β-tubulin, a protein critical for microtubule integrity. Immunofluorescence confirmed these findings, showing discontinuities in cortical actin filaments and abnormal redistribution of microtubules, particularly around the nucleus. These results highlight impaired structural integrity and suggest that endothelial cells may have a compromised ability to respond to biomechanical stimuli (Figure 3).\n\nEndothelial cells exposed to microgravity also form three-dimensional spheroids, which closely mimic in vivo blood vessel structures. These 3D models are invaluable for studying microgravity-induced changes in endothelial function, enabling more physiologically relevant investigations compared to traditional 2D cultures.\n\nCollectively, these findings reveal that microgravity disrupts endothelial physiology, influencing cell proliferation, inflammatory responses, and vascular regulation. These insights have implications for diseases such as cancer, atherosclerosis, and other circulatory disorders. They underscore the need for further research to mitigate vascular risks during space missions and explore potential therapeutic applications on Earth.\n\n5.2. Hepatic Metabolism and Intestinal Homeostasis\n\nMicrogravity, a defining feature of spaceflight and terrestrial simulations, profoundly impacts the metabolism and functionality of various organs, particularly the liver. Experimental models using rhesus macaques have shown that prolonged exposure to microgravity induces significant metabolic alterations similar to those observed in rodents. These include lipid accumulation and infiltration of inflammatory cells in the liver, reflecting the disruption of hepatic metabolic homeostasis. Such findings underscore the importance of exploring the effects of microgravity on metabolic regulation in animal models and future human studies (Figure 3).\n\nIn a 42-day head-down bed rest model simulating microgravity, rhesus macaques developed mild liver lesions, fat vacuole accumulation, and inflammatory cell infiltration. These hepatic changes were accompanied by a marked increase in plasma levels of angiopoietin-like 3 (ANGPTL3), a key biomarker associated with metabolic disorders and lipid dysregulation. These results suggest that microgravity may induce hepatic lipotoxicity, a phenomenon previously documented in rodents but requiring further investigation in primates and humans to better understand its clinical relevance.\n\nAt the molecular level, transcriptomic analyses of liver samples from macaques exposed to microgravity revealed overexpression of genes associated with lipid metabolism and downregulation of genes linked to the innate immune response. These molecular changes could impair the liver’s ability to manage metabolic stress, a critical function for maintaining long-term health. Additionally, disruptions in fatty acid metabolism were identified, potentially contributing to lipid dysregulation associated with metabolic diseases such as diabetes and obesity.\n\nAnother noteworthy finding was the impact of microgravity on the gut microbiota, a key regulator of hepatic metabolism through the gut–liver axis. Macaques subjected to the head-down bed rest model exhibited intestinal dysbiosis, endotoxemia, and altered bile acid composition. These gut alterations were accompanied by elevated levels of stress hormones, suggesting systemic metabolic imbalance triggered by microgravity exposure.\n\nThe effects of microgravity on liver function and metabolic homeostasis carry significant implications for space medicine. These findings highlight the need to closely monitor liver function and the gut–liver axis during prolonged space missions to mitigate potential health risks. Moreover, the metabolic changes observed in animal models provide valuable insights into terrestrial diseases such as diabetes and nonalcoholic fatty liver disease. This knowledge could contribute to the development of more effective treatments and innovative therapeutic strategies in regenerative medicine, ultimately benefiting both astronauts and the general population.\n\n5.3. Bone Health and Mechanotransduction\n\nMicrogravity profoundly impacts the mechanotransduction of human osteoblasts. Astronauts who spend prolonged periods in space experience accelerated bone mass loss, making the International Space Station (ISS) an ideal platform for studying the mechanisms underlying osteoporosis in zero-gravity conditions.\n\nIn this context, innovative experimental approaches have been developed, including the use of microfluidic microchips and collagen-encapsulated cell spheroids. These advanced models enable researchers to investigate how the absence of mechanical loading affects bone cell maturation and mineralization. Studies have shown that microgravity decreases cell stiffness and reduces the levels of filamentous actin, a cytoskeletal component critical for maintaining cell tension and facilitating mechanotransduction. For example, experiments conducted on the ISS using automated microfluidic devices have provided valuable insights into the mechanical properties of human osteoblasts under microgravity conditions (Figure 3).\n\nResults from these experiments reveal that osteoblasts exposed to microgravity develop elongated protrusions compared to terrestrial samples, indicating a phenomenon referred to as “cellular softening”. This structural change correlates with a reduction in actin fiber density, consistent with findings from prior studies conducted under simulated microgravity.\n\nThese structural and cytoskeletal alterations highlight disruptions in mechanotransduction, the process through which cells sense and respond to mechanical stimuli. Without the constant gravitational forces present on Earth, osteoblasts lose the ability to maintain their tensional structure and perform optimally, contributing to the bone demineralization observed in astronauts.\n\nFurther research has utilized three-dimensional spheroid models, which better replicate physiological conditions than traditional two-dimensional cell cultures. Collagen-encapsulated osteoblast spheroids subjected to controlled pressures under microgravity exhibited a reduction in the expression of key mechanosensitive proteins, such as Yes-associated protein (YAP). This suggests that microgravity disrupts mechanical signaling pathways critical for cellular regulation and bone homeostasis.\n\nMechanotransduction is a crucial process by which cells sense and respond to mechanical stimuli through interactions with the extracellular matrix. On Earth, proteins like YAP/TAZ translate mechanical forces into gene expression changes, modulating cell growth, differentiation, and survival. Under microgravity, the diminished activity of YAP/TAZ leads to varying outcomes in different cancers, such as reduced cell proliferation or increased invasiveness due to altered mechanosignaling. Understanding these differential responses could inform novel therapeutic strategies targeting these vulnerabilities.\n\nImportantly, the application of compressive pressure partially restored YAP expression and increased pSMAD1/5/9 levels, demonstrating that biomechanical signals can reactivate essential molecular pathways, even under microgravity conditions. These findings underscore the potential of mechanical interventions to mitigate the adverse effects of microgravity on bone tissue.\n\nThe implications of these studies are significant. They not only advance our understanding of how microgravity influences cellular biology but also pave the way for developing therapeutic strategies to combat bone loss in both space environments and terrestrial patients with osteoporosis. Additionally, the creation of devices that simulate mechanical loads could benefit astronauts and individuals on Earth, emphasizing the critical role of biomechanics in maintaining bone health and cellular functionality in extreme conditions.\n\n5.4. Kidney Cells\n\nA recent study utilizing a microphysiological model of human renal proximal tubules investigated the effects of microgravity on the cellular ability to metabolize vitamin D and respond to human serum.\n\nThe findings revealed that short-term exposure to microgravity does not significantly alter essential biochemical pathways in renal cells, indicating that fundamental processes remain intact. In this experiment, renal proximal tubule epithelial cells were cultured in a microphysiological system and exposed to 2% human serum and vitamin D [25(OH)D3]. Biomarkers such as kidney injury molecule 1 (KIM-1) and interleukin 6 (IL-6) were measured to assess cellular responses.\n\nTranscriptomic analyses, conducted via RNA sequencing, monitored vitamin D metabolites and key genes involved in its metabolism, including CYP27B1, CYP24A1, and CYP3A5. Surprisingly, no significant differences in vitamin D metabolism were observed between microgravity and terrestrial conditions. However, exposure to human serum elicited similar metabolic responses in both environments, characterized by metabolic reprogramming, alterations in bioenergetic processes, and the presence of a pro-inflammatory extracellular environment.\n\nOne of the most striking observations was the differential regulation of over 2000 genes after exposure to human serum, regardless of gravitational conditions. Affected pathways included the cell cycle, cytokine–cytokine receptor interactions, and chemokine signaling. Notably, a marked reduction in the expression of genes associated with oxidative phosphorylation and fatty acid metabolism indicated diminished mitochondrial respiration, suggesting a metabolic shift in kidney cells.\n\nThese findings imply that kidney cells, when exposed to human serum, redirect their metabolism toward a proliferation-focused strategy, reducing reliance on traditional energy pathways. Concurrently, significant changes in the extracellular environment were observed, indicative of tissue remodeling. This phenomenon was supported by the overexpression of genes related to the extracellular matrix, including fibronectin (FN1) and transforming growth factor-beta-induced protein (TGFBI), as well as enzymes such as metalloproteinase 7 (MMP7), which are involved in remodeling and reorganizing the cellular environment. These adaptations may represent a cellular response to protein challenges in human serum or could signal underlying pathological processes.\n\nIn addition to bioenergetic and extracellular matrix alterations, broader metabolic reorganization signals were detected. Elevated cytosolic cholesterol levels, inferred from the repression of genes regulated by the SREBF2 factor, reflected shifts in intracellular metabolic balance. While these effects were consistent across microgravity and terrestrial conditions, their significance lies in demonstrating how human serum, as an external stimulus, can drive profound cellular changes independently of gravity.\n\nThese results reinforce the notion that certain fundamental processes in renal cells remain relatively stable under microgravity conditions during short-term exposures. However, they also highlight the need for further research into prolonged microgravity environments, where cellular adaptations may become more pronounced or clinically relevant.\n\nThe implications of these discoveries are significant for both space exploration and terrestrial medicine. In the context of spaceflight, the findings provide critical insights into how kidneys might adapt to microgravity, ensuring that essential functions such as filtration and blood compound regulation are maintained during extended missions. On Earth, these studies offer valuable perspectives on how kidney cells respond to metabolic and protein stress, potentially informing the development of advanced therapies for kidney diseases (Figure 3).\n\n5.5. Reproductive System Ovarian Follicles and Egg Quality\n\nSimulated microgravity has provided valuable insights into how this unique environment impacts egg quality and ovarian follicle development. Ovarian follicles, which are critical for egg formation, rely on intricate interactions between granulosa cells and the egg to ensure proper maturation. However, the specific effects of microgravity on these interactions and the overall evolution of follicles have only recently begun to be understood.\n\nIn an experiment replicating microgravity conditions, ovarian follicles were cultured in a simulated system. The results indicated that while follicle growth and survival rates were not significantly affected and remained comparable to those observed under normal gravity conditions, the quality of the eggs released was markedly reduced.\n\nElectron microscopy revealed alterations in the cellular structures responsible for communication between granulosa cells and the egg. These structural changes resulted in a loss of organization within the granulosa cells, disrupting the secretion of essential factors required for egg maturation. However, supplementing growth factors and antioxidants significantly improved egg quality, suggesting that the adverse effects of microgravity could be mitigated through targeted interventions.\n\nFurther analysis of the eggs highlighted deficiencies in the distribution and density of cortical granules, structures vital for maturation. Additionally, there was a notable reduction in the number of eggs capable of releasing the first polar body—a critical process in egg development. These deficiencies were linked to increased oxidative stress levels, which further contributed to the decline in egg quality.\n\nAnother key finding was the loss of polarity in granulosa cells, which inhibited the formation of cellular projections essential for interacting with the egg. This disruption impaired communication between granulosa cells and the egg, negatively affecting the maturation process. Moreover, microgravity altered the formation of microvilli in the egg, structures crucial for interaction with surrounding cells. Eggs cultured under microgravity conditions exhibited a significant reduction in both the number and size of microvilli, potentially limiting their ability to release factors essential for development (Figure 3).\n\n5.6. Cardiomyocyte Maturation and Functionality\n\nSimulated microgravity has been shown to significantly enhance the maturation and functionality of cardiomyocytes derived from human pluripotent stem cells. One of the most notable improvements observed under these conditions is mitochondrial biogenesis, a critical process for cellular maturation. Mitochondrial biogenesis enables cells to produce energy more efficiently, a key factor for the proper functioning of mature cardiomyocytes. Experimental data have demonstrated an increase in mitochondrial content, evidenced by the expression of specific mitochondrial proteins and an elevated ratio of mitochondrial DNA to nuclear DNA. These findings suggest that microgravity stimulates mitochondrial formation, improving the cells’ capacity to generate ATP, the primary energy source for cardiac function.\n\nIn addition to increased mitochondrial content, simulated microgravity enhances mitochondrial respiration. This improvement, evidenced by elevated maximal respiration levels and ATP production, ensures the energy supply necessary for cardiomyocyte contraction and relaxation. These observations highlight the potential of microgravity to promote metabolic maturation in cardiomyocytes, rendering them more functional and suitable for therapeutic applications.\n\nAnother critical aspect influenced by microgravity is calcium handling, a vital process for cardiomyocyte contraction and relaxation. Cells cultured under microgravity exhibited greater amplitude in calcium transients, reflecting enhanced calcium storage capacity in the sarcoplasmic reticulum, a structure crucial for regulating intracellular calcium concentrations. Efficient calcium handling is essential for effective cardiac function, as it enables stronger and more coordinated muscle fiber contractions. These findings indicate that cardiomyocytes cultured in microgravity are not only more metabolically advanced but also display improved functionality consistent with mature cardiomyocytes.\n\nSimulated microgravity also positively affects the structural properties of cardiomyocytes. Observations include increased sarcomere length, the functional unit responsible for muscle contraction, and longer Z-disks, key structures for transmitting contraction forces. Additionally, nuclear eccentricity and diameter were increased, further indicating a higher degree of cellular maturation. These structural enhancements bring cardiomyocytes cultured in microgravity closer to the characteristics of fully functional human cardiac cells, reinforcing their ability to perform physiological functions effectively.\n\nThe duration of exposure to microgravity plays a pivotal role in maximizing these benefits. Recent studies suggest that a 7-day exposure period is optimal for promoting significant improvements in cardiomyocyte maturation. Prolonged exposures of 14 days, however, did not yield additional benefits, indicating a specific time window for maximizing the positive effects of microgravity. Optimizing culture conditions within this timeframe is essential to achieve the best outcomes.\n\nAdvances in utilizing simulated microgravity to enhance cardiomyocyte maturation and functionality open new avenues in regenerative medicine, particularly for treating cardiac diseases such as myocardial infarctions. The ability to produce high-quality, mature cardiomyocytes is critical for developing effective cellular grafts capable of integrating into damaged tissues and restoring cardiac functionality. These breakthroughs represent a significant step forward in biotechnology, with far-reaching implications for the treatment of cardiac pathologies (Figure 3).\n\n6. Impacts on Stem Cells and Cell Regeneration\n\nMicrogravity has provided significant insights into how this environment influences fundamental biological processes such as tissue regeneration and cell repair. Research conducted in real spaceflights and terrestrial simulations has demonstrated that microgravity impacts protein expression and the regulation of cellular pathways critical for the growth and regeneration of various stem cell types. One of the most notable pathways affected is the Hippo pathway, which plays a central role in cell proliferation and tissue damage response. Under microgravity conditions, this pathway is temporarily deactivated, creating a favorable state for cell proliferation and tissue repair. These effects have shown particular promise in regenerating organs such as the heart, with potential applications extending to other tissues.\n\nThe replication of microgravity effects in terrestrial simulations opens new possibilities for exploring therapeutic treatments based on this phenomenon. Findings suggest that microgravity could serve as a valuable tool for enhancing the regenerative capacity of stem cells without requiring invasive or complex technologies. Additionally, combining microgravity exposure with the use of certain drugs or microRNA manipulation—key regulators of gene expression—can amplify the activity of the Hippo pathway and YAP1 protein, further promoting tissue regeneration. These discoveries hold promise for treating heart diseases and repairing other damaged tissues and systems (Figure 4).\n\nCells cultured under simulated microgravity using an RPM have shown significant alterations, enhancing our understanding of cellular responses to gravity loss. For example, thyroid carcinoma cells (FTC-133) formed three-dimensional spheroids, contrasting with their typical monolayer growth, and displayed changes in adhesion properties and internal organization consistent with spaceflight observations. These morphological transformations involved cytoskeletal reorganization, particularly affecting actin filaments and microtubules, which are crucial for maintaining cellular integrity. Gene expression analysis revealed changes in genes related to cellular adhesion and proliferation, including vascular endothelial growth factor (VEGF), E-cadherin, and vimentin. Moreover, T lymphocytes exposed to RPM-simulated microgravity exhibited decreased activation, mirroring the effects observed in spaceflight experiments. These findings validate the utility of RPMs for ground-based research on physiological changes relevant to long-duration spaceflight.\n\n6.1. Hematopoietic Differentiation\n\nSimulated microgravity significantly enhances the differentiation of human pluripotent stem cells into hematopoietic lineages, offering a promising avenue for regenerative medicine and cell therapies. Under microgravity conditions, hematopoietic stem cells demonstrate more efficient induction of endothelial hemogenic progenitors, leading to improved formation of functional three-dimensional structures. This results in a notable increase in active hematopoietic cells, optimizing both cell expansion and differentiation processes.\n\nTranscriptomic analyses have identified the differential activation of thousands of genes involved in hematopoiesis, including RUNX1, SOX17, and GATA1. RUNX1 is essential for establishing hematopoietic stem cells, SOX17 for maintaining pluripotency and differentiation into hematopoietic lineages, and GATA1 for the maturation of erythrocytes and megakaryocytes. These gene expression patterns suggest that microgravity creates a favorable environment for optimizing hematopoiesis.\n\nAt the cellular level, microgravity influences DNA replication by promoting the expression of replication machinery genes such as helicases and polymerases. This enhances efficient cell division, a critical factor for hematopoietic stem cell proliferation and differentiation. Furthermore, microgravity modulates the cell cycle, facilitating transitions through key phases such as G1/S and G2/M, which are essential for cell proliferation.\n\nA key discovery is the activation of the PI3K-Akt pathway, which regulates cell growth, survival, and metabolism. This pathway modulates proteins such as mTOR, which governs cell growth and metabolism, and Bad, which inhibits apoptosis, ensuring the survival of hematopoietic progenitor cells. By promoting cell proliferation and preventing programmed cell death, the PI3K-Akt pathway plays a pivotal role in the development of functional hematopoietic cells.\n\nMicrogravity also enhances three-dimensional cellular organization, improving interactions between cells and their microenvironment. These interactions are vital for forming hematopoietic niches that replicate physiological conditions more accurately. Cultures in microgravity favor the creation of three-dimensional spheroids, which support better differentiation and functionality of hematopoietic stem cells, optimizing the hematopoiesis process. This capability is particularly valuable for developing precise experimental models and innovative cell therapies.\n\nMicrogravity modulates hematopoiesis by influencing the differentiation, proliferation, and structural organization of hematopoietic stem cells (HSCs). Pluripotent stem cells exhibit enhanced differentiation potential, increased proliferation, and improved structural organization, as microgravity optimizes conditions for hematopoietic progenitor expansion. This occurs through survival signaling, primarily via PI3K-Akt pathway activation, where increased Akt phosphorylation inhibits proapoptotic proteins such as BAD and enhances cell survival via antiapoptotic mechanisms linked to mTOR. Wnt/β-catenin signaling is also dynamically regulated in microgravity, promoting β-catenin accumulation in the cytoplasm and its nuclear translocation, activating genes essential for stem cell self-renewal and differentiation. Additionally, microgravity modulates Notch pathway interactions and transcription factors like RUNX1, crucial for hematopoietic lineage commitment. Structural rearrangements in hematopoietic niches under microgravity alter cell-to-cell interactions and adhesion molecule expression, facilitating the three-dimensional organization of hematopoietic clusters. On a physiological level, microgravity-induced metabolic adjustments enhance responsiveness to hypoxic stimuli, promoting hematopoietic maturation. These findings underscore the potential of microgravity-based systems to refine cell culture techniques and provide insights into spaceflight’s effects on human hematopoietic function.\n\n6.2. Cell Proliferation and Regenerative Therapies\n\nMicrogravity significantly influences cell proliferation and functionality, representing a transformative advancement for biomedical research and regenerative medicine. In studies with pancreatic islets and neural crest stem cells, exposure to microgravity notably enhanced cell proliferation, particularly in three-dimensional (3D) cultures. For instance, pancreatic beta cells exhibited a 45% increase in proliferation after two weeks of microgravity exposure compared to controls under normal gravity conditions.\n\nMicrogravity not only boosts cell growth but also modulates specific functions. For example, pancreatic beta cells cultured under microgravity showed a significant increase in insulin secretion, suggesting potential applications in developing therapies for metabolic diseases such as diabetes. Furthermore, co-culturing stem cells with pancreatic islets under microgravity improved cell viability by 20%, highlighting its ability to create a favorable environment for cell development.\n\nThe formation of three-dimensional structures under microgravity is a critical aspect of these improvements. Unlike two-dimensional cultures, 3D models more accurately replicate human physiological conditions, allowing for complex cell–cell and cell–environment interactions essential for differentiation, proliferation, and functionality. Beta cells in 3D models not only proliferated more rapidly but also maintained enhanced functionality, as demonstrated by increased insulin secretion.\n\nAt the molecular level, microgravity appears to modulate key signaling pathways, such as PI3K-Akt and mTOR, which regulate cell survival, proliferation, and metabolism. While further studies are needed to confirm their specific roles in beta cells and neural crest stem cells, these findings underscore microgravity’s ability to influence fundamental processes and optimize cell culture conditions.\n\nMicrogravity offers a unique environment that enhances cell proliferation, viability, and functionality in 3D models, with direct applications in regenerative medicine. This environment not only promotes cell growth but also improves the functional quality of cells, which can significantly advance the development of cell therapies. For instance, pancreatic islets cultured under microgravity conditions could exhibit superior efficacy in transplants for diabetes patients, demonstrating increased proliferation and functional capacity, which could greatly enhance therapeutic outcomes.\n\n7. Impact on Pathogen Virulence\n\nMicrogravity, whether experienced during spaceflight or simulated in terrestrial models, induces significant changes in the genetic expression and physiology of pathogens affecting both humans and plants. These changes have profound implications for astronaut health, space exploration, and the prevention of foodborne illnesses in space environments.\n\n7.1. Increased Pathogen Virulence and Resistance\n\nUnder microgravity conditions, bacterial pathogens such as Salmonella enterica and Escherichia coli exhibit increased virulence, antibiotic resistance, stress tolerance, and biofilm formation. This is often accompanied by a reduced median lethal dose (LD50) in animal models. For instance, Salmonella Typhimurium cultured under simulated microgravity demonstrated fivefold higher lethality in mice compared to cultures grown under normal gravity. Additionally, these pathogens have been observed to evade and suppress plant innate immunity, enabling colonization of intracellular spaces. While these processes are also observed on Earth, it remains unclear whether microgravity enhances these capabilities or merely facilitates their study.\n\n7.2. Molecular Mechanisms Driving Virulence\n\nMicrogravity alters extracellular nutrient transport and activates molecular pathways that enhance bacterial virulence. A key factor is low fluid shear, a physical stimulus that mimics microgravity environments and is also present in human microenvironments such as the gastrointestinal tract. Low fluid shear conditions favor the expression of stress tolerance and virulence-related genes, including those linked to the type III secretion system (TS3) and iron metabolism regulation. For example, Salmonella Typhimurium exposed to microgravity shows increased tolerance to acidic conditions and upregulation of genes controlled by Fur, a critical regulator of iron acquisition and virulence in enteric pathogens.\n\n7.3. Effects on Biofilm Formation and Stress Response\n\nMicrogravity also influences the transport of oxygen and phosphates due to the absence of convection, replicating conditions similar to those in human infections. These environmental changes impact gene expression related to stress tolerance and virulence. For instance, Escherichia coli demonstrates enhanced biofilm formation and increased expression of genes responsible for host cell adherence and lesion formation, thereby amplifying its pathogenic potential. However, these effects are not universal; variations in results suggest that the impact of microgravity depends on the pathogen type, culture medium, and specific experimental conditions.\n\nA recurring observation across multiple studies is the decreased expression of Hfq, a key regulatory protein involved in stress response and virulence. Hfq plays a critical role in the adaptation of both Gram-negative and Gram-positive pathogens under stress conditions, including microgravity. Understanding the regulatory mechanisms involving Hfq could provide insights into mitigating the risks of pathogen virulence during prolonged space missions.\n\nMicrogravity significantly affects interactions between human pathogens and plants, increasing bacterial virulence and compromising plant defense mechanisms. For example, pathogens under microgravity conditions demonstrate an enhanced ability to suppress plant immune responses, facilitating colonization and intracellular persistence. These effects underscore the importance of investigating pathogen behavior in extreme conditions to develop strategies that mitigate health risks in space environments.",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "microgravity",
+    "tissue effects",
+    "immune system",
+    "cardiomyocytes",
+    "cancer biology",
+    "human health",
+    "Review"
+  ],
+  "citations": [
+    {
+      "title": "Microgravity and Immune Cells",
+      "authors": [
+        "H. Lv",
+        "H. Yang",
+        "C. Jiang",
+        "J. Shi",
+        "R.-A. Chen",
+        "Q. Huang",
+        "D. Shao"
+      ]
+    },
+    {
+      "title": "Spaceflight/Microgravity Inhibits the Proliferation of Hematopoietic Stem Cells by Decreasing Kit-Ras/cAMP-CREB Pathway Networks as Evidenced by RNA-Seq Assays",
+      "authors": [
+        "P. Wang",
+        "H. Tian",
+        "J. Zhang",
+        "J. Qian",
+        "L. Li",
+        "L. Shi",
+        "Y. Zhao"
+      ]
+    },
+    {
+      "title": "Microbiology of Human Spaceflight: Microbial Responses to Mechanical Forces That Impact Health and Habitat Sustainability",
+      "authors": [
+        "C.A. Nickerson",
+        "R.J.C. McLean",
+        "J. Barrila",
+        "J. Yang",
+        "S.G. Thornhill",
+        "L.L. Banken",
+        "D.M. Porterfield",
+        "G. Poste",
+        "N.R. Pellis",
+        "C.M. Ott"
+      ]
+    },
+    {
+      "title": "Potential Biomarkers of Resilience to Microgravity Hazards in Astronauts",
+      "authors": [
+        "P. Minoretti",
+        "G. Fortuna",
+        "K. Lavdas",
+        "D. D’Acquino"
+      ]
+    },
+    {
+      "title": "The Effects of Microgravity on Differentiation and Cell Growth in Stem Cells and Cancer Stem Cells",
+      "authors": [
+        "D. Grimm",
+        "M. Wehland",
+        "T.J. Corydon",
+        "P. Richter",
+        "B. Prasad",
+        "J. Bauer",
+        "M. Egli",
+        "S. Kopp",
+        "M. Lebert",
+        "M. Krüger"
+      ]
+    },
+    {
+      "title": "Stem Cell Culture Under Simulated Microgravity",
+      "authors": [
+        "M. Anil-Inevi",
+        "O. Sarigil",
+        "M. Kizilkaya",
+        "G. Mese",
+        "H.C. Tekin",
+        "E. Ozcivici"
+      ]
+    },
+    {
+      "title": "Scaffold-Free Tissue Formation Under Real and Simulated Microgravity Conditions",
+      "authors": [
+        "G. Aleshcheva",
+        "J. Bauer",
+        "R. Hemmersbach",
+        "L. Slumstrup",
+        "M. Wehland",
+        "M. Infanger",
+        "D. Grimm"
+      ]
+    },
+    {
+      "title": "Microgravity Directs Stem Cell Differentiation",
+      "authors": [
+        "Z. Chen",
+        "Q. Luo",
+        "L. Yuan",
+        "G. Song"
+      ]
+    },
+    {
+      "title": "Impact of Modeled Microgravity on Microvascular Endothelial Cells",
+      "authors": [
+        "S. Cotrupi",
+        "D. Ranzani",
+        "J.A.M. Maier"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Promotes Nitric Oxide-Supported Angiogenesis via the iNOS-cGMP-PKG Pathway in Macrovascular Endothelial Cells",
+      "authors": [
+        "J.H. Siamwala",
+        "S. Majumder",
+        "K.P. Tamilarasan",
+        "A. Muley",
+        "S.H. Reddy",
+        "G.K. Kolluru",
+        "S. Sinha",
+        "S. Chatterjee"
+      ]
+    },
+    {
+      "title": "Microgravity Inhibits Resting T Cell Immunity in an Exposure Time-Dependent Manner",
+      "authors": [
+        "H. Luo",
+        "C. Wang",
+        "M. Feng",
+        "Y. Zhao"
+      ]
+    },
+    {
+      "title": "Infection Prevention and Control during Prolonged Human Space Travel",
+      "authors": [
+        "L.A. Mermel"
+      ]
+    },
+    {
+      "title": "Immune System Dysregulation during Spaceflight: Clinical Risk for Exploration-Class Missions",
+      "authors": [
+        "B. Crucian",
+        "C. Sams"
+      ]
+    },
+    {
+      "title": "Overview of Spaceflight Immunology Studies",
+      "authors": [
+        "G.R. Taylor"
+      ]
+    },
+    {
+      "title": "Microgravity and Evasion of Plant Innate Immunity by Human Bacterial Pathogens",
+      "authors": [
+        "N. Totsline",
+        "K.E. Kniel",
+        "H.P. Bais"
+      ]
+    },
+    {
+      "title": "Space Flight Alters Bacterial Gene Expression and Virulence and Reveals a Role for Global Regulator Hfq",
+      "authors": [
+        "J.W. Wilson",
+        "C.M. Ott",
+        "K. Höner zu Bentrup",
+        "R. Ramamurthy",
+        "L. Quick",
+        "S. Porwollik",
+        "P. Cheng",
+        "M. McClelland",
+        "G. Tsaprailis",
+        "T. Radabaugh"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Potentiates Hematopoietic Differentiation of Human Pluripotent Stem Cells and Supports Formation of 3D Hematopoietic Cluster",
+      "authors": [
+        "C. Ma",
+        "Y. Xiong",
+        "P. Han",
+        "X. Zhang",
+        "Y. Cao",
+        "B. Wang",
+        "H. Zhao",
+        "E. Duan",
+        "J.V. Zhang",
+        "X. Lei"
+      ]
+    },
+    {
+      "title": "Enhanced Self-Renewal of Human Pluripotent Stem Cells by Simulated Microgravity",
+      "authors": [
+        "S. Timilsina",
+        "T. Kirsch-Mangu",
+        "S. Werth",
+        "B. Shepard",
+        "T. Ma",
+        "L.G. Villa-Diaz"
+      ]
+    },
+    {
+      "title": "Cancer Studies under Space Conditions: Finding Answers Abroad",
+      "authors": [
+        "J.L. Cortés-Sánchez",
+        "J. Callant",
+        "M. Krüger",
+        "J. Sahana",
+        "A. Kraus",
+        "B. Baselet",
+        "M. Infanger",
+        "S. Baatout",
+        "D. Grimm"
+      ]
+    },
+    {
+      "title": "The Effects of Microgravity on the Digestive System and the New Insights It Brings to the Life Sciences",
+      "authors": [
+        "J.-Q. Yang",
+        "N. Jiang",
+        "Z.-P. Li",
+        "S. Guo",
+        "Z.-Y. Chen",
+        "B.-B. Li",
+        "S.-B. Chai",
+        "S.-Y. Lu",
+        "H.-F. Yan",
+        "P.-M. Sun"
+      ]
+    },
+    {
+      "title": "How Does Spaceflight Affect the Acquired Immune System?",
+      "authors": [
+        "T. Akiyama",
+        "K. Horie",
+        "E. Hinoi",
+        "M. Hiraiwa",
+        "A. Kato",
+        "Y. Maekawa",
+        "A. Takahashi",
+        "S. Furukawa"
+      ]
+    },
+    {
+      "title": "Combined Exposure to Simulated Microgravity and Acute or Chronic Radiation Reduces Neuronal Network Integrity and Survival",
+      "authors": [
+        "G. Pani",
+        "M. Verslegers",
+        "R. Quintens",
+        "N. Samari",
+        "L. de Saint-Georges",
+        "P. van Oostveldt",
+        "S. Baatout",
+        "M.A. Benotmane"
+      ]
+    },
+    {
+      "title": "The Impact of Microgravity and Hypergravity on Endothelial Cells",
+      "authors": [
+        "J.A.M. Maier",
+        "F. Cialdai",
+        "M. Monici",
+        "L. Morbidelli"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity: Critical Review on the Use of Random Positioning Machines for Mammalian Cell Culture",
+      "authors": [
+        "S.L. Wuest",
+        "S. Richard",
+        "S. Kopp",
+        "D. Grimm",
+        "M. Egli"
+      ]
+    },
+    {
+      "title": "Short Duration Microgravity Experiments in Physical and Life Sciences during Parabolic Flights: The First 30 ESA Campaigns",
+      "authors": [
+        "V. Pletser"
+      ]
+    },
+    {
+      "title": "The Small Protein MafG Plays a Critical Role in MC3T3-E1 Cell Apoptosis Induced by Simulated Microgravity and Radiation",
+      "authors": [
+        "H. Wang",
+        "J. Dong",
+        "G. Li",
+        "Y. Tan",
+        "H. Zhao",
+        "L. Zhang",
+        "Y. Wang",
+        "Z. Hu",
+        "X. Cao",
+        "F. Shi"
+      ]
+    },
+    {
+      "title": "Microgravity, Stem Cells, and Cancer: A New Hope for Cancer Treatment",
+      "authors": [
+        "U. Topal",
+        "C. Zamur"
+      ]
+    },
+    {
+      "title": "The Fight against Cancer by Microgravity: The Multicellular Spheroid as a Metastasis Model",
+      "authors": [
+        "D. Grimm",
+        "H. Schulz",
+        "M. Krüger",
+        "J.L. Cortés-Sánchez",
+        "M. Egli",
+        "A. Kraus",
+        "J. Sahana",
+        "T.J. Corydon",
+        "R. Hemmersbach",
+        "P.M. Wise"
+      ]
+    },
+    {
+      "title": "The Mechanosensitive Channel ELKIN1 Regulates Cellular Adaptations to Simulated Microgravity",
+      "authors": [
+        "D. Wang",
+        "G. Silvani",
+        "L. Schroeter",
+        "R. Brynn",
+        "J. Chou",
+        "K. Poole"
+      ]
+    },
+    {
+      "title": "Mechanisms of Three-Dimensional Growth of Thyroid Cells during Long-Term Simulated Microgravity",
+      "authors": [
+        "S. Kopp",
+        "E. Warnke",
+        "M. Wehland",
+        "G. Aleshcheva",
+        "N.E. Magnusson",
+        "R. Hemmersbach",
+        "T.J. Corydon",
+        "J. Bauer",
+        "M. Infanger",
+        "D. Grimm"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Induces Programmed Cell Death in Human Thyroid Carcinoma Cells",
+      "authors": [
+        "P. Kossmehl",
+        "M. Shakibaei",
+        "A. Cogoli",
+        "H. Pickenhahn",
+        "M. Paul",
+        "D. Grimm"
+      ]
+    },
+    {
+      "title": "Longterm Conditions of Mimicked Weightlessness Influences the Cytoskeleton in Thyroid Cells",
+      "authors": [
+        "M. Infanger",
+        "P. Kossmehl",
+        "M. Shakibaei",
+        "G. Schulze-Tanzil",
+        "A. Cogoli",
+        "S. Faramarzi",
+        "J. Bauer",
+        "F. Curcio",
+        "M. Paul",
+        "D. Grimm"
+      ]
+    },
+    {
+      "title": "Impact of Simulated Microgravity on Cytoskeleton and Viscoelastic Properties of Endothelial Cell",
+      "authors": [
+        "M. Janmaleki",
+        "M. Pachenari",
+        "S.M. Seyedpour",
+        "R. Shahghadami",
+        "A. Sanati-Nezhad"
+      ]
+    },
+    {
+      "title": "Effects of Long-Term Simulated Microgravity on Liver Metabolism in Rhesus Macaques",
+      "authors": [
+        "B. Zong",
+        "Y. Wang",
+        "J. Wang",
+        "P. Zhang",
+        "G. Kan",
+        "M. Li",
+        "J. Feng",
+        "Y. Wang",
+        "X. Chen",
+        "R. Jin"
+      ]
+    },
+    {
+      "title": "Simulated Weightlessness Procedure, Head-down Bed Rest Impairs Adult Neurogenesis in the Hippocampus of Rhesus Macaque",
+      "authors": [
+        "X. Zhang",
+        "X. Chu",
+        "L. Chen",
+        "J. Fu",
+        "S. Wang",
+        "J. Song",
+        "G. Kan",
+        "W. Jiang",
+        "G. He",
+        "X. Chen"
+      ]
+    },
+    {
+      "title": "Brain Connectivity and Behavioral Changes in a Spaceflight Analog Environment with Elevated CO2",
+      "authors": [
+        "H.R. McGregor",
+        "J.K. Lee",
+        "E.R. Mulder",
+        "Y.E. De Dios",
+        "N.E. Beltran",
+        "I.S. Kofman",
+        "J.J. Bloomberg",
+        "A.P. Mulavara",
+        "R.D. Seidler"
+      ]
+    },
+    {
+      "title": "Effect of Simulated Microgravity on Artificial Single Cell Membrane Mechanics",
+      "authors": [
+        "R.G. Asuwin Prabu",
+        "A. Manohar",
+        "S. Narendran",
+        "A. Kabir",
+        "S. Sudhakar"
+      ]
+    },
+    {
+      "title": "Recordings on PIEZO1-Overexpressing Oocytes in Microgravity",
+      "authors": [
+        "S.L. Wuest",
+        "G. Cerretti",
+        "J. Polzer",
+        "S. Gerig",
+        "C. Zumbühl",
+        "C. Jost",
+        "L. Rüfenacht",
+        "R. Eberli",
+        "B. Krucker-Bösch",
+        "J. Traversari"
+      ]
+    },
+    {
+      "title": "Control Strategy Optimization of Thermodynamic Venting System in Liquid Hydrogen Storage Tank Under Microgravity",
+      "authors": [
+        "H. Chen",
+        "X. Li",
+        "H. Zhang",
+        "P. Yang",
+        "Y. Liu",
+        "W. Ye",
+        "C. Yan",
+        "X. Wang"
+      ]
+    },
+    {
+      "title": "Cellular Response in Three-Dimensional Spheroids and Tissues Exposed to Real and Simulated Microgravity: A Narrative Review",
+      "authors": [
+        "D.W.A. van den Nieuwenhof",
+        "L. Moroni",
+        "J. Chou",
+        "J. Hinkelbein"
+      ]
+    },
+    {
+      "title": "Cellular Mechanotransduction of Human Osteoblasts in Microgravity",
+      "authors": [
+        "N.H. Wubshet",
+        "G. Cai",
+        "S.J. Chen",
+        "M. Sullivan",
+        "M. Reeves",
+        "D. Mays",
+        "M. Harrison",
+        "P. Varnado",
+        "B. Yang",
+        "E. Arreguin-Martinez"
+      ]
+    },
+    {
+      "title": "Micropipette Aspiration of Living Cells",
+      "authors": [
+        "R.M. Hochmuth"
+      ]
+    },
+    {
+      "title": "The Application of Micropipette Aspiration in Molecular Mechanics of Single Cells",
+      "authors": [
+        "L.M. Lee",
+        "A.P. Liu"
+      ]
+    },
+    {
+      "title": "Mitochondrial Electron Transport Chain: Oxidative Phosphorylation, Oxidant Production, and Methods of Measurement",
+      "authors": [
+        "D. Nolfi-Donegan",
+        "A. Braganza",
+        "S. Shiva"
+      ]
+    },
+    {
+      "title": "The Mitochondrial Genome: Structure, Transcription, Translation and Replication",
+      "authors": [
+        "J.W. Taanman"
+      ]
+    },
+    {
+      "title": "Regulation of Body Fluid Compartments during Short-Term Spaceflight",
+      "authors": [
+        "C.S. Leach",
+        "C.P. Alfrey",
+        "W.N. Suki",
+        "J.I. Leonard",
+        "P.C. Rambaut",
+        "L.D. Inners",
+        "S.M. Smith",
+        "H.W. Lane",
+        "J.M. Krauhs"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Reduces Quality of Ovarian Follicles and Oocytes by Disrupting Communications of Follicle Cells",
+      "authors": [
+        "K. Cheng",
+        "X. Feng",
+        "C. Yang",
+        "C. Ma",
+        "S. Niu",
+        "L. Jia",
+        "X. Yang",
+        "J. Liang",
+        "Y. Bo",
+        "K. Geng"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Using a Rotary Culture System Compromises the In Vitro Development of Mouse Preantral Follicles",
+      "authors": [
+        "S. Zhang",
+        "D. Zheng",
+        "Y. Wu",
+        "W. Lin",
+        "Z. Chen",
+        "L. Meng",
+        "J. Liu",
+        "Y. Zhou"
+      ]
+    },
+    {
+      "title": "Effects of Simulated Microgravity In Vitro on Human Metaphase II Oocytes: An Electron Microscopy-Based Study",
+      "authors": [
+        "S. Miglietta",
+        "L. Cristiano",
+        "M.S.B. Espinola",
+        "M.G. Masiello",
+        "G. Micara",
+        "E. Battaglione",
+        "A. Linari",
+        "M.G. Palmerini",
+        "G. Familiari",
+        "C. Aragona"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Improves Maturation of Cardiomyocytes Derived from Human Induced Pluripotent Stem Cells",
+      "authors": [
+        "P. Forghani",
+        "A. Rashid",
+        "L.C. Armand",
+        "D. Wolfson",
+        "R. Liu",
+        "H.C. Cho",
+        "J.T. Maxwell",
+        "H. Jo",
+        "K. Salaita",
+        "C. Xu"
+      ]
+    },
+    {
+      "title": "Microgravity and Microgravity Analogue Studies of Cartilage and Cardiac Tissue Engineering",
+      "authors": [
+        "K. Ronaldson",
+        "G. Vunjak-Novakovic",
+        "C.A. Nickerson",
+        "N.R. Pellis",
+        "C.M. Ott"
+      ]
+    },
+    {
+      "title": "Effects of Spaceflight and Simulated Microgravity on YAP1 Expression in Cardiovascular Progenitors: Implications for Cell-Based Repair",
+      "authors": [
+        "V. Camberos",
+        "J. Baio",
+        "L. Bailey",
+        "N. Hasaniya",
+        "L.V. Lopez",
+        "M. Kearns-Jonker"
+      ]
+    },
+    {
+      "title": "Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells",
+      "authors": [
+        "E.A. Blaber",
+        "H. Finkelstein",
+        "N. Dvorochkin",
+        "K.Y. Sato",
+        "R. Yousuf",
+        "B.P. Burns",
+        "R.K. Globus",
+        "E.A. Almeida"
+      ]
+    },
+    {
+      "title": "Fighting Thyroid Cancer with Microgravity Research",
+      "authors": [
+        "M. Krüger",
+        "D. Melnik",
+        "S. Kopp",
+        "C. Buken",
+        "J. Sahana",
+        "J. Bauer",
+        "M. Wehland",
+        "R. Hemmersbach",
+        "T.J. Corydon",
+        "M. Infanger"
+      ]
+    },
+    {
+      "title": "Cardiovascular Progenitor Cells Cultured Aboard the International Space Station Exhibit Altered Developmental and Functional Properties",
+      "authors": [
+        "J. Baio",
+        "A.F. Martinez",
+        "I. Silva",
+        "C.V. Hoehn",
+        "S. Countryman",
+        "L. Bailey",
+        "N. Hasaniya",
+        "M.J. Pecaut",
+        "M. Kearns-Jonker"
+      ]
+    },
+    {
+      "title": "Generating Hematopoietic Cells from Human Pluripotent Stem Cells: Approaches, Progress and Challenges",
+      "authors": [
+        "H. Zheng",
+        "Y. Chen",
+        "Q. Luo",
+        "J. Zhang",
+        "M. Huang",
+        "Y. Xu",
+        "D. Huo",
+        "W. Shan",
+        "R. Tie",
+        "M. Zhang"
+      ]
+    },
+    {
+      "title": "Differentiation and Functional Comparison of Monocytes and Macrophages from hiPSCs with Peripheral Blood Derivatives",
+      "authors": [
+        "X. Cao",
+        "G.K. Yakala",
+        "F.E. van den Hil",
+        "A. Cochrane",
+        "C.L. Mummery",
+        "V.V. Orlova"
+      ]
+    },
+    {
+      "title": "Spaceflight and Simulated Microgravity Suppresses Macrophage Development via Altered RAS/ERK/NFκB and Metabolic Pathways",
+      "authors": [
+        "L. Shi",
+        "H. Tian",
+        "P. Wang",
+        "L. Li",
+        "Z. Zhang",
+        "J. Zhang",
+        "Y. Zhao"
+      ]
+    },
+    {
+      "title": "Characteristics of Human Dendritic Cells Generated in a Microgravity Analog Culture System",
+      "authors": [
+        "C.A. Savary",
+        "M.L. Grazziutti",
+        "D. Przepiorka",
+        "S.P. Tomasovic",
+        "B.W. McIntyre",
+        "D.G. Woodside",
+        "N.R. Pellis",
+        "D.L. Pierson",
+        "J.H. Rex"
+      ]
+    },
+    {
+      "title": "Changes in Neutrophil Functions in Astronauts",
+      "authors": [
+        "I. Kaur",
+        "E.R. Simons",
+        "V.A. Castro",
+        "C. Mark Ott",
+        "D.L. Pierson"
+      ]
+    },
+    {
+      "title": "Analysis of Femurs from Mice Embarked on Board BION-M1 Biosatellite Reveals a Decrease in Immune Cell Development, Including B Cells, after 1 Wk of Recovery on Earth",
+      "authors": [
+        "G. Tascher",
+        "M. Gerbaix",
+        "P. Maes",
+        "B. Chazarin",
+        "S. Ghislin",
+        "E. Antropova",
+        "G. Vassilieva",
+        "N. Ouzren-Zarhloul",
+        "G. Gauquelin-Koch",
+        "L. Vico"
+      ]
+    },
+    {
+      "title": "Altered Cytokine Expression in Tissues of Mice Subjected to Simulated Microgravity",
+      "authors": [
+        "K. Felix",
+        "K. Wise",
+        "S. Manna",
+        "K. Yamauchi",
+        "B.L. Wilson",
+        "R.L. Thomas",
+        "A. Kulkarni",
+        "N.R. Pellis",
+        "G.T. Ramesh"
+      ]
+    },
+    {
+      "title": "Microgravity Effect on Pancreatic Islets",
+      "authors": [
+        "L. Zeger",
+        "P. Barasa",
+        "Y. Han",
+        "J. Hellgren",
+        "I.N. Redwan",
+        "M.E. Reiche",
+        "G. Florin",
+        "G. Christoffersson",
+        "E.N. Kozlova"
+      ]
+    },
+    {
+      "title": "A Choice of Death--the Signal-Transduction of Immune-Mediated Beta-Cell Apoptosis",
+      "authors": [
+        "D.L. Eizirik",
+        "T. Mandrup-Poulsen"
+      ]
+    },
+    {
+      "title": "Macrophages and Dendritic Cells Infiltrating Islets with or without Beta Cells Produce Tumour Necrosis Factor-Alpha in Patients with Recent-Onset Type 1 Diabetes",
+      "authors": [
+        "S. Uno",
+        "A. Imagawa",
+        "K. Okita",
+        "K. Sayama",
+        "M. Moriwaki",
+        "H. Iwahashi",
+        "K. Yamagata",
+        "S. Tamura",
+        "Y. Matsuzawa",
+        "T. Hanafusa"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity Combined with Polyglycolic Acid Scaffold Culture Conditions Improves the Function of Pancreatic Islets",
+      "authors": [
+        "Y. Song",
+        "Z. Wei",
+        "C. Song",
+        "S. Xie",
+        "J. Feng",
+        "J. Fan",
+        "Z. Zhang",
+        "Y. Shi"
+      ]
+    },
+    {
+      "title": "Human Pathophysiological Adaptations to the Space Environment",
+      "authors": [
+        "G.C. Demontis",
+        "M.M. Germani",
+        "E.G. Caiani",
+        "I. Barravecchia",
+        "C. Passino",
+        "D. Angeloni"
+      ]
+    },
+    {
+      "title": "A Molecular Genetic Basis Explaining Altered Bacterial Behavior in Space",
+      "authors": [
+        "L. Zea",
+        "N. Prasad",
+        "S.E. Levy",
+        "L. Stodieck",
+        "A. Jones",
+        "S. Shrestha",
+        "D. Klaus"
+      ]
+    },
+    {
+      "title": "Induction of Attachment-Independent Biofilm Formation and Repression of Hfq Expression by Low-Fluid-Shear Culture of Staphylococcus Aureus",
+      "authors": [
+        "S.L. Castro",
+        "M. Nelman-Gonzalez",
+        "C.A. Nickerson",
+        "C.M. Ott"
+      ]
+    },
+    {
+      "title": "Effects of Simulated Microgravity on Primary Human NK Cells",
+      "authors": [
+        "Q. Li",
+        "Q. Mei",
+        "T. Huyan",
+        "L. Xie",
+        "S. Che",
+        "H. Yang",
+        "M. Zhang",
+        "Q. Huang"
+      ]
+    }
+  ],
+  "original_title": "Stem Cell Health and Tissue Regeneration in Microgravity",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bcef/11988870/d102a1f07905/ijms-26-03058-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bcef/11988870/40d1e76a594f/ijms-26-03058-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bcef/11988870/caddd4f5d131/ijms-26-03058-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bcef/11988870/e5aedf75520d/ijms-26-03058-g004.jpg"
+  ]
+}

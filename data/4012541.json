@@ -1,0 +1,636 @@
+{
+  "pmcid": "4012541",
+  "title": "Molecular mechanisms underlying the enhanced functions of three-dimensional hepatocyte aggregates",
+  "abstract": "Three-dimensional (3D) culture of hepatocytes leads to improved and prolonged synthetic and metabolic functions, but the underlying molecular mechanisms are unknown. In order to investigate the role of 3D cell-cell interactions in maintaining hepatocyte differentiated functions ex vivo, primary mouse hepatocytes were cultured either as monolayers on tissue culture dishes (TCD) or as 3D aggregates in rotating wall vessel (RWV) bioreactors. Global gene expression analyses revealed that genes upregulated in 3D culture were distinct from those upregulated during liver development and liver regeneration. Instead, they represented a diverse array of hepatocyte-specific functional genes with significant over-representation of hepatocyte nuclear factor 4α (Hnf4a) binding sites in their promoters. Expression of Hnf4a and many of its downstream target genes were significantly increased in RWV cultures as compared to TCD. Conversely, there was concomitant suppression of mesenchymal and cytoskeletal genes in RWV cultures that were induced in TCDs. These findings illustrate the importance of 3D cell-cell interactions in maintaining fundamental molecular pathways of hepatocyte function and serve as a basis for rational design of biomaterials that aim to optimize hepatocyte functions ex vivo for biomedical applications.",
+  "introduction": "1. Introduction\n\nThree-dimensional (3D) cell culture is critical for understanding the function of cells in a physiologically relevant context and for tissue engineering complex solid organs like the liver. 3D culture of hepatocytes has been shown to maintain the differentiated functions of hepatic cell lines and primary cells as well as promote differentiation of stem cells toward the hepatic lineage. Sustained differentiated functions of hepatocytes in 3D culture could be harnessed for drug toxicity screening or to improve the efficacy of extracorporeal liver-assist devices. In addition, 3D aggregation may facilitate transplantation of hepatocytes kept in culture, which would be particularly useful for hepatocytes derived from pluripotent stem cells.\n\nWhile differentiated functions are improved in hepatocytes cultured either on 3D scaffolds or as self-aggregated 3D spheroids, little is known about the underlying molecular mechanisms that lead to those improved functions in 3D culture. Using the rotating wall vessel (RWV) system, we previously showed that one important factor for sustaining differentiated functions of a human hepatocellular carcinoma cell line is sustained 3D cell-cell interactions. RWVs are rotational bioreactors with a gas permeable membrane that, when in operation, are completely filled with culture media so that it functionally rotates as a solid-body around a horizontal axis. This creates a suspension culture environment with minimal fluid shear stress and turbulence, allowing cells to co-localize and self-aggregate with 3D spatial freedom. Studies have shown that hepatocyte spheroids cultured under these conditions could develop into larger sizes with less hypoxic limitations to the inner core compared to stationary culture. Human hepatocytes and non-parenchymal cells co-cultured within RWVs demonstrated formation of complex 3D micro-architectures, including microvilli, bile canaliculi, and sinusoidal fenestrations.\n\nImportantly, as tissue engineering strategies advance and the definitions of biomaterials evolve, self-aggregated hepatocyte spheroids developed within bioreactors may be considered biomaterials in their own right. Self-aggregated cellular spheroids are the building blocks for organ printing, a bottom up synthesis approach to tissue engineering. Therefore, understanding the molecular mechanisms that regulate hepatocyte functions within 3D spheroids is critical for the optimization of organ function within a printed liver. Moreover, hepatocyte spheroids generated within RWVs allow investigation of the biological effects of 3D cell-cell interactions without the influence of contacting scaffolds, surfaces, or carriers. In this study, we performed global gene expression and promoter region analyses on primary mouse hepatocytes cultured on collagen-coated tissue culture dishes (TCDs) or RWVs to determine the underlying molecular mechanisms important for maintaining hepatocyte-specific functions in 3D culture.",
+  "methods": "2. Material and Methods\n\n2.1. Mice\n\nPrimary hepatocytes were isolated from male C57BL/6 mice (Jackson Laboratory, Bar Harbor, ME). All mice were handled in accordance with the “Guide for the Care and Use of Laboratory Animals” and approved by the Institutional Animal Care and Use Committee.\n\n2.2. Hepatocyte Isolation and Culture\n\nMouse primary hepatocytes were isolated by the two-step perfusion technique using Liver Perfusion and Liver Digest Media (Life Technologies, Pleasanton, CA), followed by separation using a 50% Percoll (GE Healthcare Life Sciences, Pittsburgh, PA) density gradient. Purity of live hepatocytes was routinely ≥90%. Hepatocytes were cultured in 5% fetal calf serum (Hyclone, Logan, UT) in DMEM supplemented with L-glutamine, antibiotics, insulin-transferrin-selenium, and HEPES (Mediatech, Manassas, VA) and placed either in 6cm collagen-coated TCDs (BD Biosciences, San Jose, CA) or 10ml RWVs that were high-aspect-ratio-vessels (HARVs) with a diameter of 6cm (Synthecon, Houston, TX). RWV cultures were rotated at 16 rpm to maintain aggregates in suspension. Cells were cultured in 10mls of media at a cell density of 1×105 cells/ml for both TCDs and RWVs.\n\n2.3. Light Microscopy\n\nPhase contrast photos were taken with a Rebel T3i (Canon, San Jose, CA) adapted to the photoport of the Eclipse TS100 Inverted Microscope (Nikon, Melville, NY). Cell sizes were measured with a stage micrometer.\n\n2.4. Albumin ELISA Assay\n\nCell culture supernatants were collected and albumin concentration was determined by a mouse albumin ELISA kit per the manufacturer’s instructions (Bethyl, Montgomery, TX).\n\n2.5. Assay for Cytochrome P450 1a1 Activity\n\nEROD (7-ethoxyresorufin-o-dealkylase) assays were performed as previously described. 8μM of 7-ethoxyresorufin (Life Technologies) and 10μM of dicumarol (Sigma) were added to TCD or RWV cultures and incubated for 1 hour in the dark. Culture supernatants were then reacted with 15 Fishman units of β-gluconidase and 120 Roy units of arylsulfatase (Roche, Indianapolis, IN) at 37°C for 2 hours. Conversion of 7-ethoxyresorfin to resorufin was used to quantify CYP1A1 activity by determining the fluorescence optical density at 544nm/590nm (absorption/emission) measured against a standard curve of known amounts of resorufin (Life Technologies).\n\n2.6. Cyquant Assay\n\nCells from TCD and RWV cultures were harvested, frozen, and lysed. DNA content was quantified using the Cyquant Assay following the manufacturer’s instructions (Life Technologies). Cell numbers were determined by using a standard curve generated by known numbers of isolated primary mouse hepatocytes.\n\n2.7. Microarray Sample Preparation and Analysis\n\nRNA was isolated using RNeasy Mini kit (QIAGEN, Valencia, CA) according to the manufacturer’s protocol. Initial RNA integrity was verified by the Agilent 2100 Bioanalyzer (Santa Clara, CA). For microarray hybridization, RNA was amplified and biotinylated using the MessageAmp II-Biotin Enhanced Kit per the manufacturer’s instructions (Ambion, Austin, TX). 10μg of biotinylated amplified RNA was hybridized on to the Mouse Genome 430 2.0 Array (Affymetrix, Santa Clara, CA) through the UCSF Gladstone Institute Genomics Core (San Francisco, CA). Global gene expression analysis was carried out with GeneSpring GX v. 12.0 software (Agilent) using the GC-RMA summarization algorithm. The expression threshold for analysis was set to raw data greater than the 20th percentile in at least 2 of the 15 samples. Genes with significant differential expression between any 2 of the 5 conditions were identified by one-way analysis of variance (ANOVA) with Benjamini-Hochberg false discovery rate multiple testing correction (p-value <0.01) post-hoc Tukey analysis. Complete MIAME (Minimum Information About a Microarray Experiment) –compliant microarray data will be submitted to the Gene Expression Omnibus.\n\n2.8. Promoter Region Analysis\n\nThe oPOSSOM Web-based program (http://www.cisreg.ca) was used to identify over-representation of transcription factor binding sites (TFBSs) in genes upregulated in RWV culture. oPOSSOM is a validated algorithm that identifies statistically over-represented TFBSs, as defined by the JASPAR database, within a set of co-regulated genes that are compared with a database of background genes that have conserved non-coding regions derived from phylogenetic footprinting and enriched for functional TFBSs. The search for TFBS was limited to within 5000 nucleotides upstream or downstream of the transcription start site. The TFBS rate was calculated as the number of times the TFBS was predicted, multiplied by the width of the TFBS profile, and divided by the total number of nucleotides in the conserved non-coding regions of the gene set. The two calculated statistical scores when used in combination (Z-score >10 and Fisher score <0.01) correctly identified the regulating transcription factor in reference gene sets and resulted in a false-positive rate of 15% in random gene sets.\n\n2.9. Quantitative Real-time Reverse Transcription Polymerase Chain Reaction (qRT-PCR)\n\nReverse transcription was carried out with 300ng of RNA using the High-Capacity cDNA Reverse Transciption Kit (Applied Biosystems, Foster City, CA) per the manufacturer’s instructions. One μl of the resulting cDNA was added to a final 20μl mixture containing 10μl of 2x SYBR Green PCR Master Mix (Applied Biosystems) and 12 pmol oligonucleotide primers. PCRs were carried out in a 7300 Real-Time PCR System (Applied Biosystems). The thermal profile was 50°C for 2min, 95°C for 10min, followed by 40 amplification cycles consisting of 95°C for 15s, 63°C for 30s, and 72°C for 30s. Samples were normalized to rRNA 18S internal standard. Relative quantification of gene expression was calculated by using the 2ΔΔCt equation.\n\n2.10. Primers\n\nSequences for primers used in qRT-PCR are listed below (Table 1). For primer sequences obtained from the Harvard Primer Bank (http://pga.mgh.harvard.edu/primerbank/citation.html), the PrimerBank IDs are also provided.\n\n2.11. Statistical Analysis\n\nTwo-tailed t-tests were carried out using InStat 3.0 software. Significance was considered when p ≤ 0.05. Data are shown as mean ± standard error (SE) unless otherwise indicated. Statistical analyses for microarray data, including one-way ANOVA, principal components analysis, and hierarchical clustering analysis, were carried out using GeneSpring GX v. 12.0 software.",
+  "results": "3. Results\n\n3.1. Morphology and function of primary mouse hepatocytes cultured within RWVs and on TCDs\n\nPrimary mouse hepatocytes cultured within RWVs self-organized into 3D aggregates that were 100–200 μm in their longest cross-sectional length by 24 hours of culture (Figure 1A). After 3 days in RWVs, hepatocyte cell shape remained round in densely-packed aggregates ranging from 200–300 μm in size. In contrast, hepatocytes on TCDs formed a monolayer of characteristic bi-nucleated cells within 24 hours of culture (Figure 1A). After 3 days in TCDs, cultured cells acquired irregular and pleomorphic shapes with elongated spindle-like projections.\n\nAlong with these morphological differences, hepatocytes cultured as 3D aggregates demonstrated significantly improved synthetic and metabolic functions as compared to hepatocytes in monolayers, at both early and late time-points. Albumin secretion was 2.5-fold more per cell at 36 hours and 3.5-fold more per cell at day 3 in RWV cultures compared to TCDs (Figure 1B). Cytochrome P450 1a1 (CYP1A1) activity was 3-fold higher per cell in RWVs as compared to TCDs in as early as 4 hours of culture, and improved function was maintained at 24 hours (3-fold) and day 3 (2.2-fold) (Figure 1C). These findings indicate that primary hepatocytes cultured in RWVs self-aggregated to form 3D spheroids with enhanced synthetic and metabolic functions compared hepatocytes cultured as monolayers.\n\nImproved hepatocyte-specific functions in RWV culture were not associated with increased proliferation of these cells. After 3 days, cell numbers were slightly increased in TCDs compared to RWVs, but not to a statistically significant extent (Figure 2A). Moreover, expression of proliferating cell nuclear antigen (Pcna) was higher in TCDs than in RWVs at 36 hours of culture (Figure 2B), suggesting that proliferative capacity of cultured primary hepatocytes may be higher in TCDs.\n\n3.2. Global gene expression profiles of hepatocytes cultured as 3D aggregates or as monolayers\n\nTo investigate the molecular mechanisms underlying improved hepatocyte functions in 3D aggregates, we analyzed the global gene expression of hepatocytes cultured as monolayers on TCDs and 3D aggregates in RWVs at 4 hours and 24 hours using microarrays. These early time-points were chosen to determine the initial gene expression profile of hepatocytes in TCD and RWV cultures. For each of the 5 conditions (freshly isolated hepatocytes, 4h TCD, 4h RWV, 24h TCD, and 24h RWV) we analyzed 3 independent biological samples from separate experiments to ensure experimental reproducibility and increase confidence in the microarray analysis.\n\nOne-way ANOVA (with p < 0.01) generated a list of 16,893 genes that were significantly differentially expressed among the 5 experimental conditions. Principal component analysis demonstrated that experimental triplicates clustered together within each condition and separately from the other groups, indicating good reproducibility of the global gene expression patterns within each condition (Figure 3A). The 4h TCD samples clustered separately from the 4h RWV samples, showing that these culture conditions led to differential gene expression in as early as 4h of culture. The variance between TCD and RWV samples increased at 24h reflecting increased differences in gene expression.\n\nAnalysis was then focused on genes with significant differential expression between TCD and RWV by at least 2-fold at either time-point. The complete lists of genes upregulated in RWV or TCD cultures at 4 or 24 hours are detailed in Supplemental Tables 1–4. The resulting combined list of 822 differentially expressed genes was analyzed by hierarchical clustering on both gene expression and experimental condition (Figure 3B). Each condition was compared to freshly isolated hepatocytes as the baseline. Hierarchical clustering on experimental conditions revealed that hepatocytes cultured in RWVs for 24 hours still had a gene expression profile similar enough to freshly isolated hepatocytes to be linked under one main branch of the hierarchical dendrogram. In contrast, the gene expression profile of hepatocytes cultured for 24h in TCDs was significantly different from freshly isolated and 24h RWV hepatocytes that it grouped separately under its own branch of the hierarchical dendrogram. This analysis suggests that RWV culture preserved molecular features in hepatocytes that more closely resembled freshly isolated hepatocytes, whereas TCD culture induced molecular programs that drove hepatocytes further from their initial phenotype.\n\n3.3. Gene expression profile of 3D aggregate cultures compared to liver development and liver regeneration\n\nOne hypothesis for the improved functional capacity of hepatocytes cultured in RWVs as compared to TCDs is that formation of 3D cellular interactions recapitulated in vivo-like molecular pathways. To test this hypothesis, we compared the genes significantly upregulated in RWV with genes differentially regulated during liver development and liver regeneration. Raw microarray datasets (accession number: GSE6998) of the developing mouse liver and the regenerating mouse liver after two-thirds hepatectomy were downloaded from the Gene Expression Omnibus (GEO) and re-analyzed using the GC-RMA summarization algorithm. Because the same microarray platform was used to generate the curated datasets, re-analyzed data could be directly compared to the microarray data generated in this study.\n\nGenes significantly upregulated at any time-point during liver development were identified by one-way ANOVA (p < 0.01) and filtered for genes expressed 2-fold or higher compared to unmanipulated adult mouse liver. Similarly, significantly upregulated genes in liver regeneration at any time-point after hepatectomy were identified using the same criteria. Finally, genes significantly upregulated by 2-fold or more in RWV as compared to TCD at either 4 or 24 hours of culture were identified. Differentially upregulated genes from these 3 processes were compared to determine whether they shared significant numbers of genes (Figure 3C). Most of the upregulated genes in these biological processes were uniquely upregulated in each process: 93% (4460 genes) of the upregulated genes in liver development, 73% (353 genes) in 3D aggregate/monolayer culture, and 52% (300 genes) in regeneration. Only 5 genes were shared by all 3 processes. These analyses reveal that 3D aggregate culture triggers different molecular pathways from liver development or regeneration to maintain hepatocyte-specific functions.\n\n3.4. Characterization of differential gene expression between 3D aggregate and monolayer cultures\n\nGene Ontogeny (GO) analysis was performed to classify the 293 genes significantly upregulated by ≥2-fold in hepatocytes cultured in RWV compared to TCD at 24 hours. The most significant GO Biological Process terms encompassed characteristic hepatocyte functions such as lipid metabolism, amino acid metabolism, amino acid biosynthesis, oxidation-reduction, response to glucose stimulus, and response to xenobiotic stimulus (Table 2).\n\nFor some genes whose expression is correlated with mature hepatocyte function, microarray results were validated by qRT-PCR (Figure 4). Bile acid co-enzyme A (Baat), which catalyzes the conjugation of bile acids to amino acids before excretion into bile canaliculi, was upregulated 23.3±2.5 fold in 3D aggregates compared to monolayers. Akr1c19, a member of the aldo-keto reductase superfamily, which catalyzes conversion of aldehydes and ketones to their corresponding alcohols, was upregulated 9.4±1.3 fold. The liver-specific isoform of glycogen synthase (Gys2), which catalyzes the rate-limiting step of glycogen synthesis, was upregulated by 6.6±1.1 fold. Expression of factor VII (F7), a coagulation factor in the extrinsic pathway and important indicator of liver synthetic function, was 2.9±0.6 fold higher in RWV-cultured hepatocytes than in TCDs. Expression of Hfe2, which encodes the protein hemojuvelin involved in iron metabolism, was increased 11.4±1.7 fold in RWV compared to TCD cultures. Lastly, leptin receptor (Lepr), important in the regulation of lipid metabolism, was expressed 19.8±5.9 fold higher in RWV-cultured hepatocytes. Together, these data indicate that the most significant difference between TCD- and RWV-cultured hepatocytes is that diverse metabolic functions characteristic of hepatocytes were maintained at higher levels in 3D aggregates than in monolayers.\n\n3.5. Promoter region analysis of genes upregulated in RWVs compared to TCDs\n\nTo identify a unifying mechanism that may explain the improved expression of a diverse array of hepatocyte-specific genes in 3D aggregate culture, promoter region analysis was performed on the 293 genes upregulated in RWV at 24 hours to find over-represented transcription factor binding sites (TFBSs). Of the 293 genes, 261 were in the oPOSSUM database (http://www.cisreg.ca) and included in the analysis. Table 3 lists the top 10 over-represented TFBSs in genes significantly upregulated in RWV-cultured hepatocytes compared with a background gene set. TFBSs with a Z-score > 10 and Fisher score < 0.01 were empirically validated to identify functionally relevant transcription factors within a set of co-expressed genes. Using these criteria, only the top 2 transcription factors, HNF4α (Hnf4a) and chicken ovalbumin upstream promoter transcription factor 1 (TFCOUP1), were identified as functionally important regulators of the genes upregulated in RWV-cultured hepatocytes. Remarkably, 52% of the analyzed genes (138 genes) contained Hnf4a TFBSs in their promoter regions. Hnf4a is known as a master regulator of hepatocyte-specific functions. Interestingly, TFCOUP1 and Hnf4a binding motifs are highly related and TFCOUP1 has been shown to act as a negative regulator of Hnf4a transactivation. These analyses suggest that Hnf4a is particularly important for maintaining hepatocyte-specific functions in RWV-cultured hepatocytes.\n\nTo further clarify the role of Hnf4a in 3D hepatocyte culture, expression of Hnf4a and other liver-enriched transcription factors was determined at 24h of culture. Expression of Hnf4a was significantly increased by 3.4±0.5 fold in RWV-cultured hepatocytes compared to TCD (Figure 5), whereas expression of Cebpa and Foxa2 did not differ significantly between culture types. CCAAT/enchancer-binding protein α (Cebpa) is a liver-enriched transcription factor known to regulate expression of numerous genes that support liver-specific functions. Forkhead box A2 (Foxa2) is a transcription factor critical for liver development, but dispensable for maintenance of mature hepatocyte functions. Our findings suggest that Hnf4a is the principle promoter of hepatocyte-specific functions in 3D culture.\n\n3.6. Characterization of mesenchymal and cytoskeletal gene expression in monolayer cultures compared to 3D aggregate cultures\n\nIn addition to being a direct transcriptional activator of many hepatocyte-specific functional genes, Hnf4a has also been shown to maintain hepatocyte differentiation by repressing expression of mesenchymal genes, including Snail (Snai1), a key inducer of epithelial-mesenchymal transition (EMT). In order to determine whether mesenchymal molecular pathways may be concomitantly suppressed in hepatocyte 3D aggregates, we measured expression of several important markers of EMT at 24h of culture in TCDs and RWVs, before potential overgrowth of contaminating non-parenchymal cells (<10% of the purified hepatocyte population, data not shown) may confound the results. Notably, Snail expression was significantly higher in TCD cultures by 2.7±0.6 fold at 24h as compared to RWV cultures. Vimentin (Vim), a cytoskeletal intermediate filament widely used as a marker of EMT, was expressed 6.6±1.3 fold higher in monolayer cultures compared to 3D aggregate cultures. Furthermore, expression of lysyl oxidase-like 2 (Loxl2), another inducer of EMT, was also significantly upregulated by 33.3±6.5 fold in TCDs compared to RWVs (Figure 6). Expression of E-cadherin (Cdh1) and N-cadherin (Cdh2), adhesion molecules characteristic of epithelial and mesenchymal cells, respectively, were not significantly different between TCD and RWV cultures (data not shown). Instead, several cytoskeletal genes not previously described in hepatocyte monolayer cultures were significantly upregulated in TCDs compared to RWVs. These included filamin A (Flna), an actin-binding protein that interacted with vimentin to regulate cell adhesion and spreading, whose expression was increased 3.7±0.4 fold in TCDs compared to RWVs. Expression of α1-actin (Acta1), an actin isoform expressed primarily in skeletal muscle, was greatly increased by 25.9±4.2 fold in monolayer cultures as compared to 3D aggregates. Finally, expression of β-tropomyosin (Tpm2), an isoform primarily expressed in skeletal muscle and fibroblasts, was also significantly increased by 6.9±1.5 fold in TCD-cultured hepatocytes (Figure 6). The significantly higher expression of mesenchymal and cytoskeletal genes in TCD as compared to RWV cultures at 24h suggests that these molecular pathways are induced in hepatocyte monolayers and suppressed in 3D aggregates.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "three-dimensional cell culture",
+    "bioreactor",
+    "hepatocyte",
+    "microarray",
+    "gene expression",
+    "spheroid",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "The third dimension bridges the gap between cell culture and live tissue",
+      "authors": [
+        "F Pampaloni",
+        "EG Reynaud",
+        "EH Stelzer"
+      ]
+    },
+    {
+      "title": "Monolayer and spheroid culture of human liver hepatocellular carcinoma cell line cells demonstrate distinct global gene expression patterns and functional phenotypes",
+      "authors": [
+        "TT Chang",
+        "M Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Rat hepatocyte spheroids formed by rocked technique maintain differentiated hepatocyte gene expression and function",
+      "authors": [
+        "CM Brophy",
+        "JL Luebke-Wheeler",
+        "BP Amiot",
+        "H Khan",
+        "RP Remmel",
+        "P Rinaldo"
+      ]
+    },
+    {
+      "title": "Maintenance of liver functions in rat hepatocytes cultured as spheroids in a rotating wall vessel",
+      "authors": [
+        "LA Brown",
+        "LM Arterburn",
+        "AP Miller",
+        "NL Cowger",
+        "SM Hartley",
+        "A Andrews"
+      ]
+    },
+    {
+      "title": "The differentiation of MSCs into functional hepatocyte-like cells in a liver biomatrix scaffold and their transplantation into liver-fibrotic mice",
+      "authors": [
+        "R Ji",
+        "N Zhang",
+        "N You",
+        "Q Li",
+        "W Liu",
+        "N Jiang"
+      ]
+    },
+    {
+      "title": "The promotion of hepatic maturation of human pluripotent stem cells in 3D co-culture using type I collagen and Swiss 3T3 cell sheets",
+      "authors": [
+        "Y Nagamoto",
+        "K Tashiro",
+        "K Takayama",
+        "K Ohashi",
+        "K Kawabata",
+        "F Sakurai"
+      ]
+    },
+    {
+      "title": "Rotating microgravity-bioreactor cultivation enhances the hepatic differentiation of mouse embryonic stem cells on biodegradable polymer scaffolds",
+      "authors": [
+        "Y Wang",
+        "Y Zhang",
+        "S Zhang",
+        "G Peng",
+        "T Liu",
+        "Y Li"
+      ]
+    },
+    {
+      "title": "Enhanced liver progenitor cell survival and differentiation in vivo by spheroid implantation in a vascularized tissue engineering chamber",
+      "authors": [
+        "KK Yap",
+        "AM Dingle",
+        "JA Palmer",
+        "RS Dhillon",
+        "Z Lokmic",
+        "AJ Penington"
+      ]
+    },
+    {
+      "title": "Influence of a three-dimensional, microarray environment on human cell culture in drug screening systems",
+      "authors": [
+        "L Meli",
+        "ET Jordan",
+        "DS Clark",
+        "RJ Linhardt",
+        "JS Dordick"
+      ]
+    },
+    {
+      "title": "3D spheroid culture of hESC/hiPSC-derived hepatocyte-like cells for drug toxicity testing",
+      "authors": [
+        "K Takayama",
+        "K Kawabata",
+        "Y Nagamoto",
+        "K Kishimoto",
+        "K Tashiro",
+        "F Sakurai"
+      ]
+    },
+    {
+      "title": "Significant survival prolongation in pigs with fulminant hepatic failure treated with a novel microgravity-based bioartificial liver",
+      "authors": [
+        "B Hochleitner",
+        "P Hengster",
+        "H Bucher",
+        "R Ladurner",
+        "S Schneeberger",
+        "A Krismer"
+      ]
+    },
+    {
+      "title": "Differentiation and selection of hepatocyte precursors in suspension spheroid culture of transgenic murine embryonic stem cells",
+      "authors": [
+        "E Gabriel",
+        "S Schievenbusch",
+        "E Kolossov",
+        "JG Hengstler",
+        "T Rotshteyn",
+        "H Bohlen"
+      ]
+    },
+    {
+      "title": "Engraftment potential of spheroid-forming hepatic endoderm derived from human embryonic stem cells",
+      "authors": [
+        "SE Kim",
+        "SY An",
+        "DH Woo",
+        "J Han",
+        "JH Kim",
+        "YJ Jang"
+      ]
+    },
+    {
+      "title": "Rat hepatocyte aggregate formation on discrete aligned nanofibers of type-I collagen-coated poly(L-lactic acid)",
+      "authors": [
+        "ZQ Feng",
+        "XH Chu",
+        "NP Huang",
+        "MK Leach",
+        "G Wang",
+        "YC Wang"
+      ]
+    },
+    {
+      "title": "Three-dimensional microstructured tissue scaffolds fabricated by two-photon laser scanning photolithography",
+      "authors": [
+        "TM Hsieh",
+        "CW Ng",
+        "K Narayanan",
+        "AC Wan",
+        "JY Ying"
+      ]
+    },
+    {
+      "title": "Reconstruction of 3D stacked hepatocyte tissues using degradable, microporous poly(d,l-lactide-co-glycolide) membranes",
+      "authors": [
+        "J Kasuya",
+        "R Sudo",
+        "R Tamogami",
+        "G Masuda",
+        "T Mitaka",
+        "M Ikeda"
+      ]
+    },
+    {
+      "title": "Three-dimensional culture of hepatocytes on porcine liver tissue-derived extracellular matrix",
+      "authors": [
+        "R Lang",
+        "MM Stern",
+        "L Smith",
+        "Y Liu",
+        "S Bharadwaj",
+        "G Liu"
+      ]
+    },
+    {
+      "title": "Optimized suspension culture: the rotating-wall vessel",
+      "authors": [
+        "TG Hammond",
+        "JM Hammond"
+      ]
+    },
+    {
+      "title": "Mass transfer and metabolic reactions in hepatocyte spheroids cultured in rotating wall gas-permeable membrane system",
+      "authors": [
+        "E Curcio",
+        "S Salerno",
+        "G Barbieri",
+        "L De Bartolo",
+        "E Drioli",
+        "A Bader"
+      ]
+    },
+    {
+      "title": "Induction of three-dimensional assembly of human liver cells by simulated microgravity",
+      "authors": [
+        "VI Khaoustov",
+        "GJ Darlington",
+        "HE Soriano",
+        "B Krishnan",
+        "D Risin",
+        "NR Pellis"
+      ]
+    },
+    {
+      "title": "Cultures of human liver cells in simulated microgravity environment",
+      "authors": [
+        "B Yoffe",
+        "GJ Darlington",
+        "HE Soriano",
+        "B Krishnan",
+        "D Risin",
+        "NR Pellis"
+      ]
+    },
+    {
+      "title": "On the nature of biomaterials",
+      "authors": [
+        "DF Williams"
+      ]
+    },
+    {
+      "title": "Organ printing: tissue spheroids as building blocks",
+      "authors": [
+        "V Mironov",
+        "RP Visconti",
+        "V Kasyanov",
+        "G Forgacs",
+        "CJ Drake",
+        "RR Markwald"
+      ]
+    },
+    {
+      "title": "A microassay for measuring cytochrome P450IA1 and P450IIB1 activities in intact human and rat hepatocytes cultured on 96-well plates",
+      "authors": [
+        "MT Donato",
+        "MJ Gomez-Lechon",
+        "JV Castell"
+      ]
+    },
+    {
+      "title": "oPOSSUM: integrated tools for analysis of regulatory motif over-representation",
+      "authors": [
+        "SJ Ho Sui",
+        "DL Fulton",
+        "DJ Arenillas",
+        "AT Kwon",
+        "WW Wasserman"
+      ]
+    },
+    {
+      "title": "PrimerBank: a resource of human and mouse PCR primer pairs for gene expression detection and quantification",
+      "authors": [
+        "A Spandidos",
+        "X Wang",
+        "H Wang",
+        "B Seed"
+      ]
+    },
+    {
+      "title": "Restoration of liver mass after injury requires proliferative and not embryonic transcriptional patterns",
+      "authors": [
+        "HH Otu",
+        "K Naxerova",
+        "K Ho",
+        "H Can",
+        "N Nesbitt",
+        "TA Libermann"
+      ]
+    },
+    {
+      "title": "Human and rat bile acid-CoA:amino acid N-acyltransferase are liver-specific peroxisomal enzymes: implications for intracellular bile salt transport",
+      "authors": [
+        "A Pellicoro",
+        "FA van den Heuvel",
+        "M Geuken",
+        "H Moshage",
+        "PL Jansen",
+        "KN Faber"
+      ]
+    },
+    {
+      "title": "Enzymatic properties of a member (AKR1C19) of the aldo-keto reductase family",
+      "authors": [
+        "S Ishikura",
+        "K Horie",
+        "M Sanai",
+        "K Matsumoto",
+        "A Hara"
+      ]
+    },
+    {
+      "title": "A novel mutation in the glycogen synthase 2 gene in a child with glycogen storage disease type 0",
+      "authors": [
+        "AP Soggia",
+        "ML Correa-Giannella",
+        "MA Fortes",
+        "AM Luna",
+        "MA Pereira"
+      ]
+    },
+    {
+      "title": "Factor VII as a marker of hepatocellular synthetic function in liver disease",
+      "authors": [
+        "G Green",
+        "L Poller",
+        "JM Thomson",
+        "IW Dymock"
+      ]
+    },
+    {
+      "title": "HNF4alpha--role in drug metabolism and potential drug target?",
+      "authors": [
+        "WW Hwang-Verslues",
+        "FM Sladek"
+      ]
+    },
+    {
+      "title": "Liver-enriched transcription factors and hepatocyte differentiation",
+      "authors": [
+        "S Cereghini"
+      ]
+    },
+    {
+      "title": "Disruption of the c/ebp alpha gene in adult mouse liver",
+      "authors": [
+        "YH Lee",
+        "B Sauer",
+        "PF Johnson",
+        "FJ Gonzalez"
+      ]
+    },
+    {
+      "title": "The initiation of liver development is dependent on Foxa transcription factors",
+      "authors": [
+        "CS Lee",
+        "JR Friedman",
+        "JT Fulmer",
+        "KH Kaestner"
+      ]
+    },
+    {
+      "title": "Hepatocyte nuclear factor 3beta (Foxa2) is dispensable for maintaining the differentiated state of the adult hepatocyte",
+      "authors": [
+        "NJ Sund",
+        "SL Ang",
+        "SD Sackett",
+        "W Shen",
+        "N Daigle",
+        "MA Magnuson"
+      ]
+    },
+    {
+      "title": "The stable repression of mesenchymal program is required for hepatocyte identity: a novel role for hepatocyte nuclear factor 4alpha",
+      "authors": [
+        "L Santangelo",
+        "A Marchetti",
+        "C Cicchini",
+        "A Conigliaro",
+        "B Conti",
+        "C Mancone"
+      ]
+    },
+    {
+      "title": "Vimentin induces changes in cell shape, motility, and adhesion during the epithelial to mesenchymal transition",
+      "authors": [
+        "MG Mendez",
+        "S Kojima",
+        "RD Goldman"
+      ]
+    },
+    {
+      "title": "LOXL2 in epithelial cell plasticity and tumor progression",
+      "authors": [
+        "A Cano",
+        "PG Santamaria",
+        "G Moreno-Bueno"
+      ]
+    },
+    {
+      "title": "Filamin A mediates interactions between cytoskeletal proteins that control cell adhesion",
+      "authors": [
+        "H Kim",
+        "CA McCulloch"
+      ]
+    },
+    {
+      "title": "The actin gene family: function follows isoform",
+      "authors": [
+        "BJ Perrin",
+        "JM Ervasti"
+      ]
+    },
+    {
+      "title": "Vertebrate tropomyosin: distribution, properties and function",
+      "authors": [
+        "SV Perry"
+      ]
+    },
+    {
+      "title": "Liver-enriched transcription factor HNF-4 is a novel member of the steroid hormone receptor superfamily",
+      "authors": [
+        "FM Sladek",
+        "WM Zhong",
+        "E Lai",
+        "JE Darnell"
+      ]
+    },
+    {
+      "title": "Identification of an endogenous ligand bound to a native orphan nuclear receptor",
+      "authors": [
+        "X Yuan",
+        "TC Ta",
+        "M Lin",
+        "JR Evans",
+        "Y Dong",
+        "E Bolotin"
+      ]
+    },
+    {
+      "title": "Disruption of the HNF-4 gene, expressed in visceral endoderm, leads to cell death in embryonic ectoderm and impaired gastrulation of mouse embryos",
+      "authors": [
+        "WS Chen",
+        "K Manova",
+        "DC Weinstein",
+        "SA Duncan",
+        "AS Plump",
+        "VR Prezioso"
+      ]
+    },
+    {
+      "title": "Mammalian hepatocyte differentiation requires the transcription factor HNF-4alpha",
+      "authors": [
+        "J Li",
+        "G Ning",
+        "SA Duncan"
+      ]
+    },
+    {
+      "title": "Hepatocyte nuclear factor 4alpha controls the development of a hepatic epithelium and liver morphogenesis",
+      "authors": [
+        "F Parviz",
+        "C Matullo",
+        "WD Garrison",
+        "L Savatski",
+        "JW Adamson",
+        "G Ning"
+      ]
+    },
+    {
+      "title": "Hepatocyte nuclear factor 4alpha (nuclear receptor 2A1) is essential for maintenance of hepatic gene expression and lipid homeostasis",
+      "authors": [
+        "GP Hayhurst",
+        "YH Lee",
+        "G Lambert",
+        "JM Ward",
+        "FJ Gonzalez"
+      ]
+    },
+    {
+      "title": "Hepatocyte nuclear factor 4alpha is a central regulator of bile acid conjugation",
+      "authors": [
+        "Y Inoue",
+        "AM Yu",
+        "J Inoue",
+        "FJ Gonzalez"
+      ]
+    },
+    {
+      "title": "The maturity-onset diabetes of the young (MODY1) transcription factor HNF4alpha regulates expression of genes required for glucose transport and metabolism",
+      "authors": [
+        "M Stoffel",
+        "SA Duncan"
+      ]
+    },
+    {
+      "title": "Alterations in hepatic mRNA expression of phase II enzymes and xenobiotic transporters after targeted disruption of hepatocyte nuclear factor 4 alpha",
+      "authors": [
+        "H Lu",
+        "FJ Gonzalez",
+        "C Klaassen"
+      ]
+    },
+    {
+      "title": "Direct conversion of mouse fibroblasts to hepatocyte-like cells by defined factors",
+      "authors": [
+        "S Sekiya",
+        "A Suzuki"
+      ]
+    },
+    {
+      "title": "Efficient generation of functional hepatocytes from human embryonic stem cells and induced pluripotent stem cells by HNF4alpha transduction",
+      "authors": [
+        "K Takayama",
+        "M Inamura",
+        "K Kawabata",
+        "K Katayama",
+        "M Higuchi",
+        "K Tashiro"
+      ]
+    },
+    {
+      "title": "Control of pancreas and liver gene expression by HNF transcription factors",
+      "authors": [
+        "DT Odom",
+        "N Zizlsperger",
+        "DB Gordon",
+        "GW Bell",
+        "NJ Rinaldi",
+        "HL Murray"
+      ]
+    },
+    {
+      "title": "Five-vertebrate ChIP-seq reveals the evolutionary dynamics of transcription factor binding",
+      "authors": [
+        "D Schmidt",
+        "MD Wilson",
+        "B Ballester",
+        "PC Schwalie",
+        "GD Brown",
+        "A Marshall"
+      ]
+    },
+    {
+      "title": "Characterization of transcriptional regulatory elements in the promoter region of the murine blood coagulation factor VII gene",
+      "authors": [
+        "DR Stauffer",
+        "BN Chukwumezie",
+        "JA Wilberding",
+        "ED Rosen",
+        "FJ Castellino"
+      ]
+    },
+    {
+      "title": "Integrated approach for the identification of human hepatocyte nuclear factor 4alpha target genes using protein binding microarrays",
+      "authors": [
+        "E Bolotin",
+        "H Liao",
+        "TC Ta",
+        "C Yang",
+        "W Hwang-Verslues",
+        "JR Evans"
+      ]
+    },
+    {
+      "title": "Extracellular matrix modulates sensitivity of hepatocytes to fibroblastoid dedifferentiation and transforming growth factor beta-induced apoptosis",
+      "authors": [
+        "P Godoy",
+        "JG Hengstler",
+        "I Ilkavets",
+        "C Meyer",
+        "A Bachmann",
+        "A Muller"
+      ]
+    },
+    {
+      "title": "Effects of cell culture conditions on primary rat hepatocytes-cell morphology and differential gene expression",
+      "authors": [
+        "G Tuschl",
+        "SO Mueller"
+      ]
+    },
+    {
+      "title": "Transforming growth factor-beta1 induces an epithelial-to-mesenchymal transition state in mouse hepatocytes in vitro",
+      "authors": [
+        "A Kaimori",
+        "J Potter",
+        "JY Kaimori",
+        "C Wang",
+        "E Mezey",
+        "A Koteish"
+      ]
+    },
+    {
+      "title": "Hepatocytes do not undergo epithelial-mesenchymal transition in liver fibrosis in mice",
+      "authors": [
+        "K Taura",
+        "K Miura",
+        "K Iwaisako",
+        "CH Osterreicher",
+        "Y Kodama",
+        "M Penz-Osterreicher"
+      ]
+    },
+    {
+      "title": "Fibroblasts derive from hepatocytes in liver fibrosis via epithelial to mesenchymal transition",
+      "authors": [
+        "M Zeisberg",
+        "C Yang",
+        "M Martino",
+        "MB Duncan",
+        "F Rieder",
+        "H Tanjore"
+      ]
+    },
+    {
+      "title": "Balancing forces: architectural control of mechanotransduction",
+      "authors": [
+        "CC DuFort",
+        "MJ Paszek",
+        "VM Weaver"
+      ]
+    }
+  ],
+  "original_title": "Molecular mechanisms underlying the enhanced functions of three-dimensional hepatocyte aggregates",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b424/4012541/0ea171d09115/nihms544839f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b424/4012541/601b16b617ca/nihms544839f2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b424/4012541/a7fa9a720bc8/nihms544839f3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b424/4012541/22330f93ffa9/nihms544839f4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b424/4012541/cba541da3859/nihms544839f5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b424/4012541/7872ad08f5c1/nihms544839f6.jpg"
+  ]
+}

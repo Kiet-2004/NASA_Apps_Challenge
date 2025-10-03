@@ -1,0 +1,937 @@
+{
+  "pmcid": "10264680",
+  "title": "The EXO70 inhibitor Endosidin2 alters plasma membrane protein composition in Arabidopsis roots",
+  "abstract": "To sustain normal growth and allow rapid responses to environmental cues, plants alter the plasma membrane protein composition under different conditions presumably by regulation of delivery, stability, and internalization. Exocytosis is a conserved cellular process that delivers proteins and lipids to the plasma membrane or extracellular space in eukaryotes. The octameric exocyst complex contributes to exocytosis by tethering secretory vesicles to the correct site for membrane fusion; however, whether the exocyst complex acts universally for all secretory vesicle cargo or just for specialized subsets used during polarized growth and trafficking is currently unknown. In addition to its role in exocytosis, the exocyst complex is also known to participate in membrane recycling and autophagy. Using a previously identified small molecule inhibitor of the plant exocyst complex subunit EXO70A1, Endosidin2 (ES2), combined with a plasma membrane enrichment method and quantitative proteomic analysis, we examined the composition of plasma membrane proteins in the root of Arabidopsis seedlings, after inhibition of the ES2-targetted exocyst complex, and verified our findings by live imaging of GFP-tagged plasma membrane proteins in root epidermal cells. The abundance of 145 plasma membrane proteins was significantly reduced following short-term ES2 treatments and these likely represent candidate cargo proteins of exocyst-mediated trafficking. Gene Ontology analysis showed that these proteins play diverse functions in cell growth, cell wall biosynthesis, hormone signaling, stress response, membrane transport, and nutrient uptake. Additionally, we quantified the effect of ES2 on the spatial distribution of EXO70A1 with live-cell imaging. Our results indicate that the plant exocyst complex mediates constitutive dynamic transport of subsets of plasma membrane proteins during normal root growth.",
+  "introduction": "Highlights\n\n• The proteomics profile of Arabidopsis plasma membrane proteins changes following 2-h treatment with the EXO70A1 inhibitor, ES2.\n\nIntroduction\n\nThe plant plasma membrane serves as a selective physical barrier between intracellular contents and the environment as well as a signaling platform for transmitting information from the exterior to induce cellular responses. Plasma membrane proteins can be classified as integral, lipid-anchored, and peripheral, based on the mode of association with the plasma membrane. Integral membrane proteins possess one to several transmembrane domains; lipid-anchored proteins associate with the plasma membrane through covalently attached fatty acids; peripheral membrane proteins associate with the plasma membrane through interactions with other membrane proteins, polar head groups of the lipid bilayer, or both. Several well-characterized plasma membrane-localized nutrient transporters, hormone receptors and transporters, and cell wall biosynthetic enzymes are known to undergo constitutive delivery and turnover. Proteomic analyses of plasma membrane proteins reveal that the composition is altered in response to biotic and abiotic stresses; however, the mechanisms for delivery of most of these plasma membrane proteins are not well characterized. Investigating how plants maintain the variety, abundance, and dynamics of plasma membrane proteins is essential for understanding cell growth, development, and response to stresses.\n\nThe conventional plant secretory pathway involves trafficking through the endoplasmic reticulum, Golgi and post-Golgi vesicles to deliver lipids and proteins to the plasma membrane or extracellular space. The exocyst complex is a conserved octameric protein complex that primarily functions to mediate the tethering of secretory vesicles to the site of membrane fusion during the last step of exocytic trafficking. In addition, the exocyst complex also associates with the endocytic and autophagy machinery to modulate membrane recycling and autophagy. One plant exocyst subunit, EXO70A1, was recently characterized as a landmark for exocyst complex recruitment to the plasma membrane, through its interactions with anionic phospholipids. Loss of EXO70A1 function disrupts the recruitment of other exocyst subunits to the plasma membrane in Arabidopsis root epidermal cells. Some known cargo proteins for plant exocyst complex-mediated trafficking include PIN auxin transporters, brassinosteroid receptor, and cellulose synthase complexes. However, it is not known what other plasma membrane proteins are delivered to the plasma membrane through the exocyst complex. Whereas the half-life for turnover of plasma membrane proteins in mammalian cells varies from a few hours to a few days, we know much less about the mechanisms and dynamics of protein delivery to the plasma membrane in plants.\n\nPreviously, the small molecule Endosidin2 (ES2) was shown to target the EXO70A1 subunit of Arabidopsis exocyst complex and to inhibit exocytosis in plant and mammalian cells. Short-term ES2 treatment inhibits the transport of PIN-FORMED (PIN) family auxin transporter, PIN2, and the brassinosteroid receptor BRI1, to the plasma membrane, and also impairs the recycling of PIN2. In mammalian cells, ES2 treatment reduces the cell surface abundance of a membrane-anchored metalloproteinase MT2-MMP. In addition, given the role of the exocyst complex in autophagy, a recent study examined the consequences of ES2 treatment in autophagy events in mammalian cells, and found that a 24-h ES2 treatment resulted in decreased autophagy. To characterize changes in plasma membrane protein composition after short-term inhibition of the exocyst complex, and to identify additional proteins that are transported through the exocyst complex, we used ES2 to inhibit the exocyst complex. We enriched plasma membrane from roots of Arabidopsis seedlings treated with ES2 and DMSO solvent control and identified proteins using mass spectrometry analysis. We then performed quantitative and comparative proteomic analyses to identify plasma membrane proteins with altered abundance in ES2-treated samples and considered proteins with reduced abundance as candidate cargo proteins of exocyst-mediated trafficking in plants. We identified a subset of proteins with significantly reduced abundance at the plasma membrane after two hours of 40 μM ES2 treatment. Gene Ontology analysis of proteins with reduced abundance demonstrated enrichment for functions in cell growth, cell wall biosynthesis, membrane transport, hormone signaling, and stress responses. The abundance of many protein kinases and several uncharacterized proteins was reduced by ES2 treatment as well. Our results show that the exocyst complex mediates dynamic transport of a diverse set of proteins essential for plant growth and environmental adaptation.",
+  "methods": "Materials and methods\n\nPlasma membrane enrichment\n\nArabidopsis PIP2A-GFP seeds were sterilized and sowed on half-strength Murashige and Skoog (½ MS) media with vitamins (Caisson Labs, Smithfield, UT, USA), 1% (w/v) sucrose, and 0.8% (w/v) agar (Fisher Scientific, Waltham, MA, USA). The seeds were well separated from each other in both horizontal and vertical orientations on 10 cm x 10 cm square petri plates. Plates were placed in vertical orientation so that the seedings grew on the surface of the agar media. The plants were grown in a growth chamber (Percival Scientific, Perry, IA, USA) under continuous light of 130 μmol m-2s-1 at 23°C. Six-day-old seedlings were removed from the agar plates and transferred to liquid ½ MS media with 1% (w/v) sucrose and 40 μM ES2 or 0.5% DMSO (mock). After two hours of treatment under light, the roots of the seedlings were quickly excised and transferred to the plasma membrane enrichment buffer. The process of plasma membrane enrichment followed exactly the published protocol. To evaluate the enrichment of plasma membrane proteins by Western blot assay, 12 μg of protein from each fraction was loaded onto SDS-PAGE gels and the presence of PIP2A-GFP, Sec12, and SYP41 was detected after transfer to PVDF membrane. The anti-GFP antibody was used at 1:1000 dilution (Takara Bio USA, catalog # 632381, San Jose, CA, USA); anti-Sec12 antibody was used at 1:5000 dilution; and anti-SYP41 antibody was used at 1:500 dilution. HRP-conjugated goat anti-mouse and goat anti-rabbit antibodies were used at 1:10,000 dilution. The plasma membrane enrichment experiments were repeated four times under identical conditions.\n\nMethanol-chloroform precipitation\n\nThe mass spectrometry sample preparation procedure was based on previous literature. Protein concentrations from enriched plasma membrane fractions were quantified using the bicinchoninic acid method. For each sample, 250 μg of enriched plasma membrane protein was processed for mass spectrometry analysis. Proteins from each sample were reduced and alkylated with 10 mM tris-(2-carboxyethyl)phosphine (TECP) and 40 mM chloroacetamide (CAA) at 95°C for 5 min. Methanol, chloroform, and ddH2O were added to each 100 µl sample in a volume ratio of 4:1:3, respectively. The solution was mixed and centrifuged at 16,000x g for 3 min to obtain aqueous and organic phases. Four volumes of methanol were added to the sample after removing the upper aqueous layer carefully without disturbing the intermediate protein disk. The solution was mixed and centrifuged again at the same settings. The supernatant was removed, the precipitated protein pellet was washed with 400 µL methanol, and the sample was air-dried.\n\nProtein digestion\n\nThe precipitated protein pellet was dissolved with 100 µl of 12 mM sodium deoxycholate (SDC) and 12 mM sodium lauroyl sarcosinate (SLS) in 100 mM Tris-HCl (pH 8.5). Protein amount was quantified by BCA assay (Thermo Fisher Scientific). Dissolved protein extract was diluted 5-fold with 50 mM triethylammonium hydrogen carbonate buffer (TEAB) and digested with Lys-C (Wako Chemicals USA Inc., Richmond, VA, USA) in a ratio of 1:100 (w/w) enzyme-to-protein ratio for 3 h at 37°C, and trypsin (Sigma-Aldrich, St. Louis, MO, USA) in a ratio of 1:50 (w/w) enzyme-to-protein ratio for overnight at 37°C. SDC and SLS were removed by adding 100% acetyl acetate in a ratio of 1:1 (vol/vol) sample to acetyl acetate volume ratio. The digests were desalted by homemade stage tip with styrene divinyl benzene (SDB-XC) membrane (3M) after the digests were acidified with 10% trifluoroacetic acid (TFA) to a pH ~3.\n\nDimethyl labeling\n\nEvery 50–100 µg of tryptic peptides was dissolved in 100 µl of 100 mM TEAB and mixed with 4 µl of 4% 13CD2O or 12CH2O, and then 4 µl of freshly prepared 0.6 M sodium cyanoborohydride was immediately added. The mixture was agitated for 1 h at room temperature. The reaction was quenched by adding 16 µl of ice-cold 1% ammonium hydroxide and agitated for 1 min. Heavy and light dimethyl-labeled peptides were mixed after the labeled peptides were acidified with 20 µl of 10% formic acid and then fractionated by basic pH reverse-phase stage tips.\n\nBasic pH reverse-phase fractionation\n\nTwo mg of the Magic C18-AQ beads (5 µm particles) were suspended in 200 µL of methanol and loaded into a 200 µL StageTip with a 20 µm polypropylene frit (Agilent, Santa Clara, CA, USA). The C18 StageTip was activated with 50 µL of 100% acetonitrile (ACN) and washed with 50 µL of 200 mM ammonium formate, pH 10. After the StageTip was activated and washed, 25–50 µg of dimethyl-labeled peptides were fractionated from the StageTip with 50 µL of 6 different ACN concentrations: 5, 10, 15, 20, 25% and 80% of ACN in 200 mM ammonium formate, pH 10. The eluted peptides were dried and stored at -20°C.\n\nLC-MS/MS analysis\n\nTwenty-five µg of dimethyl-labeled peptides used in fractionations were dissolved in 5 µL of 0.3% formic acid (FA) with 3% ACN and 4 µL of each fraction injected into an EasynLC 1000 (Thermo Fisher Scientific). Peptides were separated on a 45 cm in-house packed column (360 µm OD × 75 µm ID) containing C18 resin (2.2 µm, 100Å, Michrom Bioresources, Auburn, CA, USA) with a 30 cm column heater (Analytical Sales and Services, Flanders, NJ, USA) set at 60°C. The mobile phase buffer for 25 µg peptide fractions consisted of 0.1% FA in ultrapure water (buffer A) with an eluting buffer of 0.1% FA in 80% ACN (buffer B) run with a 150 min gradient of 5–30% buffer B at a flow rate of 250 nL/min. The Easy-nLC 1000 was coupled online with a Velos Pro LTQ-Orbitrap mass spectrometer (Thermo Fisher Scientific). The mass spectrometer was operated in the data-dependent mode in which a full MS scan (from m/z 350–1500 with a resolution of 30,000 at m/z 400) was followed by MS/MS of the 10 most intense ions being subjected to collision-induced dissociation (CID) fragmentation (normalized collision energy–30%, automatic gain control–3E4, max injection time–100 ms).\n\nProteomics data analyses\n\nThe raw files were searched directly against the Arabidopsis thaliana protein database (TAIR10) with no redundant entries using MaxQuant software (version 1.6.1.0) with 1% false-discovery rate (FDR) cutoff for protein and peptide. The first peptide precursor mass tolerance was set at 20 ppm, and MS/MS tolerance was set at 0.6 Da. Search criteria included a static carbamidomethylation of cysteines and variable modifications of oxidation on methionine residues and acetylation at N-terminus of proteins. The search was performed with full tryptic digestion and allowed a maximum of two missed cleavages on the peptides analyzed from the sequence database. Dimethyl-labeling quantitation was performed by setting the multiplicity as 2 (DimethLys0 and DimethNter0; DimethLys6 and DimethNter6). Re-quantify and match between runs function were enabled.\n\nAfter database searches, the Perseus software platform (Version 1.6.1.3) was used to further analyze the MaxQuant-derived protein groups file. First, the rows marked to be “only identified by site”, “reverse” and “potential contaminants” were filtered out. The Heavy/Light ratio was transformed to Light/Heavy (L/H) ratio for convenience, and then to log2L/H ratio. Normalization was performed by median subtraction. Proteins with less than 3 valid values among the 4 replicates were filtered out. One sample t-test was performed with both side and p-value threshold of 0.05. Proteins that passed t-test and with a mean log2L/H ratio ≤ -0.32193 were considered to be 20% reduction candidates. Histogram and multi-scatter plots were generated by Perseus software. The reduced abundance candidate list was uploaded to PANTHER platform for Gene Ontology (GO) analysis, including functional classification and statistical overrepresentation.\n\nThe Venn diagram was generated using the online tool provided by Van de Peer Lab at the Bioinformatics and Evolutionary Genomics Core of Ghent University, Belgium (http://bioinformatics.psb.ugent.be/webtools/Venn/). The presence of signal peptide and transmembrane domains in candidate proteins was predicted using the DeepTMHMM package (v1.0.24) provided by Department of Bio and Health Informatics, Technical University of Denmark (https://dtu.biolib.com/DeepTMHMM).\n\nConfocal microscopy\n\nFor imaging of fluorescence-tagged protein marker lines, 6-d-old light-grown seedlings expressing PIN2-GFP, BRI1-GFP, FER-GFP, PIP2A-GFP, or GFP-EXO70A1 were treated in liquid ½ MS medium containing 0.5% DMSO (mock) or 40 μM ES2 for 2 h. Live imaging was performed with a Zeiss LSM 710 Axio Imager laser-scanning confocal microscope operated with Zeiss ZEN software (Carl Zeiss Microscopy LLC, White Plains, NY, USA). The PIN2-GFP, BRI1-GFP, FER-GFP and PIP2A-GFP lines were imaged with a Zeiss Plan-Apochromat 100x/NA1.40 DIC Oil immersion objective at 2048×2048 pixel scanning resolution. The GFP-EXO70A1 line was imaged with a Zeiss Plan-Apochromat 63x/NA1.40 Oil immersion objective at 4096×4096 pixel scanning resolution. The GFP-EXO70A1 seedlings were stained with 10 μg/mL Propidium Iodide (PI) (Biotium Inc., Fremont, CA, USA; Cat # 40016) in ½ liquid MS medium containing DMSO or ES2 in the dark for 10 min, and quickly rinsed in PI-free medium before imaging. GFP was excited with a 488-nm laser line, and PI was excited with a 543-nm laser line. Images were collected from root epidermal cells at the transition zone.\n\nQuantitative image analysis of GFP fluorescence intensity was performed using the FIJI distribution of ImageJ (Ver 1.54b). The regions of interest (ROI) were selected for plasma membrane, cytoplasmic background in the compartment-free region, and the entire cytoplasmic region. The mean fluorescence intensity of the GFP signal for each ROI was measured. The average PM fluorescence intensity was normalized by subtracting the mean fluorescence intensity of the cytoplasmic background. The plasma membrane / cytoplasm ratio was calculated by first subtracting the mean fluorescence intensity of the region outside of the root and then dividing the PM mean fluorescence intensity by the mean fluorescence intensity of the entire cytoplasmic region. Values for individual cells from each seedling were averaged and considered as one data point. Normalization and averaging were performed in Microsoft Excel. Statistical analyses using a Student’s t-test were conducted, and box plots were generated with GraphPad Prism software.",
+  "results": "Results\n\nPlasma membrane enrichment\n\nWe chose to use a transgenic line expressing PIP2A-GFP as the plant material for our experiments because PIP2A-GFP is localized predominantly at the plasma membrane by microscopy and its cellular localization is not affected by 2 h of 40 μM ES2 treatment. The GFP tag also allowed the use of anti-GFP antibody to examine the quality of enriched plasma membrane fractions. Six-day-old PIP2A-GFP seedlings were treated with either 40 μM ES2 or 0.5% DMSO for 2 h, a condition in which plant exocytosis is reduced but not completely inhibited. After treatment, roots were excised and used for plasma membrane enrichment ( Figure 1A ). We adapted a protocol that allows quick enrichment of plasma membrane and does not require large amounts of plant tissue.\n\nEnrichment was evaluated by detecting the presence of proteins known to localize to the plasma membrane (PIP2A-GFP), endoplasmic reticulum (ER) (Sec12), and Golgi/trans-Golgi network (TGN) (SYP41) in different fractions using Western blots with anti-GFP, anti-Sec12, and anti-SYP41 antibodies, respectively ( Figure 1B ). PIP2A-GFP was enriched in the plasma membrane fraction when compared to the crude membrane fraction ( Figure 1B , anti-GFP). The ER membrane protein, Sec12, was detected in both crude membrane and plasma membrane fractions; however, the abundance of Sec12 in the plasma membrane fraction was markedly lower than the crude membrane fraction ( Figure 1B , anti-Sec12). The Golgi/TGN protein, SYP41, was detected in the crude membrane fraction but not in the enriched plasma membrane fraction ( Figure 1B , anti-SYP41). Immunoblots demonstrated that although proteins from other organelles were present in the enriched plasma membrane fraction, their abundance was substantially reduced in comparison with plasma membrane proteins. We prepared four independent biological replicates of enriched plasma membrane fractions for the mass spectrometry proteomics analysis.\n\nMass spectrometry analyses of enriched plasma membrane proteins\n\nFrom each enriched plasma membrane fraction, 25 μg of protein was digested with Lys-C and trypsin. Resulting peptides from ES2-treated plant samples were dimethyl labeled with 12CH2O (light, L) and peptides from DMSO-treated samples were dimethyl labeled with 13CD2O (heavy, H). Dimethyl-labeled peptides from ES2-treatment and control samples were combined and fractionated before LC-MS/MS analysis. The peptides that were detected by LC-MS/MS were assigned to proteins and the abundance of each protein was calculated through a MaxQuant database search. The ratio of each protein’s abundance in differentially labeled samples was calculated using the same process. The data were processed further with the Perseus platform by filtering out rows with invalid values (potential contaminants, the reverse peptides, and peptides only identified by site) from the MaxQuant database search. We further filtered the data by removing proteins with less than three detected values in the four replicates. To compare the data from different replicates, the ratio of protein abundance between differentially labeled proteins was transformed to log2 phase and further normalized by median subtraction and then analyzed by histogram ( Supplemental Figure S1 ). The normal distribution of log2 phase of ratios centered by zero between differentially labeled proteins indicates that the majority of proteins that we detected were not altered by ES2 treatment.\n\nWe detected 3675 proteins from four independent replicate experiments ( Supplementary Table S1 ). To further evaluate the plasma membrane preparation, we compared our protein list with those published from different Arabidopsis tissues using another plasma membrane preparation method ( Figure 1C ). First, we compared our plasma membrane protein list with one generated from two-week-old liquid cultured Arabidopsis seedlings using a two-phase partition of microsomes and Trypsin-catalyzed 18O labeling. We found 295 overlapping proteins, accounting for 95% of the proteins detected in Nelson et al.’s experiments (309 proteins in total) ( Figure 1C ). Elmore et al. used an aqueous two-phase partitioning approach for leaves of four-week-old Arabidopsis plants grown in soil condition and consistently identified more than 1300 proteins in replicate experiments. We found 960 overlapping proteins, accounting for more than 70% of the proteins detected in Elmore et al.’s experiments ( Figure 1C ). Li et al. isolated plasma membrane fractions from Arabidopsis suspension-cultured cells using a two-phase partition method and identified over 600 proteins by proteomic analysis. About 60% of the proteins that were detected from cultured cells were consistently identified in our experiments ( Figure 1C ). Substantial overlap between our plasma membrane protein list and others that use a different method or tissue indicates that our proteomic data can be used to compare the effects of ES2 on the abundance of plasma membrane proteins.\n\nTo examine whether the enriched plasma membrane fraction was free from contaminants from other large membrane-bound compartments, we checked our proteomics list for the presence of proteins residing in the nuclear envelope and vacuole. The nuclear envelope protein SAD1/UNC-84 DOMAIN PROTEIN 1 (SUN1, AT5G04990) was detected, but its abundance was unchanged following ES2 treatment, with a mean log2 fold-change of 0.00. Another nuclear envelope protein SAD1/UNC-84 DOMAIN PROTEIN 2 (SUN2, AT3G10730) was not detected. The vacuole membrane protein TONOPLAST INTRINSIC PROTEIN 1;1 (γ-TIP or TIP1;1, AT2G36830) was not detected. These results indicate that the enriched plasma membrane fraction was relatively free from contamination of nuclear envelope or vacuolar membranes.\n\nTo investigate whether ES2 treatment altered the membrane identity of the plasma membrane fraction, we checked our proteomics list for the presence of several markers of membrane-bound organelles. The autophagosome markers ATG8e (AT2G45170) and ATG8f (AT4G16520) were not detected. The early endosome marker ARA6 (AT3G54840), ER marker SEC12 (AT2G04170), and Golgi marker SYP32 (AT3G24350) and ALPHA-MANNOSIDASE 1 (ManI, AT1G51590) were all present but unchanged following ES2 treatment, with a mean log2 fold-change of 0.06 for ARA6, 0.05 for SEC12, 0.00 for SYP32, and -0.01 for ManI ( Supplementary Table S1 ). These results indicate that the membrane identify of the plasma membrane was not altered following ES2 treatment.\n\nTo identify proteins with altered abundance after ES2 treatment, we performed a moderated t-test for each protein using the limma package in R. The moderated t-test uses a hierarchical empirical Bayesian model to shrink the sample standard deviation estimates for each protein towards a pooled value. This stabilizes the t-statistics and increases the power of the test to detect true differences in protein abundance. Since multiple significance tests were performed, we used the Benjamini-Hochberg procedure to bound the expected false-discovery rate at 10%. After the correction, 330 proteins had adjusted p-values less than 0.10. Thus, we can estimate that roughly 300 of the 330 proteins have log2 ratios significantly different from 0. Among these 330 proteins, 145 had reduced abundance ( Supplementary Tables S2 ,  S3 ) and 185 had increased abundance ( Supplementary Table S4 ) in the plasma membrane fraction of ES2-treated samples. To highlight the proteins with the most dramatic changes, the top twenty proteins with decreased and increased abundance were listed in  Tables 1 ,  2 , respectively. Because ES2 binds to the EXO70A1 subunit of the exocyst complex and inhibits its function, and because EXO70A1 serves as a landmark for exocyst complex recruitment to the plasma membrane, we expect that proteins with reduced abundance at the plasma membrane are candidate cargos of exocyst-mediated trafficking.\n\nConfocal imaging of GFP-tagged plasma membrane proteins following ES2 treatment\n\nTo confirm the identification of proteins with reduced abundance after ES2 treatment, we performed live imaging of GFP-tagged plasma membrane proteins in Arabidopsis root epidermal cells using laser scanning confocal microscopy ( Figure 2 ). We selected three protein candidates: the auxin efflux carrier protein PIN-FORMED 2 (PIN2), the leucine-rich-repeat receptor kinase of brassinosteroid signaling BRASSINOSTEROID INSENSITIVE 1 (BRI1), and the receptor kinase FERONIA (FER), each of which had reduced plasma membrane abundance after ES2 treatment in our proteomics analysis. PIN2 had a mean log2 fold-change of -0.27, BRI1 had a mean log2 fold-change of -0.31, and FER had a mean log2 fold-change of -0.38. ( Supplementary Table S1 ). We quantified GFP-tagged protein fluorescence intensity on the plasma membrane and normalized by subtracting the mean background fluorescence intensity from a cytoplasmic compartment-free region ( Figure 2C ). The abundance of all three proteins at the plasma membrane region were significantly decreased after a 2-h ES2 treatment ( Figure 2D ). To further evaluate the change of abundance between the plasma membrane and entire cytoplasmic region, we also quantified the plasma membrane / cytoplasm intensity ratio as another indicator of plasma membrane protein abundance ( Figure 2E ). The plasma membrane / cytoplasm intensity ratios for all three proteins were significantly reduced after a 2-h ES2 treatment compared to mock treatment ( Figure 2E ). Our analysis showed for the first time that the plasma membrane abundance of FER was decreased following ES2 treatment. As a negative control, we measured the abundance of PLASMA MEMBRANE INTRINSIC PROTEIN 2A (PIP2A), which was shown to have unaltered plasma membrane abundance after ES2 treatment in the proteomics analyses, with a mean log2 fold-change of 0.05 ( Supplementary Table S1 ). The plasma membrane abundance and plasma membrane / cytoplasm intensity ratio of PIP2A-GFP were not altered by ES2 treatment ( Figures 2D, E ).\n\nGene Ontology enrichment analysis of candidate cargos for ES2-targeted trafficking\n\nTo better understand the biological functions of the candidate cargo proteins for ES2-targeted trafficking, we performed Gene Ontology (GO) enrichment analysis of the biological processes category on the 145 proteins with reduced abundance at the plasma membrane using the PANTHER classification system. We found that 49 proteins could be classified into protein families that were enriched in abundance on our list when compared to their abundance in the reference list of Arabidopsis thaliana genome ( Figure 3 ). The fold enrichment for different biological processes ranged from 3.7 to 200. The 49 candidate exocytosis cargo proteins belong to gene families that function in plant cell growth, cell wall biosynthesis, hormone signaling, response to stresses and membrane transport ( Figure 3 ;  Supplementary Table S2 ). The proteins for the regulation of DNA-templated transcription (GO:0006355), nucleic acid metabolic process (GO:0090304) and gene expression (GO:0010467) were much lower than the numbers that were expected from the Arabidopsis genome ( Figure 3 ), indicating the trafficking of these proteins was not mediated by the exocyst complex.\n\nWe further examined the annotated functions of proteins with significantly reduced abundance in ES2-treated samples. We found the abundance of three primary cell wall cellulose synthases (CESA1, CESA3, and CESA6), CELLULOSE SYNTHASE-INTERACTIVE PROTEIN 1 (CSI1), and KORRIGAN (KOR) was significantly reduced in ES2-treated samples ( Supplementary Table S2 ). Proteins involved in lignin metabolism were also reduced, as were multiple proteins involved in brassinosteroid and auxin signaling. The abundance of some proteins that respond to cold and phosphate deficiency was significantly reduced in ES2-treated samples. Another group of proteins that was affected by ES2 treatment are transporters responsible for the movement of phosphate, sulphate, potassium, and oligopeptides across the plasma membrane. The abundance of two annexins involved in phloem sucrose unloading was also significantly reduced ( Supplementary Table S2 ).\n\nIn addition to the proteins mentioned above, there are other proteins with reduced abundance at the plasma membrane, but they were not enriched in functional groups in the GO enrichment analysis. These include multiple receptor-like protein kinases, transporters, enzymes for carbohydrate metabolism and protein glycosylation, as well as proteins with uncharacterized functions. Although these proteins were not enriched in our list, they may have diverse functions and cellular localization patterns among different members of the family. Collectively, our GO term enrichment analysis indicates that the exocyst complex mediates constitutive transport of numerous proteins that function in cell growth, cell wall biosynthesis, hormone signaling, stress response, and membrane transport.\n\nBioinformatic analysis of potential cargo proteins for plant exocyst complex\n\nPlants use both conventional and unconventional trafficking pathways to deliver proteins to the plasma membrane and extracellular space. In the conserved conventional trafficking pathway, proteins with a signal peptide are inserted into the endoplasmic reticulum during translation and are then transported to Golgi through vesicles and further secreted through post-Golgi vesicles. However, increasing evidence from proteomic analysis shows that many proteins that are secreted out of the cell or targeted to the plasma membrane do not have signal peptides, indicating the existence of unconventional trafficking pathways for these proteins. Plant exocyst complex has been shown to regulate cargo proteins through both conventional and unconventional pathways.\n\nTo test whether the candidate cargo proteins contain signal peptides that allow them to traffic through the conventional pathway, we analyzed the presence of signal peptides in proteins that had reduced abundance in ES2-treated samples using the DeepTMHMM package, a deep-learning method for signal peptide and transmembrane domain prediction. DeepTMHMM predicted that 36 of the 145 proteins with reduced abundance contained signal peptides ( Supplementary Table S5 ). The existence of a signal peptide in a small percentage of proteins indicates that consistent with previous findings, plant exocyst complex mediates the transport of proteins in both conventional and unconventional trafficking pathways. To understand how these candidate cargo proteins are associated to the plasma membrane, we analyzed the presence of potential transmembrane domains in these 145 proteins using the DeepTMHMM package. We found 64 of the 145 proteins were predicted to have at least one transmembrane domain ( Supplementary Table S5 ).\n\nThe behavior of the exocyst complex and its regulators is different than candidate cargo proteins\n\nAll eight subunits of the exocyst complex were detected in the enriched plasma membrane fractions ( Supplementary Table S1 ). However, we did not find a statistically significant reduction in their abundance in ES2-treated samples ( Supplementary Table S1 ). Among the eight exocyst subunits, only SEC3 showed a 13% reduction in the mean value after ES2 treatment but was not statistically different ( Supplementary Table S1 ). STOMATAL CYTOKINESIS-DEFECTIVE 1 (SCD1), a component of the candidate activator of plant RabE GTPase that regulates the exocyst complex, was detected in plasma membrane fractions but its abundance was not altered by ES2 treatment ( Supplementary Table S1 ). We identified 12 Syntaxins of Plants (SYP), SYP111, SYP121, SYP122, SYP132, SYP21, SYP22, SYP32, SYP43, SYP51, SYP52, SYP61, and SYP71, but none of these were statistically significantly reduced ( Supplementary Table S1 ). In summary, our proteomics results indicate that the abundance of candidate tSNARE proteins, together with the exocyst complex and the SCD complex, were not significantly affected by a 2-h, 40 μM ES2 treatment.\n\nConfocal imaging of GFP-EXO70A1 following ES2 treatment\n\nTo investigate whether ES2 affects the spatial distribution or abundance at the plasma membrane of its target, EXO70A1, we performed live imaging of root epidermal cells from GFP-EXO70A1 seedlings using laser scanning confocal microscopy ( Figure 4 ). Consistent with previous findings, EXO70A1 in mock-treated epidermal cells showed a polarized distribution with highest abundance at the plasma membrane on the outer periclinal face, but was present at all six faces of the cell ( Figure 4A ). A 2-h, 40 µM ES2 treatment significantly reduced the abundance of EXO70A1 at the plasma membrane on the outer periclinal face ( Figures 4B, D ), and disrupted the polarized distribution of EXO70A1 at the outer periclinal face when fluorescence intensity was expressed as a ratio with the cytosolic region ( Figure 4E ) or as a ratio with the other faces of the same cell ( Figure 4F ). However, when EXO70A1 at the other three faces of the plasma membrane visible in medial optical sections, including the inner periclinal face and the two anticlinal faces (green line in  Figure 4C ), was examined, the apparent abundance expressed as a ratio with cytosol was not affected by ES2 treatment ( Figure 4G ). When all four faces of the plasma membrane were combined and averaged, there was a modest decrease in the abundance of EXO70A1, but this was not statistically significant ( Figure 4H ). In total, a 2-h ES2 treatment had greatest effect on the polarized distribution of EXO70A1 and its association with the plasma membrane at the outer periclinal face of root epidermal cells, but a rather modest reduction in overall abundance at the plasma membrane on all faces of the cell.\n\nGene Ontology enrichment analysis of proteins with increased abundance after ES2 treatment\n\nOur statistical analysis identified 185 proteins with increased abundance in enriched plasma membrane fractions of ES2-treated samples ( Supplementary Table S4 ). To better understand the function of these proteins, we performed Gene Ontology enrichment analysis of the biological function category. We found that this list of proteins is enriched in biological functions of COPII-coated vesicle cargo loading, mRNA catabolic process, negative regulation of translation, proton membrane transport, aerobic respiration, leaf senescence, ribonucleoprotein complex biogenesis, and amide biosynthesis process ( Supplementary Figure S3 ). The functional relationship between exocyst complex and these proteins has not been well characterized. We speculate that some of these proteins might be involved in cellular responses to the inhibition of exocytosis.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "plasma membrane protein enrichment",
+    "exocytosis",
+    "proteomics",
+    "small molecule inhibitors",
+    "exocyst",
+    "Plant Science",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Molecular mechanisms of endomembrane trafficking in plants",
+      "authors": [
+        "F. Aniento",
+        "V. Sánchez de Medina Hernández",
+        "Y. Dagdas",
+        "M. Rojas-Pierce",
+        "E. Russinova"
+      ]
+    },
+    {
+      "title": "Characterization of AtSEC12 and AtSAR1 (proteins likely involved in endoplasmic reticulum and golgi transport)",
+      "authors": [
+        "M. Bar-Peled",
+        "N. V. Raikhel"
+      ]
+    },
+    {
+      "title": "The endocytosis of cellulose synthase in arabidopsis is dependent on μ2, a clathrin-mediated endocytosis adaptin",
+      "authors": [
+        "L. Bashline",
+        "S. Li",
+        "C. T. Anderson",
+        "L. Lei",
+        "Y. Gu"
+      ]
+    },
+    {
+      "title": "AtVPS45 complex formation at the trans-golgi network",
+      "authors": [
+        "D. C. Bassham",
+        "A. A. Sanderfoot",
+        "V. Kovaleva",
+        "H. Zheng",
+        "N. V. Raikhel"
+      ]
+    },
+    {
+      "title": "Multiplex peptide stable isotope dimethyl labeling for quantitative proteomics",
+      "authors": [
+        "P. J. Boersema",
+        "R. Raijmakers",
+        "S. Lemeer",
+        "S. Mohammed",
+        "A. J. R. Heck"
+      ]
+    },
+    {
+      "title": "Rice plasma membrane proteomics reveals Magnaporthe oryzae promotes susceptibility by sequential activation of host hormone signaling pathways",
+      "authors": [
+        "J. Cao",
+        "C. Yang",
+        "L. Li",
+        "L. Jiang",
+        "Y. Wu",
+        "C. Wu"
+      ]
+    },
+    {
+      "title": "Comparative analysis of Brassica napus plasma membrane proteins under phosphorus deficiency using label-free and MaxQuant-based proteomics approaches",
+      "authors": [
+        "S. Chen",
+        "Y. Luo",
+        "G. Ding",
+        "F. Xu"
+      ]
+    },
+    {
+      "title": "The rice CK2 kinase regulates trafficking of phosphate transporters in response to phosphate levels",
+      "authors": [
+        "J. Chen",
+        "Y. Wang",
+        "F. Wang",
+        "J. Yang",
+        "M. Gao",
+        "C. Li"
+      ]
+    },
+    {
+      "title": "Turnover of plasma membrane proteins in rat hepatoma cells and primary cultures of rat hepatocytes",
+      "authors": [
+        "F. F. Chu",
+        "D. Doyle"
+      ]
+    },
+    {
+      "title": "A broadly conserved NERD genetically interacts with the exocyst to affect root growth and cell expansion",
+      "authors": [
+        "R. A. Cole",
+        "V. V. Peremyslov",
+        "S. Van Why",
+        "I. Moussaoui",
+        "A. Ketter",
+        "R. Cool"
+      ]
+    },
+    {
+      "title": "SEC8, a subunit of the putative arabidopsis exocyst complex, facilitates pollen germination and competitive pollen tube growth",
+      "authors": [
+        "R. A. Cole",
+        "L. Synek",
+        "V. Zarsky",
+        "J. E. Fowler"
+      ]
+    },
+    {
+      "title": "Simplified enrichment of plasma membrane proteins from arabidopsis thaliana seedlings using differential centrifugation and brij-58 treatment",
+      "authors": [
+        "C. A. Collins",
+        "M. E. Leslie",
+        "S. C. Peck",
+        "A. Heese",
+        "E. Russinova",
+        "A. I. Caño-Delgado"
+      ]
+    },
+    {
+      "title": "Random GFP∷cDNA fusions enable visualization of subcellular structures in cells of Arabidopsis at a high frequency",
+      "authors": [
+        "S. R. Cutler",
+        "D. W. Ehrhardt",
+        "J. S. Griffitts",
+        "C. R. Somerville"
+      ]
+    },
+    {
+      "title": "Secretory pathway research: the more experimental systems the better",
+      "authors": [
+        "J. Denecke",
+        "F. Aniento",
+        "L. Frigerio",
+        "C. Hawes",
+        "I. Hwang",
+        "J. Mathur"
+      ]
+    },
+    {
+      "title": "Rapid high-pH reverse phase StageTip for sensitive small-scale membrane proteomic profiling",
+      "authors": [
+        "B. R. T. Dimayacyac-Esleta",
+        "C.-F. Tsai",
+        "R. B. Kitata",
+        "P.-Y. Lin",
+        "W.-K. Choong",
+        "T.-D. Lin"
+      ]
+    },
+    {
+      "title": "Unconventional protein secretion (UPS) pathways in plants",
+      "authors": [
+        "Y. Ding",
+        "D. G. Robinson",
+        "L. Jiang"
+      ]
+    },
+    {
+      "title": "Turnover of the plasma membrane of mammalian cells",
+      "authors": [
+        "D. Doyle",
+        "H. Baumann"
+      ]
+    },
+    {
+      "title": "Protein secretion: how many secretory routes does a plant cell have",
+      "authors": [
+        "G. Drakakaki",
+        "A. Dandekar"
+      ]
+    },
+    {
+      "title": "Developmental plasticity of arabidopsis hypocotyl is dependent on exocyst complex function",
+      "authors": [
+        "E. J. Drdová",
+        "M. Klejchová",
+        "K. Janko",
+        "M. Hála",
+        "H. Soukupová",
+        "F. Cvrčková"
+      ]
+    },
+    {
+      "title": "The exocyst complex contributes to PIN auxin efflux carrier recycling and polar auxin transport in arabidopsis",
+      "authors": [
+        "E. J. Drdová",
+        "L. Synek",
+        "T. Pečenková",
+        "M. Hála",
+        "I. Kulich",
+        "J. E. Fowler"
+      ]
+    },
+    {
+      "title": "Solanaceous exocyst subunits are involved in immunity to diverse plant pathogens",
+      "authors": [
+        "Y. Du",
+        "E. J. R. Overdijk",
+        "J. A. Berg",
+        "F. Govers",
+        "K. Bouwmeester"
+      ]
+    },
+    {
+      "title": "A membrane trafficking pathway regulated by the plant-specific RAB GTPase ARA6",
+      "authors": [
+        "K. Ebine",
+        "M. Fujimoto",
+        "Y. Okatani",
+        "T. Nishiyama",
+        "T. Goh",
+        "E. Ito"
+      ]
+    },
+    {
+      "title": "The exocyst complex in plants",
+      "authors": [
+        "M. Elias",
+        "E. Drdova",
+        "D. Ziak",
+        "B. Bavlnka",
+        "M. Hala",
+        "F. Cvrckova"
+      ]
+    },
+    {
+      "title": "Quantitative proteomics reveals dynamic changes in the plasma membrane during Arabidopsis immune signaling",
+      "authors": [
+        "J. M. Elmore",
+        "J. Liu",
+        "B. Smith",
+        "B. Phinney",
+        "G. Coaker"
+      ]
+    },
+    {
+      "title": "The FERONIA receptor-like kinase mediates male-female interactions during pollen tube reception",
+      "authors": [
+        "J.-M. Escobar-Restrepo",
+        "N. Huck",
+        "S. Kessler",
+        "V. Gagliardini",
+        "J. Gheyselinck",
+        "W.-C. Yang"
+      ]
+    },
+    {
+      "title": "Visualization of the exocyst complex dynamics at the plasma membrane of arabidopsis thaliana",
+      "authors": [
+        "M. Fendrych",
+        "L. Synek",
+        "T. Pečenková",
+        "E. J. Drdová",
+        "J. Sekereš",
+        "R. de Rycke"
+      ]
+    },
+    {
+      "title": "The arabidopsis exocyst complex is involved in cytokinesis and cell plate maturation",
+      "authors": [
+        "M. Fendrych",
+        "L. Synek",
+        "T. Pečenková",
+        "H. Toupalová",
+        "R. Cole",
+        "E. Drdová"
+      ]
+    },
+    {
+      "title": "Subcellular trafficking of PIN auxin efflux carriers in auxin transport",
+      "authors": [
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "E-cadherin cleavage by MT2-MMP regulates apical junctional signaling and epithelial homeostasis in the intestine",
+      "authors": [
+        "J. Gómez-Escudero",
+        "V. Moreno",
+        "M. Martín-Alonso"
+      ]
+    },
+    {
+      "title": "Bph6 encodes an exocyst-localized protein and confers broad resistance to planthoppers in rice",
+      "authors": [
+        "J. Guo",
+        "C. Xu",
+        "D. Wu",
+        "Y. Zhao",
+        "Y. Qiu",
+        "X. Wang"
+      ]
+    },
+    {
+      "title": "An exocyst complex functions in plant cell growth in Arabidopsis and tobacco",
+      "authors": [
+        "M. Hála",
+        "R. Cole",
+        "L. Synek",
+        "E. Drdová",
+        "T. Pečenková",
+        "A. Nordheim"
+      ]
+    },
+    {
+      "title": "DeepTMHMM predicts alpha and beta transmembrane proteins using deep neural networks",
+      "authors": [
+        "J. Hallgren",
+        "K. D. Tsirigos",
+        "M. D. Pedersen",
+        "J. J. Almagro Armenteros",
+        "P. Marcatili",
+        "H. Nielsen"
+      ]
+    },
+    {
+      "title": "Isobaric tags for relative and absolute quantification-based comparative proteomics reveals the features of plasma membrane-associated proteomes of pollen grains and pollen tubes from Lilium davidii",
+      "authors": [
+        "B. Han",
+        "S. Chen",
+        "S. Dai",
+        "N. Yang",
+        "T. Wang"
+      ]
+    },
+    {
+      "title": "Analysis of exocyst function in endodermis reveals its widespread contribution and specificity of action",
+      "authors": [
+        "K. Hématy",
+        "D. De Bellis",
+        "X. Wang",
+        "A. P. Mähönen",
+        "N. Geldner"
+      ]
+    },
+    {
+      "title": "Universal plant phosphoproteomics workflow and its application to tomato signaling in response to cold stress",
+      "authors": [
+        "C.-C. Hsu",
+        "Y. Zhu",
+        "J. V. Arrington",
+        "J. S. Paez",
+        "P. Wang",
+        "P. Zhu"
+      ]
+    },
+    {
+      "title": "Endosidin2-14 targets the exocyst complex in plants and fungal pathogens to inhibit exocytosis",
+      "authors": [
+        "L. Huang",
+        "X. Li",
+        "Y. Li",
+        "X. Yin",
+        "Y. Li",
+        "B. Wu"
+      ]
+    },
+    {
+      "title": "Fluorescent castasterone reveals BRI1 signaling from the plasma membrane",
+      "authors": [
+        "N. G. Irani",
+        "S. Di Rubbo",
+        "E. Mylle",
+        "J. Van den Begin",
+        "J. Schneider-Pizoń",
+        "J. Hniliková"
+      ]
+    },
+    {
+      "title": "Two Arabidopsis thaliana Golgi α-mannosidase I enzymes are responsible for plant N-glycan maturation",
+      "authors": [
+        "H. Kajiura",
+        "H. Koiwa",
+        "Y. Nakazawa",
+        "A. Okazawa",
+        "A. Kobayashi",
+        "T. Seki"
+      ]
+    },
+    {
+      "title": "Recycling, clustering, and endocytosis jointly maintain PIN auxin carrier polarity at the plasma membrane",
+      "authors": [
+        "J. Kleine-Vehn",
+        "K. Wabnik",
+        "A. Martinière",
+        "Ł. Łangowski",
+        "K. Willig",
+        "S. Naramoto"
+      ]
+    },
+    {
+      "title": "Arabidopsis exocyst subunits SEC8 and EXO70A1 and exocyst interactor ROH1 are involved in the localized deposition of seed coat pectin",
+      "authors": [
+        "I. Kulich",
+        "R. Cole",
+        "E. Drdová",
+        "F. Cvrčková",
+        "A. Soukup",
+        "J. Fowler"
+      ]
+    },
+    {
+      "title": "Arabidopsis exocyst subcomplex containing subunit EXO70B1 is involved in autophagy-related transport to the vacuole",
+      "authors": [
+        "I. Kulich",
+        "T. Pečenková",
+        "J. Sekereš",
+        "O. Smetana",
+        "M. Fendrych",
+        "I. Foissner"
+      ]
+    },
+    {
+      "title": "Cell wall maturation of arabidopsis trichomes is dependent on exocyst subunit EXO70H4 and involves callose deposition",
+      "authors": [
+        "I. Kulich",
+        "Z. Vojtíková",
+        "M. Glanc",
+        "J. Ortmannová",
+        "S. Rasmann",
+        "V. Žárský"
+      ]
+    },
+    {
+      "title": "Synergy among exocyst and SNARE interactions identifies a functional hierarchy in secretion during vegetative growth",
+      "authors": [
+        "E. R. Larson",
+        "J. Ortmannová",
+        "N. A. Donald",
+        "J. Alvim",
+        "M. R. Blatt",
+        "V. Žárský"
+      ]
+    },
+    {
+      "title": "Endosidin 2 accelerates PIN2 endocytosis and disturbs intracellular trafficking of PIN2, PIN3, and PIN4 but not of SYT1 (DC bassham, ed.)",
+      "authors": [
+        "A. Lešková",
+        "M. Labajová",
+        "M. Krausko",
+        "A. Zahradníková",
+        "F. Baluška",
+        "K. Mičieta"
+      ]
+    },
+    {
+      "title": "Comparison of plasma membrane proteomic changes of arabidopsis suspension-cultured cells (T87 line) after cold and ABA treatment in association with freezing tolerance development",
+      "authors": [
+        "B. Li",
+        "D. Takahashi",
+        "Y. Kawamura",
+        "M. Uemura"
+      ]
+    },
+    {
+      "title": "Plasma membrane proteomics of arabidopsis suspension-cultured cells associated with growth phase using nano-LC-MS/MS",
+      "authors": [
+        "B. Li",
+        "D. Takahashi",
+        "Y. Kawamura",
+        "M. Uemura",
+        "H.-P. Mock",
+        "A. Matros",
+        "K. Witzel"
+      ]
+    },
+    {
+      "title": "BAK1, an Arabidopsis LRR receptor-like protein kinase, interacts with BRI1 and modulates brassinosteroid signaling",
+      "authors": [
+        "J. Li",
+        "J. Wen",
+        "K. A. Lease",
+        "J. T. Doke",
+        "F. E. Tax",
+        "J. C. Walker"
+      ]
+    },
+    {
+      "title": "Exocyst-positive organelles and autophagosomes are distinct organelles in plants",
+      "authors": [
+        "Y. Lin",
+        "Y. Ding",
+        "J. Wang",
+        "J. Shen",
+        "C. H. Kung",
+        "X. Zhuang"
+      ]
+    },
+    {
+      "title": "SCD1 and SCD2 form a complex that functions with the exocyst and RabE1 in exocytosis and cytokinesis",
+      "authors": [
+        "J. R. Mayers",
+        "T. Hu",
+        "C. Wang",
+        "J. J. Cárdenas",
+        "Y. Tan",
+        "J. Pan"
+      ]
+    },
+    {
+      "title": "PANTHER version 11: expanded annotation data from gene ontology and reactome pathways, and data analysis tool enhancements",
+      "authors": [
+        "H. Mi",
+        "X. Huang",
+        "A. Muruganujan",
+        "H. Tang",
+        "C. Mills",
+        "D. Kang"
+      ]
+    },
+    {
+      "title": "Large-Scale gene function analysis with the PANTHER classification system",
+      "authors": [
+        "H. Mi",
+        "A. Muruganujan",
+        "J. T. Casagrande",
+        "P. D. Thomas"
+      ]
+    },
+    {
+      "title": "A quantitative analysis of Arabidopsis plasma membrane using trypsin-catalyzed 18O labeling",
+      "authors": [
+        "C. J. Nelson",
+        "A. D. Hegeman",
+        "A. C. Harms",
+        "M. R. Sussman"
+      ]
+    },
+    {
+      "title": "Comparative proteomics of root plasma membrane proteins reveals the involvement of calcium signalling in NaCl-facilitated nitrate uptake in Salicornia europaea",
+      "authors": [
+        "L. Nie",
+        "J. Feng",
+        "P. Fan",
+        "X. Chen",
+        "J. Guo",
+        "S. Lv"
+      ]
+    },
+    {
+      "title": "Proteomics reveals new salt responsive proteins associated with rice plasma membrane",
+      "authors": [
+        "S. Nohzadeh Malakshah",
+        "M. Habibi Rezaei",
+        "M. Heidari",
+        "G. Hosseini Salekdeh"
+      ]
+    },
+    {
+      "title": "Comparative analysis of soybean plasma membrane proteins under osmotic stress using gel-based and LC MS/MS-based proteomics approaches",
+      "authors": [
+        "M.-Z. Nouri",
+        "S. Komatsu"
+      ]
+    },
+    {
+      "title": "Order of events in the yeast secretory pathway",
+      "authors": [
+        "P. Novick",
+        "S. Ferro",
+        "R. Schekman"
+      ]
+    },
+    {
+      "title": "Dynamics of arabidopsis SUN proteins during mitosis and their involvement in nuclear shaping: dynamics and functions of arabidopsis SUN proteins",
+      "authors": [
+        "Y. Oda",
+        "H. Fukuda"
+      ]
+    },
+    {
+      "title": "Root system depth in arabidopsis is shaped by EXOCYST70A3 via the dynamic modulation of auxin transport",
+      "authors": [
+        "T. Ogura",
+        "C. Goeschl",
+        "D. Filiault",
+        "M. Mirea",
+        "R. Slovak",
+        "B. Wolhrab"
+      ]
+    },
+    {
+      "title": "Secretome analysis reveals an Arabidopsis lipase involved in defense against Alternaria brassicicola",
+      "authors": [
+        "I. S. Oh",
+        "A. R. Park",
+        "M. S. Bae",
+        "S. J. Kwon",
+        "Y. S. Kim",
+        "J. E. Lee"
+      ]
+    },
+    {
+      "title": "Exocyst inactivation in urothelial cells disrupts autophagy and activates non-canonical NF-κB signaling",
+      "authors": [
+        "M. A. Ortega",
+        "R. K. Villiger",
+        "M. Harrison-Chau",
+        "S. Lieu",
+        "K.-K. Tamashiro",
+        "A. J. Lee"
+      ]
+    },
+    {
+      "title": "The role for the exocyst complex subunits Exo70B2 and Exo70H1 in the plant–pathogen interaction",
+      "authors": [
+        "T. Pečenková",
+        "M. Hála",
+        "I. Kulich",
+        "D. Kocourková",
+        "E. Drdová",
+        "M. Fendrych"
+      ]
+    },
+    {
+      "title": "ARF6 controls post-endocytic recycling through its downstream exocyst complex effector",
+      "authors": [
+        "M. Prigent",
+        "T. Dubois",
+        "G. Raposo",
+        "V. Derrien",
+        "D. Tenza",
+        "C. Rossé"
+      ]
+    },
+    {
+      "title": "Unconventional protein secretion in plants: a critical assessment",
+      "authors": [
+        "D. G. Robinson",
+        "Y. Ding",
+        "L. Jiang"
+      ]
+    },
+    {
+      "title": "The machinery and principles of vesicle transport in the cell",
+      "authors": [
+        "J. E. Rothman"
+      ]
+    },
+    {
+      "title": "Charting the secretory pathway in a simple eukaryote",
+      "authors": [
+        "R. Schekman"
+      ]
+    },
+    {
+      "title": "Linear models and empirical bayes methods for assessing differential expression in microarray experiments",
+      "authors": [
+        "G. K. Smyth"
+      ]
+    },
+    {
+      "title": "Proteomics of ionically bound and soluble extracellular proteins in Medicago truncatula leaves",
+      "authors": [
+        "N. C. Soares",
+        "R. Francisco",
+        "C. P. Ricardo",
+        "P. A. Jackson"
+      ]
+    },
+    {
+      "title": "Membrane proteins",
+      "authors": [
+        "W. Stillwell"
+      ]
+    },
+    {
+      "title": "Plasma membrane phospholipid signature recruits the plant exocyst complex via the EXO70A1 subunit",
+      "authors": [
+        "L. Synek",
+        "R. Pleskot",
+        "J. Sekereš",
+        "N. Serrano",
+        "N. Vukašinović",
+        "J. Ortmannová"
+      ]
+    },
+    {
+      "title": "AtEXO70A1, a member of a family of putative exocyst subunits specifically expanded in land plants, is important for polar growth and plant development",
+      "authors": [
+        "L. Synek",
+        "N. Schlager",
+        "M. Eliáš",
+        "M. Quentin",
+        "M.-T. Hauser",
+        "V. Žárský"
+      ]
+    },
+    {
+      "title": "Plant plasma membrane proteomics for improving cold tolerance",
+      "authors": [
+        "D. Takahashi",
+        "B. Li",
+        "T. Nakayama",
+        "Y. Kawamura",
+        "M. Uemura"
+      ]
+    },
+    {
+      "title": "Polar localization and degradation of Arabidopsis boron transporters through distinct trafficking pathways",
+      "authors": [
+        "J. Takano",
+        "M. Tanaka",
+        "A. Toyoda",
+        "K. Miwa",
+        "K. Kasai",
+        "K. Fuji"
+      ]
+    },
+    {
+      "title": "Turnover of the plasma membrane proteins of hepatoma tissue culture cells",
+      "authors": [
+        "J. Tweto",
+        "D. Doyle"
+      ]
+    },
+    {
+      "title": "The MaxQuant computational platform for mass spectrometry-based shotgun proteomics",
+      "authors": [
+        "S. Tyanova",
+        "T. Temu",
+        "J. Cox"
+      ]
+    },
+    {
+      "title": "The Perseus computational platform for comprehensive analysis of (prote)omics data",
+      "authors": [
+        "S. Tyanova",
+        "T. Temu",
+        "P. Sinitcyn",
+        "A. Carlson",
+        "M. Y. Hein",
+        "T. Geiger"
+      ]
+    },
+    {
+      "title": "TRANVIA (TVA) facilitates cellulose synthase trafficking and delivery to the plasma membrane",
+      "authors": [
+        "T. Vellosillo",
+        "J. R. Dinneny",
+        "C. R. Somerville",
+        "D. W. Ehrhardt"
+      ]
+    },
+    {
+      "title": "Plasma membrane proteomics in the maize primary root growth zone: novel insights into root growth adaptation to water stress",
+      "authors": [
+        "P. Voothuluru",
+        "J. C. Anderson",
+        "R. E. Sharp",
+        "S. C. Peck"
+      ]
+    },
+    {
+      "title": "EXPO, an exocyst-positive organelle distinct from multivesicular endosomes and autophagosomes, mediates cytosol to cell wall exocytosis in Arabidopsis and tobacco cells",
+      "authors": [
+        "J. Wang",
+        "Y. Ding",
+        "J. Wang",
+        "S. Hillmer",
+        "Y. Miao",
+        "S. W. Lo"
+      ]
+    },
+    {
+      "title": "Spatiotemporal dynamics of the BRI1 receptor and its regulation by membrane microdomains in living Arabidopsis cells",
+      "authors": [
+        "L. Wang",
+        "H. Li",
+        "X. Lv",
+        "T. Chen",
+        "R. Li",
+        "Y. Xue"
+      ]
+    },
+    {
+      "title": "BRI1 is a critical component of a plasma-membrane receptor for plant steroids",
+      "authors": [
+        "Z.-Y. Wang",
+        "H. Seto",
+        "S. Fujioka",
+        "S. Yoshida",
+        "J. Chory"
+      ]
+    },
+    {
+      "title": "ANN1 and ANN2 function in post-phloem sugar transport in root tips to affect primary root growth",
+      "authors": [
+        "J. Wang",
+        "J. Song",
+        "G. Clark",
+        "S. J. Roux"
+      ]
+    },
+    {
+      "title": "Extracellular proteins in pea root tip and border cell exudates",
+      "authors": [
+        "F. Wen",
+        "H. D. VanEtten",
+        "G. Tsaprailis",
+        "M. C. Hawes"
+      ]
+    },
+    {
+      "title": "A method for the quantitative recovery of protein in dilute solution in the presence of detergents and lipids",
+      "authors": [
+        "D. Wessel",
+        "U. I. Flügge"
+      ]
+    },
+    {
+      "title": "The exocyst at a glance",
+      "authors": [
+        "B. Wu",
+        "W. Guo"
+      ]
+    },
+    {
+      "title": "Dissection of arabidopsis ADP-RIBOSYLATION FACTOR 1 function in epidermal cell polarity",
+      "authors": [
+        "J. Xu",
+        "B. Scheres"
+      ]
+    },
+    {
+      "title": "Exocyst functions in plants – secretion and autophagy",
+      "authors": [
+        "V. Žárský"
+      ]
+    },
+    {
+      "title": "Exocyst complexes multiple functions in plant cells secretory pathways",
+      "authors": [
+        "V. Žárský",
+        "I. Kulich",
+        "M. Fendrych",
+        "T. Pečenková"
+      ]
+    },
+    {
+      "title": "Endosidin2 targets conserved exocyst complex subunit EXO70 to inhibit exocytosis",
+      "authors": [
+        "C. Zhang",
+        "M. Q. Brown",
+        "W. van de Ven",
+        "Z.-M. Zhang",
+        "B. Wu",
+        "M. C. Young"
+      ]
+    },
+    {
+      "title": "Arabidopsis myosin XIK interacts with the exocyst complex to facilitate vesicle tethering during exocytosis",
+      "authors": [
+        "W. Zhang",
+        "L. Huang",
+        "C. Zhang",
+        "C. J. Staiger"
+      ]
+    },
+    {
+      "title": "The arabidopsis exocyst subunit SEC3A is essential for embryo development and accumulates in transient puncta at the plasma membrane",
+      "authors": [
+        "Y. Zhang",
+        "R. Immink",
+        "C.-M. Liu",
+        "A. M. Emons",
+        "T. Ketelaar"
+      ]
+    },
+    {
+      "title": "The plant exocyst",
+      "authors": [
+        "Y. Zhang",
+        "C.-M. Liu",
+        "A.-M. C. Emons",
+        "T. Ketelaar"
+      ]
+    },
+    {
+      "title": "Simplified enrichment of plasma membrane proteins for proteomic analyses in Arabidopsis thaliana",
+      "authors": [
+        "Z. J. Zhang",
+        "S. C. Peck"
+      ]
+    },
+    {
+      "title": "Revising the role of cortical cytoskeleton during secretion: actin and myosin XI function in vesicle tethering",
+      "authors": [
+        "W. Zhang",
+        "C. J. Staiger"
+      ]
+    },
+    {
+      "title": "CSI1, PATROL1, and exocyst complex cooperate in delivery of cellulose synthase complexes to the plasma membrane",
+      "authors": [
+        "X. Zhu",
+        "S. Li",
+        "S. Pan",
+        "X. Xin",
+        "Y. Gu"
+      ]
+    },
+    {
+      "title": "Protein trafficking in plant cells: Tools and markers",
+      "authors": [
+        "D. Zhu",
+        "M. Shang",
+        "C. Gao",
+        "J. Shen"
+      ]
+    }
+  ],
+  "original_title": "Endosidin2 targets conserved exocyst complex subunit EXO70 to inhibit exocytosis",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/446d/10264680/a3453f1ddcc1/fpls-14-1171957-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/446d/10264680/b135281a6dd0/fpls-14-1171957-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/446d/10264680/a978570548f0/fpls-14-1171957-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/446d/10264680/665dfef378f1/fpls-14-1171957-g004.jpg"
+  ]
+}

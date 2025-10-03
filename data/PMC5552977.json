@@ -1,0 +1,155 @@
+{
+  "pmcid": "PMC5552977",
+  "title": "Draft Genome Sequences from a Novel Clade of Bacillus cereus Sensu Lato Strains, Isolated from the International Space Station",
+  "abstract": "ABSTRACT\n\nThe draft genome sequences of six Bacillus strains, isolated from the International Space Station and belonging to the Bacillus anthracis-B. cereus-B. thuringiensis group, are presented here. These strains were isolated from the Japanese Experiment Module (one strain), U.S. Harmony Node 2 (three strains), and Russian Segment Zvezda Module (two strains).",
+  "introduction": "GENOME ANNOUNCEMENT\n\nAmong the six Bacillus cereus sensu lato strains reported here, three U.S. Harmony Node 2 isolates (ISSFR-3F, ISSFR-9F, and ISSFT-23F) and one Japanese Experiment Module isolate (JEM-2) were sequenced and assembled with both Illumina MiSeq and PacBio RSII sequence data. The remaining assemblies, including two Russian isolates, were sequenced and assembled with only MiSeq data. The MiSeq runs yielded on average 24 to 54 million 300-bp reads (from 1,402× to 3,093× average coverage), while PacBio yielded 4,000 to 116,000 reads (from 7× to 202× average coverage) (Table 1). Due to the extremely high coverage (>1,000×), Illumina MiSeq reads were randomly down-sampled to 100× using an estimated genome size of 5.3 Mb, resulting in an average of 1.2 to 1.5 million paired-end reads per isolate. Next, the down-sampled reads were assembled using iMetAMOS with IDBA_UD and SPAdes. IDBA_UD was selected as the best assembly for all six isolates. Low confidence bases within the selected IDBA_UD assemblies were masked out by mapping all reads to the assembled contigs and detecting conflicting variants with FreeBayes. The PacBio reads were assembled following the methods described by Berlin et al. with Celera Assembler version 8.3rc1 and polished with Quiver. A second round of polishing was performed post-Quiver using the available MiSeq data as input to Pilon.\n\nThe six International Space Station (ISS) isolates were aligned (NUCmer, Parsnp) against members of the B. cereus sensu lato group genomes. The PacBio assemblies were used for all isolates with sufficient read coverage, and Illumina assemblies were used for the remaining isolates. Based on genome size estimates (5.2 to 5.3 Mb), NUCmer pairwise alignments (>99.9% average pairwise nucleotide identity) and maximum-likelihood phylogenetic placement, all six isolates were found to exhibit a very high degree of similarity.\n\nFinally, due to their high genomic similarity to the B. anthracis type strain (>98% average nucleotide identity), all six genomes were examined for evidence of pathogenicity. However, none of the commonly known B. anthracis signature elements were identified. Specifically, all six ISS isolates (i) contain the plcR ancestral “C” allele, which has been used in large-scale phylogenetic analyses to distinguish B. anthracis strains from the rest of the B. cereus group; (ii) lack significant hits to pXO1 and pXO2 plasmids; and (iii) are phylogenetically placed outside of the B. anthracis clade. Results were consistent with a comparative genomic analysis performed using the Lawrence Livermore National Laboratory Microbial Threat Characterization Pipeline. Altogether, the collective genomic evidence supports the conclusion that the six ISS isolates represent a novel Bacillus sp. located within the B. cereus sensu lato group.\n\nAccession number(s).\n\nThe complete genome sequences were deposited in NCBI under the accession numbers listed in Table 1 and can be accessed from the NASA GeneLab system (GLDS-64; https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-64).\n\nCitation Venkateswaran K, Checinska Sielaff A, Ratnayake S, Pope RK, Blank TE, Stepanov VG, Fox GE, van Tongeren SP, Torres C, Allen J, Jaing C, Pierson D, Perry J, Koren S, Phillippy A, Klubnik J, Treangen TJ, Rosovitz MJ, Bergman NH. 2017. Draft genome sequences from a novel clade of Bacillus cereus sensu lato strains, isolated from the International Space Station. Genome Announc 5:e00680-17. https://doi.org/10.1128/genomeA.00680-17.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Prokaryotes"
+  ],
+  "citations": [
+    {
+      "title": "Automated ensemble assembly and validation of microbial genomes",
+      "authors": [
+        "S Koren",
+        "TJ Treangen",
+        "CM Hill",
+        "M Pop",
+        "AM Phillippy"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "IDBA-UD: a de novo assembler for single-cell and metagenomic sequencing data with highly uneven depth",
+      "authors": [
+        "Y Peng",
+        "HC Leung",
+        "SM Yiu",
+        "FY Chin"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "E Garrison",
+        "G Marth"
+      ]
+    },
+    {
+      "title": "Assembling large genomes with single-molecule sequencing and locality-sensitive hashing",
+      "authors": [
+        "K Berlin",
+        "S Koren",
+        "CS Chin",
+        "JP Drake",
+        "JM Landolin",
+        "AM Phillippy"
+      ]
+    },
+    {
+      "title": "Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data",
+      "authors": [
+        "CS Chin",
+        "DH Alexander",
+        "SW Turner",
+        "J Korlach",
+        "P Marks",
+        "AA Klammer",
+        "J Drake",
+        "C Heiner",
+        "A Clum",
+        "A Copeland",
+        "J Huddleston",
+        "EE Eichler"
+      ]
+    },
+    {
+      "title": "Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement",
+      "authors": [
+        "BJ Walker",
+        "T Abeel",
+        "AM Earl",
+        "T Shea",
+        "M Priest",
+        "A Abouelliel",
+        "S Sakthikumar",
+        "CA Cuomo",
+        "Q Zeng",
+        "J Wortman",
+        "SK Young"
+      ]
+    },
+    {
+      "title": "Using MUMmer to identify similar regions in large sequence sets",
+      "authors": [
+        "AL Delcher",
+        "SL Salzberg",
+        "AM Phillippy"
+      ]
+    },
+    {
+      "title": "The Harvest suite for rapid core-genome alignment and visualization of thousands of intraspecific microbial genomes",
+      "authors": [
+        "TJ Treangen",
+        "BD Ondov",
+        "S Koren",
+        "AM Phillippy"
+      ]
+    },
+    {
+      "title": "Genomic characterization of the Bacillus cereus sensu lato species: backdrop to the evolution of Bacillus anthracis",
+      "authors": [
+        "ME Zwick",
+        "SJ Joseph",
+        "S Sozhamannan",
+        "AJ Mateczun",
+        "L Du",
+        "TD Read",
+        "X Didelot",
+        "PE Chen",
+        "KA Bishop-Lilly",
+        "AC Stewart",
+        "K Willner",
+        "N Nolan",
+        "S Lentz",
+        "MK Thomason"
+      ]
+    },
+    {
+      "title": "Use of single nucleotide polymorphisms in the plcR gene for specific identification of Bacillus anthracis",
+      "authors": [
+        "WR Easterday",
+        "MN Van Ert",
+        "TS Simonson",
+        "DM Wagner",
+        "LJ Kenefic",
+        "CJ Allender",
+        "P Keim"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences from a Novel Clade of Bacillus cereus Sensu Lato Strains, Isolated from the International Space Station."
+}

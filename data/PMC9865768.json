@@ -1,0 +1,1089 @@
+{
+  "pmcid": "PMC9865768",
+  "title": "In Silico Analysis of a Drosophila Parasitoid Venom Peptide Reveals Prevalence of the Cation–Polar–Cation Clip Motif in Knottin Proteins",
+  "abstract": "As generalist parasitoid wasps, Leptopilina heterotoma are highly successful on many species of fruit flies of the genus Drosophila. The parasitoids produce specialized multi-strategy extracellular vesicle (EV)-like structures in their venom. Proteomic analysis identified several immunity-associated proteins, including the knottin peptide, LhKNOT, containing the structurally conserved inhibitor cysteine knot (ICK) fold, which is present in proteins from diverse taxa. Our structural and docking analysis of LhKNOT’s 36-residue core knottin fold revealed that in addition to the knottin motif itself, it also possesses a Cation–Polar–Cation (CPC) clip. The CPC clip motif is thought to facilitate antimicrobial activity in heparin-binding proteins. Surprisingly, a majority of ICKs tested also possess the CPC clip motif, including 75 bona fide plant and arthropod knottin proteins that share high sequence and/or structural similarity with LhKNOT. Like LhKNOT and these other 75 knottin proteins, even the Drosophila Drosomycin antifungal peptide, a canonical target gene of the fly’s Toll-NF-kappa B immune pathway, contains this CPC clip motif. Together, our results suggest a possible defensive function for the parasitoid LhKNOT. The prevalence of the CPC clip motif, intrinsic to the cysteine knot within the knottin proteins examined here, suggests that the resultant 3D topology is important for their biochemical functions. The CPC clip is likely a highly conserved structural motif found in many diverse proteins with reported heparin binding capacity, including amyloid proteins. Knottins are targets for therapeutic drug development, and insights into their structure–function relationships will advance novel drug design.",
+  "introduction": "1. Introduction\n\nIn host–parasite interactions, the parasite must provide offensive pressure while simultaneously keeping the host alive to sustain viable offspring. Such conflicting goals have led to the evolution of virulence factors with diverse molecular strategies while maintaining high host specificity. Parasitic Hymenoptera make up more than a million species, are ubiquitous on the planet, and parasitize on a variety of arthropods, mainly insects. Wasps attacking insect hosts have developed an assortment of behavioral and biochemical strategies for success and remain under constant co-evolutionary pressure with their hosts.\n\nThe Leptopilina/Drosophila system is an emerging model for understanding the molecular foundations of anti-wasp responses and wasp virulence strategies. To suppress host immunity, Leptopilina females introduce venom factors into their larval hosts during oviposition. The well-defined innate immune mechanisms in Drosophila provide a valuable context to study the effects of these wasp venom factors. Infection by the specialist L. boulardi activates the humoral and cellular immune arms controlled by the fly’s conserved Toll-NF-κB signaling pathway. The expression of antimicrobial peptide (AMP) genes such as drosomycin is activated after L. boulardi infection. Toll-NF-κB signaling also controls blood cell division and development, steps that control encapsulation and death of wasp eggs. In contrast, infection by the generalist L. heterotoma suppresses both immune pathways, and almost all larval blood cells are destroyed by factors in the wasp venom.\n\nIn this study, we analyze the theoretical structure of an L. heterotoma peptide, called LhKNOT, identified within organelle-like secretions in the L. heterotoma venom but not in L. boulardi venom. These immune-suppressive organelles include more than 350 proteins and possess a proteomic profile of eukaryotic microvesicles and a plethora of immunity-related proteins. LhKNOT adopts the “Inhibitor Cysteine Knot” (knottin) motif. The knottin motif is broadly conserved in a range of taxa, from plants to snails. These small peptides (<60 residues) are functionally diverse. Knottins are used offensively, in spider toxins and cone snail venom, as well as defensively, e.g., in wound healing activities of cacti, and antimicrobial host defense in plants and invertebrates.\n\nThe broad range of knottin activity is attributed to the overall structure of its fold, which relies solely on a conserved motif of six cysteine residues that takes advantage of these cysteines’ unique ability to form disulfide bridges. The knottin motif occurs when cysteine residues are observed in a C1-C2-C3-C4-C5-C6 pattern (where “-“ represents a number of highly variable residues). Disulfide bridges are then formed in a similarly conserved fashion (C1-C4, C2-C5, and C3-C6), resulting in C1-C4 and C2-C5 forming a macrocycle, while C3-C6 occurs within this macrocycle, resulting in a “knotted” topology. As this knotted topology largely hinges on the conservation of the six cysteine residues, the knottin motif allows for significant variation in the overall sequence. The combination of their small size, high tolerance of sequence variance, and observed structural stability has made knottins a popular scaffold for drug design, potentially even for cancer treatments.\n\nVarious lines of experimental evidence demonstrate or suggest antimicrobial capabilities for different knottins or gated ion channel interactions, although the molecular mechanisms by which these functions are carried out are not well understood. Furthermore, it is not known if these antimicrobial functions share a common mechanism of action. Given its discovery from immune-suppressive particles from fly parasites, our goals were to (a) identify LhKNOT-related sequences from diverse organisms, including L. heterotoma, L. boulardi, and Ganaspis parasitoids, that attack Drosophila and (b) identify any novel structural motif(s) present in the known or new LhKNOT homologs with the hope that the prediction of such a conserved motif might suggest possible functions for LhKNOT and guide future experimental research.\n\nWe show that a theoretical model of LhKNOT possesses the hallmarks of the knottin fold with three antiparallel beta sheets, constrained by disulfide bridges. The LhKNOT model contains a CPC clip, capable of interacting with heparin, a negatively charged glycosaminoglycan (GAG) of significant medical value. LhKNOT also has the potential for interacting with other GAGs, such as keratan sulfate (a GAG that is highly sulfated, similar to heparin) and hyaluronic acid (the single GAG representative that does not require sulfation). Furthermore, structural homologs of LhKNOT (i.e., bona fide knottin motif proteins) also possess the CPC clip motif that can dock with heparin. Surprisingly, like LhKNOT and these other bona fide knottin proteins, even the Drosophila Drosomycin antifungal peptide shares this CPC clip motif in its structure. This motif was also identified in 41 out of 46 additional LhKNOT homologs from L. heterotoma, L. boulardi, and Ganaspis spp. wasps successfully on D. melanogaster. These in silico-based observations suggest that the CPC clip motif, inherent in many knottins, may provide the structural basis for modifying immune or virulence functions. We speculate on a possible antimicrobial or virulence-related function for the wasp LhKNOT. The abundance of the knottin fold and its concurrence with the CPC clip motif in most of the newly identified knottin peptides from three Drosophila parasitoids suggests an important yet to be determined role for them in parasitoid physiology and/or in the host–parasite interactions.",
+  "methods": "4. Methods\n\n4.1. Sequence Analysis\n\nInitial scans of the NCBI non-redundant protein sequence (nr) database (; accessed on 4 April 2018), the Transcriptome Shotgun Assembly (TSA) sequences database (; accessed on 16 April 2018), and the Protein Data Bank (PDB; ; accessed on 5 July 2018) with the full-length amino acid sequence of the L. heterotoma knottin peptide (GAJC01011813.1) using NCBI BLAST (BLASTp; ; accessed on 16 April 2018) were used to retrieve related protein sequences in other organisms. Remote homologs were searched using Position-Specific Iterative BLAST (PSI-BLAST; ; accessed on 4 April 2022), and Hidden Markov Models (HMMER; ; accessed on 6 April 2022). BLAST searches were adjusted to word size 2, and scoring matrix BLOSUM45, while default parameters were used for HMMER.\n\nTo identify knottin homologs in select Leptopilina and Ganaspis spp. not accessible in the protein databases, targeted searches using translated BLASTs against genomic and transcriptomic datasets were employed. To identify additional L. heterotoma knottins, the L. heterotoma female abdominal transcriptome GAJC and the whole-body transcriptomes from Ground GHUQ (GenBank Accession: GHUP00000000;TSA: Leptopilina heterotoma strain Lh14, transcriptome shotgun) and Space GHUP (GenBank Accession: GHUQ00000000;TSA: Leptopilina heterotoma strain Lh14, transcriptome shotgun) were searched using tblastn (e-value threshold set to 1, BLOSUM62, low complexity filter enabled, query coverage filter set to 20 percent) against LhKNOT. The following transcriptomes were similarly searched to identify L. boulardi knottins: L. boulardi female abdominal transcriptome GAJA and the whole-body transcriptomes from Ground GITC (GenBank Accession: GITC00000000; TSA: Leptopilina boulardi strain Lb17, transcriptome shotgun), Space GISX (GenBank Accession: GISX00000000; TSA: Leptopilina boulardi strain Lb17, transcriptome shotgun), and GGGI00000000 (female abdomen/head). In addition, targeted searches for Ganaspis spp. homologs were carried out. For G. hookeri, the GAIW00000000 TSA: Ganaspis spp. G1 dataset was searched (tblastn, e-value threshold set to 1, BLOSUM45, low complexity filter enabled, query coverage filter set to 20 percent) using the LhKNOT query. The Expasy tool (web.expasy.org/translate/; accessed on 9 December 2022) was used to translate these TSA sequences. The resulting predicted peptide sequences were manually curated based on the presence of the cysteine motif. For G. brasiliensis, AUGUSTUS-based (; accessed on 9 April 2020) gene predictions from the partially assembled genomic sequence (Gen-Bank:GCA_009823575.1) were made using the Nasonia vitripenis genome training module. The resulting predicted proteins were searched using blastp (e-value threshold set to 1, low complexity filter enabled, query coverage filter set to 20 percent) against LhKNOT. Alignments and visualization were performed using EBI’s Clustal Omega (; accessed on 9 December 2022) to confirm the presence of the knottin motif and for further curation of the sequences. The set of identified sequences were aligned to LhKNOT to create a multiple sequence alignment using T-COFFEE (; accessed on 9 December 2022) and visualized using ESPript3 (; accessed on 9 December 2022) to identify any conserved residues and/or motif(s) in the aligned sequences.\n\n4.2. LhKNOT Primary Structure Analysis\n\nThe LhKNOT sequence was also analyzed by the domain/motif detection database Conserved Domain Database (CDD; ; accessed on 6 April 2018) and Pfam (pfam.xfam.org; accessed on 6 April 2018) to identify any domains or sequence signatures. The sequence was further analyzed using the signal sequence prediction software SignalP-5.0 (; accessed on 6 April 2018) and Phobius (; accessed on 6 April 2018) to identify the location of the signal sequence and allow for a more accurate characterization of the peptide. The mature peptide of 36 amino acids (with the predicted signal sequence, residues 1–24, removed) was used for further analysis. The secondary structure of the peptide was predicted using the meta-server Sympred (; accessed on 6 April 2018) and analyzed to confirm its correspondence to the expected secondary structure for a knottin fold: an initial alpha-helical segment (predicted signal sequence) followed by three anti-parallel beta strands.\n\n4.3. Tertiary Structure Prediction and Evaluation of LhKNOT and Its Homologs\n\nThe programs I-Tasser (; accessed on 16 April 2018), Modeller (; accessed on 16 April 2018), and HHPred (; accessed on 6 April 2018) were used to model the tertiary structure of LhKNOT. Three structural homologs with the knottin-like fold Alo-3 (PDB: 1Q3J), omega-agatoxin-IVA (PDB: 1IVA), and PAFP-S (PDB: 1DKC) were identified as top candidates and used as templates in model building programs. The predicted model for LhKNOT was evaluated by Verify3D (; accessed on 18 April 2018), VoroMQA (; accessed on 18 April 2018), and Prosa-web (; accessed on 18 April 2018). Evaluating small peptides with standard evaluation tools can have limitations. Thus, scores from solved tertiary structures of NMR and crystallography-derived peptides of similar size and shape (PDB: 1Q3J, 1IVA, and 1DKC) were used to interpret the evaluation scores of our LhKNOT models. The top-ranked model was created using HHPred, a modeling program that uses the underlying model-building program, Modeller using a restraint-based comparative modeling approach. In addition, the KNOTTIN database’s KNOTER3D tool (; accessed on 15 May 2020) was used to evaluate the model’s tertiary structure, confirming LhKNOT’s adoption of the Knottin fold. All the identified homologs with no known structures were modeled using the top template identified in HHPred.\n\n4.4. CPC Clip Motif Identification\n\nSuperposition of LhKNOT’s structural model with the known structures of a CPC clip containing knottin peptide from the cactus Pereskia bleo (PDB: 5XBD) using the programs Superpose (; accessed on 12 September 2018) and MultiProt (; accessed on 12 September 2018) suggested the presence of a heparin-binding CPC clip motif. To confirm the presence of the CPC clip in LhKNOT, docking analysis using the program, ClusPro 2.0 (which offers parameters specific to heparin as ligand; ; accessed on 2 March 2019), and subsequent analysis of predicted docking scenarios in the visualization program, PyMOL (; accessed on 10 March 2019) was performed. All potential docking scenarios were analyzed for identifying residues forming the putative CPC clip motif using the following steps. All polar interactions between LhKNOT and heparin were visualized in PyMOL and lists of participating residues were compiled. Predictions that contained the necessary Cation–Polar–Cation interactions were then further scrutinized for adherence to the CPC clip motif parameter by measuring distances between alpha carbons of participating residues as well as distances between center of mass of participating residues. PyMOL’s “Measurements” Wizard tool was used to measure distances between α-carbons of the participating residues. To evaluate the distances between centers of mass, a user-generated script available in the pymolwiki website (Henschel, ; accessed on 15 March 2019) was used to generate pseudo-atoms at the calculated sidechain center of mass. PyMOL’s APBS Electrostatics Plugin was used to render the surface electrostatics for the modeled LhKNOT. Similar steps were carried out to identify the CPC clip motif in each of the remaining knottin proteins in Supplementary Table S5.\n\n4.5. Association of LhKNOT with Other GAGs\n\nTo assess whether the CPC clip would facilitate binding with additional GAGs, further docking was performed with hyaluronic acid (PDB: 1HYA) and keratan sulfate (PDB: 1KES). In the case of hyaluronic acid, extraneous atoms (O, Na) were removed from the space surrounding the molecule. Keratan sulfate’s model was used as is. Docking was performed using AutoDock (; accessed on 7 April 2020), and results were visualized in PyMOL. Results were then input into PDBSum (; accessed on 10 April 2020) to generate Ligplots to confirm GAG-CPC clip binding.\n\n4.6. Protein-Heparin Docking Analysis for Mutated CPC Clip in LhKNOT\n\nTo investigate the importance of the CPC clip in heparin binding, mutated models of LhKNOT were generated using PyMOL’s mutagenesis tool, substituting the CPC clip residues with alanine. Models were created piecewise, first substituting just R14, then R1 and R14, and finally R14, R1, and S3. Heparin docking of all models was performed using ClusPro, and analysis was performed as described previously.\n\n4.7. Protein-Heparin Docking Analysis in Structural Homologs and Drosomycin\n\nTo further evaluate the presence of the CPC clip motif in the knottin peptide family, the previous methods were further expanded to (a) structural homologs of LhKNOT (PDB: 5XBD, 1Q3J, 1IVA, and 1DKC); (b) Drosophila Drosomycin (PDB: 1MYN), a peptide with known antifungal activity; (c) modeled homologous knottin proteins, and (d) representative knottins from different categories in the KNOTTIN database. Results were considered to adhere to the motif if measurements fell within 3Å of the CPC clip parameters, to allow for some flexibility of protein loop conformations.\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+  "results": "2. Results\n\n2.1. The LhKNOT Sequence Shows Similarity to Insect and Plant Antimicrobial Peptides\n\nA BLASTp search of the nr and TSA databases using the full-length LhKNOT sequence (60 amino acids) showed a limited number of significant hits, primarily annotated as “antimicrobial peptides”, from plants and insects. A few fungal sequences were also identified. All results displayed less than 60% amino acid identity to LhKNOT. The top match for LhKNOT in the nr database was an antimicrobial peptide from the common beetle, Callosobruchus maculatus, while the top hit in the TSA database was an antimicrobial peptide from the wheat curl mite Aceria tosichella. The conservation was most prominent in the region of the only sequence motif associated with LhKNOT, the cysteine knotted ‘antifungal peptide’ signature (pfam11410 domain, E = 2.8 × 10−3). After running PSI-BLAST for detection of remote homologs, additional sequences were revealed. PSI-BLAST showed similar results with common ice plant, Mesembryanthemum crystallinum; red mites, Dinothrombium tinctorium; parasitoid wasp, Trichogramma pretiosum; click beetle, Ignelater luminosus; parasitoid wasp, Trichogramma brassicae; common pollen beetle, Brassicogethes aeneus; ash borer, Agrilus planipennis; and sawfly, Neodiprion lecontei. Using the Hidden Markov Models-driven HMMER webserver as an alternative method of detecting remote homologs, we identified five fungal hits from Akanthomyces lecanii, Cordyceps javanica, Cordyceps confragosa, Rosellinia necatrix, and Beauveria bassiana.\n\nA search of the PDB for similar sequences retrieved only two significant results, one for a knottin-type antifungal peptide Alo-3 from the insect Acrocinus longimanus and the second from the disulfide-constrained wound healing peptide pB1 from Pereskia bleo. The details of all close and remote homologs identified using the different sequence similarity approaches are summarized in Supplementary Table S1.\n\nAn alignment of LhKNOT to the known structures of typical knottins as well as identified homologs showed the conservation of the six cysteines that form the three disulfide bridges in LhKNOT (Figure 1A). On its N-terminus, LhKNOT contains a long, helical segment predicted to function as a signal sequence; internally, it contains three beta-sheets, as expected of the secondary structure of knottin peptides (Figure 1B).\n\nAdditionally, an assessment of sequence similarity of LhKNOT targeted to the available L. heterotoma and L. boulardi transcripts and from another Drosophila parasitoid, Ganaspis spp. (see Methods), revealed an abundance of related sequences. For L. heterotoma (Lh14), we identified 16 additional Lh14 knottin proteins (Supplementary Table S2). For L. boulardi, we identified 22 knottin proteins (Supplementary Table S3). Six LhKNOT homologs were similarly identified from the Ganaspis hookeri (G1) and two LhKNOT homologs were found in the protein predictions made from the G. brasiliensis (VA) genome (Supplementary Table S4). Figure 2 shows the conservation of these parasitoid knottin sequences with LhKNOT. Thus, at least the few Drosophila parasitoids sampled in this study appear to encode multiple knottin proteins. Additional such knottin peptides may be encoded by these wasps, and systematic proteomic/bioinformatic approaches are needed to obtain a comprehensive list. The functions of these putative knottins in parasite physiology remain unknown.\n\n2.2. The Three-Dimensional Structure of LhKNOT\n\nThe typical structural fold of a knottin peptide is defined by six cysteines involved in three disulfide bonds to form a cysteine-knotted three-stranded antiparallel beta-sheet. An important characteristic of this fold is the connectivity of the cysteine residues to form the disulfide bridges and the disulfide bridge of cysteines 3 and 6 going through disulfides 1–4 and 2–5 to make a special disulfide through disulfide knot (Figure 1A,C). This disulfide, through a disulfide knot feature, distinguishes the knottin fold from other cysteine knot proteins. Other than the conserved cysteines, the rest of the amino acid sequence can be quite variable, and therefore, only a limited number of knottins are identified by sequence similarity approaches for LhKNOT (see the previous section and Supplementary Table S1). Fold recognition algorithms and template-based modeling approaches, on the other hand, retrieved several diverse knottins as suitable candidates for modeling LhKNOT. Among the various LhKNOT models generated, the best model was a multi-template-based model of LhKNOT created using the program HHpred with structural restraints derived from the top three templates, Alo-3 (PDB: 1Q3J), omega-agatoxin-IVA (PDB: 1IVA), and PAFP-S (PDB: 1DKC). Knowledge-based energy profiles calculated using ProSA-web for this selected model showed low energies and a z-score of −4.53, which is comparable to solved structures. Verify3D assessed this multi-template-based model with a passing score (100.00% of the residues in the model have an averaged 3D-1D score greater than or equal to 0.2). The VoroMQA score of 0.325 is likely a reflection of the small size of the peptide and the scores of the templates were in the same range (Supplementary Figure S1). This multi-template-based model typifies the knottin fold with three antiparallel beta strands, constrained by disulfide bridges and the expected connectivity of disulfide bridges (Figure 1D). KNOTER3D, a tool in the KNOTTIN Database corroborated that this model has a bona fide knottin fold and confirmed the previously identified disulfide bonding pattern in Figure 1D.\n\n2.3. LhKNOT Shows the Presence of a CPC Clip, Capable of Interacting with Heparin and Other GAGs\n\nTo search for potential LhKNOT functions, structure–function correlations of close structural homologs of LhKNOT were investigated. A knottin protein from the cactus Pereskia bleo (PDB: 5XBD) possesses a heparin-binding motif known as the CPC clip. This structural motif forms a geometrically constrained clip of two cationic and one polar residues that interact with heparin by salt bridges and hydrogen bonds clamping it in position within the positively charged surface of the clip. A structural superposition of the cactus knottin and LhKNOT showed that the two structures are highly similar, with an overall difference of less than 2Å. Docking analysis of LhKNOT with heparin, using ClusPro’s specific parameters for heparin as a ligand, revealed that for LhKNOT, the polar interactions fitting the CPC clip motif occur in residues R1-S3-R14 (Figure 3A). Measured distances (both between alpha-carbons and centers of mass of participating residue side chains) differed from those of the CPC clip by less than 1Å, suggesting the presence of a putative CPC clip in LhKNOT (Figure 3B). The surface electrostatics of the modeled LhKNOT also showed the presence of the expected cationic binding pocket formed by the CPC clip (Figure 3C).\n\nTo assess the CPC clip’s ability to interact with other GAGs, additional docking analysis was performed with LhKNOT and keratan sulfate (PDB ID: 1KES) and with LhKNOT and hyaluronic acid (PDB ID: 1HYA). In both cases, the positively charged binding surface created by the CPC clip bound to the negatively charged molecules. Ligplots generated by PDBSum confirmed an association of the GAGs with the CPC-forming residues (Supplementary Figures S2 and S3).\n\n2.4. Other Structural Homologs of LhKNOT Also Contain the CPC Clip Motif\n\nPresence of the CPC clip in both LhKNOT and its structural homolog from Pereskia bleo (pB1) suggested the possibility of a broader conservation of the CPC clip within the knottin family. An analysis of 21 close structural homologs of LhKNOT with experimentally solved PDBs in the KNOTTIN database revealed that, in every case, the peptides possess the CPC clip motif. For most peptides (e.g., T. tridentatus), the motif parameters deviated less than 1Å from the core knottin fold, while for others (e.g., the offensive knottins), the deviation was up to a margin of 3Å (Supplementary Table S5). Similarly, modeled knottin proteins of the identified homologs showed that almost all of them possessed the CPC clip.\n\nSixteen additional sequences from L. heterotoma, 22 sequences from L. boulardi, and 8 sequences from Ganaspis spp., with no known 3D structures, were modeled and analyzed for the presence of the CPC clip motif. While 13 of the 16 putative L. heterotoma knottins and 20 of 22 putative L. boulardi knottins revealed a CPC clip motif, all Ganaspis sequences contained the CPC clip (Supplementary Table S5). Interestingly, the seven homologs that did not exhibit a CPC clip motif belong to (a) the common pollen beetle sequence (B. aeneus (CAH0563829.1), (b) fungal sequence R. necatrix (A0A1S8A723), and (c) three L. heterotoma knottins 4,5,6 and L. boulardi knottins 3 and 20 (Supplementary Table S5).\n\nA survey of knottins in the KNOTTIN database, unrelated to LhKNOT, but representative of various taxa (cone snail, horseshoe crab, insect, plant, scorpion, and spider), showed the CPC clip motif. In all cases, the surface electrostatic profile of the CPC clip motif is positively charged, likely, to facilitate interactions with the negatively charged heparin (Figure 4). However, similar to the beetle, fungal, and wasp knottins described above, the CPC clip was not identified in knottins from the plant cyclotide and sponges (Supplementary Table S5).\n\n2.5. In Silico Mutational Analysis of LhKNOT CPC Clip Reveals a Secondary CPC Clip\n\nModels of three in silico LhKNOT mutants (R1A, S3A, R14A) were investigated to compare binding interactions of wild type and mutant proteins. In the case of the R14A mutant, heparin was shown to surprisingly associate with a secondary CPC clip involving the R1, S3, R30 residues instead of the R1, S3, R14 motif in the wild type (Supplementary Figure S4). Double or triple mutants (R14A-R1A; R14A-S3A-R1A), however, did not show an interaction with any of the primary or secondary CPC clip motif residues (Supplementary Figure S4C,D). The in silico mutants with the R1A mutation (interrupting both the primary and secondary CPC clip motifs), however, did show heparin associating with R29 and R30, as they provide the only remaining cationic surface (Supplementary Figure S4C,D). Interestingly, the ligand prefers to associate with the CPC clip motif, both in the case of the primary and secondary clips, over this additional cationic surface when the motif is available, suggesting the specific interaction of the CPC clip may allow a more stable association over a non-specific electrostatic interaction.\n\n2.6. A CPC Clip Is Also Present in the Antimicrobial Peptide Drosomycin\n\nUnlike LhKNOT, the structure of Drosomycin contains a different fold with an alpha-helix and a twisted three-stranded beta-sheet, which is stabilized by three disulfide bridges. This structural motif, termed a “cysteine stabilized αβ-motif”, is also found in other host-defense proteins such as the antibacterial insect defensin A, scorpion toxins, plant thionins, and antifungal plant defensins. Given the known antimicrobial function of Drosomycin and its related “cysteine stabilized αβ-motif”, we examined the possibility of a common basis for antimicrobial activity and shared structure–function relationships with LhKNOT to better understand the potential significance of this motif in LhKNOT in the context of host defense. Despite a slightly different structural fold, Drosomycin overlays within an RMSD of 2.2Å of both LhKNOT and pB1 (Figure 5A). When the previous CPC clip analysis was extended to Drosomycin, the results revealed the presence of the CPC clip motif in Drosomycin as well. The CPC clip motif in Drosomycin (R6-S4-K38) falls within a 2Å deviation of the motif parameters (Figure 5B, Supplementary Table S5). Additionally, surface electrostatics of Drosomycin confirmed the putative CPC clip’s formation of a cationic binding pocket as also observed for LhKNOT and other knottins (Figure 5C, Supplementary Table S5). These results suggest that there may be similarity in the mode of action of Drosomycin and LhKNOT and that the biochemistry embedded in this structural motif may drive antimicrobial function in both peptides.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "host–parasite",
+    "Drosophila",
+    "Leptopilina",
+    "cysteine knot",
+    "knottin fold",
+    "Cation–Polar–Cation clip",
+    "antimicrobial peptide",
+    "heparin-binding motif",
+    "miniproteins",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Understanding the ecology and evolution of host-parasite interactions across scales",
+      "authors": [
+        "R.M. Penczykowski",
+        "A.L. Laine",
+        "B. Koskella"
+      ]
+    },
+    {
+      "title": "Coevolutionary interactions between host and parasite genotypes",
+      "authors": [
+        "L. Lambrechts",
+        "S. Fellous",
+        "J.C. Koella"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "D.L. Quicke"
+      ]
+    },
+    {
+      "title": "Insights into function and evolution of parasitoid wasp venoms",
+      "authors": [
+        "M. Poirié",
+        "D. Colinet",
+        "J. Gatti"
+      ]
+    },
+    {
+      "title": "Evolution of host resistance and parasitoid counter-resistance",
+      "authors": [
+        "A.R. Kraaijeveld",
+        "H.C.J. Godfray"
+      ]
+    },
+    {
+      "title": "Systematic analysis of a wasp parasitism arsenal",
+      "authors": [
+        "G.R. Burke",
+        "M.R. Strand"
+      ]
+    },
+    {
+      "title": "Insights into the venom composition and evolution of an endoparasitoid wasp by combining proteomic and transcriptomic analyses",
+      "authors": [
+        "Z. Yan",
+        "Q. Fang",
+        "L. Wang",
+        "J. Liu",
+        "Y. Zhu",
+        "F. Wang",
+        "F. Li",
+        "J.H. Werren",
+        "G. Ye"
+      ]
+    },
+    {
+      "title": "Review of the genus Leptopilina (Hymenoptera, Cynipoidea, Figitidae, Eucoilinae) from the Eastern United States, including three newly described species",
+      "authors": [
+        "C. Lue",
+        "A.C. Driskell",
+        "J. Leips",
+        "M.L. Buffington"
+      ]
+    },
+    {
+      "title": "Harnessing the natural Drosophila-parasitoid model for integrating insect immunity with functional venomics",
+      "authors": [
+        "M.E. Heavner",
+        "A.D. Hudgins",
+        "R. Rajwani",
+        "J. Morales",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Virulence factors and strategies of Leptopilina spp.: Selective responses in Drosophila hosts",
+      "authors": [
+        "M.J. Lee",
+        "M.E. Kalamarz",
+        "I. Paddibhatla",
+        "C. Small",
+        "R. Rajwani",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Immunity in Drosophila melanogaster—From microbial recognition to whole-organism physiology",
+      "authors": [
+        "N. Buchon",
+        "N. Silverman",
+        "S. Cherry"
+      ]
+    },
+    {
+      "title": "Innate immunity in Drosophila: Pathogens and pathways",
+      "authors": [
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Drosophila as a model system to unravel the layers of innate immunity to infection",
+      "authors": [
+        "I. Kounatidis",
+        "P. Ligoxygakis"
+      ]
+    },
+    {
+      "title": "Contrasting infection strategies in generalist and specialist wasp parasitoids of Drosophila melanogaster",
+      "authors": [
+        "T.A. Schlenke",
+        "J. Morales",
+        "S. Govind",
+        "A.G. Clark"
+      ]
+    },
+    {
+      "title": "A role for the Drosophila Toll/Cactus pathway in larval hematopoiesis",
+      "authors": [
+        "P. Qiu",
+        "P.C. Pan",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Polydnaviral ankyrin proteins aid parasitic wasp survival by coordinate and selective inhibition of hematopoietic and immune NF-kappa B signaling in insect hosts",
+      "authors": [
+        "G. Gueguen",
+        "M.E. Kalamarz",
+        "J. Ramroop",
+        "J. Uribe",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species-dependent Toll/NF-kappaB activation in the Drosophila hematopoietic niche confers resistance to wasp parasitism",
+      "authors": [
+        "I. Louradour",
+        "A. Sharma",
+        "I. Morin-Poulard",
+        "M. Letourneau",
+        "A. Vincent",
+        "M. Crozatier",
+        "N. Vanzo"
+      ]
+    },
+    {
+      "title": "Genetic analysis of contributions of dorsal group and JAK-Stat92E pathway genes to larval hemocyte concentration and the egg encapsulation response in Drosophila",
+      "authors": [
+        "R.P. Sorrentino",
+        "J.P. Melk",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Natural infection of D. melanogaster by virulent parasitic wasps induces apoptotic depletion of hematopoietic precursors",
+      "authors": [
+        "H. Chiu",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Parasitoid virus-like particles destroy Drosophila cellular immunity",
+      "authors": [
+        "R.M. Rizki",
+        "T.M. Rizki"
+      ]
+    },
+    {
+      "title": "Novel Organelles with Elements of Bacterial and Eukaryotic Secretion Systems Weaponize Parasites of Drosophila",
+      "authors": [
+        "M.E. Heavner",
+        "J. Ramroop",
+        "G. Gueguen",
+        "G. Ramrattan",
+        "G. Dolios",
+        "M. Scarpati",
+        "J. Kwiat",
+        "S. Bhattacharya",
+        "R. Wang",
+        "S. Singh"
+      ]
+    },
+    {
+      "title": "A supracellular system of actin-lined canals controls biogenesis and release of virulence factors in parasitoid venom glands",
+      "authors": [
+        "R. Ferrarese",
+        "J. Morales",
+        "D. Fimiarz",
+        "B.A. Webb",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Identification and immuno-electron microscopy localization of p40, a protein component of immunosuppressive virus-like particles from Leptopilina heterotoma, a virulent parasitoid wasp of Drosophila",
+      "authors": [
+        "H. Chiu",
+        "J. Morales",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Structure and modeling of knottins, a promising molecular scaffold for drug discovery",
+      "authors": [
+        "J. Gracy",
+        "L. Chiche"
+      ]
+    },
+    {
+      "title": "Solution structure of PAFP-S: A new knottin-type antifungal peptide from the seeds of Phytolacca americana",
+      "authors": [
+        "G.H. Gao",
+        "W. Liu",
+        "J.X. Dai",
+        "J.F. Wang",
+        "Z. Hu",
+        "Y. Zhang",
+        "D.C. Wang"
+      ]
+    },
+    {
+      "title": "Bleogens, Cactus-Derived Anti-Candida Cysteine-Rich Peptides with Three Different Precursor Arrangements",
+      "authors": [
+        "S. Loo",
+        "A. Kam",
+        "T. Xiao",
+        "J.P. Tam"
+      ]
+    },
+    {
+      "title": "Toxins from cone snails: Properties, applications and biotechnological production",
+      "authors": [
+        "S. Becker",
+        "H. Terlau"
+      ]
+    },
+    {
+      "title": "Structure-activity relationships for P-type calcium channel-selective omega-agatoxins",
+      "authors": [
+        "M.D. Reily",
+        "K.E. Holub",
+        "W.R. Gray",
+        "T.M. Norris",
+        "M.E. Adams"
+      ]
+    },
+    {
+      "title": "Immunostimulating and Gram-negative-specific antibacterial cyclotides from the butterfly pea (Clitoria ternatea)",
+      "authors": [
+        "K.N.T. Nguyen",
+        "G.K.T. Nguyen",
+        "P.Q.T. Nguyen",
+        "K.H. Ang",
+        "P.C. Dedon",
+        "J.P. Tam"
+      ]
+    },
+    {
+      "title": "Solution structure of Alo-3: A new knottin-type antifungal peptide from the insect Acrocinus longimanus",
+      "authors": [
+        "F. Barbault",
+        "C. Landon",
+        "M. Guenneugues",
+        "J.P. Meyer",
+        "V. Schott",
+        "J.L. Dimarcq",
+        "F. Vovelle"
+      ]
+    },
+    {
+      "title": "Integrin-Targeting Knottin Peptide-Drug Conjugates Are Potent Inhibitors of Tumor Cell Proliferation",
+      "authors": [
+        "N. Cox",
+        "J.R. Kintzing",
+        "M. Smith",
+        "G.A. Grant",
+        "J.R. Cochran"
+      ]
+    },
+    {
+      "title": "The immune strategy and stress response of the Mediterranean species of the Bemisia tabaci complex to an orally delivered bacterial pathogen",
+      "authors": [
+        "C.R. Zhang",
+        "S. Zhang",
+        "J. Xia",
+        "F.F. Li",
+        "W.Q. Xia",
+        "S.S. Liu",
+        "X.W. Wang"
+      ]
+    },
+    {
+      "title": "A new antifungal peptide from the seeds of Phytolacca americana: Characterization, amino acid sequence and cDNA cloning",
+      "authors": [
+        "F. Shao",
+        "Z. Hu",
+        "Y.M. Xiong",
+        "Q.Z. Huang",
+        "C.G. Wang",
+        "R.H. Zhu",
+        "D.C. Wang"
+      ]
+    },
+    {
+      "title": "The structure of a novel insecticidal neurotoxin, omega-atracotoxin-HV1, from the venom of an Australian funnel web spider",
+      "authors": [
+        "J.I. Fletcher",
+        "R. Smith",
+        "S.I. O’Donoghue",
+        "M. Nilges",
+        "M. Connor",
+        "M.E. Howden",
+        "M.J. Christie",
+        "G.F. King"
+      ]
+    },
+    {
+      "title": "Biochemistry, Glycosaminoglycans",
+      "authors": [
+        "J. Casale",
+        "J.S. Crane"
+      ]
+    },
+    {
+      "title": "KNOTTIN: The database of inhibitor cystine knot scaffold after 10 years, toward a systematic structure modeling",
+      "authors": [
+        "G. Postic",
+        "J. Gracy",
+        "C. Périn",
+        "L. Chiche",
+        "J. Gelly"
+      ]
+    },
+    {
+      "title": "The HHpred interactive server for protein homology detection and structure prediction",
+      "authors": [
+        "J. Soding",
+        "A. Biegert",
+        "A.N. Lupas"
+      ]
+    },
+    {
+      "title": "ProSA-web: Interactive web service for the recognition of errors in three-dimensional structures of proteins",
+      "authors": [
+        "M. Wiederstein",
+        "M.J. Sippl"
+      ]
+    },
+    {
+      "title": "VERIFY3D: Assessment of protein models with three-dimensional profiles",
+      "authors": [
+        "D. Eisenberg",
+        "R. Luthy",
+        "J.U. Bowie"
+      ]
+    },
+    {
+      "title": "VoroMQA: Assessment of protein structure quality using interatomic contact areas",
+      "authors": [
+        "K. Olechnovič",
+        "Č. Venclovas"
+      ]
+    },
+    {
+      "title": "Structural similarities in the CPC clip motif explain peptide-binding promiscuity between glycosaminoglycans and lipopolysaccharides",
+      "authors": [
+        "D. Pulido",
+        "R. Rebollido-Rios",
+        "J. Valle",
+        "D. Andreu",
+        "E. Boix",
+        "M. Torrent"
+      ]
+    },
+    {
+      "title": "The “CPC clip motif”: A conserved structural signature for heparin-binding proteins",
+      "authors": [
+        "M. Torrent",
+        "M.V. Nogues",
+        "D. Andreu",
+        "E. Boix"
+      ]
+    },
+    {
+      "title": "Solution structure of drosomycin, the first inducible antifungal protein from insects",
+      "authors": [
+        "C. Landon",
+        "P. Sodano",
+        "C. Hetru",
+        "J. Hoffmann",
+        "M. Ptak"
+      ]
+    },
+    {
+      "title": "Refined three-dimensional solution structure of insect defensin A",
+      "authors": [
+        "B. Cornet",
+        "J.M. Bonmatin",
+        "C. Hetru",
+        "J.A. Hoffmann",
+        "M. Ptak",
+        "F. Vovelle"
+      ]
+    },
+    {
+      "title": "Structure is three to ten times more conserved than sequence—A study of structural response in protein cores",
+      "authors": [
+        "K. Illergard",
+        "D.H. Ardell",
+        "A. Elofsson"
+      ]
+    },
+    {
+      "title": "Identification and structural characterization of FYVE domain-containing proteins of Arabidopsis thaliana",
+      "authors": [
+        "E. Wywial",
+        "S.M. Singh"
+      ]
+    },
+    {
+      "title": "Identification, modeling, and characterization studies of Tetrahymena thermophila myosin FERM domains suggests a conserved core fold but functional differences",
+      "authors": [
+        "C.L. Martin",
+        "S.M. Singh"
+      ]
+    },
+    {
+      "title": "Molecular modeling and computational analyses suggests that the Sinorhizobium meliloti periplasmic regulator protein ExoR adopts a superhelical fold and is controlled by a unique mechanism of proteolysis",
+      "authors": [
+        "E.M. Wiech",
+        "H.P. Cheng",
+        "S.M. Singh"
+      ]
+    },
+    {
+      "title": "A combined computational strategy of sequence and structural analysis predicts the existence of a functional eicosanoid pathway in Drosophila melanogaster",
+      "authors": [
+        "M. Scarpati",
+        "Y. Qi",
+        "S. Govind",
+        "S. Singh"
+      ]
+    },
+    {
+      "title": "Proteomic Tools for the Analysis of Cytoskeleton Proteins",
+      "authors": [
+        "C. Barreto",
+        "A. Silva",
+        "E. Wiech",
+        "A. Lopez",
+        "A. San",
+        "S. Singh"
+      ]
+    },
+    {
+      "title": "Heparin therapy for venous thrombosis and pulmonary embolism",
+      "authors": [
+        "G.E. Raskob",
+        "C.J. Carter",
+        "R.D. Hull"
+      ]
+    },
+    {
+      "title": "Glycosaminoglycan (GAG) biosynthesis and GAG-binding proteins",
+      "authors": [
+        "L. Zhang"
+      ]
+    },
+    {
+      "title": "Antimicrobial activities of heparin-binding peptides",
+      "authors": [
+        "E. Andersson",
+        "V. Rydengard",
+        "A. Sonesson",
+        "M. Morgelin",
+        "L. Bjorck",
+        "A. Schmidtchen"
+      ]
+    },
+    {
+      "title": "The effect of glycosaminoglycans (GAGs) on amyloid aggregation and toxicity",
+      "authors": [
+        "C. Iannuzzi",
+        "G. Irace",
+        "I. Sirangelo"
+      ]
+    },
+    {
+      "title": "Functional role of charged residues in drosomycin, a Drosophila antifungal peptide",
+      "authors": [
+        "Z. Zhang",
+        "S. Zhu"
+      ]
+    },
+    {
+      "title": "Innate immunity in fruit flies: A textbook example of genomic recycling",
+      "authors": [
+        "S. Govind",
+        "R.H. Nehm"
+      ]
+    },
+    {
+      "title": "Anti-tumour effects of antimicrobial peptides, components of the innate immune system, against haematopoietic tumours in Drosophila mxc mutants",
+      "authors": [
+        "M. Araki",
+        "M. Kurihara",
+        "S. Kinoshita",
+        "R. Awane",
+        "T. Sato",
+        "Y. Ohkawa",
+        "Y.H. Inoue"
+      ]
+    },
+    {
+      "title": "A parasitoid wasp of Drosophila employs preemptive and reactive strategies to deplete its host’s blood cells",
+      "authors": [
+        "J.R. Ramroop",
+        "M.E. Heavner",
+        "Z.H. Razzak",
+        "S. Govind"
+      ]
+    },
+    {
+      "title": "Structures and functions of invertebrate glycosylation",
+      "authors": [
+        "F. Zhu",
+        "D. Li",
+        "K. Chen"
+      ]
+    },
+    {
+      "title": "Proteoglycan form and function: A comprehensive nomenclature of proteoglycans",
+      "authors": [
+        "R.V. Iozzo",
+        "L. Schaefer"
+      ]
+    },
+    {
+      "title": "Bacterial lipopolysaccharides and innate immunity",
+      "authors": [
+        "C. Alexander",
+        "E.T. Rietschel"
+      ]
+    },
+    {
+      "title": "Host glycosaminoglycan confers susceptibility to bacterial infection in Drosophila melanogaster",
+      "authors": [
+        "M.J. Baron",
+        "S.L. Wong",
+        "K. Nybakken",
+        "V.J. Carey",
+        "L.C. Madoff"
+      ]
+    },
+    {
+      "title": "Antimicrobial peptides in Drosophila: Structures, activities and gene regulation",
+      "authors": [
+        "J. Imler",
+        "P. Bulet"
+      ]
+    },
+    {
+      "title": "Antifungal properties and mode of action of psacotheasin, a novel knottin-type peptide derived from Psacothea hilaris",
+      "authors": [
+        "B. Hwang",
+        "J. Hwang",
+        "J. Lee",
+        "D.G. Lee"
+      ]
+    },
+    {
+      "title": "Structural genomics applied to the rust fungus Melampsora larici-populina reveals two candidate effector proteins adopting cystine knot and NTF2-like protein folds",
+      "authors": [
+        "K. De Guillen",
+        "C. Lorrain",
+        "P. Tsan",
+        "P. Barthe",
+        "B. Petre",
+        "N. Saveleva",
+        "N. Rouhier",
+        "S. Duplessis",
+        "A. Padilla",
+        "A. Hecker"
+      ]
+    },
+    {
+      "title": "Database resources of the National Center for Biotechnology Information",
+      "authors": []
+    },
+    {
+      "title": "The Protein Data Bank",
+      "authors": [
+        "H.M. Berman",
+        "J. Westbrook",
+        "Z. Feng",
+        "G. Gilliland",
+        "T.N. Bhat",
+        "H. Weissig",
+        "I.N. Shindyalov",
+        "P.E. Bourne"
+      ]
+    },
+    {
+      "title": "Basic local alignment search tool",
+      "authors": [
+        "S.F. Altschul",
+        "W. Gish",
+        "W. Miller",
+        "E.W. Myers",
+        "D.J. Lipman"
+      ]
+    },
+    {
+      "title": "Gapped BLAST and PSI-BLAST: A new generation of protein database search programs",
+      "authors": [
+        "S.F. Altschul",
+        "T.L. Madden",
+        "A.A. Schäffer",
+        "J. Zhang",
+        "Z. Zhang",
+        "W. Miller",
+        "D.J. Lipman"
+      ]
+    },
+    {
+      "title": "Search and sequence analysis tools services from EMBL-EBI in 2022",
+      "authors": [
+        "F. Madeira",
+        "M. Pearce",
+        "A.R. Tivey",
+        "P. Basutkar",
+        "J. Lee",
+        "O. Edbali",
+        "N. Madhusoodanan",
+        "A. Kolesnikov",
+        "R. Lopez"
+      ]
+    },
+    {
+      "title": "HMMER web server: Interactive sequence similarity searching",
+      "authors": [
+        "R.D. Finn",
+        "J. Clements",
+        "S.R. Eddy"
+      ]
+    },
+    {
+      "title": "Integrative approach reveals composition of endoparasitoid wasp venoms",
+      "authors": [
+        "J. Goecks",
+        "N.T. Mortimer",
+        "J.A. Mobley",
+        "G.J. Bowersock",
+        "J. Taylor",
+        "T.A. Schlenke"
+      ]
+    },
+    {
+      "title": "Deciphering the behaviour manipulation imposed by a virus on its parasitoid host: Insights from a dual transcriptomic approach",
+      "authors": [
+        "J. Varaldi",
+        "D. Lepetit"
+      ]
+    },
+    {
+      "title": "Parasitoid wasp venom SERCA regulates Drosophila calcium levels and inhibits cellular immunity",
+      "authors": [
+        "N.T. Mortimer",
+        "J. Goecks",
+        "B.Z. Kacsoh",
+        "J.A. Mobley",
+        "G.J. Bowersock",
+        "J. Taylor",
+        "T.A. Schlenke"
+      ]
+    },
+    {
+      "title": "ExPASy: The proteomics server for in-depth protein knowledge and analysis",
+      "authors": [
+        "E. Gasteiger",
+        "A. Gattiker",
+        "C. Hoogland",
+        "I. Ivanyi",
+        "R.D. Appel",
+        "A. Bairoch"
+      ]
+    },
+    {
+      "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments",
+      "authors": [
+        "O. Keller",
+        "M. Kollmar",
+        "M. Stanke",
+        "S. Waack"
+      ]
+    },
+    {
+      "title": "Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega",
+      "authors": [
+        "F. Sievers",
+        "A. Wilm",
+        "D. Dineen",
+        "T.J. Gibson",
+        "K. Karplus",
+        "W. Li",
+        "R. Lopez",
+        "H. McWilliam",
+        "M. Remmert",
+        "J. Söding"
+      ]
+    },
+    {
+      "title": "Tcoffee@ igs: A web server for computing, evaluating and combining multiple sequence alignments",
+      "authors": [
+        "O. Poirot",
+        "E. O’Toole",
+        "C. Notredame"
+      ]
+    },
+    {
+      "title": "ESPript: Analysis of multiple sequence alignments in PostScript",
+      "authors": [
+        "P. Gouet",
+        "E. Courcelle",
+        "D.I. Stuart",
+        "F. Metoz"
+      ]
+    },
+    {
+      "title": "CDD: A Conserved Domain Database for the functional annotation of proteins",
+      "authors": [
+        "A. Marchler-Bauer",
+        "S. Lu",
+        "J.B. Anderson",
+        "F. Chitsaz",
+        "M.K. Derbyshire",
+        "C. DeWeese-Scott",
+        "J.H. Fong",
+        "L.Y. Geer",
+        "R.C. Geer",
+        "N.R. Gonzales"
+      ]
+    },
+    {
+      "title": "Pfam: The protein families database",
+      "authors": [
+        "R.D. Finn",
+        "A. Bateman",
+        "J. Clements",
+        "P. Coggill",
+        "R.Y. Eberhardt",
+        "S.R. Eddy",
+        "A. Heger",
+        "K. Hetherington",
+        "L. Holm",
+        "J. Mistry"
+      ]
+    },
+    {
+      "title": "SignalP 5.0 improves signal peptide predictions using deep neural networks",
+      "authors": [
+        "J.J. Almagro Armenteros",
+        "K.D. Tsirigos",
+        "C.K. Sønderby",
+        "T.N. Petersen",
+        "O. Winther",
+        "S. Brunak",
+        "G. von Heijne",
+        "H. Nielsen"
+      ]
+    },
+    {
+      "title": "Advantages of combined transmembrane topology and signal peptide prediction—The Phobius web server",
+      "authors": [
+        "L. Kall",
+        "A. Krogh",
+        "E.L. Sonnhammer"
+      ]
+    },
+    {
+      "title": "The influence of gapped positions in multiple sequence alignments on secondary structure prediction methods",
+      "authors": [
+        "V.A. Simossis",
+        "J. Heringa"
+      ]
+    },
+    {
+      "title": "I-TASSER: A unified platform for automated protein structure and function prediction",
+      "authors": [
+        "A. Roy",
+        "A. Kucukural",
+        "Y. Zhang"
+      ]
+    },
+    {
+      "title": "Comparative Protein Structure Modeling Using MODELLER",
+      "authors": [
+        "B. Webb",
+        "A. Sali"
+      ]
+    },
+    {
+      "title": "SuperPose: A simple server for sophisticated structural superposition",
+      "authors": [
+        "R. Maiti",
+        "G.H. Van Domselaar",
+        "H. Zhang",
+        "D.S. Wishart"
+      ]
+    },
+    {
+      "title": "A method for simultaneous alignment of multiple protein structures",
+      "authors": [
+        "M. Shatsky",
+        "R. Nussinov",
+        "H.J. Wolfson"
+      ]
+    },
+    {
+      "title": "New additions to the ClusPro server motivated by CAPRI",
+      "authors": [
+        "S. Vajda",
+        "C. Yueh",
+        "D. Beglov",
+        "T. Bohnuud",
+        "S.E. Mottarella",
+        "B. Xia",
+        "D.R. Hall",
+        "D. Kozakov"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Electrostatics of nanosystems: Application to microtubules and the ri-bosome",
+      "authors": [
+        "N.A. Baker",
+        "D. Sept",
+        "S. Joseph",
+        "M.J. Holst",
+        "J.A. McCammon"
+      ]
+    },
+    {
+      "title": "Automated docking using a Lamarckian genetic algorithm and an empirical binding free energy function",
+      "authors": [
+        "G.M. Morris",
+        "D.S. Goodsell",
+        "R.S. Halliday",
+        "R. Huey",
+        "W.E. Hart",
+        "R.K. Belew",
+        "A.J. Olson"
+      ]
+    },
+    {
+      "title": "PDBsum: Structural summaries of PDB entries",
+      "authors": [
+        "R.A. Laskowski",
+        "J. Jabłońska",
+        "L. Pravda",
+        "R.S. Vařeková",
+        "J.M. Thornton"
+      ]
+    },
+    {
+      "title": "NMR sequential assignments and solution structure of chlorotoxin, a small scorpion toxin that blocks chloride channels",
+      "authors": [
+        "G. Lippens",
+        "J. Najib",
+        "S.J. Wodak",
+        "A. Tartar"
+      ]
+    },
+    {
+      "title": "Solution structure of hanatoxin1, a gating modifier of voltage-dependent K(+) channels: Common surface features of gating modifier toxins",
+      "authors": [
+        "H. Takahashi",
+        "J.I. Kim",
+        "H.J. Min",
+        "K. Sato",
+        "K.J. Swartz",
+        "I. Shimada"
+      ]
+    },
+    {
+      "title": "The active site of drosomycin, a small insect antifungal protein, delineated by comparison with the modeled structure of Rs-AFP2, a plant antifungal protein",
+      "authors": [
+        "C. Landon",
+        "A. Pajon",
+        "F. Vovelle",
+        "P. Sodano"
+      ]
+    },
+    {
+      "title": "Solution structure of the sodium channel antagonist conotoxin GS: A new molecular caliper for probing sodium channel geometry",
+      "authors": [
+        "J.M. Hill",
+        "P.F. Alewood",
+        "D.J. Craik"
+      ]
+    },
+    {
+      "title": "A consensus structure for omega-conotoxins with different selectivities for voltage-sensitive calcium channel subtypes: Comparison of MVIIA, SVIB and SNX-202",
+      "authors": [
+        "K.J. Nielsen",
+        "L. Thomas",
+        "R.J. Lewis",
+        "P.F. Alewood",
+        "D.J. Craik"
+      ]
+    },
+    {
+      "title": "Solution structure and proposed binding mechanism of a novel potassium channel toxin kappa-conotoxin PVIIA",
+      "authors": [
+        "M.J. Scanlon",
+        "D. Naranjo",
+        "L. Thomas",
+        "P.F. Alewood",
+        "R.J. Lewis",
+        "D.J. Craik"
+      ]
+    },
+    {
+      "title": "Structure of the antimicrobial peptide tachystatin A",
+      "authors": [
+        "N. Fujitani",
+        "S. Kawabata",
+        "T. Osaki",
+        "Y. Kumaki",
+        "M. Demura",
+        "K. Nitta"
+      ]
+    },
+    {
+      "title": "The solution structure of horseshoe crab antimicrobial peptide tachystatin B with an inhibitory cystine-knot motif",
+      "authors": [
+        "N. Fujitani",
+        "T. Kouno",
+        "T. Nakahara",
+        "K. Takaya",
+        "T. Osaki",
+        "S. Kawabata"
+      ]
+    },
+    {
+      "title": "Solution structure of Ptu1, a toxin from the assassin bug Peirates turpis that blocks the voltage-sensitive calcium channel N-type",
+      "authors": [
+        "C. Bernard",
+        "G. Corzo",
+        "A. Mosbah",
+        "T. Nakajima",
+        "H. Darbon"
+      ]
+    },
+    {
+      "title": "Solution structure of ADO1, a toxin extracted from the saliva of the assassin bug, Agriosphodrus dohrni",
+      "authors": [
+        "C. Bernard",
+        "G. Corzo",
+        "S. Adachi-Akahane",
+        "G. Foures",
+        "K. Kanemaru",
+        "Y. Furukawa"
+      ]
+    },
+    {
+      "title": "Solution structure of the main alpha-amylase inhibitor from amaranth seeds",
+      "authors": [
+        "J.C. Martins",
+        "M. Enassar",
+        "R. Willem",
+        "J.M. Wieruzeski",
+        "G. Lippens",
+        "S.J. Wodak"
+      ]
+    },
+    {
+      "title": "Structure of Petunia hybrida defensin 1, a novel plant defensin with five disulfide bonds",
+      "authors": [
+        "B.J.C. Janssen",
+        "H.J. Schirra",
+        "F.T. Lay",
+        "M.A. Anderson",
+        "D.J. Craik"
+      ]
+    },
+    {
+      "title": "Exploring structural features of the interaction between the scorpion toxinCnErg1 and ERG K+ channels",
+      "authors": [
+        "K. Frenal",
+        "C. Xu",
+        "N. Wolff",
+        "K. Wecker",
+        "G.B. Gurrola",
+        "S. Zhu",
+        "C.-W. Chi",
+        "L.D. Possani",
+        "J. Tytgat",
+        "M. Delepierre"
+      ]
+    },
+    {
+      "title": "Determination of the spatial structure of insectotoxin 15A from Buthus erpeus by (1)H-NMR spectroscopy data",
+      "authors": [
+        "A.L. Lomize",
+        "V.N. Maiorov",
+        "A.S. Arsen’ev"
+      ]
+    },
+    {
+      "title": "Solution structure of PcFK1, a spider peptide active against Plasmodium falciparum",
+      "authors": [
+        "C. Pimentel",
+        "S. Choi",
+        "B. Chagot",
+        "C. Guette",
+        "J. Camadro",
+        "H. Darbon"
+      ]
+    },
+    {
+      "title": "Structure of Circulin B and Implications for Antimicrobial Activity of the Cyclotides",
+      "authors": [
+        "A. Koltay",
+        "N.L. Daly",
+        "K.R. Gustafson",
+        "D.J. Craik"
+      ]
+    },
+    {
+      "title": "Plant cyclotides: A unique family of cyclic and knotted proteins that defines the cyclic cystine knot structural motif",
+      "authors": [
+        "D.J. Craik",
+        "N.L. Daly",
+        "T. Bond",
+        "C. Waine"
+      ]
+    },
+    {
+      "title": "Asteropsin A: An unusual cystine-crosslinked peptide from porifera enhances neuronal Ca2+ influx",
+      "authors": [
+        "H. Li",
+        "J.J. Bowling",
+        "F.R. Fronczek",
+        "J. Hong",
+        "S.V. Jabba",
+        "T.F. Murray",
+        "N.-C. Ha",
+        "M.T. Hamann",
+        "J.H. Jung"
+      ]
+    }
+  ],
+  "original_title": "In Silico Analysis of a Drosophila Parasitoid Venom Peptide Reveals Prevalence of the Cation‚ÄìPolar‚ÄìCation Clip Motif in Knottin Proteins",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1608/9865768/310056472337/pathogens-12-00143-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1608/9865768/666f413f215f/pathogens-12-00143-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1608/9865768/25d91113f645/pathogens-12-00143-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1608/9865768/345b5f1ae39c/pathogens-12-00143-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1608/9865768/ffaa0bc602a8/pathogens-12-00143-g005.jpg"
+  ]
+}

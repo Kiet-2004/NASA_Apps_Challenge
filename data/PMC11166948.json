@@ -1,0 +1,428 @@
+{
+  "pmcid": "PMC11166948",
+  "title": "Spatiotemporal expression and control of haemoglobin in space",
+  "abstract": "It is now widely recognised that the environment in space activates a diverse set of genes involved in regulating fundamental cellular pathways. This includes the activation of genes associated with blood homeostasis and erythropoiesis, with a particular emphasis on those involved in globin chain production. Haemoglobin biology provides an intriguing model for studying space omics, as it has been extensively explored at multiple -omic levels, spanning DNA, RNA, and protein analyses, in both experimental and clinical contexts. In this study, we examined the developmental expression of haemoglobin over time and space using a unique suite of multi-omic datasets available on NASA GeneLab, from the NASA Twins Study, the JAXA CFE study, and the Inspiration4 mission. Our findings reveal significant variations in globin gene expression corresponding to the distinct spatiotemporal characteristics of the collected samples. This study sheds light on the dynamic nature of globin gene regulation in response to the space environment and provides valuable insights into the broader implications of space omics research.\n\nHere the authors analyse the impact of space on haemoglobin gene regulation using data from NASA, JAXA and SpaceX i4 missions. They find that globin gene down-regulation leads to space anaemia with post-flight recovery, and reveal an adult-to-foetal globin switch activation.",
+  "introduction": "Introduction\n\nAn interesting phenomenon that has been observed in studies related to space medicine and biology is the clinical phenotype associated with space anaemia. In the environment on board the International Space Station, astronauts experience a reduction in their red blood cell mass, associated with anaemia, which is however resolved after a few months back on Earth. The mechanism behind the incidence of space anaemia is still unknown, much like another important occurrence that deals with haemoglobin gene switching. The globin gene switch has long been thought to act as a paradigm for studying gene switch mechanisms for both in vitro and in vivo clinical models. Perturbations in the globin switch may lead to important clinical disorders, also known as haemoglobinopathies, that include, amongst others, sickle cell disease and beta-thalassaemia. The regulation and control of the globin genes are governed by a set of transcription factors and other key molecules that, when brought together in close proximity, will dynamically shift the beta-globin locus and express the globin genes in a developmental pattern. The fine and exquisite nature of the globin gene control, as well as their extensive studies to date on all -omic fronts, have made them the model of choice to study in one of the harshest environments that humans can experience.\n\nErythropoiesis is a dynamic multi-step process involving the differentiation of early erythroid progenitors to enucleated red blood cells. Under normal circumstances, a large number of transcription factors such as GATA-1, GATA-2, LMO2, FOG, C-MYB, TAL-1, BCL11A, RUNX-1 and PU.1 and KLF1 are involved in the formation of haematopoietic cell lineages that are in turn finely controlled and regulated in producing a subset of cells capable of carrying vast quantities of the haemoglobin protein for oxygen transport to all tissues.\n\nIn this study, we used multiple omic datasets retrieved from several different human astronaut missions using the powerful platform made available by NASA’s GeneLab. This platform is now an established space omics database that provides a wealth of information linking molecular biology and genetics with space medical sciences. In particular, the full astronaut blood, as well as transcriptional data from the NASA Twins Study was analysed for the globin gene expression profile as well as the extensive list of transcription factors and miRNAs involved in the globin gene switch mechanism.\n\nOur research uncovered two important conclusions. Firstly, exposing humans to orbiter effects resulted in a significantly down-regulated expression of all globin genes, seemingly confirming space anaemia as documented earlier. The levels of expression were then returned back to normal post-flight. Key genes that play important roles in erythropoiesis were also highly perturbed during spaceflight, with some undergoing up-regulation and others down-regulated, indicating that space anaemia might occur as a combination of direct haemolysis coupled with reduced overall production of new, mature erythroid cells.\n\nSecondly, it was noted that an adult-to-fetal globin switch, similar to that observed in the amelioration of haemoglobinopathies on Earth, can be observed through the up-regulation and down-regulation of a number of genes, encoding for different globins, transcription factors and other key molecules that play a known role in globin switching mechanisms. This leads to the possible conclusion that the microgravity environment might elicit the mechanisms behind the developmental globin gene switch model and sheds an even more in-depth look at the key players involved in this intricate switch. These may constitute an important observation for those next frontier missions that look beyond the moon and further into deep space.",
+  "methods": "Methods\n\nNASA twins study RNA-seq analysis\n\nSpecific details related to all the methods for the NASA Twins Study RNA-seq data can be found in the following references. Briefly, the NASA Twins Study involved two male twin subjects, aged 50 years old at the time of launch. The flight twin spent 340 days aboard the ISS while his identical twin stayed on Earth as the ground control.\n\nBlood samples were collected into 4 mL CPT tubes (BD Biosciences Cat No.362760) as per the manufacturer’s recommendations. Cell separation was performed by centrifugation at 1800 × g for 20 min at room temperature, both on the ISS and for the ground-based samples. Ambient blood collected samples slated for immediate return on Soyuz capsule were stored at 4 °C until processing (average of 35–37 h after collection, including repatriation time). Samples collected on Earth and the ISS and planned for long-term storage were mixed by inversion and immediately frozen at −80 °C.\n\nFresh processing of CPT tubes was performed as follows. Firstly, plasma was retrieved from the CPT tubes and flash frozen prior to long-term storage at −80 °C. Secondly, the peripheral blood mononuclear cells (PBMCs) were recovered and washed in PBS. 0.5 million PBMCs were retrieved from one pre-flight and one post-flight sample, pelleted, flash frozen and stored at −80 °C until use for RNA extractions. The flow through from cell sorting steps was recovered as the lymphocyte depleted (LD) fraction; LD and PBMC cell specimens were lysed into RLT+ buffer (Qiagen Cat No.1053393), flash frozen and stored at −80 °C until use.\n\nCells were isolated and prepared using the BD Rhapsody platform according to the BD Rhapsody Express Single-Cell Analysis System Instrument User Guide, with a custom-designed RNA and epitope panel. Briefly, cells from each sample were labelled with sample tags and then pooled after being washed twice with FACS buffer. Combined samples were then washed an additional time before being stained with the BD AbSeq Ab-Oligo reagents. After staining, the cells were washed twice before resuspension at approximately 20,000 cells in 620 μL. These cells were then isolated using the Single-Cell Analysis System and cDNA Synthesis with the BD Rhapsody Express Single-Cell Analysis System using the manufacturers’ protocol (BD Biosciences). Cells were loaded onto 3 BD Rhapsody nanowell cartridges. Cartridges were loaded with Cell Capture Beads (BD Biosciences) before shaking for 15 s at 1000 rpm. Cells were lysed and cell capture beads were retrieved and washed prior to Exonuclease I treatment and reverse transcription.\n\nTargeted amplification of cDNA with the Human Immune Response Panel primers and custom supplemental panel was done through 10 PCR cycles. PCR products were purified, and mRNA and AbSeq products were separated by SPRIselect beads with double-sided selection. mRNA products were amplified further with 15 PCR cycles. Final libraries were indexed with 8 PCR cycles. Library quality was assessed by Bioanalyzer (D1000 HS, Agilent). Library DNA concentration was quantified using a Qubit dsDNA HS Kit (ThermoFisher, No.Q32854) on a Qubit Fluorometer. Libraries were diluted to 2 nM and multiplexed before being sequenced on three lanes of a Novaseq-6000. The mean read depth per cell was 13,244.31 mRNA reads per cell and 11,506.98 AbSeq reads per cell for a combined 243,751.30 reads per cell.\n\nFASTQ files were uploaded to Seven Bridges Genomics. Data was demultiplexed and sequences analysed with BD’s Rhapsody pipeline (BD Rhapsody Analysis Pipeline 1.4 Beta) on Seven Bridges (www.sevenbridges.com). Data was then loaded into Seurat (version 3.2.0) for analysis. This generated a sparse matrix file of features by barcodes. This sparse matrix data was then read into R using the R package Seurat 3.2.0, and standard quality control was run to remove cells with few genes. Data was then scaled and normalised. MAST was used to determine DEGs between all combinations of pre-flight, return and post-flight for both TW and HR samples. Heatmaps were made for the curated globin genes on the DEG values per time point using the R package pheatmap version 1.0.12.\n\nNASA twins study miRNA-Seq analysis\n\nSpecific details related to all the methods related to the NASA Twins Study miRNA-seq data can also be found in the provided references. We will briefly highlight the key methods. Small RNA libraries were prepared from 50ng total RNA using the NEBNext Multiplex Small RNA Library Prep Set for Illumina (NEB No.E7560) per manufacturer’s recommendations with the following modifications: adaptors and RT primer were diluted fourfold, 17 cycles of PCR were used for library amplification, and no size selection was performed. The i7 primers in the NEBNext Multiplex Oligos for Illumina Dual Index Primers (NEB No.E7600, NEB No.E7780) were used to supplement the index primers in NEB No.E7560. The libraries were sequenced in an Illumina NextSeq instrument (1 × 50bp).\n\nStandard libraries were pre-processed and quality-controlled using miRTrace. Subsequently, reads were mapped against MirGeneDB sequences using the miRDeep2 quantifier module. Expression values were normalised to reads per million (RPM) considering only miRNA counts. The normalised RPM value was utilised for all analysis. If the value for the miRNA was zero for all samples that miRNA was excluded from the analysis. To determine statistically significant miRNAs, ANOVA analysis with p-value < 0.2 was independently performed for each cell type.\n\nFor flight-only comparisons, the same statistical significance was applied for all time points excluding the ground samples and all ambient return samples. All statistics were run independently for each cell condition/type. To determine the overlap of the miRNA signature in this paper with the Twins Study miRNA-seq data, the proposed miRNAs were used as well as all mature components of the miRNAs included in the miRNA family. Specific miRNAs related to globin pathways were plotted as heatmaps on the expression values using the R package pheatmap version 1.0.12.\n\nJAXA CFE epigenome study: RNA quantification data\n\nAggregated RNA differential expression data and study protocols were shared through NASA’s Open Science Data Repository with accession number: OSD-530. Plasma cell-free RNA samples for RNA-seq analysis were derived from blood samples collected from 6 astronauts before, during, and after the spaceflight on the ISS. Mean expression values were obtained from normalised read counts of 6 astronauts for each time point. Heatmaps were computed for the curated globin genes on the normalised values per time point using the R package pheatmap version 1.0.12. Differential expression analysis was carried out with DESEQ2, and subsequent volcano plots were plotted using Python’s Matplotlib package. Principal component analysis was carried out using Python’s sklearn package.\n\nInspiration4: data collection and analysis\n\nDetailed methods for sample collection and data processing are described in ref. . In summary, blood samples were collected before (pre-launch: L-92, L-44, and L-3) and after (return; R+1, R+45, and R+82) the spaceflight. Chromium Next GEM Single Cell 5’ v2, 10x Genomics was used to generate single-cell data from isolated PBMCs. Sub-populations were annotated based on Azimuth human PBMC reference. The Seurat R package was used to normalise RNA count data and calculate the average expression of each gene.\n\nFor the plasma cf-RNA, plasma samples were collected in cf-DNA Blood Collection (Streck: #230470) tubes at each time point and stored at −80 °C. Plasma samples were thawed at room temperature and subsequently centrifuged at 1300 × g for 10 min at 4 °C. cfRNA was isolated from the plasma supernatant (300–800 µL) using the Norgen Plasma/Serum Circulating and Exosomal RNA Purification Mini Kit (Catalogue No. 51000, Norgen). Next, 10 mL of DNase Turbo Buffer (Catalogue No. AM2238, Invitrogen), 3 mL of DNase Turbo (Catalogue No. AM2238, Invitrogen), and 1 mL of Baseline Zero DNase (Catalogue No. DB0715K, Lucigen-Epicentre) was added to the extracted RNA and incubated for 30 min at 37 °C. Subsequently, the treated RNA was concentrated into a final volume of 12 mL with the Zymo RNA Clean and Concentrate Kit (Catalogue No. R1015, Zymo).\n\nSequencing libraries were prepared from 8 µL of concentrated RNA using the Takara SMARTer Stranded Total RNA-Seq Kit v3—Pico Input Mammalian (634485, Takara) and barcoded using the SMARTer RNA Unique Dual Index Kit (634451, Takara). Library concentration was quantified using a Qubit 3.0 Fluorometer (Q33216, Invitrogen) with the dsDNA HS Assay Kit (Q32854, Invitrogen). Libraries were quality-controlled using an Agilent Fragment Analyser 5200 (M5310AA, Agilent) with the HS NGS Fragment kit (DNF 474-0500, Agilent). Libraries were pooled to equal concentrations and sequenced at the Cornell Genomics Core on an Illumina NextSeq 2000 machine using 150-base pair, paired-end sequencing for an average of 26 million reads per sample.\n\nAll human astronaut subjects have consented at an informed consent briefing (ICB) at SpaceX (Hawthorne, CA), and samples were collected and processed under the approval of the Institutional Review Board (IRB) at Weill Cornell Medicine, under Protocol 21-05023569. All crew members have consented to data and sample sharing. JAXA and NASA astronaut data dissemination follows agency protocols.\n\nReporting summary\n\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.\n\nSupplementary information\n\nSource data\n\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\n\nThese authors contributed equally: Josef Borg, Conor Loy, JangKeun Kim.",
+  "results": "Results\n\nObtained globin gene, transcription factor (TF) and globin miRNA expression results are hereunder showcased for the NASA Twins study, the JAXA study as well as the Inspiration4 mission. A summary of observed trends is provided in Fig. 1.\n\nNotably, repressors for fetal haemoglobin (HBF) in the haemoglobin gene switch showed in-flight down-regulation in almost all cases for both the NASA twins study and the JAXA astronaut cohort, suggesting an in-flight shift to favour the production of HBF. Erythropoiesis promoters showed a mixed in-flight and post-flight expression regulation, with some promoters down-regulated in flight and thus likely contributing to the space anaemia phenotype while other promoters were up-regulated in flight, possibly in response to space anaemia. Erythropoiesis repressors were down-regulated in flight, possibly as a response to the space anaemia condition as well.\n\nFor the NASA Twins study, which constitutes a one-year mission on the ISS, globin gene and TF expression information is shown as comparisons carried out between the ground and flight twin (pre-flight), as well as comparisons made for the flight twin at different stages in the mission (i.e. pre-flight, during flight and post-flight). Different cellular fractions are separately considered, with the LD and the CPT (mononuclear cells separated by centrifugation) cell types representing the erythroid-containing cellular fractions. Due to the large number of genes and TFs considered, only those showcasing a significant down-regulation or up-regulation (p-value < 0.1) in at least one comparison instance are included in Fig. 2. Separately indicated are genes and TFs in cellular fractions that showed a higher level of differentially expressed significance, with a p-value < 0.05.\n\nDespite the primary focus being on haemoglobin control, regulation, and expression in the context of space-related anaemia, preserving and presenting data on white blood cells (WBCs) is pivotal for a comprehensive understanding of physiological changes in astronauts. WBC parameters offer valuable insights into the broader immune response, potential inflammation, and overall haematological health during space missions. Considering the interconnecting nature of erythroid and immune systems, the analysis and data of WBCs can provide crucial context to haemoglobin dynamics, ensuring a holistic interpretation of the physiological adaptations astronauts undergo in the space environment. This integrative approach enhances the scientific significance of our study and contributes to a more thorough comprehension of the impact of space travel on multiple facets of human physiology. Thus, while the erythroid-containing cellular fractions are perhaps most directly pertinent, the WBC fractions are still of relevance to this study.\n\nFor the JAXA cohort, which constitutes of data from 6 astronauts who spent a 6-month period on the ISS, normalised expression values are provided for all globin genes and TFs, including timestamps for temporal resolution of specific expression readings collected in-flight and post-flight. In Fig. 3, up-regulation or down-regulation of expression for specific genes or TFs of interest can be deduced when compared to the normalised pre-flight values, also provided. Values showcased in these diagrams represent mean expression levels measured across the JAXA cohort, with expression values obtained from cell-free RNA-Seq samples.\n\nFollowing differential expression analysis using DESEQ2, volcano plots of p-values against log2 fold-changes were computed for the JAXA study, comparing pre-flight, flight and post-flight expression readings as shown in Fig. 4. Genes are known to be involved in erythropoiesis and the globin gene switch mechanism, were labelled accordingly if found to be significantly up-regulated or down-regulated. Obtained differential expression values show that erythropoietin (EPO) was indeed significantly down-regulated in-flight, when compared to pre-flight levels, but was then up-regulated again post-flight, when compared to in-flight levels.\n\nGlobin genes such as HBA1, HBB and HBD are also shown to be significantly up-regulated post-flight, when compared to in-flight levels, with levels of post-flight HBA1 being also significantly up-regulated when compared to pre-flight levels. The same observation was made for ALAS2, which seems to have been significantly up-regulated post-flight when compared to both pre-flight and in-flight expression levels. Conversely, HBE1 was significantly up-regulated in-flight, when compared to pre-flight levels. Notably, KLF1 was found to be significantly up-regulated post-flight, when compared to in-flight expression levels, which is of notable significance for the globin gene switch mechanism, as further discussed in discussion section.\n\nPrincipal component analysis (PCA) was carried out accordingly for the JAXA astronauts. Specifically, PCA was performed across different features (normalised gene expressions), grouping astronaut sample data into before, during and after flight groups. The features considered are genes of interest, that is genes known to be involved in erythropoiesis, haematopoiesis and the globin gene switch. However, since cell-free RNA data was used for the JAXA cohort study, trans-acting factors and globin gene expressions are separately considered features of interest. Indeed, it is expected that looking at trans-acting factors would showcase a better representation of true variation between samples since globin gene expression would be expected to be representative when considering cellular expression (particularly in the red blood cell component, where globin gene expression is most important).\n\nThere is an observable separation between the three groups when considering trans-acting factors, with considerable variance observed across multiple principal components in this regard. This is particularly evident when looking at PC1 and PC2, which collectively account for approximately 68.3% of the variance measured across the data. There is also segregation of samples by flight status when looking at globin genes, particularly along the first principal component, which accounts for almost 99% of all variance measured in the globin gene data. These plots are provided in Fig. 5.\n\nA diagram of normalised expression levels is provided for the Inspiration4 crew in Fig. 6. For this particular case, expression values are only available pre-flight and post-flight, with no in-flight measurement data available. The cellular type here assessed constitutes the peripheral blood mononuclear cells (PBMCs) cellular fraction. As with the JAXA cohort data, up-regulation and down-regulation post-flight can be inferred from direct comparisons with normalised expression levels pre-flight. Post-flight readings are temporally resolved.\n\nA heat-map of z-scores for normalised cell-free RNA abundance in pre-flight and post-flight samples for the Inspiration4 crew is shown in Fig. 7, with alpha globin genes, beta-globin genes and trans-acting factors separately shown. Since this analysis was carried out using data from cell-free plasma samples, trans-acting factors are also to be considered as more representative of spatiotemporal effects. Indeed, the heat-map showcases an observable difference in expression between pre-flight and post-flight time points, with overall up-regulation in most trans-acting factors.\n\nIn addition, a PCA investigation on results obtained from cell-free RNA samples for the Inspiration4 crew was carried out, with some separation in samples visible by flight status as observed in Fig. 8 when taking into account genes of interest (globin genes and trans-acting factors). This indicates that, as expected, there is an observed difference in expression when comparing pre-flight against post-flight samples using only genes of interest, indicating that there is a significant effect on the expression of globin genes and trans-acting factors involved in erythropoiesis, haematopoiesis and the globin gene switch mechanism. Specific examples concerning the observed shift are provided in the discussion section.\n\nGlobin miRNA expression data was also collected for the NASA Twins study. As with the globin gene and TF expression, several cellular fractions were separately investigated and cross-compared between the ground twin and the flight twin at different mission stages. These are showcased in Fig. 9, but the ground twin data, in this case, was only included for reference, with globin miRNA expression varying notably between the ground twin and the flight twin even before the flight, meaning that individual-specific variations were not negligible.\n\nPhysiological data collected from several different astronauts across different missions is also provided in Fig. 10). An indication of the number of astronauts that contributed to the mean data points obtained is also included.\n\nAlthough not included in Fig. 10), reference can also be made to other physiological parameters that have been measured in other studies and that are of relevance to considerations made in this study. Specifically, levels of reticulocytes and erythropoietin have been measured as shown in, amongst others. In particular, measured red blood cell counts showcase the advent of space anaemia, with post-flight levels measured immediately upon return (and even 30 days after return) being lower than pre-flight levels (with some recovery apparent after 30 days). In congruence with this observation, a very similar trend in levels of measured haemoglobin is also showcased.\n\nIn summary, for the JAXA astronauts, normalised mean values of expression from cell-free RNA samples for 6 different astronauts were obtained for different genes, specifically looking at gene clusters pertaining to loci of interest in the context of haemoglobin switching, as shown in Fig. 6. Volcano plots indicated particular, significantly differentially expressed genes of interest for the JAXA cohort (Fig. 4), with PCA analysis showcasing that separation by flight status is noticeable when looking at specific genes and trans-acting factors of interest in erythropoiesis, haematopoeisis and the globin gene switching mechanism (Fig. 5).\n\nIn both the NASA twins study (Fig. 2) and for the Inspiration4 crew (Fig. 6), specific blood cellular fractions were separately analysed for expression of different genes, with the LD and CPT fractions being considered as most relevant for investigation of alpha and beta-globin gene expression in the NASA Twins study, given that they are expected to contain the erythroid blood component. For the NASA twins study, differential expression analysis showcased particular genes of interest with significant up-regulation and down-regulation between different flight status samples (Fig. 2). However, relevant observations are also quoted from the non-erythroid cellular fractions, especially where trends were congruent with those observed in cell-free RNA-seq results for the JAXA astronauts. Such comparisons are expected to be of more importance when looking at transcription factors and are done while keeping in mind other physiological data as obtained across several different astronaut cohorts, as provided in Fig. 10.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "RNA",
+    "Genetics research",
+    "Anaemia",
+    "Transcriptomics",
+    "Erythropoiesis",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "De Santo, N. G. et al. Anemia and erythropoietin in space flights. In: Seminars in Nephrology. Vol. 25, 379–387 (Elsevier, 2005).",
+      "authors": []
+    },
+    {
+      "title": "Characterizing the effect of exposure to microgravity on anemia: more space is worse",
+      "authors": [
+        "G Trudel",
+        "J Shafer",
+        "O Laneuville",
+        "T Ramsay"
+      ]
+    },
+    {
+      "title": "Erythroid phenotypes associated with klf1 mutations",
+      "authors": [
+        "J Borg",
+        "GP Patrinos",
+        "AE Felice",
+        "S Philipsen"
+      ]
+    },
+    {
+      "title": "Hemoglobinopathies",
+      "authors": [
+        "GF Atweh"
+      ]
+    },
+    {
+      "title": "Erythropoiesis: development and differentiation",
+      "authors": [
+        "E Dzierzak",
+        "S Philipsen"
+      ]
+    },
+    {
+      "title": "Haploinsufficiency for the erythroid transcription factor klf1 causes hereditary persistence of fetal hemoglobin",
+      "authors": [
+        "J Borg"
+      ]
+    },
+    {
+      "title": "Systematic documentation and analysis of human genetic variation in hemoglobinopathies using the microattribution approach",
+      "authors": [
+        "B Giardine"
+      ]
+    },
+    {
+      "title": "Genelab: Omics database for spaceflight experiments",
+      "authors": [
+        "S Ray"
+      ]
+    },
+    {
+      "title": "The NASA twins study: a multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman"
+      ]
+    },
+    {
+      "title": "Multi-omic, single-cell, and biochemical profiles of astronauts guide pharmacological strategies for returning to gravity",
+      "authors": [
+        "ML Gertz"
+      ]
+    },
+    {
+      "title": "Hemolysis contributes to anemia during long-duration space flight",
+      "authors": [
+        "G Trudel",
+        "N Shahin",
+        "T Ramsay",
+        "O Laneuville",
+        "H Louati"
+      ]
+    },
+    {
+      "title": "Bone density loss is associated with blood cell counts",
+      "authors": [
+        "RJ Valderrábano"
+      ]
+    },
+    {
+      "title": "Red and white blood cell counts are associated with bone marrow adipose tissue, bone mineral density, and bone microarchitecture in premenopausal women",
+      "authors": [
+        "S Polineni"
+      ]
+    },
+    {
+      "title": "Alpha-thalassemia",
+      "authors": [
+        "R Galanello",
+        "A Cao"
+      ]
+    },
+    {
+      "title": "The α-thalassemias",
+      "authors": [
+        "FB Piel",
+        "DJ Weatherall"
+      ]
+    },
+    {
+      "title": "The genecards suite: from gene data mining to disease genome sequence analyses",
+      "authors": [
+        "G Stelzer"
+      ]
+    },
+    {
+      "title": "Safran, M. et al. The GeneCards Suite. Practical Guide to Life Science Databases. 27–56 (Current Protocols in Bioinformatics, 2021).",
+      "authors": []
+    },
+    {
+      "title": "Effect of 5-aminolevulinic acid on erythropoiesis: a preclinical in vitro characterization for the treatment of congenital sideroblastic anemia",
+      "authors": [
+        "T Fujiwara"
+      ]
+    },
+    {
+      "title": "Mechanism governing heme synthesis reveals a gata factor/heme circuit that controls differentiation",
+      "authors": [
+        "N Tanimura"
+      ]
+    },
+    {
+      "title": "Expression of cd44 and cd35 during normal and myelodysplastic erythropoiesis",
+      "authors": [
+        "P Laranjeira"
+      ]
+    },
+    {
+      "title": "The heme exporter flvcr1 regulates expansion and differentiation of committed erythroid progenitors by controlling intracellular heme accumulation",
+      "authors": [
+        "S Mercurio"
+      ]
+    },
+    {
+      "title": "Enhanced alternative splicing of the flvcr1 gene in diamond blackfan anemia disrupts flvcr1 expression and function that are critical for erythropoiesis",
+      "authors": [
+        "MA Rey"
+      ]
+    },
+    {
+      "title": "Mbd2-cp2c loop drives adult-type globin gene expression and definitive erythropoiesis",
+      "authors": [
+        "MY Kim"
+      ]
+    },
+    {
+      "title": "Human fetal hemoglobin expression is regulated by the developmental stage-specific repressor bcl11a",
+      "authors": [
+        "VG Sankaran"
+      ]
+    },
+    {
+      "title": "Klf1 regulates bcl11a expression and γ-to β-globin gene switching",
+      "authors": [
+        "D Zhou",
+        "K Liu",
+        "C-W Sun",
+        "KM Pawlik",
+        "TM Townes"
+      ]
+    },
+    {
+      "title": "Transcriptional regulation of fetal to adult hemoglobin switching: new therapeutic opportunities",
+      "authors": [
+        "A Wilber",
+        "AW Nienhuis",
+        "DA Persons"
+      ]
+    },
+    {
+      "title": "Transcriptional silencing of γ-globin by bcl11a involves long-range interactions and cooperation with sox6",
+      "authors": [
+        "J Xu"
+      ]
+    },
+    {
+      "title": "Transcription factors lrf and bcl11a independently repress expression of fetal hemoglobin",
+      "authors": [
+        "T Masuda"
+      ]
+    },
+    {
+      "title": "Natural regulatory mutations elevate the fetal globin gene via disruption of bcl11a or zbtb7a binding",
+      "authors": [
+        "GE Martyn"
+      ]
+    },
+    {
+      "title": "Lin28b-mediated expression of fetal hemoglobin and production of fetal-like erythrocytes from adult human erythroblasts ex vivo",
+      "authors": [
+        "YT Lee"
+      ]
+    },
+    {
+      "title": "Correlation of sin3a genomic variants with β-hemoglobinopathies disease severity and hydroxyurea treatment efficacy",
+      "authors": [
+        "A Gravia"
+      ]
+    },
+    {
+      "title": "Klf10 gene, a secondary modifier and a pharmacogenomic biomarker of hydroxyurea treatment among patients with hemoglobinopathies",
+      "authors": [
+        "MS Elalfy",
+        "NH El Sherif",
+        "TM Kamal",
+        "NH Aly"
+      ]
+    },
+    {
+      "title": "Long noncoding rna cdkn2b-as1 facilitates lung cancer development through regulating mir-378b/nr2c2",
+      "authors": [
+        "G Wang",
+        "G Xu",
+        "W Wang"
+      ]
+    },
+    {
+      "title": "Embryonic and fetal β-globin gene repression by the orphan nuclear receptors, tr2 and tr4",
+      "authors": [
+        "O Tanabe"
+      ]
+    },
+    {
+      "title": "An embryonic/fetal β-type globin gene repressor contains a nuclear receptor tr2/tr4 heterodimer",
+      "authors": [
+        "O Tanabe"
+      ]
+    },
+    {
+      "title": "Mi2β-mediated silencing of the fetal γ-globin gene in adult erythroid cells",
+      "authors": [
+        "M Amaya"
+      ]
+    },
+    {
+      "title": "c-myb supports erythropoiesis through the transactivation of klf1 and lmo2 expression",
+      "authors": [
+        "E Bianchi"
+      ]
+    },
+    {
+      "title": "Hypoxia-induced erythropoietin production: a paradigm for oxygen-regulated gene expression",
+      "authors": [
+        "C Stockmann",
+        "J Fandrey"
+      ]
+    },
+    {
+      "title": "Glycosylation of erythropoietin affects receptor binding kinetics: role of electrostatic interactions",
+      "authors": [
+        "RJ Darling"
+      ]
+    },
+    {
+      "title": "Heme-regulated eIF2α kinase activated Atf4 signaling pathway in oxidative stress and erythropoiesis",
+      "authors": [
+        "RN Suragani"
+      ]
+    },
+    {
+      "title": "Arid1b, a molecular suppressor of erythropoiesis, is essential for the prevention of Monge’s disease",
+      "authors": [
+        "P Azad"
+      ]
+    },
+    {
+      "title": "Erythroid differentiation in chimaeric mice blocked by a targeted mutation in the gene for transcription factor gata-1",
+      "authors": [
+        "L Pevny"
+      ]
+    },
+    {
+      "title": "Novel insights into erythroid development revealed through in vitro differentiation of gata-1 embryonic stem cells",
+      "authors": [
+        "MJ Weiss",
+        "G Keller",
+        "SH Orkin"
+      ]
+    },
+    {
+      "title": "Ldb1 complexes: the new master regulators of erythroid gene transcription",
+      "authors": [
+        "PE Love",
+        "C Warzecha",
+        "L Li"
+      ]
+    },
+    {
+      "title": "The scl/tal1 gene: roles in normal and malignant haematopoiesis",
+      "authors": [
+        "L Robb",
+        "CG Begley"
+      ]
+    },
+    {
+      "title": "Absence of blood formation in mice lacking the t-cell leukaemia oncoprotein tal-1/scl",
+      "authors": [
+        "RA Shivdasani",
+        "EL Mayer",
+        "SH Orkin"
+      ]
+    },
+    {
+      "title": "The lim-only protein Lmo2 is a bridging molecule assembling an erythroid, DNA-binding complex which includes the TAL1, E47, GATA-1 and Ldb1/NLI proteins",
+      "authors": [
+        "IA Wadman"
+      ]
+    },
+    {
+      "title": "New insights into the regulation of erythroid cells",
+      "authors": [
+        "E Ingley",
+        "PA Tilbrook",
+        "SP Klinken"
+      ]
+    },
+    {
+      "title": "Cis-and trans-acting elements involved in the regulation of the erythroid promoter of the human porphobilinogen deaminase gene",
+      "authors": [
+        "V Mignotte",
+        "JF Eleouet",
+        "N Raich",
+        "P-H Romeo"
+      ]
+    },
+    {
+      "title": "A single promoter directs both housekeeping and erythroid preferential expression of the human ferrochelatase gene",
+      "authors": [
+        "A Tugores",
+        "ST Magness",
+        "DA Brenner"
+      ]
+    },
+    {
+      "title": "Microrna expression in β-thalassemia and sickle cell disease: a role in the induction of fetal hemoglobin",
+      "authors": [
+        "N Saki"
+      ]
+    },
+    {
+      "title": "Microrna-15a and-16-1 act via MYB to elevate fetal hemoglobin expression in human trisomy 13",
+      "authors": [
+        "VG Sankaran"
+      ]
+    },
+    {
+      "title": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+      "authors": [
+        "S Malkani"
+      ]
+    },
+    {
+      "title": "Comprehensive integration of single-cell data",
+      "authors": [
+        "T Stuart"
+      ]
+    },
+    {
+      "title": "Mast: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data",
+      "authors": [
+        "G Finak"
+      ]
+    },
+    {
+      "title": "miRTrace reveals the organismal origins of microRNA sequencing data",
+      "authors": [
+        "W Kang"
+      ]
+    },
+    {
+      "title": "Mirgenedb 2.0: the metazoan microrna complement",
+      "authors": [
+        "B Fromm"
+      ]
+    },
+    {
+      "title": "mirdeep2 accurately identifies known and hundreds of novel microRNA genes in seven animal clades",
+      "authors": [
+        "MR Friedländer",
+        "SD Mackowiak",
+        "N Li",
+        "W Chen",
+        "N Rajewsky"
+      ]
+    },
+    {
+      "title": "Muratani, M. Cell-free RNA analysis of plasma samples collected from six astronauts in JAXA cell-free epigenome (CFE) study. NASA Open Science Data Repository, Version 2,10, 2–714 (2022).",
+      "authors": []
+    },
+    {
+      "title": "Overbey, E. G. et al. Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA). Nat. Commun.10.1038/s41467-024-48806-z (2024).",
+      "authors": []
+    }
+  ],
+  "original_title": "Spatiotemporal expression and control of haemoglobin in space",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/777b26ae5d6d/41467_2024_49289_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/dbec6cde0929/41467_2024_49289_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/2ee97bf4463c/41467_2024_49289_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/1394cec28b38/41467_2024_49289_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/8dcd2f44281e/41467_2024_49289_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/4038246ab61a/41467_2024_49289_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/4c2f9473584a/41467_2024_49289_Fig7_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/9bbb2fb32dac/41467_2024_49289_Fig8_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/6087bbc6e049/41467_2024_49289_Fig9_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0f63/11166948/851e36bb8b41/41467_2024_49289_Fig10_HTML.jpg"
+  ]
+}

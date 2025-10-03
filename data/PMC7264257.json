@@ -1,0 +1,334 @@
+{
+  "pmcid": "PMC7264257",
+  "title": "Biomass Production of the EDEN ISS Space Greenhouse in Antarctica During the 2018 Experiment Phase",
+  "abstract": "The EDEN ISS greenhouse is a space-analog test facility near the German Neumayer III station in Antarctica. The facility is part of the project of the same name and was designed and built starting from March 2015 and eventually deployed in Antarctica in January 2018. The nominal operation of the greenhouse started on February 7th and continued until the 20th of November. The purpose of the facility is to enable multidisciplinary research on topics related to future plant cultivation on human space exploration missions. Research on food quality and safety, plant health monitoring, microbiology, system validation, human factors and horticultural sciences was conducted. Part of the latter is the determination of the biomass production of the different crops. The data on this topic is presented in this paper. During the first season 26 different crops were grown on the 12.5 m2 cultivation area of the greenhouse. A large number of crops were grown continuously throughout the 9 months of operation, but there were also crops that were only grown a few times for test purposes. The focus of this season was on growing lettuce, leafy greens and fresh vegetables. In total more than 268 kg of edible biomass was produced by the EDEN ISS greenhouse facility in 2018. Most of the harvest was cucumbers (67 kg), lettuces (56 kg), leafy greens (49 kg), and tomatoes (50 kg) complemented with smaller amounts of herbs (12 kg), radish (8 kg), and kohlrabi (19 kg). The environmental set points for the crops were 330–600 μmol/(m2*s) LED light, 21°C, ∼65% relative humidity, 1000 ppm and the photoperiod was 17 h per day. The overall yearly productivity of the EDEN ISS greenhouse in 2018 was 27.4 kg/m2, which is equal to 0.075 kg/(m2*d). This paper shows in detail the data on edible and inedible biomass production of each crop grown in the EDEN ISS greenhouse in Antarctica during the 2018 season.",
+  "introduction": "Introduction\n\nFood production during human space missions to and on Moon and Mars is a necessary step to reduce resupply mass from Earth and thus long-term mission costs. Growing plants for food production also offers the advantages of producing oxygen and removing carbon dioxide from the atmosphere as well as the recycling of water. Because of these advantages, experiments in growing plants in space began as early as the first manned space stations and continue to the present day.\n\nSeveral research teams conducted experiments in cultivating plants in a closed controlled environment on Earth for the application in future space missions in the past. Notable are NASA’s Biomass Production Chamber, the Russian BIOS facilities, the Japanese Closed Ecology Experimental Facility and the Chinese Lunar Palace 1.\n\nThe EDEN ISS project is the newest space greenhouse analog project to test subsystems, technologies, operation procedures, plant health monitoring devices and plant cultivation for future space missions. The EDEN ISS Mobile Test Facility (MTF) (Figure 1) was setup in Antarctica to achieve these goals. This paper presents detailed values on food production (edible biomass) and inedible biomass production of the vegetable crops cultivated in the experimental phase in 2018.\n\nThe difference of the EDEN ISS MTF to the other facilities is its unique location. The MTF is positioned in the vicinity of the German Neumayer Station III in Antarctica. This continent offers several conditions which are favorable for space analog test campaigns. While most of the other facilities were built to conduct research on humans living in a closed loop life support system, EDEN ISS focuses on cultivating plants in controlled conditions, testing the necessary hardware and investigating microbiology, food quality and safety aspects. Furthermore, most of the facilities mentioned earlier were built and operated in the 1980s–2000s and are no longer available, except for Lunar Palace 1 which was built only a few years ago and is still in operation. EDEN ISS also uses technologies which were not available in the past (e.g., LED lighting for plant cultivation).\n\nThe novel aspect of the EDEN ISS project is its approach to work with a compromise climate in which all crops are grown simultaneously. This is more realistic for near-term space greenhouses as compared to studies were each crop has its own optimized climate. Despite not having the optimal climate for each crop the food production of the MTF in the 2018 season was higher than expected. In 2018, for the first time a comprehensive set of measurements were performed in an analog space greenhouse. These measurements encompass the biomass production data presented in this paper, but also data on the microbial environment inside the greenhouse, the quality and safety of the produced food, the resources (e.g., carbon dioxide, nutrients, consumables) necessary to grow the crops, the amount of electrical energy and crewtime required and the acceptance of the food to the station crew. The biomass production dataset presented in this paper can be used to improve simulation models for space greenhouses. It can also be used for cultivar selection, because the dataset includes values on different cultivars (e.g., for lettuce and tomato) which is helpful to assess which cultivar should be grown in the next space greenhouse. The data is also a valuable contribution to the recently developed Crop Readiness Level evaluation method for crop candidates for space greenhouses.",
+  "methods": "Materials and Methods\n\nEDEN ISS Mobile Test Facility Infrastructure\n\nThe EDEN ISS MTF is located in the immediate vicinity of the Neumayer III Station which is operated by the German Alfred-Wegener Institute for Polar and Marine Research. The MTF was designed and built as an experimental facility for plant cultivation systems, allowing the test of essential technologies and production procedures for future long-duration human space missions. Detailed system analysis was conducted by the consortium partners resulting in a solid design, including a complete risk assessment. The MTF consists of two customized 20 foot high cube shipping containers, which are placed on top of a raised platform located ∼400 m south of Neumayer III. The research facility can be subdivided into three distinct sections:\n\nAirlock/Cold-Porch (Blue section in Figure 2): A small room providing storage and a small air buffer to limit the entry of cold air when the main access door of the facility is used. This area is used for changing clothes. Furthermore, the main fresh water tank and the waste water tank are both located in the subfloor space of this section.\n\nService Section (Red section in Figure 2): This section houses the primary control, atmosphere management, thermal control, power control and nutrient delivery systems of the MTF. Additionally, this section provides a working table including sink, trash bins, and storage for tools and consumables. In addition this section houses an independent rack-like plant cultivation system as part of the plant growth demonstrator for future deployment onboard the ISS.\n\nFuture Exploration Greenhouse (FEG) (Green section in Figure 2): The main plant cultivation space of the MTF which includes multi-level plant growth racks operating in a controlled environment. The FEG is used to study plant cultivation and the related technologies for future planetary habitats.\n\nThe technologies required to cultivate plants in a controlled environment are arranged in six different subsystems, which are briefly described in the following. Detailed information about the subsystems can be found in and.\n\nThe nutrient delivery subsystem adjusts the irrigation water’s pH and EC value. Depending on the plant type (leafy or fruit-building crop), the mixing computer provides a dedicated nutrient solution that is delivered directly to the roots. Eight high-pressure pumps spray a fine nutrient mist inside the root compartment of each plant tray.\n\nThe atmosphere management subsystem regulates the temperature, humidity, and CO2 concentration within the FEG. Furthermore, the air flow is filtered (particle filter, HEPA, and activated carbon filter) and the humidity condensate water is recovered and fed back to the fresh water tank.\n\nThe thermal control subsystem is used to remove excess heat from the MTF and to provide a cool fluid for condensation of the humidity produced by the plants.\n\nThe illumination control subsystem consists of 42 fluid-cooled LED fixtures integrated into the FEG. The light spectrum can freely be composed of red, blue, far-red, and white for each plant tray.\n\nThe power distribution subsystem provides electrical energy to all subsystems of the MTF. The electrical energy is generated in the Neumayer Station III and transmitted to the MTF.\n\nThe control and data handling subsystem consists of a set of independent programmable logic controllers which receive information from a wide range of sensors. Based on this information and defined program logics this subsystem controls all functions of the MTF. The control and data handling subsystem sends system telemetry to the mission control center in Bremen, Germany. Furthermore, every day a set of images taken from fixed positions inside the FEG is sent to the mission control center to allow remote experts observing plant development and to assist the on-site operator.\n\nExperiment Timeframe\n\nThe MTF arrived in Antarctica on the 3rd of January 2018. The deployment took around 5 weeks and was finished in early February. The winter-over on-site operator remained in Antarctica for the following 10 months until December 2018. In the following chapters “experimental phase” refers to the period from mid-February 2018 to mid-November 2018. The timeline of the experiment phase is shown in Figure 3.\n\nThe first plants were sown on February 7th 2018. The winter-over period started with the departure of the last summer crew on February 18th. The first harvest of lettuce and leafy greens was on March 20th. The first cucumber harvest (29th of March) and first tomato harvest (16th of May) took place in the weeks that followed. The coldest temperature of the season was recorded in the morning of the 8th of October 2018 with being −43.5°C. The winter-over period ended with the arrival of the first summer crew on November 2nd. The nominal operation phase of the MTF ended with the final harvest which took place on November 20th. The EDEN ISS winter-over operator departed a few days before Christmas 2018.\n\nCrop Species\n\nThe EDEN ISS project team established a crop selection methodology in order to select crop species for the experiment campaign in Antarctica. The focus of the project was on fresh pick-and-eat vegetables. Consequently, the list of cultivated crop species includes various varieties of lettuce and leafy greens accompanied by some fruit crops (e.g., tomato and cucumber).\n\nThe cultivated crops are organized in the five categories lettuce, leafy greens, herbs, fruit crops and tuber crops. The following crop varieties were cultivated:\n\nLettuce: Batavia, Expertise, Outredgeous, Waldmann’s Green\n\nLeafy greens: Two varieties of red mustard, swiss chard, arugula, mizuna\n\nHerbs: Basil, chives, parsley\n\nFruit crops: Red dwarf tomato, orange dwarf tomato, cucumber (parthenocarpic, beit alpha)\n\nTuber crops: Two varieties of radish, kohlrabi\n\nMiscellaneous crops: Two varieties of indeterminate tomato, two varieties of pepper, cilantro, mint, lemon balm, celery, strawberry.\n\nAdditional information (e.g., seed supplier) about the cultivated crop species can be found in Supplementary Material.\n\nPlant Treatment\n\nMost of the crop species were sown in rockwool blocks of 2 × 2 × 4 cm (L × W × H), with the exception being parsley, chives and arugula. Those crops were sown directly in the cultivation trays on mats consisting of recycled cotton fibers. The crops grown in rockwool blocks were first put into a nursery tray for 10–20 days depending on the species. Small amounts of nutrient solution were added manually to this tray in order to keep the rockwool blocks moist. Following the period in the nursery tray, the young plants were moved to the plant cultivation trays for maturation. Some crop species (cucumber, tomato, and pepper) required regular pruning of excess side shoots and leaves.\n\nTwo different methods for cultivation/harvest were used. Batch cultivation means that the whole plant was harvested when the plant reached a certain age. This technique was used for the lettuce varieties, radishes, and kohlrabi. Spread harvest means that only parts of the plant (leaves, fruits) were harvested allowing the plant to continue growing. All fruit crops, all herbs and all leafy greens were harvested this way.\n\nDates for sowing, transfer, pruning, and harvest events per cultivation tray were tracked continuously. Plant density can be determined from the type of cultivation tray which was used. Table 1 summarizes information regarding the plant treatment for each crop. Upon harvest fresh edible and inedible biomass was measured. The latter was measured separately for roots and stems/leaves. Sometimes plant material was dried using lyophilization in order to determine the dry biomass ratio which is the ratio of the dried biomass weight to the original fresh biomass weight. Drying plant material was limited due to the sizing of the equipment and due to the fact that dried material was required for each crop species.\n\nPlant development was monitored by several cameras. From each plant cultivation tray, one photo from the top and one photo from the side were taken every day and send to a FTP server where all project partners could access the images. This way the horticulture scientists in the project team could advise the on-site operator on improvements for the cultivation of the crops. An image processing algorithm checked the photos automatically to detect issues with plant development. A multi-wavelength imaging system was setup in two positions to test whether this system can detect plant stress during growth.\n\nEnvironmental Conditions During Plant Cultivation\n\nIrrigation\n\nHigh pressure pumps in the FEG feed nutrient solution from the tanks to the plant cultivation trays via a hybrid aeroponic and nutrient film technique. The solution was injected into the root zone via misting nozzles and the run-off served as a nutrient film once the roots had developed sufficiently. The irrigation schedule for the plants was a 30 s misting period every 6 min. For the initial germination phase, the on-site operator manually supplied nutrient solution to the germination tray.\n\nTwo different nutrient solutions were provided to the crops, depending on their classification as either a leafy crop or a fruit crop. The two solutions were automatically mixed together in bulk solution tanks using deionized water and nutrients from concentrated stock solution bottles. The expected (initial) nutrient concentrations in the bulk solutions, based on the recipes developed for the project, can be seen in Table 2. The pH value of the solutions was managed by utilization of acid (1.25% Nitric acid) and base (1% Potassium hydroxide) stock solutions.\n\nBased on the plant development observed throughout the operations phase, and in communication with remote experts in Europe, it was decided part way throughout the mission to adjust the composition for the fruit crop nutrient solution to include more calcium and to reduce the amount of potassium slightly. The concrete values are given in Table 2.\n\nThere are only two main points of control for the Nutrient Delivery Subsystem (NDS), pH and EC. Both of these operated as expected throughout the first season of plant production. After the initial setup and testing of the growing systems in the beginning 30 days of operation, pH control was excellent. Any deviations from the set point were due to easily diagnosed technical issues (e.g., broken connectors on the acid delivery supply lines) and pH was never beyond a level suitable for plant growth. Tank 1 followed a higher control level than that of tank 2, and this was due to a programmed offset within the control software. Tank 1 averaged pH 6.06 ± 0.18 and tank 2 averaged 5.91 ± 0.12 over the entire growing period.\n\nEC monitoring results were similar to that of pH. Control was excellent after the initial 30 day setup period. Each nutrient tank had a different EC set point, and control was tight with 2.21 ± 0.13 mS/cm and 3.49 ± 0.17 mS/cm in tanks 1 and 2, respectively. At no time did EC deviate outside of a range amenable to plant growth and productivity.\n\nAlso monitored but not controlled was the nutrient solution temperature in the main nutrient tanks. Tank temperature followed that of the well-controlled room temperature and was quite stable with 19.90 ± 0.74°C in tank 1 and 19.97 ± 0.78°C in tank 2.\n\nAs continuous determination of and control over individual ion concentrations was not possible, it was decided to periodically empty the bulk nutrient solution tanks and start with a new mixture. For tank 1 this procedure was done approximately once every 3 months, whereas for tank 2 the exchange was done about once every 2 months.\n\nIllumination\n\nA detailed description of the illumination subsystem is provided by. Each plant cultivation tray has its own LED lamp which can be independently controlled in terms of light spectrum and light intensity. The LED lamps are of the model LX601 by the Swedish company Heliospectra which were modified with a liquid cooling system instead of the air cooling system. This way the light settings for each tray can be adjusted to the crop species and plant maturation stage. The photoperiod inside the FEG consisted of 15 h of full illumination per day and 1 h of reduced light intensity (50% of nominal intensity) before and after the full illumination period. Consequently, the dark period was 7 h per day. The light spectrum mainly consisted of blue (∼450 nm) and red (∼650 nm) light and small portions of other wavelengths. The light intensity varied between 300 and 600 μmol/(m2*s) at canopy level of a mature plant, depending on crop species and plant age. The following light intensities were measured for the different crops:\n\nAll four lettuce varieties: 330 μmol/(m2*s) at 16 cm height.\n\nRed mustard, swiss chard, mizuna, basil, chives, parsley: 330 μmol/(m2*s) at 16 cm height.\n\nRadish, arugula: 600 μmol/(m2*s) at 16 cm height.\n\nTomato, Kohlrabi, pepper: 300–400 μmol/(m2*s) at 16 cm height.\n\nCucumber: > 500 μmol/(m2*s) at top of canopy.\n\nAtmosphere\n\nThe temperature set points inside the FEG were 21°C during the photoperiod and 19°C during the dark period. Relative humidity was set to 65% and CO2 concentration to 1000 ppm. Figures 4–6 show the actual values measured within the FEG throughout the first year of operations. In general it can be seen that the temperature was maintained at the set points, fluctuating between 21 degrees during the photoperiod and 19 degrees during the dark period.\n\nDuring the Antarctic winter season, at very low external temperatures, the facility failed to maintain temperature during the dark period, resulting in temperature drops down to 16°C. Some off-nominal events with the thermal control subsystem resulted in temperature increases beyond the 21°C set point. Furthermore, a number of measurements are erroneous (showing 0°C) due to communication issues in the command and data handling subsystem.\n\nThe relative humidity within the FEG showed larger deviations from the set point of 65%, in particular between April and July the relative humidity would go as high as 86% for periods of a few hours. This was the result of issues with the condensate recovery design, which had to be mitigated by adjusting flow rates and coolant temperatures within the thermal control subsystem and fine-tuning the control logic. Following the troubleshooting phase, and implementing countermeasures, the relative humidity control throughout the later phase of the experiment phase was significantly improved.\n\nThe CO2 concentration within the FEG was almost always higher than the set point of 1000 ppm, due to the fact that the on-site operator frequently (almost every day) worked within the greenhouse, emitting CO2, and there is no CO2 removal system implemented within the facility. Depending on the time (e.g., 1–4 h) spent inside the FEG, the CO2 concentration went up to ∼2000 ppm or even ∼4000 ppm. Normally the plants in the FEG would need around 1 day to consume enough CO2 to bring the concentration back down to the set point of 1000 ppm.\n\nA desired maximum ethylene concentration of 15 ppb was defined for the greenhouse, with up to 100 ppb allowed for durations of no more than 30 min. An activated carbon filter was implemented into the atmosphere management subsystem to remove ethylene. However, no sensor was installed to provide measurements of the actual concentration within the facility.",
+  "results": "Results\n\nOverview\n\nThe FEG produced a total of around 268 kg of fresh edible biomass. Most of this food was consumed by the 10 person strong winter-over crew. Small amounts were set aside to perform a wide range of measurements (e.g., dry weight ratio, nitrate content). The fruit crops produced by far the most food (105.4 kg) followed by the lettuce (56.4 kg), leafy greens (49.1 kg), tuber crops (26.8 kg), herbs (12.2 kg), and miscellaneous crops (18.4 kg).\n\nThe evaluation of the inedible biomass was rather complicated, because some of the inedible biomass was harvested wet (e.g., roots and rock wool), some fresh (e.g., radish leaves), and some dry (e.g., withered tomato leaves). Combining all three values into a single figure for all crops was challenging, because the dry biomass ratio was required. In total roughly 11.2 kg of dry inedible biomass (excluding misc. crops) was harvested.\n\nThe following chapters give a detailed overview of the biomass production of each crop species.\n\nLettuce\n\nIn total 18 cycles of lettuce cultivation were performed in the experiment phase. Between 11 and 15, depending on the lettuce cultivars, of these cycles are valid for evaluation. The remaining cycles have been excluded from evaluation due to various reasons (e.g., extensive sampling of plant material). The four lettuce varieties were always sown and harvested at the same time and cultivated in trays located in the same rack and with the same environmental conditions. Nevertheless, the biomass production varied greatly among the crop varieties, as can be seen in Table 3. Waldmann’s Green clearly produced the most biomass per tray, followed by Expertise, Outredgeous, and Batavia. Data on the dry weight ratio for edible and inedible biomass can be found in Table 4 and dry inedible biomass production in Table 5.\n\nFor all lettuce varieties a large variance between batches could be observed and this is also visible in the values of the standard error. There was a decline in biomass harvest roughly in the mid of the season. The productivity of the batches harvested in June and July was less than half of the maximum value.\n\nLeafy Greens\n\nFive different leafy greens were cultivated. Arugula was harvested in batches, while the other leafy greens (red mustard, swiss chard, and mizuna) were spread harvested. Furthermore, arugula was cultivated with two different light settings. Table 6 shows the biomass production values of all leafy greens. Mizuna and arugula (high light intensity, 600 μmol/(m2*s) at 16 cm height) performed best followed by Swiss chard, both red mustard varieties and arugula (low light intensity, 330 μmol/(m2*s) at 16 cm height) which all had a similar output. Due to the batch harvesting of arugula and the availability of two trays for simultaneous cultivation 17 cycles are available for evaluation. For the other leafy greens, only between 1 and 3 cycles, depending on the cultivar, of data are available. Data on the dry weight ratio for edible and inedible biomass can be found in Table 4 and dry inedible biomass production in Table 5.\n\nHerbs\n\nBasil, chives, and parsley were cultivated during the experiment phase. All herbs were spread harvested. Parsley and chives were grown for almost the complete duration of the experiment phase (266 out of 286 days). Basil had to be removed from the trays and sown anew regularly, because the plants grew rapidly, reaching up to the LED lamps after several weeks. Four cycles of basil were grown of which two are suitable for data evaluation. The other two had to be excluded because the first cycle used an inappropriate growing procedure and the last cycle was too short. The three herbs have a similar production rate of edible biomass with parsley and basil being slightly ahead of chives. The biomass production data for the herbs can be found in Table 7. Data on the dry weight ratio for edible and inedible biomass can be found in Table 4 and dry inedible biomass production in Table 5.\n\nFruit Crops\n\nFruit crops produced the most edible biomass during the experiment phase. Especially the cucumber showed an exceptional productivity of more than 100 g/(tray∗d) and consequently contributed the most edible biomass of all cultivated crop species. The two dwarf tomato varieties show a similar productivity, with the orange tomato being slightly lower than the red one. The tomato plants were grown in a single cycle lasting the full experimental phase, while the cucumber plants were grown in two cycles. The biomass production data for the fruit crops can be found in Table 8. Data on the dry weight ratio for edible and inedible biomass can be found in Table 4 and dry inedible biomass production in Table 5.\n\nTuber Crops\n\nTuber crops (radish and kohlrabi) were harvested in batches. 20 batches of radishes were grown during the experiment phase, 10 of each variety. Of those 20 batches, 19 were suitable for evaluation. One batch had to be excluded from evaluation due to extensive sampling of plant material for microbial and matter analyses (e.g., nitrate content, antioxidants). Furthermore, seven batches of kohlrabi were grown. Kohlrabi produced more biomass per cultivation area and time normalized than radish. The biomass production data for the fruit crops can be found in Table 9. Data on the dry weight ratio for edible and inedible biomass can be found in Table 4 and dry inedible biomass production in Table 5.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "bio-regenerative life support system (BLSS)",
+    "plant cultivation chamber",
+    "space plant growth facility",
+    "space food and nutrition",
+    "space analog studies",
+    "controlled environment agriculture (CEA)",
+    "Plant Science",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Design of a containerized greenhouse module for deployment to the Neumayer III Antarctic Station",
+      "authors": [
+        "M. Bamsey",
+        "P. Zabel",
+        "C. Zeidler",
+        "L. Poulet",
+        "D. Schubert",
+        "E. Kohlberg"
+      ]
+    },
+    {
+      "title": "Early Trade-offs and top-level design drivers for antarctic greenhouses and plant production facilities",
+      "authors": [
+        "M. Bamsey",
+        "P. Zabel",
+        "C. Zeidler",
+        "V. Vrakking",
+        "D. Schubert",
+        "E. Kohlberg"
+      ]
+    },
+    {
+      "title": "The EDEN ISS rack-like plant growth facility",
+      "authors": [
+        "G. Boscheri",
+        "V. Guarnieri",
+        "C. Iacopini",
+        "I. Locantore",
+        "M. Lamantea",
+        "C. Lobascio"
+      ]
+    },
+    {
+      "title": "Main performance results of the EDEN ISS rack-like plant growth facility",
+      "authors": [
+        "G. Boscheri",
+        "M. Volponi",
+        "M. Lamantea",
+        "C. Lobascio",
+        "D. Schubert",
+        "P. Zabel"
+      ]
+    },
+    {
+      "title": "Remote sites as analogs for lunar and mars habitat pilot studies",
+      "authors": [
+        "D. L. Bubenheim",
+        "M. T. Flynn",
+        "R. Lamparter",
+        "C. L. Straight"
+      ]
+    },
+    {
+      "title": "From project mercury to the breadboard project",
+      "authors": [
+        "T. W. Dreschel",
+        "W. M. Knott",
+        "R. P. Prince",
+        "J. C. Sager",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "Choosing crops for cultivation in space",
+      "authors": [
+        "T. Dueck",
+        "K. Frank",
+        "M. Esther",
+        "S. Cecilia"
+      ]
+    },
+    {
+      "title": "Mixed vs. monoculture hydroponic production of salad crops at three CO2 Concentrations",
+      "authors": [
+        "S. L. Edney",
+        "J. T. Richards",
+        "N. C. Yorio",
+        "M. D. Sisko",
+        "G. W. Stutte",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "How to establish a bioregenerative life support system for long-term crewed missions to the moon or mars.",
+      "authors": [
+        "Y. Fu",
+        "L. Leyuan",
+        "X. Beizhen",
+        "D. Chen",
+        "W. Mingjuan",
+        "J. Boyang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "I. I. Gitelson",
+        "G. M. Lisovsky",
+        "R. D. MacElroy"
+      ]
+    },
+    {
+      "title": "Matching between food supply and human nutritional requirements in closed ecology experiment facilities (CEEF).",
+      "authors": [
+        "T. Masuda",
+        "Y. Tako",
+        "K. Nitta"
+      ]
+    },
+    {
+      "title": "Growing fresh food on future space missions: environmental conditions and crop management.",
+      "authors": [
+        "E. Meinen",
+        "D. Tom",
+        "K. Frank",
+        "S. Cecilia"
+      ]
+    },
+    {
+      "title": "The mini-earth facility and present status of habitation experiment program.",
+      "authors": [
+        "K. Nitta"
+      ]
+    },
+    {
+      "title": "Description, operation and production of the south pole food growth chamber.",
+      "authors": [
+        "R. L. Patterson",
+        "G. A. Giacomelli",
+        "M. Kacira",
+        "P. D. Sadler",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "Resource and production model for the south pole food growth chamber",
+      "authors": [
+        "R. L. Patterson",
+        "G. A. Giacomelli",
+        "P. D. Sadler"
+      ]
+    },
+    {
+      "title": "Effects of lighting intensity and supplemental CO2 on yield of potential salad crops for ISS",
+      "authors": [
+        "J. T. Richards",
+        "S. L. Edney",
+        "N. C. Yorio",
+        "G. W. Stutte",
+        "N. Cranston",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": ". Evaluating growth characteristics and total anthocyanin content in three cultivars of red romain-type lettuce (Lactuca sativa L.) in response to three lighting intensities",
+      "authors": [
+        "J. T. Richards",
+        "N. C. Yorio",
+        "S. L. Edney",
+        "C. E. Yunker",
+        "G. W. Stutte"
+      ]
+    },
+    {
+      "title": "Crop readiness level (crl): a scale to track progression of crop testing for space",
+      "authors": [
+        "M. W. Romeyn",
+        "L. E. Spencer",
+        "G. D. Massa",
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "A case study in the application of failure analysis techniques to Antarctic Systems: EDEN ISS",
+      "authors": [
+        "A. Santos",
+        "I. Virginia",
+        "B. Matthew",
+        "S. Daniel"
+      ]
+    },
+    {
+      "title": "Status of the EDEN ISS greenhouse after on-site installation in Antarctica",
+      "authors": [
+        "D. Schubert",
+        "M. Bamsey",
+        "P. Zabel",
+        "C. Zeidler",
+        "V. Vrakking"
+      ]
+    },
+    {
+      "title": "Dwarf tomato and pepper cultivars for space crops",
+      "authors": [
+        "L. E. Spencer",
+        "M. E. Hummerick",
+        "G. W. Stutte",
+        "T. Sirmons",
+        "T. G. Graham",
+        "G. Massa"
+      ]
+    },
+    {
+      "title": "Service Section design of the EDEN ISS project",
+      "authors": [
+        "V. Vrakking",
+        "M. Bamsey",
+        "P. Zabel",
+        "C. Zeidler",
+        "D. Schubert",
+        "O. Romberg"
+      ]
+    },
+    {
+      "title": "Evaluation of the growth, photosynthetic characteristics, antioxidant capacity, biomass yield and quality of tomato using aeroponics, hydroponics and porous tube-vermiculite systems in bio-regenerative life support systems.",
+      "authors": [
+        "M. Wang",
+        "D. Chen",
+        "G. Wanlin"
+      ]
+    },
+    {
+      "title": "Agriculture for space: people and places paving the way.",
+      "authors": [
+        "R. M. Wheeler"
+      ]
+    },
+    {
+      "title": "Crop productivities and radiation use efficiencies for bioregenerative life support.",
+      "authors": [
+        "R. M. Wheeler",
+        "C. L. Mackowiak",
+        "G. W. Stutte",
+        "N. C. Yorio",
+        "L. M. Ruffe",
+        "J. C. Sager"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R. M. Wheeler",
+        "J. C. Sager",
+        "R. P. Prince",
+        "W. M. Knott",
+        "C. L. Mackowiak",
+        "G. W. Stutte"
+      ]
+    },
+    {
+      "title": "Review and analysis of over 40 years of space plant growth systems.",
+      "authors": [
+        "P. Zabel",
+        "M. Bamsey",
+        "D. Schubert",
+        "M. Tajmar"
+      ]
+    },
+    {
+      "title": "Introducing EDEN ISS - A european project on advancing plant cultivation technologies and operations",
+      "authors": [
+        "P. Zabel",
+        "M. Bamsey",
+        "C. Zeidler",
+        "V. Vrakking",
+        "B.-W. Johannes",
+        "P. Rettberg"
+      ]
+    },
+    {
+      "title": "Future exploration greenhouse design of the EDEN ISS project",
+      "authors": [
+        "P. Zabel",
+        "M. Bamsey",
+        "C. Zeidler",
+        "V. Vrakking",
+        "D. Schubert",
+        "O. Romberg"
+      ]
+    },
+    {
+      "title": "The preliminary design of the EDEN ISS mobile test facility - an antarctic greenhouse",
+      "authors": [
+        "P. Zabel",
+        "M. Bamsey",
+        "C. Zeidler",
+        "V. Vrakking",
+        "D. Schubert",
+        "O. Romberg"
+      ]
+    },
+    {
+      "title": "The plant health monitoring system of the EDEN ISS space greenhouse in antarctica during the 2018 experiment phase.",
+      "authors": [
+        "C. Zeidler",
+        "P. Zabel",
+        "V. Vrakking",
+        "M. Dorn",
+        "M. Bamsey",
+        "D. Schubert"
+      ]
+    }
+  ],
+  "original_title": "The Plant Health Monitoring System of the EDEN ISS Space Greenhouse in Antarctica during the 2018 experiment phase",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5931/7264257/f0e99d81fcfd/fpls-11-00656-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5931/7264257/1a160d30f706/fpls-11-00656-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5931/7264257/0e39739639c0/fpls-11-00656-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5931/7264257/ef1f880eb745/fpls-11-00656-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5931/7264257/dd81aa0ef1ca/fpls-11-00656-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5931/7264257/bb3c1935dd6b/fpls-11-00656-g006.jpg"
+  ]
+}

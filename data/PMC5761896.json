@@ -1,0 +1,660 @@
+{
+  "pmcid": "PMC5761896",
+  "title": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing",
+  "abstract": "Antibody specificity and diversity are generated through the enzymatic splicing of genomic gene segments within each B cell. Antibodies are heterodimers of heavy- and light-chains encoded on separate loci. We studied the antibody repertoire from pooled, splenic tissue of unimmunized, adult female C57BL/6J mice, using high-throughput sequencing (HTS) without amplification of antibody transcripts. We recovered over 90,000 heavy-chain and over 135,000 light-chain immunoglobulin sequences. Individual V-, D-, and J-gene segment usage was uniform among the three mouse pools, particularly in highly abundant gene segments, with low frequency V-gene segments not being detected in all pools. Despite the similar usage of individual gene segments, the repertoire of individual B-cell CDR3 amino acid sequences in each mouse pool was highly varied, affirming the combinatorial diversity in the B-cell pool that has been previously demonstrated. There also was some skewing in the V-gene segments that were detected depending on chromosomal location. This study presents a unique, non-primer biased glimpse of the conventionally housed, unimmunized antibody repertoire of the C57BL6/J mouse.",
+  "introduction": "Introduction\n\nB cells are an important part of the adaptive immune system, arising from hematopoietic stem cell precursors. These cells express surface immunoglobulin (Ig) receptors and secrete these same proteins as antibodies into the serum after differentiation into plasma cells.\n\nAs B cells develop, they rearrange Variable- (V), Diversity- (D), and Joining- (J) gene segments, which combine with a constant region to form the antibody structure. Antibodies consist of heterodimers of heavy and light chains. The heavy chain is formed from V-, D-, and J-gene segments combined with a constant region, while light chains lack a D-gene segment..\n\nThere are three complementarity determining regions (CDR). CDR1 and CDR2 are encoded in the V-gene segment. CDR3 consists of a combination of V-, (D-, heavy-chain), and J-gene segments. Of the CDRs, CDR3 contributes the most to binding specificity. Antibodies are further characterized by the constant region, or isotype, which is influenced by the stage of B-cell development and antigen specificity.\n\nThe total collection of antibody specificities present within an individual is known as the antibody repertoire. Diversity of the antibody repertoire results from four main components: the initial germ line (inherited), diversity from recombination of that germline, the imprecisions during V(D)J recombination, and somatic mutations. The antibody repertoire has been examined in many studies by high-throughput sequencing (HTS) and fully mapped in the zebrafish.\n\nRepertoires can serve as a fingerprint or snapshot of the current immune-system status and these types of data have been used to explore the development of host defense to infectious disease, cancer, autoimmune disease, and early disease detection. With the development of HTS, we are now able to detect the differences between or among B-cell repertoires such as B2 (adaptive antibodies) and B1 (natural antibodies) B cells or memory and naïve repertoires. HTS has accelerated the characterization of the widely differing human Ig haplotypes, and strain-specific gene segment usage in mice.\n\nOur long-term goals are to investigate the repertoire of B cells in mice in space and how it changes in response to antigen challenge. More specifically, our lab is interested antibody repertoire dynamics within the context of spaceflight. Due to the cost of these experiments, creating datasets that can be mined by our lab or others is important. The antibody repertoire is traditionally assessed through the amplification of Ig sequences that have been isolated from sorted B cell populations. While these practices increase the likelihood of recovering rare Ig sequences and allow for the dissection of the antibody repertoire by B-cell populations, cell sorting may not be possible within the design of certain experiments. During the development of methodology to assess Ig-gene usage by mice subjected to space flight we performed multiple HTS runs to validate sample preparation, bioinformatic methodology, and reproducibility. We also wanted some background data about the Ig repertoire in the normal B6 mouse population. Knowing that there can be significant mouse-to-mouse variability in the Ig repertoire and to minimize the impact any one mouse might have in the validation data set, we chose to pool multiple mice specifically for these validation experiments. We now present these data on the splenic repertoire of conventionally housed, unimmunized, unchallenged, adult C57BL/6J mice.",
+  "methods": "Materials and methods\n\nRNA extraction and sequencing\n\nTissue extraction and sequencing were performed as described previously. Briefly, spleens were collected from three independent pools of four, specific pathogen-free (based on the RADIL Advantage Basic profile), female, C57BL/6J mice nine-to-eleven weeks old. Animals were euthanized with isoflurane overdose followed by cervical dislocation. Briefly, mice were exposed to 400μL isoflurane in a gauze-pad enclosed in a histopathology cassette in a 450 mL chamber as was described by Huerkamp et al. Animals used in pool one were raised in the Laboratory Animal Care Services (LACS) facility (breeder stock renewed less than 2 years previous) in the Division of Biology at Kansas State University. Mice from pools two and three were received directly from Jackson Laboratories and were house in the LACS facility. Mice were fed LabDiet 5001 and had access to water and food ad libitum. Mice were maintained on a 12/12 light/dark cycle. Mice for pools two and three were allowed to acclimate in the vivarium for 22–31 days prior to sacrifice. Animal procedures were approved by the Institutional Animal Care and Use Committee at Kansas State University. After euthanasia, spleen tissue was processed immediately for RNA extraction with Trizol LS according to the manufacturer's instructions. Pool one contained RNA from one-half of the spleen tissue while pools two and three contained RNA extracted from complete spleens. Equal concentrations of total splenic RNA (RIN>8) were pooled and mixed from each of the four mice, resulting in three final pools. At least one microgram of RNA from each pool was submitted for size selection (275–800 nucleotides) and sequencing on Illumina MiSeq at 2x300 nucleotides as described previously. Sequencing was performed at the Kansas State University Integrated Genomics Facility using the standard Illuimna sequencing protocol, including oligo-dT-bead selection of mRNA and reverse transcription to cDNA. A reduced fragmentation time (one minute) was used to yield longer transcripts. To avoid potential primer bias and maintain a dataset that could be further mined, we did not amplify Ig sequences. The authors note that a subset of mouse pool one data was used in a methods paper presented by our group. The context and focus of that previous manuscript does not overlap with the current work.\n\nBioinformatics\n\nSequence selection, mapping, and final processing was performed as outlined previously. Briefly, sequences were imported into CLC Genomics Workbench v9.5.1 (https://www.qiagenbioinformatics.com/) and cleaned to obtain high quality reads using a quality score of 97% of the sequencing containing a Phred score over 20. Both paired and merged (overlapping pairs) were mapped to V-gene segments and the loci using a match score of +1 and a mismatch score of -2 to identify potential antibody sequences. The sequences were collected and submitted to ImMunoGenTics’s (IMGT) High-V Quest for identification. Due to the chances of collecting the same read multiple times through the mapping and identification process, only one sequence per sequence ID was analyzed (procedure outlined in Rettig et al). Productive and unknown functionality sequences were identified via IMGT and used for subsequent analyses. Productive antibody sequences were defined as in frame and did not contain a stop codon. However, binding abilities were not assessed. Unknown sequences did not contain enough sequencing information to determine functionality. Gene segments were identified using IMGT’s nomenclature and using IMGT’s list of gene segments, including functional and open reading frame-defined gene segments. We implemented two procedural changes to further define the repertoire that are different from the methodology presented in Rettig et al.. In this current manuscript, when calculating the percent abundance in the repertoire, we also include V-gene segments where one or two possible V-gene segments were detected. When one single V-gene segment was detected in a sequence, it was assigned a value of one. When two potential V-gene segments were detected each gene segment was assigned a value of 0.5. The totals were then tabulated as described in Rettig et al. Additionally, CDR3 sequences that did not fit the C-xx-W motif for IgH (heavy-chain) were reclassified as unknown functionality, unless a class-switched isotype (IgA, IgD, IgE) was detected. CDR3 sequences for Igκ (kappa-chain) that did not fit the C-xx-F motif were classified as unknown functionality. Sequencing reads containing hyperlengthy (greater than 2x the average, or 18 amino acids (AAs)) κ-CDR3 that fit the C-xx-F motif were also removed from analysis as we believed they were falsely identified through bioinformatic or sequencing errors.\n\nInitial nucleotide alignments were created with MAFFT using portions of the germline and CDR3 nucleotide sequences provided by IMGT. Sequences were sorted by identity, compared to the germline and the sequence order was then adjusted to group similarly-aligned sequences. Nucleotide sequences of identical length were then isolated from the full alignment and aligned with each other while retaining all previously-inserted gaps.\n\nV(D)J pairing frequency\n\nPairing frequency was assessed in productive sequencing reads from both IgH and Igκ datasets. All pairing of V-gene segments was only assessed from productive IgH and Igκ sequencing reads, referred to as VH and Vκ, respectively. Sequences identifying more than one possible V-gene segment were excluded from this analysis. For both IgH and Igκ, J- and D-gene segments designated as undetermined (U) were either not reported by IMGT, contained less than six nucleotides, or multiple gene segments were assigned to a single sequencing read. Total counts from VJ pairings for heavy- and light-chains were tabulated and Circos graphs were generated using Circos Online.\n\nStatistical analysis and graphics\n\nLinear Regressions were performed by comparing the percent of repertoire of V-gene segment or V(D)J combinations from pools 1 vs 2, 2 vs 3, and 1 vs 3 using the linear regression analysis tool in GraphPad (Version 6.0). Chi-square analysis of V-gene segment usage was performed on raw sequencing read counts using R version 3.4.2 (https://www.r-project.org/). All productive VH- and Vκ-gene segments and open reading frames listed on IMGT for the B6 mouse were analyzed and gene segments not found in our datasets were assigned a read count of zero. The IMGT productive list includes all gene segments detected in the NCBI annotation of the mouse genome. The IMGT chromosomal locations were also used for any chromosomal analysis, though not all gene segments have a defined chromosomal location. Gene segments that were not defined by location in IMGT were excluded from any chromosomal analysis. These analyses were performed on each mouse pool separately by comparing the observed raw-read count values of V-gene segments to an expected theoretical number of reads which was based on the null hypothesis that all V-gene segments will have the same number of raw reads. This value was determined by dividing the total number of antibody reads observed in a mouse pool by the number of possible gene segments. The analysis of gene-segment usage by chromosomal location was performed by dividing gene segments into four quadrants based on nucleotide position. A quadrant was defined as one-fourth of the entire locus, as determined by number of nucleotides in the locus. Gene segment location was defined as the first nucleotide of the gene segment. A Chi-square analysis was performed on each mouse pool by summing the raw-read counts of all gene segments containing a 5’ nucleotide position within each quadrant and comparing the observed total reads within a quadrant to an expected theoretical number of reads for each quadrant which was based on the null hypothesis that the number of raw reads is not statistically different between defined quadrants.\n\nPercent of repertoire values were determined by dividing sequencing reads corresponding to each gene segment, constant region, or CDR3 length by the total number of gene segments, constant regions, or CDR identified in each mouse pool for normalized comparison between pools. Percent of repertoire for these variables were displayed as bar graphs, generated in GraphPad v6.0, or as heat maps, generated in Microsoft Excel. In addition to visualization of gene segment combinations through Circos graphs, the percent of repertoire for gene segment pairings was also visualized using the bubble chart tool in Microsoft Excel.",
+  "results": "Results\n\nVH- and Vκ-gene segment usage\n\nWe obtained between 8,714 and 11,200 IgH individual productive reads, and between 14,271 and 28,756 individual IgH reads of unknown functionality as identified by IMGT HighV-Quest (Table 1). Between 11,968 and 18,643 individual Igκ productive, and 12,602 and 39,410 individual Igκ reads of unknown functionality were identified by IMGT HighV-Quest (Table 1). Overall, we identified 132 VH- and 109 Vκ-gene segments within the repertoires of our mouse pools (S1 Fig). As a general trend, the three pools resulted in similar frequencies and similar ranks for V-gene usage among groups. The ten most common V-gene segments from each pool were compiled, resulting in a total use of 14 VH-gene segments and 17 Vκ-gene segments (Fig 1).\n\nThe most common VH-gene segment in pools one and two was V1-80 (Figs 1A and S1A). V1-80 was the seventh most common gene segment used in pool three. V6-3 was the most common VH-gene segment in pool three, but ranked seventh and sixth in pools one and two, respectively (Fig 1B). V1-26 was the next most common VH-gene segment, ranking second in pools one and two, and third in pool three. Among the top ten most common VH-gene segments, most gene segments ranked between first and 17th within their pools, however, three outliers were found within these groups. V1-50 ranked 23rd in pool one, but it was ninth and second in pools two and three, respectively. V1-78 was ranked 31st in pool two, but ranked tenth and 17th in pools one and three, respectively. V1-18 was ranked 32nd in pool three but third and fourth in pools one and two, respectively. VH-gene usage between pools was well correlated (1 vs 2 R2 = 0.8427, 2 vs 3 R2 = 0.7054, 1 vs 3 R2 = 0.5842, all p = <0.0001).\n\nSeventeen Vκ-gene segments were among the top 10 most abundant Vκ of the repertoire in at least one of the three mouse pools, with five Vκ-gene segments appearing in the top ten of all three mouse pools (Figs 1 and S1B). Pool one appeared enriched for V5-39, comprising 10.33% of the repertoire as compared to 1.03% in pool two and 2.84% in pool three (Fig 1C). Excluding this difference, V1-110, V1-117, V10-96, and V4-55 were the four most abundant gene segments in all three mouse pools. The lowest ranking of the most abundant Vκ in any of the mouse pools were V5-39, ranking 32nd in pool two, while ranking first and seventh in pools one and three, respectively and V10-94, ranking 32nd in pool one, but fifth in pool two and 13th in pool three. (Fig 1D). All top Vκ that showed any variation in abundance among pools were still within the top 32 Vκ-gene segments. Vκ usage between pools was correlated, although not as highly as VH (1 vs 2 R2 = 0.3684, 2 vs 3 R2 = 0.6700, 1 vs 3 R2 = 0.6414, all p = <0.0001).\n\nWith 113 productive VH and 93 productive Vκ described in IMGT by chromosomal location, each gene segment would be expected to appear as part of the repertoire roughly 0.84% and 1.06% of the time for VH and Vκ, respectively, if gene segment usage was random (Fig 2). When we assessed usage frequency, there was a non-random distribution of both VH- (Fig 2A) and Vκ- (Fig 2B) gene segments (Chi-square analyses; all pools p<0.0001).\n\nWe also assessed gene segment usage by chromosomal location in the IgH and Igκ loci as gene-segment spacing was not evenly distributed along the chromosome. Based on 5’ nucleotide position, Q1-4 contained 22, 23, 33, and 33 VH-gene segments or 18, 21, 24, and 30 Vκ-gene segments, respectively. Since V-gene segment usage appears skewed, we tested whether the total expression of V-gene segments within a quadrant defined by nucleotide position was randomly distributed. We found that the expression within each quadrant was not randomly distributed, for both IgH and Igκ, suggesting that V-gene expression may be influenced by chromosomal location (all pools, p<0.0001).\n\nDH-, JH-gene segment and IgH constant region usage\n\nWe identified ten different D-gene segments used in our repertoires (Fig 3A). We also added one additional category for our analyses, termed “undetermined”. This label was applied to D-gene segments that were assigned by IMGT to non-C57BL/6J genes and antibody sequences containing a V- and J-gene segment, but not containing an identifiable D-gene segment. Due to the very short length of D-gene segments combined with alterations during recombination, D-gene segments were bioinformatically difficult to identify.\n\nFor all three groups, the D1-1 gene segment was the most common segment identified comprising 26–28% of the repertoire. Undetermined D-gene segments, however, made up a large part of the D-gene segment repertoire, comprising 31–33% of the repertoire. D2-3, D2-4, D4-1, and D2-5 were found in similar frequencies ranging from six to fifteen percent of the data set. D3-2, D3-1, D6-3, D5-5, D5-2, and D6-4 were found at low levels in all data sets; comprising under three percent of the total repertoire.\n\nFour JH-gene segments were identified, with JH2 being the most common among all three groups (Fig 3B). The remaining J-gene segments, JH4, JH3, and JH1, were found at similar levels among groups totaling between 19% and 27% of the repertoire.\n\nIgM was overwhelmingly the most commonly identified constant region making up between 78% and 84% of the total repertoire (Fig 3C). IgG was the next most common between seven and eleven percent of the total repertoire. IgA and IgD were rare totaling between two and six percent of the repertoire. IgE was only detected in pool three at less than one percent. It was not detected in pools one and two.\n\nJκ-gene segment usage\n\nA total of four Jκ-gene segments were identified, with similar distribution of Jκ-gene segments between mouse pools (Fig 3D). Due to the even distribution of the three most abundant Jκ, the ranking of each gene segment varied slightly among the three mouse pools. Within each mouse pool, there was a small portion of Jκ that contained too few nucleotides to be assigned to a specific gene segment (0.03–0.38%).\n\nIgH- and Igκ- gene segment combinations\n\nVH, DH, and JH family combination frequency was examined. Some preferential bias for specific gene segments seemed to exist (Fig 4A). For example, the JH4/DH2 combination appeared at a high frequency with VH1 (4.5% of repertoire), but not with any other VH gene family to the same degree. IgH gene segment recombination frequency correlated with gene segment abundance. VH1, which contains over half of all possible V-gene segments, also was the most commonly used VH family, which is seen as the dominant band in the Circos plot (Fig 4B).\n\nThe pairing of Vκ families to individual Jκ was also assessed (Fig 4C and 4D). Overall, the pairing of Vκ families with Jκ appeared random, however, certain Vκ families preferentially paired with specific Jκ-gene segments. For example, V4 paired less efficiently with J1, while V3 paired more efficiently with J1 (Fig 4C). Unlike VH, no single Vκ family was exceedingly dominant. Although V4 was the most represented gene family, its expression level was close to that of the second next most prominent gene families, which varied by mouse pool as shown in the Circos plot (Fig 4D).\n\nThe percent of repertoire that each VJ-gene segment combination comprised within each mouse pool was compared by linear regression. Mouse pools showed modest correlation levels of VJ-gene segment recombination frequency in IgH (1 vs 2 R2 = 0.6055, 2 vs 3 R2 = 0.4419, 1 vs 3 R2 = 0.4399, all p = <0.0001) and Igκ (1 vs 2 R2 = 0.2340, 2 vs 3 R2 = 0.3598, 1 vs 3 R2 = 0.4607, all p = <0.0001), with some enrichment for certain combinations within each mouse pool. V-(D)-J combinations were within bubble charts generate a visual comparison of pairing (Fig 4A–4C).\n\nIgH and Igκ CDR3\n\nThe average IgH CDR3 (H-CRD3) length of all three data sets was 11 amino acid (AAs) long (Fig 5A). The lengths of the H-CDR3s followed a normal distribution except all three groups were enriched for five AA H-CDR3s. H-CDR3 AA length ranged from one to twenty-three amino acids in length with 11 AAs being the average for all three pools. Igκ chain CDR3 length was conserved at nine AAs, comprising 87–90% of the repertoire (Fig 5B). While nine AAs was the most frequent κ-CDR3 length, one κ-CDR3 with a length of seven AAs was observed in the top CDR3 sequences. The distribution of CDR3 lengths was even among pools for both IgH and Igκ (S2 Fig). Four κ-CDR3 sequences that fit the conserved kappa chain C-xx-F motif identified within the mouse pools (data not shown), while no such hyperlengthy H-CDR3 sequences fitting the C-xx-W motif were identified.\n\nA total of 17,216 unique H-CDR3 AA sequences were identified among all three data pools. Among those identified, the majority (16,783) were identified in only one pool (Fig 6A). Of the remaining CDR3s, 358 were identified in only two pools and 75 were identified in all three pools.\n\nInterestingly, many of these H-CDR3s, though found in all three pools, were not necessarily common H-CDR3s. Only one H-CDR3, CARGAYW, was found among the top ten most common H-CDR3s of each pool. One additional H-CDR3, CARDYYGSSWYFDVW, was found in the top five of pools two and three. Of the 75 total H-CDR3s that appeared in all three pools, frequencies varied drastically, from being the most common to only being detected once (Fig 6A). Of the top five most common H-CDR3s in each data set, only three, CARGAYW, CARGGYW, and CMRYSNYWYFDVW occurred in all three data sets (Figs 6B and S3A). CARGSYW occurred in pools one and two, CARRWLHYAMDYW in pools two and three, and CARYAPYYFDYW in pools one and three. The remaining most common H-CDR3s occurred in only one pool. A heatmap of all 75 shared H-CDR3 is shown in S3A Fig.\n\nThere were 3,217 total unique κ-CDR3 amino acid sequences identified among all three mouse pools (Fig 6C). While there were 2,345 individual κ-CDR3 amino acid sequences that were unique to the individual mouse pools, there were also 475 κ-CDR3 shared among all three pools. None of these 475 shared κ-CDR3 were found within the top five κ-CDR3s of all three mouse pools (Fig 6D). There were 14 total κ-CDR3 sequences that were found within the top five κ-CDR3 for each mouse pool (Figs 6D and S3B). There were no CDR3 sequences that were found within the top five κ-CDR3 in all three mouse pools.\n\nComparison of alignments of CDR3s\n\nTo assess the heterogeneity in B-cell idiotypes created by the differential splicing of Ig genes, we compared B cells that used the same V-, D- and J-genes. Two gene combinations containing complete V-, D-, and J-segments common to top 35 gene combinations found in all three mouse pools were selected for this analysis (Fig 7A–7C).\n\nOne heavy-chain VDJ-gene combination displaying a CDR3 region of variable length was selected from the 15 most common gene combinations among the three mouse pools and aligned to its germline sequence. From the full alignment, one short (four to eight AAs, Fig 7A), one medium (11 AAs, Fig 7B), and one long (14 AAs, Fig 7C) selection of nucleotide sequences were isolated and compared. Although the three groups were encoded by the same V-, D-, and J-gene segments, gene segment representation across each sample was variable. Most variability occurred in or around the D-gene segment, which could be due to splicing, N- and P-nucleotide additions, and deletions during somatic recombination. D-gene usage also appeared to be a factor determining CDR3 length. This was evidenced by increasing D-gene representation across CDR3 selections of decreasing length compared to the relative conservation of the V- and J-gene segments, though J-gene conservation seemed to decrease among extremely short CDR3s. Overall, the V-gene segment appeared to remain the most uniform.\n\nWhile Igκ contains mostly CDR3 sequences that are nine amino acids in length, many highly abundant VJ-gene segment combinations (such as V110 and J2) contained CDR3s of multiple lengths. Unlike IgH, the alignments of VJ pairings were relatively uniform among Igκ as compared to the germline sequence in CDR3 sequences that were eight, nine and ten amino acids in length (Fig 7D).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Biology and Life Sciences",
+    "Evolutionary Biology",
+    "Population Genetics",
+    "Gene Pool",
+    "Genetics",
+    "Population Biology",
+    "Research and Analysis Methods",
+    "Database and Informatics Methods",
+    "Bioinformatics",
+    "Sequence Analysis",
+    "Sequence Motif Analysis",
+    "Cell Biology",
+    "Cellular Types",
+    "Animal Cells",
+    "Immune Cells",
+    "Antibody-Producing Cells",
+    "B Cells",
+    "Immunology",
+    "Medicine and Health Sciences",
+    "Blood Cells",
+    "White Blood Cells",
+    "Sequence Alignment",
+    "Molecular Biology",
+    "Molecular Biology Techniques",
+    "Sequencing Techniques",
+    "Nucleotide Sequencing",
+    "Physiology",
+    "Immune Physiology",
+    "Spleen",
+    "Protein Sequencing",
+    "Antibodies",
+    "Immune System Proteins",
+    "Biochemistry",
+    "Proteins"
+  ],
+  "citations": [
+    {
+      "title": "Antigen-driven selection in germinal centers as reflected by the shape characteristics of immunoglobulin gene lineage trees: a large-scale simulation study",
+      "authors": [
+        "G Shahaf",
+        "M Barak",
+        "NS Zuckerman",
+        "N Swerdlin",
+        "M Gorfine",
+        "R Mehr"
+      ]
+    },
+    {
+      "title": "Masterminding B Cells",
+      "authors": [
+        "S Cory"
+      ]
+    },
+    {
+      "title": "Evidence for somatic rearrangement of immunoglobulin genes coding for variable and constant regions",
+      "authors": [
+        "N Hozumi",
+        "S Tonegawa"
+      ]
+    },
+    {
+      "title": "Somatic generation of antibody diversity",
+      "authors": [
+        "S Tonegawa"
+      ]
+    },
+    {
+      "title": "An immunoglobulin heavy chain variable region gene is generated from three segments of DNA: VH, D and JH",
+      "authors": [
+        "P Early",
+        "H Huang",
+        "M Davis",
+        "K Calame",
+        "L Hood"
+      ]
+    },
+    {
+      "title": "Reiteration frequency of immunoglobulin light chain genes: further evidence for somatic generation of antibody diversity",
+      "authors": [
+        "S Tonegawa"
+      ]
+    },
+    {
+      "title": "Evidence supporting somatic assembly of the DNA segments (minigenes), coding for the framework, and complementarity-determining segments of immunoglobulin variable regions",
+      "authors": [
+        "EA Kabat",
+        "TT Wu",
+        "H Bilofsky"
+      ]
+    },
+    {
+      "title": "Immunoglobulin class-switch DNA recombination: induction, targeting and beyond",
+      "authors": [
+        "Z Xu",
+        "H Zan",
+        "EJ Pone",
+        "T Mai",
+        "P Casali"
+      ]
+    },
+    {
+      "title": "Forced usage of positively charged amino acids in immunoglobulin CDR-H3 impairs B cell development and antibody production",
+      "authors": [
+        "GC Ippolito",
+        "RL Schelonka",
+        "M Zemlin",
+        "II Ivanov",
+        "R Kobayashi",
+        "C Zemlin"
+      ]
+    },
+    {
+      "title": "Bioinformatic and Statistical Analysis of Adaptive Immune Repertoires",
+      "authors": [
+        "V Greiff",
+        "E Miho",
+        "U Menzel",
+        "ST Reddy"
+      ]
+    },
+    {
+      "title": "Distinct mechanisms define murine B cell lineage immunoglobulin heavy chain (IgH) repertoires",
+      "authors": [
+        "Y Yang",
+        "C Wang",
+        "Q Yang",
+        "AB Kantor",
+        "H Chu",
+        "EE Ghosn"
+      ]
+    },
+    {
+      "title": "Determinism and stochasticity during maturation of the zebrafish antibody repertoire",
+      "authors": [
+        "N Jiang",
+        "JA Weinstein",
+        "L Penland",
+        "RA White",
+        "DS Fisher",
+        "SR Quake"
+      ]
+    },
+    {
+      "title": "Molecular characterization of B cell clonal expansions in the liver of chronically hepatitis C virus-infected patients",
+      "authors": [
+        "V Racanelli",
+        "D Sansonno",
+        "C Piccoli",
+        "FP D'Amore",
+        "FA Tucci",
+        "F Dammacco"
+      ]
+    },
+    {
+      "title": "Convergent antibody signatures in human dengue",
+      "authors": [
+        "P Parameswaran",
+        "Y Liu",
+        "KM Roskin",
+        "KK Jackson",
+        "VP Dixit",
+        "JY Lee"
+      ]
+    },
+    {
+      "title": "Monoclonal antibodies isolated without screening by analyzing the variable-gene repertoire of plasma cells",
+      "authors": [
+        "ST Reddy",
+        "X Ge",
+        "AE Miklos",
+        "RA Hughes",
+        "SH Kang",
+        "KH Hoi"
+      ]
+    },
+    {
+      "title": "Selection of therapeutic H5N1 monoclonal antibodies following IgVH repertoire analysis in mice",
+      "authors": [
+        "SA Gray",
+        "M Moore",
+        "EJ VandenEkart",
+        "RP Roque",
+        "RA Bowen",
+        "N Van Hoeven"
+      ]
+    },
+    {
+      "title": "Studying the antibody repertoire after vaccination: practical applications",
+      "authors": [
+        "JD Galson",
+        "AJ Pollard",
+        "J Truck",
+        "DF Kelly"
+      ]
+    },
+    {
+      "title": "Vaccination-induced changes in human B-cell repertoire and pneumococcal IgM and IgA antibody at different ages",
+      "authors": [
+        "A Ademokun",
+        "YC Wu",
+        "V Martin",
+        "R Mitra",
+        "U Sack",
+        "H Baxendale"
+      ]
+    },
+    {
+      "title": "Clonal evolution as judged by immunoglobulin heavy chain gene rearrangements in relapsing precursor-B acute lymphoblastic leukemia",
+      "authors": [
+        "R Rosenquist",
+        "U Thunberg",
+        "AH Li",
+        "E Forestier",
+        "G Lonnerholm",
+        "J Lindh"
+      ]
+    },
+    {
+      "title": "Network properties derived from deep sequencing of human B-cell receptor repertoires delineate B-cell populations",
+      "authors": [
+        "RJ Bashford-Rogers",
+        "AL Palser",
+        "BJ Huntly",
+        "R Rance",
+        "GS Vassiliou",
+        "GA Follows"
+      ]
+    },
+    {
+      "title": "Eye on the B-ALL: B-cell receptor repertoires reveal persistence of numerous B-lymphoblastic leukemia subclones from diagnosis to relapse",
+      "authors": [
+        "RJ Bashford-Rogers",
+        "KA Nicolaou",
+        "J Bartram",
+        "NJ Goulden",
+        "L Loizou",
+        "L Koumas"
+      ]
+    },
+    {
+      "title": "Detection of minimal disease using rearranged immunoglobulin heavy chain genes from intermediate- and high-grade malignant B cell non-Hodgkins lymphoma",
+      "authors": [
+        "N van Belzen",
+        "PE Hupkes",
+        "D Doekharan",
+        "M Hoogeveen-Westerveld",
+        "LC Dorssers",
+        "MB van't Veer"
+      ]
+    },
+    {
+      "title": "Ectopic GC in the thymus of myasthenia gravis patients show characteristics of normal GC",
+      "authors": [
+        "NS Zuckerman",
+        "WA Howard",
+        "J Bismuth",
+        "K Gibson",
+        "H Edelman",
+        "S Berrih-Aknin"
+      ]
+    },
+    {
+      "title": "Barcode-enabled sequencing of plasmablast antibody repertoires in rheumatoid arthritis",
+      "authors": [
+        "YC Tan",
+        "S Kongpachith",
+        "LK Blum",
+        "CH Ju",
+        "LJ Lahey",
+        "DR Lu"
+      ]
+    },
+    {
+      "title": "A bioinformatic framework for immune repertoire diversity profiling enables detection of immunological status",
+      "authors": [
+        "V Greiff",
+        "P Bhat",
+        "SC Cook",
+        "U Menzel",
+        "W Kang",
+        "ST Reddy"
+      ]
+    },
+    {
+      "title": "IgG variable region and VH CDR3 diversity in unimmunized mice analyzed by massively parallel sequencing",
+      "authors": [
+        "J Lu",
+        "T Panavas",
+        "K Thys",
+        "J Aerssens",
+        "M Naso",
+        "J Fisher"
+      ]
+    },
+    {
+      "title": "High-throughput antibody sequencing reveals genetic evidence of global regulation of the naive and memory repertoires that extends across individuals",
+      "authors": [
+        "BS Briney",
+        "JR Willis",
+        "BA McKinney",
+        "JE, Jr Crowe"
+      ]
+    },
+    {
+      "title": "Individual variation in the germline Ig gene repertoire inferred from variable region gene rearrangements",
+      "authors": [
+        "SD Boyd",
+        "BA Gaeta",
+        "KJ Jackson",
+        "AZ Fire",
+        "EL Marshall",
+        "JD Merker"
+      ]
+    },
+    {
+      "title": "Complete haplotype sequence of the human immunoglobulin heavy-chain variable, diversity, and joining genes and characterization of allelic and copy-number variation",
+      "authors": [
+        "CT Watson",
+        "KM Steinberg",
+        "J Huddleston",
+        "RL Warren",
+        "M Malig",
+        "J Schein"
+      ]
+    },
+    {
+      "title": "Prevalence and polymorphism of human VH3 genes",
+      "authors": [
+        "EH Sasso",
+        "KW Van Dijk",
+        "EC Milner"
+      ]
+    },
+    {
+      "title": "Polymorphism and utilization of human VH Genes",
+      "authors": [
+        "EC Milner",
+        "WO Hufnagle",
+        "AM Glas",
+        "I Suzuki",
+        "C Alexander"
+      ]
+    },
+    {
+      "title": "Genomic screening by 454 pyrosequencing identifies a new human IGHV gene and sixteen other new IGHV allelic variants",
+      "authors": [
+        "Y Wang",
+        "KJ Jackson",
+        "B Gaeta",
+        "W Pomat",
+        "P Siba",
+        "WA Sewell"
+      ]
+    },
+    {
+      "title": "The mouse antibody heavy chain repertoire is germline-focused and highly variable between inbred strains",
+      "authors": [
+        "AM Collins",
+        "Y Wang",
+        "KM Roskin",
+        "CP Marquis",
+        "KJ Jackson"
+      ]
+    },
+    {
+      "title": "The promise and challenge of high-throughput sequencing of the antibody repertoire",
+      "authors": [
+        "G Georgiou",
+        "GC Ippolito",
+        "J Beausang",
+        "CE Busse",
+        "H Wardemann",
+        "SR Quake"
+      ]
+    },
+    {
+      "title": "Validation of Methods to Assess the Immunoglobulin Gene Repertoire in Tissues Obtained from Mice on the International Space Station",
+      "authors": [
+        "TA Rettig",
+        "C. Ward",
+        "M.J. Pecaut",
+        "S.K. Chapes"
+      ]
+    },
+    {
+      "title": "Systems Analysis Reveals High Genetic and Antigen-Driven Predetermination of Antibody Repertoires throughout B Cell Development",
+      "authors": [
+        "V Greiff",
+        "U Menzel",
+        "E Miho",
+        "C Weber",
+        "R Riedel",
+        "S Cook"
+      ]
+    },
+    {
+      "title": "It's in the bag: Easy and medically sound rodent gas anesthesia induction",
+      "authors": [
+        "MJ Huerkamp"
+      ]
+    },
+    {
+      "title": "IMGT((R)) tools for the nucleotide analysis of immunoglobulin (IG) and T cell receptor (TR) V-(D)-J repertoires, polymorphisms, and IG mutations: IMGT/V-QUEST and IMGT/HighV-QUEST for NGS",
+      "authors": [
+        "E Alamyar",
+        "P Duroux",
+        "MP Lefranc",
+        "V Giudicelli"
+      ]
+    },
+    {
+      "title": "MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform",
+      "authors": [
+        "K Katoh",
+        "K Misawa",
+        "K Kuma",
+        "T Miyata"
+      ]
+    },
+    {
+      "title": "Circos: an information aesthetic for comparative genomics",
+      "authors": [
+        "M Krzywinski",
+        "J Schein",
+        "I Birol",
+        "J Connors",
+        "R Gascoyne",
+        "D Horsman"
+      ]
+    },
+    {
+      "title": "VH gene segments in the mouse and human genomes",
+      "authors": [
+        "B de Bono",
+        "M Madera",
+        "C Chothia"
+      ]
+    },
+    {
+      "title": "Antibody repertoire deep sequencing reveals antigen-independent selection in maturing B cells",
+      "authors": [
+        "J Kaplinsky",
+        "A Li",
+        "A Sun",
+        "M Coffre",
+        "SB Koralov",
+        "R Arnaout"
+      ]
+    },
+    {
+      "title": "Deciphering antigen-responding antibody repertoires by using next-generation sequencing and confirming them through antibody-gene synthesis",
+      "authors": [
+        "N Kono",
+        "L Sun",
+        "H Toh",
+        "T Shimizu",
+        "H Xue",
+        "O Numata"
+      ]
+    },
+    {
+      "title": "Quantitative assessment of the robustness of next-generation sequencing of antibody variable gene repertoires from immunized mice",
+      "authors": [
+        "V Greiff",
+        "U Menzel",
+        "U Haessler",
+        "SC Cook",
+        "S Friedensohn",
+        "TA Khan"
+      ]
+    },
+    {
+      "title": "Skewed primary Igkappa repertoire and V-J joining in C57BL/6 mice: implications for recombination accessibility and receptor editing",
+      "authors": [
+        "M Aoki-Ota",
+        "A Torkamani",
+        "T Ota",
+        "N Schork",
+        "D Nemazee"
+      ]
+    },
+    {
+      "title": "Deep sequencing of the murine IgH repertoire reveals complex regulation of nonrandom V gene rearrangement frequencies",
+      "authors": [
+        "NM Choi",
+        "S Loguercio",
+        "J Verma-Gaur",
+        "SC Degner",
+        "A Torkamani",
+        "AI Su"
+      ]
+    },
+    {
+      "title": "Serum concentrations of IgM, IgG1, IgG2b, IgG3 and IgA in C57BL/6 mice and their congenics at the lpr (lymphoproliferation) locus",
+      "authors": [
+        "AS Klein-Schneegans",
+        "L Kuntz",
+        "P Fonteneau",
+        "F Loor"
+      ]
+    },
+    {
+      "title": "Naive antibody gene-segment frequencies are heritable and unaltered by chronic lymphocyte ablation",
+      "authors": [
+        "J Glanville",
+        "TC Kuo",
+        "HC von Budingen",
+        "L Guey",
+        "J Berka",
+        "PD Sundar"
+      ]
+    },
+    {
+      "title": "The applications of capture-recapture models to epidemiological data",
+      "authors": [
+        "A Chao",
+        "PK Tsay",
+        "SH Lin",
+        "WY Shau",
+        "DY Chao"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "DG Chapman",
+        "B University of California"
+      ]
+    },
+    {
+      "title": "Characterizing immune repertoires by high throughput sequencing: strategies and applications",
+      "authors": [
+        "JJ Calis",
+        "BR Rosenberg"
+      ]
+    },
+    {
+      "title": "Structural consensus among antibodies defines the antigen binding site",
+      "authors": [
+        "V Kunik",
+        "B Peters",
+        "Y Ofran"
+      ]
+    },
+    {
+      "title": "The structural basis of antibody-antigen recognition",
+      "authors": [
+        "I Sela-Culang",
+        "V Kunik",
+        "Y Ofran"
+      ]
+    },
+    {
+      "title": "Impact of acute malaria on pre-existing antibodies to viral and vaccine antigens in mice and humans",
+      "authors": [
+        "S Banga",
+        "JD Coursen",
+        "S Portugal",
+        "TM Tran",
+        "L Hancox",
+        "A Ongoiba"
+      ]
+    },
+    {
+      "title": "Measurement and clinical monitoring of human lymphocyte clonality by massively parallel VDJ pyrosequencing",
+      "authors": [
+        "SD Boyd",
+        "EL Marshall",
+        "JD Merker",
+        "JM Maniar",
+        "LN Zhang",
+        "B Sahaf"
+      ]
+    },
+    {
+      "title": "Peripheral B cell maturation. II. Heat-stable antigen(hi) splenic B cells are an immature developmental intermediate in the production of long-lived marrow-derived B cells",
+      "authors": [
+        "DM Allman",
+        "SE Ferguson",
+        "VM Lentz",
+        "MP Cancro"
+      ]
+    },
+    {
+      "title": "Resolution of three nonproliferative immature splenic B cell subsets reveals multiple selection points during peripheral B cell maturation",
+      "authors": [
+        "D Allman",
+        "RC Lindsley",
+        "W DeMuth",
+        "K Rudd",
+        "SA Shinton",
+        "RR Hardy"
+      ]
+    },
+    {
+      "title": "High-throughput sequencing of the paired human immunoglobulin heavy and light chain repertoire",
+      "authors": [
+        "BJ DeKosky",
+        "GC Ippolito",
+        "RP Deschner",
+        "JJ Lavinder",
+        "Y Wine",
+        "BM Rawlings"
+      ]
+    },
+    {
+      "title": "In-depth determination and analysis of the human paired heavy- and light-chain antibody repertoire",
+      "authors": [
+        "BJ DeKosky",
+        "T Kojima",
+        "A Rodin",
+        "W Charab",
+        "GC Ippolito",
+        "AD Ellington"
+      ]
+    },
+    {
+      "title": "Single-cell based high-throughput sequencing of full-length immunoglobulin heavy and light chain genes",
+      "authors": [
+        "CE Busse",
+        "I Czogiel",
+        "P Braun",
+        "PF Arndt",
+        "H Wardemann"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on the immunoglobulin repertoire of unimmunized C57BL/6 mice",
+      "authors": [
+        "C Ward",
+        "T Rettig",
+        "S Hlavacek",
+        "B Bye",
+        "MJ Pecaut",
+        "SK Chapes"
+      ]
+    }
+  ],
+  "original_title": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/cef7781fb473/pone.0190982.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/fab634f310c3/pone.0190982.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/16fe19cd9207/pone.0190982.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/64116a893e24/pone.0190982.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/cb335efb2a26/pone.0190982.g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/2a1575dac65a/pone.0190982.g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e3f2/5761896/39dd099a311c/pone.0190982.g007.jpg"
+  ]
+}

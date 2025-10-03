@@ -1,0 +1,235 @@
+{
+  "pmcid": "PMC11022651",
+  "title": "Genome and clonal hematopoiesis stability contrasts with immune, cfDNA, mitochondrial, and telomere length changes during short duration spaceflight",
+  "abstract": "Abstract\n\nBackground\n\nThe Inspiration4 (I4) mission, the first all-civilian orbital flight mission, investigated the physiological effects of short-duration spaceflight through a multi-omic approach. Despite advances, there remains much to learn about human adaptation to spaceflight's unique challenges, including microgravity, immune system perturbations, and radiation exposure.\n\nMethods\n\nTo provide a detailed genetics analysis of the mission, we collected dried blood spots pre-, during, and post-flight for DNA extraction. Telomere length was measured by quantitative PCR, while whole genome and cfDNA sequencing provided insight into genomic stability and immune adaptations. A robust bioinformatic pipeline was used for data analysis, including variant calling to assess mutational burden.\n\nResult\n\nTelomere elongation occurred during spaceflight and shortened after return to Earth. Cell-free DNA analysis revealed increased immune cell signatures post-flight. No significant clonal hematopoiesis of indeterminate potential (CHIP) or whole-genome instability was observed. The long-term gene expression changes across immune cells suggested cellular adaptations to the space environment persisting months post-flight.\n\nConclusion\n\nOur findings provide valuable insights into the physiological consequences of short-duration spaceflight, with telomere dynamics and immune cell gene expression adapting to spaceflight and persisting after return to Earth. CHIP sequencing data will serve as a reference point for studying the early development of CHIP in astronauts, an understudied phenomenon as previous studies have focused on career astronauts. This study will serve as a reference point for future commercial and non-commercial spaceflight, low Earth orbit (LEO) missions, and deep-space exploration.",
+  "introduction": "Introduction\n\nHuman spaceflight frequency has increased over the last decade, and with it, our grasp of its effects on human physiology. Despite this, there is much to learn about how humans adapt to the unique challenges of the space environment. The space environment includes unique stressors, such as microgravity (e.g. weightlessness), immune system perturbations, and space radiation exposure. Determining the effects of spaceflight on the human genome is imperative to support long-term human presence in space. Additionally, a host of physiological adaptations occur when humans travel into space, ranging from cardiovascular and musculoskeletal deconditioning, vision changes (e.g. spaceflight associated neuro ocular syndrome), immune suppression, and metabolic changes, among others. Moreover, increasing evidence highlights the systemic immune dysregulation crewmembers experience from spaceflight exposure. Indeed, there appears to be a reduction in T cell frequency, suppressed cytotoxic function, as well as fluctuations in cytokine concentrations, with increased expression of TNF-α, interleukin-8, interleukin-1ra, thrombopoietin, VEGF, and various chemokines (CCL2, CCL4, CXCL5, etc.) associated with spaceflight.\n\nTo date, almost all space missions have been led by professional astronauts from government space programs. More recently, however, SpaceX launched a crew of four civilian astronauts on the Inspiration4 (I4) mission, marking a new era for human space exploration. The present I4 mission study aims to investigate the impact of short-duration spaceflight on civilians, along with the post-flight and long-term biomedical, immunologic, and genetic alterations resulting from spaceflight. This includes rapid telomeric responses, whereby telomere elongation occurs as a function of spaceflight, followed by shortening upon return to Earth. Both unusually short and long telomeres have been associated with adverse health effects involving aging and age-related pathologies, such as cardiovascular disease and cancer. Furthermore, a variety of lifestyle factors and environmental exposures influence telomere length. Previous studies have also shown changes in clonal hematopoiesis, where a small number of hematopoietic stem cells (HSCs) gain a clonal advantage through the acquisition of somatic mutations. Clonal hematopoiesis is associated with cardiovascular disease, the development of acute myeloid leukemia (AML), and increased overall mortality. The NASA Twins Study shed light on telomeric responses and the chronic inflammatory state resulting from long-duration spaceflight and provided the first measures of telomere length and clonal hematopoiesis in astronauts. Mutations in epigenetic regulators, such as DNMT3A and TET2, were found at increased rates in both career astronaut twins when compared to their civilian counterparts. A retrospective study of 14 astronauts who flew shuttle missions has also shown an elevated presence of genetic abnormalities in CHIP-driver genes in the astronaut population.\n\nHere we investigated immune adaptations, telomere length dynamics, cell-free DNA release, genomic stability, single-cell transcriptomic analysis, and biochemical adaptations of the I4 crewmembers traveling into lower earth orbit over the course of 3 days, to determine the effects of short-duration spaceflight. It is imperative to study these adaptations in this context for future space missions, as prolonged space environment exposure could exponentially increase the rate of mutational burden, be it due to the inflammatory milieu resulting from spaceflight or the particular challenges of the space environment, such as microgravity and radiation exposure. Here, we leveraged the I4 mission to examine the development of genetic abnormalities in the astronauts by studying their physiological response to the demands of spaceflight and quantifying the genetic changes that are associated with spaceflight.",
+  "methods": "Methods\n\nInformed consent and ethics\n\nThis study was completed following appropriate ethical guidelines according to the Declaration of Helsinki, ICHGCP, and local regulations, as applicable, from each potential subject or each subject's legally authorized representative prior to participating in the research study. The protocol, the ICF, other written material given to the patients, and any other relevant study documentation were submitted to and approved by the appropriate ethics committee. This study was conducted under a protocol reviewed and approved by the applicable ethics committees and investigations were undertaken by scientifically and medically qualified persons, where the benefits of the study were in proportion to the risks. All subjects were consented at an informed consent briefing (ICB) at SpaceX (Hawthorne, CA), and samples were collected and processed under the approval of the Institutional Review Board (IRB) at Weill Cornell Medicine, under Protocol 21–05023569. All crew members provided written informed consent for data and sample sharing.\n\nI4 launched from Kennedy Space Center's Launch Complex 39A and traveled into Low-Earth Orbit across a three-day mission, reaching an orbital altitude of approximately 364 miles and ultimately splashed down into the Atlantic Ocean.\n\nDried blood spot (DBS) pre-flight, in-flight, and post-flight sampling\n\nCrew members warmed and massaged their fingertips to maximize blood flow. Fingertips were sterilized (BZK antiseptic towelette, Dynarex, Reorder No. 1303) and punctured using a contact-activated lancet (BD Biosciences, #366 593) or a 21-gauge needle (BD Biosciences, #305 167). Whatman 903 Protein Saver DBS cards (Cytiva, #10 534 612) were used to capture, transfer, and then store capillary blood with a desiccant pack (Cytiva, #10 548 239) at ambient temperature.\n\nDNA extraction for qPCR-based assessment of telomere length\n\nThree 3 mm circular punches were cut from the Whatman 903 Protein Saver Cards (cat# WHA10534612) containing blood samples using an Integra Miltex Standard Biopsy Punch (cat# 12-460-406) and placed into a 1.5 mL microcentrifuge tube with sterile tweezers. Samples were prepared using the Qiagen QIAamp DNA Investigator Kit (cat# 56 504) following the manufacturer's isolation of total DNA from FTA and Guthrie Cards protocol. The quantification of DNA in each sample was determined through fluorometric quantification with the Qubit 4 Fluorometer (Thermo Fisher Scientific, cat# Q33238) and the 1X dsDNA HS Assay Kit (cat# Q33231). DNA samples were sent to Colorado State University for multiplex qPCR analysis.\n\nMultiplex quantitative PCR telomere length measurement\n\nMMqPCR measurements of telomere length were carried out by preparing 22 μL of master mix using SYBR green GoTaq qPCR master mix (Promega #A6001) combined with the telomere forward primer (TelG; 5′-ACACTAAGGTTTGGGTTTGGGTTTGGGTTTGGGTTAGTGT-3′), telomere reverse primer (TelC; 5′-TGTTAGGTATCCCTATCCCTATCCCTATCCCTATCCCT AACA-3′), albumin forward primer (AlbU; 5′-CGGCGGCGGGCGGCGCGGGCTGGGCGGA AATGCTGCACAGAATCCTTG-3′), albumin reverse primer (AlbD; 5′-GCCCGGCCCGCCG 4 CGCCCGTCCCGCCGGAAAAGCATGGTCGCCTGTT-3′) at 10 μM per primer (Integrated DNA Technologies), and RNase/DNase free water. Then 3 μL of DNA at 3.33 ng/uL was added for a final volume of 25 μL, final TelG/C primers concentration of 900 nM, and the AlbU/D primers at 400 nM. A Bio-Rad CFX-96 qPCR machine was used to measure telomere length. The cycle design was as follows: 95°C for 3 min; 94°C for 15 s, 49°C for 15 s, for 2 cycles; 94°C for 15 s, 62°C for 10 s, 74°C for 15 s, 84°C for 10 s, and 88°C for 15 s, for 32 cycles. The melting curve was established by a 72°C to 95°C ramp at 0.5°C/second increase with a 30 second hold. Standard curves were prepared using human genomic DNA (Promega Cat # G3041) with 3-fold dilutions ranging from 50 ng to 0.617 ng in 3 μL per dilution. Negative controls included a no-template TelG/C only and AlbU/D only, and a combined TelG/C and AlbU/D control. Samples were normalized across plates using a human genomic DNA standard. Each sample was run in triplicate on a 96-well plate format and relative telomere length was established using a telomere (T) to albumin (A) ratio.\n\nWhole genome extraction and sequencing\n\nGenomic DNA was obtained from the cell pellet of a cell-free DNA blood collection tube (Streck, cat# 230470) using the QIAamp Blood Maxi Kit (Qiagen, cat# 51192), and then shipped to Element Biosciences for library preparation. The extracted DNA was quantified using Thermo Fisher Qubit dsDNA HS Assay Kit (cat# Q238253) and 8 samples were prepared using the KAPA HyperPrep Kit and KAPA Unique-Dual Indexed Adapter Kit (cat# 8 861 919 702). The DNA libraries were quantified using Thermo Fisher Qubit dsDNA HS Assay Kit (cat# Q32854) and sized using Agilent High Sensitivity DNA Kit (cat# 5067–4626).\n\nThe 8 DNA libraries generated with the KAPA HyperPrep Kit were processed using Adept Library Compatibility Kit (Element Biosciences, Cat# 830–00003), individually circularized with 0.5pmol (30 μL of 16.67nM) input, and quantified using the kit-provided qPCR standard and primer mix. The libraries were pooled into 4 separate 2-plex pools, each denatured and sequenced on Element AVITI system (Element Biosciences, Part #88–00 001) using 2 × 150 paired end reads with indexing. Primary analysis was performed onboard the AVITI sequencing instrument.\n\nWhole genome/cfDNA preprocessing\n\nBlood and plasma samples were subjected to whole genome and cfDNA short read sequencing as detailed above. Resultant FASTQ files were validated using FastQC (v0.11.9) and MultiQC (v1.13). Read adapters were trimmed at 3′ and 5′ ends for low quality using Trim Galore (v0.6.5), lower quality reads were classified and removed, retaining only those reads with length >= 25bp, and ph read quality >= 20. Reads were aligned against the hg38 human reference genome with BWA MEM (v.0.7.15) and subjected to standard QC and deduplication procedures as a part of Sentieon's TNscope (v202010) DNAseq workflow.\n\nWhole genome/cfDNA/single cell variant calling\n\nAligned and preprocessed reads were subjected to the TNScope variant calling pipeline. Calls were filtered using Fisher's exact test and subsetted to SNP variants using samtools (v1.16.1), and filtered by triallelic sites, short tandem repeats, read quality, and read position bias using BCFtools (v1.16). Varient-Effect-Predictor VEP (v107) was utilized for annotation of variants and further filtering based on predicted impact of mutations. Resulting coordinates were processed into allele and gene frequency matrices, and visualized in R using the tidyverse (v1.3.2) suite of packages.\n\ncfDNA extraction and sequencing\n\ncfDNA was isolated from 500 μL aliquots of plasma from cfDNA blood collection tubes (Streck, #230470). cfDNA was extracted from each crew member from all timepoints (4 crew members, 6 timepoints, 24 total extractions). cfDNA was extracted using Qiagen's QIAamp ccf DNA/RNA Kit and eluted in 15 μL Qiagen Elution Buffer per sample. Yield was measured for each sample using Thermo Fisher Qubit 1X dsDNA HS Assay (cat# Q33231).\n\nEntire extract volume was used as input for library preparation using NEBNext Ultra II DNA Library Preparation Kit for cfDNA protocol. Each sample was barcoded using NEBNext Multiplex Oligos for Illumina (Unique Dual Index UMI Adaptors–96 reactions). Final library was eluted in 30 μL and checked for concentration using Thermo Fisher Qubit 1X dsDNA HS Assay (cat# Q33231). Fragment sizes were determined using Agilent's Tapestation 2100 and D1000 reagents and ScreenTape, with resulting average fragment size ∼380 bp (0.25 pmol) of each sample.\n\nA total of 24 cfDNA libraries generated with the NEBNext Ultra II DNA Library Preparation kit were processed using Adept Library Compatibility Kit (Element Biosciences, Cat# 830–00003). Each library was circularized individually with an input range of 0.2–0.5 pmol (30 μL of 6.67–16.67nM) based on linear library yields. The final circularized libraries were quantified using qPCR standard and primer mix and pooled into 2 separate 4-plex pools. Each 4-plex pool was denatured and sequenced on Element AVITI system (Element Biosciences, Part #88–00001) using 2 × 147 paired reads with 19 bp UMI/index 1 and 8 bp index 2. Primary analysis was performed onboard the AVITI sequencing instrument.\n\nClonal hematopoiesis targeted variant calling\n\nGenomic DNA was obtained from the cell pellet of a cell-free DNA blood collection tube (Streck, cat# 230 470) using the QIAamp Blood Maxi Kit (Qiagen, cat# 51 192). All samples from the testing and validation cohort were sequenced using a custom designed DNA sequencing assay (DB0188, VariantPlex, ArcherDX). This panel captures the nine genes most commonly mutated in solid tumor patients following therapeutic radiation including the full exonic regions of five genes (DNMT3A, TET2, ASXL1, TP53, CHEK2) and targeted exonic regions of four genes (JAK2, SRSF2, SF3B1, PPM1D). Libraries were prepared from 250 ng gDNA using the VariantPlex protocol (ArcherDx Inc., Boulder, CO, USA) which utilizes Anchored Multiplex PCR (AMP) technology to generate target-enriched sequencing-ready libraries. Following DNA fragmentation ligation with a universal ArcherDx molecular barcode (MBC) adapter is performed, which tags each DNA molecule with a unique molecular index (UMI) and allows for unidirectional amplification of the sample using gene-specific primers. The resulting libraries were sequenced using a NovaSeq 6000 instrument (Ilumina), as per manufacturer's instructions. The methods for variant identification are comparable to those in Novetsky et al. 2023. The variant calling pipeline included UMI consensus building followed by utilizing Mutect2, VarDictJava, Lofreq2, Pindel in parallel for variant identification. Normalization was performed via LeftTrimAndAlign, and a panel of normals of 27 children and young adults was used with a bonferroni-corrected p value to identify true putative mutations in our astronaut cohort. A pileup analysis as performed in Bolton et al. 2020 was used to query variants in longitudinal follow-ups. A variant list was used to scrutinize raw BAM files and the PoN samples, a fisher's exact test and Bonferroni-corrected p value were used to determine a noise threshold. Variants surpassing this threshold in at least one sample were further examined in the remaining samples, and if statistically validated, the variants were aggregated to construct the final variant list. Variant-Effect-Predictor VEP (v107) and SnpEff (v4.3) was used for annotation of variants. Data wrangling, tidying, and visualizations were performed using R (v4.1.2), Rstudio (v2021.09.2) and libraries (Tidyverse, Dplyr, data.table, ggplot2).\n\ncfDNA fragment analysis\n\nFragment size distribution was calculated using the bamPEFragmentSize tool from the deepTools Python package (v3.5.1). Levels of cfDNA (read counts) originating from different chromosomes were normalized by chromosome length and total number of reads in the library generating a Read per Kilobase per Million reads (RPKM) measurement. The fraction of cell-free mtDNA relative to chromosomal cfDNA in plasma was compared and visualized in R using the tidyverse (v1.3.2) suite of packages.\n\ncfDNA tissue of origin deconvolution\n\nThe enrichment of cfDNA fragments from various tissues was calculated by read coverage depletion analysis at transcription starting sites (TSSs) to estimate nucleosome positioning and infer gene expression. The pipeline is described in detail in Bezdan et al. 2020. The resulting nucleosome periodicity was correlated with (1) per-tissue gene expression reference matrix retrieved from the Human Proteome Map (HPM; Kim et al. 2014) or (2) individual astronaut pseudo-bulk expression of different cell subpopulations extracted from PBMC scRNAseq dataset. In both cases the tissue/subpopulation-periodicity correlations were ranked by the value of Pearson's correlation coefficient, clustered (utilizing Ward method with Euclidean distances) and visualized in R using the tidyverse (v1.3.2) and ComplexHeatmap (v2.14.0) packages.\n\nSingle-cell gene expression analyses\n\nLongitudinal single cell data was processed in R using the Seurat package (v4.3.0) to normalize, scale and cluster cell populations. Cell identities were determined through computational gating parameters of inclusion based on gene expression of key markers, similar to gating from Fluorescent-Activated Cell Sorting. CD8+ T cells were selected from the PBMC population by filtering CD3D+ CD8A+ positive cells. CD4+ T cells from CD3D+ CD8A+ cells, CD14+ monocytes from CCR2+ CD14+ cells, CD16+ monocytes from CD14+ CD16+ cells, NK cells from NCAM1+ CD3- and NCR3+ CD3- cells and DCs from CD86+, CD83+ cells.\n\nThe Seurat package (v4.3.0) was used for normalization, scaling, and differential gene expression analysis of sn-RNA data. Data wrangling, tidying, and visualizations were performed using R (v4.1.2), RStudio (v2021.09.2) and libraries (Tidyverse, Dplyr, data.table, ggplot2).",
+  "results": "Results\n\nTelomere length measurement (MMqPCR)\n\nWe first examined DNA from dried blood spots (DBS), which were collected from the I4 crew members before (L-92, L-44, L-3), during (FD1, FD2, FD3), and after (R + 1, R + 45, R + 82) spaceflight, from which DNA was isolated, and telomere length measured via multiplexed quantitative PCR (MMqPCR) (Fig. 1A). Telomere elongation was observed in all four I4 crewmembers during spaceflight, as compared to their pre- and post-flight normalized means (Fig. 1A). Telomere length shortened rapidly upon return to Earth in 3 of the 4 astronauts (post-flight), and overall continued to shorten over the course of the recovery period. Repeated-measurements ANOVA was performed on the data to assess the overall impact of time on telomere length. Post hoc pairwise comparisons identified pre-flight vs in-flight (P < 0.001) and pre-flight vs R + 1 (P < 0.02) as timepoints between which significant differences in telomere length occurred.\n\nIntriguingly, despite the short duration of the I4 mission (3 days of orbital flight), these results correlated with findings from the NASA Twins Study (One Year Mission astronaut), as well as with astronauts on ∼6 month missions onboard the International Space Station (ISS).\n\nCell-free DNA\n\nNext, cell-free DNA (cfDNA) from the I4 crew's plasma was extracted from Streck Cell-free DNA BCT tubes and sequenced to compare to pre-flight baseline, post-flight, and recovery period responses. Extraction and pre-processing of plasma were not implemented during the flight, so all samples were collected on Earth to mitigate cfDNA contamination from apoptotic blood cells during sample transportation (Supplememtary Fig. S1A & B, see online supplementary material). We analyzed plasma mitochondrial cfDNA (cf-mtDNA) relative to the chromosomal cfDNA fraction (Fig. 1B & C, Supplememtary Table S3, see online supplementary material) as a potential biomarker for long-duration spaceflight adaptations. In this mission, cf-mtDNA levels did not rise significantly following the return to Earth (R + 1), possibly due to the short flight duration. Cf-mtDNA enrichment was only observed in the twin astronauts on the ISS after months of exposure to the space environment. The marker levels display high between-sample heterogeneity, and the increase in pre-flight measurements may be connected to the I4 crew's pre-flight preparation (e.g. high-altitude training).\n\nGiven that cfDNA fragments encompass one nucleosome (∼150 bp), we inspected depletion in read coverage distribution around the transcription start sites (TSS) as a measurement of gene expression. We applied coverage normalization specific to the genomic neighborhood and completed Fourier transformation to determine nucleosome footprints based on signal periodicity. The cfDNA fragment tissue and cell-type-of-origin enrichment of fragments were correlated with either tissue-specific expression signatures from the Human Proteome Map (HPM) or individual astronaut expression profiles from peripheral blood (Fig. 1D & E, Supplememtary Fig. S1C, Supplememtary Tables S1 & S2, see online supplementary material). The most represented sequences were of hematopoietic origin, while a small increased presence of cfDNA fragments from both innate and adaptive immune cells was observed post-landing and during the recovery period. Interestingly, there was a significant increase in the cfDNA originating from all immune cells in all astronauts over a month following their return to Earth (R + 82), indicating a degree of heterogeneity in cell lysis over time and a possible long-term response.\n\nClonal hematopoiesis of indeterminate potential (CHIP) assessment\n\nWhile CHIP has been previously studied in astronauts, the I4 cohort provided an opportunity to study the physiological impact of spaceflight in a civilian crew that had never undergone orbital flight. Indeed, the monitoring of this crew provides us with a unique opportunity to understand the beginning of the already established relationship between career astronauts and CHIP. Of note, the NASA Twins Study assessed the mutational burden of long-duration spaceflight in CHIP genes and a retrospective study established a burden of CH-related mutations in the career astronaut population and we sought to examine these same CHIP genes for the I4 crew. To address the variant allele frequency (VAF) of CHIP genes, we performed deep targeted sequencing (>15,000x) of 10 known epigenetic regulators and CHIP-associated genes and assessed the mutational burden of short duration spaceflight in the I4 astronaut cohort. Notably, the mutational burden of the CHIP-associated genes did not change as a function of spaceflight and remained stable for up to 6 months post spaceflight (Fig. 2A). No known deleterious mutations arose in the I4 cohort post-flight, nor did any pre-existing somatic mutations increase in allele frequency significantly (Fig. 2B & C). Putative driver mutations were found in two out of the four astronauts but their VAF remained comparable at all timepoints, indicating stability of the VAF from the spaceflight.\n\nTo give context for these data, we next collected additional samples for both subjects in the NASA Twins Study. Subject TW (long duration spaceflight) presented mutation TET2.p.Cys1273Tyr in a bulk PBMC sample at an increased VAF of ∼ 0.075 (Fig. 2D). Subject HR (ground control) presents the mutation DNMT3A.p.Trp698Ter at an increased VAF of ∼ 0.086 and the mutation DNMT3A.p.Asp856Gly not previously found at a VAF of ∼ 0.05 (Fig. 2E). Both astronauts presented increased clonality when compared to previous timepoints. Their mutational burden was still greater than age-matched controls, as established in the original study. However, the increased mutational burden is an expected finding, given the association between aging and CHIP and there's no evidence of them having any clinical effects to date.\n\nLongitudinal comparison of whole genome mutations reveals genomic stability months after short-duration orbital flight\n\nTo assess the long-term consequences of spaceflight on the genomic stability of astronauts, we conducted whole-genome sequencing (WGS) and variant calling pre- and post-flight. Comparison of single nucleotide variant (SNV) and indel presence between timepoints (L-44 and R + 45) for each astronaut indicated no significant changes for genes with the highest mutational burden (Fig. 3A), epigenetic regulator genes (Supplememtary Fig. S3, see online supplementary material) or other gene sets of interest. The analysis of variant annotations (Fig. 3A & C) revealed that most identified variants are within intronic regions and have no significant effects. We also have noted no disproportional mutational load for variants post-flight (Fig. 3D). We performed variant calling in single nucleus RNA-seq (snRNA-seq) libraries and compared it across all timepoints and against WGS for genes with read coverage > 10x (Supplememtary Fig. S3B & C, see online supplementary material). Whole genome coverage of the snRNA-seq libraries varied broadly across timepoints, but did not show any significant evidence of genomic instability within our cohort.\n\nSpaceflight induces cell-type-specific changes in gene expression profiles\n\nWe next examined gene expression changes across immune cell types due to spaceflight. Cell type-specific genes were used to filter cell types computationally. CD8+ T cells, and CD4+ T cells, CD14+ monocytes, CD16+ monocytes, dendritic cells (DCs) and natural killer (NK) cells were filtered from PBMCs at six different timepoints: L-92, L-44, L-3, R + 1, R + 45, and R + 82.\n\nGene expression of CD8+ T cells at R + 1 and R + 82 showed increased expression of genes related to immune function, ribosomal and mitochondrial activity (e.g. NKG7, CCL5, HLA-C, S100A4, RPL41, RPS11, MT-CO3, PTMA, B2M, see Fig. 4B). Similar trends were seen with CD14+ monocytes, DCs, CD4+, FCGR3A+ monocytes, NK cells, and CD3D+ cells (Supplememtary Fig. S4C & D, see online supplementary material). Increased gene expression of mitochondrial and ribosomal genes was conserved across cell types for both L-92 vs R + 1 and L-92 vs R + 82 comparisons. PLCG2, MTRNR2L12, VCAN, and MAML2 transcripts associated with immune function, mitochondrial function, cell adhesion, and Notch signaling were consistently downregulated across all cell types (Fig. 4 & Supplememtary Fig. S4).\n\nInterestingly, the proportion of cells expressing these genes does not necessarily change in parallel with total gene expression levels. For example, PLCG2 expression, on a per cell basis, decreased, but the total proportion of cells expressing PLCG2 increased among CD8+ T cells at R + 1 (0.98) vs. L-92 (0.81 +/- 0.07 s.e.) and R + 1 vs. R + 82 (0.66 +/- 0.04 s.e.), classical monocytes at R + 1 (0.99) vs. L-92 (0.96 +/- 0.01 s.e.) and R + 1 vs. R + 82 (0.92 +/- 0.05 s.e.) as well as DCs at R + 1 (0.99) vs. L-92 (0.96 +/- 0.01 s.e.) and R + 1 vs. R + 82 (0.92 +/- 0.04 s.e.) (Fig. 4A, C & E). Gene expression of mitochondrial cytochrome c oxidase, particularly subunits 2 and 3 (MT-CO2 & MT-CO3), increased across all cell types, per cell, for R + 1 compared to L-92 and R + 82, with no significant change in the proportion of cells expressing these genes. MTRNR2L12 expression was consistently decreased across all studied cell types for R + 1 vs. L-92 but greatly increased for R + 82 vs. L-92 and R + 82 vs. R + 1, suggesting changes in gene expression lasting over two months post-flight in both adaptive and innate immune cells.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "genomes",
+    "clonal",
+    "hematopoiesis",
+    "stability",
+    "immune",
+    "mitochondria",
+    "ribosomes",
+    "spaceflight",
+    "Research Article",
+    "AcademicSubjects/MED00010"
+  ],
+  "citations": [
+    {
+      "title": "Space medicine in the era of civilian spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Plasma cytokine concentrations indicate that in vivo hormonal regulation of immunity is altered during long-duration spaceflight",
+      "authors": []
+    },
+    {
+      "title": "The NASA twins study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Retrospective analysis of somatic mutations and clonal hematopoiesis in astronauts",
+      "authors": []
+    },
+    {
+      "title": "Exposure of the bone marrow microenvironment to simulated solar and galactic cosmic radiation induces biological bystander effects on human hematopoiesis",
+      "authors": []
+    },
+    {
+      "title": "Clonal hematopoiesis before, during, and after human spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Cell-free DNA (cfDNA) and exosome profiling from a year-long human spaceflight reveals circulating biomarkers",
+      "authors": []
+    },
+    {
+      "title": "The genetics of myelodysplastic syndrome: from clonal haematopoiesis to secondary leukaemia",
+      "authors": []
+    },
+    {
+      "title": "The Sentieon Genomics Tools—A fast and accurate solution to variant calling from next-generation sequence data",
+      "authors": []
+    },
+    {
+      "title": "Clonal hematopoiesis in survivors of childhood cancer",
+      "authors": []
+    },
+    {
+      "title": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis",
+      "authors": []
+    },
+    {
+      "title": "A draft map of the human proteome",
+      "authors": []
+    },
+    {
+      "title": "Telomere length dynamics and DNA damage responses associated with long-duration spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Inferring expressed genes by whole-genome sequencing of plasma DNA",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Clonal hematopoiesis and its emerging effects on cellular therapies",
+      "authors": []
+    },
+    {
+      "title": "High burden of clonal hematopoiesis in first responders exposed to the World Trade Center disaster",
+      "authors": []
+    },
+    {
+      "title": "Immune responses and latent herpesvirus reactivation in spaceflight",
+      "authors": []
+    },
+    {
+      "title": "The German ISS-experiment Cellular Responses to radiation in space (CERASP): The effects of single and combined space flight conditions on mammalian cells",
+      "authors": []
+    },
+    {
+      "title": "How does spaceflight affect the acquired immune system?",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Novel point mutations in mitochondrial MT-CO2 gene may be risk factors for coronary artery disease",
+      "authors": []
+    },
+    {
+      "title": "Decreased expression of mitochondrial miR-5787 contributes to chemoresistance by reprogramming glucose metabolism and inhibiting MT-CO3 translation",
+      "authors": []
+    },
+    {
+      "title": "Effects of spaceflight on human induced pluripotent stem cell-derived cardiomyocyte structure and function",
+      "authors": []
+    },
+    {
+      "title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact",
+      "authors": []
+    },
+    {
+      "title": "Spaceflight/microgravity inhibits the proliferation of hematopoietic stem cells by decreasing kit-ras/cAMP-CREB pathway networks as evidenced by RNA-seq assays",
+      "authors": []
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions",
+      "authors": []
+    },
+    {
+      "title": "Alterations in adaptive immunity persist during long-duration spaceflight",
+      "authors": []
+    },
+    {
+      "title": "PLCG2–phospholipase C gamma 2 (human)",
+      "authors": []
+    },
+    {
+      "title": "PLCG2 can exist in eccDNA and contribute to the metastasis of non-small cell lung cancer by regulating mitochondrial respiration",
+      "authors": []
+    },
+    {
+      "title": "Tuning T cells through the aryl hydrocarbon receptor",
+      "authors": []
+    },
+    {
+      "title": "Cytokine regulation in human CD4 T cells by the aryl hydrocarbon receptor and GPR68",
+      "authors": []
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions",
+      "authors": []
+    },
+    {
+      "title": "The effect of space and parabolic flight on macrophage hematopoiesis and function",
+      "authors": []
+    },
+    {
+      "title": "Impact of modeled microgravity on migration, differentiation, and cell cycle control of primitive human hematopoietic progenitor cells",
+      "authors": []
+    },
+    {
+      "title": "Changes in monocyte functions of astronauts",
+      "authors": []
+    },
+    {
+      "title": "Dendritic cell migration in health and disease",
+      "authors": []
+    },
+    {
+      "title": "Neutrophil-to-lymphocyte ratio: A biomarker to monitor the immune status of astronauts",
+      "authors": []
+    },
+    {
+      "title": "Leukocyte subsets and neutrophil function after short-term spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Space radiation and human exposures, a primer",
+      "authors": []
+    },
+    {
+      "title": "The Space Omics and Medical Atlas (SOMA): A comprehensive data resource and biobank for astronauts",
+      "authors": []
+    },
+    {
+      "title": "The SpaceX Inspiration4 mission reveals inflight molecular and physiological metrics from an all-civilian crew",
+      "authors": []
+    },
+    {
+      "title": "Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight",
+      "authors": []
+    },
+    {
+      "title": "The microbiome architecture of short-term spaceflight and its potential link to host immune activation",
+      "authors": []
+    },
+    {
+      "title": "Spatial multi-omics of human skin reveals KRAS and inflammatory responses to spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Direct RNA sequencing of astronauts reveals spaceflight-associated epitranscriptome changes and stress-related transcriptional responses",
+      "authors": []
+    },
+    {
+      "title": "Collection of biospecimens from the Inspiration4 Mission establishes the standards for the Space Omics and Medical Atlas (SOMA)",
+      "authors": []
+    },
+    {
+      "title": "Secretome profiling captures acute changes in oxidative stress, brain homeostasis and coagulation from spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Protective alleles and precision healthcare in crewed spaceflight",
+      "authors": []
+    },
+    {
+      "title": "Astronaut omics and the impact of space on the human body at scale",
+      "authors": []
+    },
+    {
+      "title": "Single Cell Analysis identifies conserved features of immune dysfunction in simulated microgravity and spaceflight",
+      "authors": []
+    }
+  ],
+  "original_title": "Genome and clonal hematopoiesis stability contrasts with immune, cfDNA, mitochondrial, and telomere length changes during short duration spaceflight",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/403d/11022651/7944fd5534bc/pbae007fig1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/403d/11022651/d5906310d15e/pbae007fig2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/403d/11022651/fa85d069ad0f/pbae007fig3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/403d/11022651/fab67e301762/pbae007fig4.jpg"
+  ]
+}

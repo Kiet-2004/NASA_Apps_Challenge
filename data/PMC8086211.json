@@ -1,0 +1,136 @@
+{
+  "pmcid": "PMC8086211",
+  "title": "Draft Genome Sequences of Various Bacterial Phyla Isolated from the International Space Station",
+  "abstract": "Whole-genome sequences were generated from 96 bacterial strains of 14 species that were isolated from International Space Station surfaces during the Microbial Tracking 2 study. Continued characterization of this closed habitat's microbiome enables tracking of the spread and evolution of secondary pathogens, which is vital for astronaut health.\n\nABSTRACT\n\nWhole-genome sequences were generated from 96 bacterial strains of 14 species that were isolated from International Space Station surfaces during the Microbial Tracking 2 study. Continued characterization of this closed habitat's microbiome enables tracking of the spread and evolution of secondary pathogens, which is vital for astronaut health.",
+  "introduction": "ANNOUNCEMENT\n\nThe International Space Station (ISS) is currently the only long-term human habitat in space. Microgravity disrupts human immune function, and close monitoring of the ISS microbiome for increased pathogenicity is thus an ongoing critical task. Here, we report the draft genomes of 96 bacterial strains that were isolated from the ISS (Table 1). Eleven of the 14 species found are common members of the human microbiome, and most can act as opportunistic human pathogens.\n\nFour species from the phylum Actinobacteria were isolated, from the genera Pseudoclavibacter, Kocuria, and Micrococcus, all of which are common in both environmental and human microbiomes. Kocuria palustris and Micrococcus luteus are opportunistic pathogens. M. luteus can survive in a dormant state under extreme oligotrophic conditions and has increased growth and increased biomass yield in microgravity.\n\nMultiple coagulase-negative staphylococci (CoNS) were also isolated. CoNS are normal components of human skin flora and are often resistant to antibiotics because of their ability to form biofilms; all CoNS in this report are documented opportunistic pathogens.\n\nThree species from the phylum Proteobacteria were identified. Acinetobacter pittii is a less common nosocomial pathogen that causes pneumonia and meningitis in intensive care patients, Pseudomonas fulva is a commensal plant endophyte that can also infect immunocompromised patients, and Pseudomonas granadensis is a recently discovered soil bacterium.\n\nTwo other species in this report that are not associated with the human microbiome are Cytobacillus horneckiae, a Gram-positive UV-resistant endospore-former that was isolated from a clean room at the Kennedy Space Center, and Methylobacterium organophilum, a facultative methylotroph.\n\nAll strains reported here were collected aboard the ISS over the course of five flight missions between June 2017 and December 2018 (Table 1). Premoistened polyester wipes were used to collect samples from eight predetermined surfaces during each flight (see Table 1 for locations). After transport to Earth, the wipes were agitated in sterile phosphate-buffered saline, and the buffer was concentrated with an InnovaPrep CP-150 concentrator. Concentrates were plated onto Reasoner’s 2A (R2A) agar (25°C for 7 days), potato dextrose agar (PDA) (25°C for 7 days), and blood agar (37°C for 2 days) using appropriate concentrations for microbial isolation. Isolated colonies were restreaked on tryptic soy agar (TSA) (25°C), and genomic DNA was extracted using the ZymoBIOMICS DNA MagBead kit according to the manufacturer’s instructions. Libraries for whole-genome shotgun sequencing (WGS) were prepared using the Illumina Nextera DNA Flex library preparation kit as in previous studies and were sequenced using the NovaSeq 6000 S4 flow cell paired-end 2 × 150-bp platform.\n\nSequencing reads were quality filtered and trimmed, and adapter sequences were removed, using FastQC v0.11.7 and fastp v0.20.0. Scaffolds were assembled with SPAdes v3.11.1. QUAST v5.0.2 was used to determine assembly quality, including the number of contigs, genome size, and N50 value. Default settings were used for all steps except for fastp, which included 512 adapters screening. OrthoANIu was used to confirm the species identity for each strain against the species type strain sequence, with a minimum average nucleotide identity of 95% for identification. Genomes were annotated using the NCBI Prokaryotic Genome Annotation Pipeline.\n\nData availability.\n\nThe WGS data and raw data have been deposited in GenBank under the BioProject accession number PRJNA690512. This project has also been deposited in the NASA GeneLab system under the project number GLDS-361. The versions described in this paper are the first versions.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": []
+    },
+    {
+      "title": "Zimmermannella helvola gen. nov., sp. nov., Zimmermannella alba sp. nov., Zimmermannella bifida sp. nov., Zimmermannella faecalis sp. nov. and Leucobacter albus sp. nov., novel members of the family Microbacteriaceae",
+      "authors": []
+    },
+    {
+      "title": "Kocuria indica sp. nov., isolated from a sediment sample",
+      "authors": []
+    },
+    {
+      "title": "Complete genome sequence of Kocuria indica CE7, isolated from human skin",
+      "authors": []
+    },
+    {
+      "title": "Characterization of Micrococcus strains isolated from indoor air",
+      "authors": []
+    },
+    {
+      "title": "Keratitis with Kocuria palustris and Rothia mucilaginosa in vitamin A deficiency",
+      "authors": []
+    },
+    {
+      "title": "Micrococcus luteus-survival in amber",
+      "authors": []
+    },
+    {
+      "title": "Effect of simulated microgravity on growth and production of exopolymeric substances of Micrococcus luteus space and earth isolates",
+      "authors": []
+    },
+    {
+      "title": "Staphylococcus caprae: a skin commensal with pathogenic potential",
+      "authors": []
+    },
+    {
+      "title": "Coagulase-negative staphylococci",
+      "authors": []
+    },
+    {
+      "title": "Insights on virulence from the complete genome of Staphylococcus capitis",
+      "authors": []
+    },
+    {
+      "title": "Staphylococcus capitis and NRCS-A clone: the story of an unrecognized pathogen in neonatal intensive care units",
+      "authors": []
+    },
+    {
+      "title": "Whole genome sequence and comparative genomics analysis of multi-drug resistant environmental Staphylococcus epidermidis ST59",
+      "authors": []
+    },
+    {
+      "title": "Who are you: Staphylococcus saprophyticus?",
+      "authors": []
+    },
+    {
+      "title": "Characterization of 26 Staphylococcus warneri isolates from orthopedic infections",
+      "authors": []
+    },
+    {
+      "title": "Nosocomial bloodstream infections due to Acinetobacter baumannii, Acinetobacter pittii and Acinetobacter nosocomialis in the United States",
+      "authors": []
+    },
+    {
+      "title": "Pseudomonas fulva HARBPS9.1: candidate anti-Fusarium agent in South Africa",
+      "authors": []
+    },
+    {
+      "title": "First case of human infection due to Pseudomonas fulva, an environmental bacterium isolated from cerebrospinal fluid",
+      "authors": []
+    },
+    {
+      "title": "First report of bloodstream infection caused by Pseudomonas fulva",
+      "authors": []
+    },
+    {
+      "title": "Pseudomonas granadensis sp. nov., a new bacterial species isolated from the Tejeda, Almijara and Alhama Natural Park, Granada, Spain",
+      "authors": []
+    },
+    {
+      "title": "Bacillus horneckiae sp. nov., isolated from a spacecraft-assembly clean room",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Whole metagenome profiles of particulates collected from the International Space Station",
+      "authors": []
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data",
+      "authors": []
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": []
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": []
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": []
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": []
+    },
+    {
+      "title": "NCBI Prokaryotic Genome Annotation Pipeline",
+      "authors": []
+    },
+    {
+      "title": "GeneLab: Omics database for spaceflight experiments",
+      "authors": []
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Various Bacterial Phyla Isolated from the International Space Station"
+}

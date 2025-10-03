@@ -1,0 +1,746 @@
+{
+  "pmcid": "PMC4642138",
+  "title": "Gravitropism and Lateral Root Emergence are Dependent on the Trans-Golgi Network Protein TNO1",
+  "abstract": "The trans-Golgi network (TGN) is a dynamic organelle that functions as a relay station for receiving endocytosed cargo, directing secretory cargo, and trafficking to the vacuole. TGN-localized SYP41-interacting protein (TNO1) is a large, TGN-localized, coiled-coil protein that associates with the membrane fusion protein SYP41, a target SNARE, and is required for efficient protein trafficking to the vacuole. Here, we show that a tno1 mutant has auxin transport-related defects. Mutant roots have delayed lateral root emergence, decreased gravitropic bending of plant organs and increased sensitivity to the auxin analog 2,4-dichlorophenoxyacetic acid and the natural auxin 3-indoleacetic acid. Auxin asymmetry at the tips of elongating stage II lateral roots was reduced in the tno1 mutant, suggesting a role for TNO1 in cellular auxin transport during lateral root emergence. During gravistimulation, tno1 roots exhibited delayed auxin transport from the columella to the basal epidermal cells. Endocytosis to the TGN was unaffected in the mutant, indicating that bulk endocytic defects are not responsible for the observed phenotypes. Together these studies demonstrate a role for TNO1 in mediating auxin responses during root development and gravistimulation, potentially through trafficking of auxin transport proteins.",
+  "introduction": "Introduction\n\nThe trans-Golgi network (TGN) is a highly dynamic tubulo-vesicular organelle that matures from the two or three trans-most cisternae of the Golgi and is crucial for endocytic, secretory and vacuolar trafficking routes in plant cells. TGN cisternae move rapidly inside the cell, dissociating from their associated Golgi and re-associating with a new Golgi stack, and also contain distinct subdomains for various trafficking routes. The TGN functions as an early/recycling endosome that receives endocytosed cargo, including auxin transporters, plasma membrane receptors, and nutrient transporters, and recycles it back to the plasma membrane or to the vacuole for degradation. The TGN plays a crucial role in trafficking of biosynthetic traffic to the vacuole. It also directs secretory cargo, including plasma membrane proteins and cell wall polysaccharides, to the cell surface, potentially via mobile secretory vesicle clusters that fuse with the plasma membrane. The position of the TGN at the junction of the endocytic, vacuolar, and secretory pathways renders it important in regulating transport of key molecules and mediating cellular responses to the environment.\n\nHigh transport fidelity is needed to prevent mis-sorting of cargo during vesicle trafficking. This requires membrane fusion proteins termed soluble N-ethylmaleimide-sensitive factor attachment protein receptors (SNAREs). SNAREs can be broadly classified as target SNARES (t-SNAREs) or vesicle SNAREs (v-SNAREs) depending on their location, or as Q or R-SNAREs based on the core amino acid in the heptad repeat of the SNARE motif. The interaction between a v-SNARE on a vesicle and t-SNAREs on its target membrane leads to membrane fusion via formation of a tetrameric trans-SNARE complex. Usually, three Q SNAREs (Qa, Qb, and Qc) form a t-SNARE complex and an R-SNARE acts as the v-SNARE. This interaction of SNAREs helps to overcome the thermodynamically unfavorable event of fusion of two hydrophobic lipid bilayers, enabling deposition of cargo into the target organelle. Proteins known as tethering factors aid in bringing membranes together and promoting SNARE interaction or actively stimulating trans-SNARE complex formation. Tethering factors thus increase vesicular trafficking efficiency and are either homodimeric long coiled-coil proteins or multisubunit tethering complexes. It was recently proposed that coiled-coil tethers simultaneously use their multiple coiled-coil domains to engage distinct SNAREs and promote SNARE complex assembly. Spatiotemporal regulation of trafficking steps in the cell also requires a family of small GTPases called Rabs which then recruit downstream effectors. Tethers can act as Rab effectors by binding SNAREs or can function as GTP exchange factors (GEFs) for Rabs.\n\nMany SNAREs and tethering factors exist in Arabidopsis thaliana, with different localizations reflecting their specialized roles. The TGN-localized SYP4 (41/42/43) SNARE family is responsible for maintaining Golgi/TGN morphology and regulating secretory and vacuolar trafficking. Another TGN SNARE, SYP61, interacts with SYP41 and helps to direct traffic to the plasma membrane, with a role in mediating stress responses. Recently, TGN-localized SYP41-interacting protein (TNO1), a large coiled-coil protein localized to the TGN, was identified as a SYP41 interactor and was hypothesized to be a tethering factor. Mutant plants lacking TNO1 partially mis-sort vacuolar cargo and mis-localize SYP61, suggesting decreased trafficking fidelity, while also showing hypersensitivity to salt and osmotic stress and displaying altered TGN dynamics.\n\nSYP42 and SYP43 play a role in root gravitropism, most likely via regulation of the localization of the auxin eﬄux transporters PIN-FORMED 1 (PIN1) and PIN2. Additionally, other proteins involved in auxin transport, such as the AUXIN1/LIKE-AUX1 (AUX1/LAX) family of auxin influx transporters and P-glycoprotein (PGP) proteins of the ATP-binding cassette transporter family, are localized via the SNAREs and TGN activity. Many of the auxin transporters undergo constitutive endocytosis, cycling between the recycling endosome/TGN and the plasma membrane, or are targeted for vacuolar degradation to maintain steady-state levels. Defects in TGN dynamics can, therefore, hamper recycling of these transporters and thus affect directional transport of auxin, which is critical for plant development.\n\nGiven the potential links between TGN-mediated protein trafficking and auxin transporters, we investigated auxin responses in the tno1 mutant during root development. Loss of TNO1 delayed lateral root (LR) emergence and decreased root and hypocotyl gravitropic bending. Additionally, tno1 roots failed to display characteristic asymmetry visualized with the auxin response marker DR5rev:GFP at the LR tips as well as after gravistimulation. Thus, TNO1 functions in auxin-mediated root development and response to gravity.",
+  "methods": "Materials and Methods\n\nPlant Material and Growth Conditions\n\nThe A. thaliana seed stocks used in this study have been previously described: Col-0 (wild-type, WT), tno1 knockout mutant (SALK_112503), complemented tno1 mutant, and DR5rev:GFP.\n\nArabidopsis seeds were surface-sterilized in 33% bleach, 0.1% (v/v) Triton X-100 for 20 min, rinsed five times with sterile water and kept in the dark at 4°C for at least 2 days. Arabidopsis plants were grown at 22°C in long-day conditions (16 h light) in soil or on 0.25× or 0.5× solid Murashige–Skoog (MS) medium (MS vitamin and salt mixture, Caisson, MSPA0910) with 1% sucrose, 2.4 mM MES (pH 5.7), and 0.6% (w/v) phytoblend agar (Caisson, PTP01).\n\nGravitropism Assays\n\nThe hypocotyl gravitropism assay was modified from. Seeds were plated on 0.5× MS medium containing 1% sucrose in square plates and kept vertically oriented in the dark. After 5 days, the plates were rotated 90° for gravistimulation. Pictures were acquired using a Canon Rebel XTS camera in a dark room with a green filter over the flash to prevent phototropic curvature of the hypocotyl toward the camera flash. Zero-hour images of each seedling were compared to later time point images of the same seedling using Image J to determine bending angles.\n\nFor root gravitropic assays, sterilized seeds were mixed with molten growth medium just before solidification and poured into square plates. After 5 days of vertical growth the seedlings were gravistimulated by rotating the plate by 90°. Pictures were taken 6 and 24 h after gravistimulation and analyzed using Image J to assess gravitropic curvature.\n\nFor root and hypocotyl gravitropic rescue assays, the roots of 5-day-old vertically grown seedlings were overlaid with media containing either 100 nM 1-napthylacetic acid (1-NAA; Sigma–Aldrich, N0640), 30 nM 3-indoleacetic acid (IAA; Sigma–Aldrich, I2886), or 30 nM 2,4-dichlorophenoxyacetic acid (2,4-D; Gibco, 11215), followed by gravistimulation. Pictures of roots and hypocotyls after 12 h were compared to 0-h images using Image J. For all assays, at least three biological replicates were performed, with 15–20 seedlings per replicate.\n\nLR Density Analysis\n\nTo determine the density of emerging LRs, sterilized Arabidopsis seeds were plated on 0.25× MS medium containing 1% sucrose and grown vertically. After 10 days, the number of LRs emerging from the primary root were counted and divided by the root length to obtain LR density. For determination of LR primordia density, 7-day-old roots were cleared with 2.5% bleach for 10 min and visualized with an Olympus IX-71 inverted microscope. To assess rescue of LR emergence, 5-day-old seedlings were transferred to medium containing 100 nM 1-NAA or 1 μM IAA in the dark (to prevent photo-degradation). After 5 additional days, the number of emergent LRs was scored. For each analysis, three independent biological replicates were performed with 15–20 seedlings per replicate.\n\nRoot Length Inhibition Assays\n\nSeedlings were grown on 0.5× MS medium with 1% sucrose for 5 days. They were then transferred to media containing either 2,4-D, IAA, 1-NAA, 1-N-naphthylphthalamic acid (NPA; Naptalam, Sigma–Aldrich, 33371), 1-napthoxyacetic acid (1-NOA; Sigma–Aldrich, 255416) at the concentrations indicated, or solvent controls [dimethyl sulfoxide (DMSO) or ethanol], and the position of the root tip was marked. Each plate contained all three genotypes (WT, tno1 mutant, and complemented lines) to compensate for possible effects of inter-plate variation. After 6 days, pictures were acquired and the length from the marked root tip position was measured using ImageJ. Root elongation in the presence of the tested chemicals was compared with solvent controls and expressed as percent decrease in root length. At least three biological replicates with a minimum of 20 seedlings per replicate were conducted for each treatment.\n\nAnalysis of Auxin Response Distribution\n\ntno1 plants expressing DR5rev:GFP were generated by crossing tno1 with DR5rev:GFP lines. Homozygous tno1 plants carrying the DR5rev:GFP transgene were selected in subsequent generations by polymerase chain reaction (PCR)-based genotyping as previously described and green fluorescent protein (GFP) fluorescence visualization. For analysis of auxin redistribution, control and tno1 roots expressing DR5rev:GFP were gravistimulated and visualized with a Leica SP5 confocal laser scanning microscope (Leica Microsystems) at the Iowa State University Confocal and Multiphoton facility. A 40× oil immersion objective lens was used along with excitation and emission wavelengths of 488 and 507 nm for GFP visualization. Images were acquired under identical conditions for both mutant and WT roots with equal exposure, scan frequency and line average settings. A total of 15 seedlings from at least three independent replicates were analyzed. GFP asymmetry was quantified using Image J by subjecting the confocal images to similar thresholding and post-processing. Equal volume boxes were drawn on the upper and lower flanks and total pixel intensity from the lower vs. upper box was expressed as a ratio. To analyze DR5rev:GFP expression in LRs, a total of 30 stage II LRs from at least six different seedlings were imaged by confocal microscopy for each genotype. The number of root tips showing asymmetry of GFP expression was counted and expressed as a percentage of the total observed.\n\nFM4-64 Staining and Brefeldin A (BFA) Treatment\n\nFM4-64 staining was modified from. To test bulk endocytosis, 4-day-old seedlings were transferred to 0.5× MS liquid medium containing 4 μM FM4-64 for 2 min and subsequently washed twice for 30 s each time in 0.5× MS liquid medium before microscopic analysis. For analyzing arrival of FM4-64 at Brefeldin A bodies, 4-day-old seedlings were transferred to 0.5× MS liquid medium containing 35 μM Brefeldin A (BFA) for an hour followed by a 10-min treatment with 4 μM FM4-64 plus 35 μM BFA and two subsequent washes of 30 s each. The root tips were visualized using a Leica SP5 confocal laser scanning microscope (Leica Microsystems) at the Iowa State University Confocal and Multiphoton facility, using a 63× oil immersion objective lens and excitation and emission wavelengths of 558 and 734 nm. Images were acquired under identical conditions for both genotypes with equal exposure, scan frequency and line average settings. A total of 15 seedlings from at least three independent replicates were analyzed for each treatment and genotype.",
+  "results": "Results\n\nTNO1 Mediates LR Emergence in an Auxin-dependent Manner\n\nAuxin signaling pathways are integral to LR development during root architecture establishment. Polar auxin transport mediates emergence of LRs from the primary axis, and several auxin transport mutants display slow rates of emergence. The SYP4 family of SNAREs is thought to be involved in directional auxin transport, hence we tested whether the SYP41-interacting protein TNO1 may also be required for such processes. We hypothesized that if the tno1 mutant has defects in auxin transport or responses, visible phenotypes such as changes in LR emergence would be evident. Emergent LR densities were significantly lower (P < 0.05) in tno1 seedlings after 10 days of growth on 0.25× MS medium. Mutant lines expressing transgenic TNO1 under the control of its native promoter, termed complemented lines, were similar to WT seedlings (Figures 1A,B). Since the major source of auxin in the root in the first 10 days after germination is transport from the leaves, one possible reason for this defect may be that auxin flux is reduced in tno1, leading to suboptimal auxin levels in the root and impairing LR emergence. To confirm that the delayed emergence was not due to an arrest or delay in LR initiation, the number of LR primordia was evaluated in the mutant roots. The LR primordia density of tno1 roots was equivalent to that of WT and complemented lines (Figure 1C), suggesting that LR initiation events were normal in tno1.\n\nThe lipophilic auxin 1-NAA has been shown to rescue LR defects in the auxin transport mutant aux1. Natural auxin (IAA) treatment also rescues LR emergence in dark conditions. To test whether the emergence defect may be due to defects in auxin transport and hence reduced root auxin levels, LR emergence in the presence of 1-NAA or IAA in the dark was assessed. Five-day-old seedlings were transferred to medium containing 100 nM NAA or 1 μM IAA, and LR density was analyzed after 5 days of growth. The LR density of tno1 resembled that of WT and complemented lines in the presence of either auxin (Figure 1D), indicating that exogenous auxins can rescue the emergent LR defect in tno1 roots. Therefore, TNO1 influences the temporal control of LR emergence from the primary root.\n\nTNO1 is Required for Gravitropic Bending\n\nWe further examined a possible role for TNO1 in plant auxin responses by investigating gravitropism. Gravitropism involves the bending of a plant organ in response to its change in orientation with respect to gravity (gravistimulation). Gravitropic bending of organs upon gravistimulation is aided by a readjustment of auxin flow. Since a number of proteins involved in gravitropic curvature are recycled and trafficked via the TGN, this organelle is critical for regulating downstream events that influence gravitropic plant organ bending. We, therefore, hypothesized that loss of TNO1 might affect dynamics at the TGN and thus lead to a change in the gravitropic bending response.\n\nTo test this hypothesis, the gravitropic response of WT and tno1 mutant hypocotyls and roots was assessed. The tno1 mutant hypocotyls (Figure 2A) and roots (Figure 2B) showed delayed bending, and the angle of curvature at different time points was significantly lower (P < 0.05) than that of WT or complemented seedlings. This suggests that the loss of TNO1 causes a delay in the gravitropic bending of Arabidopsis roots and hypocotyls. Mutant roots and hypocotyls have a similar length to WT under normal growth conditions, suggesting that the defect in gravitropism is not due to defective growth.\n\nThe gravitropic bending response requires a reprogramming of auxin flow inside the shoot and root, raising the possibility that the slower bending rate observed in tno1 could be due to changes in auxin flow. We hypothesized that if the gravitropic phenotype in tno1 mutants is due to defect(s) in auxin transport, it may be rescued by exogenous auxin application. To test this idea, we used the membrane-permeable auxin 1-NAA, which has been previously used to rescue gravitropic root bending defects in mutants defective in auxin transport, the natural auxin IAA, and the influx-specific auxin 2,4-D. Following auxin treatments, the bending angles of tno1 roots were not significantly different (P > 0.1) from the bending angles of the WT and complemented lines (Figure 2C), indicating rescue of the gravitropic bending defect by exogenous auxin. The 2,4-D treatment led to an overall reduction of bending angles as has been previously reported but there were no significant differences between WT and mutant. Similarly, hypocotyl bending was also rescued after a 12-h treatment with either IAA or 1-NAA (Figure 2D), confirming that the gravitropic defect in tno1 mutants is most likely due to auxin-related defects. 2,4-D did not rescue the gravitropic defect in the mutant hypocotyls, with bending angles significantly lower than WT and complemented lines; this is consistent with previous reports demonstrating an effect of 2,4-D on gravitropism in roots but not in hypocotyls. The tno1 mutant defects in gravitropic bending, therefore, may be due to defects in auxin transport or response.\n\ntno1 Roots Show Increased Sensitivity to 2,4-D and IAA\n\nAuxin flux into plant cells is facilitated by influx carriers such as AUX1 and the LAX family of transporters, while exit from the cell involves eﬄux carriers belonging to the PIN and PGP families. Auxin analogs and transport inhibitors are important tools to uncover defects in auxin transport pathways. The auxin analog 2,4-D is an influx-specific substrate while 1-NAA is an eﬄux-specific substrate. The auxin transport inhibitor NPA interferes with auxin eﬄux while 1-NOA interferes with auxin influx and inhibits AUX1. To determine the effect of these inhibitors on the tno1 mutant, their effects on root growth were assessed. We found that tno1 roots were significantly (P < 0.05) more sensitive to 30 nM 2,4-D than WT or complemented roots (Figure 3A). This result is consistent with our observation of the failure of 2,4-D to rescue the gravitropic defect of mutant hypocotyls.\n\nOne possible explanation for this sensitivity is that influx routes are altered in the tno1 mutant, which led us to test the effect of blocking auxin influx with 1-NOA. Mutant roots showed similar sensitivity to WT and complemented lines across a range of concentrations of 1-NOA (Figure 3B), suggesting that blocking auxin influx affects the tno1 mutant to the same extent as wild-type. 1-NOA has a characteristic protective effect against root growth inhibition by 2,4-D; we, therefore, tested whether 1-NOA could rescue the root growth inhibition of mutant roots by 2,4-D to comparable levels as in the WT and complemented lines. Seedlings were transferred to medium containing 30 nM 2,4-D and 10 μM 1-NOA. The WT and complemented lines showed a significantly lower inhibition of root length than the mutants (P < 0.05), indicating that when auxin influx is blocked, tno1 mutants still have enhanced sensitivity to 2,4-D (Figure 3C).\n\nTo determine whether the sensitivity to 2,4-D is also seen with other auxins, root growth inhibition on 40 nM IAA in the dark was assessed. tno1 mutant roots are indeed more sensitive to IAA (P < 0.05) than WT or complemented lines (Figure 3D). By contrast, treatment with 0.1 μM of the membrane-permeable NAA inhibited the growth of tno1 to a similar extent as WT and complemented plants (Figure 3E). Since 2,4-D and IAA are influx-specific substrates and NAA is not, the results are consistent with a possible defect in auxin influx pathways in tno1. tno1, WT, and complemented plants had similar responses to NPA treatment (Figure 3F), suggesting that the auxin eﬄux pathway is unaffected in tno1.\n\nTNO1 Helps Mediate Auxin Responses during LR Elongation\n\nLateral roots emerge perpendicular to the primary root and gradually start bending rootwards. Recently emerged LRs, which lack an elongation zone (stage I LR) gradually transition into stage II LRs, defined by an elongation zone and asymmetric growth of the upper and lower epidermal cell files. The differential growth peaks in the stage II LRs are due to asymmetric auxin distribution, which in turn is dependent on auxin transport mechanisms. Stage II LRs are thus defined by a characteristic asymmetric distribution of auxin response, which results in differential cellular elongation and downward root growth. This asymmetric auxin flux at the LR tip is caused by the specific activity and distribution of auxin transporters. The asymmetric auxin distribution pattern diminishes significantly as the LRs mature to Stage III and begin growing parallel to the primary root. It was reported that on average more than 75% of stage II LRs in WT plants display asymmetric distribution of auxin responses at LR tips, visualized by the pattern of DR5rev:GFP expression.\n\nSince TNO1 is linked to LR emergence by a possible auxin-dependent mechanism, we hypothesized that asymmetric auxin transport or response is defective in tno1 LRs. Hence, the percentage of LRs showing asymmetric auxin responses in stage II tno1 LR tips would be lower compared to WT (or complemented) root tips. To test this, the percentage of stage II LRs with auxin response asymmetry in WT and tno1 background lines expressing DR5rev:GFP was determined by confocal microscopy. 40% of tno1 stage II LRs displayed auxin asymmetry at the LR tip compared to 80% in WT stage II LRs (Figures 4A,B). Thus, tno1 roots are defective in establishing the correct pattern of auxin response during LR development. This defect could explain the lower emergent LR density observed in tno1 compared to WT, since a disruption of auxin flow or establishment of asymmetry would prevent LR emergence.\n\nTNO1 Facilitates Shootward Auxin Response during Root Bending\n\nNormally, gravitropic bending of the primary root leads to an eventual return of the root tip toward the gravity vector. This occurs via a cascade of signals leading to asymmetric auxin flow from the columella cells to the lateral rootcap cells and eventually shootward through the epidermal and cortical cells (moving toward the root–shoot junction). During this process, auxin accumulates on the lower side of the root, leading to growth inhibition, while the top of the root continues to elongate, thus resulting in downward root bending. Since tno1 roots are defective in gravitropic bending (Figure 2) and the frequency of LR tips displaying auxin response asymmetry is lower than in WT LRs (Figure 4), we hypothesized that the defect in root bending could be due to a decrease in shootward transport of auxin from the columella to the lateral rootcap cells and on to the distal elongation zone.\n\nTo test this hypothesis, vertical plate-grown WT and tno1 seedlings expressing DR5rev:GFP were gravistimulated by rotating the plates by 90°. Confocal images were acquired before gravistimulation and subsequently at 5, 8, and 12 h after gravistimulation for both WT and tno1 root tips (Figures 5A–D). In the WT background, GFP fluorescence progressed shootward from the columella toward the lateral rootcap and epidermal cells of the lower side of the root. Conversely, the shootward appearance of fluorescence in tno1 was severely inhibited and failed to reach WT levels (arrowheads in Figures 5B–D). The difference in GFP fluorescence intensity on the upper and lower flanks was expressed as a ratio for each genotype at different time points. This ratio was significantly higher for WT roots than for tno1 mutants at all time-points, suggesting a stronger response in WT than in the mutants (Figure 5E). This in turn implies that the defect in gravitropic bending in tno1 mutants may be due to a decrease in auxin transport, or a difference in auxin response, from the columella to the lateral rootcap and epidermal cells on the lower side of the gravistimulated root. Such a defect could explain the reduced bending observed in tno1 roots. Since auxin asymmetry within LR tips has been suggested to occur by a similar mechanism, this could also explain the lower percentage of stage II LRs displaying auxin response asymmetry in tno1.\n\nTNO1 is not Required for Bulk Endocytosis\n\nAuxin transporters such as the PIN proteins are continuously endocytosed to the TGN and recycled back to the plasma membrane to maintain an appropriate density, thus allowing steady auxin flux through plant cells. Defects in endocytosis and components involved in the endocytic route to the TGN can, therefore, cause a defect in auxin transport pathways. Since tno1 mutants show defects in TGN dynamics and display auxin-related defects, we hypothesized that loss of TNO1 might alter endocytic routes and/or arrival of cargo at the TGN. This in turn would manifest in altered auxin transporter trafficking dynamics, and subsequently alter auxin responses. To test this hypothesis, we analyzed endocytosis in root epidermal cells using the lipophilic styryl dye FM4-64, which is endocytosed and labels early endosomes. To capture early endocytic events, roots of 4-day-old seedlings were stained with 4 μM FM4-64 for 2 min and then washed twice for 30 s each time in MS medium. Both WT and tno1 root cells showed similar endosome labeling patterns (Figure 6A, yellow arrowheads), suggesting that bulk endocytic uptake is normal in tno1 roots.\n\nTo confirm that bulk endocytosis was unaffected and that endocytic vesicles are delivered normally to the TGN in the mutant, the incorporation of FM4-64 into BFA bodies was assessed. The fungal toxin BFA causes aggregation of the TGN and TGN-derived endosomes to form BFA bodies. BFA body formation is delayed in tno1 cotyledons but occurs at similar rates in root cells of WT and tno1 mutants. It was hypothesized that if tno1 has defects in the delivery of endocytosed material to the TGN, then FM4-64 labeling of BFA bodies in tno1 roots would be reduced compared with WT roots. To test this hypothesis, 5-day-old WT and mutant seedlings were incubated with 35 μM BFA for an hour to allow formation of BFA bodies. They were then stained with 4 μM FM4-64 for 10 min in the presence of BFA, followed by two washes in MS medium containing BFA. The BFA bodies in both WT and tno1 roots showed normal FM4-64 staining (Figure 6B, white arrowheads) after 10 min. Thus, loss of TNO1 does not affect bulk endocytosis and membrane flow from the plasma membrane to the TGN in root cells.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "auxin",
+    "trans-Golgi network",
+    "lateral root",
+    "gravitropism",
+    "tethering factor",
+    "Plant Science",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Gravity sensing and signal transduction in vascular plant primary roots.",
+      "authors": [
+        "K. L. Baldwin",
+        "A. K. Strohm",
+        "P. H. Masson"
+      ]
+    },
+    {
+      "title": "Monoubiquitin-dependent endocytosis of the iron-regulated transporter 1 (IRT1) transporter controls iron uptake in plants.",
+      "authors": [
+        "M. Barberon",
+        "E. Zelazny",
+        "S. Robert",
+        "G. Conejero",
+        "C. Curie",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "AtVPS45 complex formation at the trans-Golgi network.",
+      "authors": [
+        "D. C. Bassham",
+        "A. A. Sanderfoot",
+        "V. Kovaleva",
+        "H. Zheng",
+        "N. V. Raikhel"
+      ]
+    },
+    {
+      "title": "Coats, tethers, Rabs, and SNAREs work together to mediate the intracellular destination of a transport vesicle.",
+      "authors": [
+        "H. Cai",
+        "K. Reinisch",
+        "S. Ferro-Novick"
+      ]
+    },
+    {
+      "title": "A combinatorial TIR1/AFB-Aux/IAA co-receptor system for differential sensing of auxin.",
+      "authors": [
+        "L. I. Calderón Villalobos",
+        "S. Lee",
+        "C. De Oliveira",
+        "A. Ivetac",
+        "W. Brandt",
+        "L. Armitage"
+      ]
+    },
+    {
+      "title": "The regulation of endosome-to-Golgi retrograde transport by tethers and scaffolds.",
+      "authors": [
+        "P. Z. Chia",
+        "P. A. Gleeson"
+      ]
+    },
+    {
+      "title": "Rab-A2 and Rab-A3 GTPases define a trans-golgi endosomal membrane domain in Arabidopsis that contributes substantially to the cell plate.",
+      "authors": [
+        "C. M. Chow",
+        "H. Neto",
+        "C. Foucart",
+        "I. Moore"
+      ]
+    },
+    {
+      "title": "Structure and function of endosomes in plant cells.",
+      "authors": [
+        "A. L. Contento",
+        "D. C. Bassham"
+      ]
+    },
+    {
+      "title": "Dynamic protein trafficking to the cell wall.",
+      "authors": [
+        "M. De Caroli",
+        "M. S. Lenucci",
+        "G. P. Di Sansebastiano",
+        "G. Dalessandro",
+        "G. De Lorenzo",
+        "G. Piro"
+      ]
+    },
+    {
+      "title": "Comparison of mechanisms controlling uptake and accumulation of 2,4-dichlorophenoxy acetic acid, naphthalene-1-acetic acid, and indole-3-acetic acid in suspension-cultured tobacco cells.",
+      "authors": [
+        "A. Delbarre",
+        "P. Muller",
+        "V. Imhoff",
+        "J. Guern"
+      ]
+    },
+    {
+      "title": "Auxin-dependent regulation of lateral root positioning in the basal meristem of Arabidopsis.",
+      "authors": [
+        "I. De Smet",
+        "T. Tetsumura",
+        "B. De Rybel",
+        "N. Frei Dit Frey",
+        "L. Laplaze",
+        "I. Casimiro"
+      ]
+    },
+    {
+      "title": "Vacuolar H+-ATPase activity is required for endocytic and secretory trafficking in Arabidopsis.",
+      "authors": [
+        "J. Dettmer",
+        "A. Hong-Hermesdorf",
+        "Y. D. Stierhof",
+        "K. Schumacher"
+      ]
+    },
+    {
+      "title": "Clathrin-mediated constitutive endocytosis of PIN auxin eﬄux carriers in Arabidopsis.",
+      "authors": [
+        "P. Dhonukshe",
+        "F. Aniento",
+        "I. Hwang",
+        "D. G. Robinson",
+        "J. Mravec",
+        "Y. D. Stierhof"
+      ]
+    },
+    {
+      "title": "Isolation and proteomic analysis of the SYP61 compartment reveal its role in exocytic trafficking in Arabidopsis.",
+      "authors": [
+        "G. Drakakaki",
+        "W. Van De Ven",
+        "S. Pan",
+        "Y. Miao",
+        "J. Wang",
+        "N. F. Keinath"
+      ]
+    },
+    {
+      "title": "Quantitative analysis of lateral root development: pitfalls and how to avoid them.",
+      "authors": [
+        "J. G. Dubrovsky",
+        "B. G. Forde"
+      ]
+    },
+    {
+      "title": "Auxin acts as a local morphogenetic trigger to specify lateral root founder cells.",
+      "authors": [
+        "J. G. Dubrovsky",
+        "M. Sauer",
+        "S. Napsucialy-Mendivil",
+        "M. G. Ivanchenko",
+        "J. Friml",
+        "S. Shishkova"
+      ]
+    },
+    {
+      "title": "Conserved structural features of the synaptic fusion complex: SNARE proteins reclassified as Q- and R-SNAREs.",
+      "authors": [
+        "D. Fasshauer",
+        "R. B. Sutton",
+        "A. T. Brunger",
+        "R. Jahn"
+      ]
+    },
+    {
+      "title": "Intermediate organelles of the plant secretory pathway: identity and function.",
+      "authors": [
+        "O. Foresti",
+        "J. Denecke"
+      ]
+    },
+    {
+      "title": "Subcellular trafficking of PIN auxin eﬄux carriers in auxin transport.",
+      "authors": [
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Eﬄux-dependent auxin gradients establish the apical-basal axis of Arabidopsis.",
+      "authors": [
+        "J. Friml",
+        "A. Vieten",
+        "M. Sauer",
+        "D. Weijers",
+        "H. Schwarz",
+        "T. Hamann"
+      ]
+    },
+    {
+      "title": "Conserved and plant-unique mechanisms regulating plant post-Golgi traffic.",
+      "authors": [
+        "M. Fujimoto",
+        "T. Ueda"
+      ]
+    },
+    {
+      "title": "Auxin transport inhibitors block PIN1 cycling and vesicle trafficking.",
+      "authors": [
+        "N. Geldner",
+        "J. Friml",
+        "Y. D. Stierhof",
+        "G. Jurgens",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "Journey to the cell surface-the central role of the trans-Golgi network in plants.",
+      "authors": [
+        "D. Gendre",
+        "K. Jonsson",
+        "Y. Boutte",
+        "R. P. Bhalerao"
+      ]
+    },
+    {
+      "title": "Conserved Arabidopsis ECHIDNA protein mediates trans-Golgi-network trafficking and cell elongation.",
+      "authors": [
+        "D. Gendre",
+        "J. Oh",
+        "Y. Boutte",
+        "J. G. Best",
+        "L. Samuels",
+        "R. Nilsson"
+      ]
+    },
+    {
+      "title": "Tethering factor P115: a new model for tether-SNARE interactions.",
+      "authors": [
+        "R. Grabski",
+        "J. Hay",
+        "E. Sztul"
+      ]
+    },
+    {
+      "title": "The march of the PINs: developmental plasticity by dynamic polar targeting in plant cells.",
+      "authors": [
+        "W. Grunewald",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "The axr4 auxin-resistant mutants of Arabidopsis thaliana define a gene important for root gravitropism and lateral root initiation.",
+      "authors": [
+        "L. Hobbie",
+        "M. Estelle"
+      ]
+    },
+    {
+      "title": "Tethering the assembly of SNARE complexes.",
+      "authors": [
+        "W. Hong",
+        "S. Lev"
+      ]
+    },
+    {
+      "title": "Shrinkage and fragmentation of the trans-Golgi network in non-meristematic plant cells.",
+      "authors": [
+        "B. H. Kang"
+      ]
+    },
+    {
+      "title": "TNO1 is involved in salt tolerance and vacuolar trafficking in Arabidopsis.",
+      "authors": [
+        "S. J. Kim",
+        "D. C. Bassham"
+      ]
+    },
+    {
+      "title": "News and views into the SNARE complexity in Arabidopsis.",
+      "authors": [
+        "S. J. Kim",
+        "F. Brandizzi"
+      ]
+    },
+    {
+      "title": "Gravity-induced PIN transcytosis for polarization of auxin fluxes in gravity-sensing root cells.",
+      "authors": [
+        "J. Kleine-Vehn",
+        "Z. Ding",
+        "A. R. Jones",
+        "M. Tasaka",
+        "M. T. Morita",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Polar targeting and endocytic recycling in auxin-dependent plant development.",
+      "authors": [
+        "J. Kleine-Vehn",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "BFA-induced compartments from the Golgi apparatus and trans-Golgi network/early endosome are distinct in plant cells.",
+      "authors": [
+        "S. K. Lam",
+        "Y. Cai",
+        "Y. C. Tse",
+        "J. Wang",
+        "A. H. Law",
+        "P. Pimpl"
+      ]
+    },
+    {
+      "title": "Lateral root development in Arabidopsis: fifty shades of auxin.",
+      "authors": [
+        "J. Lavenus",
+        "T. Goh",
+        "I. Roberts",
+        "S. Guyomarc’h",
+        "M. Lucas",
+        "I. De Smet"
+      ]
+    },
+    {
+      "title": "SNARE-ware: the role of SNARE-domain proteins in plant biology.",
+      "authors": [
+        "V. Lipka",
+        "C. Kwon",
+        "R. Panstruga"
+      ]
+    },
+    {
+      "title": "Sites and homeostatic control of auxin biosynthesis in Arabidopsis during vegetative growth.",
+      "authors": [
+        "K. Ljung",
+        "R. P. Bhalerao",
+        "G. Sandberg"
+      ]
+    },
+    {
+      "title": "AUX1 promotes lateral root formation by facilitating indole-3-acetic acid distribution between sink and source tissues in the Arabidopsis seedling.",
+      "authors": [
+        "A. Marchant",
+        "R. Bhalerao",
+        "I. Casimiro",
+        "J. Eklof",
+        "P. J. Casero",
+        "M. Bennett"
+      ]
+    },
+    {
+      "title": "AUX1 regulates root gravitropism in Arabidopsis by facilitating auxin uptake within root apical tissues.",
+      "authors": [
+        "A. Marchant",
+        "J. Kargul",
+        "S. T. May",
+        "P. Muller",
+        "A. Delbarre",
+        "C. Perrot-Rechenmann"
+      ]
+    },
+    {
+      "title": "Rab cascades and tethering factors in the endomembrane system.",
+      "authors": [
+        "D. F. Markgraf",
+        "K. Peplowska",
+        "C. Ungermann"
+      ]
+    },
+    {
+      "title": "Compartmental specificity of cellular membrane fusion encoded in SNARE proteins.",
+      "authors": [
+        "J. A. McNew",
+        "F. Parlati",
+        "R. Fukuda",
+        "R. J. Johnston",
+        "K. Paz",
+        "F. Paumet"
+      ]
+    },
+    {
+      "title": "A revised medium for rapid growth and bio assays with tobacco tissue cultures.",
+      "authors": [
+        "T. Murashige",
+        "F. Skoog"
+      ]
+    },
+    {
+      "title": "Gravity-regulated differential auxin transport from columella to lateral root cap cells.",
+      "authors": [
+        "I. Ottenschlager",
+        "P. Wolff",
+        "C. Wolverton",
+        "R. P. Bhalerao",
+        "G. Sandberg",
+        "H. Ishikawa"
+      ]
+    },
+    {
+      "title": "Membrane traffic and fusion at post-Golgi compartments.",
+      "authors": [
+        "M. Park",
+        "G. Jurgens"
+      ]
+    },
+    {
+      "title": "Novel auxin transport inhibitors phenocopy the auxin influx carrier mutation aux1.",
+      "authors": [
+        "G. Parry",
+        "A. Delbarre",
+        "A. Marchant",
+        "R. Swarup",
+        "R. Napier",
+        "C. Perrot-Rechenmann"
+      ]
+    },
+    {
+      "title": "Seven things we think we know about auxin transport.",
+      "authors": [
+        "W. A. Peer",
+        "J. J. Blakeslee",
+        "H. Yang",
+        "A. S. Murphy"
+      ]
+    },
+    {
+      "title": "Arabidopsis lateral root development: an emerging story.",
+      "authors": [
+        "B. Peret",
+        "B. De Rybel",
+        "I. Casimiro",
+        "E. Benkova",
+        "R. Swarup",
+        "L. Laplaze"
+      ]
+    },
+    {
+      "title": "Sequential induction of auxin eﬄux and influx carriers regulates lateral root emergence.",
+      "authors": [
+        "B. Peret",
+        "A. M. Middleton",
+        "A. P. French",
+        "A. Larrieu",
+        "A. Bishopp",
+        "M. Njo"
+      ]
+    },
+    {
+      "title": "Intracellular trafficking and PIN-mediated cell polarity during tropic responses in plants.",
+      "authors": [
+        "H. Rakusová",
+        "M. Fendrych",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Inhibition of auxin movement from the shoot into the root inhibits lateral root development in Arabidopsis.",
+      "authors": [
+        "R. C. Reed",
+        "S. R. Brady",
+        "G. K. Muday"
+      ]
+    },
+    {
+      "title": "Plant endosomal trafficking pathways.",
+      "authors": [
+        "F. C. Reyes",
+        "R. Buono",
+        "M. S. Otegui"
+      ]
+    },
+    {
+      "title": "How SNARE molecules mediate membrane fusion: recent insights from molecular simulations.",
+      "authors": [
+        "H. J. Risselada",
+        "H. Grubmuller"
+      ]
+    },
+    {
+      "title": "Ligand-induced endocytosis of the pattern recognition receptor FLS2 in Arabidopsis.",
+      "authors": [
+        "S. Robatzek",
+        "D. Chinchilla",
+        "T. Boller"
+      ]
+    },
+    {
+      "title": "An auxin transport mechanism restricts positive orthogravitropism in lateral roots.",
+      "authors": [
+        "M. R. Rosquete",
+        "D. Von Wangenheim",
+        "P. Marhavy",
+        "E. Barbez",
+        "E. H. Stelzer",
+        "E. Benkova"
+      ]
+    },
+    {
+      "title": "Reduced naphthylphthalamic acid binding in the tir3 mutant of Arabidopsis is associated with a reduction in polar auxin transport and diverse morphological defects.",
+      "authors": [
+        "M. Ruegger",
+        "E. Dewey",
+        "L. Hobbie",
+        "D. Brown",
+        "P. Bernasconi",
+        "J. Turner"
+      ]
+    },
+    {
+      "title": "Heterodimerization and endocytosis of Arabidopsis brassinosteroid receptors BRI1 and AtSERK3 (BAK1).",
+      "authors": [
+        "E. Russinova",
+        "J. W. Borst",
+        "M. Kwaaitaal",
+        "A. Cano-Delgado",
+        "Y. Yin",
+        "J. Chory"
+      ]
+    },
+    {
+      "title": "NIH Image to ImageJ: 25 years of image analysis.",
+      "authors": [
+        "C. A. Schneider",
+        "W. S. Rasband",
+        "K. W. Eliceiri"
+      ]
+    },
+    {
+      "title": "SNARE proteins: one to fuse and three to keep the nascent fusion pore open.",
+      "authors": [
+        "L. Shi",
+        "Q. T. Shen",
+        "A. Kiel",
+        "J. Wang",
+        "H. W. Wang",
+        "T. J. Melia"
+      ]
+    },
+    {
+      "title": "Vacuolar SNAREs function in the formation of the leaf vascular network by regulating auxin distribution.",
+      "authors": [
+        "M. Shirakawa",
+        "H. Ueda",
+        "T. Shimada",
+        "C. Nishiyama",
+        "I. Hara-Nishimura"
+      ]
+    },
+    {
+      "title": "Nanoscale architecture of endoplasmic reticulum export sites and of Golgi membranes as determined by electron tomography.",
+      "authors": [
+        "L. A. Staehelin",
+        "B. H. Kang"
+      ]
+    },
+    {
+      "title": "A role for the TOC complex in Arabidopsis root gravitropism.",
+      "authors": [
+        "J. P. Stanga",
+        "K. Boonsirichai",
+        "J. C. Sedbrook",
+        "M. S. Otegui",
+        "P. H. Masson"
+      ]
+    },
+    {
+      "title": "Rab GTPases as coordinators of vesicle traffic.",
+      "authors": [
+        "H. Stenmark"
+      ]
+    },
+    {
+      "title": "Multiple roles for membrane-associated protein trafficking and signaling in gravitropism.",
+      "authors": [
+        "A. K. Strohm",
+        "K. L. Baldwin",
+        "P. H. Masson"
+      ]
+    },
+    {
+      "title": "The power of chemical genomics to study the link between endomembrane system components and the gravitropic response.",
+      "authors": [
+        "M. Surpin",
+        "M. Rojas-Pierce",
+        "C. Carter",
+        "G. R. Hicks",
+        "J. Vasquez",
+        "N. V. Raikhel"
+      ]
+    },
+    {
+      "title": "The action of specific inhibitors of auxin transport on uptake of auxin and binding of N-1-naphthylphthalamic acid to a membrane site in maize coleoptiles.",
+      "authors": [
+        "M. R. Sussman",
+        "M. H. Goldsmith"
+      ]
+    },
+    {
+      "title": "The auxin influx carrier LAX3 promotes lateral root emergence.",
+      "authors": [
+        "K. Swarup",
+        "E. Benkova",
+        "R. Swarup",
+        "I. Casimiro",
+        "B. Peret",
+        "Y. Yang"
+      ]
+    },
+    {
+      "title": "AUX/LAX family of auxin influx carriers-an overview.",
+      "authors": [
+        "R. Swarup",
+        "B. Peret"
+      ]
+    },
+    {
+      "title": "Role of vesicle tethering factors in the ER-Golgi membrane traffic.",
+      "authors": [
+        "E. Sztul",
+        "V. Lupashin"
+      ]
+    },
+    {
+      "title": "Polar localization and degradation of Arabidopsis boron transporters through distinct trafficking pathways.",
+      "authors": [
+        "J. Takano",
+        "M. Tanaka",
+        "A. Toyoda",
+        "K. Miwa",
+        "K. Kasai",
+        "K. Fuji"
+      ]
+    },
+    {
+      "title": "Spatiotemporal asymmetric auxin distribution: a means to coordinate plant development.",
+      "authors": [
+        "H. Tanaka",
+        "P. Dhonukshe",
+        "P. B. Brewer",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "1-N-naphthylphthalamic acid and 2,3,5-triiodobenzoic acid: in-vitro binding to particulate cell fractions and action on auxin transport in corn coleoptiles.",
+      "authors": [
+        "K. S. Thomson",
+        "R. Hertel",
+        "S. Muller",
+        "J. E. Tavares"
+      ]
+    },
+    {
+      "title": "A mobile secretory vesicle cluster involved in mass transport from the Golgi to the plant cell exterior.",
+      "authors": [
+        "K. Toyooka",
+        "Y. Goto",
+        "S. Asatsuma",
+        "M. Koizumi",
+        "T. Mitsui",
+        "K. Matsuoka"
+      ]
+    },
+    {
+      "title": "Qa-SNAREs localized to the trans-Golgi network regulate multiple transport pathways and extracellular disease resistance in plants.",
+      "authors": [
+        "T. Uemura",
+        "H. Kim",
+        "C. Saito",
+        "K. Ebine",
+        "T. Ueda",
+        "P. Schulze-Lefert"
+      ]
+    },
+    {
+      "title": "Dynamic behavior of the trans-golgi network in root tissues of Arabidopsis revealed by super-resolution live imaging.",
+      "authors": [
+        "T. Uemura",
+        "Y. Suda",
+        "T. Ueda",
+        "A. Nakano"
+      ]
+    },
+    {
+      "title": "Talking through walls: mechanisms of lateral root emergence in Arabidopsis thaliana.",
+      "authors": [
+        "A. Vilches-Barro",
+        "A. Maizel"
+      ]
+    },
+    {
+      "title": "Endocytic and secretory traffic in Arabidopsis merge in the trans-Golgi network/early endosome, an independent and highly dynamic organelle.",
+      "authors": [
+        "C. Viotti",
+        "J. Bubeck",
+        "Y. D. Stierhof",
+        "M. Krebs",
+        "M. Langhans",
+        "W. Van Den Berg"
+      ]
+    },
+    {
+      "title": "Trans-Golgi network: an intersection of trafficking cell wall components.",
+      "authors": [
+        "N. Worden",
+        "E. Park",
+        "G. Drakakaki"
+      ]
+    },
+    {
+      "title": "High-affinity auxin transport by the AUX1 influx carrier protein.",
+      "authors": [
+        "Y. Yang",
+        "U. Z. Hammes",
+        "C. G. Taylor",
+        "D. P. Schachtman",
+        "E. Nielsen"
+      ]
+    },
+    {
+      "title": "OSM1/SYP61: a syntaxin protein in Arabidopsis controls abscisic acid-mediated and non-abscisic acid-mediated responses to abiotic stress.",
+      "authors": [
+        "J. Zhu",
+        "Z. Gong",
+        "C. Zhang",
+        "C. P. Song",
+        "B. Damsz",
+        "G. Inan"
+      ]
+    }
+  ],
+  "original_title": "Gravitropism and lateral root emergence are dependent on the trans-Golgi network protein TNO1",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/dc79/4642138/2c46128966c2/fpls-06-00969-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/dc79/4642138/4ec735a7a202/fpls-06-00969-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/dc79/4642138/6942e428effa/fpls-06-00969-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/dc79/4642138/8ef2bcb3da2f/fpls-06-00969-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/dc79/4642138/d6ee378b2489/fpls-06-00969-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/dc79/4642138/24df777c3af5/fpls-06-00969-g006.jpg"
+  ]
+}

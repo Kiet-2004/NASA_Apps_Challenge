@@ -1,0 +1,615 @@
+{
+  "pmcid": "PMC11451251",
+  "title": "Adaptation to space conditions of novel bacterial species isolated from the International Space Station revealed by functional gene annotations and comparative genome analysis",
+  "abstract": "Background\n\nThe extreme environment of the International Space Station (ISS) puts selective pressure on microorganisms unintentionally introduced during its 20+ years of service as a low-orbit science platform and human habitat. Such pressure leads to the development of new features not found in the Earth-bound relatives, which enable them to adapt to unfavorable conditions.\n\nResults\n\nIn this study, we generated the functional annotation of the genomes of five newly identified species of Gram-positive bacteria, four of which are non-spore-forming and one spore-forming, all isolated from the ISS. Using a deep-learning based tool—deepFRI—we were able to functionally annotate close to 100% of protein-coding genes in all studied species, overcoming other annotation tools. Our comparative genomic analysis highlights common characteristics across all five species and specific genetic traits that appear unique to these ISS microorganisms. Proteome analysis mirrored these genomic patterns, revealing similar traits. The collective annotations suggest adaptations to life in space, including the management of hypoosmotic stress related to microgravity via mechanosensitive channel proteins, increased DNA repair activity to counteract heightened radiation exposure, and the presence of mobile genetic elements enhancing metabolism. In addition, our findings suggest the evolution of certain genetic traits indicative of potential pathogenic capabilities, such as small molecule and peptide synthesis and ATP-dependent transporters. These traits, exclusive to the ISS microorganisms, further substantiate previous reports explaining why microbes exposed to space conditions demonstrate enhanced antibiotic resistance and pathogenicity.\n\nConclusion\n\nOur findings indicate that the microorganisms isolated from ISS we studied have adapted to life in space. Evidence such as mechanosensitive channel proteins, increased DNA repair activity, as well as metallopeptidases and novel S-layer oxidoreductases suggest a convergent adaptation among these diverse microorganisms, potentially complementing one another within the context of the microbiome. The common genes that facilitate adaptation to the ISS environment may enable bioproduction of essential biomolecules need during future space missions, or serve as potential drug targets, if these microorganisms pose health risks.\n\nVideo Abstract\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1186/s40168-024-01916-8.",
+  "introduction": "Introduction\n\nThe environment of outer space, characterized by intense radiation and high vacuum, presents harsh conditions for any form of life. Despite this, microorganisms have demonstrated a remarkable adaptability to these extreme space environments. Organisms known as extremophiles, such as bacteria (e.g., Bacillus, Deinococcus species), fungi, tardigrades, bdelloid rotifers, and many others, are well-documented for their ability to survive in space conditions. As such, it is virtually impossible to prevent the transfer of microbial life to exploratory space vessels or planets. In addition to microorganisms potentially hitching a ride with robotic components, the microbiomes of humans also travel to space. This not only includes the microbiomes of space crew members, but also free-living microorganisms associated with cargo, science instruments, and test animals, including potential pathogens which should be considered for their potential to adapt to space conditions.\n\nThe exposure of microbes to outer space, or simulated versions of these conditions, has been extensively studied to test survival capabilities and assess the panspermia hypothesis. Over several decades, various microbial samples have been exposed to space conditions via balloons, rockets, and spacecraft as part of the pioneering experiments in astrobiology (reviewed in). For example, after 18 months of exposure, Bacillus pumilus SAFR-032, a bacterium isolated from the Jet Propulsion Laboratory’s Spacecraft Assembly Facility (JPL-SAF), exhibited 10–40% survivability when UV was masked. However, when these SAFR-032 spores were exposed to UV light (above 110 nm) and vacuum in space for 18 months, except for a few spores, there was a roughly 7-log reduction in viability. Similarly, dried Deinococcus cell pellets, particularly those 500 μm in thickness, remained viable after three years of space exposure due to a shadowing effect. Moreover, D. radiodurans after being subjected to 1-year exposure to outer space during Tanpopo mission, showed a collection of molecular alterations, e.g., DNA damage and oxidative stress response and accumulation of metal transporters. In a recent study, a survival of D. radiodurans exposed to near space conditions was correlated with a growth condition prior to the exposure. A comparative proteomics analysis of B. pumilus SAFR-032 revealed that proteins conferring resistance traits, such as superoxide dismutase, were present in higher concentrations in the vegetative cells derived from spores exposed to space compared to ground controls. Furthermore, the first-generation spores of B. pumilus SAFR-032 resulting from space-exposed samples demonstrated increased UVC resistance (around 4000 J/m2) compared to their ground control counterparts.\n\nThe International Space Station (ISS) is a closed environment that houses a diverse range of microorganisms, including potential pathogens. As we prepare for long-term space explorations, understanding the molecular mechanisms that allow microorganisms to survive and adapt during spaceflight is becoming increasingly important. Monitoring the microbial population onboard the ISS is crucial for safeguarding astronaut health and preventing contamination of both the spacecraft and its equipment. Whole-genome sequencing (WGS) and phenotypic characterization of any novel microbial species discovered on the ISS can help identify potential pathogens and comprehend their impact on the closed habitat and crew health. However, to accurately identify potential microbial threats, it is essential to maintain a current and comprehensive database of microbial genomes, detailing both their species identities and phenotypic traits. This database, continuously updated through WGS of pure cultures, is crucial for gathering genetic data and assisting in the identification of microbial threats via shotgun metagenomic sequencing. Moreover, the active initiatives to characterize the cultivable microbiome of previously not sequenced space habitats contribute to decreasing the unidentified microbial ‘dark matter’ in metagenomic sequencing outcomes.\n\nResearch conducted in space or using ground-based simulators has shown that microgravity conditions can alter various biological processes, including growth, morphology, gene expression, virulence, drug resistance, biofilm formation, and secondary metabolism. Studies focusing on the microbiome have reported an increase in antibiotic resistance markers in astronauts’ saliva, although these changes were temporary and reversed upon returning to Earth. Other research has indicated that microbial isolates from space environments are differentiating themselves from their Earth-bound counterparts, showing signs of adaptation to their new environment. Interestingly, under spaceflight conditions, one species, Bacillus safensis JPL-MERTA-8-2, exhibited a 60% improvement in growth compared to its Earth-based growth.\n\nThis study focused on the genomic peculiarities of novel species isolated from the ISS and compared WGS of the closest relatives found in Earth environments. A thorough analysis was conducted on genes associated with DNA repair, radiation resistance, microgravity adaptation, stress responses, and metabolic changes (Fig. 1). These genes were compared to their terrestrial counterparts, and potential variations induced by space conditions were observed. The protein-coding sequences from each species pair were compared using a set of similarity metrics, unearthing potentially novel genes and clusters that might have been evolved in space. Furthermore, mutations within these sequences were rigorously analyzed, and their protein structures were predicted using in silico models. This approach illuminates the genetic adaptations undertaken in stringent conditions of the space environment. In essence, by comparing space and Earth genomes and identifying mutation patterns, a clearer insight into genetic evolution influenced by space conditions has been obtained.",
+  "methods": "Methods\n\nBacteria isolation, genome assembly and annotation\n\nSample collection and bacterial isolation from ISS were performed as previously described. Biochemical tests were performed using a Gram-positive identification card (Vitek 2 GP ID, bioMérieux) and phenotypic fingerprint was generated through GNIII MicroPlate according to BioLog’s protocol as described elsewhere. We assembled the genomes of five novel bacterial species isolated from various surfaces of the ISS (specifically strains IF8SW-P5, IIF3SC_B10, F6_8S_P_1B, F6_8S_P_2B, F6_3S_P_1C), using the SPAdes workflow. Phylogenetic affiliations are as outlined in and presented in Table 1.\n\nDNA extraction\n\nThe ISS isolates (n = 5) were grown on R2A medium and incubated at 30 °C, for 2 to 7 days. For WGS, DNA was isolated with the ZymoBIOMICS DNA MagBead kit, and WGS libraries prepared using the Illumina Nextera DNA Flex kit. Sequencing on the NovaSeq 6000 platform involved paired-end, 2 × 150 bp reads. FastQC (https://github.com/s-andrews/FastQC) and fastp ensured data quality. WGS reads were assembled using SPAdes, with genome statistics from QUAST and quality checks from CheckM. Species verification through fastANI and fastAAI (https://github.com/cruizperez/FastAAI) confirmed identities with over 95% identity, and digital DNA-DNA hybridization (dDDH) was estimated with GGDC using Formula 2. For genome synteny analysis, we used SynTracker.\n\nGenome annotation\n\nFollowing assembly, the contigs were subjected to the NCBI Prokaryotic Genome Annotation Pipeline (PGAP), available at https://github.com/ncbi/pgap/wiki, in order to obtain draft genomes and proteomes. Genomes were further investigated for their functions, where all identified genes (bearing PGAP descriptions in their names) underwent homology-based annotation using eggNOG v5.0, accessible at https://github.com/eggnogdb/eggnog-mapper. Genomes of closest relatives of the ISS species (highest ANI) were also subjected to PGAP and eggNOG annotation.\n\nProteomes with the PGAP identifiers were used as input for DeepFRI analysis, available on github: (https://github.com/bioinf-mcb/Metagenomic-DeepFRI/), which generated query contact map using results from mmseqs2 target database search for similar protein sequences with known structures and with v 1.0 model weights. For reference database, we combined structures from Swissprot (https://alphafold.ebi.ac.uk/download), microbiome immunity project (MIP) and protein databank (PDB, https://www.rcsb.org). Next, the contact map alignment was performed to use it as input to DeepFRI’s Graph Convolutional Network (GCN) and annotations without the alignment to known structures were processed with Convolutional Neural Network (CNN). For MQ and HQ annotation, scores higher than or equal to 0.3 (50% of prediction confidence; MQ) and 0.5 (90% of prediction confidence; HQ) were used respectively (Figs. 2-3). All annotations for ISS strains and their terrestrial relatives are provided in Supplementary Tables S2–S11. Phylogenetically close relatives from Earth for each tested species were identified using ANI (Table 1). Their genomes were annotated using DeepFRI as described above. Protein sequences from the aforementioned five species were aligned and conducted two-dimensional clustering using CD-HIT, available at https://github.com/weizhongli/cdhit, employing a 40% similarity threshold. Genes below that threshold were considered “novel” and subjected to analysis shown in Fig. 3A–B.\n\nAnnotations (GO terms) were then compared between ISS strains (Supplementary Table S12) and their terrestrial counterparts (Supplementary Table S13). Common annotations were aggregated according to clusters of orthologous genes (COG) categories using go2cog mapper (https://github.com/Tomasz-Lab/go2cog). GO terms that could be assigned to more than 3 COG categories were grouped as category R—“general function prediction” (Figs. 2 and 3). Heatmaps were generated using seaborn (https://github.com/mwaskom/seaborn). Venn diagrams and Upsetplot were generated using matplotlib (https://github.com/matplotlib/matplotlib). Using a knowledge-based approach, a set of genes was selected for further analysis. Protein structures were modeled using in silico structure prediction tool—AlphaFold Colab —and hence obtained protein databank (PDB) format structures were aligned using Geneious Prime 2023.1.1 (Biomatters). Structures were aligned using TM-align tool. Based on the predicted structure, novel functional annotation was performed using DeepFRI. All the annotation data and scripts are placed in the repository on github (https://github.com/lmszydlowski/Adaptation-of-novel-bacterial-species-isolated-from-the-International-Space-Station).\n\nSequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome\n\nSequences of selected proteins were aligned using Muscle 5.1. Clustering dendrograms were built using PhyML 3.3, using LG amino acid substitution model and approximate likelihood ratio test (aLRT) for branch support. All contigs generated for each genome were scanned for potential plasmids using PLASme software (https://github.com/HubertTang/PLASMe), phage-related elements using PHASTER software and results provided in the Supplementary Tables S15–S16. Genome sequences were also processed through the AntiSMASH 7.0 software to look for biosynthetic gene clusters (BGCs) (Supplementary Table S14).\n\nProtein mutation and enrichment analysis\n\nTo investigate the roles and processes of proteins highly enriched in bacteria from the ISS, we specifically focused on the enrichment of certain amino acids, especially proline and glycine, which belong to unique amino acid change groups. The amino acid compositions of proteins from the ISS strains were compared with those proteins found in the closest terrestrial species through global alignment methods. This facilitates the identification and quantification of any shifts in the amino acid composition. These shifts were evaluated by calculating the mutation rate, which is achieved by dividing the number of amino acid substitutions in the ISS bacteria by the number of amino acid substitutions in their closest terrestrial relatives. Proteins with normalized amino acid mutation rate and Z-score above 1.96 or below − 1.96 were classified as enriched. To investigate the functions and pathways of these proteins, we utilize the g:Profiler enrichment tool (https://biit.cs.ut.ee/gprofiler/gost). Custom gene sets for bacteria were created using UniProt’s predicted GO term associations for bacterial proteins. The tool was configured to include a minimum gene set size of 5 and a maximum of 10,000, focusing on molecular function GO terms. Shared gene sets between samples were filtered using a false discovery rate (FDR) cutoff of 0.05 in 1424 molecular function GO terms. Data visualization was enhanced through ete3 (https://doi.org/10.1093/molbev/msw046) for constructing phylogenetic trees and seaborn (https://github.com/mwaskom/seaborn) for generating heatmaps. The phylogenetic distance between bacterial species was calculated using NCBI’s distance calculations, with the closest terrestrial bacteria as a reference.\n\nAvailability of data and materials\n\nThe draft genome sequences of strains IIF3SC_B10, F6_3S_P_1C and F6_8S_P_1B were deposited in NCBI under BioProject PRJNA935338 (see. Strains F6_8S_P_2B and IF8SW-P5 were deposited in BioProjects PRJNA869446 and PRJNA224116, respectively. The WGS accession numbers are given in Table 1 and the genome versions described in this paper are the first versions. Moreover, genomes of all ISS strains and their terrestrial relatives are available on Kbase (narrative 107942).",
+  "results": "Results\n\nComparison of different annotations and between the isolates and within pangenome context\n\nFive novel species of Gram-positive bacteria that were isolated from the ISS were analyzed. Their generic features and the results of other molecular analyses are presented in Table 1 and Supplementary Fig. S1. These bacteria were obtained from various flights, locations, and time periods, and are associated with different phylogenetic groups. The strain F6_3S_P_1C, which belongs to the Paenibacillus genus, has been identified as a spore-former, while the other four species were identified as non-spore-forming Actinobacteria. Through ANI and AAI analysis, we established closest Earth relatives (Table 1 and Supplementary Table S1). Additionally, we performed synteny analysis using all top ANI hits for each of the five organisms (Supplementary Table S1), but yielded no results (data not shown), thus indicating all ISS isolates are distinct species.\n\nAnnotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)\n\nWhen the annotated genomes were compared with several methods (PGAP, eggNOG), DeepFRI analysis showed highest annotation coverage and provided a confidence scale (based on the score value), to filter medium quality (MQ) and high-quality (HQ) annotations and the results are shown in Fig. 2 (see the “Methods” for details). In total, the genomes of the novel species encompassed 1290 and 1184 shared MQ and HQ annotations (1778 all annotations, Fig. 2a, b). The majority of shared annotations were related to metabolism, followed by cellular processing and signaling and information storage and processing (Fig. 2c; all common annotations (GO terms) are detailed in Supplementary Table S12 in the Supplementary material).\n\nAnnotations unique to ISS bacterial species\n\nAll curated National Center for Biotechnology Information (NCBI) genomes were used to find the closest terrestrial relatives for the novel ISS bacterial species and the genome that exhibited the highest average nucleotide identity (ANI) value was further compared with genomes of ISS strains to characterize unique annotation. When compared with their closest terrestrial relatives all ISS species have different numbers of unique annotations (Fig. 3a), which corresponds to their ANI (the higher the ANI, the fewer unique annotations). Additionally, two-dimensional Conserved Domain (CD)-hit clustering was performed between each isolate and its closest relative, using a 40% sequence similarity threshold. Thus, for each isolate a subgroup of unique genes (with no counterparts in their closest relative) was found (Supplementary Tables S2–S11). A comparison between these genes revealed the presence of 74 and 49 MQ and HQ common annotations, respectively (309 total annotations, Fig. 3b, Supplementary Table S13).\n\nWhen aligning the novel genes in the genome context, we found the presence of potential novel biosynthetic gene clusters (BGCs) in all species. These BGCs encode secondary metabolites such as terpenes, carotenes, betalactones, lanthipeptides, lassopeptides, non-ribosomal metallophores, furans, non-alpha poly-amino acids (NAPAA), type 3 polyketide synthase (T3PKS), ribosomally synthesized and post-translationally modified peptides (RiPP), proteusins (Supplementary Fig. S1), Our findings of BGCs are complimentary to the previously reported BGCs in A. burdickii, L. williamsii, and P. vandeheii. We also expand the BGCs classification of the studied ISS species into the “novel” category, which are not found in the genomes of their closest terrestrial relatives. In this study, we report small molecule biosynthetic pathways, metal ion transporters and other transmembrane transporters. Furthermore, transcription factors associated with environmental stress have been found (Supplementary Table S14).\n\nGiven the difference in ANI for each ISS-species:closest-relative pair, a different number of novel gens was obtained in each case, proportional to the phylogenetic distance (the lower the ANI, the more novel genes were found). We therefore focused on the two Microbacteria species, as their ANI to the closest relative was higher than 98%. Using Muscle, we aligned sequences of novel genes from each species together. We found an example of novel genes (Mma_002827 and Mme_000934) being present in both species with high (52.8%) sequence similarity. Given that initial annotation (“heavy metal associated domain,” “response to copper ion,” see Supplementary Tables S2 and S6), was sequence-based (see the “Methods\" for details), another approach was assayed, with structure prediction, followed by a functional annotation. Superpositions of predicted structures (both with pTM > 0.7 and pLDDT > 80) are almost identical (Fig. 3c). The structure-based deepFRI annotations reveal that these proteins have oxidoreductase activity (acting on CH-NH2 group of donors) and that are located in the extracellular layer of the cell (Supplementary Table S15). When compared to the proteome of D. radiodurans, weak structural homology was found to extracellular protein WP_027479552.1 (TM-score 0.34, see Supplementary Fig. S2).\n\nMobile genetic elements (MGEs) such as transposases were also found in all species except L. williamsii. There is also evidence of plasmid in some of the species (M. mcarthurae, M. meiriae), due to the presence of relaxosome encoding genes, such as MobC/L family relaxase (Fig. 5, Supplementary Table S16).\n\nComparison of proteome-level mutations in the ISS species and within pangenome context\n\nSeveral groups of proteins, important for adaptation to space environmental conditions were analyzed between ISS species and their closest Earth relatives. In metallopeptidases, the mutation rate of hydrophobic amino acids and glycine are higher than 1 in this protein group, suggesting an enrichment of these amino acids in the metallopeptidase proteins of ISS bacteria. These mutations might enhance the stability of these proteins under space environmental conditions (Fig. 4A). Glycine enrichment is a measure of how often the amino acid glycine appears in a protein sequence compared to what would be expected by chance (see the “Methods\" for more details). Significant glycine enrichment in a protein can suggest evolutionary pressures and adaptive responses to make proteins more flexible via mutation to glycine. The metallopeptidase activity stands out as it exhibits consistent glycine enrichment across all strains, suggesting it may play a critical role in universal adaptive mechanisms (Fig. 4B). Other molecular functions, such as “ATP-dependent peptidase activity” and “2-C-methyl-D-erythritol-4-phosphate cytidylyltransferase activity,” show high glycine enrichment, but only in both Microbaterium species, indicating potential taxonomy-based adaptations (Fig. 4B).\n\nCertain molecular functions, such as “5 formyltetrahydrofolate cyclo ligase activity,” “ATP dependent peptidase activity,” and “ATP phosphoribosyltransferase activity,” display a high degree of hydrophobic amino acid enrichment, but only in M. meiriae and L. williamsii. This could suggest convergent adaptations involving changes in hydrophobicity of aforementioned proteins. Interestingly, “metallopeptidase activity” shows hydrophobic amino acid enrichment across all ISS species, albeit at a lower level than glycine enrichment. This could suggest a universal, but less dominant, adaptive strategy involving changes in protein hydrophobicity. These patterns underscore the complexity of potential adaptive strategies, highlighting the interplay between different types of amino acid changes in response to ISS environments (Fig. 4B). Metallopeptidases play role in celluar stress response, biofilm formation, as well as virulence and hence are important factors in microbial adaptations to space conditions. Therefore, comparative analysis of sequences and structures of selected metallopeptidases from M. meiriae and its closest relative will be further discussed in the section below.\n\nCase studies of adaptations\n\nThe functional annotations were further investigated to search for genes that would allow adaptation to life in space. The genes of interest were summarized in Fig. 5.\n\nEnergy metabolism\n\nAs previously reported metabolic rearrangements are essential part of adaptations to life in space (see overview in Fig. 1). Common annotations show the presence of genes encoding proteins related to carbohydrate, cofactors and coenzymes metabolism (Figs. 2c and 3b). Apart from genomic annotation (Supplementary Table S12), metabolic tests conducted on the ISS bacterial species reveal their ability to grow on a broad range of carbon sources, including cyclic compounds, oligo- and polysaccharides (Supplementary Fig. S3a–b). All species are capable of growing on 27 substrates being the sole carbon source, including carbohydrates (pectin, dextrin, mannose, fucose, gentibiose, lactose, melibiose, glucose, galactose, fructose as well as their branched and glycosylated derivatives), fatty acids (acetic acid, L-malic acid, sodium lactate and butyrate), amino acids (L-glutamic acid), alcohols (glycerol) and antibiotics (vancomycin and aztreonam). They can also grow at 1% NaCl concentration and pH6. Apart from the spore-forming P. vandeheii, the other bacteria can also utilize tween 40, gelatin, D-malic acid, L-lactic acid, propionic acid, D/L-serine, L-alanine, sorbitol, lincomycin, minocycline, nalidixic acid, rifamycin, as well as grow in the presence of lithium chloride. On the other hand, only P. vandeheii is able to grow in the presence of sodium bromate. Additionally to the species described by Simpson and colleagues, two species of Microbacterium were characterized for the first time. These species are able to utilize 72 carbon sources altogether (80 and 73 substrates for M. mcarthurae and M. meiriae, respectively), grow at 8% NaCl concentration, as well as in the presence of lithium chloride and potassium tellurite. Unlike other species, either M. mcarthurae or M. meiriae can utilize -keto-glutaric acid and citric acid.\n\nMechanosensitive ion channels (Msc) and osmoprotectants\n\nExcept for A. burdickii, each of the studied organisms has at least one copy of mscS gene annotated. Msc proteins are known to play a crucial role in adapting cells to the osmotic pressure. Overall, two variants of Msc proteins exist: large conductance (3.6 nS) MscL and small conductance (1 nS) MscS. Large conductance channels are generally conserved and present in most bacteria as well as eukaryotes, although they are not found in deep sea species, where no pressure changes occur. Conversely, MscS are diverse structurally and functionally and occur in those organisms, which exhibit hypo-osmotic stress periodically (e.g., desiccation). MscS proteins have a common core architecture but show different gating mechanisms and conductive properties. Because low gravity conditions can be viewed as decrease in osmotic pressure, leading to the hypo-osmotic stress, their presence is therefore crucial for survival in ISS. All terrestrial relatives have a copy of mscS gene with over 90% sequence similarity to their homologous gene from the ISS species (Supplementary Fig. S4), except for L. williamsii, where there is an additional copy of the mscS with no homology in the genome of Leifsonia sp. ku-ls. Nevertheless, the presence of an additional copy of mscS gene could be due to the larger phylogenetic distance, as indicated by ANI (Fig. 3A). As for the osmoprotectants, there is no commonly shared metabolite, as genes related to betaine, choline, ectoine and trehalose synthesis are not present in all five species.\n\nRedox stress\n\nChanges in osmotic pressure, as well as exposure to ionizing radiation may lead to the formation of reactive oxygen species (ROS) that have detrimental effects on cells. From the studies on Deinococcus it was found that it has elevated intracellular concentrations of Mn as well as Fe. All studied ISS strains show an elevated number of metalloproteins compared to their closest terrestrial counterparts (Supplementary Table S12). In the case of M. mcarthurae and M. meiriae, there are 27 and 25 unique metalloproteins, respectively (Supplementary Table S14), which include metallopeptidases, thioredoxins, metalloregulated transcription factors and heavy metal associated P-type ATPases. Metallopeptidases were of our special interest, as they showed certain adaptive mutations in all studied species (as described in previous section). Therefore, we decided to further analyze the metallopeptidase pair from M. meiriae and its terrestrial relative Microbacterium sp. LTR1. We found aminopeptidases in two of these species (Mme_001931 and WP_268776344.1 from M. meiriae and its terrestrial relative Microbacterium sp. LTR1, respectively), which share only 44% protein sequence similarity (58.4% nucleotide similarity, Supplementary Fig. S5). When structural models were calculated for these proteins (both with pTM-score  0.9), their superposition is almost identical (Fig. 6A), despite the low sequence similarity. When analyzing enrichment of the amino acids in Mme_001931 with WP_268776344.1 as a baseline, we observed enrichment of arginine and methionine, which were over 1.5 times more abundant compared to terrestrial protein. Opposite case was observed for lysine, which was over 2 times less abundant in ISS organism (Fig. 6B). When superimposed to deinococcal aminopeptidase (WP_0516188611), Mme_001931 exhibited similarly high TM-score (0.83), although the latter’s size is 1.81 times bigger than WP_0516188611 (Supplementary Fig. S6). In terms of amino acid enrichment, WP_051618861 also showed an elevated amount of arginines (8.3% wrt 5.5%) with subsequent decrease of lysines (1.1% wrt 2.6%) and increase in methionine with decrease of negatively charged amino acids, but also increase in glycines, histidines and prolines. Nonetheless, there is almost two times the size difference and further phylogenetic distance than in the case of M. meiriae (Supplementary Figure S6).\n\nDNA protection, repair and recombination\n\nAnother feature associated with ISS is the elevated rate of DNA-damaging due to radiation. Deinococcus radiodurans was extensively tested for its ability to protect and repair damaged DNA, which was due to its homologous recombination (HR) kit. All ISS species encode 10–14 genes related to HR, compared to 10 genes identified in D. radiodurans (Fig. 5). Similarly, all of the genomes share the set of rec, ruv, rad and uvr genes. In terms of non-homologous end-joining (NHEJ), all ISS strains share at least one gene. When compared with the Rec protein family from D. radiodurans and B. pumilus (Supplementary Fig. S7), clusters reflect phylogenetic distances. Moreover, all ISS strains share the LexA repressor (EC 3.4.21.88), which is part of the SOS response.\n\nPhage elements\n\nPhage elements were found in all genomes of ISS strains, with at least two phage-related genes found in each strain. Holin is a short protein containing few transmembrane regions. Although holin is usually accompanied by endolysin, there is no evidence of phage-related endolysin in any of the genome of ISS strains, suggesting that the phage elements could have been domesticated or removed. When tested with PHASTER software, prophage elements were detected only in the genome of P. vandeheii, as well as in its closest Earth relative (Supplementary Table S16).\n\nPotential pathogenicity and antibiotic resistance\n\nCommon annotations (Supplementary Table S2) indicate the presence of genes with virulence potential, such as metallophores and hemolysins (including the group III family, which forms oligomeric complexes), which are present in all ISS strains. However, ISS strains often exhibit enhanced expression of these virulence genes due to the unique selective pressures of the space environment, such as microgravity and increased radiation. In contrast, Earth analogous strains show a greater diversity in these genes, driven by varied environmental challenges and human influences like antibiotic use and pollution (. Genomes of all ISS bacterial species contain genes involved in biofilm formation, potentially posing a pathogenic risk to humans under specific conditions, even though these genera and their closest terrestrial relatives are not typically known to be infectious agents. Comparatively, Earth counterparts also form biofilms, but the selective pressures driving this ability differ. On Earth, biofilm formation is often a response to environmental challenges such as antibiotic exposure and surface colonization in diverse habitats. In contrast, ISS bacteria have shown adaptations favoring biofilm formation and surface interactions due to the unique conditions of the space environment, such as microgravity and limited nutrient availability. Additionally, as Mora et al. highlighted in their work, the genomic and physiological features selected by ISS conditions, though not directly pertinent to human health, exhibit considerable adaptations for biofilm formation and surface interactions. Their research underscores the importance of minimizing local moisture to prevent the formation of potentially harmful biofilms. Metabolic assays indicate that all ISS bacterial species have the ability to degrade at least two antimicrobial compounds (Supplementary Fig. S3ab), showcasing their resilience in a controlled, high-stress environment. These bacteria also harbor various P-type translocating transportases and metallopeptidases within their pool of novel genes (Supplementary Table S12), suggesting advanced mechanisms for survival and resistance. Similarly, Earth analogs have evolved to degrade antimicrobial compounds, especially in environments heavily influenced by human activity, such as hospitals and agricultural sites.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Functional annotation",
+    "International space station",
+    "Extremophiles",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Survival of Bacillus pumilus spores for a prolonged period of time in real space conditions",
+      "authors": [
+        "PA Vaishampayan",
+        "E Rabbow",
+        "G Horneck",
+        "KJ Venkateswaran"
+      ]
+    },
+    {
+      "title": "Deinococcus radiodurans - The consummate survivor",
+      "authors": [
+        "MM Cox",
+        "JR Battista"
+      ]
+    },
+    {
+      "title": "Survival of Antarctic Cryptoendolithic Fungi in Simulated Martian Conditions on Board the International Space Station",
+      "authors": [
+        "S Onofri",
+        "JP De Vera",
+        "L Zucconi",
+        "L Selbmann",
+        "G Scalzi",
+        "KJ Venkateswaran"
+      ]
+    },
+    {
+      "title": "Rebecchi L, Altiero T, Cesari M, Bertolani R, Rizzo AM, Corsetto Pa, et al. Resistance of the anhydrobiotic eutardigrade Paramacrobiotus richtersi to space flight (LIFE-TARSE mission on FOTON-M3). J Zool Syst Evol Res. 2011;49:98–103. 10.1111/j.1439-0469.2010.00606.x.",
+      "authors": []
+    },
+    {
+      "title": "Macrotrachela quadricornifera featured in a space experiment",
+      "authors": [
+        "C Ricci",
+        "M Caprioli",
+        "C Boschetti",
+        "N Santo"
+      ]
+    },
+    {
+      "title": "Planetary exploration in the time of astrobiology: Protecting against biological contamination",
+      "authors": [
+        "JD Rummel"
+      ]
+    },
+    {
+      "title": "Koehle AP, Brumwell SL, Seto EP, Lynch AM, Urbaniak C. Microbial applications for sustainable space exploration beyond low Earth orbit. NPJ Microgravity. 2023;9(1). 10.1038/s41526-023-00285-0.",
+      "authors": []
+    },
+    {
+      "title": "How the space environment influences organisms: An astrobiological perspective and review",
+      "authors": [
+        "B Prasad",
+        "P Richter",
+        "N Vadakedath",
+        "FWM Haag",
+        "SM Strauch",
+        "R Mancinelli"
+      ]
+    },
+    {
+      "title": "Blaustein RA, Mcfarland AG, Maamar B, Lopez A, Castro-wallace S, Hartmann EM. Pangenomic Approach To Understanding Microbial Adaptations within a Model Built Environment , the International Space Station , Relative to Human Hosts and Soil. mSystems. 2019;4(1). 10.1128/mSystems.00281-18.",
+      "authors": []
+    },
+    {
+      "title": "Milojevic T, Weckwerth W. Molecular Mechanisms of Microbial Survivability in Outer Space: A Systems Biology Approach. Front Microbiol. 2020;11(May). 10.3389/fmicb.2020.00923.",
+      "authors": []
+    },
+    {
+      "title": "Blachowicz A, Romsdahl J, Chiang AJ, Masonjones S, Kalkum M, Stajich JE, et al. The International Space Station Environment Triggers Molecular Responses in Aspergillus niger. Front Microbiol. 2022;13(June). 10.3389/fmicb.2022.893071.",
+      "authors": []
+    },
+    {
+      "title": "Effect of microgravity and space radiation on microbes",
+      "authors": [
+        "G Senatore",
+        "F Mastroleo",
+        "N Leys",
+        "G Mauriello"
+      ]
+    },
+    {
+      "title": "Metabolic modeling of the International Space Station microbiome reveals key microbial interactions",
+      "authors": [
+        "RK Kumar",
+        "NK Singh",
+        "S Balakrishnan",
+        "CW Parker",
+        "K Raman",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Microbial pathogenicity in space",
+      "authors": [
+        "MF Simões",
+        "A Antunes"
+      ]
+    },
+    {
+      "title": "Ott E, Kawaguchi Y, Kölbl D, Rabbow E, Rettberg P, Mora M, et al. Molecular repertoire of Deinococcus radiodurans after 1 year of exposure outside the International Space Station within the Tanpopo mission. Microbiome. 2020;8. 10.1186/s40168-020-00927-5.",
+      "authors": []
+    },
+    {
+      "title": "Chen Y, Zhang Q, Wang D, Shu YG, Shi H. Memory Effect on the Survival of Deinococcus radiodurans after Exposure in Near Space. Microbiol Spectr. 2023;11(2). 10.1128/spectrum.03474-22.",
+      "authors": []
+    },
+    {
+      "title": "Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station",
+      "authors": [
+        "BT Tierney",
+        "NK Singh",
+        "AC Simpson",
+        "AM Hujer",
+        "RA Bonomo",
+        "CE Mason"
+      ]
+    },
+    {
+      "title": "Ott E, Fuchs FM, Moeller R, Hemmersbach R, Kawaguchi Y. Molecular response of Deinococcus radiodurans to simulated microgravity explored by proteometabolomic approach. 2019:1–13. 10.1038/s41598-019-54742-6.",
+      "authors": []
+    },
+    {
+      "title": "Study of the impact of long- duration space missions at the International Space Station on the astronaut microbiome",
+      "authors": [
+        "AA Voorhies",
+        "CM Ott",
+        "S Mehta",
+        "DL Pierson",
+        "BE Crucian",
+        "A Feiveson"
+      ]
+    },
+    {
+      "title": "Singh NK, Lavire C, Nesme J, Vial L, Nesme X, Mason CE, et al. Comparative Genomics of Novel Agrobacterium G3 Strains Isolated From the International Space Station and Description of Agrobacterium tomkonis sp. nov. Front Microbiol. 2021;12(December):1–15. 10.3389/fmicb.2021.765943.",
+      "authors": []
+    },
+    {
+      "title": "Bijlani S, Singh NK, Eedara VVR, Podile AR, Mason CE, Wang CCC, et al. Methylobacterium ajmalii sp. nov., Isolated From the International Space Station. Front Microbiol. 2021;12(March):1–14. 10.3389/fmicb.2021.639396.",
+      "authors": []
+    },
+    {
+      "title": "Fajardo-Cavazos P, Nicholson WL. Cultivation of Staphylococcus epidermidis in the human spaceflight environment leads to alterations in the frequency and spectrum of spontaneous rifampicin-resistance mutations in the rpoB gene. Front Microbiol. 2016;7(JUN):1–10. 10.3389/fmicb.2016.00999.",
+      "authors": []
+    },
+    {
+      "title": "Microbial Tracking-2, a metagenomics analysis of bacteria and fungi onboard the International Space Station",
+      "authors": [
+        "C Urbaniak",
+        "MD Morrison",
+        "JB Thissen",
+        "F Karouia",
+        "DJ Smith",
+        "S Mehta"
+      ]
+    },
+    {
+      "title": "Growth of 48 built environment bacterial isolates on board the International Space Station (ISS)",
+      "authors": [
+        "DA Coil",
+        "RY Neches",
+        "JM Lang",
+        "WE Brown",
+        "M Severance",
+        "D Cavalier"
+      ]
+    },
+    {
+      "title": "Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution",
+      "authors": [
+        "H Enav",
+        "I Paz",
+        "RE Ley"
+      ]
+    },
+    {
+      "title": "TM-align: A protein structure alignment algorithm based on the TM-score",
+      "authors": [
+        "Y Zhang",
+        "J Skolnick"
+      ]
+    },
+    {
+      "title": "Highly accurate protein structure prediction with AlphaFold",
+      "authors": [
+        "J Jumper",
+        "R Evans",
+        "A Pritzel",
+        "T Green",
+        "M Figurnov",
+        "O Ronneberger"
+      ]
+    },
+    {
+      "title": "Simpson AC, Sengupta P, Zhang F, Hameed A, Parker CW, Singh NK, et al. Phylogenomics, phenotypic, and functional traits of five novel (Earth-derived) bacterial species isolated from the International Space Station and their prevalence in metagenomes. Sci Rep. 2023;13. 10.1038/s41598-023-44172-w.",
+      "authors": []
+    },
+    {
+      "title": "Högel P, Götz A, Kuhne F, Ebert M, Stelzer W, Rand KD, et al. Glycine Perturbs Local and Global Conformational Flexibility of a Transmembrane Helix. 2018;57. 10.1021/acs.biochem.7b01197.",
+      "authors": []
+    },
+    {
+      "title": "Chavez A, Topolski C, Hicks J, Villafania M, Baez N, Burke M, et al. Phenotypical changes in Escherichia coli K12 after prolonged exposure to simulated microgravity. Front Space Technol. 2024;4. 10.3389/frspt.2023.1282850.",
+      "authors": []
+    },
+    {
+      "title": "Manyi-Loh C, Mamphweli S, Meyer E, Okoh A. Antibiotic use in agriculture and its consequential resistance in environmental sources: Potential public health implications. Molecules. 2018;23. 10.3390/molecules23040795.",
+      "authors": []
+    },
+    {
+      "title": "Mechanotransduction in prokaryotes: A possible mechanism of spaceflight adaptation",
+      "authors": [
+        "P Fajardo-Cavazos",
+        "WL Nicholson"
+      ]
+    },
+    {
+      "title": "Protein oxidation implicated as the primary determinant of bacterial radioresistance",
+      "authors": [
+        "MJ Daly",
+        "EK Gaidamakova",
+        "VY Matrosova",
+        "A Vasilenko",
+        "M Zhai",
+        "RD Leapman"
+      ]
+    },
+    {
+      "title": "Bengtsson-Palme J, Kristiansson E, Larsson DGJ. Environmental factors influencing the development and spread of antibiotic resistance. FEMS Microbiol Rev. 2018;42(1):68-80.",
+      "authors": []
+    },
+    {
+      "title": "Sharma G, Curtis PD. The Impacts of Microgravity on Bacterial Metabolism. Life. 2022;12:774.",
+      "authors": []
+    },
+    {
+      "title": "Mora M, Wink L, Kögler I, Mahnert A, Rettberg P, Schwendner P, et al. Space Station conditions are selective but do not alter microbial characteristics relevant to human health. Nat Commun. 2019;10. 10.1038/s41467-019-11682-z.",
+      "authors": []
+    },
+    {
+      "title": "Singh NK, Wood JM, Patane J, Maria L, Moura S, Lombardino J. Characterization of Metagenome Assembled Genomes from the International Space Station. BMC Microbiome. 2022:1–20. 10.21203/rs.3.rs-1934191/v1.",
+      "authors": []
+    },
+    {
+      "title": "Modeling the Impact of Microgravity at the Cellular Level: Implications for Human Disease",
+      "authors": [
+        "P Bradbury",
+        "H Wu",
+        "JU Choi",
+        "AE Rowan",
+        "H Zhang",
+        "K Poole"
+      ]
+    },
+    {
+      "title": "Protein glycosylation in bacteria: Sweeter than ever",
+      "authors": [
+        "H Nothaft",
+        "CM Szymanski"
+      ]
+    },
+    {
+      "title": "Lee J, Park JS. Tolerance at the genetic level of the brine shrimp Artemia salina to a wide range of salinity. 2020. Preprint at 10.21203/rs.3.rs-91049/v1.",
+      "authors": []
+    },
+    {
+      "title": "Reassembly of shattered chromosomes in Deinococcus radiodurans",
+      "authors": [
+        "K Zahradka",
+        "D Slade",
+        "A Bailone",
+        "S Sommer",
+        "D Averbeck",
+        "M Petranovic"
+      ]
+    },
+    {
+      "title": "Su X, Guo Y, Fang T, Jiang X, Wang D, Li D, et al. Effects of Simulated Microgravity on the Physiology of Stenotrophomonas maltophilia and Multiomic Analysis. Front Microbiol. 2021;12. 10.3389/fmicb.2021.701265.",
+      "authors": []
+    },
+    {
+      "title": "Effects of short-term exposure to simulated microgravity on the physiology of Bacillus subtilis and multiomic analysis",
+      "authors": [
+        "X Su",
+        "T Fang",
+        "L Fang",
+        "D Wang",
+        "X Jiang",
+        "C Liu"
+      ]
+    },
+    {
+      "title": "Radiation tolerance in the eutardigrade Richtersius coronifer",
+      "authors": [
+        "KI Jönsson",
+        "M Harms-Ringdahl",
+        "J Torudd"
+      ]
+    },
+    {
+      "title": "Extreme resistance of bdelloid rotifers to ionizing radiation",
+      "authors": [
+        "E Gladyshev",
+        "M Meselson"
+      ]
+    },
+    {
+      "title": "The bacterial LexA transcriptional repressor",
+      "authors": [
+        "M Butala",
+        "D Žgur-Bertok",
+        "SJW Busby"
+      ]
+    },
+    {
+      "title": "Foreign genes and novel hydrophilic protein genes participate in the desiccation response of the bdelloid rotifer Adineta ricciae",
+      "authors": [
+        "C Boschetti",
+        "N Pouchkina-stantcheva",
+        "P Hoffmann",
+        "A Tunnacliffe"
+      ]
+    },
+    {
+      "title": "Eyres I, Boschetti C, Crisp A, Smith TP, Fontaneto D, Tunnacliffe A, et al. Horizontal gene transfer in bdelloid rotifers is ancient, ongoing and more frequent in species from desiccating habitats. BMC Biol. 2015;13(1). 10.1186/s12915-015-0202-9.",
+      "authors": []
+    },
+    {
+      "title": "A deep-branching clade of retrovirus-like retrotransposons in bdelloid rotifers",
+      "authors": [
+        "E Gladyshev",
+        "M Meselson",
+        "I Arkhipova"
+      ]
+    },
+    {
+      "title": "ISDra2 transposition in Deinococcus radiodurans is downregulated by TnpB",
+      "authors": [
+        "C Pasternak",
+        "R Dulermo",
+        "B Ton-Hoang",
+        "R Debuchy",
+        "P Siguier",
+        "G Coste"
+      ]
+    },
+    {
+      "title": "Draft genome sequences of Acinetobacter and Bacillus strains isolated from spacecraft-associated surfaces",
+      "authors": [
+        "A Seuylemezian",
+        "P Vaishampayan",
+        "K Cooper",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "A structural role for arginine in proteins: Multiple hydrogen bonds to backbone carbonyl oxygens",
+      "authors": [
+        "CL Borders",
+        "JA Broadwater",
+        "PA Bekeny",
+        "JE Salmon",
+        "AS Lee",
+        "AM Eldridge"
+      ]
+    },
+    {
+      "title": "Salt Bridges: Geometrically Specific, Designable Interactions",
+      "authors": [
+        "JE Donald",
+        "DW Kulp",
+        "WF Degrado"
+      ]
+    },
+    {
+      "title": "Sokalingam S, Raghunathan G, Soundrarajan N, Lee SG. A study on the effect of surface lysine to arginine mutagenesis on protein stability and structure using green fluorescent protein. PLoS ONE. 2012;7(7). 10.1371/journal.pone.0040410.",
+      "authors": []
+    },
+    {
+      "title": "Methionine in proteins: The Cinderella of the proteinogenic amino acids",
+      "authors": [
+        "JC Aledo"
+      ]
+    },
+    {
+      "title": "Spaceflight Promotes Biofilm Formation by Pseudomonas aeruginosa",
+      "authors": [
+        "W Kim",
+        "FK Tengra",
+        "Z Young",
+        "J Shong",
+        "N Marchand",
+        "HK Chan"
+      ]
+    },
+    {
+      "title": "The role of SOS boxes in enteric bacteriocin regulation",
+      "authors": [
+        "O Gillor",
+        "JAC Vriezen",
+        "MA Riley"
+      ]
+    },
+    {
+      "title": "Gligorijević V, Renfrew PD, Kosciolek T, Leman JK, Berenberg D, Vatanen T, et al. Structure-based protein function prediction using graph convolutional networks. Nat Commun. 2021;12(1). 10.1038/s41467-021-23303-9.",
+      "authors": []
+    },
+    {
+      "title": "Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H, et al. EggNOG 5.0: A hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses. Nucleic Acids Res. 2019;47(D1):D309–D314. 10.1093/nar/gky1085.",
+      "authors": []
+    },
+    {
+      "title": "Blin K, Shaw S, Augustijn HE, Reitz ZL, Biermann F, Alanjary M, et al. antiSMASH 7.0: new and improved predictions for detection, regulation, chemical structures and visualisation. Nucleic Acids Res. 2023;51(May):46–50. 10.1093/nar/gkad344.",
+      "authors": []
+    },
+    {
+      "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
+      "authors": [
+        "Z Lin",
+        "H Akin",
+        "R Rao",
+        "B Hie",
+        "Z Zhu",
+        "W Lu"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "AC Sielaff",
+        "C Urbaniak",
+        "G Babu",
+        "M Mohan",
+        "VG Stepanov",
+        "Q Tran"
+      ]
+    },
+    {
+      "title": "SPAdes: A new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov"
+      ]
+    },
+    {
+      "title": "Chen S, Zhou Y, Chen Y, Gu J. Fastp: An ultra-fast all-in-one FASTQ preprocessor. 2018;34:i884–i890. 10.1093/bioinformatics/bty560.",
+      "authors": []
+    },
+    {
+      "title": "QUAST: Quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    },
+    {
+      "title": "CheckM: Assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+      "authors": [
+        "DH Parks",
+        "M Imelfort",
+        "CT Skennerton",
+        "P Hugenholtz",
+        "GW Tyson"
+      ]
+    },
+    {
+      "title": "Yoon SH, min Ha S, Lim J, Kwon S, Chun J. A large-scale evaluation of algorithms to calculate average nucleotide identity. Anton Leeuw Int J Gen Mol Microbiol. 2017;110:1281–1286. 10.1007/s10482-017-0844-4.",
+      "authors": []
+    },
+    {
+      "title": "TYGS and LPSN: A database tandem for fast and reliable genome-based classification and nomenclature of prokaryotes",
+      "authors": [
+        "JP Meier-Kolthoff",
+        "JS Carbasse",
+        "RL Peinado-Olarte",
+        "M Göker"
+      ]
+    },
+    {
+      "title": "NCBI prokaryotic genome annotation pipeline",
+      "authors": [
+        "T Tatusova",
+        "M Dicuccio",
+        "A Badretdin",
+        "V Chetvernin",
+        "EP Nawrocki",
+        "L Zaslavsky"
+      ]
+    },
+    {
+      "title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+      "authors": [
+        "M Steinegger",
+        "J Söding"
+      ]
+    },
+    {
+      "title": "Koehler Leman J, Szczerbiak P, Renfrew PD, Gligorijevic V, Berenberg D, Vatanen T, et al. Sequence-structure-function relationships in the microbial protein universe. Nat Commun. 2023;14(1). 10.1038/s41467-023-37896-w.",
+      "authors": []
+    },
+    {
+      "title": "CD-HIT: Accelerated for clustering the next-generation sequencing data",
+      "authors": [
+        "L Fu",
+        "B Niu",
+        "Z Zhu",
+        "S Wu",
+        "W Li"
+      ]
+    },
+    {
+      "title": "COG database update: Focus on microbial diversity, model organisms, and widespread pathogens",
+      "authors": [
+        "MY Galperin",
+        "YI Wolf",
+        "KS Makarova",
+        "RV Alvarez",
+        "D Landsman",
+        "EV Koonin"
+      ]
+    },
+    {
+      "title": "Muscle5: High-accuracy alignment ensembles enable unbiased assessments of sequence homology and phylogeny",
+      "authors": [
+        "RC Edgar"
+      ]
+    },
+    {
+      "title": "Guindon S, Dufayard JF, Lefort V, Anisimova M, Hordijk W, Gascuel O. New algorithms and methods to estimate maximum-likelihood phylogenies: Assessing the performance of PhyML 3.0. Syst Biol. 2010;59(3):307–321. 10.1093/sysbio/syq010.",
+      "authors": []
+    },
+    {
+      "title": "PHAST: a fast phage search tool",
+      "authors": [
+        "Y Zhou",
+        "Y Liang",
+        "KH Lynch",
+        "JJ Dennis",
+        "DS Wishart"
+      ]
+    },
+    {
+      "title": "PHASTER: a better, faster version of the PHAST phage search tool",
+      "authors": [
+        "D Arndt",
+        "JR Grant",
+        "A Marcu",
+        "T Sajed",
+        "A Pon",
+        "Y Liang"
+      ]
+    },
+    {
+      "title": "Basic local alignment search tool",
+      "authors": [
+        "SF Altschul",
+        "W Gish",
+        "W Miller",
+        "EW Myers",
+        "DJ Lipman"
+      ]
+    },
+    {
+      "title": "Reimand J, Kull M, Peterson H, Hansen J, Vilo J. G:Profiler-a web-based toolset for functional profiling of gene lists from large-scale experiments. Nucleic Acids Res. 2007;35(SUPPL.2):193–200. 10.1093/nar/gkm226.",
+      "authors": []
+    },
+    {
+      "title": "UniProt: A worldwide hub of protein knowledge",
+      "authors": []
+    },
+    {
+      "title": "Gene Ontology: tool for the unification of biology",
+      "authors": [
+        "M Ashburner",
+        "CA Ball",
+        "JA Blake",
+        "D Botstein",
+        "H Butler",
+        "JM Cherry"
+      ]
+    }
+  ],
+  "original_title": "Adaptation to space conditions of novel bacterial species isolated from the International Space Station revealed by functional gene annotations and comparative genome analysis.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3955/11451251/af851ca51ee8/40168_2024_1916_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3955/11451251/3e842d97fdce/40168_2024_1916_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3955/11451251/624cc4675a3c/40168_2024_1916_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3955/11451251/82f44f203b6b/40168_2024_1916_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3955/11451251/fc7b210a7430/40168_2024_1916_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3955/11451251/7d0ec069a69f/40168_2024_1916_Fig6_HTML.jpg"
+  ]
+}

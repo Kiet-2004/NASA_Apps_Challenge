@@ -1,0 +1,861 @@
+{
+  "pmcid": "PMC5443495",
+  "title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+  "abstract": "The Space Shuttle Atlantis launched on its final mission (STS-135) on July 8, 2011. After just under 13 days, the shuttle landed safely at Kennedy Space Center (KSC) for the last time. Female C57BL/6J mice flew as part of the Commercial Biomedical Testing Module-3 (CBTM-3) payload. Ground controls were maintained at the KSC facility. Subsets of these mice were made available to investigators as part of NASA’s Bio-specimen Sharing Program (BSP). Our group characterized cell phenotype distributions and phagocytic function in the spleen, catecholamine and corticosterone levels in the adrenal glands, and transcriptomics/metabolomics in the liver. Despite decreases in most splenic leukocyte subsets, there were increases in reactive oxygen species (ROS)-related activity. Although there were increases noted in corticosterone levels in both the adrenals and liver, there were no significant changes in catecholamine levels. Furthermore, functional analysis of gene expression and metabolomic profiles suggest that the functional changes are not due to oxidative or psychological stress. Despite changes in gene expression patterns indicative of increases in phagocytic activity (e.g. endocytosis and formation of peroxisomes), there was no corresponding increase in genes related to ROS metabolism. In contrast, there were increases in expression profiles related to fatty acid oxidation with decreases in glycolysis-related profiles. Given the clear link between immune function and metabolism in many ground-based diseases, we propose a similar link may be involved in spaceflight-induced decrements in immune and metabolic function.",
+  "introduction": "Introduction\n\nThe final US Space Shuttle mission, STS-135, launched on July 8, 2011. After 12 days, 18 hours and 29 minutes, Space Shuttle Atlantis landed safely at Kennedy Space Center (KSC) for the last time. One of the many experiments flown on this historic flight to the International Space Station (ISS) was BioServe Space Technology’s Commercial Biomedical Testing Module-3 (CBTM-3). Sponsored by Amgen, Inc., the last animal flight of the shuttle era was intended to test the impact of their proprietary pharmaceutical agent on spaceflight-induced musculoskeletal atrophy. Participants in the NASA Biospecimen Sharing Program (BSP) were given the opportunity to analyze a subset of the placebo-treated mice (n = 5–10, depending on the assay and tissue) as long as it did not interfere with the primary science. Our research team at Loma Linda University (LLU) has participated in all three Amgen/CBTM flights (STS-108, -118, and -135), giving us the unique opportunity to both repeat and expand on previous results.\n\nThere are at least three, currently unavoidable components of the spaceflight environment that directly impact immune function. These include changes in the inertial environment (e.g. launch and landing loads, microgravity), low-dose/low-dose-rate radiation (e.g. solar particle events, galactic cosmic rays, and the Van Allen belts), and physiological/psychological stress (e.g. unloading, work-related stress). Ground-based studies have shown that each of these environmental factors alone can have an impact on immune function.\n\nPreviously, we and others have shown that the spaceflight environment can have a dramatic influence on immunity. Virtually all immune populations are reduced after spaceflight. Studies in both animal models and humans have shown that the spaceflight environment can influence total body, thymus and spleen mass, lymphocyte population distributions and circulating corticosterone levels.\n\nInterestingly, spaceflight is also known to alter energy/lipid metabolism and ground-based studies suggest that the stress marker, corticosterone/cortisol, plays a significant role. Corticosterone promotes fat breakdown in adipose and muscle tissues to provide glycerol to the liver for gluconeogenesis. As we demonstrate, metabolomic analysis of the liver indicates that glycerol was more abundant in flight mice relative to ground controls. Furthermore, data from the liver, skin and adrenal gland suggest that spaceflight caused a significant increase in corticosterone levels system-wide.\n\nThese seemingly unrelated lines of investigation are important because there is a growing body of work describing the interaction between innate immunity and lipid metabolism (S1 Fig). Chronic inflammation is now accepted as a critical component in many pathologies and chronic diseases. Macrophages are not only among the first responders in host resistance to infection, but also have an underappreciated role in host health when metabolic changes occur. For example, in obese people, increased numbers of liver and adipose tissue macrophages correlate with the development of metabolic syndrome.\n\nIn the current study we describe a more systemic response to microgravity by combining traditional measures of innate immune function (population distributions, oxidative burst capacity, phagocytosis) and stress responses (adrenal catecholamine and corticosterone levels) with ‘omics techniques (metabolomics and transcriptomics). We believe that, for the first time, we can begin to show the links between spaceflight-dependent immune dysfunction and changes in metabolism.",
+  "methods": "Methods\n\nMice and treatment\n\nOn July 8, 2011, age- and weight-matched, 11 week old, female C57BL/6J mice (n = 15/group) were placed into three Animal Enclosure Modules (AEMs, 2 groups of 5 per AEM separated by a wire mesh) and flown on the Space Shuttle Atlantis (STS-135) for ~13 days. There were two sets of ground controls housed at the Space Life Science Laboratory (SLSL) at KSC: Ground AEM controls (n = 10) and Vivarium controls (n = 8). Due to the nature of the NASA Biospecimen Sharing Program (BSP), we did not receive tissues from all mice for all assays. Sample sizes for individual assays are indicated where appropriate.\n\nGround AEM control mice were placed into the same hardware used in flight and environmental parameters such as temperature and CO2 levels were matched as closely as possible based on 48-hour delayed telemetry data. Conditions were controlled for temperature, humidity, and a 12:12 hr light:dark cycle; food (food bars developed by NASA Ames) and water was provided ad libitum. Vivarium control mice, housed in standard shoebox cages and fed standard rodent chow, were used to normalize cell counts, thus minimizing day-to-day variability.\n\nMice were euthanized and dissected within 3–5 hours of landing. As part of the primary science, all mice underwent dual energy X-ray absorptiometry (DEXA) densitometry (Piximus, Inc., Fitchburg, WI) immediately prior to anesthesia and euthanization. Mice were anesthetized with 3–5% isoflurane and euthanized with 100% CO2 and exsanguination via cardiac puncture. Samples were shipped to either LLU or University of Colorado Anschutz Medical Campus and stored appropriately prior to use. These studies were approved by the NASA Ames and University of Colorado at Boulder Institutional Animal Care and Use Committees (IACUCs).\n\nTissue handling\n\nEach spleen was cut in half at the time of dissection, placed into complete Roswell Park Memorial Institute-1640 (RPMI-1640) medium with 20% bovine calf serum and shipped on ice via overnight courier to LLU for further processing. Note: There was a problem with the courier shipping fresh tissues from the ground control mice from KSC to LLU. As a result, “fresh” ground control splenocyte samples were processed and assayed at LLU 48 hours after tissue collection. In contrast, “fresh” flight samples were processed and assayed roughly 24 hours post-tissue collection. This must be considered in interpreting all assays involving “fresh” splenocytes presented below. Only the assays that involved fresh splenic tissue were affected by this shipping error. These include flow cytometry, oxidative burst, background ROS, and phagocytosis assays.\n\nAdrenals were snap frozen in liquid nitrogen at the time of dissection and stored at -80°C until analysis. Liver lobes were extracted and dissected at the time of dissection. A portion of the sample was prepared in 4% paraformaldehyde. The rest of the liver was snap frozen in liquid nitrogen and stored at -80°C until analysis. Note: none of the liver or adrenal tissues were impacted by the shipping error.\n\nSplenocyte viability\n\nSpleen cell concentration was adjusted to 2 x 106 cells/ml and mixed with 0.4% trypan blue solution. The cell suspension was loaded onto CHT4 counting chamber slides and viability was assessed via the Cellometer Auto T4 (Nexcelcom Bioscience LLC, Lawrence, MA).\n\nSplenic leukocyte quantification\n\nSplenocyte single-cell suspensions were diluted in RPMI-1640 medium and evaluated using the ABC Vet Hematology Analyzer (Heska Corp., Waukesha, WI) after lysis of erythrocytes by incubation in 2 ml of ammonium-chloride-potassium solution for 4 min at 4°C.\n\nImmunophenotyping of lymphocyte subsets was performed on spleen using a FACSCaliburTM flow cytometer (Becton Dickinson, Inc., San Jose, CA). Monoclonal antibodies (MAb; BD Pharmingen, Inc., San Diego, CA) were labeled with fluorescein isothiocyanate (FITC), R-phycoerythrin (PE), allophycocyanin (APC), or peridinin chlorophyll protein (PerCP). MAb were directed against the following markers: CD3 (G4.18)–mature T cells; CD4 (OX-35)–T helper (Th) cells; CD8 (OX-8)–T cytotoxic (Tc) cells; CD45 (OX-1)–leukocytes; CD45R (HIS24)–B cells. We gated on the mononuclear population on a CD45 vs side scatter dot plot. At least 5,000 gated events/tube were evaluated using CellQuestTM software version 3.1 (Becton Dickinson).\n\nAll cell count numbers were normalized to Vivarium controls and combined for the final analysis using the following equation: Final Data Point = [Measured Data Point] / [Average of Daily Vivarium Control] * [Average of All Controls for All Experiments].\n\nSplenocyte oxidative burst and background reactive oxygen species (ROS)–plate reader\n\nSpleen white blood cells (WBCs) were treated with zymosan A (for burst activity; Sigma Chemical Co., St. Louis, MO) or medium (for background activity), and 2',7'-dichlorodihydrofluorescein diacetate (DCFH-DA; Molecular Probes, Inc., Eugene, OR), a membrane-permeable diacetate derivative of DCFH. Upon entering cells the diacetate is cleaved enzymatically. Both the DCFH-DA and DCFH are non-fluorescent fluorescein analogues. They are oxidized to highly fluorescent 2',7'-dichlorofluorescein (DCF) by H2O2 and hydroperoxides. The fluorescence intensity was measured using a fluorometer at 485 nm excitation and 530 emission.\n\nSplenocyte oxidative burst and phagocytosis–flow cytometry\n\nFixed Staphylococcus aureus (Trade name Pansorbin, Calbiochem, San Diego, CA) was stained with propidium iodide (PI) and used to quantify phagocytosis. DCFH-DA was used to quantify oxidative burst. Spleen cells were transferred into 5 ml tubes. DCFH-DA and PI-labeled S. aureus were added to the cells and allowed to incubate. Fluorescence was detected using a 4-color FACSCaliburTM flow cytometer. Analysis of 5,000 events/tube was performed using CellQuestTM software (v3.1).\n\nAdrenal tissue homogenate\n\nOne adrenal gland from each mouse was weighed and homogenized using a Powergen homogenizer (Fischer Scientific, Tustin, CA) with 500 μl of phosphate-buffered saline (PBS), the other adrenal was homogenized with 500 μl of 0.1M HClO4. The samples were spun at 12,000 x g for 15 min at 4°C. The supernatant was aliquotted and frozen at -80°C until assayed. The supernatants were used to assess adrenocorticotropic hormone (ACTH) receptor. Samples homogenized in HClO4 were used to assess corticosterone, protein, and catecholamines.\n\nTotal protein concentration in adrenals\n\nTotal protein concentration was quantified in the adrenals using a Pierce bicinchoninic acid (BCA) Protein Assay kit (Thermo Fisher Scientific, Tustin, CA). Samples were run with protein standards ranging from 500 μg/ml to 7.8 μg/ml diluted with 0.1M HClO4.\n\nCorticosterone via enzyme-linked immunosorbent assay (ELISA)\n\nThe adrenal glands from each mouse were homogenized. Supernatants were collected after centrifugation and stored at -80°C. Aliquots of frozen adrenal tissue supernatant were thawed, diluted 1:10 in assay buffer, and corticosterone was measured using an ELISA kit for mouse corticosterone from AssayPro (St. Charles, MO), according to manufacturer’s instructions. Plates containing duplicate samples and standards were read on a microplate reader set at 450 nm. Corticosterone levels in adrenal supernatants were calculated from the standard curve and expressed as means ± SEM in ng/mg protein. Cross reactivity for other steroids, such as aldosterone or progesterone, was <2% or lower. Minimum detection of corticosterone by the kits was 0.156 ng/ml, and intra-assay and inter-assay variabilities were 5.0% and 7.1%, respectively.\n\nACTH receptor via ELISA\n\nACTH receptors and phosphorylated ACTH receptors were assayed in adrenal gland homogenates using ELISA kits from MyBiosource (San Diego, CA) as per the manufacturer’s instructions. Samples were run in duplicate along with known standards in 96-well plates at room temperature. Plates were read on a plate reader set at 450 nm immediately after adding the stop solution. Data were expressed as means ± SEM in pg/mg protein. The sensitivity of the kit was 2.0 pg/ml. The detection range of the kit was 15.6–500.0 pg/ml. Intra-assay coefficient of variation (CV) and inter-assay CV were less than 15%.\n\nCatecholamines via high-performance liquid chromatography (HPLC)\n\nFrozen aliquots of supernatant from adrenal tissue were thawed and diluted 1:5 in 0.1M HClO4. Epinephrine, norepinephrine and dopamine were measured by HPLC using an ESA 582 isocratic pump, an ESA 542 autosampler, a Waters Atlantis T3 150 mm X 4.6 mm C18 reverse phase column, and an ESA Coulochem III detector with a 5011a cell set at +250 mV and -200 mV. The mobile phase was a 100 μM citric acid/phosphate buffer with 20% methanol pH 3.5. The assay volume was 50 μl. Values were expressed as a mean ± SEM in ng/mg protein.\n\nMetabolomics\n\nFrozen liver samples were shipped to Metabolon, Inc. (Durham, NC) for analysis. Methanol extraction of small molecules was carried out, as described previously, using 100 mg of liver tissue per sample. In addition, a small volume of each sample was utilized to create a pooled liver sample that was prepared in parallel and included as a technical replicate to assess variability and sensitivity in measurements, as described. The resulting extract was divided into four fractions for non-targeted metabolomics analysis: one for analysis by ultra-high performance liquid chromatography-tandem mass spectrometry (UPLC-MS/MS; positive mode), one for analysis by UPLC-MS/MS (negative mode), one for analysis by gas chromatography–mass spectrometry (GC-MS), and one sample was reserved for backup.\n\nThe UPLC-MS/MS platform utilized a Waters Acquity UPLC with Waters UPLC BEH C18-2.1×100 mm, 1.7 μm columns and a ThermoFisher LTQ mass spectrometer, which included an electrospray ionization source and a linear ion-trap mass analyzer. The instrumentation was set to monitor for positive ions in acidic extracts or negative ions in basic extracts through independent injections. The instrument was set to scan 80–1000 m/z (molecular weight) and alternated between MS and MS/MS scans. Samples destined for analysis by GC-MS were dried under vacuum desiccation for a minimum of 18 hours prior to being derivatized using bis(trimethylsilyl)trifluoroacetamide. Derivatized samples were separated on a 5% diphenyl / 95% dimethyl polysiloxane fused silica column (20 m x 0.18 mm ID; 0.18 μm film thickness) with helium as carrier gas and a temperature ramp from 60° to 340°C in a 17.5 min period. A Thermo-Finnigan Trace DSQ fast-scanning single-quadrupole MS using electron impact ionization (EI) and operated at unit mass resolving power was utilized, and the scan range was from 50–750 m/z.\n\nMetabolites were identified by automated comparison of the ion features in the experimental samples to a reference library of chemical standard entries that included retention time, molecular weight (m/z), preferred adducts, and in-source fragments as well as associated MS spectra, and curated by visual inspection for quality control using software developed at Metabolon. Identification of known chemical entities was based on comparison to metabolomic library entries of more than 4,000 purified standards. Raw area counts for each metabolite were re-scaled to set the medians to 1.0 for metabolites identified. Missing values, assumed to be below the limit of detection of the platform used, were imputed with the observed minimum after normalization. An estimate of the false discovery rate among metabolites identified as significantly different (p<0.05) between space flight livers and AEM controls was calculated to be 22% when applying the q-value method of Storey and Tibshirani.\n\nRNA isolation\n\nRNA isolation was performed using the RNeasy Mini Kit (Qiagen, Inc. Valencia, CA) as per the manufacturer’s instructions. A maximum of 30-mg frozen liver/mouse tissue was used.\n\nTarget preparation/processing for GeneChip analysis\n\nAfter isolation, RNA was frozen at -80°C and shipped on dry ice to the University of California, Irvine (UCI) Genomics High-Throughput Facility (GHTF) for further analysis. The following protocol was provided by the UCI GHTF.\n\nIsolated total RNA samples were processed as recommended by Affymetrix, Inc. (Affymetrix GeneChip Whole Transcript Sense Target Labeling Assay Manual, Affymetrix, Inc., Santa Clara, CA). In brief, total RNA was initially isolated as described above and then put through an RNeasy spin column (Qiagen, Chatsworth, CA) for further clean up. Eluted total RNAs were quantified by NanoDrop (ThermoScientific, Wilmington, DE) and the concentrations of sample aliquots were adjusted to 100 ng/μl. Total RNA samples were assessed for quality prior to performing target preparation/processing steps by loading approximately 25–250 ng of each sample onto a RNA 6000 Nano LabChip, which was evaluated on an Agilent Biolanalyzer 2100 (Agilent Technologies, Palo Alto, CA).\n\nThe Ambion whole transcript (WT) expression kit (Life Technologies, Carlsbad, CA) was used to prepare RNA samples for whole transcriptome microarray analysis. Briefly, random hexamers that were tagged with a T7 promoter were used in first strand synthesis of cDNA. Then, using the T7 promoter, second strand synthesis was performed and the double-stranded cDNA was subsequently used as a template in an in vitro transcription reaction to generate many copies of antisense cRNA. Ten μg of antisense cRNA was input into a second cycle cDNA reaction using reverse transcriptase and random hexamers to produce single-stranded DNA in the sense orientation. The single-stranded DNA was fragmented to an average length of 70 bases and then labeled using a recombinant terminal deoxynucleotidyl transferase (TdT) and an Affymetrix proprietary DNA labeling reagent that was covalently linked to biotin. Two μg of the labeled, fragmented single-stranded cDNA was hybridized at 45°C with rotation for 17 hours (Affymetrix GeneChip Hybridization Oven 640) to probe sets present on an Affymetrix GeneChip 1.0ST array. The GeneChip arrays were washed and then stained with streptavidin-phycoerythrin on an Affymetrix Fluidics Station 450 (Fluidics protocol FS450_007). Arrays were scanned using GeneChip Scanner 3000 7G and Command Console Software v. 3.2.3 to produce.CEL intensity files.\n\nThe probe cell intensity files (*.CEL) were analyzed in Affymetrix Expression Console software v1.1.1 using the Probe Logarithmic Intensity Error (PLIER) algorithm to generate probe level summarization files (*.CHP). The settings used were algorithm-PLIER v2.0; quantification scale-Linear; quantification type-signal and detection P value; background-perfect match GC composition-based background correction (PM-GCBG); normalization method-sketch-quantile.\n\nGene expression data were then processed via CARMAweb (Comprehensive R based Microarray Analysis web service) using the significance analysis of microarrays (SAM) method to get fold changes for determining differential expression and p values. The Benjamini-Hochberg method was used to identify false positives. CARMAweb is a free, online tool hosted by Medical University Innsbruck.\n\nHistology and immunohistochemistry\n\nPFA fixed, 5 μm tissue sections were processed for hematoxylin-and-eosin (H&E) staining and immunofluorescence microscopy as described previously. Additional histology sections were processed for Periodic Schiff Stain (PAS) and Picrosirius Red stain. Immunoreactivity was visualized using secondary antibodies conjugated with Alexafluor 488 or Alexafluor 594 at dilutions of 1:500 and 1:250, respectively. Nuclei were stained with 4‘,6-diamidino-2-phenylindole (Sigma). Immunofluorescence images were captured on a Nikon Diaphot fluorescence microscope (Nikon Corporation, Tokyo, Japan) and digitally deconvolved using the No Neighbors algorithm (Slidebook, Denver, CO) as described previously. Histologic images were captured on an Olympus BX51 microscope equipped with a four megapixel Macrofire digital camera (Optronics, Goleta, CA) using the PictureFrame Application 2.3 (Optronics). Cross-polarized light was also used to enhance visualization of Picrosiruis Red stained images as previously described. All images were cropped and assembled using Photoshop CS2 (Adobe Systems, Inc., Mountain View, CA).\n\nStatistics\n\nFunctional analysis of gene expression data provided by the UCI GHTF was performed at LLU using Ingenuity Pathway Analysis (IPA) software (Qiagen, Inc., Redwood City, CA). A z-score of < -2.0 or > 2.0 was considered significant. A P value of overlap < 0.05, indicates that the genes in our data set significantly overlap with the genes known to be involved with the function. Predicted effects are based on the literature and the measured effect of spaceflight. In some cases, the down-regulation of a specific gene may lead to an increase in functional activity and vice versa. The z-score represents the combined predicted response of all genes known to be explicitly involved in a particular function. All other data were analyzed using Sigmaplot 12.0 (Systat Software, Inc., San Jose, CA) with an unpaired T-test; P<0.05 and P<0.1 indicating significance and trending, respectively.",
+  "results": "Results\n\nTotal body mass decreased after spaceflight but not significantly\n\nThere were no significant differences in total body mass at the time of sacrifice (AEM 19.5 ± 0.5 g, Flight 18.4 ± 0.5 g). Sample size: n = 8 for AEM ground controls, n = 7 for Flight. However, when calculated as a difference from preflight, baseline mass, we previously reported that spaceflight mice lost significantly more mass compared to AEM controls.\n\nDecrease in splenocyte viability\n\nThere was a significant decrease in viability of splenocytes noted in the ground control mice (P<0.001); 77% of splenocytes were viable in flight mice while only 68% were viable in ground controls. The difference in viability was likely due to a problem with shipping fresh tissues from the ground control mice from KSC to LLU (as described above). This difference in viability, although relatively small, must be considered in interpreting all assays involving “fresh” splenocytes presented below. Sample size: n = 8 for AEM ground controls, n = 5 for Flight.\n\nSpaceflight decreased major splenic leukocyte subset counts\n\nThere were significant flight-induced decreases in the total number of all major leukocyte populations (P<0.001, S2 Fig). In terms of proportions, spaceflight caused a shift toward lymphocytes (P<0.001) away from granulocytes (P<0.001), with no significant impact on monocyte/macrophage percentages.\n\nSpaceflight decreased splenic lymphocyte subset counts\n\nSpaceflight caused decreases in the total count of all measured lymphocyte subsets (S3 Fig) including T (P<0.001), Th (P<0.001), Tc (P<0.005), B (P<0.001) and NK (P<0.05) cells. In contrast, with the exception of an increase in Tc cells percentages (P<0.05), there was no significant impact of spaceflight on the proportions of any lymphocytes. The proportional increase in Tc cells led to a significant, flight-induced decrease in the CD4/CD8 ratio (P<0.01), i.e., 1.6 for flight mice versus 2.0 for AEM ground controls.\n\nSpaceflight increased splenic background ROS & oxidative burst but decreased phagocytosis\n\nAs indicated in Fig 1, we characterized the capacity of cells present in the spleen to generate an oxidative burst using both flow cytometry and a plate-based fluorescent assay. In both cases, we found significant spaceflight-induced increases (P<0.001). In contrast, there were decreases in phagocytic capacity in flight mice (P<0.001). Lastly, spaceflight increased the levels of unstimulated, background ROS (P<0.001).\n\nSpaceflight increased adrenal corticosterone, decreased ACTH receptors, and did not impact catecholamine levels\n\nWe observed a trend for a spaceflight-induced increase in corticosterone levels in the adrenal glands (P = 0.066, Fig 2). Although there were consistent decreases noted in ACTH receptors (total or phosphorylated), these also did not reach significance. However, the corticosterone/phosphorylated ACTH receptor ratio was greater in mice who experienced spaceflight (P<0.05, See S1 Table).\n\nThere were no significant signs of spaceflight-induced changes in the adrenal catecholamines, norepinephrine and epinephrine (Fig 3). Similarly, although there was a slight elevation in dopamine in flight mice, this was not significant. However, this elevation resulted in significant increases in the dopamine/norepinephrine ratio in spaceflight mice (P<0.05, See S1 Table). Spaceflight tended to decrease the norepinephrine/corticosterone and epinephrine/corticosterone ratios (P = 0.068 and P = 0.056, respectively, S1 Table), but had no significant impact on the dopamine/corticosterone ratio.\n\nSpaceflight altered liver metabolite levels\n\nWe performed untargeted metabolite profiling in the liver, comparing spaceflight and AEM ground controls. The effect of spaceflight on energy and lipid metabolism in these mice has been recently described. Metabolites relevant to the current discussion are included in Table 1. We found significant increases in corticosterone as well as changes in some of the components of glutathione (GSH) synthesis. Specifically, there were decreases in GSH with corresponding increases in 2-aminobutyrate and ophthalmate, potentially indicative of increased oxidative stress. Osmolyte concentrations were altered, with increases in betaine and taurine, and decreases in alanine, glycerophosphorylcholine (GPC) and hypotaurine observed. Finally, we found an increase in glycerol and decreased levels of 3-indoxyl sulfate, a measure of kidney function commonly characterized in the blood.\n\nSpaceflight altered liver gene expression patterns related to innate immunity, oxidative stress and metabolism\n\nAlthough we performed a full genomic screen of changes in mouse liver gene expression after spaceflight, we present only a subset of the data here. Similarly, although there are multiple methods for analyzing the data (e.g. basic fold changes, pathway analysis, upstream transcription regulation analysis, etc.), here we focus on genes identified though a functional analysis via IPA. This analysis allowed us to identify genes that are both functionally related (based on the current state of the literature) and statistically correlated to spaceflight. This analysis takes into consideration that, in some cases, down-regulation of a particular gene may actually lead to the activation of a particular function, or vice versa.\n\nTable 2 lists a subset of the immune and oxidative stress-related functions identified by IPA to be significantly altered in the liver by spaceflight (z-score >2.0 for activation, <-2.0 for deactivation). Generally, spaceflight appears to have up-regulated functions related to viral infections (z > 4.2) and infections of cells (z > 2.8). Likely linked to this is the activation of clathrin- and receptor-mediated endocytosis (z > 3.1 and z > 2.7, respectively), fusion of late endosomes (z > 2.1) and formation of peroxisomes (z > 2.1).\n\nSurprisingly, despite the increase in activity related to viral infection, there is a down-regulation in the functional activation of CD8+ T lymphocytes (z < -2.0). Furthermore, although z-scores did not reach the level of significance, there also are trends for the down-regulation of functions related to oxidative stress and ROS metabolism (z < -1.7).\n\nTable 3 describes the functional analyses of genes in the liver related to glycolysis and lipid metabolism. In general, functions related to the generation and sequestration of glucose are up-regulated (z > 2.0) by spaceflight, while functions related to glycolysis are down-regulated (z < -2.0). There are also strong trends for increases in functions that involve the oxidation of lipids (z > 1.8).\n\nMicroarray fold-changes summarized in Table 4 reveal that expression of regulators of glycogen synthesis, such as glycogen synthase (Gys2), protein phosphatase 1 catalytic subunits (Ppp1ca, Ppp1cb), Gbe1, Foxo1 and Gsk3b were augmented and glycogen phosphorylase (Pygl) mRNA expression was decreased. PEPCK (Pck1) was unchanged. Since insulin is associated with increased glycogen storage, we also performed IPA analysis on expression of gene transcripts in the insulin signaling pathway and found that gene expression levels were decreased in the flight mice for IRS1, IRS2, PI3K and much of the MAPK pathway (S4 Fig).\n\nSpaceflight mice lose glycogen stores in liver\n\nPeriodic Acid Schiff (PAS) staining of fixed liver tissue sections was performed on n = 4–5 mice per group. Representative images are shown in Fig 4. Inspection of the stained sections revealed a profound loss of glycogen staining in the flight mice (panel B) as compared with AEM controls (panel A), supporting the microarray results.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Physical Sciences",
+    "Astronomical Sciences",
+    "Space Exploration",
+    "Spaceflight",
+    "Biology and Life Sciences",
+    "Genetics",
+    "Gene Expression",
+    "Biochemistry",
+    "Lipids",
+    "Lipid Metabolism",
+    "Metabolism",
+    "Glycobiology",
+    "Glycogens",
+    "Physiology",
+    "Immune Physiology",
+    "Spleen",
+    "Medicine and Health Sciences",
+    "Cell Biology",
+    "Oxidative Stress",
+    "Chemistry",
+    "Chemical Compounds",
+    "Organic Compounds",
+    "Amines",
+    "Catecholamines",
+    "Organic Chemistry",
+    "Neurochemistry",
+    "Neurotransmitters",
+    "Biogenic Amines",
+    "Neuroscience",
+    "Hormones",
+    "Metabolomics"
+  ],
+  "citations": [
+    {
+      "title": "Changes in mouse thymus and spleen after return from the STS-135 mission in space",
+      "authors": [
+        "DS Gridley",
+        "XW Mao",
+        "LS Stodieck",
+        "VL Ferguson",
+        "TA Bateman",
+        "M Moldovan"
+      ]
+    },
+    {
+      "title": "Genetic Models in Applied Physiology: Selected Contribution: Effects of spaceflight on immunity in the C57BL/6 mouse. II. Activation, cytokines, erythrocytes, and platelets",
+      "authors": [
+        "DS Gridley",
+        "GA Nelson",
+        "LL Peters",
+        "PJ Kostenuik",
+        "TA Bateman",
+        "S Morony"
+      ]
+    },
+    {
+      "title": "Spaceflight effects on T lymphocyte distribution, function and gene expression",
+      "authors": [
+        "DS Gridley",
+        "JM Slater",
+        "X Luo-Owen",
+        "A Rizvi",
+        "SK Chapes",
+        "LS Stodieck"
+      ]
+    },
+    {
+      "title": "Genetic Models in Applied Physiology: Selected Contribution: Effects of spaceflight on immunity in the C57BL/6 mouse. I. Immune population distributions",
+      "authors": [
+        "MJ Pecaut",
+        "GA Nelson",
+        "LL Peters",
+        "PJ Kostenuik",
+        "TA Bateman",
+        "S Morony"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on innate immune function and antioxidant gene expression",
+      "authors": [
+        "FP Baqai",
+        "DS Gridley",
+        "JM Slater",
+        "X Luo-Owen",
+        "LS Stodieck",
+        "V Ferguson"
+      ]
+    },
+    {
+      "title": "Shifts in bone marrow cell phenotypes caused by spaceflight",
+      "authors": [
+        "MT Ortega",
+        "MJ Pecaut",
+        "DS Gridley",
+        "LS Stodieck",
+        "V Ferguson",
+        "SK Chapes"
+      ]
+    },
+    {
+      "title": "Effect of a 22-day space flight on the lymphoid organs of rats",
+      "authors": [
+        "GN Durnova",
+        "AS Kaplansky",
+        "VV Portugalov"
+      ]
+    },
+    {
+      "title": "COSMOS 1887 mission overview: effects of microgravity on rat body and adrenal weights and plasma constituents",
+      "authors": [
+        "RE Grindeland",
+        "IA Popova",
+        "M Vasques",
+        "SB Arnaud"
+      ]
+    },
+    {
+      "title": "Jahns G, Meylor J, Fast T, Hawes N, Zarow G, editors. Rodent Growth, Behavior, and Physiology Resulting from Flight on the Space Life Sciences-1 Mission. 43rd Congressthe Int Astronautical Federation; 1992 August 28-September 5, 1992; Washington, DC: International Astronautical Federation.",
+      "authors": []
+    },
+    {
+      "title": "Effects of spaceflight on rat erythroid parameters",
+      "authors": [
+        "Z Allebban",
+        "LA Gibson",
+        "RD Lange",
+        "TL Jago",
+        "KM Strickland",
+        "DL Johnson"
+      ]
+    },
+    {
+      "title": "Blood volume and erythropoiesis in the rat during spaceflight",
+      "authors": [
+        "MM Udden",
+        "TB Driscoll",
+        "LA Gibson",
+        "CS Patton",
+        "MH Pickett",
+        "JB Jones"
+      ]
+    },
+    {
+      "title": "Lymphatic tissue changes in rats flown on Spacelab Life Sciences-2",
+      "authors": [
+        "CC Congdon",
+        "Z Allebban",
+        "LA Gibson",
+        "A Kaplansky",
+        "KM Strickland",
+        "TL Jago"
+      ]
+    },
+    {
+      "title": "Weightlessness effects on resistance and reactivity of animals",
+      "authors": [
+        "LV Serova"
+      ]
+    },
+    {
+      "title": "The effect of a 10-day space flight on the function, phenotype, and adhesion molecule expression of splenocytes and lymph node lymphocytes",
+      "authors": [
+        "DS Grove",
+        "SA Pishak",
+        "AM Mastro"
+      ]
+    },
+    {
+      "title": "Variable lymphocyte responses in rats after space flight",
+      "authors": [
+        "PV Nash",
+        "AM Mastro"
+      ]
+    },
+    {
+      "title": "Lack of effect of spaceflight on bone mass and bone formation in group-housed rats",
+      "authors": [
+        "TJ Wronski",
+        "M Li",
+        "Y Shen",
+        "SC Miller",
+        "BM Bowman",
+        "P Kostenuik"
+      ]
+    },
+    {
+      "title": "Effects of space flight and PEG-IL-2 on rat physiological and immunological responses",
+      "authors": [
+        "SK Chapes",
+        "SJ Simske",
+        "G Sonnenfeld",
+        "ES Miller",
+        "RJ Zimmerman"
+      ]
+    },
+    {
+      "title": "Spaceflight induces changes in splenocyte subpopulations: effectiveness of ground-based models",
+      "authors": [
+        "MJ Pecaut",
+        "SJ Simske",
+        "M Fleshner"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on the number of rat peripheral blood leukocytes and lymphocyte subsets",
+      "authors": [
+        "Z Allebban",
+        "AT Ichiki",
+        "LA Gibson",
+        "JB Jones",
+        "CC Congdon",
+        "RD Lange"
+      ]
+    },
+    {
+      "title": "Spaceflight alters immune cell function and distribution",
+      "authors": [
+        "G Sonnenfeld",
+        "AD Mandel",
+        "IV Konstantinova",
+        "WD Berry",
+        "GR Taylor",
+        "AT Lesnyak"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on rat peripheral blood leukocytes and bone marrow progenitor cells",
+      "authors": [
+        "AT Ichiki",
+        "LA Gibson",
+        "TL Jago",
+        "KM Strickland",
+        "DL Johnson",
+        "RD Lange"
+      ]
+    },
+    {
+      "title": "Spaceflight and development of immune responses",
+      "authors": [
+        "G Sonnenfeld",
+        "M. Foster",
+        "D Morton",
+        "F Bailliard",
+        "NA Fowler",
+        "AM Hakenewerth"
+      ]
+    },
+    {
+      "title": "Immune responses in space flight",
+      "authors": [
+        "G Sonnenfeld"
+      ]
+    },
+    {
+      "title": "Alteration in human mononuclear leucocytes following space flight",
+      "authors": [
+        "RT Meehan",
+        "LS Neale",
+        "ET Kraus",
+        "CA Stuart",
+        "ML Smith",
+        "NM Cintron"
+      ]
+    },
+    {
+      "title": "Summary of medical experience in the Apollo 7 through 11 manned spaceflights",
+      "authors": [
+        "CA Berry"
+      ]
+    },
+    {
+      "title": "Immune changes in test animals during spaceflight",
+      "authors": [
+        "AT Lesnyak",
+        "G Sonnenfeld",
+        "MP Rykova",
+        "DO Meshkov",
+        "A Mastro",
+        "I Konstantinova"
+      ]
+    },
+    {
+      "title": "Analyses of plasma for metabolic and hormonal changes in rats flown aboard COSMOS 2044",
+      "authors": [
+        "AH Merrill",
+        "E Wang",
+        "RE Mullins",
+        "RE Grindeland",
+        "IA Popova"
+      ]
+    },
+    {
+      "title": "The role of psychoneuroendocrine factors on spaceflight-induced immunological alterations",
+      "authors": [
+        "R Meehan",
+        "P Whitson",
+        "C Sams"
+      ]
+    },
+    {
+      "title": "Counteraction of spaceflight-induced changes in the rat central serotonergic system by adrenalectomy and corticosteroid replacement",
+      "authors": [
+        "S Blanc",
+        "L Somody",
+        "A Gharib",
+        "G Gauquelin",
+        "C Gharib",
+        "N Sarda"
+      ]
+    },
+    {
+      "title": "Immune responses and latent herpesvirus reactivation in spaceflight",
+      "authors": [
+        "RP Stowe",
+        "SK Mehta",
+        "AA Ferrando",
+        "DL Feeback",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Elevated stress hormone levels relate to Epstein-Barr virus reactivation in astronauts",
+      "authors": [
+        "RP Stowe",
+        "DL Pierson",
+        "AD Barrett"
+      ]
+    },
+    {
+      "title": "Leukocyte subsets and neutrophil function after short-term spaceflight",
+      "authors": [
+        "RP Stowe",
+        "CF Sams",
+        "SK Mehta",
+        "I Kaur",
+        "ML Jones",
+        "DL Feeback"
+      ]
+    },
+    {
+      "title": "Excretion of IL-6 by astronauts during spaceflight",
+      "authors": [
+        "TP Stein",
+        "MD Schluter"
+      ]
+    },
+    {
+      "title": "Anorexia in space and possible etiologies: an overview",
+      "authors": [
+        "MS Da Silva",
+        "PM Zimmerman",
+        "MM Meguid",
+        "J Nandi",
+        "K Ohinata",
+        "Y Xu"
+      ]
+    },
+    {
+      "title": "Spaceflight activates lipotoxic pathways in mouse liver",
+      "authors": [
+        "KR Jonscher",
+        "A Alfonso-Garcia",
+        "JL Suhalim",
+        "DJ Orlicky",
+        "EO Potma",
+        "VL Ferguson"
+      ]
+    },
+    {
+      "title": "The effects of glucocorticoids on adipose tissue lipid metabolism",
+      "authors": [
+        "AJ Peckett",
+        "DC Wright",
+        "MC Riddell"
+      ]
+    },
+    {
+      "title": "Orchestration of metabolism by macrophages",
+      "authors": [
+        "SK Biswas",
+        "A Mantovani"
+      ]
+    },
+    {
+      "title": "Obesity induces a phenotypic switch in adipose tissue macrophage polarization",
+      "authors": [
+        "CN Lumeng",
+        "JL Bodzin",
+        "AR Saltiel"
+      ]
+    },
+    {
+      "title": "Integrated, nontargeted ultrahigh performance liquid chromatography/electrospray ionization tandem mass spectrometry platform for the identification and relative quantification of the small-molecule complement of biological systems",
+      "authors": [
+        "AM Evans",
+        "CD DeHaven",
+        "T Barrett",
+        "M Mitchell",
+        "E Milgram"
+      ]
+    },
+    {
+      "title": "Biomarkers of inflammation, immunosuppression and stress with active disease are revealed by metabolomic profiling of tuberculosis patients",
+      "authors": [
+        "J Weiner",
+        "SK Parida",
+        "J Maertzdorf",
+        "GF Black",
+        "D Repsilber",
+        "A Telaar"
+      ]
+    },
+    {
+      "title": "Analysis of the adult human plasma metabolome",
+      "authors": [
+        "KA Lawton",
+        "A Berger",
+        "M Mitchell",
+        "KE Milgram",
+        "AM Evans",
+        "L Guo"
+      ]
+    },
+    {
+      "title": "Metabolomic profiling can predict which humans will develop liver dysfunction when deprived of dietary choline",
+      "authors": [
+        "W Sha",
+        "KA da Costa",
+        "LM Fischer",
+        "MV Milburn",
+        "KA Lawton",
+        "A Berger"
+      ]
+    },
+    {
+      "title": "Organization of GC/MS and LC/MS metabolomics data into chemical libraries",
+      "authors": [
+        "CD Dehaven",
+        "AM Evans",
+        "H Dai",
+        "KA Lawton"
+      ]
+    },
+    {
+      "title": "Statistical significance for genomewide studies",
+      "authors": [
+        "JD Storey",
+        "R Tibshirani"
+      ]
+    },
+    {
+      "title": "CARMAweb: comprehensive R- and bioconductor-based web service for microarray data analysis",
+      "authors": [
+        "J Rainer",
+        "F Sanchez-Cabo",
+        "G Stocker",
+        "A Sturn",
+        "Z Trajanoski"
+      ]
+    },
+    {
+      "title": "Cytoplasmic lipid droplet accumulation in developing mammary epithelial cells: roles of adipophilin and lipid metabolism",
+      "authors": [
+        "TD Russell",
+        "CA Palmer",
+        "DJ Orlicky",
+        "A Fischer",
+        "MC Rudolph",
+        "MC Neville"
+      ]
+    },
+    {
+      "title": "Collagen and picrosirius red staining: A polarized light assessment of fibrilar hue and spatial distribution",
+      "authors": [
+        "L Rich",
+        "P Whittaker"
+      ]
+    },
+    {
+      "title": "Systematic review of ophthalmate as a novel biomarker of hepatic glutathione depletion",
+      "authors": [
+        "SA Dello",
+        "EP Neis",
+        "MC de Jong",
+        "HM van Eijk",
+        "CH Kicken",
+        "SW Olde Damink"
+      ]
+    },
+    {
+      "title": "Differential metabolomics reveals ophthalmic acid as an oxidative stress biomarker indicating hepatic glutathione consumption",
+      "authors": [
+        "T Soga",
+        "R Baran",
+        "M Suematsu",
+        "Y Ueno",
+        "S Ikeda",
+        "T Sakurakawa"
+      ]
+    },
+    {
+      "title": "Spaceflight and hind limb unloading induce similar changes in electrical impedance characteristics of mouse gastrocnemius muscle",
+      "authors": [
+        "M Sung",
+        "J Li",
+        "AJ Spieker",
+        "J Spatz",
+        "R Ellman",
+        "VL Ferguson"
+      ]
+    },
+    {
+      "title": "Changes in monocyte functions of astronauts",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "VA Castro",
+        "CM Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Changes in neutrophil functions in astronauts",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "VA Castro",
+        "C Mark Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Integrated physiology and systems biology of PPARalpha",
+      "authors": [
+        "S Kersten"
+      ]
+    },
+    {
+      "title": "Biological and metabolic response in STS-135 space-flown mouse skin",
+      "authors": [
+        "XW Mao",
+        "MJ Pecaut",
+        "LS Stodieck",
+        "VL Ferguson",
+        "TA Bateman",
+        "ML Bouxsein"
+      ]
+    },
+    {
+      "title": "Effects of space flight and IGF-1 on immune function",
+      "authors": [
+        "SK Chapes",
+        "SJ Simske",
+        "AD Forsman",
+        "TA Bateman",
+        "RJ Zimmerman"
+      ]
+    },
+    {
+      "title": "Multiple latent viruses reactivate in astronauts during Space Shuttle missions",
+      "authors": [
+        "SK Mehta",
+        "ML Laudenslager",
+        "RP Stowe",
+        "BE Crucian",
+        "CF Sams",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Epstein-Barr virus shedding by astronauts during space flight",
+      "authors": [
+        "DL Pierson",
+        "RP Stowe",
+        "TM Phillips",
+        "DJ Lugg",
+        "SK Mehta"
+      ]
+    },
+    {
+      "title": "Decreased non-MHC-restricted (CD56+) killer cell cytotoxicity after spaceflight",
+      "authors": [
+        "SK Mehta",
+        "I Kaur",
+        "EA Grimm",
+        "C Smid",
+        "DL Feeback",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Endocrine responses in long-duration manned space flight",
+      "authors": [
+        "CS Leach",
+        "PC Rambaut"
+      ]
+    },
+    {
+      "title": "Reactivation and shedding of cytomegalovirus in astronauts during spaceflight",
+      "authors": [
+        "SK Mehta",
+        "RP Stowe",
+        "AH Feiveson",
+        "SK Tyring",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Stress-induced reactivation of Epstein-Barr virus in astronauts",
+      "authors": [
+        "RP Stowe",
+        "DL Pierson",
+        "DL Feeback",
+        "AD Barrett"
+      ]
+    },
+    {
+      "title": "Chronic restraint stress upregulates erythropoiesis through glucocorticoid stimulation",
+      "authors": [
+        "JL Voorhees",
+        "ND Powell",
+        "L Moldovan",
+        "X Mo",
+        "TD Eubank",
+        "CB Marsh"
+      ]
+    },
+    {
+      "title": "Effects of repeated stress on T cell numbers and function in rats",
+      "authors": [
+        "OA Batuman",
+        "D Sajewski",
+        "JE Ottenweller",
+        "DL Pitman",
+        "BH Natelson"
+      ]
+    },
+    {
+      "title": "Acute episodes of predator exposure in conjunction with chronic social instability as an animal model of post-traumatic stress disorder",
+      "authors": [
+        "PR Zoladz",
+        "CD Conrad",
+        "M Fleshner",
+        "DM Diamond"
+      ]
+    },
+    {
+      "title": "Adrenocorticotropic hormone (ACTH) increases the expression of its own receptor gene",
+      "authors": [
+        "TM Morita",
+        "T Imai",
+        "Y Murata",
+        "F Kambe",
+        "H Funahashi",
+        "H Takagi"
+      ]
+    },
+    {
+      "title": "Regulation of bovine adrenal cell corticotropin receptor mRNA levels by corticotropin (ACTH) and angiotensin-II (A-II)",
+      "authors": [
+        "A Penhoat",
+        "C Jaillard",
+        "JM Saez"
+      ]
+    },
+    {
+      "title": "Corticotropin positively regulates its own receptors and cAMP response in cultured bovine adrenal cells",
+      "authors": [
+        "A Penhoat",
+        "C Jaillard",
+        "JM Saez"
+      ]
+    },
+    {
+      "title": "Regulation of corticotropin and steroidogenic enzyme mRNAs in human fetal adrenal cells by corticotropin, angiotensin-II and transforming growth factor beta 1",
+      "authors": [
+        "MC Lebrethon",
+        "C Jaillard",
+        "D Naville",
+        "M Begeot",
+        "JM Saez"
+      ]
+    },
+    {
+      "title": "Central and peripheral noradrenergic responses to 14 days of spaceflight (SLS-2) or hindlimb suspension in rats",
+      "authors": [
+        "S Fagette",
+        "L Somody",
+        "H Koubi",
+        "J Fareh",
+        "M Viso",
+        "C Gharib"
+      ]
+    },
+    {
+      "title": "Norepinephrine content in discrete brain areas and neurohypophysial vasopressin in rats after a 9-d spaceflight (SLS-1)",
+      "authors": [
+        "J Fareh",
+        "JM Cottet-Emard",
+        "JM Pequignot",
+        "G Jahns",
+        "J Meylor",
+        "M Viso"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J Buckey",
+        "J. C."
+      ]
+    },
+    {
+      "title": "Modulation of stress responses: how we cope with excess glucocorticoids",
+      "authors": [
+        "MF Dallman"
+      ]
+    },
+    {
+      "title": "Glucocorticoids, the etiology of obesity and the metabolic syndrome",
+      "authors": [
+        "MF Dallman",
+        "SF Akana",
+        "NC Pecoraro",
+        "JP Warne",
+        "SE la Fleur",
+        "MT Foster"
+      ]
+    },
+    {
+      "title": "Peroxisome proliferator-activated receptor activators inhibit thrombin-induced endothelin-1 production in human vascular endothelial cells by inhibiting the activator protein-1 signaling pathway",
+      "authors": [
+        "P Delerive",
+        "F Martin-Nizard",
+        "G Chinetti",
+        "F Trottein",
+        "JC Fruchart",
+        "J Najib"
+      ]
+    },
+    {
+      "title": "PPARalpha activators inhibit cytokine-induced vascular cell adhesion molecule-1 expression in human endothelial cells",
+      "authors": [
+        "N Marx",
+        "GK Sukhova",
+        "T Collins",
+        "P Libby",
+        "J Plutzky"
+      ]
+    },
+    {
+      "title": "Activation of proliferator-activated receptors alpha and gamma induces apoptosis of human monocyte-derived macrophages",
+      "authors": [
+        "G Chinetti",
+        "S Griglio",
+        "M Antonucci",
+        "IP Torra",
+        "P Delerive",
+        "Z Majd"
+      ]
+    },
+    {
+      "title": "The peroxisome proliferator-activated receptor-gamma is a negative regulator of macrophage activation",
+      "authors": [
+        "M Ricote",
+        "AC Li",
+        "TM Willson",
+        "CJ Kelly",
+        "CK Glass"
+      ]
+    },
+    {
+      "title": "Activation of human aortic smooth-muscle cells is inhibited by PPARalpha but not by PPARgamma activators",
+      "authors": [
+        "B Staels",
+        "W Koenig",
+        "A Habib",
+        "R Merval",
+        "M Lebret",
+        "IP Torra"
+      ]
+    },
+    {
+      "title": "Cross-talk between janus kinase-signal transducer and activator of transcription (JAK-STAT) and peroxisome proliferator-activated receptor-alpha (PPARalpha) signaling pathways. Growth hormone inhibition of pparalpha transcriptional activity mediated by stat5b",
+      "authors": [
+        "YC Zhou",
+        "DJ Waxman"
+      ]
+    },
+    {
+      "title": "PPAR-gamma agonists inhibit production of monocyte inflammatory cytokines",
+      "authors": [
+        "C Jiang",
+        "AT Ting",
+        "B Seed"
+      ]
+    },
+    {
+      "title": "Macrophages in human atheroma contain PPARgamma: differentiation-dependent peroxisomal proliferator-activated receptor gamma(PPARgamma) expression and reduction of MMP-9 activity through PPARgamma activation in mononuclear phagocytes in vitro",
+      "authors": [
+        "N Marx",
+        "G Sukhova",
+        "C Murphy",
+        "P Libby",
+        "J Plutzky"
+      ]
+    },
+    {
+      "title": "Thiazolidinedione inhibits the production of monocyte chemoattractant protein-1 in cytokine-treated human vascular endothelial cells",
+      "authors": [
+        "K Murao",
+        "H Imachi",
+        "A Momoi",
+        "Y Sayo",
+        "H Hosokawa",
+        "M Sato"
+      ]
+    },
+    {
+      "title": "Thiazolidinedione inhibits production of RANTES in a cytokine-treated human lung epithelial cell line",
+      "authors": [
+        "A Momoi",
+        "K Murao",
+        "H Imachi",
+        "Y Sayo",
+        "H Nakamura",
+        "H Hosokawa"
+      ]
+    },
+    {
+      "title": "Peroxisome proliferator-activated receptor activators target human endothelial cells to inhibit leukocyte-endothelial cell interaction",
+      "authors": [
+        "SM Jackson",
+        "F Parhami",
+        "XP Xi",
+        "JA Berliner",
+        "WA Hsueh",
+        "RE Law"
+      ]
+    }
+  ],
+  "original_title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f858/5443495/834c0841fc13/pone.0174174.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f858/5443495/8ecaaf649c8d/pone.0174174.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f858/5443495/95f5a60b6e3c/pone.0174174.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f858/5443495/6e614deda532/pone.0174174.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f858/5443495/c44331278dd0/pone.0174174.g005.jpg"
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "pmcid": "PMC5523082",
+  "title": "Spatial regulation of a common precursor from two distinct genes generates metabolite diversity†",
+  "abstract": "We have demonstrated that spatial regulation of the same product from two distinct genes generates metabolite diversity.\n\nIn secondary metabolite biosynthesis, core synthetic genes such as polyketide synthase genes usually encode proteins that generate various backbone precursors. These precursors are modified by other tailoring enzymes to yield a large variety of different secondary metabolites. The number of core synthesis genes in a given species correlates, therefore, with the number of types of secondary metabolites the organism can produce. In our study, heterologous expression of all the A. terreus NRPS-like genes showed that two NRPS-like proteins, encoded by atmelA and apvA, release the same natural product, aspulvinone E. In hyphae this compound is converted to aspulvinones whereas in conidia it is converted to melanin. The genes are expressed in different tissues and this spatial control is probably regulated by their own specific promoters. Comparative genomics indicates that atmelA and apvA might share a same ancestral gene and the gene apvA is located in a highly conserved region in Aspergillus species that contains genes coding for life-essential proteins. Our data reveal the first case in secondary metabolite biosynthesis in which the tissue specific production of a single compound directs it into two separate pathways, producing distinct compounds with different functions. Our data also reveal that a single trans-prenyltransferase, AbpB, prenylates two substrates, aspulvinones and butyrolactones, revealing that genes outside of contiguous secondary metabolism gene clusters can modify more than one compound thereby expanding metabolite diversity. Our study raises the possibility of incorporation of spatial, cell-type specificity in expression of secondary metabolites of biological interest and provides new insight into designing and reconstituting their biosynthetic pathways.",
+  "introduction": "Introduction\n\nFilamentous fungi, such as species found within the genus Aspergillus, are well known producers of secondary metabolites (SMs) with interesting biological activities. The genome sequencing of Aspergillus species revealed that the number of putative SM genes greatly exceeds the number of identified SMs, suggesting many novel types of SMs still remain to be discovered. In general, these SM genes are clustered in the genome. A typical cluster contains one key gene required for the synthesis of the precursor skeleton. These genes usually encode large multidomain enzymes belonging to the polyketide synthase (PKS) or non-ribosomal peptide synthetase (NRPS) class. Other adjacent genes encode enzymes that are involved in tailoring modifications, transport of the product, or co-regulation of the cluster genes. In a given fungal species, the SM arsenal is usually governed by the number of key synthetic genes in the genome, and this diversity is multiplied by various tailoring enzymes that give rise to a considerable number of different natural products. For instance, the fungus A. nidulans has 27 PKS genes, 12 NRPS genes, 14 NRPS-like genes and one PKS/NRPS hybrid gene. In a previous study, Ahuja et al. systematically characterized the polyketide products of eight non reducing PKSs (NR-PKSs) in A. nidulans. In combination with the six previously characterized NR-PKS genes, the study demonstrated that the 14 NR-PKS genes in A. nidulans could be divided into seven groups based on phylogenetic analysis. More importantly, each of these NR-PKSs produces a unique product which can be modified by other tailoring enzymes and incorporate into various SM biosynthetic pathways, indicating the potential of A. nidulans for biosynthesizing a large variety of different PKS-derived SMs.\n\nRecently, application of an efficient gene targeting system enabled us to link two NRPS-like genes apvA and btyA to their corresponding SMs, aspulvinones and butyrolactones, respectively, in A. terreus strain NIH 2624. In this study, we demonstrated that one NRPS-like gene, atmelA, is involved in the synthesis of a brown conidial melanin in this fungus. Compared to typical NRPSs, NRPS-like genes encode single module (A-T-TE) proteins missing the condensation (C) domain. The adenylation (A) domain is responsible for aryl acid substrate recognition and activation. The activated substrate is loaded onto the thiolation (T) domain. The thioesterase (TE) domain is suggested to be involved in the condensation and releasing of the final product. Therefore, the diversity of NRPS-like products is expanded by a combination of different A domains (substrate selection and activation) and TE domains (various cyclization and release mechanisms). The A. terreus genome contains 14 NRPS-like genes with predicted A-T-TE or similar domain architecture and the SM products for the majority of these are unknown.\n\nHere we report our efforts to systematically characterize the products of these 14 NRPS-like genes. We heterologously expressed each gene in A. nidulans under the control of the inducible alcA promoter. Surprisingly, our study reveals that two NRPS-like genes, apvA and atmelA, are responsible for the formation of the same intermediate, aspulvinone E (1, Fig. 1A). The aspulvinone E produced by AtmelA is further modified by a tyrosinase, AtmelB, and is incorporated into the brown melanin biosynthesis pathway in A. terreus (Fig. 1A). In parallel, the aspulvinone E synthesized by ApvA is further prenylated by a trans-prenyltransferase (AbpB) to produce aspulvinones (Fig. 1B). AbpB also prenylates butyrolactones, and this reveals that modifying genes outside of specific clusters can be responsible for modifying compounds from more than one SM gene cluster, thus expanding the diversity of SMs produced by an organism (Fig. 1B).\n\nOur results suggest that the promoter of apvA drives expression in hyphae resulting in the production of aspulvinone E (1), which is modified to produce aspulvinone variants. The atmelA promoter drives expression in conidia, also resulting in the production of aspulvinone E (1) but in this cell type it is converted to melanin. Further genetic analysis of apvA and atmelA indicates that these two genes may share a common ancestral gene. The gene apvA, which may result from duplication of the ancestral gene, is inserted in a genomic region consisting of genes that codes for life-essential proteins. Our study suggests an unprecedented pathway for conidial pigment biosynthesis in A. terreus that incorporates an NRPS-like product aspulvinone E (1) as its substrate (Fig. 1). Our data also demonstrated how the SM diversity can be expanded by (1) allocating the same natural product in different fungal compartments to produce molecules with different functions; (2) encoding tailoring enzyme that is capable of chemically modifying more than one type of SMs.",
+  "methods": "Materials and methods\n\nStrains and molecular manipulations\n\nPrimers used in this study are listed in Table S1.† The fungal strains used in this study are listed in Table S2.† The scheme for heterologously expressing the NRPS-like genes of A. terreus in A. nidulans is shown in Fig. S1.† The direct repeat (DR) deletion and AfpyG marker recycling experimental design is shown in Fig. S1.† The construction of fusion PCR products, protoplast generation, and transformation were carried out as previously described. The scheme of diagnostic PCR is shown in Fig. S8.†\n\nFor real time qRT-PCR, the A. terreus wild type strain and the mutant strain (apvAΔ, atmelA::apvA) were cultivated on LCMM agar for mRNA extraction from conidia. The A. terreus wild type strain was cultivated in LCMM liquid broth for mRNA extraction from hyphae. Total mRNA was extracted by using the Qiagen RNeasy Plant Mini Kit. The cDNA was made from the equal amount of mRNA. The expression of every gene was analyzed with the ABI 7900HT Fast Real-Time PCR system (see ESI for experimental details†).\n\nFermentation and LC-MS analysis\n\n(1) A. nidulans strain LO4389 and other HE mutant strains were cultivated at 37 °C in 50 ml LMM liquid medium (6 g l–1 NaNO3, 0.52 g l–1 KCl, 0.52 g l–1 MgSO4·7H2O, 1.52 g l–1 KH2PO4, 20 g l–1 lactose supplemented with 1 ml l–1 of trace element solution) at 1 × 106 spore per ml per 125 ml flask with shaking at 180 rpm. The nutrients uridine, uracil, pyridoxine and riboflavin were supplemented if necessary. As previously reported, 44 μl (10 mM) cyclopentanone was added into the medium after 18 h of incubation. The incubator temperature was then changed to 30 °C and the culture medium was collected 72 h after cyclopentanone induction. The medium was filtrated and extracted twice with ethyl acetate (EtOAc, 50 ml). Preparation of the HPLC-MS samples and the condition for MS analysis were as previously described.\n\n(2) For the prenyltransferase screening experiment, A. terreus NIH 2624 and the mutant strains were point inoculated at 30 °C on LCMM agar plates (6 g l–1 NaNO3, 0.52 g l–1 KCl, 0.52 g l–1 MgSO4·7H2O, 1.52 g l–1 KH2PO4, 10 g l–1 d-glucose, 20 g l–1 lactose, 15 g l–1 agar supplemented with 1 ml l–1 of trace element solution) per plate (D = 10 cm). After 5 days, agar was chopped into small pieces and extracted with 50 ml MeOH followed by 60 ml 1 : 1 CH2Cl2/MeOH. The extract was evaporated in vacuo to yield a water residue, which was suspended in 25 ml H2O and partitioned with 25 ml EtOAc, twice. Preparation of the HPLC-MS samples and the condition for MS analysis were the same as previously described.\n\n(3) For the extraction of different fungal tissues for aspulvinone production, the procedure was similar to a previously reported procedure. Plates containing 20 ml LCMM agar (1.5% agar) were overlaid with another 10 ml of LCMM agar (0.75% agar). Plates were point inoculated with wild type or the DR mutant strains and grown at 30 °C for 4 days. Conidia were harvested by adding 7 ml salt solution (8.5 g l–1 NaCl) followed by gently scraping with a sterile spreader. The conidial solution was inspected under the microscope to be largely free of hyphae and conidiophores. The conidial fraction was sonicated for 1 h and extracted twice with an equal volume of EtOAc. The top layer was then washed with 10 ml sterile water twice and removed with a sterile spatula. The bottom agar layer was then chopped into small pieces and extracted as previously described. Preparation of the HPLC-MS samples from different tissues and the conditions for MS analysis were as previously described.\n\nIsolation of secondary metabolites\n\nFor scale up, A. nidulans HE strains were cultivated at 37 °C in 1 liter LMM liquid medium (∼100 ml per flask) at 1 × 106 spores per ml with shaking at 180 rpm. The nutrients uridine, uracil, pyridoxine and riboflavin were supplemented if necessary. To induce expression, 88 μl cyclopentanone was added into the medium after 18 h of incubation. The incubator temperature was then changed to 30 °C and the culture medium was collected 72 h after cyclopentanone induction. The medium was filtrated and extracted three times with equal volume of EtOAc. The combined EtOAc layers were evaporated to a crude extract. Further purification of fractions with targeted compounds was carried out by gradient HPLC on a C18 reverse phase column [Phenomenex Luna 5 μm C18, 250 × 10 mm] with a flow rate of 5.0 ml min–1 and measured by a UV detector at 254 nm.\n\nFluorescence microscopy\n\nThe wild type and two mutant strains (atmelAp-gfp, apvAp-gfp) were cultivated on the two-layer agar plates as mentioned. Plates were point inoculated with wild type or the mutant strains and grown at 30 °C for 5 days. The conidia were collected as previously described and the conidial solution was diluted 10 times with sterile water. A 10 μl portion of the diluted solution was placed on a pre-cleaned microscope slide and covered with a coverslip. For imaging of the hyphal GFP fluorescence signal, the top layer was removed as previously described. A small portion of hyphae containing agar (<10 μl) was placed on a pre-cleaned microscope slide and covered with a coverslip. All the samples were examined under an optical microscope to confirm that the conidia and hyphae could be clearly visualized. Images were taken with a Zeiss LSM 510 Meta NLO (Thornwood, NY) confocal imaging system equipped with Argon, red HeNe, and green HeNe lasers and a Coherent Chameleon Ti–Sapphire laser mounted on a vibration-free table.",
+  "results": "Results\n\nHeterologous expression of the NRPS-like genes apvA and atmelA in A. nidulans both result in aspulvinone E production\n\nUsing a recently reported efficient heterologous expression (HE) system in A. nidulans, the individual NRPS-like genes identified in the A. terreus genome were expressed at either the wA or yA locus of A. nidulans under regulation of the inducible alcA promoter (Fig. S1A†). In a previous study, targeted deletion of apvA depleted production of aspulvinones in A. terreus indicating that this NRPS-like gene is responsible for the biosynthesis of the aspulvinone core. As expected, heterologous expression of apvA results in accumulation of aspulvinone E (1) which is speculated to be the first intermediate in the aspulvinone pathway (Fig. 1 and 2A and B). Unexpectedly, our HE experiments revealed that AtmelA produces the same compound (Fig. 2A and B). The gene apvA is responsible for aspulvinone biosynthesis while atmelA is involved in the synthesis of the brown conidial pigment. The brown conidial melanin is still produced in the apvA deletant strain as shown in Fig. 3A. In contrast, deletion of atmelA generates an albino mutant that is still capable of synthesizing aspulvinones. Together, these data reveal that despite having the same activity (i.e. synthesis of aspulvinone E), ApvA and AtmelA function in different roles in the fungus.\n\nAspulvinone E occurs as a precursor in both aspulvinone and melanin pathways\n\nTo test our hypothesis that the aspulvinone E is an intermediate in two different pathways, the aspulvinone pathway and melanin pathway, we wished to delete the first tailoring gene in each pathway to accumulate the precursor produced by the gene responsible for the backbone metabolite. Since we have established the genetic linkage between apvA and aspulvinones, we set out to identify the first tailoring enzyme, which we presumed was responsible for prenylating 1 to give 2 (Fig. 2A). However, we could not locate a prenyl transferase (PT) gene proximal to apvA. We then targeted each of the putative PT genes in the A. terreus genome for deletion (Fig. 4). The individual genes were knocked out using fragments created by fusion PCR. The SM profiles of the correct mutants were examined by LC-MS, and of the 11 different mutants, only the ATEG_01730.1Δ strain accumulated aspulvinone E (1) (Fig. 4). Unexpectedly, removal of ATEG_01730.1 leads to the accumulation of butyrolactone II (5) as well (Fig. 4). A previous study showed that the NRPS-like gene btyA is responsible for the biosynthesis of butyrolactone core. The expression of three genes, apvA, btyA, and abpB were also analyzed using real-time quantitative reverse transcription PCR (qRT-PCR). (Fig. S2C†) Our data showed that these three genes are co-expressed under aspulvinone and butyrolactone producing conditions. These pieces of evidence suggest that this single PT is responsible for the prenylation of two different metabolites, aspulvinone E (1) and butyrolactone II (5). Thus, we name the gene a (aspulvinone) b (butyrolactone) p (PT) B.\n\nDefinitively establishing the role of AtmelA in the synthesis of aspulvinone E (1) required additional gene deletion experiments. We first deleted the gene apvA using the direct repeat (DR) strategy followed by the recycling of the AfpyrG marker (Fig. S1B†). This ensures that aspulvinone E (1) identified in the later mutants is not from ApvA. However, limited information is available about the biosynthesis of the brown conidial melanin in A. terreus. Our study suggests that the melanin pathway originates from the NRPS-like product aspulvinone E (1), which is unlike the two main precursors [di-hydroxyphenylalanin (DOPA) and dihydroxynaphthalene (DHN)] of currently known melanins. The biosynthesis of DOPA melanin starts with a tyrosine that is oxidized to either DOPA or dopaquinone (DAQ) by a tyrosinase. Considering that aspulvinone E (1) shares the same phenol moiety as tyrosine, we speculate that a similar tyrosinase might catalyze the hydroxylation of 1 at the ortho position to give a dihydroxylated intermediate that becomes incorporated into the brown melanin (Fig. 1). Following the cluster paradigm, we examined the genes surrounding atmelA and identified one gene ATEG_03564.1 (atmelB) that encodes a putative tyrosinase. Removal of this gene in the apvAΔ background changed the strain's phenotype: the brown melanin was no longer synthesized and the conidia became bright yellow (Fig. 3A). As expected, the yellow material is aspulvinone E (1), which accumulated in the metabolite profiles of the apvA and atmelB double deletion strain (Fig. 3B). We next deleted the gene atmelA in the double apvAΔ, atmelBΔ strain. The LC-MS profile of this triple deletion mutant shows the abrogation of the aspulvinone E (1) which had reappeared in the double mutant (Fig. 3B), in accord with our HE results that AtmelA was also capable of producing Aspulvinone E (1).\n\nAspulvinone E (1) produced by ApvA and AtmelA accumulates in different fungal tissues\n\nOur studies indicate that ApvA and AtmelA synthesize the same product aspulvinone E (1). We next asked how the fungus is able to allocate the same chemical synthesized by different proteins into their own specific pathway without cross-interference. Previous literature reports have shown that the production of SMs and/or their precursors can be specific to both cellular organelle and fungal tissue. We speculated that the aspulvinone E (1) from the two genes might be generated in different fungal tissues. Since removal of atmelA or atmelB changes the phenotype of A. terreus conidia (Fig. 3A), it is likely that aspulvinone E (1) from AtmelA might be produced in conidia. Likewise aspulvinones, derived from 1 that is produced by ApvA, might be produced inside the hyphae and secreted into the medium.\n\nTo test this hypothesis, we performed tissue-specific extraction to reinvestigate the SM profiles of the four strains ((1) wild type; (2) abpBΔ; (3) apvAΔ, atmelBΔ; (4) apvAΔ, atmelBΔ, atmelAΔ). Fungal cultures were divided into three fractions: (1) conidial (mostly conidia and minor conidiophore), (2) top layer agar (mixture of conidiophore, vegetative hyphae, minor invasive hyphae), (3) lower layer agar (mostly invasive hyphae) (Fig. 3C and D). Compared to the SM profiles of total extracts (Fig. 3B), extraction of the conidia showed the accumulation of 1 only in the apvAΔ, atmelBΔ strain (Fig. 3C), not in strains carrying abpBΔ or atmelAΔ. This result indicates that aspulvinone E (1) from AtmelA is produced in conidia. Extraction of the hyphal (mostly invasive) fraction showed the production of 1 in the abpBΔ strain and compound 2 in wild type, indicating that aspulvinone E (1) from ApvA and its derivative 2 are specifically produced in hyphae.\n\nExchanging atmelA with apvA, under control of the atmelA promoter, restores melanin production in A. terreus\n\nNext, we asked about the molecular mechanism for regulating the tissue-specific production of 1. We first examined the expression profiling of atmelA and apvA in different tissues using Real-Time qRT-PCR (Fig. S2, see ESI† for experimental details). As expected, the gene atmelA is specifically expressed in conidia compartment (Fig. S2B†) while the gene apvA is locally expressed in hyphae (Fig. S2C†). We then probed this question by determining whether ApvA could replace AtmelA in brown melanin biosynthesis. We assumed that tailoring enzymes like AtmelB could still recognize aspulvinone E (1) generated from either ApvA or AtmelA. Another study suggests that the products of two tubulin genes, benA and tubC, are functionally interchangeable. The method they used was to disrupt benA and then put tubC under control of the benA promoter. Herein we implemented a similar strategy by replacing the coding region of atmelA with that of apvA, placing apvA under control of the atmelA promoter (atmelAp) in the apvAΔ background (Fig. S1Ci†). As shown in Fig. 5A, the mutant stain (apvAΔ, atmelA::apvA) produces brownish conidia indicating that the brown conidial pigment is produced in the mutant strain (apvAΔ, atmelA::apvA). As anticipated, the production of aspulvinones (1 or 2) were not detected (Fig. S3†). The pigment is not produced as much as in the wild type (Fig. 5A) probably because atmelAp, after all, is not the native promoter of ApvA. Quantitative analysis of their expression using Real-Time qRT-PCR reveals that the expression level of apvA, which is under the control of atmelA promoter, is lower than that of atmelA. (Fig. S2B†) This could be one of the reasons for reduced production of the conidial melanin in the mutant strain (apvAΔ, atmelA::apvA). But more importantly, our experiment shows that compound 1 from apvA can be incorporated into the melanin pathway when apvA is regulated by atmelAp. As mentioned earlier, the production of 1 from atmelA is conidia-specific. Thus, this experiment shows that the product of ApvA can also be produced inside conidia and incorporated into melanin, suggesting that the tissue specific allocation of their products may be due to cell-type specific expression of the genes atmelA and apvA under regulation of their specific promoters.\n\nTissue specific expression of gfp occurs when the coding sequence of gfp replaces atmelA and apvA\n\nTo test our hypothesis, we generated two mutants (atmelAp-gfp, apvAp-gfp) in which the coding regions of apvA and atmelA were replaced by the green fluorescent protein coding sequence (gfp), placing gfp under control of their specific promoters (Fig. S1Cii†). Both the melanin pathway and aspulvinones biosynthetic pathways are active when A. terreus is cultivated on LCMM agar. Under this culture condition, we hypothesized that atmelAp would turn on the expression of gfp specifically inside the conidia while the gfp regulated by apvAp would display a green fluorescent signal in the hyphae. As expected, we were able to visualize localization of GFP within the conidia only in the strain carrying atmelAp-gfp but not in the parental strain (used as control) or the strain apvAp-gfp. (Fig. 5B) In comparison, hyphal localization of GFP fluorescence was observed only in strain apvAp-gfp. (Fig. 5B) Thus, the tissue specific accumulation of aspulvinone E (1) is probably due to cell-type-specific expression of the two genes apvA and atmelA.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Chemistry"
+  ],
+  "citations": [
+    {
+      "title": "",
+      "authors": [
+        "N. Khaldi",
+        "F. T. Seifuddin",
+        "G. Turner",
+        "D. Haft",
+        "W. C. Nierman",
+        "K. H. Wolfe",
+        "N. D. Fedorova"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "N. P. Keller",
+        "G. Turner",
+        "J. W. Bennett"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M. A. Fischbach",
+        "C. T. Walsh"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "D. W. Brown",
+        "J. H. Yu",
+        "H. S. Kelkar",
+        "M. Fernandes",
+        "T. C. Nesbitt",
+        "N. P. Keller",
+        "T. H. Adams",
+        "T. J. Leonard"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M. Ahuja",
+        "Y.-M. Chiang",
+        "S.-L. Chang",
+        "M. B. Praseuth",
+        "R. Entwistle",
+        "J. F. Sanchez",
+        "H.-C. Lo",
+        "H.-H. Yeh",
+        "B. R. Oakley",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "H. von Döhren"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "C. J. Guo",
+        "B. P. Knox",
+        "J. F. Sanchez",
+        "Y. M. Chiang",
+        "K. S. Bruno",
+        "C. C. Wang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "C. J. Balibar",
+        "A. R. Howard-Jones",
+        "C. T. Walsh"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "Y. M. Chiang",
+        "C. E. Oakley",
+        "M. Ahuja",
+        "R. Entwistle",
+        "A. Schultz",
+        "S. L. Chang",
+        "C. T. Sung",
+        "C. C. Wang",
+        "B. R. Oakley"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J. B. Nielsen",
+        "M. L. Nielsen",
+        "U. H. Mortensen"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "K. Langfelder",
+        "M. Streibel",
+        "B. Jahn",
+        "G. Haase",
+        "A. A. Brakhage"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "E. Berthier",
+        "F. Y. Lim",
+        "Q. Deng",
+        "C. J. Guo",
+        "D. P. Kontoyiannis",
+        "C. C. Wang",
+        "J. Rindy",
+        "D. J. Beebe",
+        "A. Huttenlocher",
+        "N. P. Keller"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "F. Y. Lim",
+        "B. Ames",
+        "C. T. Walsh",
+        "N. P. Keller"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "G. S. May"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "B. R. Oakley"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "H. C. Eisenman",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "Q. Gao",
+        "F. Garcia-Pichel"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "H. Gao",
+        "W. Guo",
+        "Q. Wang",
+        "L. Zhang",
+        "M. Zhu",
+        "T. Zhu",
+        "Q. Gu",
+        "W. Wang",
+        "D. Li"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "P. G. Cruz",
+        "D. S. Auld",
+        "P. J. Schultz",
+        "S. Lovell",
+        "K. P. Battaile",
+        "R. MacArthur",
+        "M. Shen",
+        "G. Tamayo-Castillo",
+        "J. Inglese",
+        "D. H. Sherman"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "A. Hanlon",
+        "S. O'Connor"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "K. Nitta",
+        "N. Fujita",
+        "T. Yoshimura",
+        "K. Arai",
+        "Y. Yamamoto"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "P. M. Dewick"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "T. Tohge",
+        "M. Watanabe",
+        "R. Hoefgen",
+        "A. R. Fernie"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "I. Takahashi",
+        "N. Ojima",
+        "K. Ogura",
+        "S. Seto"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "X. Yu",
+        "X. Xie",
+        "S. M. Li"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J. F. Sanchez",
+        "R. Entwistle",
+        "J.-H. Hung",
+        "J. Yaegashi",
+        "S. Jain",
+        "Y.-M. Chiang",
+        "C. C. C. Wang",
+        "B. R. Oakley"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "H.-C. Lo",
+        "R. Entwistle",
+        "C.-J. Guo",
+        "M. Ahuja",
+        "E. Szewczyk",
+        "J.-H. Hung",
+        "Y.-M. Chiang",
+        "B. R. Oakley",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "B. Wackler",
+        "P. Schneider",
+        "J. M. Jacobs",
+        "J. Pauly",
+        "C. Allen",
+        "M. Nett",
+        "D. Hoffmeister"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "H.-H. Yeh",
+        "Y.-M. Chiang",
+        "R. Entwistle",
+        "M. Ahuja",
+        "K.-H. Lee",
+        "K. Bruno",
+        "T.-K. Wu",
+        "B. Oakley",
+        "C. C. Wang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J. Zhu",
+        "W. Chen",
+        "Y.-M. Shen",
+        "Y.-Y. Li",
+        "J.-J. Deng",
+        "D.-Y. Zhu",
+        "J. Duan",
+        "Y. Liu",
+        "G.-Y. Shi",
+        "C. Xie",
+        "H.-X. Wang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "A. R. Knaggs"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "K. Arai",
+        "Y. Yamamoto"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M. Wang",
+        "M. Beissner",
+        "H. Zhao"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "C.-J. Guo",
+        "B. P. Knox",
+        "Y.-M. Chiang",
+        "H.-C. Lo",
+        "J. F. Sanchez",
+        "K.-H. Lee",
+        "B. R. Oakley",
+        "K. S. Bruno",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "P. Wiemann",
+        "C. J. Guo",
+        "J. M. Palmer",
+        "R. Sekonyela",
+        "C. C. Wang",
+        "N. P. Keller"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "F. Y. Lim",
+        "N. P. Keller"
+      ]
+    }
+  ],
+  "original_title": "Spatial regulation of a common precursor from two distinct genes generates metabolite diversity",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f768/5523082/90941d11d5a5/c5sc01058f-ga.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f768/5523082/6a4256175c8a/c5sc01058f-f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f768/5523082/ec1a7f0ee243/c5sc01058f-f2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f768/5523082/62ecebaad9dc/c5sc01058f-f3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f768/5523082/edbb909a4dea/c5sc01058f-f4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f768/5523082/868904641894/c5sc01058f-f5.jpg"
+  ]
+}

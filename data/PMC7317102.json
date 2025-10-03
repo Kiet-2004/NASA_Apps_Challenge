@@ -1,0 +1,199 @@
+{
+  "pmcid": "PMC7317102",
+  "title": "Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station",
+  "abstract": "The draft genome sequences of six eukaryotic microbial strains belonging to the class Tremellomycetes isolated from the International Space Station were assembled. Further characterization of these sequences will aid in the understanding of the influence of microgravity conditions on these organisms’ potential pathogenicity.\n\nABSTRACT\n\nThe draft genome sequences of six eukaryotic microbial strains belonging to the class Tremellomycetes isolated from the International Space Station were assembled. Further characterization of these sequences will aid in the understanding of the influence of microgravity conditions on these organisms’ potential pathogenicity.",
+  "introduction": "ANNOUNCEMENT\n\nIn an ongoing microbial observatory experiment on the International Space Station (ISS), species belonging to the class Tremellomycetes were identified. This class comprises yeasts, dimorphic fungi, and organisms that form hyphae or complex fruiting bodies. In this class, the genera Naganishia and Papiliotrema were amended to accommodate the Cryptococcus albidus clade and a few other Cryptococcus species, respectively. Among the Cryptococcus species, Cryptococcus neoformans and Cryptococcus gattii are the most common human pathogens; however, recently, there has been an increase in infections caused by non-neoformans Cryptococcus species. This report presents the draft genome assemblies of four such non-neoformans Cryptococcus species, enabling the identification of genetic determinants responsible for their potential pathogenicity under the influence of microgravity compared to their ground controls.\n\nIn this study, the draft genome sequences of six strains belonging to the class Tremellomycetes isolated from the ISS were determined. Descriptions of the sample collection, processing, and presumptive identification of these isolates were published elsewhere. Briefly, samples collected from the ISS were processed, and 100 μl of each dilution was plated onto potato dextrose agar (PDA) with 100 μg/ml chloramphenicol. The plates were incubated at 25°C for 7 days. The single colony obtained was restreaked onto PDA plates and incubated at 25°C for 3 days, and a biomass of approximately 1 μg wet weight was collected and pooled for DNA extraction. Total nucleic acid extraction was carried out using a ZymoBIOMICS 96 MagBead DNA kit (Lysis tubes) (Zymo Research, USA) after bead beating using a Bertin Precellys homogenizer. This was followed by library preparation using the Illumina Nextera Flex protocol as per Illumina document number 1000000025416 v07. The initial amount of DNA for library preparation was quantified, and depending on the input DNA concentration, 5 to 12 cycles of PCR were carried out to normalize the output. The amplified genomic DNA fragments were indexed and pooled in a 384-plex configuration. Whole-genome shotgun sequencing was performed on a NovaSeq 6000 S4 flow cell paired-end (PE) 2 × 150-bp platform with a paired-end module. The data were filtered with the NGS QC Toolkit v2.3 for high-quality (HQ) vector- and adaptor-free reads for genome assembly (cutoff read length for HQ, 80%; cutoff quality score, 20). The numbers of filtered reads obtained are listed in Table 1, and they were used for assembly with the SPAdes v3.14.1 genome assembler (k-mer size, 32 to 72 bases). Default parameters were used for all software. The details of the final assembly are summarized in Table 1.\n\nThe species were identified based on the internal transcribed spacer (ITS) sequences extracted from the assembled genomes. The ITS sequence of Naganishia sp. strain IF7SW-B1 retrieved from the assembled genome did not show ≥98% identity to any Naganishia species and, therefore, requires taxonomic characterization. Isolation of Naganishia and Papiliotrema species from the ISS is significant, and their persistence during space flight needs to be further studied.\n\nData availability.\n\nThe whole-genome sequences and raw data have been deposited in GenBank under the BioProject accession number PRJNA623412. This project has also been deposited in the NASA GeneLab system (GLDS-290; https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-290). The version described in this paper is the first version.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "A higher-level phylogenetic classification of the Fungi",
+      "authors": [
+        "DS Hibbett",
+        "M Binder",
+        "H Thorsten Lumbsch",
+        "F Lutzoni",
+        "PB Matheny",
+        "DJ McLaughlin",
+        "MJ Powell",
+        "S Redhead",
+        "CL Schoch",
+        "JW Spatafora",
+        "JA Stalpers",
+        "R Vilgalys",
+        "JF Bischoff",
+        "MC Aime",
+        "A Aptroot",
+        "R Bauer",
+        "D Begerow",
+        "GL Benny",
+        "LA Castlebury",
+        "PW Crous",
+        "Y-C Dai",
+        "W Gams",
+        "DM Geiser",
+        "M Blackwell",
+        "GW Griffith",
+        "C Gueidan",
+        "DL Hawksworth",
+        "G Hestmark",
+        "K Hosaka",
+        "RA Humber",
+        "KD Hyde",
+        "JE Ironside",
+        "U Kõljalg",
+        "CP Kurtzman",
+        "PF Cannon",
+        "K-H Larsson",
+        "R Lichtwardt",
+        "J Longcore",
+        "J Miadlikowska",
+        "A Miller",
+        "J-M Moncalvo",
+        "S Mozley-Standridge",
+        "F Oberwinkler",
+        "E Parmasto",
+        "V Reeb",
+        "OE Eriksson",
+        "JD Rogers",
+        "C Roux",
+        "L Ryvarden",
+        "JP Sampaio",
+        "A Schüssler",
+        "J Sugiyama",
+        "RG Thorn",
+        "L Tibell",
+        "WA Untereiner",
+        "C Walker",
+        "S Huhndorf",
+        "Z Wang",
+        "A Weir",
+        "W Weiss",
+        "M White",
+        "K Winka",
+        "Y-J Yao",
+        "N Zhang",
+        "T James",
+        "PM Kirk",
+        "R Lücking"
+      ]
+    },
+    {
+      "title": "Towards an integrated phylogenetic classification of the Tremellomycetes",
+      "authors": [
+        "XZ Liu",
+        "QM Wang",
+        "FY Bai",
+        "M Goker",
+        "M Groenewald",
+        "AV Kachalkin",
+        "HT Lumbsch",
+        "AM Millanes",
+        "M Wedin",
+        "AM Yurkov",
+        "T Boekhout"
+      ]
+    },
+    {
+      "title": "First case of superficial infection due to Naganishia albida (formerly Cryptococcus albidus) in Iran: a review of the literature",
+      "authors": [
+        "S Aghaei Gharehbolagh",
+        "M Nasimi",
+        "S Agha Kuchak Afshari",
+        "Z Ghasemi",
+        "S Rezaie"
+      ]
+    },
+    {
+      "title": "Catheter-related infection due to Papiliotrema laurentii in an oncologic patient: case report and systematic review",
+      "authors": [
+        "MR Londero",
+        "CD Zanrosso",
+        "LL Corso",
+        "L Michelin",
+        "J Soldera"
+      ]
+    },
+    {
+      "title": "Isolation of Cryptococcus adeliensis from clinical samples and the environment in Germany",
+      "authors": [
+        "K Tintelnot",
+        "H Losert"
+      ]
+    },
+    {
+      "title": "Acute respiratory distress syndrome due to Cryptococcus albidus pneumonia: case report and review of the literature",
+      "authors": [
+        "C Burnik",
+        "ND Altintas",
+        "G Ozkaya",
+        "T Serter",
+        "ZT Selcuk",
+        "P Firat",
+        "S Arikan",
+        "M Cuenca-Estrella",
+        "A Topeli"
+      ]
+    },
+    {
+      "title": "Non-neoformans cryptococcal infections: a systematic review",
+      "authors": [
+        "T Khawcharoenporn",
+        "A Apisarnthanarak",
+        "LM Mundy"
+      ]
+    },
+    {
+      "title": "NGS QC Toolkit: a toolkit for quality control of next generation sequencing data",
+      "authors": [
+        "RK Patel",
+        "M Jain"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station"
+}

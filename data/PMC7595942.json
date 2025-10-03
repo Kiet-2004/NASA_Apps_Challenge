@@ -1,0 +1,158 @@
+{
+  "pmcid": "PMC7595942",
+  "title": "Draft Genome Sequences of Bacillaceae Strains Isolated from the International Space Station",
+  "abstract": "The draft genome sequences of 29 bacterial isolates belonging to the family Bacillaceae were collected from the International Space Station, assembled, and identified. Further analysis of these sequences will enable us to understand their roles for space and biotechnological applications.\n\nABSTRACT\n\nThe draft genome sequences of 29 bacterial isolates belonging to the family Bacillaceae were collected from the International Space Station, assembled, and identified. Further analysis of these sequences will enable us to understand their roles for space and biotechnological applications.",
+  "introduction": "ANNOUNCEMENT\n\nThe family Bacillaceae is composed of mostly aerobic or facultatively anaerobic rods with a Gram-positive cell wall. Members of this group are ubiquitous in nature, found in soil, sediments, air, freshwater, marine ecosystems, and foods and in extreme environments with high temperatures. Bacillaceae groups are reported to produce a wide range of valuable and thermostable extracellular enzymes. The majority of Bacillaceae can form endospores that are crucial for survival in harsh environments. This spore-forming property makes it important for NASA planetary protection purposes because spore-forming bacteria are more likely to survive sterilization procedures and the harsh environments of outer space, making them a potential threat for forward contamination.\n\nThis report presents the draft genome sequences of three species (Bacillus amyloliquefaciens, Bacillus cereus, and Paenibacillus polymyxa) belonging to the family Bacillaceae, isolated from predefined surfaces at various locations on the International Space Station. The samples were collected using premoistened polyester wipes, brought back to Earth, aseptically transferred to a 500-ml bottle containing 200 ml of phosphate-buffered saline, mixed by vigorously shaking, and concentrated via a filtration system. An appropriate aliquot of each sample was inoculated onto either Reasoner’s 2A (R2A) (25°C; 7 days) or blood (37°C; 2 days) agar. A single colony from each incubated plate was used for genomic DNA extraction using the ZymoBIOMICS MagBead DNA kit according to the manufacturer’s instructions (Zymo Research, USA). All isolates were identified by 16S rRNA sequencing based on similarity to their type strain 16S rRNA, as previously reported. To create the whole-genome sequences (WGS) of these strains, shotgun libraries were prepared using the Illumina Nextera Flex protocol, using NovaSeq 6000 S4 flow cell 2 × 150 paired-end (PE) sequencing. Verification of the quality of the raw sequencing data was carried out using FastQC v0.11.7. Quality control for adapter trimming and quality filtering were performed using fastp v0.20.0, and then SPAdes v3.11.1 was used to assemble all the cleaned sequences. Fastp quality control was based on the following three parameters: (i) correction of mismatches in overlapped regions of paired-end reads, (ii) trimming of autodetected adapter sequences, and (iii) quality trimming at the 5′ and 3′ ends. To determine the quality of the assembled sequences, the number of contigs, the N 50 value, and the total length were calculated using QUAST v5.0.2. Default parameters were used for all software. The average nucleotide identity (ANI) was calculated using OrthoANIu by comparing each of the 29 Bacillaceae scaffolds to the WGS of the respective type strains. The ANI range was 93.98% to 94.17% for B. amyloliquefaciens, and the ANI was 98% for both B. cereus and P. polymyxa. All other genomic statistics are given in Table 1.\n\nData availability.\n\nThe WGS and raw data have been deposited in GenBank under the BioProject accession number PRJNA637984 and also in the NASA GeneLab system (https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-303/). The version described in this paper is the final version.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "Life from the ashes: survival of dry bacterial spores after very high temperature exposure",
+      "authors": [
+        "L Beladjal",
+        "T Gheysens",
+        "JS Clegg",
+        "M Amar",
+        "J Mertens"
+      ]
+    },
+    {
+      "title": "Ecology of Bacillaceae",
+      "authors": [
+        "I Mandic-Mulec",
+        "P Stefanic",
+        "JD van Elsas"
+      ]
+    },
+    {
+      "title": "The prevalence and control of Bacillus and related spore-forming bacteria in the dairy industry",
+      "authors": [
+        "N Gopal",
+        "C Hill",
+        "PR Ross",
+        "TP Beresford",
+        "MA Fenelon",
+        "PD Cotter"
+      ]
+    },
+    {
+      "title": "Experimental studies addressing the longevity of Bacillus subtilis spores—the first data from a 500-year experiment",
+      "authors": [
+        "N Ulrich",
+        "K Nagler",
+        "M Laue",
+        "CS Cockell",
+        "P Setlow",
+        "R Moeller"
+      ]
+    },
+    {
+      "title": "Resistance of bacterial endospores to outer space for planetary protection purposes—experiment PROTECT of the EXPOSE-E mission",
+      "authors": [
+        "G Horneck",
+        "R Moeller",
+        "E Stackebrandt",
+        "P Vaishampayan",
+        "KJ Venkateswaran",
+        "J Cadet",
+        "T Douki",
+        "RL Mancinelli",
+        "WL Nicholson",
+        "C Panitz",
+        "E Rabbow",
+        "P Rettberg",
+        "A Spry"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "FastQC: a quality tool for high throughput sequence data",
+      "authors": [
+        "S Andrews"
+      ]
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": [
+        "S Chen",
+        "Y Zhou",
+        "Y Chen",
+        "J Gu"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": [
+        "S-H Yoon",
+        "S-M Ha",
+        "J Lim",
+        "S Kwon",
+        "J Chun"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Bacillaceae Strains Isolated from the International Space Station."
+}

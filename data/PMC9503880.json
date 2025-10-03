@@ -1,0 +1,477 @@
+{
+  "pmcid": "PMC9503880",
+  "title": "Microbial Burden Estimation of Food Items, Built Environments, and the International Space Station Using Film Media",
+  "abstract": "The use of film media involves considerably less preparation, waste, and incubator space than conventional agar-media-based assays and has proven in past studies to provide counts of cultivable microbes similar to those of traditional agar media. Film media also have the advantage of allowing sample volumes similar to those used in pour plates and, therefore, are well-suited for cultivable microbial counts in extremely low-biomass environments such as clean rooms or space habitats, particularly where the subsequent isolation of colonies is necessary. As the preparation of film media plates relies on water cohesion/adhesion rather than manual spreading, they may have future applications in low- or microgravity settings. In this study, cultivable microbial count performance was compared between agar media and film media in three kinds of samples: food items, surfaces in built environments on Earth (homes), and on the environmental surfaces of the International Space Station (ISS). Easy Plates (Kikkoman Corporation) and Petrifilm (3M) were compared with traditional agar plating for food and home surfaces, while only Easy Plates were compared with agar for ISS samples. For both food items and built environments on Earth, both types of film media performed comparably to agar media for bacterial counts, with R2 values of 0.94–0.96. Fungal counts for built-environment samples had a lower correlation between film and agar counts, with R2 values of 0.72–0.73. Samples from the ISS, which ranged from below detection to 103 CFU per 100 cm2, had R2 values of 0.80 for bacterial counts and 0.73 for fungal counts, partially due to multiple samples recording below the detection limit for agar or too numerous to count, and the growth of fungal species on R2A medium. The species compositions of isolates picked from agar vs. film media plates were similar; however, further phylogenetic analysis is needed to confirm the differential microbial diversity composition. Overall, film media such as Easy Plates and Petrifilm are viable alternatives to agar plates for low-biomass built environments as well as for food samples, and the two brands tested in this study performed equally well.",
+  "introduction": "1. Introduction\n\nCounts of cultivable bacteria and fungi from food items, water samples, and surfaces are a traditional mainstay for public health standards and assessment, as well as the core method that NASA uses to ensure that any craft or robot launched into space meets planetary protection regulations. Preparing, plating, incubating, and counting samples using traditional agar plates, however, generates a great deal of plastic and organic waste and can be prohibitive in terms of the time and space required. Obtaining cultivable microbial counts from low-biomass arenas, including pure water samples, hospitals, clean rooms, and space habitats such as the International Space Station (ISS), presents additional challenges. The samples from these environments are often below detection limits when using standard plating methodology and dilutions, requiring larger numbers and volumes of samples to characterize microbial bioburden. During a survey of multiple NASA clean rooms, for example, more than 30% of samples were below the detection limit for measuring the number of cultivable microbes. In addition, the whole-genome sequencing of isolated fungi and bacteria from cultivable approaches is often necessary for further phenotypic and genomic characterization, which can be used to understand the functional and physiological traits of cultivable microorganisms. For example, isolates from hospitals and human habitats are often assessed for changes or increases in virulence and antibiotic resistance, e.g.,. Similarly, the NASA community is in need of understanding the yet-to-be cultured microorganisms for their possible survival or proliferation in extraterrestrial conditions. Therefore, any improvements or changes in plating methods must not only produce cultivable microbial counts comparable to traditional methods but must also not change the ratios or types of the isolated species.\n\nFor the last 50 years, miniaturized stackable media called “film” media have been available as alternatives to traditional agar. Petrifilm was developed by 3M in the 1980s as an alternative to agar spread and pour plates. It consists of a thin wafer of nutrient/gelling agent between two plastic films. Petrifilm was designed to plate 1 mL of a sample on a surface with the approximate size and volume of a playing card, using dyes such as tetrazolium to indicate colony growth. This greatly reduces both the volume of incubator space needed to grow a large number of samples and the time and materials needed to prepare agar plates. According to 3M, Petrifilm media “take up 85% less space, reduce waste 66%, greenhouse gas emissions by 75%, and water waste by 79%” compared with agar plates. Recently, Kikkoman/Dai Nippon Printing (DNP) has developed another brand of film media, Easy Plates, which are similar to Petrifilm in many respects but which have the advantage of a hydrophobic resin ring surrounding the medium which negates the use of a spreader tool, reducing preparation time even further. In addition, the Easy Plate design purportedly increases the ease of counting by its reduced liquefaction of the gel compared with Petrifilm.\n\nPrevious reports on Petrifilm media found that they produced statistically similar results for cultivable microbial counts to those of agar plate methods for food and environmental safety testing, including aerobic bacteria in raw milk, poultry, fungal counts on dairy products, food items spiked with a variety of common molds, and aerobic or coliform bacteria in wastewater. More recent studies showed that film media obtained equivalent counts to agar for soil samples inoculated with varying concentrations of E. coli, steel and porcelain surfaces inoculated with ubiquitous built-environment bacteria, biofilm samples using drop plating, and bacterial counts on a variety of food items. There has also been extensive testing of film media in the dairy industry which is leading to the adoption of Petrifilm as a standard method for the enumeration of aerobic and coliform bacteria. Petrifilm is now becoming a widely used method of bacterial and fungal cultivable microbial counting and isolation in place of agar media.\n\nMost studies testing film vs. agar media performance for cultivable microbial counts have focused on high-bioburden environments and samples such as dairy products and food, or samples/surfaces that are pre-inoculated with a known microbial consortium. Film media are only recently being assessed for cultivable microbial counts in extremely low-biomass environments such as clean rooms and hospitals. Recently, researchers from NASA compared Petrifilm Rapid Aerobic Count (RAC) plates with tryptic soy agar (TSA) plates for measuring the bioburden of an extremely low-biomass clean room environment and found that Petrifilm was equal to TSA plates in aerobic bacterial estimation. In addition, Petrifilm was found to be superior to TSA in containing colonies that could spread and grow to cover 25% or more area of agar plate.\n\nKikkoman’s Easy Plates have not yet been compared in the scientific literature for their performance relative to both agar plates and Petrifilm. While film media have been previously used in place of agar plating to assess cultivable microbial counts for built environments and hospitals, they have not been tested in extremely low-biomass environments, particularly those with high fiber counts. Additionally, because Easy Plates entirely rely on water adhesion/cohesion forces for inoculation rather than manual spreading, it is likely that they could be viable options for environmental monitoring in micro- or low-gravity settings in future space installations.\n\nTherefore, our objectives for this study were to (1) test the bacterial enumeration performance among agar plates, Petrifilm, and Easy Plates for a variety of food items; (2) compare the cultivable microbial counts in an Earth-built-environment setting for agar plates, Petrifilm, and Easy Plates using bacterial- and fungal-specific media; and (3) test the efficacy of Easy Plates as an alternative method for bacterial and fungal bioburden estimation and the isolation of bacterial and fungal strains for surface samples from the ISS, for both cultivable microbial counts and species composition of isolates.",
+  "methods": "2. Materials and Methods\n\n2.1. Descriptions of Petrifilm and Easy Plate Media Tested\n\nAccording to the manufacturer’s instruction manuals, Petrifilm Aerobic Count (AC) Plate (3M, Saint Paul, MN, USA, Cat# 6400) and Easy Plate AC (Kikkoman, Noda, Chiba, Japan, Cat# 61973) were used for the enumeration of aerobic bacteria, and Petrifilm Rapid Yeast and Mold Count (RYM) Plate (3M, Cat# 6475) and Easy Plate YM-R (Kikkoman, Cat# 61977) were used for the enumeration of yeast and mold in the food and beverage industries. In general, in food and beverage microbiological testing, both the Petrifilm AC and Easy Plate AC count red colonies after 48 h of incubation at 35 °C. Petrifilm RYM counts blue-green colonies after 48 h of incubation at 25 °C or 28 °C, and Easy Plate YM-R counts purple colonies after 48 h at 25 °C. Both media can extend the incubation time up to 3–7 days if the colonies appear faint.\n\n2.2. Food-Item Cultivable Microbial Counts and Media Testing\n\nFood items (n = 63), including raw and cooked meats, vegetables, nuts, and processed foods (see Supplementary Table S1 for list), were homogenized with 90 mL (10 g samples) or 225 mL (25 g samples) of sterile phosphate-buffered saline (PBS), and 10-fold serial dilutions were performed. One milliliter of each dilution was inoculated into each medium (Plate Count Agar, Petrifilm AC, and Easy Plate AC), incubated for 48 h at 35 °C, which are standard FDA methods for food safety testing, and the number of bacteria was counted. Fungal counts were not assayed for food samples.\n\n2.3. Built-Environment Cultivable Microbial Counts and Media Testing\n\nThe surfaces of Japanese homes (n = 5) were sampled for bacterial and fungal cultivable microbial counts. At each home, three different surfaces were sampled: one expected low-bioburden (example: window glass), one expected medium-bioburden, and one expected high-bioburden (example: living room floor) sample. Pro-media ST-25 phosphate-buffered saline (PBS) swab kits from ELMEX LIMITED (Shinjuku-ku, Tokyo, Japan), consisting of a cotton swab in 10 mL of sterile PBS, were used to swab the surfaces and were kept refrigerated (~4 °C) until use.\n\nIn each home, for each surface, a 100 cm2 area was sampled in all cases except for complex shapes (such as doorknobs) in which case the shape was thoroughly wiped over its entire surface area, and the swab was returned to the sterile PBS and shaken. Aliquots of 1 mL of undiluted and 1 mL of 10−1 diluted samples were plated on 6 types of media for each sample: traditional plate count agar (PCA) pour plate, Easy Plate AC, and Petrifilm AC to target aerobic bacteria, and conventional potato dextrose agar (PDA, BD Diagnostics Cat #213400) with 0.05 g/L chloramphenicol pour plate, Easy Plate YM-R, and Petrifilm RYM to target environmental fungi. Plates were incubated for 7 days at 25 °C, with cultivable microbial counts taken on Day 2 and Day 7; however, if plates were close to being too numerous to count on Day 2, colonies were counted and not incubated further.\n\n2.4. International Space Station Sampling and Media Testing\n\nPreparation of inoculum: Methods for preparing sampling kits and processing samples were similar to those used in the Microbial Tracking 1 and 2 missions. Sterile TexTra™ 10 TX3224 Dry Cleanroom Wipers were moistened with 15 mL of sterile phosphate-buffered saline (PBS), folded into quarters, and placed in sterile Ziploc baggies, which were later used to assemble the sampling kits at NASA Ames. Sample kits were transported to the ISS in June 2021. Over the course of five days, astronauts sampled the same square meter area of the same eight surfaces each day (see for detailed surface descriptions). On each sampling day, for each surface, the astronaut tasked with sampling donned a new pair of sterile gloves, removed and unfolded a sterile wipe from its bag, and wiped a square meter area of the surface three times, folding the wipe in half for the second pass and into quarters for the third pass. Additionally, on each sampling day, a wipe was removed from its bag and briefly exposed to the air, as an environmental control sample. A total of 45 samples (8 surfaces + 1 control, ×5 days) were produced and stored at 4 °C aboard the ISS and during transport to Earth.\n\nUpon delivery to the Jet Propulsion Laboratory (JPL), the wipes were separated into batches and stored at 4 °C until processing. All wipes were processed within 48 h of arrival at the JPL for the isolation of environmental microbes. All lab procedures were performed for all samples within a 12 h period. Each wipe was placed in a sterile 500 mL bottle with 200 mL sterile PBS and vigorously shaken for 2 min. In addition to the 45 ISS samples, an unopened wipe and a bottle of a sterile buffer without the addition of wipes were used as negative controls; no colonies resulted from these samples; thus, those data are not reported here. The PBS was then concentrated using an InnovaPrep CP-150 (Innovaprep LLC, Drexel, MI, USA) with a 0.2 µm Polysulfone hollow-fiber-concentrating pipette tip. Using additional sterile PBS, the resulting PBS concentrate was adjusted to 4 mL for all samples, and dilutions of 10−1, 10−2, and 10−3 were prepared.\n\nInoculation and cultivable microbial counting: Two replicate spread plates were prepared for all three dilution levels (10−1, 10−2, and 10−3), using two types of agar media: Reasoner’s 2 agar (R2A, BD Diagnostics Cat # 218263) and PDA plates supplemented with 0.05 g/L chloramphenicol, for a total of 12 plates per sample (2 agar types × 3 dilution levels × 2 replicates; ~540 plates in total). This occupied a total of almost 0.1 cubic meters, the equivalent of a large moving box. For each of the two types of film media (Kikkoman Easy Plate AC and Easy Plate YM-R), 1 mL of the 10−1 dilution was directly pipetted into the center of each plate and then sealed according to the manufacturer’s instructions. Agar and film plates were incubated at room temperature for 7 days; cultivable microbial counts were performed on Days 2 and 7. For ISS samples, PetriFilm media were not used.\n\nIsolation, purification, and identification of ISS strains: After cultivable microbial counting, up to 5 isolates were chosen from each combination of media type and sample. On both the agar plates and Easy Plates, colonies were deliberately selected for morphological differences, size, and colony coloration on agar plates. Colonies from Easy Plates were first streaked out onto TSA/PDA plates, incubated at 25 °C for 7 days, and imaged, before being transferred to 1:10 agar stabs of respective media. Similarly, the colonies from agar plates were directly transferred to respective agar stabs. The isolates were later streaked out for purification onto TSA or PDA plates. The secondary streak plates of purified isolates were sent to Azenta Life Sciences (Southfield, NJ, USA) for colony PCR + Sanger sequencing for the 16S rRNA gene or the ribosomal Internal Transcriber Space (ITS) region, respectively, for bacteria and fungi. Primers 27F and 1429R (27F 5′-AGAGTTTGATCCTGGCTCAG-3′; 1492R 5′-GGTTACCTTGTTACGACTT-3′) were used to target the entire 16S region (V1-V9) for bacterial strains. ITS regions 1 and 2 were targeted for fungal taxonomy using primers ITS1-F and ITS4 (ITS1 5′-CTTGGTCATTTAGAGGAAGTAA-3′; ITS4 5′-TCCTCCGCTTATTGATATGC-3′). Per Azenta Life Sciences standard operating procedure, enzymatic cleanup was performed after amplification using Exonuclease I—Shrimp Alkaline Phosphatase (ExoSAP), and dye-terminator Sanger sequencing was performed using an Applied Biosystems BigDye version 3.1 sequencing kit using an Applied Biosystem 3730xl DNA Analyzer.\n\nStatistical analysis: All statistical analyses and figure creation were carried out in R. Consensus 16S rRNA gene and ITS sequences were generated using the sangeranalyzeR package, and genus/species identity was determined using the nearest match to the NCBI nucleotide database. Type II linear models, Spearman and Pearson’s correlation coefficients, and paired and unpaired Wilcoxon rank-sum tests were used to assess the correlations and mean differences between the cultivable microbial counts of agar and film media. Although a 1 m2 area was used for ISS samples, for this research communication, we have converted the unit to cultivable microbes per 100 cm2 in order to illustrate the extremely low bioburden of the ISS samples compared with that of the food-item and built-environment studies also sampled.",
+  "results": "3. Results\n\nThe microbial population enumerated with traditional agar plate, Petrifilm, and Easy Plate are depicted in Figure 1. All three types of media were used for the comparison of food products (Figure 1A) and built environments (Figure 1B for bacteria and Figure 1C for fungi). Only the R2A medium was compared with the Easy Plate method for estimating the bacterial population (Figure 1D) of the ISS samples. Similarly, the PDA medium and Easy Plate were employed to enumerate the fungal population (Figure 1E) from the ISS environmental surfaces.\n\n3.1. Cultivable Population of Food Items\n\nAerobic bacterial counts for food items ranged from 102 to 109 cultivable microbes per gram (Figure 1A). The counts correlated well between media types, with R2 values of 0.94 or greater and no significant difference between the mean bacterial cultivable microbial counts for each media type (Table 1, Figure 2). The mean log10 differences between media types were <2.5 (i.e., less than 100.34) colonies in all cases. Paired Wilcoxon tests between film media and agar were not significant but were significant between Easy Plate and Petrifilm media, with Easy Plate having slightly higher cultivable microbial counts. When broken down by food category, only the microbial community of raw poultry did not show a high correlation between agar and film media counts. However, the correlation between Petrifilm and Easy Plate cultivable microbial counts was high for all food categories (Table 2).\n\n3.2. Cultivable Population of Built-Environment Surfaces\n\nCultivable microbial counts for both bacterial- and fungal-specific media ranged from below the detection limit to 106 per swab (per 100 cm2 surface area) for built-environment surface samples (Figure 1B,C). There were no significant differences between mean cultivable microbial counts among the three media types, for either bacterial- or fungal-targeted media. In all cases, mean log10 differences between media types were less than 2.5 colonies (i.e., <100.34). Similar to the results for food items, the correlations between bacterial-specific film and agar media were high, with R2 values between 0.96 and 0.97, and no significant differences between the mean cultivable microbial counts were detected (Table 1, Figure 3). The correlations between cultivable microbial counts for fungal-specific media were lower than those for bacteria, with R2 values of ~0.73 for both Petrifilm RYM and Easy Plate YM-R when correlated to PDA. Easy Plate YM-R and Petrifilm RYM had higher correlations between them (R2 = 0.85), but there was still considerable variation in their counts. Paired Wilcoxon tests showed that Easy Plate AC had slightly lower cultivable microbial counts than both PCA and Petrifilm AC, which, as stated previously, was not large enough to cause a difference in mean cultivable microbial counts. The mean log10 differences between the media types were <0.34 (i.e., a non-log difference of 2 or fewer colonies) in all cases.\n\n3.3. Cultivable Population of the International Space Station\n\nCultivable microbial counts ranged from below the detection limit to 103 per wipe for both bacterial- (Figure 1D) and fungal-specific (Figure 1E) media (per 100 cm2 surface area). There was no difference between the mean cultivable microbial counts for Easy Plate AC vs. R2A, nor for Easy Plate YM-R vs. PDA (Table 1). The cultivable microbial count correlations were similar in food and Earth built environments for fungi, with R2 values of 0.73 for fungal-specific media, but were lower than Earth-based studies for bacteria-specific media, with an R2 of 0.80 (Figure 4A). This was due in part to the number of samples that had zero colonies for one or both media types (Figure 4B). The samples plated on Easy Plates, both AC and YM, were more likely to have cultivable microbial counts above the detection limit compared with agar media (Figure 4B).\n\n3.4. Specificity of Media Types for Bacteria or Fungi\n\nThe differential isolation of bacteria and fungi by traditional agar and Easy Plate methods is shown in Figure S1. Among the 40 samples tested, 10 samples yielded at least one bacterial colony in Easy Plate AC but were not present in the R2A medium. In contrast, one R2A medium showed growth, whereas the Easy Plate AC method failed to yield any colony. The further isolation, purification, and identification of the bacteria grown in the R2A plate revealed the presence of Sphingomonas lutea. The pure strain of S. lutea isolate was regrown in the Easy Plate AC medium and showed growth. Similarly, among the 40 samples tested for fungal population estimation, 6 samples showed growth of at least one fungal colony in Easy Plate YM-R but did not show growth in the PDA medium. In contrast, two PDA plates showed growth, whereas the Easy Plate YM-R method failed to yield any colony. Further ITS-based identification using blast searches against the NCBI database revealed that these fungal isolates were closely related to Aureobasidium leucospermi and Penicillium rubens, and subsequent growth in Easy Plate YM-R yielded growth, revealing that there was no inhibition in growth in the Easy Plate YM-R medium.\n\nFor ISS samples, neither PDA + chloramphenicol agar media nor Easy Plate YM-R (which also contains chloramphenicol) isolated bacterial strains, but R2A and Easy Plate AC both promoted the growth of a significant number of fungi (Figure 5B).\n\n3.5. Species and Genus Distributions for Bacterial and Fungal Isolates\n\nThe dominant bacterial species isolated from Easy Plate AC and R2A were similar, with multiple strains of Staphylococcus species and Kalamiella piersonii isolated by both types of media (Figure 5A). However, after 7 days of growth, a single isolate of five slow-growing species was isolated from R2A (Methylobacterium tolerans, Kocuria marina, Bacillus zhangzouensis, Psueodomonas parafulva, and Sphingomonas lutea) but not from Easy Plate AC, while multiple strains of Micrococcus aloverae were isolated from Easy Plate AC but not from R2A. In addition, the16S rRNA gene-sequence-based species identity was at 97% or above for all the isolates and above 99% for most. Since the ITS is not suitable to define fungal species, the genus-level identification was recorded. The fungal identification for isolates (Figure 5B) was similar across the board, with multiple strains of Penicillium, Aspergillus, and Agicarus isolated from R2A, PDA, and Easy Plate AC and YM-R. Easy Plate YM-R also isolated a single strain of Cladosporium and Byssocorticium, while PDA isolated a single strain of Aureobasidium. A more significant difference was the lack of the yeast genus Rhodotorula from Easy Plate AC isolates, whereas R2A plates promoted the growth of Rhodotorula species. We, therefore, plated a Rhodotorula isolate onto Easy Plate AC while also inoculating Easy Plate YM-R, R2A, and PDA with the same cell dilution for comparison. While Rhodotorula grew on Easy Plate AC medium, it was simply not visible to the eye, and the only way to detect it was to plate out random locations from the Easy Plate on different media. This was in contrast to non-yeast fungal species, which were highly visible on Easy Plate AC.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "CFU",
+    "International Space Station",
+    "environmental microbiome",
+    "agar media",
+    "film media",
+    "Easy Plate",
+    "Petrifilm",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Implementing planetary protection measures on the Mars Science Laboratory",
+      "authors": [
+        "J.N. Benardini",
+        "M.T. La Duc",
+        "R.A. Beaudet",
+        "R. Koukol"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A. Checinska Sielaff",
+        "C. Urbaniak",
+        "G.B.M. Mohan",
+        "V.G. Stepanov",
+        "Q. Tran",
+        "J.M. Wood",
+        "J. Minich",
+        "D. McDonald",
+        "T. Mayer",
+        "R. Knight"
+      ]
+    },
+    {
+      "title": "Recurrent isolation of extremotolerant bacteria from the clean room where Phoenix spacecraft components were assembled",
+      "authors": [
+        "S. Ghosh",
+        "S. Osman",
+        "P. Vaishampayan",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Evaluation of procedures for the collection, processing, and analysis of biomolecules from low-biomass surfaces",
+      "authors": [
+        "K. Kwan",
+        "M. Cooper",
+        "M.T. La Duc",
+        "P. Vaishampayan",
+        "C. Stam",
+        "J.N. Benardini",
+        "G. Scalzi",
+        "C. Moissl-Eichinger",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Isolation and characterization of bacteria capable of tolerating the extreme conditions of clean room environments",
+      "authors": [
+        "M.T. La Duc",
+        "A. Dekas",
+        "S. Osman",
+        "C. Moissl",
+        "D. Newcombe",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Biofilm formation and antibiotic resistance of Klebsiella pneumoniae isolated from clinical samples in a tertiary care hospital, Klaten, Indonesia",
+      "authors": [
+        "H. Nirwati",
+        "K. Sinanjung",
+        "F. Fahrunissa",
+        "F. Wijaya",
+        "S. Napitupulu",
+        "V.P. Hati",
+        "M.S. Hakim",
+        "A. Meliala",
+        "A.T. Aman",
+        "T. Nuryastuti"
+      ]
+    },
+    {
+      "title": "Antibiotic-resistant organisms establish reservoirs in new hospital built environments and are related to patient blood infection isolates",
+      "authors": [
+        "K.V. Sukhum",
+        "E.P. Newcomer",
+        "C. Cass",
+        "M.A. Wallace",
+        "C. Johnson",
+        "J. Fine",
+        "S. Sax",
+        "M.H. Barlet",
+        "C.-A.D. Burnham",
+        "G. Dantas"
+      ]
+    },
+    {
+      "title": "The prevalence of virulence determinants in methicillin-resistant Staphylococcus aureus isolated from different infections in hospitalized patients in Poland",
+      "authors": [
+        "B. Kot",
+        "M. Piechota",
+        "A. Jakubczak",
+        "M. Gryzinska",
+        "M. Witeska",
+        "A. Gruzewska",
+        "K. Baran",
+        "P. Denkiewicz"
+      ]
+    },
+    {
+      "title": "Space microbiology: Planetary protection, burden, diversity and significance of spacecraft associated microbes",
+      "authors": [
+        "J. Bruckner",
+        "S. Osman",
+        "C. Conley",
+        "K. Venkateswaran",
+        "M. Schaechter"
+      ]
+    },
+    {
+      "title": "Biological Contamination Prevention for Outer Solar System Moons of Astrobiological Interest: What Do We Need to Know?",
+      "authors": [
+        "P. Rettberg",
+        "A. Antunes",
+        "J. Brucato",
+        "P. Cabezas",
+        "G. Collins",
+        "A. Haddaji",
+        "G. Kminek",
+        "S. Leuko",
+        "S. McKenna-Lawlor",
+        "C. Moissl-Eichinger"
+      ]
+    },
+    {
+      "title": "Planetary protection knowledge gaps and enabling science for human Mars missions",
+      "authors": [
+        "J.A. Spry",
+        "B. Siegel",
+        "G. Kminek",
+        "C. Bakermans",
+        "J.N. Benardini",
+        "E. Beltran",
+        "R. Bonaccorsi",
+        "J. Canham",
+        "M.-C. Desjean",
+        "P. Doran"
+      ]
+    },
+    {
+      "title": "A comprehensive metagenomics framework to characterize organisms relevant for planetary protection",
+      "authors": [
+        "D.C. Danko",
+        "M.A. Sierra",
+        "J.N. Benardini",
+        "L. Guan",
+        "J.M. Wood",
+        "N. Singh",
+        "A. Seuylemezian",
+        "D.J. Butler",
+        "K. Ryon",
+        "K. Kuchin"
+      ]
+    },
+    {
+      "title": "Laboratory evaluation of 3M Petrifilms and University of Minnesota Bi-plates as potential on-farm tests for clinical mastitis",
+      "authors": [
+        "J.L. McCarron",
+        "G.P. Keefe",
+        "S.L.B. McKenna",
+        "I.R. Dohoo",
+        "D.E. Poole"
+      ]
+    },
+    {
+      "title": "Petrifilm Plates Brochure",
+      "authors": []
+    },
+    {
+      "title": "Microbial Film Media (Easy Plate)",
+      "authors": []
+    },
+    {
+      "title": "Evaluation of the 3M Dry Medium Culture Plate (Petrifilm SM) Method for Determining Numbers of Bacteria in Raw Milk (1)",
+      "authors": [
+        "R.E. Ginn",
+        "V.S. Packard",
+        "T.L. Fox"
+      ]
+    },
+    {
+      "title": "Evaluation of the Petrifilm Sm and Vrb Dry Media Culture Plates for Determining Microbial Quality of Poultry",
+      "authors": [
+        "J.S. Bailey",
+        "N.A. Cox"
+      ]
+    },
+    {
+      "title": "Evaluation of a Culture Film (Petrifilm() YM) Method for Enumerating Yeasts and Molds in Selected Dairy and High-Acid Foods",
+      "authors": [
+        "L.R. Beuchat",
+        "B.V. Nail",
+        "R.E. Brackett",
+        "T.L. Fox"
+      ]
+    },
+    {
+      "title": "Comparison of the Petrifilm™ Yeast and Mold Culture Film Method to Conventional Methods for Enumerating Yeasts and Molds in Foods",
+      "authors": [
+        "L.R. Beuchat",
+        "B.V. Nail",
+        "R.E. Brackett",
+        "T.L. Fox"
+      ]
+    },
+    {
+      "title": "Enumeration of heterotrophs, fecal coliforms and Escherichia coli in water: Comparison of 3M Petrifilm plates with standard plating procedures",
+      "authors": [
+        "H. Schraft",
+        "L.A. Watterworth"
+      ]
+    },
+    {
+      "title": "Evaluation of Petrifilm EC method for enumeration of E. coli from soil",
+      "authors": [
+        "A.D. Samarajeewa",
+        "S.M. Glasauer",
+        "K.E. Dunfield"
+      ]
+    },
+    {
+      "title": "Comparison of 3M Petrifilm Aerobic Count Plates to standard plating methodology for use with AOAC antimicrobial efficacy methods 955.14, 955.15, 964.02, and 966.04 as an alternative enumeration procedure: Collaborative study",
+      "authors": [
+        "M.T. Nelson",
+        "R.A. LaBudde",
+        "S.F. Tomasino",
+        "R.M. Pines"
+      ]
+    },
+    {
+      "title": "Evaluation of Petrifilm aerobic count plates as an equivalent alternative to drop plating on R2A agar plates in a biofilm disinfectant efficacy test",
+      "authors": [
+        "B.G. Fritz",
+        "D.K. Walker",
+        "D.E. Goveia",
+        "A.E. Parker",
+        "D.M. Goeres"
+      ]
+    },
+    {
+      "title": "Evaluation of the 3M Petrifilm Rapid Aerobic Count Plate for the Enumeration of Aerobic Bacteria: Collaborative Study, First Action 2015.13",
+      "authors": [
+        "P. Bird",
+        "J. Flannery",
+        "E. Crowley",
+        "J. Agin",
+        "D. Goins",
+        "R. Jechorek"
+      ]
+    },
+    {
+      "title": "Diagnostic accuracy of the Petrifilm culture system for identifying colostrum with excessive bacterial contamination in Quebec dairy herds",
+      "authors": [
+        "M. Morin",
+        "J. Dubuc",
+        "P. Freycon",
+        "S. Buczinski"
+      ]
+    },
+    {
+      "title": "Evaluation of quarter-based selective dry cow therapy using Petrifilm on-farm milk culture: A randomized controlled trial",
+      "authors": [
+        "F. Kabera",
+        "S. Dufour",
+        "G. Keefe",
+        "M. Cameron",
+        "J.-P. Roy"
+      ]
+    },
+    {
+      "title": "Coliform Petrifilm as an alternative method for detecting total gram-negative bacteria in fluid milk",
+      "authors": [
+        "A. Rojas",
+        "S. Murphy",
+        "M. Wiedmann",
+        "N. Martin"
+      ]
+    },
+    {
+      "title": "Accuracy of 12h-Petrifilm™-plates as a rapid on-farm test for evidence-based mastitis therapy on a dairy farm in Germany",
+      "authors": [
+        "J. Kock",
+        "N. Wente",
+        "Y. Zhang",
+        "J.-H. Paduch",
+        "S. Leimbach",
+        "V. Krömker"
+      ]
+    },
+    {
+      "title": "Longitudinal development of the dust microbiome in a newly opened Norwegian kindergarten",
+      "authors": [
+        "A.B. Nygaard",
+        "C. Charnock"
+      ]
+    },
+    {
+      "title": "Qualification of 3M Petrifilm Plates in Rapidly Estimating Bacterial Burden for Planetary Protection Flight Implementation",
+      "authors": [
+        "Z. Dean",
+        "K. Stott",
+        "W. Schubert",
+        "E.P. Seto",
+        "S. Chandrapati"
+      ]
+    },
+    {
+      "title": "Surface microbial contamination in hospitals: A pilot study on methods of sampling and the use of proposed microbiologic standards",
+      "authors": [
+        "T. Claro",
+        "M. O’Reilly",
+        "S. Daniels",
+        "H. Humphreys"
+      ]
+    },
+    {
+      "title": "A randomized trial to evaluate a launderable bed protection system for hospital beds",
+      "authors": [
+        "E.A. Hooker",
+        "S. Allen",
+        "L. Gray",
+        "C. Kaufman"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "L. Maturin",
+        "J. Peeler"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "N.K. Singh",
+        "J.M. Wood",
+        "F. Karouia",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Investigation of Spaceflight Induced Changes to Astronaut Microbiomes",
+      "authors": [
+        "M.D. Morrison",
+        "J.B. Thissen",
+        "F. Karouia",
+        "S. Mehta",
+        "C. Urbaniak",
+        "K. Venkateswaran",
+        "D.J. Smith",
+        "C. Jaing"
+      ]
+    },
+    {
+      "title": "16S/23S rRNA sequencing",
+      "authors": [
+        "D. Lane"
+      ]
+    },
+    {
+      "title": "High-coverage ITS primers for the DNA-based identification of ascomycetes and basidiomycetes in environmental samples",
+      "authors": [
+        "H. Toju",
+        "A.S. Tanabe",
+        "S. Yamamoto",
+        "H. Sato"
+      ]
+    },
+    {
+      "title": "sangeranalyseR: Simple and interactive processing of Sanger sequencing data in R",
+      "authors": [
+        "K.-H. Chao",
+        "K. Barton",
+        "S. Palmer",
+        "R. Lanfear"
+      ]
+    },
+    {
+      "title": "The “six sigma approach” to the operating room environment and infection",
+      "authors": [
+        "R.H. Thiele",
+        "J.L. Huffmyer",
+        "E.C. Nemergut"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+      "authors": [
+        "A. Checinska",
+        "A.J. Probst",
+        "P. Vaishampayan",
+        "J.R. White",
+        "D. Kumar",
+        "V.G. Stepanov",
+        "G.E. Fox",
+        "H.R. Nilsson",
+        "D.L. Pierson",
+        "J. Perry"
+      ]
+    },
+    {
+      "title": "International Space Station environmental microbiome—Microbial inventories of ISS filter debris",
+      "authors": [
+        "K. Venkateswaran",
+        "P. Vaishampayan",
+        "J. Cisneros",
+        "D.L. Pierson",
+        "S.O. Rogers",
+        "J. Perry"
+      ]
+    },
+    {
+      "title": "Microorganisms in Confined Habitats: Microbial Monitoring and Control of Intensive Care Units, Operating Rooms, Cleanrooms and the International Space Station",
+      "authors": [
+        "M. Mora",
+        "A. Mahnert",
+        "K. Koskinen",
+        "M.R. Pausan",
+        "L. Oberauner-Wappis",
+        "R. Krause",
+        "A.K. Perras",
+        "G. Gorkiewicz",
+        "G. Berg",
+        "C. Moissl-Eichinger"
+      ]
+    },
+    {
+      "title": "Standard plate count: A comparison of pour plate and spread plate methods",
+      "authors": [
+        "R.H. Taylor",
+        "M.J. Allen",
+        "E.E. Geldreich"
+      ]
+    },
+    {
+      "title": "Pour plates or streak plates?",
+      "authors": [
+        "A. Van Soestbergen",
+        "C.H. Lee"
+      ]
+    }
+  ],
+  "original_title": "Microbial Burden Estimation of Food Items, Built Environments, and the International Space Station Using Film Media",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c0b2/9503880/49ba5f7a3c6c/microorganisms-10-01714-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c0b2/9503880/3f3eeeabd67c/microorganisms-10-01714-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c0b2/9503880/68c709553d89/microorganisms-10-01714-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c0b2/9503880/3e41cfbb9651/microorganisms-10-01714-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c0b2/9503880/55d3a5b2b026/microorganisms-10-01714-g005.jpg"
+  ]
+}

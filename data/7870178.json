@@ -1,0 +1,1612 @@
+{
+  "pmcid": "7870178",
+  "title": "Comprehensive Multi-Omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact",
+  "abstract": "Summary\n\nSpaceflight is known to impose changes on human physiology with unknown molecular etiologies. To reveal these causes, we used a multi-omics, systems biology analytical approach using biomedical profiles from fifty-nine astronauts and data from NASA’s GeneLab derived from hundreds of samples flown in space, to determine transcriptomic, proteomic, metabolomic, and epigenetic responses to spaceflight. Overall pathway analyses on the multi-omic datasets showed significant enrichment for mitochondrial processes, as well as innate immunity, chronic inflammation, cell cycle, circadian rhythm, and olfactory functions. Importantly, NASA’s Twin Study provided a platform to confirm several of our principal findings. Evidence of altered mitochondrial function and DNA damage was also found in the urine and blood metabolic data compiled from the astronaut cohort and NASA Twin Study data, indicating mitochondrial stress as a consistent phenotype of spaceflight.\n\nGraphical Abstract\n\nIn Brief:\n\nA comprehensive multi-omics analysis from 59 astronauts, and hundreds of samples flown in space, provides insight into fundamental biological mechanisms affected by spaceflight and highlights mitochondrial dysregulation as a central hub for space biology.",
+  "introduction": "Introduction\n\nHumanity is on the brink of a new era in space exploration, with NASA and international partners committed to returning to the Moon and planned manned missions to Mars. Exposure to space radiation and microgravity are primary hazards to astronauts’ health in long-duration space missions. In addition to the known increased cancer risk from chronic low doses of radiation exposure, astronauts that returned from missions on the International Space Station (ISS) presented with health issues similar to geriatric stress, including bone and muscle mass loss, central nervous system issues, immune dysfunction, and cardiovascular health risks. Future success in long-duration space exploration requires a comprehensive understanding of the impact of spaceflight on human biology, and such knowledge could be used to design efficient countermeasures that would benefit astronauts and the health of people on Earth.\n\nHere, we provide an integrated analysis of mammalian space biology using a systems biology approach powered by multiple “omic” platforms. Realized by the existence of NASA’s GeneLab (https://genelab.nasa.gov/), a dedicated space omics database, our work includes 4 human cell models, 13 different tissues (11 mouse and 2 human), 2 mouse strains (C57BL/6 and BALB/C), and space missions ranging from 2006 to 2017, culminating in the measurement of astronaut blood and urine metabolites, as well as transcriptional data from the NASA Twin Study.\n\nOur data-driven approach resulted in three discoveries. First, spaceflight effects were more evident in isolated cells than whole organs, suggesting that tissue complexity plays an essential role in response to space-related stress. Second, the liver undergoes more differential gene and protein expression changes than other organs, consistent with the role the liver plays as a dynamic and critical hub in sensing changes in blood composition and maintaining homeostasis. Finally, our comprehensive pathway analyses identified how spaceflight impacts mitochondrial function at the genetic, protein, and metabolite levels of cellular, tissue, and organismal biology.",
+  "methods": "STAR★Methods\n\nRESOURCE AVAILABILITY\n\nLead Contact\n\nFurther information and request for resources, data and code availability should be directed to the corresponding author Afshin Beheshti (afshin.beheshti@nasa.gov).\n\nMaterials Availability\n\nThis study did not generate new unique reagents.\n\nData and Code Availability\n\nThe published article includes the WGCNA code generated and analyzed during this study in Methods S1. All other code referred in the Key Resources Table are standard code available through the link and references. The original/source data for all GeneLab datasets (GLDS) in the paper is available on GeneLab (https://genelab.nasa.gov/) with the specific GLDS identifier numbers in the Key Resource Table. The metabolomic data generated for this paper is available on NASA’s GeneLab platform with identifier: GLDS-343 and DOI: 10.26030/h968-2m75.\n\nEXPERIMENTAL MODEL AND SUBJECT DETAILS\n\nMouse Models\n\nAll transcriptomic, proteomic, and methylation data related to the Rodent Research-1 (RR-1) and Rodent Research-3 (RR-3) mission tissues were obtained from NASA’s GeneLab platform (https://genelab.nasa.gov/) from the following dataset identifiers respectively: for RR1 GLDS-98, −99, 100, −101, −102, −103, −104, −105, and −168; for RR3 GLDS-161, −162, −163, and −168. Since these experiments were previously done by others and data is publicly available on GeneLab, all experimental details for these mouse models can be found on GeneLab in the description section for each dataset.\n\nRodent Research-9 (RR-9) mission tissues were utilized for metabolomic analysis of the medial head of the gastrocnemius, and the quadriceps femoris (“quadriceps”) on male C57BL/6 mice (Jackson Labs) that spent ~34 days in microgravity aboard the International Space Station (ISS) as part of the RR-9 mission in August, 2017, that launched as part of the SpaceX Commercial Resupply Services (CRS)-12 mission. Seven days prior to launch (L-7d), 9-week old mice were grouped as mice to be sent to ISS (Flight; n=10); or ground-based habitat controls placed within in environmental chambers replicating the environmental conditions for the Flight mice aboard ISS (Habitat; n=10). Unberthing from ISS and splashdown of live mice occurred on L+34d, and the live mice were collected by the science teams on L +35d for behavioral and functional testing, as well as tissue harvest. The gastrocnemius and quadriceps remained attached to the left hind limb after removal of the limb from the body by disarticulation at the acetabulum. The femur and tibia were disarticulated, the gastrocnemius was cut at the Achilles tendon, and both muscles remained attached to the femur which was then snap frozen in liquid nitrogen, and then stored at −80°C until tissues were removed for metabolomic analysis.\n\nAll animal procedures performed in these experiments were approved by the Institutional Animal Care and Use Committees (IACUC) for flight at the NASA Ames Research Center (ARC) and the Kennedy Space Center (KSC) and the methods were carried out in accordance with relevant guidelines and regulations.\n\nFor both RR-1 and RR-3 missions, as stated above we utilized publicly available data available on GeneLab. The authors of this manuscript did not conduct the actual rodent research. Regardless, we have provided the specific details for both of the original experiments for the readers convenience. The following is a description of the for the RR-1 mission, as described on NASA Life Sciences and data archive (https://lsda.jsc.nasa.gov/document/doc_detail/Doc13600): “Twenty adult female mice were launched Sept 21, 2014 in RR hardware within a Dragon Capsule (SpaceX-4) as the flight group (FLT), then after 4 days in transit, were transferred for habitation on the ISS for a total time in space of 37–38 days (10 validation mice), when animals were euthanized and select tissues recovered on orbit. Three control groups at Kennedy Space Center consisted of: 1) Basal mice from the same cohorts as FLT mice euthanized at the time of launch, 2) Vivarium (VIV) controls housed in standard vivarium cages, and 3) Ground Controls (GC) housed in RR flight hardware within an environment chamber that controlled temperature, CO2 and humidity to ISS levels. The health and behavior of all mice on the ISS were monitored by video feed on a daily basis. Mice were euthanized by injection of Euthasol, then either fast frozen intact or dissected to preserve livers (fast frozen) and spleens (RNAlater™). Samples were stored at = −80°C until their return to Earth for later analyses.”\n\nThe following is a description of the for the RR-3 mission, as described on NASA Life Sciences and data archive (https://lsda.jsc.nasa.gov/Experiment/exper/13961): “The RR3 payload consisted of twenty female BALB/c mice that were approximately twelve weeks old. The mice were carried to ISS in a transporter aboard SpaceX Commercial Resupply Mission 8 Dragon cargo spacecraft (SpaceX-8, CRS-8). Dragon docked with the station on April 10, 2016 and by April 12 the animals were transferred aboard the station. Once onboard, they were divided into two groups of ten and housed in habitats for six weeks. Approximately one hour of video per day showing animal health and behavior was recorded in each habitat during the mission. Dissections were conducted over four days at thirty-nine to forty-two days in microgravity. Each dissection day consisted of five animals being dissected. Following euthanasia, blood was extracted via cardiac puncture, separated by centrifugation, and frozen. Right hind limbs were dissected and fixed in four percent paraformaldehyde, and carcasses were frozen. The frozen tissue samples were stored in the minus eighty degree freezer (MELFI). Hardware and tissue samples were returned to Earth for recovery and post-flight analyses. Biospecimens were delivered to CASIS.” Ground controls were conducted on a three-day delay at Kennedy Space Center in ISS environmental simulators (ISSESs) programmed with data from the Dragon capsule and the ISS cabin. Based on post-flight analysis of the RR-2 Habitat telemetry data, the ISSESs were programmed to be two degrees Celsius higher than the ISS cabin data; the result of this off-set was that the internal temperatures of the ground control habitats matched the flight Habitats closely for most of the experiment.”\n\nIn Vitro Models\n\nAll data related to the in vitro experiments were obtained from NASA’s GeneLab platform (https://genelab.nasa.gov/) from the following dataset identifiers: GLDS-13, GLDS-52, GLDS-54, GLDS-114, GLDS-118, and GLDS-174. All detailed information on the cell lines are available on the description for each dataset. Here also will provide a brief description of the cell lines and experiments contained in each dataset. The GLDS-174 data set includes a total of 60 samples from 10 individual astronauts. Six hair follicle samples were collected at six timepoints with two pre-spaceflight, two in-spaceflight and two post-spaceflight. The GLDS-52 data set includes a total of six samples from human umbilical vein endothelial cells (HUVEC). Samples were collected in triplicate for flight or ground treatments. The GLDS-114 data set includes a total of 15 samples from human fibroblasts. The GLDS-118 data set includes a total of 6 samples from human fibroblasts. The GLDS-13 data set includes a total of 6 samples from human T cells. The GLDS-54 data set includes a total of 12 samples from human dermal microvascular endothelial cells (HDMEC). Samples were collected in duplicate at three timepoints (0, 4, and 8 hours) during ground or spaceflight with or without treatment with LPS.\n\nHuman data\n\nData are reported from three human subject experiments conducted on the International Space Station: Nutritional Status Assessment (2006–2012), Dietary Intake Can Predict and Protect Against Changes in Bone Metabolism During Spaceflight and Recovery (Pro K) (2010–2015), and Biochemical Profile (2013–2018). All protocols were reviewed and approved by the NASA Institutional Review Board and all subjects provided written informed consent. While subsets of some of these data have been published in other papers, as a whole, the data provided here have not been previously published.\n\nCrews from these experiments had missions of 4–6 months in duration, and these studies included blood and urine collections before, during, and after flight, with analysis of an array of nutritional and biochemical markers. Blood and urine samples were collected 2 or 3 times before flight: approximately Launch minus (L-) 180 days and L-45 days. In some cases, a third blood sample was collected (typically along with the L-45 collection), and these tubes were centrifuged and frozen for aliquoting after flight batched with the samples collected inflight. Blood samples were collected inflight, at approximately Flight Day (FD) 15, 30, 60, 120, and 180. Postflight samples were collected in the first 24-h after landing (designated return+0, R+0) and again 30-d later (R+30). The R+0 samples were not necessarily fasting, given the time of day and nature of return from flight. Of the 59 crewmembers reported herein: 8 returned on the Space Shuttle, with blood collection 2–4 hours after landing; 51 landed in Kazakhstan, with 7 of them returning to Star City, Russia, with blood collection 8–10 hours after landing; 44 were transported directly back to the Johnson Space Center in Houston, with blood collection approximately 24-h after landing. Pre and postflight collections included two 24-h urine collections, and inflight collections included one 24-h urine collection. These collection techniques have been previously described.\n\nWe report here vitamins and metabolites, oxidative stress and damage markers, inflammatory markers and cytokines, liver enzymes and endocrine indices. These were analyzed using standard techniques as reported previously.\n\nAs of this writing, data were available for 59 crewmembers (47 male, 12 female). Age at launch was 47.0 ± 5.6 y, body mass at launch was 79.2 ± 11.8 kg (M: 83.3 ± 9.3; F: 63.0 ± 4.5). Body mass index was 25.5 ± 2.9 kg/m2 (M: 26.4 ± 2.6; F: 22.3 ± 1.5).\n\nAll available data are reported here, although the reported n for any given test or session varies for a number of reasons, including: not all experiments had all analytes included, mission length differences for some crewmembers, schedule or other issues occasionally precluded sample collection, and methods changes over time. Repeated measures analysis of variance was conducted to test for differences during and after flight compared to preflight, and comparisons among time points were made using a Bonferroni t-test. Multiple comparisons were accounted for, and only those tests with p<0.001 are reported.\n\nMETHOD DETAILS\n\nRNA-sequencing, DNA methylation, and Proteomics\n\nFor all RNA-sequencing, DNA methylation, and proteomics datasets being utilized for this manuscript the data was gathered from the GeneLab platform. All information and details for sample preparation, library construction, and sequencing is available in the descriptions for that particular GeneLab dataset and the GLDS identifier is available in the Key Resource Table.\n\nRNA-sequence on Twin Study Samples\n\nLongitudinal samples were collected from a male astronaut aboard the International Space Station and his identical twin on Earth during a 340 day mission including 6 months preflight and 6 months postflight follow-up, for total of 19 timepoints for the flight subject and 13 timepoints for the ground subject. Blood was collected using CPT vacutainers (BD Biosciences Cat # 362760) per manufacturer’s recommendations. For full details of sample separation, processing see. Briefly, samples collected on ISS were either frozen in −80°C after separation of mononuclear cells by centrifugation (referred to as CPT), or returned to Earth in 4°C in a Soyuz capsule and sorted into CD4, CD8, CD19 populations and a lymphocyte depleted (LD) fraction. Samples collected on Earth were either frozen for mononuclear cells or processed when fresh for sorted cell populations. To correct for the effects of ambient temperature exposure on RNA (approximately 36 hours including landing and repatriation) control samples were created by simulating similar conditions to those that may occur during the ambient return and were compared to fresh blood collections from the same individual. RNA extraction, library prep and sequencing were completed per using both ribodepletion or polyA selection kits.\n\nMetabolomic profiling\n\nAll reagents were of LC-MS grade. Approximately 10 mg of tissue from RR9 (gastrocnemius and quadricep, habitat and flight) were added in a siliconized microcentrifuge tube, followed by addition of 300 μl of chilled 50%:50% methanol:water, containing 4 μM debrisoquine sulfate, 30 μM 4-nitrobenzoic acid, and 5 μM chlorpropamide as internal standards. All samples were randomized. The tissues were homogenized, followed by sonication for 10 sec. 10 μl was removed for protein quantification through a micro BCA assay (Thermo Scientific). Samples were centrifuged for 15 min at 15,000 rpm at 4°C and the supernatant was transferred to a clean siliconized microcentrifuge tube. Chilled 50%:50% acetonitrile:water (300 μl) was added to the pellet and vortexed thoroughly. Following a 15 min incubation on ice, samples were centrifuged again and the supernatant combined with the one previously obtained. The samples were vacuum dried and resuspended in 200 μl of 50%:50% methanol:water, without internal standards, and vortexed thoroughly. Samples were further filtered through a 0.2 μm filter and subsequently transferred to a glass mass spectrometry vial. 2 μl of each sample was injected in a BEH C18 column, 130 Å, 1.7 μm at 60°C and analyzed with a Waters Ultra Performance Liquid Chromatography (UPLC) system coupled to a time-of-flight Xevo G2S mass spectrometry (MS) instrument, operated in MSE mode. The chromatographic and MS conditions are presented in Table S4. A quality control sample was also generated by pooling together 5 μl from each sample, injected every 10 samples. Initial mass accuracy was determined with a metmix mixture of 6 chemicals that ionize in both modes (acetaminophen, sulfaguanidine, sulfadimethoxine, Val-Tyr-Val, terfenadine, and leucine enkephalin). Mass correction and accuracy was achieved throughout the whole run with intermittent injections of leucine enkephalin as LockSpray™. Positive identification of candidate metabolites was performed through tandem mass spectrometry (MS/MS) with ramping collision energy 10–40 eV with pure chemicals and cross-validation of MS/MS spectra through METLIN or HMDB (spectra shown in Figs. S4–S6). All raw data is available on NASA’s GeneLab platform with identifier: GLDS-343 and DOI: 10.26030/h968-2m75.\n\nReal-time PCR (rtPCR) on NASA Twin study samples\n\nMT-RNR1: F - ATGCAGCTCAAAACGCTTAGC; R - GCTGGCACGAAATTGACCAA\n\nMT-RNR2: F - CCCTGTACGAAAGGACAAGAGAAAT; R - TCTTGGGTGGGTGTGGGTATAAT\n\nMT-CO1: F - CAGCAGTCCTACTTCTCCTATCTCT; R - GGGTCGAAGAAGGTGGTGTT\n\nMT-CO2: F - GCCCTTTTCCTAACACTCACAACAA; R - GTAAAGGATGCGTAGGGATGGG\n\nMT-ND1: F - CCCTAAAACCCGCCACATCT; R - GGCTAGAATAAATAGGAGGCCTAGGT\n\n18S rRNA: F - GGCCCTGTAATTGGAATGAGTC; R - CCAAGATCCAACTACGAGCTT\n\nGAPDH: F - AAGGTGAAGGTCGGAGTCAAC; R - GGGGTCATTGATGGCAACAATA.\n\nA summary of the samples used for the rtPCR analysis is found in Table S5. The whole-blood cell fractions (CPT) was used for isolating RNA and rtPCR. 100ng RNA per sample was reverse transcribed using the iScript Advanced cDNA synthesis kit (Bio-Rad) as per manufacturer’s instructions. The synthesized cDNA was diluted 1:4 in water and quantitative PCR was performed in triplicate with the Power SYBR Green PCR master mix (Thermo-Fisher) using the QuantStudio 6 Flex RT-PCR system. The sequences of primers used for RT-qPCR were:\n\nQUANTIFICATION AND STATISTICAL ANALYSIS\n\nIn vitro microarray data analysis\n\nBackground correction and quantile normalization, differential gene expression was performed using LIMMA. All the datasets were compared with “Flight vs Ground Control” samples. The product of the log10(p-value) and fold change were used to create a preranked gene list for Gene Set Enrichment Analysis (GSEA). Pathway analysis was performed using GSEA and gene sets were visualized using the EnrichmentMap plugin for Cytoscape.\n\nRNA-sequencing, DNA methylation, and Proteomics\n\nFor all RNA-sequencing, DNA methylation, and proteomics datasets being utilized for this manuscript the data was gathered from the GeneLab platform. All information and details for sample preparation, library construction, and sequencing is available in the descriptions for that particular GeneLab dataset.\n\nRNA-sequence Data Analysis on Murine Samples\n\nRNASeq Analysis included 1) data validation and quality control with FASTQC and Trim Galore!, 2) read alignment to the mice genome using STAR RNA-seq aligner, and 3) generation of gene-level expected count data with RSEM. The list of software and its versions is as follow: FASTQC version 0.11.8, Trim Galore! Version 0.50, STAR version STAR_2.6.1a_08–27, mice genome version mm10-GRCm38, RSEM version 1.3.1. The quality of the sequencing step was evaluated with FASTQC, Trim Galore was used to pre-process the expression data trimming Illumina standard adapters sequences and nucleotides with a quality phred score below 33. For Differential Expression (DE) analysis, R Version 3.5.1 and DESeq2 Version 1.22.2 were used. Expected counts from RSEM step were extracted and rounded up to the next integer and used as input for DE analysis. A gene was considered differentially expressed with an adjusted p-value of less than 0.05 when using the Benjamini-Hochberg multiple testing adjustment procedure for false discovery rate (FDR) corrections.\n\nWGCNA Analysis on GLDS-168 Liver Tissue\n\nCount data used for Deseq2 analysis were prepared for WGCNA by normalizing using the TMM method in NoiSeq. WGCNA was then performed on the expression data, using Pearson correlation. Modules were then correlated against radiation status. Significant modules were then extracted and subjected to topGO gene enrichment analysis. A detailed R script for the WGCNA procedure is included in the supplementary methods (Method S1).\n\nRNA-sequence Data Analysis on Twin Study Samples\n\nGenerated sequences were trimmed using Trim Galore! (v0.4.1) and quantified to genes using kallisto on ENSEMBL transcripts (Bray et al., 2016). Differentially expressed genes were called using DESeq2 on each cell type separately by comparing preflight, inflight and postflight groups, controlling for the normal biological variance within the 24 months using the longitudinal data of the ground twin and using the simulated ambient control samples as another covariate for sorted cells. Mitochondrial specific analysis on the Twin Study RNA-seq was done by finding the overlapping significantly regulated genes (FDR < 0.05) to mitochondrial genes determined from MitoCarta. Heatmap was displayed using pheatmap.\n\nMethylation Data Analysis\n\nRaw DNA methylation data was retrieved from the NASA GeneLab Data System (“GLDS”) website for all datasets that contained whole genome bisulfite data (GLDS-47, 48, 98, 99, 100, 101, 102, 103, 104, 105, 137, 161, and 163). Each sample was aligned using bwa-meth version 0.2.2 with default settings against an in silico bisulfite-converted mm10 Mus musculus reference genome. Alignments were de-duplicated using Picard MarkDuplicates v2.10.10-SNAPSHOT with default settings. MethylDackel mbias was used on each sample to determine regions of inclusion for each aligned read, in order to correct for methylation bias at the ends of reads. MethylDackel extract was then implemented using mBias-informed inclusion parameters to calculate per-base methylation. Finally, for each methylation call set, strands were merged using MethylDackel mergeContext and a minimum 10x coverage threshold was implemented per CpG.\n\nDifferentially methylated CpGs (DMCs) between the “flight” and “ground” samples were called for each dataset using methylKit with a logistic regression model. CpGs that had SLIM adjusted p-value of less than 0.05 were taken as significant. Further, differentially methylated genes were identified by taking the median methylation around the promoter of each gene (transcription start site ±250bp), converting it to a M-value by logit function transform, and using limma to call statistical significance. Genes with adjusted p-value of less than 0.05 were taken as significantly differentially methylated. For gene set enrichment analysis these genes were ranked by the degree of methylation difference (log2 fold-change of the M-values) from hyper-methylated to hypo-methylated and were used as inputs to GSEA using MSigDB and MGI phenotypes signature databases (Figs. 1, 2D, 5A, 7D and Table S3). Relationship between absolute methylation and expression was calculated by taking the base median expression for all genes in each dataset and correlating it to the median promoter methylation of that gene. Significance of the relationship between the methylation change and expression change was calculated by taking the log2 fold-change values for gene expression and methylation and fitting a linear model.\n\nProtein identification, quantification, and data analysis\n\nPeptide and protein identification and quantification was performed with MaxQuant (1.6.2.3) using a mouse reference database from Uniprot (downloaded on 20180104). The type of experiment was set to Reporter ion MS3 with 10plex TMT labeling. Propionamide of Cys was defined as a fixed modification and Oxidation of Met and Acetylation of protein N-terminal were set as variable modifications. Trypsin/P was selected as the digestion enzyme, and a maximum of 3 labeled amino acids and 2 missed cleavages per peptide were allowed. The False Discovery Rate for peptides and proteins were set at 1%. Fragment ion tolerance was set to 0.5 Da. The MS/MS tolerance was set at 20 ppm. The minimum peptide length was set at 7 amino acids. The rest of the parameters in MaxQuant were kept as default. The generated results by MaxQuant was further processed by PTXQC for quality control analysis. Perseus (1.6.2.2) and in-house R scripts were used for proteomics data processing and statistical analysis. The corrected reporter intensity values generated by MaxQuant were used to analyze the TMT-based proteomics data. Protein groups containing matches to decoy database or contaminants were discarded. Total ion intensity for each reporter ion channel were calculated and matched to correct for the sample loads in each TMT experiment. Only proteins that were quantified in the pooled samples were used for the analysis. Subsequently, internal reference scaling (IRS) method was employed to normalize protein intensities between different TMT runs using common proteins in pooled internal standards. The data was log2 transformed and scaled by subtracting the median for each sample. LIMMA was employed to determine differentially protein abundance between groups and volcano plots were generated using EnhancedVolcano package (Bioconductor) to visualize the affected proteins. The affected proteins with p-value of less than 0.05 and log fold change of greater than 1.0 or less than −1.0 were considered significant. Differentially abundant proteins (with p-value < 0.05) were selected for GO term and KEGG pathway enrichment analysis using NCI DAVID. The categories with p-value of 0.05 or less were considered as significant. Top 4 most significant GO terms and KEGG pathways for each sample were reported in the text.\n\nGene Set Enrichment Analysis\n\nCount data from datasets GLDS-161, GLDS-162, GLDS-163 and GLDS-168 described above were annotated to gene symbols, Rounded-up for the next integer and normalized by the variance stabilizing variation method using DEseq2 version 1.20.0 and R version 3.5.1. All the datasets were compared with “Flight vs Ground Control” samples, the ranked list of genes were defined by the signal-to-noise metric, and the statistical significance were determined by 1000 permutations of the genesets. Genesets using Gene Ontology terms - Biological Process, Molecular Function and Cellular Component - and KEGG pathways were run separately.\n\nNetwork maps for cross-omics and cross-tissue analysis\n\nPathway results were integrated across multiple tissues and RNAseq and proteomics platforms to summarize the system-wide effects of spaceflight compared to ground control. Enriched GO terms and KEGG pathways were integrating using a network framework, where two pathways are connected by an edge if they share a significant fraction of genes (similar to EnrichmentMap). Pathways dysregulated in two or more tissues are displayed. Pathway up and down regulation is encoded by node color, and pathways dysregulated by multiple tissues are mapped to larger node size.\n\nMetabolomic profiling and analysis\n\nChromatographic deconvolution was conducted with the software Progenesis QI, which also allowed for normalization of the data with the function “normalize to all compounds” (http://www.nonlinear.com/progenesis/qi/v2.0/faq/how-normalisation-works.aspx). Statistical analysis for potential biomarker identification was conducted with the software MetaboLyzer. Complete presence ions with a ≥75% presence in both control (habitat) and experimental (flight) group were analyzed with the non-parametric Mann Whitney U test, while samples with <75% presence with the Barnard’s test. Outliers were removed via 1.5 IQR base filtering, zero abundance values were removed from the analysis, and a false discovery rate (FDR) of <0.1 was applied. Putative identities were assigned through the databases Human Metabolome Database (HMDB) and Kyoto Encyclopedia of Genes and Genomes (KEGG) with <10 ppm error (Table S4). Graphical representation of putative biomarkers was conducted through GraphPad Prism and p-values were calculated with one-way ANOVA testing with Tukey’s multiple comparisons testing. All data are represented as scatter plots, with mean±standard error of the mean (SEM). A p<0.05 was considered statistically significant. Pathway enrichment was conducted through the software MetaboAnalyst. Self-organizing maps (SOMs) were constructed with the software Gene Expression Dynamics Inspector (GEDI).\n\nMetabolic modeling and downstream statistical analyses\n\nTissue-specific metabolic models per sample were generated with Corda on the selected tissue data with global flux confidence parameters determined by minimizing within-group flux standard deviation: (40, 10, 50, 0, 0). Flux balance analysis (FBA) was performed in a Jupyter Notebook 6.0.3 (with Python 3.7.6) environment with the cobrapy package on the imm1415 metabolic model optimizing for NAD biosynthesis using Gurobi solver as LP (Gurobi Optimization, L. L. C. (2020). Gurobi Optimizer Reference Manual. http://www.gurobi.com). Specifically, the capacity of NAD biosynthesis through all pathways in mouse is simulated by optimizing the flux of the cytosolic NAD demand reaction in the iMM1415 model(Chowdhry et al. 2019 and Liu et al 2018). In order to include reactions that may not be completely represented from the transcription data, we required the model to include essential pathways ‘Oxidative Phosphorylation’, ‘ROS Detoxification’,’Glycolysis/Gluconeogenesis’, ‘Citric Acid Cycle’,’CoA Biosynthesis’,’CoA Catabolism’,’Biomass and maintenance functions’,’NAD Metabolism’,’Fatty Acid Metabolism’,’Fatty acid activation’,’Fatty acid elongation’, and ‘Fatty acid oxidation’. All metabolic models were analyzed using these identical parameters, except for the transcriptional data input per sample.\n\nResults from the FBA analyses on each sample were reported as fluxes that were then analyzed as grouped variables between the flight (FLT) and ground control (GC) groups. Flux heatmaps using row-wise Z-scores on the FBA results are shown for liver (Figs. 3G and 6C) and muscle (Figs. 3G and 6D). Fluxes in FLT and GC groups were compared using the non-parametric Van der Waerden (VdW) test as we cannot assume normality nor equality of variance between the groups, using the R matrixTests package (v. 0.1.9). Resulting VdW p-values were not adjusted for multiple testing correction because of the likelihood of over-penalization of strongly dependent fluxes in and between pathways. P-values were considered as significant at p < 0.05 (black squares in Fig. 6) and suggestive at 0.05 < p < 0.1 (grey squares in Fig. 6). Data and scripts related to the post-FBA statistical analyses can be found at https://osf.io/utmwf/. Flux levels and results from statistical analyses per flux can be found in the Supplementary Materials (Table S7).\n\nQuantitative Response to Spaceflight - Global view of the data\n\nFor each assay, the overall average level of up and down regulated molecules across all species and strains was computed and use to normalize the individual levels of up and down regulated gene/protein/small molecules (metabolome) by dividing by the average of each assay. Note that regulation here refers to comparing Flight samples versus Ground samples, and thus reflects changes happening in space. For example, Liver data were recorded for both RR1 (C57BL/6) and RR3 (Balb/C) missions for both proteomics and transcriptomics. Thus, the reported value for liver for up-regulation is the average expression measured for liver in both lineages divided by the total average level of gene or protein expression reported here across both strains of mice. Such approach gives an overall view of the various dataset simplifying the identification of tissue systematically up or down regulated for individual assays across all assays, without suffering from absolute regulation levels which vary greatly between assays. Specifically, for the analysis for Figs 1A and B we listed the average number of genes/proteins/metabolome that were up or down regulated across all tissue listed. For example, on average, there were 106 and 37 Proteins up and down regulated respectively, with an overall average of 71. The plotted values are normalized to the overall average (i.e. 71). For example, for gene expression, there is an average of 974 genes regulated (average up: 969, average down: 980). In the case of human fibroblasts, values for either up or down regulated genes were about 5, which implies 5 × 974 genes = 4870 genes for each direction. In contrast, a value of 0.574 and 0.845 for up and down for T cells was found, corresponding to 0.574 × 974 = 560 and 0.845 × 974 = 833 respectively. Such scaling was necessary to show the relative amount of changes between tissue and across all assay, without suffering from very distinct level of expression between assays. In the case of protein, we reported the average number of proteins being detected for all groups. Across all tissues, on average across tissue, we had 2980 proteins and 27109 genes detected. Thus, 969 up regulated genes correspond to 3.6% of all detected genes and 37 down regulated proteins corresponds to 1.3% of all detected proteins.",
+  "results": "Results\n\nCellular and tissue dynamics altered by spaceflight\n\nGlobal analysis of the mRNA, protein, and metabolite responses to spaceflight across all GeneLab data (Fig. 1A–1D and Table S1) was performed by calculating the average number of differentially detected molecules between in-flight (FLT) and ground control (GC) samples. We found that cultured human cells and primary human hair follicles had the strongest response to spaceflight than other cells and tissues (vs genes regulated with adj. p<0.05). From the ten mouse tissues included in the analysis, we found that the soleus muscle, extensor digitorum longus (EDL) muscle, and liver had the highest number of differentially expressed genes (Table S1).\n\nAs gene expression can be regulated or maintained epigenetically by DNA methylation, we found that EDL muscle and liver had an association between hypomethylation and increased gene transcription (Fig. 1A–1D). Our results in muscle tissue are consistent with previous findings, suggesting reduced muscle loading due to microgravity is a strong driver of gene regulation that can influence transcriptional responses to spaceflight. Consistent with that concept, we analyzed global differences between two common inbred strains of mice with distinct genetic backgrounds and found that C57BL/6 was more responsive at a transcriptional level to spaceflight than BALB/c (Table S1).\n\nThe systemic mitochondrial stress response pathway is induced by spaceflight at the cellular and tissue level.\n\nTo uncover the underlying systemic impact of spaceflight on astronauts, we analyzed four human cell line in vitro datasets available on GeneLab. Since these datasets are from legacy microarray data, comparisons were performed by Gene Set Enrichment Analysis (GSEA) for the overlapping pathways, using a false discovery rate cutoff of less than 10% (Fig. 2A). We found one overlapping collection of gene sets across all four cell types (fibroblasts, endothelial cells, primary T cells, and hair follicles). Remarkably, this overlap contained multiple mitochondrial function GO terms: mitochondrial ATP synthesis, mitochondrial electron transport, oxidative phosphorylation, and hydrogen ion transmembrane transportation (overlapping pathways in Fig. 2A). These data support the concept that spaceflight causes a universal change in gene expression related to energy generation.\n\nNext, we extended our network analyses to data from mouse tissues to identify changes that span DNA to RNA to protein in response to spaceflight. This collection included transcriptomics, proteomics, and epigenetics data of liver, kidney, eye, and adrenal gland tissues from two different mouse strains (C57BL/6 and BALB/c) housed on the ISS for 33 and 37 days, respectively. We linked mitochondrial stress in the tissues and cells to ribosomal and translational changes (Fig. 2A–2C, S1, and Tables S2 and S6). Specifically, we found ribosome assembly, mitochondrial, and cytosolic translation pathways altered, implying proteostasis failure induced by spaceflight. We observed a consistent change in mitochondrial pathways across most tissues we tested, except in the adrenal gland and soleus muscle (Figs. 2B and 2C). The direction of transcriptional changes repeats at the epigenetic level in the internal organs and muscles (Fig. 2D). Lastly, to determine specific mitochondrial activity per tissue from mice flown in space, we analyzed a panel of mitochondrial genes identified from the MitoCarta resource (Fig. 2E). Liver contained the most mitochondrial activity across all organs, while the soleus and EDL had the most mitochondrial activity amongst the muscles (Fig. 2E).\n\nWe analyzed metabolomic data from gastrocnemius and quadriceps muscle from both FLT and ground control GC C57BL/6 mice (RR9) to confirm potential metabolic changes in these tissues. Pathway enrichment analyses of metabolites from this data showed significant alterations in response to spaceflight (Fig. 3A, S2A, and Table S4), and the enrichment of several mitochondrial and energy-related pathways, such as β-oxidation of long-chain fatty acids and tricarboxylic acid cycle (Fig. 3A). L-carnitine and malate (Fig. S2B), two examples of metabolites involved in ATP generating processes, showed distinguishable increases in the muscles. Our analyses suggest that tissues vary in their stress response to spaceflight as it pertains to mitochondrial function. Alternatively, our observation could reflect different adaptive energy requirements of each tissue.\n\nMitochondrial dysfunction as a consequence of spaceflight\n\nWe observed mitochondrial dysfunction as a significant consequence of long-term space fight in both mouse models and humans by comparing spaceflight versus ground-based twins (Fig. 3). Observed changes include altered mitochondria-associated metabolites and modified nDNA and mtDNA OXPHOS gene expression (Fig. 3B), reduced antioxidant defenses and increased urinary markers of oxidative stress (Fig. 3F), and altered integrated stress response (ISR) gene expression (Fig. 3C). These and related observations suggest that mitochondrial dysfunction may alter metabolic flux through mitochondrial pathways, perturb mitochondrial gene expression, and activate the ISR.\n\nWe also observed opposite trends in transcriptional expression of nDNA versus mtDNA derived mitochondrial genes in livers from mice from the RR3 experiment (BALB/c) (Fig. 3B), further supporting the concept of spaceflight-associated mitochondrial dysfunction. In the liver, the nDNA-coded oxidative phosphorylation (OXPHOS) transcripts were strongly down-regulated, including cytochrome c oxidase (Cox4i1, Cox5a, Cox4i1, Cox5a, Cox5b, Cox6a1, Cox6b1, Cox6c, Cox7a2, Cox7a2l, Cox7b, Cox7c, Cox8a) as well as for coenzyme Q biosynthesis (Coq9). In contrast, we found a strong upregulation of the liver mtDNA-coded OXPHOS genes mt-ND4 and mt-ND5. The kidney also showed the induction of the mtDNA-coded subunits (mt-Nd2, mt-Nd4l, mt-ND5, mt-Co2, mt-Co3), and in the oxidative soleus muscle, the nDNA-coded COX genes were also down-regulated. In the EDL, a highly glycolytic tissue, we observed higher levels of mtDNA OXPHOS genes (mt-Co1, mt-Co3, mt-Nd4, mt-Nd4l, mt-Nd5, mt-Atp6), although nDNA-coded mitochondrial genes were not decreased (Fig. 3B). These observations support the conclusion that spaceflight suppresses nDNA-coded mitochondrial OXPHOS gene expression predominantly in oxidative tissues, and the induction of the mtDNA genes partially compensates for the diminished mitochondrial oxidative metabolism.\n\nThe reason for the opposite changes in transcription of the nDNA- and mtDNA-coded mitochondrial OXPHOS genes in spaceflight is unclear, but our results suggest that oxidative damage contributes to decreased nDNA OXPHOS transcripts. Levels of the transcriptional coactivator, PCG1α, which controls both sources of OXPHOS genes are increased in the liver, anterior tibialis, and EDL (Fig. 3C), which would be consistent with increased mitochondrial biogenesis.\n\nIf these opposite trends in the differential transcription of the nDNA- and mtDNA-coded mitochondrial OXPHOS genes extend to the protein level, this would lead to imbalances in the assembly of OXPHOS complexes and promote the mitochondrial unfolded protein response (UPRMT). Activation of the UPRMT can activate the integrated stress response (ISR) (Fig. 3C). For example, oxidative stress activates four kinases (GCN2, PKR, HRI, PERK) that initiate the ISR by regulating the phosphorylation of the cytosolic translation elongation factor 2 alpha (eIF2α) (Pakos-Zebrucka et al., 2016). Phosphorylation of eIF2α reduces the cytosolic initiation complex (eIF2-GTP-Met-initiation tRNA), resulting in the preferential translation of mRNAs with an upstream ORF (uORF1) and activates the ISR. ATF5 binds the amino acid receptor elements to upregulate 1-carbon folate metabolism, glutathione metabolism, and the stress response factors FGF21 and GDF15. GADD34 dephosphorylates p-eIF2α, allowing protein synthesis to return to normal (Fig. 3C).\n\nOur analysis of ISR-related genes expression from two murine space missions, RR1 and RR3 (Fig. 3C), showed that Gadd34 was increased in the adrenal gland in both missions. In the RR3 mission, Gadd34 was down-regulated in the oxidative soleus muscle and upregulated in the glycolytic anterior tibialis muscle, while the stress gene Atf5 was upregulated in both the anterior tibialis and in the EDL muscle, which is also a predominantly glycolytic muscle. Finally, we observed the downregulation of the stress response genes Fgf21 or Gdf15 in liver or soleus muscle, respectively. Therefore Atf5, Chop, and Gdf15 are downregulated in oxidative muscle during spaceflight, consistent with reduced ISR. In contrast, the increase in Atf5 and Gadd34 gene expression in glycolytic muscle suggests increased ISR. The modulation of Atf5, Chop, Gadd34, and Gdf15 (Fig. 3C) may indicate that the ISR may be a critical retort to spaceflight-induced mitochondrial dysfunction. Activation of the ISR via mitochondrial dysfunction could be in response to the increased oxidative stress, which would impinge on all of the ISR kinases. Alternatively, the imbalance between the nDNA and mtDNA coded OXPHOS proteins, and UPRMT could also activate ISR.\n\nWe investigated astronaut data to support the evidence of the biological processes observed in spaceflight mice. First, we analyzed the global mitochondrial levels from different cell populations (T lymphocytes CD4+ and CD8+, B lymphocyte CD19+, and Lymphocyte Depleted (LD) cells) in the blood from the NASA Twin Study (Fig. 3D). Although the mitochondrial levels between the twin in space compared to the ground control differed pre-flight, we observed a significant shift in mitochondrial activity from in-flight to post-flight compared to pre-flight. CD19 cells had the greatest increase in mitochondrial activity post-flight for the twin in space, while mitochondrial activity in the CD4 population was significantly reduced in-flight and post-flight (Fig. 3D).\n\nNext, we measured the expression of five mtDNA genes related to OXPHOS, isolated from whole-blood cell fraction samples from the NASA Twin Study including pre-, during, and post-flight samples, paired to ground control samples (Fig. 3E). All five mtDNA genes showed a similar pattern in response to spaceflight, starting with a 2- to 3-fold increase in expression at the beginning of the twin’s time on the ISS, and the peak was at 7- to 9-fold increase towards the end of the twin’s time on the ISS. In contrast, there were no robust changes in any of the genes from matched samples for the twin on Earth or in GAPDH, a key cytosolic enzyme in the glycolytic pathway. Remarkably, the mtDNA gene expression changes that occurred during spaceflight returned to baseline levels post-flight within a few weeks.\n\nThe astronaut in the Twin Study passed only 2% of his lifespan in space, whereas the mice from the RR1 and RR3 missions passed approximated 25% of their lifespan at the ISS. From the murine perspective, this was a long-term space mission, a particularly important consideration given the recent findings that mice and humans have different biochemical reaction speeds that affect development.\n\nWhile we observed an increase in mtDNA gene expression in the Twin Study, spaceflight reduced astronauts’ antioxidant capacity (Fig. 3F), coupled with an increase in urinary markers of oxidative stress including 8OHdG and Prostaglandin F2 alpha (PDGF2-alpha) (Table S4 and Fig. 3F). Urinary 8-OHdG is a biomarker of generalized cellular oxidative stress, a marker of oxidized DNA that signals that DNA repair is occurring, and a risk factor for cancer, atherosclerosis, and diabetes. PDGF2-alpha levels in urine are primarily related to cyclooxygenase-independent synthesis and oxidative stress. These data suggest that spaceflight increases oxidative stress as indicated by both blood and urinary markers.\n\nTo further examine metabolic changes related to oxidative stress, we derived context-specific metabolic models from the RR1 and RR3 transcriptional data from mice flown to the ISS (Fig. 3G), and performed flux balance analysis (FBA) calculations to derive metabolic flux activity in each tissue optimized for NAD oxidation based on our interest in its central role in mitochondrial metabolism (Liu et al., 2018). Results for flux comparisons between flight and control mice show several notable metabolic pathway groups with opposite trends in muscle versus liver in both mitochondrial activity and oxidative stress (Fig. 3G and Table S7). Modeled flux through the citric acid cycle (CAC) gatekeeping enzyme Citrate Synthase (CSm, Fig. 6C–6D) in FLT vs GC significantly decreased in muscle but was up in liver. While metabolic flux activity does not necessarily directly relate to metabolite concentration, our flux model results do not disagree with our MS/MS experimental observations of increases in free muscle L-carnitine and malate. The CAC malate dehydrogenase (MDHm) flux that converts malate to oxaloacetate is significantly reduced in FLT vs GC muscle, as are mitochondrial Carnitine O acetyltransferase (CSNATm), which converts carnitine into acetyl carnitine, and Malonyl-CoA Decarboxylase (MCD), which converts the fatty acid metabolism antagonist malonyl-CoA (Fig. 6C–6D). Fluxes related to carbohydrate metabolism also show differential changes and are mapped in Figs. S7 and S8. Files associated with flux results and statistical tests are included as supplemental files.\n\nUsing these modeled flux values, we can identify the tissue enrichment of mitochondria-localized substrates (MLS) versus the significance of the modeled fluxes. By partitioning fluxes by MLS and p-value significance, a 2×2 chi-square test of independence can detect relationships between mitochondrial substrates and differential flux results within each tissue. Significant fluxes were dominated by MLS, with 91 MLS (out of 316) significant fluxes, vs 81 MLS (out of 591) non-significant fluxes (p = 5.47e-08). In muscle, we found an opposite and significant trend, with a higher ratio of MLS in non-significant fluxes, with 162 MLS (out of 645) non-significant fluxes versus 18 MLS (out of 227) significant fluxes (p = 6.41e-08).\n\nSystemic innate immunity pathway alteration at cellular, internal tissues, and muscle levels induced by spaceflight\n\nOur GSEA analysis identified additional pathways that are affected by the space environment, including immune-related pathways. Cell culture models found an overall upregulation in immune-related pathways during spaceflight (Fig. 4A). In the internal organs, there was also a high presence of activated innate immune system pathways. Immune response through interferon-gamma (IFN-γ) and interferon-alpha (IFN-α) gene sets were down-regulated in the kidney and liver (Fig. 4B), with the epigenetic analysis showing differential methylation of these same gene sets (Fig. 5A). In all muscle tissues, we found an up-regulation in IFN-γ, IL-1, and tumor necrosis factor (TNF) gene sets (Fig. 4C), pathways linked to inflammation-induced muscle wasting. Linked to these immune alterations, gene sets related to the proteasome were altered in both the internal organs and muscles (Fig. 4B and 4C), suggesting protein homeostasis is changed but not limited to the muscle degradation. At the epigenetic level, only EDL and GST muscles showed altered methylation, with EDL showing alteration in the IFN-α (Fig. 5A). However, we observed T-cell activation in the Twins study. These omic datasets suggest that spaceflight alters inflammatory pathways, so we measured circulating inflammatory markers in astronauts. We found decreased 1,25 Vitamin D levels and increased levels of VEGF-1, IGF-1, IL-1α, IL-1β and IL-1ra during spaceflight in astronauts (Fig. 5B), that again resolved to baseline levels upon returning to Earth.\n\nLipid dysregulation and the liver: a centralized role in the spaceflight response\n\nTo further understand critical modules or gene hubs regulated by spaceflight, we used a weighted gene co-expression network analysis (WGCNA) on the liver datasets. We focused on the liver since we previously demonstrated that the liver regulates immune activity and lipid dysregulation during spaceflight. We observed two consensus networks significantly correlating with spaceflight in each group (denoted by arrows in Fig. 5C). ClueGO analysis of modules revealed significant enrichment of genes associated with DNA repair and bone resorption and remodeling (Fig. 5D). This enrichment agrees with our findings of reduced 1,25 (OH)2 Vitamin D during spaceflight (Fig. 5B) and also with increased urinary 8-OHdG excretion (Fig. 3C).\n\nThe third major grouping of GSEA pathway hits focused on lipid biology. As stated earlier, lipid dysregulation with spaceflight originates from the liver. From our analysis of tissue pathways, lipid metabolism gene sets were upregulated in the liver and kidneys and downregulated in the eyes and adrenal gland (Fig. 6A). Also, the lipid profile in astronauts changed with spaceflight. We found higher levels of total cholesterol and low-density lipoprotein (LDL) cholesterol, accompanied by decreased levels of high-density lipoprotein (HDL) cholesterol. Again, these levels reverted to normal after returning to Earth (Fig. 6B). These results indicate that spaceflight impacts lipid metabolism at the hepatic gene expression level, extending to the circulating lipid profile. We did not assess dietary intake before or after spaceflight. Still, it is worth noting that the spaceflight food system is limited, and astronauts’ diets differ from a nominal (earth based) diet.\n\nOur tissue-specific FBA analysis results on liver tissues from flight versus control mice in both missions identified an increase in fluxes related to carbohydrate and lipid-related metabolic factors (Fig. 6C and Table S7). Several conditions that lead to liver fibrosis are known to be marked by specifically dysregulated metabolic pathways, including significant increases in metabolites involved in glycolysis/gluconeogenesis, fructose and mannose metabolism, tryptophan metabolism, valine, leucine, isoleucine metabolism, glycine, serine, and threonine metabolism, glutathione metabolism, glycerophospholipid metabolism, and tricarboxylic acid (citric acid) cycle metabolism. We found fluxes related to these fibrosis-related pathways significantly increased (p<0.05) in the pathways cited above (Fig. 6C).\n\nCircadian rhythm, olfactory activity, and muscle extracellular matrix (ECM)-related pathways and blood and urine parameters affected by spaceflight in vitro and in vivo\n\nFinally, our multi-omics analysis of spaceflight biology identified a grouping of pathways related to the circadian rhythm, olfactory activity, synapse/receptor signaling, and ECM (Fig. 7, Table S2 and S6). Cell cycle pathways were upregulated in all cell and tissue models except in human T cells, where these same terms were downregulated (Fig. 7A and 7B). Cell cycle dysfunction is heavily involved with all the other pathways discussed below. ECM related pathways were unaltered in the quadriceps, upregulated in SLS, EDL, GST, and TA muscles, and downregulated in the carotid artery (Fig. 7C). Circadian rhythm pathways were upregulated at the transcriptional level in all internal organs but the liver (Fig. 7C), suggesting that spaceflight impacts diurnal patterns of gene expression. Also, circadian rhythm pathways for the methylated genes were upregulated in the quadriceps and adrenal glands (Fig. 7D). Olfactory activity was also upregulated for methylated genes in the eyes, adrenal glands, kidneys, and GST muscle (Fig. 7D). Renin, an enzyme linked to vitamin D and calcium levels, significantly increased in 59 astronauts (Fig. 7E), and increases in renin impact circadian rhythm activity.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Mitochondria",
+    "lipids",
+    "spaceflight",
+    "GeneLab",
+    "NASA Twin Study",
+    "NASA",
+    "Rodent Research Missions",
+    "cell cycle",
+    "oxidative phosphorylation",
+    "immune system",
+    "circadian rhythm",
+    "olfactory pathways",
+    "microgravity",
+    "space radiation",
+    "metabolism",
+    "metabolic modeling",
+    "proteomics",
+    "transcriptomics",
+    "metabolomics",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "methylKit: a comprehensive R package for the analysis of genome-wide DNA methylation profiles",
+      "authors": [
+        "A Akalin",
+        "M Kormaksson",
+        "S Li",
+        "FE Garrett-Bakelman",
+        "ME Figueroa",
+        "A Melnick",
+        "CE Mason"
+      ]
+    },
+    {
+      "title": "Molecular Perspectives of Mitochondrial Adaptations and Their Role in Cardiac Proteostasis",
+      "authors": [
+        "S Alam",
+        "CS Abdullah",
+        "R Aishwarya",
+        "M Morshed",
+        "MS Bhuiyan"
+      ]
+    },
+    {
+      "title": "Vitamin D and the immune system",
+      "authors": [
+        "C Aranow"
+      ]
+    },
+    {
+      "title": "Skeletal Muscle Regulates Metabolism via Interorgan Crosstalk: Roles in Health and Disease",
+      "authors": [
+        "JM Argiles",
+        "N Campos",
+        "JM Lopez-Pedrosa",
+        "R Rueda",
+        "L Rodriguez-Manas"
+      ]
+    },
+    {
+      "title": "Integrating ER and Mitochondrial Proteostasis in the Healthy and Diseased Heart",
+      "authors": [
+        "A Arrieta",
+        "EA Blackwood",
+        "WT Stauffer",
+        "CC Glembotski"
+      ]
+    },
+    {
+      "title": "Gene ontology: tool for the unification of biology",
+      "authors": [
+        "M Ashburner",
+        "CA Ball",
+        "JA Blake",
+        "D Botstein",
+        "H Butler",
+        "JM Cherry",
+        "AP Davis",
+        "K Dolinski",
+        "SS Dwight",
+        "JT Eppig"
+      ]
+    },
+    {
+      "title": "Venous Thrombosis during Spaceflight",
+      "authors": [
+        "SM Aunon-Chancellor",
+        "JM Pattarini",
+        "S Moll",
+        "A Sargsyan"
+      ]
+    },
+    {
+      "title": "A century old renin-angiotensin system still grows with endless possibilities: AT1 receptor signaling cascades in cardiovascular physiopathology",
+      "authors": [
+        "P Balakumar",
+        "G Jagadeesh"
+      ]
+    },
+    {
+      "title": "ER and Nutrient Stress Promote Assembly of Respiratory Chain Supercomplexes through the PERK-eIF2alpha Axis",
+      "authors": [
+        "E Balsa",
+        "MS Soustek",
+        "A Thomas",
+        "S Cogliati",
+        "C Garcia-Poyatos",
+        "E Martin-Garcia",
+        "M Jedrychowski",
+        "SP Gygi",
+        "JA Enriquez",
+        "P Puigserver"
+      ]
+    },
+    {
+      "title": "ER and nutrient stress promote assembly of respiratory chain supercomplexes through the PERK-eIF2alpha axis",
+      "authors": [
+        "E Balsa",
+        "MS Soustek",
+        "A Thomas",
+        "S Cogliati",
+        "C Garcia-Poyatos",
+        "E Martin-Garcia",
+        "M Jedrychowski",
+        "SP Gygi",
+        "JA Enriquez",
+        "P Puigserver"
+      ]
+    },
+    {
+      "title": "Mitochondria in innate immune signaling",
+      "authors": [
+        "B Banoth",
+        "SL Cassel"
+      ]
+    },
+    {
+      "title": "Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology GeneLab case study",
+      "authors": [
+        "A Beheshti",
+        "E Cekanaviciute",
+        "DJ Smith",
+        "SV Costes"
+      ]
+    },
+    {
+      "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+      "authors": [
+        "A Beheshti",
+        "K Chakravarty",
+        "H Fogle",
+        "H Fazelinia",
+        "WAD Silveira",
+        "V Boyko",
+        "SL Polo",
+        "AM Saravia-Butler",
+        "G Hardiman",
+        "D Taylor"
+      ]
+    },
+    {
+      "title": "Diagnosis and management of cerebral venous thrombosis",
+      "authors": [
+        "R Behrouzi",
+        "M Punter"
+      ]
+    },
+    {
+      "title": "T cells and reactive oxygen species",
+      "authors": [
+        "AV Belikov",
+        "B Schraven",
+        "L Simeoni"
+      ]
+    },
+    {
+      "title": "Dynamics of cell-free DNA and exosomes from before, during, and after long-duration human spaceflight",
+      "authors": [
+        "D Bezdan",
+        "K Grigorev",
+        "C Meydan",
+        "FA Vatter",
+        "M Cioff",
+        "V Rao",
+        "K Nakahir",
+        "P Burnham",
+        "E Afshinnekoo",
+        "C Westover"
+      ]
+    },
+    {
+      "title": "Alterations in Mitochondrial Oxidative Stress and Mitophagy in Subjects with Prediabetes and Type 2 Diabetes Mellitus",
+      "authors": [
+        "S Bhansali",
+        "A Bhansali",
+        "R Walia",
+        "UN Saikia",
+        "V Dhawan"
+      ]
+    },
+    {
+      "title": "Mitochondrial dysfunction and oxidative stress in metabolic disorders - A step towards mitochondria based therapeutic strategies",
+      "authors": [
+        "JS Bhatti",
+        "GK Bhatti",
+        "PH Reddy"
+      ]
+    },
+    {
+      "title": "Proteomics Quality Control: Quality Control Software for MaxQuant Results",
+      "authors": [
+        "C Bielow",
+        "G Mastrobuoni",
+        "S Kempa"
+      ]
+    },
+    {
+      "title": "Vitamin D metabolism, mechanism of action, and clinical applications",
+      "authors": [
+        "DD Bikle"
+      ]
+    },
+    {
+      "title": "ClueGO: a Cytoscape plug-in to decipher functionally grouped gene ontology and pathway annotation networks",
+      "authors": [
+        "G Bindea",
+        "B Mlecnik",
+        "H Hackl",
+        "P Charoentong",
+        "M Tosolini",
+        "A Kirilovsky",
+        "WH Fridman",
+        "F Pages",
+        "Z Trajanoski",
+        "J Galon"
+      ]
+    },
+    {
+      "title": "Regulation of the long‐chain carnitine acyltransferases",
+      "authors": [
+        "PS Brady",
+        "RR Ramsay",
+        "LJ Brady"
+      ]
+    },
+    {
+      "title": "Relationship between relative skeletal muscle mass and nonalcoholic fatty liver disease: a systematic review and meta-analysis",
+      "authors": [
+        "C Cai",
+        "X Song",
+        "Y Chen",
+        "X Chen",
+        "C Yu"
+      ]
+    },
+    {
+      "title": "MitoCarta2.0: an updated inventory of mammalian mitochondrial proteins",
+      "authors": [
+        "SE Calvo",
+        "KR Clauser",
+        "VK Mootha"
+      ]
+    },
+    {
+      "title": "Nutritional interventions in primary mitochondrial disorders: Developing an evidence base",
+      "authors": [
+        "KM Camp",
+        "D Krotoski",
+        "MA Parisi",
+        "KA Gwinn",
+        "BH Cohen",
+        "CS Cox",
+        "GM Enns",
+        "MJ Falk",
+        "AC Goldstein",
+        "R Gopal-Srivastava"
+      ]
+    },
+    {
+      "title": "Metabolic Signature of Hepatic Fibrosis: From Individual Pathways to Systems Biology",
+      "authors": [
+        "ML Chang",
+        "SS Yang"
+      ]
+    },
+    {
+      "title": "Inhibition of GPR35 Preserves Mitochondrial Function After Myocardial Infarction by Targeting Calpain 1/2",
+      "authors": [
+        "K Chen",
+        "L He",
+        "Y Li",
+        "X Li",
+        "C Qiu",
+        "H Pei",
+        "D Yang"
+      ]
+    },
+    {
+      "title": "MetaboAnalyst 4.0: towards more transparent and integrative metabolomics analysis",
+      "authors": [
+        "J Chong",
+        "O Soufan",
+        "C Li",
+        "I Caraus",
+        "S Li",
+        "G Bourque",
+        "DS Wishart",
+        "J Xia"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "G Clément"
+      ]
+    },
+    {
+      "title": "Molecular Choreography of Acute Exercise",
+      "authors": [
+        "K Contrepois",
+        "S Wu",
+        "KJ Moneghetti",
+        "D Hornburg",
+        "S Ahadi",
+        "MS Tsai",
+        "AA Metwally",
+        "E Wei",
+        "B Lee-McMullen",
+        "JV Quijada"
+      ]
+    },
+    {
+      "title": "Immune System Dysregulation During Spaceflight: Potential Countermeasures for Deep Space Exploration Missions",
+      "authors": [
+        "BE Crucian",
+        "A Chouker",
+        "RJ Simpson",
+        "S Mehta",
+        "G Marshall",
+        "SM Smith",
+        "SR Zwart",
+        "M Heer",
+        "S Ponomarev",
+        "A Whitmire"
+      ]
+    },
+    {
+      "title": "Plasma cytokine concentrations indicate that in vivo hormonal regulation of immunity is altered during long-duration spaceflight",
+      "authors": [
+        "BE Crucian",
+        "SR Zwart",
+        "S Mehta",
+        "P Uchakin",
+        "HD Quiriarte",
+        "D Pierson",
+        "CF Sams",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "L Dawson"
+      ]
+    },
+    {
+      "title": "Cell proliferation, reactive oxygen and cellular glutathione",
+      "authors": [
+        "RM Day",
+        "YJ Suzuki"
+      ]
+    },
+    {
+      "title": "Human Pathophysiological Adaptations to the Space Environment",
+      "authors": [
+        "GC Demontis",
+        "MM Germani",
+        "EG Caiani",
+        "I Barravecchia",
+        "C Passino",
+        "D Angeloni"
+      ]
+    },
+    {
+      "title": "Proteomic profiling of human liver biopsies: hepatitis C virus-induced fibrosis and mitochondrial dysfunction",
+      "authors": [
+        "DL Diamond",
+        "JM Jacobs",
+        "B Paeper",
+        "SC Proll",
+        "MA Gritsenko",
+        "RL Carithers",
+        "AM Larson",
+        "MM Yeh",
+        "DG Camp",
+        "RD Smith"
+      ]
+    },
+    {
+      "title": "STAR: ultrafast universal RNA-seq aligner",
+      "authors": [
+        "A Dobin",
+        "CA Davis",
+        "F Schlesinger",
+        "J Drenkow",
+        "C Zaleski",
+        "S Jha",
+        "P Batut",
+        "M Chaisson",
+        "TR Gingeras"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "G Douglas"
+      ]
+    },
+    {
+      "title": "Heavy ion carcinogenesis and human space exploration",
+      "authors": [
+        "M Durante",
+        "FA Cucinotta"
+      ]
+    },
+    {
+      "title": "COBRApy: COnstraints-Based Reconstruction and Analysis for Python",
+      "authors": [
+        "A Ebrahim",
+        "JA Lerman",
+        "BO Palsson",
+        "DR Hyduke"
+      ]
+    },
+    {
+      "title": "Gene Expression Dynamics Inspector (GEDI): for integrative analysis of expression profiles",
+      "authors": [
+        "GS Eichler",
+        "S Huang",
+        "DE Ingber"
+      ]
+    },
+    {
+      "title": "Dyslipidemia and inflammation: an evolutionary conserved mechanism",
+      "authors": [
+        "E Esteve",
+        "W Ricart",
+        "JM Fernandez-Real"
+      ]
+    },
+    {
+      "title": "Impaired proteostasis during skeletal muscle aging",
+      "authors": [
+        "R Fernando",
+        "C Drescher",
+        "K Nowotny",
+        "T Grune",
+        "JP Castro"
+      ]
+    },
+    {
+      "title": "The mouse Gene Expression Database (GXD): 2017 update",
+      "authors": [
+        "JH Finger",
+        "CM Smith",
+        "TF Hayamizu",
+        "IJ McCright",
+        "J Xu",
+        "M Law",
+        "DR Shaw",
+        "RM Baldarelli",
+        "JS Beal",
+        "O Blodgett"
+      ]
+    },
+    {
+      "title": "Mitochondrial Ca(2+) mobilization is a key element in olfactory signaling",
+      "authors": [
+        "D Fluegge",
+        "LM Moeller",
+        "A Cichy",
+        "M Gorin",
+        "A Weth",
+        "S Veitinger",
+        "S Cainarca",
+        "S Lohmer",
+        "S Corazza",
+        "EM Neuhaus"
+      ]
+    },
+    {
+      "title": "Fibroblast growth factor 21 drives dynamics of local and systemic stress responses in mitochondrial myopathy with mtDNA deletions",
+      "authors": [
+        "S Forsstrom",
+        "CB Jackson",
+        "CJ Carroll",
+        "M Kuronen",
+        "E Pirinen",
+        "S Pradhan",
+        "A Marmyleva",
+        "M Auranen",
+        "IM Kleine",
+        "NA Khan"
+      ]
+    },
+    {
+      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman",
+        "M Darshi",
+        "SJ Green",
+        "RC Gur",
+        "L Lin",
+        "BR Macias",
+        "MJ McKenna",
+        "C Meydan",
+        "T Mishra",
+        "J Nasrini"
+      ]
+    },
+    {
+      "title": "Multi-omic, Single-cell, and Biochemical Profiles of Astronauts Guide Pharmacological Strategies for Returning to Gravity",
+      "authors": [
+        "ML Gertz",
+        "CR Chin",
+        "D Tomoiaga",
+        "M MacKay",
+        "D Butler",
+        "E Afshinnekoo",
+        "D Bezdan",
+        "MA Schmidt",
+        "C Mozsary",
+        "A Melnick"
+      ]
+    },
+    {
+      "title": "Mitochondrial reactive oxygen species promote epidermal differentiation and hair follicle development",
+      "authors": [
+        "RB Hamanaka",
+        "A Glasauer",
+        "P Hoover",
+        "S Yang",
+        "H Blatt",
+        "AR Mullen",
+        "S Getsios",
+        "CJ Gottardi",
+        "RJ DeBerardinis",
+        "RM Lavker"
+      ]
+    },
+    {
+      "title": "Progressive expression of PPARGC1alpha is associated with hair miniaturization in androgenetic alopecia",
+      "authors": [
+        "BS Ho",
+        "C Vaz",
+        "S Ramasamy",
+        "EGY Chew",
+        "JS Mohamed",
+        "H Jaffar",
+        "A Hillmer",
+        "V Tanavde",
+        "M Bigliardi-Qi",
+        "PL Bigliardi"
+      ]
+    },
+    {
+      "title": "Genes down-regulated in spaceflight are involved in the control of longevity in Caenorhabditis elegans",
+      "authors": [
+        "Y Honda",
+        "A Higashibata",
+        "Y Matsunaga",
+        "Y Yonezawa",
+        "T Kawano",
+        "A Higashitani",
+        "K Kuriyama",
+        "T Shimazu",
+        "M Tanaka",
+        "NJ Szewczyk"
+      ]
+    },
+    {
+      "title": "The metabolic footprint of aging in mice",
+      "authors": [
+        "RH Houtkooper",
+        "C Argmann",
+        "SM Houten",
+        "C Canto",
+        "EH Jeninga",
+        "PA Andreux",
+        "C Thomas",
+        "R Doenlen",
+        "K Schoonjans",
+        "J Auwerx"
+      ]
+    },
+    {
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "authors": [
+        "W Huang da",
+        "BT Sherman",
+        "RA Lempicki"
+      ]
+    },
+    {
+      "title": "Heart in space: effect of the extraterrestrial environment on the cardiovascular system",
+      "authors": [
+        "RL Hughson",
+        "A Helm",
+        "M Durante"
+      ]
+    },
+    {
+      "title": "Metabolic requirements for the maintenance of self-renewing stem cells",
+      "authors": [
+        "K Ito",
+        "T Suda"
+      ]
+    },
+    {
+      "title": "Linking mitochondrial dysfunction, metabolic syndrome and stress signaling in Neurodegeneration",
+      "authors": [
+        "SK Jha",
+        "NK Jha",
+        "D Kumar",
+        "RK Ambasta",
+        "P Kumar"
+      ]
+    },
+    {
+      "title": "Data, information, knowledge and principle: back to metabolism in KEGG",
+      "authors": [
+        "M Kanehisa",
+        "S Goto",
+        "Y Sato",
+        "M Kawashima",
+        "M Furumichi",
+        "M Tanabe"
+      ]
+    },
+    {
+      "title": "Hair follicle stem cell-specific PPARgamma deletion causes scarring alopecia",
+      "authors": [
+        "P Karnik",
+        "Z Tekeste",
+        "TS McCormick",
+        "AC Gilliam",
+        "VH Price",
+        "KD Cooper",
+        "P Mirmirani"
+      ]
+    },
+    {
+      "title": "Dysfunction of mitochondria in human skeletal muscle in type 2 diabetes",
+      "authors": [
+        "DE Kelley",
+        "J He",
+        "EV Menshikova",
+        "VB Ritov"
+      ]
+    },
+    {
+      "title": "mTORC1 Regulates Mitochondrial Integrated Stress Response and Mitochondrial Myopathy Progression",
+      "authors": [
+        "NA Khan",
+        "J Nikkanen",
+        "S Yatsuga",
+        "C Jackson",
+        "L Wang",
+        "S Pradhan",
+        "R Kivela",
+        "A Pessia",
+        "V Velagapudi",
+        "A Suomalainen"
+      ]
+    },
+    {
+      "title": "mTORC1 regulates mitochondrial integrated stress response and mitochondrial myopathy progression",
+      "authors": [
+        "NA Khan",
+        "J Nikkanen",
+        "S Yatsuga",
+        "C Jackson",
+        "L Wang",
+        "S Pradhan",
+        "R Kivela",
+        "A Pessia",
+        "V Velagapudi",
+        "A Suomalainen"
+      ]
+    },
+    {
+      "title": "Chronic Low-grade Inflammation after Exercise",
+      "authors": [
+        "M Khazaei"
+      ]
+    },
+    {
+      "title": "Structural and functional features of mitochondria in statocytes of soybean root under microgravity conditions",
+      "authors": [
+        "D Klimchuk"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "T Kluyver",
+        "B Ragan-Kelley",
+        "F Pérez",
+        "BE Granger",
+        "M Bussonnier",
+        "J Frederic",
+        "K Kelley",
+        "JB Hamrick",
+        "J Grout",
+        "S Corlay"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "R Kolde"
+      ]
+    },
+    {
+      "title": "Sarcopenia is an independent risk factor for non-alcoholic steatohepatitis and significant fibrosis",
+      "authors": [
+        "BK Koo",
+        "D Kim",
+        "SK Joo",
+        "JH Kim",
+        "MS Chang",
+        "BG Kim",
+        "KL Lee",
+        "W Kim"
+      ]
+    },
+    {
+      "title": "Regulation of nuclear epigenome by mitochondrial DNA heteroplasmy",
+      "authors": [
+        "PK Kopinski",
+        "KA Janssen",
+        "PM Schaefer",
+        "S Trefely",
+        "CE Perry",
+        "P Potluri",
+        "JA Tintos-Hernandez",
+        "LN Singh",
+        "KR Karch",
+        "SL Campbell"
+      ]
+    },
+    {
+      "title": "Mitochondrial Ultrastructure and Glucose Signaling Pathways Attributed to the Kv1.3 Ion Channel",
+      "authors": [
+        "CP Kovach",
+        "D Al Koborssy",
+        "Z Huang",
+        "BM Chelette",
+        "JM Fadool",
+        "DA Fadool"
+      ]
+    },
+    {
+      "title": "Alterations in hematologic indices during long-duration spaceflight",
+      "authors": [
+        "H Kunz",
+        "H Quiriarte",
+        "RJ Simpson",
+        "R Ploutz-Snyder",
+        "K McMonigal",
+        "C Sams",
+        "B Crucian"
+      ]
+    },
+    {
+      "title": "WGCNA: an R package for weighted correlation network analysis",
+      "authors": [
+        "P Langfelder",
+        "S Horvath"
+      ]
+    },
+    {
+      "title": "Immunomodulatory Roles of Cell Cycle Regulators",
+      "authors": [
+        "P Laphanuwat",
+        "S Jirawatnotai"
+      ]
+    },
+    {
+      "title": "Arterial structure and function during and after long-duration spaceflight",
+      "authors": [
+        "SMC Lee",
+        "LC Ribeiro",
+        "DS Martin",
+        "SR Zwart",
+        "AH Feiveson",
+        "SS Laurie",
+        "BR Macias",
+        "BE Crucian",
+        "S Krieger",
+        "D Weber"
+      ]
+    },
+    {
+      "title": "Role of G Protein-Coupled Receptors in the Regulation of Structural Plasticity and Cognitive Function",
+      "authors": [
+        "CCY Leung",
+        "YH Wong"
+      ]
+    },
+    {
+      "title": "A description of the Molecular Signatures Database (MSigDB) Web site",
+      "authors": [
+        "A Liberzon"
+      ]
+    },
+    {
+      "title": "Molecular signatures database (MSigDB) 3.0",
+      "authors": [
+        "A Liberzon",
+        "A Subramanian",
+        "R Pinchback",
+        "H Thorvaldsdottir",
+        "P Tamayo",
+        "JP Mesirov"
+      ]
+    },
+    {
+      "title": "Inflammation induced loss of skeletal muscle",
+      "authors": [
+        "P Londhe",
+        "DC Guttridge"
+      ]
+    },
+    {
+      "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "authors": [
+        "MI Love",
+        "W Huber",
+        "S Anders"
+      ]
+    },
+    {
+      "title": "Mechanisms Linking Mitochondrial Dysfunction and Proteostasis Failure",
+      "authors": [
+        "B Lu",
+        "S Guo"
+      ]
+    },
+    {
+      "title": "The Coenzyme Q10 as an antiapoptotic countermeasure for retinal lesions onboard the International Space Station",
+      "authors": [
+        "M Lulli",
+        "F Cialdai",
+        "L Vignali",
+        "M Monici",
+        "S Luzzi",
+        "A Cicconi",
+        "S Cacchione",
+        "A Magi",
+        "M Balsamo",
+        "M Vukich"
+      ]
+    },
+    {
+      "title": "MetaboLyzer: a novel statistical workflow for analyzing Postprocessed LC-MS metabolomics data",
+      "authors": [
+        "TD Mak",
+        "EC Laiakis",
+        "M Goudarzi",
+        "AJ Fornace"
+      ]
+    },
+    {
+      "title": "NAD+ metabolism and oxidative stress: the golden nucleotide on a crown of thorns",
+      "authors": [
+        "H Massudi",
+        "R Grant",
+        "GJ Guillemin",
+        "N Braidy"
+      ]
+    },
+    {
+      "title": "Species-specific segmentation clock periods are due to differential biochemical reaction speeds",
+      "authors": [
+        "M Matsuda",
+        "H Hayashi",
+        "J Garcia-Ojalvo",
+        "K Yoshioka-Kobayashi",
+        "R Kageyama",
+        "Y Yamanaka",
+        "M Ikeya",
+        "J Toguchida",
+        "C Alev",
+        "M Ebisuya"
+      ]
+    },
+    {
+      "title": "Role of Platelet Mitochondria: Life in a Nucleus-Free Zone",
+      "authors": [
+        "H Melchinger",
+        "K Jain",
+        "T Tyagi",
+        "J Hwa"
+      ]
+    },
+    {
+      "title": "Enrichment map: a network-based method for gene-set enrichment visualization and interpretation",
+      "authors": [
+        "D Merico",
+        "R Isserlin",
+        "O Stueker",
+        "A Emili",
+        "GD Bader"
+      ]
+    },
+    {
+      "title": "Mitochondrial cardiomyopathy: pathophysiology, diagnosis, and management",
+      "authors": [
+        "DE Meyers",
+        "HI Basha",
+        "MK Koenig"
+      ]
+    },
+    {
+      "title": "A systems biology pipeline identifies new immune and disease related molecular signatures and networks in human cells during microgravity exposure",
+      "authors": [
+        "S Mukhopadhyay",
+        "R Saha",
+        "A Palanisamy",
+        "M Ghosh",
+        "A Biswas",
+        "S Roy",
+        "A Pal",
+        "K Sarkar",
+        "S Bagh"
+      ]
+    },
+    {
+      "title": "Bioactive Lipid Species and Metabolic Pathways in Progression and Resolution of Nonalcoholic Steatohepatitis",
+      "authors": [
+        "G Musso",
+        "M Cassader",
+        "E Paschetta",
+        "R Gambino"
+      ]
+    },
+    {
+      "title": "The NAD+-dependent deacetylase SIRT1 modulates CLOCK-mediated chromatin remodeling and circadian control",
+      "authors": [
+        "Y Nakahata",
+        "M Kaluzova",
+        "B Grimaldi",
+        "S Sahar",
+        "J Hirayama",
+        "D Chen",
+        "LP Guarente",
+        "P Sassone-Corsi"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "DL Nelson"
+      ]
+    },
+    {
+      "title": "Consensus-based statements for the management of mitochondrial stroke-like episodes",
+      "authors": [
+        "YS Ng",
+        "LA Bindoff",
+        "GS Gorman",
+        "R Horvath",
+        "T Klopstock",
+        "M Mancuso",
+        "MH Martikainen",
+        "R McFarland",
+        "V Nesbitt",
+        "RDS Pitceathly"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "AE Nicogossian",
+        "RS Williams",
+        "CL Huntoon",
+        "CR Doarn",
+        "JD Polk",
+        "VS Schneider"
+      ]
+    },
+    {
+      "title": "Skeletal muscle gene expression in space-flown rats",
+      "authors": [
+        "T Nikawa",
+        "K Ishidoh",
+        "K Hirasaka",
+        "I Ishihara",
+        "M Ikemoto",
+        "M Kano",
+        "E Kominami",
+        "I Nonaka",
+        "T Ogawa",
+        "GR Adams"
+      ]
+    },
+    {
+      "title": "Interaction between graviception and carotid baroreflex function in humans during parabolic flight-induced microgravity",
+      "authors": [
+        "S Ogoh",
+        "M Marais",
+        "R Lericollais",
+        "P Denise",
+        "PB Raven",
+        "H Normand"
+      ]
+    },
+    {
+      "title": "Circadian rhythm of blood pressure and the renin-angiotensin system in the kidney",
+      "authors": [
+        "N Ohashi",
+        "S Isobe",
+        "S Ishigaki",
+        "H Yasuda"
+      ]
+    },
+    {
+      "title": "Feeding Time Entrains the Olfactory Bulb Circadian Clock in Anosmic PER2::LUC Mice",
+      "authors": [
+        "I Pavlovski",
+        "JA Evans",
+        "RE Mistlberger"
+      ]
+    },
+    {
+      "title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+      "authors": [
+        "MJ Pecaut",
+        "XW Mao",
+        "DL Bellinger",
+        "KR Jonscher",
+        "LS Stodieck",
+        "VL Ferguson",
+        "TA Bateman",
+        "RP Mohney",
+        "DS Gridley"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "BS Pedersen",
+        "K Eyring",
+        "S De",
+        "IV Yang",
+        "DA Schwartz"
+      ]
+    },
+    {
+      "title": "Extended Multiplexing of Tandem Mass Tags (TMT) Labeling Reveals Age and High Fat Diet Specific Proteome Changes in Mouse Epididymal Adipose Tissue",
+      "authors": [
+        "DL Plubell",
+        "PA Wilmarth",
+        "Y Zhao",
+        "AM Fenton",
+        "J Minnier",
+        "AP Reddy",
+        "J Klimek",
+        "X Yang",
+        "LL David",
+        "N Pamir"
+      ]
+    },
+    {
+      "title": "Diabetes Worsens Skeletal Muscle Mitochondrial Function, Oxidative Stress, and Apoptosis After Lower-Limb Ischemia-Reperfusion: Implication of the RISK and SAFE Pathways?",
+      "authors": [
+        "J Pottecher",
+        "C Adamopoulos",
+        "A Lejay",
+        "J Bouitbir",
+        "AL Charles",
+        "A Meyer",
+        "M Singer",
+        "V Wolff",
+        "P Diemunsch",
+        "G Laverny"
+      ]
+    },
+    {
+      "title": "Skeletal muscle: an endocrine organ",
+      "authors": [
+        "A Pratesi",
+        "F Tarantini",
+        "M Di Bari"
+      ]
+    },
+    {
+      "title": "Multi-omics analysis identifies ATF4 as a key regulator of the mitochondrial stress response in mammals",
+      "authors": [
+        "PM Quiros",
+        "MA Prado",
+        "N Zamboni",
+        "D D’Amico",
+        "RW Williams",
+        "D Finley",
+        "SP Gygi",
+        "J Auwerx"
+      ]
+    },
+    {
+      "title": "Sleep disorders associated with primary mitochondrial diseases",
+      "authors": [
+        "RJ Ramezani",
+        "PW Stacpoole"
+      ]
+    },
+    {
+      "title": "GeneLab: Omics database for spaceflight experiments",
+      "authors": [
+        "S Ray",
+        "S Gebre",
+        "H Fogle",
+        "DC Berrios",
+        "PB Tran",
+        "JM Galazka",
+        "SV Costes"
+      ]
+    },
+    {
+      "title": "Nutritional support in mitochondrial diseases: the state of the art",
+      "authors": [
+        "E Rinninella",
+        "M Pizzoferrato",
+        "M Cintoni",
+        "S Servidei",
+        "MC Mele"
+      ]
+    },
+    {
+      "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "authors": [
+        "ME Ritchie",
+        "B Phipson",
+        "D Wu",
+        "Y Hu",
+        "CW Law",
+        "W Shi",
+        "GK Smyth"
+      ]
+    },
+    {
+      "title": "Circadian Rhythms and Mitochondria: Connecting the Dots",
+      "authors": [
+        "L Sardon Puig",
+        "M Valera-Alberni",
+        "C Canto",
+        "NJ Pillon"
+      ]
+    },
+    {
+      "title": "Reconstruction of Tissue-Specific Metabolic Networks Using CORDA",
+      "authors": [
+        "A Schultz",
+        "AA Qutub"
+      ]
+    },
+    {
+      "title": "An algorithm for fast preranked gene set enrichment analysis using cumulative statistic calculation",
+      "authors": [
+        "AA Sergushichev"
+      ]
+    },
+    {
+      "title": "Cytoscape: a software environment for integrated models of biomolecular interaction networks",
+      "authors": [
+        "P Shannon",
+        "A Markiel",
+        "O Ozier",
+        "NS Baliga",
+        "JT Wang",
+        "D Ramage",
+        "N Amin",
+        "B Schwikowski",
+        "T Ideker"
+      ]
+    },
+    {
+      "title": "Severe mitochondrial damage associated with low-dose radiation sensitivity in ATM- and NBS1-deficient cells",
+      "authors": [
+        "T Shimura",
+        "J Kobayashi",
+        "K Komatsu",
+        "N Kunugita"
+      ]
+    },
+    {
+      "title": "Mitochondria and cardiovascular diseases-from pathophysiology to treatment",
+      "authors": [
+        "G Siasos",
+        "V Tsigkou",
+        "M Kosmopoulos",
+        "D Theodosiadis",
+        "S Simantiris",
+        "NM Tagkou",
+        "A Tsimpiktsioglou",
+        "PK Stampouloglou",
+        "E Oikonomou",
+        "K Mourouzis"
+      ]
+    },
+    {
+      "title": "A detailed genome-wide reconstruction of mouse metabolism based on human Recon 1",
+      "authors": [
+        "MI Sigurdsson",
+        "N Jamshidi",
+        "E Steingrimsson",
+        "I Thiele",
+        "BO Palsson"
+      ]
+    },
+    {
+      "title": "Mouse Genome Database (MGD)-2018: knowledgebase for the laboratory mouse",
+      "authors": [
+        "CL Smith",
+        "JA Blake",
+        "JA Kadin",
+        "JE Richardson",
+        "CJ Bult",
+        "G Mouse Genome Database"
+      ]
+    },
+    {
+      "title": "Solute diffusion in nonionic liquids--effects of gravity",
+      "authors": [
+        "RW Smith",
+        "PJ Scott",
+        "B Szpunar"
+      ]
+    },
+    {
+      "title": "Bone metabolism and renal stone risk during International Space Station missions",
+      "authors": [
+        "SM Smith",
+        "M Heer",
+        "LC Shackelford",
+        "JD Sibonga",
+        "J Spatz",
+        "RA Pietrzyk",
+        "EK Hudson",
+        "SR Zwart"
+      ]
+    },
+    {
+      "title": "Long-duration space flight and bed rest effects on testosterone and other steroids",
+      "authors": [
+        "SM Smith",
+        "M Heer",
+        "Z Wang",
+        "CL Huntoon",
+        "SR Zwart"
+      ]
+    },
+    {
+      "title": "Benefits for bone from resistance exercise and nutrition in long-duration spaceflight: Evidence from biochemistry and densitometry",
+      "authors": [
+        "SM Smith",
+        "MA Heer",
+        "LC Shackelford",
+        "JD Sibonga",
+        "L Ploutz-Snyder",
+        "SR Zwart"
+      ]
+    },
+    {
+      "title": "The nutritional status of astronauts is altered after long-term space flight aboard the International Space Station",
+      "authors": [
+        "SM Smith",
+        "SR Zwart",
+        "G Block",
+        "BL Rice",
+        "JE Davis-Street"
+      ]
+    },
+    {
+      "title": "GRKs and beta-Arrestins: “Gatekeepers” of Mitochondrial Function in the Failing Heart",
+      "authors": [
+        "D Sorriento",
+        "J Gambardella",
+        "A Fiordelisi",
+        "G Iaccarino",
+        "M Illario"
+      ]
+    },
+    {
+      "title": "Biological control through regulated transcriptional coactivators",
+      "authors": [
+        "BM Spiegelman",
+        "R Heinrich"
+      ]
+    },
+    {
+      "title": "Genetics, Dyslipidemia, and Cardiovascular Disease: New Insights",
+      "authors": [
+        "R Stein",
+        "F Ferrari",
+        "F Scolari"
+      ]
+    },
+    {
+      "title": "Recent Progress in Space Physiology and Aging",
+      "authors": [
+        "F Strollo",
+        "S Gentile",
+        "G Strollo",
+        "A Mambro",
+        "J Vernikos"
+      ]
+    },
+    {
+      "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles",
+      "authors": [
+        "A Subramanian",
+        "P Tamayo",
+        "VK Mootha",
+        "S Mukherjee",
+        "BL Ebert",
+        "MA Gillette",
+        "A Paulovich",
+        "SL Pomeroy",
+        "TR Golub",
+        "ES Lander"
+      ]
+    },
+    {
+      "title": "Mitochondrial diseases: the contribution of organelle stress responses to pathology",
+      "authors": [
+        "A Suomalainen",
+        "BJ Battersby"
+      ]
+    },
+    {
+      "title": "Picard Tools",
+      "authors": [
+        "AK Thomer",
+        "MB Twidale",
+        "J Guo",
+        "MJ Yoder"
+      ]
+    },
+    {
+      "title": "Mitochondrial stress-dependent regulation of cellular protein synthesis",
+      "authors": [
+        "U Topf",
+        "B Uszczynska-Ratajczak",
+        "A Chacinska"
+      ]
+    },
+    {
+      "title": "The MaxQuant computational platform for mass spectrometry-based shotgun proteomics",
+      "authors": [
+        "S Tyanova",
+        "T Temu",
+        "J Cox"
+      ]
+    },
+    {
+      "title": "The Perseus computational platform for comprehensive analysis of (prote)omics data",
+      "authors": [
+        "S Tyanova",
+        "T Temu",
+        "P Sinitcyn",
+        "A Carlson",
+        "MY Hein",
+        "T Geiger",
+        "M Mann",
+        "J Cox"
+      ]
+    },
+    {
+      "title": "Oxidative stress-associated senescence in dermal papilla cells of men with androgenetic alopecia",
+      "authors": [
+        "JH Upton",
+        "RF Hannen",
+        "AW Bahta",
+        "N Farjo",
+        "B Farjo",
+        "MP Philpott"
+      ]
+    },
+    {
+      "title": "A mitochondrial bioenergetic etiology of disease",
+      "authors": [
+        "DC Wallace"
+      ]
+    },
+    {
+      "title": "Interferon Gamma Induces Reversible Metabolic Reprogramming of M1 Macrophages to Sustain Cell Viability and Pro-Inflammatory Activity",
+      "authors": [
+        "F Wang",
+        "S Zhang",
+        "R Jeon",
+        "I Vuckovic",
+        "X Jiang",
+        "A Lerman",
+        "CD Folmes",
+        "PD Dzeja",
+        "J Herrmann"
+      ]
+    },
+    {
+      "title": "SLIM: a sliding linear model for estimating the proportion of true null hypotheses in datasets with dependence structures",
+      "authors": [
+        "HQ Wang",
+        "LK Tuominen",
+        "CJ Tsai"
+      ]
+    },
+    {
+      "title": "Mitochondrial DNA in innate immune responses and inflammatory pathology",
+      "authors": [
+        "AP West",
+        "GS Shadel"
+      ]
+    },
+    {
+      "title": "A Mitochondrial Stress-Specific Form of HSF1 Protects against Age-Related Proteostasis Collapse",
+      "authors": [
+        "R Williams",
+        "M Laskovs",
+        "RI Williams",
+        "A Mahadevan",
+        "J Labbadia"
+      ]
+    },
+    {
+      "title": "eIF2B activator prevents neurological defects caused by a chronic integrated stress response",
+      "authors": [
+        "YL Wong",
+        "L LeBon",
+        "AM Basso",
+        "KL Kohlhaas",
+        "AL Nikkel",
+        "HM Robb",
+        "DL Donnelly-Roberts",
+        "J Prakash",
+        "AM Swensen",
+        "ND Rubinstein"
+      ]
+    },
+    {
+      "title": "On-orbit sleep problems of astronauts and countermeasures",
+      "authors": [
+        "B Wu",
+        "Y Wang",
+        "X Wu",
+        "D Liu",
+        "D Xu",
+        "F Wang"
+      ]
+    },
+    {
+      "title": "Urinary 8-OHdG: a marker of oxidative stress to DNA and a risk factor for cancer, atherosclerosis and diabetics",
+      "authors": [
+        "LL Wu",
+        "CC Chiou",
+        "PY Chang",
+        "JT Wu"
+      ]
+    },
+    {
+      "title": "Redox remodeling as an immunoregulatory strategy",
+      "authors": [
+        "Z Yan",
+        "R Banerjee"
+      ]
+    },
+    {
+      "title": "Proteasomes are regulated by interferon gamma: implications for antigen processing",
+      "authors": [
+        "Y Yang",
+        "JB Waters",
+        "K Fruh",
+        "PA Peterson"
+      ]
+    },
+    {
+      "title": "Small G protein signaling in neuronal plasticity and memory formation: the specific role of ras family proteins",
+      "authors": [
+        "X Ye",
+        "TJ Carew"
+      ]
+    },
+    {
+      "title": "Urinary prostaglandin F2alpha is generated from the isoprostane pathway and not the cyclooxygenase in humans",
+      "authors": [
+        "H Yin",
+        "L Gao",
+        "HH Tai",
+        "LJ Murphey",
+        "NA Porter",
+        "JD Morrow"
+      ]
+    },
+    {
+      "title": "Circulating mitochondrial DAMPs cause inflammatory responses to injury",
+      "authors": [
+        "Q Zhang",
+        "M Raoof",
+        "Y Chen",
+        "Y Sumi",
+        "T Sursal",
+        "W Junger",
+        "K Brohi",
+        "K Itagaki",
+        "CJ Hauser"
+      ]
+    },
+    {
+      "title": "Effectiveness of Coenzyme Q10 Supplementation for Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis",
+      "authors": [
+        "SY Zhang",
+        "KL Yang",
+        "LT Zeng",
+        "XH Wu",
+        "HY Huang"
+      ]
+    },
+    {
+      "title": "New mitochondrial DNA synthesis enables NLRP3 inflammasome activation",
+      "authors": [
+        "Z Zhong",
+        "S Liang",
+        "E Sanchez-Lopez",
+        "F He",
+        "S Shalapour",
+        "XJ Lin",
+        "J Wong",
+        "S Ding",
+        "E Seki",
+        "B Schnabl"
+      ]
+    },
+    {
+      "title": "Vitamin K status in spaceflight and ground-based models of spaceflight",
+      "authors": [
+        "SR Zwart",
+        "SL Booth",
+        "JW Peterson",
+        "Z Wang",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Genotype, B-vitamin status, and androgens affect spaceflight-induced ophthalmic changes",
+      "authors": [
+        "SR Zwart",
+        "JF Gregory",
+        "SH Zeisel",
+        "CR Gibson",
+        "TH Mader",
+        "JM Kinchen",
+        "PM Ueland",
+        "R Ploutz-Snyder",
+        "MA Heer",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Iron status and its relations with oxidative damage and bone loss during long-duration space flight on the International Space Station",
+      "authors": [
+        "SR Zwart",
+        "JL Morgan",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Nutritional status assessment before, during, and after long-duration head-down bed rest",
+      "authors": [
+        "SR Zwart",
+        "SA Oliver",
+        "JV Fesperman",
+        "G Kala",
+        "J Krauhs",
+        "K Ericson",
+        "SM Smith"
+      ]
+    }
+  ],
+  "original_title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/c0ba5d25da39/nihms-1645808-f0001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/9549992fd48c/nihms-1645808-f0002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/ee5368e23a40/nihms-1645808-f0003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/cd4204e7354b/nihms-1645808-f0004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/58da22128f8f/nihms-1645808-f0007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/783aa8886cae/nihms-1645808-f0005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/4e2ca3a510b0/nihms-1645808-f0006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8fbd/7870178/e09fd1438882/nihms-1645808-f0008.jpg"
+  ]
+}

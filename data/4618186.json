@@ -1,0 +1,570 @@
+{
+  "pmcid": "4618186",
+  "title": "Unfolded protein response in plants: one master, many questions",
+  "abstract": "To overcome endoplasmic reticulum (ER) stress, ER-localized stress sensors actuate distinct downstream organelle-nucleus signaling pathways to invoke a cytoprotective response, known as the unfolded protein response (UPR). Compared to yeast and metazoans, plant UPR studies are more recent but nevertheless fascinating. Here we discuss recent discoveries in plant UPR, highlight conserved and unique features of the plant UPR as well as critical yet-open questions whose answers will likely make significant contributions to the understanding plant ER stress management.",
+  "introduction": "Introduction\n\nIn growth and stress situations, cell homeostasis depends on the functional integrity of the major biosynthetic organelle, the ER, which synthesizes one third of the cellular proteome and essential lipids, and assembles complex-protein associated carbohydrates. When the cell's biosynthetic demands overcome the ER biosynthetic capacity, a potentially lethal condition, known as ER stress, is initiated. In multicellular eukaryotes if the UPR fails, ER stress-induced apoptosis occurs. Along eukaryotic lineages, specialized sensors have evolved to manage the UPR and control life-or-death outcomes in ER-stress conditions. For ER-stress protection, yeast relies exclusively on the ER-associated ribonuclease and kinase IRE1. Plants and metazoans have evolved a complex signaling network based on membrane-tethered transcription factors (MTTFs) (Box 1), some of which are plant-specific (Figure 1). In metazoans, the ER-associated PERK also operates in UPR signaling (Box 1). Although PERK-like activity has been detected is plants, plant PERK-like proteins have not been identified yet (Box 1).\n\nHow the sensors input stress to modulate an effective output in life-or-death decisions is largely unknown, especially in plants. Here we discuss plant UPR strategies that recent exciting results have brought to light in support of convergence of signaling strategies among multicellular eukaryotes as well as plant-specific features of the UPR.\n\nDiversification of IRE1 signaling in the UPR: activation of a transcription factor\n\nPlants encode one or more IRE1 isoforms (Figure 1a). IRE1-mediated splicing of a transcription factor (TF) mRNA is a conserved strategy for UPR gene regulation (Figure 2). Among eukaryotes the IRE1-TF targets are members of the large bZIP-TF family: Hac1 in yeast and Xbp1 in metazoans. In flowering plants, AtbZIP60, Osb-ZIP74/50 and ZmbZIP60 are the targets identified in Arabidopsis thaliana (dicot), Oryza sativa and Zea mays (monocots), respectively (Figure 1b). The consensus mRNA structure that is recognized by IRE1 (i.e. twin-stem loops with conserved bases in each loop) is largely conserved across eukaryotes. The excised intron sequence is slightly different among monocots but conserved in dicots. However, there are noticeable differences in the splicing output among eukaryotes. In plants, the IRE1-mediated mRNA splicing causes an intron-excising frameshift that occurs closely upstream of the region encoding a putative transmembrane domain and leads to elimination of the membrane anchor in the translated active TF. In metazoans, the IRE1-spliced Xbp1 loses the ER membrane anchor and gains the TF domain located in the new C-terminal tail. In yeast, the splicing of Hac1 mRNA is followed by transcriptional joint of the DNA-binding domain to the newly encoded TF transcription activation domain. The lack of a close conservation of the sequence of the mature TFs and the diversification of the splicing outputs among eukaryotes support that, despite IRE1 being an ancient sensor, IRE1-TF targets may have evolved independently. Under this light, the notion that Hac1 and Xbp1 are the sole direct TF targets of IRE1 may not apply in plants where IRE1 may have other direct TF targets that may fine-tune IRE1 signaling in the UPR management in specific stress situations. This possibility is predicated by the evidence that even in the simultaneous absence of the Arabidopsis ER-stress activated TFs (AtbZIP28 and AtbZIP60), one of the major UPR gene markers, AtBiP3 is mildly induced in conditions of ER stress.\n\nDiversification of IRE1 signaling in the UPR: RIDD\n\nIn addition to TF-mRNA splicing, metazoan IRE1 degrades mRNAs through a site-specific cleavage process, known as regulated IRE1-dependent decay (RIDD), which is uncoupled from the site-specific splicing activity of IRE1. RIDD activity is required for ER homeostasis in non ER-stress conditions and increases progressively with ER-stress intensity. RIDD also occurs in Arabidopsis, but its physiological relevance without ER-stress induction is yet to be defined. In normal conditions of growth, loss of AtIRE1 function causes defects in root elongation, independently of Atb-ZIP60. It is possible therefore that in the absence of induced ER stress RIDD may be important to maintain growth homeostasis in specific plant organs by controlling the levels of mRNA of proteins involved in cell growth.\n\nDiversification of IRE1 signaling in the UPR: miRNA cleavage\n\nIn mammalian cells, IRE1 also cleaves sequences of specific miRNAs. miRNAs operate to translationally repress gene expression. Whether plant IRE1 has a similar control of miRNA levels is yet unknown. Selective miRNA cleavage could be a strategy to either overcome stress, modulate tissue growth, or both. Addressing this question may lead to new insights into the functions of plant IRE1, and to establishing whether IRE1 activity is conserved among eukaryotes. Indeed the findings that loss of IRE1 is lethal in conditions of prolonged ER stress support a function as ER-stress protector. The recent evidence that the mammalian IRE1 may not activate caspases to induce cell death in prolonged ER stress, contrarily to a previous notion, but rather delay the onset of apoptosis via decay of the pro-apoptotic Death Receptor 5 (DR5), poses that plant and animal IRE1s may be functionally close in protecting the organism from death.\n\nHow may multiple IRE1 help plants in stress defense?\n\nAn intriguing question relates to the diversification of the ER-stress sensors in plants both qualitatively and quantitatively. In Arabidopsis there are two IRE1 isoforms, AtIRE1a and AtIRE1b. Whether IRE1 isoforms may be functionally equivalent is a matter of debate. Both genes are expressed throughout the plant, but AtIRE1a is more abundant in embryos and seeds. It has been proposed that unlikely AtIRE1a, AtIRE1b is relevant to AtbZIP60 splicing in conditions of DTT-induced stress, supporting the possibility of functional diversification of AtIRE1 proteins. This is further reinforced by the observations that while AtIRE1b has a preponderant role in AtbZIP60 splicing upon tunicamycin-induced ER-stress, AtIRE1a seems preferentially required for AtbZIP60 splicing upon pathogen and salicylic acid (SA) infection. Although functional diversification of the SA response has been recently questioned, the evidence that AtIRE1b but not AtIRE1a is required for AtbZIP60 splicing supports that AtIRE1 proteins may have undergone functional specialization. These observations raise the question how the multiple IRE1-functions may be executed in species with one IRE1 isoform. The observation that in Arabidopsis AtIRE1b but not AtbZIP60 is required for ER stress-induced autophagy hints to the possibility that, in species containing only one IRE1 gene, some of the IRE1-roles may be executed by other proteins. Nonetheless the evidence in Arabidopsis that in induced-stress conditions, unlike a double atire1a/atire1b mutant, single IRE1 loss-of-function mutants survive prolonged ER stress supports that at least the pro-survival role of AtIRE1 is shared by the two proteins. Whether the roles of the IRE1 isoforms are spatially and/or temporally regulated is yet to be established. It is possible that in certain tissues IRE1 may have a specific relevance and other ER stress sensors might operate predominately in other tissues.\n\nHow may multiple bZIPs help plants in stress defense?\n\nLoss of either AtbZIP60 or AtbZIP28 (Box 1) attenuates the expression of some common transcriptional targets such as BiP3 and calnexin, an effect that is additive when both genes are simultaneously deleted. This evidence supports overlapping functions of these two TFs for which a precise extent of overlap is yet to be completely understood both at a temporal resolution as well as target identity. Specifically, it is yet to be defined whether at the onset of ER stress, activation of AtbZIP28 and AtbZIP60 occurs simultaneously or sequentially. One may predict that mild stress might be resolved by the function of one of the two TFs and that the activation of the other TF may be actuated in situations of unresolved ER stress to potentiate an ER stress-mitigating response. It is also known however that activation of bZIP-TFs may lead to responses that are qualitatively distinct. For example, in conditions of salt stress, AtbZIP17 modulates only the expression of BiP3 among the known ER stress markers, which, on the other hand, is controlled by both AtbZIP28 and AtbZIP60 in conditions of ER stress induced by heat or by drugs such as tunicamycin and DTT. Furthermore, heat, tunicamycin and DTT but not salt stress can induce activation of AtbZIP60 and AtbZIP28, and a role of AtIRE1-AtbZIP60 but not AtbZIP28 has been demonstrated in virus-plant interactions. These findings support that plant stress response relies on functional specialization of the UPR effectors for which the underlying mechanisms remain poorly understood. In this view the UPR sensors might be specialized in perceiving specific classes of unfolded proteins, which may be more sensitive than others to specific stresses.\n\nRequirements for the UPR sensors\n\nIn yeast and metazoans, a model has emerged that the binding of unfolded proteins to IRE1 dimers allows further oligomerization and trigger the IRE1 activation, while the BiP binding to IRE1 may have a modulatory role in buffering the pool of IRE1 monomers. In plants the mechanisms of activation of IRE1 are largely unknown. Nonetheless, binding to AtBiP is a mechanism that constrains AtbZIP28 to the ER and therefore modulates AtbZIP28 traffic to the Golgi for activation. Such a mechanism, which is similar to the activation mechanism of ATF6 could suggest also conservation of IRE1 activation. Similarly, AtbZIP17 may be retained in the ER via interactions with other proteins that specifically respond to salt stress. One alternative that cannot be excluded is that one branch of the UPR may be activated as consequence to the operation of another ER-stress response, such as production of radicals or unfolded proteins, which could lead to the activation of other ER stress defenses.\n\nInteraction with unfolded proteins might not be the only upstream requirement for plant IRE1 activation. Functional and genetic evidence have shown that the ER-shaping protein AtRHD3 is a critical factor that acts upstream of AtIRE1 in the AtbZIP60 splicing in conditions of ER stress, but the underlying causes are not known. In conditions of ER stress yeast and metazoan IRE1s are known to cluster in ER subdomains where stress signaling is believed to occur. In the absence of induced ER stress, fluorescent protein fusions to plant IRE1s have been localized to the perinuclear ER. It is possible that, if plant IRE1 is also mobilized into signaling clusters in ER-stress conditions, then alteration of the ER network structure or lipid composition, known to occur with RHD3 deletions, may affect mobilization of plant IRE1 into signaling hubs.\n\nBesides factors acting upstream the UPR sensors in plants, we know very little about downstream regulating factors. Unlike metazoan IRE1, which is known to interact with multiple proteins which may or may not regulate its function, the identity of plant IRE1-interacting proteins is still unknown. The situation is markedly different for the bZIP-TFs. In vitro AtbZIP28 can homodimerize but also heterodimerize with AtbZIP60, Atb-ZIP49 or AtbZIP17. Validation of these findings in vivo coupled with functional analyses may provide insights into the relevance of the TF interactions in the UPR. AtbZIP28 has also been found to interact with NF-Y subunits to form a transcriptional complex that upregulates the expression of ER stress-induced genes. Furthermore, AtbZIP28 and AtbZIP60 interact with AtAsh2 and AtWDR5a, which are core components of the COMPASS-like complex that regulates gene expression through histone H3K4 trimethylation. These findings support that the protein-protein interactions of the UPR bZIP-TFs may have important roles in the regulation of gene expression and that a diversification of such interactions may be needed to modulate responsive outputs that are different both at quantitative and qualitative levels. One critical yet unanswered question is how the activated sensors are restored to basal levels once the ER stress is resolved. In other words, how is the plant UPR tamed once ER homeostasis is obtained?",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "IRE1: ER stress sensor and cell fate executor",
+      "authors": [
+        "Y Chen",
+        "F Brandizzi"
+      ]
+    },
+    {
+      "title": "The unfolded protein response: from stress pathway to homeostatic regulation",
+      "authors": [
+        "P Walter",
+        "D Ron"
+      ]
+    },
+    {
+      "title": "SPIKE1 signals originate from and assemble specialized domains of the endoplasmic reticulum",
+      "authors": [
+        "C Zhang",
+        "SO Kotchoni",
+        "AL Samuels",
+        "DB Szymanski"
+      ]
+    },
+    {
+      "title": "Heat induces the splicing by IRE1 of a mRNA encoding a transcription factor involved in the unfolded protein response in Arabidopsis",
+      "authors": [
+        "Y Deng",
+        "S Humbert",
+        "JX Liu",
+        "R Srivastava",
+        "SJ Rothstein",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "IRE1/bZIP60-mediated unfolded protein response plays distinct roles in plant immunity and abiotic stress responses",
+      "authors": [
+        "AA Moreno",
+        "MS Mukhtar",
+        "F Blanco",
+        "JL Boatwright",
+        "I Moreno",
+        "MR Jordan",
+        "Y Chen",
+        "F Brandizzi",
+        "X Dong",
+        "A Orellana"
+      ]
+    },
+    {
+      "title": "Arabidopsis IRE1 catalyses unconventional splicing of bZIP60 mRNA to produce the active transcription factor",
+      "authors": [
+        "Y Nagashima",
+        "K Mishiba",
+        "E Suzuki",
+        "Y Shimada",
+        "Y Iwata",
+        "N Koizumi"
+      ]
+    },
+    {
+      "title": "Signal transduction by IRE1-mediated splicing of bZIP50 and other stress sensors in the endoplasmic reticulum stress response of rice",
+      "authors": [
+        "S Hayashi",
+        "Y Wakasa",
+        "H Takahashi",
+        "T Kawakatsu",
+        "F Takaiwa"
+      ]
+    },
+    {
+      "title": "ZmbZIP60 mRNA is spliced in maize in response to ER stress",
+      "authors": [
+        "Y Li",
+        "S Humbert",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "Conservation of IRE1-regulated bZIP74 mRNA unconventional splicing in rice (Oryza sativa L.) involved in ER stress responses",
+      "authors": [
+        "SJ Lu",
+        "ZT Yang",
+        "L Sun",
+        "L Sun",
+        "ZT Song",
+        "JX Liu"
+      ]
+    },
+    {
+      "title": "XBP1 mRNA is induced by ATF6 and spliced by IRE1 in response to ER stress to produce a highly active transcription factor",
+      "authors": [
+        "H Yoshida",
+        "T Matsui",
+        "A Yamamoto",
+        "T Okada",
+        "K Mori"
+      ]
+    },
+    {
+      "title": "Signal peptide peptidase functions in ERAD to cleave the unfolded protein response regulator XBP1u",
+      "authors": [
+        "CY Chen",
+        "NS Malchus",
+        "B Hehn",
+        "W Stelzer",
+        "D Avci",
+        "D Langosch",
+        "MK Lemberg"
+      ]
+    },
+    {
+      "title": "mRNA splicing-mediated C-terminal replacement of transcription factor Hac1p is required for efficient activation of the unfolded protein response",
+      "authors": [
+        "K Mori",
+        "N Ogawa",
+        "T Kawahara",
+        "H Yanagi",
+        "T Yura"
+      ]
+    },
+    {
+      "title": "Transcription factor interaction with COMPASS-like complex regulates histone H3K4 trimethylation for specific gene expression in plants",
+      "authors": [
+        "ZT Song",
+        "L Sun",
+        "SJ Lu",
+        "Y Tian",
+        "Y Ding",
+        "JX Liu"
+      ]
+    },
+    {
+      "title": "Regulated Ire1-dependent decay of messenger RNAs in mammalian cells",
+      "authors": [
+        "J Hollien",
+        "JH Lin",
+        "H Li",
+        "N Stevens",
+        "P Walter",
+        "JS Weissman"
+      ]
+    },
+    {
+      "title": "Ire1 has distinct catalytic mechanisms for XBP1/HAC1 splicing and RIDD",
+      "authors": [
+        "AB Tam",
+        "AC Koong",
+        "M Niwa"
+      ]
+    },
+    {
+      "title": "Defects in IRE1 enhance cell death and fail to degrade mRNAs encoding secretory pathway proteins in the Arabidopsis unfolded protein response",
+      "authors": [
+        "K Mishiba",
+        "Y Nagashima",
+        "E Suzuki",
+        "N Hayashi",
+        "Y Ogata",
+        "Y Shimada",
+        "N Koizumi"
+      ]
+    },
+    {
+      "title": "AtIRE1A/AtIRE1B and AGB1 independently control two essential unfolded protein response pathways in Arabidopsis",
+      "authors": [
+        "Y Chen",
+        "F Brandizzi"
+      ]
+    },
+    {
+      "title": "Protein kinase and ribonuclease domains of IRE1 confer stress tolerance, vegetative growth, and reproductive development in Arabidopsis",
+      "authors": [
+        "Y Deng",
+        "R Srivastava",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "IRE1alpha cleaves select microRNAs during ER stress to derepress translation of proapoptotic Caspase-2",
+      "authors": [
+        "JP Upton",
+        "L Wang",
+        "D Han",
+        "ES Wang",
+        "NE Huskey",
+        "L Lim",
+        "M Truitt",
+        "MT McManus",
+        "D Ruggero",
+        "A Goga"
+      ]
+    },
+    {
+      "title": "Regulation of miRNA strand selection: follow the leader?",
+      "authors": [
+        "HA Meijer",
+        "EM Smith",
+        "M Bushell"
+      ]
+    },
+    {
+      "title": "Cell death. Opposing unfolded-protein-response signals converge on death receptor 5 to control apoptosis",
+      "authors": [
+        "M Lu",
+        "DA Lawrence",
+        "S Marsters",
+        "D Acosta-Alvear",
+        "P Kimmig",
+        "AS Mendez",
+        "AW Paton",
+        "JC Paton",
+        "P Walter",
+        "A Ashkenazi"
+      ]
+    },
+    {
+      "title": "Molecular characterization of two Arabidopsis Ire1 homologs, endoplasmic reticulum-located transmembrane protein kinases",
+      "authors": [
+        "N Koizumi",
+        "IM Martinez",
+        "Y Kimata",
+        "K Kohno",
+        "H Sano",
+        "MJ Chrispeels"
+      ]
+    },
+    {
+      "title": "Characterization of two homologs of Ire1p, a kinase/endoribonuclease in yeast, in Arabidopsis thaliana",
+      "authors": [
+        "SJ Noh",
+        "CS Kwon",
+        "WI Chung"
+      ]
+    },
+    {
+      "title": "Exogenous salicylic acid activates two signaling arms of the unfolded protein response in Arabidopsis",
+      "authors": [
+        "Y Nagashima",
+        "Y Iwata",
+        "M Ashida",
+        "K Mishiba",
+        "N Koizumi"
+      ]
+    },
+    {
+      "title": "Degradation of the endoplasmic reticulum by autophagy during endoplasmic reticulum stress in Arabidopsis",
+      "authors": [
+        "Y Liu",
+        "JS Burgos",
+        "Y Deng",
+        "R Srivastava",
+        "SH Howell",
+        "DC Bassham"
+      ]
+    },
+    {
+      "title": "The plant-specific transcription factor gene NAC103 is induced by bZIP60 through a new cis-regulatory element to modulate the unfolded protein response in Arabidopsis",
+      "authors": [
+        "L Sun",
+        "ZT Yang",
+        "ZT Song",
+        "MJ Wang",
+        "L Sun",
+        "SJ Lu",
+        "JX Liu"
+      ]
+    },
+    {
+      "title": "bZIP17 and bZIP60 regulate the expression of BiP3 and other salt stress responsive genes in an UPR-independent manner in Arabidopsis thaliana",
+      "authors": [
+        "C Henriquez-Valencia",
+        "AA Moreno",
+        "O Sandoval-Ibanez",
+        "I Mitina",
+        "F Blanco-Herrera",
+        "N Cifuentes-Esquivel",
+        "A Orellana"
+      ]
+    },
+    {
+      "title": "The UPR branch IRE1-bZIP60 in plants plays an essential role in viral infection and is complementary to the only UPR pathway in yeast",
+      "authors": [
+        "L Zhang",
+        "H Chen",
+        "F Brandizzi",
+        "J Verchot",
+        "A Wang"
+      ]
+    },
+    {
+      "title": "Unfolded proteins are Ire1-activating ligands that directly induce the unfolded protein response",
+      "authors": [
+        "BM Gardner",
+        "P Walter"
+      ]
+    },
+    {
+      "title": "BINDING PROTEIN is a master regulator of the endoplasmic reticulum stress sensor/transducer bZIP28 in Arabidopsis",
+      "authors": [
+        "R Srivastava",
+        "Y Deng",
+        "S Shah",
+        "AG Rao",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "ER stress regulation of ATF6 localization by dissociation of BiP/GRP78 binding and unmasking of Golgi localization signals",
+      "authors": [
+        "J Shen",
+        "X Chen",
+        "L Hendershot",
+        "R Prywes"
+      ]
+    },
+    {
+      "title": "ER stress signaling requires RHD3, a functionally conserved ER-shaping GTPase",
+      "authors": [
+        "YS Lai",
+        "G Stefano",
+        "F Brandizzi"
+      ]
+    },
+    {
+      "title": "In Arabidopsis, the spatial and dynamic organization of the endoplasmic reticulum and Golgi apparatus is influenced by the integrity of the C-terminal domain of RHD3, a non-essential GTPase",
+      "authors": [
+        "G Stefano",
+        "L Renna",
+        "T Moss",
+        "JA McNew",
+        "F Brandizzi"
+      ]
+    },
+    {
+      "title": "Phospholipid biosynthesis increases in RHD3-defective mutants",
+      "authors": [
+        "L Maneta-Peyret",
+        "YS Lai",
+        "G Stefano",
+        "L Fouillen",
+        "F Brandizzi",
+        "P Moreau"
+      ]
+    },
+    {
+      "title": "Modulating stress responses by the UPRosome: a matter of life and death",
+      "authors": [
+        "U Woehlbier",
+        "C Hetz"
+      ]
+    },
+    {
+      "title": "bZIP28 and NF-Y transcription factors are activated by ER stress and assemble into a transcriptional complex to regulate stress response genes in Arabidopsis",
+      "authors": [
+        "JX Liu",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "Inter-regulation of the unfolded protein response and auxin signaling",
+      "authors": [
+        "Y Chen",
+        "K Aung",
+        "J Rolcik",
+        "K Walicki",
+        "J Friml",
+        "F Brandizzi"
+      ]
+    },
+    {
+      "title": "Signaling from the endoplasmic reticulum activates brassinosteroid signaling and promotes acclimation to stress in Arabidopsis",
+      "authors": [
+        "P Che",
+        "JD Bussell",
+        "W Zhou",
+        "GM Estavillo",
+        "BJ Pogson",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Functional integration between defence and IRE1-mediated ER stress response in rice",
+      "authors": [
+        "S Hayashi",
+        "Y Wakasa",
+        "F Takaiwa"
+      ]
+    },
+    {
+      "title": "Salt stress responses in Arabidopsis utilize a signal transduction pathway related to endoplasmic reticulum stress signaling",
+      "authors": [
+        "JX Liu",
+        "R Srivastava",
+        "P Che",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "Effect of overexpression of kinase- or RNase-deficient OsIRE1 on the endoplasmic reticulum stress response in transgenic rice plants",
+      "authors": [
+        "Y Wakasa",
+        "S Hayashi",
+        "F Takaiwa"
+      ]
+    },
+    {
+      "title": "Overexpression of BiP in tobacco alleviates endoplasmic reticulum stress",
+      "authors": [
+        "N Leborgne-Castel",
+        "EP Jelitto-Van Dooren",
+        "AJ Crofts",
+        "J Denecke"
+      ]
+    },
+    {
+      "title": "The endoplasmic reticulum binding protein BiP displays dual function in modulating cell death events",
+      "authors": [
+        "HH Carvalho",
+        "PA Silva",
+        "GC Mendes",
+        "OJ Brustolini",
+        "MR Pimenta",
+        "BC Gouveia",
+        "MA Valente",
+        "HJ Ramos",
+        "JR Soares-Ramos",
+        "EP Fontes"
+      ]
+    },
+    {
+      "title": "A membrane-tethered transcription factor defines a branch of the heat stress response in Arabidopsis thaliana",
+      "authors": [
+        "H Gao",
+        "F Brandizzi",
+        "C Benning",
+        "RM Larkin"
+      ]
+    },
+    {
+      "title": "An endoplasmic reticulum stress response in Arabidopsis is mediated by proteolytic processing and nuclear relocation of a membrane-associated transcription factor, bZIP28",
+      "authors": [
+        "JX Liu",
+        "R Srivastava",
+        "P Che",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "A rice transmembrane bZIP transcription factor, OsbZIP39, regulates the endoplasmic reticulum stress response",
+      "authors": [
+        "H Takahashi",
+        "T Kawakatsu",
+        "Y Wakasa",
+        "S Hayashi",
+        "F Takaiwa"
+      ]
+    },
+    {
+      "title": "Elements proximal to and within the transmembrane domain mediate the organelle-to-organelle movement of bZIP28 under ER stress conditions",
+      "authors": [
+        "R Srivastava",
+        "Y Chen",
+        "Y Deng",
+        "F Brandizzi",
+        "SH Howell"
+      ]
+    },
+    {
+      "title": "Site-1 protease cleavage site is important for the ER stress-induced activation of membrane-associated transcription factor bZIP28 in Arabidopsis",
+      "authors": [
+        "L Sun",
+        "SS Zhang",
+        "SJ Lu",
+        "JX Liu"
+      ]
+    },
+    {
+      "title": "Perk is essential for translational regulation and cell survival during the unfolded protein response",
+      "authors": [
+        "HP Harding",
+        "Y Zhang",
+        "A Bertolotti",
+        "H Zeng",
+        "D Ron"
+      ]
+    },
+    {
+      "title": "A SPIKE1 signaling complex controls actin-dependent cell morphogenesis through the heteromeric WAVE and ARP2/3 complexes",
+      "authors": [
+        "D Basu",
+        "J Le",
+        "T Zakharova",
+        "EL Mallery",
+        "DB Szymanski"
+      ]
+    },
+    {
+      "title": "MEGA6: Molecular Evolutionary Genetics Analysis version 6.0",
+      "authors": [
+        "K Tamura",
+        "G Stecher",
+        "D Peterson",
+        "A Filipski",
+        "S Kumar"
+      ]
+    },
+    {
+      "title": "The neighbor-joining method: a new method for reconstructing phylogenetic trees",
+      "authors": [
+        "N Saitou",
+        "M Nei"
+      ]
+    },
+    {
+      "title": "Heterotrimeric G protein signaling in the Arabidopsis unfolded protein response",
+      "authors": [
+        "S Wang",
+        "S Narendra",
+        "N Fedoroff"
+      ]
+    },
+    {
+      "title": "A plasma membrane-tethered transcription factor, NAC062/ANAC062/NTL6, mediates the unfolded protein response in Arabidopsis",
+      "authors": [
+        "ZT Yang",
+        "SJ Lu",
+        "MJ Wang",
+        "DL Bi",
+        "L Sun",
+        "SF Zhou",
+        "ZT Song",
+        "JX Liu"
+      ]
+    },
+    {
+      "title": "The membrane-associated transcription factor NAC089 controls ER-stress-induced programmed cell death in plants",
+      "authors": [
+        "ZT Yang",
+        "MJ Wang",
+        "L Sun",
+        "SJ Lu",
+        "DL Bi",
+        "L Sun",
+        "ZT Song",
+        "SS Zhang",
+        "SF Zhou",
+        "JX Liu"
+      ]
+    }
+  ],
+  "original_title": "Unfolded protein response in plants: one master, many questions.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/afb4/4618186/60cbc02c527c/nihms707589f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/afb4/4618186/b54d273f035d/nihms707589f2.jpg"
+  ]
+}

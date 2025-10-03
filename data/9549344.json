@@ -1,0 +1,692 @@
+{
+  "pmcid": "9549344",
+  "title": "A Region of UNC-89 (obscurin) Lying Between Two Protein Kinase Domains is a Highly Elastic Spring Required for Proper Sarcomere Organization",
+  "abstract": "In C. elegans, unc-89 encodes a set of giant multi-domain proteins (up 8,081 residues) localized to the M-lines of muscle sarcomeres and required for normal sarcomere organization and whole-animal locomotion. Multiple UNC-89 isoforms contain two protein kinase domains. There is conservation in arrangement of domains between UNC-89 and its two mammalian homologs, obscurin and SPEG: kinase, a non-domain region of 647–742 residues, Ig domain, Fn3 domain and a second kinase domain. In all three proteins, this non-domain “interkinase region” has low sequence complexity, high proline content and lacks predicted secondary structure. We report that a major portion of this interkinase (571 residues out of 647 residues) when examined by single molecule force spectroscopy in vitro displays the properties of a random coil and acts as an entropic spring. We used CRISPR/Cas9 to create nematodes carrying an in-frame deletion of the same 571-residue portion of the interkinase. These animals display severe disorganization of all portions of the sarcomere in body wall muscle. Super-resolution microscopy reveals extra, short-A-bands lying close to the outer muscle cell membrane and between normally spaced A-bands. Nematodes with this in-frame deletion show defective locomotion and muscle force generation. We designed our CRISPR-generated in-frame deletion to contain an HA tag at the N-terminus of the large UNC-89 isoforms. This HA tag results in normal organization of body wall muscle, but approximately half the normal levels of the giant UNC-89 isoforms, dis-organization of pharyngeal muscle, small body size, and reduced muscle force, likely due to poor nutritional uptake.",
+  "introduction": "Introduction\n\nC. elegans UNC-89 is the founding member of the UNC-89/obscurin family of giant muscle proteins. Loss-of-function mutations in the C. elegans gene unc-89 result in slow moving worms with disorganized muscle sarcomeres, including a lack of M-lines. unc-89 is a complex gene: through the use of three promoters and alternative splicing at least 16 polypeptides are generated, ranging in size from 156,000 to 900,000 Da. Overlapping sets of isoforms are expressed in body wall muscle, pharyngeal muscle (for pumping in and grinding up bacterial food), egg laying and intestinal muscles, and several gonadal epithelial cells. The largest of these isoforms, UNC-89-B and UNC-89-F, consist of 53 Ig domains, two Fn3 domains, a triplet of SH3, DH and PH domains near their N-termini, and two protein kinase domains (PK1 and PK2) near their C termini. Antibodies localize UNC-89 to the M-line. To learn how UNC-89 is localized and performs its functions, our lab has systematically identified its binding partners. We have screened a yeast two hybrid library with segments representing the largest UNC-89 isoform and identified at least 7 interacting partners, and 6/7 have orthologs or homologs in humans. Interactions have been verified by a combination of demonstrating binding in vitro using purified recombinant proteins, co-immunolocalization, and identifying muscle mutant phenotypes.\n\nMammalian striated muscle express three UNC-89-like proteins from separate genes, obscurin (OBSC), obscurin-like 1 (obsl1) and striated muscle preferentially expressed gene (SPEG). UNC-89 is most similar to obscurin, which also expresses many isoforms, including giant isoforms (obscurin A), and shorter isoforms with 2 protein kinase domains. Although UNC-89 is located only at the M-line, various obscurin isoforms are located at either the M-line, or the Z-disk. Mutations in the human OBSC gene result in cardiomyopathies (HCM, DCM, LVNC). In addition to serving as a platform for assembly of M-line proteins, obscurin links myofibrils to the sarcoplasmic reticulum (SR). The C-terminus of obscurin interacts with an ankyrin localized to the SR. The obscurin KO mouse has normal myofibril organization but disorganized SR. This myofibril to SR linkage is conserved in nematode UNC-89. Obsl1 is an ~200 kDa protein consisting solely of 20 tandem Ig domains, and in heart muscle is localized to M-lines, Z-disks and intercalated disks. Several portions interact with titin and myomesin at the M-line. However, obsl1 is ubiquitously expressed, global KO is embryonic lethal and mutations in the human Obsl1 gene result in a growth defect (3M-growth syndrome). SPEG also exists as different sized isoforms, but the largest isoform is 3,267 aa and consists of 9 Ig and 2 Fn3 domains, and 2 protein kinase domains. It can be regarded as similar to the C-terminal tandem kinase domain regions of obscurin and UNC-89. SPEG is located in a complex lying between the SR and plasma membrane (JMC) in cardiomyocytes. In the mouse, cardiac-specific KO results in DCM, whereas mutations in human SPEG result in centronuclear myopathy with DCM. The in vivo substrates for the kinase domains of UNC-89, obscurin and SPEG are not known. However, sequence analysis suggests that: (i) UNC-89 PK1 is catalytically inactive, whereas PK2 is an active kinase; (ii) human obscurin PK1 and PK2 are both likely to be active kinases, and each has been shown to undergo autophosphorylation in vitro. Obscurin PK2 can phosphorylate N-cadherin in vitro. There is a suggestion that SPEG phosphorylates the JMC protein junctophilin 2.\n\nAs shown in Fig. 1A, UNC-89, obscurin and SPEG have an overall conservation in organization around the kinase domains: PK1, a non-domain region of 647–742 residues, Ig, Fn, and PK2. There is very little sequence homology amongst the non-domain or “interkinase” (IK) regions of these proteins (Supplemental Figure 1). However, these IK regions have in common, a low sequence complexity, high proline content (11.8—13.3%), and an overall paucity of predicted α-helix and β-strands, and thus are likely to be predominantly random coils. These properties of the IK regions are shared with the known highly elastic spring regions of human titin (PEVK and N2A/B). In this paper, we describe, for nematode UNC-89, the response of the interkinase to mechanical pulling and the phenotype of worms in which the interkinase has been deleted in-frame. This is the first time the function of this region has been explored for any member of the UNC-89/obscurin family.",
+  "methods": "Materials and Methods\n\nRecombinant protein production\n\nA cDNA encoding a 571 amino acid portion of the interkinase region of UNC-89, IYDYLRIQ…ADIEKVTP (residues 6945—7515 in UNC-89b) was synthesized using E. coli optimal codons and cloned into pUC57 by GenScript USA,. Inc. (Piscataway, New Jersey). This plasmid was digested with SpeI and SacI, and the insert was cloned into “I27 plasmid shuffled codons (003)”, in order to express a fusion protein consisting of 6xHis-I27-I27-UNC-89 IK 571 aa—I27-I27. (I27 is the human titin Ig27 domain.) The resulting plasmid was transformed into E. coli BL21 (DE3) and the fusion protein was expressed at 20° for 5 hours after induction with 750 mM Isopropyl β-D-1-thiogalactopyranoside (IPTG). The 6xHis tagged fusion protein was purified with Ni-NTA Agarose (Qiagen), as described in. The buffer of the eluted protein was exchanged with PBS containing 10% glycerol.\n\nSingle-molecule force spectroscopy (SMFS) experiments\n\nPulling experiments using SMFS were carried out on a home-built single-molecule Atomic Force Spectrometer as previously described in the literature. In each experiment, we deposited 10 μL of the UNC-89 IK domain polyprotein solution (0.5 mg/mL) in PBS (pH 7.4) onto a Ni2+-NTA functionalized glass coverslip covered by 50 μL of PBS. We allowed the protein to adsorb onto the substrate for 10 minutes before pulling. The spring constant of each individual cantilever (MLCT, Bruker AFM Probes, Camarillo, CA) was determined experimentally by measuring the cantilever power spectrum and using the equipartition theorem at the beginning of each experiment. All measurements were done at a constant velocity of 500 nm/s in PBS solution at room temperature. A worm-like chain (WLC) model with a variable persistence length was fit to the first I27 peak to measure the contour-length (Lc) of the IK domain in the force extension data.\n\nCircular Dichroism\n\nThe far UV CD spectra of the protein constructs were recorded on a Jasco J-815 Spectrometer. The protein concentration was 1 μM in 30 mM phosphate buffer pH 7.4, 100 mM KCl, 1 mM MgCl2, 1mM TCEP buffer. A 0.1 cm path length cuvette was used.\n\nGeneration of CRISPR/Cas9 edited nematodes\n\nStrains PHX797 and PHX1257 were generated by SunyBiotech (http://www.sunybiotech.com) using CRISPR/Cas9 technology in the following ways. PHX797, unc-89(syb797), was created from wild type strain N2 to contain an HA tag at the N-terminus of the large UNC-89 isoforms, using sgRNAs with the following sequences: sg1: ccatcATGGCTAGTCGACGCCAAAAG, and sg2: cccaccttacccttaccatcATGG. PHX1257 unc-89(syb797syb1257) was created from PHX797 to contain a 4,614 bp in-frame deletion of the interkinase region, using sgRNAs with the following sequences: Sg1:CCTGTAGCACCGGAAGGTCGACG, Sg2:CCACCACCGACTGTGGAATACGT, Sg3:AACAGCAATTGAGAGAATTAAGG and Sg4:CCACAAAGAAGAATGATGATGGA. Sanger sequencing was used to verify the sequence alterations of each strain (Supplemental Figures 3 and 4). Both strains were outcrossed 5 times to wild type to remove most of the possible off target effects of CRISPR/Cas9; PHX797 to GB312, and PHX1257 to GB313.\n\nAntibodies and western blots\n\nWe used the procedure of Hannak et al. to prepare total protein lysates from wild type, unc-89(syb797) and unc-89(syb797syb1257) animals. Equal amounts of total protein from these strains were separated by a 5% separating and 3% stacking Laemmli SDS-PAGE gel, transferred to nitrocellulose membrane for 2 hours and reacted with anti-UNC-89 EU30 affinity-purified rabbit polyclonal antibodies at 1:100 dilution, or with anti-HA antibodies (rabbit monoclonal antibody C29F4 from Cell Signaling Technology) at 1:100 dilution, followed by reaction with anti-mouse Ig-horseradish peroxidase, and ECL. For the EU30 antibody we used Pierce ECL Western Blotting Substrate (cat. no. 32106 from Thermo Scientific), but for the anti-HA antibody we needed the increased sensitivity of SuperSignal West Pico Chemiluminescent Substrate (cat. no. 34080, from Thermo Scientific). We found that using freshly prepared or freshly purchased acrylamide solutions (e.g. ProtoGel, cat. No. EC-890 from National Diagnostics) was absolutely essential to prevent horrible streaking of the protein bands.\n\nImmunofluorescence microscopy\n\nAdult worms were fixed as described previously. For body wall muscle staining, these primary antibodies were used at the following dilutions: anti-myosin heavy chain A (MHC A; mouse monoclonal 5–6) at 1:200; anti-UNC-89 (mouse monoclonal MH42) at 1:100; anti-UNC-95 (rabbit polyclonal Benian-13) at 1:200; and anti-ATN-1 (α-actinin; MH35) at 1:200. For pharyngeal muscle staining, the fixed worms were incubated with anti-UNC-89 (rabbit polyclonal EU30) at 1:100, and anti-myosin heavy chain C (MHC C; mouse monoclonal 9.2.1), at 1:50. MH35 antibodies were kindly provided by Dr. Pamela Hoppe (Western Michigan University). 5–6 and 9.2.1 antibodies were obtained from the Developmental Studies Hybridoma Bank, created by the NICHD of the NIH and maintained at The University of Iowa, Department of Biology, Iowa City, IA 52242. The secondary antibodies included anti-mouse IgG-Alexa 594 (Invitrogen A11032), and anti-rabbit IgG Alexa 488 (Invitrogen A21206), each at 1:200 dilution. Images shown in Figures 3–6, and the Supplemental Figure 5 were captured at room temperature with a Zeiss confocal system (LSM510) equipped with an Axiovert 100M microscope and an Apochromat ×63/1.4 numerical aperture oil objective. The color balances of the images were adjusted by using Adobe Photoshop. We examined the staining of at least 3 worms in each strain.\n\nSuper-resolution microscopy was performed with a Nikon N-SIM system in 3D structured illumination mode on an Eclipse Ti-E microscope equipped with a 100×/1.49 NA oil immersion objective, 488- and 561-nm solid-state lasers, and an EM-CCD camera (DU-897, Andor Technology). The color balances of the images were adjusted by using Adobe Photoshop (Adobe, San Jose, CA). A Z-series at 0.2 μm intervals was taken from the outer muscle cell membrane deeper into the muscle cell, as shown in Fig. 7.\n\nNematode locomotion assays\n\nSwimming Assay\n\nDay 2 adults from two, 6 cm NGM OP50 seeded plates were washed off the plates, washed free from bacteria and collected into M9 buffer such that the ratio of worms to buffer was 1:1. Two ml of M9 buffer was added to an unseeded 6 cm NGM plate where upon 5 μl of worm suspension was added to the center of the plate. Worms were allowed 5 minutes to adapt before a video recording of their swimming motions was made using a dissecting stereoscopic microscope fitted with a CMOS camera (Thorlabs). Ten, 10 second videos were recorded for each nematode strain from different sections of the plate, each video tracking the motion of ~10 worms. The video data was analyzed by Image J FIJI WrmTracker software to obtain body bends per second (BBPS) from a total of 48–83 individual worms for each strain. The resulting worm tracks for each animal were observed, with immobilized animals in addition to upper and lower range outliers being removed from BBPS values for each strain prior to the statistical analysis. The final values for each strain were compared to wild type and tested for statistical significance using a Student T-test.\n\nCrawling Assay\n\nDay 2 adults were harvested as above, except that all washing steps used M9 buffer containing 0.2 g/L gelatin. 5 μl of worm suspension was added to the center of a 6 cm unseeded NGM plate, and the excess liquid was removed. After 5 minutes for adaptation, worm crawling was recorded using the above-mentioned strategy for extraction of body bends per second (BBPS) from a total of 66–90 individual worms for each strain. The resulting values for each strain were compared to wild type and tested for statistical significance using a Student T-test.\n\nMeasurement of C. elegans muscle force using NemaFlex\n\nThe maximum exertable muscle force by C. elegans strains was measured using the NemaFlex technique as previously described. The technique is based on deflection of soft micropillars as the animals are crawling through the micropillar arena. The micropillar devices had pillars arranged in a square lattice with a pillar diameter of 44 μm and height of 87 μm. The gap between the pillars is 71 μm. Age synchronized day 1 adult animals were loaded individually in each chamber, and a 1-minute video was captured for each animal in a food-free environment at a temperature of 20 ± 1 °C. Imaging was performed in brightfield using a Nikon Ti-E microscope and Andor Zyla sCMOS 5.5 camera. Images were acquired at 5 frames per second with a 4x objective at a pixel resolution of 1.63 μm per pixel. Movies were then processed and analyzed for force values using our in-house-built image processing software (MATLAB, R2016a). Animal force measurements were calculated by identifying the maximal force exerted in each frame for an individual animal. We define the maximum exertable force f95 corresponding to the 95th percentile of these maximal forces. To account for differences in animal body diameter, we normalize f95 by the cube of animal body diameter. To compare muscle forces of mutants with wild-type animals, we take the ratio of this normalized maximum exertable force and denote it as fold change in muscle force. Statistical analysis was performed using Wilcoxon rank-sum test.\n\nPolarized light microscopy\n\nPolarized light images were captured with a Zeiss Axioskop microscope equipped with 20X/0.40 Pol strain-free objective and an AxioCam MRm digital camera and software (Carl Zeiss, Jena, Germany).",
+  "results": "Results\n\nTo examine the nature of the IK regions of UNC-89, obscurin and SPEG in greater detail, we used JPred to predict secondary structure. As shown in Supplemental Figure 2, and in Fig. 1B, there are only short stretches of α-helix (15, 9, 9, 11, 7 and 7 amino acids, from N- to C-terminus of IK), and even fewer and shorter instances of β-strands (3, 2, 3, 4 and 6 amino acids). Except for the 15-residue long region near the IK N-terminus, all the other instances of α-helices reside in the C-terminal one third of the IK sequence. These α-helices reside within the C-terminal 232 residues which is the minimal binding site determined for LIM-9 (FHL2), and thus may comprise an unrecognized or novel domain. Thus, the remaining sequence of UNC-89 IK, approximately, 475 residues, is random coil. As shown in Supplemental Figure 2 and Fig. 1B, obscurin and SPEG have even fewer predicted secondary structure elements, although like UNC-89, obscurin has a fairly long α-helix of 19 residues lying within the C-terminal 52 residues.\n\nGiven the nature of the amino acid sequence of the IK region of UNC-89, we wished to determine how it might respond to a mechanical pulling force using the single molecule force spectroscopy technique. To carry this out, we first expressed in E. coli 1 571 residue segment comprising the majority of the 645 residue interkinase region (IK) flanked on the N- and C-terminus by two copies of Ig27 from human titin. The response of Ig27 to pulling force is well documented and served as an internal control. In addition, the protein had a 6XHis tag at its N-terminus (Fig. 2A). After purification (Fig. 2B), the protein was allowed to attach to a glass surface coated with Ni2+-NTA to allow binding of the N-terminus of this polyprotein via its 6XHis tag. The stylus of the single-molecule force spectrometer was allowed to bind non-specifically and at random points along the polyprotein, and then pulling force was applied by moving the piezo-electric platform downward. A representative force curve of the mechanical unfolding of the polyprotein in which the stylus had attached to the C-terminus is shown in Fig. 2C. After a long and featureless trace without energy barriers, the typical unwinding of the 4 Ig domains is found. The statistical distribution of the contour length of the long featureless peak (Fig. 2D) shows that the mean contour is approximately 185 nm. This is a good match to the expected contour length of a fully unwound polypeptide of 571 amino acids, since the average length of an amino acid is 0.34 nm, i.e. 0.34 nm/aa × 571 aa = 194 nm. Based on this force curve and contour length, we can conclude that the IK has the mechanical properties of a random coil and behaves like an entropic spring.\n\nWe wished to determine the in vivo consequences of removing the IK from UNC-89. To do this, we used CRISPR/Cas9 to create an in-frame deletion of the same 571 residues that we explored with the single molecule method in vitro. However, to be able to monitor the expression of UNC-89 large isoforms in which the IK had been deleted we added an HA tag to the N-terminus of the large isoforms. We thought such tagged UNC-89 could also be used in future immunoprecipitation experiments to identify proteins in a complex with UNC-89. Animals expressing HA-UNC-89 large isoforms were obtained by CRISPR/Cas9, and the strain is designated unc-89(syb797). The proper fusion of a tag containing three consecutive HA sequences to the normal N-terminus of the large UNC-89 isoforms was verified by Sanger sequencing (Supplemental Figure 3). The presence of the HA tag on the large UNC-89 isoforms was verified by western blot (Fig. 3A). Moreover, the HA-UNC-89 proteins could be detected by confocal microscopy to be normally localized to the sarcomeric M-lines of body wall muscle (Fig. 3B). The HA tag also does not affect the organization of body wall muscle sarcomeres as assessed by confocal microscopy using phalloidin for I-bands, or antibodies to myosin heavy chain A for A-bands, UNC-89 for M-lines, UNC-95 for the bases of M-lines and dense bodies, or ATN-1 (α-actinin) for the major portion of dense bodies (Fig. 4). As shown later, this HA tag also does not affect whole animal locomotion. However, HA tag does reduce the abundance of the UNC-89 giant isoforms (see Fig. 3 and Fig. 5). With an n=2, the level of expression from unc-89(syb797) is 51.2% (standard deviation of 11%) of the level from wild type.\n\nNext, we used unc-89(syb797) as starting point to make an in-frame deletion of 571 residues of the IK by CRISPR/Cas9, and this strain is designated unc-89(syb797 syb1257). A schematic of the genomic region deleted is shown in Fig. 5a. Sanger sequencing was used to verify that the 4,614 bp genomic deletion resulted in an in-frame deletion of the unc-89 coding sequence (Supplemental Figure 4). Before characterizing either unc-89(syb797) or unc-89(syb797syb1257) strains further, each was outcrossed 5X to wild type, to remove most possible off-target effects of CRISPR/Cas9 gene editing.\n\nAs shown in Fig. 5B, the in-frame deletion of IK (in syb797syb1257), leads to expression of UNC-89 giant isoforms that can be detected with either antibodies to the N-terminal HA tag or our standard antibodies raised against epitopes in the middle of UNC-89. We had hoped to be able to use an antibody to PK2 to prove that the deletion is in-frame, however, two attempts to make such an antibody (in rabbits or rats) failed. Nevertheless, since the levels of large isoforms did not diminish below that shown with the HA tag (in syb797), it is likely that we achieved an in-frame deletion which does not destabilize the protein. We expected to observe slightly smaller giant isoforms from syb797syb1257 compared to wild type, but there seems to be no discernible difference (Fig. 5B). Although there are at least 14 predicted giant isoforms ranging from 5,000 to 8,081 residues each, we do not know the relative abundance of each of these giant isoforms. Deletion of 571 residues out of a total of 8,081 residues for the largest isoform would be only a decrease of 7% and may not be a difference detectable by the gel system used. However, as shown in Fig. 5C, the internal deletion of the IK of UNC-89 results in disorganization of M-lines in body wall muscle. This can be seen when either an established monoclonal for UNC-89, MH42, or anti-HA is used in immunostaining. In fact, the signals from each antibody overlap.\n\nTo assess the in vivo consequences of removing the IK, we examined the organization of body wall muscle sarcomeres in greater detail, and measured whole animal locomotion and force generation. To assess sarcomere organization of the IK deletion, we took the same strategy as we did to characterize the sarcomere organization of unc-89(syb797): immunolocalization of several proteins with known sarcomere locations using confocal microscopy. Deletion of IK (in mutant syb797syb1257) results in disorganization of sarcomeres in all substructures (Fig. 6). It is important to note however that in syb797syb1257, although the pattern of UNC-89 is disorganized (i.e. not parallel straight lines as in syb797 or wild type), UNC-89 is still detectable at high levels consistent with the western blot result. Note also that in syb797syb1257, the disorganization of UNC-89 appears quite similar to the pattern of disorganization of myosin heavy chain A (MHC A). This is not unexpected as thick filaments in nematode body wall muscle have differential localization of two myosin heavy chain isoforms, with MHC A in the middle, and MHC B in the major outer portions. Normally thick filaments are arranged parallel and in register, so that the M-line is the structure in the middle of the A-band, which contains MHC A, and where the thick filaments are crosslinked. Thus, when imaging C. elegans body wall muscle with light microscopy, the localization of MHC A and UNC-89 are nearly identical. Note that upon anti-UNC-95 staining, the bases of M-lines are often branched and can overlap the bases of dense bodies (Fig. 6, right inset). Overall, these results indicate that the IK is required for the proper organization of sarcomeres.\n\nWe examined the organization of MHC A and UNC-89, proxies for the middle of A-bands, at higher resolution using structured illumination microscopy (SIM). In Fig. 7 A and B, it is clear that the N-terminal HA tag on the large UNC-89 isoforms (in syb797) has no effect on the normal pattern of straight parallel A-bands. However, in-frame deletion of IK (in syb797syb1257), for both MHC A and UNC-89 immunostaining, it is evident that the A-bands are broken, and much of the parallel arrangement is missing. In addition, there appear to be extra, short A-bands (indicated by arrows in Fig. 7) that lie in the spaces between otherwise nearly normal A-bands. By capturing optical sections with an interval of 0.2 μm, we noticed that these partial A-bands lie mostly close to the outer cell membrane of the muscle cells. From top to bottom of Fig. 7A and B, images are shown from close to the outer muscle cell membrane to deeper into the cell. Note that the partial A-bands lie near the outer muscle cell but do not extend as deeply as normal A-bands.\n\nIn C. elegans, the body wall muscle is required for the animal to generate the forces required for its normal swimming, crawling and burrowing locomotion. Given the disorganization of sarcomeres in the body wall muscle of nematodes expressing large isoforms of UNC-89 with an in-frame deletion of the IK, we wondered if these animals would display defects in movement or in muscle force generation. First, because our strain with the IK deletion also contains an N-terminal HA tag, we measured locomotion in the strain with the HA tag alone, syb797. As shown in Fig. 8A and B, syb797 is not slower in swimming or crawling as compared to wild type. In fact, syb797 displays a statistically faster swimming than wild type. However, clearly, syb797syb1257, containing both an HA tag and IK deletion shows a 15% reduction in swimming and a 30% reduction in crawling (Fig. 8A and B). This decrease in swimming speed is comparable to that displayed by the canonical unc-89 allele e1460, but not as severe as that of alleles su75 or tm752 (Fig. 8A). The decrease in crawling of the IK deletion strain is not as severe as 3 of 4 other alleles tested (e1460, su75, tm752). In terms of muscle force exerted, as measured by the NemaFlex assay, all mutant alleles (including syb797 syb1257) except for tm752 are defective compared to wild type (Fig. 8C). Interestingly, syb797, which has an HA tag at the N-terminus of the large isoforms, shows no decrease in crawling, but an increase in swimming, and decreased ability to generate force. This phenotype of increased speed of swimming, no change or even increased speed of crawling, and yet decreased force, is shared with the allele ad539. unc-89(ad539), like syb797, has normally organized sarcomeres in body wall muscle, which likely accounts for lack of any decrease in swimming or crawling. (We first showed that unc-89(ad539) has normally organized sarcomeres by EM, but to verify this result we have immunostained its muscle with a variety of antibodies to sarcomeric proteins, and all of these are normally localized (Supplemental Figure 5)).\n\nIn C. elegans, the pharynx is a neuromuscular pump required for bringing bacterial food into the worm and grinding it up before its entry into the intestine. unc-89(ad539) was first isolated in a screen for mutants that show defective feeding behavior, and found to be an allele of unc-89 by complementation testing and 3 factor mapping; by polarized light microscopy the pharyngeal muscle was shown to have reduced birefringence and abnormal arcs in the terminal or posterior bulb. Based on this, and the similarity of ad539 with syb797, we examined the pharyngeal muscle structure of both these alleles, and additional alleles of unc-89 using polarized light microscopy (Fig. 9). As first noted by Waterston et al., in unc-89(e1460), instead of the radially oriented filaments observed in the posterior bulb of wild type, this mutant has longitudinally oriented filaments at the periphery of the bulb (indicated by yellow arrow in Fig. 9). In fact, all the unc-89 mutants that we imaged show this defect except for tm752, which shows normal pharyngeal muscle organization. Remarkably, syb797, with the HA tag, shows the same defect. However, ad539 shows not only the defect in the terminal bulb; it also shows a defect in the anterior bulb (blue arrows in Fig. 9). The only other unc-89 allele that shows both bulbs affected is su75.\n\nTo understand the pharyngeal muscle defect further, we examined the expression of UNC-89 protein in the pharynges of wild type, syb797 and ad539. This was done by co-immunostaining worms with antibodies to UNC-89 and to the pharyngeal myosin heavy chain MHC C. We have previously demonstrated that in wild type, UNC-89 is localized to the middle of thick filaments in pharyngeal muscle. As shown in Fig. 10, UNC-89 is localized to the middle of thick filaments throughout the pharynx. However, in syb797 there is no detectable expression of UNC-89 in the posterior bulb. In ad539 there is no observable expression of UNC-89 throughout the pharynx. Moreover, MHC C staining reveals that in both syb797 and ad539, there are abnormal accumulations of thick filaments at the periphery of the posterior bulb (indicated by yellow arrows in Fig. 10), corresponding to the arcs observed by polarized light. The expression defects in the mutants seem to correspond with the defects in pharyngeal muscle organization and indicate that UNC-89 is required for normal organization of sarcomeres in pharyngeal muscle.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "sarcomere",
+    "giant polypeptides",
+    "UNC-89",
+    "obscurin",
+    "C. elegans",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Mutants with altered muscle structure in C. elegans",
+      "authors": [
+        "RH Waterston",
+        "JN Thomson",
+        "S Brenner"
+      ]
+    },
+    {
+      "title": "The genetics and molecular biology of the titin/connectin-like proteins of invertebrates",
+      "authors": [
+        "GM Benian",
+        "A Ayme-Southgate",
+        "TL Tinley"
+      ]
+    },
+    {
+      "title": "Three new isoforms of C. elegans UNC-89 containing MLCK-like protein kinase domains",
+      "authors": [
+        "TM Small",
+        "KM Gernert",
+        "DB Flaherty",
+        "KB Mercer",
+        "M Borodovsky",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "The Caenorhabditis elegans gene unc-89, required for muscle M-line assembly, encodes a giant modular protein composed of Ig and signal transduction domains",
+      "authors": [
+        "GM Benian",
+        "TL Tinley",
+        "X Tang",
+        "M Borodovsky"
+      ]
+    },
+    {
+      "title": "Titin / connectin-related proteins in C. elegans: a review and new findings",
+      "authors": [
+        "TM Ferrara",
+        "DB Flaherty",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "Structural components of the nonstriated contractile apparatuses in the C. elegans gonadal myoepithelial sheath and their essential roles for ovulation",
+      "authors": [
+        "K Ono",
+        "R Yu",
+        "S Ono"
+      ]
+    },
+    {
+      "title": "A novel protein phosphatase is a binding partner for the protein kinase domains of UNC-89 (obscurin) in C. elegans",
+      "authors": [
+        "H Qadota",
+        "LA McGaha",
+        "KB Mercer",
+        "TJ Stark",
+        "TM Ferrara",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "The DH-PH region of the giant protein UNC-89 activates RHO-1 GTPase in C. elegans body wall muscle",
+      "authors": [
+        "H Qadota",
+        "A Blangy",
+        "G Xiong",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "A LIM-9 (FHL) / SCPL-1 (SCP) complex interacts with the C-terminal protein kinase regions of UNC-89 (obscurin) in C. elegans muscle",
+      "authors": [
+        "G Xiong",
+        "H Qadota",
+        "KB Mercer",
+        "LA McGaha",
+        "AF Oberhauser",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "UNC-89 (obscurin) binds to MEL-26, a BTB-domain protein, and affects the function of MEI-1 (katanin) in striated muscle of C. elegans",
+      "authors": [
+        "KJ Wilson",
+        "H Qadota",
+        "PE Mains",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "CPNA-1, a copine domain protein, is located at integrin adhesion sites and is required for myofilament stability in Caenorhabditis elegans",
+      "authors": [
+        "A Warner",
+        "G Xiong",
+        "H Qadota",
+        "T Rogalski",
+        "AW Vogl",
+        "DG Moerman",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "The SH3 domain of UNC-89 (obscurin) interacts with paramyosin, a coiled-coil protein, in Caenorhabditis elegans muscle",
+      "authors": [
+        "H Qadota",
+        "O Mayans",
+        "GM Benian",
+        "Y Matsunaga",
+        "JL McMurry",
+        "KJ Wilson",
+        "GE Kwon",
+        "R Stanford",
+        "K Deehan",
+        "TL Tinley",
+        "VM Ngwa"
+      ]
+    },
+    {
+      "title": "Protein phosphatase 2A is crucial for sarcomere organization in Caenorhabditis elegans striated muscle",
+      "authors": [
+        "H Qadota",
+        "Y Matsunaga",
+        "GM Benian",
+        "P Bagchi",
+        "KI Lange",
+        "KJ Carrier",
+        "WV Pols",
+        "E Swartzbaugh",
+        "KJ Wilson",
+        "M Srayko",
+        "DC Pallas"
+      ]
+    },
+    {
+      "title": "The complete gene sequence of titin, expression of an unusual approximately 700-kDa titin isoform, and its interaction with obscurin identify a novel Z-line to I-band linking system",
+      "authors": [
+        "ML Bang",
+        "T Centner",
+        "S Labeit",
+        "F Fornoff",
+        "AJ Geach",
+        "M Gotthardt",
+        "M McNabb",
+        "CC Witt",
+        "D Labeit",
+        "CC Gregorio",
+        "H Granzier"
+      ]
+    },
+    {
+      "title": "Obscurin, a giant sarcomeric Rho guanine nucleotide exchange factor protein involved in sarcomere assembly",
+      "authors": [
+        "P Young",
+        "E Ehler",
+        "M Gautel"
+      ]
+    },
+    {
+      "title": "Obscurins: unassuming giants enter the spotlight",
+      "authors": [
+        "NA Perry",
+        "MA Ackermann",
+        "M Shriver",
+        "LY Hu",
+        "A Kontrogianni-Konstantopoulos"
+      ]
+    },
+    {
+      "title": "Different obscurin isoforms localize to distinct sites at sarcomeres",
+      "authors": [
+        "AL Bowman",
+        "A Kontrogianni-Konstantopoulos",
+        "SS Hirsch",
+        "SB Geisler",
+        "H Gonzalez-Serratos",
+        "MW Russell",
+        "RJ Bloch"
+      ]
+    },
+    {
+      "title": "Unraveling obscurins in heart disease",
+      "authors": [
+        "A Grogan",
+        "A Kontrogianni-Konstantopoulos"
+      ]
+    },
+    {
+      "title": "Obscurin is a ligand for small ankyrin 1 in skeletal muscle",
+      "authors": [
+        "A Kontrogianni-Konstantopoulos",
+        "EM Jones",
+        "DB Van Rossum",
+        "RJ Bloch RJ"
+      ]
+    },
+    {
+      "title": "Binding of an ankyrin-1 isoform to obscurin suggests a molecular link between the sarcoplasmic reticulum and myofibrils in striated muscles",
+      "authors": [
+        "P Bagnato",
+        "V Barone",
+        "E Giacomello",
+        "D Rossi",
+        "V Sorrentino"
+      ]
+    },
+    {
+      "title": "Obscurin determines the architecture of the longitudinal sarcoplasmic reticulum",
+      "authors": [
+        "S Lange",
+        "K Ouyang",
+        "G Meyer",
+        "L Cui",
+        "H Cheng",
+        "RL Lieber",
+        "J Chen"
+      ]
+    },
+    {
+      "title": "Large isoforms of UNC-89 (obscurin) are required for muscle cell architecture and optimal calcium release in Caenorhabditis elegans",
+      "authors": [
+        "PM Spooner",
+        "J Bonner",
+        "AV Maricq",
+        "GM Benian",
+        "KR Norman"
+      ]
+    },
+    {
+      "title": "Obscurin-like 1, OBSL1, is a novel cytoskeletal protein related to obscurin",
+      "authors": [
+        "SB Geisler",
+        "D Robinson",
+        "M Hauringa",
+        "MO Raeker",
+        "AB Borisov",
+        "MV Westfall",
+        "MW Russell"
+      ]
+    },
+    {
+      "title": "Interactions with titin and myomesin target obscurin and obscurin-like 1 to the M-band: implications for hereditary myopathies",
+      "authors": [
+        "A Fukuzawa",
+        "S Lange",
+        "M Holt",
+        "A Vihola",
+        "V Carmignac",
+        "A Ferreiro",
+        "B Udd",
+        "M Gautel M"
+      ]
+    },
+    {
+      "title": "The primordial growth disorder 3-M syndrome connects ubiquitination to the cytoskeletal adaptor OBSL1",
+      "authors": [
+        "D Hanson",
+        "PG Murray",
+        "P Scambler",
+        "GC Black",
+        "PE Clayton",
+        "A Sud",
+        "SA Temtamy",
+        "M Aglan",
+        "A Superti-Furga",
+        "SE Holder",
+        "J Urquhart",
+        "E Hilton",
+        "FD Manson"
+      ]
+    },
+    {
+      "title": "SPEG interacts with myotubularin, and its deficiency causes centronuclear myopathy with dilated cardiomyopathy",
+      "authors": [
+        "PB Agrawal",
+        "CR Pierson",
+        "B Talim",
+        "KS Yau",
+        "RJ Allcock",
+        "NG Laing",
+        "MA Perrella",
+        "AH Beggs",
+        "M Joshi",
+        "X Liu",
+        "G Ravenscroft",
+        "B Moghadaszadeh",
+        "T Talabere",
+        "M Viola",
+        "LC Swanson",
+        "G Haliloğlu"
+      ]
+    },
+    {
+      "title": "Mechanistic and functional diversity in the mechanosensory kinases of the titin-like family",
+      "authors": [
+        "O Mayans",
+        "GM Benian",
+        "F Simkovic",
+        "DJ Rigden"
+      ]
+    },
+    {
+      "title": "The kinase domains of obscurin interact with intercellular adhesion proteins",
+      "authors": [
+        "LY Hu",
+        "A Kontrogianni-Konstantopoulos"
+      ]
+    },
+    {
+      "title": "SPEG (Striated Muscle Preferentially Expressed Protein Kinase) Is Essential for Cardiac Function by Regulating Junctional Membrane Complex Activity",
+      "authors": [
+        "AP Quick",
+        "Q Wang",
+        "J Showell",
+        "MD McCauley",
+        "A Scholten",
+        "XH Wehrens",
+        "LE Philippen",
+        "G Barreto-Torres",
+        "DY Chiang",
+        "D Beavers",
+        "G Wang",
+        "M Khalid",
+        "JO Reynolds",
+        "HM Campbell"
+      ]
+    },
+    {
+      "title": "JPred4: a protein secondary structure prediction server",
+      "authors": [
+        "A Drozdetskiy",
+        "C Cole",
+        "J Procter",
+        "GJ Barton"
+      ]
+    },
+    {
+      "title": "Differential localization of two myosins within nematode thick filaments",
+      "authors": [
+        "DM Miller",
+        "I Ortiz",
+        "GC Berliner",
+        "HF Epstein"
+      ]
+    },
+    {
+      "title": "High-resolution imaging of muscle attachment structures in C",
+      "authors": [
+        "H Qadota",
+        "Y Matsunaga",
+        "KCQ Nguyen",
+        "A Mattheyses",
+        "DH Hall",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "RH Waterston",
+        "WB Wood"
+      ]
+    },
+    {
+      "title": "NemaFlex: a microfluidics-based technology for standardized measurement of muscular strength of C. elegans",
+      "authors": [
+        "M Rahman",
+        "JE Hewitt",
+        "F Van-Bussel",
+        "H Edwards",
+        "J Blawzdziewicz",
+        "NJ Szewczyk",
+        "M Driscoll",
+        "SA Vanapalli"
+      ]
+    },
+    {
+      "title": "The genetics of feeding in C. elegans",
+      "authors": [
+        "L Avery"
+      ]
+    },
+    {
+      "title": "Immunological identification of the genes encoding the four myosin heavy chain isoforms of C. elegans",
+      "authors": [
+        "DM Miller",
+        "FE Stockdale",
+        "J Karn"
+      ]
+    },
+    {
+      "title": "Reverse engineering of the giant muscle protein titin",
+      "authors": [
+        "H Li",
+        "WA Linke",
+        "AF Oberhauser",
+        "M Carrion-Vazquez",
+        "JG Kerkvliet",
+        "H Lu",
+        "PE Marszalek",
+        "JM Fernandez"
+      ]
+    },
+    {
+      "title": "Cardiac titin: an adjustable multi-functional spring",
+      "authors": [
+        "H Granzier",
+        "S Labeit"
+      ]
+    },
+    {
+      "title": "The Y9P variant of the titin I27 module: structural determinants of its revisited nanomechanics",
+      "authors": [
+        "J Oroz",
+        "M Bruix",
+        "DV Laurents",
+        "A Galera-Prat",
+        "J Schonfelder",
+        "FJ Canada",
+        "M Carrion-Vasquez"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "DG Moerman",
+        "BD Williams"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "K Gieseler",
+        "H Qadota",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "6/actopaxin plays a critical role in the assembly of integrin adhesion complexes in vivo",
+      "authors": [
+        "X Lin",
+        "H Qadota",
+        "DG Moerman",
+        "BD Williams",
+        "PAT-C elegans"
+      ]
+    },
+    {
+      "title": "A regular pattern of Ig super-motifs defines segmental flexibility as the elastic mechanism of the titin chain",
+      "authors": [
+        "E von Castelmur",
+        "M Marino",
+        "DI Svergun",
+        "L Kreplak",
+        "Z Ucurum-Fotiadis",
+        "PV Konarev",
+        "A Urzhumtsev",
+        "D Labeit",
+        "S Labeit",
+        "O Mayans"
+      ]
+    },
+    {
+      "title": "Assembly of body wall muscle and muscle cell attachment structures in Caenorhabditis elegans",
+      "authors": [
+        "MC Hresko",
+        "BD Williams",
+        "RH Waterston"
+      ]
+    },
+    {
+      "title": "The M-band: an elastic web that crosslinks thick filaments in the center of the sarcomere",
+      "authors": [
+        "I Agarkova",
+        "J-C Perriard"
+      ]
+    },
+    {
+      "title": "The M-band: The underestimated part of the sarcomere",
+      "authors": [
+        "S Lange",
+        "N Pinotsis",
+        "I Agarkova",
+        "E Ehler"
+      ]
+    },
+    {
+      "title": "Fast-folding alpha-helices as reversible strain absorbers in the muscle protein myomesin",
+      "authors": [
+        "F Berkemeier",
+        "M Bertz",
+        "S Xiao",
+        "N Pinotsis",
+        "M Wilmanns",
+        "F Grater",
+        "M Rief"
+      ]
+    },
+    {
+      "title": "Binding of myomesin to obscurin-like-1 at the muscle M-band provides a strategy for isoform-specific mechanical protection",
+      "authors": [
+        "S Pernigo",
+        "A Fukuzawa",
+        "AEM Beedle",
+        "M Holt",
+        "A Round",
+        "A Pandini",
+        "S Garcia-Manyes",
+        "M Gautel",
+        "RA Steiner"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S Mango"
+      ]
+    },
+    {
+      "title": "Tracking unfolding and refolding reactions of single proteins using atomic force microscopy methods",
+      "authors": [
+        "PJ Bujalowski",
+        "AF Oberhauser"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "M Rabbi",
+        "PE Marszalek"
+      ]
+    },
+    {
+      "title": "The rotor tip inside a bearing of a thermophilic F1-ATPase is dispensable for torque generation",
+      "authors": [
+        "MD Hossain",
+        "S Furuike",
+        "K Kinosita"
+      ]
+    },
+    {
+      "title": "Sensing specific molecular interactions with the atomic force microscope",
+      "authors": [
+        "E-L Florin",
+        "M Rief",
+        "H Lehmann",
+        "M Ludwig",
+        "C Dornmair",
+        "VT Moy",
+        "HE Gaub"
+      ]
+    },
+    {
+      "title": "Fast and forceful refolding of stretched alpha-helical solenoid proteins",
+      "authors": [
+        "M Kim",
+        "K Abdi",
+        "PE Marszalek"
+      ]
+    },
+    {
+      "title": "Entropic elasticity of lambda-phage DNA",
+      "authors": [
+        "C Bustamante",
+        "JF Marko",
+        "S Smith S"
+      ]
+    },
+    {
+      "title": "Stretching DNA",
+      "authors": [
+        "JF Marko",
+        "ED Siggia"
+      ]
+    },
+    {
+      "title": "The kinetically dominant assembly pathway for centrosomal asters in Caenorhabditis elegans is gamma-tubulin dependent",
+      "authors": [
+        "E Hannak",
+        "K Oegema",
+        "M Kirkham",
+        "P Gonczy",
+        "B Habermann",
+        "AA Hyman"
+      ]
+    },
+    {
+      "title": "Synaptic function is impaired but not eliminated in C. elegans mutants lacking synaptotagmin",
+      "authors": [
+        "ML Nonet",
+        "K Grundahl",
+        "BJ Meyer",
+        "JB Rand"
+      ]
+    },
+    {
+      "title": "Immunofluorescent localization of proteins in Caenorhabditis elegans muscle, Methods",
+      "authors": [
+        "KJ Wilson",
+        "H Qadota",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "Two LIM domain proteins and UNC-96 link UNC-97/pinch to myosin thick filaments in Caenorhabditis elegans muscle",
+      "authors": [
+        "H Qadota",
+        "KB Mercer",
+        "RK Miller",
+        "K Kaibuchi",
+        "GM Benian"
+      ]
+    },
+    {
+      "title": "Muscle cell attachment in Caenorhabditis elegans",
+      "authors": [
+        "R Francis",
+        "RH Waterston"
+      ]
+    },
+    {
+      "title": "Investigating the spreading of toxicity of prion-like proteins using the metazoan model organism C. elegans",
+      "authors": [
+        "C Nussbaum-Krammer",
+        "MF Neto",
+        "RM Brielmann",
+        "JS Pedersen",
+        "RI Morimoto"
+      ]
+    },
+    {
+      "title": "Muscle strength deficiency and mitochondrial dysfunction in a muscular dystrophy model of Caenorhabditis elegans and its functional response to drugs",
+      "authors": [
+        "JE Hewitt",
+        "AK Pollard",
+        "L Lesanpezeshki",
+        "CS Deane",
+        "CJ Gaffney",
+        "T Etheridge",
+        "NJ Szewczyk",
+        "SA Vanapalli"
+      ]
+    },
+    {
+      "title": "BeStSel: a web server for accurate protein secondary structure prediction and fold recognition from the circular dichroism spectra",
+      "authors": [
+        "A Micsonai",
+        "F Wien",
+        "E Bulyaki",
+        "J Kun",
+        "E Moussong",
+        "Y-H Lee",
+        "Y Goto",
+        "M Refregiers",
+        "J Kardos"
+      ]
+    }
+  ],
+  "original_title": "A region of UNC-89 (obscurin) lying between two protein kinase domains is a highly elastic spring required for proper sarcomere organization",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/7df97df76f05/nihms-1838736-f0001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/5f8b486f712d/nihms-1838736-f0002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/d6065397227b/nihms-1838736-f0003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/0d6d3592ef18/nihms-1838736-f0004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/939685431ace/nihms-1838736-f0005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/0254f146a483/nihms-1838736-f0006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/04108e937979/nihms-1838736-f0007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/905aa5cb16cd/nihms-1838736-f0008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/fb38b518ad75/nihms-1838736-f0009.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6219/9549344/fe6b343058e7/nihms-1838736-f0010.jpg"
+  ]
+}

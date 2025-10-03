@@ -1,0 +1,637 @@
+{
+  "pmcid": "PMC3901686",
+  "title": "Toll Mediated Infection Response Is Altered by Gravity and Spaceflight in Drosophila",
+  "abstract": "Space travel presents unlimited opportunities for exploration and discovery, but requires better understanding of the biological consequences of long-term exposure to spaceflight. Immune function in particular is relevant for space travel. Human immune responses are weakened in space, with increased vulnerability to opportunistic infections and immune-related conditions. In addition, microorganisms can become more virulent in space, causing further challenges to health. To understand these issues better and to contribute to design of effective countermeasures, we used the Drosophila model of innate immunity to study immune responses in both hypergravity and spaceflight. Focusing on infections mediated through the conserved Toll and Imd signaling pathways, we found that hypergravity improves resistance to Toll-mediated fungal infections except in a known gravitaxis mutant of the yuri gagarin gene. These results led to the first spaceflight project on Drosophila immunity, in which flies that developed to adulthood in microgravity were assessed for immune responses by transcription profiling on return to Earth. Spaceflight alone altered transcription, producing activation of the heat shock stress system. Space flies subsequently infected by fungus failed to activate the Toll pathway. In contrast, bacterial infection produced normal activation of the Imd pathway. We speculate on possible linkage between functional Toll signaling and the heat shock chaperone system. Our major findings are that hypergravity and spaceflight have opposing effects, and that spaceflight produces stress-related transcriptional responses and results in a specific inability to mount a Toll-mediated infection response.",
+  "introduction": "Introduction\n\nHuman space exploration, with its promise of unprecedented discoveries, excites the imagination. However, turning the exploration of space into a practical reality presents daunting challenges including conquering the compromised biological functions produced by spaceflight. In order to achieve space exploration, a better understanding of human biology, both on earth and in space, is required. Among the many aspects of biology affected by spaceflight, we have focused on the immune response. Immune dysfunction is a major health-related problem on earth and a major obstacle to long-term space missions. As early as the Apollo and Skylab missions, immune dysfunction was recognized in astronauts, and later studies documented specific host cellular and humoral immune alterations induced by spaceflight. Increased microbial growth and virulence in space have also been documented. Spaceflight is associated with many stresses, with altered gravitational force (g) representing the most studied factor. Microgravity (µg) is constant in space, and hypergravity (hyper g) is experienced during launch and landing. Immune dysfunction in both µg and hyper g is well documented, but determination of the underlying cellular mechanisms and thus routes to appropriate countermeasures, remains unresolved. Without normal immune function, many threats to long-term survival in space exist: fatal infections, failed immunosurveillance of cancer cells, aberrant inflammatory responses and reactivation of latent viruses are all potential hazards.\n\nIn our work, we have brought advances in understanding the host defense of Drosophila to bear on deciphering the immune alterations associated with altered gravity and spaceflight. Drosophila is a well-established model for human innate immune function, sharing elements in cellular and humoral immunity, clotting and wound healing, and signaling pathways. Drosophila responds to microbial infection with 1) a systemic response, characterized by fat body production of antimicrobial proteins (AMPs), 2) tissue specific responses, such as production of AMPs in the gut and trachea, 3) phagocytosis by hemocytes, and 4) clotting and wound healing.\n\nTwo signaling pathways are the main mediators of the response to bacterial and fungal infections in Drosophila. The Toll pathway primarily responds to fungal and Gram-positive (Lys-type peptidoglycan (PGN)) infections, and the Imd pathway responds to Gram-negative (DAP-type PGN) infections. Toll-like receptors (Tlrs) have been identified in mammals and are the direct mediators of responses to activators such as bacterial lipopolysacccharide and viral DNA. Imd shares homology with the death domain of the mammalian Receptor Interacting Protein of the Tumor Necrosis Factor Receptor pathway. Downstream, through the conserved NF-kB/Rel protein transcription factors relish (Imd signaling cascade), and DIF and dorsal (Toll signaling cascade), the AMPs and ∼400 other genes are involved in response to infection. Recognition of the complexity of the Toll and Imd pathways continues to grow, for example with identification of new regulators, interactions with the nervous system, and modification with aging. In contrast to mammals, in Drosophila only the original Toll was associated with infection response, through indirect sensing mediated by binding to Spätzle (Spz). More recently however, other Toll family members have been identified as mediating infection. Toll-8 regulates infection response in the airway epithelium, and Toll-7 is involved in viral recognition and response.\n\nThe mechanisms of interactions within and between the Toll and Imd pathways and other systems are not fully understood, and unraveling the interrelationships will require many approaches. Here, we present genetic and transcriptional profiling experiments to address the response to infection in conditions related to space travel: Does hypergravity affect the response to fungal infection? Does development during spaceflight alter the response to bacterial and fungal infections?",
+  "methods": "Materials and Methods\n\nDrosophila Stocks\n\nAll experiments used only males. Oregon-R wild-type flies were used. Others are: imd1 (Flybase FB, FBal0045906), yuri c263 and UAS-yuri (FBgn0045842 and), Thor2 and Thor1rev1 (FBgn0261560 and), spz4 (FBal0016062) and imdEY08573 (FBal0159146). The stock for the space and Earth flies, hemolectin-Gal4; UAS-GFP, expressed GFP in the blood cells. The space containers are presented in Marcu et al..\n\nMicroorganisms and Infections\n\nBacterial infections with E. coli ATCC 25922 were as previously described. A single spore isolate of Beauveria bassiana (strain GHA) was cultured on Sabouraud dextrose agar. Conidia and hyphae were harvested by passing culture through a sterile ASTM No. 100 sieve. Spores were also flown on the space shuttle and we are happy to provide information upon request. Natural infection by B. bassiana used a dosage of 9.5×106 spores/fly, with procedures and survival assays as previously described. Ten replicates of 20 flies each for all strains were used in all 3 experiments for the CARU hypergravity tests. The centrifuge was stopped once per day to conduct survival counts. Control survival assays after bacterial and fungal infections on wild-type, hemolectin-Gal4; UAS-GFP, imd1, imdEY08573 and spz4  were conducted at Kennedy Space Center to establish that space and Earth fly infections were proceeding in accordance with our standardized conditions.\n\nEnergy Content\n\nFlies were homogenized in a solution containing 1% NP-40, 0.5% deoxycholic acid, 0.1% Triton-X 100, 100 mM NaCl, 0.1 mM CaCl2, and 2 mM MgCl2, pH 7.6. Homogenates were heated for 5 min at 75°C to inactivate lipases. Triacylglyceride levels were measured using a commercial serum triglyceride kit (Sigma; St. Louis, Missouri USA; No. TR0100-1KT), and protein content was quantified using the bicinchoninic acid method. Carbohydrates (glycogen and trehalose) were digested with amyloglucosidase and quantified with a blood glucose kit (Pointe Scientific; Canton, Michigan, USA; No. G7521). 4–14 flies were assayed for each treatment group, and all assays were performed in triplicate.\n\nGene Expression Analysis\n\nTotal RNA was extracted from flies utilizing the Qiagen RNeasy© RNA isolation kit. mRNA amplification, labeling, hybridization to Drosophila Genome 2.0 GeneChips© (Affymetrix), staining and scanning were performed as previously described utilizing protocols in the Affymetrix Gene Expression Analysis Technical Manual. RMA-based, (Partek Genomics Suite©, v.6.6) algorithms were used to identify differentially expressed genes (DEG). Three replicate samples were included in each control and experimental group. A minimum fold-difference of +/−1.5 (p-value ≤0.05) was used as the cut off criteria for generating DEG lists. DEG lists were hierarchically clustered and sub-clusters were subjected to pathway analysis using Ingenuity Pathway Analysis (IPA©) and DAVID (http://apps1.niaid.nih.gov/david) web-interfaced software. GEO accession number is GSE53196. qPCR analysis was carried out on cDNA made using the Bio-Rad iScript™ cDNA Synthesis Kit (No. 170–8891) and utilized the Bio-Rad SsoAdvanced™ SYBR® Green Supermix (No. 172–5260). Reaction mixtures were prepared as specified in the product protocol and used QuantiTect Primer Assays from Qiagen: Metchnikowin (No. QT01109619), Drosomycin (No. QT00957432), and RPL32 (rp49) (No. QT00985677). Samples were run in triplicate on the Bio-Rad qPCR CFX thermal cycler.",
+  "results": "Results and Discussion\n\nHypergravity Increases Survival after Infection with Pathogenic Fungus\n\nThe first goal was to test our hypothesis that the immune response of Drosophila would be affected by changes in gravity at the organismal level. The simplest immune function assay is post-infection survival, and a straightforward route for altering gravity is to achieve hyper g through use of centrifuges similar to the human centrifuges used for training pilots. We infected with B. bassiana, an entomopathogenic fungus that enters through the cuticle and is well studied with respect to survival kinetics and Toll pathway activation. Infected and control flies were then exposed to hypergravity on a centrifuge maintained at the Chronic Acceleration Research Unit (CARU), UC Davis.\n\nThe survival of wild type and immune response mutants (except Toll pathway mutants which do not survive infection long enough for prolonged hyper g experiments) was assessed. Strikingly, all strains showed increased post-infection survival at hyper g (Figure 1A bottom panel, 1B wild type, imd and Thor strains). Given that µg is associated with impaired immune function, one interpretation of this result is that hyper g exerts the opposite effect and boosts the host response. Opposite effects of opposing gravity vectors are not uncommon, for example for platelet functions. However, microorganisms can become more virulent at µg, and an alternative explanation is that at hyper g the fungus itself is less virulent.\n\nIn an attempt to distinguish between host and fungal responses, we tested a gravitaxis mutation of the gene yuri gagarin (yuri). yuri encodes 3 isoforms of a coiled-coil protein that is ubiquitously expressed, and two mutations have separate tissue specific functions related to mechanotransduction. The yuric263 allele, caused by a GAL4 enhancer trap insertion, has defective gravity responses. A UAS-yuri construct, driven by the c263 transposon, rescues this phenotype through expression limited to mechanosensory neurons, indicating defective gravity sensing in the yuric263 mutant.\n\nWe hypothesized that if host response to hyper g were primary, then aberrant gravity sensing in yuric263 might modify the hyper g post-infection response, but if the fungal response were primary, then post-infection survival of yuric263would be comparable to that of wild type and the immune function mutants (Figure 1AB). On testing, yuric263 failed to show this increased post-infection survival, whereas the yuri rescue strain had the typical increased survival response (Figure 1AB). Thus, these data demonstrate a significant host component to the hyper g effect. How might hyper g increase post-infection survival? The yuri finding could indicate a neural route linking mechanical load sensation to immune response. Mechanical load also affects cell biological processes, and one possibility is that endocytosis, which is essential for Toll signaling, is enhanced at hyper g. Interestingly, Yuri protein appears to have membrane-associated functions.\n\nThe immune response is energetically expensive, and flies with greater energetic reserves may have greater post-infection survival. However, survival did not correlate with stores of triglycerides, carbohydrates or protein (Figure 1C).\n\nThe Fungus, Immunity, Tumorigenesis (FIT) Microgravity Experiment\n\nThese results showing that the immune response of Drosophila responds to g force formed the basis for the space shuttle experiment Fungus, Immunity and Tumorigenesis (FIT). FIT is the first flight experiment to investigate µg effects on Drosophila immunity. The FIT experiment was flown on the shuttle Discovery (STS-121), and involved an experimental design adjusted for shuttle conditions. Ideally the design would have paralleled the hyper g work, with infection of Drosophila genotypes proceeding in space. But due to flight constraints, space infections were not possible and only a single genotype could be flown. However, the flight duration (12 days) allowed production and return to Earth of a small population of flies that had undergone their entire development in space (space flies). Upon return this population was divided into three groups and used for transcription profiling without infection and after infection with B. bassiana or E. coli. The fungal spores and E. coli used were grown on Earth. Earth-reared flies, grown at Kennedy Space Center, were used as controls (Earth flies). Recordings relayed from the shuttle ensured similar growth conditions for the space and Earth flies other than the change in g force. The experiments thus encompass humoral immunity in response to Toll and Imd mediated fungal and bacterial infections through transcriptional profiling after development in space. The uninfected space flies showed an altered transcriptional profile, and those changes will be presented last, in the context of the immune response data.\n\nThe Toll Pathway is Dysfunctional in Adults Raised in Space\n\nTranscriptional profiling of space and Earth flies infected with B. bassiana revealed that the space flies have a dramatically different response (Figure 2). For Earth flies, the upregulated genes revealed the expected response categories: transcripts for genes associated with innate immune response, serine peptidase activity, response to fungus and Toll signaling pathway activation were all statistically over-represented (Figure 2). In stark contrast, none of these gene categories was upregulated in space flies (Figure 2).\n\nThe AMPs Metchnikowin and Drosomycin are key indices of the Toll signaling response. Figures 3 and 4A present transcriptional analysis by quantitative real-time PCR (qPCR) and microarray-based analysis establishing the failed induction of these two genes in space flies. Results of microarray-based analysis for additional genes are also presented in Figure 4A. Note that necrotic (nec) is upregulated in the Earth flies, which is an indicator of a strong anti-fungal response since Nec downregulates the immune reaction via negative regulation of Persephone (Psh). A complete listing of the fold changes and associated p values for all the transcriptionally modulated genes of the categories shown in Figure 2 is presented in Table S1.\n\nCollectively, these data indicate that Toll mediated responses to B. bassiana are impaired in space flies, and in particular the failure of Drosomycin and Metchnikowin activation indicates that the space flies are severely immunocompromised. The data do not, however, reflect a complete failure of the space flies to react to the infection. Some defense response category genes were activated in space flies as well as Earth flies (Figure 2 and Table S1), and these indicate that signaling pathways other than Toll are functional in space flies. Some of these genes are Turandot (Tot) family members, a set of genes induced under a variety of stresses such as septic infection, paraquat feeding, UV exposure and heat shock, and with complex regulation involving the Jak-Stat, Imd and Mekk1 pathways. Also induced in both space and Earth flies are the fungal infection response genes Thioester containing protein IV (Tep IV), which has an alpha-macroglobulin complement component, and Transferrin 1 (Tsf1), which is predicted to be involved in iron homeostasis. Both of these genes are also induced in response to DNA damage in the larval epidermis, as is Tot C .\n\nThe only AMP gene induced in space flies by the fungal infection is Drosomycin-like 5 (Drsl5) (Figure 4B). Drsl5 induction in response to B. bassiana is regulated by both the Toll and Imd pathways. Thus induction of Drsl5 in the space flies is not necessarily evidence for a functional Toll response and may represent activation by the Imd pathway (see below) or another route. Both space and Earth flies upregulated genes associated with response to toxins, including cytochrome P450s (Cyp4ac1, Cyp4ac2, Cyp4aa1, Cyp304a1), which are associated with detoxification of xenobiotics and hormone metabolism (Table S1).\n\nGenes induced uniquely in the space flies by fungal infection could indicate an altered infection response. However, only one category of genes emerged from microarray analysis as specifically induced by infection in space flies: oxidation/reduction (Figure 2 and Table S1). Six of the eight genes in this category are Pyrroline 5-carboyxlate reductase (P5cr), probable cytochrome P450s (Cyp6t1, Cyp6t1 and Cyp6a13), CG6012 and CG10131. The remaining two genes, phenoloxidase subunit A3 (PO45) and prophenol oxidase A1 (proPO-A1), have roles in melanization, which is also used as a defense against pathogens and in wound response. However, other genes in the melanization cascade were upregulated in Earth flies but unchanged in the space flies, e.g. MP1, Spn27A and Hayan . In contrast, Gram-negative binding protein 3 (GNBP3) is upregulated in space flies, and GNBP3 assembles defense complexes, including phenol oxidases, in a Toll independent manner.\n\nInitial detection of B. bassiana infection occurs through dual signaling arms upstream of Spz, the only known ligand for Toll. In one arm, Psh, moderated by suppression from Nec, senses fungal virulence factors and other danger signals, leading to activation of the Spätzle Processing Enzyme (SPE), cleavage of the Spz prodomain, and binding of processed Spz to the Toll transmembrane receptor. In the other signaling arm, GNBP3 binds fungal cell wall components and initiates a cascade via ModSP and Grass that also leads to SPE activation and Spätzle binding to Toll. Thus, if space flies are defective in initial sensing of the infection, a minimum of two defects are needed to block both arms of the upstream signaling cascade. If the space flies are not defective in sensing, a single non-functional step at the level of SPE or further downstream in the Toll pathway could prevent the activation of target genes.\n\nThe Imd Pathway is Activated Normally in Adults Raised in Space\n\nIn complete contrast to fungal infection, space flies infected with E. coli show strong gene expression responses similar in character to those of Earth flies (Figure 5). For both Earth and space flies, expected categories of upregulated genes were statistically over-represented: innate immunity, response to bacterium and humoral immune response (Figure 5). Accordingly, the Imd pathway appears to have been activated normally in the space flies. Table 1 presents a subset of these genes categorized into AMPs, Peptidoglycan recognition proteins (PGRPs), Turandot, Immune induced molecules, Thioester-containing proteins, and Miscellaneous. Table S2 details all of the transcriptionally upregulated and downregulated genes in the categories presented in Figure 5. Drosomycin and Metchnikowin are included among the standard AMP genes activated by E. coli infection (Table 1, Figures 3 and 4). Despite its activation by a Gram-negative organism, Drosomycin is mainly considered a readout for Toll signaling through cross recognition extracellularly or cross talk intracellularly with Imd or another pathway. As discussed below, our hypotheses on the effects of µg on Toll function would suggest the cross-reaction is downstream of Toll receptor activation. Metchnikowin has both antibacterial and antifungal activity, and can be activated transcriptionally through Imd or Toll, depending on the type of infection. Thus the normal induction of Metchnikowin in the bacteria infected space flies, but lack of induction in the fungus infected space flies, characterizes the normal Imd signaling versus the abnormal Toll signaling of the space flies.\n\nAdults Raised during Spaceflight have an Altered Transcriptional Profile\n\nComparing the transcription profiles of uninfected space and Earth flies provides valuable insights into the biological processes affected by the µg environment and thus generates clues as to the origin of the differing effects on Imd and Toll mediated responses. These comparisons may also provide evidence relevant to the enhanced post-infection survival at hyper g.\n\nThe transcriptional profiles of uninfected space and Earth flies were compared by first hierarchically clustering genes that were differentially expressed between the two groups (Figure 6). Pathway analysis indicated the transcripts expressed at higher levels in space flies included a statistical over-representation of genes linked to stress response, inosine monophosphate (IMP) metabolism, response to hypoxia, wing disc morphogenesis, and apoptosis. A much smaller list of transcripts was expressed at lower levels in space flies than Earth flies, and appeared to be enriched in genes associated with symporter activity, oxidation/reduction, and structural molecule activity (Figure 6). Several immune response genes were also differentially expressed, but were not statistically over-represented as a functional category: relish (2.4 fold), spätzle (1.7 fold), dorsal (1.6 fold), virus-induced RNA 1(2.1 fold), Serpin 28Db (1.6 fold), serine peptidase CG18563 (2.0 fold), pirk (1.6 fold), and PGRP-LF (1.6 fold). In total, less than only 280 genes showed a significant difference in expression between space and Earth flies (Table 2, Table S3). Interestingly, 127 of these genes are uncharacterized and only identified as CG numbers, and may also be of interest in the spaceflight and immune context as more information is acquired.\n\nCurrent annotations show that the most striking alterations are in expression of heat shock protein genes, a subset in the stress response category (Table 2). The heat shock response is evolutionarily conserved and perhaps the most well studied stress response. Heat shock proteins also function under normal conditions, and in general act as molecular chaperones assisting in forming, or regaining, the normal folding of polypeptides, translocating proteins, and regulating protein degradation. The heat shock response occurs in reaction to many types of stress and is usually initiated by unfolded/misfolded proteins. In correcting this cytotoxic state heat shock proteins also inhibit apoptosis. Given their functions, it is not surprising that heat shock gene expression changes have been associated with altered gravity and spaceflight in a variety of organisms; however, results are variable and a clear picture of heat shock protein involvement in these situations has not emerged.\n\nTwo further categories of altered gene expression are noteworthy with respect to the heat shock result seen for the space flies: apoptosis and response to hypoxia (Table 2). Six genes associated with apoptosis are upregulated: starvin, which is a cochaperone associated with heat shock protein 70 (Hsp70); the caspase Damm, which can trigger apoptosis when overexpressed; Pdk1, a serine/threonine kinase that is a negative regulator of apoptosis; Drep-3, one of four Drosophila DNA fragmentation factor-related proteins; dream, a serine threonine rich caspase; and Rab3-GEF, a Ras superfamily member predicted to regulate the cell cycle and apoptosis. The response to hypoxia category includes a subset of the heat shock protein genes and hairy, a master regulator for adjustment to hypoxia. Together these transcriptional alterations indicate severe stress associated with protein unfolding during development of the flies in µg.\n\nDo these changes in the space flies provide insight into the failed immune response to fungal infection versus the robust immune response to bacterial infection? Although differences in the physiologies of the two infections, i.e. acute infection by the non-pathogenic E.coli and chronic infection by the pathogenic B. bassiana, may play some role here, the strong heat shock response produced by the space environment offers two testable molecular hypotheses.\n\nHypothesis 1\n\nThe extracellular space is more susceptible to protein unfolding in stress conditions than the intracellular environment. Thus in the µg conditions experienced by the space flies, the more complex extracellular induction events associated with Toll activation (recognition, activation of SPE, cleavage of Spz and binding to Toll) are more susceptible to disruption than those associated with activation of the Imd pathway. For the Imd pathway, the extracellular event is direct binding of bacterial components, PGN, to cell surface receptors, PGRPs. A corollary of this hypothesis is that, in time, the heat shock proteins may mediate recovery of Toll signaling.\n\nHypothesis 2\n\nHeat shock protein(s) interferes directly with the binding of (processed) Spz to Toll. In mammals, extracellular heat shock proteins bind directly to Tlr receptors and are important in moderating the immune response, including in the clinical setting. In contrast in Drosophila, Spz is the only known ligand for Toll. Heat shock proteins do not, however, need to be Toll ligands in order to interfere with Spätzle binding, or to inhibit activity of essential upstream components such as SPE, Psh and Grass. A corollary is that heat shock proteins may be both positive and negative regulators of the Toll signaling pathway, inhibiting or enhancing according to the conditions. This corollary is analogous to the positive and negative regulation of Tlrs effected by extracellular heat shock proteins in mammals.\n\nThese hypotheses on heat shock protein mediation of the effects of g force on immune responses have broad implications, providing insights into established findings, suggestions for further experimentation and predictions for other stressful conditions. One clear, testable, inference is that the compromised human immunity seen at altered g results from protein unfolding and heat shock protein engagement. Our hypotheses also suggest an underlying mechanism for our hyper g findings. Thus hyper g may stabilize proteins against unfolding or affect heat shock protein interaction with Toll receptors. Effects on the stability, folded status or function of endocytotic components may be particularly important both at hyper g and µg since endocytosis is essential for Toll, but not Imd, signaling. A further possibility is that most common stresses such as sleep deprivation, physical activity, and ageing, affect immune responses via these proposed routes.\n\nOther studies have noted the opposing effects of increased and reduced g force on expression of individual Drosophila genes in uninfected flies. In addition, in one µg experiment, phagocytosis in adult Drosophila females, but not larvae, raised in space was reported to be normal, and expression of a few antimicrobial genes was altered in these adults by infection with an E. coli strain that does not grow in Drosophila. In the future, experiments on board the International Space Station (ISS), where multi-generational studies with multiple strains of flies and pathogens are possible, would provide an optimal route for testing the hypotheses suggested here. Other factors that might affect microgravity immune responses - such as the route for pathogen delivery, developmental events, microbiome, and signaling pathway modulation by epigenetics or non-coding RNA activity - could also be addressed. The key to applying the full capacity of Drosophila aboard the ISS for an understanding of gravitational effects on innate immunity will be the use of a wide range of pathogens, genotypes, and approaches by many different investigators.\n\nThe juxtaposition of our µg and hyper g findings highlights the importance of gravity in normal immune function and begins to elaborate the key cellular and molecular components of the immune system that respond to changes in gravity. Our findings also suggest that exposure to gravity may mitigate the deleterious physiological, including immune, consequences of spaceflight and provide a rationale for including human centrifuges on facilities for long-term transport and housing of humans in space.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Astronomical Sciences",
+    "Space Exploration",
+    "Space Missions",
+    "Spaceflight",
+    "Biology",
+    "Immunology",
+    "Immunity",
+    "Innate Immunity",
+    "Immune Response",
+    "Model Organisms",
+    "Animal Models",
+    "Drosophila Melanogaster",
+    "Molecular cell biology",
+    "Gene expression",
+    "DNA transcription",
+    "Signal Transduction",
+    "Signaling in Selected Disciplines",
+    "Immunological Signaling",
+    "Cellular Stress Responses"
+  ],
+  "citations": [
+    {
+      "title": "Could spaceflight-associated immune system weakening preclude the expansion of human presence beyond Earth’s orbit?",
+      "authors": [
+        "N Gueguinou",
+        "C Huin-Schohn",
+        "M Bascove",
+        "JL Bueb",
+        "E Tschirhart"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "JW Wilson",
+        "CM Ott",
+        "K Honer zu Bentrup",
+        "R Ramamurthy",
+        "L Quick"
+      ]
+    },
+    {
+      "title": "The immune system in space, including Earth-based benefits of space-based research",
+      "authors": [
+        "G Sonnenfeld"
+      ]
+    },
+    {
+      "title": "Signal transduction in cells of the immune system in microgravity",
+      "authors": [
+        "O Ullrich",
+        "K Huber",
+        "K Lang"
+      ]
+    },
+    {
+      "title": "The Rel/NF-kappaB pathway and transcription of immediate early genes in T cell activation are inhibited by microgravity",
+      "authors": [
+        "TT Chang",
+        "I Walther",
+        "CF Li",
+        "J Boonyaratanakornkit",
+        "G Galleri"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation occurs during short duration spaceflight on board the space shuttle",
+      "authors": [
+        "B Crucian",
+        "R Stowe",
+        "S Mehta",
+        "P Uchakin",
+        "H Quiriarte"
+      ]
+    },
+    {
+      "title": "The host defense of Drosophila melanogaster",
+      "authors": [
+        "B Lemaitre",
+        "J Hoffmann"
+      ]
+    },
+    {
+      "title": "Gut-associated microbes of Drosophila melanogaster",
+      "authors": [
+        "NA Broderick",
+        "B Lemaitre"
+      ]
+    },
+    {
+      "title": "Immune response in the barrier epithelia: lessons from the fruit fly Drosophila melanogaster",
+      "authors": [
+        "MM Davis",
+        "Y Engstrom"
+      ]
+    },
+    {
+      "title": "Theopold U, Krautz R, Dushay MS (2013) The Drosophila clotting system and its messages for mammals. Dev Comp Immunol. In press.",
+      "authors": []
+    },
+    {
+      "title": "The dorsoventral regulatory gene cassette spatzle/Toll/cactus controls the potent antifungal response in Drosophila adults",
+      "authors": [
+        "B Lemaitre",
+        "E Nicolas",
+        "L Michaut",
+        "JM Reichhart",
+        "JA Hoffmann"
+      ]
+    },
+    {
+      "title": "The Toll and Imd pathways are the major regulators of the immune response in Drosophila",
+      "authors": [
+        "E De Gregorio",
+        "PT Spellman",
+        "P Tzou",
+        "GM Rubin",
+        "B Lemaitre"
+      ]
+    },
+    {
+      "title": "Toll-like receptors",
+      "authors": [
+        "EM Moresco",
+        "D LaVine",
+        "B Beutler"
+      ]
+    },
+    {
+      "title": "Genome-wide analysis of the Drosophila immune response by using oligonucleotide microarrays",
+      "authors": [
+        "E De Gregorio",
+        "PT Spellman",
+        "GM Rubin",
+        "B Lemaitre"
+      ]
+    },
+    {
+      "title": "A genome-wide analysis of immune responses in Drosophila",
+      "authors": [
+        "P Irving",
+        "L Troxler",
+        "TS Heuer",
+        "M Belvin",
+        "C Kopczynski"
+      ]
+    },
+    {
+      "title": "The Drosophila Toll signaling pathway",
+      "authors": [
+        "S Valanne",
+        "JH Wang",
+        "M Ramet"
+      ]
+    },
+    {
+      "title": "Age-specific variation in immune response in Drosophila melanogaster has a genetic basis",
+      "authors": [
+        "TM Felix",
+        "KA Hughes",
+        "EA Stone",
+        "JM Drnevich",
+        "J Leips"
+      ]
+    },
+    {
+      "title": "ATM kinase inhibition in glial cells activates the innate immune response and causes neurodegeneration in Drosophila",
+      "authors": [
+        "AJ Petersen",
+        "SA Rimkus",
+        "DA Wassarman"
+      ]
+    },
+    {
+      "title": "Kleino A, Silverman N (2013) The Drosophila IMD pathway in the activation of the humoral immune response. Dev Comp Immunol. In press.",
+      "authors": []
+    },
+    {
+      "title": "Toll-8/Tollo negatively regulates antimicrobial response in the Drosophila respiratory epithelium",
+      "authors": [
+        "I Akhouayri",
+        "C Turc",
+        "J Royet",
+        "B Charroux"
+      ]
+    },
+    {
+      "title": "Virus recognition by Toll-7 activates antiviral autophagy in Drosophila",
+      "authors": [
+        "M Nakamoto",
+        "RH Moy",
+        "J Xu",
+        "S Bambina",
+        "A Yasunaga"
+      ]
+    },
+    {
+      "title": "Effects of microgravity and hypergravity on platelet functions",
+      "authors": [
+        "K Dai",
+        "Y Wang",
+        "R Yan",
+        "Q Shi",
+        "Z Wang"
+      ]
+    },
+    {
+      "title": "Gravitaxis in Drosophila melanogaster: a forward genetic screen",
+      "authors": [
+        "JD Armstrong",
+        "MJ Texada",
+        "R Munjaal",
+        "DA Baker",
+        "KM Beckingham"
+      ]
+    },
+    {
+      "title": "Yuri gagarin is required for actin, tubulin and basal body functions in Drosophila spermatogenesis",
+      "authors": [
+        "MJ Texada",
+        "RA Simonette",
+        "CB Johnson",
+        "WJ Deery",
+        "KM Beckingham"
+      ]
+    },
+    {
+      "title": "The Drosophila SUN protein Spag4 cooperates with the coiled-coil protein Yuri Gagarin to maintain association of the basal body and spermatid nucleus",
+      "authors": [
+        "MP Kracklauer",
+        "HM Wiora",
+        "WJ Deery",
+        "X Chen",
+        "B Bolival"
+      ]
+    },
+    {
+      "title": "Tropomyosin is an interaction partner of the Drosophila coiled coil protein yuri gagarin",
+      "authors": [
+        "MJ Texada",
+        "RA Simonette",
+        "WJ Deery",
+        "KM Beckingham"
+      ]
+    },
+    {
+      "title": "Signalling through mechanical inputs: a coordinated process",
+      "authors": [
+        "H Zhang",
+        "M Labouesse"
+      ]
+    },
+    {
+      "title": "Endocytic pathway is required for Drosophila Toll innate immune signaling",
+      "authors": [
+        "HR Huang",
+        "ZJ Chen",
+        "S Kunes",
+        "GD Chang",
+        "T Maniatis"
+      ]
+    },
+    {
+      "title": "Sensing of ‘danger signals’ and pathogen-associated molecular patterns defines binary signaling pathways ‘upstream’ of Toll",
+      "authors": [
+        "L El Chamy",
+        "V Leclerc",
+        "I Caldelari",
+        "JM Reichhart"
+      ]
+    },
+    {
+      "title": "Signaling role of hemocytes in Drosophila JAK/STAT-dependent response to septic injury",
+      "authors": [
+        "H Agaisse",
+        "UM Petersen",
+        "M Boutros",
+        "B Mathey-Prevot",
+        "N Perrimon"
+      ]
+    },
+    {
+      "title": "The MAPKKK Mekk1 regulates the expression of Turandot stress genes in response to septic injury in Drosophila",
+      "authors": [
+        "S Brun",
+        "S Vidal",
+        "P Spellman",
+        "K Takahashi",
+        "H Tricoire"
+      ]
+    },
+    {
+      "title": "A family of Turandot-related genes in the humoral stress response of Drosophila",
+      "authors": [
+        "S Ekengren",
+        "D Hultmark"
+      ]
+    },
+    {
+      "title": "Analysis of thioester-containing proteins during the innate immune response of Drosophila melanogaster",
+      "authors": [
+        "R Bou Aoun",
+        "C Hetru",
+        "L Troxler",
+        "D Doucet",
+        "D Ferrandon"
+      ]
+    },
+    {
+      "title": "Dynamic coordination of innate immune signaling and insulin signaling regulates systemic responses to localized DNA damage",
+      "authors": [
+        "J Karpac",
+        "A Younger",
+        "H Jasper"
+      ]
+    },
+    {
+      "title": "Characterization of Drosophila melanogaster cytochrome P450 genes",
+      "authors": [
+        "H Chung",
+        "T Sztal",
+        "S Pasricha",
+        "M Sridhar",
+        "P Batterham"
+      ]
+    },
+    {
+      "title": "Transcriptional regulation of xenobiotic detoxification in Drosophila",
+      "authors": [
+        "JR Misra",
+        "MA Horner",
+        "G Lam",
+        "CS Thummel"
+      ]
+    },
+    {
+      "title": "Regulation and function of the melanization reaction in Drosophila",
+      "authors": [
+        "H Tang"
+      ]
+    },
+    {
+      "title": "Genetic evidence of a redox-dependent systemic wound response via Hayan protease-phenoloxidase system in Drosophila",
+      "authors": [
+        "HJ Nam",
+        "IH Jang",
+        "H You",
+        "KA Lee",
+        "WJ Lee"
+      ]
+    },
+    {
+      "title": "Two proteases defining a melanization cascade in the immune system of Drosophila",
+      "authors": [
+        "H Tang",
+        "Z Kambris",
+        "B Lemaitre",
+        "C Hashimoto"
+      ]
+    },
+    {
+      "title": "The Drosophila PRR GNBP3 assembles effector complexes involved in antifungal defenses independently of its Toll-pathway activation function",
+      "authors": [
+        "AA Matskevich",
+        "J Quintin",
+        "D Ferrandon"
+      ]
+    },
+    {
+      "title": "Dual detection of fungal infections in Drosophila via recognition of glucans and sensing of virulence factors",
+      "authors": [
+        "M Gottar",
+        "V Gobert",
+        "AA Matskevich",
+        "JM Reichhart",
+        "C Wang"
+      ]
+    },
+    {
+      "title": "Lindsay SA, Wasserman SA (2013) Conventional and non-conventional Drosophila Toll signaling. Dev Comp Immunol. In press.",
+      "authors": []
+    },
+    {
+      "title": "Two distinct pathways can control expression of the gene encoding the Drosophila antimicrobial peptide metchnikowin",
+      "authors": [
+        "EA Levashina",
+        "S Ohresser",
+        "B Lemaitre",
+        "JL Imler"
+      ]
+    },
+    {
+      "title": "FlyBase: improvements to the bibliography",
+      "authors": [
+        "SJ Marygold",
+        "PC Leyland",
+        "RL Seal",
+        "JL Goodman",
+        "J Thurmond"
+      ]
+    },
+    {
+      "title": "The heat shock response: life on the verge of death",
+      "authors": [
+        "K Richter",
+        "M Haslbeck",
+        "J Buchner"
+      ]
+    },
+    {
+      "title": "Molecular chaperones in the cytosol: from nascent chain to folded protein",
+      "authors": [
+        "FU Hartl",
+        "M Hayer-Hartl"
+      ]
+    },
+    {
+      "title": "Stressed to death: regulation of apoptotic signaling pathways by the heat shock proteins",
+      "authors": [
+        "HM Beere"
+      ]
+    },
+    {
+      "title": "Regulation of heat shock protein message in Jurkat cells cultured under serum-starved and gravity-altered conditions",
+      "authors": [
+        "ML Lewis",
+        "M Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Changes in gravitational force cause changes in gene expression in the lens of developing zebrafish",
+      "authors": [
+        "N Shimada",
+        "SJ Moorman"
+      ]
+    },
+    {
+      "title": "Microgravity simulation by diamagnetic levitation: effects of a strong gradient magnetic field on the transcriptional profile of Drosophila melanogaster",
+      "authors": [
+        "R Herranz",
+        "OJ Larkin",
+        "CE Dijkstra",
+        "RJ Hill",
+        "P Anthony"
+      ]
+    },
+    {
+      "title": "Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of Arabidopsis thaliana",
+      "authors": [
+        "AK Zupanska",
+        "FC Denison",
+        "RJ Ferl",
+        "AL Paul"
+      ]
+    },
+    {
+      "title": "Chaperone-assisted selective autophagy is essential for muscle maintenance",
+      "authors": [
+        "V Arndt",
+        "N Dick",
+        "R Tawo",
+        "M Dreiseidler",
+        "D Wenzel"
+      ]
+    },
+    {
+      "title": "Characterization of the Drosophila caspase, DAMM",
+      "authors": [
+        "NL Harvey",
+        "T Daish",
+        "K Mills",
+        "L Dorstyn",
+        "LM Quinn"
+      ]
+    },
+    {
+      "title": "Drosophila phosphoinositide-dependent kinase-1 regulates apoptosis and growth via the phosphoinositide 3-kinase-dependent signaling pathway",
+      "authors": [
+        "KS Cho",
+        "JH Lee",
+        "S Kim",
+        "D Kim",
+        "H Koh"
+      ]
+    },
+    {
+      "title": "Crystallization and preliminary X-ray crystallographic studies of Drep-3, a DFF-related protein from Drosophila melanogaster",
+      "authors": [
+        "HH Park",
+        "HE Tookes",
+        "H Wu"
+      ]
+    },
+    {
+      "title": "Drosophila caspases involved in developmentally regulated programmed cell death of peptidergic neurons during early metamorphosis",
+      "authors": [
+        "G Lee",
+        "Z Wang",
+        "R Sehgal",
+        "CH Chen",
+        "K Kikuno"
+      ]
+    },
+    {
+      "title": "The Rab GTPase family",
+      "authors": [
+        "H Stenmark",
+        "VM Olkkonen"
+      ]
+    },
+    {
+      "title": "Mechanisms underlying hypoxia tolerance in Drosophila melanogaster: hairy as a metabolic switch",
+      "authors": [
+        "D Zhou",
+        "J Xue",
+        "JC Lai",
+        "NJ Schork",
+        "KP White"
+      ]
+    },
+    {
+      "title": "Heat shock proteins: conditional mediators of inflammation in tumor immunity",
+      "authors": [
+        "SK Calderwood",
+        "A Murshid",
+        "J Gong"
+      ]
+    },
+    {
+      "title": "Heat-shock proteins can promote as well as regulate autoimmunity",
+      "authors": [
+        "R Rajaiah",
+        "KD Moudgil"
+      ]
+    },
+    {
+      "title": "Heat shock proteins as ligands of toll-like receptors",
+      "authors": [
+        "RM Vabulas",
+        "H Wagner",
+        "H Schild"
+      ]
+    },
+    {
+      "title": "Extracellular heat shock proteins: alarmins for the host immune system",
+      "authors": [
+        "JS Giuliano Jr",
+        "PM Lahni",
+        "HR Wong",
+        "DS Wheeler"
+      ]
+    },
+    {
+      "title": "Spaceflight-related suboptimal conditions can accentuate the altered gravity response of Drosophila transcriptome. Mol Ecol",
+      "authors": [
+        "R Herranz",
+        "A Benguria",
+        "DA Lavan",
+        "I Lopez-Vidriero",
+        "G Gasset"
+      ]
+    },
+    {
+      "title": "Innate immune responses of Drosophila melanogaster are altered by spaceflight",
+      "authors": [
+        "O Marcu",
+        "MP Lera",
+        "ME Sanchez",
+        "E Levic",
+        "LA Higgins"
+      ]
+    },
+    {
+      "title": "Drosophila Thor participates in host immune defense and connects a translational regulator with innate immunity",
+      "authors": [
+        "A Bernal",
+        "DA Kimbrell"
+      ]
+    },
+    {
+      "title": "Loss of Thor, the single 4E-BP gene of Drosophila, does not result in lethality",
+      "authors": [
+        "A Bernal",
+        "R Schoenfeld",
+        "K Kleinhesselink",
+        "DA Kimbrell"
+      ]
+    },
+    {
+      "title": "Host immune response and differential survival of the sexes in Drosophila",
+      "authors": [
+        "K Taylor",
+        "DA Kimbrell"
+      ]
+    },
+    {
+      "title": "Measurement of protein using bicinchoninic acid",
+      "authors": [
+        "PK Smith",
+        "RI Krohn",
+        "GT Hermanson",
+        "AK Mallia",
+        "FH Gartner"
+      ]
+    },
+    {
+      "title": "Heightened cytotoxic responses and impaired biogenesis contribute to early pathogenesis in the oral mucosa of simian immunodeficiency virus-infected rhesus macaques",
+      "authors": [
+        "MD George",
+        "D Verhoeven",
+        "S Sankaran",
+        "T Glavan",
+        "E Reay"
+      ]
+    }
+  ],
+  "original_title": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ca4f/3901686/82a34ab55629/pone.0086485.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ca4f/3901686/9f026319922a/pone.0086485.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ca4f/3901686/df91c729501f/pone.0086485.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ca4f/3901686/3ffac3fe17d0/pone.0086485.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ca4f/3901686/864f3cb46863/pone.0086485.g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ca4f/3901686/38c460506eb9/pone.0086485.g006.jpg"
+  ]
+}

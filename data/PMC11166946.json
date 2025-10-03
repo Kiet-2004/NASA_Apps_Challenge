@@ -1,0 +1,790 @@
+{
+  "pmcid": "PMC11166946",
+  "title": "Aging and putative frailty biomarkers are altered by spaceflight",
+  "abstract": "Human space exploration poses inherent risks to astronauts’ health, leading to molecular changes that can significantly impact their well-being. These alterations encompass genomic instability, mitochondrial dysfunction, increased inflammation, homeostatic dysregulation, and various epigenomic changes. Remarkably, these changes bear similarities to those observed during the aging process on Earth. However, our understanding of the connection between these molecular shifts and disease development in space remains limited. Frailty syndrome, a clinical syndrome associated with biological aging, has not been comprehensively investigated during spaceflight. To bridge this knowledge gap, we leveraged murine data obtained from NASA’s GeneLab, along with astronaut data gathered from the JAXA and Inspiration4 missions. Our objective was to assess the presence of biological markers and pathways related to frailty, aging, and sarcopenia within the spaceflight context. Through our analysis, we identified notable changes in gene expression patterns that may be indicative of the development of a frailty-like condition during space missions. These findings suggest that the parallels between spaceflight and the aging process may extend to encompass frailty as well. Consequently, further investigations exploring the utility of a frailty index in monitoring astronaut health appear to be warranted.",
+  "introduction": "Introduction\n\nMissions beyond low Earth orbit are the new frontier of crewed space exploration. Future missions to Mars as well as long-duration missions to the Moon will be significantly more sustained than any previous deep space mission. During transit, the space environment presents key challenges for astronauts’ safety. Previous literature describes microgravity, radiation exposure, isolation and confinement as major stressors that are able to induce pathophysiological changes in the heart, skeletal muscle, and immune system, as well as bone loss, central nervous system alterations, and increased cancer risk. Thus, there is increasing interest to identify the molecular mechanisms driving those health risks, including changes in mitochondrial function, genetic and epigenetic regulation, telomere-length dynamics, DNA damage, and oxidative stress (Fig. 1). Interestingly, the molecular mechanisms of spaceflight-related stressors share similarities with the hallmarks of aging: mitochondrial dysfunction, genomic instability, epigenetic alterations, and telomere length changes (including brief elongation in flight and increased shorter telomeres post-flight), cellular senescence, and dysbiosis, among others. As a defined set of aging-related molecular changes, the hallmarks of aging may be specifically studied to assess spaceflight impact on human physiology, which could induce a condition similar to premature or pathological aging.\n\nAging is a state of depleted biological resilience resulting in an increased vulnerability to stressors. It leads to a systemic loss of the body’s capacity to maintain homeostasis and health. The aging phenotype manifests in metabolic syndrome, cardiovascular disease, diabetes, neurological deterioration, and cancer. Old age is also marked by immune dysregulation, which can result in a chronic low-grade inflammation state called inflammaging, a status associated with increased levels of pro-inflammatory markers in blood and tissues. The deterioration in muscle quality and quantity is another feature of aging, characterized by altered myofiber metabolism and impaired satellite cell activity. Loss of muscle mass increases the risk of developing other comorbidities, in a vicious cycle that leads to unhealthy aging. These traits are often associated with a multifactorial geriatric syndrome known as “frailty”.\n\nFrailty, a recent concept in aging science, can be defined as a syndrome caused by the combined effect of numerous age-related alterations. These alterations lead to a depletion of physiological reserve and/or deterioration of cognitive functions, resulting in an increased risk of morbidity and mortality. Frailty can be clinically diagnosed by the presence of three or more of the following components: unintentional weight loss over the last year, weakness, exhaustion, slow gait, and low physical activity level. Other criteria for diagnosing and assessing frailty are functional factors such as grip strength and gait speed. More holistic definitions of frailty also consider the presence of comorbidities, cognitive impairment, psychosocial risk factors and other common geriatric syndromes. The use of clinical scores to quantify frailty has been attempted, but it is undermined by encountered limitations in terms of ethnicity, risk prediction, diagnosis, and prognosis. However, advancements in the understanding of the biological processes related to frailty and aging, along with the development of high-throughput techniques, allowed the development of novel assessment models based on “omics” biomarkers.\n\nPart of the deconditioning of human physiology caused by spaceflight resembles the features of frail patients, for instance the physical component related to muscle loss.\n\nSarcopenia is generally defined as a progressive age-related condition characterized by the loss of skeletal muscle quality, performance, strength, and mass. When this condition is driven by aging, it is defined as primary sarcopenia. Interestingly, muscle loss in astronauts shares similarities with sarcopenia in the elderly, especially during long duration spaceflight, and could be interpreted as a sarcopenia-like syndrome.\n\nThe study of frailty traits in astronauts involves the investigation of aging’s biological pathways, which could be elicited by the space environment. Yet, despite the reported similarities between the features of frailty and consequence of spaceflight, it remains unclear whether the space environment can influence the onset of age-related dysfunctions in astronauts. Getting insights about the signatures of frailty and sarcopenia in spaceflight data is a key step towards the development of countermeasures to achieve safer crewed space missions and translate therapy to patients on Earth. Here, we hypothesize the emergence of aging, frailty and sarcopenia related transcriptomic signatures during and after spaceflight in astronauts, murine and cellular models. We investigate this occurrence using multi-omics and systems-informatic approaches. We analyzed transcriptomic data from rodent research missions flown to the International Space Station (ISS) (available from NASA’s Open Science Data Repository (OSDR), previously known as GeneLab), astronaut data from a recent JAXA study, and data from the first civilian commercial spaceflight mission, Inspiration4 (i4). We identified altered expression in genes related to frailty and muscle loss, that may lead to an early frailty phenotype. Our results raise the possibility that exposure to the space environment leads to changes consistent with frailty, including inflammation, muscle wasting and other age-related features. Our findings propose a method to study the development of frailty-related health risks, which astronauts may develop during spaceflight, in the perspective of achieving adequate preventative measures.",
+  "methods": "Methods\n\nEthical statement\n\nAll human studies were done with ethical approvals with established and approved IRBs at Weill Cornell Medicine. Blood samples were provided by SpaceX Inspiration4 crew members after consent for research use. The procedure followed guidelines set by Health Insurance Portability and Accountability Act (HIPAA) and operated under Institutional Review Board (IRB) approved protocols and informed consent was obtained. Experiments were conducted in accordance with local regulations and with the approval of the IRB at the Weill Cornell Medicine (IRB #21-05023569).\n\nAnalyses of NASA open science data repository datasets: differential gene expression and GSEA pathway analysis\n\nAll murine data were obtained from NASA Open Science Data Repository (former GeneLab), where they were previously collected and shared by other investigators. No live animals were used in this investigation. The Open Science Data (OSD) we analyzed are: OSD-21, OSD-52, OSD-99, OSD-101, OSD-103, OSD-104, OSD-105 and OSD-195. Information regarding the chosen datasets is provided in Table 1.\n\nThe Genelab datasets are re-analyzed to produce the t-score. The Differential Expression (DE) analysis of RNA-Seq datasets (OSD-99, OSD-101, OSD-103, OSD-104, OSD-105) is performed using DESeq2 version 1.26.0, in R software version 4.1.2. Expected counts from the RSEM step were extracted and rounded up to the next integer and used as input for DE analysis. The Differential Expression (DE) analysis of microarray datasets (OSD-21, OSD-52, OSD-195) is performed using the package limma, in R version 4.1.2. The Ensembl IDs of the genes in the DE datasets were annotated to their corresponding gene symbols using the R package biomaRt.\n\nWe performed gene set enrichment analysis (GSEA) on the differentially expressed datasets using fGSEA package to determine to what extent aging and putative frailty pathways were impacted in spaceflight. Tentative aging and frailty gene pathways were downloaded from the Molecular Signatures Database (MSigDB)—a joint project of UC San Diego and Broad Institute. MSigDB is a multicollection of databases among which are databases of curated gene sets, and databases of ontology gene sets that are used in pathway analysis. The latest version MSigDB v2022.1 was used in the pathway search.\n\nIn search of pathways that are potentially related to frailty, in MSigDB, we entered keywords of processes that are common denominators to aging in different organisms. The processes of interest are: changes in genomic and genetic material; cellular processes; nutrient signaling; and responses at the tissue level with bone and muscle as the tissues of interest. Changes in genomic and genetic material that are deemed to potentially associate with frailty include genome instability, epigenetic alterations, histone modifications, DNA methylation, DNA damage, and changes in chromatin structure. Cellular processes that are of interest to frailty pathways include: (1) processes that are key to maintaining the cell cycle—cell senescence, stem-cell generation, and the pathways that involve p53, the protein tumor suppressor; (2) mechanisms involved in proteostasis (protein regulation); (3) mitochondrial processes involving dysfunction and disease; and (4) intercellular processes that involve inflammation and intercellular communication. The actions of the protein complexes—proteasome, lysosome, and chaperone—are considered in the network of pathways that regulate proteins. Putative pathways of nutrient sensing and signaling include pathways mediated by insulin signaling and mTor signaling, and the role of Ampk.\n\nThe downloaded pathways were identified as putative frailty pathways when at least two (2) putative frailty biomarker genes were present among the genes that are involved in the pathway. This is applied from the following reasoning: if multiple genes that can possibly interact to express a phenotype are present in a pathway, then that pathway can be associated with that phenotype.\n\nThe outcome of the fGSEA analysis is the normalized enrichment score (NES) of any given pathway, alongside valuable information on the analysis, such as the adjusted p-value, and the leading-edge genes of the pathway. The NES is the enrichment score normalized based on the number of genes in the gene set. It indicates the representation of the pathway genes in the dataset gene list, which is priorly ranked according to the values of the t-score of the genes. A positive NES indicates that the pathway genes are mostly represented at the top of the gene list, while a negative NES indicates that the pathway genes are mostly represented at the bottom of the gene list. The plots of the NES of the different pathways for a given dataset are produced using ggplot2, and the heatmaps across different datasets or different genes are obtained using a complex heatmap R package.\n\nAnalysis on frailty biomarker genes and pathways\n\nA list of Frailty Biomarkers was generated from a survey of literature that was produced from studies that were inspired by the FRAILOMICS Initiative. The biomarker genes for mouse (Mus musculus) were obtained as a literal translation from human biomarker genes using biomaRt.\n\nHistorically, frailty was assessed based on measuring functional phenotypic parameters. The Fried phenotype regards frailty as a biological syndrome that comprises five components, i.e., shrinking, weakness, fatigue, slowness, and a low physical activity level; frailty is diagnosed when poor performance in three or more components are present. The Rockwood frailty index identifies frailty based on the accumulation of age-related deficits, including various symptoms, signs, functional impairments, and laboratory abnormalities; it is calculated as the ratio of the number of accumulated deficits divided by the total number of deficits measured. The FRAILOMICS Initiative was introduced with the aim of developing validated measures comprising both classic and omics-based laboratory biomarkers.\n\nSince the inception of initiatives such as the FRAILOMICS, a number of approaches have been utilized to identify molecular biomarkers of frailty, among which are: the identification of differentially expressed biomarkers based on the risk of frailty; the identification of genes regulated in “hallmarks of aging” pathways; and the identification of molecular biomarkers that closely associate inflammatory mediators with frailty.\n\nIn the publication by Durinck et al., subjects are stratified as frail or non-frail based on Fried’s definition, and frailty biomarkers are identified as those that are upregulated in frail subjects.\n\nIn the publication by Berrios et al., gene expression databases were searched to identify genes regulated in “hallmark of aging” pathways, namely (1) inflammation, (2) mitochondria and apoptosis, (3) calcium homeostasis, (4) fibrosis, (5) neuromuscular junction (NMJ) and neurons, (6) cytoskeleton and hormones. A total of 44 biomarkers were evaluated based on differential expression. The markers were categorized by priority scores, with a higher priority score reflecting an upregulation of the biomarker in several pathways.\n\nIn the publication by Lebrasseur et al., a meta-analysis was conducted with the aim of showing whether inflammatory mediators are overproduced in frail older adults. Forty-nine studies, published between 2002 and 2018 analyzing frailty and inflammation parameters, were selected for the meta-analysis. Among them, 35 studies (70%) associated frailty to CRP, 33 studies (66%) evaluated IL6, 13 studies (26%) reported data for TNFα, and 12 (24%) analyzed other different inflammation biomarkers, including IL10, soluble TNF receptors I (sTNF-RI) and II (sTNF-RII), intercellular adhesion molecule 1 (ICAM-1), monocyte chemoattractant protein-1 (MCP-1), and IL6 receptor (IL6-R). Regarding frailty identification, 92% of the studies employed Fried’s frailty criteria, 6% of the studies used the frailty index developed by Rockwood and Mitnitski, and the remaining small percentage of studies employed tools and indicators recently described in the literature.\n\nIn the work described in this paper, the authors have used the biomarker genes identified in the named studies as putative biomarker genes of frailty to conduct their analyses.\n\nThe differential expression (log2foldchange and padj < 0.5) of frailty biomarker genes were determined from the following two human datasets (OSD-52 and 195) and six mice datasets (OSD-21, 99, 101, 103, 104, 105). Subsequently, to generate the Venn diagram, R language v4.1.0 was used, through the library ggplot2 v3.4.0. It was extracted from the table of frailty genes (Table 2), with genes unique to mice and humans, and with genes common for both (the intersections). After generating the diagram, a list of genes was extracted and manually added to the diagram. To generate the two upset plot graphs (for mice genes and human genes), the R language was also used, using the library ggplot2 v3.4.0 and ComplexUpset v1.3.5. Finally, to generate the heatmap, the python 3 v3.10.0 language was used, through the Seaborn v0.12.1 and Clustermap v0.11.12 libraries. Two heatmaps were generated (one for the mice genes and the other for the human genes), relating the genes to the respective OSD datasets. To complement the heatmap analyses, a dendrogram has also been added for each graph.\n\nInspiration4 (i4) sample collection\n\nInspiration4 was the world’s first all-civilian mission to orbit Earth. Four civilians, two males and two females, spent three days in low-Earth orbit (LEO) at 585 km above Earth. The mission launched from NASA Kennedy Space Center on September 15th, 2021, and splashed down in the Atlantic Ocean near Cape Canaveral on September 18th, 2021. Several human related experiments were carried out to study the effects of spaceflight on human health and performance in collaboration with SpaceX, the Translational Research Institute for Space Health (TRISH) at Baylor College of Medicine (BCM), and Weill Cornell Medicine. The experiments conducted on the Inspiration4 crew members were performed in accordance with the relevant guidelines and experimental protocols were approved at the principal investigators’ institutions at Weill Cornell Medicine. All I4 crew members have given informed consent to participate in these studies. The i4 crews’ physiological changes were monitored with ultrasound scanning, molecular diagnostics devices, smartwatch wearables devices, and etc.. Infection or inflammation are the most prevalent clinical symptoms found during the long-term (around 6 months) spaceflight. However, there were no clinical reports of infection or inflammation. Although two astronauts presented with space motion sickness, most metrics (e.g., internal jugular vein size, heart rate, complete blood count, gene expression, and cytokines) were either stable, or quickly reverted back to baseline after landing. The experiments conducted by the Inspiration4 crew members were performed in accordance with the relevant guidelines at the principal investigators’ institutions. Moreover, the different study designs and the corresponding methods to collect and analyze the biological samples were approved by the corresponding institutional IRB. All biological data derived from the Inspiration4 mission were collected pre and post flights. For this study, only data from blood samples were used. Pre-flight samples were collected at L-92, L-44, and L-3 days prior to launch to space. Upon return, post-flight samples were collected at R + 1, R + 45, and R + 82 days.\n\ni4 PBMC Single cell sequencing and analysis\n\nBlood samples were collected before (Pre-launch: L-92, L-44, and L-3) and after (Return; R + 1, R + 45, and R + 82) the spaceflight. Chromium Next GEM Single Cell 5’ v2, 10 × Genomics was used to generate single cell data from isolated PBMCs. Subpopulations were annotated based on Azimuth human PBMC reference. Dot plots are generated by the Seurat R package.\n\nJAXA cell-free epigenome (CFE) study RNA quantification data\n\nAggregated RNA differential expression data and study protocols were shared through NASA’s Open Science Data Repository with accession number: OSD-530. Plasma cell-free RNA samples for RNA-seq analysis were derived from blood samples collected from 6 astronauts before, during, and after spaceflight on the ISS. Mean expression values were obtained from normalized read counts of 6 astronauts for each time point. Heatmaps were made for the frailty genes on the normalized values per time point using R package pheatmap version 1.0.12.\n\nQuantification of genes associated with sarcopenia\n\nThe curated short gene list of predictors of sarcopenia was obtained by analyzing a population of age matched individuals with and without sarcopenia using the expression superserie GSE111017. This list contains 21 genes that can predict sarcopenia in patients with an accuracy > 75%. The method for obtaining the gene list was performed as previously described. Here, we used GOstat 2022-11-03 on R version 4.2 to find enriched Biological Process and Molecular Function terms (Fig A and C). Using the obtained GO terms we found that some of the Frailty linked genes from JAXA CFE were also part of some of the same processes (Fig B and D). The figure was created using the GOplot package 1.0.2 and modified to display the MAS for each gene. Finally, to determine the relevance of the shared 21 genes between all gene lists (Fig E), we assessed their expression in the mice datasets OSD-99, OSD-101, OSD-103, OSD-104, and OSD-105. Finally, the heatmap was generated as before using python 3 v3.10.0 language, through the Seaborn v0.12.1 and Clustermap v0.11.12 libraries and a dendrogram has also been added for each graph.\n\nMetabolic flux simulation analysis\n\nWe ran metabolic flux simulation on all available metabolic reactions for each RNA sequencing sample while applying our custom-made context-specific constraint-based metabolic modeling approach significantly updated from. This updated simulation model was constructed based on the RECON3D metabolic model whose metabolic reactions were subsetted through CORDA and Cobrapy with gene-reaction-rule, where enzyme expression levels are linked to their corresponding metabolic reactions. For CORDA, flux confidence parameters ranging from 3 to 1 were decided as; (i) 55%, 25%, and 20% for OSD-91; (ii) 45%, 40%, and 15% for OSD-127, in order to minimize standard deviation of flux-levels across samples from each group for all groups. Also, several essential pathways such as ‘Glycolysis/Gluconeogenesis’, ‘CoA Synthesis’, ‘CoA Catabolism’, ‘NAD Metabolism’, ‘Fatty Acid Synthesis’, ‘Fatty Acid Oxidation’, and ‘Biomass and Maintenance Functions’ were manually activated for the simulation model stability. Note that ‘Oxidative Phosphorylation’ and ‘Citric Acid Cycle’ were not included in the essential pathways to take into account mitochondrial dysregulation. Our metabolic model initially optimized for NAD biosynthesis whose capacity through all pathways of human was computed by estimating optimized ‘NAD sink’ reaction flux level where the sink was defined as large pools of metabolites importing metabolites from/to the system. Subsequently, optimization for all available reactions was conducted iteratively to compute flux levels of their corresponding reactions by Gurobi solver as LP whose reference manual can be found in https://www.gurobi.com. While gene expression levels were applied into the model by each sample, the other parameters were maintained identically for all simulation, where an environment i.e., Jupyter notebook 6.1.5 on Python 3.7.7 was utilized. The simulation reported outcomes as flux levels of all available reactions through the custom-made flux balance analysis (FBA) analyses and the levels were analyzed as grouped variables for comparison between ‘Flight’ and ‘Ground’ groups. Since it is hard to presume variance or normality between ‘Flight’ and ‘Ground’, a non-parametric Van der Waerden (VdW) test was applied to properly compare their flux levels using the R matrixTests package (v. 0.1.9). The comparison is illustrated as heatmaps with row-wise Z-scores on flux levels per each reaction in Fig. 8. Tabular data of metabolic flux analysis is shown in supplement 6.\n\nSupplementary Information",
+  "results": "Results\n\nMultiple frailty related biomarkers are differentially expressed in rodent muscles during spaceflight\n\nTo determine the impact of frailty during spaceflight, we constructed, based on previous literature, a list of putative frailty biomarker genes for humans and mice (Supplementary Data 1). Mouse (OSD-21, 99, 101, 103, 104, 105) datasets from OSDR were analyzed to identify differentially expressed genes (DEGs) in flight versus control condition with a statistical cut-off of adjusted p-value < 0.5. In mice, altered expression of frailty-related genes in the following tissues were identified: gastrocnemius (34 genes in OSD-21 and 8 genes in OSD-101); extensor digitorum longus (EDL) (45 genes in OSD-99); quadriceps (26 genes in OSD-101); soleus (36 genes in OSD-104); tibialis anterior (32 genes in OSD-105) (Fig. 2A). A maximum number of four frailty-related genes was also found to be unique to each tissue type and a maximum number of 4 was common between the different datasets (Supplementary Data 2). Hierarchical clustering of the overlapping gene expression across muscle types revealed a bias towards the up-regulation of frailty-related genes (Fig. 2B). As an example, the extensor digitorum longus had several upregulated genes (EGLN3, PTGS2, VDR, FREM2, KRT18, BCL2L1, LGALS3, CXCL10, CX3CL1, FNDC5, TGFB1, CAN, and PPARGC1A). Whereas the soleus (OSD-104) had relatively few downregulated genes (GDF15, PTGS2, BDNF, PAX5, CX3CL1, FNDC5, VCAN, CALU, and SESN2).\n\nInterferon inflammatory response and muscle tissue development pathways are enriched in rodent muscles during spaceflight\n\nTo determine overall frailty impact of spaceflight on tissues Gene Set Enrichment Analysis (GSEA) analysis was performed on specific aging-related pathways (selected from the Molecular Signatures Database (MSigDB) (Supplementary Data 3). Rodent datasets showed a general enrichment of the pathways with an overall upregulation in EDL and tibialis anterior, downregulation in quadriceps, and a mixed regulation in gastrocnemius soleus (Fig. 3A,B). Summary themes of each functional cluster are displayed by the external color panel at the right side of sub-figure B and C. Despite a mixed direction of regulation, a clear enrichment of these pathways in the spaceflight group when compared to the control was evident across the datasets. The soleus muscle revealed an increase in the innate immune response inflammatory signature and concomitant downregulation of the IGF-1 pathway (Fig. 3B). Previous literature showed that the soleus muscle is the first to be impacted by spaceflight and also known to experience a significant dysregulation of mitochondrial and immune functions in space. Immune response can downregulate IGF-1 anabolic activity, promoting muscle wasting. Of note, this muscle shows the largest decline in mass in the RR1 mission and IGF-1 pathway might be involved. Several putative aging-related pathways were enriched in human datasets (Fig. 3C), showing up-regulation in the majority of cases. Of note, interferon alpha and gamma response pathways are upregulated in all the datasets investigated. The increase in immune and inflammatory signatures we identified is consistent with various reports that associate chronic inflammation with frailty, although causality has yet to be established. Nonetheless, our results could be useful for biomarkers related to spaceflight risk and consistent with clinical correlations of increased low-grade inflammation and muscle wasting.\n\nNovel sarcopenia-related genes are differentially expressed during spaceflight\n\nSarcopenia is a condition associated with frailty. In our analysis, the best predictors of sarcopenia were genes that are part of autophagic and protein degradation processes. After studying databases from 118 people with and without sarcopenia (GSE111006, GSE111010, and GSE111016), 6,892 DEGs were identified by performing Mann–Whitney U tests on gene expression data for every single gene (i.e., 65,217 genes) in a pair-wise manner across samples from both sets of patients (Supplementary Data 4). A simple classifier (i.e., k-nearest neighbors) was then used to estimate individual predictive power for that condition. Next, via co-expression network analysis upon these DEGs, the most highly correlated module (i.e., BROWN = 0.93) to sarcopenia was found. We used a pathway and gene ontology analysis upon BROWN to curate a list of 21 genes that were significantly enriched in biological processes related to sarcopenia.\n\nHere, we found that the frailty biomarkers list was enriched in Biological Processes Gene Ontology (BP GO) terms in a very similar manner to those found with sarcopenic biomarkers alone (Fig. 4A). In addition to BP GO, the same was true for molecular functions (MF) GO term enrichment (Fig. 4C). Interestingly, we found that eight of the biomarkers identified for frailty had the ability to predict sarcopenia in GSE111006, GSE111010, and GSE111016 with a Mean Accuracy Score (MAS) of > 0.65 (RP1L1, SH3GL3, HIF1A, FGF23, FASLG, MAS1, PAX5, and REV1) (Fig. 4B,D).\n\nUsing the sarcopenia gene expression classifier we had established above, we re-examined the existing datasets for alterations in the 21 genes. To do so, we took the expression data from the murine datasets (EDL (ODS-99), left gastrocnemius (ODS-101), quadriceps (ODS-103), soleus (ODS-104), and tibialis anterior (ODS-105)) and evaluated the expression of our sarcopenia classifier (Fig. 4E). We found that only GJB4, HNRNPCL1, GOLGA2 and POMC were DEGs in at least one of the datasets. GJB4 is a connexin (Cx) gene encoding the gap junction protein CX30.3. HNRNPCL1 plays a role in consolidating the nucleosome and neutralizing core hnRNPs proteins. GOLGA2 encodes the GM130 protein necessary for the assembly of the Golgi apparatus. Interestingly, mutations in GOLGA2 lead to neuromuscular disorders and muscular dystrophy. POMC codes for the precursor protein proopiomelanocortin producing active peptides generating melanocyte stimulating hormones (MSHs), corticotropin (ACTH) and β-endorphin. POMC deficiency leads to adrenal failure and obesity. Of note, the dataset from the soleus muscle in mice (OSD-104), demonstrated to have a significant overexpression of GJB4, POMC and significant downregulation of HNRNPC (p < 0.05).\n\nMultiple frailty related biomarkers are differentially expressed in human muscles during spaceflight\n\nWe applied the same list of putative frailty biomarker genes (Supplementary Data 1) to investigate differentially expressed genes in Open Science Dataset’s human samples as in Fig. 2. OSD-52 and 195 were analyzed to identify differentially expressed genes (DEGs) in flight, on random positioning machine or in bed rest versus control condition with a statistical cut-off of adjusted p-value < 0.5. Vastus lateralis muscle (OSD-52), cardiac progenitors (OSD-127) and endothelial cells (OSD-195) showed 22, 2 and 4 frailty-related genes, respectively (Fig. 5A).\n\nWe compared the differential expression profiles between mice and human dataset. Approximately a third of the frailty genes were conserved between humans and mice, which suggests that the murine models can provide good translation to human biology (Fig. 5B). Out of 73 differentially expressed frailty-related genes, 22 (32%) were common in humans and mice (Fig. 5B). Forty-three (62%) were unique to mice and 4 (6%) were unique to only humans. In humans, 9 frailty genes were upregulated and 13 were downregulated in the vastus lateralis muscle (Fig. 5C and Supplementary Data 2).\n\nSeveral downregulated genes were associated with immunity-related pathways, while most upregulated genes were associated with metabolism and Vitamin K or D pathways. In endothelial cells, two genes were downregulated, and two were upregulated. The downregulated genes, TMEM245 and PPARGC1A, are associated with the cell-membrane and gluconeogenesis, while the upregulated genes, MSTN and PTGS2, are associated with regulation of skeletal muscle growth and prostaglandin biosynthesis (Supplementary Data 5). While there is  no direct link between gluconeogenesis and frailty, both are related to the body's response to stress and maintaining homeostasis. Diabetes, a condition that affects glucose metabolism, has been linked to frailty. In diabetes, the body's ability to regulate blood glucose levels is impaired, potentially impacting gluconeogenesis. Frail individuals, who have a diminished ability to resist stressors, may be more susceptible to the effects of these metabolic imbalances.\n\nMultiple frailty related biomarkers are differentially expressed in astronauts\n\nHaving confirmed altered aging and frailty signatures in largely rodent transcriptomic data, we wanted to test if frailty biomarkers were also altered in astronauts. To enable this analysis, we used two recent studies. First, using astronaut data from JAXA plasma cell-free RNA profiling study, we examined the changes occurring in RNAs from the frailty biomarker genes between pre-flight, in-flight, and post-flight (i.e., after return to Earth) (Fig. 6). Our RNA analysis reveals a global response of frailty-related gene expression to the space environment, which is characterized by in-flight and post-flight expression changes. Most of the genes investigated were subject to changes when compared to pre-flight conditions, either during spaceflight or later after return to Earth. A large number of genes that were reduced during spaceflight showed an increase after re-entry (e.g., AKT1, NOS2, FGF23, and HIF3A). Conversely, several genes show an opposite behavior and tended to be reduced during spaceflight, and underwent reduction after re-entry (e.g., TGFB1, B2M, NOS1, AOC1, SOD2, SOD3, and OAZ1).\n\nInterestingly, cell-free RNAs from several genes (e.g,. FGF23, KRT18, AKT1, B2M, NOS1, AOC1, SOD2 and SOD3) did not return to the pre-flight baseline levels, even after 120 days. The data suggest that space conditions alter the HIF1 pathway which stimulates the various molecular or cellular processes related to hypoxia-responsive genes such as HIF1A, HIF1AN, ARNT, ARNT2, NOS1, NOS2, NOTCH1 and RBX1, that are known to regulate a wide variety of cellular physiology including metabolic reprogramming, anti-apoptosis, migration, proliferation, amyloid β production and prion stabilization. An interesting observation emerging from the data is the increased cell-free RNA signature of HIF1A and HIF3A post-flight. Hypoxia Inducible Factor (HIF) is a key regulator of immune cell function, and its dysregulation could alter immune response. We also observe an increase of RNAs derived from several nitric oxide (NO) related genes, which are biologic mediators in multiple processes, such as in neurotransmission and microbial and antitumoral activities. It is understood that nitric oxide (NO) is a key vasodilator in the cardiovascular system and its synthesis is catalyzed by the enzyme family nitric oxide synthases (NOS), neuronal (NOS1), inducible (NOS2) and endothelial synthases (NOS3). NOS1 and NOS2 are constitutively expressed by tubules of the human kidney, while NOS3 is expressed by endothelial cells and is implicated with the formation and maintenance of vascularized tissues. Furthermore, AKT1 plays a role in the signal transduction of growth factors, as well as in cell survival, cellular senescence, and aging. There is evidence that AKT signaling is associated with an imbalance of phosphatidylinositide 3-kinases that is altering the aged brain. Chronic AKT activation intensified aging-induced cardiac hypertrophy in murine heart tissues. In connection to phosphate intake, FGF23 is known to be secreted from the skeletal system and influence the kidneys through the klotho gene receptor36. The upregulation of HIF-related genes could be interpreted through findings from earlier studies which have implicated the HIF pathway with the impairment of energy-dependent cellular processes, and mutations in mitochondrial DNA which accelerate aging processes.\n\nNext, we used data from the first civilian commercial 3-day space mission (referred to as Inspiration4 (I4), to examine the impact of short-duration spaceflight on putative frailty biomarker transcriptomic signature. From the I4 mission, single-cell gene expression data from peripheral blood mononuclear cells (PBMCs) were generated and compared across multiple timepoints (Fig. 7A). Frailty genes were increased in PBMCs and subpopulations post-flight compared to pre-flight timepoints, and the percentage of the increased genes were higher than the percentage of differentially expressed genes (DEGs) (Fig. 7B). The percentage of increased frailty genes was the highest in PBMCs, lowest in dendritic cells (DCs), and similar in the remaining subpopulations (Fig. 7B). Generally, the average expression and percentage of expression of the increased genes were increased at R + 1 compared to pre-flights (L-92, L-44, L-3) and returned to baseline over time (Fig. 7C). For example, several genes were upregulated in various pathways at R + 1 compared to pre-flight and reverted to baseline over time. Implicated pathways include: immunity (ARG2, PPARD), EGFR trafficking (ATXN2), regulators of apoptosis (BCL2L1, FAS), survival factor for neuronal cell types (CNTF), cell–cell signaling (JAG1), metabolism (PPARD), DNA repair (REV1), neuronal excitability and synaptic transmission (SNX14), structural component of sarcomeric Z-line (TMEM245) and cell cycle regulation (TP53) (Fig. 7C).\n\nMetabolic flux simulations of gene expression changes reveal dysregulation of metabolic functions related to frailty\n\nHaving found alterations in gene expression associated with aging and frailty and knowing that biologic systems are dynamic, we used a subset of the gene expression to examine dynamic changes in metabolism. We applied our updated, context-specific, metabolic models that performed custom-made flux balance analysis (FBA) simulations. Here, we used two different transcriptional changes (RNA-seq) between flight and ground (OSD-91 (GSE65943) for cultured human TK6 lymphoblastoid cells; and OSD-127 (E-GEOD-84582) for cardiomyocytes from human pluripotent stem cells) (Fig. 8).\n\nIn TK6 lymphoblastoid cells, microgravity led to transcriptional changes through altered methylation patterns. These transcriptional changes, in turn, altered the oxidative stress and carbohydrate metabolism pathways. However, the flux simulation analysis showed that other pathways associated with lipid metabolism, fatty acid oxidation, fatty acid synthesis, and bile acid synthesis, are downregulated during flight. While chondroitin sulfate degradation, nucleotide interconversion, and peroxisomal transport are upregulated. Considering the carbohydrate metabolism aspect of the flux simulation analysis, only pyruvate metabolism (end product of glycolysis) showed significantly altered expression in microgravity (Figs. 8A,C).\n\nBy contrast, the other metabolic flux simulation displayed marked up-regulation during flight in lipid metabolism associated pathways: fatty acid oxidation, fatty acid synthesis, and glycerophospholipid metabolism (Figs. 8B,D). The cells also exhibited increased galactose metabolism, nucleotide interconversion, Coenzyme A (CoA) synthesis, glutathione metabolism, as well as pentose phosphate pathway in carbohydrate metabolism. The only significant downregulation in microgravity was detected in folate metabolism. This cardiomyocyte study (using 3D tissue engineering of cardiac progenitors from human pluripotent stem cells) found increased gene expression levels associated with growth, development, and survival for cardiac progenitors in microgravity.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genetics",
+    "Medical research",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Red risks for a journey to the red planet: The highest priority human health risks for a mission to Mars",
+      "authors": [
+        "ZS Patel",
+        "TJ Brunstetter",
+        "WJ Tarver"
+      ]
+    },
+    {
+      "title": "The effects of microgravity and space radiation on cardiovascular health: From low-Earth orbit and beyond",
+      "authors": [
+        "S Patel"
+      ]
+    },
+    {
+      "title": "Fundamental biological features of spaceflight: Advancing the field to enable deep-space exploration",
+      "authors": [
+        "E Afshinnekoo",
+        "RT Scott",
+        "MJ MacKay"
+      ]
+    },
+    {
+      "title": "A review of alterations to the brain during spaceflight and the potential relevance to crew in long-duration space exploration",
+      "authors": [
+        "M Roy-O’Reilly",
+        "A Mulavara",
+        "T Williams"
+      ]
+    },
+    {
+      "title": "The kinetics of carbon pair formation in silicon prohibits reaching thermal equilibrium",
+      "authors": [
+        "P Deák",
+        "P Udvarhelyi",
+        "G Thiering",
+        "A Gali"
+      ]
+    },
+    {
+      "title": "The hallmarks of aging",
+      "authors": [
+        "C López-Otín",
+        "MA Blasco",
+        "L Partridge",
+        "M Serrano",
+        "G Kroemer"
+      ]
+    },
+    {
+      "title": "The physical frailty syndrome as a transition from homeostatic symphony to cacophony",
+      "authors": [
+        "LP Fried",
+        "AA Cohen",
+        "QL Xue",
+        "J Walston",
+        "K Bandeen-Roche",
+        "R Varadhan"
+      ]
+    },
+    {
+      "title": "Inflammageing: Chronic inflammation in ageing, cardiovascular disease, and frailty",
+      "authors": [
+        "L Ferrucci",
+        "E Fabbri"
+      ]
+    },
+    {
+      "title": "Inflammaging: A new immune-metabolic viewpoint for age-related diseases",
+      "authors": [
+        "C Franceschi",
+        "P Garagnani",
+        "P Parini",
+        "C Giuliani",
+        "A Santoro"
+      ]
+    },
+    {
+      "title": "Sarcopenia, frailty and their prevention by exercise",
+      "authors": [
+        "CM Nascimento",
+        "M Ingles",
+        "A Salvador-Pascual",
+        "MR Cominetti",
+        "MC Gomez-Cabrera",
+        "J Viña"
+      ]
+    },
+    {
+      "title": "Sarcopenia and frailty: new challenges for clinical practice",
+      "authors": [
+        "R Dodds",
+        "AA Sayer"
+      ]
+    },
+    {
+      "title": "Association between frailty and the combination of physical activity level and sedentary behavior in older adults",
+      "authors": [
+        "VD da Silva",
+        "S Tribess",
+        "J Meneguci"
+      ]
+    },
+    {
+      "title": "Frailty in older adults: Evidence for a phenotype",
+      "authors": [
+        "LP Fried",
+        "CM Tangen",
+        "J Walston"
+      ]
+    },
+    {
+      "title": "The frailty syndrome: Definition and natural history",
+      "authors": [
+        "QL Xue"
+      ]
+    },
+    {
+      "title": "Psychological and social factors associated with coexisting frailty and cognitive impairment: A systematic review",
+      "authors": [
+        "A Ellwood",
+        "C Quinn",
+        "G Mountain"
+      ]
+    },
+    {
+      "title": "Ethnic differences in the prevalence of frailty in the United Kingdom assessed using the electronic Frailty Index",
+      "authors": [
+        "S Pradhananga",
+        "K Regmi",
+        "N Razzaq",
+        "A Ettefaghian",
+        "AB Dey",
+        "D Hewson"
+      ]
+    },
+    {
+      "title": "Sarcopenic obesity in older adults: Aetiology, epidemiology and treatment strategies",
+      "authors": [
+        "JA Batsis",
+        "DT Villareal"
+      ]
+    },
+    {
+      "title": "Are skeletal muscle changes during prolonged space flights similar to those experienced by frail and sarcopenic older adults?",
+      "authors": [
+        "A Cannavo",
+        "A Carandina",
+        "G Corbi",
+        "E Tobaldini",
+        "N Montano",
+        "B Arosio"
+      ]
+    },
+    {
+      "title": "NASA GeneLab: Interfaces for the exploration of space omics data",
+      "authors": [
+        "DC Berrios",
+        "J Galazka",
+        "K Grigorev",
+        "S Gebre",
+        "SV Costes"
+      ]
+    },
+    {
+      "title": "Towards frailty biomarkers: Candidates from genes and pathways regulated in aging and age-related diseases",
+      "authors": [
+        "AL Cardoso",
+        "A Fernandes",
+        "JA Aguilar-Pimentel"
+      ]
+    },
+    {
+      "title": "Omics biomarkers for frailty in older adults",
+      "authors": [
+        "Y Pan",
+        "T Ji",
+        "Y Li",
+        "L Ma"
+      ]
+    },
+    {
+      "title": "Identifying Biomarkers for biological age: Geroscience and the ICFSR task force",
+      "authors": [
+        "NK Lebrasseur",
+        "R de Cabo",
+        "R Fielding"
+      ]
+    },
+    {
+      "title": "Regulation of myostatin on the growth and development of skeletal muscle",
+      "authors": [
+        "MM Chen",
+        "YP Zhao",
+        "Y Zhao",
+        "SL Deng",
+        "K Yu"
+      ]
+    },
+    {
+      "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "authors": [
+        "A Subramanian",
+        "P Tamayo",
+        "VK Mootha"
+      ]
+    },
+    {
+      "title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact",
+      "authors": [
+        "WA da Silveira",
+        "H Fazelinia",
+        "SB Rosenthal"
+      ]
+    },
+    {
+      "title": "Frailty is associated with chronic inflammation and pro-inflammatory monocyte subpopulations",
+      "authors": [
+        "M Cybularz",
+        "S Wydra",
+        "K Berndt"
+      ]
+    },
+    {
+      "title": "Validation of a new rodent experimental system to investigate consequences of long duration space habitation",
+      "authors": [
+        "SY Choi",
+        "A Saravia-Butler",
+        "Y Shirazi-Fard"
+      ]
+    },
+    {
+      "title": "Mitochondrial oxidative capacity and NAD+ biosynthesis are reduced in human sarcopenia across ethnicities",
+      "authors": [
+        "E Migliavacca",
+        "SKH Tay",
+        "HP Patel"
+      ]
+    },
+    {
+      "title": "On a test of whether one of two random variables is stochastically larger than the other",
+      "authors": [
+        "HB Mann",
+        "DR Whitney"
+      ]
+    },
+    {
+      "title": "Caicedo, A. et al. Key Genes, Altered Pathways and Potential Treatments for Muscle Loss in Astronauts and Sarcopenic Patients. Research Square PREPRINT (Version 1). 10.21203/rs.3.rs-2819258/v1.",
+      "authors": []
+    },
+    {
+      "title": "WGCNA: An R package for weighted correlation network analysis",
+      "authors": [
+        "P Langfelder",
+        "S Horvath"
+      ]
+    },
+    {
+      "title": "Genetic heterogeneity in erythrokeratodermia variabilis: Novel mutations in the connexin gene GJB4 (Cx30.3) and genotype-phenotype correlations",
+      "authors": [
+        "G Richard",
+        "N Brown",
+        "F Rouan"
+      ]
+    },
+    {
+      "title": "Genomic Copy number analysis in Alzheimer’s disease and mild cognitive impairment: An ADNI study",
+      "authors": [
+        "S Swaminathan",
+        "S Kim",
+        "L Shen"
+      ]
+    },
+    {
+      "title": "GOLGA2, encoding a master regulator of Golgi apparatus, is mutated in a patient with a neuromuscular disorder",
+      "authors": [
+        "HE Shamseldin",
+        "AH Bennett",
+        "M Alfadhel",
+        "V Gupta",
+        "FS Alkuraya"
+      ]
+    },
+    {
+      "title": "Association of inflammatory mediators with frailty status in older adults: Results from a systematic review and meta-analysis",
+      "authors": [
+        "D Marcos-Pérez",
+        "M Sánchez-Flores",
+        "S Proietti"
+      ]
+    },
+    {
+      "title": "Sarcopenia and diabetes: A detrimental liaison of advancing age",
+      "authors": [
+        "G Lisco",
+        "OE Disoteo",
+        "A De Tullio"
+      ]
+    },
+    {
+      "title": "The outcome of frailty in older people with diabetes as a function of glycaemic control and hypoglycaemic therapy: A review",
+      "authors": [
+        "GL Keegan",
+        "N Bhardwaj",
+        "AH Abdelhafiz"
+      ]
+    },
+    {
+      "title": "Effects of different exercise interventions on risk of falls, gait ability, and balance in physically frail older adults: a systematic review",
+      "authors": [
+        "EL Cadore",
+        "L Rodríguez-Mañas",
+        "A Sinclair",
+        "M Izquierdo"
+      ]
+    },
+    {
+      "title": "The role of proopiomelanocortin (POMC) neurones in feeding behaviour",
+      "authors": [
+        "GW Millington"
+      ]
+    },
+    {
+      "title": "Muratani M. Cell-Free RNA Analysis of Plasma Samples Collected from Six Astronauts in JAXA Cell-Free Epigenome (CFE) Study - Version 1. National Aeronautics and Space Administration 10.26030/r2xr-h714",
+      "authors": []
+    },
+    {
+      "title": "Hypoxia in aging and aging-related diseases: mechanism and therapeutic strategies",
+      "authors": [
+        "Y Wei",
+        "S Giunta",
+        "S Xia"
+      ]
+    },
+    {
+      "title": "Hypoxia and aging",
+      "authors": [
+        "EJ Yeo"
+      ]
+    },
+    {
+      "title": "The role of HIF in immunity and inflammation",
+      "authors": [
+        "AF McGettrick",
+        "LAJ O’Neill"
+      ]
+    },
+    {
+      "title": "Neuronal nitric oxide synthase in vascular physiology and diseases",
+      "authors": [
+        "ED Costa",
+        "BA Rezende",
+        "SF Cortes",
+        "VS Lemos"
+      ]
+    },
+    {
+      "title": "Reducing the levels of Akt activation by PDK1 knock-in mutation protects neuronal cultures against synthetic amyloid-beta peptides",
+      "authors": [
+        "S Yang",
+        "S Pascual-Guiral",
+        "R Ponce"
+      ]
+    },
+    {
+      "title": "Peripheral SMN restoration is essential for long-term rescue of a severe spinal muscular atrophy mouse model",
+      "authors": [
+        "Y Hua",
+        "K Sahashi",
+        "F Rigo"
+      ]
+    },
+    {
+      "title": "Regulation of SIRT1 in aging: Roles in mitochondrial function and biogenesis",
+      "authors": [
+        "Y Yuan",
+        "VF Cruzat",
+        "P Newsholme",
+        "J Cheng",
+        "Y Chen",
+        "Y Lu"
+      ]
+    },
+    {
+      "title": "Kim, J., Tierney, B., et al Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal cell-type, sex, and microbiome-specific responses and recovery. Nat. Commun. In press (2024).",
+      "authors": []
+    },
+    {
+      "title": "A study of alterations in DNA epigenetic modifications (5mC and 5hmC) and gene expression influenced by simulated microgravity in human lymphoblastoid cells",
+      "authors": [
+        "B Chowdhury",
+        "A Seetharam",
+        "Z Wang"
+      ]
+    },
+    {
+      "title": "GeneLab: Omics database for spaceflight experiments",
+      "authors": [
+        "S Ray",
+        "S Gebre",
+        "H Fogle"
+      ]
+    },
+    {
+      "title": "Circulating miRNA spaceflight signature reveals targets for countermeasure development",
+      "authors": [
+        "S Malkani",
+        "CR Chin",
+        "E Cekanaviciute"
+      ]
+    },
+    {
+      "title": "Multi-omic, single-cell, and biochemical profiles of astronauts guide pharmacological strategies for returning to gravity",
+      "authors": [
+        "ML Gertz",
+        "CR Chin",
+        "D Tomoiaga"
+      ]
+    },
+    {
+      "title": "The NASA twins study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman",
+        "M Darshi",
+        "SJ Green"
+      ]
+    },
+    {
+      "title": "Simulated microgravity and 3D culture enhance induction, viability, proliferation and differentiation of cardiac progenitors from human pluripotent stem cells",
+      "authors": [
+        "R Jha",
+        "Q Wu",
+        "M Singh"
+      ]
+    },
+    {
+      "title": "Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)",
+      "authors": [
+        "EG Overbey",
+        "K Ryon",
+        "J Kim"
+      ]
+    },
+    {
+      "title": "Clonal hematopoiesis before, during, and after human spaceflight",
+      "authors": [
+        "N Mencia-Trinchant",
+        "MJ MacKay",
+        "C Chin"
+      ]
+    },
+    {
+      "title": "Jones, C.J., Overbey, E.G., et al The SpaceX Inspiration4 mission reveals inflight molecular and physiological metrics from an all-civilian crew. Nature. (2024).",
+      "authors": []
+    },
+    {
+      "title": "The Space Omics and Medical Atlas (SOMA): A comprehensive data resource and biobank for astronauts",
+      "authors": [
+        "EG Overbey"
+      ]
+    },
+    {
+      "title": "The second space age. omics, platforms, and medicine across orbits",
+      "authors": [
+        "CE Mason"
+      ]
+    },
+    {
+      "title": "Tierney, B., et al Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight. Nat. Microbiol. 10.1038/s41564-024-01635-8 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Park, J., et al Spatial multi-omics of human skin reveals KRAS and inflammatory responses to spaceflight. Nat. Commun. 10.1038/s41467-024-48625-2 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Grigorev, K. et al. Direct RNA sequencing of astronauts reveals spaceflight-associated epitranscriptome changes and stress-related transcriptional responses. Nat. Commun. 10.1038/s41467-024-48929-3 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Houerbi, N. et al. Secretome profiling captures acute changes in oxidative stress, brain homeostasis and coagulation from spaceflight. Nat. Commun. 10.1038/s41467-024-48841-w (2024).",
+      "authors": []
+    },
+    {
+      "title": "Rutter, L. et al Exploring protective alleles for precision health in human spaceflight. Nat. Commun. In press (2024).",
+      "authors": []
+    },
+    {
+      "title": "Garcia Medina S. Genome and Clonal Hematopoiesis Stability Contrasts with Immune, cfDNA, mitochondrial, and telomere length changes to Short Duration Spaceflight. Precision Clinical Medicine. In press (2024).",
+      "authors": []
+    },
+    {
+      "title": "Frailty in cardiac surgery",
+      "authors": [
+        "LY Koh",
+        "NC Hwang"
+      ]
+    },
+    {
+      "title": "In search of ’omics’-based biomarkers to predict risk of frailty and its consequences in older individuals: The FRAILOMIC initiative",
+      "authors": [
+        "JD Erusalimsky",
+        "J Grillari",
+        "T Grune"
+      ]
+    },
+    {
+      "title": "Age-related frailty and its association with biological markers of ageing",
+      "authors": [
+        "A Mitnitski",
+        "J Collerton",
+        "C Martin-Ruiz"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: Potential countermeasures for deep space exploration missions",
+      "authors": [
+        "BE Crucian",
+        "A Choukèr",
+        "RJ Simpson"
+      ]
+    },
+    {
+      "title": "The epigenetic legacy of ICU feeding and its consequences",
+      "authors": [
+        "I Vanhorebeek",
+        "G Van den Berghe"
+      ]
+    },
+    {
+      "title": "Long-term human spaceflight and inflammaging: Does it promote aging?",
+      "authors": [
+        "M Capri",
+        "M Conte",
+        "E Ciurca"
+      ]
+    },
+    {
+      "title": "Post-COVID-19 acute sarcopenia: Physiopathology and management",
+      "authors": [
+        "K Piotrowicz",
+        "J Gąsowski",
+        "JP Michel",
+        "N Veronese"
+      ]
+    },
+    {
+      "title": "Radiation-induced heart disease",
+      "authors": [
+        "JA Quintero-Martinez",
+        "SN Cordova-Madera",
+        "HR Villarraga"
+      ]
+    },
+    {
+      "title": "Redox signaling and its impact on skeletal and vascular responses to spaceflight",
+      "authors": [
+        "CGT Tahimic",
+        "RK Globus"
+      ]
+    },
+    {
+      "title": "Heart in space: Effect of the extraterrestrial environment on the cardiovascular system",
+      "authors": [
+        "RL Hughson",
+        "A Helm",
+        "M Durante"
+      ]
+    },
+    {
+      "title": "Mitochondrial contributions to vascular endothelial dysfunction, arterial stiffness, and cardiovascular diseases",
+      "authors": [
+        "DL Kirkman",
+        "AT Robinson",
+        "MJ Rossman",
+        "DR Seals",
+        "DG Edwards"
+      ]
+    },
+    {
+      "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice",
+      "authors": [
+        "G Vitry",
+        "R Finch",
+        "G Mcstay"
+      ]
+    },
+    {
+      "title": "Space radiation dosimetry in low-Earth orbit and beyond",
+      "authors": [
+        "ER Benton",
+        "EV Benton"
+      ]
+    },
+    {
+      "title": "Cardiovascular diseases related to ionizing radiation: The risk of low-dose exposure (Review)",
+      "authors": [
+        "B Baselet",
+        "C Rombouts",
+        "AM Benotmane",
+        "S Baatout",
+        "A Aerts"
+      ]
+    },
+    {
+      "title": "Spaceflight associated neuro-ocular syndrome (SANS) and the neuro-ophthalmologic effects of microgravity: a review and an update",
+      "authors": [
+        "AG Lee",
+        "TH Mader",
+        "CR Gibson"
+      ]
+    },
+    {
+      "title": "Metabolomics as an important tool for determining the mechanisms of human skeletal muscle deconditioning",
+      "authors": [
+        "I Alldritt",
+        "PL Greenhaff",
+        "DJ Wilkinson"
+      ]
+    },
+    {
+      "title": "Skeletal muscle adaptation in rats flown on Cosmos 1667",
+      "authors": [
+        "D Desplanches",
+        "MH Mayet",
+        "EI Ilyina-Kakueva",
+        "B Sempore",
+        "R Flandrois"
+      ]
+    },
+    {
+      "title": "Substrate oxidation capacity in rodent skeletal muscle: Effects of exposure to zero gravity",
+      "authors": [
+        "KM Baldwin",
+        "RE Herrick",
+        "SA McCue"
+      ]
+    },
+    {
+      "title": "Effect of microgravity on the expression of mitochondrial enzymes in rat cardiac and skeletal muscles",
+      "authors": [
+        "MK Connor",
+        "DA Hood"
+      ]
+    },
+    {
+      "title": "Molecular and phenotypic analysis of rodent models reveals conserved and species-specific modulators of human sarcopenia",
+      "authors": [
+        "A Börsch",
+        "DJ Ham",
+        "N Mittal"
+      ]
+    },
+    {
+      "title": "Human adaptation to immobilization: novel insights of impacts on glucose disposal and fuel utilization",
+      "authors": [
+        "NF Shur",
+        "EJ Simpson",
+        "H Crossland"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight aboard the international space station on mouse estrous cycle and ovarian gene expression",
+      "authors": [
+        "X Hong",
+        "A Ratri",
+        "SY Choi"
+      ]
+    },
+    {
+      "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "authors": [
+        "MI Love",
+        "W Huber",
+        "S Anders"
+      ]
+    },
+    {
+      "title": "Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt",
+      "authors": [
+        "S Durinck",
+        "PT Spellman",
+        "E Birney",
+        "W Huber"
+      ]
+    },
+    {
+      "title": "BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis",
+      "authors": [
+        "S Durinck",
+        "Y Moreau",
+        "A Kasprzyk"
+      ]
+    },
+    {
+      "title": "Fast gene set enrichment analysis",
+      "authors": [
+        "G Korotkevich",
+        "V Sukhov",
+        "N Budin",
+        "B Shpak",
+        "MN Artyomov",
+        "A Sergushichev"
+      ]
+    },
+    {
+      "title": "Molecular signatures database (MSigDB) 3.0",
+      "authors": [
+        "A Liberzon",
+        "A Subramanian",
+        "R Pinchback",
+        "H Thorvaldsdóttir",
+        "P Tamayo",
+        "JP Mesirov"
+      ]
+    },
+    {
+      "title": "ggplot2: Elegant graphics for data analysis",
+      "authors": [
+        "H Wickham"
+      ]
+    },
+    {
+      "title": "Complex heatmaps reveal patterns and correlations in multidimensional genomic data",
+      "authors": [
+        "Z Gu",
+        "R Eils",
+        "M Schlesner"
+      ]
+    },
+    {
+      "title": "Krassowski, M. ComplexUpset. Published online 2020. 10.5281/zenodo.3700590",
+      "authors": []
+    },
+    {
+      "title": "Incidence of clinical symptoms during long-duration orbital spaceflight",
+      "authors": [
+        "B Crucian",
+        "A Babiak-Vazquez",
+        "S Johnston",
+        "DL Pierson",
+        "CM Ott",
+        "C Sams"
+      ]
+    },
+    {
+      "title": "Comprehensive integration of single-cell data",
+      "authors": [
+        "T Stuart",
+        "A Butler",
+        "P Hoffman"
+      ]
+    },
+    {
+      "title": "Modeling metabolic variation with single-cell expression data",
+      "authors": [
+        "Y Zhang",
+        "MS Kim",
+        "E Nguyen",
+        "DM Taylor"
+      ]
+    }
+  ],
+  "original_title": "Aging and putative frailty biomarkers are altered by spaceflight",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/e9ad5e0a7663/41598_2024_57948_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/39299cd1069e/41598_2024_57948_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/3ce89fd0b8d7/41598_2024_57948_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/cc311453f9bf/41598_2024_57948_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/e12506aac7d1/41598_2024_57948_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/8a1cdd6afe13/41598_2024_57948_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/a00ae98397d0/41598_2024_57948_Fig7_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f9d3/11166946/d6f9f6ed89e0/41598_2024_57948_Fig8_HTML.jpg"
+  ]
+}

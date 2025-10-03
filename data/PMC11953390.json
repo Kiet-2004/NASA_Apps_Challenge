@@ -1,0 +1,343 @@
+{
+  "pmcid": "PMC11953390",
+  "title": "Identification of therapeutic targets for chronic kidney disease through Mendelian randomization analysis of druggable genes",
+  "abstract": "Chronic Kidney Disease (CKD) is a multifaceted and gradually advancing condition characterized by a complex pathogenesis. The current therapeutic options for CKD remain limited in efficacy. Consequently, the identification and exploration of novel drug targets for CKD are of paramount importance. We identified cis-expression quantitative trait loci (cis-eQTLs) with potential as drug targets from the eQTLGen Consortium database to serve as the exposure. For the outcome, we utilized a genome-wide association study (GWAS) of chronic kidney disease (CKD) from the FinnGen database, which comprised a case group of 11,265 individuals and a control group of 436,208 individuals. MR analysis was employed to investigate druggable genes closely associated with CKD. Subsequently, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted to elucidate the functional roles of these significant genes. Finally, a colocalization analysis was conducted to determine the likelihood that a cis-eQTL for a druggable gene and CKD share a causal variant. The expression of 12 genes was found to be significantly associated with CKD risk, with a false discovery rate (FDR) of less than 0.05. GO and KEGG enrichment analyses indicated that these genes are primarily involved in the regulation of MAP kinase activity, regulation of protein serine/threonine kinase activity, Gap junction, Platelet activation and Oxytocin signaling pathway. The colocalization analysis results suggested that CKD and the TUBB gene may share a causal variant, with a posterior probability (PP.H4) exceeding 80% (TUBB: 97.27%). Compelling statistical evidence indicates that TUBB represents the most promising pharmacological target for the treatment of CKD. This study not only identifies potential therapeutic targets but also offers valuable insights for future drug development in the context of CKD.\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1038/s41598-025-94761-0.",
+  "introduction": "Introduction\n\nChronic Kidney Disease (CKD) is a progressive condition affecting over 800 million individuals globally. It is defined by a persistent estimated glomerular filtration rate (eGFR) of less than 60 mL/min/1.73 m² body surface area, or urinary albumin excretion equal to or greater than 30 mg/day, or both, sustained for a duration exceeding three months. Historically, the management of CKD primarily focused on delaying renal failure, implementing end-stage dialysis, or pursuing renal transplantation. However, recent advancements in the field have led researchers to explore pharmacological interventions, such as empagliflozin, which has shown promise in decelerating CKD progression and mitigating cardiovascular risks associated with the condition. Despite advancements in medical research, effective treatments for CKD remain elusive. Consequently, the identification and exploration of novel drug targets for CKD treatment are imperative.\n\nExpression quantitative trait loci (eQTLs), which are single nucleotide polymorphisms (SNPs) that influence gene expression levels, present a promising avenue for this endeavor. Utilizing MR analysis of druggable genes, cis-eQTLs—SNPs located in the proximal genomic regions of target genes and closely associated with their expression—serve as instrumental variables (IVs) to elucidate causal relationships between druggable genes and CKD. This approach facilitates the identification of potential drug targets for CKD treatment. This approach has also found extensive application in the investigation of various other diseases.\n\nMendelian Randomization (MR), a statistical technique that leverages genetic variation as an instrumental variable, has demonstrated significant potential in recent years for causal inference in the context of complex diseases. By utilizing genetic variants that exhibit strong correlations with exposure factors as IVs, MR facilitates the assessment of causal relationships between exposure factors and outcomes, thereby mitigating the influence of confounding variables. Consequently, MR analyses is frequently employed to evaluate etiological inferences in epidemiological research. Importantly, the effectiveness of MR analyses parallels that of randomized controlled trials, albeit with reduced bias and the elimination of reverse causality (Fig. 1).",
+  "methods": "Methods\n\nStudy design\n\nIn this MR analysis, we selected cis-expression quantitative trait loci (cis-eQTL) of druggable genes as the exposure variable and employed genome-wide association study (GWAS) data for CKD from the FinnGen database as the outcome variable. This approach was designed to elucidate the complex relationship between the expression of druggable genes and CKD. To identify the most suitable SNPs as instrumental variables, we conducted association analyses of the exposure factors and established stringent inclusion and exclusion criteria. A series of sensitivity analyses was implemented in order to ensure the robustness and reliability of the MR analysis. Furthermore, to elucidate the functional roles of the significant genes identified through MR analysis in terms of cellular composition, biological processes, and molecular functions, as well as to interpret the biological pathways they are involved in according to the Kyoto Encyclopedia of Genes and Genomes (KEGG), we performed comprehensive functional annotations. We conducted Gene Ontology (GO) and KEGG enrichment analyses on these significant genes, and provided detailed information regarding their chromosomal positions. Additionally, we performed colocalization analysis to evaluate whether cis-eQTL and CKD share the same causal variants. The overall design idea is detailed in Fig. 2.\n\nData sources\n\nBy comparing the sequences and structures of proteins present in human blood with those of currently identified drug target proteins, scientists identified several proteins that exhibit structural similarity to known drug targets and possess the potential to be modulated by drug-like small molecules. Consequently, scientists identified a specific group of genes for further investigation. Finan identified 1,427 genes encoding drug targets that have been approved or are in the clinical phase, 682 genes encoding proteins that bind to known drug molecules or are similar to approved drug targets, and 2,370 genes that are members of a family of key druggable genes or encode proteins that are distantly similar to approved drug targets. These 4,479 druggable genes have also been utilized by researchers to investigate potential therapeutic targets for pulmonary fibrosis (Supplementary Material: Table S1). (Supplementary Material: Table S1). We queried the eQTLGen Consortium database for these 4,479 druggable genes and retrieved blood cis-eQTL data for 2,888 of them. The eQTL data facilitated the identification of genetic variants associated with gene expression levels in blood samples, specifically those variants located within 1 Mb of the central location of each gene.\n\nFinnGen is a well-known and large database, and FinnGen provides genetic insights from a phenotypically well-defined and isolated population. The CKD outcome data were derived from the FinnGen database, which collected information on 447,473 individuals, including 11,265 in the case group and 436,208 in the control group.\n\nSelection of instrumental variables\n\nReliable and accurate instrumental variables are characterized by three distinctive features: a very strong association with the exposure, no relationship with confounders other than the exposure, and the absence of horizontal pleiotropy. It is essential to note that horizontal pleiotropy should be entirely absent in MR analyses. To identify IVs meeting these criteria, we conducted a rigorous screening of each druggable gene. Initially, we performed association analyses to select SNPs from the cis-eQTL data, ensuring that only SNPs with P-values below the genome-wide significance threshold (5.0 × 10− 8) were considered. Secondly, to mitigate the knock-on disequilibrium effects of these SNPs, we utilized the “TwoSampleMR” package in the R programming language to set the linkage disequilibrium (LD) threshold to R² < 0.1, using data from the 1000 Genomes Project (EUR population) with an aggregation distance of 10,000 kb. In addition, we calculated the proportion of variance explained (R2) and the F statistic to quantify the strength of the tool with the following equations: R2 = 2 × MAF × (1 - MAF) × β2, and F = R2(n-k-1)/ k(1-R2), where “MAF” is the SNP used as the IV secondary allele frequency, “n” is the sample size, “k” is the number of IVs used. To avoid weak IV bias, we selected SNPs with F > 10 as the IVs we analysed.\n\nMendelian randomization analysis\n\nMR analyses were conducted using the “TwoSampleMR” package in R (version 4.4.1). For the MR analysis, the Wald ratio method was employed when a single SNP served as the IV. When the IV comprised two or more SNPs, we applied five different methods: inverse variance weighting (IVW), MR-Egger, weighted median, simple mode, and weighted mode. We used the IVW method as the primary analysis method because previous studies have shown that the IVW method is more conservative but more robust. To account for multiple testing, we applied the False Discovery Rate (FDR) correction to identify significant MR analysis results. Additionally, to ensure the robustness of our findings, we employed several methods for sensitivity analyses. Potential heterogeneity of IVs was assessed using Cochrane’s Q test. Heterogeneity was considered absent if the p-value of the Cochrane Q test exceeded 0.05. Potential pleiotropy between exposure and outcome was examined using MR-Egger regression. Pleiotropy was considered absent if the p-value for the MR-Egger regression intercept was greater than 0.05.\n\nColocalization\n\nFor druggable genes showing significant MR results, colocalization analysis was performed using the R package “coloc“. The default a priori probabilities were P1 = 1.0 × 10− 4, P2 = 1.0 × 10− 4, and P12 = 1.0 × 10− 5, indicating that the SNPs were associated with the expression of the druggable genes, the outcome, or both, respectively. Posterior probabilities for the following five hypotheses were generated from the colocalization analysis: PPH 0, not associated with the expression or outcome of a druggable gene; PPH 1, associated with the expression of a druggable gene but not with the outcome; PPH 2, associated with the outcome but not with the expression of a druggable gene; PPH 3, associated with the expression and outcome of a druggable gene with a different causal variant; and PPH 4, association with expression of the druggable genes and outcome, with a shared causal variant. PPH 4 > 0.80 was considered strong.\n\nGene function and pathway enrichment analysis\n\nGO is the world’s largest source of information on gene function. This knowledge is both human-readable and machine-readable, and is the basis for large-scale computational analyses. KEGG is a database for understanding high-level functions and utilities of biological systems from molecular-level information. For biological process and pathway enrichment analyses, KEGG and GO analyses were performed using the R “clusterProfiler” software package. Finally, the R “circlize” package was used to display information on the location of these genes on the corresponding chromosomes.",
+  "results": "Results\n\nTwelve significant genes were identified by MR analysis of druggable genes\n\nWe employed the IVW method as the primary analytical approach. Sixteen druggable genes exhibited a strong association with the development of CKD at a FDR of less than 0.05. These genes are PTPN22, KSR1, MAP2K5, CASP9, C4A, S100B, MYLK4, CHSY1, TUBB, C4B, XYLT1, DHFR, GUCY1B2, CXCR1, CD96, and VAMP8. To assess the pleiotropy of these 16 significant genes, we utilized MR-Egger regression. The intercept p-value for “S100B” was less than 0.05, indicating the presence of horizontal pleiotropy. Conversely, the intercept p-values for the remaining 15 significant genes were greater than 0.05, suggesting no evidence of horizontal pleiotropy for these genes. The potential heterogeneity of IVs was assessed using Cochrane’s Q-test. The results indicated significant heterogeneity for the IVs associated with “C4A,” “C4B,” and “XYLT1,” while no evidence of heterogeneity was found for the other significant genes. To ensure the reliability of our findings, we did not accept the presence of horizontal pleiotropy and heterogeneity. Consequently, we concluded that a causal association exists between 12 genes—PTPN22, KSR1, MAP2K5, CASP9, MYLK4, CHSY1, TUBB, DHFR, GUCY1B2, CXCR1, CD96, and VAMP8—and CKD (Fig. 3). It is worth mentioning that the MR-PRESSO test revealed no evidence of pleiotropy among these 12 significant genes.\n\nAmong these 12 significant genes, TUBB (OR: 1.2352; 95% CI: 1.1305–1.3496; FDR = 0.0085), PTPN22 (OR: 1.2897; 95% CI: 1.1893–1.3985; FDR < 0.001), MAP2K5 (OR: 1.1055; 95% CI: 1.0679–1.1445; FDR < 0.001), CHSY1 (OR: 1.1152; 95% CI: 1.0667–1.1659; FDR = 0.0044), DHFR (OR: 1.0390; 95% CI: 1.0214–1.0570; FDR = 0.0347), CXCR1 (OR: 1.1188; 95% CI: 1.0634–1.1771; FDR = 0.0430) and CD96 (OR: 1.0945; 95% CI: 1.0505–1.1404; FDR = 0.0475) expression were positively correlated with the risk of CKD. KSR1 (OR: 0.8809; 95% CI: 0.8441–0.9192; FDR < 0.001), CASP9 (OR: 0.8782; 95% CI: 0.8389–0.9195; FDR < 0.001), MYLK4 (OR: 0.9078; 95% CI: 0.8744–0.9423; FDR = 0.0011), GUCY1B2 (OR: 0.9068; 95% CI: 0.8679–0.9475; FDR = 0.0359) and VAMP8 (OR: 0.9215; 95% CI: 0.8879–0.9565; FDR = 0.0489) expression were negatively associated with CKD risk. (Information on the IVs used for these significant genes is detailed in Supplementary Material Table S2, and the results of MR analyses are detailed in Supplementary Material Table S3)\n\nColocalization analysis of 12 significant genes\n\nColocalization analysis can provide additional evidence for Mendelian randomization analysis, suggesting that associations between instrumental variables used for analysis and outcomes may be causal. Colocalization supports both an association between genetic variation and exposure and an association between exposure and outcome. When colocalization analyses show positive results, specific genetic variants share the same genetic location as signals associated with both exposure and outcome, this strengthens the belief that the association is due to genetic variants directly affecting exposure, and thus outcome. In addition, it reduces the likelihood of pleiotropy to some extent.\n\nIn order to strengthen the evidence for an association between these key genes and CKD. For the 12 genes, we performed colocalization analyses to estimate the likelihood that the cis-eQTL and CKD results share a causal variant. The result of colocalization analysis indicated that CKD and TUBB genes might share a causal variant, with PP.H4 exceeding 0.80% (TUBB: 97.27%).\n\nConsequently, based on MR and colocalization analyses, we infer that TUBB is statistically likely to be a potential drug target for CKD treatment. (For details of the results of significant gene colocalization analysis, see Table S4 in the Supplementary Material)\n\nDemonstrate information about key genes on the corresponding chromosome\n\nThe position of a gene on a chromosome may be related to its function, expression regulation, and interactions with other genes. By analyzing the chromosomal location of genes, we can obtain clues about their potential involvement in specific biological processes or pathways. Besides, many genetic disorders are associated with abnormalities in specific genes or gene clusters on chromosomes. Knowing the chromosomal location of these genes helps identify genetic variations related to diseases, providing important information for disease diagnosis, treatment, and prevention. Moreover, chromosomes are carriers of genetic information, and their structure, organization, and evolution are crucial for understanding the functional and evolutionary history of an organism’s genome. By analyzing the chromosomal location of genes, we can obtain clues about genome structure, chromosomal rearrangements, and evolutionary events. So, we show the information of the starting position of the remarkable genes on specific chromosomes. For example, the TUBB gene is located on chromosome 6 in the segment 30,687,978–30,693,203, and the PTPN22 gene is located on chromosome 1 in the segment 114,356,433–1,144,414,381 (Fig. 4). (Seeing Supplementary Material Table S1 for details).\n\nAnalysis of specific biological processes, functional classes and signalling pathways corresponding to key genes by GO/KEGG enrichment\n\nGO enrichment analysis showed that in the Biological Process module, these genes were mainly enriched on regulation of MAP kinase activity and regulation of protein serine/threonine kinase activity. In the Cellular Component module, these genes were mainly enriched in primary lysosome. In the molecular Function Module, these genes were mainly enriched on protein serine kinase activity (Fig. 5). KEGG pathway analyses showed that these genes were mainly enriched on Gap junction, Platelet activation and Oxytocin signaling pathway (Fig. 6). (For details of the results of GO and KEGG enrichment analyses, please refer to Table S5 and Table S6 in the Supplementary Material.)\n\nNotably, TUBB was pathway linked to Cellular community - eukaryotes, Infectious disease/bacterial, and Cellular Processes. In GO enrichment analysis, TUBB was associated with natural killer cell mediated immunity, leukocyte mediated immunity, lymphocyte mediated immunity, primary lysosome, azurophil granule, nuclear envelope lumen, spindle, intercellular bridge, GTPase activating protein binding, MHC class I protein binding, and MHC protein binding and other related.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Chronic kidney disease",
+    "TUBB",
+    "Druggable genes",
+    "Mendelian randomization analysis",
+    "Data mining",
+    "Drug discovery",
+    "Genetics",
+    "Nephrology",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Epidemiology of chronic kidney disease: an update 2022",
+      "authors": [
+        "CP Kovesdy"
+      ]
+    },
+    {
+      "title": "Summary of KDIGO 2012 CKD Guideline: behind the scenes, need for guidance, and a framework for moving forward",
+      "authors": [
+        "A Levin",
+        "PE Stevens"
+      ]
+    },
+    {
+      "title": "Chronic kidney disease",
+      "authors": [
+        "AC Webster",
+        "EV Nagler",
+        "RL Morton",
+        "P Masson"
+      ]
+    },
+    {
+      "title": "Empagliflozin in patients with chronic kidney disease",
+      "authors": [
+        "E-K-C-G The"
+      ]
+    },
+    {
+      "title": "Identifying potential drug targets for idiopathic pulmonary fibrosis: a mendelian randomization study based on the druggable genes",
+      "authors": [
+        "Z Liu"
+      ]
+    },
+    {
+      "title": "Genetic insights into therapeutic targets for aortic aneurysms: A Mendelian randomization study",
+      "authors": [
+        "Y Chen"
+      ]
+    },
+    {
+      "title": "Storm, C. S. et al. International Parkinson’s Disease Finding genetically-supported drug targets for Parkinson’s disease using Mendelian randomization of the druggable genome. Nat. Commun.12(1), 7342. (2021).",
+      "authors": []
+    },
+    {
+      "title": "Mendelian randomization for cardiovascular diseases: principles and applications",
+      "authors": [
+        "SC Larsson",
+        "AS Butterworth",
+        "S Burgess"
+      ]
+    },
+    {
+      "title": "Meta-analysis and Mendelian randomization: A review",
+      "authors": [
+        "J Bowden",
+        "MV Holmes"
+      ]
+    },
+    {
+      "title": "Birney, E. Mendelian randomization. Cold Spring Harb Perspect. Med. ;12(4). (2022).",
+      "authors": []
+    },
+    {
+      "title": "Mendelian randomization",
+      "authors": [
+        "CA Emdin",
+        "AV Khera",
+        "S Kathiresan"
+      ]
+    },
+    {
+      "title": "Finan, C. et al. The druggable genome and support for target identification and validation in drug development. Sci. Transl. Med. ;9(383). (2017).",
+      "authors": []
+    },
+    {
+      "title": "Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression",
+      "authors": [
+        "U Vosa"
+      ]
+    },
+    {
+      "title": "FinnGen provides genetic insights from a well-phenotyped isolated population",
+      "authors": [
+        "MI Kurki"
+      ]
+    },
+    {
+      "title": "Statistical methods for cis-Mendelian randomization with two-sample summary-level data",
+      "authors": [
+        "A Gkatzionis",
+        "S Burgess",
+        "PJ Newcombe"
+      ]
+    },
+    {
+      "title": "Using multiple genetic variants as instrumental variables for modifiable risk factors",
+      "authors": [
+        "TM Palmer"
+      ]
+    },
+    {
+      "title": "Combining information on multiple instrumental variables in Mendelian randomization: comparison of allele score and summarized data methods",
+      "authors": [
+        "S Burgess",
+        "F Dudbridge",
+        "SG Thompson"
+      ]
+    },
+    {
+      "title": "Evaluating the potential role of pleiotropy in Mendelian randomization studies",
+      "authors": [
+        "G Hemani",
+        "J Bowden",
+        "G Davey Smith"
+      ]
+    },
+    {
+      "title": "Bayesian test for colocalisation between pairs of genetic association studies using summary statistics",
+      "authors": [
+        "C Giambartolomei"
+      ]
+    },
+    {
+      "title": "Gene ontology: tool for the unification of biology. The Gene Ontology Consortium",
+      "authors": [
+        "M Ashburner"
+      ]
+    },
+    {
+      "title": "Gene Ontology, C. et al. The Gene Ontology knowledgebase in 2023. Genetics. 224(1). (2023).",
+      "authors": []
+    },
+    {
+      "title": "KEGG: biological systems database as a model of the real world",
+      "authors": [
+        "M Kanehisa",
+        "M Furumichi",
+        "Y Sato",
+        "Y Matsuura",
+        "M Ishiguro-Watanabe"
+      ]
+    },
+    {
+      "title": "Toward understanding the origin and evolution of cellular organisms",
+      "authors": [
+        "M Kanehisa"
+      ]
+    },
+    {
+      "title": "KEGG: kyoto encyclopedia of genes and genomes",
+      "authors": [
+        "M Kanehisa",
+        "S Goto"
+      ]
+    },
+    {
+      "title": "circlize Implements and enhances circular visualization in R",
+      "authors": [
+        "Z Gu",
+        "L Gu",
+        "R Eils",
+        "M Schlesner",
+        "B Brors"
+      ]
+    },
+    {
+      "title": "Methods in tubulin proteomics",
+      "authors": [
+        "LM Miller"
+      ]
+    },
+    {
+      "title": "Goodson, H. V. & Jonasson, E. M. Microtubules and microtubule-associated proteins. Cold Spring Harb. Perspect. Biol. ;10(6). (2018).",
+      "authors": []
+    },
+    {
+      "title": "Microtubule-organizing centers",
+      "authors": [
+        "J Wu",
+        "A Akhmanova"
+      ]
+    },
+    {
+      "title": "TUBB, a robust biomarker with satisfying abilities in diagnosis, prognosis, and immune regulation via a comprehensive pan-cancer analysis",
+      "authors": [
+        "Z Zhu"
+      ]
+    },
+    {
+      "title": "Wordeman, L. & Vicente, J. J. Microtubule targeting agents in disease: classic drugs, novel roles. Cancers. 13(22). (2021).",
+      "authors": []
+    },
+    {
+      "title": "Localization of an exchangeable GTP binding site at the plus end of microtubules",
+      "authors": [
+        "TJ Mitchison"
+      ]
+    },
+    {
+      "title": "Binding of dolastatin 10 to tubulin at a distinct site for peptide antimitotic agents near the exchangeable nucleotide and vinca alkaloid sites",
+      "authors": [
+        "RL Bai",
+        "GR Pettit",
+        "E Hamel"
+      ]
+    },
+    {
+      "title": "Dolastatin 10, a powerful cytostatic peptide derived from a marine animal. Inhibition of tubulin polymerization mediated through the vinca alkaloid binding domain",
+      "authors": [
+        "R Bai",
+        "GR Pettit",
+        "E Hamel"
+      ]
+    },
+    {
+      "title": "Natural products which interact with tubulin in the vinca domain: maytansine, rhizoxin, phomopsin A, dolastatins 10 and 15 and halichondrin B",
+      "authors": [
+        "E Hamel"
+      ]
+    },
+    {
+      "title": "Insight into tubulin regulation from a complex with colchicine and a stathmin-like domain",
+      "authors": [
+        "RB Ravelli"
+      ]
+    },
+    {
+      "title": "Structure of the alpha beta tubulin dimer by electron crystallography",
+      "authors": [
+        "E Nogales",
+        "SG Wolf",
+        "KH Downing"
+      ]
+    },
+    {
+      "title": "Rhizoxin binding to tubulin at the maytansine-binding site",
+      "authors": [
+        "M Takahashi"
+      ]
+    },
+    {
+      "title": "A new tubulin-binding site and pharmacophore for microtubule-destabilizing anticancer drugs",
+      "authors": [
+        "AE Prota"
+      ]
+    },
+    {
+      "title": "Structural basis of microtubule stabilization by laulimalide and peloruside A",
+      "authors": [
+        "AE Prota"
+      ]
+    },
+    {
+      "title": "Peloruside A, a novel antimitotic agent with paclitaxel-like microtubule- stabilizing activity",
+      "authors": [
+        "KA Hood"
+      ]
+    },
+    {
+      "title": "Matthew, S. et al. Gatorbulin-1, a distinct cyclodepsipeptide chemotype, targets a seventh tubulin pharmacological site. Proc. Natl. Acad. Sci. U S A ;118(9). (2021).",
+      "authors": []
+    },
+    {
+      "title": "Yang, J. et al. Cevipabulin-tubulin complex reveals a novel agent binding site on alpha-tubulin with tubulin degradation effect. Sci. Adv. ;7(21). (2021).",
+      "authors": []
+    },
+    {
+      "title": "Microtubules as a target for anticancer drugs",
+      "authors": [
+        "MA Jordan",
+        "L Wilson"
+      ]
+    },
+    {
+      "title": "Role of JNK activation in paclitaxel-induced apoptosis in human head and neck squamous cell carcinoma",
+      "authors": [
+        "YY Lan"
+      ]
+    },
+    {
+      "title": "Microtubules as antiparasitic drug targets",
+      "authors": [
+        "B Fennell"
+      ]
+    },
+    {
+      "title": "Inhibition of microtubule dynamics impedes repair of kidney ischemia/reperfusion injury and increases fibrosis",
+      "authors": [
+        "SJ Han",
+        "JH Kim",
+        "JI Kim",
+        "KM Park"
+      ]
+    },
+    {
+      "title": "Identification of potential serum proteomic biomarkers for clear cell renal cell carcinoma",
+      "authors": [
+        "J Yang"
+      ]
+    },
+    {
+      "title": "Wang, Y., Hu, L., Zhou, D., Chen, X. & Zhou, L. Association of urinary biomarkers of renal tubular injury with cognitive dysfunction in older patients with chronic kidney disease: a cross-sectional observational study. Brain Sci.13(4). (2023).",
+      "authors": []
+    },
+    {
+      "title": "Promotion of inflammation, apoptosis, and inhibition of autophagy by overexpression of lncRNA SNHG12 in acute kidney injury",
+      "authors": [
+        "J Zhang"
+      ]
+    }
+  ],
+  "original_title": "Autophagy and its consequences for platelet biology",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0971/11953390/e24eebe2235e/41598_2025_94761_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0971/11953390/f7c7e8e825c2/41598_2025_94761_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0971/11953390/10cc80485b14/41598_2025_94761_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0971/11953390/dfd9afe7710b/41598_2025_94761_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0971/11953390/70f5d571d41e/41598_2025_94761_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0971/11953390/e0168082439d/41598_2025_94761_Fig6_HTML.jpg"
+  ]
+}

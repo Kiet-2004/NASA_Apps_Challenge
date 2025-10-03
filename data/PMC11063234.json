@@ -1,0 +1,429 @@
+{
+  "pmcid": "PMC11063234",
+  "title": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation",
+  "abstract": "Introduction: It may take decades to develop cardiovascular dysfunction following exposure to high doses of ionizing radiation from medical therapy or from nuclear accidents. Since astronauts may be exposed continually to a complex space radiation environment unlike that experienced on Earth, it is unresolved whether there is a risk to cardiovascular health during long-term space exploration missions. Previously, we have described that mice exposed to a single dose of simplified Galactic Cosmic Ray (GCR5-ion) develop cardiovascular dysfunction by 12 months post-radiation.\n\nMethods: To investigate the biological basis of this dysfunction, here we performed a quantitative mass spectrometry-based proteomics analysis of heart tissue (proteome and phosphoproteome) and plasma (proteome only) from these mice at 8 months post-radiation.\n\nResults: Differentially expressed proteins (DEPs) for irradiated versus sham irradiated samples (fold-change ≥1.2 and an adjusted p-value of ≤0.05) were identified for each proteomics data set. For the heart proteome, there were 87 significant DEPs (11 upregulated and 76 downregulated); for the heart phosphoproteome, there were 60 significant differentially phosphorylated peptides (17 upregulated and 43 downregulated); and for the plasma proteome, there was only one upregulated protein. A Gene Set Enrichment Analysis (GSEA) technique that assesses canonical pathways from BIOCARTA, KEGG, PID, REACTOME, and WikiPathways revealed significant perturbation in pathways in each data set. For the heart proteome, 166 pathways were significantly altered (36 upregulated and 130 downregulated); for the plasma proteome, there were 73 pathways significantly altered (25 upregulated and 48 downregulated); and for the phosphoproteome, there were 223 pathways significantly affected at 0.1 adjusted p-value cutoff. Pathways related to inflammation were the most highly perturbed in the heart and plasma. In line with sustained inflammation, neutrophil extracellular traps (NETs) were demonstrated to be increased in GCR5-ion irradiated hearts at 12-month post irradiation. NETs play a fundamental role in combating bacterial pathogens, modulating inflammatory responses, inflicting damage on healthy tissues, and escalating vascular thrombosis.\n\nDiscussion: These findings suggest that a single exposure to GCR5-ion results in long-lasting changes in the proteome and that these proteomic changes can potentiate acute and chronic health issues for astronauts, such as what we have previously described with late cardiac dysfunction in these mice.",
+  "introduction": "Introduction\n\nWe recently reported on long term functional changes to the heart following a single dose of GCR5-ion. Physiologically, this dysfunction was manifested as changes in arterial elastance, and histologically, there was evidence of elastin fragmentation in the aorta. Of the protein markers we evaluated (Fibulin-4, Fibulin-5, TGF-beta1, and EGFR), EGFR was the only marker that showed a statistically significant decrease in hearts from GCR-irradiated animals compared to age-matched sham irradiated controls.\n\nOther investigations have also examined the levels of individual cardiac protein markers in studies where rodents or rabbits were exposed to components of GCR (reviewed in). These studies have indicated that a number of proteins and pathways and biological functions are permanently affected in the heart from a single exposure of space relevant radiation. Seawright et al. noted an increase in a 75 kDa peptide of collagen type III in the left ventricle of rats exposed to protons (250 MeV) and 16O (600 MeV/n and 1 GeV/n), suggesting that these components of GCR caused remodeling of existing collagens in the heart. Also noted in this study were increases in the amounts of CD2, CD68, and CD45 proteins at 2 weeks, 3 months, and 9 months after exposure to protons or 16O alone, suggesting immune cell infiltration. In a rabbit model, hearts exposed to 15 Gy of targeted heavy ion irradiation (THIR) exhibited a significant upregulation of connexin 43 (Cx43) protein and mRNA in the ventricular myocardium by immunohistochemistry, Western blotting, and real-time PCR from 2 weeks out to 1 year after a single exposure. Cx43, the major connexin in cardiac gap junction, plays an essential role in the synchronized contraction of the heart and perturbations in Cx43 levels could profoundly influence cardiac function.\n\nSoucy et al. examined xanthine oxidase (XO) activity in the aortas of rats exposed to whole-body exposure of iron ion radiation (56Fe-ion) at doses of 0, 0.5, or 1 Gy. In vivo aortic stiffness and ex vivo aortic tension responses were measured 6 and 8 months after exposure as indicators of chronic vascular injury. Rats exposed to 1 Gy 56Fe-ion demonstrated significantly increased aortic stiffness, as measured by pulse wave velocity. XO activity was significantly elevated in rat aorta 4 months after whole-body irradiation.\n\nRecently, Azimzadeh et al. published a comprehensive review of the available omics data (proteomics, transcriptomics, metabolomics, epigenomics, and multi-omics) of radiation-induced cardiovascular disease focusing on gamma and X-ray exposure. Across 27 published proteomics data sets, mitochondrial proteins were the most sensitive protein cluster affected in irradiated hearts across different types and doses of radiation, with many of these mitochondrial proteins being significantly downregulated. In addition, long term downregulation of many anti-oxidant defense proteins was observed in many publication examining mouse models as well as validated in studies of heart autopsies obtained from workers in the nuclear industry.\n\nWhile recently have utilized label-free mass spectrometry untargeted quantitative proteomic profiling to characterize the proteome of the prefrontal cortex in rats exposed to 28Si ions, there have been no corresponding studies undertaken to understand the global proteomic changes occurring in the heart following exposure to components of space radiation. As the proteome can provide a better understanding of the structure and the function of the organism than genomics, we have performed a quantitative mass spectrometry-based proteomics analysis of heart tissue (proteome and phosphoproteome) and plasma (proteome only) from mice exposed to GCR5-ion. Integration of these three omics data sets has enabled a more comprehensive understanding of the systemic impact of GCR5-ion and suggests that sustained inflammatory response with neutrophil extracellular trap formation is one of the major pathways driving the biological responses to space radiation in the heart.",
+  "methods": "Methods\n\nThe overall experimental design is provided in Figure 1.\n\nExperimental animals\n\nAll animal experiments were approved by the Duke University and Brookhaven National Laboratory (BNL) Institutional Animal Care and Use Committees (IACUCs). Approximately 24-week old male C57BL/6 mice (Jackson Labs) were exposed to 150 cGy GCR5-ion (H 1,000 MeV/n, 28Si 600 MeV/n, 4He 250 MeV/n, 16O 350 MeV/n, 56Fe 600 MeV/n, and H 250 MeV/n) using the beam line at the NASA Space Radiation Laboratory (NSRL) at BNL. Sham irradiated control animals were placed in equitable holders over a schedule which mimicked the experimental groups but were not irradiated. Post-radiation, animals were allowed at least 2 days to recover, and then were returned to Duke University animal facilities. Hearts and plasma for proteomics were obtained from mice at 8 months post radiation (n = 6 for hearts and n = 10 for plasma). An equal number of hearts and plasma samples was obtained from age-matched sham irradiated control animals. Hearts for other evaluations such as Western blot or immunofluorescence studies were obtained from mice at 12 months post radiation and equivalent age-matched sham irradiated control animals were used as comparators.\n\nHeart tissue (phospho)proteomics\n\nFrozen tissues were weighed and lysed by tissue tearor in 1.5 mL of 5% sodium docecyl sulfate (SDS)/50 mM triethylammonium bicarbonate, pH 8.5 (TEAB) followed by bicinchoninic acid (BCA) assay. The amount of 250 μg of each sample was normalized to 50 μL with SDS/TEAB buffer followed by the addition of bovine casein (300 fmol and 150 fmol per µg added to irradiated and sham irradiated control samples, respectively) and digestion using an S-trap mini device, followed by Tandem Mass Tag (TMT) labeling (with lot# TK2735U and TL272831), high pH-reversed phase (HPRP) fractionation, and phosphopeptide enrichment as previously described.\n\nOne-dimensional liquid chromatography tandem mass spectrometry (1D-LC-MS/MS) was performed on ∼0.5 μg each of the unenriched fractions, and 2.5 μL of the phosphopeptide-enriched fractions were analyzed using a nanoACQUITY UPLC system (Waters) coupled to a Fusion Lumos high resolution accurate mass tandem mass spectrometer (Thermo) in a time-dependent (3 s) data-dependent acquisition (DDA) mode with a 120,000 resolution (@ m/z 200) full MS scan from m/z 375 to 1,600 with a target automatic gain control (AGC) value of 2e5 ions and 50 ms maximum injection time (IT) and internal calibration (eIC) enabled. Peptides were selected for MS/MS using monoisotopic precursor selection (MIPS) and a dynamic exclusion of 45 s. Peptides with charge state 2 (scan priority 1) were selected for MS/MS using an isolation width of 1.2 and higher energy collision-induced dissociation (HCD) with a stepped normalized collision energy of 36.1, 38, and 39.9 with detection in the orbitrap using a resolution of 50,000, an AGC target of 1e5, and max IT of 105 ms. Peptides with charge states 3–5 (scan priority 2) were selected for MS/MS with an isolation window of 0.7 m/z.\n\nPhosphoproteome data were analyzed using Thermo Proteome Discoverer 2.3. Re-calibrated.mgf Calibrated .mgf files were created the Spectrum Files RC node and database searching was performed against the Uniprot database with Mus musculus taxonomy (downloaded on 04/22/19; 20,204 entries) appended with bovine casein isoform protein sequences. Searches used Mascot v 2.5 with 5 ppm precursor and 0.02 product ion tolerances, trypsin specificity with up to two missed cleavages, fixed carbamidomethylation (Cys) and TMT10 (Lys and peptide N-terminal), and variable phosphorylation (Ser, Thr, and Tyr). Percolator and imp-ptmRS nodes were used for FDR determination and site localization. The processing node of the reporter ions quantifier used a 10 ppm integration tolerance, and the consensus node used correction for isotope impurity, a co-isolation threshold of 50%, and S/N threshold of 5. Normalization to total peptide amount and imputation using low abundance resampling were applied.\n\nProteome data was analyzed in Proteome Discoverer 2.4 using the MS-Fragger and Percolator nodes with default parameters. The mouse database was appended with additional contaminant sequences including human keratins. Imputation used low abundance resampling, and protein quantities were calculated from summed peptide abundances. Normalization used sample loading and trimmed mean in R as previously described.\n\nPlasma proteomics\n\nPlasma proteomics utilized sodium deoxycholate (SDC)-assisted in solution digestion followed by microflow liquid chromatography coupled to tandem mass spectrometry using variable window data-independent acquisition (DIA) as previously described with the following modifications. Briefly, 15 μL of plasma was adjusted to 5% SDC in 50 mM ammonium bicarbonate and 10 mM dithiothreitol followed by reduction at 80°C for 20 min and alkylation with 25 mM iodoacetamide at room temp for 30 min. Proteins were digested with 37.5 μg Worthington modified bovine trypsin for 4 h at 37°C followed by the addition of 1.5% (v/v) trifluoracetic acid and 2% (v/v) acetonitrile and Massprep ADH1 peptide standard (Waters; final concentration 30 fmol ADH1/µl). The SDC precipitate was filtered under vacuum using an ISOLUTE Filtration + filter plate (Biotage) and collected in a Deepwell 96/1,000 µL plate (Eppendorf).\n\nTwelve microliters of peptide digest (∼40 μg) were analyzed per sample in a block-randomized order, interspersed with replicates of a study pool QC (SPQC) sample made from a mixture of all samples. Liquid chromatography used a 1 mm × 150 mm 1.7 µm CSH C18 column (Waters) and a ACQUITY UPLC (Waters) at a flow rate of 100 μL/min and a gradient of 3%–28% acetonitrile over 60 min. The LC was interfaced to a Thermo HF-X MS via a heated electrospray ionization (HESI) source. DIA mass spectrometry analysis used a 120,000 resolution precursor ion (MS1) scan from 375 to 1,500 m/z, an AGC target of 3E6, and maximum injection time (IT) of 20 ms; data were collected in profile mode. MS/MS was performed using 30,000 resolution, an AGC target of 3e6 and maximum IT of 60 ms, and 19 variable DIA windows that spanned 375–1,200 m/z. Data were collected in profile mode.\n\nIn addition, ∼800 μg of the SPQC sample was analyzed using high pH-reversed phase (HPRP) fractionation using a 2.1 mm × 5 cm BEH C18 column (Waters) and Agilent 1100 HPLC as previously described with a mobile phase of 20 mM ammonium formate, pH 10, and a gradient of 3%–35% MeCN over 50 min. Forty-eight equal fractions were collected and concatenated to 12 fractions. After lyophilization, samples were resuspended in 24 μL of 1% (v/v) TFA/2% (v/v) MeCN in H2O, and 12 μL was analyzed by microflow-DDA using the same LC method as previously described and a 120,000 resolution precursor (MS1) scan from 375 to 1,500 m/z, an AGC target of 3e6, and maximum injection time (IT) of 45 ms, followed by MS/MS (MS2) of the top 10 most abundant ions at 45,000 resolution with an AGC target of 5e4 ions and 86 milliseconds (ms) IT, 1.2 m/z isolation window, a stepped normalized collision energy (NCE) of 25, 27.5, and 30, a minimum AGC target of 1e4, and 20 s dynamic exclusion.\n\nData analysis used Spectronaut 13 (Biognosys). A “hybrid” spectral library was generated from DDA and direct-DIA searches which used a UniProt database with Mus musculus specificity (downloaded on 04/22/19) appended with sequences for yeast ADH1 and bovine cationic trypsin (17,455 total entries). Default settings were used except for the following: no variable modifications and semitryptic peptide N-termini specificity. DIA files were converted to *.htrms format using a HTRMS converter (Biognosys). Default quantification settings were used except that the workflow used indexed retention time profiling of non-identified precursors; options to carryover peak boundaries and unify peptides were selected. For statistical analysis, single hit proteins were excluded, and quantification was performed at MS2 level using summed precursor areas for the top 20 peptides, Q-value percentile (0.3), and cross-run normalization using q-value complete and median global normalization settings.\n\nBioinformatics analysis\n\nData filtering\n\nTwenty-two human keratin proteins were excluded from the heart dataset as they were suspected to be contaminants. In addition, two viral proteins (P31748-Murine leukemia virus and P0C6X9-Murine coronavirus) were removed from the analysis. The list of proteins that were excluded are shown in Supplementary Table S9.\n\nStatistical analysis of proteomics data\n\nProteomics datasets underwent sample loading (SL) and trimmed mean of M values (TMM) normalizations procedures to correct for levels of proteins and compositional bias across samples. In addition, a batch correction was performed for the heart data guided by QC results using the ComBat procedures. Following this, differentially expressed proteins (DEPs) were identified for irradiated versus sham irradiated samples in the heart and plasma data using exact test in edgeR. DEPs were filtered for significance using a fold-change ≥ |1.2| and a p-value of ≤0.05. For the phosphoproteomics data, protocols in PhosR package were used to identify differential phosphosites, kinase-substrate regulatory interactions, and signaling networks.\n\nProtein orthology mapping, pathway enrichment analysis, and clustering\n\nMouse proteins were mapped to their corresponding human orthologs using biomaRt and the Mouse Genome Database. Then, the results of the ortholog mapping were used as an input to the pathway enrichment analysis pipeline. A Gene Set Enrichment Analysis (GSEA) technique was then used to assess the perturbation of canonical pathways from Biocarta (BIC), KEGG, WikiPathways (WP), Reactome (RECT), and the Pathway Interaction Database (PID). Finally, pathway enrichment maps were utilized to identify interacting pathways (modules) that might have broader impact in the two heart and plasma proteomics data sets. Enrichment map in Cytoscape was used for visualizing the network of pathways. For the phosphoproteomics data, phosphosite (or gene) set enrichment analysis was conducted using the Wilcoxon rank sum test as implemented in the PhosR package. Clustering heatmaps were generated using the coolmap function in the Linear Models for Microarray Data (LIMMA) R package.\n\nWestern blot\n\nMouse heart tissues were mechanically homogenized in Tris Buffered Saline with Tween 20 (TBST) lysis buffer. Protein concentration was determined using BCA assay (Thermo Fisher Scientific #23227, United States) using BioTek Gene 5 software with a 562 nm wavelength. Then, 7.5% precast polyacrylamide gels (Bio-Rad #4568026, United States) were run at 100 V for 75 min and transferred to 0.2 μm Polyvinylidene difluoride (PVDF) membranes by electrophoretic transfer through a tank transfer system at a constant voltage of 30 V for 30 min at 4°C. The membrane was blocked overnight with TBST with 5% non-fat milk (w/v). Primary antibodies KRT10 (Thermo Fisher: MA5-32183, United States), KRT1 (Thermo Fisher: 16848-1-AP, United States) KRT6a (Thermo Fisher: 10590-1-AP, United States), MRPL49 (Thermo Fisher: PA5-112889, United States), fibrinogen gamma (Thermo Fisher: PA5-21968, United States), fibrinogen beta (16747-1-AP; Thermo Fisher, United States), fibrinogen alpha (20645-1-AP; Thermo Fisher, United States), calmodulin 2 (PA5-121166, Thermo Fisher, United States), alpha 2 macroglobulin (MA5-38211, Thermo Fisher, United States), and CAMK2G (CAMKII-301AP, Thermo Fisher, United States) were incubated for 2 h in TBST with 5% non-fat milk (w/v). The membranes were washed prior to incubation with secondary antibody Anti-Rabbit HRP conjugated Ab from (BioRad: #1706515, United States) for 1 hour and subsequently washed with TBST. Membrane was visualized with Clarity™ Western ECL Substrate (Bio-Rad # 1705060, United States) for 5 min, and chemiluminescent images were taken using a BioRad Chemidoc. Densitometric analysis was conducted with Image Lab 6.1 software (Bio-Rad: #12012931, United States).\n\nImmunofluorescence staining\n\nFresh frozen heart bases were embedded in Tissue-Tek® O.C.T. Compound and sectioned to 10 µm. The sections were then fixed with 4% paraformaldehyde and permeabilized with 0.1% Tween-20 (Sigma Aldrich, United States) in phosphate buffered saline (PBS). They were then blocked with 5% normal goat serum in 0.1% Tween-20. The primary antibodies used were Fibrinogen beta (16747-1-AP; Thermo Fisher, United States), Fibrinogen alpha (20645-1-AP; Thermo Fisher, United States) C4b-BP (PIPA528017; Thermo Fisher, United States), and C4d (HP8033; Hycult Biotech, United States) each at a final dilution of 1:200. After washing, they were incubated with polyclonal goat anti-rabbit IgG Alexa Fluor 594 conjugated antibody (ab150080; Abcam, United States) at a final dilution of 1:400. ProLong Gold Antifade Mountant with DAPI (Invitrogen, United States) was added onto the section and a coverslip was placed. A Leica 780 Upright Microscope (Wetzlar, Germany) was used to acquire the images of the tissue sections.\n\nImmunofluorescence staining for neutrophil extracellular traps\n\nFrozen sections of 10 μm, taken from the cardiac apex of mice embedded in OCT, were utilized to investigate the presentation of neutrophil extracellular traps (NETs). To stain the samples, a rabbit anti-elastase antibody (Catalog # PA5-88916, Thermo Fisher, Waltham, MA) diluted 1:100 and a goat anti-myeloperoxidase (MPO) primary antibody (AF 3667, R and D Systems, Minneapolis, MN) diluted to a concentration of 10 μg/mL were employed. Subsequently, the sections were treated with a goat anti-rabbit secondary polyclonal antibody conjugated to Alexa Fluor 594 (Abcam, Cat no. ab150080, Cambridge, United Kingdom) at a dilution of 1:200 and a donkey anti-goat secondary polyclonal antibody conjugated to Alexa Fluor 488 (Catalog # A-11055; Thermo Fisher, Waltham, MA) at a dilution of 1:200. The formation of NETs was examined using a Nikon Ti2 Eclipse inverted confocal microscope.\n\nImmunohistochemistry for collagen types I and III\n\nFrozen sections of the cardiac apex were treated with anti-COL1A1 antibody (Catalog 72026; CST; United States) at a dilution of 1:100 and with anti-type III collagen antibody (Catalog # PA5-3478716, Thermo Fisher, Waltham, MA) at a dilution of 1:150. This was done after the sections underwent a sequence of processing steps: fixation in 4% paraformaldehyde, peroxidase blocking, antigen retrieval, and protein blocking. A horse polyclonal anti-rabbit secondary antibody from the ImmPress HRP Polymer Detection Kit was subsequently applied. These sections were then developed using a 3,3′-diaminobenzidine solution, followed by counterstaining with hematoxylin. After dehydration, clearing, and mounting, serial sections stained for collagen I or III were captured using a digital camera on a Zeiss Axio Imager Z2 Upright Microscope. The stained regions were analyzed using ImageJ software, with five different viewpoints taken from each section. Results are presented as the percentage of the total area for both collagen types I and III.",
+  "results": "Results\n\nCardiac and plasma protein abundance and phosphorylation are modestly diminished at 9 months post GCR5-ion exposure\n\nFor the heart proteome, there were 87 significant DEPs (Supplementary Table S1); for the heart phosphoproteome, there were 60 significant differentially phosphorylated peptides (Supplementary Table S3); and for the plasma proteome, there was only one upregulated protein (Supplementary Table S2).\n\nPrincipal components analysis (PCA) was performed in order to observe any high-level differences between sample groups (Figures 2A–C). The heart proteome (Figure 2A) and heart phosphoproteome (Figure 2C) were better separated (sham irradiated versus GCR5-ion irradiated) as judged by the two most prominent components (PC1 versus PC2), whereas the plasma proteome from the sham and GCR5-ion irradiated animals were not as well separated by PC1 and PC2 (Figure 2B).\n\nFrom the list of significantly changed proteins, we chose the top 20 based on fold change values to create a heatmap as shown in Figures 2D, E (see also Tables 1–3 for more details). The top three DEPs in the cardiac proteome were ATP synthase-coupling factor 6, mitochondrial (ATP5J; AdjPval = 1.53E-28), Troponin C, slow skeletal and cardiac muscles (TNNC1; AdjPval 5.20E-27), and Calmodulin-2 (CALM2; AdjPval = 7.44E-16). The 20 most significant DEPs in the cardiac proteome (Table 1) are involved in the innate and adaptive immune responses, complement activation, calmodulin binding, mitochondrial function, and cardiac contraction. Interestingly, there were two S100 proteins (S100-A6 and S100-A9) in the top cardiac proteome DEPs.\n\nFor the plasma samples, there were three perturbed proteins of note; major urinary protein 20 (MUP20; AdjPval = 2.80E-03), Serum amyloid A-1 protein (SAA1; AdjPval = 9.25E-02), and Glutathione S-transferase theta-3 (GSTT3; AdjPval = 9.25E-02). The top 20 proteins in the plasma proteome are involved in complement activation, innate and adaptive immune responses, biosynthetic and metabolomic processes, and acute phase responses (Table 2).\n\nProteins of note in the phosphoprotein data set are: MYH7 (myosin 7); RRBP1 (ribosomal-binding protein 1); SHIP1 (phosphatidylinositol 3, 4, 5-trisphosphate 5-phosphatase 1); PI5PA (phosphatidylinositol 4,5 -bisphosphate 5-phosphotase A); NUCKS (nuclear ubiquitous casein and cyclin-dependent kinase substrate 1); LAPR1 (La-related protein 1); DESM (desmin); and AKTS1 (AKT1 substrate 1). The top 20 proteins in the cardiac phosphoproteome are involved in cardiac function, enzymatic activity, muscle contraction, regulation of transcription and translations, DNA repair, and regulation of neutrophil migration (Table 3).\n\nFor all three proteomics data sets, the majority of the DEPS were diminished in abundance in GCR5-ion irradiated versus sham irradiated control animals (Figure 3). In the proteome of the heart, there were 76 proteins that were significantly diminished in abundance and 11 proteins that were significantly increased in abundance. In the plasma proteome, there was only one protein with increased abundance after radiation. In the phosphopeptide data set, there were 43 phosphopeptides that were decreased in abundance after radiation and 17 phosphopeptides that increased post radiation.\n\nA single dose of GCR5-ion permanently changed numerous biological pathways in the heart and plasma\n\nThe results from both the abundance and phosphoproteomics data sets indicated that there were a number of proteins significantly changed in abundance in response to GCR5-ion. Each data set was analyzed using a bioinformatics/gene functional-enrichment approach, as outlined in the Materials and Methods, to map these changes to cellular location, protein function, and biological pathways. For the heart proteome, 166 pathways were altered (36 upregulated and 130 downregulated); for the plasma proteome, there were 73 pathways altered (25 upregulated and 48 downregulated); and for the phosphoproteome, there were 223 pathways affected at 0.1 FDR cutoff. See Supplementary Table S4–S8 for details on all pathways emerging from the bioinformatics/gene functional-enrichment approach. For the heart proteome, the major upregulated enriched pathways were: inflammatory processes (including coagulation cascade, complement cascade), elastic fibers, amino acid metabolism, citric acid cycle, extracellular matrix interactions, integrins, cardiovascular disease pathogenesis, urea cycle, HNF-3B/FOXA2 pathway, and metabolism of fat-soluble vitamins (Figure 4A). Major enriched pathways that were downregulated in the heart proteome were: cell cycle/transcription (CCTR), HIV life cycle, iron uptake and transport, reactive oxygen species, apoptosis, insulin glucose pathways, mitochondrial functions (including oxidative phosphorylation and electron transport system), and keratinization/cornification (Figure 4C). The CCTR pathway contained the most proteins and Supplementary Figure S1 shows the complete pathway interaction maps for CCTR. Each of the 72 circles represents a pathway in the interaction map with the size of the circle proportional to the number of proteins annotated with each pathway. Two interacting pathways are connected by a line with the thickness of the line proportional to the number of proteins shared between interacting pathways.\n\nMajor enriched pathways that were upregulated in the plasma samples from mice exposed to GCR5-ion included oxidative damage, and metabolism of amino acids, fatty acids, lipids, toxins, and steroids, toxins (Figure 4B). Major enriched pathways that were downregulated in the plasma include inflammatory processes (complement cascade, coagulation), oxidative damage, and cardiac signaling (GPCR and Hippo) (Figure 4D).\n\nInflammatory pathways and processes that were perturbed in both the heart and plasma proteome are examined in more detail in Figure 5. In both the heart and plasma proteome data set, pathways related to inflammatory processes were in the top ten significantly modulated pathways of each (Figures 5A, C). A pathway enrichment map combining both data sets with a focus on the inflammation pathways was generated (Figure 5B). Interestingly, two patterns emerged from this analysis. First, for pathways that were commonly perturbed in the plasma and heart, the pathways were upregulated in the heart and downregulated in the plasma, as shown by the red top half representing the heart and the bottom blue half that representing the plasma. Second, inflammatory pathways that were only perturbed in the plasma were downregulated.\n\nMajor enriched pathways that were significantly modulated in the phosphoproteomics data set of the heart included many pathways and processes involved in cardiac structure and function such as sarcomere, contractile fiber, I band, muscle cell development, contraction, actin binding, cardiac differentiation, and transmembrane transport. Other pathways significantly perturbed involved inflammatory processes such as neutrophil extracellular trap formation and reactive oxygen species (Figure 6A). Kinases responsible for phosphorylation of major substrates are shown in the heatmap of kinase-substrate interaction (Figure 6B). Notably, MTOR, CAMKG2, and PIM3 emerged as the three kinases responsible for phosphorylating most of the major substrates examined in the analysis. There were 121 proteins that are common between the heart proteome and phosphoproteome (Figure 6C). Of these proteins, there were seven phosphopeptides that were significantly affected in only the phosphoprotome data set (Figure 6D), indicating that the differences in phosphopetpide abundance of these seven phosphopepitides were due to differential phosphorylation at these particular sites rather than differences in protein abundance. These proteins are: RTN2 (reticulon 2), LMOD2 (leiomodin 2), PP1R7 (protein phosphatase 1 regulatory subunit 7), MTCH1 (mitochondrial carrier 1), LNP (lunapark), MIC60 (MICOS complex subunit Mic60), and JPH2 (Junctophilin-2).\n\nNeutrophil extracellular traps were elevated in myocardium of GCR5-ion irradiated mice 12 months post irradiation\n\nWestern blot analysis was performed on mouse myocardium of 150 cGy GCR5-ion irradiated mice at 12 months and age-matched sham irradiation control (Supplementary Figure S2) to evaluate the expression patterns of selected proteins where antibodies were commercially available. Of the 13 protein targets examined by this methodology, only cytokeratin1 and fibrinogen gamma were statistically significantly different between hearts from irradiated and sham irradiated mice (Supplementary Figure S2D).\n\nImmunofluorescent staining of mouse myocardium for markers of inflammation was also performed. Shown in Supplementary Figure S3 are representative myocardial sections from mice irradiated with 150 cGy GCR5-ion stained for fibrinogen α, fibrinogen β, C4d, and C4b-BP. There was no observed difference in the staining patterns of these protein markers between the GCR5-ion irradiated and sham irradiated mice and there was no significant staining observed in any of the samples.\n\nTo investigate the histologic presentation of neutrophil extracellular traps (NETs) in the hearts of mice exposed to GCR5-ion, immunofluorescent staining was performed using anti-neutrophil elastase and anti-MPO antibodies. The staining patterns were compared between the GCR5-ion -exposed mice hearts and the hearts of control mice (Figure 7A). The colocalization of DAPI, MPO, and neutrophil elastase revealed positive staining for NETs in the myocardial tissue of GCR5-ion -treated mice (Figure 7B). The NETs were found to be diffusely distributed in these heart sections, whereas no NETs were observed in any of the control mice hearts.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "galactic cosmic ray",
+    "cardiovascular degeneration",
+    "space radiation",
+    "proteomics",
+    "mass spectrometry",
+    "ionizing radiation",
+    "cardiovascular disease",
+    "phosphoproteomics",
+    "Physiology",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Year-long upregulation of connexin43 in rabbit hearts by heavy ion irradiation",
+      "authors": [
+        "M. Amino",
+        "K. Yoshioka",
+        "D. Fujibayashi",
+        "T. Hashida",
+        "Y. Furusawa",
+        "W. Zareba"
+      ]
+    },
+    {
+      "title": "Venous thrombosis during spaceflight",
+      "authors": [
+        "S. M. Auñón-Chancellor",
+        "J. M. Pattarini",
+        "S. Moll",
+        "A. Sargsyan"
+      ]
+    },
+    {
+      "title": "Application of radiation omics in the development of adverse outcome pathway networks: an example of radiation induced cardiovascular disease",
+      "authors": [
+        "O. Azimzadeh",
+        "S. Moertl",
+        "R. Ramadan",
+        "B. Baselet",
+        "E. C. Laiakis",
+        "S. Sebastian"
+      ]
+    },
+    {
+      "title": "Seipin knockout mice develop heart failure with preserved ejection fraction",
+      "authors": [
+        "B. Bai",
+        "W. Yang",
+        "Y. Fu",
+        "H. L. Foon",
+        "W. T. Tay",
+        "K. Yang"
+      ]
+    },
+    {
+      "title": "Calcium signalling in heart and vessels: role of calmodulin and downstream calmodulin-dependent protein kinases",
+      "authors": [
+        "S. Beghi",
+        "M. Furmanik",
+        "A. Jaminon",
+        "R. Veltrop",
+        "N. Rapp",
+        "K. Wichapong"
+      ]
+    },
+    {
+      "title": "Late onset cardiovascular dysfunction in adult mice resulting from galactic cosmic ray exposure",
+      "authors": [
+        "M. Bishawi",
+        "F. H. Lee",
+        "D. M. Abraham",
+        "C. Glass",
+        "S. J. Blocker",
+        "D. J. Cox"
+      ]
+    },
+    {
+      "title": "Mouse genome database (MGD): knowledgebase for mouse-human comparative biology",
+      "authors": [
+        "J. A. Blake",
+        "R. Baldarelli",
+        "J. A. Kadin",
+        "J. E. Richardson",
+        "C. L. Smith",
+        "C. J. Bult"
+      ]
+    },
+    {
+      "title": "Neutrophil extracellular traps promote deep vein thrombosis in mice",
+      "authors": [
+        "A. Brill",
+        "T. A. Fuchs",
+        "A. S. Savchenko",
+        "G. M. Thomas",
+        "K. Martinod",
+        "S. F. De Meyer"
+      ]
+    },
+    {
+      "title": "Implementing the MSFragger search engine as a node in proteome discoverer",
+      "authors": [
+        "H. Y. Chang",
+        "S. E. Haynes",
+        "F. Yu",
+        "A. I. Nesvizhskii"
+      ]
+    },
+    {
+      "title": "Consequences of space radiation on the brain and cardiovascular system",
+      "authors": [
+        "C. M. Davis",
+        "A. R. Allen",
+        "D. E. Bowles"
+      ]
+    },
+    {
+      "title": "The pheromone darcin drives a circuit for innate and reinforced behaviours",
+      "authors": [
+        "E. Demir",
+        "K. Li",
+        "N. Bobrowski-Khoury",
+        "J. I. Sanders",
+        "R. J. Beynon",
+        "J. L. Hurst"
+      ]
+    },
+    {
+      "title": "Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt",
+      "authors": [
+        "S. Durinck",
+        "P. T. Spellman",
+        "E. Birney",
+        "W. Huber"
+      ]
+    },
+    {
+      "title": "Microgravity induces proteomics changes involved in endoplasmic reticulum stress and mitochondrial protection",
+      "authors": [
+        "B. J. Feger",
+        "J. W. Thompson",
+        "L. G. Dubois",
+        "R. P. Kommaddi",
+        "M. W. Foster",
+        "R. Mishra"
+      ]
+    },
+    {
+      "title": "Effect of serum amyloid A on selected in vitro functions of isolated human neutrophils",
+      "authors": [
+        "M. E. Gatt",
+        "S. Urieli-Shoval",
+        "L. Preciado-Patt",
+        "M. Fridkin",
+        "S. Calco",
+        "Y. Azar"
+      ]
+    },
+    {
+      "title": "Interleukin-13 disrupts type 2 pneumocyte stem cell activity",
+      "authors": [
+        "K. M. Glisinski",
+        "A. J. Schlobohm",
+        "S. V. Paramore",
+        "A. Birukova",
+        "M. A. Moseley",
+        "M. W. Foster"
+      ]
+    },
+    {
+      "title": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+      "authors": [
+        "W. E. Johnson",
+        "C. Li",
+        "A. Rabinovic"
+      ]
+    },
+    {
+      "title": "The effect of pathogen inactivation on cryoprecipitate: a functional and quantitative evaluation",
+      "authors": [
+        "R. W. Kamyszek",
+        "M. W. Foster",
+        "B. A. Evans",
+        "K. Stoner",
+        "J. Poisson",
+        "A. J. Srinivasan"
+      ]
+    },
+    {
+      "title": "PhosR enables processing and functional analysis of phosphoproteomic data",
+      "authors": [
+        "H. J. Kim",
+        "T. Kim",
+        "N. J. Hoffman",
+        "D. Xiao",
+        "D. E. James",
+        "S. J. Humphrey"
+      ]
+    },
+    {
+      "title": "Protocol for the processing and downstream analysis of phosphoproteomic data with PhosR",
+      "authors": [
+        "H. J. Kim",
+        "T. Kim",
+        "D. Xiao",
+        "P. Yang"
+      ]
+    },
+    {
+      "title": "Neutrophil extracellular traps and their implications in cardiovascular and inflammatory disease",
+      "authors": [
+        "J. Klopf",
+        "C. Brostjan",
+        "W. Eilenberg",
+        "C. Neumayer"
+      ]
+    },
+    {
+      "title": "Radiation damage to proteins",
+      "authors": [
+        "U. Kumta",
+        "A. Tappel"
+      ]
+    },
+    {
+      "title": "Quantitative proteomic analytic approaches to identify metabolic changes in the medial prefrontal cortex of rats exposed to space radiation",
+      "authors": [
+        "E. C. Laiakis",
+        "M. Pinheiro",
+        "T. Nguyen",
+        "H. Nguyen",
+        "A. Beheshti",
+        "S. M. Dutta"
+      ]
+    },
+    {
+      "title": "Species specificity in major urinary proteins by parallel evolution",
+      "authors": [
+        "D. W. Logan",
+        "T. F. Marton",
+        "L. Stowers"
+      ]
+    },
+    {
+      "title": "Enrichment map: a network-based method for gene-set enrichment visualization and interpretation",
+      "authors": [
+        "D. Merico",
+        "R. Isserlin",
+        "O. Stueker",
+        "A. Emili",
+        "G. D. Bader"
+      ]
+    },
+    {
+      "title": "Surpassing 10 000 identified and quantified proteins in a single run by optimizing current LC-MS instrumentation and data analysis strategy",
+      "authors": [
+        "J. Muntel",
+        "T. Gandhi",
+        "L. Verbeke",
+        "O. M. Bernhardt",
+        "T. Treiber",
+        "R. Bruderer"
+      ]
+    },
+    {
+      "title": "Neutrophil extracellular traps in immunity and disease",
+      "authors": [
+        "V. Papayannopoulos"
+      ]
+    },
+    {
+      "title": "Limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "authors": [
+        "M. E. Ritchie",
+        "B. Phipson",
+        "D. Wu",
+        "Y. Hu",
+        "C. W. Law",
+        "W. Shi"
+      ]
+    },
+    {
+      "title": "Darcin: a male pheromone that stimulates female memory and sexual attraction to an individual male's odour",
+      "authors": [
+        "S. A. Roberts",
+        "D. M. Simpson",
+        "S. D. Armstrong",
+        "A. J. Davidson",
+        "D. H. Robertson",
+        "L. McLean"
+      ]
+    },
+    {
+      "title": "edgeR: a Bioconductor package for differential expression analysis of digital gene expression data",
+      "authors": [
+        "M. D. Robinson",
+        "D. J. McCarthy",
+        "G. K. Smyth"
+      ]
+    },
+    {
+      "title": "A scaling normalization method for differential expression analysis of RNA-seq data",
+      "authors": [
+        "M. D. Robinson",
+        "A. Oshlack"
+      ]
+    },
+    {
+      "title": "Effects of low-dose oxygen ions and protons on cardiac function and structure in male C57BL/6J mice",
+      "authors": [
+        "J. W. Seawright",
+        "V. Sridharan",
+        "R. D. Landes",
+        "M. Cao",
+        "P. Singh",
+        "I. Koturbash"
+      ]
+    },
+    {
+      "title": "Role of neutrophil extracellular traps in radiation resistance of invasive bladder cancer",
+      "authors": [
+        "S. Shinde-Jadhav",
+        "J. J. Mansure",
+        "R. F. Rayes",
+        "G. Marcq",
+        "M. Ayoub",
+        "R. Skowronski"
+      ]
+    },
+    {
+      "title": "NASA’s first ground-based Galactic Cosmic Ray Simulator: enabling a new era in space radiobiology research",
+      "authors": [
+        "L. C. Simonsen",
+        "T. C. Slaba",
+        "P. Guida",
+        "A. Rusek"
+      ]
+    },
+    {
+      "title": "HZE Fe-ion irradiation induces endothelial dysfunction in rat aorta: role of xanthine oxidase",
+      "authors": [
+        "K. G. Soucy",
+        "H. K. Lim",
+        "J. H. Kim",
+        "Y. Oh",
+        "D. O. Attarzadeh",
+        "B. Sevinc"
+      ]
+    },
+    {
+      "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles",
+      "authors": [
+        "A. Subramanian",
+        "P. Tamayo",
+        "V. K. Mootha",
+        "S. Mukherjee",
+        "B. L. Ebert",
+        "M. A. Gillette"
+      ]
+    },
+    {
+      "title": "Serum amyloid A, the major vertebrate acute-phase reactant",
+      "authors": [
+        "C. M. Uhlar",
+        "A. S. Whitehead"
+      ]
+    },
+    {
+      "title": "Identification of PKCα-dependent phosphoproteins in mouse retina",
+      "authors": [
+        "C. M. Wakeham",
+        "P. A. Wilmarth",
+        "J. M. Cunliffe",
+        "J. E. Klimek",
+        "G. Ren",
+        "L. L. David"
+      ]
+    },
+    {
+      "title": "Branched-chain α-ketoacids are preferentially reaminated and activate protein synthesis in the heart",
+      "authors": [
+        "J. M. Walejko",
+        "B. A. Christopher",
+        "S. B. Crown",
+        "G. F. Zhang",
+        "A. Pickar-Oliver",
+        "T. Yoneshiro"
+      ]
+    },
+    {
+      "title": "Inflammation. Neutrophil extracellular traps license macrophages for cytokine production in atherosclerosis",
+      "authors": [
+        "A. Warnatsch",
+        "M. Ioannou",
+        "Q. Wang",
+        "V. Papayannopoulos"
+      ]
+    },
+    {
+      "title": "Serum amyloid A, an acute phase protein, inhibits platelet activation",
+      "authors": [
+        "S. Zimlichman",
+        "A. Danon",
+        "I. Nathan",
+        "G. Mozes",
+        "R. Shainkin-Kestenbaum"
+      ]
+    }
+  ],
+  "original_title": "Proteomic and phosphoproteomic characterization of cardiovascular tissues after long term exposure to simulated space radiation",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/f027c3a8ed1f/fphys-15-1248276-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/42597c7a3b4f/fphys-15-1248276-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/e5c6b1ba4915/fphys-15-1248276-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/4ee5110ac7ea/fphys-15-1248276-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/59a4b89632e7/fphys-15-1248276-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/c21dd713be9a/fphys-15-1248276-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1ea5/11063234/d3e257daefc9/fphys-15-1248276-g007.jpg"
+  ]
+}

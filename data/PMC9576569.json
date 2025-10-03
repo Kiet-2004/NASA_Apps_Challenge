@@ -1,0 +1,702 @@
+{
+  "pmcid": "PMC9576569",
+  "title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice",
+  "abstract": "Summary\n\nHuman expansion in space is hampered by the physiological risks of spaceflight. The muscle and the liver are among the most affected tissues during spaceflight and their relationships in response to space exposure have never been studied. We compared the transcriptome response of liver and quadriceps from mice on NASA RR1 mission, after 37 days of exposure to spaceflight using GSEA, ORA, and sparse partial least square-differential analysis. We found that lipid metabolism is the most affected biological process between the two organs. A specific gene cluster expression pattern in the liver strongly correlated with glucose sparing and an energy-saving response affecting high energy demand process gene expression such as DNA repair, autophagy, and translation in the muscle. Our results show that impaired lipid metabolism gene expression in the liver and muscle atrophy gene expression are two paired events during spaceflight, for which dietary changes represent a possible countermeasure.\n\nHighlights\n\nLipid metabolic genes are the most affected among mice muscle and liver in spaceflight\n\nGlucose metabolic genes are the most DEG on mice quadriceps in spaceflight\n\nMuscle atrophy gene expression correlates with a liver lipid gene cluster expression\n\nHepatokines are likely the effector of this organ communication\n\nSpace medicine; Omics; Space sciences; Astronautics.",
+  "introduction": "Introduction\n\nThe presence of humans in space has considerably increased since the beginning of space conquest and the space population is expected to continue to grow with tourism and private research activities. The NASA Artemis program plans to take humans back to the Moon for 2024, and a walk on Mars soil is estimated in the course of the 2030s. Meanwhile, space research is driving more and more astronauts in low Earth orbit as an invaluable tool used to deepen humanity’s understanding of the universe and our place within it. But not only do humans want to visit and explore space, humans want to live in space. Outer space settlement has become a new goal of space agencies and the private sector. The Artemis program, SpaceX, the Moon Village Association, and the Mars Society are examples of the driving force of human performance in space. Recently, the USA Air Force Space Command reported eight most plausible scenarios to the year 2060, all of which anticipating a permanent occupation of the Moon surface ranging from a small-sized crew to colony of thousands of people. Over fifty years after the first foot imprint on the lunar surface, humans could very soon become an interplanetary species.\n\nThis endeavor is hampered by space stressors such as space radiation, microgravity, confinement, isolation, hostile conditions, and distance from Earth, that all induce physiological changes. These changes can be seen as physiological adaptation to the space environment, but they can become maladaptive and deleterious over time and upon gravity re-exposure during a planetary mission such as to Mars. Nine major spaceflight systemic and physiological health risks have been identified: cardiovascular dysregulation, central nervous system impairment, increased cancer risk, muscle degeneration, bone loss, liver dysfunction and lipid dysregulation, circadian rhythm dysregulation, immune dysfunction, and space-associated neuro-ocular syndrome (SANS). Muscle atrophy is a major risk for these missions as it impairs mobility, thus compromising critical mission operations such as post-landing vehicle egress. Muscle atrophy is characterized by unbalanced protein degradation and the loss of muscle mass. However, protein supplementation fails to counteract muscle loss in sarcopenia, cachexia, and spaceflight-induced muscle atrophy. Many studies have documented spaceflight-induced muscle atrophy as a consequence of weightlessness and decreased muscle solicitation. Daily exercises as countermeasures succeed in slowing down the process but the muscle still shrinks during missions. Despite the important advances in human physiology in space, the molecular mechanisms underlying these physiological changes are poorly understood. Therefore, molecular analyses are needed to enable a new countermeasure approach to monitor astronaut health and ensure safety of future habited space missions.\n\nThe liver and the muscle are among the most affected tissues during spaceflight. The liver and the muscle are two master organs of the metabolism, with the muscle tissue representing up to 50% of the total body mass. Consistently, astronauts and living organisms exposed to space environment display many features of dysregulated metabolism.\n\nRats on the SpaceLab-2 mission displayed increased serum cholesterol levels. In mice, activated lipotoxic pathways are associated with abnormal liver lipid accumulation and increased lipid metabolism and lipid localization gene expression. Beheshti et al. recently showed using a multi-omic analysis that lipid dysregulation in mice liver and lipotoxic pathways was a specific response to space stressors alone. Dysregulated lipid metabolism, especially lipid accumulation, is strongly associated with non-alcoholic fatty acid liver diseases (NAFLD), liver dysfunction, insulin resistance (IR), and diabetes. Of note, mice showed early signs of liver injury on a short space flight (STS-135), and subclinical diabetogenic changes have been shown to occur during spaceflight and bedrest studies. In mice flown aboard the BION-M1 biosatellite, the transcriptome response of the longissimus dorsi was mainly linked to metabolism, especially insulin signaling and sensitivity, highlighting the impact of spaceflight on glucose metabolism in skeletal muscle. Glucagon and insulin, two hormones of glucose metabolism, were predicted to be the common upstream regulators of spaceflight metabolic shift. In the Twin Study, increased levels of lactic acid were found in the urine of the flight astronaut, consistent with metabolomics data showing an increased lactic acid/pyruvic acid ratio suggesting a metabolic shift. Interestingly, insulin resistance and liver diseases are associated with muscle atrophy and a potential reciprocal influence of insulin resistance and muscle disuse atrophy. As such, metabolic stress is a priority research for human space exploration. The roles of the liver and the muscle are often interlinked, and muscle-liver crosstalk are described in metabolic diseases NAFLD, NASH, IR, and diabetes. However, the relationship of the two organs in the response to space environment has not been yet elucidated.\n\nIn this study, we describe for the first time the relationship of the response of both the liver and the muscle of mice during spaceflight using the R software package mixOmics widely used in the omic field. The mixOmics package enables datasets comparison, correlations, and associations visualization in various research areas.",
+  "methods": "STAR★Methods\n\nKey resources table\n\nResource availability\n\nLead contact\n\nFurther information and requests for resources and reagents should be directed to and will be fulfilled by the lead contact Dr Willian Abraham da Silveira, willian.dasilveira@staffs.ac.uk.\n\nMaterials availability\n\nThis study did not generate new unique reagents.\n\nMethod details\n\nFull experimental procedures are available at: https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-103/ and https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-168.\n\nThe omics data of mice liver and muscle were obtained from the NASA Rodent Research 1 (RR1) protocol accessible on the NASA’s GeneLab public omics repository. Also, all animal procedures, ethics, and tissues harvesting, disposal, and experiments have been previously conducted and performed by external experimenters. Thus, animal procedures were performed according to the relevant guide-lines at each institution and were approved by the Institutional Animal Care and Use Committee (IACUC). Full experimental procedures are available at: https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-103/ and https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-168.\n\nBriefly, the study was conducted aboard the International Space Station (ISS) in 2014 on twelves female C57BL/6J mice, six in flight mice (M23, M24, M25, M26, M27, M28) referred to as the FLT group, and six ground controls mice (M33, M34, M35, M36, M37, M38), referred to as the GC group, for 37 days upon 12h day/night cycle, and fed with Nutrient Upgraded Rodent Food Bar (NuRFB)63. The research platform used for this experiment was NASA’s Rodent Research Hardware System also referred to as the Rodent Research Habitat System. Mice were sacrificed with Euthasol injection followed by cervical dislocation on orbit on the ISS for the FLT group, and on the ground at the same time for the GC group. The entire carcasses of 10 mice were stored at −80C until processing. Two FLT mice were dissected on-board the ISS, and livers were isolated on-orbit and stored in the MELFI. Frozen FLT mice carcasses were then returned on Earth by the SpaceX-4 spacecraft and delivered to the NASA Ames Research Center (ARC) for disposal. The ten frozen mice carcasses, GC and FLT, were dissected at room temperature, and harvested samples stored at −80C.\n\nRNA extraction from 20–30mg mice liver and muscle were realized at 4C using a lysis buffer (Qiagen, Valenica, CA) and a beta-mercaptoethanol (1:100)/Buffer RLT solution, lysis buffer (Qiagen, Valenica, CA) and kept on ice. Samples were then homogenized for 20 s at 21,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate (Kinematica, Bohemia, NY). Homogenates were centrifuged for 3 min at room temperature to remove tissue debris. RNA from homogenates were further purified using the Qiagen AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA), and eluted in DNase/RNase-free water. RNA concentrations were measured using the NanoDrop 2000 UV-Vis Spectrophotometer (Thermo Fisher Scientific, Waltham, MA), and RNA quality was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA). RNA sequencing and library construction was performed on 1 μg of RNA having RIN values of 7 or above, using Illumina HiSeq 4000 kit and experimental protocol.\n\nQuantification and statistical analysis\n\nRNAseq data processing\n\nRaw FASTQ files were proceed using the “GeneLab RNAseq data processing protocol” as reported at https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-103/ and https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-168. On this work we used the mentioned protocol up to the step “Quantification data was imported to R (version 3.6.0) with tximport”.\n\nR\n\nDifferential Expression (DE) analysis has been performed using the R studio software Version 1.2.5001 and the DESeq2 package version 1.30.1 that uses shrinkage estimation for dispersion and fold change. RSEM expected counts were extracted and rounded up to the next integer and used as input for DE analysis. Statistical significance of differentially expressed genes (FDR ≤0.05) were assessed using Benjamini-Hochberg multiple testing adjustment procedure.\n\nBiological process, pathways, networks and clusters analysis\n\nFor biological process, pathways, networks and clusters analysis, normalized count from RR1 mice quadriceps and liver were processed by the DEseq2 package and assessed for Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways Over Representation Analysis on the online Webgesalt platform, and for Gene Ontology Biological Process (GOBP) and KEGG pathways GeneSets Enrichment by the Gene Set Enrichment Analysis (GSEA) software. The Cytoscape software was used to build geneset networks from GSEA results. GSEAs were run with a ‘‘Flight vs Ground Control’’ comparison setting. The ranked list of genes was defined by the signal-to-noise metric, and the statistical significance were determined by 1000 permutations of the gene sets. Enrichment importance were sorted according to the enrichment score calculated by GSEA. Venn diagrams were generated on the online platform Venny available at: https://bioinfogp.cnb.csic.es/tools/venny/index2.0.2.html.\n\nmixOmics\n\nmixomics is a R package developed by Kim-anh Lê Cao, Sébastien Déjean and collaborators to visualize associations between paired omics datasets using correlation circles plots, heatmaps, and networks. In the present study we used mixOmics package version 6.14.1. More information can be found on the online mixOmics platform available at: http://mixomics.org/.\n\nsPLS and sPLS-DA\n\nTranscriptome from 6 matched NASA RR1 mice, 3 ground controls (M36, M37, M38) and 3 inflight (M25, M26, M28), between the liver and the quadriceps were analyzed by sPLS (Partial Least Square) and sPLS-DA (sparse Partial Least Square-Differential Analysis). Correlation circle and correlation network were generated from sPLS-DA performed on 100%, 75%, 50%, and 25% of total normalized counts according to the process suggested in. This method is an internal method to validate that the pattern of genes evaluated with the strongest importance for discrimination maintain across input reduction. These genes are referred to as to “discriminating genes” in this study. The correlation circle plot is a 1 sized radius were variable pools located between |0,5| and |1| have the strongest correlation. Correlation heatmaps are generated from sPLS analyses. Post 100%, 75%, 50%, and 25% sPLS-DA DEG are DEG still present in reported genes from 100%, 75%, 50%, and 25% sPLS-DA. R scripts used for this study are available at: http://mixomics.org/case-studies/spls-liver-toxicity-case-study/.",
+  "results": "Results\n\nLipid metabolic processes are the most common biological processes affected in mice quadriceps and liver during spaceflight\n\nPrevious studies showed that the muscle and the liver are differentially affected by metabolic changes during spaceflight. Here, we first investigated the commonalities between the two organs. We chose to focus on the quadriceps, which is the most important in term of size and as such potentially in terms of effects.\n\nTranscriptomic data from C57BL/6J mouse liver and quadriceps from the NASA Rodent Research 1 (RR1) protocol were analyzed by the Gene Set Enrichment Analysis (GSEA) method and visualized with Cytoscape software (Figure 1A). In the quadriceps, “fatty coA process” and “axon extension negative” were the most enriched processes. In the liver, most enriched processes were related to mitochondria (“proton triphosphate gsea”, “electron transport cytochrome”, and “mitochondrial translational elongation”) followed by lipid metabolism-related processes (“oxidation fatty acyl”, “plasma lipoprotein particle”, and “positive lipid process”) (Figure S1A, Related to Figure 1). Similarly, lipid metabolism-related pathways were also the most enriched reported by KEGG pathways over representation analysis in the liver (Figure S1B, Related to Figure 1).\n\nAmong the 24,961 transcripts identified in the liver samples and the 22,657 transcripts in the identified quadriceps sample, the most enriched gene ontology biological processes altered by spaceflight assessed by GSEA commonly shared were related to lipid metabolism (Figure 1A). “β-oxidation lipid”, “plasma lipoprotein particle”, and “triglycerides neutral biosynthetic” genesets were upregulated in both organs, while “cholesterol alcohol biosynthetic” and “fatty acyl coa” displayed opposed expression patterns between the two organs. Consistent with previous studies, mitochondria-related process genesets were also among the most shared processes and were upregulated in the liver, while downregulated in the quadriceps. Endoplasmic reticulum and ribosome-related process genesets were also among the most shared process genesets, potentially suggesting impaired protein metabolism.\n\nBoth positively (upregulated) and negatively (downregulated) enriched KEGG pathways obtained by GSEA for each organ were compared together in a Venn diagram (Figures 1B and 1C). Among the 70 pathways analyzed, 11 pathways were common to the two organs. Again, lipid metabolism-related pathways were the most represented among the common ones (Figure 1B), with “KEGG_BIOSYNTHESIS_OF_UNSATURED_FATTY_ACIDs” and the two short chain fatty acid metabolism pathways “KEGG_BUTANOATE_METABOLISM” and “KEGG_PROPANOATE_METABOLISM” (Figure 1C). Protein metabolism (“KEGG_RIBOSOME”, “KEGG_PROTEASOME”, “KEGG_RNA_POLYMERASE”) and DNA repair-related pathways were also among the common downregulated pathways between the two organs. Thus, spaceflights induce a strong transcriptional response of the metabolism, especially for lipid metabolism in the liver and in the quadriceps.\n\nHypoglycemic signaling pathways genes are the most significantly downregulated in mice quadriceps during spaceflight\n\nIn the quadriceps, 972 genes were significantly differentially expressed, among which 562 were downregulated and 410 were upregulated. KEGG pathways over representation analysis (ORA) in the online software Webgesalt reported 30 most enriched pathways (Figure 2A). Pathways involved in metabolism are particularly enriched, especially those regulating glycemia: HIF1, ErbB, FoxO, AMPK, Insulin, and PI3K-Akt signaling pathways. Hypoglycemic signaling pathway gene expression was decreased in flight mice compared to ground control mice (Figure 2B). Interestingly, glucose transport processes were among the most negatively enriched in GSEA reports, and glucose transport process gene expression was decreased in flight mice compared to ground control mice (Figures 2C and 2D).\n\nWe investigated the relationships between the downregulation of glucose transport process genes and the downregulation of hypoglycemic signaling pathway genes using the supervised method sPLS-DA (sparse partial least square-differential analysis) with the R-mixOmics package. We compared the reported genes by the sPLS-DA performed at 100% (22657), 75% (16992), 50% (11328), and 25% (5664) (according to the process suggested in) transcript input in a Venn diagram, and we found that 3463 genes were commonly reported with the strongest importance for discrimination (“discriminating genes”) (Figure S2A, Related to Figure 2). KEGG pathways ORA on these specific genes reported several enriched pathways among which were the previously mentioned hypoglycemic signaling pathways. Moreover, 491 significant differentially expressed genes (DEG) were still present among the 3463 sPLS-DA common genes, and KEGG pathway ORA on these genes demonstrated fewer enriched pathways than on the original analysis of the 972 DEG (Figure 2A) and on the 3463 sPLS-DA common genes (Figure S2A, Related to Figure 2), but the hypoglycemic ErbB, FoxO, AMPK, Insulin, and HIF-1 signaling pathways were still among the most enriched (Figure S2B, Related to Figure 2). Principal component analysis (PCA) showed that inflight mice and ground control mice groups were clearly discriminated by gene variability (Figure S2C, Related to Figure 2), despite PCA being an unsupervised method. Finally, we found that glucose transport process and hypoglycemic signaling pathway gene expression correlate (Figure 2E), and this correlation is strong as indicated by the correlation intensity level shown on the correlation heatmap (Figure S2D, Related to Figure 2).\n\nMuscle glucose transport gene expression correlates with decreased muscle DNA repair, autophagy, and translation processes gene expression\n\nIn the quadriceps, DNA repair, autophagy, and translation are among the most enriched processes and pathways reported by GSEA and ORA. DNA repair, autophagy, and translation process genes are decreased in inflight mice compared to ground control mice (Figures 3A–3C). Muscle glucose transport gene expression strongly correlates with decreased muscle DNA repair, autophagy, and translation process gene expression as shown by the correlation circle plot (Figures 3D–3F) and the correlation heatmap (Figures 3G–3I). These processes are both high energy demand processes. Thus, decreased energy intake gene expression correlated with an energy-saving transcriptome in mice quadriceps during spaceflight.\n\nLipid metabolic processes gene expression in the liver correlates with gene expression changes in the muscle and muscle atrophy phenotype\n\nLipid metabolism pathways are among the most reported by GSEA and ORA (Figures 1 and S1). In addition, discriminating genes after 100%, 75%, 50%, and 25% sPLS-DA and post DEG 100%, 75%, 50%, and 25% sPLS-DA still maintain this pattern as shown by KEGG ORA (Figures S3A and S3B, Related to Figure 4). Of note, the two short chain fatty acid “butanoate” and ‘propanoate” were always among the most enriched KEGG pathways (Figure S3C, Related to Figure 4). Since fatty liver diseases are associated with IR and diabetes, we investigated whether altered glucose transport gene expression was linked to liver lipid metabolism. We found that glucose transport process gene expression strongly correlated with liver lipid metabolism gene expression during spaceflight (Figures 4B and 4C). Consistently, liver lipid metabolism gene expression also correlated with muscle autophagy, DNA repair, and translation process gene expression (Figures 5A–5C). Furthermore, liver lipid metabolism gene expression strongly correlated with muscle atrophy phenotype gene expression (Figure 5D). Indeed, liver lipid metabolism and muscle atrophy genes formed a gene correlation network (Figure 5E). Akr1c12, Ces1c, Abcg8, Abcg5, Fabp2, Apom, Rdh7, Serpina6, Gpat2, and Slc10a1 formed a gene cluster strongly correlating with muscle gene expression (Figure 5F).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Space medicine",
+    "Omics",
+    "Space sciences",
+    "Astronautics",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Mitochondrial dysfunction in skeletal muscle pathologies",
+      "authors": [
+        "J. Abrigo",
+        "F. Simon",
+        "D. Cabrera",
+        "C. Vilos",
+        "C. Cabello-Verrugio"
+      ]
+    },
+    {
+      "title": "The future of space 2060 and implications for U.S. Strategy: report on the space futures, workshop Air force space Command",
+      "authors": []
+    },
+    {
+      "title": "Fundamental biological features of spaceflight: advancing the field to enable deep-space exploration",
+      "authors": [
+        "E. Afshinnekoo",
+        "R.T. Scott",
+        "M.J. MacKay",
+        "E. Pariset",
+        "E. Cekanaviciute",
+        "R. Barker",
+        "S. Gilroy",
+        "D. Hassane",
+        "S.M. Smith",
+        "S.R. Zwart"
+      ]
+    },
+    {
+      "title": "Positive and negative regulation of insulin signaling by reactive oxygen and nitrogen species",
+      "authors": [
+        "N. Bashan",
+        "J. Kovsan",
+        "I. Kachko",
+        "H. Ovadia",
+        "A. Rudich"
+      ]
+    },
+    {
+      "title": "Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver",
+      "authors": [
+        "A. Beheshti",
+        "K. Chakravarty",
+        "H. Fogle",
+        "H. Fazelinia",
+        "W.A.d. Silveira",
+        "V. Boyko",
+        "S.H.L. Polo",
+        "A.M. Saravia-Butler",
+        "G. Hardiman",
+        "D. Taylor"
+      ]
+    },
+    {
+      "title": "Towards human exploration of space: the THESEUS review series on nutrition and metabolism research priorities",
+      "authors": [
+        "A. Bergouignan",
+        "T.P. Stein",
+        "C. Habold",
+        "V. Coxam",
+        "D. O’gorman",
+        "S. Blanc"
+      ]
+    },
+    {
+      "title": "To the moon and beyond: challenges and opportunities for nasa’s artemis program",
+      "authors": [
+        "A.P. Bukley"
+      ]
+    },
+    {
+      "title": "Harnessing muscle–liver crosstalk to treat nonalcoholic steatohepatitis",
+      "authors": [
+        "M.V. Chakravarthy",
+        "M.S. Siddiqui",
+        "M.F. Forsgren",
+        "A.J. Sanyal"
+      ]
+    },
+    {
+      "title": "Treatment of spinal muscular atrophy by sodium butyrate",
+      "authors": [
+        "J.G. Chang",
+        "H.M. Hsieh-Li",
+        "Y.J. Jong",
+        "N.M. Wang",
+        "C.H. Tsai",
+        "H. Li"
+      ]
+    },
+    {
+      "title": "Re-setting the circadian clock using exercise against sarcopenia",
+      "authors": [
+        "Y. Choi",
+        "J. Cho",
+        "M.H. No",
+        "J.W. Heo",
+        "E.J. Cho",
+        "E. Chang",
+        "D.H. Park",
+        "J.H. Kang",
+        "H.B. Kwak"
+      ]
+    },
+    {
+      "title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact",
+      "authors": [
+        "W.A. da Silveira",
+        "H. Fazelinia",
+        "S.B. Rosenthal",
+        "E.C. Laiakis",
+        "M.S. Kim",
+        "C. Meydan",
+        "Y. Kidane",
+        "K.S. Rathi",
+        "S.M. Smith",
+        "B. Stear"
+      ]
+    },
+    {
+      "title": "Skeletal muscle insulin resistance: role of mitochondria and other ROS sources",
+      "authors": [
+        "S. Di Meo",
+        "S. Iossa",
+        "P. Venditti"
+      ]
+    },
+    {
+      "title": "A powerful framework for an integrative study with heterogeneous omics data: from univariate statistics to multi-block analysis",
+      "authors": [
+        "H. Duruflé",
+        "M. Selmani",
+        "P. Ranocha",
+        "E. Jamet",
+        "C. Dunand",
+        "S. Déjean"
+      ]
+    },
+    {
+      "title": "Physiology of a microgravity environment invited review: microgravity and skeletal muscle",
+      "authors": [
+        "R.H. Fitts",
+        "D.R. Riley",
+        "J.J. Widrick"
+      ]
+    },
+    {
+      "title": "Microgravity-induced transcriptome adaptation in mouse paraspinal longissimus dorsi muscle highlights insulin resistance-linked genes",
+      "authors": [
+        "G. Gambara",
+        "M. Salanova",
+        "S. Ciciliot",
+        "S. Furlan",
+        "M. Gutsmann",
+        "G. Schiffl",
+        "U. Ungethuem",
+        "P. Volpe",
+        "H.C. Gunga",
+        "D. Blottner"
+      ]
+    },
+    {
+      "title": "Gene expression profiling in slow-Type calf soleus muscle of 30 days space-flown mice",
+      "authors": [
+        "G. Gambara",
+        "M. Salanova",
+        "S. Ciciliot",
+        "S. Furlan",
+        "M. Gutsmann",
+        "G. Schiffl",
+        "U. Ungethuem",
+        "P. Volpe",
+        "H.C. Gunga",
+        "D. Blottner"
+      ]
+    },
+    {
+      "title": "Nutritional interventions during bed rest and spaceflight: prevention of muscle mass and strength loss, bone resorption, glucose intolerance, and cardiovascular problems",
+      "authors": [
+        "R. Gao",
+        "P.D. Chilibeck"
+      ]
+    },
+    {
+      "title": "Butyrate improves insulin sensitivity and increases energy expenditure in mice. PMID: 19366864",
+      "authors": [
+        "Z. Gao",
+        "J. Yin",
+        "J. Zhang",
+        "R.E. Ward",
+        "R.J. Martin",
+        "M. Lefevre",
+        "W.T. Cefalu",
+        "J. Ye"
+      ]
+    },
+    {
+      "title": "The NASA twins study: a multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "F.E. Garrett-Bakelman",
+        "M. Darshi",
+        "S.J. Green",
+        "R.C. Gur",
+        "L. Lin",
+        "B.R. Macias",
+        "M.J. McKenna",
+        "C. Meydan",
+        "T. Mishra",
+        "J. Nasrini"
+      ]
+    },
+    {
+      "title": "Polymorphisms in the ABCG5 and ABCG8 genes associate with cholesterol absorption and insulin sensitivity",
+      "authors": [
+        "H. Gylling",
+        "M. Hallikainen",
+        "J. Pihlajamäki",
+        "J. Agren",
+        "M. Laakso",
+        "R.A. Rajaratnam",
+        "R. Rauramaa",
+        "T.A. Miettinen"
+      ]
+    },
+    {
+      "title": "Visualising associations between paired ‘omics’ data sets",
+      "authors": [
+        "I. González",
+        "K.A.L. Cao",
+        "M.J. Davis",
+        "S. Déjean"
+      ]
+    },
+    {
+      "title": "Lumenal calcification and microvasculopathy in fetuin-A-deficient mice lead to multiple organ morbidity",
+      "authors": [
+        "M. Herrmann",
+        "A. Babler",
+        "W. Jahnen-Dechent",
+        "I. Moshkova",
+        "F. Gremse",
+        "F. Kiessling",
+        "U. Kusebauch",
+        "V. Nelea",
+        "R. Kramann",
+        "R.L. Moritz",
+        "M.D. McKee"
+      ]
+    },
+    {
+      "title": "Correction: spaceflight activates lipotoxic pathways in mouse liver",
+      "authors": [
+        "K.R. Jonscher",
+        "A. Alfonso-Garcia",
+        "J.L. Suhalim",
+        "D.J. Orlicky",
+        "E.O. Potma",
+        "V.L. Ferguson",
+        "M.L. Bouxsein",
+        "T.A. Bateman",
+        "L.S. Stodieck",
+        "M. Levi"
+      ]
+    },
+    {
+      "title": "Hepatokines and metabolism: deciphering communication from the liver",
+      "authors": [
+        "S.O. Jensen-Cody",
+        "M.J. Potthoff"
+      ]
+    },
+    {
+      "title": "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight",
+      "authors": [
+        "P. Jiang",
+        "S.J. Green",
+        "G.E. Chlipala",
+        "F.W. Turek",
+        "M.H. Vitaterna"
+      ]
+    },
+    {
+      "title": "Sodium butyrate reduces insulin-resistance, fat accumulation and dyslipidemia in type-2 diabetic rat: a comparative study with metformin",
+      "authors": [
+        "S. Khan",
+        "G. Jena"
+      ]
+    },
+    {
+      "title": "Fatty acids and insulin resistance in muscle and liver",
+      "authors": [
+        "P. Kovacs",
+        "M. Stumvoll"
+      ]
+    },
+    {
+      "title": "Protection against insulin resistance by apolipoprotein M/Sphingosine-1-Phosphate",
+      "authors": [
+        "M. Kurano",
+        "K. Tsukamoto",
+        "T. Shimizu",
+        "H. Kassai",
+        "K. Nakao",
+        "A. Aiba",
+        "M. Hara",
+        "Y. Yatomi"
+      ]
+    },
+    {
+      "title": "Sestrins orchestrate cellular metabolism to attenuate aging",
+      "authors": [
+        "J.H. Lee",
+        "A.V. Budanov",
+        "M. Karin"
+      ]
+    },
+    {
+      "title": "WebGestalt 2019: gene set analysis toolkit with revamped UIs and APIs",
+      "authors": [
+        "Y. Liao",
+        "J. Wang",
+        "E.J. Jaehnig",
+        "Z. Shi",
+        "B. Zhang"
+      ]
+    },
+    {
+      "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "authors": [
+        "M.I. Love",
+        "W. Huber",
+        "S. Anders"
+      ]
+    },
+    {
+      "title": "Molecular mechanism contributing to malnutrition and sarcopenia in patients with liver cirrhosis",
+      "authors": [
+        "F. Meyer",
+        "K. Bannert",
+        "M. Wiese",
+        "S. Esau",
+        "L.F. Sautter",
+        "L. Ehlers",
+        "A.A. Aghdassi",
+        "C.C. Metges",
+        "L.A. Garbe",
+        "R. Jaster"
+      ]
+    },
+    {
+      "title": "Butyrate regulates liver mitochondrial function, efficiency, and dynamics in insulin-resistant obese mice",
+      "authors": [
+        "M.P. Mollica",
+        "G. Mattace Raso",
+        "G. Cavaliere",
+        "G. Trinchese",
+        "C. De Filippo",
+        "S. Aceto",
+        "M. Prisco",
+        "C. Pirozzi",
+        "F. Di Guida",
+        "A. Lama"
+      ]
+    },
+    {
+      "title": "Pathway enrichment analysis and visualization of omics data using g:Profiler, GSEA, Cytoscape and EnrichmentMap",
+      "authors": [
+        "A.C. Müller"
+      ]
+    },
+    {
+      "title": "The role of hepatic lipids in hepatic insulin resistance and type 2 diabetes",
+      "authors": [
+        "R.J. Perry",
+        "V.T. Samuel",
+        "K.F. Petersen",
+        "G.I. Shulman"
+      ]
+    },
+    {
+      "title": "Vliianie kosmicheskogo poleta na lipidnyĭ sostav krovi, nadpochechnikov i pecheni krys [The effects of space flights on the lipid composition of blood, adrenal glands and liver in rats]",
+      "authors": [
+        "I.A. Popova",
+        "I.V. Zabolotskaia",
+        "L.M. Kurkina"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "mixOmics: an R package for 'omics feature selection and multiple data integration",
+      "authors": [
+        "F. Rohart",
+        "B. Gautier",
+        "A. Singh",
+        "K.A. Lê Cao"
+      ]
+    },
+    {
+      "title": "Human skeletal muscle disuse atrophy: effects on muscle protein synthesis, breakdown, and insulin resistance-a qualitative review",
+      "authors": [
+        "S.S. Rudrappa",
+        "D.J. Wilkinson",
+        "P.L. Greenhaff",
+        "K. Smith",
+        "I. Idris",
+        "P.J. Atherton"
+      ]
+    },
+    {
+      "title": "Mechanisms for insulin resistance: common threads and missing links",
+      "authors": [
+        "V.T. Samuel",
+        "G.I. Shulman"
+      ]
+    },
+    {
+      "title": "Hepatokines as a molecular transducer of exercise",
+      "authors": [
+        "D.Y. Seo",
+        "S.H. Park",
+        "J. Marquez",
+        "H.B. Kwak",
+        "T.N. Kim",
+        "J.H. Bae",
+        "J.H. Koh",
+        "J. Han"
+      ]
+    },
+    {
+      "title": "An algorithm for fast preranked gene set enrichment analysis using cumulative statistic calculation",
+      "authors": [
+        "A. Sergushichev"
+      ]
+    },
+    {
+      "title": "Cytoscape: a software environment for integrated models of biomolecular interaction networks",
+      "authors": [
+        "P. Shannon",
+        "A. Markiel",
+        "O. Ozier",
+        "N.S. Baliga",
+        "J.T. Wang",
+        "D. Ramage",
+        "N. Amin",
+        "B. Schwikowski",
+        "T. Ideker"
+      ]
+    },
+    {
+      "title": "Defining the transcriptional ecosystem",
+      "authors": [
+        "M.A.D. Silveira",
+        "S. Bilodeau"
+      ]
+    },
+    {
+      "title": "Mitochondrial dysfunction in diabetes: from molecular mechanisms to functional significance and therapeutic opportunities",
+      "authors": [
+        "W.I. Sivitz",
+        "M.A. Yorek"
+      ]
+    },
+    {
+      "title": "The evolutionary benefit of insulin resistance",
+      "authors": [
+        "M.R. Soeters",
+        "P.B. Soeters"
+      ]
+    },
+    {
+      "title": "Age-related changes in the gut microbiota influence systemic inflammation and stroke outcome",
+      "authors": [
+        "M.S. Spychala",
+        "V.R. Venna",
+        "L.D. McCullough",
+        "M. Jandzinski",
+        "S.J. Doran",
+        "D.J. Durgan",
+        "B.P. Ganesh",
+        "N.J. Ajami",
+        "N. Putluri",
+        "J. Graf",
+        "R.M. Bryan"
+      ]
+    },
+    {
+      "title": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles",
+      "authors": [
+        "A. Subramanian",
+        "P. Tamayo",
+        "V.K. Mootha",
+        "S. Mukherjee",
+        "B.L. Ebert",
+        "M.A. Gillette",
+        "A. Paulovich",
+        "S.L. Pomeroy",
+        "T.R. Golub",
+        "E.S. Lander"
+      ]
+    },
+    {
+      "title": "Butyrate ameliorates skeletal muscle atrophy in diabetic nephropathy by enhancing gut barrier function and FFA2-mediated PI3K/Akt/mTOR signals",
+      "authors": [
+        "G. Tang",
+        "Y. Du",
+        "H. Guan",
+        "J. Jia",
+        "N. Zhu",
+        "Y. Shi",
+        "S. Rong",
+        "W. Yuan"
+      ]
+    },
+    {
+      "title": "Gene expression profiles in primary pancreatic tumors and metastatic lesions of Ela-c-myc transgenic mice",
+      "authors": [
+        "A. Thakur",
+        "A. Bollig",
+        "J. Wu",
+        "D.J. Liao"
+      ]
+    },
+    {
+      "title": "Insulin secretion and sensitivity in space flight: diabetogenic effects",
+      "authors": [
+        "B.W. Tobin",
+        "P.N. Uchakin",
+        "S.K. Leeper-Woodford"
+      ]
+    },
+    {
+      "title": "Isoform composition and gene expression of thick and thin filament proteins in striated muscles of mice after 30-day space flight",
+      "authors": [
+        "A. Ulanova",
+        "Y. Gritsyna",
+        "I. Vikhlyantsev",
+        "N. Salmov",
+        "A. Bobylev",
+        "Z. Abdusalamova",
+        "V. Rogachevsky",
+        "B. Shenkman",
+        "Z. Podlubnaya"
+      ]
+    },
+    {
+      "title": "Short chain fatty acids (SCFAs)mediated gut epithelial and immune regulation and its relevance for inflammatory bowel diseases",
+      "authors": [
+        "D. Parada Venegas",
+        "M.K. De La Fuente",
+        "G. Landskron",
+        "M.J. González",
+        "R. Quera",
+        "G. Dijkstra",
+        "H.J.M. Harmsen",
+        "K.N. Faber",
+        "M.A. Hermoso"
+      ]
+    },
+    {
+      "title": "Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome",
+      "authors": [
+        "A.A. Voorhies",
+        "C. Mark Ott",
+        "S. Mehta",
+        "D.L. Pierson",
+        "B.E. Crucian",
+        "A. Feiveson",
+        "C.M. Oubre",
+        "M. Torralba",
+        "K. Moncera",
+        "Y. Zhang"
+      ]
+    },
+    {
+      "title": "The histone deacetylase inhibitor butyrate improves metabolism and reduces muscle atrophy during aging",
+      "authors": [
+        "M.E. Walsh",
+        "A. Bhattacharya",
+        "K. Sataranatarajan",
+        "R. Qaisar",
+        "L. Sloane",
+        "M.M. Rahman",
+        "M. Kinter",
+        "H. Van Remmen"
+      ]
+    },
+    {
+      "title": "Fetuin-A as a potential biomarker of metabolic variability following 60 Days of bed rest",
+      "authors": [
+        "K. Ward",
+        "E. Mulder",
+        "P. Frings-Meuthen",
+        "D.J. O’Gorman",
+        "D. Cooper"
+      ]
+    },
+    {
+      "title": "Fatty acid binding protein-2 gene variants and insulin resistance: gene and gene-environment interaction effects",
+      "authors": [
+        "E.P. Weiss",
+        "M.D. Brown",
+        "A.R. Shuldiner",
+        "J.M. Hagberg"
+      ]
+    },
+    {
+      "title": "Butyrate protects mice against methionine-choline-deficient diet-induced non-alcoholic steatohepatitis by improving gut barrier function, attenuating inflammation and reducing endotoxin levels",
+      "authors": [
+        "J. Ye",
+        "L. Lv",
+        "L. Li",
+        "W. Wu",
+        "Y. Li",
+        "D. Shi",
+        "D. Fang",
+        "F. Guo",
+        "H. Jiang",
+        "R. Yan",
+        "W. Ye"
+      ]
+    },
+    {
+      "title": "Apolipoprotein M overexpression through adeno-associated virus gene transfer improves insulin secretion and insulin sensitivity in Goto-Kakizaki rats",
+      "authors": [
+        "Y. Yu",
+        "J. Zhang",
+        "S. Yao",
+        "L. Pan",
+        "G. Luo",
+        "N. Xu"
+      ]
+    },
+    {
+      "title": "Role of fatty acid uptake and fatty acid β-oxidation in mediating insulin resistance in heart and skeletal muscle",
+      "authors": [
+        "L. Zhang",
+        "W. Keung",
+        "V. Samokhvalov",
+        "W. Wang",
+        "G.D. Lopaschuk"
+      ]
+    },
+    {
+      "title": "Sodium butyrate improves liver glycogen metabolism in type 2 diabetes mellitus",
+      "authors": [
+        "W.Q. Zhang",
+        "T.T. Zhao",
+        "D.K. Gui",
+        "C.L. Gao",
+        "J.L. Gu",
+        "W.J. Gan",
+        "W. Huang",
+        "Y. Xu",
+        "H. Zhou",
+        "W.N. Chen"
+      ]
+    },
+    {
+      "title": "Sodium butyrate reduces high-fat diet-induced non-alcoholic steatohepatitis through upregulation of hepatic GLP-1R expression",
+      "authors": [
+        "D. Zhou",
+        "Y.W. Chen",
+        "Z.H. Zhao",
+        "R.X. Yang",
+        "F.Z. Xin",
+        "X.L. Liu",
+        "Q. Pan",
+        "H. Zhou",
+        "J.G. Fan"
+      ]
+    }
+  ],
+  "original_title": "Muscle atrophy phenotype gene expression during spaceflight is linked to a metabolic crosstalk in both the liver and the muscle in mice.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/434a/9576569/b9f505490583/gr1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/434a/9576569/4cf30c066f87/gr2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/434a/9576569/7098bb893537/gr3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/434a/9576569/a3440e3726d3/gr4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/434a/9576569/418e801a0f04/gr5.jpg"
+  ]
+}

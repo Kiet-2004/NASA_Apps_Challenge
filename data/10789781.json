@@ -1,0 +1,470 @@
+{
+  "pmcid": "10789781",
+  "title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+  "abstract": "Despite surging interest in space travel in recent decades, the impacts of prolonged, elevated exposure to galactic cosmic radiation (GCR) on human health remain poorly understood. This form of ionizing radiation causes significant changes to biological systems including damage to DNA structure by altering epigenetic phenotype with emphasis on DNA methylation. Building on previous work by Kennedy et al. (Sci Rep 8(1): 6709. 10.1038/S41598-018-24755-8), we evaluated spatial DNA methylation patterns triggered by high-LET (56Fe, 28Si) and low-LET (X-ray) radiation and the influence of chromosome positioning and epigenetic architecture in distinct radial layers of cell nucleus. Next, we validated our results using gene expression data of mice irradiated with simulated GCR and JAXA astronauts. We showed that primarily 56Fe induces a persistent DNA methylation increase whereas 28Si and X-ray induce a decrease DNA methylation which is not persistent with time. Moreover, we highlighted the role of nuclear chromatin architecture in cell response to external radiation. In summary, our study provides novel insights towards epigenetic and transcriptomic response as well as chromatin multidimensional structure influence on galactic cosmic radiation damage.",
+  "introduction": "Introduction\n\nWith a growing interest in space travel, it is pivotal to better understand how galactic cosmic radiation (GCR) impacts human health and how its detrimental effect can be minimized. Ionizing radiation damages DNA structure by inducing double-stranded breaks, single-stranded breaks, base damage and changing epigenetic phenotype with emphasis on DNA methylation patterns. During long exposure, these alterations are likely to increase the risk of cancer and degenerative diseases occurrence.\n\nBesides hydrogen and helium, GCR consists of heavier atomic nuclei with high linear energy transfer (high-LET) values which are of great danger for human health. Recently, Kennedy et al. investigated an effect of high-LET 56Fe, 28Si ions on DNA methylation patterns in comparison to low-LET X-ray appearing in terrestrial radiation. The researchers found that the methylation status of 56Fe irradiated CpG sites can distinguish normal tissue from lung adenocarcinomas and squamous cell lung carcinomas. Additionally, the researchers showed acute radiation-induced methylation changes which persisted over time with heritable imprint across epigenome. These findings where further investigated by Nwanaji-Enwerem et al. showing that 56Fe exposure was associated with accelerations in epiTOC2 epigenetic clock suggesting that DNA methylation may be a sensitive biomarker of high-LET 56Fe ion exposure.\n\nChromatin packages the eukaryotic genome through DNA folding ranging from single nucleosome to entire chromosome. Negatively charged DNA is wrapped around nucleosomes consisting of two copies of four positively charged histone proteins. In addition to the core chromatin components, histone-modifying enzymes may alter chromatin compaction by changing its accessibility. The accessibility level is connected with chromatin modifications. In particular, H3 lysine 4 tri-methylation (H3K4me3) and histone H3 lysine 27 tri-methylation (H3K27me3) were used to profile ‘active’ and ‘repressed’ promoters respectively. Furthermore, histone H3 lysine 9 tri-methylation (H3K9me3) was used to profile heterochromatin loci and histone H3 lysine 27 acetylation (H3K27ac) to profile enhancers.\n\nThere were a few reports suggesting that high-LET and ultraviolet induced DNA damage may be affected by chromatin structure. However, until now there are no studies investigating a DNA methylation pattern induced by low-/high-LET and spatial chromosomal conformation capture to explore the effects of chromatin physical properties on irradiation outcome. Importantly, with the recent development of high-throughput capture chromatin confirmation methods (Hi-C) and advanced algorithms to simulate the three-dimensional structure of nuclei such as Chrom3D, it is now possible to address the irradiation effects associated with chromatin conformation. Recently, to access the multi-dimensional chromatin interactions researches were using Hi-C data for compartmentalization dividing chromatin into compartments associated with gene expression regulation.\n\nFor the purpose of our work, we used Hi-C data to create detailed nuclear division introducing five distinct radial nuclear layers. Additionally, we characterized each layer separately using various of epigenetic and transcriptomic features. Specifically, we explored an effect of high-LET and low-LET ions on methylation DNA patterns in human lung epithelial cells using a previously published dataset of Kennedy et al.. Further, we tried to understand how the radiation penetrates cell nucleus and influences methylation levels in distinct layers of nucleus, as well as how spatial chromosomal conformation and epigenetic architecture influence DNA alterations triggered by external radiation. To achieve this, we used existing publicly available in-vitro and in-vivo data and performed the following analyses: (1) Hi-C analysis to check how three-dimensional structure of cell nucleus impacts response to irradiation. Additionally, we divided cell nucleus into five laterally distributed layers to identify potential irradiation effects associated with peripheral and internal positioning of chromatin and other epigenetic features; (2) chromatin immunoprecipitation sequencing (ChIP-seq) data to assess the impact of distinct histone modifications on DNA methylation changes and (3) microarrays, and RNA-seq data to assess the impact of gene expression on irradiation response.\n\nThis research addresses the pressing need to understand the impact of galactic cosmic radiation (GCR) on human health, driven by the increasing interest in space travel. Our study builds on existing knowledge, investigating the influence of DNA structure on radiation outcomes. We used the concept of radial nuclear layers to explore how chromatin properties, including histone modifications and spatial conformation, affect DNA methylation alterations induced by low- and high-LET ions. Leveraging recent technological advances, such as high-throughput capture chromatin confirmation, we created a nuanced nuclear division with five nonoverlapping nuclear layers to better understand the spatial distribution of chromatin and its features, as well as its impact on radiation response. Our multiomics approach integrates Hi-C, ChIP-seq, and microarray/RNA-seq data, providing insights into the complex interplay between chromatin architecture, epigenetic modifications, gene expression and the cellular response to GCR. This research aims to contribute valuable information for developing strategies to minimize the adverse effects of cosmic radiation during space travel.",
+  "methods": "Materials and methods\n\nData description\n\nThe study was conducted based on the publicly available NCBI GEO Methylation450K BeadChip human bronchial epithelial cell dataset published by Kennedy et al. in 2018 (Series GSE108187 on “https://www.ncbi.nlm.nih.gov/geo”; The National Aeronautics and Space Administration (NASA) GeneLab repository within the Open Science Data Repository (OSDR)https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-317/) (Fig. 1A). The dataset was comprised of 102 samples of immortalized human bronchial epithelial cell line (HBEC3-KT) established by introducing mouse Cdk4 and hTERT into normal human bronchial epithelial cells (HBECs). Cells were grown in a 5% CO2 environment at 37 °C and passaged (1:4) twice per week for three months. Three biological replicate cultures were irradiated independently with 0, 0.1, 0.3 or 1.0 Gy (Gy) 56Fe ions (LET = 170 keV/µm, Beam energy = 600 MeV/u) or with 0.0, 0.3, 1.0 Gy 28Si ions (LET = 70 keV/µm, Beam energy = 300 MeV/u) or 0.0, 1.0 Gy X-ray (LET = 2 keV/µm, Beam energy = 320 kV). Detailed information about the protocol can be found in the original publication.\n\nDifferential methylation analysis\n\nTo investigate the overall influence of each radiation type on methylation DNA patterns we established three pair comparisons between 1) 56Fe 0.3 Gy versus 28Si 0.3 Gy; 2) 56Fe 1 Gy versus 28Si 1 Gy; 3) 56Fe 1 Gy versus X 1 Gy. Before the analysis, we transformed provided in the original publication Beta Values (ratio of the methylated probe intensity and the overall intensity) into M Values (log2 ratio of the intensities of methylated probe versus unmethylated probe). Afterwards, we performed a differential methylation analysis of 485,061 probes for established comparisons using dmpFinder from Minfi Bioconductor package. Differentially methylated probes (DMPs) were filtered based on the q-value (q < 0.05) and the absolute average difference in M Value between compared samples (absolute average difference ≥ 0.58). Additionally, we applied a threshold of M Value change versus control (absolute average difference  ≥ 0.58). Filtered DMPs were grouped into differentially methylated regions (DMRs) using dmrcate (lambda = 1000, C = 2) from DMRcate Bioconductor package. The average methylation level for each DMR was calculated by overlapping filtered and ion specific DMPs. Due to the fact that culturing, irradiation, collection time (48-h) and DNA methylation levels were the same for all non-irradiated replicates, control DNA methylation levels were defined as average M Value of combined 56Fe, 28Si, X-ray non-irradiated samples (Fig. S1A). All analysis were performed in R Studio. Mann–Kendall test was used for trend analysis with at least 4 data points. Chi-squared test was used to check differences between examined groups.\n\nChromatin conformation capture (Hi-C)\n\nTo investigate the influence of chromosomal conformation on the effect of radiation we used the Hi-C data of IMR-90 human lung fibroblast cell line published by Rao et al. in 2014 (Series 4DNFIHM89EGL; 4DNFIMNT2VYL on “https://data.4dnucleome.org/”). Based on the provided Hi-C score, the nucleus was divided into five distinct layers named from the most outer “L1” to the deepest “L5”. The nucleus layers were created by overlapping all probes from the primary experiment with Hi-C data. Layers boundaries were assigned quantile 0%, 20%, 40%, 60%, 80% and 100% values of Hi-C score. Hence, each layer contained the same amount of DNA. Accordingly, to investigate spatial gene expression patterns in Japan Aerospace Exploration Agency (JAXA) astronauts’ blood tissue, we used conserved datasets of K562 and HAP-1 human lymphoblasts isolated from chronic myeloid leukemia patient and induced pluripotent stem cells (Series 4DNFI5WH9HQX; 4DNFIHM89EGL; 4DNFIOZT9QGF on “https://data.4dnucleome.org/”, respectively). Genes which were differentially expressed (see methods for details) in all datasets among distinct nucleus layers were further analyzed.\n\nHistone modifications\n\nTo investigate active (H3K27ac, H3K4me3) and repressive (H3K9me3, H3K27me3) regions of chromatin we assigned different histone modifications to identified DMPs. We used the control datasets of primary human bronchial epithelial cells published by Stolzenburg et al. in 2017 and Mazumdar et al. in 2020 (Series GSE94726, GSE132807 on “https://www.ncbi.nlm.nih.gov/geo”, respectively). Each dataset was filtered to include peaks from 300 to 2000 base pairs long. Additionally, GSE132807 was filtered based on the alignment score from Bowtie2 (score >  = 10) to asses high signal peaks. For GSE94726 Series, alignment score of > 0 from Bowtie 1 was used.\n\nGene expression validation\n\nTo validate the in vitro model, we used processed RNA-sequencing (Series OD-203, OSD-294, OSD-530) and microarray (Series OSD-80, OSD-109, OSD-117, OSD-159) gene expression data of whole-body irradiated (no direct information provided for OSD-294 and OSD-80) mice and JAXA astronauts provided with courtesy by the NASA GeneLab Data Repository (https://genelab-data.ndc.nasa.gov/genelab/projects/). Specifically, a variety of mice tissues irradiated with distinct particles were examined including liver (56Fe 0.2 Gy), retina (57Co 0.04 Gy) , heart (56Fe 0.15 Gy; 1H 0.9 Gy), mammary gland (Si 0.3 Gy, sparsely ionizing gamma rays 1 Gy) and blood (137Cs 2.7 Gy). Additionally, we examined blood samples of six JAXA astronauts. Due to the astronauts’ data provided only by mean expression values of all astronauts, there was only one replicate per distinct timepoint. Hence, to perform differential expression analysis, we established five distinct timepoints using two following timepoints as replicates [1) Control—L-112/56(± 14d) day – pre-flight; 2) L + 5(± 1d) day, and L + 30(± 7d) day—in-flight; 3) L + 60/120(± 14d) day or R-8(-14d/ + 0d) day—in-flight; 4) R + 3(± 1d) day, and R + 30(± 7d) day—post-flight; 5) R + 60/120(± 14d) day—post-flight; L-launch; R-rescue]. To establish research models for differential expression analysis, we built the EdgeR object using limma package. We normalized RNA-sequencing data using weighted trimmed average of the log expression ratios, and performed differential analysis fitting a negative binomial generalized log-linear model. For microarrays, we used already normalized data with median intensity threshold of >  = 3 and applied single-channel experimental design for several groups with Bonferroni adjustment. For further gene expression, we included genes with false discovery rate (FDR) < 0.05 in the first time point, and used log fold-change (logFC) score in the following timepoints to assess the gene expression chronic change. Up- or down-regulated genes were defined as increase or decrease of logFC in the first timepoint versus control, respectively. For trend analysis, we performed an anova test on linear regression gradient.",
+  "results": "Results\n\nIon-specific effects on DNA methylation profile 48 h after irradiation\n\nTo analyze DNA methylation patterns caused by high-LET (56Fe, 28Si) and low-LET (X-ray) participles, we used publicly available data set. The schematic representation of performed analysis is shown in Fig. 1A. By applying differential methylation analysis on 48-h post irradiation samples, we identified 26,751, 31,818 and 24,807 differentially methylated probes (DMPs) for 56Fe 0.3 Gy versus 28Si 0.3 Gy; 56Fe 1 Gy versus 28Si 1 Gy; 56Fe 1 Gy versus X 1 Gy, pair comparisons, respectively (see methods for details). We did not identify any significant DMPs for 28Si 1 Gy versus X 1 Gy pair comparison (adjusted p-value > 0.05), suggesting their similar effect (Fig. 1B). Similarly, to Kennedy et al., we observed that regardless of the dose, 56Fe predominantly increases DNA methylation whereas X ray decrease DNA methylation levels when compared to control. However, contrary to primary article where no effect of 28Si was observed, we discovered its activity in decreasing DNA methylation levels (Fig. 1C,D, S1B,C). It could happen due to different hypothesis testing in the original article, where authors were focused on DNA methylation changes caused by an increase in the dose of the same radiation. The opposite methylation effect between 56Fe and 28Si or X-rays was observed nearly among all identified DMPs for all comparisons (Fig. 1E,F, S1D).\n\nThe distribution of differentially methylated probes indicates a stochastic process\n\nTo further identify the distinct effect of each particle on DNA methylation patterns, in addition, to direction of methylation change (Fig. 1E,F, S1D) we divided DMPs into distinct subgroups, based on post-exposure and control M value (hypomethylation [M Value < 0] or hypermethylation [M Value > 0]; see methods for details). Specifically, we showed that 56Fe was able to induce, both hypermethylation of primarily hypomethylated sites and hypomethylation of primarily hypermethylated sites whereas 28Si induced only the latter (Fig. S1E,F). Accordingly, X-ray induces hypomethylation of previously hypermethylated sites, however, it does have a minor effect on hypomethylated sites inducing its hypermethylation. In summary, when comparing post-radiation to control DNA methylation levels, 56Fe affects hypomethylated and hypermethylated sites whereas 28Si is more likely to affect hypomethylated sites at control.\n\nFurther, to check whether DNA methylation changes occur in a close relationship to each other and around the radiation beam, we built differentially methylation regions (DMRs) from previously identified paired DMPs (Fig. S1G). In total, we identified 3805, 4863 and 3631 DMRs for 56Fe 0.3 Gy versus 28Si 0.3 Gy; 56Fe 1 Gy versus 28Si 1 Gy; 56Fe 1 Gy versus X 1 Gy, pair comparisons, respectively. Interestingly, only 41%, 47% and 43% of DMPs built DMRs, respectively, leaving more than 50% of identified DMPs outside of DMRs (Fig. S1H). As such, we applied a larger base pair limit for DMRs building, however, did not observe a relevant change in amount of DMRs (Fig. S1I). Finally, by permutating methylation probe names from primary dataset, we simulated differential DNA methylation analysis in one thousand unique datasets. In all replicates, we observed lower frequencies of DMPs building DMRs when compared to primarily established comparisons (p < 0.001). This observation suggested that the distribution of radiation induced DNA methylation changes seems to be spread across the whole genome rather than being grouped in DMRs.\n\nAssignment of differentially methylated probes (DMPs) to genomic location\n\nFollowing previous results, to investigate specific genomic locations of DMPs, we looked at the relation to CpG islands localized in the close relationship of gene promoters. We found that, regardless of radiation type and dose, grouped DMPs were more likely located inside promoter regions (Fig. 1G; p < 0.001 for all particles and doses; data not shown). It suggests that proximal regulatory regions of human genome are more prone to accumulate radiation induced DNA methylation changes. Additionally, the enrichment in upstream and downstream locations for DMPs outside of DMRs showed that when looking only at DMRs, we would lose an important regulatory information. Next, we checked if this observation could be due to a higher accumulation of CpG rich regions in the corresponding promoters or higher accumulation of primary probes in these locations. However, when comparing fractions (ratio of a component to the total amount) of post-exposure samples to control, we observed distinct patterns, especially in terms of CpG islands and regulatory opensea regions (Fig. 1H,I; p < 0.001 for all comparisons). Finally, we observed, that regardless of radiation dose, DMPs inside DMRs were more likely to be located inside CpG islands which are known to be positioned in close relationship of promoters (Fig. S1J–L). Additionally, when taking into consideration the direction of methylation change, CpG islands were more prevalent among sites which methylation increased after 56Fe or decreased after 28Si and X exposure (Fig. S1J–L). In summary, these observations indicate that 56Fe primary increases DNA methylation, 28Si decreases DNA methylation whereas X-rays induce minor effect in both directions. Moreover, radiation induced DMPs are primary located around active promoter regions and opensea regulatory regions.\n\nRadial chromosomal distribution in nucleus affects changes in DNA methylation profiles after irradiation\n\nFurther, we investigated whether DNA methylation changes are conditioned by the epigenetic state and chromatin physical properties. We studied the induced DNA methylation changes in the context of 3D chromatin structure and histone modification profiles in untreated cells. We overlapped Hi-C compartment coordinates of IMR-90 human lung fibroblast cell line provided by Rao et al. with baseline probes analyzed previously. We identified 430,748 probes to which we assigned a compartment Hi-C score which determines the positioning of certain probes in cell nucleus. The greater the score is, the deeper into nucleus a certain probe should be located (Fig. 2A). As such, we drew an approximate radial positioning of each chromosome in the nucleus and later investigated its impact on the frequency of DNA methylation sites (Fig. S2A). First, we normalized the number of DMPs on each chromosome with regard to the total number of probes on each chromosome used in the experiment. This way corrected for bias associated with the design of the microarray. The highest DMPs prevalence was observed on chromosomes 4, 13, 10 for 56Fe (Fig. 2B; Fig. S2B–D); 4, 2, 18, 14 for 28Si (Fig. S2E,F) and 13, 18, 15 for X (Fig. S2G).\n\nTo investigate whether the observed DMP frequencies depend on the 3D chromatin structure we divided the nucleus into five distinct layers as shown on Fig. 2B and S2A (see methods for details). Nucleus layers were created based on the even distribution of all DNA methylation probes in order to include the same amount of DNA within each layer. On the graph, we showed the frequency percentage of all DMPs in each layer separately to visualize where DMPs are the most prevalent. Accordingly, for each radiation type we observed the highest prevalence (% of DMPs in a layer/all DMPs) of DMPs among outer “L1” and “L2” layers with a significant decrease towards the depth of nucleus (p = 0.027; Fig. 2C, S2H). As such, we looked at the chromosomal frequencies in each layer separately. We discovered that chromosomes with the highest DMPs frequency are cumulating DNA methylation sites at the “L2”–“L3” junction and among the following layers (Fig. 2D; S2I–M). Thus, in the outer “L1” layer the effect of radiation seemed to be limited and resulting in a more spread distribution of DMPs. The corresponding chromosomal frequencies patterns were observed in deeper layers of the nucleus starting at “L2”–“L3” junction.\n\nAccordingly, we looked at the absolute methylation change across distinct layers. We discovered the highest DNA methylation change being present around the middle “L3” layer (Fig. 2E; S2N). Interestingly, the methylation change induced by 56Fe persisted until the “L5” having the lowest value in “L1” whereas the effect of 28Si and—ray seemed to be limited having the lowest change in “L5”. In summary, these observations could suggest that outer layers of nucleus absorb the highest radiation dose, thus having more differently methylated sites, however, they are randomly distributed across all chromosomes without a particular pattern. Interestingly, despite high frequency of DMPs in outer layers, the average methylation change peaks in the middle “L3” layer which may suggest other factors limiting the effect of GCR radiation in outer layers of nucleus.\n\nIrradiation induced DNA methylation patterns are associated with histone modification\n\nNext, we explored how chromatin modifications predispose cells to particular irradiation response, and we looked at the distribution of histone modifications. Specifically, we examined four histone modifications (H3K4me3, H3K27ac, H3K27me3, H3K9me3) which are known to have a major role in chromatin organization. We used enrichment profiles published by Stolzenburg et al. and Mazumdar et al.  (see methods for details). When overlapped filtered histone modifications peaks with primary probes, euchromatin-associated histone modifications were more frequent than heterochromatin-associated ones, however, it may be due to distinct primary datasets used in this study (Fig. 3A). Comparing between nucleus layers, we observed the enrichment of H3K9me3 among external layers with a decreasing towards inner nucleus layers. That distribution was contrary to other histone modifications which level did not depend on the layer (H3K4me3, H3K27me3) or increased (H3K27ac; Fig. 3B). Further, we examined the probability of DMP occurrence ([DMP in regulatory regions/all DMP]/[regulatory regions in layers/all regulatory regions]) in distinct histone marks among nucleus layers. Interestingly, regardless of radiation type and dose, we found a decreasing trend for H3K27ac (p < 0.05), an increasing one for H3K9me3 (p < 0.05) and no trend for H3K4me3 and H3K27me3 (p > 0.05; Fig. 3C; data shown for 56Fe 1 Gy).\n\nLooking at the spatial baseline average methylation level inside histone modifications picks, heterochromatin-associated marks (H3K9me3, H3K27me3) had higher baseline methylation levels than euchromatin-associated marks (H3K27ac, H3K4me3; Fig. S4A). Specifically, as for H3K27ac and H3K4me3, the methylation level was rather stable (p = 0.22; p = 0.087, respectively) across distinct nucleus layers whereas among H3K9me3, H3K27me3 a methylation increase was observed towards the inner layers (p = 0.027). Next, we checked for absolute methylation changes (vs. control) induced by irradiation in epigenetic modifications. We found that, regardless of radiation type and dose, the average absolute methylation change in each mark was rather stable, without a particular trend observed between nucleus layers (p > 0.05; Fig. 3D–F; S3B–D). However, when compared the mean absolute methylation change to all DMPs, we discovered that the methylation change was higher in all histone marks, regardless of radiation type and dose (except Si 0.3 Gy; Fig. 3D–F; S3B–D).\n\nFurthermore, to investigate the DNA methylation patterns in regulatory elements, we overlapped transcription starting sites (TSS) regions with H3K4me3 and H3K27ac histone marks using GENCODE annotation. Additionally, we examined H3K27ac associated gene enhancers outside of TSS and gene bodies. In total, we included five distinct groups of regions in the analysis: (1) H3K4me3-associated promoters; (2) H3K27ac-associated promoters; (3) H3K4me3- and H3K27ac-associated promoters; (4) no histone associated promoters; (5) H3K27ac-associated enhancers.\n\nAs expected, when looking at the spatial frequency of these regions, we observed higher prevalence of promoters and enhancers in deeper layers of nucleus which was contrary to the no histone associated regions (Fig. S3E). Next, we checked for spatial frequencies of primary probes overlapping them with previously established regions. We observed a strong increasing trend towards inner parts of nucleus for all regulatory regions (p < 0.05; Fig. S3F). Moreover, the baseline methylation levels of histone associated regulatory regions overlapped with primary probes were much lower than those not associated with any histone mark (Fig. S3G). Next, we checked for absolute methylation change in DMPs which were overlapping these regions. Interestingly, the highest observed methylation change was observed in outer nucleus layers among H3K4me3 and/or H3K27ac associated regions (Fig. 3G; S3H–L). Specifically, for most prevalent 56Fe irradiated samples the highest methylation change was observed in “L1” and “L2” layers in both H3K4me3 and H3K27ac associated promoters (Fig. 3G). More importantly, when comparing an absolute mean methylation change between regulatory regions and previously established samples (Fig. 3D–F), we discovered that in general methylation change was higher in histone mark associated sites, especially among regulatory regions. In summary, these findings show that promoters and enhancers are prone to GCR induced DNA methylation changes. Moreover, H3K4me3 and H3K27ac histone marks are associated with the highest DNA methylation change, suggesting its vulnerability to irradiation. To summarize, genomic regions prevalent with distinct histone marks, especially regulatory regions are associated with higher methylation changes. Interestingly, the highest changes are observed in outer layers of nucleus. Hence, all these results may highlight the role of histone modifications in response to external radiation, for instance, by protecting inner euchromatin-associated regions. On the other hand, regulatory regions associated with histone marks are more prone to accumulate radiation associated damage with regard to DNA methylation.\n\nChronic (> 48 h) DNA methylation patterns of various radiation types in in-vitro and in vivo models\n\nFinally, to further explore the DNA methylation changes induced by the selected irradiation, we looked at the methylation change over time. We discovered that regardless of the dose and the direction of methylation change 56Fe induces persistent DNA methylation changes (Fig. 4A; S4A). On the other side, 28Si and X induce DNA methylation changes which are not durable, hence the post-exposure methylation level steadily comes back towards the baseline level (Fig. 4B; S4A). To check if similar effect is observed on functional level, we used gene expression data of the NASA’s OSDR (see methods for details). We examined heart, breast, liver, retina and blood tissues using in-vivo and RNA-sequencing and microarrays data of whole-body irradiated mice and blood tissue RNA-sequencing of six JAXA astronauts (Fig. 4C). Specifically, we did not juxtapose DNA methylation results, as we looked only at the gene expression patterns of differentially expressed genes over time. Hence, we wanted to verify if the previously observed radiation effect is also observed on the transcriptomic level.\n\nAccordingly, we observed corresponding long-term gene expression patterns in mice liver tissue, irradiated with 56Fe 0.2 Gy particles. For both the sets up-regulated and down-regulated genes the change of average gene expression level was the highest a month after irradiation and later stabilized, and persisted up to 12 months (p = 0.05, p = 0.01, respectively; Fig. 4D,E). On the other side, in microarrays data, we observed corresponding short-term gene expression patterns in mice heart tissue, irradiated with 56Fe 0.15 Gy particles (p = 0.33 and p = 0.17, respectively; Fig. S4B-C). We also examined, long-term gene expression patterns in mice breast tissue, irradiated with 28Si 0.3 Gy particles and observed corresponding, however not significant, pattern to our in vitro analysis. Hence, fluctuating towards baseline level in the last point of observation (Fig. S4D,E). Finally, to check if observed expression patterns are specific for each radiation type, we investigated the chronic effect of protons, gamma rays, 137Cs and 57Co, exposing distinct gene expression patterns over time (Fig. S4F–L; see method for details).\n\nLastly, we checked spatial and long-term gene expression patterns in blood tissue of JAXA astronauts (see methods for details). Specifically, among nucleus layers we checked if we observe a corresponding pattern in gene expression to DNA methylation change right after astronauts were sent to space and exposed to GCR and if it persists during and after their mission in space. Importantly, we observed that the change of gene expression peaks in the middle “L3” nucleus layer for differentially expressed and all identified genes (Fig. 4F; S4M, respectively), which stands in line with previous DNA methylation observations (Fig. 2E). Moreover, we discovered corresponding long-term persistence of gene expression change for up-regulated (p = 0.02) and down-regulated genes (p = 0.07; Fig. 4G,H). Specifically, we observed increase or decrease of gene expression right after launch and during the mission, as well as effect persistence up to 3–4 months (the last timepoint) after earth landing.\n\nIn summary, despite variety of timepoints used when compared to DNA methylation study, we saw corresponding trends in gene expression patterns in several mice tissues and astronauts’ blood tissue. Hence, we observed a gene expression change right after irradiation exposure, however, the epigenome imprint was persistent for 56Fe or space exposure when compared with 28Si. As such, we confirmed the previous DNA methylation findings on functional level. Lastly, we checked for DNA methylation change persistence over time in histone modification peaks, promoters and enhancers regions overlapped with DMPs and observed corresponding results to previously established patterns (data not shown).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Computational biology and bioinformatics",
+    "Molecular biology",
+    "Space physics",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "The future of space tourism: op-ed. https://www.space.com/future-of-space-tourism-op-ed. Accessed 14 December 2022.",
+      "authors": []
+    },
+    {
+      "title": "Transcriptome analysis of gravitational effects on mouse skeletal muscles under microgravity and artificial 1 g onboard environment",
+      "authors": [
+        "R Okada",
+        "SI Fujita",
+        "R Suzuki"
+      ]
+    },
+    {
+      "title": "Genome-wide mapping of long-range contacts unveils clustering of DNA double-strand breaks at damaged active genes",
+      "authors": [
+        "F Aymard",
+        "M Aguirrebengoa",
+        "E Guillou"
+      ]
+    },
+    {
+      "title": "Radiation-induced DNA damage and chromatin structure",
+      "authors": [
+        "B Rydberg"
+      ]
+    },
+    {
+      "title": "Heavy ion carcinogenesis and human space exploration",
+      "authors": [
+        "M Durante",
+        "FA Cucinotta"
+      ]
+    },
+    {
+      "title": "Galactic cosmic radiation induces persistent epigenome alterations relevant to human lung cancer",
+      "authors": [
+        "EM Kennedy",
+        "DR Powell",
+        "Z Li"
+      ]
+    },
+    {
+      "title": "In vitro relationships of galactic cosmic radiation and epigenetic clocks in human bronchial epithelial cells",
+      "authors": [
+        "JC Nwanaji-Enwerem",
+        "P Boileau",
+        "JM Galazka"
+      ]
+    },
+    {
+      "title": "Resolving the 3D landscape of transcription-linked mammalian chromatin folding",
+      "authors": [
+        "THS Hsieh",
+        "C Cattoglio",
+        "E Slobodyanyuk"
+      ]
+    },
+    {
+      "title": "Physical nature of chromatin in the nucleus",
+      "authors": [
+        "K Maeshima",
+        "S Iida",
+        "S Tamura"
+      ]
+    },
+    {
+      "title": "Molecular complexes at euchromatin, heterochromatin and centromeric chromatin",
+      "authors": [
+        "O Morrison",
+        "J Thakur"
+      ]
+    },
+    {
+      "title": "Carcinogen susceptibility is regulated by genome architecture and predicts cancer mutagenesis",
+      "authors": [
+        "PE García-Nieto",
+        "EK Schwartz",
+        "DA King"
+      ]
+    },
+    {
+      "title": "3D map of the human genome at kilobase resolution reveals principles of chromatin looping",
+      "authors": [
+        "SSP Rao",
+        "MH Huntley",
+        "NC Durand"
+      ]
+    },
+    {
+      "title": "Chrom3D: Three-dimensional genome modeling from Hi-C and nuclear lamin-genome contacts",
+      "authors": [
+        "J Paulsen",
+        "M Sekelja",
+        "AR Oldenburg"
+      ]
+    },
+    {
+      "title": "Reconstructing A/B compartments as revealed by Hi-C using long-range correlations in epigenetic data",
+      "authors": [
+        "JP Fortin",
+        "KD Hansen"
+      ]
+    },
+    {
+      "title": "Comprehensive mapping of long-range interactions reveals folding principles of the human genome",
+      "authors": [
+        "E Lieberman-Aiden",
+        "NL van Berkum",
+        "L Williams"
+      ]
+    },
+    {
+      "title": "Immortalization of human bronchial epithelial cells in the absence of viral oncoproteins",
+      "authors": [
+        "RD Ramirez",
+        "S Sheridan",
+        "L Girard"
+      ]
+    },
+    {
+      "title": "Comparison of Beta-value and M-value methods for quantifying methylation levels by microarray analysis",
+      "authors": [
+        "P Du",
+        "X Zhang",
+        "C-C Huang"
+      ]
+    },
+    {
+      "title": "Minfi: A flexible and comprehensive Bioconductor package for the analysis of Infinium DNA methylation microarrays",
+      "authors": [
+        "MJ Aryee",
+        "AE Jaffe",
+        "H Corrada-Bravo"
+      ]
+    },
+    {
+      "title": "De novo identification of differentially methylated regions in the human genome",
+      "authors": [
+        "TJ Peters",
+        "MJ Buckley",
+        "AL Statham"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Cope, H., Elsborg, J., & Demharter, S. et al. More than a feeling: Dermatological changes impacted by spaceflight. Res Sq. 2023;rs.3.rs-2367727. 10.21203/rs.3.rs-2367727/v1.",
+      "authors": []
+    },
+    {
+      "title": "The 4D nucleome project",
+      "authors": [
+        "J Dekker",
+        "AS Belmont",
+        "M Guttman"
+      ]
+    },
+    {
+      "title": "The 4D nucleome data portal as a resource for searching and visualizing curated nucleomics data",
+      "authors": [
+        "SB Reiff",
+        "AJ Schroeder",
+        "K Kirli"
+      ]
+    },
+    {
+      "title": "The cohesin release factor WAPL restricts chromatin loop extension",
+      "authors": [
+        "JHI Haarhuis",
+        "RH van der Weide",
+        "VA Blomen"
+      ]
+    },
+    {
+      "title": "Chromatin conformation remains stable upon extensive transcriptional changes driven by heat shock",
+      "authors": [
+        "J Ray",
+        "PR Munn",
+        "A Vihervaara"
+      ]
+    },
+    {
+      "title": "Regulatory dynamics of 11p13 suggest a role for EHF in modifying CF lung disease severity",
+      "authors": [
+        "LR Stolzenburg",
+        "R Yang",
+        "JL Kerschner"
+      ]
+    },
+    {
+      "title": "Looping of upstream cis-regulatory elements is required for CFTR expression in human airway epithelial cells",
+      "authors": [
+        "MN Mazumdar",
+        "S Yin",
+        "A Paranjapye"
+      ]
+    },
+    {
+      "title": "Fast gapped-read alignment with Bowtie 2",
+      "authors": [
+        "B Langmead",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+      "authors": [
+        "B Langmead",
+        "C Trapnell",
+        "M Pop"
+      ]
+    },
+    {
+      "title": "Efficient identification of multiple pathways: RNA-Seq analysis of livers from 56Fe ion irradiated mice",
+      "authors": [
+        "AM Nia",
+        "T Chen",
+        "BL Barnette"
+      ]
+    },
+    {
+      "title": "Simulated microgravity and low-dose/low-dose-rate radiation induces oxidative damage in the mouse brain",
+      "authors": [
+        "XW Mao",
+        "NC Nishiyama",
+        "MJ Pecaut"
+      ]
+    },
+    {
+      "title": "Cardiovascular risks associated with low dose ionizing particle radiation",
+      "authors": [
+        "X Yan",
+        "PS Sasi",
+        "H Gee"
+      ]
+    },
+    {
+      "title": "Combinatorial DNA damage pairing model based on X-ray-induced foci predicts the dose and LET dependence of cell death in human breast cells",
+      "authors": [
+        "N Vadhavkar",
+        "C Pham",
+        "W Georgescu"
+      ]
+    },
+    {
+      "title": "Gene expression response of mice after a single dose of 137Cs as an internal emitter",
+      "authors": [
+        "S Paul",
+        "SA Ghandhi",
+        "W Weber"
+      ]
+    },
+    {
+      "title": "Limma powers differential expression analyses for RNA-sequencing and microarray studies",
+      "authors": [
+        "ME Ritchie",
+        "B Phipson",
+        "DI Wu"
+      ]
+    },
+    {
+      "title": "An end to end workflow for differential gene expression using Affymetrix microarrays",
+      "authors": [
+        "B Klaus",
+        "S Reisenauer"
+      ]
+    },
+    {
+      "title": "Infinium® HumanMethylation450 BeadChip https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_humanmethylation450.pdf. Accessed 21 September 2023.",
+      "authors": []
+    },
+    {
+      "title": "A genome-wide analysis of CpG dinucleotides in the human genome distinguishes two distinct classes of promoters",
+      "authors": [
+        "S Saxonov",
+        "P Berg",
+        "DL Brutlag"
+      ]
+    },
+    {
+      "title": "CpG islands and the regulation of transcription",
+      "authors": [
+        "AM Deaton",
+        "A Bird"
+      ]
+    },
+    {
+      "title": "Stratification of TAD boundaries reveals preferential insulation of super-enhancers by strong boundaries",
+      "authors": [
+        "Y Gong",
+        "C Lazaris",
+        "T Sakellaropoulos"
+      ]
+    },
+    {
+      "title": "GENCODE reference annotation for the human and mouse genomes",
+      "authors": [
+        "A Frankish",
+        "M Diekhans",
+        "AM Ferreira"
+      ]
+    },
+    {
+      "title": "Spaceflight decelerates the epigenetic clock orchestrated with a global alteration in DNA methylome and transcriptome in the mouse retina",
+      "authors": [
+        "Z Chen",
+        "S Stanbouly",
+        "NC Nishiyama"
+      ]
+    },
+    {
+      "title": "Epigenetic determinants of space radiation-induced cognitive dysfunction",
+      "authors": [
+        "MM Acharya",
+        "AAD Baddour",
+        "T Kawashita"
+      ]
+    },
+    {
+      "title": "The NASA twins study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman",
+        "M Darshi",
+        "SJ Green"
+      ]
+    },
+    {
+      "title": "Heterochromatin drives compartmentalization of inverted and conventional nuclei",
+      "authors": [
+        "M Falk",
+        "Y Feodorova",
+        "N Naumova"
+      ]
+    },
+    {
+      "title": "A possible function of constitutive heterochromatin: The bodyguard hypothesis",
+      "authors": [
+        "TC Hsu"
+      ]
+    },
+    {
+      "title": "Difference in the relative biological effectiveness and DNA damage repair processes in response to proton beam therapy according to the positions of the spread out Bragg peak",
+      "authors": [
+        "H Hojo",
+        "T Dohmae",
+        "K Hotta"
+      ]
+    },
+    {
+      "title": "Chromatin dynamics during DSB repair",
+      "authors": [
+        "M Falk",
+        "E Lukasova",
+        "B Gabrielova"
+      ]
+    },
+    {
+      "title": "Chromatin structure influences the sensitivity of DNA to γ-radiation",
+      "authors": [
+        "M Falk",
+        "E Lukášová",
+        "S Kozubek"
+      ]
+    },
+    {
+      "title": "Particles with similar LET values generate DNA breaks of different complexity and reparability: A high-resolution microscopy analysis of γH2AX/53BP1 foci",
+      "authors": [
+        "L Jezkova",
+        "M Zadneprianetc",
+        "E Kulikova"
+      ]
+    },
+    {
+      "title": "A paradigm revolution or just better resolution—Will newly emerging superresolution techniques identify chromatin architecture as a key factor in radiation-induced DNA Damage and repair regulation?",
+      "authors": [
+        "M Falk",
+        "M Hausmann"
+      ]
+    },
+    {
+      "title": "DNA double-strand breaks in heterochromatin elicit fast repair protein recruitment, histone H2AX phosphorylation and relocation to euchromatin",
+      "authors": [
+        "N Jakob",
+        "J Splinter",
+        "S Conrad"
+      ]
+    },
+    {
+      "title": "Super-resolution localization microscopy of γ-H2AX and heterochromatin after folate deficiency",
+      "authors": [
+        "M Bach",
+        "C Savini",
+        "M Krufczik"
+      ]
+    },
+    {
+      "title": "Spatial-temporal genome regulation in stress-response and cell-fate change",
+      "authors": [
+        "J Erenpreisa",
+        "A Giuliani",
+        "H Yoshikawa"
+      ]
+    },
+    {
+      "title": "Heterochromatin networks: Topology, dynamics, and function (a working hypothesis)",
+      "authors": [
+        "J Erenpreisa",
+        "J Krigerts",
+        "K Salmina"
+      ]
+    },
+    {
+      "title": "The human transcriptome map: Clustering of highly expressed genes in chromosomal domains",
+      "authors": [
+        "H Caron",
+        "B van Schaik",
+        "M van der Mee"
+      ]
+    },
+    {
+      "title": "Human osteogenic differentiation in Space: Proteomic and epigenetic clues to better understand osteoporosis",
+      "authors": [
+        "A Gambacurta",
+        "G Merlini",
+        "C Ruggiero"
+      ]
+    },
+    {
+      "title": "Simulated microgravity-induced epigenetic changes in human lymphocytes",
+      "authors": [
+        "KP Singh",
+        "R Kumari",
+        "JW Dumond"
+      ]
+    },
+    {
+      "title": "Maintenance of neurogenic differentiation potential in passaged bone marrow-derived human mesenchymal stem cells under simulated microgravity conditions",
+      "authors": [
+        "C Koaykul",
+        "M-H Kim",
+        "Y Kawahara"
+      ]
+    }
+  ],
+  "original_title": "Chromosomal positioning and epigenetic architecture influence DNA methylation patterns triggered by galactic cosmic radiation",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f543/10789781/3f3849329e82/41598_2024_51756_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f543/10789781/367f4269a21d/41598_2024_51756_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f543/10789781/d2a8fd8cf94e/41598_2024_51756_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f543/10789781/f870061d2c3f/41598_2024_51756_Fig4_HTML.jpg"
+  ]
+}

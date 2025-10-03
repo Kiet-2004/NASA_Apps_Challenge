@@ -1,0 +1,679 @@
+{
+  "pmcid": "10470837",
+  "title": "Reviewing the state of biosensors and lab-on-a- chip technologies: opportunities for extreme environments and space exploration",
+  "abstract": "The space race is entering a new era of exploration, in which the number of robotic and human missions to various places in our solar system is rapidly increasing. Despite the recent advances in propulsion and life support technologies, there is a growing need to perform analytical measurements and laboratory experiments across diverse domains of science, while keeping low payload requirements. In this context, lab-on-a-chip nanobiosensors appear to be an emerging technology capable of revolutionizing space exploration, given their low footprint, high accuracy, and low payload requirements. To date, only some approaches for monitoring astronaut health in spacecraft environments have been reported. Although non-invasive molecular diagnostics, like lab-on-a-chip technology, are expected to improve the quality of long-term space missions, their application to monitor microbiological and environmental variables is rarely reported, even for analogous extreme environments on Earth. The possibility of evaluating the occurrence of unknown or unexpected species, identifying redox gradients relevant to microbial metabolism, or testing for specific possible biosignatures, will play a key role in the future of space microbiology. In this review, we will examine the current and potential roles of lab-on-a-chip technology in space exploration and in extreme environment investigation, reporting what has been tested so far, and clarifying the direction toward which the newly developed technologies of portable lab-on-a-chip sensors are heading for exploration in extreme environments and in space.",
+  "introduction": "Introduction\n\nFrom an anthropocentric perspective, all terrestrial habitats characterized by harsh environmental conditions are identified as extreme environments. Under these conditions, including extremely high or low pressure, temperature, pH, salinity, and radiation, the lives of humans are severely challenged and their survival is generally restricted to a very limited number of circumstances. Despite this, extreme environments cover a wide portion of Earth’s surface and are also thought to be abundant in our solar system and beyond. Harsh environmental conditions, which are not only related to natural habitats and hostile remote areas, are also often reported in manufacturing, processing and production sectors of diverse industrial branches, such as automotive, aerospace, nuclear, geothermal and oil and natural gas industries. In this regard, an industrial harsh environment can affect machinery life cycles, equipment reliability, efficiency, and productivity of the industry itself, and not least the safety of operators.\n\nOn Earth’s surface, there are numerous natural sites whose environmental conditions are easily assimilable to those of celestial bodies in our solar system. Sea ice and permafrost in Polar regions, cold seeps, hydrothermal vents, hot springs, fumaroles, mud volcanoes, hyperacidic or saline lakes, deserts, and arid environments, or nuclear contaminated sites, mimicking conditions that could be found on early Earth, strongly resemble the surface of rocky planets, the large icy moons of Saturn and Jupiter, hydrocarbon-rich environments like Titan, etc. [1]. In situ observations, in addition to the analysis of water, soil, and biofilm samples collected from these environments, can give fundamental clues about the environmental parameter limits, like pH, temperature, pressure, or salinity, in which life can be found on Earth, and thus presumably elsewhere. These environments are perfect scenarios for testing methods, protocols, models, technologies, and hardware useful for studying geosphere-biosphere coevolution. In this way, it is possible to detect the biosignatures and biomarkers useful for space exploration. Finding specific types of molecules in these environments could provide clues about the nature of markers to look for in the cosmos. All these aspects make Earth’s extreme environments perfect natural laboratories where to explore the origin and the limits of life, as well as excellent testing grounds for technologies with broader applications in various industrial sectors, and that can be used both during the exploration of our planet and beyond.\n\nSpace exploration and space biology are entering a new golden age, with the number of ongoing and planned missions, both manned and unmanned, rapidly increasing as reported by NASA.1 Our ability to accurately perform in situ analytical measurements under harsh environmental conditions on Earth and, in the future, on other planetary bodies will play a key role in enabling deep-space missions. Current practices for the detection and identification of chemical and biological compounds are essentially based on the use of classical analytical instrumental methods, such as high-performance liquid chromatography (HPLC), inductively coupled plasma atomic emission spectroscopy (ICP-AES), mass spectrometry (MS), atomic absorption spectrometry (AAS), and so on. These techniques represent the gold standard in analytical chemistry, but require instruments of large size and weight, long time, and effort for sample preparation and analysis, and often involve the use of advanced equipment and modern clean rooms. For all these aspects, these techniques are unsuitable for in situ real-time analytical detection, especially in remote locations and in space, where reduced footprint and payload are key requirements.\n\nIn extreme environments such as space, human health surveillance is still an unmet goal, and the development of suitable and reliable biosensors is for this purpose a high-priority need. A major breakthrough in the field of analytical chemistry, applied to extreme environments and to space exploration, is the miniaturization and automation of analytical systems that operate on the lab-on-a-chip (LoC) platform. The development of these technologies has been enabled by recent advances in the fields of smart materials, microfluidics, and electronics. Furthermore, an increased and more aware use of point-of-care (PoC) diagnostics and has accelerated the process of digitalizing routine monitoring procedures. In fact, LoC-based PoC testing systems are portable, efficient and easy-to-use tools for rapid in situ detection, diagnosis, and monitoring of disease, which only require droplets of samples, such as blood, urine, or other body fluids such as saliva, sweat, and tears. These characteristics make LoC nanobiosensors ideal for applications in all major sectors related to space and remote environments exploration, from astronauts’ health monitoring to environmental analysis for in situ resource utilization and biosignature exploration.\n\nThe study of extremophiles and extremely hostile locations can answer many questions from the field of evolutionary biology to molecular biology and industrial biology for space exploration. This is in part due to the several significant challenges that can be encountered in studying biological life within extreme environments, such as the need to travel to remote destinations, work in hostile conditions, and face specific dangers associated with studying them. From this perspective, the development of sensors that can be applied to harsh conditions could provide a system for monitoring life in extreme environments and supporting space exploration by humans.\n\nIn this Review, we will focus our attention on lab-on-a-chip (LoC) nanobiosensors in the context of extreme environments and space exploration, reporting the state-of-the-art of current applications, and highlighting the possible directions for novel device development aimed at space missions and planetary research.\n\nLab-on-a-chip key features\n\nTechnologies for exploring space and extreme environments, both in land and underwater, share a number of common features and key requirements, including the robustness of the detection technology, low-cost sensors, small form factor, and real-time capabilities. LoC technology has the advantage of combining all of these properties, representing the top-of-the-line system for the development of innovative sensors suitable for space exploration and extreme environment analysis.\n\nRobustness of detection technologies\n\nEstablishing alternative, stable, and selective system design options is a way to reduce the risks of exploring extreme environments. The development of sensors and electronics set up for harsh conditions has recently gained increasing importance in different industrial settings, including automotive, aircraft, process engineering, and deep-sea research. Unlike sensors used in most common applications, the manufacture of those suitable for use in harsh environmental circumstances frequently relies on unique technologies, distinct materials, and highly specialized designs, enabling them to withstand the most challenging conditions. However, the sensitivity, stability, and selectivity of detection techniques still need to be improved. Indeed, most of the currently used systems require very long detection times as well as specialized technicians and peculiar processing equipment, which limit their applications. Colorimetric and electrochemical biosensors are currently the best developed and preferred approaches for the detection and monitoring of analytes under extreme environmental conditions, due to their low detection limits, high selectivity and sensitivity, fast response times, and local detection.\n\nProduction and utilization costs\n\nThere is a need for the development of efficient on-demand technologies based on low production and consumption costs. Microfluidic technology has gained particular interest in the field of LoC systems development, mostly due to its low manufacturing costs. Furthermore, microfluidic devices (μFDs) provide a straightforward assay method widely used for efficient analyte detection. Combining μFDs with colorimetric and electrochemical systems will result in a cost-effective solution that could be widely used in the near future. For many years, researchers have explored the possibility of using microfluidic systems in planetary science. Some of these experiments have shown that the optimization process can become even more intensive. As part of the ExoMars mission from NASA and the European Space Agency (ESA), developed a miniaturized antibody microarray system using optical fibers and microfluidics to detect life. The size and weight of the fluid management system were reduced by replacing multiple pneumatically operated on–off valves with a single integrated selector valve. announced the development of a fully integrated microfluidic system that could perform analysis of amino acids by microchip capillary electrophoresis (μCE) with integrated laser-induced fluorescence detection.\n\nReal-time capabilities\n\nReal-time information technology is required in extreme environmental conditions and hazardous circumstances to improve the protection and survival of the involved personnel. Additionally, real-time information is needed to implement autonomous decision-making in the field, enabling the use of artificial intelligence to guide unmanned exploration and support human presence in space. As an example, have recently developed a next-generation model of an optical, fingertip-sized mid-IR LoC device, suitable for sensitive and selective in situ real-time analysis of chemical reactions in liquids. In particular, they demonstrated the capability of the device to monitor temperature-induced changes in the secondary structure of proteins in real-time. This technology may find wide use in biomedical applications for the investigation of chemical reactions, such as drug production.\n\nSmall form factor\n\nIn the exploration of remote places on our planet as well as in space, the size and weight of analytical devices are fundamental features for the selection of the instruments to backpack during a mission. Minimizing size and weight not only allows the production of compact detection systems, but also cuts launch costs and power requirements. In this sense, LoC devices have the smallest footprint of any analytical alternative (Figure 1). In particular, paper-based microfluidic systems and biosensors have weights several orders of magnitude lower than traditional analytical devices (Figures 1, 2). Moreover, micro-processing provides processing conditions that are easily adaptable to the use of artificial intelligence technologies and, taking place in enclosed chambers with no headspace, allows vacuum operation. Ultimately, LoC nanobiosensors represent excellent candidates for space missions, both as probe-installed instruments and as wearable technologies for astronauts. They found wide use in different areas of space biology, from life detection to spacecraft bioburden or astronaut health monitoring. Even though astonishing advances have been made in the LoC sector in the last decade, their application in extreme environments exploration is still poorly investigated.\n\nNanobiosensors for extreme environments and space microbiology\n\nThe interaction between humans and microbes on Earth is not the same as that in the confined environment of space. Since astronauts are required to spend extended periods of time in an orbiting spacecraft during a mission in space, the investigation of microbial pathogenesis and infection processes in space could help preserve astronaut health. Based on the results of decadal studies conducted by NASA, a series of microbial tracking experiments have been launched aiming to understand the dynamics of microbial persistence on spacecraft and related microbial processes, including biofilm formation, pathogenicity, and virulence. Conducting experiments in space and transporting samples back to Earth for further studies require a significant investment of time, money, and human effort. Therefore, microbiological risk must be regularly assessed and controlled. These applications require sensors that operate under extreme conditions with long-term accuracy and precision. In this context, nanomaterials are promising candidates for the manufacture of single-molecule nano-biosensors with high-throughput biosensor arrays, with improved electrochemical, mechanical, magnetic, and optical properties. The combination of nanostructures with electrochemical processes has led to an increase in the effectiveness, sensitivity, response time, and degradability of the sensors, thus enabling efficient and cost-effective assays for a wide range of analytes. For the same reason, the use of nanobiosensors is rapidly spreading in diagnostics and in the biochip industry.\n\nIn space biology and in astrobiology, one of the main goals is to explore and visit different celestial bodies in our solar system. This approach ultimately serves to determine their potential habitability and the presence/absence of life. Several strategies have been attempted to achieve this: analyzing the biogeochemical properties of meteorites, mimicking planetary atmospheric conditions in lab-scale experiments, or using extreme environments on Earth as natural laboratories and planetary analogs. According to CAREX (; Coordination Action for Research on Study of Life in Extreme Environment), planetary analogs can be described in four main domains: the contribution of life to biogeochemical cycles and the response to environmental variability in extreme environments; the response, adaptation, and evolution of life forms in environments extremely-rich in biotic and abiotic stresses; bioenergetics and biodiversity in extreme environments, and the relationship between life and habitability.2 Following these guidelines, the exploitation of extreme environments as planetary analogs could help explain the relationship between life, environments, and humans, in order to better design technical strategies for deep space exploration. An experimental approach of particular interest in space microbiology is rock biomining and/or bioleaching, namely the processes of extracting metals from low-grade ores and wastes through microbial activity. A heterogeneous and complex microflora, composed of both heterotrophic and autotrophic acidophilic microorganisms, is generally used in most industrial biomining processes. Due to the extreme environmental conditions in which these microorganisms live and perform metal extraction and solubilization, such as high temperatures and very low pH, the development of suitable analytic systems is urgently needed for biomining and bioleaching process monitoring, but more generally for setting up planetary simulation facilities aimed at the study of rocky planets and moons.\n\nDepending on the type of parameter or analyte to be monitored or detected and the environmental conditions under which this needs to occur, analytical systems based on LoC technology have been designed, suitable for the most varied applications (Figure 2). Below are some examples that have been reported, i.e., the electrochemical detection of copper ions at a printed strip.\n\nSensors for extreme temperature conditions\n\nSensor performance requirements vary depending on whether they are used in high- or low-temperature conditions. Temperature is probably the environmental parameter that mostly affects the operation of most analytical devices. For example, with standard thermocouples and pyrometers, it is difficult to obtain accurate measurements of the thermal pulse to which nanoparticles and microparticles are exposed under harsh conditions, such as explosions, furnaces, and combustion. Under these conditions, with rapid heating rates and high maximum temperatures, the formation of opaque gasses and liquid streams containing nanoparticles and microparticles limits the precision of these methods. To avoid such issues, have developed an in situ approach to monitoring the partial pressure of water vapor in oxidizing atmospheres and at elevated temperatures. They employed a new basic amperometric sensor design for electrolytes based on ZrO2 and CaZrO3. The electrolyte membranes allow the conductivity of oxygen anions and protons to be established, leading to the complete decomposition of water as a result of the applied potential by an external circuit. The proper performance of the proposed sensor is demonstrated by varying the partial pressure of water vapor (0.003–0.110 atm) in air and temperature (675–750°C). Sensor measurement confirmed test success by proving to be steady, repeatable, and consistent with theoretical predictions and practical applications.\n\nSensors for volcanics\n\nThe temperature and composition of volcanic gasses fluctuate as a result of geochemical reactions and seismic activity. Volcanic acoustic signals contain important information about shallow magnetic and hydrothermal processes. In certain circumstances, the detection of acoustic waves is the sole unequivocal proof of the presence of volcanic eruptions. Using a microelectromechanical differential pressure transducer, detected and analyzed volcanic sonic waves. It has a wide frequency range, a wide dynamic range, low noise level, and comparatively low power. Despite its ease of installation, it is designed for use in extreme environments. The instrumental response of each infrasound sensor is precisely measured from 1 mHz to >100 Hz, providing sinusoidal pressure changes. It is relatively easy to handle and install due to sensor size (26x45x80 mm) and weight 100 g. The discovery of volcanoes may therefore aid in the prediction of phreatic eruptions and other types of eruptions in the near future.\n\nSensors for environmental microbes\n\nMicroorganisms not only thrive in a wide variety of environments on Earth but can also withstand the harsh conditions of space, including high radiation, vacuum pressure, drastic temperature changes, and microgravity. Real-time monitoring of pollutants, contaminants, and pathogens on multiple geographic scales is essential to adequately assess environmental risks, manage impacts, and understand the processes that determine their extent and spread. demonstrated that contemporary isothermal microcalorimeters (IMCs) can detect the metabolic heat of bacteria with enough precision to detect even minute bacterial contamination in water, food, and medical samples. Compared to the culture technique, the IMC technique was reported to be much faster in detecting high bacterial concentrations in turbid solutions without even shaking the sample.\n\nSensor for underwater applications\n\nDue to the extreme environmental conditions found in particular aquatic environments, such as deep oceans, LoC systems used in these areas have special requirements. Compared to land-based equipment, the electrical systems utilized in LoC systems must be able to operate in a water-filled environment and tolerate exceptionally high hydrostatic pressures. LoC analyzers should be used in the presence of severely corrosive salt water and strong hydrostatic pressure. However, the materials, analytical techniques, or operational principles that can be used have some limitations. High levels of automation are also required to enable autonomous operations in remote or extreme environment areas. In recent decades, advances in LoC technology have made underwater analysis and in situ detection possible. Colorimetric approaches are often used to assess marine variables such as micro and macronutrient content, such as nitrates, phosphates, and silicates. For example, to perform in situ ammonia detection, a device integrating a gas diffusion cell and electrodes was developed for conductivity measurements. The gas diffusion cell is simple in design, with a thin Teflon tape between the polysulfone blocks, which have a serpentine microchannel design.\n\nSensors for H+ ions for extreme pH measurement\n\nOceans absorb approximately a quarter of anthropogenic CO2 emissions from the atmosphere, thus resulting in a decrease of surface ocean pH, with an average rate of 0.0017 pH units per year, as reported by the Copernicus Marine Environment Monitoring Service (CMEMS).3 This ocean acidification phenomenon also affects total dissolved inorganic carbon (DIC) speciation, reducing the amount of carbonate ions in seawater ions available for calcifying organisms to build and maintain their shells, skeletons, and other calcium carbonate structures. To predict changes in marine carbonate chemistry on high spatial and temporal scales from surface waters to the deep ocean, a novel LoC microfluidic sensor for in situ pH high-precision measurements was developed. Thanks to LoC technology, this sensor showed 10 times the depth capability of the state-of-the-art autonomous spectrophotometric sensor. Furthermore, the LoC pH sensor demonstrated high-level performance on fixed and moving platforms under varying environmental salinity, temperature, and pressure conditions.\n\nNanobiosensors for astronaut health and life support systems\n\nSpace is an unnatural and harsh environment that affects the human body in many ways. From the first spaceflight in the early 1960s to current space missions, several microgravity-related alterations in astronauts’ physiology have been reported. These complex physiological changes, depending on the duration of the spaceflight, range from a change in body fluids, muscle atrophy, bone demineralization, and immune dysregulation to increased radiation exposure and potential exposure to pathogens and microbes due to increased bioburden on the spacecraft (Figure 3). Furthermore, the functioning of astronauts’ psychology is also affected (Figure 3). Taken together, all these factors can negatively influence human health and productivity on the space station. In order to preserve astronauts’ health during missions, it should be possible to perform in situ diagnosis, management, and treatment of pathologies related to spaceflight. Today, balanced healthcare systems are based on the 4P medical model, which is preventive, predictive, personalized, and participatory medicine, which forms the basis for advanced patient surveillance technology. All four requirements of the 4P model for medical and analytical devices that provide clinically relevant information without requiring a core clinical laboratory, are achieved by PoC technology. Recent research has focused on adapting PoC sensing techniques to “resource-constrained environments,” with the automation field considered to be the most important market for PoC electronics in the near future.\n\nElectrochemical and optical technologies combined with miniature readout subsystems are by far the most widely used for PoC sensing. They can be used as wearable, implanted, and in situ detection systems. PoC devices can also measure physiological parameters such as heart function rate, oxygen saturation, plasma protein composition level, and patterns of various biomarkers and their concentrations. In addition to reducing detection time, these technologies would also allow testing in locations where laboratory experiments are not feasible, such as in space. In the future, these sensors will be used by humans in space and could pave the way for more sustainable space exploration.\n\nAstronaut physiology monitoring during space flight\n\nMonitoring health in space is a tough task to accomplish, due to several issues of different nature. Clear examples are unconventional space environmental conditions, in addition to the lack on the space station of medical devices, such as electrocardiographs, blood pressure machines, fingertip oxygen saturation monitors, and ankle bracelet activity sensors, which are often too heavy, bulky, invasive, disruptive, and expensive. The remarkable advances in biosensors offer the possibility of developing novel diagnostic methodologies based on LoC technology for monitoring the health status of astronauts, which could feasibly allow for the acquisition of personalized therapeutic approaches. As an example, the opportunity to perform in situ analysis of blood components or specific biomarkers, such as exosome-like small extracellular vesicles (sEVs), and circulating cell-free nucleic acids (cf-NAs), would be useful to identify physiological effects or immune system responses related to microgravity, radiation exposure, or other peculiar spaceflight stress conditions. Several biosensor formats have been proposed as in-flight diagnostic tools, despite their many disadvantages: clinical diagnostic biosensors, biosensors for water and environmental quality, and biosensors for investigating the effects of and countermeasures to radiation exposure.\n\nRecently, an ultrasensitive electrochemical-digital cortisol sensor chip was developed as a digital stress analyzer for preventive in situ monitoring of steroid hormone present in human saliva. Cortisol is a well-known stress biomarker, and its levels in saliva samples were determined using electrochemical impedance spectroscopy (EIS) after the sensor was interfaced and reconfigured using a high-precision impedance converter device. Another example is the use of antibody-based biosensors, the most advanced and most commonly used, such as IMMUNOLAB, a bioanalytical device based on immunological analyzes that allows chemical clinical analyzes to be performed on blood, urine, or saliva samples onboard the ISS and performs both sample preparations and target detection.\n\nMore generally, new-generation biosensor technologies will exploit nanomaterials to improve the mechanical, electrochemical, optical, and magnetic properties of biosensors offering a large range of medical and economic benefits, ranging from disease prevention, improved clinical results, and improved quality of life, reducing the burden of medical care, and providing the necessary analytical performance for space medicine.\n\nMonitoring exposure to radiation\n\nHumans are exposed to radiation from various natural and artificial sources. Ionizing radiation contains enough energy to interact with living cell atoms and cause genetic damage, thus causing long-term human health consequences, such as heart disease and cancer. Spaceflights and long-term space missions expose astronauts to high doses of radiation. Similar conditions can occur on Earth at high altitudes or in specific work environments. To ensure safety under extremely high radiation conditions, a practical and easy-to-access monitoring system is needed. described the use of sophisticated image sensors in today’s ubiquitous mobile phones that can detect both ionizing radiation and visible light. Smartphone cameras use a sensor called a CMOS (complementary metal oxide semiconductor) to capture images. If the radiation hits the sensor, it generates a signal that can be separated from the visible-light signal and enables the smartphone to be used as a radiation detector. The Roland-Dieter Klein radioactivity counter is available for download in the Apple App Store. The smartphone CMOS sensor is very sensitive to radiation exposure as low as 10 μGy/h. Similar CMOS sensors might be adapted for in-flight applications that offer relatively simple, inexpensive, and rapid deployment in space. However, it does not guarantee the same performance as its ground-based counterpart. To this end, an example is the TimePIX chip, an innovative and cutting-edge device, emerging as a pivotal instrument in the realm of radiation detection and imaging, particularly in the realm of space exploration. Its remarkable capabilities make it an indispensable tool for the meticulous examination and profound understanding of the intricate radiation environment encountered by intrepid astronauts, ensuring not only their well-being but also the preservation of vital equipment. With its exceptional sensitivity to various radiation particles, the TimePIX chip assumes a pivotal role in meticulous monitoring and meticulous analysis of radiation levels that permeate the vast expanse of space. It provides invaluable insights into discriminating crucial aspects such as particle taxonomy, energy magnitude, and intensity, thereby furnishing scientists with essential parameters and aimed at safeguarding astronauts against formidable potent radiation exposure.\n\nAlternative radiation detection technologies include a polyacrylamide hydrogel doped with modified boron nitride nanosheets (BNNS-TA) and Fe3+ ions. The aBNNS-TA/Fe3+/PAAm hydrogel exhibits exceptional mechanical properties, pressure sensitivity and γ-ray resistance. The excellent compressive strength, performance recovery, and high sensitivity make it suitable for use as a pressure sensor in a control circuit or as an attachment to the body for accurate detection of human activity, suggesting its use for nuclear safety monitoring, accident management, and extravehicular activities.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "biosensors",
+    "point of care",
+    "lab on chip",
+    "space exploration",
+    "extreme environment",
+    "Microbiology",
+    "Review"
+  ],
+  "citations": [
+    {
+      "title": "Chemically bonded thermal impulse sensors for use in extreme environments",
+      "authors": [
+        "B. R. Anderson",
+        "R. Gunawidjaja",
+        "H. Eilers"
+      ]
+    },
+    {
+      "title": "The molecular basis for life in extreme environments",
+      "authors": [
+        "N. Ando",
+        "B. Barquera",
+        "D. H. Bartlett",
+        "E. Boyd",
+        "A. A. Burnim",
+        "A. S. Byer"
+      ]
+    },
+    {
+      "title": "Rad-bio-app: a discovery environment for biologists to explore spaceflight-related radiation exposures",
+      "authors": [
+        "R. Barker",
+        "S. V. Costes",
+        "J. Miller",
+        "S. G. Gebre",
+        "J. Lombardino",
+        "S. Gilroy"
+      ]
+    },
+    {
+      "title": "Cell-free DNA (cfDNA) and exosome profiling from a year-long human spaceflight reveals circulating biomarkers",
+      "authors": [
+        "D. Bezdan",
+        "K. Grigorev",
+        "C. Meydan",
+        "F. A. Pelissier Vatter",
+        "M. Cioffi",
+        "V. Rao"
+      ]
+    },
+    {
+      "title": "Advances in space microbiology",
+      "authors": [
+        "S. Bijlani",
+        "E. Stephens",
+        "N. K. Singh",
+        "K. Venkateswaran",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "Sensors for extreme environments",
+      "authors": [
+        "R. Bogue"
+      ]
+    },
+    {
+      "title": "Prebiotic synthesis of carboxylic acids, amino acids and nucleic acid bases from formamide under photochemical conditions⋆",
+      "authors": [
+        "L. Botta",
+        "B. Mattia Bizzarri",
+        "D. Piccinino",
+        "T. Fornaro",
+        "J. Robert Brucato",
+        "R. Saladino"
+      ]
+    },
+    {
+      "title": "Novel paper-based electroanalytical tools for food surveillance",
+      "authors": [
+        "S. Cinti"
+      ]
+    },
+    {
+      "title": "Preparation of paper-based devices for reagentless electrochemical (bio)sensor strips",
+      "authors": [
+        "S. Cinti",
+        "D. Moscone",
+        "F. Arduini"
+      ]
+    },
+    {
+      "title": "Engineering electronic systems for extreme environments",
+      "authors": [
+        "G. V. Clatterbaugh",
+        "B. R. Trethewey",
+        "S. X. Ling",
+        "M. M. Dehghani"
+      ]
+    },
+    {
+      "title": "Efficiency of the oxygenic photosynthesis on earth-like planets in the habitable zone",
+      "authors": [
+        "G. Covone",
+        "R. M. Ienco",
+        "L. Cacciapuoti",
+        "L. Inno"
+      ]
+    },
+    {
+      "title": "Smart Nanotextiles: materials and their application",
+      "authors": [
+        "S. Coyle",
+        "D. Diamond",
+        "L. V. Lieve"
+      ]
+    },
+    {
+      "title": "Advanced techniques for manufacturing paper-based microfluidic analytical devices",
+      "authors": [
+        "A. Faheem",
+        "S. Cinti",
+        "C. M. Wing",
+        "H. P. H. Aaron"
+      ]
+    },
+    {
+      "title": "Sensors and smart electronics in harsh environment applications",
+      "authors": [
+        "W. R. Fahrner",
+        "R. Job",
+        "M. Werner"
+      ]
+    },
+    {
+      "title": "Novel approaches for colorimetric measurements in analytical chemistry–a review",
+      "authors": [
+        "G. M. Fernandes",
+        "W. R. Silva",
+        "D. N. Barreto",
+        "R. S. Lamarca",
+        "P. C. F. Lima Gomes",
+        "J. Flávio da S Petruci"
+      ]
+    },
+    {
+      "title": "P4 medicine: how systems medicine will transform the healthcare sector and society",
+      "authors": [
+        "M. Flores",
+        "G. Glusman",
+        "K. Brogaard",
+        "N. D. Price",
+        "L. Hood"
+      ]
+    },
+    {
+      "title": "Precision in harsh environments",
+      "authors": [
+        "P. French",
+        "G. Krijnen",
+        "F. Roozeboom"
+      ]
+    },
+    {
+      "title": "Rapid calorimetric detection of bacterial contamination: influence of the cultivation technique",
+      "authors": [
+        "C. Fricke",
+        "H. Harms",
+        "T. Maskow"
+      ]
+    },
+    {
+      "title": "(Bio)sensors applied to coral reefs’ health monitoring: a critical overview",
+      "authors": [
+        "L. Gastoldi",
+        "S. Cinti"
+      ]
+    },
+    {
+      "title": "A robust, low-cost and well-calibrated infrasound sensor for volcano monitoring",
+      "authors": [
+        "J. Grangeon",
+        "P. Lesage"
+      ]
+    },
+    {
+      "title": "Ai’s role in deep space",
+      "authors": [
+        "N. M. Haney",
+        "A. Urman",
+        "T. Waseem",
+        "Y. Cagle",
+        "J. M. Morey"
+      ]
+    },
+    {
+      "title": "Electrode materials in modern organic electrochemistry",
+      "authors": [
+        "D. M. Heard",
+        "A. J. J. Lennox"
+      ]
+    },
+    {
+      "title": "The resource gateway: microfluidics and requirements engineering for sustainable space systems",
+      "authors": [
+        "V. Hessel",
+        "M. M. Sarafraz",
+        "N. N. Tran"
+      ]
+    },
+    {
+      "title": "Continuous-flow extraction of adjacent metals–a disruptive economic window for in situ resource utilization of asteroids?",
+      "authors": [
+        "V. Hessel",
+        "N. N. Tran",
+        "S. Orandi",
+        "M. R. Asrami",
+        "M. Goodsite",
+        "H. Nguyen"
+      ]
+    },
+    {
+      "title": "Small solar system bodies as granular media",
+      "authors": [
+        "D. Hestroffer",
+        "P. Sánchez",
+        "L. Staron",
+        "A. C. Bagatin",
+        "S. Eggl",
+        "W. Losert"
+      ]
+    },
+    {
+      "title": "A mid-infrared lab-on-a-chip for dynamic reaction monitoring",
+      "authors": [
+        "B. Hinkov",
+        "F. Pilat",
+        "L. Lux",
+        "P. L. Souza",
+        "M. David",
+        "A. Schwaighofer"
+      ]
+    },
+    {
+      "title": "Biotechnological recovery of heavy metals from secondary sources-an overview",
+      "authors": [
+        "M. E. Hoque",
+        "O. J. Philip"
+      ]
+    },
+    {
+      "title": "Flexible, high sensitive and radiation-resistant pressure-sensing hydrogel",
+      "authors": [
+        "Z. Jiang",
+        "Y. Wang",
+        "G. Xu",
+        "Z. Jiang",
+        "Z. Ge",
+        "M. Wang"
+      ]
+    },
+    {
+      "title": "The suitability of smartphone camera sensors for detecting radiation",
+      "authors": [
+        "Y. H. Johary",
+        "J. Trapp",
+        "A. Aamry",
+        "H. Aamri",
+        "N. Tamam",
+        "A. Sulieman"
+      ]
+    },
+    {
+      "title": "The changing automotive environment: high-temperature electronics",
+      "authors": [
+        "R. W. Johnson",
+        "J. L. Evans",
+        "P. Jacobsen",
+        "J. R. Thompson",
+        "M. Christopher"
+      ]
+    },
+    {
+      "title": "A high-temperature electrochemical sensor based on CaZr0.95Sc0.05O3–δ for humidity analysis in oxidation atmospheres",
+      "authors": [
+        "A. S. Kalyakin",
+        "J. G. Lyagaeva",
+        "A. Y. Chuikin",
+        "A. N. Volkov",
+        "D. A. Medvedev"
+      ]
+    },
+    {
+      "title": "Concepts for the in-flight handling of safety critical liquids in biological experiments",
+      "authors": [
+        "P. Kern",
+        "T. Eisenberg",
+        "T. Sgobba",
+        "I. Rongier"
+      ]
+    },
+    {
+      "title": "Electrochemical sensors in space missions",
+      "authors": [
+        "J. E. Koehne",
+        "M. Cor Deiro",
+        "S. D. Thomson",
+        "M. Meyyappan"
+      ]
+    },
+    {
+      "title": "Space applications for ionic polymer-metal composite sensors, actuators, and artificial muscles",
+      "authors": [
+        "K. Krishen"
+      ]
+    },
+    {
+      "title": "A semiconductor radiation imaging pixel detector for space radiation dosimetry",
+      "authors": [
+        "M. Kroupa",
+        "A. Bahadori",
+        "T. Campbell-Ricketts",
+        "A. Empl",
+        "S. M. Hoang",
+        "J. Idarraga-Munoz"
+      ]
+    },
+    {
+      "title": "Acclimation during space flight: effects on human emotion",
+      "authors": [
+        "Q. Liu",
+        "R. L. Zhou",
+        "X. Zhao",
+        "X. P. Chen",
+        "S. G. Chen"
+      ]
+    },
+    {
+      "title": "Hazards of human spaceflight",
+      "authors": [
+        "M. Löbrich",
+        "P. A. Jeggo"
+      ]
+    },
+    {
+      "title": "A laboratory of extremophiles: iceland coordination action for research activities on life in extreme environments (CAREX) field campaign",
+      "authors": [
+        "V. Marteinsson",
+        "P. Vaishampayan",
+        "J. Kviderova",
+        "F. Mapelli",
+        "M. Medori",
+        "C. Calfapietra"
+      ]
+    },
+    {
+      "title": "Recent approaches for optical smartphone sensing in resource-limited settings: a brief review",
+      "authors": [
+        "K. E. McCracken",
+        "J. Y. Yoon"
+      ]
+    },
+    {
+      "title": "Biosensors and their applications–a review",
+      "authors": [
+        "P. Mehrotra"
+      ]
+    },
+    {
+      "title": "Living at the extremes: extremophiles and the limits of life in a planetary context",
+      "authors": [
+        "N. Merino",
+        "H. S. Aronson",
+        "D. P. Bojanova",
+        "J. Feyhl-Buska",
+        "M. L. Wong",
+        "S. Zhang"
+      ]
+    },
+    {
+      "title": "Toward total automation of microfluidics for extraterrestial in situ analysis",
+      "authors": [
+        "M. F. Mora",
+        "F. Greer",
+        "A. M. Stockton",
+        "S. Bryant",
+        "P. A. Willis"
+      ]
+    },
+    {
+      "title": "Living and working in space: an overview of physiological adaptation, performance, and health risks",
+      "authors": [
+        "A. E. Nicogossian",
+        "R. S. Williams",
+        "C. L. Huntoon",
+        "C. R. Doarn",
+        "A. E. Nicogossian",
+        "R. S. Williams",
+        "C. L. Huntoon",
+        "C. R. Doarn",
+        "J. D. Polk",
+        "V. S. Schneider"
+      ]
+    },
+    {
+      "title": "Experimental methods for studying microbial survival in extraterrestrial environments",
+      "authors": [
+        "K. Olsson-Francis",
+        "C. S. Cockell"
+      ]
+    },
+    {
+      "title": "Point-of-care biosensors in medicine: a brief overview of our achievements in this field based on the conducted research in EMRI (endocrinology and metabolism research Institute of Tehran University of medical sciences) over the past fourteen years",
+      "authors": [
+        "K. Omidfar",
+        "A. Ahmadi",
+        "L. Syedmoradi",
+        "S. M. Khoshfetrat",
+        "B. Larijani"
+      ]
+    },
+    {
+      "title": "Paper-based analytical biosensor Chip designed from graphene-Nanoplatelet-amphiphilic-diblock-co-polymer composite for cortisol detection in human saliva",
+      "authors": [
+        "D. Pan",
+        "M. S. Khan",
+        "S. K. Misra",
+        "Z. Wang",
+        "E. Daza",
+        "A. S. Schwartz-Duval"
+      ]
+    },
+    {
+      "title": "Tutorial: design and fabrication of nanoparticle-based lateral-flow immunoassays",
+      "authors": [
+        "C. Parolo",
+        "A. Sena-Torralba",
+        "J. F. Bergua",
+        "E. Calucho",
+        "C. Fuentes-Chust",
+        "L. Hu"
+      ]
+    },
+    {
+      "title": "Electrochemical Immunosensing of saliva cortisol",
+      "authors": [
+        "S. K. Pasha",
+        "A. Kaushik",
+        "A. Vasudev",
+        "S. A. Snipes",
+        "S. Bhansali"
+      ]
+    },
+    {
+      "title": "Microbial extremophiles at the limits of life",
+      "authors": [
+        "E. V. Pikuta",
+        "R. B. Hoover",
+        "J. Tang"
+      ]
+    },
+    {
+      "title": "NH4-Digiscan: an in situ and laboratory ammonium analyzer for estuarine, coastal, and shelf waters",
+      "authors": [
+        "J. N. Plant",
+        "K. S. Johnson",
+        "J. A. Needoba",
+        "L. J. Coletti"
+      ]
+    },
+    {
+      "title": "Advances in microfluidic PCR for point-of-care infectious disease diagnostics",
+      "authors": [
+        "S. Park",
+        "Y. Zhang",
+        "S. Lin",
+        "T. H. Wang",
+        "S. Yang"
+      ]
+    },
+    {
+      "title": "Planetary habitability: lessons learned from terrestrial analogues",
+      "authors": [
+        "L. J. Preston",
+        "L. R. Dartnell"
+      ]
+    },
+    {
+      "title": "Advanced biosensors for monitoring astronauts’ health during long-duration space missions",
+      "authors": [
+        "A. Roda",
+        "M. Mirasoli",
+        "M. Guardigli",
+        "M. Zangheri",
+        "C. Caliceti",
+        "D. Calabria"
+      ]
+    },
+    {
+      "title": "Life in extreme environments",
+      "authors": [
+        "L. J. Rothschild",
+        "R. L. Mancinelli"
+      ]
+    },
+    {
+      "title": "The smallest space miners: principles of space biomining",
+      "authors": [
+        "R. Santomartino",
+        "L. Zea",
+        "C. S. Cockell"
+      ]
+    },
+    {
+      "title": "Point-of-Care for Evaluating Antimicrobial Resistance through the adoption of functional materials",
+      "authors": [
+        "S. Singh",
+        "A. Numan",
+        "S. Cinti"
+      ]
+    },
+    {
+      "title": "Tailored point-of-care biosensors for liquid biopsy in the field of oncology",
+      "authors": [
+        "S. Singh",
+        "P. S. Podder",
+        "M. Russo",
+        "C. Henry",
+        "S. Cinti"
+      ]
+    },
+    {
+      "title": "Review–an overview on recent Progress in screen-printed electroanalytical (bio)sensors",
+      "authors": [
+        "S. Singh",
+        "J. Wang",
+        "S. Cinti"
+      ]
+    },
+    {
+      "title": "Bio-fabrication of thermozyme-based nano-biosensors: their components and present scenario",
+      "authors": [
+        "S. Soy",
+        "S. R. Sharma",
+        "V. K. Nigam"
+      ]
+    },
+    {
+      "title": "Radiological and nuclear terrorism: their science, effects, prevention, and recovery",
+      "authors": [
+        "M. G. Stabin"
+      ]
+    },
+    {
+      "title": "Communication by extracellular vesicles: where we are and where we need to go",
+      "authors": [
+        "M. Tkach",
+        "C. Théry"
+      ]
+    },
+    {
+      "title": "Timepix3: temperature influence on X-ray measurements in counting mode with Si sensor",
+      "authors": [
+        "M. Urban",
+        "D. Doubravová"
+      ]
+    },
+    {
+      "title": "Thermal vacuum testing of Timepix3 detector",
+      "authors": [
+        "M. Urban",
+        "D. Doubravova",
+        "O. Nentvich"
+      ]
+    },
+    {
+      "title": "Timepix3: temperature influence on radiation energy measurement with Si sensor",
+      "authors": [
+        "M. Urban",
+        "O. Nentvich",
+        "L. Marek",
+        "R. Hudec",
+        "L. Sieger"
+      ]
+    },
+    {
+      "title": "Study of the impact of long-duration space missions at the international Space Station on the astronaut microbiome",
+      "authors": [
+        "A. A. Voorhies",
+        "C. Mark Ott",
+        "S. Mehta",
+        "D. L. Pierson",
+        "B. E. Crucian",
+        "A. Feiveson"
+      ]
+    },
+    {
+      "title": "Acclimation during space flight: effects on human physiology",
+      "authors": [
+        "D. Williams",
+        "A. Kuipers",
+        "C. Mukai",
+        "R. Thirsk"
+      ]
+    },
+    {
+      "title": "Flow injection analysis as a tool for enhancing oceanographic nutrient measurements-a review",
+      "authors": [
+        "P. J. Worsfold",
+        "R. Clough",
+        "M. C. Lohan",
+        "P. Monbet",
+        "P. S. Ellis",
+        "C. R. Quétel"
+      ]
+    },
+    {
+      "title": "Electrochemistry",
+      "authors": [
+        "Z. Xue",
+        "W. Zhao",
+        "T. Mu",
+        "D. J. Ramón",
+        "G. Guillena"
+      ]
+    },
+    {
+      "title": "Biodiversity and biotechnological applications of Extremophilic microbiomes",
+      "authors": [
+        "A. N. Yadav",
+        "T. Kaur",
+        "R. Devi",
+        "D. Kour",
+        "N. Yadav",
+        "A. N. Yadav",
+        "A. A. Rastegari",
+        "N. Yadav"
+      ]
+    },
+    {
+      "title": "A novel lab-on-Chip spectrophotometric pH sensor for autonomous in situ seawater measurements to 6000 m depth on stationary and moving observing platforms",
+      "authors": [
+        "T. Yin",
+        "S. Papadimitriou",
+        "V. M. C. Rérolle",
+        "M. Arundell",
+        "C. L. Cardwell",
+        "J. Walk"
+      ]
+    },
+    {
+      "title": "Detecting marine hazardous substances and organisms: sensors for pollutants, toxins, and pathogens",
+      "authors": [
+        "O. Zielinski",
+        "J. A. Busch",
+        "A. D. Cembella",
+        "K. L. Daly",
+        "J. Engelbrektsson",
+        "A. K. Hannides"
+      ]
+    }
+  ],
+  "original_title": "Lab-on-a-chip approaches for space-biology research.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f462/10470837/1ea602b433d0/fmicb-14-1215529-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f462/10470837/70a7ab23f50b/fmicb-14-1215529-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f462/10470837/3ca1c46a3191/fmicb-14-1215529-g003.jpg"
+  ]
+}

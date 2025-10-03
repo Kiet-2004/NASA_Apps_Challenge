@@ -1,0 +1,378 @@
+{
+  "pmcid": "PMC9111996",
+  "title": "Asparagine biosynthesis as a mechanism of increased host lethality induced by Serratia marcescens in simulated microgravity environments",
+  "abstract": "While studies have shown an increase in pathogenicity in several microbes during spaceflight and after exposure to simulated microgravity, the mechanisms underlying these changes in phenotype are not understood across different pathogens, particularly in opportunistic pathogens. This study evaluates the mechanism for increased virulence of the opportunistic gram-negative bacterium, Serratia marcescens, in simulated microgravity. Low-shear modeled microgravity (LSMMG) is used in ground-based studies to simulate the effects of microgravity as experienced in spaceflight. Our previous findings showed that there was a significant increase in mortality rates of the Drosophila melanogaster host when infected with either spaceflight or LSMMG treated S. marcescens. Here, we report that LSMMG increases asparagine uptake and synthesis in S. marcescens and that the increased host lethality induced by LSMMG bacteria grown in rich media can be recapitulated in minimal media by adding only aspartate and glutamine, the substrates of asparagine biosynthesis. Interestingly, increased bacterial growth rate alone is not sufficient to contribute to maximal host lethality, since the addition of aspartate to minimal media caused an LSMMG-specific increase in bacterial growth rate that is comparable to that induced by the combination of aspartate and glutamine, but this increase in growth does not cause an equivalent rate of host mortality. However, the addition of both aspartate and glutamine cause both an increase in host mortality and an overexpression of asparagine pathway genes in a LSMMG-dependent manner. We also report that L-asparaginase-mediated breakdown of asparagine is an effective countermeasure for the increased host mortality caused by LSMMG-treated bacteria. This investigation underscores the importance of the asparagine utilization pathway by helping uncover molecular mechanisms that underlie increased mortality rates of a model host infected with microgravity-treated S. marcescens and provides a potential mitigation strategy.\n\nLow shear modeled microgravity; Drosophila melanogaster; Serratia marcescens; Asparagine; Virulence.",
+  "introduction": "Introduction\n\nHuman pathogens occupy a wide variety of ecological niches, including those in the harsh conditions imposed by spaceflight. Understanding the effects that spaceflight may have on the adaptation and fitness of human pathogens is necessary to predict potential causes of health problems during future missions, where the availability of treatment and prevention options is limited. This is even more important in the context of opportunistic bacterial pathogens, which typically produce benign infections, until they are challenged by certain environmental conditions or when host immune impairments occur, which can then equip them with the ability to cause serious health concerns. One such environmental condition is spaceflight, which has been demonstrated to convert opportunistic pathogens to primary pathogens, enabling them to take advantage of a compromised immune system that may occur to astronauts during spaceflight. In line with this, there is mounting evidence that primary bacterial pathogens often undergo a diversity of significant phenotypic shifts during spaceflight, including increased antibiotic resistance, increased virulence, and morphological changes associated with pathogenicity. Despite mounting research in these primary pathogens, much less is known about phenotypic shifts that occur to opportunistic pathogens when exposed to microgravity. Specifically, there is little known about how pathogens may be utilizing nutrients differently in the microgravity environment of space compared to ground microbes, and potentially how these mechanistic changes might be influencing the host immune response during infection.\n\nDue to increased nosocomial reports, the human opportunistic bacteria, Serratia marcescens, has emerged as a model for studying rapid shifts in virulence and antibiotic resistance. S. marcescens is a ubiquitous pathogen that occupies a wide variety of habitats and hosts. It can adapt quickly to antibiotics independently and simultaneously, which is likely due to the loss of conserved genetic elements and large genomic diversity among strains. Furthermore, S. marcescens was found aboard the spacecraft Mir, and in condensed water aboard the International Space Station. Therefore, this ubiquitous pathogen should be monitored closely for spaceflight-induced changes that may pose a threat to immunocompromised astronauts that are more susceptible to opportunistic pathogens and especially considering the complications with antibiotic resistance.\n\nResearch in our laboratory has demonstrated that there is a significant shift in virulence with S. marcescens (Db11) after spaceflight. When cultured aboard the International Space Station, S. marcescens Db11 killed healthy ground-reared Drosophila melanogaster hosts significantly faster than an identical control of the bacteria that was cultured on the ground. However, the specific mechanisms of increased Db11 virulence and reduced D. melanogaster survival are currently unknown. In line with this, increased virulence is observed with various space and low-shear modeled microgravity (LSMMG)-isolated bacteria, including studies with Salmonella, and Staphylococcus aureus, which pose a threat to astronaut health during spaceflight. Our prior research has shown that Serratia marcescens also shows a significant increase in host lethality of D. melanogaster after growth in simulated microgravity (LSMMG) conditions.\n\nSince spaceflight studies are costly and can be difficult to perform due to constraints on experimental design and the availability of spaceflight opportunities, many researchers perform ground-based studies using devices such as the rotating wall vessel (RWV) to simulate microgravity. The RWV simulates microgravity by rotating at a speed and orientation which keeps cells suspended in liquid without bubbles, thereby creating a low fluid shear environment that simulates the weightlessness that cells experience during spaceflight and is referred to as the LSMMG treatment. When using the RWV to induce LSMMG, the vessel is rotated such that the axis of rotation is perpendicular to the gravity vector and the rotation offsets the sedimental effects of gravity and keeps the cells in continuous suspension (LSMMG). In contrast, in the control orientation (RWV-Control), the axis of rotation is parallel to the gravity vector and does not offset the sedimentation induced by Earth's gravitational force. Thus, in the RWV-Control, the cells can settle at the bottom of the container and experience Earth gravity (1g) without continuous suspension while acting as a control for any potential biological effects of the vessel itself. Although this method is not an exact recreation of the spaceflight environment, the effects of the LSMMG environment have been demonstrated to recapitulate findings from spaceflight studies.\n\nDrosophila melanogaster, as used in this study, has proven to be a useful host model for spaceflight and ground-based studies in the past. This is due to their well-characterized innate immune system, tractable genetics, ease of use, short life-cycle, genetic homology to mammalian systems, and low resource requirements for breeding large colonies.\n\nIn the current study, we use LSMMG to investigate the specific mechanisms that enable microgravity-treated Serratia marcescens bacteria to kill the host D. melanogaster more quickly than control bacterial cultures. A screen of several genes related to known S. marcescens virulence factors did not reveal any differences of expression in LSMMG compared to RWV-Control. Further testing revealed a LSMMG-dependent overexpression of the gene asparagine synthetase B (asnB), which is implicated in virulence and resistance to drugs in other pathogenic bacteria. This gene is involved with amino acid metabolism and has been linked to both pathogen growth and virulence. Amino acids like asparagine are thought to be important to the competition between hosts and pathogens in determining the outcome of an infection. Since our previous study indicated that the LSMMG-reared S. marcescens killed the host faster after infection than control S. marcescens cultures, we wanted to explore whether the asparagine pathway might be linked to the increased host mortality caused by LSMMG treatment.\n\nHere, we show that LSMMG treatment causes a change in the expression of key asparagine pathway related genes in S. marcescens with a concomitant increase in host mortality. Further, we find that these changes in key asparagine pathway genes and increased host mortality can be recapitulated in an LSMMG-specific manner by the addition of aspartate and glutamine (the substrates of asparagine synthesis) to minimal media. We also show that the addition of L-asparaginase, which catabolizes asparagine, can mitigate the LSMMG-induced increase in host virulence. Thus, this study allows us to understand the phenotypic shifts occurring in microbes exposed to altered gravity, and more specifically, how amino acid metabolism may affect the mortality rate of the host. In addition, these results will allow us to explore the asparagine pathway further and develop countermeasures that target amino acid biosynthesis in opportunistic pathogens such as S. marcescens, as an essential consideration to maintain host health during spaceflight.",
+  "methods": "Methods\n\nD. melanogaster fly strains\n\nFly lines were maintained in a 12-hour light-dark cycle on cornmeal-agar media (torula yeast, dextrose, cornmeal, agar, Tegosept, propionic acid, ethanol) at ambient temperature (∼24 °C). Fly line used in this study was obtained from the Bloomington Stock Center, w1118 (#3605).\n\nGrowth of S. marcescens Db11 in rotating wall vessel (RWV)\n\nS. marcescens Db11 were taken from stock cultures frozen at -80 °C in Copan Cryovials and were grown in sterile 50 mL conical tubes at 37 °C in liquid LB media containing 100 μg/mL streptomycin for 24 h. Liquid subcultures were then diluted down to A600 of 0.100 in LB media and loaded into a sterile 10 mL rotating wall vessel (Synthecon). The RWV simulates microgravity by rotating at a speed and orientation which keeps cells suspended in liquid without bubbles and simulates the weightlessness that cells experience during spaceflight and this is referred to as the LSMMG treatment. When using the RWV to induce LSMMG, the vessel is rotated with an axis of rotation that is perpendicular to the orientation of the gravity vector and the rotation offsets the sedimental effects of gravity and keeps the cells in continuous suspension (LSMMG). In contrast, in the control orientation (RWV-Control), the axis of rotation is parallel to the gravity vector and does not offset the sedimentation induced by Earth's gravitational force. Thus, in the RWV-Control, the cells can settle at the bottom of the container and experience Earth gravity (1g), thereby acting as a control for any potential biological effects of the container vessel itself. Air bubbles were removed from the vessel and vessels were sealed. Pairs of RWV were then placed in either vertical (simulated microgravity) or horizontal (normal gravity, or RWV-Control) orientation at 37 °C and rotated at 25 rpm (as in Nickerson et al.). Samples were grown for 24 h to ensure that stationary phase was reached.\n\nAsparagine and glutamine quantification\n\nAt 6 and 14 h of growth, 200 μl of sample was taken from the RWV using a sterile 2 mL syringe, and the sample was used per manufacturer protocol to estimate abundances of L-asparagine and L-glutamine. The sample removed from the RWV was replaced with sterile PBS, and any air bubbles were removed before resuming rotation. The entire sample removal procedure took less than 5 min. For enzymatic tests, we used the L-Asparagine/L-Glutamine/Ammonia Assay Kit (Megazyme) following the manufacturer's recommendations and using asparagine or glutamine (final concentration 0.6 mM) as substrates. Enzymatic activities were measured by following the disappearance of the NADPH from the buffer along time as an indirect indication of asparagine deamination at 340 nm using a microplate reader (VERSAmax microplate reader, Molecular Devices). Experiments were performed in three independent replicates.\n\nGrowth of S. marcescens with L-asparaginase\n\nStocks of Db11 were prepared for growth in RWV as described above in either vertical (simulated microgravity with axis of rotation being perpendicular to the gravity vector) or horizontal (normal gravity RWV-control orientation with the axis of rotation being parallel to the gravity vector) orientations at 37 °C and rotated at 25 rpm (as in Nickerson et al.). One hundred microliters of L-asparaginase (Millipore Sigma) suspended in sterile water was added to the growth media for half of the vessels, and the other half received only 100 μl of the sterile water. Growth of the bacteria was estimated by absorbance at 600 nm and was measured every 3 h. Samples were grown for 24 h total to ensure that stationary phase was reached. The sample removed from the RWV for quantification was replaced with sterile PBS, and any air bubbles were removed before resuming rotation. These experiments were run in three independent replicates.\n\nL-asparaginase treatment\n\nS. marcescens in the stationary phase were preserved at -80 °C in 10 mL of 20% glycerol. Concentrations of samples for injections were determined by performing colony counts of Serratia in different concentrations of PBS on LB plates. The PBS source without added bacteria was plated as a negative control for contamination. Based on these colony counts, samples were then diluted to 4 × 105 CFU/mL in sterile PBS for injections.\n\nFor infections and survival, the Nanoject II (Drummond Scientific) was used with the 32 nL injection volume setting as described previously by our laboratory. Concentrations were adjusted so that each injection was approximately 10 CFU/fly. A total of 180 flies were injected, with 60 total flies assigned to each bacterial treatment group. Control bacteria, simulated microgravity-treated bacteria, or a glycerol sham were then injected into the 30 anesthetized 2-3 day-old males and 30 females (post-eclosion) D. melanogaster in the ventral abdomen near the seventh/eighth segment. One hour later, half of those flies (15 per sex) were injected with 32 nL L-asparaginase. After injections, flies were kept at 25 °C on the same standard dextrose food that they were reared on, and survival was monitored every hour for at least 24 h. These experiments were repeated in three independent replicates.\n\nGrowth in Davis minimal media supplemented with amino acids\n\nBacteria were prepared using the protocol previously mentioned, but Davis Minimal Media supplemented with 10 mM of aspartate, glutamine, or a 50/50 mixture of aspartate and glutamine was used in place of LB broth. To quantify growth, 20 μl of sample diluted in 180 μl of PBS was read at an absorbance of A600 every 24 h for 72 h. To keep the volume of the RWV consistent, 20 μl of sterile PBS was placed in each vessel to make up for the volume lost during sampling. These experiments were repeated in three independent replicates. S. marcescens in the stationary phase were preserved at -80 °C in 10 mL of 20% glycerol. Concentrations of samples for injections were determined by performing colony counts of Serratia in different concentrations of PBS on LB plates. The PBS source without added bacteria were plated as a negative control for contamination. Based on these colony counts, samples were then diluted to 4 × 105 CFU/mL in sterile PBS for injections.\n\nFor infections and survival, the Nanoject II (Drummond Scientific) was used with the 32 nL injection volume setting as described previously by our laboratory. Concentrations were adjusted so that each injection was approximately 10 CFU/fly. A total of 30 flies (15 males and 15 females) were infected with each experimental sample, including 30 total flies injected with a glycerol sham. These experiments were repeated in three independent replicates.\n\nExpression analysis of amino acid genes\n\nSamples were diluted to 1 × 108 cells and pelleted, and RNA was extracted from pelleted samples using the RNEasy® Mini Kit (Qiagen). cDNA was generated using the RevertAid First Strand cDNA Synthesis Kit (Thermo Scientific). Relative gene expression levels were quantified using the 7500 Real Time PCR instrument from Applied Biosystems and SYBR™ Green PCR Master Mix (Applied Biosystems). Primers were designed with Primer-Blast, NCBI. Real-time cycler conditions were; 95 °C for 15 min for initial activation step, and 40 cycles of 94 °C for 15 s, 50 °C for 30 s, and 72 °C for 30 s for denaturation, annealing, and extension respectively. Data were normalized to the reference gene recA. These experiments were repeated in three independent replicates, including RNA extraction from three independent growth trials and three qPCR runs of each sample (9 total plates). Additionally, each plate (replicate) contained 6 identical wells which were averaged to give a mean CT value of a given gene, ensuring that any pipetting errors were minimized in the data.\n\nStatistical analysis\n\nStatistical analysis was performed in GraphPad Prism 7.0 and JMP Pro 15 (SAS). Graphs were made in GraphPad Prism 7.0 and Excel (version 15.4). For survival analyses, a Cox Proportional Hazards model was used. The Cox Proportional Hazards model allows for the comparison of survival between all groups when there are multiple risk factors or treatments involved. The proportional hazards test generates a ‘risk ratio’ when comparing treatment curves, which can be interpreted in infection experiments as a rate of death. For example, a risk ratio of 2.0 means that one treatment kills the host twice as fast as the treatment it's being compared to. For all growth measurements, a one-way ANOVA was used in combination with a Tukey-Kramer posthoc analysis. For gene expression, expression values are reported as fold change relative to the Davis minimal media values, which were calculated in Excel using the ΔΔ Ct method. For all statistical analyses, only results with a statistical significance <0.05 are reported, due to the magnitude of results tables.\n\nDeclarations\n\nAuthor contribution statement\n\nRachel R Gilbert: Conceived and designed the experiments; Performed the experiments; Analyzed and interpreted the data; Wrote the paper.\n\nNicole Tanenbaum: Performed the experiments; Analyzed and interpreted the data.\n\nSharmila Bhattacharya: Analyzed and interpreted the data; Contributed reagents, materials, analysis tools, or data; Wrote the paper.\n\nFunding statement\n\nThis work was supported by  (grant number NNX15AB42G),  Intramural Research Funding, and the  (to S.B.), and the NASA Postdoctoral Program (to R.G.).\n\nData availability statement\n\nData will be made available on request.\n\nDeclaration of interests statement\n\nThe authors declare no conflict of interest.\n\nAdditional information\n\nNo additional information is available for this paper.",
+  "results": "Results\n\nThe asparagine pathway and extracellular asparagine and glutamine concentrations are affected by simulated microgravity treatment of S. marcescens\n\nOur previous findings have indicated that S. marcescens exposed to LSMMG for 24 h grow at a faster rate inside the host after infection and caused increased host lethality in D.melanogaster. First, we looked at several genes involved in flagella formation, membrane-bound proteins, and known virulence genes, and did not see significant upregulation in LSMMG compared to the control bacteria (Table 3). We, therefore, looked at other genes linked to bacterial growth mechanisms and found that genes related to asparagine metabolism were upregulated in LSMMG. More specifically, we found that there was a significant upregulation in asnB (asparagine synthetase B), which is a gene that regulates the conversion of aspartate to asparagine using ATP and glutamine (Figure 1A,B). Therefore, we evaluated the expression of genes that are important for asparagine and glutamine metabolism. Gene expression analyses showed that the expression level of the gene asnB (asparagine synthetase B) was 39.17 fold higher in LSMMG-treated cells relative to the RWV-control (P < 0.0001), as well as a 10.5 fold increase in expression of L-asparaginase (L-ap, P = 0.054), but there was no significant difference in expression for the other genes tested, although several genes showed a positive trend for expression levels: L-ap1 (L-asparaginase 1), L-ap2 (L-asparaginase 2), iaaA (isoaspartyl peptidase/L-asparaginase), or astL (asparagine tRNA ligase) (Figure 1D). asnB is a gene that catalyzes the conversion of aspartate to asparagine using ATP and glutamine, and is known to be linked to virulence and antibiotic resistance in bacterial pathogens. The L-asparaginase subunits assist with asparagine catabolism and nitrogen homeostasis, therefore, an overexpression of these genes suggests that there is an increase in asparagine catabolism as part of the overall homeostatic regulation of the asparagine pathway.\n\nThe observation that asnB expression is significantly increased, led us to hypothesize that there is an increased presence of asparagine in LSMMG that may contribute to the increase in pathogen growth rate, and therefore an increase in consumption of glutamine and aspartate in the media. To confirm this, we quantified the rates at which S. marcescens utilized extracellular glutamine and asparagine in the nutrient-rich LB media, in order to see whether the consumption rates of these amino acids matched the increased growth of the bacteria in LSMMG. For asparagine measurements (Figure 1C), there was no difference between the RWV-control and the LSMMG at 0 h (F = 4.348, P = 0.11) or at 14 h (F = 0.007, P = 0.939). At 6 h of growth, LSMMG had significantly lower extracellular asparagine than the RWV-Control (F = 1540.68, P < 0.0001). Similarly, extracellular glutamine (Figure 1D) was not significantly different at hours 0 (F = 2.251, P = 0.208) or 14 (F = 0.669, P = 0.459), but LSMMG had significantly lower glutamine at hour 6 (F = 282.056, P < 0.0001). These results suggest that the S. marcescens in LSMMG are consuming extracellular glutamine and asparagine more quickly during the active growth phase of the culture, which is consistent with the increase in growth that we see in LSMMG-reared bacteria in rich media.\n\nTaken together, the almost 40-fold overexpression of the asnB gene in LSMMG coupled with the overexpression of the asparaginase subunits (Figure 1B), along with the increased consumption of asparagine (Figure 1C), indicated that the asparagine pathway was likely to play a significant role in the phenotypic changes observed in S. marcescens under reduced gravity LSMMG conditions.\n\nS. marcescens growth is affected by L-asparaginase treatment in vitro under simulated microgravity conditions\n\nSince we saw an increase in asparagine consumption with LSMMG treatment, we studied whether the depletion of exogenous L-asparagine using the enzyme L-asparaginase would negatively influence growth in LSMMG. When S. marcescens was grown in LSMMG with asparaginase, growth was significantly lower than the LSMMG without asparaginase at hours 18 (P = 0.034), 21 (P = 0.0004), and 24 (P = 0.0008) of growth (Figure 2B). For the RWV-Control sample, asparaginase reduced growth only at hour 15 (P = 0.031), but not at any other timepoints. The LSMMG + asparaginase growth was significantly lower than the RWV-Control at hour 18 (P = 0.0296) but was not significantly different from the control at any other time point (Figure 2B). These results provide evidence that L-asparaginase reduces the growth of S. marcescens in the LSMMG condition compared to the control, but does not significantly impact growth in the control samples, suggesting that the growth-suppressive effect of L-asparaginase is LSMMG-specific.\n\nInjection of LSMMG S. marcescens with in vivo L-asparaginase treatment reduces lethality in the D. melanogaster host\n\nNext, since the synthesis of asparagine by S. marcescens was closely linked with LSMMG treatment, we investigated whether L-asparaginase could mitigate increased virulence of LSMMG-reared pathogens after injection into a host as measured by host mortality. To do this, LSMMG or RWV-Control-treated S. marcescens were injected into D. melanogaster hosts, and the infected hosts were then injected again with L-asparaginase 1 h after bacterial infection. There was no difference in overall fly survival between the LSMMG and the LSMMG + asparaginase treatment in the early part of the survival curve indicating that there was no harmful effect from asparaginase injections of the host (Figure 2C, P = 0.0976). However, when the survival curve was analyzed for the latter half of the experiment (12–24 h) when the majority of the host death typically occurs from an S. marcescens infection, then there was a significant difference in survival with and without asparaginase treatment. We demonstrated that the LSMMG-injected flies died faster than the LSMMG with asparaginase treatment (Figure 2C, Risk Ratio = 2.92, P = 0.0197). There was no difference between the RWV-Control with water or with asparaginase (Figure 2D, Risk Ratio = 1.33, P = 0.348). For the complete result of this statistical analysis, please see Table 1. These results indicate that the addition of exogenous asparaginase into the host, during infection with S. marcescens, can inhibit the increased S. marcescens virulence that is associated with reduced gravity treatment of the microbe (Figure 2C). L-asparaginase does not prevent host death and does not affect the time-course of host lethality in the RWV-Control bacteria (Figure 2D), but it does target the gravity-specific increase in host lethality by S. marcescens that we have shown in our previous study.\n\nBoth aspartate and glutamine supplementation in combination are required in minimal media to recapitulate the asparagine pathway gene expression changes seen in rich media\n\nNext, we examined the effect of specific amino acids that are substrates in the asparagine synthesis pathway, on bacterial growth kinetics and gene expression. To do this, we grew S. marcescens in a minimal media supplemented with glutamine, aspartate, or both amino acids together, in LSMMG and in the RWV-Control. For all amino acid growth measures, there was no significant difference between the LSMMG and RWV-Control S. marcescens, except for the aspartate-supplemented sample at 24 h (Figure 3D, F = 1.76, P = 0.0023). This suggests that aspartate in isolation is sufficient to stimulate the LSMMG-specific increase in growth.\n\nHowever, when we looked at how these growth conditions influenced gene expression, the expression level of 38.95 relative to the RWV-control was significantly higher for the gene asnB (asparagine synthetase B) in the combined glutamine and aspartate supplemented media but not in the media with either glutamine or aspartate alone (Figure 3E, P < 0.0001). Similarly, the gene L-ap (L-asparaginase) with a relative expression value of 21.45 was significantly higher in the combined media than in the glutamine or aspartate media alone (P < 0.0001). There was no significant difference across media conditions for the other genes tested: L-ap1 (L-asparaginase 1), L-ap2 (L-asparaginase 2), iaaA (isoaspartyl peptidase/L-asparaginase), or astL (asparagine tRNA ligase). This suggests that while aspartate alone can increase the growth of S. marcescens in LSMMG in minimal media, the presence of both aspartate and glutamine are necessary to induce the LSMMG-specific overexpression of asnB at a similar level to the nutrient-rich media (Figure 1B and Figure 3E).\n\nMaximal host mortality rates of D. melanogaster are seen only when minimal media is supplemented with aspartate and glutamine, substrates of asparagine synthesis\n\nGiven the significantly increased expression of asnB in LSMMG-grown bacteria in minimal media supplemented with both aspartate and glutamine, it was important to test whether bacteria grown in this way would also increase its virulence in the D. melanogaster host. In the minimal media supplemented with both aspartate and glutamine, flies injected with the bacteria grown in LSMMG died faster than those injected with bacteria grown in the RWV-Control (Ratio = 2.46, P = 0.0021, Figure 4A). Similarly, the media with aspartate supplementation showed an increase in the rate of fly death after injection with the LSMMG-grown bacteria compared to the control (Ratio = 2.26, P = 0.007, Figure 4B). For the LSMMG-grown bacteria, there was a greater rate of fly death from the bacteria grown in aspartate and glutamine media compared to the bacteria grown in aspartate alone (Ratio = 1.98, P = 0.0221, Figure 4A,B). There is no significant difference in mortality rates between the flies injected with bacteria reared in LSMMG with a media composition composed of just the Davis minimal media (P = 0.46) or in the minimal media with just glutamine added (P = 0.55, Figure 4C). The full results of these comparisons can be seen in Table 2. This indicates that while either aspartate alone or both aspartate and glutamine together, can cause an increase in bacterial growth rate in vitro, only the combination of the two amino acids together can cause the LSMMG-specific induction of asnB expression and also causes the maximum increase in LSMMG-dependent virulence of the bacteria in terms of mortality of the fly host (Figures 3 and 4). In other words, the increased growth rate in the LSMMG is not a complete determinant for the increased virulence of S. marcescens, but that a change in the metabolism of nutrients like asparagine plays a critical role in the heightened mortality induced by gravity-treated bacteria on a host.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Low shear modeled microgravity",
+    "Drosophila melanogaster",
+    "Serratia marcescens",
+    "Asparagine",
+    "Virulence",
+    "Research Article"
+  ],
+  "citations": [
+    {
+      "title": "Host-pathogen interactions: basic concepts of microbial commensalism, colonization, infection, and disease",
+      "authors": [
+        "A. Casadevall",
+        "L.A. Pirofski"
+      ]
+    },
+    {
+      "title": "Microgravity and immune responsiveness: implications for space travel",
+      "authors": [
+        "A.T. Borchers",
+        "C.L. Keen",
+        "M.E. Gershwin"
+      ]
+    },
+    {
+      "title": "Infection prevention and control during prolonged human space travel",
+      "authors": [
+        "L.A. Mermel"
+      ]
+    },
+    {
+      "title": "Preliminary results of cytos 2 experiment",
+      "authors": [
+        "R. Tixador"
+      ]
+    },
+    {
+      "title": "Behavior of bacteria and antibiotics under space conditions",
+      "authors": [
+        "R. Tixador"
+      ]
+    },
+    {
+      "title": "Antibiotic activity in space",
+      "authors": [
+        "L. Lapchine"
+      ]
+    },
+    {
+      "title": "Antibiotic efficacy and microbial virulence during space flight",
+      "authors": [
+        "D.M. Klaus",
+        "H.N. Howard"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "J.W. Wilson"
+      ]
+    },
+    {
+      "title": "Media ion composition controls regulatory and virulence response of Salmonella in spaceflight",
+      "authors": [
+        "J.W. Wilson"
+      ]
+    },
+    {
+      "title": "Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen",
+      "authors": [
+        "A. Crabbé"
+      ]
+    },
+    {
+      "title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+      "authors": [
+        "R. Gilbert"
+      ]
+    },
+    {
+      "title": "Phenotypic changes exhibited by E. coli cultured in space",
+      "authors": [
+        "L. Zea"
+      ]
+    },
+    {
+      "title": "Serratia marcescens- a rare opportunistic nosocomial pathogen and measures to limit its spread in hospitalized patients",
+      "authors": [
+        "A. Khanna",
+        "M. Khanna",
+        "A. Aggarwal"
+      ]
+    },
+    {
+      "title": "Recent independent emergence of multiple multidrug-resistant Serratia marcescens clones within the United Kingdom and Ireland",
+      "authors": [
+        "D. Moradigaravand",
+        "C.J. Boinett",
+        "V. Martin",
+        "S.J. Peacock",
+        "J. Parkhill"
+      ]
+    },
+    {
+      "title": "Antibiotic resistance in Serratia marcescens",
+      "authors": [
+        "J.D. Sleigh"
+      ]
+    },
+    {
+      "title": "Stress responses as determinants of antimicrobial resistance in Gram-negative bacteria",
+      "authors": [
+        "A. Iguchi"
+      ]
+    },
+    {
+      "title": "Microbial characterization of free floating condensate aboard the mir space station",
+      "authors": [
+        "C.M. Ott",
+        "R.J. Bruce",
+        "D.L. Pierson"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "B. Yi",
+        "A. Choukèr"
+      ]
+    },
+    {
+      "title": "Microgravity as a novel environmental signal affecting Salmonella enterica serovar typhimurium virulence",
+      "authors": [
+        "C.A. Nickerson"
+      ]
+    },
+    {
+      "title": "Use of genome sequencing to assess nucleotide structure variation of Staphylococcus aureus strains cultured in spaceflight on Shenzhou-X, under simulated microgravity and on the ground",
+      "authors": [
+        "J. Guo"
+      ]
+    },
+    {
+      "title": "Conservation of the low-shear modeled microgravity response in enterobacteriaceae and analysis of the trp genes in this response",
+      "authors": [
+        "A. Soni"
+      ]
+    },
+    {
+      "title": "Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation",
+      "authors": [
+        "E.M. Martinez",
+        "M.C. Yoshida",
+        "T.L.T. Candelario",
+        "M. Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Organotypic 3D cell culture models: using the rotating wall vessel to study host–pathogen interactions",
+      "authors": [
+        "J. Barrila"
+      ]
+    },
+    {
+      "title": "Optimized suspension culture: the rotating-wall vessel",
+      "authors": [
+        "T.G. Hammond",
+        "J.M. Hammond"
+      ]
+    },
+    {
+      "title": "Innate immune responses of Drosophila melanogaster are altered by spaceflight",
+      "authors": [
+        "O. Marcu"
+      ]
+    },
+    {
+      "title": "Transcriptomic response of Drosophila melanogaster pupae developed in hypergravity",
+      "authors": [
+        "S. Hateley",
+        "R. Hosamani",
+        "S.R. Bhardwaj",
+        "L. Pachter",
+        "S. Bhattacharya"
+      ]
+    },
+    {
+      "title": "Mutations induced in Drosophila during space flight",
+      "authors": [
+        "M. Ikenaga"
+      ]
+    },
+    {
+      "title": "Toll mediated infection response is altered by gravity and spaceflight in Drosophila",
+      "authors": [
+        "K. Taylor"
+      ]
+    },
+    {
+      "title": "The host defense of Drosophila melanogaster",
+      "authors": [
+        "B. Lemaitre",
+        "J. Hoffmann"
+      ]
+    },
+    {
+      "title": "Immunity in Drosophila melanogaster — from microbial recognition to whole-organism physiology",
+      "authors": [
+        "N. Buchon",
+        "N. Silverman",
+        "S. Cherry"
+      ]
+    },
+    {
+      "title": "A human homologue of the Drosophila Toll protein signals activation of adaptive immunity",
+      "authors": [
+        "R. Medzhitov",
+        "P. Preston-Hurlburt",
+        "C.A. Janeway"
+      ]
+    },
+    {
+      "title": "The immune response of Drosophila",
+      "authors": [
+        "J.A. Hoffmann"
+      ]
+    },
+    {
+      "title": "A systematic analysis of human disease-associated gene sequences in Drosophila melanogaster",
+      "authors": [
+        "L.T. Reiter",
+        "L. Potocki",
+        "S. Chien",
+        "M. Gribskov",
+        "E. Bier"
+      ]
+    },
+    {
+      "title": "The development of Drosophila melanogaster under different duration space flight and subsequent adaptation to Earth gravity",
+      "authors": [
+        "I.V. Ogneva"
+      ]
+    },
+    {
+      "title": "Elucidating the “gravome”: quantitative proteomic profiling of the response to chronic hypergravity in Drosophila",
+      "authors": [
+        "R. Hosamani",
+        "R. Leib",
+        "S.R. Bhardwaj",
+        "C.M. Adams",
+        "S. Bhattacharya"
+      ]
+    },
+    {
+      "title": "AsnB is involved in natural resistance of Mycobacterium smegmatis to multiple drugs",
+      "authors": [
+        "H. Ren",
+        "J. Liu"
+      ]
+    },
+    {
+      "title": "AsnB, regulated by diffusible signal factor and global regulator Clp, is involved in aspartate metabolism, resistance to oxidative stress and virulence in Xanthomonas oryzae pv. oryzicola",
+      "authors": [
+        "G. Qian"
+      ]
+    },
+    {
+      "title": "Amino acids as mediators of metabolic cross talk between host and pathogen",
+      "authors": [
+        "W. Ren"
+      ]
+    },
+    {
+      "title": "Contribution of asparagine catabolism to Salmonella virulence",
+      "authors": [
+        "P.A. McLaughlin"
+      ]
+    },
+    {
+      "title": "The pathogenic potential of a microbe",
+      "authors": [
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Do bacterial ‘virulence factors’ always increase virulence? A meta-analysis of pyoverdine production in Pseudomonas aeruginosa as a test case",
+      "authors": [
+        "E.T. Granato",
+        "F. Harrison",
+        "R. Kümmerli",
+        "A. Ross-Gillespie"
+      ]
+    },
+    {
+      "title": "Deletion of the Mycobacterium tuberculosis α-crystallin-like hspX gene causes increased bacterial growth in vivo",
+      "authors": [
+        "Y. Hu",
+        "F. Movahedzadeh",
+        "N.G. Stoker",
+        "A.R.M. Coates"
+      ]
+    },
+    {
+      "title": "Overexpression and purification of asparagine synthetase from Escherichia coli",
+      "authors": [
+        "A. Sugiyama",
+        "H. Kato",
+        "T. Nishioka",
+        "J. Oda"
+      ]
+    },
+    {
+      "title": "Identification and functional characterization of a novel bacterial type asparagine synthetase A: a trna synthetase paralog from leishmania donovani",
+      "authors": [
+        "R. Manhas"
+      ]
+    },
+    {
+      "title": "Three asparagine synthetase genes of Bacillus subtilis",
+      "authors": [
+        "K.I. Yoshida",
+        "Y. Fujita",
+        "S.D. Ehrlich"
+      ]
+    },
+    {
+      "title": "Asparagine assimilation is critical for intracellular replication and dissemination of Francisella",
+      "authors": [
+        "G. Gesbert"
+      ]
+    },
+    {
+      "title": "Serratia marcescens is able to survive and proliferate in autophagic-like vacuoles inside non-phagocytic cells",
+      "authors": [
+        "G.V. Fedrigo",
+        "E.M. Campoy",
+        "G. Di Venanzio",
+        "M.I. Colombo",
+        "E. García Véscovi"
+      ]
+    },
+    {
+      "title": "L-asparaginase II produced by salmonella typhimurium inhibits t cell responses and mediates virulence",
+      "authors": [
+        "A.L. Kullas"
+      ]
+    },
+    {
+      "title": "Simultaneous prevention of glutamine synthesis and high-affinity transport attenuates Salmonella typhimurium virulence",
+      "authors": [
+        "K.E. Klose",
+        "J.J. Mekalanos"
+      ]
+    },
+    {
+      "title": "Mycobacterium tuberculosis exploits asparagine to assimilate nitrogen and resist acid stress during infection",
+      "authors": [
+        "A. Gouzy"
+      ]
+    }
+  ],
+  "original_title": "Asparagine biosynthesis as a mechanism of increased host lethality induced by Serratia marcescens in simulated microgravity environments",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6a16/9111996/70892f92084e/gr1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6a16/9111996/a9842f28b59b/gr2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6a16/9111996/db225e8a3aaa/gr3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6a16/9111996/b98345a97745/gr4.jpg"
+  ]
+}

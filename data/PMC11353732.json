@@ -1,0 +1,768 @@
+{
+  "pmcid": "PMC11353732",
+  "title": "Simulated Microgravity Alters Gene Regulation Linked to Immunity and Cardiovascular Disease",
+  "abstract": "Microgravity exposure induces a cephalad fluid shift and an overall reduction in physical activity levels which can lead to cardiovascular deconditioning in the absence of countermeasures. Future spaceflight missions will expose crew to extended periods of microgravity among other stressors, the effects of which on cardiovascular health are not fully known. In this study, we determined cardiac responses to extended microgravity exposure using the rat hindlimb unloading (HU) model. We hypothesized that exposure to prolonged simulated microgravity and subsequent recovery would lead to increased oxidative damage and altered expression of genes involved in the oxidative response. To test this hypothesis, we examined hearts of male (three and nine months of age) and female (3 months of age) Long–Evans rats that underwent HU for various durations up to 90 days and reambulated up to 90 days post-HU. Results indicate sex-dependent changes in oxidative damage marker 8-hydroxydeoxyguanosine (8-OHdG) and antioxidant gene expression in left ventricular tissue. Three-month-old females displayed elevated 8-OHdG levels after 14 days of HU while age-matched males did not. In nine-month-old males, there were no differences in 8-OHdG levels between HU and normally loaded control males at any of the timepoints tested following HU. RNAseq analysis of left ventricular tissue from nine-month-old males after 14 days of HU revealed upregulation of pathways involved in pro-inflammatory signaling, immune cell activation and differential expression of genes associated with cardiovascular disease progression. Taken together, these findings provide a rationale for targeting antioxidant and immune pathways and that sex differences should be taken into account in the development of countermeasures to maintain cardiovascular health in space.",
+  "introduction": "1. Introduction\n\nSpaceflight leads to cardiovascular deconditioning in the absence of mitigation strategies. Cardiovascular changes in response to spaceflight are attributed to altered microgravity levels and the ensuing cephalad fluid shift. Overall reductions in physical activity and other factors such as nutritional changes, elevated CO2 levels, and a demanding workload also may be contributing factors. Some of the reported cardiovascular changes caused by exposure to the spaceflight environment include reductions in left ventricular mass, transient atrial distension, and hypovolemia. Stagnant or retrograde venous flow as well as thrombosis have been observed in crew during flight. Heart rhythm disturbances postflight also have been reported. Orthostatic intolerance and stiffer carotid arteries have also been observed in crew upon return to Earth. Crew on exploration-class missions (e.g., trip to Mars) will experience prolonged periods of microgravity and exposure to low doses of space radiation given current spacecraft shielding designs. Therefore, it is important to understand the cardiovascular responses to long-duration spaceflight to mitigate potential health risks.\n\nThe rodent hindlimb unloading (HU) model has been used to gain insights into some aspects of human cardiovascular responses to microgravity and cephalad fluid shifts. HU for four weeks in rats resulted in decreased left ventricular mass and volume, consistent with findings from a number of bed rest studies and from spaceflight. Two weeks of HU in rats perturbs day–night blood pressure (BP) and heart rate regulation. Compared to baseline (pre-HU) values, HU generally led to increased systolic and diastolic BP during both day and night cycles, whereas heart rate was increased during the day but not at night. Some of these HU findings could also have been confounded by other factors such as social isolation and restraint stress. In addition, arrhythmias and aberrant intracellular Ca2+ signaling have been observed in mice that underwent HU (26–56 days). Changes in redox balance have also been reported. For example, hearts from male Sprague–Dawley rats that underwent two weeks of HU displayed increased levels of malondialdehyde, a lipid peroxidation marker.\n\nCurrently, there is limited information regarding the effects of long-duration spaceflight on the human cardiovascular system at time scales relevant to interplanetary missions (>2 years). In addition, the effects of age, sex, duration of exposure, and long-term recovery on cardiovascular outcomes are not well established. Hence, the goals of our study are to (1) determine the impact of sex, age, duration of exposure, and recovery on oxidative stress responses to microgravity and (2) define underlying molecular mechanisms. We hypothesized that exposure to simulated microgravity and the ensuing recovery would lead to changes in redox balance and the expression of select genes including those that play a role in oxidative stress responses. To test this hypothesis, we examined hearts from male and female rats that underwent hindlimb unloading (HU) for various durations (up to 90 days) and those that underwent reambulation after 90 days of HU. To achieve this, we assessed DNA oxidative damage markers and select transcripts, and performed RNAseq analysis of cardiac tissue.",
+  "methods": "2. Materials and Methods\n\n2.1. Animals and Experiment Design\n\nAnimal experiments were carried out in accordance with the recommendations of Guide for the Care and Use of Laboratory Animals, 8th edition. All animal experiments were conducted with prior approval from the UC Davis Institutional Animal Care and Use Committee (IACUC). Female and male Long–Evans rats (Taconic) were selected for this study. Animals were group-housed in standard vivarium cages until the onset of HU. A group of females and males (referred to as “young”) underwent HU at three months of age, while a group of retired male breeders (referred to as “older males”) began HU at nine months of age. Normally loaded (NL) controls were individually housed in standard vivarium cages. Animals were suspended onto the pulley apparatus via orthopedic traction tape as described previously. NL controls were handled the same way as the HU animals except for the actual attachment of traction tape and tail suspension. HU was conducted for either 14 days or 90 days. A subset of nine-month-old (older) males that underwent HU for 90 days were then released from the suspension apparatus to reambulate normally (Reloading, Rel) for 90 days. All animals were supplied with standard rodent laboratory chow (Purina, St. Louis, MO, USA) and water ad libitum. Enrichment consisted of Diamond Twists paper sticks (Harlan, Indianapolis, IN, USA) and I-Chews (Newco, Hayward, CA, USA) and replenished as needed. Room temperature was maintained within a range of 20–26 °C with a 12-h light and 12-h dark cycle. After the designated duration of HU, animals were euthanized via isoflurane overdose followed by exsanguination and decapitation. Tissues were collected shortly thereafter. Hearts were bisected, flash-frozen in liquid nitrogen, and stored at −80 °C until processing. Refer to Table S1 for the sample sizes of the experiment groups included in this study. Young male and female, 90 day HU, and recovery groups were not included in the study either due to insufficient sample sizes or unavailability of appropriately processed samples.\n\n2.2. Processing of Frozen Heart Samples\n\nFrozen hearts were retrieved from −80 °C storage and placed on a metal platform that was pre-chilled with liquid nitrogen. Left ventricular tissue was excised from the anterior to posterior ends (apex) of the heart. The excised left ventricular tissue was further cut into thirds (anterior, middle, and posterior). The anterior and posterior thirds were processed for DNA and RNA extraction, respectively. Samples were excluded from analyses if anatomical landmarks could not be conclusively identified for isolation of left ventricular tissue.\n\n2.3. RNA Extraction from Cardiac Tissue\n\nTotal RNA was extracted from frozen left ventricular tissue using the RNeasy Fibrous Tissue Mini Kit (Qiagen, Germantown, MD, USA) according to manufacturer’s protocol. RNA concentration was determined using NanoDrop 2000 spectrophotometer (Thermo Scientific, Waltham, MA, USA), and purity was determined using the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA). Only samples showing an RNA integrity number (RIN) > 8 were used for RNA sequencing and quantitative polymerase chain reaction (qPCR).\n\n2.4. cDNA Synthesis and qPCR\n\nFirst-strand DNA was synthesized from total RNA as follows. A total of 450 ng of RNA was used for a 30 uL first strand synthesis. Briefly, 1.5 uL of random hexamers (Invitrogen, Waltham, MA, USA, Cat# N8080127), 1.5 μL dNTPs (Qiagen, Cat# 1005631), and 12 μL of water were mixed, incubated at 65 °C for 5 min, and immediately chilled on ice. A solution-containing 3 μL RNase-free water, 6 μL 5× first strand buffer (Invitrogen, Cat# Y02321), 3 μL DTT (Invitrogen, Cat# Y00147), and 1.5 μL RNase Out (Invitrogen, Cat# 100000840) was added to the abovementioned mix and then incubated at 37 °C for 2 min. Then 1.5 μL of Moloney Murine Leukemia Virus (MMLV) reverse transcriptase (200 U/μL, Invitrogen, Waltham, MA, USA, Cat# 28025013) was added to the resulting solution and incubated as follows: 25 °C for 10 min, 37 °C for 50 min, and 70 °C for 15 min. All incubation steps were performed using a TC-312 thermocycler (Techne, Vernon Hills, IL, USA). First-strand DNA was stored at −80 °C until use for qPCR using the Taqman system. Multiplex PCR reactions were set up to measure both genes of interest and housekeeping gene expression in the same well of a 384-well plate. A premade gene expression master mix (Taqman, LifeTechnologies, Waltham, MA, USA, Cat# 4369016) was utilized, and each reaction was completed in duplicate. FAM-labeled Taqman probes (LifeTechnologies, Waltham, MA, USA) were used for the following genes of interest: nuclear factor, erythroid 2-like 2 (Nfe2l2, Rn00582415_m1), superoxide dismutase 1 (Sod1, Rn00566938_m1), superoxide dismutase 2 (Sod2, Rn00690588_g1), and sirtuin 1 (Sirt1, Rn01428096_m1). VIC-labeled ribosomal protein L19 (Rpl19, Rn00821265_g1) was used as housekeeping gene. qPCR was performed on a QuantStudio 6 Flex Real-Time PCR instrument (Applied Biosystems, Waltham, MA, USA). The relative gene expression levels for HU groups relative to age- and sex-matched controls were determined by the ΔΔCt method and reported as fold change.\n\n2.5. 8-Hydroxydeoxyguanosine (8-OHdG) Assay\n\nTotal DNA was extracted from frozen left ventricular tissue using the DNeasy Blood and Tissue Kit (Qiagen) according to manufacturer’s protocol. Quantification of 8-OHdG was performed using OxiSelect™ Oxidative DNA Damage ELISA Kit (Cell Biolabs Inc., San Diego, CA, USA, Cat# STA-320) following manufacturer’s specifications. Enzyme reaction/absorbance was measured using a Spectra Max 250 (Molecular Devices, San Jose, CA, USA) and Softmax Pro 5 software.\n\n2.6. RNA Sequencing and Bioinformatics Analysis\n\nPoly(A)+-enriched cDNA libraries were prepared using the Illumina TruSeq RNA Library Prep kit (Illumina Inc., Hayward, CA, USA) and sequenced using Illumina NextSeq 550 (Illumina Inc., Hayward, CA, USA) instrument to generate 75 bp single-end reads. Sequencing data quality was checked using FastQC (version 0.11.5) software. Subsequently, reads were mapped to the rat reference genome (rn6) using STAR (version 2.6.0c). Then, a matrix of read counts per gene was generated using “featureCounts” from the Rsubread package (version 1.30.5). Genes with low expression values were filtered from downstream analysis by requiring more than 5 reads in at least 6 samples for each gene. Subsequently, between-sample normalization was performed using EDASeq (version 2.16.0). One sample from each group had to be excluded from analysis due to technical issues. Hence, 6 samples per group were used for the succeeding analysis. RUVseq (version 1.16.0) [RUVs with k = 4] was used to estimate the factors of unwanted variation. Genes differentially expressed between HU and control samples were identified using DESeq2 (version 1.22.2), controlling for factors of unwanted variation. Hierarchical clustering analysis was performed and heat maps generated using Morpheus, with Pearson method selected. RStudio analysis software (Version 1.1.419), together with ggplot2 (version 3.1.1), ggrepel (version 0.8.0), and Bioconductor (DESeq2 version 1.22.2) packages, were used to obtain principal component analysis plots. For gene enrichment analysis, differentially expressed genes meeting a log2 fold change cut-off of >0.3 or <−0.3 and an adjusted p-value < 0.05 were input into Toppfun. Toppfun was used to assess functional enrichment of DEGs based on ontologies, gene family, phenotype (human disease), and pharmacome (drug–gene associations). Of the 125 differentially expressed genes (DEGs), 121 matched the contents of the Toppfun database and were therefore included in the list for gene enrichment analysis. The DEGs that had no match in the Toppfun database were Clec4a1, Lilrb3l, Fcna, and Mill1. Gene enrichment analysis was performed at a false discovery rate (FDR, Benjamini Hochberg) of <0.05 and a gene limit of 2 or greater. GO Terms were plotted for visualization using the matplotlib.pyplot, seaborn, and pandas packages run in Google Colaboratory (Python ver 3.10).\n\n2.7. Statistical Analysis\n\nEquivalence of variance was first evaluated by Levene’s test. Once equal variance was confirmed, a t-test was performed to compare HU and matched control groups. This study involved an extended sampling period (3 years). To minimize batch effects, we compared HU and the matched controls for any given sex and timepoint since these groups were collected within the same period. Specifically, any HU group and its normally loaded control group (e.g., young male 14 day HU and NL groups) were euthanized on the same day or a day apart. Comparisons were not made across timepoints, sexes, or ages. Statistical analyses were performed using JMP software version 13.1.0 (SAS Institute Inc., Cary, NC, USA). Data shown are mean +/− S.D.",
+  "results": "3. Results\n\nIn this study, we made use of the rodent HU model to gain insight on the effects of microgravity exposure on molecular signatures of the heart. With the exception of the 14-day HU young females, all HU groups had lower body weights versus age- and sex-matched controls (Figure 1), consistent with previous reports. Weight loss in HU groups of older males was transient, with body weights of NL and HU groups being comparable after 90 days of reambulation. Due to the modest decrease in body weight (10–13%), we do not expect weight loss to be a major confounding factor in other experimental outcomes.\n\nTo determine whether simulated microgravity leads to alterations in redox balance in cardiac tissue, we measured levels of 8-hydroxydeoxyguanosine (8-OHdG) in left ventricular tissue (Figure 2). 8-OHdG is a marker for oxidative damage to DNA. Young females after 14 days of HU displayed a modest yet statistically significant increase in 8-OHdG levels (33.2%) compared to age- and sex-matched controls. At 14 days of HU, no differences were observed between HU and control groups in young and older males. Older males at 90 days of HU did not exhibit any significant difference in 8-OHdG levels versus corresponding controls. We further hypothesized that reloading will lead to increased oxidative damage to hearts due to altered fluid distribution and increased functional demand on the heart. Hence, we examined 8-OHdG levels at an earlier timepoint of reambulation (7 days) where we found no differences in 8-OHdG levels in older males that underwent normal reambulation after 90 days of HU relative to controls.\n\nTo further assess any changes in key molecular determinants of redox balance, we measured gene expression levels of select antioxidant genes (Sod1 and Sod2) as well as a master transcriptional regulator of the antioxidant response, Nfe2l2 (Figure 3A–C). In addition, we examined the gene expression of Sirt1, a marker of cellular senescence and oxidative stress also known to impact longevity (Figure 3D). Compared to sex- and age-matched controls, young females that underwent 14 days of HU did not show any changes in gene expression for any of the four genes tested. Young males at the same timepoint showed a modest downregulation of Nfe2l2 (Figure 3A) as well as upregulation of Sod1 and Sod2 (Figure 3B and 3C respectively), but no change in Sirt1 expression (Figure 3D). In older males, Nfe2l2 was downregulated at 14 days of HU, while there were no changes in Sod1, Sod2, or Sirt1 expression. The downregulation of Nfe2l2 expression in older males persisted at 90 days of HU. After a 90-day reambulation period, this pattern was reversed, with HU groups showing upregulated expression of Nfe2l2 and Sirt1 relative to controls.\n\nWe reasoned that identifying the molecular signature of the early adaptation of cardiac tissue to HU will allow us to link early changes in gene expression and biological pathways to later cardiac outcomes. We therefore conducted transcriptomic analysis (RNAseq) of tissue from the left ventricle in older (nine-month-old) males and their corresponding controls. We selected nine-month-old males for analysis (samples were not available for females of similar age) over the other three-month-old groups. Principal component analysis (PCA) and hierarchical clustering generally indicated clustering by treatment group (Figure 4 and Figure 5 respectively). A total of 125 genes were differentially expressed in the HU group relative to controls. Of these, 48 were upregulated and 77 were downregulated (Table 1). The top 10 upregulated and downregulated genes included a number of immune-related genes such as Tlr8 and the macrophage/monocyte markers CD68 and CD163 as well as two circadian clock-related genes, Per3 and Arntl (Figure 6). Fifteen of these DEG’s were cluster-of-differentiation (CD) molecules belonging to the C-type lectin domain family, while 6 were LY6/PLAUR domain-containing members of the complement gene family (Table 2). Nfe2l2 did not appear as a downregulated gene in the 14D HU hearts of older males based on RNAseq despite the observed decrease (although modest) in transcript levels by qPCR analysis (Figure 3A, Table 1). This is likely due to differences in the normalization methods for the two assays.\n\nGene enrichment analysis of DEGs that met the FDR threshold revealed a predominance of immune-related processes including macrophage activation and complement activation. Further, circadian signaling, vesicle-mediated transport, and redox signaling were differentially enriched (Figure 7; refer to Table S2 for full list). Gene enrichment analysis for disease phenotypes using Toppfun also revealed enrichment of a subset of DEGs linked to cardiovascular disease (CVD), immune dysfunction, neurovascular disease, cancer, metabolic disease, and sleep disorders. Cardiovascular pathologies represented include hypertensive disease, myocardial infarction, and heart failure. Immune disorders include complement deficiency and the autoimmune disease lupus erythematosus (Table 3; refer to Table S3 for full list). Consistent with the human disease phenotype findings, 24 DEGs were associated with the anti-bradycardia drug isoproterenol, a non-selective β adrenergic receptor agonist. In addition, a number of DEGs were associated with anti-hypertensive drugs losartan and valsartan, both angiotensin receptor blockers. A subset of DEGs also were associated with simvastatin (anticholesterolemic), doxorubicin (cancer treatment), rosiglitazone (antidiabetic), and melatonin (sleeping aid) (Table 4; refer to Table S4 for full list).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "hindlimb unloading",
+    "microgravity",
+    "cardiovascular system",
+    "immune response",
+    "transcriptomics",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Fluid shifts, vasodilatation and ambulatory blood pressure reduction during long duration spaceflight",
+      "authors": [
+        "P. Norsk",
+        "A. Asmar",
+        "M. Damgaard",
+        "N.J. Christensen"
+      ]
+    },
+    {
+      "title": "Cardiac atrophy after bed rest and spaceflight",
+      "authors": [
+        "M.A. Perhonen",
+        "F. Franco",
+        "L.D. Lane",
+        "J.C. Buckey",
+        "C.G. Blomqvist",
+        "J.E. Zerwekh",
+        "R.M. Peshock",
+        "P.T. Weatherall",
+        "B.D. Levine"
+      ]
+    },
+    {
+      "title": "Mechanism of spaceflight-induced changes in left ventricular mass",
+      "authors": [
+        "R.L. Summers",
+        "D.S. Martin",
+        "J.V. Meck",
+        "T.G. Coleman"
+      ]
+    },
+    {
+      "title": "Effects of Prolonged Spaceflight on Atrial Size, Atrial Electrophysiology, and Risk of Atrial Fibrillation",
+      "authors": [
+        "H.W. Khine",
+        "K. Steding-Ehrenborg",
+        "J.L. Hastings",
+        "J. Kowal",
+        "J.D. Daniels",
+        "R.L. Page",
+        "J.J. Goldberger",
+        "J. Ng",
+        "B. Adams-Huet",
+        "M.W. Bungo"
+      ]
+    },
+    {
+      "title": "Fluid volume control during short-term space flight and implications for human performance",
+      "authors": [
+        "D.E. Watenpaugh"
+      ]
+    },
+    {
+      "title": "Assessment of Jugular Venous Blood Flow Stasis and Thrombosis During Spaceflight",
+      "authors": [
+        "K. Marshall-Goebel",
+        "S.S. Laurie",
+        "I.V. Alferova",
+        "P. Arbeille",
+        "S.M. Aunon-Chancellor",
+        "D.J. Ebert",
+        "S.M.C. Lee",
+        "B.R. Macias",
+        "D.S. Martin",
+        "J.M. Pattarini"
+      ]
+    },
+    {
+      "title": "Microgravity alters respiratory sinus arrhythmia and short-term heart rate variability in humans",
+      "authors": [
+        "P.F. Migeotte",
+        "G.K. Prisk",
+        "M. Paiva"
+      ]
+    },
+    {
+      "title": "Orthostatic Intolerance After ISS and Space Shuttle Missions",
+      "authors": [
+        "S.M.C. Lee",
+        "A.H. Feiveson",
+        "S. Stein",
+        "M.B. Stenger",
+        "S.H. Platts"
+      ]
+    },
+    {
+      "title": "Increased postflight carotid artery stiffness and inflight insulin resistance resulting from 6-mo spaceflight in male and female astronauts",
+      "authors": [
+        "R.L. Hughson",
+        "A.D. Robertson",
+        "P. Arbeille",
+        "J.K. Shoemaker",
+        "J.W. Rush",
+        "K.S. Fraser",
+        "D.K. Greaves"
+      ]
+    },
+    {
+      "title": "Hindlimb unloading: Rodent analog for microgravity",
+      "authors": [
+        "R.K. Globus",
+        "E. Morey-Holton"
+      ]
+    },
+    {
+      "title": "Hindlimb unloading rodent model: Technical aspects",
+      "authors": [
+        "E.R. Morey-Holton",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Echocardiographic assessment of left ventricular structure and function after simulated weightlessness in rats",
+      "authors": [
+        "J.X. Bao",
+        "L.F. Zhang",
+        "H.H. Shang",
+        "Z.B. Yu",
+        "Y.Q. Qian"
+      ]
+    },
+    {
+      "title": "Cardiac atrophy after bed-rest deconditioning: A nonneural mechanism for orthostatic intolerance",
+      "authors": [
+        "B.D. Levine",
+        "J.H. Zuckerman",
+        "J.A. Pawelczyk"
+      ]
+    },
+    {
+      "title": "Cardiac atrophy in women following bed rest",
+      "authors": [
+        "T.A. Dorfman",
+        "B.D. Levine",
+        "T. Tillery",
+        "R.M. Peshock",
+        "J.L. Hastings",
+        "S.M. Schneider",
+        "B.R. Macias",
+        "G. Biolo",
+        "A.R. Hargens"
+      ]
+    },
+    {
+      "title": "Left ventricular remodeling during and after 60 days of sedentary head-down bed rest",
+      "authors": [
+        "C.M. Westby",
+        "D.S. Martin",
+        "S.M. Lee",
+        "M.B. Stenger",
+        "S.H. Platts"
+      ]
+    },
+    {
+      "title": "Supine cycling plus volume loading prevent cardiovascular deconditioning during bed rest",
+      "authors": [
+        "S. Shibata",
+        "M. Perhonen",
+        "B.D. Levine"
+      ]
+    },
+    {
+      "title": "Contribution of social isolation, restraint, and hindlimb unloading to changes in hemodynamic parameters and motion activity in rats",
+      "authors": [
+        "D. Tsvirkun",
+        "J. Bourreau",
+        "A. Mieuset",
+        "F. Garo",
+        "O. Vinogradova",
+        "I. Larina",
+        "N. Navasiolava",
+        "G. Gauquelin-Koch",
+        "C. Gharib",
+        "M.A. Custaud"
+      ]
+    },
+    {
+      "title": "Long-term simulated microgravity causes cardiac RyR2 phosphorylation and arrhythmias in mice",
+      "authors": [
+        "J.L. Respress",
+        "P.M. Gershovich",
+        "T. Wang",
+        "J.O. Reynolds",
+        "D.G. Skapura",
+        "J.P. Sutton",
+        "C.Y. Miyake",
+        "X.H. Wehrens"
+      ]
+    },
+    {
+      "title": "Effects of aminoguanidine on tissue oxidative stress induced by hindlimb unloading in rats",
+      "authors": [
+        "P. Chowdhury",
+        "M.E. Soulsby",
+        "J.L. Scott"
+      ]
+    },
+    {
+      "title": "Morpheus",
+      "authors": []
+    },
+    {
+      "title": "Disease candidate gene identification and prioritization using protein interaction networks",
+      "authors": [
+        "J. Chen",
+        "B.J. Aronow",
+        "A.G. Jegga"
+      ]
+    },
+    {
+      "title": "ToppGene Suite for gene list enrichment analysis and candidate gene prioritization",
+      "authors": [
+        "J. Chen",
+        "E.E. Bardes",
+        "B.J. Aronow",
+        "A.G. Jegga"
+      ]
+    },
+    {
+      "title": "Effect of L-Arginine on Titin Expression in Rat Soleus Muscle After Hindlimb Unloading",
+      "authors": [
+        "A. Ulanova",
+        "Y. Gritsyna",
+        "N. Salmov",
+        "Y. Lomonosova",
+        "S. Belova",
+        "T. Nemirovskaya",
+        "B. Shenkman",
+        "I. Vikhlyantsev"
+      ]
+    },
+    {
+      "title": "Short-term creatine supplementation changes protein metabolism signaling in hindlimb suspension",
+      "authors": [
+        "G.N. Marzuca-Nassr",
+        "M.A.S. Fortes",
+        "L. Guimaraes-Ferreira",
+        "G.M. Murata",
+        "K.F. Vitzel",
+        "D.A.A. Vasconcelos",
+        "R.A. Bassit",
+        "R. Curi"
+      ]
+    },
+    {
+      "title": "Bone and hormonal changes induced by skeletal unloading in the mature male rat",
+      "authors": [
+        "W. Dehority",
+        "B.P. Halloran",
+        "D.D. Bikle",
+        "T. Curren",
+        "P.J. Kostenuik",
+        "T.J. Wronski",
+        "Y. Shen",
+        "B. Rabkin",
+        "A. Bouraoui",
+        "E. Morey-Holton"
+      ]
+    },
+    {
+      "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan",
+      "authors": [
+        "B.J. North",
+        "M.A. Rosenberg",
+        "K.B. Jeganathan",
+        "A.V. Hafner",
+        "S. Michan",
+        "J. Dai",
+        "D.J. Baker",
+        "Y. Cen",
+        "L.E. Wu",
+        "A.A. Sauve"
+      ]
+    },
+    {
+      "title": "SIRT2 deacetylates FOXO3a in response to oxidative stress and caloric restriction",
+      "authors": [
+        "F. Wang",
+        "M. Nguyen",
+        "F.X. Qin",
+        "Q. Tong"
+      ]
+    },
+    {
+      "title": "Effects of low-dose rate gamma-irradiation combined with simulated microgravity on markers of oxidative stress, DNA methylation potential, and remodeling in the mouse heart",
+      "authors": [
+        "J.W. Seawright",
+        "Y. Samman",
+        "V. Sridharan",
+        "X.W. Mao",
+        "M. Cao",
+        "P. Singh",
+        "S. Melnyk",
+        "I. Koturbash",
+        "G.A. Nelson",
+        "M. Hauer-Jensen"
+      ]
+    },
+    {
+      "title": "Complement in immune and inflammatory disorders: Pathophysiological mechanisms",
+      "authors": [
+        "D. Ricklin",
+        "J.D. Lambris"
+      ]
+    },
+    {
+      "title": "Complement activation and cardiovascular disease",
+      "authors": [
+        "M. Bjerre",
+        "T.K. Hansen",
+        "A. Flyvbjerg"
+      ]
+    },
+    {
+      "title": "Endogenous and natural complement inhibitor attenuates myocardial injury and arterial thrombogenesis",
+      "authors": [
+        "V.I. Pavlov",
+        "M.O. Skjoedt",
+        "Y. Siow Tan",
+        "A. Rosbjerg",
+        "P. Garred",
+        "G.L. Stahl"
+      ]
+    },
+    {
+      "title": "The benefit of targeted and selective inhibition of the alternative complement pathway for modulating autoimmunity and renal disease in MRL/lpr mice",
+      "authors": [
+        "H. Sekine",
+        "T.T. Kinser",
+        "F. Qiao",
+        "E. Martinez",
+        "E. Paulling",
+        "P. Ruiz",
+        "G.S. Gilkeson",
+        "S. Tomlinson"
+      ]
+    },
+    {
+      "title": "Increased complements and high-sensitivity C-reactive protein predict heart failure in acute myocardial infarction",
+      "authors": [
+        "D. Liu",
+        "X. Qi",
+        "Q. Li",
+        "W. Jia",
+        "L. Wei",
+        "A. Huang",
+        "K. Liu",
+        "Z. Li"
+      ]
+    },
+    {
+      "title": "Complement components sC5b-9 and CH50 predict prognosis in heart failure patients combined with hypertension",
+      "authors": [
+        "W. Wang",
+        "D. Cai"
+      ]
+    },
+    {
+      "title": "Myocardial expression of the anaphylatoxin receptor C3aR is associated with cardiac inflammation and prognosis in patients with non-ischaemic heart failure",
+      "authors": [
+        "K.A.L. Mueller",
+        "J. Patzelt",
+        "M. Sauter",
+        "P. Maier",
+        "S. Gekeler",
+        "K. Klingel",
+        "R. Kandolf",
+        "P. Seizer",
+        "M. Gawaz",
+        "T. Geisler"
+      ]
+    },
+    {
+      "title": "Leucocyte expression of complement C5a receptors exacerbates infarct size after myocardial reperfusion injury",
+      "authors": [
+        "V.C. De Hoog",
+        "L. Timmers",
+        "A. Van Duijvenvoorde",
+        "S.C. De Jager",
+        "B.J. Van Middelaar",
+        "M.B. Smeets",
+        "T.M. Woodruff",
+        "P.A. Doevendans",
+        "G. Pasterkamp",
+        "C.E. Hack"
+      ]
+    },
+    {
+      "title": "The receptor for activated complement factor 5 (C5aR) conveys myocardial ischemic damage by mediating neutrophil transmigration",
+      "authors": [
+        "M. Mueller",
+        "C. Herzog",
+        "J. Larmann",
+        "M. Schmitz",
+        "D. Hilfiker-Kleiner",
+        "J.E. Gessner",
+        "G. Theilmeier"
+      ]
+    },
+    {
+      "title": "Complement activation and its prognostic role in post-cardiac arrest patients",
+      "authors": [
+        "Z.M. Jenei",
+        "E. Zima",
+        "D. Csuka",
+        "L. Munthe-Fog",
+        "E. Hein",
+        "G. Szeplaki",
+        "D. Becker",
+        "I. Karadi",
+        "Z. Prohaszka",
+        "P. Garred"
+      ]
+    },
+    {
+      "title": "The molecular mechanisms driving physiological changes after long duration space flights revealed by quantitative analysis of human blood proteins",
+      "authors": [
+        "D.N. Kashirina",
+        "A.J. Percy",
+        "L.K. Pastushkova",
+        "C.H. Borchers",
+        "K.S. Kireev",
+        "V.A. Ivanisenko",
+        "A.S. Kononikhin",
+        "E.N. Nikolaev",
+        "I.M. Larina"
+      ]
+    },
+    {
+      "title": "Simulated microgravity disrupts intestinal homeostasis and increases colitis susceptibility",
+      "authors": [
+        "P. Li",
+        "J. Shi",
+        "P. Zhang",
+        "K. Wang",
+        "J. Li",
+        "H. Liu",
+        "Y. Zhou",
+        "X. Xu",
+        "J. Hao",
+        "X. Sun"
+      ]
+    },
+    {
+      "title": "Effect of solar particle event radiation and hindlimb suspension on gastrointestinal tract bacterial translocation and immune activation",
+      "authors": [
+        "Y. Zhou",
+        "H. Ni",
+        "M. Li",
+        "J.K. Sanzari",
+        "E.S. Diffenderfer",
+        "L. Lin",
+        "A.R. Kennedy",
+        "D. Weissman"
+      ]
+    },
+    {
+      "title": "Responses of Intestinal Mucosal Barrier Functions of Rats to Simulated Weightlessness",
+      "authors": [
+        "M. Jin",
+        "H. Zhang",
+        "K. Zhao",
+        "C. Xu",
+        "D. Shao",
+        "Q. Huang",
+        "J. Shi",
+        "H. Yang"
+      ]
+    },
+    {
+      "title": "Bacterial DNA induces myocardial inflammation and reduces cardiomyocyte contractility: Role of toll-like receptor 9",
+      "authors": [
+        "P. Knuefermann",
+        "M. Schwederski",
+        "M. Velten",
+        "P. Krings",
+        "H. Ehrentraut",
+        "M. Rudiger",
+        "O. Boehm",
+        "K. Fink",
+        "U. Dreiner",
+        "C. Grohe"
+      ]
+    },
+    {
+      "title": "CD14, a receptor for complexes of lipopolysaccharide (LPS) and LPS binding protein",
+      "authors": [
+        "S.D. Wright",
+        "R.A. Ramos",
+        "P.S. Tobias",
+        "R.J. Ulevitch",
+        "J.C. Mathison"
+      ]
+    },
+    {
+      "title": "CD163+ macrophages promote angiogenesis and vascular permeability accompanied by inflammation in atherosclerosis",
+      "authors": [
+        "L. Guo",
+        "H. Akahori",
+        "E. Harari",
+        "S.L. Smith",
+        "R. Polavarapu",
+        "V. Karmali",
+        "F. Otsuka",
+        "R.L. Gannon",
+        "R.E. Braumann",
+        "M.H. Dickinson"
+      ]
+    },
+    {
+      "title": "Elevated numbers of CD163+ macrophages in hearts of simian immunodeficiency virus-infected monkeys correlate with cardiac pathology and fibrosis",
+      "authors": [
+        "J.A. Walker",
+        "M.L. Sulciner",
+        "K.D. Nowicki",
+        "A.D. Miller",
+        "T.H. Burdo",
+        "K.C. Williams"
+      ]
+    },
+    {
+      "title": "Effects of low-dose oxygen ions and protons on cardiac function and structure in male C57BL/6J mice",
+      "authors": [
+        "J.W. Seawright",
+        "V. Sridharan",
+        "R.D. Landes",
+        "M. Cao",
+        "P. Singh",
+        "I. Koturbash",
+        "X.W. Mao",
+        "I.R. Miousse",
+        "S.P. Singh",
+        "G.A. Nelson"
+      ]
+    },
+    {
+      "title": "Mitochondria-Targeted Human Catalase in the Mouse Longevity MCAT Model Mitigates Head-Tilt Bedrest-Induced Neuro-Inflammation in the Hippocampus",
+      "authors": [
+        "L. Rubinstein",
+        "F. Kiffer",
+        "S. Puukila",
+        "M.G. Lowe",
+        "B. Goo",
+        "A. Luthens",
+        "A.S. Schreurs",
+        "S.M. Torres",
+        "S. Steczina",
+        "C.G.T. Tahimic"
+      ]
+    },
+    {
+      "title": "Influence of the spaceflight environment on macrophage lineages",
+      "authors": [
+        "R. An",
+        "V.K. Blackwell",
+        "B. Harandi",
+        "A.C. Gibbons",
+        "O. Siu",
+        "I. Irby",
+        "A. Rees",
+        "N. Cornejal",
+        "K.M. Sattler",
+        "T. Sheng"
+      ]
+    },
+    {
+      "title": "The Role of Toll-Like Receptor Signaling in the Progression of Heart Failure",
+      "authors": [
+        "L. Yu",
+        "Z. Feng"
+      ]
+    },
+    {
+      "title": "Toll-like Receptors Signaling Pathways as a Potential Therapeutic Target in Cardiovascular Disease",
+      "authors": [
+        "S.M. Parizadeh",
+        "M. Ghandehari",
+        "M. Heydari-Majd",
+        "S. Seifi",
+        "R. Mardani",
+        "S.M. Parizadeh",
+        "M. Ghayour-Mobarhan",
+        "G.A. Ferns",
+        "S.M. Hassanian",
+        "A. Avan"
+      ]
+    },
+    {
+      "title": "Association between toll-like receptor 8 expression and adverse clinical outcomes in patients with enterovirus-associated dilated cardiomyopathy",
+      "authors": [
+        "M. Satoh",
+        "T. Akatsu",
+        "Y. Ishikawa",
+        "Y. Minami",
+        "Y. Takahashi",
+        "M. Nakamura"
+      ]
+    },
+    {
+      "title": "The circadian clock maintains cardiac function by regulating mitochondrial metabolism in mice",
+      "authors": [
+        "A. Kohsaka",
+        "P. Das",
+        "I. Hashimoto",
+        "T. Nakao",
+        "Y. Deguchi",
+        "S.S. Gouraud",
+        "H. Waki",
+        "Y. Muragaki",
+        "M. Maeda"
+      ]
+    },
+    {
+      "title": "Cardiac Per2 functions as novel link between fatty acid metabolism and myocardial inflammation during ischemia and reperfusion injury of the heart",
+      "authors": [
+        "S. Bonney",
+        "D. Kominsky",
+        "K. Brodsky",
+        "H. Eltzschig",
+        "L. Walker",
+        "T. Eckle"
+      ]
+    },
+    {
+      "title": "Circadian misalignment affects sleep and medication use before and during spaceflight",
+      "authors": [
+        "E.E. Flynn-Evans",
+        "L.K. Barger",
+        "A.A. Kubey",
+        "J.P. Sullivan",
+        "C.A. Czeisler"
+      ]
+    },
+    {
+      "title": "Integrated RNA-seq Analysis Indicates Asynchrony in Clock Genes between Tissues under Spaceflight",
+      "authors": [
+        "S.I. Fujita",
+        "L. Rutter",
+        "Q. Ong",
+        "M. Muratani"
+      ]
+    },
+    {
+      "title": "Apolipoprotein-J prevents angiotensin II-induced apoptosis in neonatal rat ventricular cells",
+      "authors": [
+        "Y. Ma",
+        "L. Kong",
+        "K. Nan",
+        "S. Qi",
+        "L. Ru",
+        "C. Ding",
+        "D. Wang"
+      ]
+    },
+    {
+      "title": "The Uncoupling Proteins: A Systematic Review on the Mechanism Used in the Prevention of Oxidative Stress",
+      "authors": [
+        "J. Hirschenson",
+        "E. Melgar-Bermudez",
+        "R.J. Mailloux"
+      ]
+    },
+    {
+      "title": "Oxidative damage and mitochondrial functionality in hearts from KO UCP3 mice housed at thermoneutrality",
+      "authors": [
+        "G. Napolitano",
+        "G. Fasciolo",
+        "N. Magnacca",
+        "F. Goglia",
+        "A. Lombardi",
+        "P. Venditti"
+      ]
+    },
+    {
+      "title": "Comprehensive Multi-omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact",
+      "authors": [
+        "W.A. da Silveira",
+        "H. Fazelinia",
+        "S.B. Rosenthal",
+        "E.C. Laiakis",
+        "M.S. Kim",
+        "C. Meydan",
+        "Y. Kidane",
+        "K.S. Rathi",
+        "S.M. Smith",
+        "B. Stear"
+      ]
+    },
+    {
+      "title": "Changes in mitochondrial homeostasis and redox status in astronauts following long stays in space",
+      "authors": [
+        "H.P. Indo",
+        "H.J. Majima",
+        "M. Terada",
+        "S. Suenaga",
+        "K. Tomita",
+        "S. Yamada",
+        "A. Higashibata",
+        "N. Ishioka",
+        "T. Kanekura",
+        "I. Nonaka"
+      ]
+    },
+    {
+      "title": "RCAN1 deficiency aggravates sepsis-induced cardiac remodeling and dysfunction by accelerating mitochondrial pathological fission",
+      "authors": [
+        "J. Zhuang",
+        "L. Chen",
+        "G. Li",
+        "L. Xia",
+        "S. Wu",
+        "J. Leng",
+        "X. Tao",
+        "J. Hong",
+        "Y. Wu",
+        "S. Wang"
+      ]
+    },
+    {
+      "title": "RCAN1 in cardiovascular diseases: Molecular mechanisms and a potential therapeutic target",
+      "authors": [
+        "S. Wang",
+        "Y. Wang",
+        "K. Qiu",
+        "J. Zhu",
+        "Y. Wu"
+      ]
+    },
+    {
+      "title": "Spaceflight Modulates the Expression of Key Oxidative Stress and Cell Cycle Related Genes in Heart",
+      "authors": [
+        "A. Kumar",
+        "C.G.T. Tahimic",
+        "E.A.C. Almeida",
+        "R.K. Globus"
+      ]
+    }
+  ],
+  "original_title": "Simulated microgravity alters gene regulation linked to immunity and cardiovascular disease.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/2f2bb50f7c77/genes-15-00975-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/e0e373f591c0/genes-15-00975-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/0f4fb1015ae0/genes-15-00975-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/a93e5e3e65a7/genes-15-00975-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/06bab473ed78/genes-15-00975-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/67dea7ed26af/genes-15-00975-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/27a9/11353732/75ac38f6b6d0/genes-15-00975-g007.jpg"
+  ]
+}

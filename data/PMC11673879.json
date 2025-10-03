@@ -1,0 +1,660 @@
+{
+  "pmcid": "PMC11673879",
+  "title": "Thermal Plasticity and Evolutionary Constraints in Bacillus: Implications for Climate Change Adaptation",
+  "abstract": "Simple Summary\n\nAs global temperatures rise due to climate change, understanding how bacteria respond to heat is essential. Bacteria are critical to ecosystems, helping recycle nutrients, break down organic matter, and support plant growth. If they struggle to adapt to warmer conditions, the effects could ripple through ecosystems. Our study tested whether Bacillus bacteria, common in soil and water, could adapt to gradual temperature increases. We exposed seven strains from two groups to experimental evolution under increasing warming conditions, expecting them to evolve heat tolerance. Although some bacteria showed small improvements in heat tolerance, neither group could evolve to grow well at temperatures just three degrees Celsius above their natural range. This is concerning, as climate change could raise global temperatures by 2–4 °C, which could push these bacteria beyond their limits. We also found that c-di-AMP, a molecule that helps regulate potassium levels in cells, was involved in temperature tolerance. These findings highlight the vulnerability of essential bacteria to climate change and underscore the need for further research to predict and mitigate its impacts on ecosystems.\n\nAbstract\n\nThe ongoing rise in global temperatures poses significant challenges to ecosystems, particularly impacting bacterial communities that are central to biogeochemical cycles. The resilience of wild mesophilic bacteria to temperature increases of 2–4 °C remains poorly understood. In this study, we conducted experimental evolution on six wild Bacillus strains from two lineages (Bacillus cereus and Bacillus subtilis) to examine their thermal adaptation strategies. We exposed the bacteria to gradually increasing temperatures to assess their thermal plasticity, focusing on the genetic mechanisms underlying adaptation. While B. subtilis lineages improved growth at highly critical temperatures, only one increased its thermal niche to 4 °C above their natural range. This finding is concerning given climate change projections. B. cereus strains exhibited higher mutation rates but were not able to grow at increasing temperatures, while B. subtilis required fewer genetic changes to increase heat tolerance, indicating distinct adaptive strategies. We observed convergent evolution in five evolved lines, with mutations in genes involved in c-di-AMP synthesis, which is crucial for potassium transport, implicating this chemical messenger for the first time in heat tolerance. These insights highlight the vulnerability of bacteria to climate change and underscore the importance of genetic background in shaping thermal adaptation.",
+  "introduction": "1. Introduction\n\nBacteria are often regarded as highly adaptable to extreme environmental changes, including rising temperatures driven by global warming. However, this perception oversimplifies the complexity of bacterial adaptation and does not account for the millions of years it has taken for the diversity of bacteria to adapt to particular niches. This highlights that their adaptive capacity is deeply rooted in long evolutionary processes.\n\nUnderstanding bacterial responses to heat stress is critical, given their central role in nutrient cycling and ecosystem stability, especially as global temperatures are projected to increase by 2 to 4 °C. The impact of rising temperatures extends beyond bacterial physiology, with significant consequences for ecosystems and biogeochemical cycles; for example, elevated ocean temperatures alter nitrogen-fixing microbial populations, threatening the nitrogen cycle in coral reefs. Similarly, warming freshwater ecosystems decreases bacterial diversity, disrupting ecological balance. Rising temperatures are also linked to the spread of antibiotic resistance and increased abundance of pathogens like Vibrio cholerae in coastal waters. These examples underscore the urgency of understanding bacterial thermal adaptation in the context of global climate change.\n\nPhenotypic plasticity—the ability of organisms to adjust their traits in response to changing environmental conditions —allows species to buffer against environmental fluctuations. This adaptability can extend an organism’s ecological range, potentially leading to genetic assimilation, where initially flexible traits become genetically stabilized. Nevertheless, plasticity has inherent limitations and costs, especially under sustained stress. Reaction norms, which describe how a genotype’s phenotype changes across environmental gradients, are valuable tools for assessing thermal limits and understanding adaptive strategies. We can learn about a given organism’s thermal niche through reaction norms (Wolterek, 1909, cited by Stearns). Mesophilic bacteria, such as Escherichia coli and some Bacillus species, typically thrive between 27 °C and 40 °C.\n\nWhen exposed to higher temperatures, mesophilic bacteria activate a heat-shock response (HSR), which involves the rapid production of heat-shock proteins that stabilize cellular components and temporarily protect against heat stress. However, these adaptations are generally short-lived and insufficient for prolonged survival under extreme temperatures. Escherichia coli, as a well-established model organism, has been extensively studied for its physiological responses to thermal stress. Unlike thermal tolerance, which temporarily protects cells from heat damage by activating heat-shock proteins, thermal adaptation requires genetic changes that can withstand and sustain growth at higher temperatures beyond the initial threshold.\n\nExperimental evolution is a powerful tool for gaining insights into the capacity of bacteria to adapt to specific biotic and abiotic challenges and understanding the types of mutations that shape or enable such adaptations to changing environments. It allows researchers to address a key question in evolutionary biology: whether bacteria can evolve similar phenotypic outcomes through the same or different genetic mechanisms—a phenomenon known as convergent evolution. Convergent evolution can manifest in multiple ways, including traits that arise via a conserved genetic mechanism within a clade or through distinct mechanistic bases even among closely related species.\n\nPrevious experiments have documented a rapid adaptive response of E. coli to high temperatures, with evidence that the genetic response can be diverse. Similarly, Tenaillon et al. took a whole-genome approach to estimate the extent of evolutionary convergence that occurs during adaptation in 115 populations of E. coli at a high temperature of 42.2 °C, analyzing the overall genetic basis of adaptation. Their findings highlighted convergence among genes, with the most mutated gene being rpoB, along with proteins that regulate the rpoS stress response (RSS).\n\nAlthough numerous studies have explored the ability of E. coli to evolve at different temperatures, few studies have aimed to evolve bacteria to expand their thermal niche. In this context, Murata et al. subjected an E. coli strain to 43 °C and identified 51 genes crucial for thermotolerance, highlighting the diverse genetic pathways involved in developing heat tolerance. Murata introduced the term “critically high temperatures” (CHT) to describe temperatures beyond the thermal limit.\n\nBennett and Lenski sought to isolate evolved lines capable of surpassing the upper thermal limit and found that this limit did not significantly increase in any of the derived lines, even those that evolved at 41–42 °C. Exposure to 44 °C proved lethal, except for one thermotolerant mutant, which managed to grow at 44 °C. Mongold et al. further investigated evolutionary adaptation to what they termed a “lethal thermal environment” by directly shifting evolution to 44 °C. Their findings revealed that three thermotolerant mutants were derived from two progenitor lines that had previously adapted to 41–42 °C, suggesting that these lines extended their upper thermal limit in a stepwise manner relative to their progenitors. Additionally, they noted that not all evolved lines exhibited trade-offs, such as a loss of fitness at lower temperatures.\n\nBacillus strains are particularly important to study in the context of prolonged survival at temperatures exceeding their niche range because they are ubiquitous and ecologically significant, playing key roles in decomposing organic matter and nutrient cycling. Although Bacillus can form heat-tolerant spores that remain dormant for decades, their heterotrophic functions occur only in a vegetative state. Therefore, understanding whether Bacillus can evolve more heat-tolerant vegetative cells is crucial for predicting how these bacteria will respond to global warming. Recent research has shown that wild Bacillus strains exhibit considerable variation in thermal tolerance, influenced by genetic background, emphasizing that temperature is a critical factor affecting bacterial growth and survival. Despite extensive research on acute bacterial responses, the long-term evolution of bacterial thermotolerance and the upper thermal limits they can achieve remain poorly understood and research has not been conducted on Bacillus lineages.\n\nThis study addresses this knowledge gap by investigating whether wild Bacillus strains from two distinct lineages can evolve heat tolerance in their vegetative cells through experimental evolution. We aim to determine whether gradual temperature increases enable these bacteria to develop the plasticity needed to survive projected global temperature rises of 2 to 4 °C and to identify the genetic mechanisms underlying their adaptations. By focusing on different lineages and genetic backgrounds, our research explores the constraints and potential pathways for bacterial adaptation to extreme heat, providing insights into their evolutionary resilience and broader ecosystem impacts.\n\nThe main conclusions of this work are as follows: 1. The observed lineage-specific outcomes and convergence within strains underscore the critical role of genetic background in shaping adaptive responses. B. cereus and B. subtilis have different plasticity and B. cereus lineages, contrary to those of B. subtilis, and were not able to increase thermal tolerance relative to ancestral lines. Only one evolved B. subtilis line successfully extended its thermal niche. 2. Tolerance to higher temperatures was observed in B. subtilis lines that evolved constantly at 37 °C, indicating a metabolic adjustment driven by continuous growth conditions and the growth medium rather than selective pressure from increased temperatures. 3. Convergent mutations in genes regulating c-di-AMP synthesis uncover, for the first time, its critical role in thermal tolerance. This discovery links molecular mechanisms to thermal adaptation across lineages. 4. Finally, our findings warn about bacteria’s inability to evolve significant thermal tolerance, even under gradual selection. This raises concerns about bacterial communities’ resilience to climate change and the potential cascading effects on biogeochemical cycles and ecosystem stability.",
+  "methods": "2. Materials and Methods\n\n2.1. Strains and Microbial Methods\n\nSAMN09761860: B.subtilis_21_anc_ehb001 (TaxID: 1423);\n\nSAMN09761861: B.subtilis_90_anc_ehb002 (TaxID: 1423);\n\nSAMN09761862: B.subtilis_427_anc_ehb003 (TaxID: 1423);\n\nSAMN09761863: B.subtilis_PY79_anc_ehb004 (TaxID: 1423);\n\nSAMN09761864: B.cereus_370a_anc_ehb005 (TaxID: 1396);\n\nSAMN09761865: B.cereus_102_anc_ehb006 (TaxID: 1396);\n\nSAMN09761866: B.cereus_111b_anc_ehb007 (TaxID: 1396).\n\nBacillus strains were originally isolated from Cuatro Cienegas, Coahuila, México, as described. The strains were collected from sediment in the Churince water system. Three strains grouped with the B. cereus lineage were 99% similar based on sequence variation of the 16S rRNA gene (accession numbers Bc_370a MK850162.1, Bc_102 MK880370, and Bc_111b MK850167.1), as well as four strains from the B. subtilis lineage (accession numbers Bs_21 MK850173.1, Bs_90 MK850153.1, and Bs_427 MK850159.1 and laboratory strain PY79 MK850170.1). Accession numbers for the genomes of the strains are:\n\nStrains were preserved at −70 °C in a marine medium supplemented with 80% glycerol. For experimental use, strains were revived by streaking onto marine medium agar plates (1.6% agar) and incubated overnight at 28 °C. Single colonies were transferred into a liquid marine medium and incubated at 37 °C overnight to establish starting cultures.\n\n2.2. Plate Incubation Experiments\n\nTemperature tolerance was assessed by streaking the strains onto marine medium agar plates and incubating them at 37 °C, 44 °C, and 55 °C for 24 h. After the initial incubation, plates were transferred to 28 °C and incubated for an additional 48 h. Photographs were taken at both incubation stages to document growth and colony morphology.\n\n2.3. Experimental Evolution\n\nSeven Bacillus strains with previously characterized thermal tolerance were selected, comprising four strains from the B. subtilis lineage (three wild isolates and the lab strain B. subtilis PY79) and three strains from the B. cereus lineage. Ancestral strains were frozen as reference samples. Experimental evolution was conducted in 50 mL Falcon tubes with cultures agitated at 150 rpm. For each strain, three populations evolved at a constant temperature of 37 °C, while another three populations were exposed to an incremental temperature regime starting at 43 °C and increasing to 47 °C over a period of 90 days.\n\nCultures were diluted 100-fold every 12 h by transferring 50 µL of the culture into 5 mL of fresh marine medium, achieving approximately 1000 generations over 105 days. Generation counts were estimated based on viable cell numbers at saturation and calculated division rates. Turbidity measurements were taken every 12 h. In the incremental temperature treatment, the temperature was raised by 0.1 °C per day, contingent on observable growth (turbidity). If growth rates decreased significantly, indicated by low turbidity, temperature increases were paused or reduced, and inoculum volume was adjusted from 50 µL to 100 µL as needed. Temperature adjustments over time were recorded and represented as a parabolic curve (Figure 1A). Weekly samples of each evolving population were stored at −70 °C in 80% glycerol. At the experiment’s conclusion, colonies from each of the 42 evolved populations were isolated, and a representative evolved strain from each population was selected for further analysis.\n\n2.4. Norms of Reaction to Temperature\n\nReaction norms for parental and evolved strains were determined using growth kinetics at various temperatures. Doubling times were calculated from the exponential growth phase to plot the growth rate against temperature. Strains were reactivated from −70 °C stocks on marine medium agar and incubated at 37 °C for 20 h. A single colony was used to inoculate 5 mL of marine medium broth and incubated overnight at 37 °C with shaking. Cultures were transferred to achieve exponential phase by subculturing 50 µL into fresh broth for 2 h.\n\nGrowth measurements were performed using a Bioscreen C plate reader (Labsystems, Helsinki, Finland) with a 420–580 nm filter. Each well of a 200-well microtiter plate was inoculated with 5 µL of culture and 175 µL of fresh marine medium broth, with three technical replicates per condition. Optical density was recorded every 30 min for 20 h. Growth kinetics were assessed at 17 °C, 27 °C, 37 °C, 41 °C, 43 °C, 46 °C, 49 °C, and 55 °C. Doubling times were calculated using exponential growth models. Reaction norms were compared using t-tests and multiple ANOVA tests (significance level 0.05) in Statgraphics 15.2.06 and R version 3.6.2.\n\n2.5. Genome Sequencing and Data Analysis\n\nDNA was extracted using the QuickGene DNA tissue kit S (Kurabo Industries LTD., FujiFilm, Osaka, Japan). Sequencing was conducted at Cinvestav-Langebio on an Illumina MiSeq platform at 50× coverage in a paired-end format, with ~180 bp fragment sizes. Paired-end reads were quality-checked using FastQC and trimmed with Trimmomatic. Genome assemblies were generated with SPAdes v3.13.0 and evaluated for quality using N50 and %GC content.\n\nVariant calling was performed using GATK Haplotype Caller, and mutations were annotated with Prokka and Patric. Custom scripts were used to integrate Prokka GFF files with VCF data from GATK. Additionally, we employed a “fragmentome” analysis to ensure correct linkage of evolved genomes to their respective parental strains. In this approach, we first generated sets of diagnostic DNA fragments (1000 bp each) from the original ancestral genome sequences. By comparing these fragments against all assembled genomes, we identified those that were uniquely present (i.e., matched only their strain of origin) and thus served as reliable strain-specific genetic markers. Using these diagnostic fragments, we could confidently map evolved reads back to the appropriate parental genome. Unlike standard alignments to a single reference genome, this method provides a lineage-specific signature that helps distinguish closely related ancestral strains and their evolved descendants. This ensures that any potential cross-contamination or mislabeling during experimental evolution or sequencing could be easily detected, as evolved strains must match their diagnostic fragments and not produce hits against other parental genomes. Assembled reference genomes of each representative ancestral strain were obtained, making it possible to generate these strain-specific diagnostic fragments prior to the mapping of evolved sequences.\n\nVariants were filtered with a quality threshold of 100, and low-quality mutations (<40) were excluded. Mutation categories included intergenic, genic, indels, and single substitutions. Mutations of interest were validated by Sanger sequencing. Annotated mutations were analyzed using UniProt, GO, and PFAM databases. Gene lists, oligonucleotide sequences, and accession numbers for sequencing data for evolved strains are provided in Supplementary Tables.\n\n2.6. Sporulation Capacity\n\nSporulation was assessed on marine medium plates after seven days at room temperature. Samples were stained with malachite green and examined under a Leica 020-518.500 DM/LS optical microscope (Wetzlar, Germany) to confirm the presence or absence of spores.",
+  "results": "3. Results\n\n3.1. Experimental Evolution at Highly Critical Temperatures and Evolutionary Rescue\n\nWe conducted experimental evolution to test if the thermal tolerance of vegetative Bacillus strains could be enhanced through gradual temperature increases (Figure 1A). Our study included seven strains from two lineages: three Bacillus cereus strains and four Bacillus subtilis strains, both of which are part of strongly supported monophyletic clades within the Bacillaceae family. The wild strains were originally isolated from a temperate hydrological system, and previous research indicated that these strains are mesophilic, with thermal tolerance largely influenced by lineage.\n\nWe hypothesized that a gradual increase in temperature would serve as a selective force, potentially expanding the thermal tolerance limits of these strains. With genetic variation among the seven strains, we anticipated diverse adaptive evolutionary strategies. The experimental design involved two temperature regimes: one with a constant temperature of 37 °C and another with incremental increases from 43 °C, aiming for approximately 1000 generations (Figure 1B).\n\nGrowth at 43 °C initially varied significantly among strains. Specifically, B. cereus strains were highly sensitive, unable to sustain growth beyond 48 h at this temperature, while B. subtilis strains exhibited greater resilience. For B. cereus, growth restoration occurred after lowering the temperature to 42 °C, suggesting an evolutionary rescue mechanism. B. subtilis, in contrast, maintained growth more consistently, allowing for temperature increments of 0.1 °C per day.\n\nTemperature increments continued until the strains reached a plateau at 45 °C after approximately 300 generations and then slowed down (Figure 1A). The increment frequency decreased further until no additional adaptation was observed over the last 300 generations, indicating a stabilization of phenotypes. B. subtilis lineages showed a greater overall capacity to survive and adapt than B. cereus, consistent with their initial phenotypic plasticity.\n\n3.2. Differences in Plasticity and Critical Temperature Limits\n\nTo assess changes in thermal tolerance, we compared the reaction norms of evolved and parental strains. Growth kinetics were measured across a temperature range from 17 °C to 55 °C and doubling times were used to construct growth rate curves.\n\n3.2.1. Plasticity and Critical Temperature Limits for Bacillus subtilis Lineages\n\nFigure 2 and Figure 3 illustrate the reaction norms for B. subtilis strains. The Bs_21 and Bs_427 strains demonstrated the most substantial increases in tolerance at higher temperatures. Notably, several Bs_21 lines grew successfully at up to 49 °C, although the results varied among lines (a-b-c-A-C). All Bs_427-evolved lines showed improved growth at 46 °C and 49 °C, regardless of whether they were evolved under constant temperature treatment (CTT) or the high critical temperature (HCT) regime. This suggests that adaptation may be influenced by factors related to the growth medium. A statistically significant reduction in growth was observed for some Bs_427 lines (B and b) at 37 °C.\n\nBs_90 exhibited limited improvement in thermal tolerance, with only minor increases in growth at 43 °C for the D-E-d-e lines and barely significant growth at 46 °C for the D-E-F lines. The Bs_90 strain was the least capable of growing at 49 °C, though all evolved lines still outperformed the parental strain. A trade-off was evident in Bs_90, with all evolved lines showing reduced growth at lower temperatures (17–37 °C). In contrast, the laboratory strain Bs_PY79 showed consistent growth across temperatures up to 37 °C. While some high-temperature-evolved lines (J-K-L) demonstrated improved tolerance at 49 °C, they experienced a marked reduction in growth at 17 °C and 27 °C. Interestingly, all Bs_PY79 lines performed similarly to the parental strain at 43 °C, without surpassing its tolerance at 46 °C.\n\n3.2.2. Plasticity and Critical Temperature Limits for Bacillus cereus Lineages\n\nFor B. cereus, the reaction norms revealed minimal improvements post-evolution. Strain Bc_370a exhibited poorer growth than the parental strain, particularly for lines evolved under the HCT regime, which showed decreased growth at 27 °C and 37 °C. Bc_102 demonstrated the best improvements in thermal tolerance among HCT-evolved lines, though CTT-evolved lines generally showed reduced growth compared to the parental strain. Bc_111b presented a slight increase in growth at 43–46 °C for line U, indicating potential thermal adaptation. However, the S-T-U lines (HCT-evolved) exhibited a reduction in fitness across a lower temperature range (17–39 °C), suggesting maladaptive consequences of high-temperature evolution.\n\n3.3. Changes in Carrying Capacity (K) and Growth Rate (G)\n\nTo further understand the adaptive strategies of evolved Bacillus strains, we assessed changes in two critical growth parameters: carrying capacity (K) and specific growth rate (G) at 37 °C and 43 °C. These measurements provided insights into whether the adaptations were multifactorial, impacting not just the growth rate but also the overall population density the cultures could sustain. The Principal Component Analysis (PCA) of experimental evolution treatments of the traits evaluated for each strain at both 37 °C and 43 °C highlighted the phenotypic responses and adaptations under different temperature regimes (Supplementary Figure S4).\n\n3.3.1. Impact of Temperature on Growth and Carrying Capacity on Bacillus subtilis Lineages\n\nFigure 4 shows the normalized results for B. subtilis strains. In Bs_21, significant changes were observed in both K37 and K43, suggesting substantial adaptation, particularly for the D-E-F lines under the high-temperature treatment. Bs_90 displayed pronounced effects in K43, specifically for the D-E-F lines, indicating a temperature-driven adaptation. However, the adaptation appeared limited, as growth improvements did not extend uniformly across all lines.\n\nIn Bs_427, we observed increases in both K37 and K43 values compared to the parental strain, reflecting an adaptation that may be driven by the growth medium. The enhanced carrying capacity at 43 °C suggests some degree of temperature adaptation, especially for the D-E-F lines. In Bs_PY79, all evolved lines showed increases in K37 and K43, consistent with medium-driven adaptation rather than temperature-specific changes.\n\nParental strains of Bacillus subtilis are represented by black bars, while their descendant lines under highly critical temperature (HCT) treatment are depicted with red bars and those under constant temperature treatment at 37 °C are shown in blue bars. Each panel comprises charts illustrating the maximum change in growth cultures of lines evolved at a constant low temperature (37 °C) and at a highly critical temperature (43 °C) on the left and carrying capacity (K) at 37 °C and 43 °C on the right.\n\n3.3.2. Impact of Temperature on Growth and Carrying Capacity on Bacillus cereus Lineages\n\nFigure 5 illustrates the phenotypic changes in B. cereus strains. Bc_370a showed a strong effect on all lines for the parameter G37, implying adaptation to the growth medium rather than temperature. However, a significant impact on K43 was observed only in the M-N-O lines, which underwent high-temperature evolution, indicating some level of thermal adaptation.\n\nIn Bc_102, the analysis of K43 revealed stronger adaptation to high temperature in the P-Q-R lines compared to p-q-r. This suggests that thermal adaptation occurred despite the reaction norms not clearly indicating such changes. Specific growth rates (G37) also demonstrated some improvements, although these were less pronounced. For Bc_111b, G43 showed a marked increase across all evolved lines, indicating medium adaptation. However, K43 was significantly higher in the S-T-U lines compared to s-t-u and the parental strain, pointing to an evident effect of temperature adaptation.\n\nParental strains of Bacillus subtilis are represented by black bars, while their descendant lines under highly critical temperature (HCT) treatment are depicted with red bars, and those under constant temperature treatment at 37 °C are shown in blue bars. Each panel comprises charts illustrating the maximum change in growth cultures of lines evolved at a constant low temperature (37 °C) and at a highly critical temperature (43 °C) to the left and the carrying capacity (K) at 37 °C and 43 °C to the right.\n\nTable 1 is a summary of the overall impact that evolution at either CTT or HCT had on the B. cereus and B. subtilis lineages. It is evident that a single line, Bs _427, was able to extend its thermal tolerance. None of the lines from the laboratory strain PY79 exhibited changes at any of the temperatures evaluated. All the evolved B. cereus lines reduced their growth capacity compared to the ancestral line.\n\n3.4. Changes in Colony Growth, Pigmentation, and Loss of Sporulation in Evolved Lines\n\nWe evaluated changes in colonial phenotypes by growing parental and evolved Bacillus strains on marine medium agar plates (Supplementary Figures S1 and S2). The top rows in the figures show the parental strains, while the lower rows display the six evolved strains (three evolved under the low-temperature treatment, LTT, and three under the highly critical temperature, HCT). Our semi-quantitative assessments revealed significant changes in colony growth among evolved strains. Notably, the B. cereus-evolved lines exhibited a substantial reduction in growth compared to their parental strains, a finding consistent with the reaction norm data. This reduction was particularly evident in lines M, N, Q, S, and T, which underwent HCT treatment. In contrast, the B. subtilis-evolved strains demonstrated more resilience, retaining a higher growth capacity.\n\nThe observed differences suggest a trade-off in B. cereus, where the selective pressure to endure high temperatures may have compromised their ability to grow rapidly. This trade-off likely represents an adaptive strategy prioritizing survival over growth efficiency. Specifically, the B. cereus strains appear to have evolved a mechanism to endure heat stress by reducing metabolic demands, which could explain their diminished growth rates.\n\nAdditionally, phenotypic changes were evident in colony pigmentation, especially among the B. subtilis-evolved lines. We observed distinct pigmentation changes in lines A, B, G, and I, indicative of altered metabolic or regulatory pathways as a response to prolonged heat exposure (Supplementary Figure S2).\n\nWe also noted a loss of sporulation ability in several evolved strains. This was particularly pronounced in the B. cereus HCT-evolved lines, suggesting that the evolutionary pressure to maintain vegetative cell function at high temperatures led to a trade-off, where sporulation capacity was compromised. This finding aligns with the hypothesis that Bacillus strains may sacrifice their ability to form heat-resistant spores to maintain active metabolic processes, which may be crucial for survival in fluctuating but non-lethal high temperatures.\n\n3.5. Convergence in Mutations of Strains Evolved at Highly Critical Temperature Reveals the Role of di-C-AMP and Osmolytes in Temperature Tolerance\n\nWe sequenced the genomes of a representative clone from both the parental and evolved lines (seven parental genomes, 21 evolved genomes at CTT, and 21 evolved genomes at HCT). The genomes were assembled and annotated, and mutations were identified by comparing each evolved genome to its respective parental genome using GATK tools (see Materials and Methods). A workflow of Bioinformatic Analysis of Evolved Genomes and Mutations is shown in Supplementary Figure S3.\n\n3.5.1. Identification and Exclusion of Hypermutator Lines\n\nSeven lines exhibited hypermutator phenotypes, characterized by the accumulation of 39 to 219 mutations. These hypermutator lines were excluded from further analysis to avoid skewed results. The hypermutant criterion was established based on a significant deviation from the expected linear distribution of mutation accumulation (Supplementary Figure S5). Hypermutators were identified in both B. subtilis (lines A and G) and B. cereus (lines N, m, q, r, and S), with no apparent correlation to temperature treatment or bacterial lineage, suggesting that the hypermutant phenotype was independent of these factors. These hypermutant lines are depicted as gray labels in Figure 6.\n\n3.5.2. Classification of Mutations in Lines Evolved at 37 °C (CTT) and Above the HCT\n\nAfter excluding hypermutators, mutations were categorized into single-nucleotide substitutions, one to three base indels, and large genomic rearrangements, further classified as intergenic or intragenic. Most of the identified mutations were single-base indels, predominantly affecting open reading frames (ORFs). Figure 7 and Figure 8 illustrate the specific intragenic mutations. Supplementary Table S1 shows a list of all types of mutations in each evolved line. Sporulation loss and the quantification for each mutation type are shown in Supplementary Figure S6.\n\n3.5.3. Mutational Analysis in CTT-Evolved Lines\n\nIn CTT-evolved lines, we identified eight mutations in genes associated with transcription regulation (a-o-p-u lines), six mutations in transport-related genes (a-c-j-p lines), and six in sporulation-related genes (a-d-j-p lines). A significant mutation was detected in strain Bs_a within the SigB regulon, known for its role in thermal stress response. Additional mutations were found in genes involved in DNA replication, methylation, flagellum assembly, metabolite biosynthesis, and cell wall structure (Figure 8).\n\n3.5.4. Mutational Analysis in HCT-Evolved Lines\n\nIn HCT-evolved lines, we found six mutations in transcription-regulation genes (B-F-M-O-Q-T lines) and six in transport genes (B-D-L-M-P-U lines), reflecting the impact on general metabolic processes. Only one mutation affected a sporulation-related gene, lipC, in line B of the Bs_21 strain without causing sporulation defects. Mutations of particular interest included those in glycine–betaine transport genes, crucial for both osmotic and thermal stress resistance. Mutations interrupting the DnaD and RNase H encoding genes were found in line B of the Bs_21 strain. DnaD has been reported to be part of the replisome Turner 2004 and for replication fork progression under replication stress. B. subtilis has two RNase H genes. In bacteria, RNAse H is involved in the removal of RNA in RNA:DNA hybrids, and, in B. subtilis, the absence of one of the RNase H genes results in an accumulation of hybrids upstream of active coding genes with an impact in transcription and increased mutations. Interestingly, strain Bs_B has 37 mutations, one of the most numerous in evolved lines (Supplementary Table S1). We also identified mutations in arginine metabolism genes linked to thermal stress in B. subtilis and inositol metabolism genes known for their thermoprotective properties. A chi-squared test comparing five thermal stress-associated mutations in HCT-treated lines to one in CTT-treated lines suggested a significant temperature-dependent effect.\n\n3.5.5. Uncovering of di-Adenylate Cyclases (DACs) in Temperature Adaptation\n\nA noteworthy finding was the emergence of mutations in genes encoding di-adenylate cyclases (DACs), observed exclusively in HCT-evolved lines (Figure 9). DACs synthesize c-di-AMP from ATP, a secondary metabolite involved in growth regulation, membrane stability, glycine-betaine transport, and potassium uptake. We identified three loss-of-function mutations in the disA gene of B. cereus (lines O-P-T) and two in the cdaR gene of B. subtilis (lines D and F), with frameshifts occurring in the first half of the ORFs (Supplementary Figure S7). Binomial tests indicated a statistically significant occurrence of these mutations: a probability of 1.68 × 10−4 for B. cereus and 1.37 × 10−3 for B. subtilis. Given the total number of genes (5200 in B. cereus and 4100 in B. subtilis), these findings suggest a selective advantage for DAC-related mutations under high-temperature conditions.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "experimental evolution",
+    "critical high temperature",
+    "phenotypic plasticity",
+    "norms of reaction to temperature",
+    "convergent evolution",
+    "c-di-AMP",
+    "upper thermal limit",
+    "evolutionary rescue",
+    "thermal plasticity",
+    "thermal niche",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Exceeding 1.5 °C Global Warming Could Trigger Multiple Climate Tipping Points",
+      "authors": [
+        "A. Armstrong Mckay",
+        "D.I. Staal",
+        "A. Abrams",
+        "J.F. Winkelmann",
+        "R. Sakschewski",
+        "B. Loriani",
+        "S. Fetzer",
+        "I. Cornell",
+        "S.E. Rockström"
+      ]
+    },
+    {
+      "title": "Impact of Increasing Temperature on the Taxonomic and Metabolic Structure of Bacterial Communities in a Global Warming Context",
+      "authors": [
+        "K. Grabowska-Grucza",
+        "A. Bukowska",
+        "W. Siuda",
+        "R.J. Chróst",
+        "B. Kiersztyn"
+      ]
+    },
+    {
+      "title": "Climate Change Affects Key Nitrogen-Fixing Bacterial Populations on Coral Reefs",
+      "authors": [
+        "H.F. Santos",
+        "F.L. Carmo",
+        "G. Duarte",
+        "F. Dini-Andreote",
+        "C.B. Castro",
+        "A.S. Rosado",
+        "J.D. van Elsas",
+        "R.S. Peixoto"
+      ]
+    },
+    {
+      "title": "The Evolution of Critical Thermal Limits of Life on Earth",
+      "authors": [
+        "J.M. Bennett",
+        "J. Sunday",
+        "P. Calosi",
+        "F. Villalobos",
+        "B. Martínez",
+        "R. Molina-Venegas",
+        "M.B. Araújo",
+        "A.C. Algar",
+        "S. Clusella-Trullas",
+        "B.A. Hawkins"
+      ]
+    },
+    {
+      "title": "Compounding Effects of Climate Warming and Antibiotic Resistance",
+      "authors": [
+        "A. Rodríguez-Verdugo",
+        "N. Lozano-Huntelman",
+        "M. Cruz-Loya",
+        "V. Savage",
+        "P. Yeh"
+      ]
+    },
+    {
+      "title": "Effects of Global Warming on Vibrio Ecology",
+      "authors": [
+        "L. Vezzulli",
+        "E. Pezzati",
+        "I. Brettar",
+        "M. Höfle",
+        "C. Pruzzo"
+      ]
+    },
+    {
+      "title": "Constraints on the Evolution of Phenotypic Plasticity: Limits and Costs of Phenotype and Plasticity",
+      "authors": [
+        "C.J. Murren",
+        "J.R. Auld",
+        "H. Callahan",
+        "C.K. Ghalambor",
+        "C.A. Handelsman",
+        "M.A. Heskel",
+        "J.G. Kingsolver",
+        "H.J. Maclean",
+        "J. Masel",
+        "H. Maughan"
+      ]
+    },
+    {
+      "title": "Regulatory Mechanisms Link Phenotypic Plasticity to Evolvability",
+      "authors": [
+        "J. van Gestel",
+        "F.J. Weissing"
+      ]
+    },
+    {
+      "title": "Perspective: Genetic Assimilation and a Possible Evolutionary Paradox: Can Macroevolution Sometimes Be so Fast as to Pass Us By?",
+      "authors": [
+        "M. Pigliucci",
+        "C.J. Murren"
+      ]
+    },
+    {
+      "title": "Toward a Population Genetic Framework of Developmental Evolution: The Costs, Limits, and Consequences of Phenotypic Plasticity",
+      "authors": [
+        "E.C. Snell-Rood",
+        "J.D. Van Dyken",
+        "T. Cruickshank",
+        "M.J. Wade",
+        "A.P. Moczek"
+      ]
+    },
+    {
+      "title": "Weitere Experimentelle Untersuchungen Uber Artveranderung, Speziell Uberdas Wesen Quantitativer Artunterschyiede Bei Daphniden",
+      "authors": [
+        "R. Woltereck"
+      ]
+    },
+    {
+      "title": "The Evolutionary Significance of Phenotypic Plasticity",
+      "authors": [
+        "S.C. Stearns"
+      ]
+    },
+    {
+      "title": "Evolutionary Adaptation to Temperature II. Thermal Niches of Experimental Lines of Escherichia coli",
+      "authors": [
+        "A.F. Bennett",
+        "R.E. Lenski"
+      ]
+    },
+    {
+      "title": "Phenotypic Plasticity and Evolution of Thermal Tolerance in Bacteria from Temperate and Hot Spring Environments",
+      "authors": [
+        "E. Hurtado-Bautista",
+        "L.F. Pérez Sánchez",
+        "A. Islas-Robles",
+        "G. Santoyo",
+        "G. Olmedo-Alvarez"
+      ]
+    },
+    {
+      "title": "Regulation of Bacterial Heat Shock Stimulons",
+      "authors": [
+        "W. Schumann"
+      ]
+    },
+    {
+      "title": "The Heat Shock Response",
+      "authors": [
+        "E.A. Craig"
+      ]
+    },
+    {
+      "title": "The Heat Shock Response of Escherichia coli",
+      "authors": [
+        "F. Arsène",
+        "T. Tomoyasu",
+        "B. Bukau"
+      ]
+    },
+    {
+      "title": "Evolution Experiments with Microorganisms: The Dynamics and Genetic Bases of Adaptation: Microbial Genetics",
+      "authors": [
+        "S.F. Elena",
+        "R.E. Lenski"
+      ]
+    },
+    {
+      "title": "Prokaryotic Life Finds a Way: Insights from Evolutionary Experimentation in Bacteria",
+      "authors": [
+        "J.P.R. Connolly",
+        "A.J. Roe",
+        "N. O’Boyle"
+      ]
+    },
+    {
+      "title": "Toward a Predictive Framework for Convergent Evolution: Integrating Natural History, Genetic Mechanisms, and Consequences for the Diversity of Life",
+      "authors": [
+        "A.A. Agrawal"
+      ]
+    },
+    {
+      "title": "Genomic Insights into the Adaptive Convergent Evolution",
+      "authors": [
+        "Y. Hao",
+        "Y. Qu",
+        "G. Song",
+        "F. Lei"
+      ]
+    },
+    {
+      "title": "Rapid Evolution in Response to High-Temperature Selection",
+      "authors": [
+        "A.F. Bennett",
+        "K.M. Dao",
+        "R.E. Lenski"
+      ]
+    },
+    {
+      "title": "Genetic Architecture of Thermal Adaptation in Escherichia coli",
+      "authors": [
+        "M.M. Riehle",
+        "A.F. Bennett",
+        "A.D. Long"
+      ]
+    },
+    {
+      "title": "The Molecular Diversity of Adaptive Convergence",
+      "authors": [
+        "O. Tenaillon",
+        "A. Rodríguez-Verdugo",
+        "R.L. Gaut",
+        "P. McDonald",
+        "A.F. Bennett",
+        "A.D. Long",
+        "B.S. Gaut"
+      ]
+    },
+    {
+      "title": "evolutionary adaptation to temperature. Vi. Phenotypic acclimation and its evolution in Escherichia coli",
+      "authors": [
+        "A.F. Bennett",
+        "R.E. Lenski"
+      ]
+    },
+    {
+      "title": "Update of Thermotolerant Genes Essential for Survival at a Critical High Temperature in Escherichia coli",
+      "authors": [
+        "M. Murata",
+        "A. Ishii",
+        "H. Fujimoto",
+        "K. Nishimura",
+        "T. Kosaka",
+        "H. Mori",
+        "M. Yamada"
+      ]
+    },
+    {
+      "title": "Genetic Mutations That Drive Evolutionary Rescue to Lethal Temperature in Escherichia coli",
+      "authors": [
+        "T.N. Batarseh",
+        "S.M. Hug",
+        "S.N. Batarseh",
+        "B.S. Gaut"
+      ]
+    },
+    {
+      "title": "Evolutionary adaptation to temperature. Vii. Extension of the upper thermal limit of Escherichia coli",
+      "authors": [
+        "J.A. Mongold",
+        "A.F. Bennett",
+        "R.E. Lenski"
+      ]
+    },
+    {
+      "title": "Phenotypic Microdiversity and Phylogenetic Signal Analysis of Traits Related to Social Interaction in Bacillus spp. from Sediment Communities",
+      "authors": [
+        "M.D. Rodríguez-Torres",
+        "Á. Islas-Robles",
+        "Z. Gómez-Lunar",
+        "L. Delaye",
+        "I. Hernández-González",
+        "V. Souza",
+        "M. Travisano",
+        "G. Olmedo-Álvarez"
+      ]
+    },
+    {
+      "title": "Diversity of Culturable Thermo-Resistant Aquatic Bacteria along an Environmental Gradient in Cuatro Ciénegas, Coahuila, México",
+      "authors": [
+        "R. Cerritos",
+        "L.E. Eguiarte",
+        "M. Avitia",
+        "J. Siefert",
+        "M. Travisano",
+        "A. Rodríguez-Verdugo",
+        "V. Souza"
+      ]
+    },
+    {
+      "title": "Specificity of Genome Evolution in Experimental Populations of Escherichia coli Evolved at Different Temperatures",
+      "authors": [
+        "D.E. Deatherage",
+        "J.L. Kepner",
+        "A.F. Bennett",
+        "R.E. Lenski",
+        "J.E. Barrick"
+      ]
+    },
+    {
+      "title": "Molecular Signatures for Bacillus Species: Demarcation of the Bacillus Subtilis and Bacillus cereus Clades in Molecular Terms and Proposal to Limit the Placement of New Species into the Genus Bacillus",
+      "authors": [
+        "V. Bhandari",
+        "N.Z. Ahmod",
+        "H.N. Shah",
+        "R.S. Gupta"
+      ]
+    },
+    {
+      "title": "Environmentally-Driven Gene Content Convergence and the Bacillus Phylogeny",
+      "authors": [
+        "I.L. Hernández-González",
+        "G. Moreno-Hagelsieb",
+        "G. Olmedo-Álvarez"
+      ]
+    },
+    {
+      "title": "Antagonism Influences Assembly of a Bacillus Guild in a Local Community and Is Depicted as a Food-Chain Network",
+      "authors": [
+        "R.-A. Pérez-Gutiérrez",
+        "V. López-Ramírez",
+        "Á. Islas",
+        "L.D. Alcaraz",
+        "I. Hernández-González",
+        "B.C.L. Olivera",
+        "M. Santillán",
+        "L.E. Eguiarte",
+        "V. Souza",
+        "M. Travisano"
+      ]
+    },
+    {
+      "title": "Global Transcriptional Response of Bacillus subtilis to Heat Shock",
+      "authors": [
+        "J.D. Helmann",
+        "M.F. Wu",
+        "P.A. Kobel",
+        "F.J. Gamo",
+        "M. Wilson",
+        "M.M. Morshedi",
+        "M. Navre",
+        "C. Paddon"
+      ]
+    },
+    {
+      "title": "Heat-Shock and General Stress Response in Bacillus subtilis",
+      "authors": [
+        "M. Hecker",
+        "W. Schumann",
+        "U. Völker"
+      ]
+    },
+    {
+      "title": "Processing of Stalled Replication Forks in Bacillus subtilis",
+      "authors": [
+        "B. Carrasco",
+        "R. Torres",
+        "M. Moreno-Del Álamo",
+        "C. Ramos",
+        "S. Ayora",
+        "J.C. Alonso"
+      ]
+    },
+    {
+      "title": "Isolation of RNase H Genes That Are Essential for Growth of Bacillus subtilis 168",
+      "authors": [
+        "M. Itaya",
+        "A. Omori",
+        "S. Kanaya",
+        "R.J. Crouch",
+        "T. Tanaka",
+        "K. Kondo"
+      ]
+    },
+    {
+      "title": "RNase H Genes Cause Distinct Impacts on RNA:DNA Hybrid Formation and Mutagenesis Genome Wide",
+      "authors": [
+        "J.W. Schroeder",
+        "R.L. Hurto",
+        "J.R. Randall",
+        "K.J. Wozniak",
+        "T.A. Timko",
+        "T.M. Nye",
+        "J.D. Wang",
+        "P.L. Freddolino",
+        "L.A. Simmons"
+      ]
+    },
+    {
+      "title": "26 Characterization of Organic Compatible Solutes of Halotolerant and Halophilic Microorganisms",
+      "authors": [
+        "M.F. Roberts"
+      ]
+    },
+    {
+      "title": "Evolutionary Rescue in a Changing World",
+      "authors": [
+        "S.M. Carlson",
+        "C.J. Cunningham",
+        "P.A.H. Westley"
+      ]
+    },
+    {
+      "title": "Evolutionary Rescue",
+      "authors": [
+        "G. Bell"
+      ]
+    },
+    {
+      "title": "Trade-Offs between the Instantaneous Growth Rate and Long-Term Fitness: Consequences for Microbial Physiology and Predictive Computational Models",
+      "authors": [
+        "F.J. Bruggeman",
+        "B. Teusink",
+        "R. Steuer"
+      ]
+    },
+    {
+      "title": "The Evolution of Maladaptation",
+      "authors": [
+        "B.J. Crespi"
+      ]
+    },
+    {
+      "title": "Role of Trehalose in Survival of Saccharomyces Cerevisiae under Osmotic Stress",
+      "authors": [
+        "C.-G. Hounsa",
+        "E.V. Brandt",
+        "J. Thevelein",
+        "S. Hohmann",
+        "B.A. Prior"
+      ]
+    },
+    {
+      "title": "Experimental Evolution of Bacillus subtilis",
+      "authors": [
+        "D.R. Zeigler",
+        "W.L. Nicholson"
+      ]
+    },
+    {
+      "title": "An Essential Poison: Synthesis and Degradation of Cyclic Di-AMP in Bacillus subtilis",
+      "authors": [
+        "J. Gundlach",
+        "F.M.P. Mehne",
+        "C. Herzberg",
+        "J. Kampf",
+        "O. Valerius",
+        "V. Kaever",
+        "J. Stülke"
+      ]
+    },
+    {
+      "title": "DisA and C-Di-AMP Act at the Intersection between DNA-Damage Response and Stress Homeostasis in Exponentially Growing Bacillus subtilis Cells",
+      "authors": [
+        "C. Gándara",
+        "J.C. Alonso"
+      ]
+    },
+    {
+      "title": "Control of Potassium Homeostasis Is an Essential Function of the Second Messenger Cyclic Di-AMP in Bacillus subtilis",
+      "authors": [
+        "J. Gundlach",
+        "C. Herzberg",
+        "V. Kaever",
+        "K. Gunka",
+        "T. Hoffmann",
+        "M. Weiß",
+        "J. Gibhardt",
+        "A. Thürmer",
+        "D. Hertel",
+        "R. Daniel"
+      ]
+    },
+    {
+      "title": "Genome-Wide Transcriptional Responses of Escherichia Coli K-12 to Continuous Osmotic and Heat Stresses",
+      "authors": [
+        "T.S. Gunasekera",
+        "L.N. Csonka",
+        "O. Paliy"
+      ]
+    },
+    {
+      "title": "Responses of Microorganisms to Osmotic Stress",
+      "authors": [
+        "E. Bremer",
+        "R. Krämer"
+      ]
+    },
+    {
+      "title": "Thermoprotection of Bacillus subtilis by Exogenously Provided Glycine Betaine and Structurally Related Compatible Solutes: Involvement of Opu Transporters",
+      "authors": [
+        "G. Holtmann",
+        "E. Bremer"
+      ]
+    },
+    {
+      "title": "Evolution after Introduction of a Novel Metabolic Pathway Consistently Leads to Restoration of Wild-Type Physiology",
+      "authors": [
+        "S.M. Carroll",
+        "C.J. Marx"
+      ]
+    },
+    {
+      "title": "First-Step Mutations during Adaptation Restore the Expression of Hundreds of Genes",
+      "authors": [
+        "A. Rodríguez-Verdugo",
+        "O. Tenaillon",
+        "B.S. Gaut"
+      ]
+    },
+    {
+      "title": "Adaptive Mutations in RNA Polymerase and the Transcriptional Terminator Rho Have Similar Effects on Escherichia coli Gene Expression",
+      "authors": [
+        "A. González-González",
+        "S.M. Hug",
+        "A. Rodríguez-Verdugo",
+        "J.S. Patel",
+        "B.S. Gaut"
+      ]
+    },
+    {
+      "title": "What Drives Parallel Evolution?: How Population Size and Mutational Variation Contribute to Repeated Evolution",
+      "authors": [
+        "S.F. Bailey",
+        "F. Blanquart",
+        "T. Bataillon",
+        "R. Kassen"
+      ]
+    },
+    {
+      "title": "Ecological Diversification in the Bacillus cereus Group",
+      "authors": [
+        "M.-H. Guinebretière",
+        "F.L. Thompson",
+        "A. Sorokin",
+        "P. Normand",
+        "P. Dawyndt",
+        "M. Ehling-Schulz",
+        "B. Svensson",
+        "V. Sanchis",
+        "C. Nguyen-The",
+        "M. Heyndrickx"
+      ]
+    },
+    {
+      "title": "Bacillus cereus in a Whey Process",
+      "authors": [
+        "T.S. Pirttijärvi",
+        "L.M. Ahonen",
+        "L.M. Maunuksela",
+        "M.S. Salkinoja-Salonen"
+      ]
+    },
+    {
+      "title": "Adaptive Laboratory Evolution Reveals Regulators Involved in Repressing Biofilm Development as Key Players in Bacillus subtilis Root Colonization",
+      "authors": [
+        "M. Pomerleau",
+        "V. Charron-Lamoureux",
+        "L. Léonard",
+        "F. Grenier",
+        "S. Rodrigue",
+        "P.B. Beauregard"
+      ]
+    },
+    {
+      "title": "Molecular Aspects of Plant Growth Promotion and Protection by Bacillus subtilis",
+      "authors": [
+        "C. Blake",
+        "M.N. Christensen",
+        "Á.T. Kovács"
+      ]
+    },
+    {
+      "title": "Experimental Evolution of Bacillus subtilis Reveals the Evolutionary Dynamics of Horizontal Gene Transfer and Suggests Adaptive and Neutral Effects",
+      "authors": [
+        "S. Slomka",
+        "I. Françoise",
+        "G. Hornung",
+        "O. Asraf",
+        "T. Biniashvili",
+        "Y. Pilpel",
+        "O. Dahan"
+      ]
+    },
+    {
+      "title": "Seed Banks Alter the Molecular Evolutionary Dynamics of Bacillus subtilis",
+      "authors": [
+        "W.R. Shoemaker",
+        "E. Polezhaeva",
+        "K.B. Givens",
+        "J.T. Lennon"
+      ]
+    },
+    {
+      "title": "Transcriptome-Wide Probing Reveals RNA Thermometers That Regulate Translation of Glycerol Permease Genes in Bacillus subtilis",
+      "authors": [
+        "E.A. Jolley",
+        "H. Yakhnin",
+        "D. Tack",
+        "P. Babitzke",
+        "P. Bevilacqua"
+      ]
+    },
+    {
+      "title": "Mismatch-CRISPRi Reveals the Co-Varying Expression-Fitness Relationships of Essential Genes in Escherichia coli and Bacillus Subtilis",
+      "authors": [
+        "J.S. Hawkins",
+        "M.R. Silvis",
+        "B.-M. Koo",
+        "J.M. Peters",
+        "H. Osadnik",
+        "M. Jost",
+        "C.C. Hearne",
+        "J.S. Weissman",
+        "H. Todor",
+        "C.A. Gross"
+      ]
+    },
+    {
+      "title": "Evolutionary Analysis of the Bacillus subtilis Genome Reveals New Genes Involved in Sporulation",
+      "authors": [
+        "L. Shi",
+        "A. Derouiche",
+        "S. Pandit",
+        "S. Rahimi",
+        "A. Kalantari",
+        "M. Futo",
+        "V. Ravikumar",
+        "C. Jers",
+        "V.R.S.S. Mokkapati",
+        "K. Vlahoviček"
+      ]
+    }
+  ],
+  "original_title": "Experimental Evolution of Bacillus subtilis",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/c6e12cb66ab4/biology-13-01088-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/1807a3dfffc4/biology-13-01088-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/a6502068c5b1/biology-13-01088-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/044d6bd3eb53/biology-13-01088-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/b2f055c1d255/biology-13-01088-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/b62c91b1e7f1/biology-13-01088-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/fc805d0c7ece/biology-13-01088-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/1ea637d0e99e/biology-13-01088-g008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3820/11673879/1b58c014b989/biology-13-01088-g009.jpg"
+  ]
+}

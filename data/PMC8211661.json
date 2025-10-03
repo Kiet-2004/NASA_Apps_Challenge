@@ -1,0 +1,594 @@
+{
+  "pmcid": "PMC8211661",
+  "title": "Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications",
+  "abstract": "Healthy plants are vital for successful, long-duration missions in space, as they provide the crew with life support, food production, and psychological benefits. The microorganisms that associate with plant tissues play a critical role in improving plant health and production. To that end, we developed a methodology to investigate the transcriptional activities of the microbiome of red romaine lettuce, a key salad crop that was grown under International Space Station (ISS)-like conditions. Microbial transcripts enriched from host–microbe total RNA were sequenced using the Oxford Nanopore MinION sequencing platform. Results show that this enrichment approach was highly reproducible and could be an effective approach for the on-site detection of microbial transcriptional activity. Our results demonstrate the feasibility of using metatranscriptomics of enriched microbial RNA as a potential method for on-site monitoring of the transcriptional activity of crop microbiomes, thereby helping to facilitate and maintain plant health for on-orbit space food production.",
+  "introduction": "Introduction\n\nAs humanity strives to prepare for the upcoming manned missions to the Moon and cis-lunar orbit, it has become evident that growing plants for food and other life support systems is essential to humankind’s space exploration agenda. To ensure that these future missions are successful, it is necessary to investigate all aspects of the basic physiological and molecular responses of food crops and their microbiomes to the spaceflight environment, so that any issues faced on these missions can be efficiently managed and mitigated on-orbit.\n\nPlants have complex and dynamic relationships with their microorganisms, which are influenced by various stresses and environmental factors, including spaceflight. The novel environments of spaceflight and microgravity analogs have been shown to alter the plant–microbe interactions at both the genetic and physiological levels, oftentimes resulting in increased susceptibility to diseases. For example, soybean seedlings grown in spaceflight are more susceptible to the colonization of fungal pathogen, Phytophthora sojae, when compared to ground controls. In addition, simulated microgravity experiments have demonstrated that clinorotation reduces the growth and development of the legume Medicargo truncatula and significantly affects its symbiotic relationship with the rhizobium Sinorhizobium meliloti and arbuscular mycorrhizal fungi Rhizophagus irregularis. Specifically, nodule size and number were reduced under clinorotation when compared to static controls. Moreover, in another simulated microgravity experiment performed on random positioning machines, the endophytic bacterial diversity in wheat (Triticum aestivum) seedlings behaves differently under simulated microgravity when compared to normal gravity controls. Specifically, some bacterial genera (e.g., Pseudomonas, Paenibacillus, and Bacillus) that can produce plant growth-promoting and antimicrobial substances, exhibit clear differences in relative abundance between microgravity and Earth gravity treatments. However, research on how microgravity impacts plant–microbe interactions is still in its infancy. It is, therefore, critical to develop efficient methods for investigating plant–microbe interactions to expand our current knowledge base for future space exploration. The dynamic nature of plant–microbial interactions requires regular monitoring of a crop’s microbiome and its metabolic activities to assess plant health. These measures together with other surveillance techniques (e.g., hyperspectral imaging) will ensure that successful cultivation of crops on long-duration missions in space can be accomplished.\n\nTo date, plants have been successfully grown in space in multiple hardware systems, such as the Vegetable Production System (Veggie), Advanced Plant Habitat, and the LADA greenhouse. For example, edible leafy crops have been safely produced in the Veggie hardware on the International Space Station (ISS) and consumed by crew members. There have been, however, sporadic instances of contamination with opportunistic fungal pathogens. In a Veggie experiment (VEG-01C), Zinnia hybrida plants were infected by an opportunistic fungal pathogen, Fusarium oxysporum. F. oxysporum is a ubiquitous group of soilborne fungi that are highly adaptable to different habitats and include non-pathogenic strains, plant pathogens, and even opportunistic human pathogens. Pathogenic strains of F. oxysporum can cause Fusarium wilt in nearly every agriculturally important crop. Some multi-host isolates in plants also have the potential to cause invasive fungal infections in immunocompromised mammals. Even though the fungal infection on the Zinnia plants was likely due to a malfunction of a fan in the Veggie hardware, it demonstrated the importance of characterizing the healthy basal microbiome of all plants cultivated in space.\n\nTo achieve this goal, methodologies are needed to regularly monitor changes in the microbial community during flight to potentially mitigate the rise of pathogenic taxa. Currently, the standard protocol for the investigation of plant–pathogen interactions aboard the ISS is to harvest the plant material, freeze it, and return it to Earth for analysis. However, with future missions beyond Low Earth Orbit likely taking up to 6 months between resupply missions, it will be critical to develop faster, on-side methodologies to regularly monitor and assess plant–microbe health.\n\nHere we present a method for using metatranscriptomics coupled with nanopore sequencing to characterize the plant microbiome and their functional activity from plant–microbe total RNA samples that could be feasibly completed on-orbit. Metatranscriptomics has emerged as an effective methodology to characterize the plant microbiome and evaluate its transcriptional activity. Transcriptional surveys, among many others, enable the identification and assessment of the main drivers of changes in plant health. However, to date, metatranscriptomic studies of plant microbiomes have all utilized Illumina sequencing platforms, which are not feasible for spaceflight applications due to their large up-mass, weight, and footprint. The pocket-sized, USB-powered nanopore MinION, sequencing platform, which weighs <100 g and is capable of single-molecule sequencing of native full-length DNA and RNA molecules, has emerged as a viable sequence platform for spaceflight. In 2016, the nanopore-sequencing system was successfully used aboard the ISS for DNA analysis and compared to next-generation sequencing platforms, such as Illumina MiSeq and PacBio RSII. Although the nanopore system has been successfully used for DNA applications, its use for metatranscriptomic analyses is only now emerging and has not yet been used to analyze the metatranscriptome of microbial transcripts from plant–microbe total RNA samples.\n\nAs a proof-of-concept, we have characterized the microbiome of red romaine lettuce grown under a baseline condition (i.e., ISS-like ground controls) using MinION-based metatranscriptomics to demonstrate that plants can be rapidly and effectively screened using this molecular approach. By developing reliable methodologies to regularly monitor and compare changes in the functional activity of the plant microorganisms over time, early detection of opportunistic pathogens can help inform mitigation strategies and provide important insight into agricultural practices aboard spacecraft to maximize crop production and ensure crew safety on long-duration missions.",
+  "methods": "Methods\n\nSample collection and RNA extraction\n\nSeeds of red romaine lettuce, L. sativa cv “Outredgeous” were surface-sanitized with a bleach-hydrochloric acid solution (30 ml 6% Pure Bright Germicidal Ultra Bleach and 500 μl 37% hydrochloric acid) for 1 h and allowed to off-gas for 24 h prior to planting. Sanitization was verified by placing seeds on trypticase soy agar and inhibitory mold agar plates, and incubating for 48–72 h at 30 °C. A standard validation protocol was used to conform the effectiveness of the sanitization protocol. No bacterial or fungal growth was observed on the plates during the screening process. Three surface-sanitized seeds were individually placed in 4 inch pots containing greens-grade arcillite, a calcined clay and time-release fertilizer typically used in spaceflight hardware, and were grown in environmentally controlled growth chambers at the KSC that mimicked conditions of the ISS. The growth chambers were cleaned to remove any potential human-associated microbes before use, but were not sterilized.\n\nTo simulate conditions aboard the ISS, the plants were maintained at 50% relative humidity, 3000 p.p.m. CO2, and 23 °C. The growth cycle was established on a 16 h (light)/8 h (dark) cycle under fluorescent cool white lights (200–300 μE m−2 s−1) and all were on daily automatic watering with deionized water. Pots were thinned to one plant each at day 7 and samples were harvested at day 28 for leafy greens. Lettuce leaf tissue from each of the three pots (denoted as L93, L96, and L101) was placed immediately into RNAlater (Sigma-Aldrich, St. Louis, MO) and stored at −80 °C until ready for RNA extraction.\n\nTotal RNA was extracted from each of the three lettuce leave replicates with the RNeasy Plant Mini Kit following the manufacturer’s protocol (Qiagen, Valencia, CA). The recovered RNA was DNase-treated with the optional on-column digestion following the manufacturer’s protocol (Qiagen, Valencia, CA) and quantified using Qubit 2.0 (Thermo Fisher Scientific, Waltham, MA). A sample of clean RNAlater was used as a negative control throughout the sample preparation process. No RNA was obtained or amplified from the negative control sample.\n\nEnrichment of microbial transcripts\n\nAn enrichment method was developed to enable the separation of plant and microbial RNAs for subsequent sequencing with the Oxford Nanopore-sequencing technology. Using the recovered host–microbial total RNA (7.33–23.56 µg), the Dynabeads poly(A) capture protocol (Thermo Fisher Scientific, Waltham, MA) was performed to remove poly(A)-containing RNAs (e.g., plant mRNAs). Of note, plants and fungi both have poly(A)-containing mRNA. It is therefore likely that some of the fungal RNA were also removed during the enrichment process. The remaining poly(A)-depleted material (microbial mRNA/rRNA and plant rRNA) was then purified with the Zymo RNA clean and concentration kit according to the manufacturer’s protocol (Zymo Research, Irvine, CA). The remaining RNAs were processed using the RiboMinus Plant Kit for the removal of plant rRNA as per the manufacturer’s protocol (Thermo Fisher Scientific, Waltham, MA). The host-depleted RNA (1–10 μg) from each sample was then A-tailed using Poly(A) polymerase (New England Biolabs, Ipswich, MA) for 25 min at 37 °C. The enriched microbial RNA (mRNA and rRNA) quantity was assessed with a Qubit 2.0 fluorometer (Thermo Fisher Scientific, Waltham, MA) and quality was assessed using a 2100 Bioanalyzer (Agilent Technologies, Inc., Santa Clara, CA). To assess the purity of RNA, A260/280 readings were also taken with the UV-1800 Shimadzu spectrophotometer (Shimadzu, Kyoto, Japan). The samples were stored at −80 °C until library preparation.\n\nNanopore cDNA-PCR library preparation\n\nLibrary preparation for cDNA-PCR sequencing was performed using the SQK-PCS109 sequencing kit, following the manufacturer’s instructions (Oxford Nanopore Technologies, Oxford, UK). Briefly, 50 ng of enriched microbial RNA samples from L93, L96, and L101 were reverse transcribed using Maxima H Minus Reverse Transcriptase (Thermo Fisher Scientific, Waltham, MA) and incubated in a thermal cycler at 42 °C for 90 min and then 85 °C for 5 min. To amplify the products without introducing biases, full-length transcripts were selected using the Nanopore rapid attachment primers (SQK-PCS109) using LongAmp Taq 2× Master Mix (New England Biolabs, Ipswich, MA, USA) with the following cycling conditions, an initial denaturing step at 95 °C for 5 min, followed by 14 cycles of 15 s at 95 °C, 15 s at 62 °C, and 1 min at 65 °C, and a final extension step at 65 °C for 6 min and a hold at 4 °C. The products were then purified and separated using Agencourt AMPure XP beads (Beckman Coulter, Indianapolis, IN) with 1.8 (v/v) ratio of magnetic beads to the reaction mixture. The cDNA library using 100 fmol of amplified cDNA with adapters was loaded onto a FLO-MIN106D R9 flowcell and sequencing was performed with a MinION device for 48 h. cDNA derived from each replicate (L93, L96, L101) were sequenced on individual flowcells to provide information about the process reproducibility and variability.\n\nBioinformatics and data analysis\n\nRNA-sequencing data were base-called in real-time using an integrated version of Guppy in the MinKNOW software v3.3.2 via the MinIT device v19.05.2. All FASTQ files were concatenated and used in the bioinformatics pipeline illustrated in Supplementary Fig. 1. Briefly, MinION-sequencing statistics were analyzed using Nanoplot v1.0.0 and adapters were trimmed using Porechop v0.2.4. Reads were filtered for a minimum read length of 100 bp and minimum Q-score of 5 using filtlong v0.2.0 was to ensure that >80% of the reads in all three samples were as previously described. Large chimeric reads of >30,000 bp were also filtered out using a Unix shell command. The N50 read length, which is defined as the read length such that reads of this length or greater composes at least 50% of the total bases, was 417, 616, and 512 bp for the L93, L96, and L101 samples, respectively, whereas the average read length across all samples was 443 bp (Table 1).\n\nTo remove any residual host plant transcripts and rRNA, reads were mapped to well-assembled genomes within the Asteraceae family (e.g., lettuce and sunflower) using Bowtie2, then screened with SortMeRNA v2.1 and removed. Taxonomic classification of microbial 16S and 18S rRNA reads was performed with Kraken2 v2.0.8b using the kraken2-microbial database (https://lomanlab.github.io/mockcommunity/mc_databases.html) derived from the NCBI Reference Sequence database (release 89). Reads counts were normalized across all three samples and only operational taxonomic units with >500 assigned reads were included and visualized with bubble plots created using the R package ggplot2 v3.3.0.\n\nThe remaining metatranscriptome sequences were annotated with Trinotate v3.0 (http://trinotate.github.io) using BLAST + v2.9.0 against the Uniprot database. No assembly was performed on the reads before the annotation, as only high-quality long reads were used in the downstream analyses; this approach has previously been used to annotate MinION-derived reads. Apart from fungi, coding sequences assigned to viruses and other eukaryotes were excluded in the downstream analysis so as to focus on the microbial activity found associated with the lettuce leaf. In addition, transcripts derived from taxa assigned to Cyanobacteria, which represented a substantial number of reads (Supplementary Dataset 1), as well as transcripts associated with photosynthesis genes (Supplementary Dataset 2), were excluded to prevent the inclusion of possible misassigned chloroplast transcripts. Abundance of transcripts that had KEGG annotations were normalized using gene-length corrected transcripts per million method followed by Trimmed Mean of M-values method as implemented in EdgeR. KEGG-annotated association with their respective pathways were performed using the R package KEGGREST. Heatmaps were generated using the Broad Institute’s webtool Morpheus (https://software.broadinstitute.org/morpheus). The hierarchical clustering of the full heatmaps were done using the one minus Pearson’s correlation metric in Morpheus. The gene networking analysis was completed using the R package Phyloseq v1.19.1.\n\nReporting summary\n\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+  "results": "Results\n\nSuccessful enrichment of the microbial RNA fraction from total RNA\n\nTo ensure a comprehensive assessment of the microbes on the edible portion of the lettuce crop, both endophytic and epiphytic microbes of lettuce leaves were collected from plants grown in environmental chambers at the Kennedy Space Center (KSC) that mimicked conditions used aboard the ISS. Salad crops, such as lettuce, are important target crops for establishing a sustainable source of fresh food onboard a spacecraft, as they require minimal processing and can be consumed raw. The lettuce leaves were collected from three individual plants grown for 28 days in separate pots (denoted as L93, L96, and L101) each derived from a single surface-sanitized seed (see “Methods”). From each leaf, total RNA was extracted and then the microbial RNA fraction was enriched (Fig. 1a).\n\nThe high quality of the RNA derived from both the host and associated microbes is depicted in Fig.1a. Effective depletion of the host RNA was observed with the mean loss of 93% of the total RNA (L93, 96.28%; L96, 88.89%; L101, 94.62%), leaving only a residual ribosomal RNA (rRNA) peak for all replicates (Fig.1b). This percentage removal of host RNA was consistent with reports from similar studies that enriched for microbial RNA, indicating that the newly developed enrichment protocol for bacterial messenger RNA (mRNA) was effective at removing a large quantity of plant transcripts.\n\nOverview of MinION-sequencing effectiveness of microbe-enriched metatranscriptome\n\nThe extracted RNA was converted to complementary DNA (cDNA), as currently the Oxford Nanopore direct RNA-sequencing kit does not yet enable barcoding and lower levels of starting template can be used. The replicate cDNA libraries were successfully run on individual MinION flowcells and generated a mean of 10,012,033 base-called reads per replicate pot (Table 1). A detailed figure of the bioinformatic pipeline used in this study is illustrated in Supplementary Fig. 1. After read processing and filtering, the L93, L96, and L101 samples consisted of 4,061,546 (58.34%), 10,730,313 (84.95%), and 7,361,010 (70.49%) high-quality reads, respectively (Table 1). The filtered reads were then mapped to the lettuce (Lactuca sativa) and closely related sunflower (Helianthus annuus) genomes, which are both well-characterized members of the Asteraceae family. All reads that mapped to either lettuce (L93, 19.17%; L96, 22.72%; L101, 7.23%) or sunflower (L93, 3.53%; L96, 5.52%; L101, 1.71%) were removed. Of the remaining reads, most encoded rRNAs (L93, 63.10%; L96 93.75%; L101, 69.34%) were removed for a separate taxonomic analysis. Of the rRNA transcripts, most were associated with the plant host and only the microbial 16S and non-host 18S rRNA reads were retained for taxonomic analysis with 521,345 (26.32%), 2,453,876 (33.99%), and 1,315,470 (28.31%) reads in L93, L96, and L101, respectively (Table 1).\n\nOf the remaining non-rRNA reads, only 57,315 (4.95%), 104,111 (21.64%), and 88,850 (4.32%) reads from the samples L93, L96, and L101, respectively, had an e-value cutoff of 0.05 similar to known proteins in the UniProt Swiss-Prot database (Table 1). Those microbial transcripts that could be annotated were further mapped against the Kyoto Encyclopedia of Genes and Genomes (KEGG) database to identify those functional genes with a KEGG Orthology (KO) identifier, resulting in the annotation of 2689 transcripts in L93, 1283 transcripts in L96, and 4987 transcripts in L101 (Table 1).\n\nTaxonomic composition of 28-day-old lettuce leaf microbial community\n\nThe transcriptionally active composition of the microbial communities and their relative abundance were characterized using the recovered 16S and non-host 18S rRNA transcripts to identify those taxa that associate with the lettuce leaf tissue. A total of 43 microbial phyla from all 3 microbial domains—Archaea, Bacteria, and Eukarya—were identified in these samples and are listed in Supplementary Dataset 1. Focus was placed on the recovered reads associated with bacteria and fungi, and the normalized percent abundances are illustrated in Fig. 2a. Due to the potential for misaligned chloroplast transcripts, all reads that were unclassified or assigned to the Cyanobacteria phylum were excluded from the taxonomic analyses. Of the five most abundant microbial phyla in the lettuce leaf microbiomes, four were bacterial (Firmicutes, Proteobacteria, Actinobacteria, and Bacteroidetes) and one was fungal (Ascomycota), which together comprised 15.48% of the community in sample L93, 13.13% in sample L96, and 15.04% in sample L101 (Supplementary Dataset 1).\n\nWithin these five most abundant phyla, a total of 1240 genera were identified (Supplementary Dataset 1); however, only those genera that had at least 500 normalized reads in all three samples were depicted in Fig. 2b. For each genus, the percentage listed was calculated from the total number of reads for that genus across all three samples relative to the total number of reads across all samples. The top ten most abundant genera within the top five phyla included Clostridium (31.89%), Peptoniphilus (29.28%), Frondihabitans (5.74%), Lactococcus (3.64%), Bacillus (3.08%), Algoriphagus (2.96%), Fusarium (2.68%), Colletotrichum (2.43%), Actinomyces (1.91%), and Nitrosococcus (1.88%) (Fig. 2b). Together, the top eight transcriptionally active bacterial genera represented between 78.34% and 81.67% of the recovered sequences in all three replicates, whereas the two fungal genera Fusarium and Colletotrichum comprised between 4.04% and 5.96% (Fig. 2b).\n\nFunctional activity of the lettuce leaf microbial community\n\nAssessment of the expressed transcripts within the lettuce leaf microbiome revealed a diverse range of functional genes associated with several key metabolic pathways in both the bacterial (Fig. 3a) and fungal (Fig. 3b) populations. Only those genes with a minimum of five transcripts across all samples were included. The full list of genes and their associated KEGG level 3 pathways are listed in Supplementary Figs. 2 and 3. A total of 106 bacterial KEGG level 3 pathways (Supplementary Fig. 2) and a total of 85 fungal KEGG level 3 pathways (Supplementary Fig. 3) were observed.\n\nWithin the lettuce-associated bacterial community, the top 15 bacterial KEGG level 3 pathways comprised 94.28% of the reads that were assigned to 106 distinct pathways (Supplementary Fig. 2). The two most dominant metabolisms observed within the lettuce-associated bacterial community transcriptome were the glyoxylate and dicarboxylate metabolism with a mean of 47.64% of the transcripts and oxidative phosphorylation with a mean of 40.33% transcripts mapping to this pathway (Fig. 3a and Supplementary Fig. 2).\n\nAs visualized in the fungal metatranscriptome heatmap, the top 15 KEGG level 3 fungal pathways accounted for 84.11% of the total read counts that were assigned to 85 distinct pathways (Fig. 3b, Supplementary Fig. 3, and Supplementary Dataset 2). The two dominant fungal pathways observed in the lettuce-associated microbiome included thermogenesis with a mean of 30.43% of the annotated transcripts and oxidative phosphorylation with a mean of 30.25%. Interestingly, the expression of transcripts associated with several distinct signal transduction pathways was observed including the mitogen-activated protein kinase (MAPK) signaling pathways (4.10%), phospholipase D signaling pathway (1.20%), two-component system (0.74%), FoxO signaling pathway (0.63%), and Rap1 signaling pathway (0.63%) (Fig. 3b and Supplementary Dataset 2).\n\nGene network analysis of the expressed transcripts within the lettuce-associated fungal community\n\nThe co-expression network within the signal transduction pathway of the fungal community was clustered by KEGG and mapped using the Bray–Curtis dissimilarity (cutoff = 0.5) approach in Phyloseq (Fig. 4). The nodes represent a KEGG Orthology (KO) gene and the lines (edges) represent the connection to similar expression patterns across the three samples. Shorter edges are indicative of closer connections, whereas longer edges show expression patterns that vary more between the samples. Transcripts that are found in only one sample were excluded. Both nodes and edges are color-coded to represent the KEGG level 3 pathways within the overarching KEGG level 2 signal transduction pathway. The gene network map generated showed two main clusters with high levels of connectivity. In cluster 1, genes associated with a diverse set of KEGG level 3 pathways were intertwined and observed to have some similarity in expression patterns across all three samples. The edges connecting each gene in cluster 1 were longer, which showed more variation in expression patterns between each sample. However, cluster 2 showed an enrichment of genes primarily associated with the MAPK signaling pathway that have remarkably similar expression patterns across all three samples as the edges between genes are shorter. This result suggests that the genes in the MAPK signaling pathway within the fungal community may exhibit a coordinated, co-expression pattern.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Microbiology",
+    "Plant sciences",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Sustained salad crop production requirements for lunar surface",
+      "authors": [
+        "GW Stutte"
+      ]
+    },
+    {
+      "title": "Hummerick, M. E., Garland, J. & Wheeler, R. M. in International Conference on Environmental Systems Vol. AIAA-2011-5255 (American Institute Aeronautics Astronautics, 2011).",
+      "authors": []
+    },
+    {
+      "title": "The challenge of maintaining a healthy microbiome during long-duration space missions",
+      "authors": [
+        "AA Voorhies",
+        "HA Lorenzi"
+      ]
+    },
+    {
+      "title": "Gardening for therapeutic people-plant interactions during long-duration space missions",
+      "authors": [
+        "R Odeh",
+        "CL Guy"
+      ]
+    },
+    {
+      "title": "Pathogenesis, parasitism and mutualism in the trophic space of microbe-plant interactions",
+      "authors": [
+        "AC Newton",
+        "BD Fitt",
+        "SD Atkins",
+        "DR Walters",
+        "TJ Daniell"
+      ]
+    },
+    {
+      "title": "Potential of siderophore-producing bacteria for improving heavy metal phytoextraction",
+      "authors": [
+        "M Rajkumar",
+        "N Ae",
+        "MN Prasad",
+        "H Freitas"
+      ]
+    },
+    {
+      "title": "The rhizosphere microbiome: significance of plant beneficial, plant pathogenic, and human pathogenic microorganisms",
+      "authors": [
+        "R Mendes",
+        "P Garbeva",
+        "JM Raaijmakers"
+      ]
+    },
+    {
+      "title": "Ecology and genomic insights into plant-pathogenic and plant-nonpathogenic endophytes",
+      "authors": [
+        "G Brader"
+      ]
+    },
+    {
+      "title": "A review on the plant microbiome: Ecology, functions, and emerging trends in microbial application",
+      "authors": [
+        "S Compant",
+        "A Samad",
+        "H Faist",
+        "A Sessitsch"
+      ]
+    },
+    {
+      "title": "Growth in microgravity increases susceptibility of soybean to a fungal pathogen",
+      "authors": [
+        "M Ryba-White"
+      ]
+    },
+    {
+      "title": "Plants, plant pathogens, and microgravity-a deadly trio",
+      "authors": [
+        "JE Leach"
+      ]
+    },
+    {
+      "title": "Host-microbe interactions in microgravity: assessment and implications",
+      "authors": [
+        "JS Foster",
+        "RM Wheeler",
+        "R Pamphile"
+      ]
+    },
+    {
+      "title": "Change of growth promotion and disease resistant of wheat seedling by application of biocontrol bacterium Pseudochrobactrum kiredjinaniae A4 under simulated microgravity",
+      "authors": [
+        "Y Fu"
+      ]
+    },
+    {
+      "title": "Microgravity effect on endophytic bacteria communities of Triticum aestivum",
+      "authors": [
+        "Y Qin",
+        "Y Fu",
+        "J Chen",
+        "H Liu",
+        "Y Sun"
+      ]
+    },
+    {
+      "title": "The effects of clinorotation on the host plant, Medicago truncatula, and its microbial symbionts",
+      "authors": [
+        "A Dauzart",
+        "JP Vanderbrink",
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "Anderson, M. S. et al. Key gaps for enabling plant growth in future missions. In: AAIA Space and Astronautics Forum and Exposition. https://doi.org/10.2514/6.2017-5142 (2017).",
+      "authors": []
+    },
+    {
+      "title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station",
+      "authors": [
+        "CLM Khodadad"
+      ]
+    },
+    {
+      "title": "VEG-01: Veggie hardware validation testing on the International Space Station",
+      "authors": [
+        "GD Massa"
+      ]
+    },
+    {
+      "title": "Urbaniak, C. et al. Draft genome sequences of two Fusarium oxysporum isolates cultured from infected Zinnia hybrida plants grown on the International Space Station. Genome Announc. 6, e00326-18 (2018).",
+      "authors": []
+    },
+    {
+      "title": "Prospects of molecular markers in Fusarium species diversity",
+      "authors": [
+        "NS Chandra"
+      ]
+    },
+    {
+      "title": "The evolutionary biology of Fusarium oxysporum",
+      "authors": [
+        "TR Gordon",
+        "RD Martyn"
+      ]
+    },
+    {
+      "title": "Cutaneous infection by Fusarium species in healthy and immunocompromised hosts: implications for diagnosis and management",
+      "authors": [
+        "M Nucci",
+        "E Anaissie"
+      ]
+    },
+    {
+      "title": "Fusarium oxysporum as a multihost model for the genetic dissection of fungal virulence in plants and mammals",
+      "authors": [
+        "M Ortoneda"
+      ]
+    },
+    {
+      "title": "Galleria mellonella as model host for the trans-kingdom pathogen Fusarium oxysporum",
+      "authors": [
+        "GY Navarro-Velasco",
+        "RC Prados-Rosales",
+        "A Ortiz-Urquiza",
+        "E Quesada-Moraga",
+        "A Di Pietro"
+      ]
+    },
+    {
+      "title": "The host range of multi-host endophytic fungi",
+      "authors": [
+        "TS Suryanarayanan"
+      ]
+    },
+    {
+      "title": "Massa, G. D., Newsham, G., Hummerick, M. E., Morrow, R. C. & Wheeler, R. M. Plant pillow preparation for the Veggie plant growth system on the International Space Station. Grav. Space Res. 5, 1 (2017).",
+      "authors": []
+    },
+    {
+      "title": "Schuerger, A. et al. Fusarium oxysporum as an opportunistic pathogen on Zinnia elegans grown onboard the International Space Station. Astrobiology, https://doi.org/10.1089/ast.2020.2399 (2021).",
+      "authors": []
+    },
+    {
+      "title": "Let the core microbiota be functional",
+      "authors": [
+        "P Lemanceau",
+        "M Blouin",
+        "D Muller",
+        "Y Moenne-Loccoz"
+      ]
+    },
+    {
+      "title": "Novel mycoviruses discovered from metatranscriptomics survey of soybean phyllosphere phytobiomes",
+      "authors": [
+        "SL Marzano",
+        "LL Domier"
+      ]
+    },
+    {
+      "title": "Metatranscriptomics and amplicon sequencing reveal mutualisms in seagrass microbiomes",
+      "authors": [
+        "BC Crump",
+        "JM Wojahn",
+        "F Tomas",
+        "RS Mueller"
+      ]
+    },
+    {
+      "title": "Closed-reference metatranscriptomics enables in planta profiling of putative virulence activities in the grapevine trunk disease complex",
+      "authors": [
+        "A Morales-Cruz"
+      ]
+    },
+    {
+      "title": "Metatranscriptomics and nitrogen fixation from the rhizoplane of maize plantlets inoculated with a group of PGPRs",
+      "authors": [
+        "LJ Gomez-Godinez",
+        "SL Fernandez-Valverde",
+        "JC Martinez Romero",
+        "E Martinez-Romero"
+      ]
+    },
+    {
+      "title": "Transcriptome profiling of mouse samples using nanopore sequencing of cDNA and RNA molecules",
+      "authors": [
+        "C Sessegolo"
+      ]
+    },
+    {
+      "title": "Nanopore DNA sequencing and genome assembly on the International Space Station",
+      "authors": [
+        "SL Castro-Wallace"
+      ]
+    },
+    {
+      "title": "Application of metatranscriptomics to soil environments",
+      "authors": [
+        "LC Carvalhais",
+        "PG Dennis",
+        "GW Tyson",
+        "PM Schenk"
+      ]
+    },
+    {
+      "title": "Unbiased strain-typing of arbovirus directly from mosquitoes using nanopore sequencing: a field-forward biosurveillance protocol",
+      "authors": [
+        "JA Russell"
+      ]
+    },
+    {
+      "title": "Evaluating the potential of direct RNA nanopore sequencing: metatranscriptomics highlights possible seasonal differences in a marine pelagic crostation zooplankton community",
+      "authors": [
+        "I Semmouri",
+        "KA De Schamphelaere",
+        "J Mees",
+        "CR Janssen",
+        "J Asselman"
+      ]
+    },
+    {
+      "title": "Direct metatranscriptome RNA-seq and multiplex RT-PCR amplicon sequencing on nanopore MinION - promising strategies for multiplex identification of viable pathogens in food",
+      "authors": [
+        "M Yang"
+      ]
+    },
+    {
+      "title": "Culturing captures members of the soil rare biosphere",
+      "authors": [
+        "A Shade"
+      ]
+    },
+    {
+      "title": "Efficient subtraction of insect rRNA prior to transcriptome analysis of Wolbachia-Drosophila lateral gene transfer",
+      "authors": [
+        "N Kumar"
+      ]
+    },
+    {
+      "title": "Efficient enrichment of bacterial mRNA from host-bacteria total RNA samples",
+      "authors": [
+        "N Kumar"
+      ]
+    },
+    {
+      "title": "Chloroplast ribosomes and protein synthesis",
+      "authors": [
+        "EH Harris",
+        "JE Boynton",
+        "NW Gillham"
+      ]
+    },
+    {
+      "title": "Practical innovations for high-throughput amplicon sequencing",
+      "authors": [
+        "DS Lundberg",
+        "S Yourstone",
+        "P Mieczkowski",
+        "CD Jones",
+        "JL Dangl"
+      ]
+    },
+    {
+      "title": "Urbaniak, C. et al. Validating an automated nucleic acid extraction device for omics in space using whole cell microbial reference standards. Front. Microbiol. 11, 1909 (2020).",
+      "authors": []
+    },
+    {
+      "title": "Diagnostics in space: will zero gravity add weight to new advances?",
+      "authors": [
+        "S Wong"
+      ]
+    },
+    {
+      "title": "Proposal of the genera Anaerococcus gen. nov., Peptoniphilus gen. nov. and Gallicola gen. nov. for members of the genus Peptostreptococcus",
+      "authors": [
+        "T Ezaki"
+      ]
+    },
+    {
+      "title": "Using a control to better understand phyllosphere microbiota",
+      "authors": [
+        "AR Ottesen"
+      ]
+    },
+    {
+      "title": "Taxonomy of the Clostridia: ribosomal ribonucleic acid homologies among the species",
+      "authors": [
+        "JL Johnson",
+        "BS Francis"
+      ]
+    },
+    {
+      "title": "Revisiting the evolution and taxonomy of Clostridia, a phylogenomic update",
+      "authors": [
+        "P Cruz-Morales"
+      ]
+    },
+    {
+      "title": "Analysis of the unexplored features of rrs (16S rDNA) of the genus Clostridium",
+      "authors": [
+        "VC Kalia"
+      ]
+    },
+    {
+      "title": "The microbiological status of (ready to eat) lettuce before and after standard washing",
+      "authors": [
+        "L Topalic"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "F Karouia",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "The top 10 fungal pathogens in molecular plant pathology",
+      "authors": [
+        "R Dean"
+      ]
+    },
+    {
+      "title": "Bacillus species (BT42) isolated from Coffea arabica L. rhizosphere antagonizes Colletotrichum gloeosporioides and Fusarium oxysporum and also exhibits multiple plant growth promoting activity",
+      "authors": [
+        "T Kejela",
+        "VR Thakkar",
+        "P Thakor"
+      ]
+    },
+    {
+      "title": "Villafana, R. T., Ramdass, A. C. & Rampersad, S. N. Development of a new methodology for the detection of Colltotrichum truncatum and Fusarium sp. in bell pepper seed. Phytoparasitica47, 543–555 (2019).",
+      "authors": []
+    },
+    {
+      "title": "Abundance and diversity of the phyllosphere bacterial communities of Mediterranean perennial plants that differ in leaf chemistry",
+      "authors": [
+        "RKP Yadav",
+        "EM Papatheodorou",
+        "K Karamanoli",
+        "HIA Constantinidou",
+        "D Vokou"
+      ]
+    },
+    {
+      "title": "Lajoie, G., Maglione, R. & Kembel, S. W. Drivers of phyllosphere microbial functional diversity in a neotropical forest. Preprint at bioRxiv https://doi.org/10.1101/851485 (2019).",
+      "authors": []
+    },
+    {
+      "title": "Quantitative genetics of the maize leaf microbiome",
+      "authors": [
+        "JG Wallace",
+        "KA Kremling",
+        "LL Kovar",
+        "ES Buckler"
+      ]
+    },
+    {
+      "title": "Genome-wide survey of two-component signal transduction systems in the plant growth-promoting bacterium Azospirillum",
+      "authors": [
+        "S Borland",
+        "A Oudart",
+        "C Prigent-Combaret",
+        "C Brochier-Armanet",
+        "F Wisniewski-Dye"
+      ]
+    },
+    {
+      "title": "Alternative oxidase and uncoupling protein: thermogenesis versus cell energy balance",
+      "authors": [
+        "W Jarmuszkiewicz",
+        "CM Sluse-Goffart",
+        "AE Vercesi",
+        "FE Sluse"
+      ]
+    },
+    {
+      "title": "Map kinases in fungal pathogens",
+      "authors": [
+        "JR Xu"
+      ]
+    },
+    {
+      "title": "A MAP kinase of the vascular wilt fungus Fusarium oxysporum is essential for root penetration and pathogenesis",
+      "authors": [
+        "A Di Pietro",
+        "FI Garcia-MacEira",
+        "E Meglecz",
+        "MI Roncero"
+      ]
+    },
+    {
+      "title": "Functional analysis of the MAPK pathways in fungi",
+      "authors": [
+        "D Martínez-Soto",
+        "J Ruiz-Herrera"
+      ]
+    },
+    {
+      "title": "Mitogen-activated protein kinase pathways and fungal pathogenesis",
+      "authors": [
+        "X Zhao",
+        "R Mehrabi",
+        "JR Xu"
+      ]
+    },
+    {
+      "title": "CCLasso: correlation inference for compositional data through Lasso",
+      "authors": [
+        "H Fang",
+        "C Huang",
+        "H Zhao",
+        "M Deng"
+      ]
+    },
+    {
+      "title": "Advanced methods of plant disease detection: a review",
+      "authors": [
+        "F Martinelli"
+      ]
+    },
+    {
+      "title": "NanoPack: visualizing and processing long-read sequencing data",
+      "authors": [
+        "W De Coster",
+        "S D’Hert",
+        "DT Schultz",
+        "M Cruts",
+        "C Van Broeckhoven"
+      ]
+    },
+    {
+      "title": "Completing bacterial genome assemblies with multiplex MinION sequencing",
+      "authors": [
+        "RR Wick",
+        "LM Judd",
+        "CL Gorrie",
+        "KE Holt"
+      ]
+    },
+    {
+      "title": "Wick, R. Fitlong: Quality Filtering Tool for Long Reads (Github, 2020).",
+      "authors": []
+    },
+    {
+      "title": "Fast gapped-read alignment with Bowtie 2",
+      "authors": [
+        "B Langmead",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "SortMeRNA: fast and accurate filtering of ribosomal RNAs in metatranscriptomic data",
+      "authors": [
+        "E Kopylova",
+        "L Noe",
+        "H Touzet"
+      ]
+    },
+    {
+      "title": "Improved metagenomic analysis with Kraken 2",
+      "authors": [
+        "DE Wood",
+        "J Lu",
+        "B Langmead"
+      ]
+    },
+    {
+      "title": "NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins",
+      "authors": [
+        "KD Pruitt",
+        "T Tatusova",
+        "DR Maglott"
+      ]
+    },
+    {
+      "title": "Wickham, H. ggplot2: Elegant Graphics for Data Analysis (Springer Science & Business Media, 2009).",
+      "authors": []
+    },
+    {
+      "title": "BLAST+: architecture and applications",
+      "authors": [
+        "C Camacho"
+      ]
+    },
+    {
+      "title": "UniProt: the universal protein knowledgebase",
+      "authors": []
+    },
+    {
+      "title": "Assessing the utility of the Oxford Nanopore MinION for snake venom gland cDNA sequencing",
+      "authors": [
+        "AD Hargreaves",
+        "JF Mulley"
+      ]
+    },
+    {
+      "title": "Long-read sequencing of the coffee bean transcriptome reveals the diversity of full-length transcripts",
+      "authors": [
+        "B Cheng",
+        "A Furtado",
+        "RJ Henry"
+      ]
+    },
+    {
+      "title": "KEGG for integration and interpretation of large-scale molecular data sets",
+      "authors": [
+        "M Kanehisa",
+        "S Goto",
+        "Y Sato",
+        "M Furumichi",
+        "M Tanabe"
+      ]
+    },
+    {
+      "title": "A year in the life of a thrombolite: comparative metatranscriptomics reveals dynamic metabolic changes over diel and seasonal cycles",
+      "authors": [
+        "AS Louyakis"
+      ]
+    },
+    {
+      "title": "Tenenbaum, D. et al. KEGGREST: Client-side REST access to the Kyoto Encyclopedia of Genes and Genomes (KEGG). R package version 1.30.1 (Bioconductor Package Maintainer, 2019).",
+      "authors": []
+    },
+    {
+      "title": "phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data",
+      "authors": [
+        "PJ McMurdie",
+        "S Holmes"
+      ]
+    }
+  ],
+  "original_title": "Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/058f/8211661/7b102268a2f3/41526_2021_151_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/058f/8211661/9b6c4664d52b/41526_2021_151_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/058f/8211661/f22e2991405e/41526_2021_151_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/058f/8211661/b360b2bb390a/41526_2021_151_Fig4_HTML.jpg"
+  ]
+}

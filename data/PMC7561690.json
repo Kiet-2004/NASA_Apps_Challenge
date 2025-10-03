@@ -1,0 +1,151 @@
+{
+  "pmcid": "PMC7561690",
+  "title": "Draft Genome Sequences of Klebsiella Species Isolated from the International Space Station",
+  "abstract": "Isolated across four locations aboard the International Space Station (ISS), 10 bacterial strains were compared using whole-genome sequencing analysis and were phylogenetically identified as Klebsiella. The whole-genome sequences will aid in comparative genomic studies of ISS Klebsiella strains with Earth counterparts, to gain insight into their adaptation to space conditions.\n\nABSTRACT\n\nIsolated across four locations aboard the International Space Station (ISS), 10 bacterial strains were compared using whole-genome sequencing analysis and were phylogenetically identified as Klebsiella. The whole-genome sequences will aid in comparative genomic studies of ISS Klebsiella strains with Earth counterparts to gain insight into their adaptation to space conditions.",
+  "introduction": "ANNOUNCEMENT\n\nThe genus Klebsiella was discovered by Carl Friedlander in 1882 from the lungs of patients who had died of pneumonia. In infected individuals, Klebsiella species can populate the gastrointestinal tract and nasopharynx, surviving on mucosal surfaces, and are known for being highly virulent and resistant to antibiotics. When found on Earth, this genus of bacterial pathogens has various degrees of pathogenicity, which can lead to severe breathing problems necessitating a ventilator and rapid on-site treatment. When exposed to space conditions, however, Klebsiella species might become immunogenic and thus pose a risk to already immunocompromised astronauts aboard the International Space Station (ISS). Since microgravity and radiation in space are reported to induce multiple genetic adaptations in microbial species, such as structural modifications of the cell membrane, that can subsequently alter their virulence, the strains identified here might potentially pose a problem for the health of astronauts. Therefore, a genetic comparison is necessary to provide more details on the survival of Klebsiella species, which have gained more attention because classical Klebsiella pneumoniae and its hypervirulent pathotype are becoming increasingly resistant to various antibiotics, such as carbapenems. The pathogenicity and resistance of the members of the genus Klebsiella might potentially create a problem for space travel, specifically for the safety of astronauts.\n\nSeveral strains of Klebsiella species, including K. aerogenes (n = 1), K. pneumoniae (n = 1), and K. quasipneumoniae (n = 8), were isolated from various locations on ISS environmental surfaces. The flight number, location, and other sampling characteristics of the ISS Klebsiella isolates are detailed in Table 1. Briefly, the environmental samples collected from the ISS and subsequently brought down to Earth at room temperature were aseptically handled according to established procedures, and 100-μl aliquots of concentrated samples were spread onto either Reasoner’s 2A (R2A) agar (25°C for 7 days) or blood agar (37°C for 2 days) for isolation of microorganisms. After morphological observation, pure colonies were archived at −80°C until further analyses. Cultures of the 10 Klebsiella strains were grown overnight on tryptic soy agar at 25°C until harvesting and DNA extraction using the ZymoBIOMICS DNA Magbead kit.\n\nGenomes were sequenced using the Illumina (San Diego, CA) Nextera Flex protocol for library preparation, and a NovaSeq 6000 S4 flow cell (paired end, 2 × 150 bp) was used for paired-end sequencing. The quality was assessed with FastQC (v0.11.7). Adapter trimming and quality filtering were then carried out with fastp (v0.20.0). After quality control, the sequences were assembled using SPAdes (v3.11.1). To assess the quality of the final sequences, a QUAST (v5.0.2) analysis was performed to check the N50 values, the number of contigs, and the total genome length (Table 1). The GC contents are 54.96% for K. aerogenes, 57.25% for K. pneumoniae, and 58.11 to 58.13% for K. quasipneumoniae. The 16S rRNA gene sequences of the Klebsiella strains were compared to find the nearest neighbor, and phylogenic characterization was determined by calculating the average nucleotide identity (ANI) using the EZBioCloud calculator, in comparison with the respective type strains (K. aerogenes ATCC 13048T, K. pneumoniae ATCC 13883T, and K. quasipneumoniae 01A030T). Default parameters were used for all software.\n\nData availability.\n\nThis whole-genome sequencing project has been deposited in GenBank, and the GenBank and raw read accession numbers are given in Table 1. The BioProject accession numbers are PRJNA635942, PRJNA640688, and PRJNA640693. Whole-genome sequencing data have also been deposited in NASA GeneLab (accession numbers GLDS-302, GLDS-309, and GLDS-311). The versions described in this paper are the first versions.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "Ueber die Schizomyceten bei der acuten fibrösen Pneumonie",
+      "authors": [
+        "C Friedlaender"
+      ]
+    },
+    {
+      "title": "Colonization, infection, and the accessory genome of Klebsiella pneumoniae",
+      "authors": [
+        "RM Martin",
+        "MA Bachman"
+      ]
+    },
+    {
+      "title": "The growing resistance of Klebsiella pneumoniae; the need to expand our antibiogram: case report and review of the literature",
+      "authors": [
+        "MA Garbati",
+        "AI Al Godhair"
+      ]
+    },
+    {
+      "title": "Growth on carbohydrates from carbonaceous meteorites alters the immunogenicity of environment-derived bacterial pathogens",
+      "authors": [
+        "J Domínguez-Andrés",
+        "M Eleveld",
+        "HJM Op den Camp",
+        "MI de Jonge",
+        "MG Netea",
+        "G Renieris",
+        "TJ Boltje",
+        "RJ Mesman",
+        "L van Niftrik",
+        "SJ Moons",
+        "P Rettberg",
+        "JWM van der Meer",
+        "EJ Giamarellos-Bourboulis"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": [
+        "PW Taylor"
+      ]
+    },
+    {
+      "title": "Hypervirulent Klebsiella pneumoniae",
+      "authors": [
+        "TA Russo",
+        "CM Marr"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data",
+      "authors": [
+        "S Andrews"
+      ]
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": [
+        "S Chen",
+        "Y Zhou",
+        "Y Chen",
+        "J Gu"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": [
+        "S-H Yoon",
+        "S Ha",
+        "J Lim",
+        "S Kwon",
+        "J Chun"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Klebsiella Species Isolated from the International Space Station"
+}

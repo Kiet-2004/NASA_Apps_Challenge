@@ -1,0 +1,925 @@
+{
+  "pmcid": "PMC6348315",
+  "title": "A member of the CONSTANS-Like protein family is a putative regulator of reactive oxygen species homeostasis and spaceflight physiological adaptation",
+  "abstract": "Abstract\n\nA feature of the physiological adaptation to spaceflight in Arabidopsis thaliana (Arabidopsis) is the induction of reactive oxygen species (ROS)-associated gene expression. The patterns of ROS-associated gene expression vary among Arabidopsis ecotypes, and the role of ROS signalling in spaceflight acclimation is unknown. What could differences in ROS gene regulation between ecotypes on orbit reveal about physiological adaptation to novel environments? Analyses of ecotype-dependent responses to spaceflight resulted in the elucidation of a previously uncharacterized gene (OMG1) as being ROS-associated. The OMG1 5′ flanking region is an active promoter in cells where ROS activity is commonly observed, such as in pollen tubes, root hairs, and in other tissues upon wounding. qRT-PCR analyses revealed that upon wounding on Earth, OMG1 is an apparent transcriptional regulator of MYB77 and GRX480, which are associated with the ROS pathway. Fluorescence-based ROS assays show that OMG1 affects ROS production. Phylogenetic analysis of OMG1 and closely related homologs suggests that OMG1 is a distant, unrecognized member of the CONSTANS-Like protein family, a member that arose via gene duplication early in the angiosperm lineage and subsequently lost its first DNA-binding B-box1 domain. These data illustrate that members of the rapidly evolving COL protein family play a role in regulating ROS pathway functions, and their differential regulation on orbit suggests a role for ROS signalling in spaceflight physiological adaptation.\n\nPlants adjust to spaceflight by changing patterns of gene expression. The analysis of how different Arabidopsis plants respond to space resulted in the discovery of a previously uncharacterized gene (OMG1), which was consistently induced in space. This research revealed that OMG1 belongs to the CONSTANS-Like protein family and is involved in maintaining the reactive oxygen species pathway, which appears to be an important feature of the physiological adaptation of plants to the spaceflight environment. It also shows that spaceflight experiments can be used as a platform to discover novel gene function and provide further insights into terrestrial plant biology.",
+  "introduction": "Introduction\n\nThe complex networks and signalling pathways that equip plants to cope with environmental challenge developed over evolutionary time in terrestrial environments. Exposing plants to novel environments presents opportunities to understand how plants adjust to conditions outside their evolutionary experience. Spaceflight is one such novel environment, and understanding how plants function outside of Earth’s boundaries is also integral to space exploration. Plants respond to spaceflight in ways that are dependent on species, ecotype, genetics and even organs. Indeed, even a single gene difference can influence the spaceflight response, thus investigating ecotype-dependent spaceflight transcriptomes can reveal strategies for physiological adaptation to spaceflight while expanding understanding of gene function in terrestrial environments.\n\nThe physiological impact of spaceflight is reflected in the patterns of gene expression. Irrespective of plant growth hardware, duration in space or age of plants, one consensus is that spaceflight elicits responses from pathways associated with cell wall remodelling, cell polarity, phytohormone-mediated processes, as well as general stress responses, such as wounding, pathogen defence, heat shock and reactive oxygen species (ROS). In addition, a large proportion of genes differentially expressed in spaceflight encode unknown proteins.\n\nSpaceflight-grown Arabidopsis roots tend to be smaller, have fewer lateral roots and shorter root hair development than their terrestrial controls. Aspects of these morphologies in ecotype Columbia (Col-0) suggest a relationship between the down-regulation of several peroxidase genes in spaceflight.\n\nIn this study, a spaceflight-induced gene of unknown function identified from roots was investigated for its potential involvement in ROS-related functions. AT1G05290, which we have dubbed Orbitally Manifested Gene 1 (OMG1), was one of the highest significantly (P = 0.0005) induced genes in the Advanced Plant Experiment 01 (APEX01) spaceflight data set (fold change = 12). Two distinct biochemical assays typically used to measure ROS activity indicated that knocking out OMG1 alters the production of ROS. Co-expression networks around OMG1 show correlations to genes involved in ROS-associated oxidative phosphorylation pathways. OMG1 was also expressed in organs known to highly utilize ROS during development, such as root hairs and pollen tubes. In addition, OMG1 is an unrealized member of the CONSTANS-Like family of transcription factors. These findings, originating with the novel environment of spaceflight, further the understanding of plant growth and development and provide insight into the role of a heretofore unknown gene.",
+  "methods": "Materials and Methods\n\nROSMETER analysis\n\nThe ROSMETER tool assesses the ROS-related transcriptomic signature in a large-scale Arabidopsis gene expression data set. Arabidopsis gene expression profiles from two independent spaceflight experiments, APEX01 and Advanced Plant Experiment 03-2 (APEX03-2), along with their corresponding ground controls, were used to correlate differential gene expression in spaceflight with specific ROS species and origins. The APEX01 experiment utilized two ecotypes and both were planted on each plate of the experiment. Since the entire plate was harvested on orbit to a single tube, the subsequent transcriptomic analyses comprised 60 % Wassilewskija (WS) and 40 % Col-0. In the APEX03-2 data set, WS and Col-0 were kept on separate plates, harvested into separate tubes and analysed individually. A data set from Col-0 compared to WS vertically grown in standard laboratory conditions was included as an additional control. From each data set, Affymetrix Probeset-ID, Gene Locus ID, P-value and fold change were listed and submitted to ROSMETER. The heatmap was constructed using the GENE-E software with hierarchical clustering using the Matrix value offered in the software.\n\nPlant materials and growth conditions\n\nSeeds from both Col-0 and WS were prepared for APEX01 and APEX03-2 as previously described. Briefly, plants were cultured on Phytagel™ 10 cm Petri plates and grown either in the Advanced Biological Research System (ABRS) hardware (APEX01), or in the Veggie hardware (APEX03-2) under continuous lighting of ~80–135 μmol m−2 s−1 PAR. In this study, the effects of the spaceflight environment were evaluated, which includes ambient radiation, microgravity and attending effects on convection. In both experiments, the ground control plants were grown with a 24- to 48-h schedule delay that allowed the comparable ground growth chambers to be programmed with the precise environmental conditions that the International Space Station (ISS)-grown plants received on orbit.\n\nPlants grown for additional laboratory analyses were grown on Phytagel™ 10 cm plates or in soil, and placed in a greenhouse growth chamber on a 24-h light cycle (~80 μmol m−2 s−1 PAR) at 22 °C.\n\nOMG1 promoter::GUSmgfp5 transgenic plants and analyses\n\nA 0.8-kb 5′ flanking region upstream of the OMG1 (AT1G05290) initial Met was amplified from Arabidopsis gDNA using primer pair A [seeSupporting Information—Table S1], which contains restriction enzyme sites BamHI in the forward primer and NcoI in the reverse. The sequenced and confirmed BamHI/NcoI fragment containing the OMG1 5′ flanking region was cloned into pCAMBIA1303 to create the OMG1p::GUSmgfp5 fusion construct. Although this region may not represent the full complement of motifs that regulate OMG1, the 0.8-kb 5′ flanking region does serve to promote OMG1 transcription and will be referred to as the basal promoter. The construct was then transformed into Agrobacterium (Agrobacterium tumefaciens) strain GV3101 for floral dip transformation into WS plants. Ten independent OMG1p::GUSmgfp5 transgenic lines grown on selection media (250 mg L−1 Carbenecillin and 50 mg L−1 Hygromycin) were screened for T3 homozygosity. Plants grown on Phytagel plates were used for histochemical localization of β-glucuronidase (GUS).\n\nPollen and pollen tube analyses were performed as described. T1 heterozygous populations of pollen grains and tubes were incubated with X-Gluc to reveal the specificity of the histochemical localization in transformed pollen. Basal OMG1 promoter activity in plants requires ~3 h of staining before detection of GUS in the various locations, whereas GUS activity induced by wounding was observed within 30 min of staining.\n\nIn the GUS qRT-PCR wounding experiments with OMG1p::GUSmgfp5, comparable leaves from three individual plants were crimped with forceps and left intact on the plant for the duration of each time point (30 min, 1, 4 and 16 h). Leaves were harvested to liquid nitrogen and stored at −80 °C until RNA extraction. In the mock and immediate time point, leaves were either unwounded or crimped and immediately frozen in liquid nitrogen. Total RNA was extracted using RNAeasy (Qiagen) according to the manufacturer’s instructions. cDNA transcribed from total RNA was used to analyse the transcript abundance of GUSA. Primer pairs B and C [seeSupporting Information—Table S1] were used for the analyses. GUSA transcript abundance was normalized to UBQ11 (AT4G05050).\n\nGene expression analyses of OMG1 and other downstream genes\n\nOMG1 RT-qPCR analyses used TaqMan™ (Applied Biosystems) on spaceflight material from APEX01 and APEX03-2. OMG1 gene expression was normalized to UBQ11 primer and probe sequences D and E [seeSupporting Information—Table S1]. The omg1 knockout (KO) line (SALK_045742C) was validated for a homozygous T-DNA insertion using primers F. Homozygous lines were selfed until all progeny were homozygous and screened for the absence of full-length OMG1 transcript [seeSupporting Information—Fig. S1]. RT-qPCR analyses of OMG1 expression induced by a time course wounding assay were performed on wild-type (WT) Col-0, WS and omg1 lines. Three individual plants with leaves of similar ages and sizes were wounded by crushing between two glass slides. The wounded leaves were left attached to the plant for the allotted times (mock, immediate, 5, 10, 30 min and 1 h) before being harvested into liquid nitrogen and stored at −80 °C. RT-qPCR analysis was conducted using SYBR Green master mix (Applied Biosystems) along with the primer pairs C, D (without probe), G–H and L–R [seeSupporting Information—Table S1].\n\nFluorescent biochemical ROS assays\n\nFor the ROS accumulation assay, intact leaves from WT Col-0, omg1 KO and rbohd KO (SALK_070610) were wounded with a 10 µL pipette tip and immediately immersed into the fluorescent probe 5-(and 6)-carboxy-2′,7′-dichloro dihydrofluorescein diacetate (DCF-DA) (Sigma) solution as described in. Briefly, wounded and unwounded leaves were vacuum infiltrated in the dark for 20 min in 60 µM of DCF-DA in standard buffer. Leaves were then rinsed in standard buffer and observed under GFP bandpass filters using the Olympus BX51 compound light microscope at 10× magnification with 55 ms exposure time. Quantification of fluorescence intensity using ImageJ software was previously described.\n\nA luminol-based ROS assay was done by measuring hydrogen peroxide produced by leaf discs when exposed to flg22. Discs (0.125 cm2) of 6-week-old WT Col-0, omg1 and rbohd plants were incubated in 100 µL ddH2O overnight in 96-well luminometer plates. Water was replaced with the reaction solution of 40 µM luminol (Sigma-Aldrich) and 10 µg mL−1 horseradish peroxidase (Sigma-Aldrich) supplemented with 50 nM of flg22 or water for the mock controls. ROS measurements expressed as means of RLU (relative light units) were taken at 2-min intervals for a period of 38 min.\n\nPhylogenetic analysis\n\nProtein sequences were identified by rpsblast search of the NR database; full-length protein sequences containing a single CCT domain (pfam06203) with e-value < 0.01 were considered potential OMG1 homologs. Protein sequences were aligned using Clustal Omega v1.2.3, PROBALIGN, MUSCLE v3.8.31, MSAProbs v0.97, PROBCONS and mafft-einsi v7.215, with default parameters. Alignments were left unprocessed or processed by Gblocks v0.91 to remove potentially ambiguous regions. The minimum number of sequences for a flank position (-b2) was 3/5 the total number of sequences. The maximum number of contiguous non-conserved positions (-b3) was 10. The minimum block length (-b4) was 5, and gap positions were allowed (-b5 = a). Other Gblocks parameters were left at default values. Initial maximum likelihood phylogenies were constructed from each alignment using FastTree v2.1.7 with default parameters. Initial trees were used as starting trees for full maximum likelihood reconstruction using RAxML v8.2.8. Maximum likelihood phylogenies produced from each alignment were converted to a clade presence-absence matrix using the Super Tree Toolkit v0.1.2, and a supertree was inferred from this matrix using the BINCAT model in RAxML. Additionally, all individual sequence alignments were concatenated into a single supermatrix, which was used to infer the maximum likelihood protein family phylogeny using RAxML, with the best-fit evolutionary model selected by AIC. A consensus of ‘supertree’ and ‘supermatrix’ results was plotted using FigTree v1.4.3.\n\nProtein structural modelling of the B-box2 domain was done using both the Phyre2 and Chimera. The closest OMG1 homolog, c2junA of the human Midline-1 (MID1) with a 92 % confidence level was used to predict the overall folding of the B-box domains in OMG1. The predicted structural model of OMG1 was compared to the x-ray crystal structure of c2junA using Chimera and MatchMaker. Side chains positioned near the zinc ions were displayed to predict the potential of OMG1 binding to zinc ions.\n\n35S promoter:OMG1cds-sGFPS65T fusion construct for subcellular localization\n\nThe coding sequence of OMG1 (RefSeq ID:NP_172021.2) was amplified from cDNA using primer pair I [seeSupporting Information—Table S1]. The PCR fragment was sequenced before being cloned into the pCAMBIA1303 along with sGFP(S65T) gene via SpeI and BstEII restriction sites using primer pairs J [seeSupporting Information—Table S1]. Primer pair K was then used to amplify the entire OMG1cds-sGFP(S65T), which was validated by sequencing and cloned into pCAMBIA1302 vector via NcoI and BstEII restriction sites. For subcellular localization, Agrobacterium-GV3101 containing 100 µM acetosyringone, 0.05 % Silwet-77 and the pCAMBIA1302 vector or pCAMBIA1302-OMG1cds-sGFPS65T fusion vector were incubated in the dark for 20 min at 28 °C. Leaves of 4-week-old tobacco (Nicotiana benthamiana) seedlings were injected and GFP signal was observed after 2 days at 25 °C in the dark. DAPI was used to indicate the nucleus.",
+  "results": "Results\n\nROS-producing genes are differentially expressed in response to spaceflight in an ecotype-specific manner\n\nThe differential gene expression data sets of the three independent spaceflight experiments and their comparable ground controls were used in the ROSMETER analyses. The heatmap shows the positive-(red), negative-(blue) and no correlation-(black) between the ROS indices and the queried spaceflight transcriptomes (Fig. 1A). A general positive correlation of ROS-producing genes was observed in all the spaceflight transcriptomes and hierarchical clustering displayed a higher similarity with the APEX03-2_WS data set compared to the APEX03-2_Col-0 data set. Two interesting ROS correlation groups were observed in the heatmap. Group A showed that only the spaceflight transcriptome of WS positively correlated with the cytoplasmic ascorbate peroxidase knockout (KO-APX1) experiments, which represent cytoplasmic H2O2 ROS indices, whereas in the Col-0 background cytosolic ROS shows no correlation. Group B showed ecotype-related differences in the correlations associated with mitochondrial stress. Specifically, TDNA-AOX-MLD and Retenone-3h indices showed that if one ecotype had a positive correlation the other had no correlation. In addition, in the Retenone-12h and TDNA-AOX indices, the mixed ecotype transcriptome shows a similar trend to one of the two ecotypes. The control data set, which reflects terrestrial ecotype differences between Col-0 and WS, showed that many of the genes differentially expressed between the two ecotypes are associated with the ROS-scavenging mechanism. A representative transcriptome heatmap from the APEX03-2 spaceflight experiment that compared several significantly (P < 0.01) differentially expressed (>1 or −1 < log2 fold change) peroxidase genes between 4-day-old Col-0 and WS ecotypes illustrated that Col-0 alters the expression of many more peroxidase genes in spaceflight than does WS (Fig. 1B). Peroxidases, an integral part of ROS signalling in cell wall remodelling, cell elongation, auxin catabolism, and response to abiotic and biotic stress, were found to be differentially expressed in spaceflight.\n\nOMG1 transcript is up-regulated in WS ecotype across multiple spaceflight experiments\n\nOMG1 expression was up-regulated in WS roots across multiple spaceflight experiments (APEX01-1B, APEX01-2B and APEX03-2) but remained unchanged in Col-0 (Fig. 2). The Box-Whisker plot of Fig. 2 illustrates the median fold change of OMG1 expression between spaceflight and the ground control from a total of nine replicates from each sample. Each spaceflight experiment represents a distinct launch and orbital plant growth event. In both the APEX01 experiments, seeds germinated on orbit grew for 12 days before being harvested. OMG1 expression shows a 4-fold change in spaceflight compared to ground controls in APEX01-2B and 3.5-fold change in APEX01-1B. In both analyses, the large spread between the maximum and the minimum can be attributed to the mixture of ecotypes. In a subsequent spaceflight experiment, APEX03-2, plants grew for 8 or 11 days on the ISS before being harvested. In the APEX03-2 8-day-old plants, Col-0 showed a median fold change of 1 (no change), whereas WS showed a 3.9-fold increase in spaceflight. In the APEX03-2 11-day-old plants, Col-0 showed a median fold change of 1 and WS showed a 2.1-fold increase in expression.\n\nThe OMG1 basal promoter activity was observed in roots, pollen tubes and upon wounding\n\nHistochemical GUS staining revealed some basal OMG1 promoter activity in roots and pollen but showed heighten activity upon wounding in the roots and leaves. T3 homozygous OMG1p::GUSmgfp5 transgenic plants were used to characterize the activity of the OMG1 promoter. In roots, basal OMG1 promoter activity was observed at low levels in the maturation zone of both the primary and lateral roots and root hairs (Fig. 3A, i–iv). In addition, basal promoter activity was also observed in pollen grains and pollen tubes (Fig. 3A, v–vii). A T1 heterozygous population of pollen grains grown in pollen germinating media (Fig. 3A, vii) was used to visualize the specificity of the GUS enzymatic reactions in transformed pollen. Serendipitously, wounded plant tissues were observed to have heightened OMG1 promoter activity (Fig. 3B).\n\nTo ensure that OMG1 promoter activity was specific to wounding, leaf and root tissues from WT Col-0, ADHp::GUS and OMG1p::GUSmgfp5 lines were wounded with a pair of forceps. In this wounding experiment, GUS staining was observed only in the OMG1p::GUSmgfp5 line. A qRT-PCR analysis of GUSA transcripts from leaves wounded at different time points showed that OMG1 promoter activity heightens immediately after wounding and dissipates after 30 min (Fig. 3C).\n\nOMG1 regulates the expression of MYB77 and GRX480 known to be induced in spaceflight and upon wounding\n\nEight genes [seeSupporting Information—Table S2] were used to elucidate potential functional interactions with OMG1. Since OMG1 promoter activity was shown to rise immediately after wounding (Fig. 3C), a wounding time course of mock, immediate, 10 min and 1 h was used to screen the expression of the genes listed in Supporting Information—Table S2 that could be affected by knocking out OMG1. Two genes, GRX480 (At1g28480) and MYB77 (At3g50060), out of eight genes tested showed significant differences (Student’s t-test P < 0.05) in gene expression between WT and omg1 lines (Fig. 4D and F). The expression of GRX480 was repressed after wounding in the omg1 line and did not increase as did the WT line. On the other hand, MYB77 expressed in the omg1 line showed a significant delay in down-regulating gene expression when compared to the WT at the 10-min post-wounding time point. MYB77 and GRX480 were significantly differentially expressed between Col-0 and WS (Fig. 5). Col-0 showed a median fold change of 1.7 and WS showed a 3-fold increase in MYB77 expression in spaceflight relative to ground controls (Fig. 5A). In the GRX480 analyses, Col-0 showed a median fold change of 0.3 and WS showed a median fold change of 1.3 in spaceflight relative to ground controls (Fig. 5B).\n\nROS accumulation upon wounding and flg22 induction is altered in omg1 KO leaves compared to Col-0 leaves\n\nWild-type Col-0, omg1 and respiratory burst oxidase homology D (rbohd) KO plants, which are delayed in ROS accumulation, were subjected to mechanical wounding with a pipette tip. The production of hydroxyl, peroxyl and other ROS activity within the cells was measured with DCF-DA assay. Green fluorescence at the site of wounding was captured after 20 min with light microscopy. Wild-type Col-0 leaves produced ROS around the wound site, whereas neither omg1 nor rbohd showed prominent production of ROS (Fig. 6A). Quantification of fluorescence using ImageJ showed significant differences (Student’s t-test P < 0.01) between Col-0 and the mutant lines (Fig. 6B).\n\nBased on luminol ROS assays OMG1 affects the elicitor-induced generation of extracellular ROS. Flg22-induced hydrogen peroxide production by leaf discs of omg1 mutants was ~20 % higher compared to Col-0. Water-treated controls along with the rbohd leaf discs showed no production of flg22-induced H2O2 (Fig. 6C). Since elicitor-induced extracellular ROS is governed by RbohD, the measurement of RbohD expression between Col-0 and omg1 lines in a wounding time course was analysed (Fig. 6D). The relative expression of RbohD showed no significant difference between WT and omg1 leaves.\n\nOMG1 is a member of the CONSTANS-Like protein family\n\nThe predicted OMG1 gene encodes a 369 amino acid protein that contains a C-terminal 43 amino acid sequence that is 84 % sequence similarity to the (CONSTANS (CO), CONSTANS-Like (COL) and TIMING OF CAB EXPRESSION1 (TOC1)) ‘CCT’ domain. OMG1 also contains two divergent B-box domains in the N-terminal region [seeSupporting Information—Fig. S2]. The OMG1 B-box1 domain has 51 % similarity to the B-box1 consensus sequence, and the OMG1 B-box2 domain has a 94 % similarity to the B-box2 consensus sequence.\n\nA consensus phylogeny suggests that OMG1 belongs to group II of the CO and COL family of transcriptional regulators (Fig. 6). Maximum likelihood phylogenies placed a clade of OMG1-related sequences from Brassicas and Monocots (SH-like aLRT > 0.989) close to COL11-12 sequences from across flowering plants [seeSupporting Information—Table S3]. OMG1 appears closely related to the COL11-12 and COL9-10 lineages, although the precise placement of the OMG1 group remains unresolved.\n\nBoth the OMG1 and the COL11-12 clades consist of sequences representing both monocots and dicots. In the consensus tree, a single COL11-12-like sequence from the basal flowering plant Amborella trichopoda rooted the OMG1 and COL11-12 clades (SH-like aLRT > 0.912), suggesting that the OMG1 lineage arose via a gene-duplication event in flowering plants, prior to the divergence of monocots and dicots (Fig. 7). However, no OMG1-related sequences from Eudicots were observed outside the Brassicaceae family, suggesting that either OMG1 was lost from non-Brassica dicots, or the sequence has diverged so much in these lineages as to be unrecognizable. The different alignment and tree-reconstruction procedures support the early-duplication hypothesis, and make it unlikely that the grouping of monocot and dicot OMG1-related sequences is a phylogenetic artefact.\n\nThe high level of sequence divergence in the OMG1 B-box1 domain is primarily due to a 13-amino acid deletion close to the start of the B-box1 consensus sequence CX-------------XAXLCX2CDX3H (Fig. 7). This B-box1 deletion was observed across several Brassica sequences nested within the OMG1 clade, but this deletion was not found in monocot OMG1, suggesting it probably occurred late in the Brassicaceae lineage. Although the OMG1 B-box2 domain is largely conserved (Fig. 8), two highly conserved consensus amino acids are different in OMG1 compared to the consensus sequence CX2CX7-10CX7CX2CX5-12H. The third cysteine in the consensus sequence is serine in OMG1 (C49S), and the histidine at the end of the consensus sequence is leucine (H73L). Examination of B-box2 domains outside the OMG1 clade suggests that these substitutions are unique to the OMG1 clade [seeSupporting Information—Fig. S3].\n\nThe B-box domain family belongs to a subgroup of zinc-binding proteins stabilized by canonical cysteine-rich zinc-finger motifs. The inferred structure of Zn-bound OMG1 B-box2 suggests that OMG1 is capable of stably binding at least one zinc ion, via a canonical zinc-finger motif (Fig. 9). In the model, four conserved cysteine residues surrounding the CX2C configuration were spatially positioned in a similar fashion as the amino acids surrounding the first Zn-binding site in the human MID1 template, suggesting this first OMG1 Zn-binding site retains a canonical zinc-finger structure.\n\nHowever, radical substitutions at key Zn-binding sites (C49S, E52Q, C67I and H73L) occurring in the second Zn-binding pocket of OMG1’s B-box2 motif appear to completely disrupt potential Zn-binding (Fig. 9). It remains unclear whether the series of indels and substitutions after the OMG1 B-box2 domain could result in a novel structure that facilitates zinc ion binding or a different functional motif. Furthermore, sequences within the OMG1 clade show similar substitutions at most of these conserved Zn-binding residues, implicating the possibility that functional B-box2 in these proteins require only a single Zn ion [seeSupporting Information—Fig. S3].\n\nOMG1 localizes to the nucleus\n\nThe transient expression of a 35S::OMG1-eGFP fusion protein in tobacco leaves indicates that OMG1 localizes in the nucleus. The highly conserved CCT domain in OMG1 has been associated with important functions in transcriptional regulation, DNA binding and nuclear localization. Cells transformed with 35S::eGFP alone displayed a uniform expression of eGFP throughout the leaf pavement cells in the vacuoles, nucleus and membrane. However, cells transformed with 35S::OMG1-eGFP fusion were specifically localized to the nucleus, as indicated by the DAPI nuclei-specific counter stain (Fig. 10).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Arabidopsis thaliana",
+    "B-box domain",
+    "CONSTANS-Like",
+    "ecotype-specific",
+    "microgravity",
+    "reactive oxygen species",
+    "spaceflight",
+    "transcription factor",
+    "uncharacterized genes",
+    "Studies"
+  ],
+  "citations": [
+    {
+      "title": "Production of reactive oxygen species and wound-induced resistance in Arabidopsis thaliana against Botrytis cinerea are preceded and depend on a burst of calcium",
+      "authors": [
+        "E Beneloujaephajri",
+        "A Costa",
+        "F L’Haridon",
+        "JP Métraux",
+        "M Binda"
+      ]
+    },
+    {
+      "title": "The Arabidopsis information resource: making and mining the “gold standard” annotated reference plant genome",
+      "authors": [
+        "TZ Berardini",
+        "L Reiser",
+        "D Li",
+        "Y Mezheritsky",
+        "R Muller",
+        "E Strait",
+        "E Huala"
+      ]
+    },
+    {
+      "title": "Contribution of transcriptional regulation to natural variations in Arabidopsis",
+      "authors": [
+        "WJ Chen",
+        "SH Chang",
+        "ME Hudson",
+        "WK Kwan",
+        "J Li",
+        "B Estes",
+        "D Knoll",
+        "L Shi",
+        "T Zhu"
+      ]
+    },
+    {
+      "title": "Engineered GFP as a vital reporter in plants",
+      "authors": [
+        "W Chiu",
+        "Y Niwa",
+        "W Zeng",
+        "T Hirano",
+        "H Kobayashi",
+        "J Sheen"
+      ]
+    },
+    {
+      "title": "Arabidopsis alcohol dehydrogenase expression in both shoots and roots is conditioned by root growth environment",
+      "authors": [
+        "HJ Chung",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Floral dip: a simplified method for Agrobacterium-mediated transformation of Arabidopsis thaliana",
+      "authors": [
+        "SJ Clough",
+        "AF Bent"
+      ]
+    },
+    {
+      "title": "Transcriptome analyses of Arabidopsis thaliana seedlings grown in space: implications for gravity-responsive genes",
+      "authors": [
+        "MJ Correll",
+        "TP Pyle",
+        "KD Millar",
+        "Y Sun",
+        "J Yao",
+        "RE Edelmann",
+        "JZ Kiss"
+      ]
+    },
+    {
+      "title": "Growth and lignification in seedlings exposed to eight days of microgravity",
+      "authors": [
+        "JR Cowles",
+        "HW Scheld",
+        "R Lemay",
+        "C Peterson"
+      ]
+    },
+    {
+      "title": "Activation of defense response pathways by OGs and Flg22 elicitors in Arabidopsis seedlings",
+      "authors": [
+        "C Denoux",
+        "R Galletti",
+        "N Mammarella",
+        "S Gopalan",
+        "D Werck",
+        "G De Lorenzo",
+        "S Ferrari",
+        "FM Ausubel",
+        "J Dewdney"
+      ]
+    },
+    {
+      "title": "ProbCons: probabilistic consistency-based multiple sequence alignment",
+      "authors": [
+        "CB Do",
+        "MS Mahabhashyam",
+        "M Brudno",
+        "S Batzoglou"
+      ]
+    },
+    {
+      "title": "MUSCLE: multiple sequence alignment with high accuracy and high throughput",
+      "authors": [
+        "RC Edgar"
+      ]
+    },
+    {
+      "title": "Spaceflight induces specific alterations in the proteomes of Arabidopsis",
+      "authors": [
+        "RJ Ferl",
+        "J Koh",
+        "F Denison",
+        "A-L Paul"
+      ]
+    },
+    {
+      "title": "The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit",
+      "authors": [
+        "RJ Ferl",
+        "A-L Paul"
+      ]
+    },
+    {
+      "title": "Transcriptomic footprints disclose specificity of reactive oxygen species signaling in Arabidopsis",
+      "authors": [
+        "I Gadjev",
+        "S Vanderauwera",
+        "TS Gechev",
+        "C Laloi",
+        "IN Minkov",
+        "V Shulaev",
+        "K Apel",
+        "D Inzé",
+        "R Mittler",
+        "F Van Breusegem"
+      ]
+    },
+    {
+      "title": "The high light response in Arabidopsis involves ABA signaling between vascular and bundle sheath cells",
+      "authors": [
+        "G Galvez-Valdivieso",
+        "MJ Fryer",
+        "PM Mullineaux",
+        "T Lawson",
+        "K Slattery",
+        "W Truman",
+        "N Smirnoff",
+        "T Asami",
+        "WJ Davies",
+        "AM Jones",
+        "NR Baker"
+      ]
+    },
+    {
+      "title": "The BBX family of plant transcription factors",
+      "authors": [
+        "SN Gangappa",
+        "JF Botto"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species as signals that modulate plant stress responses and programmed cell death",
+      "authors": [
+        "TS Gechev",
+        "F Van Breusegem",
+        "JM Stone",
+        "I Denev",
+        "C Laloi"
+      ]
+    },
+    {
+      "title": "Arabidopsis circadian clock protein, TOC1, is a DNA-binding transcription factor",
+      "authors": [
+        "JM Gendron",
+        "JL Pruneda-Paz",
+        "CJ Doherty",
+        "AM Gross",
+        "SE Kang",
+        "SA Kay"
+      ]
+    },
+    {
+      "title": "The evolution of CONSTANS-like gene families in barley, rice, and Arabidopsis",
+      "authors": [
+        "S Griffiths",
+        "RP Dunford",
+        "G Coupland",
+        "DA Laurie"
+      ]
+    },
+    {
+      "title": "Transcriptional control of glutaredoxin GRXC9 expression by a salicylic acid-dependent and NPR1-independent pathway in Arabidopsis",
+      "authors": [
+        "A Herrera-Vásquez",
+        "L Carvallo",
+        "F Blanco",
+        "M Tobar",
+        "E Villarroel-Candia",
+        "J Vicente-Carbajosa",
+        "P Salinas",
+        "L Holuigue"
+      ]
+    },
+    {
+      "title": "Salicylic acid and reactive oxygen species interplay in the transcriptional control of defense genes expression",
+      "authors": [
+        "A Herrera-Vásquez",
+        "P Salinas",
+        "L Holuigue"
+      ]
+    },
+    {
+      "title": "The Supertree Toolkit 2: a new and improved software package with a Graphical User Interface for supertree construction",
+      "authors": [
+        "J Hill",
+        "KE Davis"
+      ]
+    },
+    {
+      "title": "Stimulation of elongation growth and cell wall loosening in rice coleoptiles under microgravity conditions in space",
+      "authors": [
+        "T Hoson",
+        "K Soga",
+        "R Mori",
+        "M Saiki",
+        "Y Nakamura",
+        "K Wakabayashi",
+        "S Kamisaka"
+      ]
+    },
+    {
+      "title": "Ectopically expressed glutaredoxin ROXY19 negatively regulates the detoxification pathway in Arabidopsis thaliana",
+      "authors": [
+        "LJ Huang",
+        "N Li",
+        "C Thurow",
+        "M Wirtz",
+        "R Hell",
+        "C Gatz"
+      ]
+    },
+    {
+      "title": "Redesigning plants for spaceflight and beyond: transfer of genes from Pyrococcus",
+      "authors": [
+        "YJ Im",
+        "R Killens",
+        "AY Lee",
+        "M Ji",
+        "C Lowder",
+        "AM Grunden",
+        "WF Boss"
+      ]
+    },
+    {
+      "title": "Elevated sodium leads to the increased expression of HSP60 and induces apoptosis in HUVECs",
+      "authors": [
+        "B Jakic",
+        "M Buszko",
+        "G Cappellano",
+        "G Wick"
+      ]
+    },
+    {
+      "title": "GUS fusions: beta-glucuronidase as a sensitive and versatile gene fusion marker in higher plants",
+      "authors": [
+        "RA Jefferson",
+        "TA Kavanagh",
+        "MW Bevan"
+      ]
+    },
+    {
+      "title": "Role of auxin-induced reactive oxygen species in root gravitropism",
+      "authors": [
+        "JH Joo",
+        "YS Bae",
+        "JS Lee"
+      ]
+    },
+    {
+      "title": "Convergent evolution of pathogen effectors toward reactive oxygen species signaling networks in plants",
+      "authors": [
+        "NS Jwa",
+        "BK Hwang"
+      ]
+    },
+    {
+      "title": "Supplementary ultraviolet-B irradiation reveals differences in stress responses between Arabidopsis thaliana ecotypes",
+      "authors": [
+        "I Kalbina",
+        "A Strid"
+      ]
+    },
+    {
+      "title": "MAFFT multiple sequence alignment software version 7: improvements in performance and usability",
+      "authors": [
+        "K Katoh",
+        "DM Standley"
+      ]
+    },
+    {
+      "title": "The fast and transient transcriptional network of gravity and mechanical stimulation in the Arabidopsis root apex",
+      "authors": [
+        "JM Kimbrough",
+        "R Salinas-Mondragon",
+        "WF Boss",
+        "CS Brown",
+        "HW Sederoff"
+      ]
+    },
+    {
+      "title": "Protein motifs 5. Zinc fingers",
+      "authors": [
+        "A Klug",
+        "JW Schwabe"
+      ]
+    },
+    {
+      "title": "Transcriptomic variation among six Arabidopsis thaliana accessions identified several novel genes controlling aluminium tolerance",
+      "authors": [
+        "K Kusunoki",
+        "Y Nakano",
+        "K Tanaka",
+        "Y Sakata",
+        "H Koyama",
+        "Y Kobayashi"
+      ]
+    },
+    {
+      "title": "Transcriptional response of Arabidopsis seedlings during spaceflight reveals peroxidase and cell wall remodeling genes associated with root hair development",
+      "authors": [
+        "T Kwon",
+        "JA Sparks",
+        "J Nakashima",
+        "SN Allen",
+        "Y Tang",
+        "EB Blancaflor"
+      ]
+    },
+    {
+      "title": "Rapid evolution of the family of CONSTANS LIKE genes in plants",
+      "authors": [
+        "U Lagercrantz",
+        "T Axelsson"
+      ]
+    },
+    {
+      "title": "Glutaredoxin GRXS13 plays a key role in protection against photooxidative stress in Arabidopsis",
+      "authors": [
+        "D Laporte",
+        "E Olate",
+        "P Salinas",
+        "M Salazar",
+        "X Jordana",
+        "L Holuigue"
+      ]
+    },
+    {
+      "title": "Pollen tube NAD(P)H oxidases act as a speed control to dampen growth rate oscillations during polarized cell growth",
+      "authors": [
+        "R Lassig",
+        "T Gutermuth",
+        "TD Bey",
+        "KR Konrad",
+        "T Romeis"
+      ]
+    },
+    {
+      "title": "Wound signalling in plants",
+      "authors": [
+        "J León",
+        "E Rojo",
+        "JJ Sánchez-Serrano"
+      ]
+    },
+    {
+      "title": "Arabidopsis transcript and metabolite profiles: ecotype-specific responses to open-air elevated [CO2]",
+      "authors": [
+        "P Li",
+        "EA Ainsworth",
+        "AD Leakey",
+        "A Ulanov",
+        "V Lozovaya",
+        "DR Ort",
+        "HJ Bohnert"
+      ]
+    },
+    {
+      "title": "Control of pollen tube tip growth by a rop GTPase-dependent pathway that leads to tip-localized calcium influx",
+      "authors": [
+        "H Li",
+        "Y Lin",
+        "RM Heath",
+        "MX Zhu",
+        "Z Yang"
+      ]
+    },
+    {
+      "title": "Effects of chronic ozone exposure on gene expression in Arabidopsis thaliana ecotypes and in Thellungiella halophila",
+      "authors": [
+        "P Li",
+        "SP Mane",
+        "AA Sioson",
+        "CV Robinet",
+        "LS Heath",
+        "HJ Bohnert",
+        "R Grene"
+      ]
+    },
+    {
+      "title": "MSAProbs: multiple sequence alignment based on pair hidden Markov models and partition function posterior probabilities",
+      "authors": [
+        "Y Liu",
+        "B Schmidt",
+        "DL Maskell"
+      ]
+    },
+    {
+      "title": "CD-Search: protein domain annotations on the fly",
+      "authors": [
+        "A Marchler-Bauer",
+        "H Bryant"
+      ]
+    },
+    {
+      "title": "CDD: NCBI’s conserved domain database",
+      "authors": [
+        "A Marchler-Bauer",
+        "MK Derbyshire",
+        "CJ Lanczycki",
+        "F Lu",
+        "GH Marchler",
+        "JS Song",
+        "N Thanki",
+        "Z Wang",
+        "RA Yamashita",
+        "D Zhang",
+        "C Zheng",
+        "SH Bryant",
+        "NR Gonzales",
+        "S Lu",
+        "F Chitsaz",
+        "LY Geer",
+        "RC Geer",
+        "J He",
+        "M Gwadz",
+        "DI Hurwitz"
+      ]
+    },
+    {
+      "title": "Identification of genes involved in the ACC-mediated control of root cell elongation in Arabidopsis thaliana",
+      "authors": [
+        "MN Markakis",
+        "T De Cnodder",
+        "JP Verbelen",
+        "K Vissenberg",
+        "M Lewandowski",
+        "D Simon",
+        "A Boron",
+        "D Balcerowicz",
+        "T Doubbo",
+        "L Taconnat",
+        "JP Renou",
+        "H Höfte"
+      ]
+    },
+    {
+      "title": "Activation tagging of a gene for a protein with novel class of CCT-domain activates expression of a subset of sugar-inducible genes in Arabidopsis thaliana",
+      "authors": [
+        "T Masaki",
+        "H Tsukagoshi",
+        "N Mitsui",
+        "T Nishii",
+        "T Hattori",
+        "A Morikami",
+        "K Nakamura"
+      ]
+    },
+    {
+      "title": "Microgravity induces changes in microsome-associated proteins of Arabidopsis seedlings grown on board the international space station",
+      "authors": [
+        "C Mazars",
+        "C Brière",
+        "A Graziana",
+        "E Carnero-Diaz",
+        "S Grat",
+        "C Pichereaux",
+        "M Rossignol",
+        "V Pereda-Loth",
+        "B Eche",
+        "E Boucheron-Dubuisson",
+        "I Le Disquet",
+        "FJ Medina"
+      ]
+    },
+    {
+      "title": "The plant NADPH oxidase RBOHD mediates rapid systemic signaling in response to diverse stimuli",
+      "authors": [
+        "G Miller",
+        "K Schlauch",
+        "R Tam",
+        "D Cortes",
+        "MA Torres",
+        "V Shulaev",
+        "JL Dangl",
+        "R Mittler"
+      ]
+    },
+    {
+      "title": "Reactive oxygen gene network of plants",
+      "authors": [
+        "R Mittler",
+        "S Vanderauwera",
+        "M Gollery",
+        "F Van Breusegem"
+      ]
+    },
+    {
+      "title": "Light as both an input and an output of wound-induced reactive oxygen formation in Arabidopsis leaves",
+      "authors": [
+        "KH Morker",
+        "MR Roberts"
+      ]
+    },
+    {
+      "title": "Database resources of the National Center for Biotechnology Information",
+      "authors": [
+        "NCBI Resource Coordinators"
+      ]
+    },
+    {
+      "title": "MRL and SuperFine+MRL: new supertree methods",
+      "authors": [
+        "N Nguyen",
+        "S Mirarab",
+        "T Warnow"
+      ]
+    },
+    {
+      "title": "Mitochondrial redox biology and homeostasis in plants",
+      "authors": [
+        "G Noctor",
+        "R De Paepe",
+        "CH Foyer"
+      ]
+    },
+    {
+      "title": "ATTED-II in 2014: evaluation of gene coexpression in agriculturally important plants",
+      "authors": [
+        "T Obayashi",
+        "Y Okamura",
+        "S Ito",
+        "S Tadaka",
+        "Y Aoki",
+        "M Shirota",
+        "K Kinoshita"
+      ]
+    },
+    {
+      "title": "Morphological and physiological traits of three major Arabidopsis thaliana accessions",
+      "authors": [
+        "F Passardi",
+        "J Dobias",
+        "L Valério",
+        "S Guimil",
+        "C Penel",
+        "C Dunand"
+      ]
+    },
+    {
+      "title": "Plant growth strategies are remodeled by spaceflight",
+      "authors": [
+        "AL Paul",
+        "CE Amalfitano",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Arabidopsis gene expression patterns are altered during spaceflight",
+      "authors": [
+        "A-L Paul",
+        "MP Popp",
+        "WB Gurley",
+        "C Guy",
+        "KL. Norwood",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Genetic dissection of the Arabidopsis spaceflight transcriptome: are some responses dispensable for the physiological adaptation of plants to spaceflight",
+      "authors": [
+        "A-L Paul",
+        "NJ Sng",
+        "AK Zupanska",
+        "A Krishnamurthy",
+        "ER Schultz",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Fundamental plant biology enabled by the space shuttle",
+      "authors": [
+        "A-L Paul",
+        "RM Wheeler",
+        "HG Levine",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Spaceflight transcriptomes: unique responses to a novel environment",
+      "authors": [
+        "A-L Paul",
+        "AK Zupanska",
+        "DT Ostrow",
+        "Y Zhang",
+        "Y Sun",
+        "JL Li",
+        "S Shanker",
+        "WG Farmerie",
+        "CE Amalfitano",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight",
+      "authors": [
+        "A-L Paul",
+        "AK Zupanska",
+        "ER Schultz",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "UCSF Chimera–a visualization system for exploratory research and analysis",
+      "authors": [
+        "EF Pettersen",
+        "TD Goddard",
+        "CC Huang",
+        "GS Couch",
+        "DM Greenblatt",
+        "EC Meng",
+        "TE Ferrin"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species produced by NADPH oxidase are involved in pollen tube growth",
+      "authors": [
+        "M Potocký",
+        "MA Jones",
+        "R Bezvoda",
+        "N Smirnoff",
+        "V Zárský"
+      ]
+    },
+    {
+      "title": "FastTree 2-approximately maximum-likelihood trees for large alignments",
+      "authors": [
+        "MN Price",
+        "PS Dehal",
+        "AP Arkin"
+      ]
+    },
+    {
+      "title": "Functional importance of conserved domains in the flowering-time gene CONSTANS demonstrated by analysis of mutant alleles and transgenic plants",
+      "authors": [
+        "F Robson",
+        "MM Costa",
+        "SR Hepworth",
+        "I Vizir",
+        "M Piñeiro",
+        "PH Reeves",
+        "J Putterill",
+        "G Coupland"
+      ]
+    },
+    {
+      "title": "ROSMETER: a bioinformatic tool for the identification of transcriptomic imprints related to reactive oxygen species type and origin provides new insights into stress responses",
+      "authors": [
+        "S Rosenwasser",
+        "R Fluhr",
+        "JR Joshi",
+        "N Leviatan",
+        "N Sela",
+        "A Hetzroni",
+        "H Friedman"
+      ]
+    },
+    {
+      "title": "Probalign: multiple sequence alignment using partition function posterior probabilities",
+      "authors": [
+        "U Roshan",
+        "DR Livesay"
+      ]
+    },
+    {
+      "title": "A bird’s-eye view of molecular changes in plant gravitropism using omics techniques",
+      "authors": [
+        "O Schüler",
+        "R Hemmersbach",
+        "M Böhmer"
+      ]
+    },
+    {
+      "title": "Skewing in Arabidopsis roots involves disparate environmental signaling pathways",
+      "authors": [
+        "ER Schultz",
+        "AK Zupanska",
+        "NJ Sng",
+        "A-L Paul",
+        "RJ Ferl"
+      ]
+    },
+    {
+      "title": "Mitochondrial energy and redox signaling in plants",
+      "authors": [
+        "M Schwarzländer",
+        "I Finkemeier"
+      ]
+    },
+    {
+      "title": "Diverse functions and reactions of class III peroxidases",
+      "authors": [
+        "J Shigeto",
+        "Y Tsutsumi"
+      ]
+    },
+    {
+      "title": "Hydrogen peroxide mediates plant root cell response to nutrient deprivation",
+      "authors": [
+        "R Shin",
+        "DP Schachtman"
+      ]
+    },
+    {
+      "title": "Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega",
+      "authors": [
+        "F Sievers",
+        "A Wilm",
+        "JD Thompson",
+        "DG Higgins",
+        "D Dineen",
+        "TJ Gibson",
+        "K Karplus",
+        "W Li",
+        "R Lopez",
+        "H McWilliam",
+        "M Remmert",
+        "J Soding"
+      ]
+    },
+    {
+      "title": "Arabidopsis thaliana for spaceflight applications – preparing dormant biology for passive stowage and on orbit activation",
+      "authors": [
+        "N Sng",
+        "J Callaham",
+        "RJ Ferl",
+        "A-L Paul"
+      ]
+    },
+    {
+      "title": "Stimulation of elongation growth and xyloglucan breakdown in Arabidopsis hypocotyls under microgravity conditions in space",
+      "authors": [
+        "K Soga",
+        "K Wakabayashi",
+        "S Kamisaka",
+        "T Hoson"
+      ]
+    },
+    {
+      "title": "RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies",
+      "authors": [
+        "A Stamatakis"
+      ]
+    },
+    {
+      "title": "Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight",
+      "authors": [
+        "M Sugimoto",
+        "Y Oono",
+        "O Gusev",
+        "T Matsumoto",
+        "T Yazawa",
+        "MA Levinskikh",
+        "VN Sychev",
+        "GE Bingham",
+        "R Wheeler",
+        "M Hummerick"
+      ]
+    },
+    {
+      "title": "ROS and redox signalling in the response of plants to abiotic stress",
+      "authors": [
+        "N Suzuki",
+        "S Koussevitzky",
+        "R Mittler",
+        "G Miller"
+      ]
+    },
+    {
+      "title": "ROS in plant development",
+      "authors": [
+        "S Swanson",
+        "S Gilroy"
+      ]
+    },
+    {
+      "title": "Improvement of phylogenies after removing divergent and ambiguously aligned blocks from protein sequence alignments",
+      "authors": [
+        "G Talavera",
+        "J Castresana"
+      ]
+    },
+    {
+      "title": "The MKK2 pathway mediates cold and salt stress signaling in Arabidopsis",
+      "authors": [
+        "M Teige",
+        "E Scheikl",
+        "T Eulgem",
+        "R Dóczi",
+        "K Ichimura",
+        "K Shinozaki",
+        "JL Dangl",
+        "H Hirt"
+      ]
+    },
+    {
+      "title": "Elision: a method for accommodating multiple molecular sequence alignments with alignment-ambiguous sites",
+      "authors": [
+        "WC Wheeler",
+        "J Gatesy",
+        "R DeSalle"
+      ]
+    },
+    {
+      "title": "An “electronic fluorescent pictograph” browser for exploring and analyzing large-scale biological data sets",
+      "authors": [
+        "D Winter",
+        "B Vinegar",
+        "H Nahal",
+        "R Ammar",
+        "GV Wilson",
+        "NJ Provart"
+      ]
+    },
+    {
+      "title": "Nuclear localization and interaction with COP1 are required for STO/BBX24 function during photomorphogenesis",
+      "authors": [
+        "H Yan",
+        "K Marquardt",
+        "M Indorf",
+        "D Jutt",
+        "S Kircher",
+        "G Neuhaus",
+        "M Rodríguez-Franco"
+      ]
+    },
+    {
+      "title": "Repression of the Arabidopsis thaliana jasmonic acid/ethylene-induced defense pathway by TGA-interacting glutaredoxins depends on their C-terminal ALWL motif",
+      "authors": [
+        "M Zander",
+        "S Chen",
+        "J Imkampe",
+        "C Thurow",
+        "C Gatz"
+      ]
+    },
+    {
+      "title": "Differential protein expression profiling of Arabidopsis thaliana callus under microgravity on board the Chinese SZ-8 spacecraft",
+      "authors": [
+        "Y Zhang",
+        "L Wang",
+        "J Xie",
+        "H Zheng"
+      ]
+    },
+    {
+      "title": "Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of Arabidopsis thaliana",
+      "authors": [
+        "AK Zupanska",
+        "FC Denison",
+        "RJ Ferl",
+        "A-L Paul"
+      ]
+    }
+  ],
+  "original_title": "A Member of the CONSTANS-Like Protein Family is a Putative Regulator of ROS Homeostasis and Spaceflight Physiological Adaptation",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/3d706d771869/ply07501.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/a9147a98db43/ply07502.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/d5701732ce32/ply07503.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/316f0db15a8b/ply07504.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/ec8e70aeeb63/ply07505.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/031259ab5d11/ply07506.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/9461987ccdca/ply07507.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/9faf475eab34/ply07508.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/53b865a4b539/ply07509.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b01/6348315/d6a7474e9337/ply07510.jpg"
+  ]
+}

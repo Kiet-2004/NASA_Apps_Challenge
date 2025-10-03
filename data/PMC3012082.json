@@ -1,0 +1,773 @@
+{
+  "pmcid": "PMC3012082",
+  "title": "Analysis of Interactions of Salmonella Type Three Secretion Mutants with 3-D Intestinal Epithelial Cells",
+  "abstract": "The prevailing paradigm of Salmonella enteropathogenesis based on monolayers asserts that Salmonella pathogenicity island-1 Type Three Secretion System (SPI-1 T3SS) is required for bacterial invasion into intestinal epithelium. However, little is known about the role of SPI-1 in mediating gastrointestinal disease in humans. Recently, SPI-1 deficient nontyphoidal Salmonella strains were isolated from infected humans and animals, indicating that SPI-1 is not required to cause enteropathogenesis and demonstrating the need for more in vivo-like models. Here, we utilized a previously characterized 3-D organotypic model of human intestinal epithelium to elucidate the role of all characterized Salmonella enterica T3SSs. Similar to in vivo reports, the Salmonella SPI-1 T3SS was not required to invade 3-D intestinal cells. Additionally, Salmonella strains carrying single (SPI-1 or SPI-2), double (SPI-1/2) and complete T3SS knockout (SPI-1/SPI-2: flhDC) also invaded 3-D intestinal cells to wildtype levels. Invasion of wildtype and TTSS mutants was a Salmonella active process, whereas non-invasive bacterial strains, bacterial size beads, and heat-killed Salmonella did not invade 3-D cells. Wildtype and T3SS mutants did not preferentially target different cell types identified within the 3-D intestinal aggregates, including M-cells/M-like cells, enterocytes, or Paneth cells. Moreover, each T3SS was necessary for substantial intracellular bacterial replication within 3-D cells. Collectively, these results indicate that T3SSs are dispensable for Salmonella invasion into highly differentiated 3-D models of human intestinal epithelial cells, but are required for intracellular bacterial growth, paralleling in vivo infection observations and demonstrating the utility of these models in predicting in vivo-like pathogenic mechanisms.",
+  "introduction": "Introduction\n\nInfections with nontyphoidal Salmonella serovars are a leading cause of bacterial enteric disease and are the single most common cause of death from food-borne illnesses in the United States. An essential feature of the pathogenicity of Salmonella is its interaction with host intestinal epithelial cells, where Salmonella invasion/entry into host cells is critical for bacterial survival and establishment of disease in a host. Currently, it is thought that Salmonella invasion of epithelial cells requires the Type Three Secretion System (T3SS), a Gram negative bacterial “molecular syringe” that injects effector proteins into the host cell cytosol, thus altering cellular functions. Salmonella possesses two T3SSs that direct the secretion of proteins into host cells, and a third T3SS that directs the secretion of proteins to be assembled into the external flagellular organelle. The T3SS considered to be necessary for epithelial cell invasion is encoded on Salmonella Pathogenicity Island-1 (SPI-1), a large region of the Salmonella genome that contains numerous genes involved in pathogenesis and infection. The second T3SS is encoded on a second pathogenicity island, SPI-2, which is induced after Salmonella invasion of host cells and secretes protein effectors necessary for intracellular bacterial trafficking and replication. The third T3SS is under the transcriptional control of the flhDC operon, the master regulator of the flagellum assembly machinery.\n\nA significant portion of our knowledge regarding Salmonella enterica serovar Typhimurium (hereafter referred to as Salmonella) T3SSs and their role in infection of epithelial cells has been derived from studies that utilized non-polarized monolayer cell culture systems. However, during in vivo infections, Salmonella infects polarized epithelial cells of the host intestinal tract. In recognition that conventional monolayer cell culture models do not display the structure, morphology, and architecture of the intestinal tract, more advanced and in vivo-like model systems have been developed and implemented to study Salmonella pathogenesis, which include polarized intestinal cell culture models, ileal loop models, C. elegans model, and mouse, cattle, and chick animal models. Studies utilizing these more complex model systems demonstrated that SPI-1 was critical in the establishment of a Salmonella infection. While these model systems have certainly unveiled critical insight into the lifecycle and pathogenic mechanisms of Salmonella, the majority of these studies have utilized non-human model systems to predict what potentially could be occurring during infection of humans. Moreover, it was shown that the severity and role of SPI-1 and 2 to cause infection by Salmonella Typhimurium depends on the host species, which further complicates data extrapolation to the human condition. The importance of host species in investigating and understanding the mechanisms of Salmonella-induced gastrointestinal disease was further demonstrated in a recent key study looking at a naturally occurring Salmonella outbreak in humans, which revealed conflicting results as compared to monolayers and non-human animal models. Specifically, the study identified two clinical isolates of Salmonella enterica serovar Senftenberg present in stool samples from a food-borne human disease outbreak that lacked essential SPI-1 T3SS structural components and SPI-1 encoded secreted effectors. Infection of mice with these isolated strains displayed little to no intestinal pathology or inflammation, suggesting these bacterial strains are limited to cause only human enteropathology. Furthermore, these naturally occurring SPI-1 deficient strains invaded human monolayer cells less efficiently than laboratory constructed SPI-1 mutants, further demonstrating differences between monolayer systems and in vivo outcomes of infection.\n\nCollectively, these studies demonstrate how different Salmonella infection model systems can give conflicting results, with the most dependable and accurate model being the natural host. Unfortunately, a human Salmonella infection model is unrealistic and impractical, in turn the next best model system would be one that best approximates the parental tissue in vivo. To achieve an in vitro cell culture model that more closely mimics in vivo cellular characteristics, including three-dimensional architecture, multicellular complexity, mucus production, apical/basolateral polarity, and well developed tight junction formation, our laboratory utilizes the Rotating-Wall Vessel (RWV) bioreactor system (Figure 1). The gentle fluid rotation of the RWV creates a physiological low fluid shear environment that allows the cells to grow in three-dimensions, aggregate based on natural cellular affinities, and differentiate into human surrogate tissue-like models possessing in vivo characteristics not observed in the same cells grown as monolayers. In this study we use a RWV-generated organotypic 3-D model derived from the colon epithelial cell line, HT-29. HT-29 cells were chosen as the model cell line in this study because a) they have been extensively characterized in 3-D and shown to be a physiologically relevant model of the parental tissue from which they were derived, b) they represent the primary site of Salmonella intestinal infection, c) we have previously applied this system to model fundamental aspects of the host-pathogen interactions with Salmonella , and d) numerous studies have been conducted using this cell line grown as monolayers to study the initial stages of the host-pathogen interaction between Salmonella and intestinal epithelium that lead to gastrointestinal disease.\n\nIn this work, we demonstrate several key aspects of Salmonella pathogenesis during infection of RWV-derived 3-D organotypic models of human colonic epithelium that mimic in vivo observations, but contradict prevailing paradigms established using monolayers and many non-human model systems. We report for the first time that Salmonella is able to invade 3-D intestinal cells independently of all known Salmonella T3SSs, including SPI-1 and SPI-2 encoded T3SSs and the flagellar secretory system regulated by the flhDC operon. Within the 3-D intestinal epithelial aggregates, we were able to identify three different epithelial cell types that are present in the human large intestine, further showing the complexity and physiological relevance of the 3-D intestinal model. Unlike previous in vitro reports, there was no identifiable preferential host cell type targeted in our 3-D intestinal models during infection by wildtype or the T3SS Salmonella mutants. Non-invasive bacterial strains, bacterial-size beads, and heat-killed Salmonella did not appear to be localized intracellularly in 3-D intestinal cells, demonstrating that an active bacterial invasion mechanism(s) is necessary for internalization, rather than a non-specific host cellular uptake mechanism. Following invasion of 3-D cells, the SPI-1, SPI-2, SPI-1/2 double mutant, and the SPI-1/2 flhDC triple T3SS mutant, all grew to similar levels intracellularly, but to substantially lower levels than wildtype Salmonella. Collectively, we provide evidence that our highly differentiated 3-D models of human colonic epithelium exhibit infection phenotypes that are consistent with an in vivo enteric Salmonella infection. To our knowledge, this is the first report that bacterial invasion, but not intracellular growth, is largely independent of the functions encoded by TTSSs.",
+  "methods": "Materials And Methods\n\nMammalian Cell Lines and Bacterial Strains\n\nBacterial strains used in this study are described in Table S1. All bacterial strains were grown in Lennox broth (L broth) as described below. The human colonic epithelial cell line, HT-29, was obtained from the American Type Culture Collection (ATCC). The cells were cultured in a specialized growth medium comprised of a triple-sugar minimal essential medium α–L-15 base supplemented with 10% fetal bovine serum, designated as GTSF-2, and incubated at 37°C at 5% CO2 environment.\n\nAntibodies and Reagents\n\nAntibodies against specified antigens were obtained from the following sources: Sialyl Lewis A (MC-551; Kamiya), polyclonal Salmonella O antisera (BD Difco), monoclonal Salmonella antibody (MAI-83451; Affinity Bioreagents), syndecan-1 (MCA681T; AbD seroTec), Phospholipase A2 (PLA2) (ab58375; Abcam), ITF goblet cell marker (15C6; Santa Cruz), and Alexa Fluor 633 phalloidin (A22284; Invitrogen). Fluoresbrite plain YG 2.00 micron microspheres (fluorescent beads) were obtained from Polysciences, Inc. (18338). For mammalian cell viability, 0.4% trypan blue (Sigma) was used at a 1∶1 ratio with cells suspended in cell culture media.\n\nGrowth of 3-D intestinal cells in the RWV\n\nThe development of 3-D intestinal tissue models was performed as previously described. In brief, HT-29 epithelial cells were initially grown as monolayers in tissue culture flasks, trypsinized, and resuspended in fresh medium at a density of 2×106 cells/ml. Cells were then introduced into RWV bioreactors (Synthecon, Inc.) together with collagen-coated Cytodex-3 microcarrier beads (Pharmacia), resulting in a final ratio of ∼10 cells/bead. Cells were cultured in the RWV bioreactors in GTSF-2 at 37°C and 5% CO2 with rotation at 20 rpm. Fresh medium was replenished after 5 days and then every 24 hours thereafter until harvest of the cultures at 18-23 days.\n\nBacterial invasion and intracellular growth assays\n\nHT-29 monolayers were grown in GTSF-2 medium in a 24-well plate at a concentration of ∼1.2 million cells/plate. For 3-D aggregates, cells were harvested from the bioreactor and seeded into 24 well plates at a concentration of ∼19 million cells/plate. For infections, all bacterial strains were grown shaking overnight in L broth medium at 37°C. Bacteria were back-diluted 1∶200 and grown with aeration until the bacterial growth reached OD 600 of ∼0.8. Bacteria were washed twice with Dulbecco's PBS (D-PBS) and used to infect mammalian cells at a multiplicity of infection (m.o.i.) of 10 for 1 h, whereupon infected cells were washed three times with D-PBS and incubated in medium containing 100 µg/ml gentamicin for 3 hour. The cells were then washed three times with D-PBS and fresh medium containing 7.5 µg/ml gentamicin was added. At indicated times post-infection (p.i.), media was removed, cells were washed with PBS, lysed with 500 µl of 0.1% Triton-X 100, and a fraction of the lysate was plated on L agar to enumerate colony-forming units (CFU). For heat killed Salmonella studies, bacteria were taken from the back diluted Salmonella cultures, washed 3 times with D-PBS, resuspended in D-PBS, heated at 90°C for 30 minutes, and used to infect mammalian cells as with live Salmonella.\n\nConfocal Microscopy\n\nThe 3-D aggregates were harvested from the bioreactor and seeded in a 24 well plate at a concentration of approximately 19 million cells/plate. Infections were done either using same protocol as invasion/intracellular growth assays described above, or an established protocol described by Mortimer et al., which allows for a shorter and synchronized infection. In brief, Salmonella overnight cultures grown in LB shaking at 37°C were back diluted 1∶200 in LB and grown shaking until they reached an OD of ∼1.2. Bacteria were washed 2 times in D-PBS and used to infect mammalian cells at an m.o.i. of 10 for 5 minutes, whereupon host cells washed 3 times and media was replaced with media containing 100 µg/ml gentamicin. At indicated times p.i., 3-D aggregates were fixed in 4.0% paraformaldehyde in D-PBS for 30 minutes at room temperature. For staining, cells were washed three times with 0.1% Triton X-100 in PBS and blocked for 1 hour with blocking buffer (D-PBS, 0.1% Triton X-100, 1% BSA). Blocking buffer with primary antibody (concentration antibody dependent) was added to the cells for 1 hour at 37°C. Cells were then rinsed three times with D-PBS and incubated for 1 hour with secondary antibody diluted 1∶1000 in blocking buffer. Aggregates were rinsed with D-PBS and mounted with Pro-Long Gold Anti-fade with DAPI (Invitrogen). Samples were analyzed with the Carl Zeiss 510 Inverted confocal microscope using a 100× objective and ZEN Light Edition 2009 software. Quantitation of Salmonella colocalization with the various host markers was determined by fixing cells at indicated times p.i., staining the cells with the designated host and Salmonella specific antibodies, then counting the number of bacteria that localized with the markers per 35-50 bacteria in at least three independent experiments. For differential immunofluorescence staining of extracellular and intracellular bacteria, infections were carried out as described above in the bacterial invasion and intracellular growth assays section and staining was done as described in results section and in published reports.\n\nStatistical analysis\n\nData sets in triplicate were analyzed using Microsoft Excel software to calculate the Student's unpaired t-test for independent samples. P-values of <0.05 (*) and <0.001 (**) were considered significant and highly significant, respectively.",
+  "results": "Results\n\nSalmonella invades 3-D intestinal cells in the absence of SPI-1, SPI-2, and flagellum T3SSs and their effector proteins\n\nIn previous reports from our lab utilizing classic gentamicin invasion assays, we showed that a Salmonella invA mutant that is defective for invading monolayers, exhibited wildtype levels of invasion into 3-D HT-29 colon cells. InvA is encoded by SPI-1 and is essential in the formation of the T3SS needle. However, SPI-1 encodes for numerous other genes aside from invA that are involved in bacterial invasion and virulence. To investigate if alternative SPI-1 encoded effector protein(s) are potentially responsible for Salmonella invasion into 3-D intestinal cells, we infected HT-29 monolayers and 3-D aggregates with either a Salmonella mutant lacking the invA gene or a mutant lacking the entire SPI-1 encoding region (Figure 2A). The invA mutant and the SPI-1 mutant both invaded 3-D HT-29 cells to higher levels compared to monolayers. These data suggest that SPI-1, a virulence factor previously identified to be required for Salmonella invasion of epithelial cells grown as monolayers, is not mandatory for invasion into our well-differentiated 3-D intestinal epithelial cells.\n\nWe next wanted to test the hypothesis that the second T3SS encoded by SPI-2 and/or its encoded effectors were potentially compensating for the loss of SPI-1, thereby aiding in the invasion of Salmonella into the 3-D cells. To address this question, we infected HT-29 monolayers and 3-D cells with a SPI-2 deletion mutant and a SPI-1/SPI-2 double mutant (Figure 2A). The double mutant was still able to invade 3-D cells to significantly higher levels compared to monolayers, and to similar levels observed for SPI-1 and SPI-2 mutants in 3-D cells. Overall, these data demonstrate that unlike monolayers, Salmonella can invade the more in vivo-like 3-D cells in the absence of SPI-1 and SPI-2 T3SSs and their encoded effectors. However, the SPI-1 and SPI-2 genomic regions do contribute to a more productive invasion, as wildtype Salmonella exhibited significantly higher levels of invasion compared to the T3SS mutants in 3-D cells.\n\nThree-dimensional HT-29 cells were previously shown to secrete mucus, which could cause bacteria to adhere to the surface of the cells and not actually be localized intracellularly. Thus, to further validate that wildtype and the SPI-1 mutant are indeed localized inside 3-D HT-29 cells, we performed a differential immunofluorescence microscopy staining technique that allows one to distinguish between extra- and intracellular bacteria. Three-dimensional HT-29 cells were infected with wildtype and Salmonella SPI-1 and SPI-1/2 mutants as in (A), fixed, and stained with a monoclonal anti-Salmonella antibody that will bind only extracellular bacteria. After addition of corresponding secondary antibody, cells were washed, permeabilized, and stained with a polyclonal Salmonella antibody that can bind to intracellular and extracellular bacteria as a result of host cell membrane permeabilization (Figure S1). Three-dimensional cells were visualized by confocal immunofluorescence microscopy and the bacteria that only stained with the monoclonal antibody (pre-permeabilization/extracellular bacteria) were counted out of 50 total bacteria (stained with both antibodies) in at least three independent experiments (Figure 2B). A majority of the wildtype and Salmonella T3SS mutants were localized intracellularly (>60% of total bacteria counted), and no significant difference in bacterial localization was observed between wildtype and T3SS mutants, further demonstrating that Salmonella can invade into 3-D HT-29 cells in the absence of SPI-1 and SPI-2 T3SSs.\n\nAs shown, Salmonella SPI-1 and 2 T3SSs mutants can invade 3-D HT-29 cells; however, we wanted to investigate if Salmonella was entering 3-D HT-29 cells through non-specific cellular uptake and not a Salmonella active invasion mechanism. To test if 3-D cells are capable of particle uptake, we introduced bacterial sized fluorescent beads to the cells under the identical experimental conditions used for our Salmonella infection assays. Three hours post bead exposure; cells were fixed, stained with phalloidin to visualize host cell actin cytoskeleton, and imaged by confocal immunofluorescence microscopy (Figure 2C). The only beads observed were those that appeared to be extracellular in localization. The extracellular localization was further confirmed by z-stack confocal immunofluorescence microscopy (Figure S2).\n\nNext we wanted to investigate if bacterial surface component(s) and/or bacterial active process(s) are required to be present for cellular uptake. We thus infected 3D HT-29 cells with non-invasive Gram negative E. coli and Gram positive B. subtilis strains, which represent bacteria that have very different surface structures and do not posses mechanisms necessary for host cell invasion. Three hours post infection, we observed no intracellular bacteria by gentamicin survival assay or confocal microscopy (Figure 2D and data not shown). These data suggest that either an invasion mechanism is necessary for internalization, or alternatively, a Salmonella specific surface component/structure is triggering Salmonella internalization by 3-D HT-29 cells. To determine between these two possibilities, monolayer and 3-D HT-29 cells were infected with heat-killed wildtype Salmonella for 1 hour, washed, and fixed. Cells were stained with anti-Salmonella antibody, phalloidin, and DAPI to visualize host and bacterial nuclei, and visualized by confocal microscopy using z-stack imaging. We observed no intracellular Salmonella in either monolayer or 3-D HT-29 cells (data not shown). Collectively, these data suggest that Salmonella is actively invading 3-D HT-29 cells utilizing a mechanism(s) other than the SPI-1 or 2 encoded T3SSs.\n\nAnother possible means of Salmonella protein effector secretion that could potentiate invasion and allow Salmonella active entry into 3-D cells is through a pore created in the bacterial membrane as a result of flagellum translocation to the surface, which occurs through a third T3SS. To test the hypothesis that secreted effector(s) responsible for invasion of the Salmonella SPI-1/2 double mutant into 3-D cells is a result of the flagellum pore; we infected cells with a Salmonella mutant deficient in SPI-1, SPI-2, and the master regulators of flagellum pore formation and synthesis, FlhC and FlhD (Figure 2E). The SPI-1/SPI-2: flhDC mutant was still able to significantly invade the 3-D HT-29 aggregates, demonstrating that Salmonella can actively invade 3-D intestinal cells in the absence of all known/characterized T3SSs.\n\nSalmonella does not preferentially target M-cells/M-like cells in 3-D HT-29 models\n\nThe work presented here is the first to report that all known T3SSs are not mandatory for Salmonella invasion into epithelial cells, which is consistent with reports of SPI-1 deficient strains being isolated from humans with enteric salmonellosis and animal intestinal tissues. Moreover, a Salmonella SPI-1 mutant has also been shown to preferentially target and invade mouse epithelial M cells and polarized epithelial cells cultured under conditions that allow them to express M-cell like phenotypes, phenotypes that include particle uptake and transportation of antigens. From these studies, we hypothesized that Salmonella and the T3SS mutants are targeting M-cells to eventually gain entry into the 3-D aggregates. To first observe if the aggregates contained M-cells or M-cell like cells, we stained uninfected 3-D HT-29 cells with anti-sialyl Lewis A antigen antibody (M-cell marker) and imaged the cells by confocal immunofluorescence microscopy (Figure 3A). Interestingly, the 3-D aggregates exhibited very similar staining and expression patterns of the M-cell marker as observed in normal human colon tissue sections. Specifically, the 3-D cells displayed a columnar morphology to where only the edges of >20% of the cells showed expression of the M-cell marker. We next wanted to observe if wildtype and the SPI-1 mutant preferentially targeted M-cells/M-like cells present in the 3-D aggregates to eventually gain intracellular localization (Figure 3A). Three-dimensional HT-29 cells were infected with either wildtype or the Salmonella SPI-1 mutant for ∼5 minutes at an m.o.i. of 10∶1 according to the infection protocol outlined by Steele-Mortimer et al., 1999. This established protocol allows for a shorter infection time, a more synchronized infection, and earlier cellular fixation periods, while maintaining the same Salmonella intracellular growth and trafficking profiles observed with longer and more commonly used infection protocols (Figure S3A-C). Wildtype Salmonella SPI-1 induction during the different growth conditions utilized in these studies was also analyzed, and no observable or significant differences in SPI-1 expression was seen by RT-PCR and quantitative RT-PCR, respectively (Figure S3D, Text S1, and data not shown). After infection, cells were fixed 5–10 mpi to capture the early stages of infection, and stained with anti-sialyl Lewis A antigen antibody (M-cell marker), anti-Salmonella antibody, and DAPI to visualize nuclei (Figures 3A, S4, and S5). Quantitation by confocal microscopy of the number of wildtype and SPI-1 mutant bacteria out of 50 bacteria in at least 3 independent experiments that localized to cells expressing M-cell marker revealed only 20–25% of wildtype and SPI-1 mutant localized to M-cells/M-like cells, and similar levels were also observed with the wildtype, SPI-2, SPI-1/2, and SPI-1/2: flhDC strains (Figure 3B). These data suggest that there is no preferential targeting of wildtype Salmonella and the T3SS mutants to M-cells/M-like cells within the 3-D aggregates.\n\nAs shown in Figure 3B, Salmonella T3SSs are not needed for localization to 3-D HT-29 M-cells/M-like cells, however recent reports suggest that FimH, a component of type I pili, interacts with an M-cell surface protein and this interaction is necessary for Salmonella intestinal invasion specifically into M-cells. To determine if the type I pili is playing a role in Salmonella targeting and internalization into 3-D aggregates, and more specifically M-cells, we infected 3-D HT-29 cells with a type I pili mutant (ΔFimA-H). Consistent with reports that type I pili is needed to bind to M-cells in order to invade these cell types; we observed no co-localization of Salmonella pili mutant with the M-cell marker at 5-10 mpi by confocal immunofluorescence (Figure 3C). However, both the mutant lacking entire pili (ΔfimA-H) and the mutant lacking just the adhesion portion of the pili (ΔfimH), were still able to invade 3-D cells to similar levels as wildtype (Figure 3D). Utilization of the Fim mutants is also functioning as a control for bacteria that cannot interact with M-cells, but can still invade our 3-D aggregates, demonstrating that Salmonella entry into 3-D cells is not solely dependent upon interactions with M-cell/M-like cells.\n\nSalmonella T3SS mutants target multiple intestinal epithelial cell types within 3-D aggregates\n\nThe large intestine, from which HT-29 cells are derived, is composed of multiple epithelial cell types, and we used confocal microscopy to assess if any of these cell types are present in our 3-D aggregates and if Salmonella is targeting these cell types during infection. We identified two other cell types in addition to M-cells/M-like cells using immunofluorescence labeling, enterocytes and Paneth cells (Figures 4 A and C). Since enterocytes make up the majority of cells within the intestine and also have known absorptive properties, we predicted that a significant proportion of Salmonella not localized to M-cells/M-like cells could be targeting enterocytes. After dual staining of 3-D HT-29 cells with the M-cell marker (sialyl Lewis A) and enterocyte marker (syndecan-1) antibodies, we observed very little overlap of cells expressing both markers, demonstrating two different cellular populations within the aggregates (Figure S6). Three-dimensional cells were infected with either wildtype or SPI-1 Salmonella mutant, fixed 5 mpi, stained with both enterocyte and Salmonella specific antibodies, and the number of bacteria out of ∼50 bacteria localized to the enterocyte marker was quantitated by confocal immunofluorescence (Figure 4B). A majority of bacteria localized to cells expressing the enterocyte marker, with no significant difference in localization between wildtype and the SPI-1 mutant, suggesting that the SPI-1 encoded T3SS does not play a role in host cell type targeting in the intestinal epithelium during infection.\n\nThe third cell type we identified in the 3-D HT-29 aggregates were Paneth cells, a cell type known to secrete antimicrobials, including defensins, with no detectable absorptive properties (Figure 4C). After 3-D HT-29 infection with the wildtype or SPI-1 mutant, and quantitation by confocal microscopy of the number of bacteria out of ∼50 bacteria that localized to cells expressing the Paneth cell marker (Phospholipase A2), we observed <10% of bacteria localized to cells expressing this marker (Figure 4D). Consistent with previous reports of diseased colon tissue samples, we noted an increase in Paneth cell marker expression upon infection (Figure 4C and D). Goblet cells are a known fourth cell type within the intestine. While our 3-D HT-29 cells did exhibit mucus production (a hallmark of goblet cells), we were unable to definitively identify goblet cells in the 3-D HT-29 cells by immunofluorescence microscopy using a goblet cell marker antibody. The Salmonella SPI-2, SPI-1/2, and SPI-1/2: flhDC mutants were also profiled for host cell type localization within the 3-D HT-29 aggregates, and similar localization profiles with no significant difference in marker localization of these mutants were observed as compared to wildtype Salmonella (Figure 4E). Collectively, these data suggest that Salmonella T3SSs do not influence the active targeting of the bacteria to a specific cell type in the 3-D intestinal cells during infection.\n\nSalmonella T3SSs are required for substantial intracellular growth in 3-D HT-29 cells\n\nOur data established that Salmonella T3SSs are not required for invasion into 3-D HT-29 cells; however we were interested in observing the intracellular growth profiles of the T3SS mutants after entry into 3-D cells and their profiles compared to monolayers (Figure 5). We thus infected monolayers and 3-D HT-29 cells with the various bacterial strains at an m.o.i. of 10 for 1 hour. At the indicated times post infection, host cells were lysed and bacteria were enumerated for colony forming units. Wildtype Salmonella and the SPI-2 mutant had similar growth profiles between monolayers and 3-D cells with an increase in growth by 24 hpi compared to 3 hpi. The SPI-1, SPI-1/2, flhDC, and SPI-1/2: flhDC mutants had little to no detectable growth by 24 hpi in monolayers; however, these mutants grew to levels similar as the SPI-2 mutant in 3-D cells, although the mutant strains never reached wildtype growth levels. The non-invasive Gram negative E. coli and Gram positive B. subtilis were also used as controls to infect 3-D cells; however neither bacterium had detectable intracellular growth by 24 hpi, further suggesting that a bacterial specific active invasion mechanism is necessary for bacterial internalization into 3-D cells. These growth curves also demonstrate the ability of the Salmonella mutants to invade and survive within 3-D cells for 24 hours, as they are not killed by the gentamicin in the extracellular media as observed with E. coli and B. subtilis (Figure 2D and Figure 5B). From these data, we conclude that SPI-1, SPI-2, and the flagellar secretion system are not necessary for invasion into 3-D HT-29 cells, but are required for wildtype levels of invasion and intracellular replication.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article",
+    "Biology",
+    "Microbiology",
+    "Bacterial Pathogens",
+    "Gram Negative",
+    "Salmonella",
+    "Host-Pathogen Interaction",
+    "Microbial Pathogens",
+    "Pathogenesis",
+    "Model Organisms",
+    "Molecular Cell Biology",
+    "Cellular Types",
+    "Epithelial Cells",
+    "Eukaryotic Cells",
+    "Systems Biology",
+    "Medicine",
+    "Gastroenterology and Hepatology",
+    "Gastrointestinal Infections",
+    "Small Intestine",
+    "Infectious Diseases"
+  ],
+  "citations": [
+    {
+      "title": "Food-related illness and death in the United States.",
+      "authors": [
+        "PS Mead",
+        "L Slutsker",
+        "V Dietz",
+        "LF McCaig",
+        "JS Bresee"
+      ]
+    },
+    {
+      "title": "Type III secretion machines: bacterial devices for protein delivery into host cells.",
+      "authors": [
+        "JE Galan",
+        "A Collmer"
+      ]
+    },
+    {
+      "title": "Striking a balance: modulation of the actin cytoskeleton by Salmonella.",
+      "authors": [
+        "JE Galan",
+        "D Zhou"
+      ]
+    },
+    {
+      "title": "Type III protein secretion systems in bacterial pathogens of animals and plants.",
+      "authors": [
+        "CJ Hueck"
+      ]
+    },
+    {
+      "title": "The bacterial flagellum: reversible rotary propellor and type III export apparatus.",
+      "authors": [
+        "RM Macnab"
+      ]
+    },
+    {
+      "title": "Salmonella interactions with host cells: type III secretion at work.",
+      "authors": [
+        "JE Galan"
+      ]
+    },
+    {
+      "title": "Genetic analysis of assembly of the Salmonella enterica serovar Typhimurium type III secretion-associated needle complex.",
+      "authors": [
+        "A Sukhan",
+        "T Kubori",
+        "J Wilson",
+        "JE Galan"
+      ]
+    },
+    {
+      "title": "Ruffles induced by Salmonella and other stimuli direct macropinocytosis of bacteria.",
+      "authors": [
+        "CL Francis",
+        "TA Ryan",
+        "BD Jones",
+        "SJ Smith",
+        "S Falkow"
+      ]
+    },
+    {
+      "title": "Salmonella invasion of nonphagocytic cells induces formation of macropinosomes in the host cell.",
+      "authors": [
+        "F Garcia-del Portillo",
+        "BB Finlay"
+      ]
+    },
+    {
+      "title": "Cellular microbiology of intracellular Salmonella enterica: functions of the type III secretion system encoded by Salmonella pathogenicity island 2.",
+      "authors": [
+        "V Kuhle",
+        "M Hensel"
+      ]
+    },
+    {
+      "title": "Functions and effectors of the Salmonella pathogenicity island 2 type III secretion system.",
+      "authors": [
+        "SR Waterman",
+        "DW Holden"
+      ]
+    },
+    {
+      "title": "Identification of new flagellar genes of Salmonella enterica serovar Typhimurium.",
+      "authors": [
+        "J Frye",
+        "JE Karlinsey",
+        "HR Felise",
+        "B Marzolf",
+        "N Dowidar"
+      ]
+    },
+    {
+      "title": "Structure and transcriptional control of the flagellar master operon of Salmonella typhimurium.",
+      "authors": [
+        "S Yanagihara",
+        "S Iyoda",
+        "K Ohnishi",
+        "T Iino",
+        "K Kutsukake"
+      ]
+    },
+    {
+      "title": "Autogenous and global control of the flagellar master operon, flhD, in Salmonella typhimurium.",
+      "authors": [
+        "K Kutsukake"
+      ]
+    },
+    {
+      "title": "The flagellar sigma factor FliA regulates adhesion and invasion of Crohn disease-associated Escherichia coli via a cyclic dimeric GMP-dependent pathway.",
+      "authors": [
+        "L Claret",
+        "S Miquel",
+        "N Vieille",
+        "DA Ryjenkov",
+        "M Gomelsky"
+      ]
+    },
+    {
+      "title": "The route of enteric infection in normal mice.",
+      "authors": [
+        "PB Carter",
+        "FM Collins"
+      ]
+    },
+    {
+      "title": "Systemic translocation of Salmonella enterica serovar Dublin in cattle occurs predominantly via efferent lymphatics in a cell-free niche and requires type III secretion system 1 (T3SS-1) but not T3SS-2.",
+      "authors": [
+        "GD Pullinger",
+        "SM Paulin",
+        "B Charleston",
+        "PR Watson",
+        "AJ Bowen"
+      ]
+    },
+    {
+      "title": "SipA, SopA, SopB, SopD, and SopE2 contribute to Salmonella enterica serotype typhimurium invasion of epithelial cells.",
+      "authors": [
+        "M Raffatellu",
+        "RP Wilson",
+        "D Chessa",
+        "H Andrews-Polymenis",
+        "QT Tran"
+      ]
+    },
+    {
+      "title": "Synergistic effect of mutations in invA and lpfC on the ability of Salmonella typhimurium to cause murine typhoid.",
+      "authors": [
+        "AJ Baumler",
+        "RM Tsolis",
+        "PJ Valentine",
+        "TA Ficht",
+        "F Heffron"
+      ]
+    },
+    {
+      "title": "Salmonella pathogenicity island 1 differentially modulates bacterial entry to dendritic and non-phagocytic cells.",
+      "authors": [
+        "SM Bueno",
+        "A Wozniak",
+        "ED Leiva",
+        "SA Riquelme",
+        "LJ Carreno"
+      ]
+    },
+    {
+      "title": "Identification of host-specific colonization factors of Salmonella enterica serovar Typhimurium.",
+      "authors": [
+        "E Morgan",
+        "JD Campbell",
+        "SC Rowe",
+        "J Bispham",
+        "MP Stevens"
+      ]
+    },
+    {
+      "title": "Characterization of intestinal invasion by Salmonella typhimurium and Salmonella dublin and effect of a mutation in the invH gene.",
+      "authors": [
+        "PR Watson",
+        "SM Paulin",
+        "AP Bland",
+        "PW Jones",
+        "TS Wallis"
+      ]
+    },
+    {
+      "title": "Molecular basis of Salmonella-induced enteritis.",
+      "authors": [
+        "TS Wallis",
+        "EE Galyov"
+      ]
+    },
+    {
+      "title": "The early dynamic response of the calf ileal epithelium to Salmonella typhimurium.",
+      "authors": [
+        "AJ Frost",
+        "AP Bland",
+        "TS Wallis"
+      ]
+    },
+    {
+      "title": "A secreted effector protein of Salmonella dublin is translocated into eukaryotic cells and mediates inflammation and fluid secretion in infected ileal mucosa.",
+      "authors": [
+        "EE Galyov",
+        "MW Wood",
+        "R Rosqvist",
+        "PB Mullan",
+        "PR Watson"
+      ]
+    },
+    {
+      "title": "Caenorhabditis elegans-based screen identifies Salmonella virulence factors required for conserved host-pathogen interactions.",
+      "authors": [
+        "JL Tenor",
+        "BA McCormick",
+        "FM Ausubel",
+        "A Aballay"
+      ]
+    },
+    {
+      "title": "Animal models of Salmonella infections: enteritis versus typhoid fever.",
+      "authors": [
+        "RL Santos",
+        "S Zhang",
+        "RM Tsolis",
+        "RA Kingsley",
+        "LG Adams"
+      ]
+    },
+    {
+      "title": "Salmonella enterica serovar Senftenberg human clinical isolates lacking SPI-1.",
+      "authors": [
+        "Q Hu",
+        "B Coburn",
+        "W Deng",
+        "Y Li",
+        "X Shi"
+      ]
+    },
+    {
+      "title": "Translating tissue culture results into animal models: the case of Salmonella typhimurium.",
+      "authors": [
+        "BP Hurley",
+        "BA McCormick"
+      ]
+    },
+    {
+      "title": "Three-dimensional growth of extravillous cytotrophoblasts promotes differentiation and invasion.",
+      "authors": [
+        "HL LaMarca",
+        "CM Ott",
+        "K Honer Zu Bentrup",
+        "CL Leblanc",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Three-dimensional tissue assemblies: novel models for the study of Salmonella enterica serovar Typhimurium pathogenesis.",
+      "authors": [
+        "CA Nickerson",
+        "TJ Goodwin",
+        "J Terlonge",
+        "CM Ott",
+        "KL Buchanan"
+      ]
+    },
+    {
+      "title": "Three-dimensional organotypic models of human colonic epithelium to study the early stages of enteric salmonellosis.",
+      "authors": [
+        "K Honer zu Bentrup",
+        "R Ramamurthy",
+        "CM Ott",
+        "K Emami",
+        "M Nelman-Gonzalez"
+      ]
+    },
+    {
+      "title": "A549 lung epithelial cells grown as three-dimensional aggregates: alternative tissue culture model for Pseudomonas aeruginosa pathogenesis.",
+      "authors": [
+        "AJ Carterson",
+        "K Honer zu Bentrup",
+        "CM Ott",
+        "MS Clarke",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "In vitro cell culture infectivity assay for human noroviruses.",
+      "authors": [
+        "TM Straub",
+        "K Honer zu Bentrup",
+        "P Orosz-Coghlan",
+        "A Dohnalkova",
+        "BK Mayer"
+      ]
+    },
+    {
+      "title": "Development and characterization of a three-dimensional organotypic human vaginal epithelial cell model.",
+      "authors": [
+        "BE Hjelm",
+        "AN Berta",
+        "CA Nickerson",
+        "CJ Arntzen",
+        "MM Herbst-Kralovetz"
+      ]
+    },
+    {
+      "title": "3D cell culture models: Innovative platforms for studying host-pathogen interactions.",
+      "authors": [
+        "J Barrila",
+        "AL Radtke",
+        "A Crabbe",
+        "S Sarker",
+        "MM Herbst-Kralovetz"
+      ]
+    },
+    {
+      "title": "Molecular basis of the interaction of Salmonella with the intestinal mucosa.",
+      "authors": [
+        "KH Darwin",
+        "VL Miller"
+      ]
+    },
+    {
+      "title": "Prolonged inhibition of bacterial protein synthesis abolishes Salmonella invasion.",
+      "authors": [
+        "KJ MacBeth",
+        "CA Lee"
+      ]
+    },
+    {
+      "title": "Salmonella translocates across an in vitro M cell model independently of SPI-1 and SPI-2.",
+      "authors": [
+        "I Martinez-Argudo",
+        "MA Jepson"
+      ]
+    },
+    {
+      "title": "Caveolae-mediated entry of Salmonella typhimurium in a human M-cell model.",
+      "authors": [
+        "JS Lim",
+        "HS Na",
+        "HC Lee",
+        "HE Choy",
+        "SC Park"
+      ]
+    },
+    {
+      "title": "The role of M cells in Salmonella infection.",
+      "authors": [
+        "MA Jepson",
+        "MA Clark"
+      ]
+    },
+    {
+      "title": "Uptake through glycoprotein 2 of FimH(+) bacteria by M cells initiates mucosal immune response.",
+      "authors": [
+        "K Hase",
+        "K Kawano",
+        "T Nochi",
+        "GS Pontes",
+        "S Fukuda"
+      ]
+    },
+    {
+      "title": "Cloning and molecular characterization of genes whose products allow Salmonella typhimurium to penetrate tissue culture cells.",
+      "authors": [
+        "JE Galan",
+        "Curtiss R"
+      ]
+    },
+    {
+      "title": "Molecular and functional characterization of the Salmonella invasion gene invA: homology of InvA to members of a new protein family.",
+      "authors": [
+        "JE Galan",
+        "C Ginocchio",
+        "P Costeas"
+      ]
+    },
+    {
+      "title": "Double immunofluorescence microscopic technique for accurate differentiation of extracellularly and intracellularly located bacteria in cell culture.",
+      "authors": [
+        "J Heesemann",
+        "R Laufs"
+      ]
+    },
+    {
+      "title": "Interaction of Salmonella enterica serovar Typhi with cultured epithelial cells: roles of surface structures in adhesion and invasion.",
+      "authors": [
+        "A Bishop",
+        "D House",
+        "T Perkins",
+        "S Baker",
+        "RA Kingsley"
+      ]
+    },
+    {
+      "title": "Type III flagellar protein export and flagellar assembly.",
+      "authors": [
+        "RM Macnab"
+      ]
+    },
+    {
+      "title": "Substrate specificity of type III flagellar protein export in Salmonella is controlled by subdomain interactions in FlhB.",
+      "authors": [
+        "GM Fraser",
+        "T Hirano",
+        "HU Ferris",
+        "LL Devgan",
+        "M Kihara"
+      ]
+    },
+    {
+      "title": "Invasion genes are not required for Salmonella enterica serovar typhimurium to breach the intestinal epithelium: evidence that salmonella pathogenicity island 1 has alternative functions during infection.",
+      "authors": [
+        "RA Murray",
+        "CA Lee"
+      ]
+    },
+    {
+      "title": "Keynote review: intestinal Peyer's patch M cells and oral vaccine targeting.",
+      "authors": [
+        "DJ Brayden",
+        "MA Jepson",
+        "AW Baird"
+      ]
+    },
+    {
+      "title": "Preferential interaction of Salmonella typhimurium with mouse Peyer's patch M cells.",
+      "authors": [
+        "MA Clark",
+        "MA Jepson",
+        "NL Simmons",
+        "BH Hirst"
+      ]
+    },
+    {
+      "title": "Inoculum composition and Salmonella pathogenicity island 1 regulate M-cell invasion and epithelial destruction by Salmonella typhimurium.",
+      "authors": [
+        "MA Clark",
+        "BH Hirst",
+        "MA Jepson"
+      ]
+    },
+    {
+      "title": "Salmonella typhimurium initiates murine infection by penetrating and destroying the specialized epithelial M cells of the Peyer's patches.",
+      "authors": [
+        "BD Jones",
+        "N Ghori",
+        "S Falkow"
+      ]
+    },
+    {
+      "title": "Epithelial M cells: differentiation and function.",
+      "authors": [
+        "JP Kraehenbuhl",
+        "MR Neutra"
+      ]
+    },
+    {
+      "title": "Human intestinal M cells display the sialyl Lewis A antigen.",
+      "authors": [
+        "PJ Giannasca",
+        "KT Giannasca",
+        "AM Leichtner",
+        "MR Neutra"
+      ]
+    },
+    {
+      "title": "Biogenesis of Salmonella typhimurium-containing vacuoles in epithelial cells involves interactions with the early endocytic pathway.",
+      "authors": [
+        "O Steele-Mortimer",
+        "S Meresse",
+        "JP Gorvel",
+        "BH Toh",
+        "BB Finlay"
+      ]
+    },
+    {
+      "title": "Salmonella Typhimurium binds to HeLa cells via Fim-mediated reversible adhesion and irreversible TTSS-1 mediated docking.",
+      "authors": [
+        "B Misselwitz",
+        "SK Kreibich",
+        "S Rout",
+        "B Stecher",
+        "B Periaswamy"
+      ]
+    },
+    {
+      "title": "The mucosal immune system at the gastrointestinal barrier.",
+      "authors": [
+        "M Schenk",
+        "C Mueller"
+      ]
+    },
+    {
+      "title": "Common mechanisms of monoacylglycerol and fatty acid uptake by human intestinal Caco-2 cells.",
+      "authors": [
+        "SY Ho",
+        "J Storch"
+      ]
+    },
+    {
+      "title": "Reduced heparan sulfate accumulation in enterocytes contributes to protein-losing enteropathy in a congenital disorder of glycosylation.",
+      "authors": [
+        "V Westphal",
+        "S Murch",
+        "S Kim",
+        "G Srikrishna",
+        "B Winchester"
+      ]
+    },
+    {
+      "title": "Synergistic effect of tumor necrosis factor-alpha and interferon-gamma on enterocyte shedding of syndecan-1 and associated decreases in internalization of Listeria monocytogenes and Staphylococcus aureus.",
+      "authors": [
+        "MJ Henry-Stanley",
+        "B Zhang",
+        "SL Erlandsen",
+        "CL Wells"
+      ]
+    },
+    {
+      "title": "The Paneth cell and the innate immune response.",
+      "authors": [
+        "CL Bevins"
+      ]
+    },
+    {
+      "title": "Secretion of microbicidal alpha-defensins by intestinal Paneth cells in response to bacteria.",
+      "authors": [
+        "T Ayabe",
+        "DP Satchell",
+        "CL Wilson",
+        "WC Parks",
+        "ME Selsted"
+      ]
+    },
+    {
+      "title": "Paneth cells: leukocyte-like mediators of innate immunity in the intestine.",
+      "authors": [
+        "S Keshav"
+      ]
+    },
+    {
+      "title": "Alpha-defensins in enteric innate immunity: functional Paneth cell alpha-defensins in mouse colonic lumen.",
+      "authors": [
+        "JR Mastroianni",
+        "AJ Ouellette"
+      ]
+    },
+    {
+      "title": "Absence of group II phospholipase A2, a Paneth cell marker, from the epididymis.",
+      "authors": [
+        "TJ Nevalainen",
+        "VI Shah",
+        "M de Peralta-Venturina",
+        "MB Amin"
+      ]
+    },
+    {
+      "title": "Differences in goblet cell differentiation between Crohn's disease and ulcerative colitis.",
+      "authors": [
+        "M Gersemann",
+        "S Becker",
+        "I Kubler",
+        "M Koslowski",
+        "G Wang"
+      ]
+    },
+    {
+      "title": "The invasion-associated type III secretion system of Salmonella enterica serovar Typhimurium is necessary for intracellular proliferation and vacuole biogenesis in epithelial cells.",
+      "authors": [
+        "O Steele-Mortimer",
+        "JH Brumell",
+        "LA Knodler",
+        "S Meresse",
+        "A Lopez"
+      ]
+    },
+    {
+      "title": "Analysis of the contribution of Salmonella pathogenicity islands 1 and 2 to enteric disease progression using a novel bovine ileal loop model and a murine model of infectious enterocolitis.",
+      "authors": [
+        "BK Coombes",
+        "BA Coburn",
+        "AA Potter",
+        "S Gomis",
+        "K Mirakhur"
+      ]
+    },
+    {
+      "title": "Salmonella enterica serovar enteritidis pathogenicity island 1 is not essential for but facilitates rapid systemic spread in chickens.",
+      "authors": [
+        "TS Desin",
+        "PK Lam",
+        "B Koch",
+        "C Mickael",
+        "E Berberov"
+      ]
+    },
+    {
+      "title": "Salmonella enterica serovar gallinarum requires ppGpp for internalization and survival in animal cells.",
+      "authors": [
+        "JH Jeong",
+        "M Song",
+        "SI Park",
+        "KO Cho",
+        "JH Rhee"
+      ]
+    },
+    {
+      "title": "Evolution of pathogenicity islands of Salmonella enterica.",
+      "authors": [
+        "M Hensel"
+      ]
+    },
+    {
+      "title": "Type 1 pili enhance the invasion of Salmonella braenderup and Salmonella typhimurium to HeLa cells.",
+      "authors": [
+        "S Horiuchi",
+        "Y Inagaki",
+        "N Okamura",
+        "R Nakaya",
+        "N Yamamoto"
+      ]
+    },
+    {
+      "title": "The Salmonella enterica serovar Typhi Vi capsule and self-association pili share controls on expression.",
+      "authors": [
+        "FK Lee",
+        "C Morris",
+        "J Hackett"
+      ]
+    },
+    {
+      "title": "The Salmonella enterica subspecies I specific centisome 7 genomic island encodes novel protein families present in bacteria living in close contact with eukaryotic cells.",
+      "authors": [
+        "A Folkesson",
+        "S Lofdahl",
+        "S Normark"
+      ]
+    },
+    {
+      "title": "Multiple insertions of fimbrial operons correlate with the evolution of Salmonella serovars responsible for human disease.",
+      "authors": [
+        "A Folkesson",
+        "A Advani",
+        "S Sukupolvi",
+        "JD Pfeifer",
+        "S Normark"
+      ]
+    },
+    {
+      "title": "Salmonella enterica serovar Typhi possesses a unique repertoire of fimbrial gene sequences.",
+      "authors": [
+        "SM Townsend",
+        "NE Kramer",
+        "R Edwards",
+        "S Baker",
+        "N Hamlin"
+      ]
+    },
+    {
+      "title": "A role for Salmonella fimbriae in intraperitoneal infections.",
+      "authors": [
+        "RA Edwards",
+        "DM Schifferli",
+        "SR Maloy"
+      ]
+    },
+    {
+      "title": "Role of fimbriae as antigens and intestinal colonization factors of Salmonella serovars.",
+      "authors": [
+        "AD Humphries",
+        "SM Townsend",
+        "RA Kingsley",
+        "TL Nicholson",
+        "RM Tsolis"
+      ]
+    },
+    {
+      "title": "Contribution of horizontal gene transfer and deletion events to development of distinctive patterns of fimbrial operons during evolution of Salmonella serotypes.",
+      "authors": [
+        "AJ Baumler",
+        "AJ Gilde",
+        "RM Tsolis",
+        "AW van der Velden",
+        "BM Ahmer"
+      ]
+    },
+    {
+      "title": "Salmonella Pathogenicity Island 4 encodes a giant non-fimbrial adhesin and the cognate type 1 secretion system.",
+      "authors": [
+        "RG Gerlach",
+        "D Jackel",
+        "B Stecher",
+        "C Wagner",
+        "A Lupas"
+      ]
+    },
+    {
+      "title": "Transduction of linked genetic characters of the host by bacteriophage P1.",
+      "authors": [
+        "ES Lennox"
+      ]
+    },
+    {
+      "title": "The establishment of strains of human cells in tissue culture.",
+      "authors": [
+        "G Henle",
+        "F Deinhardt"
+      ]
+    },
+    {
+      "title": "WiDr is a derivative of another colon adenocarcinoma cell line, HT-29.",
+      "authors": [
+        "TR Chen",
+        "D Drabkowski",
+        "RJ Hay",
+        "M Macy",
+        "W Peterson"
+      ]
+    },
+    {
+      "title": "Rotating-wall vessel coculture of small intestine as a prelude to tissue modeling: aspects of simulated microgravity.",
+      "authors": [
+        "TJ Goodwin",
+        "WF Schroeder",
+        "DA Wolf",
+        "MP Moyer"
+      ]
+    }
+  ],
+  "original_title": "Analysis of interactions of Salmonella type three secretion mutants with 3-D intestinal epithelial cells.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d121/3012082/ff9c3170ff20/pone.0015750.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d121/3012082/98e0a6ab10a3/pone.0015750.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d121/3012082/a0f11b818040/pone.0015750.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d121/3012082/32db81e716be/pone.0015750.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d121/3012082/36256e96ad95/pone.0015750.g005.jpg"
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "pmcid": "PMC9699585",
+  "title": "Space Microgravity Alters Neural Stem Cell Division: Implications for Brain Cancer Research on Earth and in Space",
+  "abstract": "Considering the imminence of long-term space travel, it is necessary to investigate the impact of space microgravity (SPC-µG) in order to determine if this environment has consequences on the astronauts’ health, in particular, neural and cognitive functions. Neural stem cells (NSCs) are the basis for the regeneration of the central nervous system (CNS) cell populations and learning how weightlessness impacts NSCs in health and disease provides a critical tool for the potential mitigation of specific mechanisms leading to neurological disorders. In previous studies, we found that exposure to SPC-µG resulted in enhanced proliferation, a shortened cell cycle, and a larger cell diameter of NSCs compared to control cells. Here, we report the frequent occurrence of abnormal cell division (ACD) including incomplete cell division (ICD), where cytokinesis is not successfully completed, and multi-daughter cell division (MDCD) of NSCs following SPC-µG as well as secretome exposure compared to ground control (1G) NSCs. These findings provide new insights into the potential health implications of space travel and have far-reaching implications for understanding the mechanisms leading to the deleterious effects of long-term space travel as well as potential carcinogenic susceptibility. Knowledge of these mechanisms could help to develop preventive or corrective measures for successful long-term SPC-µG exposure.",
+  "introduction": "1. Introduction\n\nTo determine the health risks associated with long-term space travel, it is essential to consider the effects of space microgravity (SPC-µG) on the brain. It is well-established that astronauts oftentimes experience adverse effects following a visit to outer space including the National Aeronautics and Space Administration (NASA)-recognized spaceflight-associated neuro-ocular syndrome (SANS). Potential risk factors as well as limitations to lengthy space missions and stays at the International Space Station (ISS) are posed by SANS, among other difficulties that astronauts face due to the gravitational differences in space. This is particularly important because issues such as SANS can be experienced after as little as 34 days, and unusual pathologic neuro-ophthalmic findings have been shown after both short- and long-term space travel.\n\nMany studies on the use of microgravity have been performed using an array of cells both committed to a specific phenotype depending on the organ of study as well as uncommitted cells known as stem cells. The origin of stem cells includes murine and human origin. Among these are adult stem cells, embryonic stem cells, induced pluripotent stem cells (iPS), and organ-specific stem cells. Recent publications have described changes in stem cells when exposed to simulated or space microgravity. Nonetheless, there is limited information in what concerns neural stem cells. Prior research looking at the effects of microgravity on neural stem cells has primarily been conducted with the use of simulated microgravity (sim-µG). Sim-µG studies use machines that are able to simulate low gravity conditions such as the Mitsubishi 3D-Clinostat. The use of different microgravity platforms with application on stem cells and differentiated cells has recently been reviewed. Only a few studies have shown the effect of sim-µG or SPC-µG specifically on neural stem cells. In this regard, Silvano and collaborators have shown that murine cerebellar neural stem cells (NSCs) respond to sim-µG by the arrest of their cell cycle in the S-phase with a concomitant increase in apoptosis. These changes occurred in a transient manner because upon return to 1G (Earth’s gravity), the authors described that the cells recovered their stemness and a normal cell cycle. We have previously reported a result that appears to contradict Silvano et al.’s findings, where we found that NSCs in sim-µG proliferated more and displayed a smaller diameter than 1G grown NSCs. A recent discovery that spaceflight upregulated proliferation and survival genes in neural crest derived stem cells while the random positioning machine upregulated differentiation and inflammation genes emphasized the uniqueness of space flight conditions when compared to Earth controls.\n\nOur current research avoids the use of sim-µG and moves directly to the source of microgravity -- outer space. SPC-µG has demonstrated more pronounced effects of certain phenomena when compared to sim-µG. Although radiation and other environmental differences cannot be excluded as contributing factors, the findings are similar between sim-µG and SPC-µG, save for the difference in degree.\n\nThe results of the current study provide outcomes not previously reported in sim-µG studies, with the additional benefit of added relevance to the astronauts’ health. Here, four conditions of NSCs derived from human induced pluripotent stem cells (hiPS) are considered. In the ground control condition (1G), NSCs did not experience any SPC-µG, although other cellular conditions were the same as the experimental groups (more details on the procedure are available in Section 2). The second group consisted of 1G naïve sister cells of the space-flown NSCs that were treated with the secretome, which is our term for the secreted medium from space-flown cells. Finally, we also looked at two groups of NSCs following space flight, with the first group captured one week post-flight, and the final group captured at two weeks post-flight.\n\nDue to the nature of the study looking at abnormalities in cell division, it is important to understand the intricacies of the cell cycle and the potential stage(s) for error. In the case of one of the abnormalities, we deemed incomplete cell division (ICD) as failed cytokinesis. Cytokinesis is a highly complex, regulated process that requires an extensive number of cellular processes, proteins, and signaling factors to function properly. Cytokinetic failure can occur due to defects in any of its four stages, which include positioning of the division plane, ingression of the cleavage furrow, formation of the midbody, and abscission. Cytokinetic failure following the division of the cell nucleus, or karyokinesis, can result in a tetraploid cell with double nuclei and four copies of each chromosome rather than the expected two. For some cells of the human body such as in the heart or liver, tetraploidy is a normal process. However, in many cases, tetraploidy can be a sign of a deleterious abnormality such as a tumor precursor.\n\nPrevious work in the literature has confirmed that embryonic and induced pluripotent stem cells behave similarly in terms of cell cycle components. Embryonic stem cell pluripotency is maintained through unique and highly specific signaling. These cells enter the S phase more rapidly with a shortened G1 due to impaired or atypical checkpoint control in embryonic stem cells and unusual activation patterns.\n\nOur previous findings showed that NSCs proliferate at a higher rate while in space as well as up to 72 h following space flight, irrespective of flight duration. We also showed that changes in the cell diameter occurred post-flight, with 81% of NSCs exhibiting a diameter of 10 µm or higher following space flight compared to 49.2% of the control NSCs. While the undifferentiated NSCs in adult human brain areas such as the subventricular zone and the dentate gyrus of the hippocampus remain quiescent under normal circumstances, the environment of SPC-µG exposure is likely to alter the expected behavior of these cells. The changes described above including increased proliferation and enlarged cell diameter could contribute to symptoms of SANS that astronauts experience post-flight such as intracranial hypertension. Here, in addition to the aforementioned differences, we noticed that some SPC-µG NSCs appeared to have difficulties with the completion of cytokinesis with enough frequency to be of interest for further investigation. The current study takes a closer look at proliferation abnormalities in single cell division. Throughout this paper, the term ICD refers to an ultimate failure of cytokinesis, regardless of whether karyokinesis has occurred, and multi-daughter cell division (MDCD) refers to the appearance of more than two daughter cells as would be typical for a single cell division following cytokinesis. The term abnormal cell division (ACD) refers to either phenomena, ICD and/or MDCD. We investigated the hypothesis that, compared to 1G NSCs, there are significantly increased instances of ICD, MDCD, and ACD following exposure to SPC-µG. We also hypothesized that the space-produced secretome would have a similar effect on naïve NSCs.",
+  "methods": "4. Materials and Methods\n\n4.1. Space Flight\n\nInduced pluripotent human neural stem cells known as cell line “CS83iCTR-33n21” derived from skin fibroblasts were used for the space flight. The cells were reprogrammed by Cedars-Sinai Medical Center through a material transfer agreement and subsequently induced using the STM medium. For further details regarding the steps of the space flight protocol, see our previous publications as well as Figure 8 below. Both space-flown and ground control cells underwent the same flight preparation procedures, and all cells were grown in hardware and pre-seeded onto mesh carriers in passive units. For this study, both gravity conditions used hardware from Yuri through the payload developer Space Technology and Advanced Research System (STaARS). We used the facility known as the STaARS-EF-1 platform on board the ISS, with flight-tested growth and observation chambers shown in Figure 8. The hardware-units containing the experiment electrically and mechanically interfaced through a clip-in-place mechanism onto the STaARS EF-1.\n\nSPC-µG exposure: NSCs were flown aboard SpaceX-16 to the ISS and remained onboard the ISS for 39.6 days before returning to Earth, as shown in Figure 8. The cell chambers contained 2 × 2 mm mesh carriers and the culture medium was equilibrated overnight at 5% CO2 in the incubator where cells were maintained before the flight. Upon arrival, cells were seeded into flasks or flaskettes and allowed to recover for six hours in the incubator and subsequently placed in the imaging system. (Figure modified from Shaka et al., 2021). A chart defining the abnormal cell division terminology is also shown (Figure 9).\n\n4.2. Secretome Collection and Naïve NSC Cell Treatment\n\nThe conditioned medium secreted by space-flown cells, otherwise known as secretome, was collected from the cell chambers separately from the cells. The samples were placed in numbered tubes and subsequently frozen at −80 °C. Environmental parameters and the experimental timeline for the 1G NSCs were based on that of the ISS in order to simulate the conditions of the space flight. Upon its recovery, we mixed two parts of culture medium per one part of straight secretome to treat naïve NSCs grown in 1G cells. The secretome was used straight (as it was obtained from the devices); no concentration was necessary to see the effects shown in this paper. The 1G naïve sister cells of the space-flown cells were first imaged with basal stem cell medium. The medium was switched to fresh medium containing secretome at 44.5 h into the time-lapse video.\n\n4.3. Time-Lapse Microscopy Analysis\n\nAsynchronous experiments were performed following spaceflight on Earth for the study of cell proliferation. The time-lapse microscopy imaging was conducted using the ZEISS Axio Observer 7 fully motorized inverted research microscope equipped with Definite Focus 2, ZEISS Axiocam 506 monochrome camera with ZEISS ZEN software, and ZEISS Full Incubation XL chamber (Oberkochen, Germany) for temperature and CO2 control with a motorized scanning stage. The microscope collected images every 15 min in seven different XYZ positions for a duration of about 72 h for each cell condition. The time-lapse data were analyzed frame-by-frame by hand to scan for instances of ACD including ICD and MDCD with the ZEN Blue 3.5 program. All data were charted in Microsoft Excel for statistical analysis.\n\n4.4. Immunofluorescence and Nuclear Staining\n\nDouble immunofluorescence using established markers for NSCs was performed with the following antibodies used at a 1:100 dilution of nestin (BD Pharmingen, Franklin Lakes, NJ, USA) and tubulin. NucBlue™, (Gibco|Thermo Fisher Scientific, Waltham, MA, USA) was also used for staining the nuclei of the NSCs (Figure 10). Immunofluorescence procedures included plating cells onto either coated plastic 8-well chambers (Nunc 177445), or poly-d-lysine coated glass coverslips. To visualize the markers, the secondary antibodies used were goat anti-rabbit IgG Texas Red (JIR) and goat anti-mouse IgG FITC (Sigma, Tokyo, Japan).\n\nPublisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+  "results": "2. Results\n\n2.1. Time-Lapse Microscopy Analysis\n\n2.1.1. A Subpopulation of NSCs Back from Space Displayed Incomplete Divisions\n\nObservations of SPC-exposed NSCs revealed that although these cells proliferated more than their ground control counterparts, a sub-population of them attempted to divide unsuccessfully. These abnormally dividing cells displayed two cell bodies, yet ultimately did not achieve complete cell division into two daughter cells, instead remaining as a larger cell and preserving that state for the rest of the time-lapse imaging, as shown in Figure 1. In terms of the differences between the 1G and SPC-µG exposed NSCs, Figure 1A–I illustrates an example of incomplete cytokinesis. The average numbers (bar graph) and percentages (pie graphs) show the raw numbers and proportion of cells involved in ICDs throughout the time-lapse videos. There was an upward trend observed among the groups, with the NSCs two weeks after SPC-µG exposure showing the highest number of instances of ICD. For the control group, the average total number of cells was 1606 with an average ratio of 5.67 ICDs per 1606 cells. For the SPC–µG exposed NSCs, there were on average 8.5 ICDs per 1370 NSCs one week after spaceflight, and 11 ICDs per 903 cells across the different scenes analyzed two weeks post-flight.\n\nHowever, because the total number of cells differed among the three conditions, we also estimated the relative proportions of ICDs. This was calculated by dividing the number of ICDs by the total number of cells present at the exact middle of each time-lapse video. The middle frame represented an approximate mean between the number of cells present at the start of the time-lapse compared with the number of cells present at the end of the video after proliferation had occurred. When comparing the different proportions, the Chi-square test demonstrated statistically significant differences (p = 0.045) (Figure 1K).\n\n2.1.2. A Subpopulation of SPC-NSCs Displayed Multi-Daughter Cell Divisions\n\nIn addition to ICD, we found multi-daughter cell division, which was also examined. An example of multi-daughter cell division where one cell gave rise to three cells at the end of cytokinesis is shown in Figure 2A–C. The average number of cells exhibiting MDCD one week and two weeks after space flight and the percentage of MDCD instances are shown (Figure 2D,E).\n\nAs both ICD and MDCD (triple divisions) can be considered within the realm of ACDs, we also compared the total number of ACDs among the three conditions. Although the averages differed between the groups in terms of MDCDs, the sum of ICDs and MDCDs proved statistically significant. (Figure 3).\n\n2.2. Effects of the Secretome on Naïve NSCs Cell Divisions\n\nTo ascertain if these changes had been exerted directly on the cells during space flight, we examined if there were molecules that would have been secreted by NSCs under the influence of microgravity. For this experiment we seeded the cells and followed them for 72 h, time at which we added the secretome to the cells in a 2:1 ratio V/V. We found that the secretome produced similar results in terms of incomplete cytokinesis suggesting that secreted molecules rather than mechanical forces are responsible for these effects (Figure 4).\n\nWe examined the question of whether or not the secretome would also produce similar effects on naïve NSCs that had never flown to space in terms of MDCD. An example of MDCD in the naïve NSCs treated with secretome is shown (Figure 5A–C), where one cell divides into three daughter cells and the three cells continue to survive and move around for the duration of the time-lapse.\n\nWhile looking at the raw numbers can provide useful information, it is important to consider that the total number of visible cells as filmed through time-lapse microscopy differs for each scene. Therefore, the pie charts in Figure 1 and Figure 3 take this into account in order to display the fraction of total cells that exhibited ICD or ACD. There was a significantly greater proportion of ICDs found in the experimental group of NSCs two weeks post-flight (1.22%) compared to the other groups, with the 1G naïve NSCs at 0.35% and the NSCs one week post-flight exhibiting 0.62% ICD. Concerning the sum of ICD and MDCD, there was also a significantly greater proportion of ACDs found in the SPC-µG exposed NSCs two weeks post-flight (1.68%). The 1G naïve NSCs exhibited ACD at a frequency of 0.58%, the same cells after the addition of secretome exhibited ACD 0.98% of the time, and the SPC-µG exposed NSCs one week post-flight had a percentage of 0.56% the influence of microgravity. In addition to ICD, the raw numbers of cells involved in either ICD or MDCD, deemed ACDs, were also graphed (Figure 6). For the control group, the average total number of cells was 1606 with an average ratio of 9.33 ACDs per 1606 cells. After the medium was switched to incorporate secretome, this value changed drastically, with an average of 15.67 ACDs per 1606 cells. For the SPC–µG exposed NSCs, there were on average 7.63 ACDs per 1370 NSCs one week after spaceflight, while there were on average 15.17 ICDs per 903 cells across the different scenes analyzed two weeks post-flight (Figure 6).\n\nFrom these data, it is clear that there were statistically significant differences in the amount of ACD as well as ICD alone following cellular exposure to SPC-µG, particularly when looking at NSCs two weeks following SPC-µG exposure. While not always statistically significant, there are also more instances of both ICD and ACD following the addition of secretome to the NSCs.\n\n2.3. Immunofluorescence\n\nImmunocytochemistry was performed on both the control and experimental groups of NSCs. These cells were examined for the expression of NSC markers in order to confirm lineage. The normal morphology and physiology of NSCs are partially dependent on the cytoskeleton, which is composed of intermediate filaments, actin, and microtubules.\n\nOne of the proteins detected by immuno-fluorescence was neuroepithelial stem cell protein (nestin). Nestin expression was of interest because as a type VI intermediate filament (IF) protein, nestin is primarily expressed in dividing NSCs. Potential differences in nestin expression between the control and experimental NSCs allows for a deeper examination of morphological differences that may be present after exposure to SPC-µG or secretome. In addition to nestin, tubulin expression was also examined. As a major component protein essential for microtubule formation, tubulin expression is also bound to reveal information regarding the cell cytoskeleton. Furthermore, it has been confirmed that tubulin is expressed in nestin-positive cells, which aids in testing the validity of our work. The results of the immunofluorescence are shown in Figure 7.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "human neural stem cells",
+    "abnormal cell division",
+    "cytokinesis",
+    "gravitational research",
+    "brain",
+    "microgravity",
+    "space flight",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Spaceflight-Induced Intracranial Hypertension and Visual Impairment: Pathophysiology and Countermeasures",
+      "authors": [
+        "L.-F. Zhang",
+        "A.R. Hargens"
+      ]
+    },
+    {
+      "title": "Spaceflight associated neuro-ocular syndrome (SANS) and the neuro-ophthalmologic effects of microgravity: A review and an update",
+      "authors": [
+        "A.G. Lee",
+        "T.H. Mader",
+        "C.R. Gibson",
+        "W. Tarver",
+        "P. Rabiei",
+        "R.F. Riascos",
+        "L.A. Galdamez",
+        "T. Brunstetter"
+      ]
+    },
+    {
+      "title": "Tissue Engineering Under Microgravity Conditions–Use of Stem Cells and Specialized Cells",
+      "authors": [
+        "D. Grimm",
+        "M. Egli",
+        "M. Krüger",
+        "S. Riwaldt",
+        "T.J. Corydon",
+        "S. Kopp",
+        "M. Wehland",
+        "P. Wise",
+        "M. Infanger",
+        "V. Mann"
+      ]
+    },
+    {
+      "title": "Impact of Simulated Microgravity on Oligodendrocyte Development: Implications for Central Nervous System Repair",
+      "authors": [
+        "A. Espinosa-Jeffrey",
+        "P. Paez",
+        "V. Cheli",
+        "V. Spreuer",
+        "I. Wanner",
+        "J. De Vellis"
+      ]
+    },
+    {
+      "title": "Consequences of Simulated Microgravity in Neural Stem Cells: Biological Effects and Metabolic Response",
+      "authors": [
+        "M. Silvano",
+        "E. Miele",
+        "M. Valerio",
+        "L. Casadei",
+        "F. Begalli",
+        "A. Campese",
+        "Z.M. Besharat",
+        "V. Alfano",
+        "L. Abballe",
+        "G. Catanzaro"
+      ]
+    },
+    {
+      "title": "The Implications of Microgravity on Cell Morphology and Proliferation of Stem Cell Progenies towards Astronaut Health. IAC-16,A1,7,9,x35726",
+      "authors": [
+        "J. Green",
+        "A. Taniguchi",
+        "K. Oregel",
+        "A. Espinosa-Jeffrey"
+      ]
+    },
+    {
+      "title": "Molecular genetic analysis of neural stem cells after space flight and simulated microgravity on earth",
+      "authors": [
+        "Y. Han",
+        "L. Zeger",
+        "R. Tripathi",
+        "M. Egli",
+        "F. Ille",
+        "C. Lockowandt",
+        "G. Florin",
+        "E. Atic",
+        "I.N. Redwan",
+        "R. Fredriksson"
+      ]
+    },
+    {
+      "title": "Microgravity Significantly Influences Neural Stem Cells Size and Numbers: Implications for Long-term Space Missions",
+      "authors": [
+        "S. Shaka",
+        "N. Carpo",
+        "V. Tran",
+        "C. Cepeda",
+        "A. Espinosa-Jeffrey"
+      ]
+    },
+    {
+      "title": "Understanding Cytokinesis Failure",
+      "authors": [
+        "G. Normand",
+        "R.W. King"
+      ]
+    },
+    {
+      "title": "Tetraploid cancer cell precursors",
+      "authors": [
+        "G. Kroemer"
+      ]
+    },
+    {
+      "title": "Neurogenesis and the Cell Cycle",
+      "authors": [
+        "S.-I. Ohnuma",
+        "W.A. Harris"
+      ]
+    },
+    {
+      "title": "Neural stem cells: Origin, heterogeneity and regulation in the adult mammalian brain",
+      "authors": [
+        "K. Obernier",
+        "A. Alvarez-Buylla"
+      ]
+    },
+    {
+      "title": "Human Neural Stem Cells in Space Proliferate more than Ground Control Cells: Implications for Long-Term Space Travel",
+      "authors": [
+        "S. Shaka",
+        "N. Carpo",
+        "V. Tran",
+        "Y.-Y. Ma",
+        "F. Karouia",
+        "A. Espinosa-Jeffrey"
+      ]
+    },
+    {
+      "title": "The cell cycle and cancer",
+      "authors": [
+        "K. Collins",
+        "T. Jacks",
+        "N.P. Pavletich"
+      ]
+    },
+    {
+      "title": "Cell Injury, Cellular Responses to Injury, and Cell Death",
+      "authors": [
+        "T.C. King"
+      ]
+    },
+    {
+      "title": "Increased Asymmetric and Multi-Daughter Cell Division in Mechanically Confined Microenvironments",
+      "authors": [
+        "H.T.K. Tse",
+        "W.M. Weaver",
+        "D. Di Carlo"
+      ]
+    },
+    {
+      "title": "Profiling the Secretome of Space Traveler Human Neural Stem Cells",
+      "authors": [
+        "J.C. Biancotti",
+        "N. Carpo",
+        "J. Zamudio",
+        "L. Vergnes",
+        "A. Espinosa-Jeffrey"
+      ]
+    },
+    {
+      "title": "Matricellular proteins: Extracellular modulators of cell function",
+      "authors": [
+        "P. Bornstein",
+        "E. Sage"
+      ]
+    },
+    {
+      "title": "SPARC, a matricellular protein: At the crossroads of cell–matrix communication: [Matrix Biology (2000) 569–580]",
+      "authors": [
+        "R.A. Brekken",
+        "E. Sage"
+      ]
+    },
+    {
+      "title": "SPARC in cancer biology: Its role in cancer progression and potential for therapy",
+      "authors": [
+        "I.T. Tai",
+        "M.J. Tang"
+      ]
+    },
+    {
+      "title": "Characterization of human osteoblast and megakaryocyte-derived osteonectin (SPARC)",
+      "authors": [
+        "R.J. Kelm",
+        "G.A. Hair",
+        "K.G. Mann",
+        "B.W. Grant"
+      ]
+    },
+    {
+      "title": "SPARC is a key Schwannian-derived inhibitor controlling neuroblastoma tumor angiogenesi",
+      "authors": [
+        "A. Chlenski",
+        "S. Liu",
+        "S. E Crawford",
+        "O. Volpert",
+        "G.H. Devries",
+        "A. Evangelista",
+        "Q. Yang",
+        "H.R. Salwen",
+        "R. Farrer",
+        "J. Bray"
+      ]
+    },
+    {
+      "title": "The extracellular glycoprotein SPARC interacts with platelet-derived growth factor (PDGF)-AB and -BB and inhibits the binding of PDGF to its receptors",
+      "authors": [
+        "E.W. Raines",
+        "T.F. Lane",
+        "M.L. Iruela-Arispe",
+        "R. Ross",
+        "E.H. Sage"
+      ]
+    },
+    {
+      "title": "Differential expression of SPARC and thrombospondin 1 in wound repair: Immunolocalization and in situ hybridization",
+      "authors": [
+        "M.J. Reed",
+        "P. Puolakkainen",
+        "T.F. Lane",
+        "D. Dickerson",
+        "P. Bornstein",
+        "E.H. Sage"
+      ]
+    },
+    {
+      "title": "Doxycycline-Inducible Expression of SPARC/Osteonectin/ BM40 in MDA-MB-231 Human Breast Cancer Cells Results in Growth Inhibition",
+      "authors": [
+        "N. Dhanesuan",
+        "J.A. Sharp",
+        "T. Blick",
+        "J.T. Price",
+        "E.W. Thompson"
+      ]
+    },
+    {
+      "title": "Analyses of the role of endogenous SPARC in mouse models of prostate and breast cancer",
+      "authors": [
+        "S.Y. Wong",
+        "D. Crowley",
+        "R.T. Bronson",
+        "R.O. Hynes"
+      ]
+    },
+    {
+      "title": "Suppression of SPARC expression by antisense RNA abrogates the tumorigenicity of human melanoma cells",
+      "authors": [
+        "M.F. Ledda",
+        "S. Adris",
+        "A.I. Bravo",
+        "C. Kairiyama",
+        "L. Bover",
+        "Y. Chernajovsky",
+        "J. Mordoh",
+        "O.L. Podhajcer"
+      ]
+    },
+    {
+      "title": "The role of cytoskeleton in cell changes under condition of simulated microgravity",
+      "authors": [
+        "L. Buravkova",
+        "Y. Romanov"
+      ]
+    },
+    {
+      "title": "Managing the centrosome numbers game: From chaos to stability in cancer cell division",
+      "authors": [
+        "B.R. Brinkley"
+      ]
+    },
+    {
+      "title": "The Role of MYCN in Symmetric vs. Asymmetric Cell Division of Human Neuroblastoma Cells",
+      "authors": [
+        "H. Izumi",
+        "Y. Kaneko",
+        "A. Nakagawara"
+      ]
+    },
+    {
+      "title": "Population Dynamics and Neuronal Polyploidy in the Developing Neocortex",
+      "authors": [
+        "T. Jungas",
+        "M. Joseph",
+        "M.-A. Fawal",
+        "A. Davy"
+      ]
+    },
+    {
+      "title": "Unscheduled re-entry into the cell cycle induced by NGF precedes cell death in nascent retinal neurones",
+      "authors": [
+        "J.M. Frade"
+      ]
+    },
+    {
+      "title": "Why Cortical Neurons Cannot Divide, and Why Do They Usually Die in the Attempt?",
+      "authors": [
+        "A. Aranda-Anzaldo",
+        "M.A. Dent"
+      ]
+    },
+    {
+      "title": "Nuclear genome-wide associations with Mitochondrial Heteroplasmy",
+      "authors": [
+        "P. Nandakumar",
+        "C. Tian",
+        "J. O’Connell",
+        "D. Hinds",
+        "A.D. Paterson",
+        "N. Sondheimer"
+      ]
+    },
+    {
+      "title": "Mechanisms of neuronal death in Down’s syndrome",
+      "authors": [
+        "Z. Nagy"
+      ]
+    },
+    {
+      "title": "Cell cycle regulatory failure in neurones: Causes and consequences",
+      "authors": [
+        "Z. Nagy"
+      ]
+    },
+    {
+      "title": "Neuronal binucleation in Alzheimer disease hippocampus",
+      "authors": [
+        "X. Zhu",
+        "S.L. Siedlak",
+        "Y. Wang",
+        "G. Perry",
+        "R.J. Castellani",
+        "M.L. Cohen",
+        "M.A. Smith"
+      ]
+    },
+    {
+      "title": "Space flight and central nervous system: Friends or enemies? Challenges and opportunities for neuroscience and neuro-oncology",
+      "authors": [
+        "G. Marfia",
+        "S.E. Navone",
+        "L. Guarnaccia",
+        "R. Campanella",
+        "M. Locatelli",
+        "M. Miozzo",
+        "P. Perelli",
+        "G. Della Morte",
+        "L. Catamo",
+        "P. Tondo"
+      ]
+    },
+    {
+      "title": "Uncovering the secretome of mesenchymal stromal cells exposed to healthy, traumatic, and degenerative intervertebral discs: A proteomic analysis",
+      "authors": [
+        "S. Wangler",
+        "A. Kamali",
+        "C. Wapp",
+        "K. Wuertz-Kozak",
+        "S. Häckel",
+        "C. Fortes",
+        "L.M. Benneker",
+        "L. Haglund",
+        "R.G. Richards",
+        "M. Alini"
+      ]
+    }
+  ],
+  "original_title": "Space Microgravity Alters Neural Stem Cell Division: Implications for Brain Cancer Research on Earth and in Space",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/da638e39f3e2/ijms-23-14320-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/4b81bf11f5d2/ijms-23-14320-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/c4fb4c65a08c/ijms-23-14320-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/1ac1327eac26/ijms-23-14320-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/25eca578e473/ijms-23-14320-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/d34fe864acf1/ijms-23-14320-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/4e7b7a0d801b/ijms-23-14320-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/e4b367bbe432/ijms-23-14320-g008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/ed7b4db81349/ijms-23-14320-g009.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b386/9699585/a3676a96fa9b/ijms-23-14320-g010.jpg"
+  ]
+}

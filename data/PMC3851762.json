@@ -1,0 +1,971 @@
+{
+  "pmcid": "PMC3851762",
+  "title": "Spaceflight Enhances Cell Aggregation and Random Budding in Candida albicans",
+  "abstract": "This study presents the first global transcriptional profiling and phenotypic characterization of the major human opportunistic fungal pathogen, Candida albicans, grown in spaceflight conditions. Microarray analysis revealed that C. albicans subjected to short-term spaceflight culture differentially regulated 452 genes compared to synchronous ground controls, which represented 8.3% of the analyzed ORFs. Spaceflight-cultured C. albicans–induced genes involved in cell aggregation (similar to flocculation), which was validated by microscopic and flow cytometry analysis. We also observed enhanced random budding of spaceflight-cultured cells as opposed to bipolar budding patterns for ground samples, in accordance with the gene expression data. Furthermore, genes involved in antifungal agent and stress resistance were differentially regulated in spaceflight, including induction of ABC transporters and members of the major facilitator family, downregulation of ergosterol-encoding genes, and upregulation of genes involved in oxidative stress resistance. Finally, downregulation of genes involved in actin cytoskeleton was observed. Interestingly, the transcriptional regulator Cap1 and over 30% of the Cap1 regulon was differentially expressed in spaceflight-cultured C. albicans. A potential role for Cap1 in the spaceflight response of C. albicans is suggested, as this regulator is involved in random budding, cell aggregation, and oxidative stress resistance; all related to observed spaceflight-associated changes of C. albicans. While culture of C. albicans in microgravity potentiates a global change in gene expression that could induce a virulence-related phenotype, no increased virulence in a murine intraperitoneal (i.p.) infection model was observed under the conditions of this study. Collectively, our data represent an important basis for the assessment of the risk that commensal flora could play during human spaceflight missions. Furthermore, since the low fluid-shear environment of microgravity is relevant to physical forces encountered by pathogens during the infection process, insights gained from this study could identify novel infectious disease mechanisms, with downstream benefits for the general public.",
+  "introduction": "Introduction\n\nThe presence of opportunistic pathogens in the normal flora of astronauts, in combination with their compromised immune system during spaceflight missions, puts this population at particular risk for infectious disease. Candida species are commensal organisms that are found on human skin, in the oral cavity, and in the gastrointestinal, urogenital, and vaginal tracts and are consistently isolated from the spaceflight crew and environment. These microorganisms become pathogenic under specific circumstances, which can lead to various infectious diseases ranging in severity from superficial mucous membrane infections (i.e., thrush) to life-threatening disseminated candidiasis. Immunocompromised patients are at particular risk of developing Candida infections.\n\nThe risk for infectious diseases in astronauts becomes even more significant given previous reports that spaceflight culture conditions globally alter the virulence and/or gene expression of obligate and opportunistic bacterial pathogens. Two independent spaceflight experiments demonstrated that mice infected with spaceflight-grown Salmonella enterica serovar Typhimurium (S. Typhimurium) exhibited decreased time to death and LD50 values when compared to mice challenged with identical synchronous ground control cultures. Analysis of global transcriptomic and proteomic expression patterns of S. Typhimurium grown in spaceflight conditions revealed that 167 transcripts and 73 proteins were altered during culture in the microgravity environment of spaceflight, and identified a central regulatory role for the evolutionarily conserved RNA-binding protein Hfq. Hfq is an Sm-like (LSm) RNA chaperone that serves as a master regulator of bacterial responses to environmental stress, primarily by regulating gene expression at the post-transcriptional level through the pairing of mRNA transcripts with cognate small non-coding RNAs. Spaceflight also alters the hfq regulon in Pseudomonas aeruginosa , and is involved in the spaceflight-analogue response of S. Typhimurium, P. aeruginosa and Staphylococcus aureus . Spaceflight-analogue conditions are obtained through culturing of microorganisms in rotating bioreactors, termed rotating wall vessels (RWV). In the RWV, cells experience low fluid-shear forces while being in continuous suspension, which mimics aspects of the unique microgravity environment. This specific growth environment is termed low shear modeled microgravity (LSMMG).\n\nThe response of eukaryotic microorganisms to spaceflight and spaceflight-analogue conditions has been previously reported. Saccharomyces cerevisiae has been extensively studied since the early years of the space program. The first flight experiment with this organism was conducted in 1962 (reviewed in). Detailed analyses indicated that yeast cells responded to microgravity by undergoing metabolic (e.g. increase in phosphate uptake) and phenotypic changes (e.g. increase in number and distribution of bud scars). A recent report showed enhanced production of the biochemical molecule S-adenosyl-L-methionine (SAM) in spaceflight-cultured S. cerevisiae . Knowledge gained from these studies led to the engineering of a SAM-overproducing strain of S. cerevisiae, with potential industrial applications. Moreover, studies describing the response of S. cerevisiae to spaceflight-analogue conditions in the RWV showed major phenotypic alterations in response to this environment. Specifically, S. cerevisiae grown in LSMMG conditions displayed increased cell clumping (or flocculation) and a random budding phenotype as compared to the bipolar budding pattern of the same cells grown in the control orientation of the RWV bioreactor.\n\nWhile, to our knowledge, no reports exist on the response of C. albicans to culture under true spaceflight conditions, studies have documented the response of this organism to ground-based spaceflight-analogue conditions in the RWV. When C. albicans was cultured in LSMMG, this organism displayed increased randomness in the budding pattern, which is similar to the phenotype observed for S. cerevisiae during culture under the same conditions. In addition, while C. albicans existed as a predominantly yeast form when cultured under control conditions in the RWV bioreactor, increased filamentation and biofilm formation were observed when grown under LSMMG as determined by microscopy and morphology-specific gene expression profiling. C. albicans can transition from budding yeast to a filamentous (hyphal) form, which is responsive to environmental stressors and contributes to the organism's virulence. Consistent with the conversion of C. albicans cells to a filamentous form, a concomitant increase in expression of filamentous-specific genes that are also suggestive of biofilm formation was observed in response to LSMMG.\n\nIn addition to the importance of spaceflight research for infectious disease risk assessment during short and long-term missions, studying the behavior of C. albicans to spaceflight and spaceflight-analogue culture conditions has important clinical applications. Indeed, the low fluid shear forces to which microorganisms are exposed in spaceflight and spaceflight-analogue cultures are relevant to environmental conditions encountered during their lifecycles on Earth, including in the gastrointestinal, respiratory, and urogenital tracts of the host. Since we currently lack a complete understanding of the infection process of this medically important pathogen and there is an urgent need for novel therapeutic approaches to control C. albicans infections, insights gained from microgravity research holds potential to discover new infectious disease mechanisms and benefit the general public on Earth.\n\nThe current study describes the response of the most prominent fungal human pathogen, C. albicans, to spaceflight culture conditions, flown as part of the NASA Space Shuttle Atlantis Mission STS-115. In this report, we analyzed the global transcriptional profile and performed phenotypic analysis of C. albicans during short-term growth in spaceflight conditions. To our knowledge, this is the first report describing the effects of spaceflight culture on the global gene expression and phenotypic changes of a eukaryotic pathogen.",
+  "methods": "Experimental Procedures\n\nEthics statement\n\nResearch was conducted in compliance with applicable animal care guidelines at the NASA Kennedy Space Center (KSC) under approved NASA KSC IACUC Protocol # FLT-06-050.\n\nStrains, media and growth conditions\n\nC. albicans strain SC5314 was used in all experiments. Prior to flight, 6×106 cells grown in YPD medium were suspended in 0.5 mL sterile ddH2O and loaded into specialized spaceflight hardware, termed Fluid Processing Apparatuses (FPA) (Figure S1), as described previously. Briefly, growth was initiated in flight (nine days post launch) by addition of 2 mL YPD to the fungal suspension (termed activation). Cultures were grown in spaceflight conditions or synchronous ground control conditions for 25 hours at ambient temperature (23°C). Subsequently, cells were fixed for RNA, proteins and morphological imaging by addition of 2.5 mL RNA Later II reagent (Ambion, Austin, TX) (termed termination). For infection studies, assessment of cell viability and fixation for scanning electron microscopy (SEM), 2.5 mL YPD medium was added instead of RNA Later II fixative. All samples were returned at ambient temperature, and Shuttle landing occurred 12 days post launch. Two and a half hours after landing at Kennedy Space Center, the culture samples fixed in RNA Later II were recovered, removed from the FPA, and stored at −80°C. The viable cell samples were counted by plating on solid medium. A portion of the sample was fixed in 4% glutaraldehyde (16%; Sigma, St. Louis, MO) for SEM analysis, and the remainder of the sample was immediately used for virulence studies in mice. For all studies, flight cultures were compared to synchronous control cultures grown under identical conditions on the ground at Kennedy Space Center using coordinated activation and termination times (via real time communications with the Shuttle crew) in an insulated room that maintained identical temperature and humidity as on the Shuttle (Orbital Environmental Simulator) (synchronous ground controls).\n\nVirulence\n\nThe C. albicans dose for infection was obtained by pooling samples from eight FPAs for either flight or ground control samples, respectively, followed by centrifugation (1500 g, 5 min) and resuspension in sterile PBS. Six to eight week old female Balb/c mice (housed in the Animal Facility at the Space Life Sciences Lab at Kennedy Space Center) were injected intraperitoneally (i.p.) (Kretschmar et al., 1999) with a single lethal dose (1×108) of C. albicans cells harvested from either spaceflight (within 2.5 hours after Shuttle landing) or synchronous ground cultures that were resuspended in 0.5 mL sterile PBS. Ten mice were used per test condition and infected mice were monitored every 6–12 hours for 14 days.\n\nMicroscopy\n\nAll electron microscopy was performed on an XL30 FEI/Philips environmental scanning electron microscope (ESEM). As mentioned above, flight and ground samples were fixed in 4% glutaraldehyde post-landing and stored at 4°C until processing and analysis. Prior to analysis, samples were placed in filtration units containing a polycarbonate membrane with 0.4 µm pore size (Poretics Corporation), gently rinsed three times in filter-sterilized milli-Q water, and then dehydrated with graded alcohol series to 100% ethanol. The polycarbonate filters containing the cells were placed on double-sided carbon tape that was mounted onto stubs and dried overnight in a dry chamber. Next, samples were sputter coated with gold-palladium prior to imaging. Image J (http://rsbweb.nih.gov/ij/) was used to determine the average cell length/width and surface area, based on the analysis of 143 and 197 cells imaged with SEM for ground and spaceflight samples respectively. The individual cell measurements are provided as supplemental data (Table S1).\n\nLight microscopic analysis was performed on RNA Later II-fixed samples, using a Zeiss Axiovert microscope (magnification 100, 400× and 630×). Two biological replicates for flight and ground cultures were imaged. To determine average cell cluster size, five random images at magnification 100× were analyzed per biological replicate and per condition. Cells within the ten largest cell clusters were counted per image, and the average over the five microscopic images was determined.\n\nFlow cytometry\n\nFlow cytometry was performed using a FACS Calibur (Becton Dickinson). C. albicans flight and ground cultures (biological duplicate), stored in RNA later II at −80°C were diluted in PBS and subjected to analysis by flow cytometry. A forward scatter threshold was established at 700 to distinguish yeast cells from cell clusters. A population of yeast cells grown in liquid culture at 30°C (no cell clusters) was used to establish this threshold, in which at least 99% of the yeast population fell below the threshold. As forward scatter is proportional to cell size, events with forward scatter greater than the established threshold were considered cell aggregates. For each sample, 10,000 events were acquired at an analysis rate of approximately 500 events per second. All data analysis was performed with Cell Quest software (Becton Dickinson).\n\nRNA extraction, quantification and microarray analysis\n\nFour independent flight and ground samples were thawed and cells were counted manually using a hemocytometer. Yeast cells were disrupted by homogenization in the presence of glass beads in a Mini-Beadbeater-8™ (Biospec Products) and RNA was isolated using the RNeasy Micro kit (Qiagen). RNA quality and quantity were evaluated using the Nanodrop technology (Thermo Scientific) and an Agilent 2100 bioanalyzer (Agilent Technologies). Samples were processed at the Microarray Core Facility at Washington University (St. Louis, MO). Briefly, first strand cDNA was generated by oligo-dT primed reverse transcription (Superscript II; Invitrogen), following the manufacturer's instructions. For RNA expression level comparison, samples were paired and concentrated using Microcon YM30 microconcentrators (Millipore) according to the manufacturer's protocol. Next, each sample pair was resuspended in Formamide-based hybridization buffer (vial 7-Genisphere), Array 50 dT blocker (Genisphere), and RNase/DNase-free water. Primary and secondary hybridizations were carried out in a sequential manner following standard protocols. A dye-swap analysis was performed as well, and the data was not significantly different from the data set with the initial dye choice. To prevent fluorophore degradation, the arrays were treated with Dyesaver (Genisphere). Slides were scanned on a Perkin Elmer ScanArray Express HT scanner to detect Cy3 and Cy5 fluorescence. Laser power is kept constant for Cy3/Cy5 scans and PMT is varied for each experiment based on optimal signal intensity with lowest possible background fluorescence. Gridding and analysis of images was performed using ScanArray v3.0 (Perkin Elmer). Background intensity values were imported into Partek Genomic Suite (Partek, Inc.). The median value of each set of replicate spots from each array was used. Data was log2 transformed and quantile normalized. Three-way ANOVA analysis was then performed on the data using treatment (flight vs. ground), dye, and experimental data as factors. Flight to ground linear contrast was performed with ANOVA. False Discovery Rate was controlled using the Step Up method. Analysis was initially restricted to genes that had high intensity on the array and were differentially expressed by at least 2-fold with a confidence interval of 95%. Where indicated, genes with less than a 2.0 fold increase and less than a 95% confidence interval were considered. While the gene expression list was initially based on predicted ORFs annotated in assembly 19 of the C. albicans SC5314 genome, it was updated according to the most recent version (assembly 21) at CGD, with regard to gene model merges and gene deletions. The full description of the microarray analysis and the complete microarray data set have been deposited at the Gene Expression Omnibus (GEO) website under accession number GSE50881. The Candida Genome Database (CGD) Gene Ontology (GO) Slim Mapper was used to group differentially expressed genes according to function (biological process). In order to determine statistical significance of enriched categories, the GO Term Finder was used. For the GO Term Finder analysis, the data set was filtered for genes with GO annotations (i.e., 273 out of 452 genes). The GO Term Finder ‘process’ categorization was utilized for these studies unless otherwise noted.\n\nQuantitative real time PCR (qRT-PCR) analysis\n\nRNA was isolated as described above. One microgram RNA per sample was converted to cDNA using the MonsterscriptTM 1st-strand cDNA synthesis kit (Epicenter), and subsequently diluted ten times in nuclease-free water. Quantitect SYBR Green Master mix (Qiagen) was used to assess differential gene expression with quantitative real time PCR (qRT-PCR), according to the manufacturer's protocol. An overview of primers used in this study is provided in  Table 1 . The qRT-PCR reactions were performed in a RealPlex 2 system (Eppendorf). A melting curve was run at the end of each reaction to test for the presence of a single PCR product. The qRT-PCR reaction product was run on a 3% agarose gel in the presence of a low molecular weight DNA ladder (BioLabs), to assess primer specificity. CT values were exported using the Eppendorf Database tool, where after the delta delta CT method was adopted to determine relative gene expression between different test conditions. The average of four housekeeping genes was used for normalization (ACT1, PMA1, RIP, RPP2B). All chosen housekeeping genes were not differentially expressed based on microarray analysis. Two biological replicates of C. albicans grown in spaceflight and ground control conditions were analyzed with qRT-PCR in technical duplicate.",
+  "results": "Results\n\nGene expression\n\nGeneral observations\n\nWhole genome expression profiling was used to identify gene expression alterations in C. albicans in response to culture in spaceflight conditions as compared to identical synchronous ground controls. The C. albicans microarrays used to assess differential gene expression between flight and ground samples included 6,346 of the 6,742 predicted ORFs annotated in assembly 19 of the C. albicans SC5314 genome (Table S1). Of those 6,346 ORFs, there were 5,432 that exhibited a robust response suitable for statistical analysis. Data analysis was restricted to genes that had high intensity on the array and were differentially expressed by at least 2-fold and a p-value <0.05. Of these, 452 (or 8.3% of the analyzed ORFs) were differentially expressed in response to spaceflight culture conditions; 279 were upregulated (61.7%), and 173 were downregulated (38.3%) in the flight samples as compared to ground controls ( Table 2 ).\n\nIn order to evaluate global, high-level changes in gene expression, differentially expressed genes were classified into Biological Process categories ( Table 3 ), using GO Slim Mapper (September 12, 2013 version). While the function of many of the differentially regulated genes is currently unknown (not included in  Table 3  and  Figure 1 ), several categories of interest were found ( Table 3 ). Differentially expressed genes are presented in  Table 3  as (i) the ratio of the number of genes in category X to the total number of genes in the genome assigned to category X, and (ii) the ratio of the number of genes in category X to the total number of genes differentially regulated by spaceflight. This classification indicated that spaceflight affects a broad range of cellular functions, ranging from biofilm formation to vesicle-mediated transport. It is worth noting that many genes are assigned to more than one category; therefore, the sum totals of the columns in  Table 3  do not equal either the total number of genes in the genome or 100%.\n\nThe ten functional categories with the greatest number of differentially expressed genes in response to spaceflight expressed as a percent of assigned genes in the genome ( Figure 1A ) and/or the total number of differentially regulated genes ( Figure 1B ) include biofilm formation, cell adhesion, transport, interspecies interaction, response to chemical stimulus, response to stress, response to drugs, carbohydrate metabolism, and filamentous growth ( Table 3  ,   Figure 1 ).\n\nNext, we analyzed whether specific biological processes within our data set were significantly enriched, using GO Term Finder.  Figure 2  presents the hierarchical ranking of the GO Term Finder Process categories that were significantly enriched (p<0.05). These categories include filamentous growth, carbohydrate metabolism, response to chemical stimulus, response to stress, and transport; which were also represented in the top ten categories identified with GO Slim Mapper ( Table 3 ,  Figure 1 ).\n\nCategories that were significantly enriched by spaceflight culture ( Figure 2 ) and are of particular interest for this study given their direct role in the infectious disease process are response to stress and filamentation. In addition, we were interested in differentially regulated genes involved in (i) biofilm formation, cell aggregation, and random budding given our phenotypic observations (described below), and (ii) response to drugs and RNA binding given previous findings from C. albicans and other microbial pathogens cultured in spaceflight and/or spaceflight-analogue culture systems. These specific categories are analyzed in greater detail below. While these categories were initially identified using the set criteria of significance (p<0.05, fold-change >2), the number of genes belonging to pathways within these specific targeted categories of interest was enlarged using less stringent criteria (p<0.07 or fold-change >1.5, indicated with †).\n\nTo validate the microarray data, qRT-PCR analysis of a targeted selection of genes that were differentially regulated with microarray was performed. Expression of the target genes (ALS1, CAP1, ERG6, YTH1, HSP31, GPX2) was normalized using the averaged expression of four housekeeping genes (ACT1, PMA1, RIP, RPP2B). All analyzed genes were found differentially regulated with qRT-PCR in the same direction as found with microarray analysis, and for four out of six analyzed genes, the differential regulation was significant (p<0.05 or p<0.01) ( Table 4 ).\n\nBiofilm and filamentation-specific gene expression\n\nFilamentation is an intrinsic part of biofilm formation in C. albicans, and both processes share key transcriptional regulators. Genes involved in biofilm formation/filamentation that were differentially expressed in spaceflight conditions include TUP1 (†), ALS1, CPH1 (†), AOX2 (†), and ORF19.4653. The latter gene was upregulated 7.5-fold in spaceflight, and is one of the ten most induced genes in the microarray. Interestingly, expression of the yeast-specific gene Yeast Wall Protein 1 (YWP1) was significantly induced in spaceflight samples, which promotes the non-filamentous phenotype of C. albicans under conventional culture conditions. Additional genes involved in C. albicans biofilm formation (as determined by the GO Slim Mapper) that were differentially regulated by spaceflight include BRG1, MCR1, RHR2, and SHA3 . Additional spaceflight-induced genes involved in hyphal growth (as determined by the GO Slim Mapper) include FGR16, ARC40, RFX2, SHA3, SPT5, STE13, TCA5, VID27, and orf19.1617.\n\nNext, we analyzed the expression of genes involved in the production of biofilm-associated extracellular matrix proteins. The gene encoding the glucanosyltransferase Phr1 (†), involved in glucan modification was significantly upregulated in spaceflight conditions. As indicated by light microscopy and flow cytometry (see below), spaceflight-grown C. albicans showed enhanced self-aggregation as compared to ground controls. Since the observed cell aggregation in spaceflight-grown C. albicans structurally resembles the well-characterized flocculation phenotype of S. cerevisiae, we investigated whether genes involved in flocculation were differentially expressed. The cell surface glycoprotein Als1, which is both involved in self-aggregation of C. albicans and has both structural and functional similarity to the main flocculation protein Flo11 in S. cerevisiae , was induced in spaceflight conditions. In addition, a gene encoding a protein similar to cell surface flocculin (HYR10) (†) was induced in spaceflight cultures. Genes involved in the three main flocculation regulatory pathways (based on the well-characterized S. cerevisiae) were found to be differentially regulated in spaceflight-cultured C. albicans. For MAPK-dependent filamentous growth, these genes were TPK1 (†) (Ras-cAMP pathway), the ammonium permease Mep2, and the transcriptional regulator CPH1 (homolog of Ste12 in S. cerevisiae) (†). For the glucose repression pathway, these genes were HXT3 (†), HXT5, HGT1 and HGT2 (all hexose transporters).\n\nStress and drug resistance\n\nA significant portion of genes within the stress/drug response categories were related to oxidative stress resistance. The gene encoding the oxidative stress response transcriptional regulator, Cap1, was significantly induced in response to spaceflight culture. Interestingly, more than 30% of the previously reported Cap1 regulon was affected by culture of C. albicans under spaceflight conditions in this study. This includes genes under positive Cap1 control: TRX1, SOD1, PDR16 (†), IFR1, ARR3, orf19.7042, ARO9 (†), YIM1, RIB1 (†), orf19.1162 (†), ADH6, ESBP6, HGT2, orf19.6464 (†); and negative Cap1 control: MNN13, VMA10 (†), CHA2 (†). Among these 17 genes, 13 were expressed in the expected direction (i.e., TRX1, IFR1, ARR3, orf19.7042, ARO9, YIM1, RIB1, orf19.1162, ESPB6, HGT2, MNN13, VMA10, and CHA2). Additional spaceflight-induced genes identified in this study that have been reported to play a role in the oxidative stress response of C. albicans via Cap1 are GZF3 and orf19.2498. Other genes involved in the oxidative stress resistance of C. albicans that were induced in spaceflight include GPX1 and GPX2, which encode glutathione peroxidases; and SOD3, which encodes a superoxide dismutase.\n\nFurthermore, genes encoding the heat shock proteins Hsp10, Hsp30, Hsp31, Hsp60, Hsp78, Mdj1, Ssc1, orf19.9899 (putative heat shock protein), and Sti1 were significantly upregulated in spaceflight-cultured C. albicans cultures.\n\nIn addition, spaceflight cultures of C. albicans showed significant upregulation of genes encoding ABC transporters and major facilitators, which are two main classes of drug transporters in C. albicans. These include CDR1 (†), CDR4, CDR12, HOL4, HOL2 (†), ORF19.4779, YOR1 (†), and orf19.10632 (possible ABC transporter). Spaceflight cultures also showed significant downregulation of the ergosterol-encoding genes ERG6 and ERG25 (reviewed in), of which ERG6 has been shown previously to be important for amphotericin B resistance (a polyene) in C. glabatra .\n\nBud site selection and cytoskeleton\n\nSince we observed a higher abundance of random budding in C. albicans cultures exposed to spaceflight using SEM analysis (see below), we screened the microarray results for differential expression of genes involved in unipolar, axial, and random budding, as identified by Ni et al. for S. cerevisiae . With the exception of the downregulation of ALG5 and BUD7, which are involved in unipolar and axial budding respectively, a significant number of differentially expressed genes following spaceflight culture were involved in random budding. These differentially expressed genes were classified in the categories of vesicular transport (downregulation of CLC1, VMA5 (†), VPS34 (†), VAC7 (†), END3 (†), LUV1 (†), VPS45 (†), SEC22), actin cytoskeleton (downregulation of SLA1 (†)), cell wall proteins (upregulation of GAS1), lipid metabolism (downregulation of FEN1 (†)), protein modification (downregulation of PMT2 (†), OST3; upregulation of MAP1), transcriptional proteins (upregulation of CTK1 (†) and TUP1 (†)), nuclear proteins (downregulation of TRF4 (†); upregulation of NPL3 (†), SFP1 (†)), and other proteins (downregulation of ATP14 (†) and ILM1 (†)). Interestingly, induction of the gene encoding the daughter-cell specific transcription factor Ace2 was observed for spaceflight samples of C. albicans. Accordingly, downregulation of the gene encoding the G1 cyclin Cln3, which is under the negative control of Ace2, was observed. Given the essential role of the actin cytoskeleton in random budding and previous findings that microgravity profoundly affects the mammalian cytoskeleton, we screened our microarray data for additional genes involved in the actin cytoskeletal organization. We discovered significant downregulation of several key genes involved in actin polymerization and organization, including PFY1 (†), SLY1 (†), FAC1 (†), ACF2, AIP1 (†), AND SDA1 (†). Accordingly, differences in cell size and shape were observed when C. albicans was grown in spaceflight and ground conditions (see below).\n\nRNA-binding proteins\n\nA high percentage of differentially expressed genes in the GO Slim Mapper analysis were assigned to categories related to metabolism ( Table 3 ). We were particularly interested in genes assigned to ‘RNA metabolic processes’ (GO:0016070) based on the identification of the RNA binding protein Hfq as a global regulator of microgravity and/or microgravity-analogue culture induced responses in S. Typhimurium, P. aeruginosa, and S. aureus .\n\nThe eukaryotic LSm proteins share structural and functional similarities with their prokaryotic counterpart, Hfq. The gene encoding LSm2 (†) was the only LSm family member observed to be differentially expressed in response to spaceflight culture under the conditions of this study. We considered the possibility that other RNA-binding proteins may be differentially expressed upon exposure to microgravity; therefore, the GO Slim Mapper ‘function’ category of RNA-binding proteins was investigated, which allowed us to identify 12 additional genes involved in RNA binding whose expression was significantly altered in response to microgravity culture, i.e., PRP39, SPT5, STI1, TCA5, YTH1, orf19.2610, orf19.265, orf19.3114, orf19.3547, orf19.4479, and orf19.6008. Interestingly, the genes encoding Yth1, Prp39, Spt5, Sti1, and Tca5 have been associated with hyphal formation.\n\nMorphological analyses\n\nLight microscopic analysis revealed enhanced cellular aggregation in flight samples as compared to synchronous ground controls ( Figure 3 ). While both flight and ground cultures showed cell clumping and occasional filamentation, cell cluster formation was more pronounced in flight samples of C. albicans. Based on microscopic imaging, spaceflight samples contained more cell clusters and their average size was larger compared to synchronous ground controls (1.7-fold, 10±3 cells per cluster for flight samples versus 6±1 cells per cluster for ground samples). In both test conditions, some cell clusters contained one filament ( Figure 4A , black arrow).  Figure 4  shows 2500×, 5000× and 8000× SEM images of cell clusters from flight (A, B, C) and ground samples (a, b, c) respectively.\n\nC. albicans ground samples exhibited a higher number of cells with a bipolar budding pattern (reflected by ongoing budding and budding scars), while more cells with multiple, randomly distributed budding scars were observed for spaceflight cultures ( Figure 4A  and a, white dotted arrows). Accordingly, genes involved in random budding of C. albicans were significantly affected by spaceflight culture. Since the multiple budding phenotype could indicate the generation of more daughter cells that are typically smaller, the cell surface area, width and length were determined for C. albicans cells grown in ground or spaceflight conditions, respectively. The average surface area for ground samples (6.6±3.0 µm2) was significantly higher than for flight samples (4.6±2.4 µm2) (1.4-fold, p<10−9). In addition,  Figure 5A  shows that a higher percentage of cells with a smaller surface area was observed for spaceflight cultures. For example, 80% of the spaceflight cells versus only 47% of ground cells had a surface area smaller than 5 µm2 ( Figure 5A ). To assess cell shape, we determined the width-to-length ratio. Ground control cells had a higher percentage of cells with a ratio above 0.8 (67.8% for ground versus 30.5% for spaceflight), indicating that more C. albicans cells grown in control conditions had a rounder morphology ( Figure 5B ). It is important to note that ground control cells appeared more flat, compared to spaceflight cells, which showed a 3D organization ( Figure 4C  versus 4c). This could potentially explain, at least in part, a larger surface area for ground control cultures. Also, the increased presence of aberrant yeast forms was observed in spaceflight samples ( Figure 4A  and a, white arrow). The aberrant yeast forms in panels A and a are reminiscent of dying cells. However, post-flight viable cell counts indicated no differences between cultures exposed to microgravity and synchronous ground controls (i.e., 4.78×107 CFU/mL for flight samples and 5.94×107 CFU/mL for ground samples).\n\nFlow cytometry analysis demonstrated a 2.8-fold increase (p<0.025) in forward scatter signal for spaceflight-grown C. albicans ( Figure 6 ), which is reflective of the observed increases in cell aggregation in spaceflight samples.\n\nVirulence\n\nDue to limited sample availability, a focused study to determine the effect of spaceflight culture on C. albicans virulence was performed by infecting mice via the i.p. route with a single infection dose grown under spaceflight/ground control conditions and monitoring the time to death. This targeted study indicated no differences between the virulence of spaceflight and ground cultures, as reflected in comparable mouse survival in both test conditions (Figure S2).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research Article"
+  ],
+  "citations": [
+    {
+      "title": "Could spaceflight-associated immune system weakening preclude the expansion of human presence beyond Earth's orbit?",
+      "authors": [
+        "N Gueguinou",
+        "C Huin-Schohn",
+        "M Bascove",
+        "JL Bueb",
+        "E Tschirhart"
+      ]
+    },
+    {
+      "title": "Low-shear modeled microgravity: a global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "R Ramamurthy",
+        "CL LeBlanc"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "R Ramamurthy",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "The immune system in space, including Earth-based benefits of space-based research",
+      "authors": [
+        "G Sonnenfeld"
+      ]
+    },
+    {
+      "title": "Candida albicans: a review of its history, taxonomy, epidemiology, virulence attributes, and methods of strain differentiation",
+      "authors": [
+        "MJ McCullough",
+        "BC Ross",
+        "PC Reade"
+      ]
+    },
+    {
+      "title": "Recovery of medically important microorganisms from Apollo astronauts",
+      "authors": [
+        "GR Taylor"
+      ]
+    },
+    {
+      "title": "Mold species in dust from the International Space Station identified and quantified by mold-specific quantitative PCR",
+      "authors": [
+        "SJ Vesper",
+        "W Wong",
+        "CM Kuo",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Person-to-person transfer of Candida albicans in the spacecraft environment",
+      "authors": [
+        "DL Pierson",
+        "SK Mehta",
+        "BB Magee",
+        "SK Mishra"
+      ]
+    },
+    {
+      "title": "Candida and invasive candidiasis: back to basics",
+      "authors": [
+        "CS Lim",
+        "R Rosli",
+        "HF Seow",
+        "PP Chong"
+      ]
+    },
+    {
+      "title": "Transcriptional and proteomic response of Pseudomonas aeruginosa PAO1 to spaceflight conditions involves Hfq regulation and reveals a role for oxygen",
+      "authors": [
+        "A Crabbé",
+        "M Schurr",
+        "P Monsieurs",
+        "L Morici",
+        "J Schurr"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "JW Wilson",
+        "CM Ott",
+        "K Honer Zu Bentrup",
+        "R Ramamurthy",
+        "L Quick"
+      ]
+    },
+    {
+      "title": "Media ion composition controls regulatory and virulence response of Salmonella in spaceflight",
+      "authors": [
+        "JW Wilson",
+        "CM Ott",
+        "L Quick",
+        "R Davis",
+        "KH zu Bentrup"
+      ]
+    },
+    {
+      "title": "Escherichia coli Hfq has distinct interaction surfaces for DsrA, rpoS and poly(A) RNAs",
+      "authors": [
+        "PJ Mikulecky",
+        "MK Kaw",
+        "CC Brescia",
+        "JC Takach",
+        "DD Sledjeski"
+      ]
+    },
+    {
+      "title": "Hfq modulates the sigmaE-mediated envelope stress response and the sigma32-mediated cytoplasmic stress response in Escherichia coli",
+      "authors": [
+        "E Guisbert",
+        "VA Rhodius",
+        "N Ahuja",
+        "E Witkin",
+        "CA Gross"
+      ]
+    },
+    {
+      "title": "Hfq: a bacterial Sm-like protein that mediates RNA-RNA interaction",
+      "authors": [
+        "T Moller",
+        "T Franch",
+        "P Hojrup",
+        "DR Keene",
+        "HP Bachinger"
+      ]
+    },
+    {
+      "title": "Structures of the pleiotropic translational regulator Hfq and an Hfq-RNA complex: a bacterial Sm-like protein",
+      "authors": [
+        "MA Schumacher",
+        "RF Pearson",
+        "T Moller",
+        "P Valentin-Hansen",
+        "RG Brennan"
+      ]
+    },
+    {
+      "title": "Deep sequencing analysis of small noncoding RNA and mRNA targets of the global post-transcriptional regulator, Hfq",
+      "authors": [
+        "A Sittka",
+        "S Lucchini",
+        "K Papenfort",
+        "CM Sharma",
+        "K Rolle"
+      ]
+    },
+    {
+      "title": "Transcription of herpes simplex virus tk sequences under the control of wild-type and mutant human RNA polymerase I promoters",
+      "authors": [
+        "ST Smale",
+        "R Tjian"
+      ]
+    },
+    {
+      "title": "The RNA chaperone Hfq is essential for the virulence of Salmonella typhimurium",
+      "authors": [
+        "A Sittka",
+        "V Pfeiffer",
+        "K Tedin",
+        "J Vogel"
+      ]
+    },
+    {
+      "title": "Induction of attachment-independent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus",
+      "authors": [
+        "SL Castro",
+        "M Nelman-Gonzalez",
+        "CA Nickerson",
+        "CM Ott"
+      ]
+    },
+    {
+      "title": "Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation",
+      "authors": [
+        "A Crabbé",
+        "B Pycke",
+        "R Van Houdt",
+        "P Monsieurs",
+        "C Nickerson"
+      ]
+    },
+    {
+      "title": "Microarray analysis identifies Salmonella genes belonging to the low-shear modeled microgravity regulon",
+      "authors": [
+        "JW Wilson",
+        "R Ramamurthy",
+        "S Porwollik",
+        "M McClelland",
+        "T Hammond"
+      ]
+    },
+    {
+      "title": "Space microbiology",
+      "authors": [
+        "G Horneck",
+        "DM Klaus",
+        "RL Mancinelli"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low shear environment Microbiology and Molecular Biology Reviews",
+      "authors": [
+        "C Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Wolf DA, Sams CF, Schwartz RP (1992) High aspect reactor vessel and method of use. US Patent 5,153,131, October 6, 1992.",
+      "authors": []
+    },
+    {
+      "title": "Summary of biological spaceflight experiments with cells",
+      "authors": [
+        "KJ Dickson"
+      ]
+    },
+    {
+      "title": "Phosphate uptake in Saccharomyces cerevisiae Hansen wild type and phenotypes exposed to space flight irradiation",
+      "authors": [
+        "D Berry",
+        "PA Volz"
+      ]
+    },
+    {
+      "title": "Cultivation of Saccharomyces cerevisiae in a bioreactor in microgravity",
+      "authors": [
+        "I Walther",
+        "B Bechler",
+        "O Muller",
+        "E Hunzinger",
+        "A Cogoli"
+      ]
+    },
+    {
+      "title": "Oxidative stress and alterations in actin cytoskeleton trigger glutathione efflux in Saccharomyces cerevisiae",
+      "authors": [
+        "S Bradamante",
+        "A Villa",
+        "S Versari",
+        "L Barenghi",
+        "I Orlandi"
+      ]
+    },
+    {
+      "title": "The influence of microgravity on invasive growth in Saccharomyces cerevisiae",
+      "authors": [
+        "SE Van Mulders",
+        "C Stassen",
+        "L Daenen",
+        "B Devreese",
+        "V Siewers"
+      ]
+    },
+    {
+      "title": "Enhanced S-adenosyl-l-methionine production in Saccharomyces cerevisiae by spaceflight culture, overexpressing methionine adenosyltransferase and optimizing cultivation",
+      "authors": [
+        "Y Huang",
+        "X Gou",
+        "H Hu",
+        "Q Xu",
+        "Y Lu"
+      ]
+    },
+    {
+      "title": "Effects of low-shear modeled microgravity on cell function, gene expression, and phenotype in Saccharomyces cerevisiae",
+      "authors": [
+        "B Purevdorj-Gage",
+        "KB Sheehan",
+        "LE Hyman"
+      ]
+    },
+    {
+      "title": "Yeast genomic expression patterns in response to low-shear modeled microgravity",
+      "authors": [
+        "KB Sheehan",
+        "K McInnerney",
+        "B Purevdorj-Gage",
+        "SD Altenburg",
+        "LE Hyman"
+      ]
+    },
+    {
+      "title": "Increased filamentous growth of Candida albicans in simulated microgravity",
+      "authors": [
+        "SD Altenburg",
+        "SM Nielsen-Preiss",
+        "LE Hyman"
+      ]
+    },
+    {
+      "title": "Modeled microgravity increases filamentation, biofilm formation, phenotypic switching, and antimicrobial resistance in Candida albicans",
+      "authors": [
+        "SC Searles",
+        "CM Woolley",
+        "RA Petersen",
+        "LE Hyman",
+        "SM Nielsen-Preiss"
+      ]
+    },
+    {
+      "title": "Dimorphism and virulence in Candida albicans",
+      "authors": [
+        "AP Mitchell"
+      ]
+    },
+    {
+      "title": "Expression of the Candida albicans morphogenesis regulator gene CZF1 and its regulation by Efg1p and Czf1p",
+      "authors": [
+        "MD Vinces",
+        "C Haas",
+        "CA Kumamoto"
+      ]
+    },
+    {
+      "title": "A G1 cyclin is necessary for maintenance of filamentous growth in Candida albicans",
+      "authors": [
+        "JD Loeb",
+        "M Sepulveda-Becerra",
+        "I Hazan",
+        "H Liu"
+      ]
+    },
+    {
+      "title": "The MAP kinase signal transduction network in Candida albicans",
+      "authors": [
+        "RA Monge",
+        "E Roman",
+        "C Nombela",
+        "J Pla"
+      ]
+    },
+    {
+      "title": "Our current understanding of fungal biofilms",
+      "authors": [
+        "G Ramage",
+        "E Mowat",
+        "B Jones",
+        "C Williams",
+        "J Lopez-Ribot"
+      ]
+    },
+    {
+      "title": "Hgc1, a novel hypha-specific G1 cyclin-related protein regulates Candida albicans hyphal morphogenesis",
+      "authors": [
+        "X Zheng",
+        "Y Wang"
+      ]
+    },
+    {
+      "title": "Candida commensalism and virulence: the evolution of phenotypic plasticity",
+      "authors": [
+        "DR Soll"
+      ]
+    },
+    {
+      "title": "Virulence factors of Candida albicans",
+      "authors": [
+        "RA Calderone",
+        "WA Fonzi"
+      ]
+    },
+    {
+      "title": "A hydrodynamic mechanosensory hypothesis for brush border microvilli",
+      "authors": [
+        "P Guo",
+        "AM Weinstein",
+        "S Weinbaum"
+      ]
+    },
+    {
+      "title": "Novel quantitative biosystem for modeling physiological fluid shear stress on cells",
+      "authors": [
+        "EA Nauman",
+        "CM Ott",
+        "E Sander",
+        "DL Tucker",
+        "D Pierson"
+      ]
+    },
+    {
+      "title": "A glucose sensor in Candida albicans",
+      "authors": [
+        "V Brown",
+        "JA Sexton",
+        "M Johnston"
+      ]
+    },
+    {
+      "title": "Regulation of sugar transport and metabolism by the Candida albicans Rgt1 transcriptional repressor",
+      "authors": [
+        "JA Sexton",
+        "V Brown",
+        "M Johnston"
+      ]
+    },
+    {
+      "title": "A comparison of normalization methods for high density oligonucleotide array data based on variance and bias",
+      "authors": [
+        "BM Bolstad",
+        "RA Irizarry",
+        "M Astrand",
+        "TP Speed"
+      ]
+    },
+    {
+      "title": "Controlling the false discovery rate - a practical and powerful approach to multiple testing",
+      "authors": [
+        "Y Benjamini",
+        "Y Hochberg"
+      ]
+    },
+    {
+      "title": "The Candida genome database incorporates multiple Candida species: multispecies search and analysis tools with curated gene and protein information for Candida albicans and Candida glabrata",
+      "authors": [
+        "DO Inglis",
+        "MB Arnaud",
+        "J Binkley",
+        "P Shah",
+        "MS Skrzypek"
+      ]
+    },
+    {
+      "title": "Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method",
+      "authors": [
+        "KJ Livak",
+        "TD Schmittgen"
+      ]
+    },
+    {
+      "title": "Development and evaluation of different normalization strategies for gene expression studies in Candida albicans biofilms by real-time PCR",
+      "authors": [
+        "H Nailis",
+        "T Coenye",
+        "F Van Nieuwerburgh",
+        "D Deforce",
+        "HJ Nelis"
+      ]
+    },
+    {
+      "title": "A recently evolved transcriptional network controls biofilm development in Candida albicans",
+      "authors": [
+        "CJ Nobile",
+        "EP Fox",
+        "JE Nett",
+        "TR Sorrells",
+        "QM Mitrovich"
+      ]
+    },
+    {
+      "title": "Biofilm formation by the fungal pathogen Candida albicans: development, architecture, and drug resistance",
+      "authors": [
+        "J Chandra",
+        "DM Kuhn",
+        "PK Mukherjee",
+        "LL Hoyer",
+        "T McCormick"
+      ]
+    },
+    {
+      "title": "Function of Candida albicans adhesin Hwp1 in biofilm formation",
+      "authors": [
+        "CJ Nobile",
+        "JE Nett",
+        "DR Andes",
+        "AP Mitchell"
+      ]
+    },
+    {
+      "title": "Genetics and genomics of Candida albicans biofilm formation",
+      "authors": [
+        "CJ Nobile",
+        "AP Mitchell"
+      ]
+    },
+    {
+      "title": "Critical role of Bcr1-dependent adhesins in C. albicans biofilm formation in vitro and in vivo",
+      "authors": [
+        "CJ Nobile",
+        "DR Andes",
+        "JE Nett",
+        "FJ Smith",
+        "F Yue"
+      ]
+    },
+    {
+      "title": "Expression of UME6, a key regulator of Candida albicans hyphal development, enhances biofilm formation via Hgc1- and Sun41-dependent mechanisms",
+      "authors": [
+        "M Banerjee",
+        "P Uppuluri",
+        "XR Zhao",
+        "PL Carlisle",
+        "G Vipulanandan"
+      ]
+    },
+    {
+      "title": "Yeast wall protein 1 of Candida albicans",
+      "authors": [
+        "BL Granger",
+        "ML Flenniken",
+        "DA Davis",
+        "AP Mitchell",
+        "JE Cutler"
+      ]
+    },
+    {
+      "title": "A Candida biofilm-induced pathway for matrix glucan delivery: implications for drug resistance",
+      "authors": [
+        "HT Taff",
+        "JE Nett",
+        "R Zarnowski",
+        "KM Ross",
+        "H Sanchez"
+      ]
+    },
+    {
+      "title": "Candida albicans Als proteins mediate aggregation with bacteria and yeasts",
+      "authors": [
+        "SA Klotz",
+        "NK Gaur",
+        "R De Armond",
+        "D Sheppard",
+        "N Khardori"
+      ]
+    },
+    {
+      "title": "Candida albicans Als1p: an adhesin that is a downstream effector of the EFG1 filamentation pathway",
+      "authors": [
+        "Y Fu",
+        "AS Ibrahim",
+        "DC Sheppard",
+        "YC Chen",
+        "SW French"
+      ]
+    },
+    {
+      "title": "Identification of the Candida albicans Cap1p regulon",
+      "authors": [
+        "S Znaidi",
+        "KS Barker",
+        "S Weber",
+        "AM Alarco",
+        "TT Liu"
+      ]
+    },
+    {
+      "title": "Fungal biofilm resistance",
+      "authors": [
+        "G Ramage",
+        "R Rajendran",
+        "L Sherry",
+        "C Williams"
+      ]
+    },
+    {
+      "title": "Reduced susceptibility to polyenes associated with a missense mutation in the ERG6 gene in a clinical isolate of Candida glabrata with pseudohyphal growth",
+      "authors": [
+        "P Vandeputte",
+        "G Tronchin",
+        "T Berges",
+        "C Hennequin",
+        "D Chabasse"
+      ]
+    },
+    {
+      "title": "A nonsense mutation in the ERG6 gene leads to reduced susceptibility to polyenes in a clinical isolate of Candida glabrata",
+      "authors": [
+        "P Vandeputte",
+        "G Tronchin",
+        "G Larcher",
+        "E Ernoult",
+        "T Berges"
+      ]
+    },
+    {
+      "title": "A genomic study of the bipolar bud site selection pattern in Saccharomyces cerevisiae",
+      "authors": [
+        "L Ni",
+        "M Snyder"
+      ]
+    },
+    {
+      "title": "The Candida albicans CaACE2 gene affects morphogenesis, adherence and virulence",
+      "authors": [
+        "MT Kelly",
+        "DM MacCallum",
+        "SD Clancy",
+        "FC Odds",
+        "AJ Brown"
+      ]
+    },
+    {
+      "title": "Daughter-specific transcription factors regulate cell size control in budding yeast",
+      "authors": [
+        "S Di Talia",
+        "H Wang",
+        "JM Skotheim",
+        "AP Rosebrock",
+        "B Futcher"
+      ]
+    },
+    {
+      "title": "The effects of weightlessness on the human organism and mammalian cells",
+      "authors": [
+        "J Pietsch",
+        "J Bauer",
+        "M Egli",
+        "M Infanger",
+        "P Wise"
+      ]
+    },
+    {
+      "title": "Characterization of Sm-like proteins in yeast and their association with U6 snRNA",
+      "authors": [
+        "AE Mayes",
+        "L Verdone",
+        "P Legrain",
+        "JD Beggs"
+      ]
+    },
+    {
+      "title": "Sm and Sm-like proteins belong to a large family: identification of proteins of the U6 as well as the U1, U2, U4 and U5 snRNPs",
+      "authors": [
+        "B Seraphin"
+      ]
+    },
+    {
+      "title": "Use of the rotating wall vessel technology to study the effect of shear stress on growth behaviour of Pseudomonas aeruginosa PA01",
+      "authors": [
+        "A Crabbé",
+        "P De Boever",
+        "R Van Houdt",
+        "H Moors",
+        "M Mergeay"
+      ]
+    },
+    {
+      "title": "Saccharomyces cerevisiae gene expression changes during rotating wall vessel suspension culture",
+      "authors": [
+        "K Johanson",
+        "PL Allen",
+        "F Lewis",
+        "LA Cubano",
+        "LE Hyman"
+      ]
+    },
+    {
+      "title": "Microgravity as a novel environmental signal affecting Salmonella enterica serovar Typhimurium virulence",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "SJ Mister",
+        "BJ Morrow",
+        "L Burns-Keliher"
+      ]
+    },
+    {
+      "title": "Low-shear modelled microgravity alters expression of virulence determinants of Staphylococcus aureus",
+      "authors": [
+        "H Rosado",
+        "M Doyle",
+        "J Hinds",
+        "PW Taylor"
+      ]
+    },
+    {
+      "title": "Low-Shear modeled microgravity alters the Salmonella enterica serovar Typhimurium stress response in an RpoS-independent manner",
+      "authors": [
+        "JW Wilson",
+        "CM Ott",
+        "R Ramamurthy",
+        "S Porwollik",
+        "M McClelland"
+      ]
+    },
+    {
+      "title": "Escherichia coli biofilms formed under low-shear modeled microgravity in a ground-based system",
+      "authors": [
+        "SV Lynch",
+        "K Mukundakrishnan",
+        "MR Benoit",
+        "PS Ayyaswamy",
+        "A Matin"
+      ]
+    },
+    {
+      "title": "Spaceflight promotes biofilm formation by Pseudomonas aeruginosa",
+      "authors": [
+        "W Kim",
+        "FK Tengra",
+        "Z Young",
+        "J Shong",
+        "N Marchand"
+      ]
+    },
+    {
+      "title": "Candida albicans Sfl1 suppresses flocculation and filamentation",
+      "authors": [
+        "J Bauer",
+        "J Wendland"
+      ]
+    },
+    {
+      "title": "Prevention of Candida albicans biofilm formation",
+      "authors": [
+        "T Coenye",
+        "K De Prijck",
+        "H Nailis",
+        "HJ Nelis"
+      ]
+    },
+    {
+      "title": "Flocculation, adhesion and biofilm formation in yeasts",
+      "authors": [
+        "KJ Verstrepen",
+        "FM Klis"
+      ]
+    },
+    {
+      "title": "Matrix polymers of Candida biofilms and their possible role in biofilm resistance to antifungal agents",
+      "authors": [
+        "GS Baillie",
+        "LJ Douglas"
+      ]
+    },
+    {
+      "title": "Biofilm matrix of Candida albicans and Candida tropicalis: chemical composition and role in drug resistance",
+      "authors": [
+        "MA Al-Fattani",
+        "LJ Douglas"
+      ]
+    },
+    {
+      "title": "Production of extracellular matrix by Candida albicans biofilms",
+      "authors": [
+        "SP Hawser",
+        "GS Baillie",
+        "LJ Douglas"
+      ]
+    },
+    {
+      "title": "The logic of cell division in the life cycle of yeast",
+      "authors": [
+        "CJ Gimeno",
+        "GR Fink"
+      ]
+    },
+    {
+      "title": "Cell polarity in yeast",
+      "authors": [
+        "J Chant"
+      ]
+    },
+    {
+      "title": "Molecular genetics of yeast mating type",
+      "authors": [
+        "KA Nasmyth"
+      ]
+    },
+    {
+      "title": "CDK-dependent phosphorylation of Mob2 is essential for hyphal development in Candida albicans",
+      "authors": [
+        "P Gutierrez-Escribano",
+        "A Gonzalez-Novo",
+        "MB Suarez",
+        "CR Li",
+        "Y Wang"
+      ]
+    },
+    {
+      "title": "Unequal division in Saccharomyces cerevisiae and its implications for the control of cell division",
+      "authors": [
+        "LH Hartwell",
+        "MW Unger"
+      ]
+    },
+    {
+      "title": "The effects of molecular noise and size control on variability in the budding yeast cell cycle",
+      "authors": [
+        "S Di Talia",
+        "JM Skotheim",
+        "JM Bean",
+        "ED Siggia",
+        "FR Cross"
+      ]
+    },
+    {
+      "title": "An actin monomer binding activity localizes to the carboxyl-terminal half of the Saccharomyces cerevisiae cyclase-associated protein",
+      "authors": [
+        "NL Freeman",
+        "Z Chen",
+        "J Horenstein",
+        "A Weber",
+        "J Field"
+      ]
+    },
+    {
+      "title": "Two separate functions are encoded by the carboxyl-terminal domains of the yeast cyclase-associated protein and its mammalian homologs. Dimerization and actin binding",
+      "authors": [
+        "A Zelicof",
+        "V Protopopov",
+        "D David",
+        "XY Lin",
+        "V Lustgarten"
+      ]
+    },
+    {
+      "title": "Candida albicans Cyr1, Cap1 and G-actin form a sensor/effector apparatus for activating cAMP synthesis in hyphal growth",
+      "authors": [
+        "H Zou",
+        "HM Fang",
+        "Y Zhu",
+        "Y Wang"
+      ]
+    },
+    {
+      "title": "Antifungal drug resistance mechanisms in fungal pathogens from the perspective of transcriptional gene regulation",
+      "authors": [
+        "D Sanglard",
+        "A Coste",
+        "S Ferrari"
+      ]
+    },
+    {
+      "title": "Candida albicans biofilms produce antifungal-tolerant persister cells",
+      "authors": [
+        "MD LaFleur",
+        "CA Kumamoto",
+        "K Lewis"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on innate immune function and antioxidant gene expression",
+      "authors": [
+        "FP Baqai",
+        "DS Gridley",
+        "JM Slater",
+        "X Luo-Owen",
+        "LS Stodieck"
+      ]
+    },
+    {
+      "title": "Spaceflight downregulates antioxidant defense systems in rat liver",
+      "authors": [
+        "J Hollander",
+        "M Gore",
+        "R Fiebig",
+        "R Mazzeo",
+        "S Ohishi"
+      ]
+    },
+    {
+      "title": "Effects of long-term space flight on erythrocytes and oxidative stress of rodents",
+      "authors": [
+        "AM Rizzo",
+        "PA Corsetto",
+        "G Montorfano",
+        "S Milani",
+        "S Zava"
+      ]
+    },
+    {
+      "title": "The nutritional status of astronauts is altered after long-term space flight aboard the International Space Station",
+      "authors": [
+        "SM Smith",
+        "SR Zwart",
+        "G Block",
+        "BL Rice",
+        "JE Davis-Street"
+      ]
+    },
+    {
+      "title": "Space flight and oxidative stress",
+      "authors": [
+        "TP Stein"
+      ]
+    },
+    {
+      "title": "Changes in monocyte functions of astronauts",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "VA Castro",
+        "CM Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Eukaryotic Lsm proteins: lessons from bacteria",
+      "authors": [
+        "CJ Wilusz",
+        "J Wilusz"
+      ]
+    },
+    {
+      "title": "LSm proteins form heptameric rings that bind to RNA via repeating motifs",
+      "authors": [
+        "P Khusial",
+        "R Plaag",
+        "GW Zieve"
+      ]
+    },
+    {
+      "title": "RNA decapping inside and outside of processing bodies",
+      "authors": [
+        "C Fillman",
+        "J Lykke-Andersen"
+      ]
+    },
+    {
+      "title": "Engineered rings of mixed yeast Lsm proteins show differential interactions with translation factors and U-rich RNA",
+      "authors": [
+        "M Sobti",
+        "L Cubeddu",
+        "PA Haynes",
+        "BC Mabbutt"
+      ]
+    },
+    {
+      "title": "The human LSm1-7 proteins colocalize with the mRNA-degrading enzymes Dcp1/2 and Xrnl in distinct cytoplasmic foci",
+      "authors": [
+        "D Ingelfinger",
+        "DJ Arndt-Jovin",
+        "R Luhrmann",
+        "T Achsel"
+      ]
+    },
+    {
+      "title": "Requirements for nuclear localization of the Lsm2-8p complex and competition between nuclear and cytoplasmic Lsm complexes",
+      "authors": [
+        "MP Spiller",
+        "MA Reijns",
+        "JD Beggs"
+      ]
+    }
+  ],
+  "original_title": "Spaceflight enhances cell aggregation and random budding in Candida albicans.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f95/3851762/bb3cd0b2947b/pone.0080677.g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f95/3851762/479dd3161c80/pone.0080677.g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f95/3851762/9aac4e78f6eb/pone.0080677.g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f95/3851762/2193df6e3e3b/pone.0080677.g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f95/3851762/45212e87531b/pone.0080677.g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f95/3851762/2ca7fa94d95c/pone.0080677.g006.jpg"
+  ]
+}

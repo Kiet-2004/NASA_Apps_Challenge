@@ -1,0 +1,910 @@
+{
+  "pmcid": "PMC5504618",
+  "title": "Human presence impacts fungal diversity of inflated lunar/Mars analog habitat",
+  "abstract": "Background\n\nAn inflatable lunar/Mars analog habitat (ILMAH), simulated closed system isolated by HEPA filtration, mimics International Space Station (ISS) conditions and future human habitation on other planets except for the exchange of air between outdoor and indoor environments. The ILMAH was primarily commissioned to measure physiological, psychological, and immunological characteristics of human inhabiting in isolation, but it was also available for other studies such as examining its microbiological aspects. Characterizing and understanding possible changes and succession of fungal species is of high importance since fungi are not only hazardous to inhabitants but also deteriorate the habitats. Observing the mycobiome changes in the presence of human will enable developing appropriate countermeasures with reference to crew health in a future closed habitat.\n\nResults\n\nSuccession of fungi was characterized utilizing both traditional and state-of-the-art molecular techniques during the 30-day human occupation of the ILMAH. Surface samples were collected at various time points and locations to observe both the total and viable fungal populations of common environmental and opportunistic pathogenic species. To estimate the cultivable fungal population, potato dextrose agar plate counts method was utilized. The internal transcribed spacer region-based iTag Illumina sequencing was employed to measure the community structure and fluctuation of the mycobiome over time in various locations. Treatment of samples with propidium monoazide (PMA; a DNA intercalating dye for selective detection of viable microbial populations) had a significant effect on the microbial diversity compared to non-PMA-treated samples. Statistical analysis confirmed that viable fungal community structure changed (increase in diversity and decrease in fungal burden) over the occupation time. Samples collected at day 20 showed distinct fungal profiles from samples collected at any other time point (before or after). Viable fungal families like Davidiellaceae, Teratosphaeriaceae, Pleosporales, and Pleosporaceae were shown to increase during the occupation time.\n\nConclusions\n\nThe results of this study revealed that the overall fungal diversity in the closed habitat changed during human presence; therefore, it is crucial to properly maintain a closed habitat to preserve it from deteriorating and keep it safe for its inhabitants. Differences in community profiles were observed when statistically treated, especially of the mycobiome of samples collected at day 20. On a genus level Epiccocum, Alternaria, Pleosporales, Davidiella, and Cryptococcus showed increased abundance over the occupation time.\n\nElectronic supplementary material\n\nThe online version of this article (doi:10.1186/s40168-017-0280-8) contains supplementary material, which is available to authorized users.",
+  "introduction": "Background\n\nPlanning future space explorations, involving potential human missions to Mars, would require constructing a safe closed habitat. An inflatable lunar/Mars analog habitat (ILMAH) is a unique, simulated closed environment (isolated by HEPA filtration) that can be utilized to overcome challenges associated with both technical and scientific issues. Because the ILMAH mimics International Space Station (ISS) conditions and is treated as a prototype habitat for future space explorations, microbiological characteristics of such a closed environment is of high interest to the National Aeronautics and Space Administration (NASA). The environmentally controlled ILMAH is an easily accessible system that enables samples to be collected and analyzed at multiple times at relatively low cost. Understanding the microbiome of a closed system and its association with human inhabitation will help to assess the correlation between human health and microbiome of the habitat as well as the influence of microorganism on the habitat deterioration.\n\nThe highly specialized structure of the simulated ILMAH keeps its inhabitants in isolation from the outside environment. Except for the exchange of the air between outdoor and indoor environments via an advanced environmental control system, the ILMAH mimics the ISS and other future habitats of human explorers on the other planets. This unique feature of the ILMAH allows observing the changes in the microbiome during human occupation. The bacteriome of the ILMAH was recently reported, as in the case of most of the studies reporting on bacterial microbiomes. The molecular fungal diversity of Japanese Experimental Module—Kibo, on the ISS, revealed abundance of fungi associated with astronauts, but succession of viable fungal population in their habitat was not addressed. The skin fungal microbiota of 10 Japanese astronauts showed temporal changes before, during, and after their stay on the ISS. The molecular fungal diversity associated with various body parts was reduced during the spaceflight when compared to pre-flight data. However, the ratio of Malassezia genetic signatures to all fungal gene copies (including dead fungal cells) increased during their stay at the ISS—but the viability of these fungi was not confirmed. This is the first report that thoroughly characterizes the mycobiome of a simulated habitat meant for the future human habitats on other planets.\n\nUtilization of next generation sequencing (NGS) techniques enables more in-depth analysis of indoor microbiomes. Many studies focus on the bacterial microbiome of intensive care units, pharmaceutical clean rooms, or tissue banks since their microbial composition has an impact on human health and life. Nosocomial infections acquired in hospitals and other health care facilities remain the sixth leading cause of death in the hospitals in USA. Nosocomial infections are mostly caused by various fungal species that belong to the Candida genus and filamentous fungus Aspergillus fumigatus. Therefore, it remains important to screen future closed habitats for the presence of opportunistic pathogens that can affect health of immunocompromised astronauts. So far, majority of the indoor microbiome studies have focused on the bacterial microbiome without analyzing the mycobiome. In addition, those few studies that characterized fungi of indoor environments focused on culture-based populations. In those cases, where new molecular techniques were implemented viable fungi were not differentiated from the total population (viable and dead). The internal transcribed spacer region-based iTag Illumina sequencing coupled with the propidium monoazide (PMA) treatment used in this study can determine the viable mycobiome.\n\nFungi are extremophiles that can survive harsh conditions such as low nutrient, desiccation, high/low temperatures, acidic/alkaline, radiation, and other environments. Fungal species not only have been isolated from all known environments on Earth, including barren lands like deserts, caves, or nuclear accident sites, but also are known to be difficult to eradicate from other types of environments including indoor and closed spaces.\n\nCharacterizing and understanding possible changes to, and succession of, fungal species in the ILMAH is of high importance since some of the fungi are extremophiles that are not only potentially hazardous to inhabitants but also can deteriorate the habitat itself. It was previously reported that people spending a significant amount of time indoors might suffer from so called “sick building syndrome” (SBS). SBS is characterized by health- and comfort-related syndromes (e.g., headache, tiredness) that ease after leaving a building. Fatigue and discomfort might be caused not only by physical characteristics of the closed system (humidity, temperature, lighting) but also by biological contamination from both bacteria and fungi. Fungal pathogens’ presence in indoor areas might pose health hazards for people exhibiting immunodeficiency. Pathogenic fungi produce a range of secondary metabolites (SMs) that influence their virulence (e.g., melanins, siderophores, or species-specific toxins), induce allergies, and cause diseases (e.g., aspergillosis, candidiasis, or cryptococcosis). Prolonged stays in closed habitats (e.g., ILMAH, ISS, etc.) might be stressful for inhabitants and lead to a decrease in immune response; therefore, assessing the presence of any opportunistic pathogens is vital.\n\nPrevious reports on the mycobiome in NASA clean rooms and on the ISS documented NGS results from samples collected from various locations, but none of the studies focused on the analysis of the microbial succession of systematically collected samples. The bacterial and archaeal microbiome succession of the ILMAH using NGS has been carried out. This is the first report characterizing the succession of fungi in a simulated closed system meant for human habitation on other planets utilizing both traditional and state-of-the-art molecular techniques. In addition, attempts were made during this study to elucidate the temporal and spatial distribution of the fungal population and diversity in a closed human habitat.",
+  "methods": "Methods\n\nThe ILMAH habitat\n\nThe physical characteristics of the ILMAH, along with detailed sampling procedures and periodicity, were previously described. In brief, the ILMAH is located in Grand Forks, ND (47.9222 N, 97.0734 W) and has dimensions of 12 m by 10 m by 2.5 m. It contains a sleeping compartment, kitchen, toilet, and laboratory area. The ILMAH has its own ventilation system that pressurizes the habitat, provides breathing air for the crew, and removes unwanted material from the air stream. The ILMAH uses a blower that takes ambient air for pressurization and breathing air provision. It provides a positive pressure at 1 PSID (pressure differential) above normal atmosphere inside the habitat. The ambient air is pressurized by an industrial fan and sent to a standard HEPA flat panel particulate filter (Bryant GAPBBCAR2025, Honeywell, Morris Plains, NJ). This filter is replaced before each mission lasting up to 30 days. Maintenance personnel changes the filter from the outside. Since the humidity inside the habitat is not removed, water vapor during the months when the analog missions takes place range from 35 to 55%.\n\nThree student crews inhabited the ILMAH for 30 days. During that period of time, there was no exchange between the interior and exterior environment except pumping the air filtered via ILMAH’s advanced controlling system. In addition, students did not leave the ILMAH at any time for 30 days, and nothing came in or out, including food, people, water, or any supplies, except filtered air. Surface samples were collected consecutively during four sampling events (day 0 [T0], day 13 [T13], day 20 [T20], and day 30 [T30]) from eight designated sampling locations. Prior to inhabitation, the ILMAH surfaces were cleaned with 10% bleach and during the experiment period, it was cleaned weekly with antibacterial wipes.\n\nSampling materials and procedure\n\nSamples were collected using biological sampling kits (BiSKits, Quicksilver Analytics Inc., Abingdon, MD) previously documented as an efficient sampling device for surfaces. All the BiSKits were prepared following the procedure described elsewhere. Briefly, the sterile phosphate buffer saline (PBS) provided by the distributor was discarded from the bottle and replaced with 15 mL of sterile UltraPure DNA free PBS (MoBio Laboratories Inc, Carlsbad, CA). Each BiSKit was rinsed once with PBS that was later collected into a sterile 15-mL falcon tube and kept at 4 °C as a background measure for biological materials associated with macrofoam (sampling device control). This precautionary step was required to overcome, if encountered, microbial contamination associated with sampling devices and other processing reagents. BiSKits prepared as described above were then packed into sterile zip lock bags and shipped at 4 °C to the University of North Dakota where they were kept at 4 °C till the experiment was carried out (within 2 to 3 days).\n\nThe ILMAH architecture was previously described (see Additional file 1: Figure SF1, Fig. 1). Surface samples were collected from eight locations at four consecutive samplings: day 0 (prior to inhabitation), day 13, day 20, and day 30 during the inhabitation and right before ending the experiment. Originally, sampling activities were scheduled at regular intervals days 0, 10, 20, and 30 of human occupation; however, day 10 sampling scheduled on Thursday was delayed to day 13 (Sunday) to avoid risk related to shipping the samples over the weekend. The work schedule of the ILMAH crew members was regulated and is detailed in Additional file 2. Each location (surface area 1 m2) was sampled with one BiSKit in three directions following the same steps, horizontally from the left to the right, vertically from the bottom to the top, and diagonally from the right bottom corner to the left upper corner. After sampling, the sampled BiSKit device was extracted with sterile PBS and sampling fluids were collected in sterile 50-mL falcon tubes. Each BiSKit was washed and extracted twice with the sterile PBS giving approximately 45 mL of unconcentrated sample. Likewise, the BiSKit left open in the sampling area for the time necessary for sampling one location was treated as a field control; the unopened BiSKit was treated as a sampling device (BiSKit) control. Collected samples along with the controls were stored at 4 °C and sent overnight to JPL via cold shipping for further analysis. Sample processing for the microbiological analyses was started within 24 h from the sample collection.\n\nSample processing\n\nCultivable fungal burden and diversity\n\nFor cultivation assay, samples were serially diluted by 10 and 100 times. One hundred microliters of each dilution was pour plated in duplicates on potato dextrose agar (PDA) and grown at room temperature (~25 °C). Colony-forming units (CFUs) were counted after 7 days of incubation, and cultivable fungal population was calculated per square meter of the sampling area. Simultaneously, up to 5 colonies exhibiting different morphologies were picked and stored as stab cultures in one-tenth semi-solid PDA medium. Cultivable isolates were identified using primers ITS 1F (5′-CTT GGT CAT TTA GAG GAA GTA A-3′) and Tw13 (5′-GGT CCG TGT TTC AAG ACG-3′) that target small and large subunit rRNA gene-coding regions of the small and large ribosomal subunit, including the internal transcribed spacers ITS1 and ITS2. DNA was extracted using freezing (−80 °C) and thawing (+80 °C) cycle of fungal suspension in PBS for 15 min. This process was repeated 3 times. In some cases when DNA was not extracted by the freezing-thawing method, a PowerSoil® DNA Isolation Kit (MoBio) was used according to manufacturer’s instructions. PCR conditions were as follows: 95 °C for 3 min followed by 25 cycles of 95 °C for 30 s, 58 °C for 30 s, 72 °C for 2 min, and final elongation at 72 °C for 10 min. Amplified products were visualized by gel electrophoresis. PCR products were then enzymatically purified by using 40 IU of Exonuclease I (E. coli 20,000 IU/mL New England BioLabs, Inc. Ipswich, MA) and 8 IU of Antarctic Phosphatase (5,000 IU/mL, New England BioLabs, Inc.) per 20 μL amplification product. Heat reactions were carried out in a thermocycler as follows: 37 °C for 30 min, 80 °C for 15 min. Traditional Sanger sequencing was performed at Macrogen (Rockville, MD). The sequences were merged using DNAStar (Madison, WI), identified using UNITE fungal database, and aligned using ClustalW. A phylogenetic tree was constructed using MEGA6.06-mac applying neighbor-joining method. Sequences from one representative of each strain and corresponding type strain were used to create the phylogenetic tree.\n\nDNA extraction\n\nThe concentrated environmental samples (3 mL) were split into two equal parts. One half of the sample (1.5 mL) was treated with 12.5 μL of 2 mM PMA dye (Biotum, Inc., Hayward, CA), and the other half was left untreated. The final concentration of PMA in each treated sample was 25 μM. After PMA addition, both treated and untreated samples were kept in the dark for 5 min at room temperature and subsequently exposed to light in the PHaST Blue-Photo activation system for tubes (GenIUL, S.L, Terrassa, Spain) for 15 min. PMA-treated samples represent viable microorganisms whereas the non-PMA-treated samples represent the total number of viable and dead microorganisms. After photo activation, each sample was split into two aliquots of 0.75 mL each. One aliquot of each sample was subjected to bead beating for 60 s at 5 m/s on the Fastprep-24 bead-beating instrument (MP Biomedicals, Santa Ana, CA). The solution after bead beating was combined with not bead-beated aliquots (1.5 mL), and then used for DNA extraction using the Maxwell-16 MDx automated system following manufacturer’s instructions (Promega, Madison, WI). Purified DNA was eluted into a final volume of 50 μL of Ultra Pure molecular water and divided into 4 aliquots that were stored at −80 °C.\n\nMolecular fungal community analysis using Illumina sequencing\n\nTo determine fungal populations, a two-step amplification process was applied prior to MiSeq Illumina sequencing at Research and Testing Laboratory (RTL, Lubbock, TX). The forward primer was constructed with the Illumina i5 sequencing primer (5′-TCG TCG GCA GCG TCA GAT GTG TAT AAG AGA CAG-3′) and the ITS1F primer (5′-CTT GGT CAT TTA GAG GAA GTA A-3′). The reverse primer was constructed with the Illumina i7 sequencing primer (5′-GTC TCG TGG GCT CGG AGA TGT GTA TAA GAG ACA G-3′) and the ITS2aR primer (5′-GCT GCG TTC TTC ATC GAT GC-3′). Amplifications were performed in 25 μL reactions with Qiagen HotStar Taq master mix (Qiagen Inc, Valencia, CA), 1 μL of each 5 μM primer, and 1 μL of template. Reactions were performed on ABI Veriti thermocyclers (Applied Biosytems, Carlsbad, CA) under the following thermal profile: 95 °C for 5 min, then 25 cycles of 94 °C for 30 s, 54 °C for 40 s, 72 °C for 1 min, followed by one cycle of 72 °C for 10 min and 4 °C hold.\n\nProducts from the first stage amplification were added to a second PCR based on qualitatively determined concentrations. Primers for the second PCR were designed based on the Illumina Nextera PCR primers as follows: Forward –AAT GAT ACG GCG ACC ACC GAG ATC TAC AC [i5index] TCG TCG GCA GCG TC and Reverse – CAA GCA GAA GAC GGC ATA CGA GAT [i7index] GTC TCG TGG GCT CGG. The second stage amplification was run the same as the first stage except for 10 cycles.\n\nAmplification products were visualized with eGels (Life Technologies, Grand Island, NY). Products were then pooled equimolar, and each pool was size selected in two rounds using Agencourt AMPure XP (BeckmanCoulter, Indianapolis, IN) in a 0.7 ratio for both rounds. Size-selected pools were then quantified using the Quibit 2.0 fluorometer (Life Technologies) and loaded on an Illumina MiSeq (Illumina, Inc. San Diego, CA) 2 × 300 flow cell at 10 pM.\n\nBioinformatic and statistical analysis of fungal cultivable counts and Illumina sequences\n\nTo assess the difference between fungal abundances in cultivable sample categories (based on time and location), the following univariate statistical analyses were carried out (https://www.r-project.org/). The normal distribution of the populations was tested using the Shapiro-Wilk normality test, and as most were not normally distributed (p value <0.05), we used a Kruskal-Wallis test coupled to a Dunn’s test (https://cran.r-project.org/web/packages/dunn.test/index.html) to investigate differences in the tested populations. Resulting p values were corrected using the Benjamini-Hochberg correction.\n\nA total of 8,426,774 raw paired reads were processed with mothur v.1.36.1. The 250 bp paired reads were merged by aligning the reads and correcting discordant base calls by requiring one of the base calls to have a Phred quality score at least 6 points higher than the other. Sequences shorter than 200 bp, having more than 8 homopolymers or containing ambiguous base pairs were excluded from the dataset. Subsequently, reads were pre-clustered by combining low-abundant sequences that differed by 3 or less bases of a more abundant sequence. Chimeric sequences in each sample were identified by UCHIME and also excluded from the dataset. Reads were classified using the ribosomal database project (RDP) classifier II implementation of mothur and UNITE fungal rDNA database. Non-fungal sequences were subsequently removed. ITSx was used to exclude non-ITS sequences from the dataset prior to clustering unaligned sequences into operational taxonomic units (OTUs) with a distance of 0.03 using mother v.1.36.1. The nearest neighbor (single-linkage) algorithm was used for this. OTUs were classified by using the consensus taxonomy of all sequences assigned.\n\nAn in-house R-script employing the libraries vegan, ape, gplots, mgcv, and GUniFrac was used to compare the fungal Illumina data (Additional file 3). Each dataset consisting of the OTU abundances per sample was rarefied 1000 times to the lowest number of reads, and an average Bray-Curtis distance was calculated. This distance was then utilized to calculate nonmetric multidimensional scaling (NMDS) or principal coordinate analysis (PCoA), PERMANOVA (Adonis test), and multi-response permutation procedure (MRPP). In addition, the OTU abundances per sample of each dataset were sum normalized and used to employ either an analysis of variance (ANOVA) or a Spearman rank correlation on the statistically significant changing parameters and to generate a heat map (p value 0.05). The change of diversity was measured via the Shannon-Wiener diversity index. OTUs that were unclassified at phylum level were removed. Heat maps were presented at family level.\n\nThe extruded liquid samples from the BiSKit sampler (~45 mL per sample) were concentrated using an InnovaPrep Concentrating Pipette (Innova Prep LLC, Drexel, MO) to a final volume of ~4 mL. Appropriate aliquots of concentrated samples were further used for cultivation (200 μL) and molecular analyses (3 mL).",
+  "results": "Results\n\nCultivable fungal burden and diversity\n\nThe culture-based fungal abundance of the ILMAH was estimated for each sampling location with colony-forming unit (CFU) values ranging from below detection limit (BDL) to 104 CFU/m2 (Additional file 4: Table ST1a). The highest abundance of the cultivable fungi was observed during the first sampling (T0) followed by ~1 log decrease in CFU during consecutive sampling events (T13, T20, T30) for each living compartment. High fungal population was noticed in samples collected at T0 (Fig. 2A). When statistically treated, the change in fungal abundance within different time points was significant (T0–T20 p = 0.008 and T0–T30 p = 0.0125) (Additional file 5: Table ST2a). The cultivable fungal population for the lab area was higher than observed in other compartments (Fig. 2B, Additional file 4: Table ST1b). A statistically significant difference was observed between the lab area and the bedroom (p = 0.0021) (Additional file 5: Table ST2b).\n\nOne hundred seventeen cultivable isolates were collected and identified targeting the ITS region. Screening sequences against the UNITE fungal database enabled identification of 32 species (Fig. 3). Among the cultivable isolates, only five strains had similarity lower than 97% that did not allow identification to the species level. All of the identified species but one—Hydnopolyporus fimbriatus—belong to the Ascomycota division (Fig. 3). The most abundant cultivable species were Cladosporium cladosporioides (16), Epicoccum nigrum (15), Aspergillus tubingensis (13), Aspergillus fumigatus (8), Alternaria tenuissima (7), and Pennicillium brevicompactum (7). P. brevicompactum was the only, out of the most commonly identified species, that was not present at multiple time points but only at T13 sampling (Fig. 3). Abundance of C. cladosporioides colonies increased during the ILMAH occupation whereas the abundance of E. nigrum, A. tubingensis, and A. tenuissima decreased. Another commonly isolated species, A. fumigatus, was not isolated during the last sampling event. Neither field nor sampling device controls showed cultivable isolates.\n\nViable and total mycobiome (iTag Illumina-based analysis)\n\nThe fungal richness of PMA-treated (viable) samples decreased when compared to untreated samples (dead and alive). In PMA-untreated samples, 98 families were detected, whereas OTUs belonging to 41 of these families were not viable. Moreover, both PMA-treated and PMA-untreated samples differed significantly in community relationships (NMDS analysis in Fig. 4, Adonis p value = 0.006 and MRPP, significance of delta = 0.002; A = 0.0419) and their Shannon diversity index indicated a significant reduction (paired T test p = 0.0000012) in viable fungal diversity. Observed differences in the PMA-treated (Fig. 4a, c) and PMA-untreated samples (Fig. 4b, d) indicate that untreated samples are overestimating the observed fungi. This observation was further confirmed when alpha diversity of cultivable, viable, and total mycobiome was plotted over time (Fig. 5). In this research communication, only viable mycobiome was considered and discussed in detail. Illumina-based reads of sampling device and field controls showed negligible signal from DNA contamination and hence not included in the following analysis.\n\nViable fungal community structure\n\nThe most abundant phylum that dominated the viable mycobiome of the ILMAH was Ascomycota (90% of all characterized OTUs) followed by Basidiomycota and unclassified fungi (~4 and ~5%, respectively). Incidence of the fungal OTUs at the family level for various time points and locations are presented in Table 1 and Table 2, respectively. The dominant Pleosporaceae (75% of all OTUs) along with unclassified fungi (5%) and Davidiellaceae (4%) constituted 84% of all OTUs present in PMA-treated samples (Tables 1 and 2 and Fig. 6). A closer look into the genus level of Pleosporaceae family indicated the domination of Epicoccum (92.95% of all OTUs) and Alternaria (6.8%) sequences. The dominant fungal OTUs in the ILMAH biome correspond with the most frequently isolated cultivable fungi (Figs. 3 and 6).\n\nDifferences in the fungal community between samples were analyzed by multivariate statistics using ordination analyses and Monte Carlo-based permutation tests. Viable fungal communities showed similar mycobiome profiles throughout the sampling period except from the samples collected at T20, which were distinct (Fig. 4; Adonis p value = 0.001 and MRPP, significance of delta = 0.001 and A = 0.1168, Additional file 6: Figure SF2 MRPP: chance corrected within-group agreement A: 0.1626, significance of delta 0.001; Adonis: delta = 0.019). Interestingly, community profiles were similar between samples collected before crew occupation (T0) and at T13 and T30 (Additional file 7: Figure SF3; chance corrected within-group agreement A: 0.01802, significance of delta: 0.219, Adonis 0.228, Additional file 8: Table ST3).\n\nObserved differences in multivariate statistics led to the investigation of mycobiome changes on a single-OTU level. First, an Anova test carried out on samples that did not cluster with the rest (Fig. 4) showed presence of representatives of Pleosporaceae, Pleosporales, Saccharomycetales, Tremellales, and Trichocomaceae families. Second, throughout the inhabitation, the level of Pleosporaceae showed significant fluctuation—from 96 to 47% and 70% at T0, T20, and T30, respectively (Fig. 7). Additionally, while Pleosporaceae presence decreased to 47%, a significant increase in the levels of Davidiellaceae (22%), Dothioraceae (11%), Saccharomycetales (8%), and Trichocomaceae (8%) was observed when compared to other time points (Fig. 6, Additional file 9: Table ST4). Interestingly, the presence of less abundant families observed before crew occupancy (T0) increased at (T30), i.e., Davidiellaceae (4.45%), Hypocreaceae (1.26%), Phaeosphaeriaceae (3.54%), Teratosphaeriaceae (5.17%), and Sporidiobolales (2.81%), as well as members of new fungal families were observed, i.e., Capnodiales (0.5%), Chaetomiaceae (3.81%), and Peniophoraceae (1.26%) (Table 1 and Fig. 6, Additional file 9: Table ST4).\n\nSpearman rank correlation was applied to each OTU’s abundance pattern and sampling event to determine significant correlation of viable fungal families with various time points. The results presented as a heat map contain 13 OTUs that showed a significant correlation with a p value of 0.01 and 32 OTUs with a p value of 0.05. All OTUs but Davidiellaceae, Teratosphaeriaceae, Tremellales_3, Pleosporales, and Pleosporaceae were more abundant during the sampling before the crew inhabited the ILMAH (Fig. 8).\n\nFurther investigation of OTU abundances on the genus level revealed changes in OTU counts over the course of time. The numbers of OTUs identified as Epiccocum, Alternaria, Pleosporales, and Cryptococcus fluctuated from high abundance at T0 to significantly lower counts at T20 and then counts increased again at T30. OTUs identified as Davidiella increased throughout the occupation time whereas OTU counts for Aspergillus, Aureobasidium, and Candida were increasing over time (peak at T20) with a drastic decrease at T30. Location wise before the ILMAH occupation, all compartments exhibited high abundance of Epiccocum OTUs that decreased over time and again increased at T30. Alternaria OTUs were less abundant than the ones identified as Epiccocum genus. Nevertheless, they showed the same fluctuation pattern in all compartments but bedroom. While accumulation of Davidiella OTU counts was observed in bedroom and lab, the OTU counts in the bathroom did not differ between the T0 and T30. At the same time, accumulation of Davidiella OTUs was observed in the kitchen with the highest abundance during the T20 sampling event.\n\nTo sum up, statistical analysis revealed differences in community structure between time points in particular between T20 and any other previous or following time point. Davidiellaceae, Teratosphaeriaceae, Tremellales_3, Pleosporales, and Pleosporaceae families were shown to increase over the occupation time period. On a genus level, Epiccocum, Alternaria, Pleosporales, Davidiella, and Cryptococcus showed increased abundance.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Closed habitat",
+    "Surface",
+    "Mycobiome",
+    "Succession",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "A minimal architecture for human journeys to Mars",
+      "authors": [
+        "H Price",
+        "J Baker",
+        "F Naderi"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "AW Wilhite",
+        "P Chai"
+      ]
+    },
+    {
+      "title": "Swarmer TM, Anderson L, de León P: Performance review of a pressurized inflatable lunar habitat integrated with an electric rover and pressurized analog planetary suits during an initial ten day simulation. International Conference on Environmental Systems 2014.",
+      "authors": []
+    },
+    {
+      "title": "Studying the microbiology of the indoor environment",
+      "authors": [
+        "ST Kelley",
+        "JA Gilbert"
+      ]
+    },
+    {
+      "title": "Forensic analysis of the microbiome of phones and shoes",
+      "authors": [
+        "S Lax",
+        "JT Hampton-Marcell",
+        "SM Gibbons",
+        "GB Colares",
+        "D Smith",
+        "JA Eisen",
+        "JA Gilbert"
+      ]
+    },
+    {
+      "title": "Bacterial communities on classroom surfaces vary with human contact",
+      "authors": [
+        "JF Meadow",
+        "AE Altrichter",
+        "SW Kembel",
+        "M Moriyama",
+        "TK O'Connor",
+        "AM Womack",
+        "GZ Brown",
+        "JL Green",
+        "BJ Bohannan"
+      ]
+    },
+    {
+      "title": "Microbial succession in an inflated lunar/Mars analog habitat during a 30-day human occupation",
+      "authors": [
+        "T Mayer",
+        "A Blachowicz",
+        "AJ Probst",
+        "P Vaishampayan",
+        "A Checinska",
+        "T Swarmer",
+        "P de Leon",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "The ignored diversity: complex bacterial communities in intensive care units revealed by 16S pyrosequencing",
+      "authors": [
+        "L Oberauner",
+        "C Zachow",
+        "S Lackner",
+        "C Hogenauer",
+        "KH Smolle",
+        "G Berg"
+      ]
+    },
+    {
+      "title": "Microbe-I: fungal biota analyses of the Japanese experimental module KIBO of the International Space Station before launch and after being in orbit for about 460 days",
+      "authors": [
+        "K Satoh",
+        "Y Nishiyama",
+        "T Yamazaki",
+        "T Sugita",
+        "Y Tsukii",
+        "K Takatori",
+        "Y Benno",
+        "K Makimura"
+      ]
+    },
+    {
+      "title": "Comprehensive analysis of the skin fungal microbiota of astronauts during a half-year stay at the International Space Station",
+      "authors": [
+        "T Sugita",
+        "T Yamazaki",
+        "K Makimura",
+        "O Cho",
+        "S Yamada",
+        "H Ohshima",
+        "C Mukai"
+      ]
+    },
+    {
+      "title": "Office space bacterial abundance and diversity in three metropolitan areas",
+      "authors": [
+        "KM Hewitt",
+        "CP Gerba",
+        "SL Maxwell",
+        "ST Kelley"
+      ]
+    },
+    {
+      "title": "Exploring bacterial diversity in hospital environments by GS-FLX Titanium pyrosequencing",
+      "authors": [
+        "M Poza",
+        "C Gayoso",
+        "MJ Gomez",
+        "S Rumbo-Feal",
+        "M Tomas",
+        "J Aranda",
+        "A Fernandez",
+        "G Bou"
+      ]
+    },
+    {
+      "title": "Bacterial diversity in two neonatal intensive care units (NICUs)",
+      "authors": [
+        "KM Hewitt",
+        "FL Mannino",
+        "A Gonzalez",
+        "JH Chase",
+        "JG Caporaso",
+        "R Knight",
+        "ST Kelley"
+      ]
+    },
+    {
+      "title": "Microbes in the neonatal intensive care unit resemble those found in the gut of premature infants",
+      "authors": [
+        "B Brooks",
+        "BA Firek",
+        "CS Miller",
+        "I Sharon",
+        "BC Thomas",
+        "R Baker",
+        "MJ Morowitz",
+        "JF Banfield"
+      ]
+    },
+    {
+      "title": "Gupta RK: role of environmental monitoring and microbiological testing during manufacture of sterile drugs and biologics* Am Pharm Rev. 2014. http://www.americanpharmaceuticalreview.com/Featured-Articles/169384-Role-of-Environmental-Monitoring-and-Microbiological-Testing-During-Manufacture-of-Sterile-Drugs-and-Biologics/.",
+      "authors": []
+    },
+    {
+      "title": "Bacterial diversity in the indoor air of pharmaceutical environment",
+      "authors": [
+        "HK Park",
+        "JH Han",
+        "Y Joung",
+        "SH Cho",
+        "SA Kim",
+        "SB Kim"
+      ]
+    },
+    {
+      "title": "Design considerations for parenteral production facility",
+      "authors": [
+        "PV Ingle",
+        "VK Chatap",
+        "NM Bhatia"
+      ]
+    },
+    {
+      "title": "Cleanrooms and tissue banking how happy I could be with either GMP or GTP?",
+      "authors": [
+        "J Klykens",
+        "JP Pirnay",
+        "G Verbeken",
+        "O Giet",
+        "E Baudoux",
+        "R Jashari",
+        "A Vanderkelen",
+        "N Ectors"
+      ]
+    },
+    {
+      "title": "Risk of acquiring antibiotic-resistant bacteria from prior room occupants",
+      "authors": [
+        "SS Huang",
+        "R Datta",
+        "R Platt"
+      ]
+    },
+    {
+      "title": "Hospital-acquired infections due to gram-negative bacteria",
+      "authors": [
+        "AY Peleg",
+        "DC Hooper"
+      ]
+    },
+    {
+      "title": "Hospital-acquired Aspergillus fumigatus infection: can molecular typing methods identify an environmental source?",
+      "authors": [
+        "F Symoens",
+        "J Burnod",
+        "B Lebeau",
+        "MA Viviani",
+        "MA Piens",
+        "AM Tortorano",
+        "N Nolard",
+        "F Chapuis",
+        "R Grillot"
+      ]
+    },
+    {
+      "title": "Fernanda NdSP: a mini review of Candida species in hospital infection: epidemiology, virulence factor and drugs resistance and prophylaxis. Trop Med Surg 2013, 01(05). https://www.esciencecentral.org/journals/a-mini-review-of-candida-species-in-hospital-infection-2329-9088.1000141.php?aid=18547.",
+      "authors": []
+    },
+    {
+      "title": "Nosocomial Candida infection in a rural tertiary care hospital",
+      "authors": [
+        "Sheevani",
+        "P Sharma",
+        "A Aggarwal"
+      ]
+    },
+    {
+      "title": "Analysis of fungal flora in indoor dust by ribosomal DNA sequence analysis, quantitative PCR, and culture",
+      "authors": [
+        "M Pitkaranta",
+        "T Meklin",
+        "A Hyvarinen",
+        "L Paulin",
+        "P Auvinen",
+        "A Nevalainen",
+        "H Rintala"
+      ]
+    },
+    {
+      "title": "Associations between fungal species and water-damaged building materials",
+      "authors": [
+        "B Andersen",
+        "JC Frisvad",
+        "I Sondergaard",
+        "IS Rasmussen",
+        "LS Larsen"
+      ]
+    },
+    {
+      "title": "A review of cleanroom microflora: types, trends, and patterns",
+      "authors": [
+        "T Sandle"
+      ]
+    },
+    {
+      "title": "Mandal J, Brandl H: Bioaerosols in indoor environment—a review with special reference to residential and occupational locations. Open Environ Biol Monit J. 2011; 4(1):83–96.",
+      "authors": []
+    },
+    {
+      "title": "Pyrosequencing-derived bacterial, archaeal, and fungal diversity of spacecraft hardware destined for Mars",
+      "authors": [
+        "MT La Duc",
+        "P Vaishampayan",
+        "HR Nilsson",
+        "T Torok",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Dispersal in microbes: fungi in indoor air are dominated by outdoor air and show dispersal limitation at short distances",
+      "authors": [
+        "RI Adams",
+        "M Miletto",
+        "JW Taylor",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Airborne bacterial communities in residences: similarities and differences with fungi",
+      "authors": [
+        "RI Adams",
+        "M Miletto",
+        "SE Lindow",
+        "JW Taylor",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Chase J, Fouquier J, Zare M, Sonderegger DL, Knight R, Kelley ST, Siegel J, Caporaso JG. Geography and location are the primary drivers of office microbiome composition. mSystems. 2016;1(2):e00022-00016.",
+      "authors": []
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+      "authors": [
+        "A Checinska",
+        "AJ Probst",
+        "P Vaishampayan",
+        "JR White",
+        "D Kumar",
+        "VG Stepanov",
+        "GE Fox",
+        "HR Nilsson",
+        "DL Pierson",
+        "J Perry"
+      ]
+    },
+    {
+      "title": "Antarctic microfungi as models for exobiology",
+      "authors": [
+        "S Onofri",
+        "L Selbmann",
+        "L Zucconi",
+        "S Pagano"
+      ]
+    },
+    {
+      "title": "Responses of soil bacterial and fungal communities to extreme desiccation and rewetting",
+      "authors": [
+        "RL Barnard",
+        "CA Osborne",
+        "MK Firestone"
+      ]
+    },
+    {
+      "title": "Evolution and adaptation of fungi at boundaries of life",
+      "authors": [
+        "S Onofri",
+        "L Selbmann",
+        "GS de Hoog",
+        "M Grube",
+        "D Barreca",
+        "S Ruisi",
+        "L Zucconi"
+      ]
+    },
+    {
+      "title": "Temperature and moisture conditions for life in the extreme arid region of the Atacama desert: four years of observations including the El Nino of 1997-1998",
+      "authors": [
+        "CP McKay",
+        "EI Friedmann",
+        "B Gomez-Silva",
+        "L Caceres-Villanueva",
+        "DT Andersen",
+        "R Landheim"
+      ]
+    },
+    {
+      "title": "Microbial ecology of an extreme acidic environment, the Tinto river",
+      "authors": [
+        "E Gonzalez-Toril",
+        "E Llobet-Brossa",
+        "EO Casamayor",
+        "R Amann",
+        "R Amils"
+      ]
+    },
+    {
+      "title": "Valerie G. Halophilic fungi in a polyhaline estuarine habitat. J Yeast Fungal Res. 2012;3(3):30–36.",
+      "authors": []
+    },
+    {
+      "title": "Ionizing radiation attracts soil fungi",
+      "authors": [
+        "NN Zhdanova",
+        "T Tugay",
+        "J Dighton",
+        "V Zheltonozhsky",
+        "P Mcdermott"
+      ]
+    },
+    {
+      "title": "Ionizing radiation: how fungi cope, adapt, and exploit with the help of melanin",
+      "authors": [
+        "E Dadachova",
+        "A Casadevall"
+      ]
+    },
+    {
+      "title": "Melanin pigments of fungi under extreme environmental conditions (review)",
+      "authors": [
+        "NN Gessler",
+        "AS Egorova",
+        "TA Belozerskaya"
+      ]
+    },
+    {
+      "title": "Characteristics of extremophylic fungi from chernobyl nuclear power plant",
+      "authors": [
+        "T Belozerskaya",
+        "K Aslanidi",
+        "A Ivanova",
+        "N Gessler",
+        "A Egorova",
+        "Y Karpenko",
+        "S Olishevskaya"
+      ]
+    },
+    {
+      "title": "Resistance of Antarctic black fungi and cryptoendolithic communities to simulated space and Martian conditions",
+      "authors": [
+        "S Onofri",
+        "D Barreca",
+        "L Selbmann",
+        "D Isola",
+        "E Rabbow",
+        "G Horneck",
+        "JP de Vera",
+        "J Hatton",
+        "L Zucconi"
+      ]
+    },
+    {
+      "title": "Fungi: their role in deterioration of cultural heritage",
+      "authors": [
+        "K Sterflinger"
+      ]
+    },
+    {
+      "title": "Fungi associated with deteriorations of painted wall surfaces: isolation and identification",
+      "authors": [
+        "P Elumalai",
+        "E Elumalai",
+        "E David"
+      ]
+    },
+    {
+      "title": "The sick building syndrome",
+      "authors": [
+        "SM Joshi"
+      ]
+    },
+    {
+      "title": "Fungal pollution of indoor environments and its management",
+      "authors": [
+        "AA Haleem Khan",
+        "S Mohan Karuppayil"
+      ]
+    },
+    {
+      "title": "Hidden killers: human fungal infections",
+      "authors": [
+        "GD Brown",
+        "DW Denning",
+        "NA Gow",
+        "SM Levitz",
+        "MG Netea",
+        "TC White"
+      ]
+    },
+    {
+      "title": "Human and plant fungal pathogens: the role of secondary metabolites",
+      "authors": [
+        "DH Scharf",
+        "T Heinekamp",
+        "AA Brakhage"
+      ]
+    },
+    {
+      "title": "Stress-induced subclinical reactivation of varicella zoster virus in astronauts",
+      "authors": [
+        "SK Mehta",
+        "RJ Cohrs",
+        "B Forghani",
+        "G Zerbe",
+        "DH Gilden",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Evaluation of procedures for the collection, processing, and analysis of biomolecules from low-biomass surfaces",
+      "authors": [
+        "K Kwan",
+        "M Cooper",
+        "MT La Duc",
+        "P Vaishampayan",
+        "C Stam",
+        "JN Benardini",
+        "G Scalzi",
+        "C Moissl-Eichinger",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Fungal communities from methane hydrate-bearing deep-sea marine sediments in South China Sea",
+      "authors": [
+        "X Lai",
+        "L Cao",
+        "H Tan",
+        "S Fang",
+        "Y Huang",
+        "S Zhou"
+      ]
+    },
+    {
+      "title": "Community structure of ectomycorrhizal fungi in a Pinus muricata forest: minimal overlap between the mature forest and resistant propagule communities",
+      "authors": [
+        "DL Taylor",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "The UNITE database for molecular identification of fungi—recent updates and future perspectives",
+      "authors": [
+        "K Abarenkov",
+        "R Henrik Nilsson",
+        "KH Larsson",
+        "IJ Alexander",
+        "U Eberhardt",
+        "S Erland",
+        "K Hoiland",
+        "R Kjoller",
+        "E Larsson",
+        "T Pennanen"
+      ]
+    },
+    {
+      "title": "MEGA6: molecular evolutionary genetics analysis version 6.0.",
+      "authors": [
+        "K Tamura",
+        "G Stecher",
+        "D Peterson",
+        "A Filipski",
+        "S Kumar"
+      ]
+    },
+    {
+      "title": "Cryptosporidium propidium monoazide-PCR, a molecular biology-based technique for genotyping of viable Cryptosporidium oocysts",
+      "authors": [
+        "CC Brescia",
+        "SM Griffin",
+        "MW Ware",
+        "EA Varughese",
+        "AI Egorov",
+        "EN Villegas"
+      ]
+    },
+    {
+      "title": "ITS primers with enhanced specificity for basidiomycetes—application to the identification of mycorrhizae and rusts",
+      "authors": [
+        "M Gardes",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Amplification and direct sequencing of fungal ribosomal RNA genes for phylogenetics",
+      "authors": [
+        "TJ White",
+        "T Bruns",
+        "S Lee",
+        "J Taylor"
+      ]
+    },
+    {
+      "title": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+      "authors": [
+        "Y Benjamini",
+        "Y Hochberg"
+      ]
+    },
+    {
+      "title": "Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities",
+      "authors": [
+        "PD Schloss",
+        "SL Westcott",
+        "T Ryabin",
+        "JR Hall",
+        "M Hartmann",
+        "EB Hollister",
+        "RA Lesniewski",
+        "BB Oakley",
+        "DH Parks",
+        "CJ Robinson"
+      ]
+    },
+    {
+      "title": "Ironing out the wrinkles in the rare biosphere through improved OTU clustering",
+      "authors": [
+        "SM Huse",
+        "DM Welch",
+        "HG Morrison",
+        "ML Sogin"
+      ]
+    },
+    {
+      "title": "UCHIME improves sensitivity and speed of chimera detection",
+      "authors": [
+        "RC Edgar",
+        "BJ Haas",
+        "JC Clemente",
+        "C Quince",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy",
+      "authors": [
+        "Q Wang",
+        "GM Garrity",
+        "JM Tiedje",
+        "JR Cole"
+      ]
+    },
+    {
+      "title": "Bengtsson-Palme J, Ryberg M, Hartmann M, Branco S, Wang Z, Godhe A, De Wit P, Sánchez-García M, Ebersberger I, de Sousa F et al. Improved software detection and extraction of ITS1 and ITS2 from ribosomal ITS sequences of fungi and other eukaryotes for analysis of environmental sequencing data. Methods Ecol Evol 2013:n/a-n/a.",
+      "authors": []
+    },
+    {
+      "title": "gyrB as a phylogenetic discriminator for members of the Bacillus anthracis-cereus-thuringiensis group",
+      "authors": [
+        "MT La Duc",
+        "M Satomi",
+        "N Agata",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "A viability-linked metagenomic analysis of cleanroom environments: eukarya, prokaryotes, and viruses",
+      "authors": [
+        "T Weinmaier",
+        "AJ Probst",
+        "MT La Duc",
+        "D Ciobanu",
+        "JF Cheng",
+        "N Ivanova",
+        "T Rattei",
+        "P Vaishampayan"
+      ]
+    },
+    {
+      "title": "Indoor fungal diversity and asthma: a meta-analysis and systematic review of risk factors",
+      "authors": [
+        "RA Sharpe",
+        "N Bearman",
+        "CR Thornton",
+        "K Husk",
+        "NJ Osborne"
+      ]
+    },
+    {
+      "title": "Use of propidium monoazide for live/dead distinction in microbial ecology",
+      "authors": [
+        "A Nocker",
+        "P Sossa-Fernandez",
+        "MD Burr",
+        "AK Camper"
+      ]
+    },
+    {
+      "title": "New perspectives on viable microbial communities in low-biomass cleanroom environments",
+      "authors": [
+        "P Vaishampayan",
+        "AJ Probst",
+        "MT La Duc",
+        "E Bargoma",
+        "JN Benardini",
+        "GL Andersen",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Quantifying fungal viability in air and water samples using quantitative PCR after treatment with propidium monoazide (PMA)",
+      "authors": [
+        "S Vesper",
+        "C McKinstry",
+        "C Hartmann",
+        "M Neace",
+        "S Yoder",
+        "A Vesper"
+      ]
+    },
+    {
+      "title": "Propidium monoazide combined with real-time quantitative PCR to quantify viable Alternaria spp. contamination in tomato products",
+      "authors": [
+        "A Crespo-Sempere",
+        "N Estiarte",
+        "S Marin",
+        "V Sanchis",
+        "AJ Ramos"
+      ]
+    },
+    {
+      "title": "Longitudinal analysis of microbial interaction between humans and the indoor environment",
+      "authors": [
+        "S Lax",
+        "DP Smith",
+        "J Hampton-Marcell",
+        "SM Owens",
+        "KM Handley",
+        "NM Scott",
+        "SM Gibbons",
+        "P Larsen",
+        "BD Shogan",
+        "S Weiss"
+      ]
+    },
+    {
+      "title": "The diversity and distribution of fungi on residential surfaces",
+      "authors": [
+        "RI Adams",
+        "M Miletto",
+        "JW Taylor",
+        "TD Bruns"
+      ]
+    },
+    {
+      "title": "Dispersal of skin microorganisms*",
+      "authors": [
+        "WC Noble"
+      ]
+    },
+    {
+      "title": "Modern cleanroom clothing systems: people as a contamination source",
+      "authors": [
+        "B Reinmüller",
+        "B Ljungqvist"
+      ]
+    },
+    {
+      "title": "The human mycobiome in health and disease",
+      "authors": [
+        "L Cui",
+        "A Morris",
+        "E Ghedin"
+      ]
+    },
+    {
+      "title": "Topographic diversity of fungal and bacterial communities in human skin",
+      "authors": [
+        "K Findley",
+        "J Oh",
+        "J Yang",
+        "S Conlan",
+        "C Deming",
+        "JA Meyer",
+        "D Schoenfeld",
+        "E Nomicos",
+        "M Park"
+      ]
+    },
+    {
+      "title": "The emerging world of the fungal microbiome",
+      "authors": [
+        "GB Huffnagle",
+        "MC Noverr"
+      ]
+    },
+    {
+      "title": "Gut fungal microbiota: the Yin and Yang of inflammatory bowel disease",
+      "authors": [
+        "ML Richard",
+        "B Lamas",
+        "G Liguori",
+        "TW Hoffmann",
+        "H Sokol"
+      ]
+    },
+    {
+      "title": "Key determinants of the fungal and bacterial microbiomes in homes",
+      "authors": [
+        "EM Kettleson",
+        "A Adhikari",
+        "S Vesper",
+        "K Coombs",
+        "R Indugula",
+        "T Reponen"
+      ]
+    },
+    {
+      "title": "The relationship between environmental relative moldiness index values and asthma",
+      "authors": [
+        "S Vesper",
+        "L Wymer"
+      ]
+    },
+    {
+      "title": "The spectrum of fungal allergy",
+      "authors": [
+        "B Simon-Nobbe",
+        "U Denk",
+        "V Poll",
+        "R Rid",
+        "M Breitenbach"
+      ]
+    },
+    {
+      "title": "Exposure to Alternaria alternata in US homes is associated with asthma symptoms",
+      "authors": [
+        "PM Salo",
+        "SJ Arbes",
+        "M Sever",
+        "R Jaramillo",
+        "RD Cohn",
+        "SJ London",
+        "DC Zeldin"
+      ]
+    },
+    {
+      "title": "Efficacy and safety of immunotherapy for allergies to Alternaria alternata in children",
+      "authors": [
+        "P Kuna",
+        "J Kaczmarek",
+        "M Kupczyk"
+      ]
+    },
+    {
+      "title": "Fungi and allergic lower respiratory tract diseases",
+      "authors": [
+        "AP Knutsen",
+        "RK Bush",
+        "JG Demain",
+        "DW Denning",
+        "A Dixit",
+        "A Fairs",
+        "PA Greenberger",
+        "B Kariuki",
+        "H Kita",
+        "VP Kurup"
+      ]
+    },
+    {
+      "title": "Monocyte phenotype and cytokine production profiles are dysregulated by short-duration spaceflight",
+      "authors": [
+        "B Crucian",
+        "R Stowe",
+        "H Quiriarte",
+        "D Pierson",
+        "C Sams"
+      ]
+    },
+    {
+      "title": "Seifert KA: Compendium of soil fungi—by K.H. Domsch, W. Gams & T.-H. Anderson. Eur J Soil Sci. 2009;59:1007.",
+      "authors": []
+    },
+    {
+      "title": "Fungi from Chernobyl: mycobiota of the inner regions of the containment structures of the damaged nuclear reactor",
+      "authors": [
+        "NN Zhdanova",
+        "VA Zakharchenko",
+        "VV Vember",
+        "LT Nakonechnaya"
+      ]
+    },
+    {
+      "title": "Hypersaline waters in salterns a “ natural ecological niches for halophilic black yeasts",
+      "authors": [
+        "N Gunde-Cimerman",
+        "P Zalar",
+        "S Hoog",
+        "A Plemenitasd"
+      ]
+    },
+    {
+      "title": "Yeast diversity in hypersaline habitats",
+      "authors": [
+        "L Butinar",
+        "S Santos",
+        "I Spencer-Martins",
+        "A Oren",
+        "N Gunde-Cimerman"
+      ]
+    },
+    {
+      "title": "Cold, pH and salt tolerant Penicillium spp. inhabit the high altitude soils in Himalaya, India",
+      "authors": [
+        "K Dhakar",
+        "A Sharma",
+        "A Pandey"
+      ]
+    },
+    {
+      "title": "Biology and ecology of mycotoxigenic Aspergillus species as related to economic and health concerns",
+      "authors": [
+        "DM Wilson",
+        "W Mubatanhema",
+        "Z Jurjevic"
+      ]
+    },
+    {
+      "title": "Knox BP, Blachowicz A, Palmer JM, Romsdahl J, Huttenlocher A, Wang CC, Keller NP, Venkateswaran K: Characterization of Aspergillus fumigatus isolates from air and surfaces of the International Space Station. mSphere 2016, 1(5). http://msphere.asm.org/content/1/5/e00227-16.",
+      "authors": []
+    }
+  ],
+  "original_title": "Human presence impacts fungal diversity of inflated lunar/Mars analog habitat.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/2a70edf94e94/40168_2017_280_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/8ceb00a74e7c/40168_2017_280_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/82c079edafb6/40168_2017_280_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/baa5de60ab7d/40168_2017_280_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/9d6f3af4d349/40168_2017_280_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/ca94a1892b51/40168_2017_280_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/11330cc6cc39/40168_2017_280_Fig7_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ad7f/5504618/33e95455ab90/40168_2017_280_Fig8_HTML.jpg"
+  ]
+}

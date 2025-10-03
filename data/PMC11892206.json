@@ -1,0 +1,817 @@
+{
+  "pmcid": "PMC11892206",
+  "title": "Immunization induces inflammation in the mouse heart during spaceflight",
+  "abstract": "Space travel is a growing area of interest and includes initiatives such as NASA’s Moon-to-Mars Mission. Reports on the cardiovascular effects of space travel reveal changes in morphology, metabolism, and function of the cardiovascular system. In this study, the cardiovascular response to immunization in space was studied in mice which were housed and immunized while on the International Space Station (ISS). Mice were immunized with tetanus toxoid combined with the adjuvant CpG (TT + CpG) and the effects of vaccination in space were studied using transcriptomics. Analysis of the mouse heart transcriptome was performed on flight control and flight-immunized mice. The results show that immunization aboard the ISS stimulates heightened inflammation in the heart via induction of the nuclear factor kappa B (NF-κB) signaling pathway to promote the release of the pro-inflammatory cytokines IFNγ, IL-17 and IL-6. Additional transcriptomic changes included alterations in the cytoskeleton and in the expression of transcripts associated with protection from oxidative stress. In summary, inflammation in the heart can occur following immunization in space. This investigation explores the impact of immune challenges on the heart and lays the groundwork for future research into additional cardiac alterations which can occur during spaceflight.\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1186/s12864-025-11426-y.",
+  "introduction": "Background\n\nThe effects of microgravity and space-related radiation have the potential to impact astronaut health on long-duration missions. Indeed, human and animal model studies have already shown structural and/or functional deficits in the musculoskeletal system, the lymphatic and blood circulatory systems, and immune system after spaceflight. Of particular concern is the impact of spaceflight on the cardiovascular system. It is already well known that microgravity leads to significant fluid shifts and subsequent decreases in total blood volume, potentially changing physiological stressors inherent to normal heart function. Astronauts experience dysregulation of their lymphatic and blood circulatory systems while in space, resulting in a shift of fluids towards the head. Some investigators have also linked both microgravity and the space radiation environment to increased risk for cardiovascular disease.\n\nInflammation is a well-known component of cardiovascular disease in ground-based studies. However, the link between inflammation and spaceflight-induced changes in cardiac function has not been extensively studied. Our previous work has demonstrated that the spaceflight environment does not induce cardiac inflammation in mice which were housed on the ISS for 30 days. This is surprising as it has long been known that spaceflight can increase inflammatory markers in many tissues, including the musculoskeletal system, liver and kidneys. In rare cases, immunization can induce myocarditis associated with cardiac inflammation. We therefore sought to determine whether or not the stress of the spaceflight environment exacerbates the risk for vaccine-induced cardiac inflammation, increasing the risk of cardiovascular disease in astronauts.\n\nTo explore the impact of combined physiological and immunological stressors on cardiovascular risk, RNAseq analysis was used to identify transcriptomic changes in the hearts of mice after immunization in space. Our results showed that immunization during spaceflight activated an inflammation-related gene expression response in the heart similar to myocarditis on Earth.",
+  "methods": "Materials and methods\n\nExperimental animal model\n\nAnimal experiments were reviewed and approved by the NASA Flight Institutional Animal Care and Use Committee (FIACUC) (protocol #RR-12). The experiments described here were a component of a larger investigation which was focused on the impact of immunization in the context of the spaceflight environment. The current study was designed to investigate the effects of immunization on the heart in space. Heart tissue was provided to our laboratory by the NASA Biospecimen Sharing Program. Eight- to nine-week-old female C57BL/6J mice (Jackson Laboratory, Bar Harbor, ME) were delivered to the Kennedy Space Center (KSC) Animal Care Facility. Due to the limited number of mice that could be approved for housing on the ISS and to facilitate the interpretation of the data, the inbred mice in all of the experimental and control groups were selected to be of the same age and sex. This allowed us to distribute a uniform set of mice of the same strain and sex into the various groups. Mice were acclimatized for 1 to 2 weeks before study initiation. During this period, their living conditions were controlled for temperature and humidity, and a 12:12 h light: dark cycle was established.\n\nTreatments were assigned randomly for each cage. The body mass of the mice within each of the cages and across groups was measured to ensure that there were no statistically significant differences in body mass within and between the groups of flight and ground control mice. The entire cage of mice was not used for the project if any mice in the cage showed signs of stress, such as over-grooming or fighting during the adaptation period, in order to maintain consistency across all treatment and control groups. Complete cages were then divided into one of three treatment groups (Saline, TT + CpG, CpG only) for ground controls and flight mice. All five mice within one cage received the same treatment. For the purpose of this study, we focused on thirty mice, as indicated in Table 1, in order to identify the effects of immunization with tetanus toxoid plus adjuvant in the context of spaceflight.\n\nGround controls remained at the Kennedy Space Center (KSC) in the ISS Environmental Simulator (ISSES), a controlled environment chamber that matched temperature, humidity and CO2 levels from the ISS on a 48-hour delay via telemetry. Flight groups were flown to Wallops Island (VA), placed on board the Northrop Grumman robotic resupply spacecraft Cygnus mission 11 (NG-11), and sent to the International Space Station (ISS).\n\nTo ensure a robust immune response while in space, mice were first vaccinated on the ground 13 days prior to launch with an intraperitoneal (IP) injection of either 0.1 ml saline vehicle (control), 0.1 ml of 10Lf/ml tetanus toxoid (AJ Vaccines, Denmark) + 0.1 ml of 0.8 mg/ml CpG ODN 1826 adjuvant (InvivoGen), or + 0.1 ml of 0.8 mg/ml CpG ODN 1826 adjuvant only, allowing time for the development of immunological memory. A second, identical vaccination was given to the flight mice 21 days after launch. Saline was administered to flight control animals. Finally, the flight mice were euthanized via IP injection of ketamine/xylazine (3 mg/0.9 mg ketamine/xylazine in a volume of 300 μl PBS) 13–14 days after the second immunization. The euthanized mice were wrapped in foil and kept frozen at -76 °C until they were returned to Earth. Hearts were later extracted from semi-thawed animals, flash-frozen and stored at -80 °C until RNA was prepared for transcriptomics. Comparable ground treatment (TT+CpG, CpG only) and control (saline) mice were maintained at the Kennedy Space Center.\n\nRNA and cDNA synthesis\n\nTo extract RNA, < 25 mg of tissue was cut on dry ice and the tissue was collected and suspended in QIAzol® Lysis Reagent (QIAGEN, Germantown, MD). Samples were then homogenized, and RNA was extracted using a miRNeasy Mini Kit (QIAGEN, Germantown, MD). Sample quality was assessed with gel electrophoresis and Nanodrop. cDNA was synthesized using Superscript III and the manufacturer’s recommended protocol (Invitrogen, Grand Island, NY).\n\nRNA sequencing and transcriptomic analysis\n\nThe RNA samples for three spaceflight saline-injected control mice and three spaceflight mice which were immunized with TT + CpG, were shipped to LC Sciences (Houston, TX, USA) on dry ice for RNA sequencing followed by bioinformatic analysis. RNA with a RIN above 8 (Agilent Technologies 2100 Bioanalyzer) was used to generate a sequencing library. The poly(A) RNA sequencing library was made following Illumina’s TruSeq-stranded-mRNA sample preparation protocol. Quality control was done using Agilent Technologies 2100 Bioanalyzer High Sensitivity DNA Chip. Sequencing was performed on Illumina NovaseqTM 6000 following the vendor’s protocol.\n\nTo analyze the RNA-seq data, the workflow involved using in-house Perl scripts in addition to Cutadapt (version 1.10) for trimming any adapter sequences and processing the raw sequence data. A thorough assessment using FASTQC (version 0.10.1) was performed and the trimmed reads were aligned to the reference mouse genome (Ensembl release-101 mus_musculus; v101) using HISAT (version 2.0). Gene assembly was conducted by calculating the expression of genes based on the total number or coverage of reads aligning to each gene locus. Full-length transcripts and splice variants were assembled and quantitated using StringTie. Individual transcriptomes were combined to create a complete transcriptome. This was done by merging transcripts using Perl scripts and GffCompare. Stringtie (version 1.3.4) and ballgown (http://www.bioconductor.org/packages/release/bioc/html/ballgown.html; version 3.20) were then used to approximate the expression levels of each completed transcript. StringTie was utilized to quantify mRNA expression levels across all six mice, as represented by the Fragments Per Kilobase of transcript per Million mapped reads (FPKM) metric. Transcripts with a false discovery rate (FDR) below 0.05 and an absolute fold change ≥ 2 were considered differentially expressed. Differential expression analysis was performed using DESeq2 and edgeR. These tools used a negative binomial distribution within a generalized linear model (GLM) framework for modeling RNA sequencing count data to identify significant changes in gene expression. This was followed by GO (2019.05) and KEGG (2019.05) enrichment analyses. Single Nucleotide Polymorphism (SNP) and insertion-deletion (Indel) analyses were carried out using SAMtools (version 0.1.19), and variant annotation was conducted with ANNOVAR (2017.09). For alternative splicing analysis, rMATS (version 4.1.1) was employed for use of Gene Set Enrichment Analysis.\n\nDifferentially expressed genes and transcripts were uploaded for analysis using Ingenuity Pathway Analysis (IPA, QIAGEN), Gene Set Enrichment Analysis (GSEA), and DAVID Bioinformatics. These programs analyze large-scale omics data to determine changes in pathway activation and biological function. Three flight immunized and three flight saline hearts were included in the transcriptomic analyses. All software used for RNA sequencing and downstream analysis is listed in Supplementary Tables S1 and S2.\n\nRT-qPCR\n\nRT-qPCR was used to validate transcriptomic findings comparing the flight control and the flight TT + CpG, as well as comparable ground controls. In addition, administration of CpG only versus immunization with TT + CpG was assessed using quantitative PCR. Primer pairs were designed using NCBI PrimerBlast (Table S3). GAPDH was used as a housekeeping gene. RT-qPCRs were run at 94oC for 10 min, 94oC for 15 s, 56-58oC (depending on the primer) for 60 s and 72oC for 30 s for 45 cycles. Results were analyzed using the delta delta cycle threshold (ΔΔCT) method for relative gene expression. Five mouse hearts were analyzed in each ground control group as well as in each of the flight immunization and control mouse groups. Three to five technical replicates were used for each RT-qPCR analysis. Values for the flight-immunized group were normalized to their respective flight saline control group and ground-immunized group. To assess the normality of values, we conducted a Shapiro-Wilk test. If the values successfully passed this test, we proceeded with an unpaired t-test to determine their statistical significance. In the event that non-normality was detected in any dataset, we utilized Wilcoxon’s t-test to analyze their statistical significance. T-tests were performed on Graphpad’s Prism at a significant p-value less than 0.05 (*=p < 0.05, **=p < 0.01, ***=p < 0.001, ****=p < 0.0001).",
+  "results": "Results\n\nThe mouse cardiac transcriptome after immunization on the ISS\n\nThe transcriptomic changes induced in the heart following vaccination with tetanus toxoid plus the adjuvant CpG versus flight saline were identified using RNAseq (n = 3 per group) (Fig. 1a). The hearts of mice vaccinated in flight showed 658 upregulated and 472 downregulated transcripts (p < 0.01) when compared to flight saline mice (Fig. 1b). Gene Ontology (GO) Enrichment and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis on all significantly expressed transcripts indicated that inflammatory and immune responses were most highly activated (Fig. 1c, d). A comparative overview of differential transcript expression in flight-immunized mice and flight saline mice is shown in the heat map (Fig. 1e). The data collected from RNA sequencing was uploaded to Ingenuity Pathway Analysis (IPA) to assess the impact of immunization in space on major biological processes in the heart. A graphical summary of the regulation of these processes is shown in Fig. 1f. Interferon regulatory factor 7 (IRF7), interferon-gamma (IFNγ), interferon alpha 2 (IFNα2), signal transducer and activator of transcription 1 (STAT1), and interleukin 2 (IL-2) were predicted to be activated (orange). These signaling transcripts promote immune responses and enhance pathway activation. Similarly, Gene Set Enrichment Analysis (GSEA) identified an upregulation of the overall inflammatory response (Fig. 1g).\n\nToll-like receptor-mediated activation of cardiomyocytes\n\nToll-like receptors (TLRs), or pattern recognition receptors, were analyzed for increased expression following vaccination. The adjuvant used in this study, CpG ODN 1826, is recognized by Toll-like receptor 9 (TLR9). However, vaccination with TT + CpG in space showed a trend toward elevated expression of several other TLRs in cardiovascular tissue. In flight-immunized mice, there was a significant increase in expression of Toll-like receptors 7, 8, and 13 when compared to the flight control group. (Fig. 2a, b). Gene Set Enrichment Analysis (GSEA) identified enrichment of Toll-like receptors 1–9 and 11–13 (Fig. 2c). Furthermore, there was a significant upregulation of receptors for interleukins 1, 2, 6, 11, and 18 (2 < fold change (fc) < 6,000, p-value < 0.05, Fig. 2d).\n\nWhen CpG activates TLR9, it promotes a cascade of signaling molecules within cardiomyocytes that leads to the translocation of transcription factors IRF7 and NF-κB to the nucleus. Once they enter the cells, they will begin transcription of IFNα and pro-inflammatory cytokines, respectively. This proposed mechanism of inflammation in cardiomyocytes is outlined in Fig. 3a.\n\nOn Earth, CpG alone can evoke an immune response through activation of TLR9 and, subsequently, NF-κB (Fig. 3b, d). In spaceflight mice, RT-qPCR was used to show that there was a significant elevation in TLR9 expression following vaccination with CpG alone. However, administration of CpG alone in space was not sufficient to lead to the activation of NF-κB (Fig. 3c, e). In flight, activation of NF-κB only occurred when administration of the adjuvant CpG was combined with tetanus toxoid.\n\nInflammatory response induced in the heart after immunization in spaceflight\n\nTo further our understanding of the effects of immunization in space, we used transcriptomic analysis in combination with RT-qPCR to conduct a targeted analysis. IPA predicted that immunization in flight promoted activation of NF-κB in cardiomyocytes, leading to the production of pro-inflammatory cytokines and, eventually, inflammation of the myocardium (Fig. 4a, Table S4-S5). Gene Set Enrichment Analysis also identified upregulated transcripts that activate the NF-κB signaling pathway (Table S6). Transcription factor NF-κB is involved in inflammatory pathways where increased expression activates and maintains the production of pro-inflammatory cytokines and signaling molecules, such as interleukin 6 (IL-6), a key modulator of chronic inflammation (Fig. 4b). Among the immune-related pathways most activated by vaccination in flight mice, interleukin 6 was one of the most significantly changed. Given the changes in gene expression related to the regulation of IL-6 (Fig. 4c), we focused on transcripts identified by GO enrichment analysis as related to the regulation of inflammatory pathways. Signaling from its receptor, IL6rα (Fig. 2d), promotes the transition of infiltration from neutrophilic to mononuclear, furthering inflammation from acute to chronic.\n\nIn order to verify that inflammation was upregulated in spaceflight after immunization, likely through an NF-κB-dependent pathway, RT-qPCR analysis was conducted on both flight groups of mice, control and immunized, as well as comparable ground controls. Vaccination led to a significant increase in NF-κB expression in flight-immunized mice, which was not observed in ground-immunized mice (Fig. 4d). Interleukin 17A (IL-17A) and interleukin 22 receptor subunit alpha 2 (IL-22rα2) were similarly induced in the flight-immunized mice, but not in ground-immunized mice (Figure e, f). Signal transducer and activator of transcription 3 (STAT3) and interferon gamma (IFNγ) were elevated in flight and ground-immunized mice (Fig. 4g, h). Cytokines interleukin 1 beta (IL-1β) and tumor necrosis factor alpha (TNF-α) were analyzed by RT-qPCR but were not induced in mice which were immunized in space (Figure S1). Transcripts encoding a subset of cytokines specific to the NF-κB inflammatory pathway were elevated in mice following immunization while housed on the ISS.\n\nAlthough we did not identify specific cell populations in our bulk transcriptomic analysis, macrophage activation was predicted in the immunized flight mice when compared to their saline-treated counterparts (Fig. 4i). IPA predicted that a pro-inflammatory response of macrophages occurs via IL-6 activation, and polarization of M1 macrophages occurs through interleukin 12 (IL-12) activation. Gene Set Enrichment Analysis identified positive regulation of IL-12 production after TT + CpG vaccination in flight-immunized mice (Figure S1).\n\nImmunization in spaceflight amplifies cytoskeletal rearrangements\n\nTranscripts related to cytoskeletal rearrangement were significantly induced following immunization in space. Elevated transcripts with fold changes above 4,000 are listed in Fig. 5a, along with their functional role. These transcripts enhance signal transduction and motility between cells and mediate tubulin protein and actin-based cytoskeletal filaments. The cytoskeletal-associated transcription factor signal-regulatory protein alpha (SIRPA) promoted cardiac protection through the regulation of Toll-like receptor 4 and NF-κB. Elevated transcripts in flight-immunized mice as compared to flight-control mice are shown in Fig. 5b and c, in which each distinct color denotes a different mouse in each flight group. The individual data points indicate the differential transcript expression of each of the cytoskeletal-related markers. According to the IPA and GSEA analysis, transcripts related to cytoskeletal rearrangement were elevated following IFNγ activation (Tables S7, S8). This activation promotes leukocyte activation, mononuclear leukocyte migration, cell transmigration, and inflammatory responses (Fig. 5d).\n\nTranscripts protecting the heart from oxidative stress are induced in spaceflight\n\nTranscripts that aid in protecting the heart from the effects of reactive oxygen species (ROS) were elevated after immunization in space (Fig. 6a, b). Transient receptor potential melastatin 2 (Trpm2) and thioredoxin reductase 1 (Txnrd1) respond to inflammation by maintaining homeostasis and were upregulated in flight mice after immunization. Many of the protective transcripts induced in this model exhibited a fold change exceeding 1,000 in the flight-immunized mice (p < 0.01) (Fig. 6a). RT-qPCR was used to further validate the transcriptomic data. We analyzed hepatocyte growth factor (HGF), which protects various organ systems, including the heart, against the effects of oxidative stress. HGF transcript levels were significantly increased in all immunized mice (Fig. 6c). Notably, glutathione peroxidase 3 (Gpx3), superoxide dismutase 2 (Sod2), or prostaglandin-endoperoxide synthase 2 (PTGS2), mediators of oxidative stress through reactive oxygen species stabilization, were not induced in flight-immunized mice (Fig. 6d-f).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Spaceflight",
+    "Microgravity",
+    "International space station",
+    "Transcriptomics",
+    "NF-κB",
+    "Immunization",
+    "Myocarditis",
+    "Inflammation",
+    "Heart",
+    "Cardiovascular system",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions",
+      "authors": [
+        "BE Crucian",
+        "A Chouker",
+        "RJ Simpson",
+        "S Mehta",
+        "G Marshall",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Cardiovascular adaptations, fluid shifts, and countermeasures related to space flight",
+      "authors": [
+        "AR Hargens",
+        "S Richardson"
+      ]
+    },
+    {
+      "title": "Update on the effects of microgravity on the musculoskeletal system",
+      "authors": [
+        "EG Juhl OJt, Buettmann",
+        "MA Friedman",
+        "RC DeNapoli",
+        "GA Hoppock",
+        "HJ Donahue"
+      ]
+    },
+    {
+      "title": "Destruction of newly released red blood cells in space flight",
+      "authors": [
+        "CP Alfrey",
+        "MM Udden",
+        "CL Huntoon",
+        "T Driscoll"
+      ]
+    },
+    {
+      "title": "Fluid shifts, vasodilatation and ambulatory blood pressure reduction during long duration spaceflight",
+      "authors": [
+        "P Norsk",
+        "A Asmar",
+        "M Damgaard",
+        "NJ Christensen"
+      ]
+    },
+    {
+      "title": "Ly V, Velichala SR, Hargens AR. Cardiovascular, lymphatic, and ocular health in space. Life (Basel). 2022;12(2).",
+      "authors": []
+    },
+    {
+      "title": "Cardiovascular disease in space: A systematic review",
+      "authors": [
+        "C Krittanawong",
+        "A Isath",
+        "S Kaplin",
+        "HUH Virk",
+        "S Fogg",
+        "Z Wang"
+      ]
+    },
+    {
+      "title": "Myocardial disease and Long-Distance space travel: solving the radiation problem",
+      "authors": [
+        "M Meerman",
+        "TCL Bracco Gartner",
+        "JW Buikema",
+        "SM Wu",
+        "S Siddiqi",
+        "CVC Bouten"
+      ]
+    },
+    {
+      "title": "The inflammatory heart diseases: causes, symptoms, and treatments",
+      "authors": [
+        "L Lu",
+        "R Sun",
+        "M Liu",
+        "Y Zheng",
+        "P Zhang"
+      ]
+    },
+    {
+      "title": "Inflammation as a cardiovascular risk factor",
+      "authors": [
+        "JT Willerson",
+        "PM Ridker"
+      ]
+    },
+    {
+      "title": "Transcriptomic effects on the mouse heart following 30 days on the international space station",
+      "authors": [
+        "AL Veliz",
+        "L Mamoun",
+        "L Hughes",
+        "R Vega",
+        "B Holmes",
+        "A Monteon"
+      ]
+    },
+    {
+      "title": "Blaber EA, Pecaut MJ, Jonscher KR. Spaceflight activates autophagy programs and the proteasome in mouse liver. Int J Mol Sci. 2017;18(10).",
+      "authors": []
+    },
+    {
+      "title": "The individual and combined effects of spaceflight radiation and microgravity on biologic systems and functional outcomes",
+      "authors": [
+        "JS Willey",
+        "RA Britten",
+        "E Blaber",
+        "CGT Tahimic",
+        "J Chancellor",
+        "M Mortreux"
+      ]
+    },
+    {
+      "title": "Pavlakou P, Dounousi E, Roumeliotis S, Eleftheriadis T, Liakopoulos V. Oxidative stress and the kidney in the space environment. Int J Mol Sci. 2018;19(10).",
+      "authors": []
+    },
+    {
+      "title": "Patients with acute myocarditis following mRNA COVID-19 vaccination",
+      "authors": [
+        "HW Kim",
+        "ER Jenista",
+        "DC Wendell",
+        "CF Azevedo",
+        "MJ Campbell",
+        "SN Darty"
+      ]
+    },
+    {
+      "title": "Acute myocarditis after a second dose of the mRNA COVID-19 vaccine: a report of two cases",
+      "authors": [
+        "J Mansour",
+        "RG Short",
+        "S Bhalla",
+        "PK Woodard",
+        "A Verma",
+        "X Robinson"
+      ]
+    },
+    {
+      "title": "Myocarditis following immunization with mRNA COVID-19 vaccines in members of the US military",
+      "authors": [
+        "J Montgomery",
+        "M Ryan",
+        "R Engler",
+        "D Hoffman",
+        "B McClenathan",
+        "L Collins"
+      ]
+    },
+    {
+      "title": "A case of biopsy-proven eosinophilic myocarditis related to tetanus toxoid immunization",
+      "authors": [
+        "H Yamamoto",
+        "T Hashimoto",
+        "K Ohta-Ogo",
+        "H Ishibashi-Ueda",
+        "K Imanaka-Yoshida",
+        "M Hiroe"
+      ]
+    },
+    {
+      "title": "Atropos: specific, sensitive, and Speedy trimming of sequencing reads",
+      "authors": [
+        "JP Didion",
+        "M Martin",
+        "FS Collins"
+      ]
+    },
+    {
+      "title": "HISAT: a fast spliced aligner with low memory requirements",
+      "authors": [
+        "D Kim",
+        "B Landmead",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "StringTie enables improved reconstruction of a transcriptome from RNA-seq reads",
+      "authors": [
+        "M Pertea",
+        "GM Pertea",
+        "CM Antonescu",
+        "TC Chang",
+        "JT Mendell",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "Love MI, Huber W, Anders S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol. 2014;15(12).",
+      "authors": []
+    },
+    {
+      "title": "EdgeR: a bioconductor package for differential expression analysis of digital gene expression data",
+      "authors": [
+        "MD Robinson",
+        "DJ McCarthy",
+        "GK Smyth"
+      ]
+    },
+    {
+      "title": "KEGG for integration and interpretation of large-scale molecular data sets",
+      "authors": [
+        "M Kanehisa",
+        "S Goto",
+        "Y Sato",
+        "M Furumichi",
+        "M Tanabe"
+      ]
+    },
+    {
+      "title": "Gene ontology: tool for the unification of biology. The gene ontology consortium",
+      "authors": [
+        "M Ashburner",
+        "CA Ball",
+        "JA Blake",
+        "D Botstein",
+        "H Butler",
+        "JM Cherry"
+      ]
+    },
+    {
+      "title": "Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources",
+      "authors": [
+        "DW Huang",
+        "BT Sherman",
+        "RA Lempicki"
+      ]
+    },
+    {
+      "title": "DAVID: a web server for functional enrichment analysis and functional annotation of gene lists (2021 update)",
+      "authors": [
+        "BT Sherman",
+        "M Hao",
+        "J Qiu",
+        "X Jiao",
+        "MW Baseler",
+        "HC Lane"
+      ]
+    },
+    {
+      "title": "Causal analysis approaches in ingenuity pathway analysis",
+      "authors": [
+        "A Kramer",
+        "J Green",
+        "J Pollard",
+        "S Tugendreich"
+      ]
+    },
+    {
+      "title": "Pathway enrichment analysis and visualization of omics data using g:profiler, GSEA, cytoscape and enrichmentmap",
+      "authors": [
+        "J Reimand",
+        "R Isserlin",
+        "V Voisin",
+        "M Kucera",
+        "C Tannus-Lopes",
+        "A Rostamianfar"
+      ]
+    },
+    {
+      "title": "An improvement of the 2^(-delta delta CT) method for quantitative real-time polymerase chain reaction data analysis",
+      "authors": [
+        "X Rao",
+        "X Huang",
+        "Z Zhou",
+        "X Lin"
+      ]
+    },
+    {
+      "title": "Toll-Like receptor 9 agonists in Cancer",
+      "authors": [
+        "L Karapetyan",
+        "JJ Luke",
+        "D Davar"
+      ]
+    },
+    {
+      "title": "Interleukin-6 and chronic inflammation",
+      "authors": [
+        "C Gabay"
+      ]
+    },
+    {
+      "title": "IL-6 in inflammation, autoimmunity and cancer",
+      "authors": [
+        "T Hirano"
+      ]
+    },
+    {
+      "title": "Hepatocyte growth factor protects cardiac myocytes against oxidative stress-induced apoptosis",
+      "authors": [
+        "K Kitta",
+        "RM Day",
+        "T Ikeda",
+        "YJ Suzuki"
+      ]
+    },
+    {
+      "title": "Salas-Silva S, López-Ramirez J, Barrera-Chimal J, Lazzarini-Lechuga R, Simoni-Nieves A, Souza V et al. Hepatocyte growth factor reverses cholemic nephropathy associated with α-naphthylisothiocyanate-induced cholestasis in mice. Life Sci. 2022;295.",
+      "authors": []
+    },
+    {
+      "title": "Salas-Silva S, Simoni-Nieves A, Razori MV, López-Ramirez J, Barrera-Chimal J, Lazzarini R et al. HGF induces protective effects in α-naphthylisothiocyanate-induced intrahepatic cholestasis by counteracting oxidative stress. Biochem Pharmacol. 2020;174.",
+      "authors": []
+    },
+    {
+      "title": "Ali M, Shiwani HA, Elfaki MY, Hamid M, Pharithi R, Kamgang R et al. COVID-19 and myocarditis: a review of literature. Egypt Heart J. 2022;74(1).",
+      "authors": []
+    },
+    {
+      "title": "Cardiac adverse events after Vaccination—A",
+      "authors": [
+        "K Parmar",
+        "S Subramanyam",
+        "G Del Rio-Pertuz",
+        "P Sethi",
+        "E Argueta-Sosa"
+      ]
+    },
+    {
+      "title": "Use of tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccines: updated recommendations of the advisory committee on immunization Practices - United States, 2019",
+      "authors": [
+        "FP Havers",
+        "PL Moro",
+        "P Hunter",
+        "S Hariri",
+        "H Bernstein"
+      ]
+    },
+    {
+      "title": "Genomic, functional, and metabolic enhancements in multidrug-resistant Enterobacter bugandensis facilitating its persistence and succession in the international space station",
+      "authors": [
+        "P Sengupta",
+        "SK Muthamilselvi Sivabalan",
+        "NK Singh",
+        "K Raman",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Fatal necrotizing Soft-Tissue infection caused by Clostridium tetani in an injecting drug user: A case report",
+      "authors": [
+        "PR Cardinal",
+        "SM Henry",
+        "MG Joshi",
+        "MH Lauerman",
+        "HS Park"
+      ]
+    },
+    {
+      "title": "Akiyama T, Horie K, Hinoi E, Hiraiwa M, Kato A, Maekawa Y et al. How does spaceflight affect the acquired immune system? Npj Microgravity. 2020;6(1).",
+      "authors": []
+    },
+    {
+      "title": "Crucian BE, Choukèr A, Simpson RJ, Mehta S, Marshall G, Smith SM et al. Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions. Front Immunol. 2018;9.",
+      "authors": []
+    },
+    {
+      "title": "IL-6 and the dysregulation of immune, bone, muscle, and metabolic homeostasis during spaceflight",
+      "authors": [
+        "JK Smith"
+      ]
+    },
+    {
+      "title": "The effect of hypogravity and hypergravity on cells of the immune system",
+      "authors": [
+        "A Cogoli"
+      ]
+    },
+    {
+      "title": "T cell activation responses are differentially regulated during clinorotation and in spaceflight",
+      "authors": [
+        "BB Hashemi",
+        "JE Penkala",
+        "C Vens",
+        "H Huls",
+        "M Cubbage",
+        "CF Sams"
+      ]
+    },
+    {
+      "title": "Dhar S, Kaeley DK, Kanan MJ, Yildirim-Ayan E. Mechano-immunomodulation in space: mechanisms involving microgravity-induced changes in T cells. Life (Basel). 2021;11(10).",
+      "authors": []
+    },
+    {
+      "title": "Genetic models in applied physiology - Selected contribution: effects of spaceflight on immunity in the C57BL/6 mouse. II. Activation, cytokines, erythrocytes, and platelets",
+      "authors": [
+        "DS Gridley",
+        "GA Nelson",
+        "LL Peters",
+        "PJ Kostenuik",
+        "TA Bateman",
+        "S Morony"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on innate immune function and antioxidant gene expression",
+      "authors": [
+        "FP Baqai",
+        "DS Gridley",
+        "JM Slater",
+        "X Luo-Owen",
+        "LS Stodieck",
+        "V Ferguson"
+      ]
+    },
+    {
+      "title": "Microgravity and immune cells",
+      "authors": [
+        "H Lv",
+        "H Yang",
+        "C Jiang",
+        "J Shi",
+        "RA Chen",
+        "Q Huang"
+      ]
+    },
+    {
+      "title": "CpG oligodeoxynucleotides as TLR9 agonists therapeutic application in allergy and asthma",
+      "authors": [
+        "GK Gupta",
+        "DK Agrawal"
+      ]
+    },
+    {
+      "title": "Therapeutic applications of synthetic CpG oligodeoxynucleotides as TLR9 agonists for immune modulation",
+      "authors": [
+        "M Jurk",
+        "J Vollmer"
+      ]
+    },
+    {
+      "title": "CpG oligodeoxyneucleotides as TLR9 agonists",
+      "authors": [
+        "YM Murad",
+        "TM Clay"
+      ]
+    },
+    {
+      "title": "Regulation of effector and memory T-cell functions by type I interferon",
+      "authors": [
+        "JP Huber",
+        "JD Farrar"
+      ]
+    },
+    {
+      "title": "NF-κB signaling in inflammation",
+      "authors": [
+        "T Liu",
+        "L Zhang",
+        "D Joo",
+        "S-C Sun"
+      ]
+    },
+    {
+      "title": "CpG oligonucleotide activates Toll-like receptor 9 and causes lung inflammation in vivo",
+      "authors": [
+        "P Knuefermann",
+        "G Baumgarten",
+        "A Koch",
+        "M Schwederski",
+        "M Velten",
+        "H Ehrentraut"
+      ]
+    },
+    {
+      "title": "Degradation systems in heart failure",
+      "authors": [
+        "K Nishida",
+        "O Yamaguchi",
+        "K Otsu"
+      ]
+    },
+    {
+      "title": "Aoyagi T, Matsui T. The cardiomyocyte as a source of cytokines in cardiac injury. J Cell Sci Therapy. 2012;s5(S5).",
+      "authors": []
+    },
+    {
+      "title": "Emerging roles of Toll-like receptor 9 in cardiometabolic disorders",
+      "authors": [
+        "S Nishimoto",
+        "D Fukuda",
+        "M Sata"
+      ]
+    },
+    {
+      "title": "Cardiac resident macrophages: key regulatory mediators in the aftermath of myocardial infarction",
+      "authors": [
+        "C Chen",
+        "J Wang",
+        "C Liu",
+        "J Hu"
+      ]
+    },
+    {
+      "title": "The contribution of the cardiomyocyte to tissue inflammation in cardiomyopathies",
+      "authors": [
+        "VK Ninh",
+        "JH Brown"
+      ]
+    },
+    {
+      "title": "Cosgrove HA, Gingras S, Kim M, Bastacky S, Tilstra JS, Shlomchik MJ. B cell-intrinsic TLR7 expression drives severe lupus in TLR9-deficient mice. JCI Insight. 2023;8(16).",
+      "authors": []
+    },
+    {
+      "title": "Martinez-Espinoza I, Guerrero-Plata A. The relevance of TLR8 in viral infections. Pathogens. 2022;11(2).",
+      "authors": []
+    },
+    {
+      "title": "Association between toll-like receptor 8 expression and adverse clinical outcomes in patients with enterovirus-associated dilated cardiomyopathy",
+      "authors": [
+        "M Satoh",
+        "T Akatsu",
+        "Y Ishikawa",
+        "Y Minami",
+        "Y Takahashi",
+        "M Nakamura"
+      ]
+    },
+    {
+      "title": "Role of Toll-like receptor 13 in innate immune recognition of group B Streptococci",
+      "authors": [
+        "G Signorino",
+        "N Mohammadi",
+        "F Patane",
+        "M Buscetta",
+        "M Venza",
+        "I Venza"
+      ]
+    },
+    {
+      "title": "Toll-like receptor stimulation in cardiomyoctes decreases contractility and initiates an NF-kappaB dependent inflammatory response",
+      "authors": [
+        "JH Boyd",
+        "S Mathur",
+        "Y Wang",
+        "RM Bateman",
+        "KR Walley"
+      ]
+    },
+    {
+      "title": "Cardiac RNA induces inflammatory responses in cardiomyocytes and immune cells Toll-like receptor 7 signaling",
+      "authors": [
+        "Y Feng",
+        "HL Chen",
+        "JY Cai",
+        "L Zou",
+        "D Yan",
+        "GQ Xu"
+      ]
+    },
+    {
+      "title": "Innate immunity and cardiomyocytes in ischemic heart disease",
+      "authors": [
+        "L Lin",
+        "AA Knowlton"
+      ]
+    },
+    {
+      "title": "Shook PL, Singh M, Singh K. Macrophages in the inflammatory phase following myocardial infarction: role of exogenous ubiquitin. Biology (Basel). 2023;12(9).",
+      "authors": []
+    },
+    {
+      "title": "Role of plectin in cytoskeleton organization and dynamics",
+      "authors": [
+        "G Wiche"
+      ]
+    },
+    {
+      "title": "Targeted ablation of plectin isoform 1 uncovers role of cytolinker proteins in leukocyte recruitment",
+      "authors": [
+        "C Abrahamsberg",
+        "P Fuchs",
+        "S Osmanagic-Myers",
+        "I Fischer",
+        "F Propst",
+        "A Elbe-Burger"
+      ]
+    },
+    {
+      "title": "Plectin–intermediate filament partnership in skin, skeletal muscle, and peripheral nerve",
+      "authors": [
+        "MJ Castañón",
+        "G Walko",
+        "L Winter",
+        "G Wiche"
+      ]
+    },
+    {
+      "title": "Allograft inflammatory factor-1 supports macrophage survival and efferocytosis and limits necrosis in atherosclerotic plaques",
+      "authors": [
+        "L Egaña-Gorroño",
+        "P Chinnasamy",
+        "I Casimiro",
+        "VM Almonte",
+        "D Parikh",
+        "GH Oliveira-Paula"
+      ]
+    },
+    {
+      "title": "McDaniel DO, Zhou X, Moore CK, Aru G. Cardiac allograft rejection correlates with increased expressions of toll-like receptors 2 and 4 and allograft inflammatory factor 1. Transplant Proc. 2010;42(10):4235-7.",
+      "authors": []
+    },
+    {
+      "title": "AIF1: function and connection with inflammatory diseases",
+      "authors": [
+        "D De Leon-Oliva",
+        "C Garcia-Montero",
+        "O Fraile-Martinez",
+        "DL Boaru",
+        "L García-Puente",
+        "A Rios-Parra"
+      ]
+    },
+    {
+      "title": "Liu D, Zhong Z, Karin M. NF-kappaB: a double-edged sword controlling inflammation. Biomedicines. 2022;10(6).",
+      "authors": []
+    },
+    {
+      "title": "Targeting NF-kappaB pathway for the therapy of diseases: mechanism and clinical study",
+      "authors": [
+        "H Yu",
+        "L Lin",
+        "Z Zhang",
+        "H Zhang",
+        "H Hu"
+      ]
+    },
+    {
+      "title": "Kasembeli MM, Bharadwaj U, Robinson P, Tweardy DJ. Contribution of STAT3 to inflammatory and fibrotic diseases and prospects for its targeting for treatment. Int J Mol Sci. 2018;19(8).",
+      "authors": []
+    },
+    {
+      "title": "STAT3 activation in response to IL-6 is prolonged by the binding of IL-6 receptor to EGF receptor",
+      "authors": [
+        "YX Wang",
+        "AHH van Boxel-Dezaire",
+        "H Cheon",
+        "JB Yang",
+        "GR Stark"
+      ]
+    },
+    {
+      "title": "IL-6/STAT3 signaling promotes cardiac dysfunction by upregulating FUNDC1-Dependent Mitochondria-Associated Endoplasmic reticulum membranes formation in Sepsis mice",
+      "authors": [
+        "T Jiang",
+        "D Peng",
+        "W Shi",
+        "J Guo",
+        "S Huo",
+        "L Men"
+      ]
+    },
+    {
+      "title": "Lv H, Yang H, Jiang C, Shi J, Chen R-A, Huang Q et al. Microgravity and immune cells. J Royal Soc Interface. 2023;20(199).",
+      "authors": []
+    },
+    {
+      "title": "Long-term human spaceflight and inflammaging: does it promote aging?",
+      "authors": [
+        "M Capri",
+        "M Conte",
+        "E Ciurca",
+        "C Pirazzini",
+        "P Garagnani",
+        "A Santoro"
+      ]
+    },
+    {
+      "title": "NF-κB pathway, and their potential Spaceflight-Related health consequences",
+      "authors": [
+        "Y Zhang",
+        "M Moreno-Villanueva",
+        "S Krieger",
+        "G Ramesh",
+        "S Neelam",
+        "H Wu",
+        "Transcriptomics"
+      ]
+    },
+    {
+      "title": "Spaceflight impairs antigen-specific tolerance induction in vivo and increases inflammatory cytokines",
+      "authors": [
+        "TT Chang",
+        "SM Spurlock",
+        "TL Candelario",
+        "SM Grenon",
+        "M Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "The physiological role of cardiac cytoskeleton and its alterations in heart failure",
+      "authors": [
+        "V Sequeira",
+        "LL Nijenkamp",
+        "JA Regan",
+        "J van der Velden"
+      ]
+    },
+    {
+      "title": "[The extracellular matrix and cytoskeleton of the myocardium in cardiac inflammatory reaction]",
+      "authors": [
+        "A Wilke",
+        "U Schonian",
+        "M Herzum",
+        "C Hengstenberg",
+        "G Hufnagel",
+        "CG Brilla"
+      ]
+    },
+    {
+      "title": "Role of inflammation in cardiac remodeling after acute myocardial infarction",
+      "authors": [
+        "FA Fonseca",
+        "MC Izar"
+      ]
+    },
+    {
+      "title": "HGF/Met Axis in heart function and cardioprotection",
+      "authors": [
+        "S Gallo",
+        "V Sala",
+        "S Gatti",
+        "T Crepaldi"
+      ]
+    },
+    {
+      "title": "Weaver K, Skouta R. The selenoprotein glutathione peroxidase 4: from molecular mechanisms to novel therapeutic opportunities. Biomedicines. 2022;10(4).",
+      "authors": []
+    },
+    {
+      "title": "Yu Y, Yan Y, Niu F, Wang Y, Chen X, Su G et al. Ferroptosis: a cell death connecting oxidative stress, inflammation and cardiovascular diseases. Cell Death Discovery. 2021;7(1).",
+      "authors": []
+    },
+    {
+      "title": "Gpx4 protects mitochondrial ATP generation against oxidative damage",
+      "authors": [
+        "H Liang",
+        "H Van Remmen",
+        "V Frohlich",
+        "J Lechleiter",
+        "A Richardson",
+        "Q Ran"
+      ]
+    },
+    {
+      "title": "TRPM2 protects against tissue damage following oxidative stress and ischaemia-reperfusion",
+      "authors": [
+        "BA Miller",
+        "JY Cheung"
+      ]
+    },
+    {
+      "title": "TRPM2 channels protect against cardiac ischemia-reperfusion injury: role of mitochondria",
+      "authors": [
+        "BA Miller",
+        "NE Hoffman",
+        "S Merali",
+        "XQ Zhang",
+        "J Wang",
+        "S Rajan"
+      ]
+    },
+    {
+      "title": "Cardiac myocyte cell cycle control in development, disease, and regeneration",
+      "authors": [
+        "P Ahuja",
+        "P Sdek",
+        "WR MacLellan"
+      ]
+    },
+    {
+      "title": "Binucleation of cardiomyocytes: the transition from a proliferative to a terminally differentiated state",
+      "authors": [
+        "AN Paradis",
+        "MS Gay",
+        "L Zhang"
+      ]
+    }
+  ],
+  "original_title": "Immunization induces inflammation in the mouse heart during spaceflight.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/415e/11892206/b21d2c4af106/12864_2025_11426_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/415e/11892206/4c85f270eb0c/12864_2025_11426_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/415e/11892206/6e5a43a742bf/12864_2025_11426_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/415e/11892206/3dea59e29ef3/12864_2025_11426_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/415e/11892206/c1a047dccdb2/12864_2025_11426_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/415e/11892206/0ebcde58f30f/12864_2025_11426_Fig6_HTML.jpg"
+  ]
+}

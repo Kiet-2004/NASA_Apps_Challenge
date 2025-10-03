@@ -1,0 +1,198 @@
+{
+  "pmcid": "PMC7303416",
+  "title": "Draft Genome Sequences of Sphingomonas Species Associated with the International Space Station",
+  "abstract": "The draft genome sequences of three Sphingomonas strains isolated from the International Space Station (ISS) were assembled. These genomic sequences will help in understanding the influence of microgravity conditions on their potential bioactive compound production and other important characteristics compared to their Earth counterparts.\n\nABSTRACT\n\nThe draft genome sequences of three Sphingomonas strains isolated from the International Space Station (ISS) were assembled. These genomic sequences will help in understanding the influence of microgravity conditions on their potential bioactive compound production and other important characteristics compared to their Earth counterparts.",
+  "introduction": "ANNOUNCEMENT\n\nSphingomonas species have been isolated from a variety of habitats, and some species possess the unique capability to degrade pollutants. Some of the species are known for biofilm formation and eventually corrode the metal surfaces, production of bioactive compounds, and plant-pathogenic characteristics. Sphingomonas paucimobilis has been reported to be associated with infections in immunocompromised patients.\n\nIn an ongoing microbial observatory experiment, several microbial strains were isolated from the International Space Station (ISS). The generation of whole-genome sequences (WGS) to enable the comparative genomic characterization of ISS Sphingomonas species with their Earth counterparts would lead to the identification of the genetic determinants potentially responsible for their important characteristics due to microgravity and elevated radiation conditions.\n\nThe WGS belonging to two Sphingomonas sanguinis strains and one S. paucimobilis isolate were assembled into scaffolds. Sample collection, processing, and presumptive identification of these isolates based on 16S rRNA gene sequences were published elsewhere. Briefly, samples collected from the ISS were processed, and 100 μl of each dilution was plated on Reasoner’s 2A (R2A) agar. The plates were incubated at 25°C for 7 days. The single colony obtained was restreaked onto R2A plates and incubated at 25°C for 3 days. A biomass of approximately 1 μg wet weight was collected for each strain and pooled for DNA extraction. Total nucleic acid extraction was carried out using a ZymoBIOMICS 96 MagBead DNA kit (lysis tubes; Zymo Research, USA) after bead beating using a Bertin Precellys instrument. This was followed by library preparation using the Nextera Flex protocol as per Illumina document number 1000000025416 v07. The initial amount of DNA for library preparation was quantified, and depending on the input DNA concentration, 5 to 12 cycles of PCR were carried out to normalize the output. The amplified genomic DNA fragments were indexed and pooled in 384-plex configuration. Whole-genome shotgun sequencing was performed on a NovaSeq 6000 S4 flow cell in paired-end (PE) 2 × 150-bp format. The data were filtered with NGS QC Toolkit v2.3 for high-quality (HQ) vector- and adaptor-free reads for genome assembly (cutoff read length for HQ, 80%; cutoff quality score, 20). The number of filtered reads obtained (Table 1) was used for assembly with the SPAdes v3.14.0 genome assembler (k-mer size, 32 to 72 bases). The genome was annotated using the NCBI Prokaryotic Genome Annotation Pipeline (PGAP) v4.11. Default parameters were used for all software except where otherwise noted.\n\nThe details of the final assembly are shown in Table 1. The phylogenetic affiliations of the strains isolated in this study were confirmed based on the similarity of the 16S rRNA gene sequences extracted from the genomes and the average nucleotide identity. The average nucleotide identities (ANIs) of the queried genomes were calculated using EzBioCloud with their corresponding type strains.\n\nData availability.\n\nThe WGS and raw data are deposited under BioProject accession number PRJNA629834. The WGS accession numbers are listed in Table 1. The WGS was also deposited at GeneLab (GeneLab data set GLDS-298, https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-298/). The version described in this paper is the first version.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "Occurrence and phylogenetic diversity of Sphingomonas strains in soils contaminated with polycyclic aromatic hydrocarbons",
+      "authors": [
+        "NMEJ Leys",
+        "A Ryngaert",
+        "L Bastiaens",
+        "W Verstraete",
+        "EM Top",
+        "D Springael"
+      ]
+    },
+    {
+      "title": "Culture dependent and independent analyses of bacterial communities involved in copper plumbing corrosion",
+      "authors": [
+        "JP Pavissich",
+        "IT Vargas",
+        "B Gonzalez",
+        "PA Pasten",
+        "GE Pizarro"
+      ]
+    },
+    {
+      "title": "Complete genome sequencing and analysis of endophytic Sphingomonas sp. LK11 and its potential in plant growth",
+      "authors": [
+        "S Asaf",
+        "AL Khan",
+        "MA Khan",
+        "A Al-Harrasi",
+        "I-J Lee"
+      ]
+    },
+    {
+      "title": "First report of bacterial dry rot of mango caused by Sphingomonas sanguinis in China",
+      "authors": [
+        "F Liu",
+        "R-L Zhan",
+        "Z-Q He"
+      ]
+    },
+    {
+      "title": "Sphingomonas paucimobilis: a rare infectious agent found in cerebrospinal fluid",
+      "authors": [
+        "T Göker",
+        "RZ Aşık",
+        "MB Yılmaz",
+        "İ Çelik",
+        "A Tekiner"
+      ]
+    },
+    {
+      "title": "A lethal case of Sphingomonas paucimobilis bacteremia in an immunocompromised patient",
+      "authors": [
+        "NP Hardjo Lugito",
+        "Cucunawangsih",
+        "A Kurniawan"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "NGS QC Toolkit: a toolkit for quality control of next generation sequencing data",
+      "authors": [
+        "RK Patel",
+        "M Jain"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "RefSeq: an update on prokaryotic genome annotation and curation",
+      "authors": [
+        "DH Haft",
+        "M DiCuccio",
+        "M Gwadz",
+        "F Lu",
+        "GH Marchler",
+        "JS Song",
+        "N Thanki",
+        "RA Yamashita",
+        "C Zheng",
+        "F Thibaud-Nissen",
+        "LY Geer",
+        "A Marchler-Bauer",
+        "A Badretdin",
+        "KD Pruitt",
+        "V Brover",
+        "V Chetvernin",
+        "K O'Neill",
+        "W Li",
+        "F Chitsaz",
+        "MK Derbyshire",
+        "NR Gonzales"
+      ]
+    },
+    {
+      "title": "NCBI Prokaryotic Genome Annotation Pipeline",
+      "authors": [
+        "T Tatusova",
+        "M DiCuccio",
+        "A Badretdin",
+        "V Chetvernin",
+        "EP Nawrocki",
+        "L Zaslavsky",
+        "A Lomsadze",
+        "KD Pruitt",
+        "M Borodovsky",
+        "J Ostell"
+      ]
+    },
+    {
+      "title": "Introducing EzTaxon-e: a prokaryotic 16S rRNA gene sequence database with phylotypes that represent uncultured species",
+      "authors": [
+        "O-S Kim",
+        "Y-J Cho",
+        "S Won",
+        "J Chun",
+        "K Lee",
+        "S-H Yoon",
+        "M Kim",
+        "H Na",
+        "S-C Park",
+        "YS Jeon",
+        "J-H Lee",
+        "H Yi"
+      ]
+    },
+    {
+      "title": "DNA–DNA hybridization values and their relationship to whole-genome sequence similarities",
+      "authors": [
+        "J Goris",
+        "KT Konstantinidis",
+        "JA Klappenbach",
+        "T Coenye",
+        "P Vandamme",
+        "JM Tiedje"
+      ]
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": [
+        "S-H Yoon",
+        "S Ha",
+        "J Lim",
+        "S Kwon",
+        "J Chun"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Sphingomonas Species Associated with the International Space Station"
+}

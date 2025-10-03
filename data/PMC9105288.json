@@ -1,0 +1,710 @@
+{
+  "pmcid": "PMC9105288",
+  "title": "Transcription Profile of Auxin Related Genes during Positively Gravitropic Hypocotyl Curvature of Brassica rapa",
+  "abstract": "Unlike typical negative gravitropic curvature, young hypocotyls of Brassica rapa and other dicots exhibit positive gravitropism. This positive curvature occurs at the base of the hypocotyl and is followed by the typical negative gravity-induced curvature. We investigated the role of auxin in both positive and negative hypocotyl curvature by examining the transcription of PIN1, PIN3, IAA5 and ARG1 in curving tissue. We compared tissue extraction of the convex and concave flank with Solid Phase Gene Extraction (SPGE). Based on Ubiquitin1 (UBQ1) as a reference gene, the log (2) fold change of all examined genes was determined. Transcription of the examined genes varied during the graviresponse suggesting that these genes affect differential elongation. The transcription of all genes was upregulated in the lower flank and downregulated in the upper flank during the initial downward curving period. After 48 h, the transcription profile reversed, suggesting that the ensuing negative gravicurvature is controlled by the same genes as the positive gravicurvature. High-spatial resolution profiling using SPGE revealed that the transcription profile of the examined genes was spatially distinct within the curving tissue. The comparison of the hypocotyl transcription profile with the root tip indicated that the tip tissue is a suitable reference for curving hypocotyls and that root and hypocotyl curvature are controlled by the same physiological processes.",
+  "introduction": "1. Introduction\n\nGravitropism is defined as a directional growth response of plants to gravity. This force affects the redistribution of statoliths (starch-filled amyloplasts) in sensory cells and determines the positioning of the plant axis during and after germination. Seedling roots grow towards gravity (aka positive gravitropism) and stems exhibit negative gravitropism and grow in the opposite direction. Although hypocotyls eventually respond as negatively gravitropic, we have previously shown that young hypocotyls of Brassica rapa and other dicotyledonous plants exhibit positive gravitropism. This reorientation is independent of the root cap and amplifies the root graviresponse. The mechanism of this atypical, early curvature has not yet been studied. Based on the hypothesis that this curvature is auxin dependent, we investigated the transcription profile of auxin-responsive genes in the curving hypocotyl tissue.\n\nThe phytohormone indole-3-acetic acid (IAA) is the main growth regulator in plants that affects differential elongation and is the main agent in complex processes that includes transport, and interaction with other phytohormones. Auxin effects depend on metabolic activity, cytoskeletal interaction, ions, and light. Auxin regulates primary and lateral root growth, branching, and differentiation. The coordinated response to the integrative effect of these factors determines the rate and degree of curvature. Therefore, differential growth responses depend on auxin-mediated processes and gene expression.\n\nAuxin is synthesized predominantly in meristematic tissue such as shoot and root apices, developing seeds and young leaves and transported away from the site of synthesis. Auxin originating from the shoot apex is basipetally (rootward) transported to the stem tissue and basal leaves. In roots, auxin moves through the stele towards the root apex and is redistributed such that basipetal, shootward, transport takes place from the root tip through cortical tissue. The bi-directional auxin transport in roots forms the basis of the “reverse fountain model”. The gravisensitive re-distribution of auxin in roots is initiated by amyloplast relocation and depends on PIN proteins. These proteins determine the direction of IAA flow based on their localization in the plasma membrane. PIN proteins represent a family of proteins that are expressed in specific tissues.\n\nPIN1 is typically present in xylem associated cells in shoots and roots and is essential for efflux of the auxin anion from vasculature to root apices via protophloem cells. In roots, PIN3, 4, and 7 are localized on the plasma membrane of different tiers of columella cells; they direct the auxin flow from columella cells to the root cortex. PIN3 and PIN7 move to the plasma membrane along the lower side of columella cells in horizontally reoriented roots, which results in asymmetrical auxin transport. PIN4 in the quiescent center mediates auxin efflux towards the columella cells. The auxin sink in the root cap contributes to the asymmetric auxin distribution in reoriented roots. Polar localization of PIN2 in the plasma membrane of the lateral root cap and epidermal cells directs the auxin flow toward the cortical and epidermal cells. Any auxin asymmetry leads to differential growth in the elongation zone.\n\nIn hypocotyls, sedimenting amyloplasts are found in the endodermis, which acts as gravisensing layer in dicots and is essential for the graviresponse. PIN3 is expressed in the endodermis and localizes laterally after two minutes of gravistimulation. PIN3 localization is auxin dependent and a mutation in the PIN3 gene affects differential growth. Hence, PIN3 is an important factor for shoot graviresponse. The PIN3 homologs PIN4 and PIN7 are not expressed in the shoot endodermis and their mutants do not affect the shoot graviresponse. Along with PIN proteins, Altered Response to Gravity (ARG1) is required for the localization of PIN3 during the early stages of hypocotyl graviresponse. A mutation in ARG1 affects early gravisignaling in roots and hypocotyls but can be corrected by the expression of ARG1 in the endodermis of hypocotyls and root caps, which implies that it functions in statocytes. PIN1 re-localization alters the lateral redistribution of auxin and affects the phototropic, and gravitropic response and PIN1 mutants show reduced polar auxin transport (PAT) in Arabidopsis thaliana inflorescence axes. Another Auxin Response Element promotes IAA5, a member of Aux/IAA gene family, which has been identified as one of the early and primary response genes that are governed by auxin.\n\nBased on these auxin networks, we chose to compare the transcription levels of PIN1, PIN3, IAA5 and ARG in vertically and horizontally reoriented hypocotyls of Brassica rapa. Since Ubiquitin (UBQ) is highly expressed and used as a reference gene, its transcription level was used as a reference to assess changes in the transcription of auxin responsive genes.\n\nDespite many studies on PAT in hypocotyls and on effects of auxin on gene expression during graviresponse, spatio-temporal differences in gene regulation during hypocotyl curvature have not been studied. Typically, total RNA is extracted by pooling the samples from the same region from several seedlings, which prevents the assessment of gene transcription at precise locations in the tissue/region under consideration. High spatial resolution is desirable as size, age and development is likely to affect transcription and expression profiles. In addition, auxin-induced transcription is likely to follow a temporal profile that cannot be assessed by destructive sampling methods. We used Solid Phase Gene Extraction (SPGE), which relies on mRNA binding to functionalized probes and allows for the repeated sampling of tissue. The temporal and spatial changes of transcription profiles during the initial hypocotyl curvature indicate an auxin-based regulation of positive and negative hypocotyl curvature.",
+  "methods": "4. Materials and Methods\n\n4.1. Plant Material\n\nSeeds of Brassica rapa vs. rapa were germinated at 25 °C in darkness between germination paper that was positioned on top of five mm thick floral foam to avoid thigmotropic stimulation of roots upon emergence. Seedlings with an average root length of 10 mm were used for experimentation 42 h after imbibition. All experiments were performed in moist petri dishes.\n\n4.2. Gravistimulation and Tissue Sampling\n\nVertically grown and positioned seedlings were reoriented such that the entire seedling was positioned horizontally. Before reorientation and 4 and 11 h after reorientation, the hypocotyl was dissected into two parts (left/right for vertical controls and upper/lower for horizontally oriented seedlings). Samples obtained after 48 h did not include tissue samples as the tissue size after 48 h of additional growth exceeded the extraction capacity. The apical two mm of the root tip were removed using a scalpel and used as additional reference tissue. All tissue samples were immediately submersed in liquid nitrogen.\n\n4.3. RNA Extraction\n\nTotal RNA extraction of tissue (hypocotyl and 2 mm long root tip) was performed using the Sigma Spectrum™ Plant Total RNA Kit. For each time point three biological replicates with material from 20 seedlings each were analyzed. The samples were homogenized in a microfuge tube for one min in lysis solution followed by vortexing, then heated (50 °C for 5 min in a water bath) and centrifuged (16,000× g, 4 min). The supernatant was transferred into a microfuge tube containing a filter column and centrifuged (16,000× g, 90 s). The filtrate was transferred to a binding column and centrifuged at 16,000× g for 90 s. The flow through, as well as the solution from three successive wash steps (500 µL wash buffer each), were discarded. The filter column was centrifuged to remove any remaining solution before the elution buffer was added for 1 min, followed by centrifugation (16,000× g for 90 s). The eluant contained total RNA and was immediately put on ice. The RNA was quantified using a DeNovix DS-11 spectrophotometer. The total RNA was diluted with deionized DEPC water to a concentration of 100 ng/µL.\n\n4.4. SPGE Probe Preparation mRNA Extraction\n\nSolid Phase Gene Extraction used #6 acupuncture needles (SEIRIN, Kyoto, Japan). Batches of 40 needles were sonicated sequentially in hexane, acetone, and ethanol for 15 min each, followed by air drying at 80 °C for 15 min. The needles were functionalized by incubation in a mixture of 0.25 mL (3-glycodoxypropyl) trimethoxy silane (3GTMO, SPI-Chem, West Chester, PA, USA) in 0.75 mL xylene and 10 µL diisopropylethylamine in a sealed amber glass vial at 80 °C overnight. The needles were cooled, washed thrice with ethyl acetate, air dried for 10 min and incubated in 1 µM NH2-oligo (dT)15 nucleotides in 0.1 M KOH at 37 °C for 6 h (four needles per 20 µL solution in closed PCR tubes). The functionalized needles were rinsed thrice with deionized water (50 °C) for 5 min each, followed by drying at room temperature. Functionalized needles were inserted for one minute into the hypocotyl and the root tip (Figure 1) four, 11 and 48 h after reorientation. The probes were manually inserted in about 10 s intervals about one mm deep into the cortical tissue in the sequence shown in Figure 1. Hypocotyls were discarded if the probes were placed inaccurately. After 11 h, the curvature reached about 45 degrees, which resulted in stacked arrangement of the loop ends of the probes. Root tips were sampled by inserting the needle into the approximate area of the quiescent center. This approach was chosen as this tissue is not differentiated. For each time point, needles from three different seedlings were combined according to their position and considered one biological sample. Three biological samples (i.e., nine seedlings) were measured.\n\n4.5. Reverse Transcription\n\nTwo µL of oligo-dTs and RNA (10 µL of total RNA or three SPGE probes) were added to a PCR tube. The tubes were heated for five min in a Thermocycler (Hybaid, PCR Express) to 80 °C. A master-mix was prepared that contained 4.2 µL deionized water for total RNA or 16.2 µL for SPGE samples. All samples contained 2 µL 10 X buffer, 0.8 µL 25 mM dNTP and 1 µL reverse transcriptase (final concentrations: 1 mM dNTP, 1X reverse transcription buffer, and 50 U MultiscribeTM reverse transcriptase (Applied Biosystem high-capacity cDNA kit). This master-mix was added to RNA/oligo dT mix (eight µL for total RNA and 20 µL for SPGE) and incubated at 25 °C for 10 min, then at 37 °C for 2 h, and deactivated at 85 °C for 5 min. cDNA was quantified using a DeNovix DS–11 spectrophotometer.\n\n4.6. Transcript Quantification Using qPCR\n\ncDNA was diluted with diethyl pyrocarbonate (DEPC) treated water to a concentration of 250 ng/µL and stored at −20 °C. The transcripts of UBQ1, PIN1, PIN3, IAA5, and ARG1 were measured using qPCR with primers and their efficiencies listed in Table 1. Each sample consisted of three biological and three technical replicates each. Each 10 µL reaction contained 5 µL 2X SYBR green PCR mastermix, 1 µL primer mix (0.5 µL forward +0.5 µL reverse primer, 250 nM final concentration) and 4 µL of 250 ng/µL cDNA. qPCR was started at 95 °C and then cycled 40 times between 60 °C (60 s) and 95 °C (15 s) in a StepOneTM qPCR system (Thermo Fisher Scientific, Waltham, MA 02454, USA). All qPCR products were subjected to melt analysis.\n\n4.7. Analyses\n\nThe fold-changes in transcripts for different times of reorientation were referenced to UBQ using the ΔΔ Cq method. Log-transformed data avoid skewness of small values and results in symmetrical representation of up- and downregulation of transcription. The ratios of Cq values of UBQ1 obtained from bottom vs. top flank or for SPGE needle 1, 2, 3 (=top or left) and needle 4, 5, 6 (=bottom or right) were calculated for each condition and used as reference. All Cq values, ratios, or log (2) data transformation was performed in Microsoft Excel and statistically analyzed using the ANOVA function (Excel 2019).",
+  "results": "2. Results\n\n2.1. Time Course of Curvature\n\nAs reported earlier, dicotyledonous plants such as Brassica, Radish and Flax show a bi-phasic and combined graviresponse of the root-shoot axis. The time course of curvature involves a transient curvature of the root tip. Upon straightening of the tip, the hypocotyl base begins to respond as positively gravitropic. The graviresponse is completed after about 20 h. The sampling intervals were chosen to coincide with the onset of hypocotyl curvature (four hours after reorientation), the midpoint of curvature (45-degree curvature of the hypocotyl; 11 h) and vertically oriented seedlings (48 h after the initial reorientation).\n\n2.2. Nucleic Acid Extraction, Yield, and Reference\n\nRNA extraction of tissue was performed along the upper and lower flank of the basal hypocotyl from tissue extraction or by Solid Phase Gene Extraction (Figure 1).\n\nThe average cDNA yield was based on the amount of cDNA after reverse transcription. The tissue extraction (258 ± 16 µg) was significantly higher (p < 10−10) than the yield from SPGE probes (0.654 ± 0.024 µg). Nonetheless, reliable qPCR experiments of SPGE samples were possible. Although UBQ1 transcription was not steady (Figure 2), the changes were small in comparison to auxin-sensitive genes and UBQ1 transcription between the upper and lower flank remained similar (p = 0.75) throughout the experimental period (Figure 3); therefore, UBQ1 is an acceptable reference gene.\n\n2.3. Transcription in the Hypocotyl Base Tissue\n\nThe transcription of auxin related genes PIN1, PIN3, IAA5 and ARG1 were similar on the left and right flanks of vertically oriented hypocotyls (Figure 4) but changed after horizontal reorientation. PIN3, IAA5 and ARG1 were downregulated along the top flank but upregulated in the bottom tissue. PIN1 transcription did not change during the first four hours but after 11 h of reorientation increased in the lower flank and decreased along the upper flank. At that time, all genes showed maximal changes in transcription activities (Figure 5).\n\nThe transcription analysis by SPGE showed similar profiles as the tissue data. The downregulation of PIN1, PIN3, IAA5 and ARG1 along the top coincided with upregulation along the lower flank (Figure 6) four and 11 h after reorientation. After 48 h, when the hypocotyl approaches vertical position, this trend of transcription expression was reversed, i.e., transcription was upregulated in the upper flank and downregulated in the lower flanks.\n\nSPGE sampling showed the largest difference in transcription at the point of the maximum curvature (probe #2 and #5, Figure 1) compared to the adjacent positions after four and 11 h. The ratio of the fold change over time of all genes at position five vs. two varied by gene and showed the smallest signal after 48 h (Figure 6). Considering the transcription for probe two and five (the points of maximal curvature on the convex and concave flank, respectively, for different time points showed that after four hours, the ratio for PIN1 and ARG1 was similar. IAA5 transcription was twice as high at the bottom (#5) than top (#2) position. At 11 h, PIN1, PIN3, and ARG1 showed similar values for the convex and concave sites. The polarity of IAA5 was less, but still reached about five times the value of the top flank. After 48 h, the values were reversed and the polarity for PIN1, PIN3, and ARG1 between the top and bottom side was about six to eight-fold; the polarity for IAA5 was weaker. These data show that after reversal of the curvature the transcription of the examined genes reached a comparable but reversed polarity as after 11 h.\n\n2.4. Tissue and SPGE Extraction\n\nThe average of the transcription values of all three SPGE probes on either flank was compared with corresponding tissue data of the lower and upper flank. The SPGE values for all examined genes were similar or slightly higher than the tissue values. The overall profile for all tested genes was comparable for both methods, i.e., upregulation along the bottom flank and downregulation in the upper side until 11 h after reorientation (Figure 7). Consistently, this trend was reversed after 48 h. The transcription of all genes showed the greatest variability 11 h after reorientation, consistent with the onset of curvature reversal from positive to negative.\n\n2.5. Comparison of the Hypocotyl and Root Tip\n\nAs illustrated, the hypocotyl responds to gravity in sequentially positive and then negative curvature. In contrast, the root tip always exhibits positive gravicurvature. Therefore, a comparison of both tissues shows the extent and magnitude of synchronous changes in the transcription of relevant genes.\n\nARG1 showed the highest transcription value compared to the other examined genes (Figure 8). The transcription of all genes increased strongly at four hours followed by a gradual increase at 11 h after reorientation. SPGE showed upregulation for both PIN1 and ARG1 at all times after reorientation. PIN3 transcription remained constant until four hours after reorientation, followed by continued but reduced upregulation. Although IAA5 increased in the tissue (red line) this gene remained unchanged for SPGE data. Interestingly, the magnitude of upregulation for all genes at 11 h after SPGE extraction was in the range of the earlier tissue data points, except for ARG1. Therefore, a drastic difference in values was observed. Similar to the root tip, we considered the average of the hypocotyl tissue (i.e., the average of top and bottom flanks) and found that the transcription levels of all genes were similar (p = 0.25) for the hypocotyl and root tip regardless of orientation or time after reorientation.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Brassica rapa",
+    "Solid Phase Gene Extraction (SPGE)",
+    "germination",
+    "gravitropism",
+    "hypocotyl",
+    "root",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Augmentation of root gravitropism by hypocotyl curvature in Brassica rapa seedlings",
+      "authors": [
+        "C. Ajala",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "Effects of cations on hormone transport in primary roots of Zea mays",
+      "authors": [
+        "K.H. Hasenstein",
+        "M.L. Evans"
+      ]
+    },
+    {
+      "title": "Root gravitropism is regulated by a transient lateral auxin gradient controlled by a tipping-point mechanism",
+      "authors": [
+        "L.R. Band",
+        "D.M. Wells",
+        "A. Larrieu",
+        "J.Y. Sun",
+        "A.M. Middleton",
+        "A.P. French",
+        "G. Brunoud",
+        "E.M. Sato",
+        "M.H. Wilson",
+        "B. Peret"
+      ]
+    },
+    {
+      "title": "Cytokinins influence root gravitropism via differential regulation of auxin transporter expression and localization in Arabidopsis",
+      "authors": [
+        "M. Pernisova",
+        "T. Prat",
+        "P. Grones",
+        "D. Harustiakova",
+        "M. Matonohova",
+        "L. Spichal",
+        "T. Nodzynski",
+        "J. Friml",
+        "J. Hejatko"
+      ]
+    },
+    {
+      "title": "Asymmetric gibberellin signaling regulates vacuolar trafficking of PIN auxin transporters during root gravitropism",
+      "authors": [
+        "C. Lofke",
+        "M. Zwiewka",
+        "I. Heilmann",
+        "M.C. Van Montagu",
+        "T. Teichmann",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Gibberellins and Gravitopism in maize shoots. Endogenous gibberellin-like substances and movementand metabolism of [3H]gibberellin A20",
+      "authors": [
+        "S. Rood",
+        "P. Kaufman",
+        "H. Abe",
+        "R. Pharis"
+      ]
+    },
+    {
+      "title": "PINOID kinase regulates root gravitropism through modulation of PIN2-dependent basipetal auxin transport in Arabidopsis",
+      "authors": [
+        "P. Sukumar",
+        "K.S. Edwards",
+        "A. Rahman",
+        "A. Delong",
+        "G.K. Muday"
+      ]
+    },
+    {
+      "title": "Enhanced gravitropism of roots with a disrupted cap actin cytoskeleton",
+      "authors": [
+        "G.C. Hou",
+        "D.R. Mohamalawari",
+        "E.B. Blancaflor"
+      ]
+    },
+    {
+      "title": "The Cytoskeleton and Gravitropism in Higher Plants",
+      "authors": [
+        "E.B. Blancaflor"
+      ]
+    },
+    {
+      "title": "Calcium movements and the cellular basis of gravitropism",
+      "authors": [
+        "S. Roux",
+        "R. Biro",
+        "C. Hale"
+      ]
+    },
+    {
+      "title": "Potassium Stimulation of IAA Transport Mediated by the Arabidopsis Importer AUX1 Investigated in a Heterologous Yeast System",
+      "authors": [
+        "L.K. Huang",
+        "Y.Y. Liao",
+        "W.H. Lin",
+        "S.M. Lin",
+        "T.Y. Liu",
+        "C.H. Lee",
+        "R.L. Pan"
+      ]
+    },
+    {
+      "title": "The Arabidopsis R-SNARE VAMP721 Interacts with KAT1 and KC1 K+ Channels to Moderate K+ Current at the Plasma Membrane",
+      "authors": [
+        "B. Zhang",
+        "R. Karnik",
+        "Y.Z. Wang",
+        "N. Wallmeroth",
+        "M.R. Blatt",
+        "C. Grefen"
+      ]
+    },
+    {
+      "title": "Comparative effectiveness of metal-ions in inducing curvature of primary roots of Zea mays",
+      "authors": [
+        "K.H. Hasenstein",
+        "M.L. Evans",
+        "C.L. Stinemetz",
+        "R. Moore",
+        "W.M. Fondren",
+        "E.C. Koon",
+        "M.A. Higby",
+        "A.J.M. Smucker"
+      ]
+    },
+    {
+      "title": "Phytochrome interacting factors 4 and 5 control seedling growth in changing light conditions by directly controlling auxin signaling",
+      "authors": [
+        "P. Hornitschek",
+        "M.V. Kohnen",
+        "S. Lorrain",
+        "J. Rougemont",
+        "K. Ljung",
+        "I. Lopez-Vidriero",
+        "J.M. Franco-Zorrilla",
+        "R. Solano",
+        "M. Trevisan",
+        "S. Pradervand"
+      ]
+    },
+    {
+      "title": "Blue light regulates an auxin-induced K+-channel gene in the maize coleoptile",
+      "authors": [
+        "I. Fuchs",
+        "K. Philippar",
+        "K. Ljung",
+        "G. Sandberg",
+        "R. Hedrich"
+      ]
+    },
+    {
+      "title": "A UV-light activated cinnamic acid isomer regulates plant growth and gravitropism via an ethylene receptor-independent pathway",
+      "authors": [
+        "X.X. Yang",
+        "H.W. Choi",
+        "N. Li"
+      ]
+    },
+    {
+      "title": "Light and gravity signals synergize in modulating plant development",
+      "authors": [
+        "J.P. Vandenbrink",
+        "J.Z. Kiss",
+        "R. Herranz",
+        "F.J. Medina"
+      ]
+    },
+    {
+      "title": "Red light effects on blue light-based phototropism in roots of Arabidopsis thaliana",
+      "authors": [
+        "T.J. Sindelar",
+        "K.D.L. Millar",
+        "J.Z. Kiss"
+      ]
+    },
+    {
+      "title": "Initiation and elongation of lateral roots in Lactuca sativa",
+      "authors": [
+        "N.G. Zhang",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "An Auxin Transport Mechanism Restricts Positive Orthogravitropism in Lateral Roots",
+      "authors": [
+        "M.R. Rosquete",
+        "D. von Wangenheim",
+        "P. Marhavy",
+        "E. Barbez",
+        "E.H.K. Stelzer",
+        "E. Benkova",
+        "A. Maizel",
+        "J. Kleine-Vehn"
+      ]
+    },
+    {
+      "title": "Regulation of shoot branching by auxin",
+      "authors": [
+        "O. Leyser"
+      ]
+    },
+    {
+      "title": "Auxin regulates distal stem cell differentiation in Arabidopsis roots",
+      "authors": [
+        "Z. Ding",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Sites and regulation of auxin biosynthesis in Arabidopsis roots",
+      "authors": [
+        "K. Ljung",
+        "A.K. Hull",
+        "J. Celenza",
+        "M. Yamada",
+        "M. Estelle",
+        "J. Nonmanly",
+        "G. Sandberg"
+      ]
+    },
+    {
+      "title": "Auxin biosynthesis during seed germination in Phaseolus vulgaris",
+      "authors": [
+        "K. Bialek",
+        "L. Michalczuk",
+        "J.D. Cohen"
+      ]
+    },
+    {
+      "title": "Gradual shifts in sites of free-auxin production during leaf-primordium development and their role in vascular differentiation and leaf morphogenesis in Arabidopsis",
+      "authors": [
+        "R. Aloni",
+        "K. Schwalm",
+        "M. Langhans",
+        "C.I. Ullrich"
+      ]
+    },
+    {
+      "title": "Polar PIN Localization Directs Auxin Flow in Plants",
+      "authors": [
+        "J. Wisniewska",
+        "J. Xu",
+        "D. Seifertova",
+        "P.B. Brewer",
+        "K. Ruzicka",
+        "I. Blilou",
+        "D. Rouquie",
+        "E. Benkova",
+        "B. Scheres",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Polar auxin transport and asymmetric auxin distribution",
+      "authors": [
+        "M. Michniewicz",
+        "P.B. Brewer",
+        "J.I. Friml"
+      ]
+    },
+    {
+      "title": "Polar Auxin Transport—Old Questions and New Concepts?",
+      "authors": [
+        "J. Friml",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "Requirement of the auxin polar transport system in early stages of Arabidopsis floral bud formation",
+      "authors": [
+        "K. Okada",
+        "J. Ueda",
+        "M. Komaki",
+        "C. Bell",
+        "Y. Shimura"
+      ]
+    },
+    {
+      "title": "Multiple roles for membrane-associated protein trafficking and signaling in gravitropisnn",
+      "authors": [
+        "A.K. Strohm",
+        "K.L. Baldwin",
+        "P.H. Masson"
+      ]
+    },
+    {
+      "title": "Gravitropism: Lateral Thinking in Auxin Transport",
+      "authors": [
+        "I. Moore"
+      ]
+    },
+    {
+      "title": "Plant gravitropism. Unraveling the ups and downs of a complex process",
+      "authors": [
+        "E.B. Blancaflor",
+        "P.H. Masson"
+      ]
+    },
+    {
+      "title": "Atpin4 Mediates Sink-Driven Auxin Gradients and Root Patterning in Arabidopsis",
+      "authors": [
+        "J. Friml",
+        "E. Benkova",
+        "I. Blilou",
+        "J. Wisniewska",
+        "T. Hamann",
+        "K. Ljung",
+        "S. Woody",
+        "G. Sandberg",
+        "B. Scheres",
+        "G. Jurgens"
+      ]
+    },
+    {
+      "title": "Gravity-regulated differential auxin transport from columella to lateral root cap cells",
+      "authors": [
+        "I. Ottenschlager",
+        "P. Wolff",
+        "C. Wolverton",
+        "R.P. Bhalerao",
+        "G. Sandberg",
+        "H. Ishikawa",
+        "M. Evans",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "Gravitropism of Arabidopsis thaliana Roots Requires the Polarization of PIN2 toward the Root Tip in Meristematic Cortical Cells",
+      "authors": [
+        "A. Rahman",
+        "M. Takahashi",
+        "K. Shibasaki",
+        "S. Wu",
+        "T. Inaba",
+        "S. Tsurumi",
+        "T.I. Baskin"
+      ]
+    },
+    {
+      "title": "Gravitropism in Higher Plants",
+      "authors": [
+        "R. Chen",
+        "E. Rosen",
+        "P.H. Masson"
+      ]
+    },
+    {
+      "title": "The structure of the stem endodermis in etiolated pea seedlings",
+      "authors": [
+        "F. Sack"
+      ]
+    },
+    {
+      "title": "Plant gravity sensing",
+      "authors": [
+        "F.D. Sack"
+      ]
+    },
+    {
+      "title": "Genetic evidence that the endodermis is essential for shoot gravitropism in Arabidopsis thaliana",
+      "authors": [
+        "H. Fukaki",
+        "J. Wysocka-Diller",
+        "T. Kato",
+        "H. Fujisawa",
+        "P.N. Benfey",
+        "M. Tasaka"
+      ]
+    },
+    {
+      "title": "Gravity sensing and signaling",
+      "authors": [
+        "M.T. Morita",
+        "M. Tasaka"
+      ]
+    },
+    {
+      "title": "The endodermis and shoot gravitropism",
+      "authors": [
+        "M. Tasaka",
+        "T. Kato",
+        "H. Fukaki"
+      ]
+    },
+    {
+      "title": "Lateral Relocation of Auxin Efflux Regulator Pin3 Mediates Tropism in Arabidopsis",
+      "authors": [
+        "J. Friml",
+        "J. Wisniewska",
+        "E. Benkova",
+        "K. Mendgen",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "Polarization of PIN3-dependent auxin transport for hypocotyl gravitropic response in Arabidopsis thaliana",
+      "authors": [
+        "H. Rakusova",
+        "J. Gallego-Bartolome",
+        "M. Vanstraelen",
+        "H.S. Robert",
+        "D. Alabadi",
+        "M.A. Blazquez",
+        "E. Benkova",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "ARL2, ARG1 and PIN3 define a gravity signal transduction pathway in root statocytes",
+      "authors": [
+        "B.R. Harrison",
+        "P.H. Masson"
+      ]
+    },
+    {
+      "title": "Arg1 (Altered Response to Gravity) Encodes a Dnaj-Like Protein That Potentially Interacts With the Cytoskeleton",
+      "authors": [
+        "J.C. Sedbrook",
+        "R.J. Chen",
+        "P.H. Masson"
+      ]
+    },
+    {
+      "title": "ALTERED RESPONSE TO GRAVITY is a peripheral membrane protein that modulates gravity-induced cytoplasmic alkalinization and lateral auxin transport in plant statocytes",
+      "authors": [
+        "K. Boonsirichai",
+        "J.C. Sedbrook",
+        "R. Chen",
+        "S. Gilroy",
+        "P.H. Masson"
+      ]
+    },
+    {
+      "title": "Relocalization of the PIN1 auxin efflux facilitator plays a role in phototropic responses",
+      "authors": [
+        "J. Blakeslee",
+        "A. Bandyopadhyay",
+        "W. Peer",
+        "S. Makam",
+        "A. Murphy"
+      ]
+    },
+    {
+      "title": "Enhanced Gravi- and Phototropism in Plant Mdr Mutants Mislocalizing the Auxin Efflux Protein Pin1",
+      "authors": [
+        "B. Noh",
+        "A. Bandyopadhyay",
+        "W.A. Peer",
+        "E.P. Spalding",
+        "A.S. Murphy"
+      ]
+    },
+    {
+      "title": "Regulation of Polar Auxin Transport by AtPIN1 in Arabidopsis Vascular Tissue",
+      "authors": [
+        "L. Gälweiler",
+        "C. Guan",
+        "A. Muller",
+        "E. Wisman",
+        "K. Mendgen",
+        "A. Yephremov",
+        "K. Palme"
+      ]
+    },
+    {
+      "title": "ASC4, a primary indoleacetic acid-responsive gene encoding 1-aminocyclopropane-1-carboxylate synthase in Arabidopsis thaliana",
+      "authors": [
+        "S. Abel",
+        "M.D. Nguyen",
+        "W. Chow",
+        "A. Theologis"
+      ]
+    },
+    {
+      "title": "Brassinolide induces IAA5, IAA19, and DR5, a synthetic auxin response element in arabidopsis, implying a cross talk point of brassinosteroid and auxin signaling",
+      "authors": [
+        "A. Nakamura",
+        "K. Higuchi",
+        "H. Goda",
+        "M.T. Fujiwara",
+        "S. Sawa",
+        "T. Koshiba",
+        "Y. Shimada",
+        "S. Yoshida"
+      ]
+    },
+    {
+      "title": "Early Genes and Auxin Action",
+      "authors": [
+        "S. Abel",
+        "A. Theologis"
+      ]
+    },
+    {
+      "title": "Profiling Gene Expression in Germinating Brassica Roots",
+      "authors": [
+        "M.R. Park",
+        "Y.-H. Wang",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "A critique of widely used normalization software tools and an alternative method to identify reliable reference genes in red clover (Trifolium pratense L.)",
+      "authors": [
+        "K.M. Khanlou",
+        "E. Van Bockstaele"
+      ]
+    },
+    {
+      "title": "Identification of suitable reference genes for studying gene expression in cucumber plants subjected to abiotic stress and growth regulators",
+      "authors": [
+        "M. Migocka",
+        "A. Papierniak"
+      ]
+    },
+    {
+      "title": "Validation of reference genes for real-time quantitative PCR normalisation in non-heading Chinese cabbage",
+      "authors": [
+        "D. Xiao",
+        "N.-W. Zhang",
+        "J.-J. Zhao",
+        "G. Bonnema",
+        "X.-L. Hou"
+      ]
+    },
+    {
+      "title": "Auxin: Molecular Genetic Approaches in Arabidopsis",
+      "authors": [
+        "L.J. Hobbie"
+      ]
+    },
+    {
+      "title": "age Mutants of Arabidopsis Exhibit Altered Auxin-Regulated Gene Expression",
+      "authors": [
+        "Y. Oono",
+        "Q.G. Chen",
+        "A. Theologis"
+      ]
+    },
+    {
+      "title": "Hormone-Induced Gene Expression During Gravicurvature of Brassica Roots",
+      "authors": [
+        "M.R. Park",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "Competence of cereal leaf cells. 2. Influence of auxin, ammonium and explant age on regeneration",
+      "authors": [
+        "P. Barcelo",
+        "P. Lazzeri",
+        "A. Martin",
+        "H. Lorz"
+      ]
+    },
+    {
+      "title": "Solid phase gene extraction isolates mRNA at high spatial and temporal resolution",
+      "authors": [
+        "P. Scherp",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "Selection and evaluation of novel reference genes for quantitative reverse transcription PCR (qRT-PCR) based on genome and transcriptome data in Brassica napus L",
+      "authors": [
+        "H.L. Yang",
+        "J. Liu",
+        "S.M. Huang",
+        "T.T. Guo",
+        "L.B. Deng",
+        "W. Hua"
+      ]
+    },
+    {
+      "title": "Rapid and reversible root growth inhibition by TIR1 auxin signalling",
+      "authors": [
+        "M. Fendrych",
+        "M. Akhmanova",
+        "J. Merrin",
+        "M. Glanc",
+        "S. Hagihara",
+        "K. Takahashi",
+        "N. Uchida",
+        "K.U. Torii",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Termination of Shoot Gravitropic Responses by Auxin Feedback on PIN3 Polarity",
+      "authors": [
+        "H. Rakusova",
+        "M. Abbas",
+        "H.B. Han",
+        "S.Y. Song",
+        "H.S. Robert",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Genetic screen for factors mediating PIN polarization in gravistimulated Arabidopsis thaliana hypocotyls",
+      "authors": [
+        "H. Rakusova",
+        "H.B. Han",
+        "P. Valosek",
+        "J. Friml"
+      ]
+    },
+    {
+      "title": "Auxin Information Processing; Partners and Interactions beyond the Usual Suspects",
+      "authors": [
+        "T. Van den Berg",
+        "K.H. Tusscher"
+      ]
+    },
+    {
+      "title": "Glutathione Enhances Auxin Sensitivity in Arabidopsis Roots",
+      "authors": [
+        "T. Pasternak",
+        "K. Palme",
+        "I.A. Paponov"
+      ]
+    },
+    {
+      "title": "Identification of gravitropic response indicator genes in Arabidopsis inflorescence stems",
+      "authors": [
+        "M. Taniguchi",
+        "M. Nakamura",
+        "M. Tasaka",
+        "M.T. Morita"
+      ]
+    },
+    {
+      "title": "The Arabidopsis concentration-dependent influx/efflux transporter ABCB4 regulates cellular auxin levels in the root epidermis",
+      "authors": [
+        "M. Kubes",
+        "H. Yang",
+        "G.L. Richter",
+        "Y. Cheng",
+        "E. Mlodzinska",
+        "X. Wang",
+        "J.J. Blakeslee",
+        "N. Carraro",
+        "J. Petrasek",
+        "E. Zazimalova"
+      ]
+    },
+    {
+      "title": "Tall or short? Slender or thick? A plant strategy for regulating elongation growth of roots by low concentrations of gibberellin",
+      "authors": [
+        "E. Tanimoto"
+      ]
+    },
+    {
+      "title": "Primary Root Growth Regulation: The Role of Auxin and Ethylene Antagonists",
+      "authors": [
+        "Y. Zhao",
+        "K.H. Hasenstein"
+      ]
+    },
+    {
+      "title": "A new mathematical model for relative quantification in real-time RT-PCR",
+      "authors": [
+        "M.W. Pfaffl"
+      ]
+    },
+    {
+      "title": "Experimental design for gene expression microarrays",
+      "authors": [
+        "M.K. Kerr",
+        "G.A. Churchill"
+      ]
+    }
+  ],
+  "original_title": "Transcription profile of auxin related genes during positively gravitropic hypocotyl curvature of Brassica rapa.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/85b02501aec4/plants-11-01191-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/c8d1841c750e/plants-11-01191-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/ed983a0f0966/plants-11-01191-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/9251a54d6a82/plants-11-01191-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/02269efe9079/plants-11-01191-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/117dbf58da8b/plants-11-01191-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/c9c343c27e2c/plants-11-01191-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/efa3/9105288/7cdd4782012b/plants-11-01191-g008.jpg"
+  ]
+}

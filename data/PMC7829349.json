@@ -1,0 +1,719 @@
+{
+  "pmcid": "PMC7829349",
+  "title": "Genomic and Functional Characterization of Enterococcus faecalis Isolates Recovered From the International Space Station and Their Potential for Pathogenicity",
+  "abstract": "Enterococcus faecalis is a multidrug resistant, opportunistic human pathogen and a leading cause of hospital acquired infections. Recently, isolates have been recovered from the air and surfaces onboard the International Space Station (ISS). Pangenomic and functional analyses were carried out to assess their potential impact on astronaut health. Genomes of each ISS isolate, and both clinical and commensal reference strains, were evaluated for their core and unique gene content, acquired antibiotic resistance genes, phage, plasmid content, and virulence traits. In order to determine their potential survival when outside of the human host, isolates were also challenged with three weeks of desiccation at 30% relative humidity. Finally, pathogenicity of the ISS strains was evaluated in the model organism Caenorhabditis elegans. At the culmination of this study, there were no defining signatures that separated known pathogenic strains from the more commensal phenotypes using the currently available resources. As a result, the current reliance on database information alone must be shifted to experimentally evaluated genotypic and phenotypic characteristics of clinically relevant microorganisms.",
+  "introduction": "Introduction\n\nEnterococcus faecalis represent a core, yet quantitatively minor portion of the human gut microbiome that are well suited to persist outside of the host environment. Evidence recently emerged that the enterococci may have split from their last common ancestor at approximately the time animal life began to colonize terrestrial habitats (∼425 million years ago), and traits that promote survival and transmission in the exposed land environment selected for the characteristic ruggedness of the genus. Supporting that proposition, enterococci display significantly higher levels of resistance to a variety of antiseptics, salts, organic compounds, desiccation, and starvation than ancestral outgroups.\n\nBecause traits contributing to environmental persistence also contribute to persistence in the hospital environment, enterococci rank among leading causes of healthcare associated infections. While certain strains of E. faecalis are pathogenic for hospitalized patients, e.g., MMH594 and V583, and possess genomes swollen to 3.3 Mb by the accretion of mobile genetic elements (MGEs), the genomes of commensal isolates are 25% smaller, as typified by the strain OG1RF. In the antibiotic era, loss of CRISPR (clustered regularly interspaced short palindromic repeats) protection of the chromosome further facilitated the accumulation of additional antibiotic resistance by enterococci. Several other MGEs have been directly linked to virulence factors, however, the selective value of most mobile elements in clinical isolates of enterococci remains to be determined.\n\nThe ISS provides a unique opportunity to study the establishment of a microbiome in what originated as a clean, hermetically sealed built environment, where the influx of new microorganisms only occurs periodically with the arrival of new crew and supplies. The microbiome of the ISS has been extensively characterized in recent years by metagenomic and culture-based investigations, yet only recently have these effort been combined. The results are divided among those that report similarities to Earth built environments including United States based spacecraft assembly cleanrooms, and those that detected significant differences from terrestrial residences, the Human Microbiome Project, the Japan-based ISS analog module, and a French Guiana-based cleanroom. Despite the differences in methodologies and results, the detection of opportunistic human pathogens including E. faecalis, is a common phenomenon. With the exception of, the previous metagenomic efforts were limited to characterizing diversity at the genus level or identifying antibiotic resistance or virulence gene content, and thereby lacked the genetic resolution to confidently identify pathogenic bacterial strains. While genome-based pathogenicity analyses have been performed for Staphylococcus aureus and Enterobacter bugandensis, only a single culture-based report has quantified pathogenicity (Fusarium oxysporum isolates from the ISS) in a host model. As a result, the ability to predict how opportunistic pathogens may impact crew health remains unclear.\n\nIn addition to characterizing the microbiome of the ISS, understanding the effects of spaceflight on bacterial physiology will be imperative for assessing the impacts on crew health. When Pseudomonas aeruginosa was exposed to spaceflight, there was an increase in the total cell viable numbers, biomass, biofilm thickness, and the cells produced a unique biofilm architecture not seen in ground controls of the species. documented growth curve, transcriptomic, and proteomic alterations (related to amino acid transport, metabolism, energy production, and conversion) in Bacillus cereus and Serratia marcescens during spaceflight. Carbon utilization profiles were altered among S. marcescens clones after flight, and transcriptomic and proteomic data revealed significant changes in metabolic functions. Additionally, utilized proteomic analysis and expression profiles to demonstrate that changes in genomic regulation of Salmonella typhymurium were widely distributed, and virulence was increased in response to spaceflight. Although report a significant decrease in E. faecalis OG1RF virulence when grown under spaceflight conditions, this was inferred by a reduction in the optical density of cultures grown in the presence of adult Caenorhabditis elegans rather than worm viability.\n\nIn addition to altered microbial physiological responses, astronaut health is also impacted by the spaceflight environment. Factors such as microgravity, physiological stress, isolation, abnormal circadian rhythms, and altered nutrition have been shown to weaken an astronaut’s immunity in as little as 10 to 15 days, and these effects can persist up to 6 months post mission ISS. This weakened immunity, combined with the prevalence of E. faecalis strains, or other potential pathogens including viruses, could result in severe human health consequences on board the ISS, even in incidences of routine medicinal procedures (i.e., the introduction of a percutaneous catheter).\n\nWith the detection of enterococci, we sought to determine the risk they posed to residents within the ISS – specifically, do they represent pathogenic lineages commonly associated with infections in hospitals, or do they represent commensals shed into the environment as a consequence of human habitation? In order to determine if the challenging environment of the air and surfaces of the ISS have selected for pathogenic strains of E. faecalis, we coupled previously employed genomic data analyses with phenotypic characterization of E. faecalis isolates recovered onboard the ISS. By assessing their antibiotic resistance, desiccation tolerance, and pathogenicity in the well-established C. elegans model, we sought to test existing methods for identification of strains of E. faecalis with a high likelihood of causing in-flight infections.",
+  "methods": "Materials and Methods\n\nStrains and Culture Conditions\n\nBacterial isolates from the ISS (Figure 1 and Table 1) were initially recovered on tryptic soy agar, and preliminary identification was performed using a VITEK identification system (bioMérieux, Hazelwood, MO, United States) as previously described. E. faecalis isolates OG1RF, MMH594, V583, and the genome sequences of E. faecalis 5952 and JH-1 were made available from the Gilmore lab strain collection. All additional available whole genomes of E. faecalis (N = 44) were obtained from the National Center for Biotechnology Information (NCBI).\n\nExcept where described below, cultures of E. faecalis OG1RF, MMH594, V583, and the ISS isolates (Table 1) were grown aerobically with shaking (250 RPM) at 37°C in brain heart infusion (BHI; DifcoTM, cat. no: 237500) broth. Growth kinetics for each isolate was assessed using a Synergy 2 microplate reader (Bio-Tek Instruments Inc.), measuring optical density at 620 nm. Minimum inhibitory concentration (MIC) for various antibiotics was evaluated in both Mueller-Hinton (MH) broth or in BHI, as further detailed below. For the desiccation experiments, isolates were grown overnight in a chemically defined medium (CDM) and plated onto M9 (DifcoTM, cat. no: 237500) agar plates amended with 1.0% glucose. To perform the C. elegans pathogenicity assays, cultures of Escherichia coli OP50 were prepared on nematode growth media (NGM) agar plates as previously described.\n\nGenome Sequencing of ISS Strains\n\nFor preparation of DNA, isolates were grown overnight in BHI broth. Cells were lysed using lysozyme (50 μg mL–1) and mutanolysin (2500 U mL–1), and the total DNA was isolated using the DNeasy Blood and Tissue Kit (Qiagen©, cat. no: 69504). Purified DNA was used for preparing libraries, which were then sequenced on Illumina HiSeq (250 nucleotide paired end reads) as previously described (Supplementary Table S1 in).\n\nAdditionally, a MinION (Oxford Nanopore Technologies©; ONT) library was prepared using the “one-pot” barcoding protocol, as developed by Josh Quick and the Loman Lab1. For each isolate, 24 μL of AMPure XP (Beckman Coulter® Life Sciences cat. no.: A63880) eluate was used as input for library preparation. This was incubated at room temperature (RT) for 5 min, 65°C for 5 min, then placed on ice for 30 s. Samples were barcoded using the Rapid Barcoding Kit (ONT cat. no.: SQK-RBK001) and each was incubated at RT for 10 min, 70°C for 5 min, then placed on ice. The reaction product was then pooled with other samples (N = 4 total) in a clean 1.5 mL low-bind Eppendorf tube, before addition of 26.75 μl AMPure XP beads per sample. This was incubated at RT for 5 min, placed on the magnet rack until clear, and the supernatant removed. The beads were washed with 200 μl 70% ethanol, incubated for 30 s, and the supernatant removed (2X) before spinning down and removal of the residual 70% ethanol. After air drying for 1 min, the beads were resuspended in 31 μl elution buffer (EB, 10 mM Tris–HCl pH 8), incubated off the magnet rack for 5 min, returned to the rack. DNA was quantified by fluorescence (ThermoFisher Scientific© Qubit 3.0 with Qubit dsDNA HS Assay Kit; cat. no.: Q32854) and the sequencing adaptors were ligated (ONT cat. no.: SQK-LSK109) following the manufacturer’s protocols. This tube was incubated at RT for 10 min, 45.5 μl AMPure XP beads added, incubated for another 5 min, placed on magnet rack until clear, and the supernatant removed. Next, 150 μl ABB was added and the beads resuspended by flicking, before placing the tube back on the magnet rack until clear. The supernatant was removed and the ABB wash repeated before spinning down the tube and removing the residual supernatant. Next, 12 ul EB was added and the bead resuspended by flicking before incubation at RT for 5 min. The tube was placed again on the magnet rack until clear, and the elution library was loaded on to an ONT MinION flow cell (R9.4.1) according to the manufacturer’s protocols and sequenced using MinKNOW (v1.11.5) with live basecalling (Supplementary Table S2). Output fastq files were concatenated and adaptors were removed and debarcoded with PoreChop (v0.2.32). Reads were quality filtered (≥ Q9) using NanoFilt (v2.2.0), and NanoPlot (v1.13.0) was then used to characterize sequencing datasets.\n\nGenome Assembly\n\nUnicycler (v0.4.4) was used for long-read and hybrid assembly using default parameters, with the initial long-read assembly specified via the –existing_long_read_assembly flag for hybrid assembly. BWA (v0.7.17-r1188 with -x ont2d flag; docker container alexcoppe/bwa:latest) was used to map long reads onto the hybrid assembly to inspect assemblies and verify lack of evidence of mis-assemblies based on coverage. CheckM (v1.0.7) was used to evaluate completeness of final hybrid assemblies described in Table 1.\n\nPangenomic and Phylogenetic Analysis\n\nGenomes were annotated using Prokka (v.1.14.6; docker container quay.io/biocontainers/prokka:1.14.6–pl526_0), and the pangenome analysis was performed using Roary (v3.12.0; docker container staphb/roary:3.12.0). Genes that were present in a single isolate were defined as unique genes and, for strains utilized in this study, their identities were further examined by BLASTn for comparison to the NCBI non-redundant database. Based on DNA sequence comparison, an E. faecalis phylogenetic tree (Figure 2A) was constructed from the Roary-determined core gene alignment (1.69 Mb) using FastTree (docker container staphb/fasttree:2.1.11) using the General Time Invariant (GTR) model, and visualized using IcyTree. For a list of all genomes and gene presence/absence data see Supplementary Data File S1.\n\nComparative Genomic Analysis\n\nMultilocus sequence typing (MLST) was performed by evaluating seven E. faecalis genes (aroE, gdh, gki, gyd, pstS, xpt, and yqiL) and sequence types (STs) assigned based on the alleles present in each genome. The potential presence of plasmids was assessed using PlasmidFinder. VirFinder was used to detect potential E. faecalis virulence factor genes, and PathogenFinder provided a predictive score for each strain’s potential pathogenicity for humans. Additionally, the web server PHAge Search Tool – Enhanced Release (PHASTER) was used to detect the presence of phage sequences within bacterial genomic data, and the Comprehensive Antibiotic Resistance Database (CARD) was used to identify genes potentially associated with antimicrobial resistance. The presence of CRISPR (clustered regularly interspaced short palindromic repeats) arrays and Cas (CRISPR associated proteins) was detected using the online tool, CRISPRCasFinder. Capsule type polymorphisms were determined as described by. Briefly the presence, or absence, of genes in the locus (EF2485 to EF2495) were verified in the genomes of each isolate. CPS type 1 strains are defined as isolates with cpsA and B, and hcp1 (EF2484), while CPS type 2 strains consist of the full cps locus and hcp1 (EF2484 to EF2495). CPS type 5 strains are similar to the type 2 gene profile, but do not contain cpsF (EF0090).\n\nMinimum Inhibitory Concentration of Antibiotics\n\nAntibiotic MIC was determined by broth microdilution as described. Briefly, overnight cultures of isolates were diluted and 104 cells in MH broth were inoculated into each well of 96 well plates containing serial 2-fold dilutions of antibiotics. Maximum concentration tested: penicillin (10 μg mL–1), amoxicillin (10 μg mL–1), ampicillin (10 μg mL–1), oxacillin (256 μg mL–1), erythromycin (50 μg mL–1), and tetracycline (64 μg mL–1). This procedure was repeated in BHI, and isolates were additionally evaluated for high level aminoglycoside resistance (HLGR) with: gentamicin, streptomycin, and kanamycin (each at a maximum concentration of 2 mg mL–1). Plates were incubated at 37°C and growth was monitored at 24 and 48 h. Wells containing the lowest antibiotic concentration lacking growth after 48 h were designated the MIC for the respective antibiotics.\n\nDesiccation Survival\n\nSurvival to desiccation was assessed as previously described with the following modifications. E. faecalis isolates were harvested from stationary phase by centrifugation, and washed twice with sterile (autoclaved, 0.22 μm filtered) water (sH2O). Prior to desiccation, the concentrated cells were resuspended in CDM, and a 10 μL sample was track diluted onto M9 medium (M9; Amresco®, cat. no.: J863-500G) amended with 0.1% glucose agar, and incubated at 37°C. After ∼24 h, the number of CFUs recovered from 10 μL track dilutions prepared according to were used to determine the original concentration of cells mL–1 (t = −1). Aliquots of cell suspensions (50 μL) were spotted onto autoclaved coverslips, and placed into the desiccation chamber containing Drierite® (≥ 98% CaSO4, W. A. Hammond Drierite Company, Ltd., cat. no.: 778-18-9) until the liquid evaporated (t = 0, 24 h). The relative humidity (RH) in the chamber was monitored using a digital hygrometer, and maintained between 30-40% by adding additional Drierite®. Three replicates were prepared for each isolate at each timepoint. The dried cells were removed from the coverslips by rinsing and resuspending the material with a pipet into 1 mL of sH2O. To ensure the samples were homogenously resuspended, rehydrated cells were incubated at 37°C for 1 h while shaking (225 RPM), and vortexed for 15 minutes. The cells were then serially diluted into sH2O and 10 μL track dilutions were plated onto M9 agar. At the t = 0 time point, the number of CFUs recovered from the substrate was designated as the starting population size that survived the initial drying on the coverslip (N0). Subsequent samples were removed from the desiccation chamber every three days and rehydrated as described above to determine the number of surviving CFUs over time (N). The surviving fraction of cells was determined from the ratio of N/N0. Each time point was evaluated when N was ≥ 30 CFU.\n\nPathogenicity of E. faecalis isolates in a C. elegans model\n\nNematode killing assays were performed as previously described. Briefly, C. elegans fer-15;fem-1 (CF512) worms were grown on NGM inoculated with E. coli strain OP50 and incubated at 15°C until they reached the L4 stage. Approximately 30–40 of the L4 stage worms were then transferred to BHI agar plates (amended with kanamycin, 10 μg mL–1) inoculated with 100 μL aliquots of each log phase E. faecalis isolate. The plates were incubated at 25°C and worms were examined for viability. Worms that did not exhibit movement nor respond to physical touch were scored as dead and removed from the plate. Moving worms were scored as alive and also counted.\n\nStatistical Analyses\n\nStatistical analyses for the desiccation experiments were performed using JMP® Pro v.14.3. Prior to evaluating the data for significant differences, the data were assessed for equal variances. Subsequent one-way ANOVAs were performed to determine the significant differences of desiccation survival at different timepoints and among individual isolates. Post hoc comparisons for time were performed using parametric comparisons with a control using Dunnett’s method (N = 18 for each isolate, with the exception of t = 12 d where N = 17). The mean N/N0 for each isolate at t = 21 d was evaluated using the non-parametric comparison with a control performed following the Steel method (N = 3 for each isolate). Individual comparisons for survival at two timepoints were performed using a homoscedastic Student’s t- test.\n\nThe survival of C. elegans on each E. faecalis isolate was performed in triplicate. A Kaplan-Meier log rank analysis was performed to evaluate the survival curves using OASIS-2 as previously described Yuen. The data were determined to follow the normal distribution using the Shapiro-Wilk test, and pairwise comparisons with Bonferroni-corrected p-values < 0.05 were considered significant. Data are reported as the average and the standard error (± SE) of the number of worms scored, and is reported in Table 2.",
+  "results": "Results\n\nIsolates Recovered From the ISS\n\nThe E. faecalis isolates recovered from air samples (ISS_1 and ISS_4) were both collected mid-module. ISS_1 was isolated from air samples collected in the United States Lab in 2009, and ISS_4 was recovered from the air in Node 3 in 2013 (Figure 1). ISS_2 and ISS_3, were two isolates recovered in 2011 from the same location, United States Lab handrail surfaces, approximately 14 feet apart. One was collected from the aft end of the module (at the interface with Node 1), and the other was recovered mid-module. The United States Lab was launched in 2001, and houses the various science payloads conducting research onboard the ISS. Node 3, launched in 2010, and houses the air revitalization and water recovery systems, as well as amenities for crew hygiene, the restrooms, and exercise devices. With preliminary identification based solely on the VITEK identification system, the first task for the isolate characterization was to create a fully sequenced genome for each isolate (Table 1).\n\nPangenome Analysis\n\nWith the complete genomes for each isolate assembled, several web-based tools were utilized for genomic characterization. First, seven gene loci were evaluated for their respective MLST using the web-based MLST server (Table 1). ISS_1 was determined to be a single locus variant of sequence type (ST) 875, with a single nucleotide polymorphism (SNP) in the 583 bases of pstS. Isolates ISS_2 and ISS_3 were identified as ST30. ISS_4 was classified as ST40, a commonly recovered ST and a member of one of the largest clonal clusters, CC40. A clonal cluster is defined as a ST consisting of three or more isolates. CC40 is comprised of ST40 and ST114, many of which were isolated from clinical sources.\n\nBased on the ST data described above, representative type strains were chosen for each as a comparator for each ISS ST, and a core genome of 1,844 genes shared by all 51 strains was defined. An alignment of the core genome was then used to construct the phylogenetic tree (Figure 2A). Phylogenetic proximity of the selected type strains to the ISS isolates validated the selection based on ST. Genome size and gene count (Figure 2B) show patterns of genomic expansion and loss within clades; for example, within the clade containing V583 a general pattern of larger genome size and higher gene count is evident, yet nearby ISS_1 has a more streamlined genome in comparison to its neighbors. Genes are classified into core, soft core, shell, and cloud on the basis of the number of isolates sharing each gene (Figure 2C; Supplementary Figure S1) and the Roary-estimated patterns of gene presence and absence highlight potential patterns of gene loss or gain (Supplementary Data File S1).\n\nUnique chromosomal genes, defined as those genes that were present in a single isolate, were non-uniformly distributed across each isolate genome (Supplementary Data File S1). ISS_1 (Accession no.: CP046113) contained the fewest number of unique genes (11 genes), 9 of which were designated hypothetical by Prokka yet had homology with other E. faecalis genomes on the basis of BLASTn searches. Seven of the 11 unique genes formed a contiguous region suggestive of an operon, which contained two genes with known annotations, mazG, which encodes a nucleoside triphosphate pyrophosphohydrolase involved in survival under nutrient stress, and another that encodes an LPxTG-motif protein cell wall anchor domain protein. Neither ISS_2 (Accession no.: CP046112) nor ISS_3 (Accession no.: CP046111) contained individually unique genes. Consistent with this finding, analysis of the core alignment revealed that isolates ISS_2 and ISS_3 differed by only 14 bases. However, these two isolates shared 39 genes that were not present in any of the other strains analyzed, of which 30 were classified as hypothetical. ISS_4 (Accession no.: CP046108-110) had 25 unique genes, 16 of which were located on a plasmid (pTEF2); no unique genes were found on the second (pAD1) plasmid. Based on BLASTn analysis (Supplementary Figure S2), the majority of genes unique to the ISS strains are closely related to genes present in Enterococcus species, with all non-Enterococcus genera restricted to Lactococcus, Lactobacillus, and, with lower identity and query coverage, Listeria (Supplementary Figure S3).\n\nFollowing the designations of, the capsule type for each ISS strain was determined. All three known capsule type polymorphisms were detected from the ISS strains. ISS_1 contained the full cps locus (EF2485 to EF2495) and hcp1 (EF2484), and similar to MMH594 and V583, was designated CPS type 2. Isolates ISS_2 and ISS_3 contained the cps locus and hcp1, but lacked cpsF (EF0090). In agreement with previous analysis of two additional ST30 isolates, these strains were classified as CPS type 5. The strain ISS_4 contained only cpsA (EF0095), cpsB (EF0094), and hcp1, and like the other isolates of CC40 and OG1RF, was classified as CPS type 1.\n\nAssessment of Mobile Elements and Defense Systems\n\nThe Comprehensive Antibiotic Resistance Database (CARD) database identified the tetracycline resistance gene, tetW/N/W, in isolates ISS_2, ISS_3, and ISS_4, which was not present in OG1RF. The ISS tetW/N/W shared 69.3 (ISS_2 and ISS_3) and 69.1% (ISS_4) sequence homology with the reference sequence (Accession no.: ARO:3004442). The reference gene has been detected in 2.70% of the available E. faecalis isolates surveyed. A standard nucleotide BLAST search confirmed the tetW/N/W genes present in ISS_2 and ISS_3 shared 100% sequence identity to each other, and differed by three SNPs to the tetW/N/W gene present in ISS_4.\n\nPHASTER identified the presence of intact phage in isolates ISS_2, ISS_3, and ISS_4 (Supplementary Table S3). ISS_2 and ISS_3 each contained three intact phage nucleotide sequences. The CC40 member ISS_4 contained a single intact phage region. No intact phage were detected in either ISS_1 or OG1RF. Thirty two (82%) of the 39 genes shared only by ISS_2 and ISS_3 were associated with intact or incomplete phage (Supplementary Data File S1). Plasmid-born genomic elements were only detected in ISS_4 using the tool PlasmidFinder (Table 1). Two plasmids were determined to share 96.7% sequence identity, and 99% coverage, to the V583 plasmid pTEF2 (accession number: AE016831), and 96.0% identity, with 100% coverage, to the pheromone responsive plasmid pAD1 (accession number: L01794). Notably, evidence for Lactobacillus prophage Lj928 was identified for ISS_2, ISS_3, ISS_4, and V583 (Supplementary Table S3). Similarly, evidence for Enterococcus phage phiFL4A was identified for ISS_2, ISS_3, ISS_4, and MMH594 (Supplementary Table S3). Overall, mobile elements explained a majority (65%) of the unique genes identified in the ISS isolates. High confidence CRISPR-Cas systems were detected in isolates ISS_1, ISS_4, and OG1RF (Supplementary Table S4). CRISPR loci without the Cas genes were detected in the genomes of each of the ISS isolates and OG1RF (Supplementary Table S4).\n\nGenome-Based Assessment of the Potential for Pathogenicity\n\nThe PathogenFinder server scored each of the ISS isolates and the reference strains as potential human pathogens (Table 1). The commensal strain OG1RF had the lowest pathogen score of 81.6%. With pathogen scores > 84%, all of the ISS strains had a higher assigned probability to be pathogenic than the clinical isolates, MMH594 and V583 (each at 82.9%).\n\nBy comparing the genomic content of the isolates to known E. faecalis genes associated with disease, a second predictor of pathogenicity could be compiled (Table 3). The genomes of the clinical isolates contained the highest proportion of predicted virulence factors (18/20), while ISS_2 and ISS_3 contained the least (13/20). ISS_1 and OG1RF both contained 15/20 virulence factors, and the genome ISS_4 was positive for 16/20. The clinical isolates and ISS_4 were the only strains to contain agg, encoding for the E. faecalis aggregation substance involved in biofilm formation, plasmid transfer, and increased virulence in endocarditis models.\n\nMMH594 was the only isolate with cylA, one of the genes responsible for the production of cytolysin. Neither OG1RF nor the ISS isolates carried any of the genes in the cytolysin pathway reviewed by.\n\nMinimum Inhibitory Concentration of Antibiotics\n\nDilution concentration broth assays were used to determine the MIC for various antibiotics. Optical density measurements revealed there were no significant differences in the growth kinetics between the ISS isolates and the reference strains. Strains were first evaluated in Mueller-Hinton broth for comparison to clinical laboratory standards for antibiotic resistance of E. faecalis ATCC® 29212, and in the commonly used growth media BHI to determine MICs relative to the commensal isolate OG1RF. In MH broth, all strains tested exceeded the resistance levels set forth by ≥ 2-fold for amoxicillin, ampicillin, oxacillin, gentamycin, and kanamycin. ISS_2, ISS_3, and ISS_4 were also categorized as resistant to tetracycline. When evaluated in BHI, all ISS strains exhibited MICs equivalent to OG1RF with the exceptions of oxacillin and tetracycline (Table 4). All ISS strains showed ≥ 4-fold more resistance to oxacillin. Isolates ISS_2, ISS_3, and ISS_4, each carrying a tetW/N/W gene, displayed an MIC of 64 μg mL–1. These isolates were 4-fold more resistant to tetracycline than OG1RF (MIC of 16 μg mL–1), and displayed resistance levels equivalent to the clinical isolates, MMH594 and V583. Unlike the clinical isolates, the ISS strains did not exhibit HLGR.\n\nDesiccation Tolerance of E. faecalis Strains\n\nDuring the initial 24 h dry down period, the RH in the desiccation chamber spiked to 56%. For the remainder of the experiment, the RH was maintained between 30-40% by adding additional Drierite®. The concentration of cells surviving the drying process (N0) ranged from 1.2 (± 0.044) x 1010 to 5.5 (± 0.091) x 107 CFU for ISS-1 and OG1RF, respectively. The average number of survivors (N) after three weeks of desiccation ranged from 0.11 (± 0.024) to 8.5 (± 0.79) x 108 CFU for OG1RF and MMH594, respectively. OG1RF demonstrated the greatest loss in viability during dry down with a 2.1-log reduction, and ISS-2 was the only isolate that did not experience a significant loss in viability between t = 0 and t = 3 d (p = 0.11). There was no significant difference in N/N0 at any of the timepoints evaluated (p = 0.98; Figure 3). When the variances of N/N0 at t = 21 d for each isolate were determined to be significantly different from each other (F = 58, p < 0.001), a non-parametric comparison was performed with OG1RF chosen as the control using the Steel method. There was no significant difference in N/N0 at t = 21 d among the isolates tested when compared to OG1RF (Figure 3).\n\nPathogenicity of Isolates in a C. elegans Model\n\nThe survival data (Figure 4) were determined to follow the normal distribution using the Shapiro-Wilk test. With the exception of ISS_1, all data are reported as the mean (± SE) of three replicates. For ISS_1, one sample became contaminated with fungus on day 9, and all subsequent data are reported as N = 2. C. elegans was least susceptible to strains ISS_2, ISS_3, and V583 with mean survival times of 13 (± 0.53), 13 (± 0.59), and 11 (± 0.91) days, respectively (Table 2). While the time for 50% of the worm population to die (LT50) for these isolates ranged from 9 days (V583) to 14 (ISS_3), the total lifespan of worms challenged with these isolates were not significantly different from each other. For isolates ISS_2 and ISS_3, all worms were deceased by day 18 and 17, respectively. While 90% of worms fed V583 were dead by day 18, some survivors persisted until day 24. Additionally, the lifespan of worms infected with ISS_3 was also statistically similar to those challenged with ISS_4. With a 31% decrease in the mean lifespan, worms infected with ISS_1 were significantly more susceptible than isolates fed ISS_2 or ISS_3 (p < 0.001). Based on the survival curves of worms fed ISS_1, ISS_4, OG1RF, MMH594, and V583 there were no significant differences in the pathogenicity profiles for these isolates (p > 0.05).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "International Space Station (ISS)",
+    "Enterococcus faecalis",
+    "pangenome",
+    "antibiotic resistance",
+    "desiccation tolerance",
+    "pathogenicity",
+    "Microbiology",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Basic local alignment search tool.",
+      "authors": [
+        "S. F. Altschul",
+        "W. Gish",
+        "W. Miller",
+        "E. W. Myers",
+        "D. J. Lipman"
+      ]
+    },
+    {
+      "title": "PHASTER: a better, faster version of the PHAST phage search tool.",
+      "authors": [
+        "D. Arndt",
+        "J. R. Grant",
+        "A. Marcu",
+        "T. Sajed",
+        "A. Pon",
+        "Y. Liang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Whole metagenome profiles of particulates collected from the International Space Station.",
+      "authors": [
+        "N. A. Be",
+        "A. Avila-Herrera",
+        "J. E. Allen",
+        "N. Singh",
+        "A. Checinska Sielaff",
+        "C. Jaing"
+      ]
+    },
+    {
+      "title": "Enterococcus faecalis pCF 10-encoded surface proteins PrgA, PrgB (aggregation substance) and PrgC contribute to plasmid transfer, biofilm formation and virulence.",
+      "authors": [
+        "M. Bhatty",
+        "M. R. Cruz",
+        "K. L. Frank",
+        "J. A. Laverde Gomez",
+        "F. Andrade",
+        "D. A. Garsin"
+      ]
+    },
+    {
+      "title": "Pangenomic approach to understanding microbial adaptations within a model built environment, the International Space Station, relative to human hosts and soil.",
+      "authors": [
+        "R. A. Blaustein",
+        "A. G. Mcfarland",
+        "S. B. Maamar",
+        "A. Lopez",
+        "S. Castro-Wallace",
+        "E. M. Hartmann"
+      ]
+    },
+    {
+      "title": "Large scale variation in Enterococcus faecalis illustrated by the genome analysis of strain OG1RF.",
+      "authors": [
+        "A. Bourgogne",
+        "D. A. Garsin",
+        "X. Qin",
+        "K. V. Singh",
+        "J. Sillanpaa",
+        "S. Yerrapragada"
+      ]
+    },
+    {
+      "title": "Abundance and survival of microbial aerosols in the troposphere and stratopshere.",
+      "authors": [
+        "N. C. Bryan",
+        "B. C. Christner",
+        "T. G. Guzik",
+        "D. J. Granger",
+        "M. F. Stewart"
+      ]
+    },
+    {
+      "title": "Off earth identification of bacterial populations using 16S rDNA Nanopore Sequencing.",
+      "authors": [
+        "A. S. Burton",
+        "S. E. Stahl",
+        "K. K. John",
+        "M. Jain",
+        "S. Juul",
+        "D. J. Turner"
+      ]
+    },
+    {
+      "title": "PlasmidFinder and pMLST: in silico detection and typing of plasmids.",
+      "authors": [
+        "A. Carattoli",
+        "E. Zankari",
+        "A. Garcìa-Fernandez",
+        "M. V. Larsen",
+        "O. Lund",
+        "L. Villa"
+      ]
+    },
+    {
+      "title": "Microbial characterization during the early habitation of the International Space Station.",
+      "authors": [
+        "V. Castro",
+        "A. N. Thrasher",
+        "M. Healy",
+        "C. M. Ott",
+        "D. L. Pierson"
+      ]
+    },
+    {
+      "title": "Nanopore DNA sequencing and genome assembly on the International Space Station.",
+      "authors": [
+        "S. L. Castro-Wallace",
+        "C. Y. Chiu",
+        "K. K. John",
+        "S. E. Stahl",
+        "K. H. Rubins",
+        "A. B. Mcintyre"
+      ]
+    },
+    {
+      "title": "Clinical metagenomics.",
+      "authors": [
+        "C. Y. Chiu",
+        "S. A. Miller"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "The Enterococcus faecalis cytolysin: a novel toxin active against eukaryotic and prokaryotic cells.",
+      "authors": [
+        "P. S. Coburn",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "PathogenFinder-distinguishing friend from foe using bacterial whole genome sequence data.",
+      "authors": [
+        "S. Cosentino",
+        "M. V. Larsen",
+        "F. M. Aarestrup",
+        "O. Lund"
+      ]
+    },
+    {
+      "title": "CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins.",
+      "authors": [
+        "D. Couvin",
+        "A. Bernheim",
+        "C. Toffano-Nioche",
+        "M. Touchon",
+        "J. Michalik",
+        "B. Néron"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation occurs during short duration spaceflight on board the space shuttle.",
+      "authors": [
+        "B. Crucian",
+        "R. Stowe",
+        "S. Mehta",
+        "P. Uchakin",
+        "H. Quiriarte",
+        "D. Pierson"
+      ]
+    },
+    {
+      "title": "Alterations in adaptive immunity persist during long-duration spaceflight.",
+      "authors": [
+        "B. Crucian",
+        "R. P. Stowe",
+        "S. Mehta",
+        "H. Quiriarte",
+        "D. Pierson",
+        "C. Sams"
+      ]
+    },
+    {
+      "title": "NanoPack: visualizing and processing long-read sequencing data.",
+      "authors": [
+        "W. De Coster",
+        "S. D’hert",
+        "D. T. Schultz",
+        "M. Cruts",
+        "C. Van Broeckhoven"
+      ]
+    },
+    {
+      "title": "Transfer functions of the Streptococcus faecalis plasmid pAD1: organization of plasmid DNA encoding response to sex pheromone.",
+      "authors": [
+        "E. Ehrenfeld",
+        "D. Clewell"
+      ]
+    },
+    {
+      "title": "Pathogenicity of Enterococci.",
+      "authors": [
+        "E. Fiore",
+        "D. Van Tyne",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "Rapid detection of genetic engineering, structural variation, and antimicrobial resistance markers in bacterial biothreat pathogens by Nanopore sequencing.",
+      "authors": [
+        "A. S. Gargis",
+        "B. Cherney",
+        "A. B. Conley",
+        "H. P. Mclaughlin",
+        "D. Sue"
+      ]
+    },
+    {
+      "title": "A simple model host for identifying Gram-positive virulence factors.",
+      "authors": [
+        "D. A. Garsin",
+        "C. D. Sifri",
+        "E. Mylonakis",
+        "X. Qin",
+        "K. V. Singh",
+        "B. E. Murray"
+      ]
+    },
+    {
+      "title": "Effects of microgravity on the virulence of Listeria monocytogenes, Enterococcus faecalis, Candida albicans, and methicillin-resistant Staphylococcus aureus.",
+      "authors": [
+        "T. G. Hammond",
+        "L. Stodieck",
+        "H. H. Birdsall",
+        "J. L. Becker",
+        "P. Koenig",
+        "J. S. Hammond"
+      ]
+    },
+    {
+      "title": "OASIS 2: online application for survival analysis 2 with features for the analysis of maximal lifespan and healthspan in aging research.",
+      "authors": [
+        "S. K. Han",
+        "D. Lee",
+        "H. Lee",
+        "D. Kim",
+        "H. G. Son",
+        "J.-S. Yang"
+      ]
+    },
+    {
+      "title": "A chemically defined medium for slime production by coagulase-negative staphylococci.",
+      "authors": [
+        "M. Hussain",
+        "J. G. M. Hastings",
+        "P. J. White"
+      ]
+    },
+    {
+      "title": "Bacteremia caused by hemolytic, high-level gentamicin-resistant Enterococcus faecalis.",
+      "authors": [
+        "M. M. Huycke",
+        "C. A. Spiegel",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "Four-year bacterial monitoring in the International Space Station—Japanese Experiment Module “Kibo” with culture-independent approach.",
+      "authors": [
+        "T. Ichijo",
+        "N. Yamaguchi",
+        "F. Tanigaki",
+        "M. Shirakawa",
+        "M. Nasu"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "I. S. S. Program"
+      ]
+    },
+    {
+      "title": "Simplified agar plate method for quantifying viable bacteria.",
+      "authors": [
+        "B. D. Jett",
+        "K. L. Hatter",
+        "M. M. Huycke",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database.",
+      "authors": [
+        "B. Jia",
+        "A. R. Raphenya",
+        "B. Alcock",
+        "N. Waglechner",
+        "P. Guo",
+        "K. K. Tsang"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.",
+      "authors": [
+        "K. G. Joensen",
+        "F. Scheutz",
+        "O. Lund",
+        "H. Hasman",
+        "R. S. Kaas",
+        "E. M. Nielsen"
+      ]
+    },
+    {
+      "title": "Spaceflight promotes biofilm formation by Pseudomonas aeruginosa.",
+      "authors": [
+        "W. Kim",
+        "F. K. Tengra",
+        "Z. Young",
+        "J. Shong",
+        "N. Marchand",
+        "H. K. Chan"
+      ]
+    },
+    {
+      "title": "A microbial survey of the International Space Station (ISS).",
+      "authors": [
+        "J. M. Lang",
+        "D. A. Coil",
+        "R. Y. Neches",
+        "W. E. Brown",
+        "D. Cavalier",
+        "M. Severance"
+      ]
+    },
+    {
+      "title": "Multilocus sequence typing of total-genome-sequenced bacteria.",
+      "authors": [
+        "M. V. Larsen",
+        "S. Cosentino",
+        "S. Rasmussen",
+        "C. Friis",
+        "H. Hasman",
+        "R. L. Marvig"
+      ]
+    },
+    {
+      "title": "Tracing the Enterococci from Paleozoic origins to the hospital.",
+      "authors": [
+        "F. Lebreton",
+        "A. L. Manson",
+        "J. T. Saavedra",
+        "T. J. Straub",
+        "A. M. Earl",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "Advances in rapid identification and susceptibility testing of bacteria in the clinical microbiology laboratory: implications for patient care and antimicrobial stewardship programs.",
+      "authors": [
+        "F. P. Maurer",
+        "M. Christner",
+        "M. Hentschke",
+        "H. Rohde"
+      ]
+    },
+    {
+      "title": "Genetic diversity among Enterococcus faecalis.",
+      "authors": [
+        "S. M. McBride",
+        "V. A. Fischetti",
+        "D. J. Leblanc",
+        "R. C. Moellering",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "Bacterial biofilm formation under microgravity",
+      "authors": [
+        "R. J. Mclean",
+        "J. M. Cassanto",
+        "M. B. Barnes",
+        "J. H. Koo"
+      ]
+    },
+    {
+      "title": "Infection prevention and control during prolonged human space travel.",
+      "authors": [
+        "L. A. Mermel"
+      ]
+    },
+    {
+      "title": "Laboratory validation of a clinical metagenomic sequencing assay for pathogen detection in cerebrospinal fluid.",
+      "authors": [
+        "S. Miller",
+        "S. N. Naccache",
+        "E. Samayoa",
+        "K. Messacar",
+        "S. Arevalo",
+        "S. Federman"
+      ]
+    },
+    {
+      "title": "Space Station conditions are selective but do not alter microbial characteristics relevant to human health.",
+      "authors": [
+        "M. Mora",
+        "L. Wink",
+        "I. Kögler",
+        "A. Mahnert",
+        "P. Rettberg",
+        "P. Schwendner"
+      ]
+    },
+    {
+      "title": "Roary: rapid large-scale prokaryote pan genome analysis.",
+      "authors": [
+        "A. J. Page",
+        "C. A. Cummins",
+        "M. Hunt",
+        "V. K. Wong",
+        "S. Reuter",
+        "M. T. Holden"
+      ]
+    },
+    {
+      "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes.",
+      "authors": [
+        "D. H. Parks",
+        "M. Imelfort",
+        "C. T. Skennerton",
+        "P. Hugenholtz",
+        "G. W. Tyson"
+      ]
+    },
+    {
+      "title": "Role of mobile DNA in the evolution of vancomycin-resistant Enterococcus faecalis.",
+      "authors": [
+        "I. T. Paulsen",
+        "L. Banerjei",
+        "G. Myers",
+        "K. Nelson",
+        "R. Seshadri",
+        "T. D. Read"
+      ]
+    },
+    {
+      "title": "Models of Caenorhabditis elegans infection by bacterial and fungal pathogens",
+      "authors": [
+        "J. R. Powell",
+        "F. M. Ausubel",
+        "E. V. J. Ewbank"
+      ]
+    },
+    {
+      "title": "Herpes virus reactivation in astronauts during spaceflight and its application on earth.",
+      "authors": [
+        "B. V. Rooney",
+        "B. E. Crucian",
+        "D. L. Pierson",
+        "M. L. Laudenslager",
+        "S. K. Mehta"
+      ]
+    },
+    {
+      "title": "In vitro susceptibility studies of vancomycin-resistant Enterococcus faecalis.",
+      "authors": [
+        "D. F. Sahm",
+        "J. Kissinger",
+        "M. S. Gilmore",
+        "P. R. Murray",
+        "R. Mulder",
+        "J. Solliday"
+      ]
+    },
+    {
+      "title": "Real-time analysis of nanopore-based metagenomic sequencing from infected orthopaedic devices.",
+      "authors": [
+        "N. D. Sanderson",
+        "T. L. Street",
+        "D. Foster",
+        "J. Swann",
+        "B. L. Atkins",
+        "A. J. Brent"
+      ]
+    },
+    {
+      "title": "Comparison of antibiotic resistance, biofilm formation and conjugative transfer of Staphylococcus and Enterococcus isolates from International Space Station and Antarctic Research Station Concordia.",
+      "authors": [
+        "K. Schiwon",
+        "K. Arends",
+        "K. M. Rogowski",
+        "S. Furch",
+        "K. Prescha",
+        "T. Sakinc"
+      ]
+    },
+    {
+      "title": "Genomic variation landscape of the human gut microbiome.",
+      "authors": [
+        "S. Schloissnig",
+        "M. Arumugam",
+        "S. Sunagawa",
+        "M. Mitreva",
+        "J. Tap",
+        "A. Zhu"
+      ]
+    },
+    {
+      "title": "Prokka: rapid prokaryotic genome annotation.",
+      "authors": [
+        "T. Seemann"
+      ]
+    },
+    {
+      "title": "Modulation of virulence within a pathogenicity island in vancomycin-resistant Enterococcus faecalis.",
+      "authors": [
+        "N. Shankar",
+        "A. S. Baghdayan",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces.",
+      "authors": [
+        "A. C. Sielaff",
+        "C. Urbaniak",
+        "G. B. M. Mohan",
+        "V. G. Stepanov",
+        "Q. Tran",
+        "J. M. Wood"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains.",
+      "authors": [
+        "N. K. Singh",
+        "D. Bezdan",
+        "A. C. Sielaff",
+        "K. Wheeler",
+        "C. E. Mason",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces.",
+      "authors": [
+        "N. K. Singh",
+        "J. M. Wood",
+        "F. Karouia",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Biofilm forming antibiotic resistant Gram-positive pathogens isolated from surfaces on the International Space Station.",
+      "authors": [
+        "L.-Y. Sobisch",
+        "K. M. Rogowski",
+        "J. Fuchs",
+        "W. Schmieder",
+        "A. Vaishampayan",
+        "P. Oles"
+      ]
+    },
+    {
+      "title": "Measurement of in situ activities of nonphotosynthetic microorganisms in aquatic and terrestrial habitats.",
+      "authors": [
+        "J. T. Staley",
+        "A. Konopka"
+      ]
+    },
+    {
+      "title": "Phenotypic, genomic, transcriptomic and proteomic changes in Bacillus cereus after a short-term space flight.",
+      "authors": [
+        "L. Su",
+        "L. Zhou",
+        "J. Liu",
+        "Z. Cen",
+        "C. Wu",
+        "T. Wang"
+      ]
+    },
+    {
+      "title": "Bacillus safensis FO-36b and Bacillus pumilus SAFR-032: a whole genome comparison of two spacecraft assembly facility isolates.",
+      "authors": [
+        "M. R. Tirumalai",
+        "V. G. Stepanov",
+        "A. Wünsche",
+        "S. Montazari",
+        "R. O. Gonzalez",
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces.",
+      "authors": [
+        "C. Urbaniak",
+        "A. C. Sielaff",
+        "K. Frey",
+        "J. Allen",
+        "N. Singh",
+        "C. Jaing"
+      ]
+    },
+    {
+      "title": "Genomic characterization and virulence potential of two Fusarium oxysporum isolates cultured from the International Space Station.",
+      "authors": [
+        "C. Urbaniak",
+        "P. Van Dam",
+        "A. Zaborin",
+        "O. Zaborina",
+        "J. A. Gilbert",
+        "T. Torok"
+      ]
+    },
+    {
+      "title": "Impact of antibiotic treatment and host innate immune pressure on enterococcal adaptation in the human bloodstream.",
+      "authors": [
+        "D. Van Tyne",
+        "A. L. Manson",
+        "M. M. Huycke",
+        "J. Karanicolas",
+        "A. M. Earl",
+        "M. S. Gilmore"
+      ]
+    },
+    {
+      "title": "IcyTree: rapid browser-based visualization for phlogenetic trees and networks.",
+      "authors": [
+        "T. G. Vaughan"
+      ]
+    },
+    {
+      "title": "Microbial Characteristics of ISS Environmental Surfaces",
+      "authors": [
+        "K. Venkateswaran"
+      ]
+    },
+    {
+      "title": "Transcriptomic and proteomic responses of Serratia marcescens to spaceflight conditions involve large-scale changes in metabolic pathways.",
+      "authors": [
+        "Y. Wang",
+        "Y. Yuan",
+        "J. Liu",
+        "L. Su",
+        "D. Chang",
+        "Y. Guo"
+      ]
+    },
+    {
+      "title": "Antimicrobial-resistant pathogens associated with healthcare-associated infections: summary of data reported to the National Healthcare Safety Network at the Centers for Disease Control and Prevention, 2011–2014.",
+      "authors": [
+        "L. M. Weiner",
+        "A. K. Webb",
+        "B. Limbago",
+        "M. A. Dudeck",
+        "J. Patel",
+        "A. J. Kallen"
+      ]
+    },
+    {
+      "title": "Unicycler: resolving bacterial genome assemblies from short and long sequencing reads.",
+      "authors": [
+        "R. R. Wick",
+        "L. M. Judd",
+        "C. L. Gorrie",
+        "K. E. Holt"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq.",
+      "authors": [
+        "J. Wilson",
+        "C. Ott",
+        "K. H. Zu Bentrup",
+        "R. Ramamurthy",
+        "L. Quick",
+        "S. Porwollik"
+      ]
+    },
+    {
+      "title": "Both live and dead Enterococci activate Caenorhabditis elegans host defense via immune and stress pathways.",
+      "authors": [
+        "G. J. Yuen",
+        "F. M. Ausubel"
+      ]
+    }
+  ],
+  "original_title": "Genomic and functional characterization of Enterococcus faecalis isolates recovered from the International Space Station and their potential for pathogenicity",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/98bf/7829349/9dac790ab9d5/fmicb-11-515319-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/98bf/7829349/260760881b3f/fmicb-11-515319-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/98bf/7829349/b1f793e7d9c5/fmicb-11-515319-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/98bf/7829349/292c1abc0fef/fmicb-11-515319-g004.jpg"
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "pmcid": "PMC11222149",
+  "title": "Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight",
+  "abstract": "Maintenance of astronaut health during spaceflight will require monitoring and potentially modulating their microbiomes. However, documenting microbial shifts during spaceflight has been difficult due to mission constraints that lead to limited sampling and profiling. Here we executed a six-month longitudinal study to quantify the high-resolution human microbiome response to three days in orbit for four individuals. Using paired metagenomics and metatranscriptomics alongside single-nuclei immune cell profiling, we characterized time-dependent, multikingdom microbiome changes across 750 samples and 10 body sites before, during and after spaceflight at eight timepoints. We found that most alterations were transient across body sites; for example, viruses increased in skin sites mostly during flight. However, longer-term shifts were observed in the oral microbiome, including increased plaque-associated bacteria (for example, Fusobacteriota), which correlated with immune cell gene expression. Further, microbial genes associated with phage activity, toxin–antitoxin systems and stress response were enriched across multiple body sites. In total, this study reveals in-depth characterization of microbiome and immune response shifts experienced by astronauts during short-term spaceflight and the associated changes to the living environment, which can help guide future missions, spacecraft design and space habitat planning.\n\nLongitudinal multi-omics reveals shifts to the human microbiome across multiple body sites and the associated immune responses during short-term spaceflight.",
+  "introduction": "Main\n\nThe sources and health impacts of spaceflight-associated microbiome shifts are an open, yet important area of study. Microbes play manifold roles in human physiology; understanding the complex interplay between the space environment and host-microbiome composition is critical. This is especially true with the recent proliferation of commercial spaceflight missions and increased space tourism: individuals with increasingly diverse medical histories will travel into space and to the Moon (for example, dearMoon), and these crews will also carry a more complex history and range of microbiome states (for example, recent antibiotic usage). In this new age, astronauts can be immunocompromised, cancer survivors, elderly or have other health profiles that put them severe other severe outcomes, especially relative to previous NASA, ESA, JAXA and ROSCOSMOS missions.\n\nMicrobes are already associated with many spaceflight-specific health indications. In microgravity, many individuals experience gastrointestinal discomfort (that is, constipation), which is heavily linked to gut microbiome composition. The skin barrier is disrupted and often inflamed, allowing potential invasion of pathobionts or otherwise inflammatory microorganisms. Although the mechanisms are not entirely understood, the immune system experiences suppression during spaceflight, leading to inflammation or a ‘reactivation’ of latent infections, such as herpes viruses. As a result, identifying the sources and impacts of microbiome changes as a function of spaceflight will be essential for the development of microbiome-targeted, spaceflight-relevant diagnostics and therapeutics.\n\nMicrobial physiology, genetics and community composition are also dramatically affected by the space environment, probably due to the stressors of microgravity and radiation. These changes, taken together, alter the nature of microbial communities and, therefore, their cumulative impact on the host. We recently documented the ‘International Space Station (ISS) effect’, in which organisms on the ISS exhibit increasing resistance to antibiotics over time, despite not having been exposed to them in the first place. Many Biosafety Level 2 organisms, including Haemophilus influenzae, Klebsiella pneumonia, Salmonella enterica, Shigella sonnei and Staphylococcus aureus, have been observed to exhibit ecological succession in the environment of the ISS, demonstrating the propensity of the space environment to select for specific community compositions and gene content.\n\nEarly studies in aerospace medicine have indicated that the microbiomes of humans and the built environment shift as a function of spaceflight; however, there are many open questions regarding spaceflight’s microbiome architecture: the totality of detectable flight-associated compositional and expression shifts in the set of all bacteria, viruses and microbial genes in the host and their surrounding environment (Glossary/Supplementary Table 1). Also, the proportion of organisms acquired from other crew members, versus from the environment, remains unclear, and the transience of microbiome changes post-flight remains opaque. Notably, the metatranscriptomic activity of human-associated microbes in response to flight is completely absent. These questions predominantly remain because previous studies have been hampered by (1) limited sample sizes, (2) a lack of longitudinal data and (3) a focus on single sequencing modalities (that is, amplicon sequencing or only DNA profiles).\n\nTo interrogate microbiome community activity in spaceflight, we recently executed a longitudinal, multi-omic (metagenomics, metatranscriptomics, single-cell immunome) sampling study of the SpaceX Inspiration4 mission (i4)—the first all-civilian commercial spaceflight. Over a 6-month window, the crew collected environmental (that is, from the Dragon capsule), skin (n = 8 sites), nasal and oral swabs at eight timepoints before, during and after a 3-day, high-elevation (590 km) mission in orbit, as well as peripheral blood mononuclear cells (PBMCs) before and after spaceflight (n = 3 per flight window). We focused on expression and abundance shifts and their relationship to host immune status as a function of spaceflight. Our results yield a standardized approach for temporally monitoring microbial exposomic changes as a function of spaceflight and, in total, characterize the microbiome architecture of biomedically relevant taxa that are activated or repressed during short-term spaceflight.",
+  "methods": "Methods\n\nInformed consent and ethics approval\n\nThis study was completely in accordance with appropriate ethics guidelines. All participants consented at an informed consent briefing at SpaceX (Hawthorne, California), and samples were collected and processed under the approval of the institutional review board at Weill Cornell Medicine, under Protocol 21-05023569. All crew members provided written informed consent for data and sample sharing.\n\nSample collection, extraction and sequencing\n\nWe sequenced analysed samples from human skin, oral and nasal environmental swabs before, during and after a 3-day mission to space. This dataset comprised paired metagenomic and metatranscriptomic sequencing for each swab. A total of 750 samples were collected in this study by the four crew members of the SpaceX Inspiration4 mission. The samples were taken from 10 body sites (Fig. 1a) across 8 collection points (3 pre-launch, 2 mid-flight and 3 post-flight) between June 2021 and December 2021. The crew additionally collected 20 samples from multiple Dragon capsules from 10 different locations. We note that some crew members (two adult male, two adult female) were using wet wipes (UPC, 036000317985) to bathe themselves in-flight in between swabbing; however, not every crew member did so, and SpaceX did not require this to be a consistent protocol among the crew. Wet wipes used by the crew were neither reused nor shared, which should limit any influence of this confounding variable. No statistical methods were used to predetermine sample sizes but our sample sizes are greater than any previous publication in this field.\n\nThe crew were each provided sterile Isohelix Buccal Mini Swabs (Isohelix, MS-03) and 1.0 ml dual-barcoded screw-top tubes (Thermo Scientific, 3741-WP1D-BR/1.0 ml) prefilled with 400 μl of DNA/RNA Shield storage preservative (Zymo Research, R1100). Following sample collection, swabs were immediately transferred to the barcoded screw-top tubes and kept at room temperature for less than 4 days before being stored at 4 °C until processing. Additional descriptions of the sample collection and sequencing methods are available in companion publications\n\nDNA, RNA and proteins were isolated from each sample using the QIAGEN AllPrep DNA/RNA/Protein kit (QIAGEN, 47054) according to manufacturer protocol, yet omitting steps one and two. To lyse biological material from each sample, 350 μl of each sample was transferred to a QIAGEN PowerBead tube with 0.1 mm glass beads and secured to a Vortex-Genie 2 using an adapter (1300-V1-24) before being homogenized for 10 min. Of the subsequent lysate, 350 μl was transferred to a spin-column before proceeding with the protocol. Concentrations of the isolated DNA, RNA and protein for each sample were measured by fluorometric quantitation using the Qubit 4 fluorometer (Thermo Fisher, Q33238) and a corresponding assay kit. The Qubit 1Xds DNA HS Assay kit was used for DNA concentration (Q33231) and the RNA HS Assay kit (Q32855) was used for RNA concentration.\n\nFor shotgun metagenomic sequencing, library preparation for Illumina NGS platforms was performed using the Illumina DNA FLEX Library Prep kit (20018705) with IDT for Illumina DNA/RNA US indexes (20060059). Following library preparation, quality control was assessed using a BioAnalyzer 2100 (Agilent, G2939BA) and the High Sensitivity DNA assay. All libraries were pooled and sequenced on an S4 flow cell of the Illumina NovaSeq 6000 Sequencing System with 2 × 150-bp paired-end reads.\n\nFor metatranscriptomic sequencing, library preparation and sequencing were performed at Discovery Life Sciences (Huntsville, Alabama). The extracted RNA went through an initial purification and cleanup with DNase digestion using the Zymo Research RNA Clean & Concentrator Magbead kit (R1082) following the manufacturer-recommended protocol on the Beckman Coulter Biomek i5 liquid handler (B87583). Following cleanup, ribosomal RNA reduction for RNA-seq library reactions was performed using the New England Bioscience NEBnext rRNA Depletion kit (Human/Mouse/Rat) (E6310X), and libraries were prepared using the NEBnext Ultra II Directional RNA Library Prep kit (E7760X) with GSL 8.8 IDT Plate Set B indexes. Following library preparation, quality control was assessed using the Roche KAPA Library Quantification kit (KK4824). All libraries were pooled and sequenced on an S4 flow cell of the Illumina NovaSeq 6000 Sequencing System with 2 × 150-bp paired-end reads.\n\nFor faecal collection, all participants were provided with DNA Genotek OMNIgene-GUT (OM-200) kits for gut microbiome DNA collection. Each participant was instructed to empty their bladder and collect a faecal sample free of urine and toilet water. From the faecal specimen, each participant used a sterile single-use spatula, provided by the OMNIgene-GUT kit, to collect the faeces and deposit it into the OMIgene-GUT tube. Once deposited and sealed, the user was instructed to shake the sealed tube for 30 s to homogenize the sample and release the storage buffer. All samples from each timepoint were stored at room temperature for less than 3 days before storing at −80 °C long term. Faecal samples collected using the OMNIgene-GUT kit are stable at room temperature (15–25 °C) for up to 60 days.\n\nDNA was isolated from each sample using the QIAGEN PowerFecal Pro DNA kit (51804). OMNIgene-GUT tubes were thawed on ice (4 °C) and vortexed for 10 s. Then, 400 μl of homogenized faeces was transferred into the QIAGEN PowerBead Pro tube with 0.1 mm glass beads and secured to a Vortex-Genie 2 using an adapter (1300-V1-24) before being homogenized at maximum speed for 10 min. The remainder of the protocol was completed as instructed by the manufacturer. The concentration of the isolated DNA was measured by fluorometric quantitation using the Qubit 4 fluorometer (Thermo Fisher, Q33238), and the Qubit 1Xds DNA Broad Range Assay kit was used for DNA concentration (Q33265).\n\nFor shotgun metagenomic sequencing, library preparation for Illumina NGS platforms was performed using the Illumina DNA FLEX Library Prep kit (20018705) with IDT for Illumina DNA/RNA US indexes (20060059). Following library preparation, quality control was assessed using a BioAnalyzer 2100 (Agilent, G2939BA) and the High Sensitivity DNA assay. All libraries were pooled and sequenced on the Illumina NextSeq 2000 Sequencing System with 2 × 150-bp paired-end reads.\n\nSample quality control\n\nAll metagenomic and metatranscriptomic samples underwent the same quality control pipeline before downstream analysis. Software used was run with the default settings unless otherwise specified. The majority of our quality control pipeline makes use of bbtools (v.38.92), starting with clumpify (parameters: optical = f, dupesubs = 2,dedupe = t) to group reads, bbduk (parameters: qout = 33 trd = t hdist = 1 k = 27 ktrim = ‘r’ mink = 8 overwrite = true trimq = 10 qtrim = ‘rl’ threads = 10 minlength = 51 maxns = −1 minbasefrequency = 0.05 ecco = f) to remove adapter contamination, and tadpole (parameters: mode = correct, ecc = t, ecco = t) to remove sequencing error. Unmatched reads were removed using bbtool’s repair function. Alignment to the human genome with Bowtie2 v.2.2.3 (parameters: –very-sensitive-local) was done to remove potentially human-contaminating reads.\n\nMetagenomic assembly, bacterial and viral binning, and bin abundance quantification\n\nWe assembled all samples with MetaSPAdes v.3.14.3 (–assembler-only). Assembly quality was gauged using MetaQUAST (v.5.0.2). We binned contigs into bacterial metagenome-assembled genomes on a sample-by-sample basis using MetaBAT2 v.2.12.1 (parameters: –minContig 1500). Depth files were generated with MetaBAT2’s built-in ‘jgi_summarize_bam_contig_depths’ function. Alignments used in the binning process were created with Bowtie2 v.2.2.3 (parameters: —very-sensitive-local) and formatted into index bamfiles with samtools v.1.0.\n\nGenome bin quality was checked using the ‘lineage’ workflow of CheckM (v.1.2). Medium and high-quality bins were dereplicated using deRep v.3.2.2 (parameters: -p 15 -comp 50 -pa 0.9 -sa 0.95 -nc 0.30 -cm larger). The resulting database of non-redundant bins was formatted as an xtree database (parameters: xtree BUILD k 29 comp 2), and sample-by-sample alignments and relative abundances were completed with the same approach as before. Bins were assigned taxonomic annotations with GTDB-tK (v.2.1.1).\n\nIdentification and taxonomic annotation of assembled viral contigs\n\nTo identify putative viral contigs, we used CheckV (v.0.8.1). For downstream viral abundance quantification, we filtered for contigs annotated as medium quality, high quality or complete. This contig database was dereplicated using BLAST and clustered at the 99% identity threshold as described above using established and published approaches (https://github.com/snayfach/MGV/tree/master/ani_cluster). The non-redundant viral contigs were formatted as an xtree database (parameters: xtree BUILD k 29 comp 0), and sample-by-sample alignments and relative abundances were computed with the same approach as before, the only difference being the coverage cut-off used to filter out viral genomes, which was lowered to 1% total and 0.05% unique due to the fact that those in question came directly from the samples analysed.\n\nGene catalogue construction and functional annotation\n\nWe generated gene catalogues using an approach piloted in previous studies. Bakta v.1.5.1 was used to call putative open reading frames (ORFs). The annotations reported in this study (for example, Fig. 5) derive directly from Bakta. We clustered predicted and translated ORFs (at 90% requisite overlap and 90% identity) into homology-based sequence clusters using MMseqs2 v.13.4511 (parameters: –easy-cluster –min-seq-id 0.9 -c 0.9). The resulting ‘non-redundant’ gene catalogue and its annotations were used in the functional analysis. We computed the abundance of the representative consensus sequences selected by MMseqs2 by alignment of quality-controlled reads with Diamond (v.2.0.14). We computed the total number of hits and computed gene relative abundance by dividing the number of aligned reads to a given gene by its length and then by the total number of aligned reads across all genes in a sample.\n\nBenchmarking short-read viral taxonomic classification against the GenBank database\n\nTo identify viral taxonomic abundance via short-read alignment, we mapped reads to a database of all complete, dereplicated (by BLAST at 99% sequence identity) GenBank viral genomes. We used the Xtree aligner for this method (see below); however, given the difficulty of assigning taxonomic ranks to viral species on the basis of alignment alone, we first benchmarked this process. We used Art to generate synthetic viral communities at random abundances from 100 random viruses from the GenBank database. We then aligned (with Xtree) back to these genomes, filtered for 1% total coverage and/or 0.5% unique coverage, and compared expected read mapping vs observed read mapping. We additionally computed true/false positive rates on the basis of the proportion of taxa identified that were present in the mock community (true positive) versus those that were not (false positive) versus those that were present but not identified (false negative). Overall, we identified optimal classification at the genus level, with >98% true positive rate (that is, 98/100 taxa identified) and low false positive/negative rates (for example, <10 taxa not present in the sample identified) (Extended Data Fig. 10a,b). Species-level classification had higher false negative rates (generally arising from multimapping reads to highly similar species) and a 60–70% true positive rate. Genus-level classification also yielded a nearly perfect correlation (>0.99 on average) between expected and observed read mappings (Extended Data Fig. 10c). As a result, while we report analyses for every taxonomic rank in the supplement, in the main text we describe only genus-level viral analysis.\n\nOverview of short-read taxonomic classification via alignment\n\nIn total, we used and compared seven different short-read mapping methods (MetaPhlAn4/StrainPhlAn, Xtree, Kraken2/Bracken run with four different settings, and Phanta), which together utilize five different databases that span bacterial, viral and fungal life. In addition, we identified and computed the relative abundance of non-redundant genes as well as bacterial and viral metagenome-assembled genomes. Subsequent downstream regression analyses were run on each resultant abundance table at each taxonomic rank.\n\nUnless otherwise stated, for the figures involving taxonomic data used in the main text of this paper, we used XTree (https://github.com/GabeAl/UTree) (parameters: –redistribute). XTree is a recent update to Utree containing an optimized alignment approach and increased ease of use. In brief, it is a k-mer-based aligner (akin to Kraken2 (ref. ) but faster and designed for larger databases) that uses capitalist read redistribution to pick the highest-likelihood mapping between a read and a given reference based on the overall support of all reads in a sample for said reference. It reports the total coverage of a given query genome, as well as total unique coverage, which refers to coverage of regions found in only one genome of an entire genome database. We computed beta diversity (Bray–Curtis) metrics for taxonomic abundances using the vegan package in R.\n\nBacteria-specific short-read classification\n\nFor bacterial alignments, we generated an Xtree k-mer database (parameters: BUILD k 29 comp 0) from the Genome Taxonomy Database representative species dataset (Release 207) and aligned both metagenomic and metatranscriptomic samples. We filtered bacterial genomes for those that had at least 0.5% coverage and/or 0.25% unique coverage. Relative abundance was calculated by dividing the total reads assigned to a given genome by the total number of reads assigned to all genomes in a given sample. We additionally ran MetaPhlAn4 (ref. ) (default settings) as an alternative approach to bacterial taxonomic classification.\n\nVirus-specific short-read classification\n\nFor viral GenBank alignments, we generated an Xtree database (parameters: BUILD k 17 comp 0) from all complete GenBank viral genomes. We first dereplicated these sequences with BLAST 99% identity threshold via published approaches (https://github.com/snayfach/MGV/tree/master/ani_cluster). We filtered for genomes with 1%/0.5% total/unique coverage. Relative abundance was calculated identically as with the bacterial samples. We additionally ran Phanta (default settings) as an alternative to this approach for viral classification.\n\nKraken2 (multikingdom) short-read classification\n\nAs another set of methods for measuring taxonomic sample composition, we used Kraken2 and bracken, both with the default settings, to call taxa and quantify their abundances, respectively. We used the default kraken2 reference databases, which include all NCBI listed taxa (bacteria, fungal and viral genomes) in RefSeq as of September 2022. We ran Kraken2 with four different settings: default (confidence = 0) and unmasked reads, confidence = 0 and masked reads, confidence = 0.2 and unmasked reads, and confidence = 0.2 and masked reads. In the cases where we masked reads before alignment (to filter repeats and determine whether fungal and other eukaryotic alignments were probably false positives), we used bbmask running default settings.\n\nEvaluation of bacterial and viral short-read classification\n\nTo evaluate our taxonomic profiling approach, we first compared the top ten genus-level classifications by body site before and after decontamination for each classifier in metagenomic and metatranscriptomic data. We observed general concordance among the various classification methods; for instance, the predominant skin genera consistently identified included Staphylococcus, Cutibacterium and Corynebacterium. The oral microbiome included Streptococcus, Rothia and Fusobacterium. Kraken2, which uses a database comprising both eukaryotic and prokaryotic organisms, identified fungi in the skin microbiome, as expected. The swabs from the Dragon capsule predominantly contained a diverse array of environmental microbes.\n\nWe compared these results at additional taxonomic ranks and with other taxonomic classifiers. For example, to discern higher specificity of the viral changes, we additionally fit species-level virus associations. While species-level viral taxonomic classification can be difficult due to high read misalignments (Extended Data Fig. 10), we wanted to determine whether we could observe a higher-resolution picture of viral activity due to spaceflight, as this effect is known to be space-associated (as opposed to bacterial skin to skin transmission, which could be a result of sharing tight quarters and not a space-specific effect).\n\nSample decontamination with negative controls\n\nWe observed that many of the swabs collected, especially those from the skin sites, comprised low-biomass microbial communities; there are many documented challenges in analysing these data. To filter environmental contamination and the kitome influencing our findings, we collected and sequenced negative controls of both (1) the water that sterile swabs were dipped in before use, as well as (2) the ambient air around the sites of sample collection and processing for sequencing.\n\nFollowing taxonomic classification and identification of de novo assembled microbial genes, we removed potential contaminants from samples by comparison to our negative controls. We ran the same classification approaches for each negative control sample as described in the above paragraphs. This yielded, for every taxonomy classification approach and accompanying database, a dataframe of negative controls alongside a companion dataframe of experimental data. On each of these dataframe pairs, we then used the isContaminant function (parameters: method = ‘prevalence’, threshold = 0.5) of the decontam package to mutually high-prevalence taxa between the negative controls and experimental samples. The guidance for implementation of the decontam package, including the parameter used, was derived from the following R vignette: https://benjjneb.github.io/decontam/vignettes/decontam_intro.html. Note that we used both metagenomic and metatranscriptomic negative control samples to decontaminate all data, regardless of whether those data were themselves metagenomic or metatranscriptomic. This decision was made to increase the overall conservatism of our approach.\n\nMAS on bacteria, viruses and genes\n\nFour mixed-model specifications were used for identifying microbial feature relationships with flight. Time is a variable encoded with three levels corresponding to the time of sampling relative to flight: pre-flight, mid-flight and post-flight. The reference group was the mid-flight timepoint, indicating that any regression coefficients had to be interpreted relative to flight (that is, a negative coefficient on the pre-launch timepoint implies that a feature was increased in-flight). We fit these models for all genes, viruses, and bacteria identified in our dataset by assembly, XTree (GTDB/GenBank), MetaPhlAn4, Kraken2 (all four algorithmic specifications), Phanta and gene catalogue construction. Each variable encoding a body site is binary, encoding whether a sample did or did not come from a particular region.\n\nTo search for features that were changed across the entire body, we fit overall associations, oral associations, skin associations and nasal associations:For associations with oral changes, we used:For associations with nasal changes, we used:For identifying associations with skin swabs, we fit the following model:The β characters in each of the above equations refer to the beta coefficients on a given variable in that given regression. The ε characters refer to the regression residuals. Note that in the final equation (4), the reference groups are samples deriving from the nasal and oral microbiomes; this means that highlighted taxa will be those associated with time and skin sites as compared to the oral and nasal sites. We additionally fit these same model specifications without the random effect and compared the results in Extended Data Fig. 2. Data distributions were assumed to be normal but not tested for every single microbial feature. Individual data points for each feature are present in the online data stored at figshare and with NASA GeneLab (see Data availability).\n\nWe used the lme4 (ref. ) package to compute associations between microbial features (that is, taxa or genes) abundance and time as a function of spaceflight and body site. For all data types, we aimed to remove potential contamination before running any associations. We estimated P values on all models with the ImerTest package using its default settings. We adjusted for false positives using Benjamini–Hochberg adjustment and used a q-value cut-off point of 0.05 to gauge significance.\n\nIdentifying and plotting time-dependent trends in microbial features\n\nTransient increase in-flight—negative coefficient on the pre-flight variable level, negative coefficient on the post-flight variable, statistically significant for both\n\nTransient increase in-flight (low priority)—negative coefficient on the pre-flight variable level, negative coefficient on the post-flight variable, statistically significant for at least one of the two\n\nTransient decrease in-flight—positive coefficient on the pre-flight variable level, positive coefficient on the post-flight variable level, statistically significant for both\n\nTransient decrease in-flight (low priority)—positive coefficient on the pre-flight variable level, positive coefficient on the post-flight variable level, statistically significant for at least one of the two\n\nPotential persistent increase—negative coefficient on the pre-flight variable level, positive coefficient on the post-flight variable level, statistically significant for at least one of the two\n\nPotential persistent decrease—positive coefficient on the pre-flight variable level, negative coefficient on the post-flight variable level, statistically significant for at least one of the two\n\nWe grouped microbial features associated with flight into six different categories. These were determined since our model contained a categorical variable encoding a sample’s timing relative to flight: whether it was taken before, during or afterwards. Since the modelling reference group was ‘mid-flight’, the interpretation of any coefficients would be directionally oriented relative to mid-flight microbial feature abundances. As a result, we were able to categorize features on the basis of the jointly considered direction of association and significance for the ‘pre-flight’ and ‘post-flight’ levels of this variable. The below listed categories are all included in the association summaries provided on figshare (see ‘Data availability’).\n\nWe used these groups to surmise the time trends reported in the figures. It would be intractable to visualize every association of interest, so we prioritized within each category on the basis of the absolute value of beta-coefficients and adjusted P values. In Fig. 1c, we removed the ‘low priority’ categories (two and four above) and only looked at the top 100 most increased and decreased significant genes, by group, relative to flight. We did so to make fitting splines feasible (especially in the case of genes, which had so many associations) and filter out additional noise due to low association-size findings.\n\nWe took a similar approach for the barplots in Figs. 2–4 and Extended Data Figs. 7–9. We again filtered out the low priority associations and selected, for each body site represented in the figure (for example, oral, skin, nasal), the top N with the greatest difference in absolute value of average L2FC relative to the mid-flight timepoints. In other words, we selected for microbial features with dramatic overall L2FCs. We maximized N on the basis of the available space in the figure in question. We note that the complete, categorized association results are available in the online data resource (see Data availability).\n\nDetecting microbial sharing between the crew and environment before, during and after flight\n\nWe modelled our species/strain-sharing analysis on the basis of ref. . Briefly, we used the –s flag in MetaPhlAn4 to generate sam files that could be fed into StrainPhlAn. We used the sample2markers.py script to generate consensus markers and extracted markers for each identified strain using extract_markers.py. We ran StrainPhlAn with the settings recommended in ref.  (–markers_in_n_samples 1, –samples_with_n_markers 10 – mutation_rates –phylophlan_mode accurate). We then used the tree distance files generated by StrainPhlAn to identify strain-sharing cut-offs on the basis of the prevalence of different strains (detailed tutorial: https://github.com/biobakery/MetaPhlAn/wiki/Strain-Sharing-Inference).\n\nAssociation with host immune gene subtypes\n\nThe single-cell sequencing approach and averaging of host genes to identify expression levels are documented in refs. . The resultant averaged expression levels across cell types were associated with microbial feature abundance/expression using lasso regression. We used the same log transformation approach as in the mixed effects modelling for the microbial features, and we centred and rescaled the immune expression data. In total, we computed one regression per immune cell type (N = 8) per relevant microbial feature, with the independent variables being all human genes (N = 30,601). We selected features on the basis of their grouping described above, picking only those that were increased transiently or persistently increased after flight. Due to the volume of gene-catalogue associations, we only analysed persistently increased genes. We report outcomes with non-zero coefficients in the text.\n\nFigure generation and additional data processing notes\n\nThe GNU parallel package was used for multiprocessing on the Linux command line. We additionally used a series of separate R packages for analysis and visualization. Figures were compiled in Adobe Illustrator.\n\nStatistics and reproducibility\n\nNo statistical method was used to predetermine sample size; all possible samples from all crew members (N = 4) were taken. No sequenced data were excluded from the analyses; however, samples were quality controlled before bioinformatic and statistical analysis to remove duplicated reads, trim adapters and low-quality bases, remove human contamination and remove potential microbial contamination (using negative controls). The experiments were not randomized. Data collection and analysis were not performed blind to the conditions of the experiments.\n\nReporting summary\n\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.\n\nSupplementary information\n\nSource data\n\nExtended data\n\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\n\nThese authors contributed equally: Braden T. Tierney, JangKeun Kim.\n\nChange history\n\n6/25/2024\n\nIn the version of the article initially published, Fig. 1 included an earlier, incorrect title which has now been amended to “Overview of dataset and summary of changes” in the HTML and PDF versions of the article.\n\nExtended data\n\nis available for this paper at 10.1038/s41564-024-01635-8.\n\nSupplementary information\n\nThe online version contains supplementary material available at 10.1038/s41564-024-01635-8.",
+  "results": "Results\n\nThe human microbiome is altered in short-term spaceflight\n\nThe i4 crew collected a microbiome dataset spanning eight timepoints: three before flight, three after flight and two during flight. In total, we sequenced 385 metagenomic and 365 metatranscriptomic swabs comprising ten body sites representing the oral, nasal and skin microbiomes (n = 750 samples, Fig. 1a), plus eight stool samples (from two participants before and after flight). Locations inside the Dragon capsule were swabbed twice in flight and also before spaceflight (a separate capsule was utilized for crew training).\n\nWe used a diverse set of short-read alignment and de novo assembly approaches to estimate the microbial community taxonomic and functional composition of our dataset (Extended Data Fig. 1, Methods and Supplementary Figs. 1–7). We queried whether the conditions of short-term spaceflight (potentially including, for example, microgravity, radiation or altered dietary and cleaning habits) altered overall bacterial and viral community composition and expression consistently across the crews. Via a linear mixed effect (LME) modelling approach, we executed a microbiome-association study (MAS), computing associations for each taxonomic rank and classifier between flight and the abundance of (1) bacterial species, (2) viral genera and non-redundant proteins. We grouped false discovery rate (FDR) significant (q-value < 0.05) features into four categories: transiently increased in-flight, transiently decreased in-flight, persistently increased in/after flight and persistently decreased in/after flight. We additionally fit generalized linear models (GLMs) alongside LMEs and identified the two approaches to be generally concordant (Extended Data Fig. 2).\n\nIn total, we observed a predominantly transient restructuring of the oral, nasal and skin microbiomes as a function of flight (Fig. 1b–c and Extended Data Fig. 3). Across all ten sites swabbed and regressed, over 821,337 associations were statistically significant (adjusted P < 0.05) and grouped into one of the four categories of interest. These comprised 314,701 distinct microbial features: 792 were viral, 767 were bacterial and the remaining were microbial genes. The majority (73.5%) of significant and categorized features were transiently increased in abundance, yet 24.6% were transiently depleted during flight, and 0.6% and 1.1% of features appeared to continually increase or decrease (respectively) following the crew’s return to Earth across multiple timepoints. Transient shifts were more dramatic than persistent ones. The limited persistence of changes indicates that, while microbial communities may restructure in space, the relative abundance of altered organisms, as well as their gene expression, generally reset upon returning to Earth. Despite these changes, we note that this analysis alone does not indicate the degree to which spaceflight itself, versus other confounding factors such as altered diet, affects the host microbiota.\n\nDifferent body sites displayed distinct time trends that varied depending on molecular type (gene expression vs relative abundance) and domain of life. Time-dependent shifts were apparent in all body sites. The oral microbiome displayed a restructuring in both relative abundance and bacterial gene expression; 161 bacterial and viral taxonomies were transiently increased, 173 were transiently decreased, 62 were persistently increased and 12 were persistently decreased (Fig. 1c). Alternatively, the skin microbiome demonstrated fewer persistent changes, with 933 transiently increased (metagenomic) taxa across all eight skin sites. The number and direction of altered microbiome features were generally consistent across classification methods (Extended Data Fig. 4), and most taxonomic associations were unique to individual body sites (Extended Data Fig. 5).\n\nBacterial and viral shifts during and after spaceflight\n\nWe next interrogated the taxonomies of bacterial shifts during spaceflight. The organisms with the strongest effects were distinct across biological modalities; in other words, an increase in gene expression did not necessarily imply the existence of a similar increase in the abundance of DNA ascribed to a given species. This discordance was apparent in the oral microbiome (Fig. 2), for example, where there was almost no overlap between the organisms that altered in terms of relative abundance and those that altered in terms of gene expression.\n\nSpecifically, the oral microbiome demonstrated flight-dependent variation in the metatranscriptomic expression of bacteria associated with dental decay and biofilm formation (Fig. 2). Various members of Fusobacteriota, a progenitor to gum and tooth disease previously reported as spaceflight-associated, demonstrated an increase either in or after spaceflight. These included Fusobacterium hwasookii, Fusobacterium nucleatum and Leptotrichia hofstadii. Other oral biofilm species known to aggregate synergistically with Fusobacterium species in the mouth were also enriched in and after flight; these included Streptococcus gordonii A, multiple Campylobacter species and Actinomyces oris species. Also, there was a persistent loss in the expression of Streptococcus oralis spp. and Lachnoanaerobaculum gingivalis, and a transient decrease in Veillonella spp. Alloscardovia omnicolens was the only organism with a strong, persistent increase in metagenomic levels. We compared the MetaPhlAn4 associations to those identified in the GTDB database and found similar results, especially regarding the overall enrichment of Fusobacterium sp. in flight.\n\nMany of the strongest bacterial skin microbiome alterations (Fig. 3) were predominantly metagenomic, as opposed to metatranscriptomic. We hypothesized that this may indicate the acquisition of new but non-transcriptionally active species from the surrounding environment and crew. For example, persistent increases were mostly in the metagenomic content of various gut microbes (for example, Bacteroides, Parabacteroides, Blautia, Enterocloster); this may result from altered hygiene habits during spaceflight.\n\nAs with the oral microbiome, there was little concordance between metagenomic and metatranscriptomic changes. On the other hand, Corynebacterium species (common skin commensals) experienced metatranscriptomic, temporary depletion in-flight, and Acinetobacter spp. demonstrated a persistent depletion. These ‘typical’ skin microbes (for example, Corynebacterium, Staphylococcus, Variovorax, Acinetobacter) underwent changes in metatranscriptomic activity, whereas organisms not universally found on the human skin (for example, Mesorhizobium spp., Prevotella spp.) tended to experience metagenomic shifts, again indicating the potential acquisition of non-transcriptionally active organisms from different niches.\n\nHowever, the landscape of viral activity and depletion covered region-specific, prokaryotic- and eukaryotic-targeting viral genera (Fig. 3b). The majority of detectable viral activity comprised phages in the skin microbiome (that is, DNA viruses targeting prokaryotic hosts), and it was concentrated in the gluteal crease. Most viral activity was transiently increased in-flight across diverse lineages. For example, Uroviricota, Cressdnaviricota and Phixviricota shifted across the oral, skin and nasal microbiomes. However, phyla containing biomedically relevant, potential human pathogens also increased, including Kitrinoviricota, Artverviricota, Nucleocytoviricota and Duplornaviricota.\n\nA core functional microbial landscape of spaceflight\n\nWe next aimed to characterize the consistency with which microbial gene abundances changed across time and body site across 3.6 million non-redundant genes. First, we explored the broad functions of the genes that fell into either the transiently increased or transiently decreased categories. The increases in DNA content on the skin, as well as decreases in nasal microbiome content, were immediately apparent (Extended Data Fig. 6a, third and first columns, respectively), and the oral microbiome and gluteal crease also underwent large metatranscriptomic increases. Of note, the category that exhibited the greatest fluctuation in genes was ‘amino acid transport and metabolism’. In the exposed areas of the skin, such as the forearm, the genes that were changed in this category mostly came from metagenomic data. In less exposed body sites (that is, oral, gluteal crease), the activity in this category was primarily metatranscriptomic. This may indicate the dramatic degree to which microbial nutrient needs change in-flight, probably from a combination of features ranging from environmental strain transfer, competition and host dietary changes.\n\nThe oral, nasal and skin microbiomes demonstrated consistency in the functions that were altered during spaceflight, especially in the metagenomic data. We observed five different categories of proteins of interest enriched among increased features: antibiotic and heavy metal resistance, haem binding/export, lantibiotic-associated genes, phage-associated genes and toxin–antitoxin systems (Extended Data Figs. 6b and 7–9). Lantibiotic biosynthesis again displayed a discordant response between sequencing types; it was decreased in the metagenomic data but increased in metatranscriptomics. Phage proteins, toxin–antitoxin systems, and antibiotic-related/heavy metal pathways increased noticeably across all host niches. As in other spaceflight studies, we specifically observed an increase in the RelB toxin–antitoxin genes, most notably through metatranscriptomics.\n\nMicrobial similarity between the capsule and crew members\n\nWe observed that, on average, bacterial beta diversity appeared to decrease after flight (Fig. 4a), indicating a broad convergence of the crew microbiome. When ranking sites by similarity to the capsule mid-flight (Fig. 4a, from left to right), the beta diversity correlated with the degree of environmental exposure for a given sampling site. For example, the oral microbiome remained highly dissimilar from the microbiome of the capsule and other sites, whereas the forearm microbiome became much more similar to that of the walls of the Dragon capsule and other crew members, which matches the degree of exposure of that body site.\n\nFurther, our MAS also indicated that during spaceflight, the composition of the crews’ microbiota changed, most notably in the skin niche, although the sources of these alterations were unclear. We hypothesized that these shifts in community composition and the overall increase in microbiome similarity could simply be a result of individuals cohabitating in a tight space; however, a change in gene expression in the oral microbiome, where microbial exchange is probably less likely, could derive from other ecological or other exposure changes such as diet or immune alterations.\n\nTherefore, we next identified shared microbial signatures between individuals and the environment. Specifically, we queried whether host microbiomes converged during and after flight and whether putative microbial exchange occurred within individuals, between individuals, or both within individuals and the capsule, utilizing recently published methods to determine whether strain-level markers could discern the directionality of microbial exchange across environments.\n\nOverall (Fig. 4b), we found that while in flight, marker genes for individual microbial strains were mostly shared between skin microbiome samples from the same individual (and not across individuals). The capsule had variation in overlap with individuals, with most occurring in exposed skin. Moreover, there were more potential shared microbial strains between the capsule and different individuals by the second sampling in-flight (Fig. 4c), indicating an influence of cohabitation time on migration. Strains identified by StrainPhlAn, such as Mesorhizobium_hungaricum|t__SGB11031, identified as present in multiple locations mid-flight (Fig. 4d), were similar in part to those GTDB species identified as increased metagenomically (but not transcriptionally) across exposed skin sites (Fig. 3). Notably, most of these putative sharing between individuals were present after flight, as opposed to before the mission, indicating in-flight transfer. Finally, we note that in this dataset, which contains numerous low-biomass samples, any indications of strain-sharing are difficult to validate (for example, contamination could potentially drive some of the findings), so the following results should be validated in future skin microbiome and aerospace studies.\n\nSpaceflight microbiome shifts associate with host gene expression\n\nHaving mapped the architecture of microbiome changes surrounding spaceflight and identified the source of some of those changes, we next searched for indications of a link between microbiome ecology and the host immune system. To do so, we integrated the observations from our MAS with host immune single-nuclei transcriptome data from PBMCs. Via averaging across single-nuclei sequencing information, we estimated the gene expression of nine host immune cell subpopulations and we computed differentially expressed genes within cell types post-flight using lasso regression to identify candidate relationships between flight-associated, increased microbial features and immune cell subpopulation gene expression. Specifically, we aimed to identify whether metatranscriptomic or metagenomic (that is, cohabitation-derived) changes were more likely to be correlated with immune transcriptome changes.\n\nWe observed many putative relationships between host immune cell expression, body site and microbial features (Fig. 5a). Bacterial species, specifically in the oral microbiome, had many metatranscriptomic associations across all cell types. In terms of relative abundance (that is, metagenomics), oral microbes were associated with CD4 T cells, CD8 T cells and CD16 monocytes, which are known for innate immune response against pathogens. Skin bacteria had very few associations with immune cells (compared to oral) in both metagenomics and metatranscriptomics. The overall lack of associations between skin bacteria and immune response was interesting, as it indicated that while microbes are potentially acquired during flight (as observed in Fig. 4), these acquired microbes may have limited immediate impact on the host. In other words, there was limited evidence that strain-sharing due to cohabitation drove a strong altered immune state in humans. Conversely, we did observe a limited link in our data between viruses and immune cell expression, with natural killer (NK) cells, CD14 monocytes, dendritic cells and CD16 monocytes showing the most viral associations; these associations were predominantly in the skin microbiome, which may relate to previous observations of increase viral shedding in astronauts.\n\nNext, we examined a subset of microorganisms with expression and abundance changes that correlated with host genes across multiple immune cell types (Fig. 5b). A small group of metagenomically detected viruses were associated with many different immune genes; one genus (Family Genomoviridae) targets fungi and was correlated with 13 genes in natural killer cells. The presence of this virus on the skin makes additional sense given that fungi are known skin symbionts. The other associated viruses had unclassified hosts or targeted bacteria.\n\nIn the oral microbiome, pathobiont gene expression was associated with immune cell gene expression. Streptococcus pneomoniae A had the largest number of genes associated with it; 30/32 genes were found in natural killer cells. Streptoccocus gordonii A, which was persistently increased after flight was associated with many different immune cell subtypes (N = 32 genes), including CD4 T cells, CD14 monocytes, CD16 monocytes and dendritic cells. The only oral bacterial relative abundance increase during or after flight that was associated with many immune cell subtypes was in Gemella morbillorum. The other oral microbes with the strongest oral associations included other medically relevant organisms, as well as some typical commensals: Pauljensenia hongkongensis, Campylobacter_A concisus_R, Actinomyces massiliensis, Haemophilus_A parahaemolyticus, Leptotrichia_A sp905371725, Porphyromonas catoniae and many Streptococcus spp.\n\nThe microbial genes (Fig. 5c) associated with the most human genes were detected via both shifts in relative abundance (DNA) as well as expression (RNA). They spanned many different protein annotations, yet there were some commonalities among those that were correlated with many immune cell subpopulations. Most notably, these annotations, across both metagenomics and metatranscriptomics, included transcription factors, cell surface proteins and transporters. Pertinent to our previous results (Extended Data Fig. 6b), the top microbial gene (for example, hemX) in the nasal microbiome was the haem uptake protein IsdC.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Microbiome",
+    "Computational biology and bioinformatics",
+    "Medical research",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Medical qualification of a commercial spaceflight participant: not your average astronaut",
+      "authors": [
+        "RT Jennings"
+      ]
+    },
+    {
+      "title": "Space medicine in the era of civilian spaceflight",
+      "authors": [
+        "J Stepanek",
+        "RS Blue",
+        "S Parazynski"
+      ]
+    },
+    {
+      "title": "Gastrointestinal function in simulated space flight microgravity",
+      "authors": [
+        "P Iovino"
+      ]
+    },
+    {
+      "title": "Space flight nutrition research: platforms and analogs",
+      "authors": [
+        "SM Smith",
+        "PN Uchakin",
+        "BW Tobin"
+      ]
+    },
+    {
+      "title": "Gut microbiome and space travelers’ health: state of the art and possible pro/prebiotic strategies for long-term space missions",
+      "authors": [
+        "S Turroni"
+      ]
+    },
+    {
+      "title": "The effects of microgravity on the digestive system and the new insights it brings to the life sciences",
+      "authors": [
+        "J-Q Yang"
+      ]
+    },
+    {
+      "title": "Investigation of spaceflight induced changes to astronaut microbiomes",
+      "authors": [
+        "MD Morrison"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on human skin",
+      "authors": [
+        "Á Farkas",
+        "G Farkas"
+      ]
+    },
+    {
+      "title": "Skin microbiome considerations for long haul space flights",
+      "authors": [
+        "G Caswell",
+        "B Eshelby"
+      ]
+    },
+    {
+      "title": "Cope, H. et al. Transcriptomics analysis reveals molecular alterations underpinning spaceflight dermatology. Commun. Med.10.1038/s43856-024-00532-9 (2024)",
+      "authors": []
+    },
+    {
+      "title": "The epithelial barrier theory: development and exacerbation of allergic and other chronic inflammatory diseases",
+      "authors": [
+        "UC Kucuksezer"
+      ]
+    },
+    {
+      "title": "Dysregulation of the epithelial barrier by environmental and other exogenous factors",
+      "authors": [
+        "Y Mitamura"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions",
+      "authors": [
+        "BE Crucian"
+      ]
+    },
+    {
+      "title": "Spaceflight virology: what do we know about viral threats in the spaceflight environment?",
+      "authors": [
+        "B Pavletić"
+      ]
+    },
+    {
+      "title": "Latent virus reactivation in astronauts on the international space station",
+      "authors": [
+        "SK Mehta"
+      ]
+    },
+    {
+      "title": "Asymptomatic reactivation and shed of infectious varicella zoster virus in astronauts",
+      "authors": [
+        "RJ Cohrs",
+        "SK Mehta",
+        "DS Schmid",
+        "DH Gilden",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Multiple latent viruses reactivate in astronauts during Space Shuttle missions",
+      "authors": [
+        "SK Mehta"
+      ]
+    },
+    {
+      "title": "Microbial growth and physiology in space: a review",
+      "authors": [
+        "LA Cioletti",
+        "DL Pierson",
+        "SK Mishra"
+      ]
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "F Karouia",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces",
+      "authors": [
+        "A Avila-Herrera"
+      ]
+    },
+    {
+      "title": "Growth of 48 built environment bacterial isolates on board the International Space Station (ISS)",
+      "authors": [
+        "DA Coil"
+      ]
+    },
+    {
+      "title": "Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station",
+      "authors": [
+        "BT Tierney"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff"
+      ]
+    },
+    {
+      "title": "Comparative genomics of novel Agrobacterium G3 strains isolated from the International Space Station and description of Agrobacterium tomkonis sp. nov",
+      "authors": [
+        "NK Singh"
+      ]
+    },
+    {
+      "title": "The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman"
+      ]
+    },
+    {
+      "title": "Gene-level metagenomic architectures across diseases yield high-resolution microbiome diagnostic indicators",
+      "authors": [
+        "BT Tierney",
+        "Y Tan",
+        "AD Kostic",
+        "CJ Patel"
+      ]
+    },
+    {
+      "title": "Fusobacterium orchestrates oral biofilms",
+      "authors": [
+        "U Hofer"
+      ]
+    },
+    {
+      "title": "Fusobacterium species and subspecies differentially affect the composition and architecture of supra- and subgingival biofilms models",
+      "authors": [
+        "T Thurnheer",
+        "L Karygianni",
+        "M Flury",
+        "GN Belibasakis"
+      ]
+    },
+    {
+      "title": "[Distribution of genes of toxin–antitoxin systems of mazEF and relBE families in bifidobacteria from human intestinal microbiota] (in Russian)",
+      "authors": [
+        "OV Averina",
+        "MG Alekseeva",
+        "SK Abilev",
+        "VK Il’in",
+        "VN Danilenko"
+      ]
+    },
+    {
+      "title": "The person-to-person transmission landscape of the gut and oral microbiomes",
+      "authors": [
+        "M Valles-Colomer"
+      ]
+    },
+    {
+      "title": "Monocyte-mediated defense against microbial pathogens",
+      "authors": [
+        "NV Serbina",
+        "T Jia",
+        "TM Hohl",
+        "EG Pamer"
+      ]
+    },
+    {
+      "title": "The role of CD8 T cells in innate immunity and in antigen non-specific protection",
+      "authors": [
+        "RE Berg",
+        "J Forman"
+      ]
+    },
+    {
+      "title": "Kim, J. et al. Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type and sex-specific responses to spaceflight. Nat. Commun.10.1038/s41467-024-49211-2 (2024)",
+      "authors": []
+    },
+    {
+      "title": "Inferring correlation networks from genomic survey data",
+      "authors": [
+        "J Friedman",
+        "EJ Alm"
+      ]
+    },
+    {
+      "title": "LinDA: linear models for differential abundance analysis of microbiome compositional data",
+      "authors": [
+        "H Zhou",
+        "K He",
+        "J Chen",
+        "X Zhang"
+      ]
+    },
+    {
+      "title": "Assessment of REPLI-g Multiple Displacement Whole Genome Amplification (WGA) techniques for metagenomic applications",
+      "authors": [
+        "S Ahsanuddin"
+      ]
+    },
+    {
+      "title": "Overbey, E. G. et al. Collection of biospecimens from the Inspiration4 Mission establishes the standards for the Space Omics and Medical Atlas (SOMA). Nat. Commun.10.1038/s41467-024-48806-z (2024).",
+      "authors": []
+    },
+    {
+      "title": "Bushnell, B. BBTools software package. Sourceforgehttp://sourceforge.net/projects/bbmap (2014).",
+      "authors": []
+    },
+    {
+      "title": "Functional signatures of oral dysbiosis during periodontitis progression revealed by microbial metatranscriptome analysis",
+      "authors": [
+        "S Yost",
+        "AE Duran-Pinedo",
+        "R Teles",
+        "K Krishnan",
+        "J Frias-Lopez"
+      ]
+    },
+    {
+      "title": "metaSPAdes: a new versatile metagenomic assembler",
+      "authors": [
+        "S Nurk",
+        "D Meleshko",
+        "A Korobeynikov",
+        "P Pevzner"
+      ]
+    },
+    {
+      "title": "MetaQUAST: evaluation of metagenome assemblies",
+      "authors": [
+        "A Mikheenko",
+        "V Saveliev",
+        "A Gurevich"
+      ]
+    },
+    {
+      "title": "MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies",
+      "authors": [
+        "DD Kang"
+      ]
+    },
+    {
+      "title": "CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes",
+      "authors": [
+        "DH Parks",
+        "M Imelfort",
+        "CT Skennerton",
+        "P Hugenholtz",
+        "GW Tyson"
+      ]
+    },
+    {
+      "title": "GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database",
+      "authors": [
+        "P-A Chaumeil",
+        "AJ Mussig",
+        "P Hugenholtz",
+        "DH Parks"
+      ]
+    },
+    {
+      "title": "CheckV assesses the quality and completeness of metagenome-assembled viral genomes",
+      "authors": [
+        "S Nayfach"
+      ]
+    },
+    {
+      "title": "Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome",
+      "authors": [
+        "S Nayfach"
+      ]
+    },
+    {
+      "title": "Zimmerman, S., Tierney, B. T., Patel, C. J. & Kostic, A. D. Quantifying shared and unique gene content across 17 microbial ecosystems. mSystems8, e00118-23 (2023).",
+      "authors": []
+    },
+    {
+      "title": "Towards the biogeography of prokaryotic genes",
+      "authors": [
+        "LP Coelho"
+      ]
+    },
+    {
+      "title": "The landscape of genetic content in the gut and oral human microbiome",
+      "authors": [
+        "BT Tierney"
+      ]
+    },
+    {
+      "title": "Bakta: rapid and standardized annotation of bacterial genomes via alignment-free sequence identification",
+      "authors": [
+        "O Schwengers"
+      ]
+    },
+    {
+      "title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+      "authors": [
+        "M Steinegger",
+        "J Söding"
+      ]
+    },
+    {
+      "title": "Fast and sensitive protein alignment using DIAMOND",
+      "authors": [
+        "B Buchfink",
+        "C Xie",
+        "DH Huson"
+      ]
+    },
+    {
+      "title": "ART: a next-generation sequencing read simulator",
+      "authors": [
+        "W Huang",
+        "L Li",
+        "JR Myers",
+        "GT Marth"
+      ]
+    },
+    {
+      "title": "Evaluating the information content of shallow shotgun metagenomics",
+      "authors": [
+        "B Hillmann"
+      ]
+    },
+    {
+      "title": "Improved metagenomic analysis with Kraken 2",
+      "authors": [
+        "DE Wood",
+        "J Lu",
+        "B Langmead"
+      ]
+    },
+    {
+      "title": "Al-Ghalith, G. & Knights, D. BURST enables mathematically optimal short-read alignment for big data. Preprint at bioRxiv10.1101/2020.09.08.287128 (2020)",
+      "authors": []
+    },
+    {
+      "title": "VEGAN, a package of R functions for community ecology",
+      "authors": [
+        "P Dixon"
+      ]
+    },
+    {
+      "title": "Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4",
+      "authors": [
+        "A Blanco-Míguez"
+      ]
+    },
+    {
+      "title": "Basic local alignment search tool",
+      "authors": [
+        "SF Altschul",
+        "W Gish",
+        "W Miller",
+        "EW Myers",
+        "DJ Lipman"
+      ]
+    },
+    {
+      "title": "Phage-inclusive profiling of human gut microbiomes with Phanta",
+      "authors": [
+        "Y Pinto",
+        "M Chakraborty",
+        "N Jain",
+        "AS Bhatt"
+      ]
+    },
+    {
+      "title": "Bracken: estimating species abundance in metagenomics data",
+      "authors": [
+        "J Lu",
+        "FP Breitwieser",
+        "P Thielen",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "Microbiome applications for pathology: challenges of low microbial biomass samples during diagnostic testing",
+      "authors": [
+        "CA Selway",
+        "R Eisenhofer",
+        "LS Weyrich"
+      ]
+    },
+    {
+      "title": "Optimization of low-biomass sample collection and quantitative PCR-based titration impact 16S rRNA microbiome resolution",
+      "authors": [
+        "BGJ Clokie"
+      ]
+    },
+    {
+      "title": "How the ‘kitome’ influences the characterization of bacterial communities in lepidopteran samples with low bacterial biomass",
+      "authors": [
+        "LR Paniagua Voirol",
+        "G Valsamakis",
+        "M Yu",
+        "PR Johnston",
+        "M Hilker"
+      ]
+    },
+    {
+      "title": "Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data",
+      "authors": [
+        "NM Davis",
+        "DM Proctor",
+        "SP Holmes",
+        "DA Relman",
+        "BJ Callahan"
+      ]
+    },
+    {
+      "title": "Tierney, B. Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight. figsharehttps://figshare.com/projects/Longitudinal_multi-omics_analysis_of_host_microbiome_architecture_and_immune_responses_during_short-term_spaceflight/176043 (2023).",
+      "authors": []
+    },
+    {
+      "title": "Fitting linear mixed-effects models using lme4",
+      "authors": [
+        "D Bates",
+        "M Mächler",
+        "B Bolker",
+        "S Walker"
+      ]
+    },
+    {
+      "title": "B. lmerTest Package: tests in linear mixed effects models",
+      "authors": [
+        "A Kuznetsova",
+        "PB Brockhoff",
+        "RH Christensen"
+      ]
+    },
+    {
+      "title": "Overbey, E. G. et al. The Space Omics and Medical Atlas (SOMA) and international astronaut biobank. Nature10.1038/s41586-024-07639-y (2024).",
+      "authors": []
+    },
+    {
+      "title": "Tange, O. GNU Parallel 2018. Zenodo10.5281/zenodo.1146014 (2018).",
+      "authors": []
+    },
+    {
+      "title": "Welcome to the Tidyverse",
+      "authors": [
+        "H Wickham"
+      ]
+    },
+    {
+      "title": "Wickham, H. ggplot2: Elegant Graphics for Data Analysis (Springer, 2009); https://ggplot2-book.org/",
+      "authors": []
+    },
+    {
+      "title": "UMAP: uniform manifold approximation and projection",
+      "authors": [
+        "L McInnes",
+        "J Healy",
+        "J Melville"
+      ]
+    },
+    {
+      "title": "Reshaping data with the reshape package",
+      "authors": [
+        "H Wickham"
+      ]
+    },
+    {
+      "title": "Lex, A., Gehlenborg, N., Strobelt, H., Vuillemot, R. & Pfister, H. UpSet: visualization of intersecting sets. IEEE Trans. Vis. Comput. Graph.20, 1983–1992 (2014).",
+      "authors": []
+    },
+    {
+      "title": "Krassowski, M., Arts, M., Lagger, C. & Max. krassowski/complex-upset: v1.3.5. Zenodo10.5281/zenodo.3700590 (2020).",
+      "authors": []
+    }
+  ],
+  "original_title": "Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/4a5b2eeec601/41564_2024_1635_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/869d8da8cefa/41564_2024_1635_Fig6_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/62d1ec43f76e/41564_2024_1635_Fig7_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/a75f3ebca6cd/41564_2024_1635_Fig8_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/a7313ab9a36e/41564_2024_1635_Fig9_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/7bc52402bb5a/41564_2024_1635_Fig10_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/a98376821adf/41564_2024_1635_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/28d0c7a16088/41564_2024_1635_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/18ba311d18b1/41564_2024_1635_Fig11_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/90dad3449ec8/41564_2024_1635_Fig12_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/4dd4b4b9c7c6/41564_2024_1635_Fig14_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/29bdc937b896/41564_2024_1635_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/33a17953926e/41564_2024_1635_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/851da2933b65/41564_2024_1635_Fig15_ESM.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cfc3/11222149/230c32c56118/41564_2024_1635_Fig13_ESM.jpg"
+  ]
+}

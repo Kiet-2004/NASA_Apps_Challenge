@@ -1,0 +1,953 @@
+{
+  "pmcid": "PMC7667275",
+  "title": "Neutrophil-to-Lymphocyte Ratio: A Biomarker to Monitor the Immune Status of Astronauts",
+  "abstract": "A comprehensive understanding of spaceflight factors involved in immune dysfunction and the evaluation of biomarkers to assess in-flight astronaut health are essential goals for NASA. An elevated neutrophil-to-lymphocyte ratio (NLR) is a potential biomarker candidate, as leukocyte differentials are altered during spaceflight. In the reduced gravity environment of space, rodents and astronauts displayed elevated NLR and granulocyte-to-lymphocyte ratios (GLR), respectively. To simulate microgravity using two well-established ground-based models, we cultured human whole blood-leukocytes in high-aspect rotating wall vessels (HARV-RWV) and used hindlimb unloaded (HU) mice. Both HARV-RWV simulation of leukocytes and HU-exposed mice showed elevated NLR profiles comparable to spaceflight exposed samples. To assess mechanisms involved, we found the simulated microgravity HARV-RWV model resulted in an imbalance of redox processes and activation of myeloperoxidase-producing inflammatory neutrophils, while antioxidant treatment reversed these effects. In the simulated microgravity HU model, mitochondrial catalase-transgenic mice that have reduced oxidative stress responses showed reduced neutrophil counts, NLR, and a dampened release of selective inflammatory cytokines compared to wildtype HU mice, suggesting simulated microgravity induced oxidative stress responses that triggered inflammation. In brief, both spaceflight and simulated microgravity models caused elevated NLR, indicating this as a potential biomarker for future in-flight immune health monitoring.",
+  "introduction": "Introduction\n\nSpaceflight can pose novel challenges to the health of astronauts. For instance, physiological aging occurs significantly faster as a result of spaceflight, when measured by muscle wasting, loss of bone density, and immune dysfunction. Processes regulated by redox imbalance may contribute to these adverse outcomes. Redox imbalance results from a disproportionate increase in reactive oxygen species (ROS) produced by the mitochondria compared to antioxidants in the cell. Elevated ROS is also a product of the oxidative burst response of neutrophils. In response to stimuli, terminally differentiated neutrophils in circulation become activated and engage the oxidative burst response, producing inflammatory mediators. If left unchecked, elevated ROS can cause cellular damage that potentiates inflammation both on Earth and during spaceflight. Therefore, it is necessary to maintain tight regulation of the oxidative burst response to limit inflammation and regulate immunity during prolonged spaceflight.\n\nNeutrophils are granulocytes that constitute approximately 50–70% of the total leukocyte population in humans. Neutrophils are the first responders to infection or injury and are typically short-lived in blood circulation under homeostatic conditions. Lymphocytes are an important group of white blood cells involved in both innate and adaptive immunity. They constitute 20–50% of total leukocytes in circulation and consist of natural killer, natural killer T cells, innate lymphoid cells, T cells, and B cells. On Earth, elevated neutrophil-to-lymphocyte ratio (NLR) is a useful biomarker to measure subclinical inflammation in humans. Chronic, persistent inflammation can be a major pre-existing cause of disease development and can be monitored by the expression of blood-based biomarkers. For example, elevated NLR predicts poor prognosis in some cancers, positively correlates with age, and reflects chronic stress in mice. Although, elevated human NLR (>3.53) has been implicated in clinical settings to identify heightened inflammation, this biomarker has not yet been recognized for spaceflight-induced inflammation. Spaceflight raises circulating white blood cell (WBC) counts, primarily granulocytes, may reduce lymphocyte counts, and impairs immune cell functions. Although, the spaceflight environment elevates circulating blood granulocytes counts in astronauts, the underlying molecular mechanisms remain elusive. Currently, there are no well-established biomarkers for astronauts on long-duration, deep space missions, where medical intervention will be limited. Thus, identifying biomarkers to monitor in-flight astronaut health and developing countermeasures that reverse these adverse outcomes are necessary for successful future missions to the lunar surface and Mars. Therefore, we propose that an elevated NLR may be a useful prognostic indicator or diagnostic biomarker to assess astronaut immune status during long-duration missions.\n\nTo test this, we analyzed both spaceflight-treated, and ground-based simulated microgravity-treated, samples to determine if NLR was elevated. Analyses of complete blood count (CBC) leukocyte differentials revealed spaceflight caused a progressive increase of granulocyte-to-lymphocyte (GLR) in astronauts and NLR in rodents. To simulate microgravity using established methods, human leukocytes were cultured in high-aspect rotating wall vessels (HARV-RWV) in vitro and mice were hindlimb unloaded (HU) in vivo. HARV-RWV is a bioreactor allowing 3D-spatial freedom for cells and can model microgravity. It has two unique aspects similar to the spaceflight-associated microgravity environment, (1) a state of constant suspension, and (2) a quiescent surrounding without any shear or turbulent forces. Previous studies have determined leukocyte responses utilizing HARV-RWV produce similar responses as leukocytes cultured post-landing or ex vivo in flight. Hindlimb unloading (HU) is a ground-based model mimicking spaceflight-associated microgravity in rodents. The hindlimbs of rodents are elevated to produce 30–40 degree head-down tilt, inducing a cephalad fluid shift and preventing weightbearing of hindlimbs. The HU model can lead to immune, bone, and musculoskeletal alterations, some of which have also been observed in International Space Station (ISS) crew. In our study, functional outputs of neutrophils in response to simulated microgravity (sµg) revealed elevated ROS and proinflammatory myeloperoxidase (MPO) expression in activated neutrophils. Interestingly, this effect could be mitigated with antioxidant treatment. Furthermore, sµg HU wildtype (Wt) mice displayed elevated neutrophils, NLR and marginal inflammation, which was dampened in mitochondrial catalase (mCAT) transgenic mice, known to show reduced oxidative stress responses. Our findings demonstrated that, albeit distinct mechanisms, both sµg models (in vitro HARV-RWV and in vivo HU), displayed elevated oxidative stress and NLR, that could be mitigated by antioxidants. Therefore, modifying mechanisms involved in ROS-driven inflammation may provide a promising avenue to limit chronic inflammation and maintain homeostatic immunity during long-duration missions.",
+  "methods": "Materials and Methods\n\nMouse and Human Ethics\n\nDeidentified, human buffy coat samples from healthy donors were obtained from Blood Centers of America, Oklahoma Blood Institute, and isolated on-site at NASA Ames. The use of human samples was approved by NASA Ames Institutional Review Board (IRB, 201791646CTO-02, HR-357, and HR-358) with informed consent from each blood donor. Astronaut and rodent CBC data sets were approved for use by the electronic (e)IRB/Life Sciences Data Archive (LSDA) advisory board (#11028), sourced from previous publications. All mice were purchased from Jackson Laboratories and were housed in the Animal Care Facility at Ames Research Center. Hindlimb unloading and subsequent blood isolation procedures were performed following NASA Ames Research Center Institutional Animal Care and Use Committee protocol (IACUC, NAS-17-001-Y2).\n\nCell Culture\n\nHuman whole blood samples were separated using centrifuge gradient Ficoll-paque Plus (Thermo Fisher Scientific) and the lymphocyte/monocyte layer and granulocyte/top red blood cell (RBC) layers were collected. Cells were RBC-lysed with 1XRBC lysis buffer (Thermo Fisher Scientific) and resuspended (5 × 105 cells/ml) in RPMI containing 10% fetal bovine serum (FBS) and 1% Penicillin/Streptomycin (Pen/Strep, Thermo Fisher Scientific) for subsequent assays.\n\nIn Vitro Simulated Microgravity of Leukocytes Using HARV-RWV\n\n3D high-aspect rotating wall vessels (HARV-RWV, Synthecon) were used to simulate microgravity with low-shear, hydrodynamic fluid flow and omni-directional gravitational force on suspended cells in rotating free-fall. To optimize the measurement of oxidative stress from granulocytes in human leukocytes, suspended cells were cultured at 5 × 105 cells/ml in 10 ml and rotated at 20 revolutions per minute (RPM) in a parallel-to-ground axis to simulate microgravity (sµg, omnidirectional g-force) for 20 h and controls were plated in upright T-25 flasks (1 g, unidirectional g-force). Following incubation, 1 ml of sample was collected, SYTOX™ live/dead dye-Red (Thermo Fisher Scientific) was added to the sample and cells were immediately acquired on a BD FACSMelody™. Stained cells were considered dead, and cells that did not stain were considered live and were reported. For neutrophil differential experiments with antioxidant treatment, N-acetyl cysteine (NAC, 1 mM) was added to WBC (5 × 105 cells/ml) and cultured in HARV-RWV for 20 h, followed by flow cytometric analyses.\n\nMouse Blood Collections\n\nBlood was collected from the vena cava on the day of euthanasia and RBC were lysed using 1XRBC lysis buffer (Thermo Fisher Scientific). Remaining WBC were fixed (2% PFA), washed in PBS, labeled with leukocyte subset markers, and analyzed by flow cytometric analyses.\n\nFlow Cytometry Staining and Methods\n\nMouse and human blood samples were isolated, as described above, and single-cell suspensions were generated for flow cytometry acquisition. Debris was gated off and forward scatter (FSC-A) and side scatter (SSC-A) profiled granulocyte, monocyte, and lymphocyte populations were measured. Mouse antibodies, including anti-CD45, anti-Ly6g, and anti-CD11b, and human antibodies, including anti-CD66b, anti-CD16, anti-MPO, CellROX™, SYTOX™ live/dead stain, and active Caspase 3/7 were used to label multiple leukocyte subsets, and measure ROS formation and cellular viability. All antibodies and dyes were purchased from Thermo Fisher Scientific. Unstained and single-color compensation controls were used for all flow cytometric experiments, with a minimum of 30,000 events collected/sample. All acquisitions were performed using a S3 Cell Sorter (Bio-Rad) or a BD FACSMelody™ (BD biosciences), and FlowJo (version 10.5.3) was used for data analysis.\n\nQuantitative PCR (qPCR)\n\nTotal RNA was extracted from cells using Trizol reagent (Thermo Fisher Scientific) and converted to cDNA using iSCRIPT cDNA synthesis kit (Bio-Rad). All assays were performed using iQ SYBR Green Supermix (Bio-Rad). An ABI 7500 Real-Time PCR (Applied Biosystems) was used and threshold cycle values that were ≥35 cycles were excluded from the results. Primers were designed using BLAST and purchased from IDT with the following sequences: mouse β-Actin forward 5’-AGAGGGAAATCGTGCGTGAC-3’ and reverse 5’-CAATAGTGATGATGACCTGGCCGT-3’, Myeloperoxidase (Mpo) forward 5’-ACCTACCCCAGTACCGATCC-3’ and reverse 5’-AACTCTCCAGCTGGCAAAAA-3’, NADPH oxidase (Nox-2, gp91phox, Cybb) forward 5’-ACTCCTTGGAGCACTGG-3’ and reverse 5’-GTTCCTGTCCAGTTGTCTTCG-3’, and Il-1β forward 5’-CCAAAGAAGAAGATGGAAAAGCG-3’ and reverse 5’-GGTGCTGATGTACCAGTTGGG-3’.\n\nMice and Hindlimb Unloading\n\nAll mice handling and experiments were performed according to the pre-approved NASA Ames Institutional Animal Care and Use Committee (IACUC). Mice were generated for experiments by breeding male, hemizyogous mCAT mice [male B6.Cg-Tg (CAG-OTC/CAT) 4033Prab/J strain] with female wildtype (Wt) mice (C57BL/6NJ) (Jackson Laboratories, Bar Harbor, ME). C57BL/6NJ Wt mice were used as controls. DNA was purified from tail snips using RedExtract-N-Amp (Sigma, St. Louis, MO) followed by genotyping using forward 5’-CTGAGGATCCTGTTAAACAATGC-3’ and reverse 5’-CTATCTGTTCAACCTCAGCAAAG-3’ primers for the mCAT gene. For HU experiments, female mice were acclimated to their assigned cages three days prior to the onset of HU. Animals were 16-weeks of age at the beginning of HU. For the 14-day HU study, C57BL/6NJ Wt female mice were assigned to one of two treatments: normally loaded (NL) controls, singly housed in standard vivarium cages or HU. For the 30-day HU experiment, mice were assigned to one of four groups: Wt/NL, Wt/HU, mCAT/NL, or mCAT/HU. In both 14- and 30-day HU studies, mice were housed under 12 h light and 12 h dark cycle conditions and provided cotton nestlets (Ancare, NES3600) as enrichment. Nestlets were refreshed daily. Ambient temperature ranged from 23.3 to 25.6°C. Body weights were monitored every 2–3 days throughout the experiment. Blood draws were performed at euthanasia on days 14 or 30.\n\nStatistical Analyses\n\nData were compared with either paired or unpaired, nonparametric or parametric analyses, or with one- or two-way ANOVA using GraphPad Prism software (version 6.0). A p < 0.05 was considered statistically significant. All statistical analyses were supported by a trained statistician.",
+  "results": "Results\n\nSpaceflight Elevates NLR and GLR\n\nPeripheral WBC data from previously space-flown rodent and astronaut experiments were re-analyzed to determine the contribution of spaceflight to NLR and GLR immune profile shifts. In rodents, spaceflight increased NLR after 14 days in-flight and immediately post-landing ( Figure 1A ). Later post-flight (2–8 days after landing, R+2 to R+8), NLR decreased relative to flight (F14) and landing (R+0) values, suggesting a re-adaptation response to Earth’s 1 gravity (1 g) ( Figure 1A ). Retrospective GLR data were not recorded for this spaceflight mission. Human WBC data were re-analyzed and GLR was elevated after 180 days on-orbit (late) and in samples collected within 2–3 hours post-landing (R+0) ( Figure 1B ). Later post-flight (30-day, R+30), GLR recovered to pre-flight baseline levels (L-180). Retrospective NLR data were not recorded for this mission. Thus, a progressive increase in NLR and GLR occurred in-flight and immediately post-landing in rodents and humans, suggesting NLR may be a useful biomarker to monitor astronaut immune status.\n\nHARV-RWV sµg Elevates NLR in Human Leukocytes In Vitro\n\nDue to the constraints of conducting spaceflight experiments, we further confirmed these results using an in vitro sµg model. For this, human WBC were cultured in HARV-RWV sµg for 20 h. Flow cytometry showed sµg increased granulocyte percentage (%) and absolute counts, reduced lymphocyte and monocyte %, and although not statistically significant, a reduced trend in absolute counts (forward scatter area, FSC-A versus side scatter area, SSC-A) ( Figures 2A, B , and  Figure S1A ), and increased GLR ( Figure 2C ). To determine if altered GLR was due to elevated survival of granulocytes or increased death of lymphocytes, active Caspase 3/7 staining was performed, which indicated elevated lymphocyte apoptosis in sµg (  Figures 2D, E  ). To characterize human neutrophil populations within the WBC pool following sµg, cell surface markers CD66b+ and CD16+ were used, which displayed elevated neutrophils ( Figure 2F ) and elevated NLR ( Figure 2G ). Collectively, these findings confirm the utility of NLR as a biomarker to monitor astronaut immune status.\n\nHARV-RWV sµg Elevates ROS and Activates Neutrophils, While the Antioxidant N-Acetyl Cysteine Ameliorates This Effect\n\nElevated percentage and absolute count of granulocytes within WBC ( Figures 2A, B , and  Figure S1A ) were observed in sµg, with no difference in apoptosis ( Figures 2D, E ). Elevated percentage of neutrophils within WBC ( Figure 2F ) were also observed in sµg. Since mature granulocytes, including neutrophils, in blood are non-proliferating, terminally differentiated cells, elevated percentages may be due to differential light scatter properties, indicative of cellular activation. CD66b not only serves as a marker for human neutrophils, but its cell surface expression level per cell is also elevated in activated neutrophils. Therefore, we sought to determine if sµg can activate neutrophils. We found sµg resulted in elevated cell surface receptor median fluorescence intensity (MFI) expression of CD66b per granulocyte, with no difference in CD16 MFI ( Figures 3A, B ), suggesting neutrophil activation during sµg. We further confirmed neutrophil activation by uncovering elevated cell surface receptor CD11b median fluorescence intensity (MFI) within CD16+CD66b+ granulocytes ( Figures S1B, C ). Activated neutrophils also express elevated reactive oxygen species (ROS) and myeloperoxidase (MPO) during the oxidative burst response. Furthermore, spaceflight and analog models on Earth can promote redox imbalance, triggering cellular damage and persistent inflammation. We found ROS (via mean fluorescence intensity, or MFI) per granulocyte and MPO (mean fluorescence intensity, MFI) per neutrophil, were both elevated in sµg, collectively suggesting sµg caused neutrophil activation ( Figures 3C, E ).\n\nN-acetyl cysteine (NAC) is an antioxidant that scavenges free radicals, promotes glutathione biosynthesis, and decreases mitochondrial membrane depolarization. To assess the effects of NAC on neutrophil activation we cultured WBCs in the presence or absence of NAC (1 mM) under sµg for 20 h. The results showed reduced expression of MPO in the presence of NAC ( Figures 3D, E  ), suggesting antioxidant treatment ameliorates sµg induced neutrophil activation, thus serving as a promising countermeasure to suppress spaceflight-induced inflammation.\n\nHindlimb Unloading (14-day) sμg Increases Circulating Blood Neutrophils and Elevates NLR In Vivo\n\nTo test the effects of sµg on immunity in an in vivo model, blood was collected from wildtype HU (Wt/HU) mice following 14 days of HU. Cells were immunoprofiled to determine neutrophil counts and NLR in circulating blood. Ly6g is a ubiquitous cell surface marker in mice used to distinguish eosinophils/myeloid-derived suppressor cells (Ly6glow) from neutrophils (Ly6ghigh) ( Figure 4A  ). Compared to normally loaded (NL) controls, no difference was observed in eosinophil/myeloid-derived suppressor cell % ( Figure 4B ) and absolute counts ( Figure S2A ) populations, while increased % ( Figure 4C ) and absolute counts ( Figure S2B ) of neutrophils were observed in HU. No difference in lymphocyte % ( Figure 4D ) or absolute counts ( Figure S2C ) were noted in the in vivo HU model, in contrast with the reduced lymphocytes % observed in vitro HARV-RWV sµg-treated leukocytes ( Figure 2B ) with increased apoptosis of lymphocytes. No significant differences were observed with monocyte % or absolute counts ( Figures S2D, E ). However, significantly elevated NLR was observed following 14 days of HU ( Figure 4E ). Therefore, HU (14-day) displayed elevated NLR values as observed previously with rodents and humans in spaceflight and sµg experiments, confirming elevated NLR in multiple reduced gravity models, albeit produced via potentially different mechanisms.\n\nProlonged Hindlimb Unloading (30-day) sµg Results in Elevated Blood Neutrophil Persistence and NLR, While This Effect is Mitigated in mCAT Mice\n\nElevated neutrophil numbers and persistence in blood circulation result in tissue damage and impaired immune responses. HU also induces redox imbalance. Therefore, we compared the effects of prolonged HU (30-day) in Wt mice with transgenic mice expressing human mitochondrial catalase (mCAT). Catalase is an antioxidant enzyme that converts reactive hydrogen peroxide into non-reactive water and oxygen, a cellular antioxidant mechanism that restores redox balance. Comparable to 14-day HU, 30-day HU in Wt mice resulted in elevated neutrophils, no significant difference in lymphocytes, and an elevated NLR, while these results were mitigated in mCAT/HU mice ( Figures 5A–C  and  Figure S3 ). Oxidative stress and inflammatory gene expression in Wt and mCAT mice were assessed by qPCR. Compared to Wt/NL controls, Mpo (p = 0.0240*) was increased in Wt/HU ( Figure 5D ), while a non-significant elevation in NADPH oxidase-2 (Nox-2, p = 0.6411) and Il-1β (p = 0.1349) were also observed ( Figures 5E, F ). On the other hand, mCAT/HU mice partially mitigated some of these effects ( Figures 5D–F ). Collectively, prolonged HU (30-days) induced persistent NLR, oxidative stress and marginal inflammation, while catalase overexpression mitigated some of these outcomes.\n\nCollectively, our findings demonstrated that, through potentially different mechanisms, both spaceflight and multiple sµg models elevated NLR, ROS, and MPO inflammation, while antioxidants mitigated some of these outcomes. Therefore, elevated NLR may be a suitable prognostic biomarker to monitor astronaut immune status and inflammation during long-duration missions.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "neutrophils",
+    "spaceflight",
+    "simulated microgravity",
+    "NLR",
+    "inflammation",
+    "oxidative stress response",
+    "Immunology",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "Human Pathophysiological Adaptations to the Space Environment",
+      "authors": [
+        "GC Demontis",
+        "MM Germani",
+        "EG Caiani",
+        "I Barravecchia",
+        "C Passino",
+        "D Angeloni"
+      ]
+    },
+    {
+      "title": "Space, gravity and the physiology of aging: parallel or convergent disciplines? A mini-review",
+      "authors": [
+        "J Vernikos",
+        "VS Schneider"
+      ]
+    },
+    {
+      "title": "Oxidative stress, aging, and diseases",
+      "authors": [
+        "I Liguori",
+        "G Russo",
+        "F Curcio",
+        "G Bulli",
+        "L Aran",
+        "D Della-Morte"
+      ]
+    },
+    {
+      "title": "The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight",
+      "authors": [
+        "FE Garrett-Bakelman",
+        "M Darshi",
+        "SJ Green",
+        "RC Gur",
+        "L Lin",
+        "BR Macias"
+      ]
+    },
+    {
+      "title": "The challenging environment on board the International Space Station affects endothelial cell function by triggering oxidative stress through thioredoxin interacting protein overexpression: the ESA-SPHINX experiment",
+      "authors": [
+        "S Versari",
+        "G Longinotti",
+        "L Barenghi",
+        "JA Maier",
+        "S Bradamante"
+      ]
+    },
+    {
+      "title": "Stress Related Shift Toward Inflammaging in Cosmonauts After Long-Duration Space Flight",
+      "authors": [
+        "JI Buchheim",
+        "S Matzel",
+        "M Rykova",
+        "G Vassilieva",
+        "S Ponomarev",
+        "I Nichiporuk"
+      ]
+    },
+    {
+      "title": "Transcriptional Homeostasis of Oxidative Stress-Related Pathways in Altered Gravity",
+      "authors": [
+        "S Tauber",
+        "S Christoffel",
+        "CS Thiel",
+        "O Ullrich"
+      ]
+    },
+    {
+      "title": "Hindlimb unloading increases oxidative stress and disrupts antioxidant capacity in skeletal muscle",
+      "authors": [
+        "JM Lawler",
+        "W Song",
+        "SR Demaree"
+      ]
+    },
+    {
+      "title": "Simulated Microgravity and Low-Dose/Low-Dose-Rate Radiation Induces Oxidative Damage in the Mouse Brain",
+      "authors": [
+        "XW Mao",
+        "NC Nishiyama",
+        "MJ Pecaut",
+        "M Campbell-Beachler",
+        "P Gifford",
+        "KE Haynes"
+      ]
+    },
+    {
+      "title": "Generation of reactive oxygen species by the mitochondrial electron transport chain",
+      "authors": [
+        "Y Liu",
+        "G Fiskum",
+        "D Schubert"
+      ]
+    },
+    {
+      "title": "Neutrophils to the ROScue: Mechanisms of NADPH Oxidase Activation and Bacterial Resistance",
+      "authors": [
+        "GT Nguyen",
+        "ER Green",
+        "J Mecsas"
+      ]
+    },
+    {
+      "title": "Immune System Dysregulation During Spaceflight: Potential Countermeasures for Deep Space Exploration Missions",
+      "authors": [
+        "BE Crucian",
+        "A Chouker",
+        "RJ Simpson",
+        "S Mehta",
+        "G Marshall",
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Rapid Detection of Neutrophil Oxidative Burst Capacity is Predictive of Whole Blood Cytokine Responses",
+      "authors": [
+        "PJ Vernon",
+        "LJ Schaub",
+        "JJ Dallelucca",
+        "AE Pusateri",
+        "FR Sheppard"
+      ]
+    },
+    {
+      "title": "Neutrophil recruitment and function in health and inflammation",
+      "authors": [
+        "E Kolaczkowska",
+        "P Kubes"
+      ]
+    },
+    {
+      "title": "Osteopontin facilitates West Nile virus neuroinvasion via neutrophil “Trojan horse” transport",
+      "authors": [
+        "AM Paul",
+        "D Acharya",
+        "L Duty",
+        "EA Thompson",
+        "L Le",
+        "DS Stokic"
+      ]
+    },
+    {
+      "title": "1. Lymphocytes",
+      "authors": [
+        "DF Larosa",
+        "JS Orange"
+      ]
+    },
+    {
+      "title": "Clonal expansion of innate and adaptive lymphocytes",
+      "authors": [
+        "NM Adams",
+        "S Grassmann",
+        "JC Sun"
+      ]
+    },
+    {
+      "title": "Elevated neutrophil to lymphocyte ratio predicts mortality in medical inpatients with multiple chronic conditions",
+      "authors": [
+        "V Isaac",
+        "CY Wu",
+        "CT Huang",
+        "BT Baune",
+        "CL Tseng",
+        "CS McLachlan"
+      ]
+    },
+    {
+      "title": "Chronic diseases, inflammation, and spices: how are they linked",
+      "authors": [
+        "AB Kunnumakkara",
+        "BL Sailo",
+        "K Banik",
+        "C Harsha",
+        "S Prasad",
+        "SC Gupta"
+      ]
+    },
+    {
+      "title": "Inflammatory responses and inflammation-associated diseases in organs",
+      "authors": [
+        "L Chen",
+        "H Deng",
+        "H Cui",
+        "J Fang",
+        "Z Zuo",
+        "J Deng"
+      ]
+    },
+    {
+      "title": "Prognostic Value of the Neutrophil to Lymphocyte Ratio (NLR) in Lung Cancer Cases",
+      "authors": [
+        "B Akinci Ozyurek",
+        "T Sahin Ozdemirel",
+        "S Buyukyaylaci Ozden",
+        "Y Erdogan",
+        "B Kaplan",
+        "T Kaplan"
+      ]
+    },
+    {
+      "title": "Neutrophil/lymphocyte ratio as a prognostic factor in biliary tract cancer",
+      "authors": [
+        "MG McNamara",
+        "AJ Templeton",
+        "M Maganti",
+        "T Walter",
+        "AM Horgan",
+        "L McKeever"
+      ]
+    },
+    {
+      "title": "The systemic inflammation-based neutrophil-lymphocyte ratio: experience in patients with cancer",
+      "authors": [
+        "GJ Guthrie",
+        "KA Charles",
+        "CS Roxburgh",
+        "PG Horgan",
+        "DC McMillan",
+        "SJ Clarke"
+      ]
+    },
+    {
+      "title": "The granulocyte/lymphocyte ratio as an independent predictor of tumour growth, metastasis and progression: Its clinical applications",
+      "authors": [
+        "H Liu",
+        "T Tabuchi",
+        "A Takemura",
+        "T Kasuga",
+        "G Motohashi",
+        "K Hiraishi"
+      ]
+    },
+    {
+      "title": "Neutrophil-to-Lymphocyte Ratio Positively Correlates to Age in Healthy Population",
+      "authors": [
+        "J Li",
+        "Q Chen",
+        "X Luo",
+        "J Hong",
+        "K Pan",
+        "X Lin"
+      ]
+    },
+    {
+      "title": "Evaluation of the neutrophil:lymphocyte ratio as an indicator of chronic distress in the laboratory mouse",
+      "authors": [
+        "DL Hickman"
+      ]
+    },
+    {
+      "title": "What is the normal value of the neutrophil-to-lymphocyte ratio",
+      "authors": [
+        "P Forget",
+        "C Khalifa",
+        "JP Defour",
+        "D Latinne",
+        "MC Van Pel",
+        "M De Kock"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation following short- vs long-duration spaceflight",
+      "authors": [
+        "BE Crucian",
+        "RP Stowe",
+        "DL Pierson",
+        "CF Sams"
+      ]
+    },
+    {
+      "title": "Alterations in adaptive immunity persist during long-duration spaceflight",
+      "authors": [
+        "B Crucian",
+        "RP Stowe",
+        "S Mehta",
+        "H Quiriarte",
+        "D Pierson",
+        "C Sams"
+      ]
+    },
+    {
+      "title": "Source of Chronic Inflammation in Aging",
+      "authors": [
+        "F Sanada",
+        "Y Taniyama",
+        "J Muratsu",
+        "R Otsu",
+        "H Shimizu",
+        "H Rakugi"
+      ]
+    },
+    {
+      "title": "Neutrophil immunity of the elderly",
+      "authors": [
+        "AK Schroder",
+        "L Rink"
+      ]
+    },
+    {
+      "title": "Hindlimb unloading: rodent analog for microgravity",
+      "authors": [
+        "RK Globus",
+        "E Morey-Holton"
+      ]
+    },
+    {
+      "title": "Optimized suspension culture: the rotating-wall vessel",
+      "authors": [
+        "TG Hammond",
+        "JM Hammond"
+      ]
+    },
+    {
+      "title": "Changes in gravity inhibit lymphocyte locomotion through type I collagen",
+      "authors": [
+        "NR Pellis",
+        "TJ Goodwin",
+        "D Risin",
+        "BW McIntyre",
+        "RP Pizzini",
+        "D Cooper"
+      ]
+    },
+    {
+      "title": "Suppressed PHA activation of T lymphocytes in simulated microgravity is restored by direct activation of protein kinase C",
+      "authors": [
+        "D Cooper",
+        "NR Pellis"
+      ]
+    },
+    {
+      "title": "5-Lipoxygenase-dependent apoptosis of human lymphocytes in the International Space Station: data from the ROALD experiment",
+      "authors": [
+        "N Battista",
+        "MA Meloni",
+        "M Bari",
+        "N Mastrangelo",
+        "G Galleri",
+        "C Rapino"
+      ]
+    },
+    {
+      "title": "Fas/APO-1 protein is increased in spaceflown lymphocytes (Jurkat)",
+      "authors": [
+        "LA Cubano",
+        "ML Lewis"
+      ]
+    },
+    {
+      "title": "Spaceflight effects on T lymphocyte distribution, function and gene expression",
+      "authors": [
+        "DS Gridley",
+        "JM Slater",
+        "X Luo-Owen",
+        "A Rizvi",
+        "SK Chapes",
+        "LS Stodieck"
+      ]
+    },
+    {
+      "title": "Spaceflight alters microtubules and increases apoptosis in human lymphocytes (Jurkat)",
+      "authors": [
+        "ML Lewis",
+        "JL Reynolds",
+        "LA Cubano",
+        "JP Hatton",
+        "BD Lawless",
+        "EH Piepmeier"
+      ]
+    },
+    {
+      "title": "Synergistic Effects of Weightlessness, Isoproterenol, and Radiation on DNA Damage Response and Cytokine Production in Immune Cells",
+      "authors": [
+        "M Moreno-Villanueva",
+        "AH Feiveson",
+        "S Krieger",
+        "A Kay Brinda",
+        "G von Scheven",
+        "A Bürkle"
+      ]
+    },
+    {
+      "title": "Changes in immune cell signalling, apoptosis and stress response functions in mice returned from the BION-M1 mission in space",
+      "authors": [
+        "EG Novoselova",
+        "SM Lunin",
+        "MO Khrenov",
+        "SB Parfenyuk",
+        "TV Novoselova",
+        "BS Shenkman"
+      ]
+    },
+    {
+      "title": "Spaceflight and clinorotation cause cytoskeleton and mitochondria changes and increases in apoptosis in cultured cells",
+      "authors": [
+        "H Schatten",
+        "ML Lewis",
+        "A Chakrabarti"
+      ]
+    },
+    {
+      "title": "Hindlimb unloading rodent model: technical aspects",
+      "authors": [
+        "ER Morey-Holton",
+        "RK Globus"
+      ]
+    },
+    {
+      "title": "The hindlimb unloading rat model: literature overview, technique update and comparison with space flight data",
+      "authors": [
+        "E Morey-Holton",
+        "RK Globus",
+        "A Kaplansky",
+        "G Durnova"
+      ]
+    },
+    {
+      "title": "Influence of Social Isolation During Prolonged Simulated Weightlessness by Hindlimb Unloading",
+      "authors": [
+        "CGT Tahimic",
+        "AM Paul",
+        "AS Schreurs",
+        "SM Torres",
+        "L Rubinstein",
+        "S Steczina"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species in inflammation and tissue injury",
+      "authors": [
+        "M Mittal",
+        "MR Siddiqui",
+        "K Tran",
+        "SP Reddy",
+        "AB Malik"
+      ]
+    },
+    {
+      "title": "Lymphatic tissue changes in rats flown on Spacelab Life Sciences-2",
+      "authors": [
+        "CC Congdon",
+        "Z Allebban",
+        "LA Gibson",
+        "A Kaplansky",
+        "KM Strickland",
+        "TL Jago"
+      ]
+    },
+    {
+      "title": "Spacelab Life Sciences-2: early results are in",
+      "authors": [
+        "W Huff"
+      ]
+    },
+    {
+      "title": "Functional recovery of peripheral blood mononuclear cells in modeled microgravity",
+      "authors": [
+        "BW Ritz",
+        "PI Lelkes",
+        "EM Gardner"
+      ]
+    },
+    {
+      "title": "Prolonged exposure to simulated microgravity diminishes dendritic cell immunogenicity",
+      "authors": [
+        "N Tackett",
+        "JH Bradley",
+        "EK Moore",
+        "SH Baker",
+        "SL Minter",
+        "B DiGiacinto"
+      ]
+    },
+    {
+      "title": "Spaceflight and simulated microgravity cause a significant reduction of key gene expression in early T-cell activation",
+      "authors": [
+        "EM Martinez",
+        "MC Yoshida",
+        "TL Candelario",
+        "M Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Mitochondrial Oxidative Stress Promotes Atherosclerosis and Neutrophil Extracellular Traps in Aged Mice",
+      "authors": [
+        "Y Wang",
+        "W Wang",
+        "N Wang",
+        "AR Tall",
+        "I Tabas"
+      ]
+    },
+    {
+      "title": "Macrophage mitochondrial oxidative stress promotes atherosclerosis and nuclear factor-kappaB-mediated inflammation in macrophages",
+      "authors": [
+        "Y Wang",
+        "GZ Wang",
+        "PS Rabinovitch",
+        "I Tabas"
+      ]
+    },
+    {
+      "title": "Extension of murine life span by overexpression of catalase targeted to mitochondria",
+      "authors": [
+        "SE Schriner",
+        "NJ Linford",
+        "GM Martin",
+        "P Treuting",
+        "CE Ogburn",
+        "M Emond"
+      ]
+    },
+    {
+      "title": "Neutrophil heterogeneity: implications for homeostasis and pathogenesis",
+      "authors": [
+        "C Silvestre-Roig",
+        "A Hidalgo",
+        "O Soehnlein"
+      ]
+    },
+    {
+      "title": "Multicolor immunophenotyping: human immune system hematopoiesis",
+      "authors": [
+        "B Wood"
+      ]
+    },
+    {
+      "title": "Identification of neutrophil surface marker changes in health and inflammation using high-throughput screening flow cytometry",
+      "authors": [
+        "FS Lakschevitz",
+        "S Hassanpour",
+        "A Rubin",
+        "N Fine",
+        "C Sun",
+        "M Glogauer"
+      ]
+    },
+    {
+      "title": "An enzyme-linked immunosorbent assay for human carcinoembryonic antigen-related cell adhesion molecule 8, a biological marker of granulocyte activities in vivo",
+      "authors": [
+        "L Zhao",
+        "S Xu",
+        "G Fjaertoft",
+        "K Pauksen",
+        "L Hakansson",
+        "P Venge"
+      ]
+    },
+    {
+      "title": "Enhanced expression of integrins and CD66b on peripheral blood neutrophils and eosinophils in patients with rheumatoid arthritis, and the effect of glucocorticoids",
+      "authors": [
+        "I Torsteinsdóttir",
+        "NG Arvidson",
+        "R Hällgren",
+        "L Håkansson"
+      ]
+    },
+    {
+      "title": "The phagocytes: neutrophils and monocytes",
+      "authors": [
+        "DC Dale",
+        "L Boxer",
+        "WC Liles"
+      ]
+    },
+    {
+      "title": "Aged neutrophils contribute to the first line of defense in the acute inflammatory response",
+      "authors": [
+        "B Uhl",
+        "Y Vadlau",
+        "G Zuchtriegel",
+        "K Nekolla",
+        "K Sharaf",
+        "F Gaertner"
+      ]
+    },
+    {
+      "title": "Myeloperoxidase as an Active Disease Biomarker: Recent Biochemical and Pathological Perspectives",
+      "authors": [
+        "AA Khan",
+        "MA Alsahli",
+        "AH Rahmani"
+      ]
+    },
+    {
+      "title": "Elucidating the “Gravome”: Quantitative Proteomic Profiling of the Response to Chronic Hypergravity in Drosophila",
+      "authors": [
+        "R Hosamani",
+        "R Leib",
+        "SR Bhardwaj",
+        "CM Adams",
+        "S Bhattacharya"
+      ]
+    },
+    {
+      "title": "A Review on Various Uses of N-Acetyl Cysteine",
+      "authors": [
+        "V Mokhtari",
+        "P Afsharian",
+        "M Shahhoseini",
+        "SM Kalantar",
+        "A Moini"
+      ]
+    },
+    {
+      "title": "Ly6 family proteins in neutrophil biology",
+      "authors": [
+        "PY Lee",
+        "JX Wang",
+        "E Parisini",
+        "CC Dascher",
+        "PA Nigrovic"
+      ]
+    },
+    {
+      "title": "Update on Neutrophil Function in Severe Inflammation",
+      "authors": [
+        "E Mortaz",
+        "SD Alipoor",
+        "IM Adcock",
+        "S Mumby",
+        "L Koenderman"
+      ]
+    },
+    {
+      "title": "Neutrophil-Mediated Regulation of Innate and Adaptive Immunity: The Role of Myeloperoxidase",
+      "authors": [
+        "D Odobasic",
+        "AR Kitching",
+        "SR Holdsworth"
+      ]
+    },
+    {
+      "title": "Myeloperoxidase mediates neutrophil activation by association with CD11b/CD18 integrins",
+      "authors": [
+        "D Lau",
+        "H Mollnau",
+        "JP Eiserich",
+        "BA Freeman",
+        "A Daiber",
+        "UM Gehling"
+      ]
+    },
+    {
+      "title": "Myeloperoxidase modulates the phagocytic activity of polymorphonuclear neutrophil leukocytes. Studies with cells from a myeloperoxidase-deficient patient",
+      "authors": [
+        "O Stendahl",
+        "BI Coble",
+        "C Dahlgren",
+        "J Hed",
+        "L Molin"
+      ]
+    },
+    {
+      "title": "The role of neutrophils in immune dysfunction during severe inflammation",
+      "authors": [
+        "PH Leliefeld",
+        "CM Wessels",
+        "LP Leenen",
+        "L Koenderman",
+        "J Pillay"
+      ]
+    },
+    {
+      "title": "Oxidative Burst-Dependent NETosis Is Implicated in the Resolution of Necrosis-Associated Sterile Inflammation",
+      "authors": [
+        "MH Biermann",
+        "MJ Podolska",
+        "J Knopf",
+        "C Reinwald",
+        "D Weidner",
+        "C Maueroder"
+      ]
+    },
+    {
+      "title": "Partners in crime: neutrophils and monocytes/macrophages in inflammation and disease",
+      "authors": [
+        "K Prame Kumar",
+        "AJ Nicholls",
+        "CHY Wong"
+      ]
+    },
+    {
+      "title": "Neutrophil depletion reduces edema formation and tissue loss following traumatic brain injury in mice",
+      "authors": [
+        "E Kenne",
+        "A Erlandsson",
+        "L Lindbom",
+        "L Hillered",
+        "F Clausen"
+      ]
+    },
+    {
+      "title": "Low-density granulocytes: functionally distinct, immature neutrophils in rheumatoid arthritis with altered properties and defective TNF signalling",
+      "authors": [
+        "HL Wright",
+        "FA Makki",
+        "RJ Moots",
+        "SW Edwards"
+      ]
+    },
+    {
+      "title": "The transcriptional program of terminal granulocytic differentiation",
+      "authors": [
+        "K Theilgaard-Mönch",
+        "LC Jacobsen",
+        "R Borup",
+        "T Rasmussen",
+        "MD Bjerregaard",
+        "FC Nielsen"
+      ]
+    },
+    {
+      "title": "Changes in neutrophil functions in astronauts",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "VA Castro",
+        "C Mark Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Leukocyte subsets and neutrophil function after short-term spaceflight",
+      "authors": [
+        "RP Stowe",
+        "CF Sams",
+        "SK Mehta",
+        "I Kaur",
+        "ML Jones",
+        "DL Feeback"
+      ]
+    },
+    {
+      "title": "Myeloperoxidase Stimulates Neutrophil Degranulation",
+      "authors": [
+        "DV Grigorieva",
+        "IV Gorudko",
+        "AV Sokolov",
+        "VA Kostevich",
+        "VB Vasilyev",
+        "SN Cherenkevich"
+      ]
+    },
+    {
+      "title": "Immunohistochemical evidence for the myeloperoxidase/H2O2/halide system in human atherosclerotic lesions: colocalization of myeloperoxidase and hypochlorite-modified proteins",
+      "authors": [
+        "E Malle",
+        "G Waeg",
+        "R Schreiber",
+        "EF Grone",
+        "W Sattler",
+        "HJ Grone"
+      ]
+    },
+    {
+      "title": "Apollo Lunar Astronauts Show Higher Cardiovascular Disease Mortality: Possible Deep Space Radiation Effects on the Vascular Endothelium",
+      "authors": [
+        "MD Delp",
+        "JM Charvat",
+        "CL Limoli",
+        "RK Globus",
+        "P Ghosh"
+      ]
+    },
+    {
+      "title": "Neutrophil Lymphocyte Ratio and Cardiovascular Disease Risk: A Systematic Review and Meta-Analysis",
+      "authors": [
+        "T Angkananard",
+        "T Anothaisintawee",
+        "M McEvoy",
+        "J Attia",
+        "A Thakkinstian"
+      ]
+    },
+    {
+      "title": "Beyond oxidative stress: an immunologist’s guide to reactive oxygen species",
+      "authors": [
+        "C Nathan",
+        "A Cunningham-Bussel"
+      ]
+    },
+    {
+      "title": "T cell apoptosis and reactive oxygen species",
+      "authors": [
+        "DA Hildeman",
+        "T Mitchell",
+        "J Kappler",
+        "P Marrack"
+      ]
+    },
+    {
+      "title": "Activated granulocytes and granulocyte-derived hydrogen peroxide are the underlying mechanism of suppression of t-cell function in advanced cancer patients",
+      "authors": [
+        "J Schmielau",
+        "OJ Finn"
+      ]
+    },
+    {
+      "title": "Flow cytometric studies of oxidative product formation by neutrophils: a graded response to membrane stimulation",
+      "authors": [
+        "DA Bass",
+        "JW Parce",
+        "LR Dechatelet",
+        "P Szejda",
+        "MC Seeds",
+        "M Thomas"
+      ]
+    },
+    {
+      "title": "Spaceflight environment induces mitochondrial oxidative damage in ocular tissue",
+      "authors": [
+        "XW Mao",
+        "MJ Pecaut",
+        "LS Stodieck",
+        "VL Ferguson",
+        "TA Bateman",
+        "M Bouxsein"
+      ]
+    },
+    {
+      "title": "Mechanotransduction: forces, sensors, and redox signaling",
+      "authors": [
+        "S Chatterjee",
+        "AB Fisher"
+      ]
+    },
+    {
+      "title": "Reversal of oxidative stress-induced apoptosis in T and B lymphocytes by Coenzyme Q10 (CoQ10)",
+      "authors": [
+        "S Gollapudi",
+        "S Gupta"
+      ]
+    },
+    {
+      "title": "Coenzyme Q10 enrichment decreases oxidative DNA damage in human lymphocytes",
+      "authors": [
+        "M Tomasetti",
+        "GP Littarru",
+        "R Stocker",
+        "R Alleva"
+      ]
+    },
+    {
+      "title": "Alteration in human mononuclear leucocytes following space flight",
+      "authors": [
+        "RT Meehan",
+        "LS Neale",
+        "ET Kraus",
+        "CA Stuart",
+        "ML Smith",
+        "NM Cintron"
+      ]
+    },
+    {
+      "title": "Effects of mission duration on neuroimmune responses in astronauts",
+      "authors": [
+        "RP Stowe",
+        "CF Sams",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Changes in monocyte functions of astronauts",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "VA Castro",
+        "CM Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Effect of spaceflight on ability of monocytes to respond to endotoxins of gram-negative bacteria",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "AS Kapadia",
+        "CM Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Clearance of apoptotic neutrophils and resolution of inflammation",
+      "authors": [
+        "MC Greenlee-Wacker"
+      ]
+    },
+    {
+      "title": "Excessive Neutrophil Extracellular Trap Formation Aggravates Acute Myocardial Infarction Injury in Apolipoprotein E Deficiency Mice via the ROS-Dependent Pathway",
+      "authors": [
+        "Z Zhou",
+        "S Zhang",
+        "S Ding",
+        "M Abudupataer",
+        "Z Zhang",
+        "X Zhu"
+      ]
+    },
+    {
+      "title": "N-acetylcysteine expresses powerful anti-inflammatory and antioxidant activities resulting in complete improvement of acetic acid-induced colitis in rats",
+      "authors": [
+        "S Uraz",
+        "G Tahan",
+        "H Aytekin",
+        "V Tahan"
+      ]
+    },
+    {
+      "title": "Associations of C-Reactive Protein, Granulocytes and Granulocyte-to-Lymphocyte Ratio with Mortality from Breast Cancer in Non-Institutionalized American Women",
+      "authors": [
+        "W Wulaningsih",
+        "L Holmberg",
+        "L Abeler-Doner",
+        "T Ng",
+        "S Rohrmann",
+        "M Van Hemelrijck"
+      ]
+    }
+  ],
+  "original_title": "Neutrophil to Lymphocyte ratio: A biomarker to monitor the immune status of astronauts.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/842c/7667275/818829be6a41/fimmu-11-564950-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/842c/7667275/1d52d23f1d8c/fimmu-11-564950-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/842c/7667275/1e0fa3b63c71/fimmu-11-564950-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/842c/7667275/638b11239b75/fimmu-11-564950-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/842c/7667275/3c0f138a50fe/fimmu-11-564950-g005.jpg"
+  ]
+}

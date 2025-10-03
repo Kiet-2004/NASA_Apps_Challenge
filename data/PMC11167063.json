@@ -1,0 +1,764 @@
+{
+  "pmcid": "PMC11167063",
+  "title": "Telomeric RNA (TERRA) increases in response to spaceflight and high-altitude climbing",
+  "abstract": "Telomeres are repetitive nucleoprotein complexes at chromosomal termini essential for maintaining genome stability. Telomeric RNA, or TERRA, is a previously presumed long noncoding RNA of heterogeneous lengths that contributes to end-capping structure and function, and facilitates telomeric recombination in tumors that maintain telomere length via the telomerase-independent Alternative Lengthening of Telomeres (ALT) pathway. Here, we investigated TERRA in the radiation-induced DNA damage response (DDR) across astronauts, high-altitude climbers, healthy donors, and cellular models. Similar to astronauts in the space radiation environment and climbers of Mt. Everest, in vitro radiation exposure prompted increased transcription of TERRA, while simulated microgravity did not. Data suggest a specific TERRA DDR to telomeric double-strand breaks (DSBs), and provide direct demonstration of hybridized TERRA at telomere-specific DSB sites, indicative of protective TERRA:telomeric DNA hybrid formation. Targeted telomeric DSBs also resulted in accumulation of TERRA foci in G2-phase, supportive of TERRA’s role in facilitating recombination-mediated telomere elongation. Results have important implications for scenarios involving persistent telomeric DNA damage, such as those associated with chronic oxidative stress (e.g., aging, systemic inflammation, environmental and occupational radiation exposures), which can trigger transient ALT in normal human cells, as well as for targeting TERRA as a therapeutic strategy against ALT-positive tumors.\n\nTranscriptomics (RNA-seq) data reveal significantly increased telomeric RNA, or TERRA, in response to spaceflight and radiation exposure (compared to baseline and ground control samples).",
+  "introduction": "Introduction\n\nTelomeres are specialized nucleoprotein “caps” at the natural ends of chromosomes essential for maintaining genome stability. Telomeres face two major challenges as a result of their physical location: the inability to replicate to the very end of linear DNA molecules (the end replication problem); and circumventing activation of inappropriate DNA damage responses (DDRs) (the end protection problem). Mammalian telomeres are composed of tandem arrays of highly conserved repetitive G-rich sequence (5’-TTAGGG/CCCTAA-3’), which in humans range in length from ~5 to 15 kb and end in 3’ single-stranded G-rich overhangs of ~30–500 nucleotides. The 3’ single-stranded telomeric overhang serves as the substrate for telomerase, the specialized reverse transcriptase capable of de novo addition of telomeric repeats onto newly synthesized telomeres. Telomeric 3’ overhangs also facilitate formation of protective terminal structural features termed t-loops. Telomeres are dynamic structures associated with a myriad of telomere-specific and nonspecific proteins, six of which comprise the shelterin complex and include the telomere-repeat binding factors TRF1 and TRF2, which contributes to regulation of telomerase activity, t-loop formation, and protection of chromosome ends.\n\nNormal human somatic cells have very low levels of telomerase activity, and thus telomeres shorten with continued cell division, as well as with oxidative stress and a variety of lifestyle factors, including chronic stressors and environmental exposures. Telomere shortening is a key molecular driver of aging and determinant of age-related degenerative pathologies, including dementias, cardiovascular disease, and cancer. Telomerase activity is sufficient to maintain telomere length only in highly proliferative populations like germ-line and stem cells, and the vast majority of cancers. The remaining ~10–15% of human cancers maintain telomere length via the telomerase-independent, recombination- mediated Alternative Lengthening of Telomeres (ALT) pathway. ALT tumors display a number of distinguishing features, including heterogeneous telomere lengths, increased frequencies of telomere sister chromatid exchange (T-SCE), ALT-associated PML bodies (APBs), and extrachromosomal telomeric repeats (ETCRs).\n\nDue to their repetitive and heterochromatic nature, telomeres were long regarded as silent, rather unremarkable regions of the genome. Therefore, discovery of TElomere Repeat-containing RNA, or TERRA, propelled the field into new areas of research and potential mechanisms of telomere maintenance. TERRA, a presumed long noncoding RNA (lncRNA) until recently, ranges in length from ~ one hundred to over 9000 nucleotides and is transcribed from CpG islands within subtelomeric regions towards chromosomal termini by RNA Pol II, predominantly using the C-rich leading-strand as a template and producing 5’-UUAGGG-3’ transcripts. TERRA is thought to accumulate preferentially at short telomeres, where it contributes to end-capping structure and function via regulation of telomere length and maintenance of genome stability. TERRA can also indirectly associate with telomeres via shelterin proteins, as well as interact with an array of RNA binding proteins, including heterogeneous nuclear ribonucleoprotein A1 (hnRNPA1). In telomerase-positive human cells, TERRA is primarily chromatin-associated (bound) and not polyadenylated (polyA-), while “free” (unbound) TERRA is polyadenylated at its 3’-end (polyA+) and represents ~7% of total TERRA.\n\nTERRA can associate with telomeric DNA to generate classic R-loops, which are formed by the annealing of nascent TERRA “in-cis” to the complementary C-rich telomere strand when it fails to be released and remains bound as a 3-stranded structure, with the G-rich telomere strand displaced and forming G-quadruplex (G4) DNA structures. There is also evidence that 3-stranded telomeric R-loops can be formed by a recombinational-like mechanism, in which TERRA invades a telomeric duplex “in-trans”. In either case, and similar to t-loops, TERRA transcription and telomeric R-loops represent sources of replication stress and DNA damage specifically within telomeres. A different TERRA-based structure occurs via the direct binding of TERRA to a C-rich single-stranded telomere tract forming a 2-stranded TERRA:telomeric DNA hybrid. Telomeric R-loops and TERRA:telomeric DNA hybrids promote homology-directed repair at telomeres and are common in ALT cells, likely due to an abundance of TERRA. One of the hallmarks of ALT is loss of function of the chromatin remodeling complex ATRX/DAXX [α-thalassemia/mental retardation syndrome X-linked (ATRX) and its physical partner death domain-associated protein (DAXX)], which results in decompaction of telomeric chromatin, thereby facilitating increased transcription and elevated levels of TERRA in ALT cells compared to normal cells or telomerase positive tumors with functional ATRX/DAXX. Indeed, significantly increased frequencies of telomeric DNA:RNA hybrids were found in human U2OS ALT (osteosarcoma) cells compared to HeLa telomerase positive (cervical carcinoma) cells. Furthermore, removal of telomere-bound TERRA in ALT cells via overexpression of the endogenous RNA endonuclease RnaseH1 resulted in telomere shortening. Together, these results support critical roles for TERRA:telomeric DNA hybrids in telomere protection and recombination-mediated elongation in ALT cells. Interestingly, TERRA has also been implicated in telomere mobility, a capability that would facilitate the physical telomere-telomere interaction required for recombination events to occur.\n\nSuch an “end-view” of TERRA is consistent with strict inhibition of DDRs at telomeres, which prevents spurious end-joining and genomic instability, but also renders telomeres refractory to repair when damage does occur within and/or near telomeric regions; e.g., telomeric regions are especially susceptible to oxidative damage due to their G-rich makeup. Telomere site-specific endonucleases have been developed and employed to address the question of how, and even whether, double-strand breaks (DSBs) within telomeres are repaired. We previously utilized transient transfection of the well-characterized endonuclease TRAS1-EN fused to TRF1 (EN-T) targeting system in human BJ1-hTERT apparently normal fibroblasts, as well as in EJ-30 telomerase positive and U2OS (ALT) cancer cells, to evaluate telomeric DSBs specifically in G1-phase of the cell cycle. Telomere dysfunction-induced foci (TIFs) provided a valuable biomarker of broken telomeres, as they represent co-localization of the well-established DSB marker gamma (γ)-H2AX at telomeres. Importantly, induction of telomere-specific DSBs resulted in extensive tracks of resected 5’ C-rich single-stranded telomeric DNA in all cell lines (independent of telomerase status), a previously proposed biomarker of the recombination dependent ALT pathway. We posited that such highly reactive and exposed DNA “ends” were protected by binding complementary TERRA and forming telomeric DNA:RNA hybrids, so that they might persist into S/G2 for recombination-mediated elongation as a means of repair. Here, to better understand the role of telomeric RNA in the telomeric DDR, we investigated TERRA associated with ionizing radiation- and telomere specific-induced damage in normal human blood in vivo (during spaceflight and high-altitude ascent of Mt. Everest), and in human U2OS (ALT) cells in vitro.",
+  "methods": "Methods\n\nRNA-Seq for astronauts\n\nSample collection methods for the four SpaceX Inspiration4 civilian crewmembers have been detailed in full. Briefly, human peripheral blood mononuclear cells (PBMCs) were isolated from K2 EDTA tubes using Ficoll separation. Single-nuclei libraries were generated via the Chromium Next GEM Single Cell Multiome ATAC and Gene Expression kit (10x Genomics) according to the manufacturer’s instructions. For the NASA Twins Study subjects, sample collection (and unavoidable loss of some samples), and poly(A) + RNA preparation was as described in Garrett-Bakelman et al. , and for the high-altitude climbers as in Luxton et al. .\n\nSimulated microgravity experiments\n\nDe-identified peripheral blood buffy coat samples were obtained from 2 healthy human donors between the ages of 25 and 36 from the Stanford University Blood Center (IRB eProtocol# 13942). PBMCs were isolated using a Ficoll gradient method. Cells were counted and re-suspended in complete media at 1 × 106 cells/ml (RPMI 1640, 10% Fetal Bovine Serum, 2mM L-Glutamine, 1% penicillin/streptomycin, 0.1 mM non-essential Amino acid, 1 mM sodium pyruvate, 50 uM 2-mercaptoethanol, 10 mM HEPES). The cell suspension of PBMCs was loaded into 10 ml disposable rotating wall vessels (Synthecon, Houston, TX) and rotated at 15 rpm for 25 hr to generate simulated microgravity. For the 1 G control, the cell suspension was plated in standard 6-well culture plates. 1 G and simulated microgravity cultures were simultaneously placed in the same 37 °C, 5% CO2 incubator.\n\nFor single-cell RNA sequencing, 1 × 104 PBMCs from each condition were counted and loaded on the 10X Genomics Chromium Controller, and the libraries were prepared using Chromium Next GEM Single Cell 5’ Reagent Kit v2 according to the manufacturer’s protocol (10X Genomics, Pleasanton, CA). The quality of libraries was assessed using Agilent TapeStation 4200, and test-sequenced on Illumina NextSeq 550. The full sequencing was performed on an Illumina NovaSeq 6000 by SeqMatic (Fremont, CA). FASTQ (raw data) files were processed through 10x Genomics Cell Ranger v6.1.2 pipeline and all bases with quality below Q20 were truncated. The “cellranger count” function was used to perform transcriptome alignment, filtering, and UMI counting, and then to generate the count matrixes. Alignment was done against the human genome GRCh38-2020-A.\n\nIn vitro ionizing radiation experiments\n\nU2OS cells were seeded into 4-well chamber slides (Nunc Lab-Tek II 154526) at a density of 5×105 cells/well and incubated at 37 °C and 5% CO2 to allow cell attachment. Cells were either sham-irradiated (0 Gy) or exposed to 137Cs γ-rays (2 Gy) while rotating in a Mark I irradiator (J.L Sheppard) located at Colorado State University. Cells were then returned to the incubator for 4 hours prior to fixation.\n\nFor inhibition of transcription and droplet digital PCR (ddPCR) analyses, U2OS cells were seeded into 6-well plates (2 × 105 cells/well) 24 h prior to addition of 10 ug/ml Actinomycin-D (ActD; ThermoFisher). Cells were collected in Trizol at 3, 6, 8 and 24 hr after treatment. Control U2OS cells (DMSO treated) were collected after 24 h. RNA (500 ng) was used to make cDNA using standard reverse transcription (ImPromII-Reverse Transcription System-Promega). 25 µL reaction mixtures containing GAPDH or 18S rRNA primers, template (1:10,000 dilution cDNA) and QX200™ ddPCR™ EvaGreen Supermix (Bio-Rad: 186–4034) were used for the ddPCR platform (QX200 Droplet Digital PCR (ddPCR™) System – Bio-Rad). Droplet generation and transfer of emulsified samples to PCR plates was performed according to manufacturer’s instructions (Instruction Manual, QX200™ Droplet Generator – Bio-Rad). The cycling protocol for the ddPCR platform started with a 95 °C enzyme activation step for 5 min, followed by 40 cycles of a two-step cycling protocol (95 °C for 30 s and 60 °C for 1 min) with a ramp rate of 2 °C/second. Post-cycling protocol was in accordance with the kit instructions (Bio-Rad –186–4034). For TERRA foci detection following inhibition of transcription, U2OS cells on chamber-slides were treated with 10 ug/ml ActD, 3 and 8 h prior to IR exposure; cells were fixed and TERRA foci detected using RNA-FISH as described below.\n\nIn vitro cell culture and transfections\n\nHuman U2OS ALT cells (provided by Dr. Jiri Lucas, University of Copenhagen) were cultured in Dulbecco’s Modified Eagle Medium (DMEM, Hyclone) supplemented with 10% fetal bovine serum (FBS) and incubated at 37 °C and 5% CO2. TRAS1-EN-TRF1 (EN-T) and TRF1-only plasmids, both driven by a CMV promoter and possessing a C-terminal FLAG-tag for visualization, were constructed from a CMV-driven TRAS1-EN-TRF1 plasmid obtained from Dr. Haruhiko Fujiwara (University of Tokyo). To generate the TRF1-only plasmid, the TRAS1-EN-TRF1construct was digested and the EN fragment removed. The mutated Cas9 pSpCas9m(BB)-2A-Puro (PX462) V2.0 (empty vector) plasmid (Addgene plasmid #62987; http://n2t.net/addgene:62987; RRID:Addgene_62987) was provided by Dr. Claudia Wiese (Colorado State University). Transient transfections of EN-T, TRF1-only (positive control; previously shown to recruit γ-H2AX to telomeres in U2OS ALT cells), and empty vector (EV; transfection control) using Lipofectamine 3000 (Invitrogen) were performed per manufacturer’s instructions on cell cultures reaching ~60–80% confluency in Opti-MEM (Gibco), which was replaced with regular media 8 h later. Untransfected (UT; negative control) populations had neither plasmid nor Lipofectamine, and unless specified otherwise all experiments were carried out 48 h post-transfection.\n\nA U2OS cell line stably expressing FUCCI-Geminin (green; S-G2-M) was established by transfecting cells with 0.5 ug of the Kan-FUCCI-Green (S-G2-M) plasmid (AM-V9016, Amalgaam) as previously described. Briefly, plasmids were delivered using Lipofectamine 3000 (Invitrogen) following the manufacturer’s instructions. Eight hours following transfection, Opti-MEM media was replaced with fresh DMEM media. One week later, cells were trypsinized and individual cells were seeded into a 96-well plate. A single positive clone was identified and expanded in the presence of 800 μg/ml G-418 sulfate (GoldBio). After reaching ~90% confluency, cells were split into a 24-well plate, then 10 days later into a 12-well plate, and one week later into a 6-well plate. Cells were transferred into T-25 flasks, and then after 6 days into T-75 flasks. The DMEM media containing 800 μg/ml G-418 sulfate was changed every two days. FUCCI-U2OS cells stably expressing FUCCI G2-Green were transiently transfected with EN-T or TRF1-only plasmids using Lipofectamine 2000 (Invitrogen) following manufacture’s instruction. Eight hours following transfection, Opti-MEM media was replaced with fresh DMEM media, and cells were fixed 48 h post-transfection.\n\nRNA fluorescence in-situ hybridization (RNA-FISH)\n\nFor combined telomeric C-rich strand detection and FLAG staining, U2OS expressing FUCCI-SG2-M-Green cells were grown on 4-well chamber slides (MilliCell EZ). Forty-eight hours following transfection, chambers were removed and slides washed with Cytoskeleton (CSK) buffer (100 mM NaCl, 1 mM EGTA, 10 mM PIPES at pH 6.8, 3 mM MgCl2, 300 mM sucrose) containing 200 mM vanadyl for 30 seconds. Cells were then fixed in freshly prepared 3% paraformaldehyde in 10X PBS for 12 minutes at room temperature, and permeabilized with 0.5% Triton X-100 in CSK buffer containing 200 mM vanadyl for 7 min at room temperature. Cells were washed with 70% ethanol and dehydrated through a graded ethanol series (85%, 95%, 100%). For TERRA (UUAGGG) detection, 0.5 uM (TelC-Alexa 488, Bio-Synthesis) or (TelC- Alexa 647, Bio PNA 1013) Peptide Nucleic Acid (PNA-CCCTAA) telomere probe was added to the hybridization buffer [50% (vol/vol) formamide, 2X (vol/vol) saline sodium citrate (SSC)] with 200 mM vanadyl, and denatured at 85 °C for 10 min and then cooled on ice. Hybridization buffer (200 ul) was added to each slide and slides were placed in a humidified chamber and incubated at 37 °C for 6 h. Slides were washed twice in 50% formamide in 2X SSC (2.5 min, 42 °C), twice in 4X SSC (2.5 min, 42 °C), and once in 2X SSC + 0.1% NP-40 (2.5 min, 42 °C).\n\nRNaseA + H treatment\n\nTo remove both bound and unbound TERRA, fixed and permeabilized U2OS and U2OS FUCCI-S-G2-M-Green cells were treated with a cocktail of 1 mg/ml RNaseA (degrades free RNA) and 15 U RNaseH (cleaves RNA from DNA:RNA hybrids) in 1X RNaseH buffer for 1 h at 37 °C.\n\nImmunofluorescence staining\n\nBlocking nonspecific immunoglobulin binding following FISH was carried out with 10% Goat Normal Serum (GNS) for 30 min in a humidified chamber at room temperature. Slides were then incubated with primary antibody in 5% GNS overnight at 4 °C. Slides were washed three times with 1X PBS at room temperature. Protein signals were visualized by incubating slides with fluorophore-conjugated secondary antibody for 40 min in a humidified chamber at room temperature and washed three times in 1X PBS. Lastly, slides were mounted and counterstained with Prolong Gold antifade reagent with DAPI (Invitrogen). Primary antibodies and concentrations used include mouse antiFLAG (Sigma M2 F1804, 1:2000), rabbit anti-human FLAG (Sigma 7425 1:300), mouse anti-human TRF2 (Santa Cruz B-5, 1:200), and mouse anti-phospho-Histone H2A.X (Ser139), clone JBW301 (Sigma 05-636, 1:10). Secondary antibodies and concentrations used include: Alexa-647 goat anti-mouse (ThermoFisher A21236, 1:750), Alexa-594 goat anti-mouse (ThermoFisher A11005, 1:750), Alexa488 goat anti-rabbit (ThermoFisher A11008, 1:750). For EdU detection, Click-iT EdU Alexa Flour 555 (Invitrogen) was used according to manufacturer’s instructions.\n\nCell cycle analysis\n\nUtilizing a U2OS cell line stably expressing FUCCI-Geminin, the cell cycle phase of interphase nuclei was determined. Definitive identification of cells in S-phase was achieved via pulse-labeling with the thymidine analog 5-Ethynyl-2´-deoxyuridine (EdU) for 30 min prior to fixation; 10 uM EdU (Click-iT, Invitrogen) was added to the culture and incubated at 37 °C. The scoring strategy to distinguish cell cycle phase of transiently transfected FUCCI U2OS cells was defined as cells positive for FLAG were in G1, cells positive for FLAG and EdU were in S, and cells positive for FLAG and GemininGFP were in G2.\n\nMicroscopy and quantitative analysis\n\nImages were captured using a Zeiss Axio Imager.Z2 epi-fluorescent microscope outfitted with a 63X/1.4 N.A objective and a Coolsnap ES2 camera, and analyzed using Zen Blue software. Images were captured for co-localization 3-D analyses (50 per condition), each consisting of 21 Z-stacks (0.2 µm per plane) in combinations of 4 wavelengths (colors). Quantitative analysis was performed using Fiji (ImageJ2 software) and Cell Profiler using our customized pipeline for 3D reconstructions and simultaneous dual and triple co-localizations of the different markers.\n\nData analysis\n\nFor RNA-seq data analysis, the total baseline counts of all 5-, 6-, and 7-mers were calculated with jellyfish in both the single nuclei RNA-Seq data (Inspiration4) and poly(A) + RNA-Seq data (Twins Study). These data were filtered for reads containing UUAGGG 6-mers, accounting for reverse complementarity. In these sets of reads, the counts of all 5-, 6-, and 7-mers were again calculated, accounting for circular shifts; the normalized count of each k-mer was calculated as its absolute count divided by the total count of all k-mers in the dataset for each k (5 ≤ k ≤ 7).\n\nConsidering the different experimental designs (Inspiration4: longitudinal cohort; Twins Study: synchronized subject/control; and Mt. Everest climbers: longitudinal cohort), we classified the data into conceptually similar categories: ground (either pre-flight or ground control), space effect (either in-flight or immediately post-flight), and recovery (long-term post-flight); and for the Mount Everest data, pre-ascent (low altitude), ascent (high altitude), and descent (low altitude). The simulated data was classified into microgravity (uG) and Earth gravity (1 G) categories.\n\nA Pearson’s correlation matrix of normalized counts of k-mers to the UUAGGG motif across all samples was calculated. Independently for the Inspiration4 data and Twins Study data, and for each motif, Mann–Whitney U tests were performed between space effect and combined non-space (ground and recovery) categories. For simulated data, Mann–Whitney U tests were performed between the uG and 1 G categories, respectively, and for the Mount Everest data, the tests were performed between the pre-ascent, ascent, and descent categories. All resultant p-values were considered together and adjusted with the Benjamini–Hochberg procedure (correcting for the false discovery rate, FDR), and sorted by correlation to the UUAGGG motif (Supplementary Data 1, 2, 3). For further analysis and visualization, the ten motifs with the highest correlation (Pearson’s r) to the UUAGGG motif, including itself, were selected in each data set. For the Mann–Whitney U test and the Benjamini–Hochberg correction, the Inspiration4 data was considered in groups at each timepoint, while the Twins Study and the Mount Everest data were grouped per category, owing to the lower number of subjects and samples. Z-scored normalized counts were plotted using seaborn/matplotlib across all categories and timepoints, together with the pairwise adjusted p-values (Figs. 1 and 2; Supplementary Fig. 1; Supplementary Data 4).\n\nFor in vitro cell culture experiments, all data analyses were performed using Prism 10.0.0 (GraphPad Software, Boston, Massachusetts, USA, www.graphpad.com); Supplementary Data 5 reports all comparison statistics.\n\nFor telomeric RNA-FISH (TERRA) analysis following IR exposure with and without inhibition of transcription (Actinomycin-D treatment), TERRA foci were counted in treated and control (DMSO) groups using Metamorph 7.7 (Fig. 3a). Data represent 2 independent experiments (50 cells scored for each condition). Statistical significance was assessed by two-way ANOVA followed by Dunnett’s multiple comparisons test.\n\nFor EN-T and TRF1-only transfection analysis (FLAG-DAPI immunostaining), data represent 3 independent experiments (50 cells scored for each condition); Supplementary Fig. 3. Significance was assessed by one-way ANOVA followed by Tukey’s multiple comparisons test. For telomeric DSB induction validation and TERRA colocalization utilizing telomere DNA-FISH and RNA-FISH immunofluorescence (FLAG - γ-H2AX- C-strand telomere; and TRF2-TERRA, FLAG-TERRA, and FLAG-TRF2 -TERRA), the number of multiple colocalization events was counted from the sum of 21 Z-stacks reconstructed three-dimensionally using the deconvolution function on ImageJ (Fig. 3b; Supplementary Fig. 4). Quantitative analysis was performed using ImageJ and Cell Profiler image analysis software 3.1.5. Data represent three independent experiments (50 cells scored for each condition). Statistical significance was assessed by one-way ANOVA followed by Šídák’s multiple comparisons test and by two-way ANOVA followed by Tukey’s multiple comparisons test, respectively.\n\nFor evaluating TERRA distribution (bound vs. unbound), data represent 3 independent experiments (50 cells scored in each condition); Supplementary Fig. 5. Statistical significance was assessed by two-way ANOVA followed by Šídák’s multiple comparisons test. For cell cycle and TERRA distributions (Supplementary Figs. 6 and 7), data represent five independent experiments (50 cells scored in each condition). Statistical significance was assessed by two-way ANOVA followed by Tukey’s multiple comparison test.\n\nHuman participants research\n\nInformed consent was obtained from all human research participants. The Inspiration4 crewmembers were consented at an informed consent briefing conducted at SpaceX (Hawthorne, CA), and samples were collected and processed under approval of the Institutional Review Board (IRB) at Weill Cornell Medicine, under Protocol 21-05023569. The NASA Twins Study subjects and the Everest climbers were consented under WCM IRB protocol #1309014347. All participants consented for data and sample sharing. Biological materials can be requested through the Cornell Aerospace Medicine Biobank. We affirm that we have complied with all relevant ethical regulations.\n\nReporting summary\n\nFurther information on research design is available in the Nature Portfolio Reporting Summary linked to this article.\n\nSupplementary information\n\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\n\nThese authors contributed equally: Taghreed M. Al-Turki, David G. Maranon.",
+  "results": "Results\n\nTelomeres and TERRA in the space radiation DNA damage response\n\nWe previously documented telomere length dynamics (changes over time) in astronauts experiencing long-duration spaceflight in low Earth orbit (LEO) onboard the International Space Station (ISS). Contrary to expectation based on in vitro studies and acute radiation exposures, and similar to our results for NASA’s One Year Mission twin astronaut, which were validated with long-read, single-molecule nanopore sequencing, significantly longer telomeres (in blood) were observed during spaceflight (compared to pre-flight, baseline measures) in two unrelated 6-month mission astronauts. Furthermore, telomere length shortened rapidly upon return to Earth and, overall, average telomere length tended to be shorter after spaceflight than before for all crewmembers in our combined studies.\n\nSimilarly, for the 2021 SpaceX Inspiration4 all civilian crew, telomere elongation (in blood) was observed in all 4 crewmembers during the 3-day, high-elevation (590 km) orbital mission. Consistent with our previous studies of astronauts living and working in the space radiation environment, stress-related responses to oxidative stress, mitochondrial dysregulation, inflammation, and DNA damage were also enriched during the Inspiration4 mission and correlated with telomere length dynamics, thus supporting this phenotype as a consistent human response to spaceflight that is thus far independent of mission duration (3 days, 6 months, 1 year). Moreover, our previous cell-by-cell cytogenetic observations of ALT/ALT-like phenotypes during spaceflight (heterogeneous telomere lengths; very long and very short), as well as pathway analyses that implicated ALT and recombination-based maintenance of telomeres in two high altitude climbers – who also experienced telomere elongation associated with climbing Mt. Everest, supported our overall supposition that due to telomeres’ particular susceptibility to oxidative damage, the ALT pathway of telomere maintenance may be transiently activated in normal cells during chronic exposure. We have reported individual differences in response, as well as provided support for the mechanistic role of radiation exposure underlying changes in telomere length dynamics and persistent DDRs; specifically, telomere elongation (in blood) was observed in a cohort of 15 prostate cancer patients immediately following three months of radiation therapy (IMRT).\n\nGiven these results, and the emerging roles of telomeric RNA in maintaining genome stability, which include involvement in DNA damage and cellular stress responses, we next interrogated whether TERRA might play a role in a low dose/low dose-rate space radiation-induced DDR. Indeed, RNA sequencing (RNA-seq) data provided evidence of significant increases in the abundance of TERRA transcripts (q-value < 0.05, FDR corrected) during both long and short-duration spaceflight; i.e., for the One-Year mission astronaut (Twins Study), and the Inspiration4 crewmembers (Fig. 1). Telomeric repeat sequence variants beyond the canonical 5’-TTAGGG-3’ have been previously reported and confirmed by a variety of approaches, including our telomere long- and short-read DNA sequencing as part of the NASA Twins Study. Correspondingly, TERRA molecules have been shown to contain frequent variations in the sequence runs of perfect 5’-UUAGGG-3’ repeats, which were used here to validate TERRA transcripts in both sequencing-by-synthesis chemistry (Illumina) and direct RNA-sequencing (Oxford Nanopore) platforms (short-read bulk RNA-seq, long-read direct RNA, and single-cell RNA-seq). In reads containing the telomeric RNA/TERRA canonical motif, 5’-UUAGGG-3’, the abundance of multiple motif variants increased significantly (Mann–Whitney U test, adjusted p-value < 0.05) compared to baseline (pre-flight and twin ground control samples) in both experiments during and immediately following space flight (Supplementary Data 1, 2); among the top ten correlating variants, Pearson’s r was between 0.87 and 0.94 for the Inspiration4 crewmembers, and at 0.99 for the Twins Study subjects. As such, these motifs displayed concerted significant enrichment during space flight (Twins Study), and immediately post-flight (Inspiration4, R + 1 day), returning to baseline levels over the course of recovery (Fig. 1).\n\nIn sharp contrast, ground-based simulated microgravity alone did not lead to an increased abundance of TERRA 5’-UUAGGG-3’ motifs and its variants (Mann–Whitney U p-value = 0.21) (Supplementary Fig. 1; Supplementary Data 3). For these in vitro experiments, and to isolate the particular effect of microgravity, normal human PBMCs from two healthy donors were loaded into a rotating wall vessel (rotary cell culture system) and rotated for 25 h to simulate microgravity, and then RNA-seq was performed on test and control cultures. Notably, TERRA transcripts associated with simulated microgravity were not significantly increased, and actually even decreased in likelihood. Furthermore, the abundance of TERRA-associated sequence motifs was elevated for climbers while at high altitudes (from 1400 to 5600—6400 m above sea level), and then returned to baseline levels shortly after descent (Fig. 2, Supplementary Data 4). Thus, in addition to telomere elongation and evidence of ALT-like activity in the ground-based climbers during a 5-day expedition ascending Mt Everest, TERRA transcripts were significantly enriched in vivo in a high-altitude, higher-radiation environment, independent of microgravity.\n\nTERRA in the DNA damage response to ionizing radiation-induced DSBs\n\nTo evaluate whether TERRA might be involved in a general radiation response, another major stressor associated with spaceflight (and high altitudes), cycling human U2OS (ALT) cells with high levels of TERRA were exposed to ionizing radiation (IR), a DNA damaging agent and potent inducer of prompt DSBs throughout the genome; specifically, cells were exposed to γ-rays (2 Gy), or sham-irradiated (0 Gy), and incubated for 4 h. High-resolution three-dimensional (3-D) cell-by-cell image analyses and quantification of TERRA signals in individual interphase nuclei following RNA fluorescence in situ hybridization (RNA-FISH) revealed a significant increase in the mean number of TERRA foci/cell in irradiated cells compared to unirradiated controls (p ≤ 0.0001) (Fig. 3a). To validate and confirm that signals were indeed TERRA, irradiated and unirradiated U2OS cells were treated with RNaseA, which degrades free RNA, and although reduced, TERRA signals remained. Therefore, for all experiments, cells were treated with a combination of RNaseA+H to remove both bound (DNA:RNA hybrids) and unbound (free) TERRA, which significantly reduced the number of TERRA foci observed (p < 0.01; Supplementary Fig. 2a, Supplementary Data 5). Resistant (remaining) TERRA foci following RNaseA+H treatment likely represent TERRA nested in unwinding RNA G4 structures. These results provide orthogonal validation that TERRA abundance increases in response to acute IR exposure and genome-wide induction of DSBs.\n\nTo confirm that TERRA induction following in vitro IR exposure was due to increased transcription, consistent with the increased levels of TERRA transcripts observed in vivo (during spaceflight and high-altitude climb) (Figs. 1 and 2), global transcription was inhibited via treatment with Actinomycin-D (ActD; 10 ug/ml, diluted in DMSO) for 3, 6, 8, and 24 h, and then RNA decay measured using digital droplet PCR (ddPCR) to assess absolute change in expression of two housekeeping control genes (GAPDH and 18S rRNA), as per previous reports (Fig. 3a, Supplementary Fig. 2b). The timepoint for maximum reduction (% expression) was established at 3–8 h ActD treatment (53.2% vs. 39.8% and 37.4% at 8 and 24 h, respectively), therefore U2OS cells were treated with ActD (or DMSO for controls) for 3 and 8 h prior to radiation exposure (2 Gy) or sham-irradiation (0 Gy), and then fixed 4 h later for RNA-FISH. Quantification of TERRA signals (as above) demonstrated that inhibition of transcription prior to IR exposure prevented TERRA induction; i.e., cells treated with ActD did not show a radiation-induced increase of TERRA foci above background levels (Fig. 3a). Taken together, these results support upregulation of TERRA transcription, specifically in response to IR-induced DNA damage/DSBs, as inhibition of transcription following IR exposure prevented induction of increased numbers of TERRA foci.\n\nTelomere-specific DSBs induced by the EN-T targeting system\n\nDue to the random distribution of DSBs induced by sparsely ionizing radiations, γ-rays would only rarely be expected to directly damage telomeres due to the small fraction of the genome that they occupy. Therefore, to explore the response of TERRA specifically to DSBs that occur within telomeres, we employed the chimeric TRAS1-EN endonuclease fused to TRF1 (EN-T) targeting system in human U2OS (ALT) cells. We previously demonstrated the utility of this well-characterized system for inducing telomeric DSBs in human normal and cancer cell lines. Here, populations of cycling U2OS cells were transiently transfected with EN-T, TRF1-only (positive control), or empty vector (EV, transfection control), and then compared to untransfected (UT) negative control populations.\n\nTo accurately assess DSB induction specifically within telomeres, we first evaluated transfection efficiencies by co-staining for FLAG (to detect EN-T or TRF1-only) and DAPI (to define nuclear DNA/cell periphery) (Supplementary Fig. 3a). To eliminate any background signals, only cells with ≥20 FLAG foci/cell were considered positively transfected (~25–30% of the cells) and subsequently scored by the Cell-Profiler software, i.e., all cells scored were transfected (100%). As expected, the mean number of FLAG foci/cell was significantly higher in EN-T and TRF1-only transfected populations compared to empty vector and untransfected cells (p < 0.001), which represented an ~4-fold increase (Supplementary Fig. 3b; Supplementary Data 5). Additionally, the mean number of FLAG foci/cell for EN-T and TRF1-only transfected populations did not significantly differ, suggesting similar levels of transfection for EN-T and TRF1-only.\n\nTo validate EN-T induction of telomere-specific DSBs, positively-transfected U2OS cells (FLAG+) were subjected to native (non-denaturing) telomere FISH (to detect resected single-stranded telomeric DNA) together with γ-H2AX immunofluorescence (to detect DNA DSBs), which served to identify telomere-specific DSBs as evidenced by triple co-localization of FLAG, γ-H2AX, and telomere (TTAGGG) foci (Supplementary Fig. 4). Both EN-T and TRF1-only co-localized to telomeres and induced telomeric DSBs to similar levels (FLAG-γH2AX-telomere co-localized foci), confirming EN-T induction of targeted telomeric DSBs. That TRF1-only also recruited γ-H2AX to telomeric damage sites is consistent with previous reports and the recent demonstration that overexpression of wild-type TRF1, and not mutated TRF1, in U2OS ALT cells resulted in a 3-fold increase in telomeric γ-H2AX foci at 48hr. Telomeric DSBs were not observed in cells transfected with empty vector or in untransfected populations (FLAG-), and as expected there was no significant effect of RNaseA+H treatment (Supplementary Data 5). When the data was evaluated as percent co-localization (Supplementary Fig. 4b), FLAG-γH2AX-telomere foci co-localized at most telomeres in EN-T and TRF1-only transfected cells (>80% were damaged), and all detectable γ-H2AX was localized to telomeres. Thus, our approach utilizing the EN-T system facilitated evaluation of telomeric DNA damage/DSBs only in transfected cells (inclusion of non-transfected cells was avoided), and results confirmed the efficiency of EN-T and TRF1-only in inducing DSBs specifically at telomeres in U2OS ALT cells.\n\nTERRA response and recruitment to telomeric DSB sites\n\nTo test the hypothesis that TERRA may respond specifically to telomeric DSB damage sites, TERRA foci were quantified using cell-by-cell 3-D image analysis of RNA-FISH in transfected and untransfected U2OS cell populations. To evaluate and visualize TERRA response to telomeric DSB damage sites, we quantified triple co-localization of FLAG, TERRA, and telomere (TRF2) foci (Fig. 3b, Supplementary Fig. 5a). Significant increases in the mean number of TERRA foci co-localized at telomeric DSB sites (p < 0.0001) were observed in EN-T and TRF1-only transfected populations compared to empty vector and untransfected controls; RNaseA+H treatment removed TERRA signal from all populations (Supplementary Data 5). Furthermore, there was a corresponding decrease in the mean number of undamaged telomeres bound by TERRA in EN-T and TRF1-only transfected cells compared to the steady-state/background levels of undamaged telomeres in empty vector and untransfected populations (Telomere-TERRA co-localized foci). These results provide direct evidence of significantly increased levels of hybridized TERRA specifically at telomeric DSB damage sites, consistent with the transcription-dependent nature of elevated TERRA foci and formation of TERRA:telomeric DNA hybrids in response to broken telomeres; i.e., TERRA binds extensive tracks of resected 5’ single-stranded C-rich telomeric DNA at DSB break sites.\n\nWe further examined TERRA:telomeric DNA hybrid dynamics by estimating percentages of bound (hybridized) and unbound (free) TERRA (Supplementary Fig. 5b; Supplementary Data 5). Total TERRA foci in positively transfected EN-T and TRF1-only cells (>20 FLAG foci) with damaged telomeres (FLAG-TERRA-TRF2 foci) were compared to empty vector and untransfected populations with few or no damaged telomeres (TERRA-TRF2 foci). Free TERRA was determined by subtracting hybridized from total TERRA. A striking shift in TERRA distribution occurred in EN-T and TRF1-only transfected populations compared to the controls (empty vector and untransfected). EN-T and TRF1-only transfected cells with damaged telomeres had ~90% of TERRA bound to telomeres, and only ~10% of the total TERRA was free. In control populations, the opposite trend was observed; only ~30% of TERRA was bound to telomeres, while ~70% was free, similar to previous reports in telomerase positive cells. Results indicate that in contrast to typically stable localization of TERRA at telomeres in U2OS ALT cells, upon induction of telomeric DSBs free TERRA is recruited to damage sites, as the fraction of bound TERRA significantly increased while free TERRA dramatically decreased, reflective of a potentially rapid and robust response to telomeric DSBs.\n\nTaken together, these findings suggest that in addition to newly transcribed, nascent TERRA being retained at extensively resected 5’ C-rich single-stranded telomeric DNA at telomeric DSB damage sites, readily-available, free TERRA is also recruited to telomeric DSB sites, with both forming protective telomeric DNA:RNA hybrids.\n\nTERRA accumulates at telomeric-DSBs in G2 ALT cells\n\nTo further investigate TERRA in the DDR to telomeric DSBs, and considering that U2OS cells experience a permissive G1 checkpoint, and that both RAD51 and RAD52 have been implicated in TERRA interactions at telomeres, we hypothesized a requisite cell-cycle dependent component of TERRA’s role at telomeric DSBs if involved in facilitating recombination-mediated elongation as a means of repair. As per our previous report, a stably transfected U2OS cell line expressing Geminin protein fused to Green Fluorescence Protein (Geminin-GFP) was created to positively identify individual interphase nuclei in G2-phase; absence of Geminin-GFP signals in each negative (unlabeled) cell represented a cell in G1-phase. To identify nuclei in S-phase, cells were pulse-labeled with EdU for 30 min. Thus, cells positive for Germinin-GFP were in G2, cells positive for EdU were in S, and cells negative for both markers were in G1 (Supplementary Fig. 6a).\n\nCell cycle distributions were thereby determined in transfected populations and compared to untransfected controls, in which there was no significant difference between the mean number or percent of cells in G1 and G2 (Supplementary Fig. 6b). In contrast, transiently transfected EN-T, TRF1-only, and empty vector cells accumulated in G2-phase, consistent with a DNA damage-induced G2 block, irrespective of whether DNA damage was telomere-specific DSBs (EN-T, TRF1-only; Fig. 3b) or other more general DNA damage related to the cellular stress and toxicity of transfection (empty vector). Indeed, there were significantly more cells in G2 compared to G1 in each of the transfected populations (p < 0.005; Supplementary Data 5), as well as a corresponding decrease of cells in G1. Consistent with expectation, cell cycle distributions were not significantly influenced by RNaseA+H treatment (Supplementary Data 5).\n\nNext, we quantified TERRA abundance throughout the cell cycle, which mirrored the cell cycle distributions in that there was no significant difference between the mean number of TERRA foci in G1 and G2 cells in untransfected control populations, while in transfected populations TERRA foci increased in G2 and correspondingly decreased in G1 (Supplementary Fig. 7). Significant increases in the mean number of TERRA foci in G2 compared to G1-phase occurred in each of the transfected populations (p < 0.0001; Supplementary Data 5). These results further support free TERRA being recruited to telomere-specific DSBs (EN-T, TRF1-only) and demonstrate TERRA accumulation in G2-phase, concomitant with a DNA damage-induced G2 block (Supplementary Fig. 6b). TERRA was also elevated in response to the cellular stress of transfection (empty vector), but these TERRA foci were not associated with telomeric DSBs since they did not colocalize with γ-H2AX at telomeres (Fig. 3b), a finding consistent with previous reports demonstrating crosstalk between cellular stress and TERRA induction [reviewed in ref. ]. Lastly, and as expected, TERRA foci were eliminated by RNaseA+H treatment (Supplementary Data 5).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genetics",
+    "Molecular biology",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Origin of concatameric T7 DNA",
+      "authors": [
+        "JD Watson"
+      ]
+    },
+    {
+      "title": "Principle of marginotomy in template synthesis of polynucleotides",
+      "authors": [
+        "AM Olovnikov"
+      ]
+    },
+    {
+      "title": "The stability of broken ends of chromosomes in Zea mays",
+      "authors": [
+        "B McClintock"
+      ]
+    },
+    {
+      "title": "How telomeres solve the end-protection problem",
+      "authors": [
+        "T de Lange"
+      ]
+    },
+    {
+      "title": "A highly conserved repetitive DNA sequence, (TTAGGG)n, present at the telomeres of human chromosomes",
+      "authors": [
+        "RK Moyzis"
+      ]
+    },
+    {
+      "title": "Conservation of the human telomere sequence (TTAGGG)n among vertebrates",
+      "authors": [
+        "J Meyne",
+        "RL Ratliff",
+        "RK Moyzis"
+      ]
+    },
+    {
+      "title": "Grigorev, K. et al. Haplotype diversity and sequence heterogeneity of human telomeres. Genome Res. 10.1101/gr.274639.120 (2021).",
+      "authors": []
+    },
+    {
+      "title": "TRF1 binds a bipartite telomeric site with extreme spatial flexibility",
+      "authors": [
+        "A Bianchi"
+      ]
+    },
+    {
+      "title": "Quantitative telomeric overhang determination using a double-strand specific nuclease",
+      "authors": [
+        "Y Zhao",
+        "H Hoshiyama",
+        "JW Shay",
+        "WE Wright"
+      ]
+    },
+    {
+      "title": "Identification of a Specific Telomere Terminal Transferase-Activity in Tetrahymena Extracts",
+      "authors": [
+        "CW Greider",
+        "EH Blackburn"
+      ]
+    },
+    {
+      "title": "Mammalian telomeres end in a large duplex loop",
+      "authors": [
+        "JD Griffith"
+      ]
+    },
+    {
+      "title": "Twenty years of t-loops: A case study for the importance of collaboration in molecular biology",
+      "authors": [
+        "L Tomaska",
+        "AJ Cesare",
+        "TM AlTurki",
+        "JD Griffith"
+      ]
+    },
+    {
+      "title": "A Human Telomeric Protein",
+      "authors": [
+        "L Chong"
+      ]
+    },
+    {
+      "title": "Human telomeres contain two distinct Myb-related proteins, TRF1 and TRF2",
+      "authors": [
+        "D Broccoli",
+        "A Smogorzewska",
+        "L Chong",
+        "T de Lange"
+      ]
+    },
+    {
+      "title": "Shelterin: the protein complex that shapes and safeguards human telomeres",
+      "authors": [
+        "T de Lange"
+      ]
+    },
+    {
+      "title": "Telomeres Shorten During Aging of Human Fibroblasts",
+      "authors": [
+        "CB Harley",
+        "AB Futcher",
+        "CW Greider"
+      ]
+    },
+    {
+      "title": "Oxidative stress shortens telomeres",
+      "authors": [
+        "T von Zglinicki"
+      ]
+    },
+    {
+      "title": "Accelerated telomere shortening in response to life stress",
+      "authors": [
+        "ES Epel"
+      ]
+    },
+    {
+      "title": "Diet, nutrition and telomere length",
+      "authors": [
+        "L Paul"
+      ]
+    },
+    {
+      "title": "Telomeres and adversity: Too toxic to ignore",
+      "authors": [
+        "EH Blackburn",
+        "ES Epel"
+      ]
+    },
+    {
+      "title": "Chromosome Translocations, Inversions and Telomere Length for Retrospective Biodosimetry on Exposed U.S. Atomic Veterans",
+      "authors": [
+        "MJ McKenna"
+      ]
+    },
+    {
+      "title": "Luxton, J. J. et al. Temporal Telomere and DNA Damage Responses in the Space Radiation Environment. Cell Rep., 33, 108435 (2020).",
+      "authors": []
+    },
+    {
+      "title": "Association of shorter leukocyte telomere repeat length with dementia and mortality",
+      "authors": [
+        "LS Honig",
+        "MS Kang",
+        "N Schupf",
+        "JH Lee",
+        "R Mayeux"
+      ]
+    },
+    {
+      "title": "Are short telomeres predictive of advanced cancer?",
+      "authors": [
+        "JW Shay"
+      ]
+    },
+    {
+      "title": "Leucocyte telomere length and risk of cardiovascular disease: systematic review and meta-analysis",
+      "authors": [
+        "PC Haycock"
+      ]
+    },
+    {
+      "title": "Specific Association of Human Telomerase Activity With Immortal Cells and Cancer",
+      "authors": [
+        "NW Kim"
+      ]
+    },
+    {
+      "title": "Telomere Dynamics in an Immortal Human Cell-Line",
+      "authors": [
+        "JP Murnane",
+        "L Sabatier",
+        "BA Marder",
+        "WF Morgan"
+      ]
+    },
+    {
+      "title": "Telomere elongation in immortal human cells without detectable telomerase activity",
+      "authors": [
+        "TM Bryan",
+        "A Englezou",
+        "J Gupta",
+        "S Bacchetti",
+        "RR Reddel"
+      ]
+    },
+    {
+      "title": "Immortalized cells with no detectable telomerase activity. A review",
+      "authors": [
+        "RR Reddel",
+        "TM Bryan",
+        "JP Murnane"
+      ]
+    },
+    {
+      "title": "Frequent recombination in telomeric DNA may extend the proliferative life of telomerase-negative cells",
+      "authors": [
+        "SM Bailey",
+        "MA Brenneman",
+        "EH Goodwin"
+      ]
+    },
+    {
+      "title": "Alternative lengthening of telomeres in mammalian cells",
+      "authors": [
+        "JD Henson",
+        "AA Neumann",
+        "TR Yeager",
+        "RR Reddel"
+      ]
+    },
+    {
+      "title": "Alternative lengthening of telomeres: models, mechanisms and implications",
+      "authors": [
+        "AJ Cesare",
+        "RR Reddel"
+      ]
+    },
+    {
+      "title": "Telomeric repeat containing RNA and RNA surveillance factors at mammalian chromosome ends",
+      "authors": [
+        "CM Azzalin",
+        "P Reichenbach",
+        "L Khoriauli",
+        "E Giulotto",
+        "J Lingner"
+      ]
+    },
+    {
+      "title": "Developmentally regulated transcription of mammalian telomeres by DNA-dependent RNA polymerase II",
+      "authors": [
+        "S Schoeftner",
+        "MA Blasco"
+      ]
+    },
+    {
+      "title": "Mammalian telomeric RNA (TERRA) can be translated to produce valine-arginine and glycine-leucine dipeptide repeat proteins",
+      "authors": [
+        "TM Al-Turki",
+        "JD Griffith"
+      ]
+    },
+    {
+      "title": "Molecular dissection of telomeric repeat-containing RNA biogenesis unveils the presence of distinct and multiple regulatory pathways",
+      "authors": [
+        "A Porro",
+        "S Feuerhahn",
+        "P Reichenbach",
+        "J Lingner"
+      ]
+    },
+    {
+      "title": "Telomere functions grounding on TERRA firma",
+      "authors": [
+        "CM Azzalin",
+        "J Lingner"
+      ]
+    },
+    {
+      "title": "RNaseH1 regulates TERRA-telomeric DNA hybrids and telomere maintenance in ALT tumour cells",
+      "authors": [
+        "R Arora"
+      ]
+    },
+    {
+      "title": "Bettin, N., Oss Pegorar, C. & Cusanelli, E. The Emerging Roles of TERRA in Telomere Maintenance and Genome Stability. Cells8, 10.3390/cells8030246 (2019).",
+      "authors": []
+    },
+    {
+      "title": "RAD51-dependent recruitment of TERRA lncRNA to telomeres through R-loops",
+      "authors": [
+        "M Feretzaki"
+      ]
+    },
+    {
+      "title": "TERRA RNA binding to TRF2 facilitates heterochromatin formation and ORC recruitment at telomeres",
+      "authors": [
+        "Z Deng",
+        "J Norseen",
+        "A Wiedmer",
+        "H Riethman",
+        "PM Lieberman"
+      ]
+    },
+    {
+      "title": "TERRA biogenesis, turnover and implications for function",
+      "authors": [
+        "S Feuerhahn",
+        "N Iglesias",
+        "A Panza",
+        "A Porro",
+        "J Lingner"
+      ]
+    },
+    {
+      "title": "TERRA transcripts are bound by a complex array of RNA-binding proteins",
+      "authors": [
+        "I Lopez de Silanes",
+        "M Stagno d’Alcontres",
+        "MA Blasco"
+      ]
+    },
+    {
+      "title": "TERRA, hnRNP A1, and DNA-PKcs Interactions at Human Telomeres",
+      "authors": [
+        "PN Le",
+        "DG Maranon",
+        "NH Altina",
+        "CL Battaglia",
+        "SM Bailey"
+      ]
+    },
+    {
+      "title": "TERRA, a Multifaceted Regulator of Telomerase Activity at Telomeres",
+      "authors": [
+        "M Lalonde",
+        "P Chartrand"
+      ]
+    },
+    {
+      "title": "Transcription of telomeric DNA leads to high levels of homologous recombination and t-loops",
+      "authors": [
+        "A Kar",
+        "S Willcox",
+        "JD Griffith"
+      ]
+    },
+    {
+      "title": "The makings of TERRA R-loops at chromosome ends",
+      "authors": [
+        "RV Fernandes",
+        "M Feretzaki",
+        "J Lingner"
+      ]
+    },
+    {
+      "title": "TERRA transcription destabilizes telomere integrity to initiate break-induced replication in human ALT cells",
+      "authors": [
+        "B Silva",
+        "R Arora",
+        "S Bione",
+        "CM Azzalin"
+      ]
+    },
+    {
+      "title": "Prevalence of the alternative lengthening of telomeres telomere maintenance mechanism in human cancer subtypes",
+      "authors": [
+        "CM Heaphy"
+      ]
+    },
+    {
+      "title": "Daxx is an H3.3-specific histone chaperone and cooperates with ATRX in replication-independent chromatin assembly at telomeres",
+      "authors": [
+        "PW Lewis",
+        "SJ Elsaesser",
+        "KM Noh",
+        "SC Stadler",
+        "CD Allis"
+      ]
+    },
+    {
+      "title": "Alternative lengthening of telomeres renders cancer cells hypersensitive to ATR inhibitors",
+      "authors": [
+        "RL Flynn"
+      ]
+    },
+    {
+      "title": "The chromatin remodelling factor ATRX suppresses R-loops in transcribed telomeric repeats",
+      "authors": [
+        "DT Nguyen"
+      ]
+    },
+    {
+      "title": "RNA-DNA Hybrids Support Recombination-Based Telomere Maintenance in Fission Yeast",
+      "authors": [
+        "Y Hu"
+      ]
+    },
+    {
+      "title": "Telomeres in cancer: tumour suppression and genome instability",
+      "authors": [
+        "J Maciejowski",
+        "T de Lange"
+      ]
+    },
+    {
+      "title": "Doksani, Y. The Response to DNA Damage at Telomeric Repeats and Its Consequences for Telomere Function. Genes10, 10.3390/genes10040318 (2019).",
+      "authors": []
+    },
+    {
+      "title": "Subtelomeric regions in mammalian cells are deficient in DNA double-strand break repair",
+      "authors": [
+        "D Miller",
+        "GE Reynolds",
+        "R Mejia",
+        "JM Stark",
+        "JP Murnane"
+      ]
+    },
+    {
+      "title": "Mechanisms of telomere loss and their consequences for chromosome instability",
+      "authors": [
+        "K Muraki",
+        "K Nyhan",
+        "L Han",
+        "JP Murnane"
+      ]
+    },
+    {
+      "title": "Interchromosomal homology searches drive directional ALT telomere movement and synapsis",
+      "authors": [
+        "NW Cho",
+        "RL Dilley",
+        "MA Lampson",
+        "RA Greenberg"
+      ]
+    },
+    {
+      "title": "Telomere-Internal Double-Strand Breaks Are Repaired by Homologous Recombination and PARP1/Lig3-Dependent End-Joining",
+      "authors": [
+        "Y Doksani",
+        "T de Lange"
+      ]
+    },
+    {
+      "title": "Telomeric Recombination Induced by DNA Damage Results in Telomere Extension and Length Heterogeneity",
+      "authors": [
+        "H Liu"
+      ]
+    },
+    {
+      "title": "Sequence-specific recognition and cleavage of telomeric repeat (TTAGG)(n) by endonuclease of non-long terminal repeat retrotransposon TRAS1",
+      "authors": [
+        "T Anzai",
+        "H Takahashi",
+        "H Fujiwara"
+      ]
+    },
+    {
+      "title": "Creation of a novel telomere-cutting endonuclease based on the EN domain of telomere-specific non-long terminal repeat retrotransposon, TRAS1",
+      "authors": [
+        "K Yoshitake",
+        "H Aoyagi",
+        "H Fujiwara"
+      ]
+    },
+    {
+      "title": "Telomeric Double Strand Breaks in G1 Human Cells Facilitate Formation of 5’ C-Rich Overhangs and Recruitment of TERRA",
+      "authors": [
+        "CB Nelson"
+      ]
+    },
+    {
+      "title": "DNA damage foci at dysfunctional telomeres",
+      "authors": [
+        "H Takai",
+        "A Smogorzewska",
+        "T de Lange"
+      ]
+    },
+    {
+      "title": "Mammalian 5’ C-rich telomeric overhangs are a mark of recombination-dependent telomere maintenance",
+      "authors": [
+        "L Oganesian",
+        "J Karlseder"
+      ]
+    },
+    {
+      "title": "5’ C-rich telomeric overhangs are an outcome of rapid telomere truncation events",
+      "authors": [
+        "L Oganesian",
+        "J Karlseder"
+      ]
+    },
+    {
+      "title": "Garrett-Bakelman, F. E. et al. The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science364, 10.1126/science.aau8650 (2019).",
+      "authors": []
+    },
+    {
+      "title": "Luxton, J. J. et al. Telomere Length Dynamics and DNA Damage Responses Associated with Long-Duration Spaceflight. Cell Rep., 108457, 10.1016/j.celrep.2020.108457 (2020).",
+      "authors": []
+    },
+    {
+      "title": "Telomeres and Telomerase in the Radiation Response: Implications for Instability, Reprograming, and Carcinogenesis",
+      "authors": [
+        "BJ Sishc"
+      ]
+    },
+    {
+      "title": "Targeted DNA damage at individual telomeres disrupts their integrity and triggers cell death",
+      "authors": [
+        "L Sun"
+      ]
+    },
+    {
+      "title": "Overbey, E. G. et al. Collection of Biospecimens from the Inspiration4 Mission Establishes the Standards for the Space Omics and Medical Atlas (SOMA). Nat. Commun.10.1038/s41467-024-48806-z (2024).",
+      "authors": []
+    },
+    {
+      "title": "Garcia-Medina, S. et al. Genome and Clonal Hematopoiesis Stability Contrasts with Immune, cfDNA, mitochondrial, and telomere length changes to Short Duration Spaceflight. Precision Clin. Med.10.1093/pcmedi/pbae007 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration",
+      "authors": [
+        "E Afshinnekoo"
+      ]
+    },
+    {
+      "title": "Houerbi, N. et al. Secretome profiling reveals acute changes in oxidative stress, brain homeostasis, and coagulation following short-duration spaceflight. Nat. Commun.10.1038/s41467-024-48841-w (2024).",
+      "authors": []
+    },
+    {
+      "title": "Kim, J. et al. Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight. Nat.Commun.10.1038/s41467-024-49211-2 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Grigorev, K. et al. Direct RNA sequencing of astronaut blood reveals spaceflight-associated m6A increases and hematopoietic transcriptional responses. Nat.Commun.10.1038/s41467-024-48929-3 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Ad Astra - telomeres in space!",
+      "authors": [
+        "SM Bailey"
+      ]
+    },
+    {
+      "title": "Luxton, J. J. et al. Telomere Length Dynamics and Chromosomal Instability for Predicting Individual Radiosensitivity and Risk via Machine Learning. J. Pers. Med. 11, 10.3390/jpm11030188 (2021).",
+      "authors": []
+    },
+    {
+      "title": "Variant repeats are interspersed throughout the telomeres and recruit nuclear receptors in ALT cells",
+      "authors": [
+        "D Conomos"
+      ]
+    },
+    {
+      "title": "Fu, W. et al. Single Cell Analysis Identifies Conserved Features of Immune Dysfunction in Simulated Microgravity and Spaceflight. Nat. Commun.10.1038/s41467-023-42013-y (2024).",
+      "authors": []
+    },
+    {
+      "title": "Stress and telomere shortening among central Indian conservation refugees",
+      "authors": [
+        "S Zahran"
+      ]
+    },
+    {
+      "title": "Telomeric repeat-containing RNA (TERRA) constitutes a nucleoprotein component of extracellular inflammatory exosomes",
+      "authors": [
+        "Z Wang"
+      ]
+    },
+    {
+      "title": "The regulation and functions of DNA and RNA G-quadruplexes",
+      "authors": [
+        "D Varshney",
+        "J Spiegel",
+        "K Zyner",
+        "D Tannahill",
+        "S Balasubramanian"
+      ]
+    },
+    {
+      "title": "TERRA: telomeric repeat-containing RNA",
+      "authors": [
+        "B Luke",
+        "J Lingner"
+      ]
+    },
+    {
+      "title": "Megabase chromatin domains involved in DNA double-strand breaks in vivo",
+      "authors": [
+        "EP Rogakou",
+        "C Boon",
+        "C Redon",
+        "WM Bonner"
+      ]
+    },
+    {
+      "title": "Control of telomere length by the human telomeric protein TRF1",
+      "authors": [
+        "B anSteensel",
+        "T deLange"
+      ]
+    },
+    {
+      "title": "TRF1 controls telomere length and mitotic fidelity in epithelial homeostasis",
+      "authors": [
+        "P Munoz"
+      ]
+    },
+    {
+      "title": "Persistent telomere cohesion protects aged cells from premature senescence",
+      "authors": [
+        "K Azarm",
+        "A Bhardwaj",
+        "E Kim",
+        "S Smith"
+      ]
+    },
+    {
+      "title": "p53 functions as a cell cycle control protein in osteosarcomas",
+      "authors": [
+        "L Diller"
+      ]
+    },
+    {
+      "title": "An R-loop-initiated CSB-RAD52-POLD3 pathway suppresses ROS-induced telomeric DNA breaks",
+      "authors": [
+        "J Tan"
+      ]
+    },
+    {
+      "title": "Visualizing spatiotemporal dynamics of multicellular cell-cycle progression",
+      "authors": [
+        "A Sakaue-Sawano"
+      ]
+    },
+    {
+      "title": "Liposome-based DNA carriers may induce cellular stress response and change gene expression pattern in transfected cells",
+      "authors": [
+        "A Fiszer-Kierzkowska"
+      ]
+    },
+    {
+      "title": "Mason, C. E. et al. The Second Space Age. Omics, Platforms, and Medicine Across Orbits. Nature10.1038/s41586-024-07586-8 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Simulated microgravity: critical review on the use of random positioning machines for mammalian cell culture",
+      "authors": [
+        "SL Wuest",
+        "S Richard",
+        "S Kopp",
+        "D Grimm",
+        "M Egli"
+      ]
+    },
+    {
+      "title": "Mason, C. E., Sierra, M. A., Feng, H. J. & Bailey, S. M. Telomeres and aging: on and off the planet! Biogerontology25, 313–327 (2024).",
+      "authors": []
+    },
+    {
+      "title": "Expression of Telomere-Associated Proteins is Interdependent to Stabilize Native Telomere Structure and Telomere Dysfunction by G-Quadruplex Ligand Causes TERRA Upregulation",
+      "authors": [
+        "R Sadhukhan",
+        "P Chowdhury",
+        "S Ghosh",
+        "U Ghosh"
+      ]
+    },
+    {
+      "title": "Increased amounts and stability of telomeric repeat-containing RNA (TERRA) following DNA damage induced by etoposide",
+      "authors": [
+        "BK Oh"
+      ]
+    },
+    {
+      "title": "Shim, G., Ricoul, M., Hempel, W. M., Azzam, E. I. & Sabatier, L. Crosstalk between telomere maintenance and radiation effects: A key player in the process of radiation-induced carcinogenesis. Mutat. Res. Rev. Mutat Res. 10.1016/j.mrrev.2014.01.001 (2014).",
+      "authors": []
+    },
+    {
+      "title": "Oxidative stress induces transcription of telomeric repeat-containing RNA (TERRA) by engaging PKA signaling and cytoskeleton dynamics",
+      "authors": [
+        "NM Galigniana",
+        "NL Charo",
+        "R Uranga",
+        "AM Cabanillas",
+        "G Piwien-Pilipuk"
+      ]
+    },
+    {
+      "title": "RNA-DNA hybrids prevent resection at dysfunctional telomeres",
+      "authors": [
+        "VB Pires"
+      ]
+    },
+    {
+      "title": "DNA repair by RNA: Templated, or not templated, that is the question",
+      "authors": [
+        "C Meers",
+        "H Keskin",
+        "F Storici"
+      ]
+    },
+    {
+      "title": "Rad52 Inverse Strand Exchange Drives RNA-Templated DNA Double-Strand Break Repair",
+      "authors": [
+        "OM Mazina",
+        "H Keskin",
+        "K Hanamshet",
+        "F Storici",
+        "AV Mazin"
+      ]
+    },
+    {
+      "title": "Genome regulation by long noncoding RNAs",
+      "authors": [
+        "JL Rinn",
+        "HY Chang"
+      ]
+    },
+    {
+      "title": "De Rosa, M. & Opresko, P. L. Translating the telomeres. Trends Genet. 10.1016/j.tig.2023.04.009 (2023).",
+      "authors": []
+    },
+    {
+      "title": "Expression of specific inflammasome gene modules stratifies older individuals into two extreme clinical and immunological states",
+      "authors": [
+        "D Furman"
+      ]
+    },
+    {
+      "title": "Oxidative stress, aging, and diseases",
+      "authors": [
+        "I Liguori"
+      ]
+    },
+    {
+      "title": "The alternative lengthening of telomeres mechanism jeopardizes telomere integrity if not properly restricted",
+      "authors": [
+        "B Silva",
+        "R Arora",
+        "CM Azzalin"
+      ]
+    },
+    {
+      "title": "Jones, C. W. et al. Molecular and physiologic changes in the SpaceX Inspiration4 civilian crew. Nature10.1038/s41586-024-07648-x (2024).",
+      "authors": []
+    },
+    {
+      "title": "A fast, lock-free approach for efficient parallel counting of occurrences of k-mers",
+      "authors": [
+        "G Marcais",
+        "C Kingsford"
+      ]
+    }
+  ],
+  "original_title": "Telomeric RNA (TERRA) increases in response to spaceflight and high-altitude climbing",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b65a/11167063/a5c3c32f45f5/42003_2024_6014_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b65a/11167063/5fe894c79bb4/42003_2024_6014_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b65a/11167063/a2075803bd11/42003_2024_6014_Fig3_HTML.jpg"
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "pmcid": "PMC8421509",
+  "title": "Longitudinal characterization of multispecies microbial populations recovered from spaceflight potable water",
+  "abstract": "While sequencing technologies have revolutionized our knowledge of microbial diversity, little is known about the dynamic emergent phenotypes that arise within the context of mixed-species populations, which are not fully predicted using sequencing technologies alone. The International Space Station (ISS) is an isolated, closed human habitat that can be harnessed for cross-sectional and longitudinal functional microbiome studies. Using NASA-archived microbial isolates collected from the ISS potable water system over several years, we profiled five phenotypes: antibiotic resistance, metabolism, hemolysis, and biofilm structure/composition of individual or multispecies communities, which represent characteristics that could negatively impact astronaut health and life-support systems. Data revealed a temporal dependence on interactive behaviors, suggesting possible microbial adaptation over time within the ecosystem. This study represents one of the most extensive phenotypic characterization of ISS potable water microbiota with implications for microbial risk assessments of water systems in built environments in space and on Earth.",
+  "introduction": "Introduction\n\nTechnological advances in recent years have enabled unprecedented insight into potable water microbiota using culture-independent methods (e.g., next-generation sequencing), revealing the vastly underestimated diversity in these communities. However, dynamic microbial interactions and phenotypes cannot be predicted based on sequencing information alone. Control of microbes in complex microbial ecosystems remains an important challenge, particularly with regard to the prevention and control of biofilms. Changes that occur to the microbial ecosystem and the water-system integrity or function can impact the balance and population dynamics of resident microbiota, resulting in the release of pathogens or toxic materials to users and the environment. In addition to the health risks associated with microbial contaminants and their by-products, biofouling can cause materials degradation and systems’ failure.\n\nMicrobial observatories have been established in a wide range of habitats to facilitate prolonged investigations into microbial communities. The International Space Station (ISS) has been designated as a microbial observatory to enable research into microbial responses to the unique environment of spaceflight. The ISS is the largest human-engineered structure in space and has harbored over two hundred international crew members since 2000. The ISS serves as a valuable observatory to study microbial populations, especially since human and microbial influx is well-controlled and limited compared with most built environments. Sustainable life support is provided to the crew through regenerated air and water by the Environmental Control and Life Support System (ECLSS). To ensure crew health and safety, NASA has diligently preserved ISS air, water, and surface microbial samples for years. An important part of ECLSS is the water-recovery system (WRS), which generates potable water from recycled urine, wastewater, and condensation using multiple mechanical and chemical purification processes. Even with these harsh treatments, including distillation, filtrations, catalytic oxidation, and iodine treatment, a variety of microbes are routinely isolated from ISS potable water, and previous in-flight water analyses indicated that bacterial concentrations have exceeded the current ISS specifications of 50 CFU/mL for all potable water samples. Sources of contamination are reported to be mostly derived from the environmental flora entrenched in the water system itself. Historical monitoring of the NASA ISS potable water system indicates a stable microbial population consisting of relatively few microbial species.\n\nThe presence of microbes in ISS potable water is not surprising, given their presence in drinking water on Earth. For example, Ralstonia, Burkholderia, Sphingomonas, and Rhizobiales recovered aboard the ISS are also commonly found in terrestrial potable or purified water systems. Although ISS water contains the same types of microbes found in purified or potable water systems on Earth, there are several causes for concern. First, microbial ecosystems aboard the ISS are consistently exposed to the chronic stress of the microgravity environment, which is known to cause unexpected microbial responses that can impact human health (including enhanced virulence, biofilm formation, and antimicrobial resistance). Microgravity may present a selective pressure that could shape the adaptation/evolution of microorganisms. Second, many ISS potable water isolates are known to be strong biofilm formers. This is of concern, as biofilms can be detrimental to the integrity and function of materials, inherently difficult to remove due to increased resistance to disinfectants and other antimicrobials, and present health risks to the crew. Moreover, biofilm formation has been observed to increase in some microorganisms during spaceflight. Finally, astronauts exhibit aspects of immune dysfunction during spaceflight and thus may be at increased risk for infection by both obligate and opportunistic pathogens.\n\nPrevious studies using both culture-dependent and -independent approaches have reported findings regarding microbial composition and concentrations in ISS potable water. To better understand the factors involved in regulating how these ISS microbial populations can survive and maintain their ecosystem, it is important to augment these studies with functional phenotypic assessments of both individual and mixed cultures. As alterations in microbial characteristics can impact the integrity of onboard life-support systems and astronaut health, we determined whether ISS bacterial water isolates changed their interactions and community properties over time, which could potentially impact material integrity and infectious disease risks. In this study, we examined sixteen ISS potable water isolates collected over several years for a variety of phenotypes, including biofilm formation and susceptibility to various antimicrobials. Our results indicated that the microbes were resistant to multiple drugs, and combinations of antibiotics were necessary for complete elimination. When we investigated interactions between species, we found that interactive behaviors of some of the isolates appeared to depend on whether they were recovered during the same year or different years, suggesting that for these select organisms, a common history of coexistence may influence their interactions. In agreement with recent findings, we also observed Burkholderia species subpopulations that displayed hemolytic activity, which highlights a key phenotype that could adversely impact human health (particularly for individuals with blunted immune systems) and should thus be further explored for prevalence and associated risk in drinking water both aboard the ISS and in public water sources on Earth.",
+  "methods": "Methods\n\nStrains and culture conditions\n\nStrains were obtained from NASA and isolates were identified by 16 S rRNA gene sequencing and/or a biochemical identification using a VITEK system (BioMerieux) by the NASA Johnson Space Center (JSC). Lists of ISS potable water isolates archived by NASA from the US water system between 2009 and 2015 were obtained online. Diversity assessments using these publicly available data were performed as described in the text. Potable water isolates used in this study from early (2009), middle (2012), and late (2014) years were provided by NASA JSC on commercial R2A media. Strains were cultured at 28–29 °C in a humidified chamber for 1–10 days on the following solid media: TSA (MP biomedicals, 091010717; Difco 214530), R2A agar (Becton, Dickinson, 218263), or mR2A agar (modified R2A agar; Teknova, R0005; Difco 214530). Prior to each experiment (for all strains), single colonies were isolated on R2A agar (1.5% agar) or mR2A agar (1.3% agar) from frozen stocks, and individual strains were cultured in R2A broth (Teknova, R0005) at room temperature to stationary phase of growth. The growth kinetics of each strain were determined at the beginning of the study to confirm that experiments were all performed at the same phase of growth.\n\nAntimicrobial susceptibility testing (AST)\n\nStrains were individually cultured to stationary phase in R2A broth, and 10-fold serial dilutions were prepared. We chose to test a range of antibiotic concentrations in our study based on literature searches, which included (a) concentrations commonly used for the same or similar organisms, including minimum inhibitory concentrations, and (b) reports that spaceflight can profoundly alter the antibiotic susceptibility of some bacteria. Diluted and undiluted samples were plated on mR2A plates containing antibiotic(s) or NaCl at specified concentrations and incubated at 28–29 °C in a humidified chamber. The AST plates were monitored for approximately one week and bacterial survival was scored by the dilution showing microbial growth.\n\nTenfold dilutions of a pure culture were plated on R2A agar media containing specific concentrations of antimicrobial compounds. Antimicrobial susceptibility was scored by testing the log decrease in bacterial survival, from 0 (no to <1 log-fold decrease) to 7 (7 or more log-fold decrease) (Supplementary Fig. 5a). The antimicrobial susceptibility was evaluated using CLSI (Clinical and Laboratory Standards Institute) guidelines (Supplementary Fig. 5b).\n\nEnergy-metabolism tests\n\nThe casein-PR agar media used for metabolism testing contained 1% Casein (Sigma-Aldrich, 22090), 0.5% NaCl (S3014), 0.15% Bacto Yeast extract (BD, 212750), 0.008% Phenol red (PR, Sigma-Aldrich, P4758), and 1.3% agar. For additional supplements, 1% sucrose (Sigma-Aldrich, S7903) or 1% lactose (Sigma, 61345) was added to the casein-PR media. Experiments were performed using the same methods for the AST studies.\n\nBiofilm tests\n\nmR2A plates containing Congo red (Sigma–Aldrich, C6767) 100 µg/ml, or crystal violet 100 µg/ml, were prepared. Experiments were performed using the same methods for the AST studies. For air–liquid-surface biofilms, individual strains were inoculated in 5 mL of R2A broth, standing and development of biofilms were monitored for eight weeks. Photos were taken at eight weeks post inoculation.\n\nConfocal laser scanning microscopy (CLSM) and sample preparations\n\nBiofilms were developed on sterile glass cover slips in broth cultures of each individual strain for 24 h at RT. Cover slips containing pure culture biofilms were subsequently washed with sterile Dulbecco’s phosphate-buffered saline (DPBS) to remove planktonic bacteria and fixed with 4% paraformaldehyde (PFA, Electron Microscopy Sciences) for 20 mins, following gentle washing with cold DPBS twice. In a limited-light environment, the samples were stained with SYTO-9 green fluorescent stain (10 mg/mL, nucleic acid stain, Thermo Fisher Scientific S34854) for 15 min, Concanavalin A conjugated with Alexa Fluor™ 633 (500 mg/L, α-polysaccharide stain), Ethidium Homodimer-2 (EthD2, 1 mg/mL, dead-cell stain, Thermo Fisher Scientific E3599), or Fluorescent Brightener 28/Calcofluor White (0.7 mg/mL, β-polysaccharide stain, Sigma F3543) for five minutes.\n\nBiofilms were imaged using a Leica TCS SP8 LSCM with sequential scanning. Images were processed using Leica LAS software. Three to six stacks of horizontal plane images (1024 × 1024 pixels) with a z-step of 3 μm (the distance between the images) were acquired for each sample from two or more randomly chosen areas. Two independent experiments were performed. Fluorescence images were acquired with excitation at 405 nm (1.57%), 488 nm (4.98%), 514 nm (10.1%), or 633 nm (3.1%); emission filter DAPI (420–460 nm), FITC (498–545 nm), mCherry (565–610 nm), or Alexa-644 (648–700 nm) and gain 540.2 V (PMT), 60% (HyD), 65% (HyD), or 60% (HyD). Image scanning was carried out by sequential scanning with seq-1 (405-nm laser, pinhole 0.31), seq-2 (488 nm and 633 nm, pinhole 0.32), and seq-3 (514 nm, pinhole 0.31).\n\nHemolysis test\n\nExperiments were performed using the same methods for the AST studies, but instead used blood agar (BA; TSA with sheep blood, Fisher R01200). The plates were incubated and monitored for 15–72 h.\n\nInterspecies and mixed-species interaction testing\n\nIndividual strains were grown in R2A broth as described above. Cells were centrifuged at 7000 r.p.m. for 15 mins and pellets were resuspended in fresh R2A broth to concentrate by 10 times. To assess interactions between designated strains, 10-µl samples of each isolate were dropped onto R2A agar (1.5%) at the same time at a distance close enough to allow for interaction but far enough away to avoid fusion of the droplets. Pairwise combinations of every strain in this study were examined. For mixed-species assays, samples were prepared in the same way to test the interaction between two strains. Equal volumes of the 10X- concentrated strains were mixed and 10 µl of these mixtures were drop-applied on R2A agar (1.5%). Different strains recovered from the same year were tested as one set to study mixtures of two species or all species. Incubation, monitoring, and recording were conducted as described above.\n\nData collection, data analysis, and statistical analysis\n\nFor most assays (except hemolysis and CLSM), microbial growth on plates was monitored over seven days by taking photos and recording observations every 1–2 days, mostly due to the varying growth speeds for different strains. All assays presented in this paper were repeated at least in triplicate. All statistical analyses were performed using Graphpad Prism 7 or Microsoft Excel. Mean value and error bars (standard error of the mean) are indicated.\n\nReporting summary\n\nFurther information on research design is available in the Nature Research Reporting Summary linked to this article.",
+  "results": "Results\n\nPopulation analysis of archived ISS potable water microbiota\n\nTo investigate dynamic changes in microbial species in the ISS Water Recovery System since its installation in 2008, we analyzed a NASA-provided list of ISS potable water isolates preserved between 2009 and 2015. Seventeen different microbial genera and five unidentified Gram-negative rods were represented from the list, which included a total of 117 potable water isolates. All microbial genera are listed in Supplementary Table 1. Our analysis showed Burkholderiales, which includes the genera Burkholderia (mostly Burkholderia cepacia complex, Bcc), Ralstonia, and Cupriavidus, to be the predominant order comprising 63.25% of the total ISS water isolates, and Ralstonia pickettii to be the major species of the order (Fig. 1a–b). We further calculated the microbial diversity for each year by dividing the number of different species isolated in a year by the total number of isolates recovered in the year (Supplementary Table 2). We found that changes in the microbial species diversity inversely correlated with both Burkholderia and Ralstonia spp. over time, with the relationship more strongly associated with the former than the latter (Fig. 1c). The composition of microbial species was similar as the same species were frequently isolated each year (Fig. 1b). To investigate how microbial communities in the ISS potable water system may have changed over time, we selected different species of ISS water microbiota isolated in early (2009), middle (2012), and late (2014) years for further phenotypic analysis, to better understand targeted population shifts that could negatively impact astronaut health and life-support systems (Table 1).\n\nAntimicrobial resistance of the ISS potable water isolates\n\nWe profiled each of the individual bacterial isolates for their susceptibility to twenty antimicrobial compounds, as well as their tolerance to salt (halotolerance) (Fig. 2). The complete list of antimicrobial compounds, tested concentrations, and test results is shown in Supplementary Dataset 1. All strains were resistant to multiple drugs at the concentrations tested for this study, most of which agreed with known–intrinsic drug resistance for the specific genus and/or species. In particular, Bcc and Mesorhizobium isolates were highly resistant to most of the tested antibiotics. Ralstonia, Cupriavidus, and Bcc isolates showed similar trends in antimicrobial susceptibility. Sphingomonas sanguinis isolates were highly sensitive to vancomycin and many antibiotics inhibiting protein synthesis. Methylobacterium and Bradyrhizobium showed similar drug-resistant trends with the exception of carbenicillin and chloramphenicol. Staphylococcus epidermidis was highly sensitive to most tested antibiotics. Many of the tested isolates were sensitive to NaCl concentrations over 1%, except Bcc and S. epidermidis (Supplementary Dataset 1).\n\nPreferred energy source of ISS potable water isolates\n\nWe also examined whether carbohydrates or amino acids were the preferred energy source of the ISS isolates. We used agar media containing both casein amino acids and either sucrose or lactose, as well as the pH indicator phenol red. Most species appeared to prefer casein amino acids over either carbohydrate (indicated by the pink color around the colonies) (Fig. 3a). Interestingly, C. metallidurans and R. pickettii formed a wrinkled/rugose colony morphology, which is a common biofilm phenotype, while R. insidiosa produced very smooth colonies (Fig. 3b). We thus decided to further examine biofilm formation of the isolates.\n\nBiofilm formation and production of extracellular substances\n\nExtracellular polymeric substances (EPS), including extracellular DNA (eDNA), protein, and extracellular polysaccharides, are known to be fundamental components of biofilm growth. To detect EPS production by the ISS potable water isolates, we grew bacterial colonies on media containing either Congo red or crystal violet to stain the extracellular substances. Media containing Congo red revealed that strains of R. pickettii, S. sanguinis, Bradyrhizobium spp., Mesorhizobium spp., and S. epidermidis were strong EPS producers with bright-red colonies (Fig. 4a). The crystal violet-containing agar also indicated biofilm formation. We thus further validated biofilm formation using an air–liquid-surface approach for Methylobacterium, Mesorhizobium, R. pickettii and S. sanguinis (Fig. 4b). All of the tested strains (except R. insidiosa) provided phenotypic evidence of biofilm formation with rugose/wrinkle colonies, EPS production, and/or air–liquid-interface biofilms.\n\nBiofilm ultrastructure, composition, and cellular morphology\n\nWe used confocal laser scanning microscopy (CLSM) to examine biofilm structures and production of the biofilm-related EPS (Fig. 5, Supplementary Fig. 1). Single-strain biofilms were developed on sterile microscope glass cover slides. Live or dead bacterial cells, EPS compounds, and α- or β-linked polysaccharides were labeled by fluorescent dyes. The dyes used were SYTO-9 (green nucleic acid stain), ethidium homodimer-2 (EthD-2) (orange-dead cell stain), concanavalin A (ConA) (magenta α-linked polysaccharide stain), or calcofluor white (CFW) (blue β-linked polysaccharide stain). Figure 5 shows microscopic imaging of the bacterial spatial organization, biofilm-associated substances, and morphology of biofilms (Fig. 5, Supplementary Fig. 1). The organisms show different biofilm patterns as evidenced by Con A, CFW, and viability staining. In particular, S. sanguinis, Ralstonia, and C. metallidurans formed large clustered biofilms (Fig. 5 and Supplementary Fig. 1). While Methylobacterium spp. grew 1–2 logs less in planktonic culture as compared with other species (Supplementary Fig. 2), they formed relatively thick biofilm layers on glass (Supplementary Fig. 1). Interestingly, our data showed that CFW appeared to stain individual bacterial cell surfaces, while ConA appeared to target biofilm matrix components. eDNA was also present in the matrix as evidenced by EthD-2 staining.\n\nIdentification of intraspecies variations and hemolytic Burkholderia species\n\nDuring the course of our studies, we observed that some ISS isolates of the same species, which were recovered in different years, showed evidence of possible intraspecies variation. Specifically, we found variation in the production of extracellular substances among select isolates of R. pickettii and S. sanguinis (Fig. 6a–b). Visual inspection of the 2014 R. pickettii isolates and the 2009 S. sanguinis isolates indicated that they may produce more EPS relative to the same species recovered in different years, suggesting intraspecies variation. In addition, we discovered hemolytic activity of select Burkholderia isolates. Specifically, the 2014 Burkholderia isolates displayed hemolytic activity, while the 2012 isolates did not (Fig. 6c). Surprisingly, our data revealed that the 2014 Burkholderia isolates exhibited unstable hemolytic phenotypes and variations in colony morphology (Fig. 6dright). Both hemolytic (α and β) and nonhemolytic (γ) colonies were simultaneously found on the same blood agar plate. In addition, both yellow and gray colonies simultaneously appeared on modified R2A (mR2A) agar and gray colonies were visibly more mucoid, suggesting varying mucus/pigment production among individual colonies (Fig. 6dleft). Moreover, the passaging of a single colony also produced colony variation, suggesting that this phenotype was not due to contamination but instead may result from an unstable phenotype. The different colony types shown in Fig. 6d were indistinguishable from each other based on 16 S rRNA gene sequencing (data provided by NASA), confirming that these morphologically distinct colonies were not contaminants. These differences in colony characteristics might be explained by recent sequencing data showing that the 2012 and 2014 Burkholderia ISS potable water isolates are different species. The intraspecies differences in 2014 Burkholderia colony morphology and pigment were not observed using commercially available R2A, TSA, or LB agar media. Surprisingly, the 2014 Burkholderia isolates that exhibited β-hemolysis also tested positive for beta-galactosidase, urease, and D-trehalose, which are uncommon for Bcc strains (Supplementary Table 3).\n\nInterspecies interactions\n\nTo better understand microbial relationships between different species that may occur in the ISS potable water system, we examined interactions between these species. Individual strains were spotted onto R2A agar directly adjacent to different species to assess the interactions between every possible combination of paired isolates (Supplementary Fig. 3). Interspecies interactions between the paired isolates over a progressive time course were rated as negative, positive, or neutral, based on migration of the cultures during growth in close proximity (Fig. 7). Neutral relationships were defined when two strains did not show a visible sign of interaction. Positive relationships were defined when one strain grew out toward and in some cases surrounded the other strain (Fig. 7c). We found two types of negative behaviors. For example, Methylobacterium and S. epidermidis were either killed or their growth inhibited by Burkholderia (Fig. 7a), while R. insidiosa grew away from Burkholderia (Fig. 7b). Bradyrhizobium and Mesorhizobium, which are both slow-growing bacteria and thus could be potentially less competitive relative to faster-growing species, displayed no growth defect when interacting with most strains, thus showing neutral relationships (Fig. 7d).\n\nWe also observed a correlation between isolation year and the type of interspecies interaction between R. insidiosa and either S. sanguinis or Methylobacterium. For these strains in our study, species isolated in the same year exhibited positive relationships, while neutral relationships were observed when species from different years were cocultured (Fig. 8a–b).\n\nMixed-species colony biofilms\n\nWe performed mixed-species colony biofilm assays to examine microbial multispecies behavior by combining different strains isolated in the same year and then plating these mixed cultures as a single colony. Strains were first individually cultured in liquid media, then equal ratios of either (1) two species from the same year, or (2) all isolates from each year (2009, 2012, or 2014) were mixed and spotted as a single colony onto R2A agar to compare the characteristics of colony biofilms. The morphologies of these mixed-species colonies were monitored for 10 days. Distinct phenotypes were observed for each mixed-species colony that resembled the dominant species in the mixture, but still differed from the morphology of the individual strains (Supplementary Fig. 4). S. sanguinis, C. metallidurans, R. insidiosa, or Burkholderia tended to exhibit relatively dominant phenotypes as evidenced by colony color or morphology. Methylobacterium spp., which previously showed growth inhibition when spotted next to a Burkholderia colony (Supplementary Fig. 3), did not show visible signs of growth in the colony when directly mixed with Burkholderia.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Microbiome",
+    "Biofilms",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Biofilm formation in high purity water: Ralstonia pickettii a special case for analysis",
+      "authors": [
+        "CC Adley",
+        "FM S."
+      ]
+    },
+    {
+      "title": "Microbiological investigation of an industrial ultra pure supply water plant using cultivation-based and cultivation-independent methods",
+      "authors": [
+        "V Bohus"
+      ]
+    },
+    {
+      "title": "Analysis of bacteria contaminating ultrapure water in industrial systems",
+      "authors": [
+        "LA Kulakov",
+        "MB McAlister",
+        "KL Ogden",
+        "MJ Larkin",
+        "JF O’Hanlon"
+      ]
+    },
+    {
+      "title": "Microbiology of potable water",
+      "authors": [
+        "BH Olson",
+        "LA Nagy"
+      ]
+    },
+    {
+      "title": "Wang, F. et al. Molecular analysis of bacterial community in the tap water with different water ages of a drinking water distribution system. Front. Env. Sci. Eng.12, ARTN 6 10.1007/s11783-018-1020-4 (2018).",
+      "authors": []
+    },
+    {
+      "title": "Biofouling and biocorrosion in industrial water systems",
+      "authors": [
+        "SE Coetser",
+        "TE Cloete"
+      ]
+    },
+    {
+      "title": "Rice, G. & University, M. S. Microbial Observatories (MO), https://serc.carleton.edu/microbelife/microbservatories/index.html.",
+      "authors": []
+    },
+    {
+      "title": "Microbiology of the built environment in spacecraft used for human flight",
+      "authors": [
+        "J Yang"
+      ]
+    },
+    {
+      "title": "Bagdigian, R. M. & Cloud, D. Status of the International Space Station Regenerative ECLSS Water Recovery and Oxygen Generation Systems. Report No. 0148-7191, (SAE Technical Paper, 2005).",
+      "authors": []
+    },
+    {
+      "title": "Pierson, D. L. et al. In Environmental Monitoring: A Comprehensive Handbook (ed. Moldenhauer, J.) 1–27 (Springer, 2012).",
+      "authors": []
+    },
+    {
+      "title": "Pierson, D. L., Ott, C. M., Bruce, R. J., Castro, V. A. & Mehta, S. K. In 41st Intemational Conference on Enviromental Systems (Portland, OR; United States, 2011).",
+      "authors": []
+    },
+    {
+      "title": "Assessment of biofilm formation in the International Space Station Water Recovery and Management System",
+      "authors": [
+        "MC Roman",
+        "S Minton-Summers"
+      ]
+    },
+    {
+      "title": "Carter, D. L., Wilson, L. L. & Orozco, N. Status of ISS Water Management and Recovery, 2011 July 17–21. In 41st International Conference on Environmental Systems. Portland, Oregon.",
+      "authors": []
+    },
+    {
+      "title": "Pruitt, J. M., Carter, D.L., Bagdigian, R. M. & Kayatin, M. J. Upgrades to the ISS Water Recovery System. 2015 July12-16. 45th International Conference on Environmental Systems. Bellevue, Washington.",
+      "authors": []
+    },
+    {
+      "title": "Carter, D. L., Brown, C. & Orozco, N. In 43rd International Conference on Environmental Systems (ICES) (Vail, CO; United States, 2014).",
+      "authors": []
+    },
+    {
+      "title": "Kayatin, M., Takada, K. & Carter, L. In 47th International Conference on Environmental Systems (ICES) (Charleston, SC; United States, 2017).",
+      "authors": []
+    },
+    {
+      "title": "Pierson, D. et al. Microbial Monitoring ofthe International Space Station, in Environmental Monitoring: A Comprehensive Handbook, (ed. Moldenhauer, J.), DHI Publishing: River Grove, IL., 2012, pp. 1–27.",
+      "authors": []
+    },
+    {
+      "title": "Bruce, R. J., Ott, C. M., Skuratov, V. M. & Pierson, D. L. Microbial surveillance of potable water sources of the International Space Station. Report No. 0148-7191, (SAE Technical Paper, 2005).",
+      "authors": []
+    },
+    {
+      "title": "Microbial contamination monitoring and control during human space missions",
+      "authors": [
+        "R Van Houdt",
+        "K Mijnendonckx",
+        "N Leys"
+      ]
+    },
+    {
+      "title": "Characterization of Sphingomonas isolates from Finnish and Swedish drinking water distribution systems",
+      "authors": [
+        "R Koskinen"
+      ]
+    },
+    {
+      "title": "Genotypic and phenotypic diversity of Ralstonia pickettii and Ralstonia insidiosa isolates from clinical and environmental sources including high-purity water. Diversity in Ralstonia pickettii",
+      "authors": [
+        "MP Ryan",
+        "JT Pembroke",
+        "CC Adley"
+      ]
+    },
+    {
+      "title": "Characterizing the microbiota of a pharmaceutical water system-a metadata study",
+      "authors": [
+        "T Sandle"
+      ]
+    },
+    {
+      "title": "Survival and nutritional requirements of three bacteria isolated from ultrapure water",
+      "authors": [
+        "MB McAlister",
+        "LA Kulakov",
+        "JF O’Hanlon",
+        "MJ Larkin",
+        "KL Ogden"
+      ]
+    },
+    {
+      "title": "Isolation and characterization of Sphingomonadaceae from fouled membranes",
+      "authors": [
+        "HJ de Vries"
+      ]
+    },
+    {
+      "title": "Barrila, J. et al. In Effect of Spaceflight and Spaceflight Analogue Culture on Human and Microbial Cells (eds Nickerson, C., Pellis, N. & Mark Ott, C.) Ch. 11. Using Spaceflight and Spaceflight Analogue Culture for Novel Mechanisic Insight into Salmonella Pathogenesis, 209–235 (Springer New York, 2016).",
+      "authors": []
+    },
+    {
+      "title": "Physiological fluid shear alters the virulence potential of invasive multidrug-resistant non-typhoidal Salmonella Typhimurium D23580",
+      "authors": [
+        "J Yang",
+        "J Barrila",
+        "KL Roland",
+        "CM Ott",
+        "CA Nickerson"
+      ]
+    },
+    {
+      "title": "Spaceflight enhances cell aggregation and random budding in Candida albicans",
+      "authors": [
+        "A Crabbe"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq",
+      "authors": [
+        "JW Wilson"
+      ]
+    },
+    {
+      "title": "Media ion composition controls regulatory and virulence response of Salmonella in spaceflight",
+      "authors": [
+        "JW Wilson"
+      ]
+    },
+    {
+      "title": "Nickerson, C., Pellis, N. R. & Ott, C. M. Effect of spaceflight and spaceflight analogue culture on human and microbial cells: novel insights into disease mechanisms (Springer New York, 2016).",
+      "authors": []
+    },
+    {
+      "title": "Spaceflight promotes biofilm formation by Pseudomonas aeruginosa",
+      "authors": [
+        "W Kim"
+      ]
+    },
+    {
+      "title": "Microbial responses to microgravity and other low-shear environments",
+      "authors": [
+        "CA Nickerson",
+        "CM Ott",
+        "JW Wilson",
+        "R Ramamurthy",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+      "authors": [
+        "R Gilbert"
+      ]
+    },
+    {
+      "title": "Bacterial biofilm formation under microgravity conditions",
+      "authors": [
+        "RJ McLean",
+        "JM Cassanto",
+        "MB Barnes",
+        "JH Koo"
+      ]
+    },
+    {
+      "title": "Antibiotic efficacy and microbial virulence during space flight",
+      "authors": [
+        "DM Klaus",
+        "HN Howard"
+      ]
+    },
+    {
+      "title": "Biofouling in water systems-cases, causes and countermeasures",
+      "authors": [
+        "HC Flemming"
+      ]
+    },
+    {
+      "title": "Biofilm formation on reverse osmosis membranes is initiated and dominated by Sphingomonas spp",
+      "authors": [
+        "LA Bereschenko",
+        "AJ Stams",
+        "GJ Euverink",
+        "MC van Loosdrecht"
+      ]
+    },
+    {
+      "title": "Bacterial biofilms in nature and disease",
+      "authors": [
+        "JW Costerton"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions",
+      "authors": [
+        "BE Crucian"
+      ]
+    },
+    {
+      "title": "Yi, B., Crucian, B., Tauber, S., Ullrich, O. & Choukèr, A. in Effect of Spaceflight and Spaceflight Analogue Culture on Human and Microbial Cells: Novel Insights into Disease Mechanisms (eds Nickerson, C. A., Pellis, N. R. & Mark Ott, C.) 61–79 (Springer New York, 2016).",
+      "authors": []
+    },
+    {
+      "title": "Microbial community composition of water samples stored inside the International Space Station",
+      "authors": [
+        "G Bacci"
+      ]
+    },
+    {
+      "title": "Characterization of the survival ability of Cupriavidus metallidurans and Ralstonia pickettii from space-related environments",
+      "authors": [
+        "K Mijnendonckx"
+      ]
+    },
+    {
+      "title": "Genomic and phenotypic characterization of Burkholderia isolates from the potable water system of the International Space Station",
+      "authors": [
+        "A O’Rourke",
+        "MD Lee",
+        "WC Nierman",
+        "RC Everroad",
+        "CL Dupont"
+      ]
+    },
+    {
+      "title": "Ott, C. M. ISS_Micro_Analysis_Isolates. [Updated 2016]. Available from:https://lsda.jsc.nasa.gov/Dataset/dataset_detail_result/ISS_Micro_Analysis__2010311581.",
+      "authors": []
+    },
+    {
+      "title": "Clinical and Laboratory Standards Institute (CLSI). Performance standards for antimicrobial susceptibility testing (CLSI, 2020).",
+      "authors": []
+    },
+    {
+      "title": "Biofilms: the matrix revisited",
+      "authors": [
+        "SS Branda",
+        "S Vik",
+        "L Friedman",
+        "R Kolter"
+      ]
+    },
+    {
+      "title": "Extracellular DNA required for bacterial biofilm formation",
+      "authors": [
+        "CB Whitchurch",
+        "T Tolker-Nielsen",
+        "PC Ragas",
+        "JS Mattick"
+      ]
+    },
+    {
+      "title": "Isolation and biochemical characterization of extracellular polymeric substances from Pseudomonas aeruginosa",
+      "authors": [
+        "J Wingender",
+        "M Strathmann",
+        "A Rode",
+        "A Leis",
+        "HC Flemming"
+      ]
+    },
+    {
+      "title": "Extracellular enzymes affect biofilm formation of mucoid Pseudomonas aeruginosa",
+      "authors": [
+        "P Tielen"
+      ]
+    },
+    {
+      "title": "The biofilm matrix",
+      "authors": [
+        "HC Flemming",
+        "J Wingender"
+      ]
+    },
+    {
+      "title": "Aquatic bacterial diversity: Magnitude, dynamics, and controlling factors",
+      "authors": [
+        "S Shafi",
+        "AN Kamili",
+        "MA Shah",
+        "JA Parray",
+        "SA Bandh"
+      ]
+    },
+    {
+      "title": "Parallel evolution in Pseudomonas aeruginosa over 39,000 generations in vivo",
+      "authors": [
+        "HK Huse"
+      ]
+    },
+    {
+      "title": "Inter-annual recurrence of archaeal assemblages in the coastal NW Mediterranean Sea (Blanes Bay Microbial Observatory)",
+      "authors": [
+        "PE Galand",
+        "C Gutiérrez-Provecho",
+        "R Massana",
+        "JM Gasol",
+        "EO Casamayor"
+      ]
+    },
+    {
+      "title": "Space microbiology",
+      "authors": [
+        "G Horneck",
+        "DM Klaus",
+        "RL Mancinelli"
+      ]
+    },
+    {
+      "title": "Bacterial competition: surviving and thriving in the microbial jungle",
+      "authors": [
+        "ME Hibbing",
+        "C Fuqua",
+        "MR Parsek",
+        "SB Peterson"
+      ]
+    },
+    {
+      "title": "The world of subinhibitory antibiotic concentrations",
+      "authors": [
+        "J Davies",
+        "GB Spiegelman",
+        "G Yim"
+      ]
+    },
+    {
+      "title": "Antibiotics as intermicrobial signaling agents instead of weapons",
+      "authors": [
+        "JF Linares",
+        "I Gustafsson",
+        "F Baquero",
+        "J Martinez"
+      ]
+    },
+    {
+      "title": "Antibiotics as signals that trigger specific bacterial responses",
+      "authors": [
+        "A Fajardo",
+        "JL Martínez"
+      ]
+    },
+    {
+      "title": "Antibiotic-induced biofilm formation",
+      "authors": [
+        "JB Kaplan"
+      ]
+    },
+    {
+      "title": "Biofilm interactions between distinct bacterial genera isolated from drinking water",
+      "authors": [
+        "LC Simoes",
+        "M Simoes",
+        "MJ Vieira"
+      ]
+    },
+    {
+      "title": "Enhanced biofilm formation and increased resistance to antimicrobial agents and bacterial invasion are caused by synergistic interactions in multispecies biofilms",
+      "authors": [
+        "M Burmolle"
+      ]
+    },
+    {
+      "title": "Interspecies interactions result in enhanced biofilm formation by co-cultures of bacteria isolated from a food processing environment",
+      "authors": [
+        "HL Roder"
+      ]
+    },
+    {
+      "title": "Bacterial social interactions and the emergence of community-intrinsic properties",
+      "authors": [
+        "JS Madsen",
+        "SJ Sorensen",
+        "M Burmolle"
+      ]
+    },
+    {
+      "title": "Characterizing species interactions that contribute to biofilm formation in a multispecies model of a potable water bacterial community",
+      "authors": [
+        "AF Thompson"
+      ]
+    },
+    {
+      "title": "Darch, S. E., Ibberson, C. B. & Whiteley, M. Evolution of Bacterial “Frenemies”. mBio8, 10.1128/mBio.00675-17 (2017).",
+      "authors": []
+    },
+    {
+      "title": "Limoli, D. H. et al. Pseudomonas aeruginosa alginate overproduction promotes coexistence with Staphylococcus aureus in a model of cystic fibrosis respiratory infection. mBio8, e00186-17 (2017).",
+      "authors": []
+    },
+    {
+      "title": "Antibiotic resistance in Pseudomonas aeruginosa - Mechanisms, epidemiology and evolution",
+      "authors": [
+        "J Botelho",
+        "F Grosso",
+        "L Peixe"
+      ]
+    },
+    {
+      "title": "Recapitulation of polymicrobial communities associated with cystic fibrosis airway infections: a perspective",
+      "authors": [
+        "TJ O’Brien",
+        "M Welch"
+      ]
+    },
+    {
+      "title": "Keown, K., Reid, A., Moore, J. E., Taggart, C. C. & Downey, D. G. Coinfection with Pseudomonas aeruginosa and Aspergillus fumigatus in cystic fibrosis. Eur. Respir. Rev. 29, 10.1183/16000617.0011-2020 (2020).",
+      "authors": []
+    },
+    {
+      "title": "Convergent evolution and adaptation of Pseudomonas aeruginosa within patients with cystic fibrosis",
+      "authors": [
+        "RL Marvig",
+        "LM Sommer",
+        "S Molin",
+        "HK Johansen"
+      ]
+    },
+    {
+      "title": "Raghuvanshi, R. et al. High-resolution longitudinal dynamics of the cystic fibrosis sputum microbiome and metabolome through antibiotic therapy. mSystems5, 10.1128/mSystems.00292-20 (2020).",
+      "authors": []
+    },
+    {
+      "title": "Evolution of metabolic divergence in Pseudomonas aeruginosa during long-term infection facilitates a proto-cooperative interspecies interaction",
+      "authors": [
+        "C Frydenlund Michelsen"
+      ]
+    },
+    {
+      "title": "Evolutionary remodeling of global regulatory networks during long-term bacterial adaptation to human hosts",
+      "authors": [
+        "S Damkiaer",
+        "L Yang",
+        "S Molin",
+        "L Jelsbak"
+      ]
+    },
+    {
+      "title": "Carter, D. L. et al. In 46th International Conference on Environmental Systems (Vienna, Austria, 2016).",
+      "authors": []
+    },
+    {
+      "title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+      "authors": [
+        "R Gilbert"
+      ]
+    },
+    {
+      "title": "Ott, C. M. et al. In Stress Challenges and IMMUNITY in Space 327–355 (Springer, 2020).",
+      "authors": []
+    },
+    {
+      "title": "Could spaceflight‐associated immune system weakening preclude the expansion of human presence beyond Earth’s orbit?",
+      "authors": [
+        "N Gueguinou"
+      ]
+    },
+    {
+      "title": "Alterations in adaptive immunity persist during long-duration spaceflight",
+      "authors": [
+        "B Crucian"
+      ]
+    },
+    {
+      "title": "Microbial biofilms: from ecology to molecular genetics",
+      "authors": [
+        "ME Davey",
+        "GA O’Toole"
+      ]
+    },
+    {
+      "title": "Variations and heredity in bacterial colonies",
+      "authors": [
+        "J Cepl",
+        "A Blahuskova",
+        "Z Neubauer",
+        "A Markos"
+      ]
+    },
+    {
+      "title": "Colony variation in Staphylococcus lugdunensis",
+      "authors": [
+        "MJ Leung",
+        "N Nuttall",
+        "TM Pryce",
+        "GW Coombs",
+        "JW Pearman"
+      ]
+    },
+    {
+      "title": "Analysis of colony phase variation switch in Acinetobacter baumannii clinical isolates",
+      "authors": [
+        "I Ahmad",
+        "N Karah",
+        "A Nadeem",
+        "SN Wai",
+        "BE Uhlin"
+      ]
+    },
+    {
+      "title": "Extracellular DNA in biofilms",
+      "authors": [
+        "L Montanaro"
+      ]
+    },
+    {
+      "title": "Susceptibility patterns and the role of extracellular DNA in Staphylococcus epidermidis biofilm resistance to physico-chemical stress exposure",
+      "authors": [
+        "CO Olwal",
+        "PO Ang’ienda",
+        "DM Onyango",
+        "DO Ochiel"
+      ]
+    },
+    {
+      "title": "Structural stability of Burkholderia cenocepacia biofilms is reliant on eDNA structure and presence of a bacterial nucleic acid binding protein",
+      "authors": [
+        "LA Novotny",
+        "AO Amer",
+        "ME Brockson",
+        "SD Goodman",
+        "LO Bakaletz"
+      ]
+    },
+    {
+      "title": "Evaluation of enzyme inhibition data in screening for new drugs",
+      "authors": [
+        "K Bush"
+      ]
+    },
+    {
+      "title": "Long-term exposure to spaceflight conditions affects bacterial response to antibiotics",
+      "authors": [
+        "MA Juergensmeyer",
+        "EA Juergensmeyer",
+        "JA Guikema"
+      ]
+    }
+  ],
+  "original_title": "Longitudinal characterization of multispecies microbial populations recovered from spaceflight potable water",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/20d82450814a/41522_2021_240_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/a90368af8038/41522_2021_240_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/5d670de44557/41522_2021_240_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/4f3e20813601/41522_2021_240_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/8061a14eac3b/41522_2021_240_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/1482d4569090/41522_2021_240_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/e2f07adeb999/41522_2021_240_Fig7_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/405db6516043/41522_2021_240_Fig8_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d54/8421509/308f41ad8b37/41522_2021_240_Fig9_HTML.jpg"
+  ]
+}

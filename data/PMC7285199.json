@@ -1,0 +1,896 @@
+{
+  "pmcid": "PMC7285199",
+  "title": "Tart Cherry Increases Lifespan in Caenorhabditis elegans by Altering Metabolic Signaling Pathways",
+  "abstract": "Aging and healthspan are determined by both environmental and genetic factors. The insulin/insulin-like growth factor-1(IGF-1) pathway is a key mediator of aging in Caenorhabditis elegans and mammals. Specifically, DAF-2 signaling, an ortholog of human IGF, controls DAF-16/FOXO transcription factor, a master regulator of metabolism and longevity. Moreover, mitochondrial dysfunction and oxidative stress are both linked to aging. We propose that daily supplementation of tart cherry extract (TCE), rich in anthocyanins with antioxidant properties may exert dual benefits for mitochondrial function and oxidative stress, resulting in beneficial effects on aging in C. elegans. We found that TCE supplementation at 6 μg or 12 μg/mL, increased (p < 0.05) the mean lifespan of wild type N2 worms, respectively, when compared to untreated control worms. Consistent with these findings, TCE upregulated (p < 0.05) expression of longevity-related genes such as daf-16 and aak-2 (but not daf-2 or akt-1 genes) and genes related to oxidative stress such as sod-2. Further, we showed that TCE supplementation increased spare respiration in N2 worms. However, TCE did not change the mean lifespan of daf-16 and aak-2 mutant worms. In conclusion, our findings indicate that TCE confers healthspan benefits in C. elegans through enhanced mitochondrial function and reduced oxidative stress, mainly via the DAF-16 pathway.",
+  "introduction": "1. Introduction\n\nAging has a significant influence on economy, health, and demography with healthy aging being a global challenge. In 2018, ~16% of the United States population were 65 years old or over and expected to reach 23% by 2060. Globally, 9% of the population was old (over age 65) in 2019, which is expected to increase to 16% by 2050. Genetic and lifestyle factors contribute to aging and healthy lifespan. The effects of aging could be altered, and progression of aging could be slowed down.\n\nVarious factors contribute to aging such as defects in development and genetics, environmental factors, diseases, and reactive oxygen species (ROS), which cause harmful changes in cells and tissues. Excessive ROS production causes oxidative stress, which is a predominant factor in the pathophysiology of various diseases and aging in human and other models such as Caenorhabditis elegans (C. elegans) and Drosophila. Calorie restriction is the most established method for successfully extending lifespan of animals and model organisms such as C. elegans. However, human studies are scarce, and the safety and effectiveness of calorie restriction for lifespan extension in humans is controversial. Therefore, it is critical to identify dietary bioactive compounds that reduce ROS levels and thereby delay aging.\n\nAmong the pathways and genes involved in lifespan regulation, DAF-16 is homologous to mammalian forkhead box O1 (FOXO) transcription factor, and a key lifespan extension transcription factor that is highly conserved across a variety of organisms such as flies, worms, rodents, and humans. C. elegans DAF-2 signaling, which is orthologous to insulin and insulin like growth factor-1 (IGF-1) in mammals, is also involved in metabolism and longevity but is negatively regulated by DAF-16/FOXO signaling. Additionally, activation of AMP-activated protein kinase (AMPK), a conserved energy sensor in cells, extends lifespan of C. elegans. In addition to these major pathways and genes, ROS is also involved in regulating longevity. High ROS activity has been shown to be a major lifespan limiting factor in humans, C. elegans, and Drosophila. Finally, in addition to the factors discussed above, mitochondria regulate different signaling and metabolic pathways, including ROS production and therefore plays a vital role in aging progression.\n\nDietary intervention is one of the effective non-genetic or pharmacological means to combat aging. Botanicals like cranberry, strawberry, blueberry, sweet cherry, tart cherry, and curcumin all contain biologically active polyphenols, which may protect against diseases and promote health in animals, humans, and model organisms. Moreover, cranberry, mulberry, and blueberry anthocyanins increase lifespan of C. elegans and Drosophila via different pathways. Out of these, Montmorency tart cherry (Prunus cerasus) contains high concentration of anthocyanin flavonoids, and its consumption is known to provide numerous health benefits by reducing inflammation and production of ROS as well as protecting against diabetes, cardiovascular diseases, muscle pain, and cancer.\n\nTart cherry (TC) possess increased antioxidant activity both in vivo and in vitro. However, the mechanisms by which TC reverses effects of aging through antioxidant activities have not been studied yet and remain to be further elucidated. To investigate the effects of TC extract (TCE) on aging and healthspan, we used the nematode C. elegans, which is an excellent model for aging research because of its short lifespan (2–3 weeks), experimental flexibility, and rapid turnover. Furthermore, C. elegans behavior and physiological activities slow down with age similar to that of higher mammals, including humans. Additionally, 83% of C. elegans proteome shows homology to the human proteome, and both humans and nematodes share significant age-related characteristics that can be used to study effects on health and aging.\n\nIn this paper, we determined mechanisms by which TCE extends lifespan in C. elegans using microfluidic devices for whole-life culture studies that allow efficient drug delivery compared to animals reared on agar-plates. We demonstrated that TCE extends lifespan and healthspan of C. elegans by influencing the major DAF-16/FOXO lifespan regulating pathway. Consistent with this finding, TCE regulated upstream and downstream genes related to DAF-16 pathway, reduced the activity of genes related to ROS, and increased oxygen consumption rate. Therefore, our findings reveal protective anti-aging effects of TCE in vivo with robust translational potential in humans due to the feasibility of incorporating TCE into a typical human diet.",
+  "methods": "2. Materials and Methods\n\n2.1. Preparation of Tart Cherry (TC) Extract\n\nFrozen TC (Cherry Marketing Institute, Dewitt, MI, USA) was ground using motor and pestle to obtain TC extract (TCE). Extracted cherry juice was filtered using 0.22 µm filter and stored in −80 °C until further use. Amounts of TCE used are based on anthocyanin concentration. We used TCE with doses between 0–12 µg anthocyanin per mL media. TCE extract from frozen TC contains 533 ± 47 µg/g total anthocyanin, and 1 µL TCE contains 3 µg of anthocyanins as measured by high performance liquid chromatography mass-spectrometry (HPLC-MS). Additionally, TCE contains other phenolics, melatonin, vitamins A/C/E/K, niacin, beta carotene, lutein + zeaxanthin, and pantothenic acid. To prevent oxidation, thermal degradation, chemical and biochemical changes, extracted TC was aliquoted (20 µL) and stored in −80 °C. Aliquots of TCE were thawed only once and not refrozen, and TCE was replaced every day to prevent oxidation.\n\n2.2. Strains and Growth Conditions\n\nWorms (wild type N2, daf-16, aak-2) (Vanapalli lab, TTU, Lubbock, TX, USA) were maintained on solid nematode growth medium for two successive generations, as previously described. On the third day, age-synchronized young adults were used for analyses.\n\n2.3. Lifespan Assay\n\nAt day 3, individual worms were suspended in liquid buffer (Nematode Growth Media (NGM)) and loaded into the micropillar chambers of a NemaLife microfluidic device using a syringe. Each microfluidic device contained 30 individual chambers for animals to crawl, and one worm was loaded per chamber. Chambers were washed everyday with NGM to avoid progenies. Adult worms were fed with concentrated bacteria (100 mg/mL OP50) mixed with 3, 6, and 12 μg/mL TCE in the final mixture every day starting at day three until they all died. Chambers were rinsed everyday using liquid NGM media to wash out worm progenies and food was replenished. Worms were scored for survival every day. Worms killed during manipulation, wash errors, and bagging of worms exposed to contamination events were subsequently censored from analyses. At least three independent trials were performed for all conditions. Lifespan analyses were carried out using Kaplan–Meier statistical function using GraphPad Prism Version 7.04 software, with statistical significance considered at p < 0.05 using the log-rank (Mantel–Cox) test.\n\n2.4. Gene Expression Analyses\n\nAge synchronized worms ~500 µL was added into 60 mm plates. We estimated that each plate had approximately same number of worms ~1000 for RNA isolation. These N2 worms were grown in 3 mL of liquid axenic media for 7 days and then treated with or without tart cherry (6 µg/mL media, 12 µg/mL media) for 3 days, after which RNA was isolated using RNA isolation kit (Zymo Research Corp, Irvine, CA, USA) following manufacturers protocol. Same amount of total RNA was transcribed into cDNA using Maxima Reverse Transcription kit (Thermo Fisher, Waltham, CA, USA). Maxima powerup SYBRTM Green Master Mix (Thermo Fisher, Waltham, CA, USA) was used for making cDNA to test targeted genes including daf-16, daf-2, daf-18, aak-2, akt-1, lin-14, skn-1, ucp-4, sod-2/3 with 18s housekeeping gene (Sigma-Aldrich, St. Louis, MO, USA).\n\n2.5. Mitochondrial Respiration Analysis\n\nTo investigate TC-mediated changes in mitochondrial function, oxygen consumption rate (OCR) measurements were performed using the Seahorse XFe24 analyzer (Agilent, Santa Clara, CA, USA). Three days treated adult wild-type worms were washed twice in M9 buffer and transferred into M9-filled wells (20 worms/well) in replicates of 4 per condition (i.e., 4 wells per strain). The experiment was repeated three times (n = 3) using the same conditions. To generate stable OCR measurements, 5 measurement cycles were performed for basal OCR, 9 cycles for maximal OCR following the addition of FCCP (10 μM final well concentration), and 5 cycles for non-mitochondrial OCR following the addition of sodium azide (40 mM final well concentration). OCR measurements were normalized to the number of worms per well. To avoid unstable OCR measurements, the final 3, 7, and 2 measurement cycles were used for the statistical analysis of basal, maximal, and non-mitochondrial OCR, respectively.\n\n2.6. Statistical Analysis\n\nDifferences in gene expression and OCR were detected with a one-way ANOVA with Tukey’s multiple comparison test using GraphPad Prism 7.04, with statistical significance considered at p < 0.05.",
+  "results": "3. Results\n\n3.1. Tart Cherry Extends Mean Lifespan of Wild Type N2 C. elegans in a Dose-Dependent Manner\n\nUnder these conditions, wild type (WT) worms had a mean lifespan (MLS) of 13.31 ± 0.61 days. The MLS of worms treated with TCE at concentrations of 3, 6, and 12 μg/mL were 14.92 ± 0.58, 16.83 ± 0.77, and 16.73 ± 0.67 days, respectively. While there was no difference with 3 μg/mL, both 6 and 12 μg/mL TCE significantly (p < 0.01) increased lifespan by 26.44% and 25.69%, respectively (Figure 1 and Supplementary Table S1), compared to no TCE treatment.\n\n3.2. Tart Cherry Effects on Genes Related to Aging\n\nTo identify molecular mechanism(s) involved in promoting lifespan by TCE, we selected 6 and 12 μg/mL TCE that extended mean lifespan of WT worms in data discussed above. Using qRT-PCR, we evaluated the mRNA levels of daf-2, age-1 ortholog of human phosphatidylinositol-4,5-bisphosphate 3-kinase, and daf-16 genes in WT worms treated with 6 and 12 µg/mL TCE. Both 6 and 12 µg/mL TCE decreased mRNA expression of daf-2 (Figure 2a) and increased mRNA expression of daf-16 (Figure 2b). However, age-1 gene, downstream target of insulin/insulin like growth factor signaling pathway (IIS), had very low expression (data not shown due to low expression levels).\n\nMoreover, we measured the mRNA levels of daf-18 gene (Figure 2c), a human phosphatase and tensin homolog (PTEN) tumor suppressor gene ortholog, which downregulates DAF-2 receptor pathway by inhibiting the activity of AGE-1. Here, we observed that daf-18 was upregulated significantly by 6 and 12 μg/mL TCE, which may also be involved in down regulating IIS signaling and promoting DAF-16 nuclear localization. Additionally, we measured two upstream DAF-16 inhibitors, serine-threonine protein kinase (akt-1) (Figure 2d) and lin-14 (Figure 2e) and did not find any changes in expression levels of these genes following TCE treatment. This suggests that upregulation of upstream daf-18 gene may inhibit the expression of akt-1 and lin-14.\n\nAs antioxidant status and mitochondrial function are also important in aging, we measured the mRNA levels of markers involved in regulating mitochondrial homeostasis. Specifically, we measured levels of (i) SKiNhead (SKN-1), homolog to mammalian nuclear factor erythroid 2-related factor 2 (NRF-2); (ii) uncoupling protein-4 (UCP-4), mitochondrial uncoupling protein; (iii) SOD-2/3, a superoxide dismutase controlling ROS production; and (iv) aak-2, an AMP-activated protein kinase homolog known to directly regulate daf-16 activity. Data in Figure 2 illustrate changes in expression of these genes following TCE treatment as shown by mRNA levels of skn-1 (Figure 2f), ucp-4 (Figure 2g), sod-2 (Figure 2h), and aak-2 (Figure 2j), all of which were significantly higher (p < 0.05) in the worms treated with 6 and 12 μg/mL TCE, compared to worms with no TCE treatments. By contrast, no differences were observed in mRNA levels for sod-3 (Figure 2i) with TCE treatment at either dose tested. Collectively, our results indicate that TCE acts through the insulin/insulin-like signaling (IIS) pathways by directly or indirectly influencing the activities of the DAF-16 transcription factor.\n\n3.3. Effects of TCE on C. elegans Respiration\n\nAs few mitochondrial genes are changed by TCE, we next assessed changes in mitochondrial function/respiration by TCE in C. elegans, using the Seahorse Extracellular Flux analyzer, (Figure 3). Only spare respiration, which reflects “the ability of an organism to respond to increasing energy demands” was significantly higher in 6 and 12 μg/mL treated worms compared to non-treated (0 μg/mL) and 3 μg/mL TCE treated worms (Figure 3a). There were no differences observed in maximum (Figure 3b), mitochondrial (Figure 3c), or non-mitochondrial (Figure 3d) respiration.\n\n3.4. TCE Did Not Extend Mean Lifespan in Daf-16 and Aak-2 Mutant Worms\n\nBecause daf-16 mRNA expression was significantly increased by TCE, we tested whether daf-16 mutant worms were responsive to the same concentration of TCE used for WT worms to further validate the specific pathways involved in TCE-mediated lifespan extension. None of the TCE concentrations used (3, 6, and 12 μg/mL) significantly changed the MLS of daf-16 mutant worms (Figure 4a and Supplementary Table S2), which support our initial finding that lifespan extension by TCE is dependent on IIS/DAF-16 pathway.\n\nMoreover, since TCE significantly increased mRNA expression of aak-2 in WT worms, and published research showed that both DAF-16 and AAK-2 are involved in regulating longevity, we next tested involvement of AAK-2 signaling in lifespan. Interestingly, TCE (3, 6, and 12 μg/mL) did not increase the MLS of aak-2 mutant worms (Figure 4b and Supplementary Table S3), indicating importance of this pathway in TCE mediated longevity effects.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "C. elegans",
+    "tart cherry",
+    "lifespan",
+    "aging",
+    "oxidative stress",
+    "daf-16",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "NutrimiRAging: Micromanaging nutrient sensing pathways through nutrition to promote healthy aging",
+      "authors": [
+        "V. Mico",
+        "L. Berninches",
+        "J. Tapia",
+        "L. Daimiel"
+      ]
+    },
+    {
+      "title": "Fact Sheet: Aging in the United States",
+      "authors": []
+    },
+    {
+      "title": "United Nations: Global Issues, Ageing",
+      "authors": []
+    },
+    {
+      "title": "Reversal of ageing- and injury-induced vision loss by Tet-dependent epigenetic reprogramming",
+      "authors": [
+        "Y. Lu",
+        "A. Krishnan",
+        "B. Brommer",
+        "X. Tian",
+        "M. Meer",
+        "D. Vera",
+        "C. Wang",
+        "Q. Zeng",
+        "D. Yu",
+        "M. Bonkowski"
+      ]
+    },
+    {
+      "title": "Aging: Overview",
+      "authors": [
+        "D. Harman"
+      ]
+    },
+    {
+      "title": "Curcumin-mediated oxidative stress resistance in Caenorhabditis elegans is modulated by age-1, akt-1, pdk-1, osr-1, unc-43, sek-1, skn-1, sir-2.1, and mev-1",
+      "authors": [
+        "C.W. Yu",
+        "C.C. Wei",
+        "V.H. Liao"
+      ]
+    },
+    {
+      "title": "Aging and resistance to oxidative damage in Caenorhabditis elegans",
+      "authors": [
+        "P.L. Larsen"
+      ]
+    },
+    {
+      "title": "Cranberry anthocyanin extract prolongs lifespan of fruit flies",
+      "authors": [
+        "L. Wang",
+        "Y.M. Li",
+        "L. Lei",
+        "Y. Liu",
+        "X. Wang",
+        "K.Y. Ma",
+        "Z.-Y. Chen"
+      ]
+    },
+    {
+      "title": "Caloric restriction and aging: An update",
+      "authors": [
+        "E.J. Masoro"
+      ]
+    },
+    {
+      "title": "Diet, overfeeding, and moderate dietary restriction in control sprague-dawley Rats: II. Effects on age-related proliferative and degenerative lesions",
+      "authors": [
+        "K.P. Keenan",
+        "K.A. Soper",
+        "P.R. Hertzog",
+        "L.A. Gumprecht",
+        "P.F. Smith",
+        "B.A. Mattson",
+        "G.C. Ballam",
+        "R.L. Clark"
+      ]
+    },
+    {
+      "title": "Caloric restriction and aging: Studies in mice and monkeys",
+      "authors": [
+        "R.M. Anderson",
+        "D. Shanmuganayagam",
+        "R. Weindruch"
+      ]
+    },
+    {
+      "title": "Extending healthy life span—From yeast to humans",
+      "authors": [
+        "L. Fontana",
+        "L. Partridge",
+        "V.D. Longo"
+      ]
+    },
+    {
+      "title": "The longevity effect of cranberry extract in Caenorhabditis elegans is modulated by daf-16 and osr-1",
+      "authors": [
+        "S. Guha",
+        "M. Cao",
+        "R.M. Kane",
+        "A.M. Savino",
+        "S. Zou",
+        "Y. Dong"
+      ]
+    },
+    {
+      "title": "DAF-16 target genes that control C. Elegans life-span and metabolism",
+      "authors": [
+        "S.S. Lee",
+        "S. Kennedy",
+        "A.C. Tolonen",
+        "G. Ruvkun"
+      ]
+    },
+    {
+      "title": "Glycogen controls Caenorhabditis elegans lifespan and resistance to oxidative stress",
+      "authors": [
+        "I. Gusarov",
+        "B. Pani",
+        "L. Gautier",
+        "O. Smolentseva",
+        "S. Eremina",
+        "I. Shamovsky",
+        "O. Katkova-Zhukotskaya",
+        "A. Mironov",
+        "E. Nudler"
+      ]
+    },
+    {
+      "title": "Deletion of the mitochondrial superoxide dismutase sod-2 extends lifespan in Caenorhabditis elegans",
+      "authors": [
+        "J.M. Van Raamsdonk",
+        "S. Hekimi"
+      ]
+    },
+    {
+      "title": "Blueberry extract prolongs lifespan of Drosophila melanogaster",
+      "authors": [
+        "C. Peng",
+        "Y. Zuo",
+        "K.M. Kwan",
+        "Y. Liang",
+        "K.Y. Ma",
+        "H.Y.E. Chan",
+        "Y. Huang",
+        "H. Yu",
+        "Z.-Y. Chen"
+      ]
+    },
+    {
+      "title": "Lifespan extension by cranberry supplementation partially requires SOD2 and is life stage independent",
+      "authors": [
+        "Y. Sun",
+        "J. Yolitz",
+        "T. Alberico",
+        "X. Sun",
+        "S. Zou"
+      ]
+    },
+    {
+      "title": "Purple pitanga fruit (Eugenia uniflora L.) protects against oxidative stress and increase the lifespan in Caenorhabditis elegans via the DAF-16/FOXO pathway",
+      "authors": [
+        "A.L. Tambara",
+        "L. de Los Santos Moraes",
+        "A.H. Dal Forno",
+        "J.R. Boldori",
+        "A.T. Gonçalves Soares",
+        "C. de Freitas Rodrigues",
+        "L.R.B. Mariutti",
+        "A.Z. Mercadante",
+        "D.S. de Ávila",
+        "C.C. Denardin"
+      ]
+    },
+    {
+      "title": "The role of mitochondria in aging",
+      "authors": [
+        "A. Bratic",
+        "N.-G. Larsson"
+      ]
+    },
+    {
+      "title": "Stochastic and genetic factors influence tissue-specific decline in ageing C. elegans",
+      "authors": [
+        "L.A. Herndon",
+        "P.J. Schmeissner",
+        "J.M. Dudaronek",
+        "P.A. Brown",
+        "K.M. Listner",
+        "Y. Sakano",
+        "M.C. Paupard",
+        "D.H. Hall",
+        "M. Driscoll"
+      ]
+    },
+    {
+      "title": "Anti-inflammatory and anti-obesity properties of food bioactive components: Effects on adipose tissue",
+      "authors": [
+        "S. Jayarathne",
+        "I. Koboziev",
+        "O.-H. Park",
+        "W. Oldewage-Theron",
+        "C.-L. Shen",
+        "N. Moustaid-Moussa"
+      ]
+    },
+    {
+      "title": "Modulation of adipose tissue inflammation by bioactive food compounds",
+      "authors": [
+        "N. Siriwardhana",
+        "N.S. Kalupahana",
+        "M. Cekanova",
+        "M. LeMieux",
+        "B. Greer",
+        "N. Moustaid-Moussa"
+      ]
+    },
+    {
+      "title": "Curcumin-supplemented diets improve antioxidant enzymes and alter acetylcholinesterase genes expression level in Drosophila melanogaster model",
+      "authors": [
+        "A.J. Akinyemi",
+        "G. Oboh",
+        "O. Ogunsuyi",
+        "A.O. Abolaji",
+        "A. Udofia"
+      ]
+    },
+    {
+      "title": "Supplement timing of cranberry extract plays a key role in promoting Caenorhabditis elegans healthspan",
+      "authors": [
+        "S. Guha",
+        "O. Natarajan",
+        "C.G. Murbach",
+        "J. Dinh",
+        "E.C. Wilson",
+        "M. Cao",
+        "S. Zou",
+        "Y. Dong"
+      ]
+    },
+    {
+      "title": "Mulberry anthocyanin extract ameliorates oxidative damage in HepG2 cells and prolongs the lifespan of Caenorhabditis elegans through MAPK and Nrf2 Pathways",
+      "authors": [
+        "F. Yan",
+        "Y. Chen",
+        "R. Azat",
+        "X. Zheng"
+      ]
+    },
+    {
+      "title": "Blueberry extract promotes longevity and stress tolerance via DAF-16 in Caenorhabditis elegans",
+      "authors": [
+        "H. Wang",
+        "J. Liu",
+        "T. Li",
+        "R.H. Liu"
+      ]
+    },
+    {
+      "title": "Blueberry polyphenols increase lifespan and thermotolerance in Caenorhabditis elegans",
+      "authors": [
+        "M.A. Wilson",
+        "B. Shukitt-Hale",
+        "W. Kalt",
+        "D.K. Ingram",
+        "J.A. Joseph",
+        "C.A. Wolkow"
+      ]
+    },
+    {
+      "title": "Chemical profile and antioxidant capacities of tart cherry products",
+      "authors": [
+        "A. Kirakosyan",
+        "E.M. Seymour",
+        "D.E.U. Llanes",
+        "P.B. Kaufman",
+        "S.F. Bolling"
+      ]
+    },
+    {
+      "title": "Regular tart cherry intake alters abdominal adiposity, adipose gene transcription, and inflammation in obesity-prone rats fed a high fat diet",
+      "authors": [
+        "E.M. Seymour",
+        "S.K. Lewis",
+        "D.E. Urcuyo-Llanes",
+        "I.I. Tanone",
+        "A. Kirakosyan",
+        "P.B. Kaufman",
+        "S.F. Bolling"
+      ]
+    },
+    {
+      "title": "The inhibitory potential of Montmorency tart cherry on key enzymes relevant to type 2 diabetes and cardiovascular disease",
+      "authors": [
+        "A. Kirakosyan",
+        "E. Gutierrez",
+        "B. Ramos Solano",
+        "E.M. Seymour",
+        "S.F. Bolling"
+      ]
+    },
+    {
+      "title": "The effects of Montmorency tart cherry juice supplementation and FATMAX exercise on fat oxidation rates and cardio-metabolic markers in healthy humans",
+      "authors": [
+        "T. Desai",
+        "L. Bottoms",
+        "M. Roberts"
+      ]
+    },
+    {
+      "title": "Montmorency tart cherry (Prunus cerasus L.) supplementation accelerates recovery from exercise-induced muscle damage in females",
+      "authors": [
+        "M.A. Brown",
+        "E.J. Stevenson",
+        "G. Howatson"
+      ]
+    },
+    {
+      "title": "Tart cherry juice induces differential dose-dependent effects on apoptosis, but not cellular proliferation, in MCF-7 human breast cancer cells",
+      "authors": [
+        "K.R. Martin",
+        "A. Wooden"
+      ]
+    },
+    {
+      "title": "Tart cherry reduces inflammation in adipose tissue of zucker fatty rats and cultured 3T3-L1 adipocytes",
+      "authors": [
+        "S. Jayarathne",
+        "A.J. Stull",
+        "A. Miranda",
+        "S. Scoggin",
+        "K. Claycombe-Larson",
+        "J.H. Kim",
+        "N. Moustaid-Moussa"
+      ]
+    },
+    {
+      "title": "An AMPK-FOXO pathway mediates longevity induced by a novel method of dietary restriction in C. elegans",
+      "authors": [
+        "E.L. Greer",
+        "D. Dowlatshahi",
+        "M.R. Banko",
+        "J. Villen",
+        "K. Hoang",
+        "D. Blanchard",
+        "S.P. Gygi",
+        "A. Brunet"
+      ]
+    },
+    {
+      "title": "Genetic pathways that regulate ageing in model organisms",
+      "authors": [
+        "L. Guarente",
+        "C. Kenyon"
+      ]
+    },
+    {
+      "title": "Identification of novel human genes evolutionarily conserved in Caenorhabditis elegans by comparative proteomics",
+      "authors": [
+        "C.H. Lai",
+        "C.Y. Chou",
+        "L.Y. Ch’ang",
+        "C.S. Liu",
+        "W. Lin"
+      ]
+    },
+    {
+      "title": "NemaFlex: A microfluidics-based technology for standardized measurement of muscular strength of C. elegans",
+      "authors": [
+        "M. Rahman",
+        "J.E. Hewitt",
+        "F. Van-Bussel",
+        "H. Edwards",
+        "J. Blawzdziewicz",
+        "N.J. Szewczyk",
+        "M. Driscoll",
+        "S.A. Vanapalli"
+      ]
+    },
+    {
+      "title": "Muscle strength deficiency and mitochondrial dysfunction in a muscular dystrophy model of Caenorhabditis elegans and its functional response to drugs",
+      "authors": [
+        "J.E. Hewitt",
+        "A.K. Pollard",
+        "L. Lesanpezeshki",
+        "C.S. Deane",
+        "C.J. Gaffney",
+        "T. Etheridge",
+        "N.J. Szewczyk",
+        "S.A. Vanapalli"
+      ]
+    },
+    {
+      "title": "NemaLife: A structured microfluidic culture device optimized for aging studies in crawling C. elegans",
+      "authors": [
+        "M. Rahman",
+        "H. Edwards",
+        "N. Birze",
+        "R. Gabrilska",
+        "K.P. Rumbaugh",
+        "J. Blawzdziewicz",
+        "N.J. Szewczyk",
+        "M. Driscoll",
+        "S.A. Vanapalli"
+      ]
+    },
+    {
+      "title": "Quantification and characterization of anthocyanins in balaton tart cherries",
+      "authors": [
+        "H. Wang",
+        "M.G. Nair",
+        "A.F. Iezzoni",
+        "G.M. Strasburg",
+        "A.M. Booren",
+        "J.I. Gray"
+      ]
+    },
+    {
+      "title": "Synergistic inhibition of interleukin-6 production in adipose stem cells by tart cherry anthocyanins and atorvastatin",
+      "authors": [
+        "Z. Zhou",
+        "M.G. Nair",
+        "K.J. Claycombe"
+      ]
+    },
+    {
+      "title": "Cherry antioxidants: From farm to table",
+      "authors": [
+        "G. Ferretti",
+        "T. Bacchetti",
+        "A. Belleggia",
+        "D. Neri"
+      ]
+    },
+    {
+      "title": "Anthocyanin pigments: Importance, sample preparation and extraction",
+      "authors": [
+        "J. Martín",
+        "M.J. Navas",
+        "A.M. Jiménez-Moreno",
+        "A.M.J.-M. Asuero",
+        "G. Agustín"
+      ]
+    },
+    {
+      "title": "The genetics of Caenorhabditis elegans",
+      "authors": [
+        "S. Brenner"
+      ]
+    },
+    {
+      "title": "A screening-based platform for the assessment of cellular respiration in Caenorhabditis elegans",
+      "authors": [
+        "M. Koopman",
+        "H. Michels",
+        "B.M. Dancy",
+        "R. Kamble",
+        "L. Mouchiroud",
+        "J. Auwerx",
+        "E.A. Nollen",
+        "R.H. Houtkooper"
+      ]
+    },
+    {
+      "title": "Lifespan and dauer regulation by tissue-specific activities of Caenorhabditis elegans DAF-18",
+      "authors": [
+        "I. Masse",
+        "L. Molin",
+        "M. Billaud",
+        "F. Solari"
+      ]
+    },
+    {
+      "title": "DAF-16/FOXO transcription factor in aging and longevity",
+      "authors": [
+        "X. Sun",
+        "W.-D. Chen",
+        "Y.-D. Wang"
+      ]
+    },
+    {
+      "title": "Seahorse Xfe 24 extracellular flux analyzer-based analysis of cellular respiration in caenorhabditis elegans",
+      "authors": [
+        "A.L. Luz",
+        "L.L. Smith",
+        "J.P. Rooney",
+        "J.N. Meyer"
+      ]
+    },
+    {
+      "title": "The AMP-activated protein kinase AAK-2 links energy levels and insulin-like signals to lifespan in C. elegans",
+      "authors": [
+        "J. Apfeld",
+        "G. O’Connor",
+        "T. McDonagh",
+        "P.S. DiStefano",
+        "R. Curtis"
+      ]
+    },
+    {
+      "title": "Tart cherry supplementation improves working memory, hippocampal inflammation, and autophagy in aged rats",
+      "authors": [
+        "N. Thangthaeng",
+        "S.M. Poulose",
+        "S.M. Gomes",
+        "M.G. Miller",
+        "D.F. Bielinski",
+        "B. Shukitt-Hale"
+      ]
+    },
+    {
+      "title": "Anticancer effects of Bilberry anthocyanins compared with NutraNanoSphere encapsulated Bilberry anthocyanins",
+      "authors": [
+        "S.P. Thibado",
+        "J.T. Thornthwaite",
+        "T.K. Ballard",
+        "B.T. Goodman"
+      ]
+    },
+    {
+      "title": "Montmorency tart cherry (Prunus cerasus L.) acts as a calorie restriction mimetic that increases intestinal fat and lifespan in Caenorhabditis elegans",
+      "authors": [
+        "D. van de Klashorst",
+        "A. van den Elzen",
+        "J. Weeteling",
+        "M. Roberts",
+        "T. Desai",
+        "L. Bottoms",
+        "S. Hughes"
+      ]
+    },
+    {
+      "title": "Montmorency tart cherry protects against age-related bone loss in female C57BL/6 mice and demonstrates some anabolic effects",
+      "authors": [
+        "B.J. Smith",
+        "E.K. Crockett",
+        "P. Chongwatpol",
+        "J.L. Graef",
+        "S.L. Clarke",
+        "E. Rendina-Ruedy",
+        "E.A. Lucas"
+      ]
+    },
+    {
+      "title": "Anthocyanin-rich purple wheat prolongs the life span of Caenorhabditis elegans probably by activating the DAF-16/FOXO transcription factor",
+      "authors": [
+        "W. Chen",
+        "D. Muller",
+        "E. Richling",
+        "M. Wink"
+      ]
+    },
+    {
+      "title": "A living model for obesity and aging research: Caenorhabditis elegans",
+      "authors": [
+        "P. Shen",
+        "Y. Yue",
+        "Y. Park"
+      ]
+    },
+    {
+      "title": "CAMKII and calcineurin regulate the lifespan of Caenorhabditis elegans through the FOXO transcription factor DAF-16",
+      "authors": [
+        "L. Tao",
+        "Q. Xie",
+        "Y.H. Ding",
+        "S.T. Li",
+        "S. Peng",
+        "Y.P. Zhang",
+        "D. Tan",
+        "Z. Yuan",
+        "M.Q. Dong"
+      ]
+    },
+    {
+      "title": "The TOR pathway interacts with the insulin signaling pathway to regulate C. elegans larval development, metabolism and life span",
+      "authors": [
+        "K. Jia",
+        "D. Chen",
+        "D.L. Riddle"
+      ]
+    },
+    {
+      "title": "Lifespan-regulating genes in C. elegans",
+      "authors": [
+        "M. Uno",
+        "E. Nishida"
+      ]
+    },
+    {
+      "title": "Oleanolic acid activates daf-16 to increase lifespan in Caenorhabditis elegans",
+      "authors": [
+        "J. Zhang",
+        "L. Lu",
+        "L. Zhou"
+      ]
+    },
+    {
+      "title": "Effects of resveratrol on lifespan in Drosophila melanogaster and Caenorhabditis elegans",
+      "authors": [
+        "T.M. Bass",
+        "D. Weinkove",
+        "K. Houthoofd",
+        "D. Gems",
+        "L. Partridge"
+      ]
+    },
+    {
+      "title": "Characterization of a new blackberry cultivar BRS Xingu: Chemical composition, phenolic compounds, and antioxidant capacity in vitro and in vivo",
+      "authors": [
+        "D.P. Moraes",
+        "J. Lozano-Sánchez",
+        "M.L. Machado",
+        "M. Vizzotto",
+        "M. Lazzaretti",
+        "F.J.J. Leyva-Jimenez",
+        "T.L. da Silveira",
+        "E.F. Ries",
+        "M.T. Barcia"
+      ]
+    },
+    {
+      "title": "Genes and pathways that influence longevity in Caenorhabditis elegans",
+      "authors": [
+        "Y. Lee",
+        "S.W.A. An",
+        "N. Mori",
+        "I. Mook-Jung",
+        "M. Artan",
+        "M. Seo",
+        "A.B. Hwang",
+        "D.-E. Jeong",
+        "H.G. Son",
+        "W. Hwang",
+        "D. Lee",
+        "K. Seo"
+      ]
+    },
+    {
+      "title": "Hibiscus sabdariffa L. Extract prolongs lifespan and protects against amyloid-β toxicity in Caenorhabditis elegans: Involvement of the FoxO and Nrf2 orthologues DAF-16 and SKN-1",
+      "authors": [
+        "K. Koch",
+        "N. Weldle",
+        "S. Baier",
+        "C. Büchter",
+        "W. Wätjen"
+      ]
+    },
+    {
+      "title": "Polyphenol composition, antioxidant capacity, and antimicrobial activity of the extracts obtained from industrial sour cherry pomace",
+      "authors": [
+        "K. Kołodziejczyk",
+        "M. Sójka",
+        "M. Abadias",
+        "I. Viñas",
+        "S. Guyot",
+        "A. Baron"
+      ]
+    },
+    {
+      "title": "AMP-Activated protein kinase regulates oxidative metabolism in Caenorhabditis elegans through the NHR-49 and MDT-15 transcriptional regulators",
+      "authors": [
+        "E. Moreno-Arriola",
+        "M. El Hafidi",
+        "D. Ortega-Cuellar",
+        "K. Carvajal"
+      ]
+    },
+    {
+      "title": "Mitochondrial uncoupling attenuates age-dependent neurodegeneration in C. elegans",
+      "authors": [
+        "I. Cho",
+        "H.-O. Song",
+        "J.H. Cho"
+      ]
+    },
+    {
+      "title": "An anthocyanin-rich extract of acai (Euterpe precatoria Mart.) increases stress resistance and retards aging-related markers in Caenorhabditis elegans",
+      "authors": [
+        "H. Peixoto",
+        "M. Roxo",
+        "S. Krstin",
+        "T. Rohrig",
+        "E. Richling",
+        "M. Wink"
+      ]
+    },
+    {
+      "title": "Protective effect of mulberry fruit anthocyanin on human hepatocyte cells (LO2) and Caenorhabditis elegans under hyperglycemic conditions",
+      "authors": [
+        "F. Yan",
+        "X.A. Chen",
+        "X. Zheng"
+      ]
+    },
+    {
+      "title": "Mitochondrial superoxide dismutase—Signals of distinction",
+      "authors": [
+        "S. Miriyala",
+        "A.K. Holley",
+        "D.K. St Clair"
+      ]
+    },
+    {
+      "title": "Effects of deleting mitochondrial antioxidant genes on life span",
+      "authors": [
+        "E.S. Unlu",
+        "A. Koc"
+      ]
+    },
+    {
+      "title": "Neurodegeneration and early lethality in superoxide dismutase 2-deficient mice: A comprehensive analysis of the central and peripheral nervous systems",
+      "authors": [
+        "S.S. Oh",
+        "K.A. Sullivan",
+        "J.E. Wilkinson",
+        "C. Backus",
+        "J.M. Hayes",
+        "S.A. Sakowski",
+        "E.L. Feldman"
+      ]
+    },
+    {
+      "title": "Regulation of superoxide dismutase genes: Implications in disease",
+      "authors": [
+        "L. Miao",
+        "D.K. St Clair"
+      ]
+    },
+    {
+      "title": "Measurement of oxygen consumption rates in intact Caenorhabditis elegans",
+      "authors": [
+        "S. Sarasija",
+        "K.R. Norman"
+      ]
+    },
+    {
+      "title": "Is there a link between mitochondrial reserve respiratory capacity and aging?",
+      "authors": [
+        "C. Desler",
+        "T.L. Hansen",
+        "J.B. Frederiksen",
+        "M.L. Marcker",
+        "K.K. Singh",
+        "L. Juel Rasmussen"
+      ]
+    },
+    {
+      "title": "Respiratory enzymes in oxidative phosphorylation. I. Kinetics of oxygen utilization",
+      "authors": [
+        "B. Chance",
+        "G.R. Williams"
+      ]
+    },
+    {
+      "title": "Quantitative microplate-based respirometry with correction for oxygen diffusion",
+      "authors": [
+        "A.A. Gerencser",
+        "A. Neilson",
+        "S.W. Choi",
+        "U. Edman",
+        "N. Yadava",
+        "R.J. Oh",
+        "D.A. Ferrick",
+        "D.G. Nicholls",
+        "M.D. Brand"
+      ]
+    },
+    {
+      "title": "Analysis of mitochondrial function using phosphorescent oxygen-sensitive probes",
+      "authors": [
+        "Y. Will",
+        "J. Hynes",
+        "V.I. Ogurtsov",
+        "D.B. Papkovsky"
+      ]
+    },
+    {
+      "title": "Polyphenols and Metabolites Enhance Survival in Rodents and Nematodes-Impact of Mitochondria",
+      "authors": [
+        "B. Dilberger",
+        "M. Passon",
+        "H. Asseburg",
+        "C.V. Silaidos",
+        "F. Schmitt",
+        "T. Schmiedl",
+        "A. Schieber",
+        "G.P. Eckert"
+      ]
+    },
+    {
+      "title": "Mice lacking mitochondrial uncoupling protein are cold-sensitive but not obese",
+      "authors": [
+        "S. Enerback",
+        "A. Jacobsson",
+        "E.M. Simpson",
+        "C. Guerra",
+        "H. Yamashita",
+        "M.E. Harper",
+        "L.P. Kozak"
+      ]
+    },
+    {
+      "title": "Mitochondrial superoxide: Production, biological effects, and activation of uncoupling proteins",
+      "authors": [
+        "M.D. Brand",
+        "C. Affourtit",
+        "T.C. Esteves",
+        "K. Green",
+        "A.J. Lambert",
+        "S. Miwa",
+        "J.L. Pakay",
+        "N. Parker"
+      ]
+    },
+    {
+      "title": "Disruption of the uncoupling protein-2 gene in mice reveals a role in immunity and reactive oxygen species production",
+      "authors": [
+        "D. Arsenijevic",
+        "H. Onuma",
+        "C. Pecqueur",
+        "S. Raimbault",
+        "B.S. Manning",
+        "B. Miroux",
+        "E. Couplan",
+        "M.C. Alves-Guerra",
+        "M. Goubern",
+        "R. Surwit"
+      ]
+    },
+    {
+      "title": "Energy metabolism in uncoupling protein 3 gene knockout mice",
+      "authors": [
+        "A.J. Vidal-Puig",
+        "D. Grujic",
+        "C.Y. Zhang",
+        "T. Hagen",
+        "O. Boss",
+        "Y. Ido",
+        "A. Szczepanik",
+        "J. Wade",
+        "V. Mootha",
+        "R. Cortright"
+      ]
+    },
+    {
+      "title": "Examination of the requirement for ucp-4, a putative homolog of mammalian uncoupling proteins, for stress tolerance and longevity in C. elegans",
+      "authors": [
+        "W.B. Iser",
+        "D. Kim",
+        "E. Bachman",
+        "C. Wolkow"
+      ]
+    },
+    {
+      "title": "Uncoupling Protein, UCP-4 May Be Involved in neuronal defects during aging and resistance to pathogens in Caenorhabditis elegans",
+      "authors": [
+        "I. Cho",
+        "G.J. Hwang",
+        "J.H. Cho"
+      ]
+    }
+  ],
+  "original_title": "Tart Cherry Increases Lifespan in Caenorhabditis elegans by Altering Metabolic Signaling Pathways",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b1a1/7285199/0bbf6cd1879b/nutrients-12-01482-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b1a1/7285199/33f591c7ca7b/nutrients-12-01482-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b1a1/7285199/1cebecc9614b/nutrients-12-01482-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b1a1/7285199/2b8ef1d1409f/nutrients-12-01482-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b1a1/7285199/a468671c856c/nutrients-12-01482-g005.jpg"
+  ]
+}

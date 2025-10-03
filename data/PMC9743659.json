@@ -1,0 +1,395 @@
+{
+  "pmcid": "PMC9743659",
+  "title": "Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station",
+  "abstract": "Background\n\nMonitoring the adaptation of microorganisms to the extreme environment of the International Space Station (ISS) is crucial to understanding microbial evolution and infection prevention. Acinetobacter pittii is an opportunistic nosocomial pathogen, primarily impacting immunocompromised patients, that was recently isolated from two missions aboard the ISS.\n\nResults\n\nHere, we report how ISS-associated A. pittii (n = 20 genomes) has formed its own genetically and functionally discrete clade distinct from most Earth-bound isolates (n = 291 genomes). The antimicrobial susceptibility testing of ISS strains and two related clinical isolates demonstrated that ISS strains acquired more resistance, specifically with regard to expanded-spectrum cephalosporins, despite no prediction of increased resistance based on genomic analysis of resistance genes. By investigating 402 longitudinal environmental and host-associated ISS metagenomes, we observed that viable A. pittii is increasing in relative abundance and therefore potentially exhibiting succession, being identified in >2X more metagenomic samples in back-to-back missions. ISS strains additionally contain functions that enable them to survive in harsh environments, including the transcriptional regulator LexA. Via a genome-wide association study, we identified a high level of mutational burden in methionine sulfoxide reductase genes relative to the most closely related Earth strains.\n\nConclusions\n\nOverall, these results indicated a step forward in understanding how microorganisms might evolve and alter their antibiotic resistance phenotype in extreme, resource-limited, human-built environments.\n\nVideo Abstract\n\nSupplementary Information\n\nThe online version contains supplementary material available at 10.1186/s40168-022-01358-0.",
+  "introduction": "Introduction\n\nAny bacterial species introduced into space will inevitably face the extreme pressures inherent therein (e.g., microgravity and solar radiation). While humans also encounter these challenges during space flight and, indeed, our physiology is impacted by prolonged exposure—microbes possess the unique ability to adapt quickly due to rapid cell division (thereby mutation) and the acquisition of external DNA elements through horizontal gene transfer (HGT). Given the pivotal roles microbes play in human health and physiology (e.g., ranging from pathogens to arbiters of a healthy gut), understanding how we can expect specific microbes to adapt to space-based ecosystems is essential for ensuring crew safety and health during longer space missions.\n\nThe International Space Station (ISS) is perhaps the paradigm of experimental “built environments” to observe such microbial adaptation in action. After all, all life on the ISS had to originate on Earth, and this makes it the ideal place to study, in a contained environment, how life changes in orbit. To date, there have been numerous other examples of microbes changing after being exposed to space. These include fungal adaptation to the ISS as a function of microgravity and changes in Agrobacterium genome composition, among others.\n\nRecently, the microbe Acinetobacter pittii was isolated from surfaces within the ISS during two microbial-monitoring missions (referred to as microbial tracking-1 [MT1] and microbial tracking-2 [MT2]). A. pittii is an opportunistic, Biosafety Level (BSL) 2 pathogen capable of causing potentially fatal infection, most commonly in immunocompromised patients in clinical settings. Bacteremia deriving from A. pittii has been observed as having a 17% 28-day mortality rate, though healthy individuals are usually not at risk of infection. Members of the genus Acinetobacter tend to be multi-drug-resistant and more commonly isolated from hospital settings as a result of their ability to resist environmental disinfectants and their potential for aerosolization. In addition, A. pittii has been observed in various built environment settings other than hospitals (e.g., household objects). Many diverse A. pittii genomes are available from a variety of settings, making it an excellent model for comparative genomics.\n\nThe presence of a nosocomial BSL-2 pathogen in space warrants investigation in and of itself as the potential for human infection in this extreme environment raises concern; additionally, A. pittii is particularly adept at HGT in a simulated microgravity. This indicates a propensity for rapid adaptation to conditions aboard the ISS and acquiring additional genes that could contribute to antibiotic resistance. As a result, monitoring the biology of A. pittii, and how strains are changing in space, is of high priority. Finally, understanding how an organism, especially a pathogen, is changing and whether it is propagating is critical to our ability to design effective infection prevention strategies. In other words, is it colonizing and spreading via the human body, or is it limited to the environment? Answering this metapangenomic question requires both longitudinal sampling of human (e.g., the oral microbiome) and environmental (e.g., the space station viewports) metagenomes to identify the presence or absence of specific strains in complex microbial communities over time.\n\nHere, we jointly used longitudinally collected isolates and metagenomic sequencing to measure changes to A. pittii genomes across time in space. We compared clinical strains isolated on Earth to cultured organisms from the space station and those de novo assembled into metagenome-assembled genomes (MAGs). We described the specific gene and phenotype changes possibly occurring as a function of exposure to space, and we identified where A. pittii is most prevalent across the ISS.",
+  "methods": "Methods\n\nDownloading and annotating public A. pittii genomes\n\nUsing the NCBI’s entrez command line, we downloaded every genome annotated as A. pittii (NCBI taxonomic ID48296) from the NCBI’s assembly database. These downloaded genomes included those from the MT1 and MT2 missions as well as others isolated from the ISS. We manually searched the NCBI BioProject, BioSample, and assembly databases for all 319 downloaded A. pittii genomes in order to determine their environment. We manually mapped environmental tables to a consistent set of terms (e.g., converting “endobronchial tube” to “respiratory tract” and searching BioSample for information on isolation sources stored in a non-standard format). The original terms, as well as the mapping therein, is reported in Supplementary Table 1.\n\nPhylogenetic annotation and computing SNP distances\n\nTo confirm the taxonomy of all assembled genomes as well as those downloaded from the NCBI, we used GTDB-Tk (V1.6.0), the Genome Taxonomy Database’s accompanying toolkit that uses a variety of dependencies to place genomes into a phylogenetic tree according to a set of globally conserved marker genes. Specifically, we sequentially employed GTDB-Tk’s identify, align, and infer functions, all with the default settings in order to taxonomically annotate and build a phylogenetic tree from our downloaded and assembled genomes. We additionally used GTDB-Tk’s resultant taxonomic classification to filter out any NCBI genomes that were not annotated as A. pittii. For Supp Fig. 2, we plotted and annotated the GTDB-Tk phylogenetic tree in R (V4.1.1) using ggtree (V 3.0.4).\n\nFor the pairwise SNP distance comparisons in Fig. 1B, we identified a core-SNP set using snippy V4.6.0 (https://github.com/tseemann/snippy) for the ISS clade (i.e., all ISS MAGs/genomes and the two comparator Earth-based patient isolates we referenced throughout the study). We ran Snippy with the default settings, and its output was also used with gubbins V3.2.1 and FastTree V2.1.11 (also with default settings as recommended on Snippy’s README) to generate the phylogenetic tree in Supp Fig. 1B.\n\nPangenome construction, functional annotation, and joint variant calling\n\nWe first identified ORFs with Prokka V1.14.6 using the default parameters. The ab initio functional annotations (i.e., COGs) for each predicted gene sequence were identified as part of Prokka’s automated pipeline, which pulls annotations from a variety of reference databases. To build a pangenome, we used ROARY running the default settings on the Prokka output. We called SNPs and indels jointly across the closely related Earth/ISS strains using SPANDx (V4.0.1) with the default settings.\n\nAlternate phylogeny construction\n\nWe additionally computed phylogenies for Supp Fig. 1A and Fig. 1A using the output of SPANDx (the maximum likelihood tree) and RAXmL (V8.2.12, with the following parameters: -m GTRGAMMA -p 12345), which we ran on the ROARY core alignment output.\n\nAssociation studies\n\nWe used the presence-absence matrix output of ROARY for the gene-level association study and the filtered VCF output of SPANDx for the SNP/indel association study. We computed associations with pyseer (V1.3.9). For the gene-level analysis, we adjusted for population stratification with five principal components based on phylogenetic distances generated from the tree in Fig. 1. These distances were computed with pyseer’s built-in scripts. For the mutational analysis, we used pyseer’s mixed modeling approach with similarities built from SPANDx’s maximum likelihood phylogenetic tree.\n\nAccessing metagenomic datasets\n\nWe downloaded publicly available environmental metagenomic datasets from the MT1 (accession = PRJNA438545), MT2 (accession = PRJNA781277) missions, and genomes of 402 A. pittii isolates of human clinical samples. The microbial sequencing associated with astronaut samples of MT-2 study and NASA Twins study cannot be shared publicly due to Institutional Review Board (IRB). These data are available upon request in NASA Life Sciences Data Archive (LSDA) (https://lsda.jsc.nasa.gov/Dataset).\n\nProcessing and de novo assembly of ISS metagenomic data\n\nWe first ran a quality control pipeline on all metagenomic samples. We used bbtools (V38.92) functions to clump reads, remove adapter contamination, and remove sequencing error (clumpify [parameters: optical=f, dupesubs=2,dedupe=t], bbduk [parameters: qout=33 trd=t hdist=1 k=27 ktrim=\"r\" mink=8 overwrite=true trimq=10 qtrim='rl' threads=10 minlength=51 maxns=-1 minbasefrequency=0.05 ecco=f], and tadpole [parameters: mode=correct, ecc=t, ecco=t]). Where necessary, we would remove unmatching reads using bbtool’s repair function (default parameters). We additionally used bowtie2 (parameters: --very-sensitive-local) to align to the human reference genome (GRCh38). We de novo assembled all metagenomic reads into contigs using metaSPAdes (default settings).\n\nConstructing metagenome-assembled genomes (MAGs)\n\nWe constructed MAGs from all metagenomic samples using an approach modeled after the literature. We used bbmap to align quality-controlled reads from each sample to its respective contigs resulting from the assembly. We used the alignment output with the default settings, as well as the contigs themselves, as input into MetaWRAP V1.3 (which calls metaBAT2, Maxbin2, and CONCOCT) to generate MAGs. For each sample, we used dRep V3.2.2 (parameters: -p 15 -comp 50 -pa 0.9 -sa 0.95 -nc 0.30 -cm larger) to estimate the quality of each genome and to remove redundant genome bins. We did not dereplicate genomes across samples to avoid combining distinct A. pittii strains. The quality of both A. pittii bins can be found in Supp Table 1. We classified the taxonomy of each within-sample non-redundant bin with GTDB-Tk in the same manner as for the isolate genomes.\n\nAnalysis of CARD genes within isolate and bin genomes\n\nWe used RGI (main) V5.2.1 running the default settings to identify antibiotic resistance genes and markers in the isolate genomes and metagenomic bins.\n\nIdentifying A. pittii in metagenomic samples\n\nWe used Kraken2 and Bracken (running the default settings) to estimate the abundance of A. pittii in each of our quality-controlled metagenomes. To search for the abundance of the specific MT1/MT2 cultured isolates and the metagenome-assembled genomes, we aligned the raw reads of each metagenome against the contigs for a given genome. We counted the number of reads aligning to a genome and, to adjust for depth of sequencing, divided by the number of read mate-pairs in each sample. As a point of comparison, we additionally included the high-quality, assembled genome of recently isolated A. pittii type (NCBI assembly ID = GCA_000369045, https://www.ncbi.nlm.nih.gov/biosample/SAMN01828154/), referred to as a type strain in this analysis.\n\nAntimicrobial susceptibility testing (AST)\n\nSusceptibility testing using standard antibiotics was performed by broth microdilution with MicroScan Gram-negative NM56 trays (Beckman Coulter Inc., Brea, CA). Pseudomonas aeruginosa and Escherichia coli ATCC 25922 were used as control strains as recommended in CLSI methods. Minimum inhibitory concentrations (MICs) were interpreted according to the 2021 Clinical and Laboratory Standards Institute (CLSI) guidelines for Acinetobacter species.\n\nAvailability of data and materials\n\nThe MT1 (accession = PRJNA438545), MT2 (accession = PRJNA781277) datasets, and genomes of 402 A. pittii isolates of human clinical samples are available at NCBI (https://www.ncbi.nlm.nih.gov/datasets/genomes/?taxon=48296). The microbial sequencing associated with astronaut samples of MT-2 study and NASA Twins study cannot be shared publicly due to IRB. These data are available upon request in NASA Life Sciences Data Archive (LSDA) (https://lsda.jsc.nasa.gov/Dataset). Processed data from this study, including the isolate gene catalogs and Kraken2/Bracken abundances, are available at https://figshare.com/projects/Multidrug-resistant_Acinetobacter_pittii_is_adapting_to_and_exhibiting_succession_aboard_the_International_Space_Station/133467.\n\nAll code used in this project is documented and available at https://github.com/b-tierney/space_genomes.\n\nDeclarations\n\nEthics approval and consent to participate\n\nNo ethical approval or consent was needed for this manuscript.\n\nConsent for publication\n\nNot applicable.",
+  "results": "Results\n\nA. pittii isolated from the ISS have become phylogenetically distinct from Earth-bound strains\n\nWe built a dataset comprising publicly available assembled genomes, metagenomic bins, and assembled, not-yet-public genomes that our team had sequenced from the ISS (Table 1). We downloaded 319 genomes annotated as A. pittii from the National Center for Biotechnology Information’s (NCBI’s) assembly database. Five of these were isolated from the ISS mission MT1 (flight 2), whereas 15 were from MT2 (flight 8). The MT1/MT2 isolations were performed with similar swabbing and dilution protocols. We ran the genomes through GTDB-tK to confirm their taxonomy, removing eight from analysis due to their being annotated as other species (e.g., Acinetobacter baumannii).\n\nAdditionally, in a dataset of 402 short-read metagenomes from ISS crew and environmental sites on the ISS, we assembled metagenome-assembled genomes (MAGs) in the hope of finding additional A. pittii strains. These samples comprised 42 from environmental sites on the MT1 mission, 60 from environmental sites on the MT2 mission, 246 from different crew body sites on the MT2 mission, and 54 from the crew of the NASA Twins Study, which took place prior to the MT1/MT2 missions. We annotated only two MAGs as A. pittii using GTDB-tK. Both genomes were >99% complete, had <1% contamination, and were from environmental samples from the MT1 mission (samples SRR6853346 and SRR6853362, both from flight 2). These brought the total number of A. pittii genomes (including MAGs and isolates) carried forward for the rest of the analysis to 313 (Table 1, Supp Table 1).\n\nWe then built phylogenetic trees (with four different approaches ranging from marker-gene-based to SNP-based) for the resultant strains of A. pittii isolated from or identified on the ISS versus those from different Earth environments (Fig. 1, Supp Figs. 1 and 2). We identified that ISS A. pittii isolates formed a distinct clade from strains associated with all other ecosystems. Across all trees, only two strains, both isolated from infected patients, from Earth additionally fell in this clade. Given their placement, we focused specifically on grounding our proximal functional, antimicrobial, and genetic analysis of the ISS strains in comparison to these two strains (referred to as PR-313 and PR-429). By comparison, isolates from other ecosystems (e.g., human blood, wastewater) did not cluster together based on phylogeny to the same level as those from the ISS, and, overall, other A. pittii from the environmental ecosystems were phylogenetically distinct from the ISS strains.\n\nWe additionally compared PR-313, PR-429, and the assembly of the A. pittii type strain (GenBank accession GCA_000369045.1, ATCC 19004, acquired from a patient blood sample) to the ISS isolates (not including the MAGs) at the SNP-level (Fig. 1B). ISS A. pittii strains differed from the type strain by an average of 52,546 SNPs. They differed from PR-313 and PR-429 by 899 and 1040 SNPs on average, respectively. The MT2 isolates had more SNPs relative to all three references than the MT1 isolates (p < 0.001).\n\nA. pittii’s potential succession through the built environment of the ISS\n\nNext, we aimed to determine the source and observe the potential succession of A. pittii on the ISS based on shifts in relative abundance (as opposed to absolute abundance), which is an approach we have taken in prior work. In the same shotgun sequenced samples from which we identified our metagenomic bins, we computed the abundance of A. pittii using Kraken2. We stratified this analysis by metagenomes that had, versus had not, been treated with propidium monoazide (PMA) to remove non-viable cells.\n\nWe noted the potential succession of viable A. pittii throughout the environment of the ISS (Fig. 2A). We identified more reads mapping to A. pittii in the environmental samples than in the human samples, and its relative abundance was higher in PMA-treated environmental metagenomes (p = 0.0063) in the MT2 mission. Overall, its abundance increased between the two missions (p < 0.001). The majority of A. pittii abundance during the MT1 flight was in a small number of samples. One environmental metagenome from the MT1 mission had extremely high levels of A. pittii abundance (SRR6853346, relative abundance = 52.1%). This and the MT1 sample with the second-highest abundance (SRR6853362, relative abundance = 12.8%) were the ones we were able to assemble MAGs from, and they were taken from the port panel next to Cupola node 3 on the ISS. The median relative abundance of A. pittii (0.02%) during the MT2 mission was the highest by an order of magnitude compared to the other metagenomic sources. Further, short reads mapped to A. pittii with Kraken2 were identified in more locations across the ISS in MT2 than in MT1 (19/42 [45.2%] metagenomes in MT1 vs. 48/60 [80%] in MT2).\n\nTo further explore the spread of A. pittii throughout the ISS, we next searched specifically for the presence of the two MAGs we identified previously in all the environmental metagenomic samples in our dataset. We computed the fraction of raw reads in each metagenome aligning back to the MAGs (Fig. 2B, C). We observed a statistically significant (p < 0.001) increase in both the coverage and relative abundance of the genomes. Metagenomes treated with PMA had higher coverage (p < 0.05) in both missions.\n\nTo gain an even higher-resolution view into the potential succession of A. pittii aboard the ISS, we broke down its shifts in abundance as a function of flight. The MT1 mission consisted of three longitudinal flights (i.e., time points), whereas the MT2 consisted of four, with increasing average abundance from flight one to seven in A. pittii MAGs (Fig. 2D). Changes in abundance between flights 1 and 7 were statistically significant (p < 0.001), as well as between flights 3 and 4 (the gap between the missions).\n\nISS-associated A. pittii are becoming functionally distinct from Earth-bound strains\n\nWe next aimed to determine how the ISS A. pittii varied genetically and functionally compared to its Earth counterparts. We identified and functionally annotated all the Open-Reading-Frames (ORFs, which refer to the coding sequences of a microbial genome) in each of the 313 genomes/MAGs. In total, we identified 1,188,894 genes and 1459 distinct Clusters of Orthologous Gene (COG) annotations (Supp Table 2).\n\nInitially, we sought to identify similarities and differences in COGs annotated to ORFs present in five different genome “types”: the genomes of the MT1 and MT2 isolates, the MAGs, the type strain, and the two human isolates that were consistently grouped in the ISS clade (as described in Fig. 1). Nineteen COGs were present in all genome types except the type strain. These included two transketolases, a type II secretion mechanism (PulG), a sulfoxide reductase and sulfatase maturation enzyme, an alcohol dehydrogenase, a curcumin reductase, a Zn-dependent reductase (and a Zn2+ transport system), and an integrase, among others. Notably, every ISS-isolate uniquely contained the transcriptional repressor LexA, which was not shared with the type strain or otherwise similar genomes.\n\nIn our genome collection, we also searched against the CARD database to identify antimicrobial resistance (AMR) genes (Supp Table 2). In addition, for ISS and clinical strains used to assess antimicrobial phenotypic characteristics, we searched genomes against the CARD, NCBI, ARG-ANNOT, and ResFinder databases and verified predicted AMR status and gene identity of flagged sequences (those not having a 100% identity match) by blasting against GenBank’s non-redundant protein sequence database. We identified a bolus of AMR markers, with the 20 ISS genomes possessing a total of 10 distinct resistance gene families (9/10 gene families were in every ISS genome). Each genome contained potential resistance to 11 drug classes through 4 general resistance mechanisms (antibiotic efflux, antibiotic inactivation, target alteration, and reduced permeability for the antibiotic). However, the presence of resistance mechanisms and genes did not discriminate between the Earth and ISS-associated strains. However, the ISS-genomes did hierarchically cluster primarily with human-associated strains and contained a large diversity of genes that could potentially confer antibiotic resistance (Supp Fig. 1).\n\nAntimicrobial phenotypic characteristics of A. pittii strains\n\nWe tested 16 clinically relevant antibiotics for which the Clinical and Laboratory Standard Institute (CLSI) has established breakpoints for Acinetobacter species, as these are the commonly used antimicrobial agents administered to treat infections caused by this opportunistic pathogen (Fig. 3, Supp Table 2). The well-characterized Earth strains PR-313, PR-348, and PR-429 isolated from clinical samples were used as comparators in this study. Clinical isolates PR-313 and PR-429 were the two strains that consistently grouped phylogenetically with the ISS strains in this study (Fig. 1A). PR-429 was placed distantly in our phylogenetic analysis. These three strains were susceptible to all antibiotic compounds tested, with the exception that PR-313 showed resistance to ceftriaxone (MIC = 32 μg/ml, intermediate resistance, I) as did ISS strains.\n\nAll ISS A. pittii isolates (n = 20) tested were susceptible to the commercially available and often used carbapenems: meropenem and imipenem; the fluoroquinolones: ciprofloxacin and levofloxacin; the aminoglycoside gentamicin; and tetracycline. The susceptibility to the other antimicrobials is typical of A. pittii. The isolates were also predominantly susceptible to minocycline [19/20 isolates; one isolate MIC > 8 μg/ml, resistant (R)], and the aminoglycosides amikacin (19/20 isolates; one isolate MIC = 32 μg/ml, I) and tobramycin (19/20 isolates; one isolate MIC > 8 μg/ml, R). Susceptibility to ceftazidime was more notable, as only one ISS isolate demonstrated resistance (MIC = 16 μg/ml, I). The potency of the cephalosporins varied widely as can be seen from the MICs listed in Supp Table 2.\n\nAll ISS isolates demonstrated resistance to cefotaxime (MICs 16–32 μg/ml, I), and unlike the clinical isolates (n=3), most ISS strains were also resistant to cefepime (14/20 isolates: MIC = 16 μg/ml, n = 11, I; MIC > 16 μg/ml, n = 3, R) and ceftriaxone (17/20 isolates: MIC = 32 μg/ml, I). For β-lactam/β-lactamase inhibitor combinations, 3/20 isolates were resistant to ampicillin-sulbactam (MIC = 16/8 μg/ml, n = 2, I; MIC > 16/8 μg/ml, n = 1, R), and 5/20 isolates were non-susceptible to piperacillin-tazobactam (MIC = 32/4 μg/ml, I). In addition, 4/20 isolates were resistant to a combination of trimethoprim-sulfamethoxazole (MIC > 2/38 μg/ml, R). One strain each from MT-1 (IIF1SW-P4) and MT-2 (F8_7S_12B) flight mission exhibited multi-drug resistance (6 out of 16 antimicrobials) and were isolated from Cupola (IIF1SW-P4) and US Lab (F8_7S_12B) locations.\n\nISS-bound A. pittii contain genetically discrete accessory genomes from Earth-bound strains\n\nOur prior analyses provided a sense of functions that were gained or lost by different strains of A. pittii; however, they do not necessarily capture difficult-to-annotate sequences (i.e., genetic dark matter) or provide a sense of gene-level (or mutational-level) similarity between isolates. To explore this space, we identified a total of 43,948 core and accessory genes across all A. pittii isolates and MAGs. Via hierarchically clustering the consensus genes from the pangenome, we observed a set of sequences that were present in 100% of ISS genomes and only a small proportion (< 10%) of Earth genomes (Fig. 4A, yellow box).\n\nThis observation motivated us to carry out a gene-level, pangenome association study with the aim of determining the “ISS-associated-accessory genome” of A. pittii. Adjusting for population stratification due to shared lineage, we used logistic regression to test the association between 7411 gene sequences that were found in between 5 and 100% of all samples. After correcting for the false discovery rate, we identified a total of 175 significant positive associations with the ISS that were present in 100% of ISS A. pittii and <10% of the Earth strains (Fig. 4B, Supp Table 3). These genes had limited annotations, occurred across the genome (Fig. 4C), and corresponded to 15 unique, non-hypothetical proteins that included UmuC (involved in ultraviolet radiation protection), DNA repair (e.g., RecF), the FhuE receptor for ferric iron uptake, arsenate reductase, and other stress-response proteins (e.g., the ATP-dependent zinc metalloprotease FtsH).\n\nHowever, a gene-level association study does not necessarily identify the truly unique mutational signatures of space-bound A. pittii. This analysis needs to be grounded in a clear comparison to the most closely related Earth-bound strains. With this in mind, we computed a single-nucleotide polymorphism (SNP) and insertion/deletion (indel) genome-wide association study (GWAS, Supp Table 3) using the strains in the right panel of Fig. 1A, which were most closely related to the ISS strains. We used PR-313 as the reference genome for joint variant calling across the 40 genomes for which we were able to find raw reads.\n\nJoint variant calling yielded >40,000 variations across all 40 genomes. The majority of significantly associated features with the ISS were SNPs, and they occurred across all contigs (Fig. 5A). Fifty-one of these SNPs were ostensibly outside of coding sequences, whereas only 161 were in open Open-Reading-Frames (Fig. 5B). A total of 16 insertions and 16 deletions, half of which were intergenic, were statistically associated with spaceflight.\n\nDespite many associated features scattered around the genome, there were a few key genes and regions that seemed to have more mutational burden than others. In other words, these portions of the genome had the greatest variation relative to the most closely related Earth-bound strains. The genes with more than one mutation are reported in Fig. 5C with their relative position on different contigs. Three of these coding sequences were consecutive regions in the genome and coded for three different methionine sulfoxide reductases, which are involved in oxidative stress response. The gene with the most protein variation was hypothetical and had no known annotation, even when annotated by alignment to the UniRef90 database.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Urbaniak C, Grams T, Mason CE, Venkateswaran K. Simulated Microgravity Promotes Horizontal Gene Transfer of Antimicrobial Resistance Genes between Bacterial Genera in the Absence of Antibiotic Selective Pressure. Life (Basel). 2021;11(9):960. 10.3390/life11090960. PMID: 34575109; PMCID: PMC8468678.",
+      "authors": []
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff"
+      ]
+    },
+    {
+      "title": "Comparative genomics of novel Agrobacterium G3 strains isolated from the international space station and description of Agrobacterium tomkonis sp. nov",
+      "authors": [
+        "NK Singh"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh"
+      ]
+    },
+    {
+      "title": "Investigation of spaceflight induced changes to astronaut microbiomes",
+      "authors": [
+        "MD Morrison"
+      ]
+    },
+    {
+      "title": "Clinical outcomes of hospital-acquired infection with Acinetobacter nosocomialis and Acinetobacter pittii",
+      "authors": [
+        "S Chusri"
+      ]
+    },
+    {
+      "title": "Nosocomial bloodstream infections due to Acinetobacter baumannii, Acinetobacter pittii and Acinetobacter nosocomialis in the United States",
+      "authors": [
+        "H Wisplinghoff"
+      ]
+    },
+    {
+      "title": "Comparison between bacteremia caused by Acinetobacter pittii and Acinetobacter nosocomialis",
+      "authors": [
+        "Y-M Liu"
+      ]
+    },
+    {
+      "title": "Multidrug resistant acinetobacter",
+      "authors": [
+        "V Manchanda",
+        "S Sanchaita",
+        "N Singh"
+      ]
+    },
+    {
+      "title": "Adewoyin MA, Okoh AI. The natural environment as a reservoir of pathogenic and non-pathogenic Acinetobacter species. Rev Environ Health. 2018;33(3):265–72. 10.1515/reveh-2017-0034. PMID: 29982240.",
+      "authors": []
+    },
+    {
+      "title": "Metapangenomics of the oral microbiome provides insights into habitat adaptation and cultivar diversity",
+      "authors": [
+        "DR Utter",
+        "GG Borisy",
+        "AM Eren",
+        "CM Cavanaugh",
+        "JL Mark Welch"
+      ]
+    },
+    {
+      "title": "Checinska Sielaff A, Singh NK, Allen JE, Thissen J, Jaing C, Venkateswaran K. Draft Genome Sequences of Biosafety Level 2 Opportunistic Pathogens Isolated from the Environmental Surfaces of the International Space Station. Genome Announc. 2016;4(6):e01263–16. 10.1128/genomeA.01263-16. PMID: 28034853; PMCID: PMC5201052.",
+      "authors": []
+    },
+    {
+      "title": "Simpson AC, Urbaniak C, Singh NK, Wood JM, Debieu M, O'Hara NB, Mason CE, Venkateswaran K. Draft Genome Sequences of Various Bacterial Phyla Isolated from the International Space Station. Microbiol Resour Announc. 2021;10(17):e00214–21. 10.1128/MRA.00214-21. PMID: 33927037; PMCID: PMC8086211.",
+      "authors": []
+    },
+    {
+      "title": "Garrett-Bakelman FE, Darshi M, Green SJ, Gur RC, Lin L, Macias BR, McKenna MJ, Meydan C, Mishra T, Nasrini J, Piening BD, Rizzardi LF, Sharma K, Siamwala JH, Taylor L, Vitaterna MH, Afkarian M, Afshinnekoo E, Ahadi S, Ambati A, Arya M, Bezdan D, Callahan CM, Chen S, Choi AMK, Chlipala GE, Contrepois K, Covington M, Crucian BE, De Vivo I, Dinges DF, Ebert DJ, Feinberg JI, Gandara JA, George KA, Goutsias J, Grills GS, Hargens AR, Heer M, Hillary RP, Hoofnagle AN, Hook VYH, Jenkinson G, Jiang P, Keshavarzian A, Laurie SS, Lee-McMullen B, Lumpkins SB, MacKay M, Maienschein-Cline MG, Melnick AM, Moore TM, Nakahira K, Patel HH, Pietrzyk R, Rao V, Saito R, Salins DN, Schilling JM, Sears DD, Sheridan CK, Stenger MB, Tryggvadottir R, Urban AE, Vaisar T, Van Espen B, Zhang J, Ziegler MG, Zwart SR, Charles JB, Kundrot CE, Scott GBI, Bailey SM, Basner M, Feinberg AP, Lee SMC, Mason CE, Mignot E, Rana BK, Smith SM, Snyder MP, Turek FW. The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight. Science. 2019;364(6436):eaau8650. 10.1126/science.aau8650. PMID: 30975860; PMCID: PMC7580864.",
+      "authors": []
+    },
+    {
+      "title": "Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "F Karouia"
+      ]
+    },
+    {
+      "title": "Informing antibiotic treatment decisions: evaluating rapid molecular diagnostics to identify susceptibility and resistance to Carbapenems against Acinetobacter spp. in PRIMERS III",
+      "authors": [
+        "SR Evans"
+      ]
+    },
+    {
+      "title": "Functional characterization of RelBE toxin-antitoxin system in probiotic Bifidobacterium longum JDM301",
+      "authors": [
+        "Y Wei"
+      ]
+    },
+    {
+      "title": "Regulation and autoregulation by LexA protein",
+      "authors": [
+        "R Brent"
+      ]
+    },
+    {
+      "title": "Identification of the recA (tif) gene product of Escherichia coli",
+      "authors": [
+        "LJ Gudas",
+        "DW Mount"
+      ]
+    },
+    {
+      "title": "Single-molecule imaging of LexA degradation in Escherichia coli elucidates regulatory mechanisms and heterogeneity of the SOS response",
+      "authors": [
+        "EC Jones",
+        "S Uphoff"
+      ]
+    },
+    {
+      "title": "The DNA damage inducible SOS response is a key player in the generation of bacterial persister cells and population wide tolerance",
+      "authors": [
+        "Z Podlesek",
+        "D Žgur Bertok"
+      ]
+    },
+    {
+      "title": "Acinetobacter baumannii RecA protein in repair of DNA damage, antimicrobial resistance, general stress response, and virulence",
+      "authors": [
+        "J Aranda"
+      ]
+    },
+    {
+      "title": "The Acinetobacter regulatory UmuDAb protein cleaves in response to DNA damage with chimeric LexA/UmuD characteristics",
+      "authors": [
+        "JM Hare",
+        "S Adhikari",
+        "KV Lambert",
+        "AE Hare",
+        "AN Grice"
+      ]
+    },
+    {
+      "title": "A corepressor participates in LexA-independent regulation of error-prone polymerases in Acinetobacter",
+      "authors": [
+        "MA Peterson",
+        "AN Grice",
+        "JM Hare"
+      ]
+    },
+    {
+      "title": "New Insights into the Molecular Physiology of Sulfoxide Reduction in Bacteria",
+      "authors": [
+        "U Kappler",
+        "M Nasreen",
+        "A McEwan"
+      ]
+    },
+    {
+      "title": "Nair SS, Chauhan TKS, Kumawat M, Sarkhel R, Apoorva S, Shome A, Athira V, Kumar B, Abhishek, Mahawar M. Deletion of both methionine sulfoxide reductase A and methionine sulfoxide reductase C genes renders Salmonella Typhimurium highly susceptible to hypochlorite stress and poultry macrophages. Mol Biol Rep. 2021;48(4):3195–203. 10.1007/s11033-021-06381-2. Epub 2021 May 5. PMID: 33954903.",
+      "authors": []
+    },
+    {
+      "title": "Dhandayuthapani S, Blaylock MW, Bebear CM, Rasmussen WG, Baseman JB. Peptide methionine sulfoxide reductase (MsrA) is a virulence determinant in Mycoplasma genitalium. J Bacteriol. 2001;183(19):5645–50. 10.1128/JB.183.19.5645-5650.2001. PMID: 11544227; PMCID: PMC95456.",
+      "authors": []
+    },
+    {
+      "title": "Open-access bacterial population genomics: BIGSdb software, the PubMLST.org website and their applications",
+      "authors": [
+        "KA Jolley",
+        "JE Bray",
+        "MCJ Maiden"
+      ]
+    },
+    {
+      "title": "Severe nosocomial infections with imipenem-resistant Acinetobacter baumannii treated with ampicillin/sulbactam",
+      "authors": [
+        "AS Levin",
+        "CE Levy",
+        "AEI Manrique",
+        "EAS Medeiros",
+        "SF Costa"
+      ]
+    },
+    {
+      "title": "Efficacy and safety of high-dose ampicillin/sulbactam vs. colistin as monotherapy for the treatment of multidrug resistant Acinetobacter baumannii ventilator-associated pneumonia",
+      "authors": [
+        "AP Betrosian",
+        "F Frantzeskaki",
+        "A Xanthaki",
+        "EE Douzinas"
+      ]
+    },
+    {
+      "title": "High-dose ampicillin-sulbactam as an alternative treatment of late-onset VAP from multidrug-resistant Acinetobacter baumannii",
+      "authors": [
+        "AP Betrosian",
+        "F Frantzeskaki",
+        "A Xanthaki",
+        "G Georgiadis"
+      ]
+    },
+    {
+      "title": "Chaumeil P-A, Mussig AJ, Hugenholtz P, Parks DH. GTDB-Tk: a toolkit to classify genomes with the Genome Taxonomy Database. Bioinformatics. 2019. 10.1093/bioinformatics/btz848.",
+      "authors": []
+    },
+    {
+      "title": "pplacer: linear time maximum-likelihood and Bayesian phylogenetic placement of sequences onto a fixed reference tree",
+      "authors": [
+        "FA Matsen",
+        "RB Kodner",
+        "EV Armbrust"
+      ]
+    },
+    {
+      "title": "High throughput ANI analysis of 90K prokaryotic genomes reveals clear species boundaries",
+      "authors": [
+        "C Jain",
+        "LM Rodriguez-R",
+        "AM Phillippy",
+        "KT Konstantinidis",
+        "S Aluru"
+      ]
+    },
+    {
+      "title": "Prodigal: prokaryotic gene recognition and translation initiation site identification",
+      "authors": [
+        "D Hyatt"
+      ]
+    },
+    {
+      "title": "FastTree 2--approximately maximum-likelihood trees for large alignments",
+      "authors": [
+        "MN Price",
+        "PS Dehal",
+        "AP Arkin"
+      ]
+    },
+    {
+      "title": "Mash: fast genome and metagenome distance estimation using MinHash",
+      "authors": [
+        "BD Ondov"
+      ]
+    },
+    {
+      "title": "Accelerated profile HMM searches",
+      "authors": [
+        "SR Eddy"
+      ]
+    },
+    {
+      "title": "Using ggtree to visualize data on tree-like structures",
+      "authors": [
+        "G Yu"
+      ]
+    },
+    {
+      "title": "Croucher NJ, Page AJ, Connor TR, Delaney AJ, Keane JA, Bentley SD, Parkhill J, Harris SR. Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins. Nucleic Acids Res. 2015;43(3):e15. 10.1093/nar/gku1196. Epub 2014 Nov 20. PMID: 25414349; PMCID: PMC4330336.",
+      "authors": []
+    },
+    {
+      "title": "Price MN, Dehal PS, Arkin AP. FastTree 2--Approximately Maximum-Likelihood Trees for Large Alignments. PloS One. 2010;5(3):e9490.",
+      "authors": []
+    },
+    {
+      "title": "Prokka: rapid prokaryotic genome annotation",
+      "authors": [
+        "T Seemann"
+      ]
+    },
+    {
+      "title": "SPANDx: agenomics pipeline for comparative analysis of large haploid whole genome re-sequencing datasets",
+      "authors": [
+        "DS Sarovich",
+        "EP Price"
+      ]
+    },
+    {
+      "title": "pyseer: a comprehensive tool for microbial pangenome-wide association studies",
+      "authors": [
+        "JA Lees",
+        "M Galardini",
+        "SD Bentley",
+        "JN Weiser",
+        "J Corander"
+      ]
+    },
+    {
+      "title": "Bushnell, B. BBMap: a fast, accurate, splice-aware aligner. No. LBNL-7065E. Berkeley: Lawrence Berkeley National Lab.(LBNL); 2014. https://www.osti.gov/servlets/purl/1241166.",
+      "authors": []
+    },
+    {
+      "title": "Fast gapped-read alignment with Bowtie 2",
+      "authors": [
+        "B Langmead",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "metaSPAdes: a new versatile metagenomic assembler",
+      "authors": [
+        "S Nurk",
+        "D Meleshko",
+        "A Korobeynikov",
+        "PA Pevzner"
+      ]
+    },
+    {
+      "title": "Extensive unexplored human microbiome diversity revealed by over 150,000 genomes from metagenomes spanning age, geography, and lifestyle",
+      "authors": [
+        "E Pasolli"
+      ]
+    },
+    {
+      "title": "MaxBin 2.0: an automated binning algorithm to recover genomes from multiple metagenomic datasets",
+      "authors": [
+        "Y-W Wu",
+        "BA Simmons",
+        "SW Singer"
+      ]
+    },
+    {
+      "title": "MetaWRAP—a flexible pipeline for genome-resolved metagenomic data analysis",
+      "authors": [
+        "GV Uritskiy",
+        "J DiRuggiero",
+        "J Taylor"
+      ]
+    },
+    {
+      "title": "MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies",
+      "authors": [
+        "DD Kang"
+      ]
+    },
+    {
+      "title": "Binning metagenomic contigs by coverage and composition",
+      "authors": [
+        "J Alneberg"
+      ]
+    },
+    {
+      "title": "dRep: a tool for fast and accurate genomic comparisons that enables improved genome recovery from metagenomes through de-replication",
+      "authors": [
+        "MR Olm",
+        "CT Brown",
+        "B Brooks",
+        "JF Banfield"
+      ]
+    },
+    {
+      "title": "Bracken: estimating species abundance in metagenomics data",
+      "authors": [
+        "J Lu",
+        "FP Breitwieser",
+        "P Thielen",
+        "SL Salzberg"
+      ]
+    },
+    {
+      "title": "Improved metagenomic analysis with Kraken 2",
+      "authors": [
+        "DE Wood",
+        "J Lu",
+        "B Langmead"
+      ]
+    },
+    {
+      "title": "CLSI. M100: Performance standards for antimicrobial susceptibility testing. (Clinical & Laboratory Standards Institute, 2021). https://clsi.org/standards/products/microbiology/documents/m100/.",
+      "authors": []
+    }
+  ],
+  "original_title": "Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2263/9743659/15b8c1e65237/40168_2022_1358_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2263/9743659/78fc1d97e9e4/40168_2022_1358_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2263/9743659/660ab61f99f7/40168_2022_1358_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2263/9743659/86df98316953/40168_2022_1358_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2263/9743659/f37846f9f30b/40168_2022_1358_Fig5_HTML.jpg"
+  ]
+}

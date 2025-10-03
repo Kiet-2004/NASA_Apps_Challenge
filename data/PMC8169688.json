@@ -1,0 +1,472 @@
+{
+  "pmcid": "PMC8169688",
+  "title": "Immunological and hematological outcomes following protracted low dose/low dose rate ionizing radiation and simulated microgravity",
+  "abstract": "Using a ground-based model to simulate spaceflight [21-days of single-housed, hindlimb unloading (HLU) combined with continuous low-dose gamma irradiation (LDR, total dose of 0.04 Gy)], an in-depth survey of the immune and hematological systems of mice at 7-days post-exposure was performed. Collected blood was profiled with a hematology analyzer and spleens were analyzed by whole transcriptome shotgun sequencing (RNA-sequencing). The results revealed negligible differences in immune differentials. However, hematological system analyses of whole blood indicated large disparities in red blood cell differentials and morphology, suggestive of anemia. Murine Reactome networks indicated majority of spleen cells displayed differentially expressed genes (DEG) involved in signal transduction, metabolism, cell cycle, chromatin organization, and DNA repair. Although immune differentials were not changed, DEG analysis of the spleen revealed expression profiles associated with inflammation and dysregulated immune function persist to 1-week post-simulated spaceflight. Additionally, specific regulation pathways associated with human blood disease gene orthologs, such as blood pressure regulation, transforming growth factor-β receptor signaling, and B cell differentiation were noted. Collectively, this study revealed differential immune and hematological outcomes 1-week post-simulated spaceflight conditions, suggesting recovery from spaceflight is an unremitting process.",
+  "introduction": "Introduction\n\nWhile the majority of spaceflight studies focus on the physiological responses during or immediately after flight, readaptation to nominal gravitational environments is also an important factor in astronaut health. This is particularly important for future exploratory missions to the Moon (0.166 g) or Mars (0.38 g) involving long-duration exposures to microgravity (0 g) and elevated doses of ionizing irradiation. Both the adaptation to spaceflight, and the readaptation to planetary gravitational environments, involve multiple physiological systems. Currently, short and the long-term consequences of prolonged exposure to deep spaceflight environments are largely unknown.\n\nThere are several consequences to living in low-Earth orbit. These include edema due to fluid and cardiovascular deconditioning, myelin degeneration, disorientation and motor control deficits, visual deficits, endocrine and hormonal alterations, muscle tone wasting, and bone loss due to lack of mechanical loading. Upon return to Earth, there is a period of readaptation that includes acute motion sickness, unsteadiness, imbalance due to gravity-induced vestibular fluid shifts, and blood pressure changes. Most notably, space anemia was re-classified as post-flight anemia, because of inconsistencies reported in key hematological parameters, including red blood cell (RBC) counts and mean corpuscular volumes (MPV). This was attributed to the timing of blood sample collections occurring at post-flight return versus in-flight retrieval. Mission duration can also affect post-flight recovery, whereby longer missions result in prolonged recovery post-mission. This becomes an important risk factor to consider for exploratory missions to Mars. Indeed, understanding how immune and hematological cells compensate in response to the changing gravitational environment becomes particularly important as crew currently rehabilitate to Earth’s gravity for multiple months post-flight. Yet, this timeframe may be problematic on planetary bodies with reduced gravity. Therefore, a better understanding of blood differentials and their transcriptional regulatory patterns are essential for successful development of countermeasures to be used on future exploratory missions to the lunar surface and Mars.\n\nGround-based models of spaceflight are developed to easily explore the impacts of the spaceflight environment on physiology. Indeed, we previously reported that a 21-day, protracted exposure of 0.04 Gy low dose/low dose rate gamma radiation (LDR), combined with hindlimb unloading (HLU), can have neurological impacts on blood–brain barrier integrity, the oxidative stress response, and neuroplasticity. Here, we expand on this work, using RNA-sequencing of splenic tissues and complete blood cell (CBC) counts to characterize relevant immune and hematological pathways engaged after 1-week readaptation following simulated spaceflight conditions.",
+  "methods": "Methods\n\nExperimental conditions\n\nSix-month-old, female C57BL/6J mice (Jackson Laboratory) were acclimatized in standard habitats at 20 °C with a 12 h:12 h light:dark cycle for 7 days. Following acclimatization, animals were housed one per cage and assigned to one of four groups: (1) control (n = 6); (2) hindlimb unloaded (HLU) (n = 3); (3) low-dose irradiated (LDR, total dose 0.04 Gy) (n = 6); and (4) simSpace, combination of hindlimb unloaded and low-dose irradiated (HLU + LDR) (n = 6) for 21 days. Low-dose/low-dose rate was delivered using 57Co plates (a total dose of 0.04 Gy at 0.01 cGy/h) placed 7 cm below the cages, with 1 plate per 2 cages for whole-body irradiation. Uniformity of dose was ± 5%, as previously described. Post-exposure animals were group housed (3 per cage) for 7-days. Commercial pellet chow (5LG4, LabDietR) and hydrogel were available ad libitum. Health status, water and food intake were daily monitored. After 7-day post-simSpace, mice were CO2 euthanized and spleens were collected and frozen. RNA was isolated from whole, frozen spleens and samples were subjected to whole transcriptome shotgun sequencing (RNA-sequencing). Datasets were deposited to the NASA GeneLab Data Systems (GLDS)-211 and were analyzed using the NASA pipeline for determination of differentially expressed genes (DEG). All methods were performed in accordance with the guidelines recommended in the Guide for the Care and Use of Laboratory Animals and was approved by the Institutional Animal Care and Use Committee (IACUC) at Loma Linda University (Protocol number 8130028). This study is reported in accordance with ARRIVE guidelines.\n\nComplete blood count differential analysis\n\nMice were euthanized with 100% CO2 at day seven after the simulated spaceflight period of 21-days. Whole blood was collected via cardiac punch in [K2]-ethylenediaminetetraacetic acid (EDTA) coated syringes immediately following euthanasia and evaluated using the ABC Vet Hematology Analyzer (Heska Corp., Waukesha, WI, USA). Parameters characterized include red blood cell (RBC), platelet (PLT), and white blood cell (WBC) counts, hemoglobin concentration (HGB) and hematocrit (HCT, percentage of whole blood consisting of RBC). Mean corpuscular volume (MCV, mean volume per RBC), mean corpuscular hemoglobin (MCH; mean weight of hemoglobin per RBC), mean corpuscular hemoglobin concentration (MCHC; concentration of hemoglobin per RBC), RBC distribution width (RDW; width of the RBC histogram produced by cell number x cell size), and the mean platelet volume (MPV; volume per cell) were also reported, along with absolute counts of granulocytes, monocytes, and lymphocytes (× 106 cells/ml).\n\nTissue collection and nucleic acid extraction\n\nMice were humanely CO2 euthanized followed by immediate exsanguination by cardiac puncture.\n\nSpleens were isolated and placed in a sterile cryovial, snap frozen in liquid nitrogen and kept at − 80 °C. Spleens were homogenized with CKMix (Bertin Instruments, Montigny-le-Bretonneux, France) and a Minilys homogenizer (Bertin Instruments). AllPrep DNA/RNA/miRNA Universal Kit (Qiagen, Hilden, Germany) extracted RNA and DNA according to the manufacturer’s instructions. RNA and DNA concentrations were measured using a Qubit 3.0 Fluorometer (Thermo Fisher Scientific, Waltham, MA, USA) and stored at − 80 °C.\n\nRNA sequencing\n\nTo construct RNA-sequencing libraries, an Ovation Mouse RNA-Seq System 1–96 (NuGEN Technologies, Redwood City, CA, USA) was used per manufacturer’s instructions. RNA integrity was determined using a 2100 Bioanalyzer (Agilent) with RIN values > 8. 100 ng of total RNA was used as input. cDNA (first and second strands) was synthesized from total RNA spiked with ERCC ExFold RNA Spike-In Mix 1 (Life Technologies, Carlsbad, CA, USA) at the appropriate ratio. Products were sheared using Covaris S220 Focused-ultrasonicator (Covaris Inc., Woburn, MA, USA) to obtain fragment sizes between 150–200 bp. Followed by end-repair, adaptor index ligation and strand selection. For multiplexing, barcodes with unique indices out of 96, were used per sample. Custom InDA-C primer mixture SS5 Version5 for mice (NuGEN Technologies) was used for strand selection. Libraries were amplified by PCR (17 cycles) on a Mastercycler Pro (Eppendorf) and purified with RNAClean XP Agencourt beads (Beckman Coulter, Pasadena, CA, USA). Libraries were sequenced on a HiSeq 4000 (Illumina, Mira Loma, CA, USA) to generate 15–30 M 75-bp single end reads per sample. Raw data are available at NASA GeneLab (genelab.nasa.gov, accession GLDS-211).\n\nDifferential expression and pathway enrichment analysis\n\nWith Cutadapt using the Trim Galore! wrapper, sequencing reads were trimmed. All reads were mapped with STAR and expressions were quantified and imported with RSEM and tximport respectively, into DESeq2 (R Bioconductor). Log2 fold-change (0.263) and adjusted p-value cutoffs (0.05) were used. All groups were compared using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Reactome version 67 was used to detect enriched murine pathways. Volcano plots were generated using NASA’s GeneLab tool. Murine spleen DEG that were orthologous to human blood gene-related diseases, as defined by GeneCards Human Gene Database and MalaCards Human Disease Databases, were identified. Using the Network Analyst Global EnrichNetwork tool, with parameters including the gene ontology: biological process (GO:BP) enrichment analysis database, large graph layout, and single node display (https://www.networkanalyst.ca/NetworkAnalyst/Secure/vis/ListEnrichment.xhtml), the blood gene-related gene list was mapped to determine common pathways.\n\nStatistical analysis\n\nDifferential expression analysis was performed in R DESeq2. All groups were compared using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. A one-way ANOVA with post-hoc (Sidak) test was performed for the calculated coefficient of gene expression variation per gene. An unpaired, parametric t test with Welch’s correction was performed for all CBC parameters. A GitHub data analysis notebook was created and can be found here, https://github.com/jgalazka/GLDS-211_Paul_2021.",
+  "results": "Results\n\nSeven-days post-simulated spaceflight conditions result in distinct gene expression profiles\n\nPrincipal component analysis (PCA) plots were generated with each cohort (Fig. 1A). Venn diagrams revealed no overlap of downregulated (Fig. 1B) nor upregulated (Fig. 1C) DEG. However, 33 genes were downregulated and 95 genes were upregulated in simulated spaceflight (simSpace) conditions combining LDR and HLU at 7-days post-exposure (Fig. 1B,C). In addition, the calculated coefficient of gene expression variation was determined for each experimental condition, which identified elevated variance in simSpace conditions (Fig. 1D).\n\nAs a secondary lymphoid organ, the spleen stores RNA-containing whole blood cells including white blood cells (WBC) or leukocytes, reticulated platelet and reticulocyte RBC, acting as a filter for circulating blood cells. Using NASA GeneLab’s volcano plot visualization tool with a maximum adjusted p-value of 0.05, statistically significant Log2 fold change of DEG (simSpace versus control) were plotted (Fig. 2A). Downregulated and upregulated genes associated with whole blood cell types include, CD19, H2-DMb2, Alox5, and RhD (Fig. 2B). The proportion of upregulated : downregulated DEG is approximately three : one (Fig. 2B). Collectively, 7-days post-simulated spaceflight conditions resulted in dysregulated immune and hematological system.\n\nSeven-days post-simulated spaceflight conditions reveal multiple Reactome pathway involvement\n\nMurine Reactome pathway analysis was performed, which displayed pathways involved in signal transduction, metabolism, cell cycle, DNA repair, and chromatin organization at 7-days post-simSpace exposure (Fig. 3). The majority of DEG fall within the signal transduction pathway including multiple solute carrier family, Slc genes involved in transporter signaling of sodium/potassium and cation elimination. Metabolism-related genes involved in liposome and glycoprotein formation were also highly upregulated, including Igf2r, B4galt2, and B4galt3 and the ubiquitin-pathways, including Ubap1, Fbxl22, and Ube2d2b. Cell cycle genes were also induced, including DEG associated with mitosis, such as Sssca1 and Kif24 and cytokinesis, such as Myh10 and Tor1aip1. Induction of DNA damage repair genes were also noted including, recombination repair genes, Swsap1 and Ippk and downregulation of DNA double stranded break repair gene, Ppp4r2.\n\nMarginal immune modifications at 7-days post-simulated spaceflight\n\nBlood was collected 7-days post-simulated spaceflight and WBC were counted with an automated analyzer, which displayed no significant differences between control and simSpace for immune differentials including, platelets (Fig. 4A), mean platelet volume (MPV, Fig. 4B), WBC, lymphocytes, monocytes, granulocytes, and granulocyte-to-lymphocyte ratio (GLR, Fig. 4C). Spleen DEG were categorized to specific leukocyte subtypes (monocyte, granulocyte, or lymphocyte) by their known functional output (Fig. 4D). Collectively, the results showed although there were no significant differences in population distributions, there were significantly different DEG between controls and post-simSpace cohorts with functional associations to leukocyte subtype.\n\nAlterations in hematological system at 7-days post-simulated spaceflight conditions\n\nCBC differentials were characterized by an automated hematological analyzer between control and post-simSpace cohorts. The results displayed significant reductions in RBC and hemoglobin (HGB) in post-simSpace cohorts, compared to controls (Fig. 5A,B). Significant increases in mean corpuscular hemoglobin (MCH), RBC distribution width (RDW), and MCV levels were revealed (Fig. 5C–E). No differences were noted between mean corpuscular hemoglobin concentration (MCHC) and hematocrit (HCT) levels (Fig. 5F,G). Murine spleen DEG that were orthologous to human blood disease/disorders markers, as defined by GeneCards Human Gene Database and MalaCards Human Disease Databases, were identified (Fig. 5H). Using the Network Analyst Global EnrichNetwork tool, blood disease/disorder markers were mapped to determine common pathways. The results showed three genes Bcl11a, Nedd4l, and Aspn had common pathways involved in regulation of blood pressure, protein modifications, transforming growth factor-β signaling, anatomical structure regulation, and negative regulation of developmental processes (Fig. 5I).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Gene regulation in immune cells",
+    "Immunology",
+    "Biomarkers",
+    "Computational biology and bioinformatics",
+    "Gene regulatory networks",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Medical considerations for extending human presence in space",
+      "authors": [
+        "CS Leach",
+        "LF Dietlein",
+        "SL Pool",
+        "AE Nicogossian"
+      ]
+    },
+    {
+      "title": "Morphological study of myelinated fibers of the sciatic nerve in mice after space flight and readaptation to the conditions of earth gravity",
+      "authors": [
+        "PN Rezvyakov"
+      ]
+    },
+    {
+      "title": "Spatial orientation in weightlessness and readaptation to earth's gravity",
+      "authors": [
+        "LR Young",
+        "CM Oman",
+        "DG Watt",
+        "KE Money",
+        "BK Lichtenberg"
+      ]
+    },
+    {
+      "title": "Bioinformatic study of transcriptome changes in the mice lumbar spinal cord after the 30-day spaceflight and subsequent 7-day readaptation on earth: New insights into molecular mechanisms of the hypogravity motor syndrome",
+      "authors": [
+        "MS Kuznetsov"
+      ]
+    },
+    {
+      "title": "Choroidal readaptation to gravity in rats after spaceflight and head-down tilt",
+      "authors": [
+        "J Davet"
+      ]
+    },
+    {
+      "title": "Plasma hormone levels in human subject during stress loads in microgravity and at readaptation to Earth's gravity",
+      "authors": [
+        "L Macho"
+      ]
+    },
+    {
+      "title": "Recovery from 6-month spaceflight at the International Space Station: Muscle-related stress into a proinflammatory setting",
+      "authors": [
+        "M Capri"
+      ]
+    },
+    {
+      "title": "Recovery of spaceflight-induced bone loss: Bone mineral density after long-duration missions as fitted with an exponential function",
+      "authors": [
+        "JD Sibonga"
+      ]
+    },
+    {
+      "title": "Space motion sickness",
+      "authors": [
+        "GI Gorgiladze",
+        "II Brianov"
+      ]
+    },
+    {
+      "title": "Alterations in hematologic indices during long-duration spaceflight",
+      "authors": [
+        "H Kunz"
+      ]
+    },
+    {
+      "title": "Changes in skin blood flow, respiration and blood pressure in participants reporting motion sickness during sinusoidal galvanic vestibular stimulation",
+      "authors": [
+        "A Javaid",
+        "H Chouhna",
+        "B Varghese",
+        "E Hammam",
+        "VG Macefield"
+      ]
+    },
+    {
+      "title": "Interrelationships between pulse arrival time and arterial blood pressure during postural transitions before and after spaceflight",
+      "authors": [
+        "KN Wood",
+        "DK Greaves",
+        "RL Hughson"
+      ]
+    },
+    {
+      "title": "Red blood cell and iron metabolism during space flight",
+      "authors": [
+        "SM Smith"
+      ]
+    },
+    {
+      "title": "Anemia and erythropoietin in space flights",
+      "authors": [
+        "NG De Santo"
+      ]
+    },
+    {
+      "title": "Influence of spaceflight on erythrokinetics in man",
+      "authors": [
+        "CS Leach",
+        "PC Johnson"
+      ]
+    },
+    {
+      "title": "Characterizing the effect of exposure to microgravity on anemia: More space is worse",
+      "authors": [
+        "G Trudel",
+        "J Shafer",
+        "O Laneuville",
+        "T Ramsay"
+      ]
+    },
+    {
+      "title": "Postflight reconditioning for European Astronauts—A case report of recovery after six months in space",
+      "authors": [
+        "N Petersen"
+      ]
+    },
+    {
+      "title": "Mice exposed to combined chronic low-dose irradiation and modeled microgravity develop long-term neurological sequelae",
+      "authors": [
+        "EG Overbey"
+      ]
+    },
+    {
+      "title": "Long-term effects of simulated microgravity and/or chronic exposure to low-dose gamma radiation on behavior and blood–brain barrier integrity",
+      "authors": [
+        "JA Bellone",
+        "PS Gifford",
+        "NC Nishiyama",
+        "RE Hartman",
+        "XW Mao"
+      ]
+    },
+    {
+      "title": "Simulated microgravity and low-dose/low-dose-rate radiation induces oxidative damage in the mouse brain",
+      "authors": [
+        "XW Mao"
+      ]
+    },
+    {
+      "title": "Role of NADPH oxidase as a mediator of oxidative damage in low-dose irradiated and hindlimb-unloaded mice",
+      "authors": [
+        "XW Mao"
+      ]
+    },
+    {
+      "title": "Spaceflight induces oxidative damage to blood–brain barrier integrity in a mouse model",
+      "authors": [
+        "XW Mao"
+      ]
+    },
+    {
+      "title": "Galazka, J. M. et al. GeneLab, Vol. 3. 10.25966/tvye-n402 (2019).",
+      "authors": []
+    },
+    {
+      "title": "Beyond low-earth orbit: Characterizing immune and microRNA differentials following simulated deep spaceflight conditions in mice",
+      "authors": [
+        "AM Paul"
+      ]
+    },
+    {
+      "title": "Eye on ion channels in immune cells",
+      "authors": [
+        "S Feske",
+        "AR Concepcion",
+        "WA Coetzee"
+      ]
+    },
+    {
+      "title": "Neutrophil-to-lymphocyte ratio: A biomarker to monitor the immune status of astronauts",
+      "authors": [
+        "AM Paul"
+      ]
+    },
+    {
+      "title": "Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?",
+      "authors": [
+        "MJ Pecaut"
+      ]
+    },
+    {
+      "title": "Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact",
+      "authors": [
+        "WA da Silveira"
+      ]
+    },
+    {
+      "title": "Energy metabolism and oxidative stress: Impact on the metabolic syndrome and the aging process",
+      "authors": [
+        "M Frisard",
+        "E Ravussin"
+      ]
+    },
+    {
+      "title": "Regulation of major histocompatibility complex class II gene expression, genetic variation and disease",
+      "authors": [
+        "L Handunnetthi",
+        "SV Ramagopalan",
+        "GC Ebers",
+        "JC Knight"
+      ]
+    },
+    {
+      "title": "Tethering complexes in the endocytic pathway: CORVET and HOPS",
+      "authors": [
+        "JA Solinger",
+        "A Spang"
+      ]
+    },
+    {
+      "title": "Immune system dysregulation during spaceflight: Potential countermeasures for deep space exploration missions",
+      "authors": [
+        "BE Crucian"
+      ]
+    },
+    {
+      "title": "Changes in neutrophil functions in astronauts",
+      "authors": [
+        "I Kaur",
+        "ER Simons",
+        "VA Castro",
+        "C Mark Ott",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "NF-kappaB and its regulation on the immune system",
+      "authors": [
+        "Y Liang",
+        "Y Zhou",
+        "P Shen"
+      ]
+    },
+    {
+      "title": "GM-CSF-based treatments in COVID-19: Reconciling opposing therapeutic approaches",
+      "authors": [
+        "FM Lang",
+        "KM Lee",
+        "JR Teijaro",
+        "B Becher",
+        "JA Hamilton"
+      ]
+    },
+    {
+      "title": "Cutting edge: Inflammatory responses can be triggered by TREM-1, a novel receptor expressed on neutrophils and monocytes",
+      "authors": [
+        "A Bouchon",
+        "J Dietrich",
+        "M Colonna"
+      ]
+    },
+    {
+      "title": "TREM-1-accentuated lung injury via miR-155 is inhibited by LP17 nanomedicine",
+      "authors": [
+        "Z Yuan"
+      ]
+    },
+    {
+      "title": "Triggering receptor expressed on myeloid cells receptor family modulators: A patent review",
+      "authors": [
+        "CJ Pelham",
+        "AN Pandya",
+        "DK Agrawal"
+      ]
+    },
+    {
+      "title": "Therapeutic effect of modulating TREM-1 via anti-inflammation and autophagy in Parkinson's disease",
+      "authors": [
+        "CW Feng"
+      ]
+    },
+    {
+      "title": "Neutrophil: A cell with many roles in inflammation or several cell types?",
+      "authors": [
+        "C Rosales"
+      ]
+    },
+    {
+      "title": "Alterations in adaptive immunity persist during long-duration spaceflight",
+      "authors": [
+        "B Crucian"
+      ]
+    },
+    {
+      "title": "Chronic inflammation in the etiology of disease across the life span",
+      "authors": [
+        "D Furman"
+      ]
+    },
+    {
+      "title": "Src-like adaptor protein (SLAP) is a negative regulator of T cell receptor signaling",
+      "authors": [
+        "T Sosinowski",
+        "A Pandey",
+        "VM Dixit",
+        "A Weiss"
+      ]
+    },
+    {
+      "title": "Spaceflight effects on T lymphocyte distribution, function and gene expression",
+      "authors": [
+        "DS Gridley"
+      ]
+    },
+    {
+      "title": "Key gravity-sensitive signaling pathways drive T cell activation",
+      "authors": [
+        "JB Boonyaratanakornkit"
+      ]
+    },
+    {
+      "title": "CD19: A biomarker for B cell development, lymphoma diagnosis and therapy",
+      "authors": [
+        "K Wang",
+        "G Wei",
+        "D Liu"
+      ]
+    },
+    {
+      "title": "Identification of B cell adaptor for PI3-kinase (BCAP) as an Abl interactor 1-regulated substrate of Abl kinases",
+      "authors": [
+        "M Maruoka"
+      ]
+    },
+    {
+      "title": "Analysis of femurs from mice embarked on board BION-M1 biosatellite reveals a decrease in immune cell development, including B cells, after 1 wk of recovery on Earth",
+      "authors": [
+        "G Tascher"
+      ]
+    },
+    {
+      "title": "Influence of social isolation during prolonged simulated weightlessness by hindlimb unloading",
+      "authors": [
+        "CGT Tahimic"
+      ]
+    },
+    {
+      "title": "Evaluation of anemia",
+      "authors": [
+        "JL Kujovich"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "P Sarma",
+        "HK Walker",
+        "WD Hall",
+        "JW Hurst"
+      ]
+    },
+    {
+      "title": "Impact of red cell distribution width on future risk of cancer and all-cause mortality among cancer patients—The Tromsø Study",
+      "authors": [
+        "TS Ellingsen",
+        "J Lappegård",
+        "T Skjelbakken",
+        "SK Braekkan",
+        "JB Hansen"
+      ]
+    },
+    {
+      "title": "Red cell distribution width in heart failure: Prediction of clinical events and relationship with markers of ineffective erythropoiesis, inflammation, renal function, and nutritional state",
+      "authors": [
+        "Z Förhécz"
+      ]
+    },
+    {
+      "title": "Normal structure, function, and histology of the spleen",
+      "authors": [
+        "MF Cesta"
+      ]
+    },
+    {
+      "title": "Rh proteins: Key structural and functional components of the red cell membrane",
+      "authors": [
+        "CL Van Kim",
+        "Y Colin",
+        "JP Cartron"
+      ]
+    },
+    {
+      "title": "Heart in space: Effect of the extraterrestrial environment on the cardiovascular system",
+      "authors": [
+        "RL Hughson",
+        "A Helm",
+        "M Durante"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research",
+      "authors": [
+        "N Percie du Sert"
+      ]
+    },
+    {
+      "title": "Cutadapt removes adapter sequences from high-throughput sequencing reads",
+      "authors": [
+        "M Martin"
+      ]
+    },
+    {
+      "title": "STAR: Ultrafast universal RNA-seq aligner",
+      "authors": [
+        "A Dobin"
+      ]
+    },
+    {
+      "title": "RSEM: Accurate transcript quantification from RNA-Seq data with or without a reference genome",
+      "authors": [
+        "B Li",
+        "CN Dewey"
+      ]
+    },
+    {
+      "title": "Differential analyses for RNA-seq: Transcript-level estimates improve gene-level inferences",
+      "authors": [
+        "C Soneson",
+        "MI Love",
+        "MD Robinson"
+      ]
+    },
+    {
+      "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "authors": [
+        "MI Love",
+        "W Huber",
+        "S Anders"
+      ]
+    },
+    {
+      "title": "The reactome pathway knowledgebase",
+      "authors": [
+        "A Fabregat"
+      ]
+    }
+  ],
+  "original_title": "Immunological and hematological outcomes following protracted low dose/low dose rate ionizing radiation and simulated microgravity",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4369/8169688/1632aab88571/41598_2021_90439_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4369/8169688/13a9c3af442f/41598_2021_90439_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4369/8169688/48cc085d6648/41598_2021_90439_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4369/8169688/8f78d6f7e3b0/41598_2021_90439_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4369/8169688/853c87b8a2ed/41598_2021_90439_Fig5_HTML.jpg"
+  ]
+}

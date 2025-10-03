@@ -1,0 +1,952 @@
+{
+  "pmcid": "PMC5485990",
+  "title": "Transcriptomics, NF-κB Pathway, and Their Potential Spaceflight-Related Health Consequences",
+  "abstract": "In space, living organisms are exposed to multiple stress factors including microgravity and space radiation. For humans, these harmful environmental factors have been known to cause negative health impacts such as bone loss and immune dysfunction. Understanding the mechanisms by which spaceflight impacts human health at the molecular level is critical not only for accurately assessing the risks associated with spaceflight, but also for developing effective countermeasures. Over the years, a number of studies have been conducted under real or simulated space conditions. RNA and protein levels in cellular and animal models have been targeted in order to identify pathways affected by spaceflight. Of the many pathways responsive to the space environment, the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) network appears to commonly be affected across many different cell types under the true or simulated spaceflight conditions. NF-κB is of particular interest, as it is associated with many of the spaceflight-related health consequences. This review intends to summarize the transcriptomics studies that identified NF-κB as a responsive pathway to ground-based simulated microgravity or the true spaceflight condition. These studies were carried out using either human cell or animal models. In addition, the review summarizes the studies that focused specifically on NF-κB pathway in specific cell types or organ tissues as related to the known spaceflight-related health risks including immune dysfunction, bone loss, muscle atrophy, central nerve system (CNS) dysfunction, and risks associated with space radiation. Whether the NF-κB pathway is activated or inhibited in space is dependent on the cell type, but the potential health impact appeared to be always negative. It is argued that more studies on NF-κB should be conducted to fully understand this particular pathway for the benefit of crew health in space.",
+  "introduction": "1. Introduction\n\nDifferent from the surface of the Earth, humans in space experience a number of environmental stress factors. In orbits around the Earth or during transit to the Moon or Mars, the lack of gravity is one of the most significant environmental factors responsible for many physiological changes in humans. Gravity of a partial g value can also be experienced on the surface of the Moon or Mars, or artificially generated during transit to these destinations.\n\nApart from microgravity, astronauts are exposed to cosmic radiation during space missions. Although various forms for radiation exist in space, only three sources are of major concern for astronauts’ health. In low Earth orbits (LEO), the majority of radiation comes from protons trapped in the geomagnetic field. In free space, galactic cosmic radiation (GCR) consists of high energy particles ranging from protons to extremely heavy ions. Heavy ions are known to have a high linear energy transfer (LET) that can produce greater biological effects than low-LET radiation for the same absorbed dose. During transit to the Moon or Mars, or on the surface of these objects, astronauts are also in danger of exposure to protons released from large solar particle events (SPE). High energy GCR and SPE protons are able to penetrate through the geomagnetic field to reach LEO, especially in high inclination orbits.\n\nHow these environmental factors affect human health has been a major concern for long-duration space missions. Among the reported effects of spaceflight are bone and muscle loss due to disuse of the organs, and suppression of immune functions. Other health risks, such as cancer induced from exposure to space radiation, have been identified for long-duration missions, although no significantly elevated cancer death among the astronauts have been reported.\n\nUnderstanding these spaceflight-related health consequences at the molecular level is critical for accurately assessing the associated risks and for the development of effective countermeasures, especially considering the prospect that future medical treatment will be based on individual’s genetic background. In recent years, a number of studies have been reported in which cultured human cells or rodents were flown to space in attempts to uncover any unique molecular pathways in response to the space environment. As opportunities for conducting experiments in space are rare, more studies have been reported using ground based analogs that simulate microgravity. The widely used microgravity analogs are rotating wall vessels (RWV, including 2D clinostats) and the random positioning machine (RPM) for cultured cells, and hindlimb unloading (HU) for rodents. For humans, bed rest is used to simulate disuse of the bone and muscle. Space radiation has been simulated on the ground using high energy particles of varying charges and energies generated using accelerators. It has been known that simulated microgravity produces only some, but not all, of the biological effects of the true microgravity condition.\n\nAmong the different pathways that have been investigated in response to the space environment, the nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) network appears to be commonly affected in many different cell types and organs of animals. As a protein complex that controls the transcription of DNA, cytokine production and cell survival, NF-κB is activated in response to external stimuli including infection, inflammation, radiation, and oxidative stress resulting in upregulation of a number of downstream stress response genes such as inducible nitric oxide synthase (iNOS), cyclooxygenase-2 (COX-2), tumor necrosis factor alpha (TNFα), and intracellular adhesion molecule (ICAM). The NF-κB family of transcription factors comprises p65 (RELA), RELB, c-REL, NF-κB1 (p50), and NF-κB2 (p52). IκB kinase (IKK) complex controls the activation of NF-κB through the canonical (classical) pathway by degrading the IκB inhibitor and releasing p65/p50 dimers to the nucleus, or through the nuclear translocation of RELB/p52 via a noncanonical (alternative) pathway. Activation of NF-κB/REL protein involves phosphorylation, ubiquitination, and subsequent degradation of the inhibitory protein IκB, which in turn results in the nuclear translocation of NF-κB/REL proteins. The c-REL subunit is involved in NF-κB heterodimer formation, which forms essential transcription factor complexes involved in all types of cellular processes, including cellular metabolism, and chemotaxis. Previous studies have indicated that c-REL gene is exclusively expressed in immune cells and plays a role in the regulation of proliferation, adhesion, survival, and immune and inflammatory responses. However, more recent studies demonstrated that c-REL also plays a role in non-immune cells. For instance, c-REL deficient mice are protected from developing cardiac and skin fibrosis indicating a new role of c-REL in regulating cardiac remodeling and epidermal proliferation and homeostasis. Phosphorylation and acetylation of RELA are crucial post-translational modifications required for NF-κB activation.\n\nIt has been well documented that alterations of the NF-κB pathway are associated with diseases, many of which are of concern for spaceflight. For instance, NF-κB plays a role in osteoclastogenesis and changes in osteoblast activities. NF-κB is also suggested to play a role in muscle atrophy due to its increased expression in cardiac cell unloading.\n\nThis review focuses on the NF-κB pathway in response to the space environment. First, we survey omics studies that identified NF-κB as one of the major pathways in response to altered gravity conditions. Then we review the studies specifically targeting NF-κB in the organs or cell types that are associated with the known spaceflight related health risks, including immune dysfunction, bone or muscle loss, CNS dysfunction, and risks associated with space radiation exposure. Both studies conducted in space and under simulated spaceflight conditions are considered, and are summarized in Table 1. In Table 2, we summarize the studies using high energy charged particles on the ground.\n\n2. Transcriptomics and the NF-κB Pathway\n\nA number of omics studies conducted in space or using ground-based microgravity simulators have been reported in the literature. While these omics investigations did not specifically target the NF-κB pathway, several of them revealed expression changes of the genes in the NF-κB network. In TK6 human lymphoblastoid cells cultured for 72 h in RWV, the expression of both mRNA and microRNA (miRNA) was differentially regulated. Pathway analysis of the genes having significant expression changes revealed activation of the NF-κB pathway in response to simulated microgravity. In addition, several miRNAs whose expression was altered may have influenced the expressions of the genes in the NF-κB network. Analysis of human T cells after activation on the Soyuz 13S spaceflight mission showed 47 genes downregulated in microgravity. Further analysis of pathways associated with these downregulated genes suggested that the NF-κB pathway was inhibited. Twenty of these 47 genes have promoter regions containing c-REL binding sites, suggesting that the transcription of downstream effectors in the REL/NF-κB pathway may ultimately influence T cell activation in microgravity. Similarly, activation of T cells by various stimulants was inhibited under simulated microgravity using RPM. Expression of the genes that are known for T cell activation were also inhibited.\n\nIn addition to immune cells, human fibroblasts (AG1522 cells) that were flown to the international space station (ISS) exhibited global miRNA and gene expression profile changes in comparison to the ground controls. Pathway analysis of 29 miRNAs and 170 genes, whose expressions were significantly altered in space, revealed that RELA was one of the top upstream regulators influenced in microgravity. Figure 1 shows the pathway analysis from the genes and miRNAs whose expression was altered after flown in space for 3 days. Activation of the genes in the NF-κB network such as hepatocyte growth factor (HGF) and vascular endothelial growth factor (VEGF) could be responsible for the observed faster growth rate of these fibroblasts in space. In the gastrocnemius muscle of mice that were flown on the Space Shuttle (STS-108) for 11 days and 19 h, Nfkbia mRNA, whose protein IκBα binds to NF-κB in the cytoplasm of the cells, was found to be significantly upregulated than the ground controls. Results of the study suggest that NF-κB may also play a critical role in muscle atrophy in unloading models. Furthermore, thyroid cancer cells cultured on an RPM for 24 h showed lower levels of the NF-κB p65 proteins in comparison to the cells cultured in the 1 g static condition.\n\n3. Effects of Microgravity on NF-κB in the Immune System\n\nSpaceflight is known to cause immune dysfunction in astronauts, as measured by the redistribution of leukocyte subsets and the reduction of T cell function. Such immune dysfunction can persist for months for the duration of the space missions, and the degree of the changes may depend on the gender of the crewmember. Immune dysfunction has also been reported in rodents under HU. For instance, animals under HU showed an impaired ability to respond to the attack of pathogens. The molecular mechanisms by which microgravity induces immune dysfunction have been extensively investigated. In addition to microgravity, studies of immune function changes have been conducted using high energy charged particles generated on the ground. Radiation of total doses within the range expected during long-term missions has been shown to induce changes in the immune function. Immune dysfunction has also been reported in animals exposed to a combination of simulated microgravity and high energy protons, as measured by the lack of T cell activation. These animals exposed to these combined stress factors were also susceptible to the non-toxic bacteria Pseudomonas aeruginosa.\n\nApart from the role of NF-κB in inhibiting T cell activation, as discussed in Section 2, inhibition of nuclear translocation of NF-κB has been observed as the predominant response to simulated microgravity, in either stimulated or non-stimulated Jurkat cells. Downregulation of Nfkb1 has also been reported in the spleen of C57BL/6 mice flown on the Space Shuttle for 13 days. A schematic summary of the influence of microgravity on T lymphocyte function including the inhibition of NF-κB nuclear translocation has been recently reviewed. Nuclear translocation of NF-κB under microgravity does not occur in all cell types. For instance, in the rat macrophage cell line NR8383, the translocation of NF-κB to the nucleus was not affected in microgravity.\n\n4. Effects of Microgravity on NF-κB in Muscle\n\nMuscle atrophy is a major concern for astronauts in microgravity, as the bone and muscle tissues become weak due to prolonged periods of disuse. The role of NF-κB in skeletal muscle atrophy has been widely reported in the literature. NF-κB activation has been found in a number of muscle disorders such as sarcopenia, muscular atrophy, cancer cachexia, inflammatory myopathies, and muscular dystrophies. Studies of sarcopenia in the age-related loss of muscle have reported a four-fold increase in NF-κB protein concentrations in the elderly compared to that of young people. In Duchenne muscular dystrophy patients, NF-κB cytokines such as TNF-α were upregulated in their dystrophic muscles. A literature review reveals that skeletal myogenesis requires a delicate balance and timing of both canonical and noncanonical NF-κB signaling pathways, although the mechanisms remain unclear.\n\nIn a spaceflight-related study, mice were flown to space for 11 days and 19 h, or were subjected to HU on the ground for 12 days, for investigation of gene expressions in the muscle. In both groups, the body weight was significantly decreased in comparison to the weight bearing ground controls. Analysis of mRNA in the gastrocnemius muscle showed an increase of Nfkbia/Iκbα by 2.28-fold after spaceflight. In another study, researchers separated three strains of mice (wild type (WT), Nfkb1−/−, and Bcl3−/−) into two groups, weight bearing and HU. Bcl3 is involved in the regulation of transcriptional activation of NF-κB target genes and inhibits the nuclear translocation of the NF-κB p50 subunit contributing to the regulation of cell proliferation. After 6 days, an 18% decrease in gastrocnemius plus plantaris muscle mass was found in the WT HU mice but little to no difference in the muscles of the Nfkb1−/− and Bcl3−/− mice. Of the 240 genes that were upregulated in the wild type HU mice, 185 showed no expression changes in the NF-κB or BCL3 deficient mice, indicating that these genes were either direct or indirect targets of p50 or BCL3. These results suggested that by inhibiting activation of the NF-κB or BCL3 pathways, muscle atrophy can be reduced or eliminated. In human subjects under bed rest conditions for 7 days, a loss of an average of 1.6 kg of total body lean mass was reported, with 50% of the muscle loss coming from the legs. After bed rest, the NF-κB1 gene expression level in the muscle biopsy was increased by 40%.\n\n5. Effects of Microgravity on NF-κB in Bone\n\nBone loss is an important issue due to the fact that bone resorption increases in space and there is a lack of mechanical stimulation for bone formation. The loss of bone mineral density (BMD) has been reported to be approximately 1% per month during spaceflight. The role of NF-κB in bone loss and bone disease has been documented in the function of osteoclasts and osteoblasts, skeletal development, and endochondral ossification. Activation of NF-κB has been found to play a role in many bone diseases, including inflammatory arthritis, osteoarthritis, rheumatoid arthritis, and Paget’s disease. When activated, NF-κB causes TNF to downregulate SOX9 expression, through this pathway chondrocyte differentiation is inhibited, leading to rheumatoid and osteoarthritis.\n\nThe relationship between bone loss and NF-κB expression in peripheral blood mononuclear cells (PBMC) of the astronauts after spaceflight has been investigated. After 12–16 days space missions, an increased expression of nearly 500% of NF-κB p65 was detected after flight, and the level remained elevated for 14 days after landing. It was suggested that omega-3 fatty acids or eicosapentaenoic acid can be used as a countermeasure for spaceflight-induced bone loss by inhibiting NF-κB activation. Similar to the study of muscle loss, the role of NF-κB in microgravity-induced bone loss has been investigated with mice deficient in NF-κB1. After a 2-week HU, the wild type mice had significant trabecular bone loss compared to the NF-κB1 deficient group. The WT mice also showed a decrease in BMD of 30% compared to NF-κB1 deficient mice, suggesting that NF-κB deficiency inhibited the reduction due to mechanical unloading in osteoblastic bone formation and enhanced osteoclastic bone resorption.\n\n6. Effects of Microgravity on NF-κB in Cardiovascular System\n\nSpaceflight has been shown to have effects on many systems in the human body, the cardiovascular system included. Microgravity has been shown to decrease circulating blood, plasma volume, interstitial fluids, and ventricular stroke volume and inhibit erythropoiesis. NF-κB has been linked to various diseases affecting the cardiovascular system, such as atherosclerosis, myocardial ischemia, and heart failure. It has been reported that NF-κB activation can have divergent functions in the cardiovascular system and has been described as either adaptive or maladaptive, depending on the cellular and physiological context and timing of the activation. Some of the maladaptive roles that are played by chronic NF-κB activation in the cardiovascular system are prolonged inflammatory response leading to heart failure and preventing the removal of damaged cardiac cells which can lead to a decrease in cardiac function.\n\nThe effects of microgravity on NF-κB have been investigated using rat ventricular heart cells (H9c2) incubated in RWV for 3 h either in simulated microgravity or normal gravity. Western blot analysis showed an increase of 23% of NF-κB p65 in the nuclear lysates of the microgravity exposed cells compared to the dynamic control cells. Analysis with ELISA also found an increase in DNA binding of p65 in microgravity exposed cells compared to the dynamic control. It was also shown in rat ventricular heart muscle exposed to simulated microgravity that NF-κB was significantly increased in the nuclear fraction compared to the control.\n\nSpace radiation can potentially cause cardiovascular diseases. Although limited data with charged particles is available, assessments of nuclear bomb survivors exposed to low-LET radiation have shown that these individuals have an increased frequency of cardiovascular disease, ischemic heart disease, and stroke. A study of arterial biopsies from patients enrolled in radiotherapy and nonradiated patients found persistent inflammation due to NF-κB activation in the radiated patient’s arteries. In addition, the genes related to the NF-κB pathway were dysregulated for years after the initial radiation exposure.\n\n7. Effects of Microgravity on NF-κB in Brain\n\nThe brain is one of the most important organs that undergoes large biological changes under microgravity. It has been reported that the brain experiences tremendous fluid shift during space travel and thereby results in determinant behavioral change in astronauts. Microgravity induces stress in the brain and therefore activates several transcription factors to cope with the stress. Among the transcription factors, NF-κB plays a pivotal role in neuronal cell survival against neurotoxins by inducing genes favoring cell survival. In addition, it is been reported that the NF-κB activity was elevated in chronic neurodegenerative disorders.\n\nSimulated microgravity with HU has shown that oxidative stress induced NF-κB activation in different regions of mouse brain. Proteomic analysis of simulated microgravity-induced mouse hypothalamus revealed the imbalance in oxidative stress. Activation of NF-κB in the brain has also been demonstrated in mice exposed to charged particles. After high energy proton irradiation, oxidant and antioxidant levels in the brain of the mice under HU were significantly higher than the gravity loaded controls. In rats exposed to high-LET oxygen ions at doses of 0.1, 0.5, and 1 Gy, increased levels of NF-κB and glial fibrillary acidic protein (GFAP) can still be observed in the brain at 75 days post irradiation for 1 Gy, indicating glial cell activation.\n\n8. Effects of Space Radiation Exposure on NF-κB\n\nAmong the risks associated with space radiation exposure are cancer, central nervous system effects, degenerative tissue damage, and acute radiation syndrome. However, only a few effects of space radiation exposure, such as light flashes experienced on their trip to the Moon and in LEO, elevated chromosome damage in the lymphocytes after long-duration space station missions, and early onset of cataracts have been reported in the astronauts. NF-κB is linked to many of the identified radiation risks for spaceflight, particularly in the promotion of tumors. The NF-κB pathway has been shown to regulate the proliferation of colorectal cancer cells. Mutation of NF-κB may also be an early event for malignant transformation of precancerous lesions of speckled leukoplakia.\n\nIonizing radiation induces DNA damage, including double-strand breaks, which trigger the activation of NF-κB through ATM dependent or P53-induced death domain (PIDD) dependent pathways. Activation of NF-κB in cells exposed to radiation has been extensively investigated for low-LET radiation. Here, we will only briefly summarize the studies with high energy charged particles that are relevant to space radiation. For charged particles, the degree of NF-κB activation is apparently dependent on the dose and dose rate, the post irradiation time, and the cell type. A dose dependence in the NF-κB binding activity was observed in human monocytes exposed to high-LET Fe ions at 2 and 4 h post irradiation. At longer time points, the Fe ion-induced binding activity diminished. Similar time-dependent NF-κB activation was reported in Chinese hamster cells after exposure to O ions. Detection of NF-κB for low fluence Ar ions (230 keV/µm) may be possible using human embryonic kidney cells transfected with a reporter gene. Activations of NF-κB in cultured cells last mostly for hours after radiation exposure, but they can persist for weeks in animal studies. In the heart and bone marrow tissue of CBA/CaJ mice exposed to Si ions, activation of NF-κB can last up to 6 months post exposure. These long-term activations of NF-κB were associated with chronic inflammation in the exposed animals. The degree of NF-κB activation is also dependent on the quality of radiation. While C ions (LET = 33 and 73 keV/µm) and X rays had comparable potential to activate NF-κB in human embryonic kidney cells, Ar (LET = 272 keV/µm) and Ne (LET = 91 keV/µm) ions produced the highest relative biological effectiveness (RBE) of 8.9. In normal human fibroblasts exposed to Ar microbeam particles, phosphorylation of NF-κB was also observed in the non-exposed cells as a result of nitric oxide-mediated bystander effects. NF-κB has been demonstrated to play a key role in radiation-induced bystander effects, but such studies are beyond the scope of this review.\n\nActivation of NF-kB has also been investigated for high energy protons or protons of mixed energy that simulate SPE. In bone marrow cells isolated from BALB/cJ mice after whole-body exposure to 100 MeV protons at 5 or 10 mGy/min, the dose rate effects have been investigated. At 1.5 h post irradiation of a total dose of 1 Gy, the level of NF-κB activation was significantly higher than the non-exposed controls only in the 10 mGy/min group. On the contrary, the 5 mGy/min group showed a higher level of NF-κB activation than the 10 mGy/min group at 1 month post irradiation. In a study of the effects of SPE on immune functions, C57BL/6 mice were whole-body exposed to protons of mixed energies. At 21 days post exposure, the total and the active forms of NF-κB in T cells isolated from spleens of the mice increased. Such activations were modified with prior exposure to a low dose γ rays.\n\nMicrogravity can potentially influence the cellular response to radiation exposure through the NF-κB pathways, and vice versa. Research aimed at sensitizing tumor cells to radiation treatment has reported that inhibition of NF-κB generally enhances cell killing. On the other hand, activation of NF-κB through low-dose radiation can reduce DNA damage from subsequent radiation exposure at high doses. In space, the NF-κB subunits can be up- or downregulated depending on the cell type. Such alterations can potentially impact the cellular response to DNA damages induced by different stress factors such as radiation and microgravity.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "transcriptome",
+    "spaceflight",
+    "NF-κB pathway",
+    "human disease",
+    "Review"
+  ],
+  "citations": [
+    {
+      "title": "Cancer risk from exposure to galactic cosmic rays: Implications for space exploration by human beings",
+      "authors": [
+        "F.A. Cucinotta",
+        "M. Durante"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Effects of microgravity on osteoblast growth",
+      "authors": [
+        "M. Hughes-Fulford",
+        "R. Tjandrawinata",
+        "J. Fitzgerald",
+        "K. Gasuad",
+        "V. Gilbertson"
+      ]
+    },
+    {
+      "title": "Evaluating Bone Loss in ISS Astronauts",
+      "authors": [
+        "J.D. Sibonga",
+        "E.R. Spector",
+        "S.L. Johnston",
+        "W.J. Tarver"
+      ]
+    },
+    {
+      "title": "Effects of the space flight environment on the immune system",
+      "authors": [
+        "G. Sonnenfeld",
+        "J.S. Butel",
+        "W.T. Shearer"
+      ]
+    },
+    {
+      "title": "Alterations in adaptive immunity persist during long-duration spaceflight",
+      "authors": [
+        "B. Crucian",
+        "R.P. Stowe",
+        "S. Mehta",
+        "H. Quiriarte",
+        "D. Pierson",
+        "C. Sams"
+      ]
+    },
+    {
+      "title": "Longitudinal study of astronaut health: Mortality in the years 1959–1991",
+      "authors": [
+        "L.E. Peterson",
+        "L.J. Pepper",
+        "P.B. Hamm",
+        "S.L. Gilbert"
+      ]
+    },
+    {
+      "title": "Personalized medicine in human space flight: Using omics based analyses to develop individualized countermeasures that enhance astronaut safety and performance",
+      "authors": [
+        "M.A. Schmidt",
+        "T.J. Goodwin"
+      ]
+    },
+    {
+      "title": "Ground-based facilities for simulation of microgravity: Organism-specific recommendations for their use, and recommended terminology",
+      "authors": [
+        "R. Herranz",
+        "R. Anken",
+        "J. Boonstra",
+        "M. Braun",
+        "P.C. Christianen",
+        "M. de Geest",
+        "J. Hauslage",
+        "R. Hilbig",
+        "R.J. Hill",
+        "M. Lebert"
+      ]
+    },
+    {
+      "title": "Hindlimb unloading rodent model: Technical aspects",
+      "authors": [
+        "E.R. Morey-Holton",
+        "R.K. Globus"
+      ]
+    },
+    {
+      "title": "Long-duration bed rest as an analog to microgravity",
+      "authors": [
+        "A.R. Hargens",
+        "L. Vico"
+      ]
+    },
+    {
+      "title": "Overview of the NASA space radiation laboratory",
+      "authors": [
+        "C. La Tessa",
+        "M. Sivertz",
+        "I.H. Chiang",
+        "D. Lowenstein",
+        "A. Rusek"
+      ]
+    },
+    {
+      "title": "The NF-κB family of transcription factors and its regulation",
+      "authors": [
+        "A. Oeckinghaus",
+        "S. Ghosh"
+      ]
+    },
+    {
+      "title": "NF-κB, the first quarter-century: Remarkable progress and outstanding questions",
+      "authors": [
+        "M.S. Hayden",
+        "S. Ghosh"
+      ]
+    },
+    {
+      "title": "The Nuclear factor κB pathway: A link to the immune system in the radiation response",
+      "authors": [
+        "C.E. Hellweg"
+      ]
+    },
+    {
+      "title": "Crosstalk in NF-κB signaling pathways",
+      "authors": [
+        "A. Oeckinghaus",
+        "M.S. Hayden",
+        "S. Ghosh"
+      ]
+    },
+    {
+      "title": "Rel/NF-κB/IκB family: Intimate tales of association and dissociation",
+      "authors": [
+        "I.M. Verma",
+        "J.K. Stevenson",
+        "E.M. Schwarz",
+        "D. Van Antwerp",
+        "S. Miyamoto"
+      ]
+    },
+    {
+      "title": "NF-κB and Rel: Participants in a multiform transcriptional regulatory system",
+      "authors": [
+        "M. Grilli",
+        "J.J. Chiu",
+        "M.J. Lenardo"
+      ]
+    },
+    {
+      "title": "The c-Rel subunit of NF-κB regulates epidermal homeostasis and promotes skin fibrosis in mice",
+      "authors": [
+        "N. Fullard",
+        "A. Moles",
+        "S. O’Reilly",
+        "J.M. van Laar",
+        "D. Faini",
+        "J. Diboll",
+        "N.J. Reynolds",
+        "D.A. Mann",
+        "J. Reichelt",
+        "F. Oakley"
+      ]
+    },
+    {
+      "title": "The inducible transcription factor NF-κB: Structure-function relationship of its protein subunits",
+      "authors": [
+        "S. Grimm",
+        "P.A. Baeuerle"
+      ]
+    },
+    {
+      "title": "NF-κB signaling and human disease",
+      "authors": [
+        "S. Aradhya",
+        "D.L. Nelson"
+      ]
+    },
+    {
+      "title": "Requirement for NF-κB in osteoclast and B-cell development",
+      "authors": [
+        "G. Franzoso",
+        "L. Carlson",
+        "L. Xing",
+        "L. Poljak",
+        "E.W. Shores",
+        "K.D. Brown",
+        "A. Leonardi",
+        "T. Tran",
+        "B.F. Boyce",
+        "U. Siebenlist"
+      ]
+    },
+    {
+      "title": "Osteoblast lineage cells play an essential role in periodontal bone loss through activation of nuclear factor-κB",
+      "authors": [
+        "S. Pacios",
+        "W. Xiao",
+        "M. Mattos",
+        "J. Lim",
+        "R.S. Tarapore",
+        "S. Alsadun",
+        "B. Yu",
+        "C.Y. Wang",
+        "D.T. Graves"
+      ]
+    },
+    {
+      "title": "Osteopetrosis in mice lacking NF-κB1 and NF-κB2",
+      "authors": [
+        "V. Iotsova",
+        "J. Caamaño",
+        "J. Loy",
+        "Y. Yang",
+        "A. Lewin",
+        "R. Bravo"
+      ]
+    },
+    {
+      "title": "Differential translocation of nuclear factor-κB in a cardiac muscle cell line under gravitational changes",
+      "authors": [
+        "O. Kwon",
+        "M. Tranter",
+        "W.K. Jones",
+        "J.M. Sankovic",
+        "R.K. Banerjee"
+      ]
+    },
+    {
+      "title": "Effects of simulated microgravity on expression profile of microRNA in human lymphoblastoid cells",
+      "authors": [
+        "L.S. Mangala",
+        "Y. Zhang",
+        "Z. He",
+        "K. Emami",
+        "G.T. Ramesh",
+        "M. Story",
+        "L.H. Rohde",
+        "H. Wu"
+      ]
+    },
+    {
+      "title": "The Rel/NF-κB pathway and transcription of immediate early genes in T cell activation are inhibited by microgravity",
+      "authors": [
+        "T.T. Chang",
+        "I. Walther",
+        "C.F. Li",
+        "J. Boonyaratanakornkit",
+        "G. Galleri",
+        "M.A. Meloni",
+        "P. Pippia",
+        "A. Cogoli",
+        "M. Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Key gravity-sensitive signaling pathways drive T cell activation",
+      "authors": [
+        "J.B. Boonyaratanakornkit",
+        "A. Cogoli",
+        "C.F. Li",
+        "T. Schopper",
+        "P. Pippia",
+        "G. Galleri",
+        "M.A. Meloni",
+        "M. Hughes-Fulford"
+      ]
+    },
+    {
+      "title": "Microgravity-induced alterations in signal transduction in cells of the immune system",
+      "authors": [
+        "K. Paulsen",
+        "C. Thiel",
+        "J. Timm",
+        "P.M. Schmidt",
+        "K. Huber",
+        "S. Tauber",
+        "R. Hemmersbachm",
+        "D. Seibt",
+        "H. Kroll",
+        "K.H. Grote"
+      ]
+    },
+    {
+      "title": "Transient gene and microRNA expression profile changes of confluent human fibroblast cells in spaceflight",
+      "authors": [
+        "Y. Zhang",
+        "T. Lu",
+        "M. Wong",
+        "X. Wang",
+        "L. Stodieck",
+        "F. Karouia",
+        "M. Story",
+        "H. Wu"
+      ]
+    },
+    {
+      "title": "Gravity-sensitive signaling drives 3-dimensional formation of multicellular thyroid cancer spheroids",
+      "authors": [
+        "J. Grosse",
+        "M. Wehland",
+        "J. Pietsch",
+        "H. Schulz",
+        "K. Saar",
+        "N. Hübner",
+        "C. Eilles",
+        "J. Bauer",
+        "K. Abou-El-Ardat",
+        "S. Baatout"
+      ]
+    },
+    {
+      "title": "Short-term bed rest increases TLR4 and IL-6 expression in skeletal muscle of older adults",
+      "authors": [
+        "M.J. Drummond",
+        "K.L. Timmerman",
+        "M.M. Markofski",
+        "D.K. Walker",
+        "J.M. Dickinson",
+        "M. Jamaluddin",
+        "A.R. Brasier",
+        "B.B. Rasmussen",
+        "E. Volpi"
+      ]
+    },
+    {
+      "title": "Capacity of omega-3 fatty acids or eicosapentaenoic acid to counteract weightlessness-induced bone loss by inhibiting NF-κB activation: From cells to bed rest to astronauts",
+      "authors": [
+        "S.R. Zwart",
+        "D. Pierson",
+        "S. Mehta",
+        "S. Gonda",
+        "S.M. Smith"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on murine skeletal muscle gene expression",
+      "authors": [
+        "D.L. Allen",
+        "E.R. Bandstra",
+        "B.C. Harrison",
+        "S. Thorng",
+        "L.S. Stodieck",
+        "P.J. Kostenuik",
+        "S. Morony",
+        "D.L. Lacey",
+        "T.G. Hammond",
+        "L.L. Leinwand"
+      ]
+    },
+    {
+      "title": "Changes in mouse thymus and spleen after return from the STS-135 mission in space",
+      "authors": [
+        "D.S. Gridley",
+        "X.W. Mao",
+        "L.S. Stodieck",
+        "V.L. Ferguson",
+        "T.A. Bateman",
+        "M. Moldovan",
+        "C.E. Cunningham",
+        "T.A. Jones",
+        "J.M. Slater",
+        "M.J. Pecaut"
+      ]
+    },
+    {
+      "title": "Identification of genes that elicit disuse muscle atrophy via the transcription factors p50 and Bcl-3",
+      "authors": [
+        "C.L. Wu",
+        "S.C. Kandarian",
+        "R.W. Jackman"
+      ]
+    },
+    {
+      "title": "Disruption of NF-κB1 prevents bone loss caused by mechanical unloading",
+      "authors": [
+        "H. Nakamura",
+        "K. Aoki",
+        "W. Masuda",
+        "N. Alles",
+        "K. Nagano",
+        "H. Fukushima",
+        "K. Osawa",
+        "H. Yasuda",
+        "I. Nakamura",
+        "Y. Mikuni-Takagaki"
+      ]
+    },
+    {
+      "title": "Activation of nuclear transcription factor-κB in mouse brain induced by a simulated microgravity environment",
+      "authors": [
+        "K.C. Wise",
+        "S.K. Manna",
+        "K. Yamauchi",
+        "V. Ramesh",
+        "B.L. Wilson",
+        "R.L. Thomas",
+        "S. Sarkar",
+        "A.D. Kulkarni",
+        "N.R. Pellis",
+        "G.T. Ramesh"
+      ]
+    },
+    {
+      "title": "Activation of the nuclear factor κB pathway by heavy ion beams of different linear energy transfer",
+      "authors": [
+        "C.E. Hellweg",
+        "C. Baumstark-Khan",
+        "C. Schmitz",
+        "P. Lau",
+        "M.M. Meier",
+        "I. Testard",
+        "T. Berger",
+        "G. Reitz"
+      ]
+    },
+    {
+      "title": "Post-translational modification of I-κBα activates NF-κB in human monocytes exposed to 56Fe ions",
+      "authors": [
+        "M. Natarajan",
+        "N. Aravindan",
+        "M.L. Meltz",
+        "T.S. Herman"
+      ]
+    },
+    {
+      "title": "Cellular monitoring of the nuclear factor κB pathway for assessment of space environmental radiation",
+      "authors": [
+        "C. Baumstark-Khan",
+        "C.E. Hellweg",
+        "A. Arenz",
+        "M.M. Meier"
+      ]
+    },
+    {
+      "title": "Carbon-ion-induced activation of the NF-κB pathway",
+      "authors": [
+        "C.E. Hellweg",
+        "C. Baumstark-Khan",
+        "C. Schmitz",
+        "P. Lau",
+        "M.M. Meier",
+        "I. Testard",
+        "T. Berger",
+        "G. Reitz"
+      ]
+    },
+    {
+      "title": "Expression of NF-κB and ERK following heavy ion irradiation",
+      "authors": [
+        "A.K. Mitra",
+        "A. Sarma",
+        "M. Krishna",
+        "N.C. Verma"
+      ]
+    },
+    {
+      "title": "Dose-rate effects of protons on in vivo activation of nuclear factor-κB and cytokines in mouse bone marrow cells",
+      "authors": [
+        "K.N. Rithidech",
+        "P. Reungpatthanaphong",
+        "L. Honikel",
+        "A. Rusek",
+        "S.R. Simon"
+      ]
+    },
+    {
+      "title": "Low-dose γ-rays modify CD4+ T cell signalling response to simulated solar particle event protons in a mouse model",
+      "authors": [
+        "A. Rizvi",
+        "M.J. Pecaut",
+        "J.M. Slater",
+        "S. Subramaniam",
+        "D.S. Gridley"
+      ]
+    },
+    {
+      "title": "Persistence of apoptosis and inflammatory responses in the heart and bone marrow of mice following whole-body exposure to 28Silicon (28Si) ions",
+      "authors": [
+        "M. Tungjai",
+        "E.B. Whorton",
+        "K.N. Rithidech"
+      ]
+    },
+    {
+      "title": "Induction of chronic oxidative stress, chronic inflammation and aberrant patterns of DNA methylation in the liver of titanium-exposed CBA/CaJ mice",
+      "authors": [
+        "W. Jangiam",
+        "M. Tungjai",
+        "K.N. Rithidech"
+      ]
+    },
+    {
+      "title": "Effects of sex and gender on adaptation to space: Immune system",
+      "authors": [
+        "A.R. Kennedy",
+        "B. Crucian",
+        "J.L. Huff",
+        "S.L. Klein",
+        "D. Morens",
+        "D. Murasko",
+        "C.A. Nickerson",
+        "G. Sonnenfeld"
+      ]
+    },
+    {
+      "title": "Use of animal models for space flight physiology studies, with special focus on the immune system",
+      "authors": [
+        "G. Sonnenfeld"
+      ]
+    },
+    {
+      "title": "Effects of the hindlimb-unloading model of spaceflight conditions on resistance of mice to infection with Klebsiella pneumoniae",
+      "authors": [
+        "T. Belay",
+        "H. Aviles",
+        "M. Vance",
+        "K. Fountain",
+        "G. Sonnenfeld"
+      ]
+    },
+    {
+      "title": "Effect of simulated microgravity on human lymphocytes",
+      "authors": [
+        "A. Bakos",
+        "A. Varkonyi",
+        "J. Minarovits",
+        "L. Batkai"
+      ]
+    },
+    {
+      "title": "Changes in monocyte functions of astronauts",
+      "authors": [
+        "I. Kaur",
+        "E.R. Simons",
+        "V.A. Castro",
+        "C.M. Ott",
+        "D.L. Pierson"
+      ]
+    },
+    {
+      "title": "Cytoskeleton changes and impaired motility of monocytes at modelled low gravity",
+      "authors": [
+        "M.A. Meloni",
+        "G. Galleri",
+        "P. Pippia",
+        "M. Cogoli-Greuter"
+      ]
+    },
+    {
+      "title": "Cell interactions in microgravity: Cytotoxic effects of natural killer cells in vitro",
+      "authors": [
+        "L.B. Buravkova",
+        "M.P. Rykova",
+        "V. Grigorieva",
+        "E.N. Antropova"
+      ]
+    },
+    {
+      "title": "Spaceflight alters expression of microRNA during T-cell activation",
+      "authors": [
+        "M. Hughes-Fulford",
+        "T.T. Chang",
+        "E.M. Martinez",
+        "C.F. Li"
+      ]
+    },
+    {
+      "title": "Mice chronically exposed to low dose ionizing radiation possess splenocytes with elevated levels of HSP70 mRNA, HSC70 and HSP72 and with an increased capacity to proliferate",
+      "authors": [
+        "M. Nogami",
+        "J.T. Huang",
+        "S.J. James",
+        "J.M. Lubinski",
+        "L.T. Nakamura",
+        "T. Makinodan"
+      ]
+    },
+    {
+      "title": "Effect of solar particle event radiation and hindlimb suspension on gastrointestinal tract bacterial translocation and immune activation",
+      "authors": [
+        "Y. Zhou",
+        "H. Ni",
+        "M. Li",
+        "J.K. Sanzari",
+        "E.S. Diffenderfer",
+        "L. Lin",
+        "A.R. Kennedy",
+        "D. Weissman"
+      ]
+    },
+    {
+      "title": "Signal transduction in primary human T lymphocytes in altered gravity during parabolic flight and clinostat experiments",
+      "authors": [
+        "S. Tauber",
+        "S. Hauschild",
+        "K. Paulsen",
+        "A. Gutewort",
+        "C. Raig",
+        "E. Hürlimann",
+        "J. Biskup",
+        "C. Philpot",
+        "H. Lier",
+        "F. Engelmann"
+      ]
+    },
+    {
+      "title": "Syk phosphorylation—A gravisensitive step in macrophage signalling",
+      "authors": [
+        "S. Brungs",
+        "W. Kolanus",
+        "R. Hemmersbach"
+      ]
+    },
+    {
+      "title": "NF-κB signaling in skeletal muscle: Prospects for intervention in muscle diseases",
+      "authors": [
+        "F. Mourkioti",
+        "N. Rosenthal"
+      ]
+    },
+    {
+      "title": "Anabolic signaling deficits underlie amino acid resistance of wasting, aging muscle",
+      "authors": [
+        "D. Cuthbertson",
+        "K. Smith",
+        "J. Babraj",
+        "G. Leese",
+        "T. Waddell",
+        "P. Atherton",
+        "H. Wackerhage",
+        "P.M. Taylor",
+        "M.J. Rennie"
+      ]
+    },
+    {
+      "title": "A chronic inflammatory response dominates the skeletal muscle molecular signature in dystrophin-deficient mdx mice",
+      "authors": [
+        "J.D. Porter",
+        "S. Khanna",
+        "H.J. Kaminski",
+        "J.S. Rao",
+        "A.P. Merriam",
+        "C.R. Richmonds",
+        "P. Leahy",
+        "J. Li",
+        "W. Guo",
+        "F.H. Andrade"
+      ]
+    },
+    {
+      "title": "NF-κB signaling: A tale of two pathways in skeletal myogenesis",
+      "authors": [
+        "N. Bakkar",
+        "D.C. Guttridge"
+      ]
+    },
+    {
+      "title": "Bcl3, an IκB protein, stimulates activating protein-1 transactivation and cellular proliferation",
+      "authors": [
+        "S.Y. Na",
+        "J.E. Choi",
+        "H.J. Kim",
+        "B.H. Jhun",
+        "Y.C. Lee",
+        "J.W. Lee"
+      ]
+    },
+    {
+      "title": "Functions of NF-κB in Bone",
+      "authors": [
+        "B. Boyce"
+      ]
+    },
+    {
+      "title": "Role of NF-κB in the skeleton",
+      "authors": [
+        "D. Veis Novack"
+      ]
+    },
+    {
+      "title": "Cardiovascular deconditioning in microgravity: Some possible countermeasures",
+      "authors": [
+        "G. Antonutto",
+        "P.E. di Prampero"
+      ]
+    },
+    {
+      "title": "Role of nuclear factor κB in cardiovascular health and disease",
+      "authors": [
+        "K. Van der Heiden",
+        "S. Cuhlmann",
+        "A. Luong le",
+        "M. Zakkar",
+        "P.C. Evans"
+      ]
+    },
+    {
+      "title": "Multiple facets of NF-κB in the heart: To be or not to NF-κB",
+      "authors": [
+        "J.W. Gordon",
+        "J.A. Shaw",
+        "L.A. Kirshenbaum"
+      ]
+    },
+    {
+      "title": "Space radiation and cardiovascular disease risk",
+      "authors": [
+        "M. Boerma",
+        "G.A. Nelson",
+        "V. Sridharan",
+        "X.W. Mao",
+        "I. Koturbash",
+        "M. Hauer-Jensen"
+      ]
+    },
+    {
+      "title": "Effect of gravity and microgravity on intracranial pressure",
+      "authors": [
+        "J.S. Lawley",
+        "L.G. Petersen",
+        "E.J. Howden",
+        "S. Sarma",
+        "W.K. Cornwell",
+        "R. Zhang",
+        "L.A. Whitworth",
+        "M.A. Williams",
+        "B.D. Levine"
+      ]
+    },
+    {
+      "title": "Proteomic analysis of mouse hypothalamus under simulated microgravity",
+      "authors": [
+        "P. Sarkar",
+        "S. Sarkar",
+        "V. Ramesh",
+        "H. Kim",
+        "S. Barnes",
+        "A. Kulkarni",
+        "J.C. Hall",
+        "B.L. Wilson",
+        "R.L. Thomas",
+        "N.R. Pellis"
+      ]
+    },
+    {
+      "title": "Roles for NF-κB in nerve cell survival, plasticity, and disease",
+      "authors": [
+        "M.P. Mattson",
+        "M.K. Meffert"
+      ]
+    },
+    {
+      "title": "Transcription factor NF-κB is activated in primary neurons by amyloid β peptides and in neurons surrounding early plaques from patients with Alzheimer disease",
+      "authors": [
+        "B. Kaltschmidt",
+        "M. Uherek",
+        "B. Volk",
+        "P.A. Baeuerle",
+        "C. Kaltschmidt"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species mediated tissue damage in high energy proton irradiated mouse brain",
+      "authors": [
+        "S. Baluchamy",
+        "P. Ravichandran",
+        "V. Ramesh",
+        "Z. He",
+        "Y. Zhang",
+        "J.C. Hall",
+        "O. Jejelowo",
+        "D.S. Gridley",
+        "H. Wu",
+        "G.T. Ramesh"
+      ]
+    },
+    {
+      "title": "Exposure to 16O-particle radiation causes aging-like decrements in rats through increased oxidative stress, inflammation and loss of autophagy",
+      "authors": [
+        "S.M. Poulose",
+        "D.F. Bielinski",
+        "K. Carrihill-Knoll",
+        "B.M. Rabin",
+        "B. Shukitt-Hale"
+      ]
+    },
+    {
+      "title": "Generation of Cherenkov light flashes by cosmic radiation within the eyes of the Apollo astronauts",
+      "authors": [
+        "G.G. Fazio",
+        "J.V. Jelley",
+        "W.N. Charman"
+      ]
+    },
+    {
+      "title": "Light flashes observed by astronauts on skylab 4",
+      "authors": [
+        "L.S. Pinsky",
+        "W.Z. Osborne",
+        "R.A. Hoffman",
+        "J.V. Bailey"
+      ]
+    },
+    {
+      "title": "Chromosome aberrations in the blood lymphocytes of astronauts after space flight",
+      "authors": [
+        "K. George",
+        "M. Durante",
+        "H. Wu",
+        "V. Willingham",
+        "G. Badhwar",
+        "F.A. Cucinotta"
+      ]
+    },
+    {
+      "title": "Space radiation and cataracts in astronauts",
+      "authors": [
+        "F.A. Cucinotta",
+        "F.K. Manuel",
+        "J. Jones",
+        "G. Iszard",
+        "J. Murrey",
+        "B. Djojonegro",
+        "M. Wear"
+      ]
+    },
+    {
+      "title": "Inflammation meets cancer, with NF-κB as the matchmaker",
+      "authors": [
+        "Y. Ben-Neriah",
+        "M. Karin"
+      ]
+    },
+    {
+      "title": "GABAB R/GSK-3β/NF-κB signaling pathway regulates the proliferation of colorectal cancer cells",
+      "authors": [
+        "Q. Shu",
+        "J. Liu",
+        "X. Liu",
+        "S. Zhao",
+        "H. Li",
+        "Y. Tan",
+        "J. Xu"
+      ]
+    },
+    {
+      "title": "A novel mutation in the DNA binding domain of NFKB is associated with speckled leukoplakia",
+      "authors": [
+        "G.V. Govindarajan",
+        "L. Bhanumurthy",
+        "A. Balasubramanian",
+        "A. Ramanathan"
+      ]
+    },
+    {
+      "title": "NF-κB activation by double-strand breaks",
+      "authors": [
+        "Y. Habraken",
+        "J. Piette"
+      ]
+    },
+    {
+      "title": "Nitric oxide-mediated bystander signal transduction induced by heavy-ion microbeam irradiation",
+      "authors": [
+        "M. Tomita",
+        "H. Matsumoto",
+        "T. Funayama",
+        "Y. Yokota",
+        "K. Otsuka",
+        "M. Maeda",
+        "Y. Kobayashi"
+      ]
+    },
+    {
+      "title": "Mechanism of radiation-induced bystander effects: A unifying model",
+      "authors": [
+        "T.K. Hei",
+        "H. Zhou",
+        "V.N. Ivanov",
+        "M. Hong",
+        "H.B. Lieberman",
+        "D.J. Brenner",
+        "S.A. Amundson",
+        "C.R. Geard"
+      ]
+    },
+    {
+      "title": "ATM-NF-κB connection as a target for tumor radiosensitization",
+      "authors": [
+        "K.M. Ahmed",
+        "J.J. Li"
+      ]
+    },
+    {
+      "title": "NF-κB-mediated adaptive resistance to ionizing radiation",
+      "authors": [
+        "K.M. Ahmed",
+        "J.J. Li"
+      ]
+    },
+    {
+      "title": "Simulated microgravity activates apoptosis and NF-κB in mice testis",
+      "authors": [
+        "C.S. Sharma",
+        "S. Sarkar",
+        "A. Periyakaruppan",
+        "P. Ravichandran",
+        "B. Sadanandan",
+        "V. Ramesh",
+        "R. Thomas",
+        "J.C. Hall",
+        "B.L. Wilson",
+        "G.T. Ramesh"
+      ]
+    },
+    {
+      "title": "Transcription Factor NF-κB: An Update on Intervention Strategies",
+      "authors": [
+        "A. Panday",
+        "M.E. Inda",
+        "P. Bagam",
+        "M.K. Sahoo",
+        "D. Osorio",
+        "S. Batra"
+      ]
+    }
+  ],
+  "original_title": "Transcriptomics, NF-Œ∫B Pathway, and Their Potential Spaceflight-Related Health Consequences.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b8de/5485990/6421259e6f29/ijms-18-01166-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b8de/5485990/b3a57b728cf8/ijms-18-01166-g002.jpg"
+  ]
+}

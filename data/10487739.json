@@ -1,0 +1,774 @@
+{
+  "pmcid": "10487739",
+  "title": "Spaceflight-Induced Gene Expression Profiles in the Mouse Brain Are Attenuated by Treatment with the Antioxidant BuOE",
+  "abstract": "The demands of deep space pose a health risk to the central nervous system that has long been a concern when sending humans to space. While little is known about how spaceflight affects transcription spatially in the brain, a greater understanding of this process has the potential to aid strategies that mitigate the effects of spaceflight on the brain. Therefore, we performed GeoMx Digital Spatial Profiling of mouse brains subjected to either spaceflight or grounded controls. Four brain regions were selected: Cortex, Frontal Cortex, Corunu Ammonis I, and Dentate Gyrus. Antioxidants have emerged as a potential means of attenuating the effects of spaceflight, so we treated a subset of the mice with a superoxide dismutase mimic, MnTnBuOE-2-PyP 5+ (BuOE). Our analysis revealed hundreds of differentially expressed genes due to spaceflight in each of the four brain regions. Both common and region-specific transcriptomic responses were observed. Metabolic pathways and pathways sensitive to oxidative stress were enriched in the four brain regions due to spaceflight. These findings enhance our understanding of brain regional variation in susceptibility to spaceflight conditions. BuOE reduced the transcriptomic effects of spaceflight at a large number of genes, suggesting that this compound may attenuate oxidative stress-induced brain damage caused by the spaceflight environment.",
+  "introduction": "1. Introduction\n\nRadiation exposure and other stressors experienced during extended deep-space missions have the potential to compromise the function of many bodily systems. The health risks of spaceflight-induced damage related to the central nervous system (CNS), such as cognitive impairment and neurodegenerative effects, have long been a concern. Animal studies have shown that memory, cognition, motor activity, and other neural functions can be affected under stressful conditions that include both radiation exposure and the spaceflight environment.\n\nNormal brain function relies on a diverse set of differentiated cell types, including neurons, glia, and vasculature in different regions. There have been, however, relatively few studies on the effects of spaceflight stress on specific brain regions. One study found that spaceflight conditions induced distinct protein expression changes in different regions of the mouse brain. Regional differences were also documented following simulated microgravity in human brain gray and white matter. Our previous flight study demonstrated that exposure to the spaceflight environment induces significant changes in protein expression related to neuronal structure and metabolic function, and there were distinct changes in protein expression in grey versus white matter.\n\nOne brain region that is of immense interest in the context of spaceflight is the cortex (CT). It plays a key role in sensory and motor function and is closely associated with locomotion, learning, memory, and coordination. Spaceflight and ground simulation studies have given evidence that microgravity conditions negatively affect sensorimotor and behavioral performance, and the functional architecture of the human brain, all of which are associated with cortical activity. These significant neurochemical changes were also observed in the rat prefrontal cortex by heavy charged particle irradiation. The frontal cortex (FCT) plays a role in memory, attention, judgment, consciousness, and behavior. Pathophysiological changes in the FCT are associated with depression and anxiety.\n\nAnother brain region that is critical to understand in the context of spaceflight is the hippocampus, a complex brain structure embedded deep in the temporal lobe. It plays a major role in learning and memory. Ground-based analog studies have found that simulated microgravity influences cognitive function, with increased anxiety and depression-like behaviors that were associated with hippocampal activities. In addition, significantly altered expression of many proteins that relate to metabolism and structure in the hippocampus has been observed to occur under simulated microgravity. Space radiation studies have revealed cognitive detriment and changes in morphology in the hippocampal dentate gyrus (DG) and Cornu Ammonis 1 (CA) regions following oxygen-particle irradiation. The DG is located in the deep region of the hippocampus and has been shown to play an important role in pattern separation and associative memory. The CA contains pyramidal cells with a vast network of interneurons; its function is related to memory and consciousness.\n\nSpaceflight conditions are associated with oxidative stress, which contributes to cellular damage in a variety of tissues. MnTnBuOE-2-PyP5+ (BuOE), a manganese porphyrin superoxide dismutase (SOD) mimic, also termed BMX-001, is remarkably beneficial in many animal models of oxidative stress injury. One study demonstrated that BuOE can reduce oxidative stress damage to the brain caused by radiation exposure. Our recent study showed that BuOE treatment during spaceflight significantly reduces the immunoreactivity of the oxidative stress biomarker 4-hydroxynonena (4-HNE) in the retina. This suggests that BuOE is effective in alleviating stress responses to spaceflight. Our present study will test whether BuOE treatment during spaceflight can attenuate spaceflight-induced alterations in gene transcription in specific brain regions.\n\nDespite broad interest in understanding region-specific stress responses, characterizing these changes has been a challenge. More recently, spatial transcriptomics technology has been developed, which allows us to simultaneously quantify gene expression levels and their spatial distribution within tissue sections. This method can help to better understand biological responses as well as disease development. In this study, we took advantage of this technology by using the Nanostring GeoMx® digital spatial profiling (DSP) platform to investigate spaceflight-induced changes in gene expression profiles in mouse CT, FCT, and hippocampal DG and CA regions, both with and without BuOE treatment. Our unique spatial sequencing data may, for the first time, provide insights into the organization and response of specific brain regions to the spaceflight environment, potentially improving risk assessment of long-term space travel.",
+  "methods": "4. Materials and Methods\n\n4.1. Spaceflight and Mouse Groups\n\nTen-week-old C57BL/6 male mice were launched at the Kennedy Space Center (KSC) and spent 35 days aboard the International Space Station (ISS). All mice were maintained at an ambient temperature of 26–28 °C with a 12-h light/dark cycle during the flight. All mice were provided NASA Nutrient-upgraded Rodent Food Bar (NuRFB) and autoclaved deionized water ad libitum. MnTnBuOE-2-PyP5+ (BuOE) at 1 mg/kg (0.2 mL) was administrated subcutaneously 7 days prior to the flight launch and weekly aboard the ISS. All mice were subdivided into saline or BuOE-treated groups. Upon return to the Earth, spaceflight mice were transported to the research laboratory at Roskamp Institute, Sarasota, Florida, within 20 h of splashdown. Mice were exsanguinated by closed-cardiac blood collection under deep Ketamine/Xylazine (150/45 mg/kg) anesthesia, followed by cervical dislocation as a secondary euthanasia method to ensure death. Ground control mice were maintained on Earth for 35 days in flight hardware cages under similar environmental conditions as the flight groups, including the same food, light/dark, temperature, treatment (SAL or BuOE), and euthanasia regimens. The protocol for GC mice commenced three days subsequent to the commencement of the protocol for spaceflight mice.\n\nAfter sacrifice, mouse brains were then removed and prepared as follows. The left hemibrains were fixed in 4% paraformaldehyde in phosphate-buffered saline (PBS) for 24 h and then rinsed and washed with PBS for immunohistochemistry (IHC) assays or spatial genomics profiling. The right brains were flash-frozen and stored at −80 °C for further analysis. The study was approved by the Institutional Animal Care and Use Committee (IACUC) of Loma Linda University (LLU), Roskamp Institute, and The National Aeronautics and Space Administration (NASA).\n\n4.2. GeoMx DSP\n\nDSP technology enables us to select specific regions of interest (ROIs) with high magnification. Three 6 μm formalin-fixed, paraffin-embedded (FFPE) tissue sections selected at a similar focal plane from three mice in each group were mounted on one slide for a total of 4 slides, one for each group (GC-SAL, GC-BuOE, FLT-SAL, and FLT-BuOE). Slides were baked for 2 h at 65 °C for paraffin removal before loading onto a Leica BOND RX for tissue rehydration in EtOH and ddH2O, heat-induced epitope retrieval (ER2 for 20 min at 100 °C) and proteinase K treatment (1.0 μg/mL for 15 min at 37 °C). Tissue sections were then hybridized with the Mouse Whole Transcriptome Atlas (WTA) probes overnight at 37 °C. Following 2 × 5 min stringent washes (1:1 4× SSC buffer and formamide), the slides were blocked for 30 min and then incubated with morphology marker antibodies for 1 h to guide region of interest (ROI) selection: GFAP (Texas Red/615nm channel, Alexa 594 fluorophore, 1:200 dilution, shown in green in Figure 1A, NBP2-33184DL594, Novus Biologicals, Littleton, CO, USA), and Iba1 (Cy5/666nm channel, Alexa 647 fluorophore, 1:100 dilution, shown in yellow in Figure 1A, 48934S, Cell Signalling Technologies, Danvers, MA, USA). Syto83 (Cy3/568 nm channel, Alexa 532 fluorophore, 1:10 dilution, shown in blue in Figure 1A, S11364, Invitrogen, Waltham, MA, USA) was used as a nuclear stain.\n\nAfter ROI selection, UV light was directed by the GeoMx (, accessed on 3 February 2022, NanoString Technologies, Inc., Seattle, WA, USA) device at each area of illumination (AOI), releasing the RNA-ID containing oligonucleotide tags from the WTA probes for collection into a unique well for each AOI. For library preparation, Illumina i5 and i7 dual indexing primers were added to the oligonucleotide tags during PCR to uniquely index each AOI. AMPure XP beads (Beckman Coulter, Indianapolis, IN, USA) were used for PCR purification. Library concentration was measured using a Qubit fluorometer (Thermo Fisher Scientific, Waltham, MA, USA), and quality was assessed using a Bioanalyzer (Agilent Technologies Inc., Santa Clara, CA, USA). Sequencing was performed on an Illumina NovaSeq 6000 (Illumina Inc., San Diego, CA, USA).\n\n4.3. GeoMx DSP Data Analysis\n\nRaw .fastq files were processed into gene count data for each AOI using the GeoMx® NGS Pipeline via Amazon Web Services. All subsequent data analysis described in this subsection was performed using the online GeoMx DSP analysis platform, GeoMx DSP Control Center version 3.0.0.111. Raw reads were trimmed, stitched, aligned, and finally deduplicated using default parameters. Using Q3 normalized read count data, a differential expression analysis of FLT-SAL versus GC-SAL, and FLT-BuOE versus FLT-GC, was performed for each brain region independently. Statistical significance of differential expression was measured by t-test (non-paired), and permutation q-values (p-adjusted) were calculated. Genes with q < 0.05 and |log2 FC| > 0.585 were considered differentially expressed and used for downstream analysis.\n\n4.4. Association of DEG’s with Neurological Disease\n\nA list of genes with known associations to human neurological diseases was obtained using the DisGeNET browse feature with the filters “Disease class: Mental disorders” and “Semantic type: disease or syndrome”. Only genes from curated databases were used.\n\n4.5. Pathway Analysis\n\nThe online tool Enrichr was used to perform pathway mapping for GC-SAL vs. FLT-SAL DEGs from each region independently. Enriched pathways in this paper are from the KEGG 2019 Mouse pathway analysis in the “legacy” tab of the Enrichr website.\n\n4.6. Principal Component Analysis\n\nQ3 normalized read counts output by the online GeoMx DSP analysis platform, as described above, were used as inputs for the PCA. The analysis was done in R version 4.0.3. The R function aov() was used to perform a linear analysis of variance (ANOVA) at each gene, using each biological sample as a factor. The R function qvalue() was then used to calculate ANOVA q-values for all genes, based on the p-values output by aov. Significant genes from the ANOVA (q < 0.05) were then input into the R function PCA() in order to generate PCA plots.\n\n4.7. Statistical Comparison of Spaceflight-Induced and BuOE-Induced DEG Overlaps\n\nFor a given brain region, let N = total # of spaceflight-induced DEGs (GC-SAL vs. FLT-SAL) plus total # of BuOE-induced DEGs (FLT-SAL vs. FLT-BuOE) for that region. For each brain region, a 2 × 2 contingency matrix,   was constructed, where X11 = # of spaceflight-induced DEGs changing in the opposite direction as BuOE-induced DEGs, X12 = N − X11, X21 = # of spaceflight-induced DEGs changing in the same direction as BuOE-induced DEGs, X22 = N − X21. Fisher’s exact test was then calculated on each 2 × 2 contingency matrix in order to obtain a p-value for the null hypothesis that the proportion of overlapping DEGs changing in the opposite direction was the same as the proportion of overlapping DEGs changing in the same direction.\n\n4.8. Permutation Testing of Spaceflight-Induced and BuOE-Induced DEG Overlaps\n\nFor each brain region, a random set of BuOE-induced DEGs was selected as follows. The total set of gene symbols analyzed was shuffled using the “shuf” command in Ubuntu 20.04.5 LTS. The top Nup genes in the shuffled file were selected as the upregulated, BuOE-induced DEGs, where Nup = total # of actual upregulated, BuOE-induced DEGs (FLT-SAL vs. FLT-BuOE) for the brain region. Similarly, the bottom Ndown genes in the shuffled file were selected as the downregulated, BuOE-induced DEGs, where Ndown = total # of actual downregulated, BuOE-induced DEGs in the brain region. The randomly selected DEGs were then compared with the actual spaceflight-induced DEGs (GC-SAL vs. FLT-SAL) to determine how many changed in opposite directions. This shuffling procedure was repeated 1000 times for each brain region.\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.",
+  "results": "2. Results\n\n2.1. Gene Expression Profiling of CA, DG, CT, and FCT Samples Subjected to Spaceflight\n\nWe performed in situ RNA assays in the brains of mice subjected to spaceflight (FLT), as well as grounded controls (GC), using DSP. Half of the mice were treated with BuOE, while the other half were treated with saline (SAL). Four regions within the brain of each mouse were assayed: the CA, DG, CT, and FCT (Figure 1A). All samples achieved high sequencing saturation (Supplementary File S1: Figure S1A), and Q3 normalization was performed on the data (Supplementary File S1: Figure S1B) for all downstream analyses. Normalized count values of gene expression were highly correlated across replicates of the four samples (Supplementary File S1: Figure S1C–F). A principal components analysis (PCA) revealed that spaceflight had an effect on all four regions in SAL control animals, with CA and DG being impacted the most (Figure 1B).\n\nWe next performed a differential expression analysis (FLT versus GC) on the SAL data from each brain region and identified a total of 408 differentially expressed genes (DEGs) in CA, 271 in DG, 189 in FCT, and 150 in CT (Figure 2A–D). Each brain region largely had a unique set of DEGs, though a small number of DEGs were common to two or more regions (Figure 2E).\n\nThe top five DEGs by magnitude of fold change are as follows: Ptgds, Cpne7, Cdkn2d, Msrb1, and Bsph1 for CA (Figure 3A and Supplementary File S1: Figure S2A), Sst, Crygc, Psrc1, Abtb2, and Kcna4 for DG (Figure 3B and Supplementary File S1: Figure S2B), Arc, Ptgds, Col6a1, Tshz2, and Dmrt2 for FCT (Figure 3C and Supplementary File S1: Figure S2C), and Arc, Ptgds, Mobp, Gm9936, and Apod for CT (Figure 3D and Supplementary File S1: Figure S2D). Many of these top-changing genes play important roles in apoptosis, cell cycle, neuroinflammation, neurotransmission, myelination, and mitochondrial and metabolic stress response.\n\nIn order to determine whether spaceflight might accelerate certain disease processes in the brain, we compared the FLT-SAL vs. GC-SAL DEGs to curated lists of gene-disease associations. Alzheimer’s disease (AD) was the most frequent disease associated with the DEGs, and each brain region had at least one DEG with a known association with AD; in all, 22 of the GC-SAL vs. FLT-SAL DEGs have a known association with a neurological disease (Supplementary File S2). This raises the possibility that spaceflight stress may increase the risk of onset and/or progression of certain neurological disorders, such as AD.\n\nNext, we performed a pathway analysis of the GC-SAL vs. FLT-SAL DEGs from each region independently. Importantly, each of the four brain regions had at least one pathway known to be affected by oxidative stress that was significantly enriched: VEGF signaling pathway in CA (Figure 4A), Calcium signaling pathway in DG (Figure 4B), FoxO signaling pathway in FCT (Figure 4C), and ECM-receptor interaction in CT (Figure 4D). In addition, a number of metabolic pathways were also significantly enriched, such as pyruvate metabolism and glycolysis/gluconeogenesis in CA, cAMP signaling pathway in DG, pantothenate and CoA biosynthesis in FCT, and glycosphingolipid biosynthesis in CT.\n\n2.2. BuOE Attenuates Spaceflight-Induced Transcriptional Changes in the CA, DG, FCT, and CT\n\nFinally, given that we observed a robust transcriptional response to spaceflight, we sought to determine if treatment with BuOE would attenuate these changes. A PCA of global transcription shows that in all brain regions examined except FCT, BuOE during spaceflight brought transcription levels closer to GC animals (Figure 5A and Supplementary File S1: Figure S3A), suggesting a partial attenuation of spaceflight transcriptional alterations by BuOE. Even for FCT, the distance between FLT-BuOE and GC-BuOE was smaller than the distance between FLT-SAL and GC-SAL, again suggesting BuOE results in a reduced transcriptional response due to spaceflight. We obtained BuOE-induced DEGs (FLT-SAL vs. FLT-BuOE) using the same criteria as for the spaceflight-induced DEGs (GC-SAL vs. FLT-SAL). We expected that if BuOE attenuates spaceflight-induced differential expression, then BuOE-induced DEGs should tend to change in the opposite direction as the spaceflight-induced DEGs. Indeed, for all brain regions, significantly more spaceflight-induced DEGs changed in the opposite direction as BuOE-induced DEGs (Figure 5B–E). We also performed a permutation test (see Section 4) in which genes were shuffled in order to randomly select up- and down-regulated BuOE-induced DEGs, and checked the overlaps with the spaceflight-induced DEGs. For all brain regions, the number of random overlaps after 1000 permutations was never as large as the number of actual overlaps in the opposite direction (Supplementary File S1: Figure S3B–E).\n\nAt many of the spaceflight-induced DEGs, the direction of change in expression by BuOE during spaceflight, regardless of significance, tended to be in the opposite direction, and in many cases these changes were not induced by BuOE in GC mice (Supplementary File S1: Figure S4A), again suggesting a partial attenuation of spaceflight-induced transcriptional changes in the brain by BuOE. Of note, such an attenuation was observed for several genes in the significantly enriched pathways responsive to oxidative stress; e.g., VEGF signaling pathway in CA (Figure 6A), Calcium signaling pathway in DG (Figure 6B), FoxO signaling pathway in FCT (Figure 6C), and ECM-receptor interaction in CT (Figure 6D). Similarly, BuOE also attenuated spaceflight-induced changes in the expression of several genes associated with Alzheimer’s disease (Supplementary File S1: Figure S4B–E).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "spaceflight",
+    "brain",
+    "digital spatial profiling",
+    "gene expression",
+    "regional difference",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Immune system dysregulation following short- vs long-duration spaceflight",
+      "authors": [
+        "B.E. Crucian",
+        "R.P. Stowe",
+        "D.L. Pierson",
+        "C.F. Sams"
+      ]
+    },
+    {
+      "title": "Perceptual-motor performance and associated kinematics in space",
+      "authors": [
+        "B. Fowler",
+        "S. Meehan",
+        "A. Singhal"
+      ]
+    },
+    {
+      "title": "Cognitive performance during prismatic displacement as a partial analogue of “space fog”",
+      "authors": [
+        "R.B. Welch",
+        "M. Hoover",
+        "E.F. Southward"
+      ]
+    },
+    {
+      "title": "Effects of alpha-lipoic acid on associative and spatial memory of sham-irradiated and 56Fe-irradiated C57BL/6J male mice",
+      "authors": [
+        "L.E. Villasana",
+        "R.A. Rosenthal",
+        "S.R. Doctrow",
+        "T. Pfankuch",
+        "D.G. Zuloaga",
+        "A.M. Garfinkel",
+        "J. Raber"
+      ]
+    },
+    {
+      "title": "Early effects of whole-body (56)Fe irradiation on hippocampal function in C57BL/6J mice",
+      "authors": [
+        "G.E. Haley",
+        "L. Yeiser",
+        "R.H. Olsen",
+        "M.J. Davis",
+        "L.A. Johnson",
+        "J. Raber"
+      ]
+    },
+    {
+      "title": "Persistent nature of alterations in cognition and neuronal circuit excitability after exposure to simulated cosmic radiation in mice",
+      "authors": [
+        "V.K. Parihar",
+        "M. Maroso",
+        "A. Syage",
+        "B.D. Allen",
+        "M.C. Angulo",
+        "I. Soltesz",
+        "C.L. Limoli"
+      ]
+    },
+    {
+      "title": "Space Radiation-Induced Alterations in the Hippocampal Ubiquitin-Proteome System",
+      "authors": [
+        "A. Tidmore",
+        "S.M. Dutta",
+        "A.S. Fesshaye",
+        "W.K. Russell",
+        "V.D. Duncan",
+        "R.A. Britten"
+      ]
+    },
+    {
+      "title": "What happens to your brain on the way to Mars",
+      "authors": [
+        "V.K. Parihar",
+        "B. Allen",
+        "K.K. Tran",
+        "T.G. Macaraeg",
+        "E.M. Chu",
+        "S.F. Kwok",
+        "N.N. Chmielewski",
+        "B.M. Craver",
+        "J.E. Baulch",
+        "M.M. Acharya"
+      ]
+    },
+    {
+      "title": "Evaluation of gene, protein and neurotrophin expression in the brain of mice exposed to space environment for 91 days",
+      "authors": [
+        "D. Santucci",
+        "F. Kawano",
+        "T. Ohira",
+        "M. Terada",
+        "N. Nakai",
+        "N. Francia",
+        "E. Alleva",
+        "L. Aloe",
+        "T. Ochiai",
+        "R. Cancedda"
+      ]
+    },
+    {
+      "title": "Effect of Simulated Microgravity on Human Brain Gray Matter and White Matter--Evidence from MRI",
+      "authors": [
+        "K. Li",
+        "X. Guo",
+        "Z. Jin",
+        "X. Ouyang",
+        "Y. Zeng",
+        "J. Feng",
+        "Y. Wang",
+        "L. Yao",
+        "L. Ma"
+      ]
+    },
+    {
+      "title": "Proteomic Analysis of Mouse Brain Subjected to Spaceflight",
+      "authors": [
+        "X.W. Mao",
+        "L.B. Sandberg",
+        "D.S. Gridley",
+        "E.C. Herrmann",
+        "G. Zhang",
+        "R. Raghavan",
+        "R.A. Zubarev",
+        "B. Zhang",
+        "L.S. Stodieck",
+        "V.L. Ferguson"
+      ]
+    },
+    {
+      "title": "Contribution of electrophysiological studies to cerebellar physiology",
+      "authors": [
+        "R.S. Dow"
+      ]
+    },
+    {
+      "title": "Effects of a spaceflight analog environment on brain connectivity and behavior",
+      "authors": [
+        "K. Cassady",
+        "V. Koppelmans",
+        "P. Reuter-Lorenz",
+        "Y. De Dios",
+        "N. Gadd",
+        "S. Wood",
+        "R.R. Castenada",
+        "I. Kofman",
+        "J. Bloomberg",
+        "A. Mulavara"
+      ]
+    },
+    {
+      "title": "Cortical thickness of primary motor and vestibular brain regions predicts recovery from fall and balance directly after spaceflight",
+      "authors": [
+        "V. Koppelmans",
+        "A.P. Mulavara",
+        "R.D. Seidler",
+        "Y.E. De Dios",
+        "J.J. Bloomberg",
+        "S.J. Wood"
+      ]
+    },
+    {
+      "title": "Altered regional homogeneity with short-term simulated microgravity and its relationship with changed performance in mental transformation",
+      "authors": [
+        "Y. Liao",
+        "D. Miao",
+        "Y. Huan",
+        "H. Yin",
+        "Y. Xi",
+        "X. Liu"
+      ]
+    },
+    {
+      "title": "Combined effects of antiorthostatic suspension and ionizing radiation on the behaviour and neurotransmitters changes in different brain structures of rats",
+      "authors": [
+        "V.S. Kokhan",
+        "M.I. Matveeva",
+        "A.S. Bazyan",
+        "V.S. Kudrin",
+        "A. Mukhametov",
+        "A.S. Shtemberg"
+      ]
+    },
+    {
+      "title": "The effects of irradiation by C-12 carbon ions on monoamine exchange in several rat brain structures",
+      "authors": [
+        "M.I. Matveeva",
+        "A.S. Shtemberg",
+        "G.N. Timoshenko",
+        "E.A. Krasavin",
+        "V.B. Narkevich",
+        "P.M. Klodt",
+        "V.S. Kudrin",
+        "A.S. Bazyan"
+      ]
+    },
+    {
+      "title": "Cell type-specific transcriptional programs in mouse prefrontal cortex during adolescence and addiction",
+      "authors": [
+        "A. Bhattacherjee",
+        "M.N. Djekidel",
+        "R. Chen",
+        "W. Chen",
+        "L.M. Tuesta",
+        "Y. Zhang"
+      ]
+    },
+    {
+      "title": "Prefrontal Physiomarkers of Anxiety and Depression in Parkinson’s Disease",
+      "authors": [
+        "C. de Hemptinne",
+        "W. Chen",
+        "C.A. Racine",
+        "A.L. Seritan",
+        "A.M. Miller",
+        "M.S. Yaroshinsky",
+        "S.S. Wang",
+        "R. Gilron",
+        "S. Little",
+        "I. Bledsoe"
+      ]
+    },
+    {
+      "title": "Hippocampus in health and disease: An overview",
+      "authors": [
+        "K.S. Anand",
+        "V. Dhikav"
+      ]
+    },
+    {
+      "title": "Medial prefrontal cortex and hippocampus in mice differently affected by simulate microgravity and social isolation associated with the alternation of emotional and cognitive functions",
+      "authors": [
+        "R. Liang",
+        "L. Wang",
+        "S. Sun",
+        "C. Zheng",
+        "J. Yang",
+        "D. Ming"
+      ]
+    },
+    {
+      "title": "Proteomic analysis of mice hippocampus in simulated microgravity environment",
+      "authors": [
+        "P. Sarkar",
+        "S. Sarkar",
+        "V. Ramesh",
+        "B.E. Hayes",
+        "R.L. Thomas",
+        "B.L. Wilson",
+        "H. Kim",
+        "S. Barnes",
+        "A. Kulkarni",
+        "N. Pellis"
+      ]
+    },
+    {
+      "title": "Effect of Prolonged Simulated Microgravity on Metabolic Proteins in Rat Hippocampus: Steps toward Safe Space Travel",
+      "authors": [
+        "Y. Wang",
+        "I. Javed",
+        "Y. Liu",
+        "S. Lu",
+        "G. Peng",
+        "Y. Zhang",
+        "H. Qing",
+        "Y. Deng"
+      ]
+    },
+    {
+      "title": "Late Effects of (16)O-Particle Radiation on Female Social and Cognitive Behavior and Hippocampal Physiology",
+      "authors": [
+        "F. Kiffer",
+        "T. Alexander",
+        "J.E. Anderson",
+        "T. Groves",
+        "J. Wang",
+        "V. Sridharan",
+        "M. Boerma",
+        "A.R. Allen"
+      ]
+    },
+    {
+      "title": "The dentate gyrus in Alzheimer’s disease",
+      "authors": [
+        "T.G. Ohm"
+      ]
+    },
+    {
+      "title": "Space flight and oxidative stress",
+      "authors": [
+        "T.P. Stein"
+      ]
+    },
+    {
+      "title": "Superoxide dismutase mimics: Chemistry, pharmacology, and therapeutic potential",
+      "authors": [
+        "I. Batinic-Haberle",
+        "J.S. Reboucas",
+        "I. Spasojevic"
+      ]
+    },
+    {
+      "title": "Radioprotection of the brain white matter by Mn(III) n-Butoxyethylpyridylporphyrin-based superoxide dismutase mimic MnTnBuOE-2-PyP5+",
+      "authors": [
+        "D.H. Weitzel",
+        "A. Tovmasyan",
+        "K.A. Ashcraft",
+        "Z. Rajic",
+        "T. Weitner",
+        "C. Liu",
+        "W. Li",
+        "A.F. Buckley",
+        "M.R. Prasad",
+        "K.H. Young"
+      ]
+    },
+    {
+      "title": "Evidence of Spaceflight-Induced Adverse Effects on Photoreceptors and Retinal Function in the Mouse Eye",
+      "authors": [
+        "X. Mao",
+        "S. Stanbouly",
+        "J. Holley",
+        "M. Pecaut",
+        "J. Crapo"
+      ]
+    },
+    {
+      "title": "An introduction to spatial transcriptomics for biomedical research",
+      "authors": [
+        "C.G. Williams",
+        "H.J. Lee",
+        "T. Asatsuma",
+        "R. Vento-Tormo",
+        "A. Haque"
+      ]
+    },
+    {
+      "title": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics",
+      "authors": [
+        "P.L. Stahl",
+        "F. Salmen",
+        "S. Vickovic",
+        "A. Lundmark",
+        "J.F. Navarro",
+        "J. Magnusson",
+        "S. Giacomello",
+        "M. Asp",
+        "J.O. Westholm",
+        "M. Huss"
+      ]
+    },
+    {
+      "title": "GeoMx RNA Assay: High Multiplex, Digital, Spatial Analysis of RNA in FFPE Tissue",
+      "authors": [
+        "D.R. Zollinger",
+        "S.E. Lingle",
+        "K. Sorg",
+        "J.M. Beechem",
+        "C.R. Merritt"
+      ]
+    },
+    {
+      "title": "Functions and dysfunctions of adult hippocampal neurogenesis",
+      "authors": [
+        "K.M. Christian",
+        "H. Song",
+        "G.L. Ming"
+      ]
+    },
+    {
+      "title": "Targeting hippocampal neurogenesis to protect astronauts’ cognition and mood from decline due to space radiation effects",
+      "authors": [
+        "C. McNerlin",
+        "F. Guan",
+        "L. Bronk",
+        "K. Lei",
+        "D. Grosshans",
+        "D.W. Young",
+        "M.W. Gaber",
+        "M. Maletic-Savatic"
+      ]
+    },
+    {
+      "title": "Cosmic ray hit frequencies in critical sites in the central nervous system",
+      "authors": [
+        "S.B. Curtis",
+        "M.E. Vazquez",
+        "J.W. Wilson",
+        "W. Atwell",
+        "M. Kim",
+        "J. Capala"
+      ]
+    },
+    {
+      "title": "Adult Neurogenesis in the Hippocampus: From Stem Cells to Behavior",
+      "authors": [
+        "J.T. Goncalves",
+        "S.T. Schafer",
+        "F.H. Gage"
+      ]
+    },
+    {
+      "title": "Adult Mammalian Neural Stem Cells and Neurogenesis: Five Decades Later",
+      "authors": [
+        "A.M. Bond",
+        "G.L. Ming",
+        "H. Song"
+      ]
+    },
+    {
+      "title": "Reset of hippocampal-prefrontal circuitry facilitates learning",
+      "authors": [
+        "A.J. Park",
+        "A.Z. Harris",
+        "K.M. Martyniuk",
+        "C.Y. Chang",
+        "A.I. Abbas",
+        "D.C. Lowes",
+        "C. Kellendonk",
+        "J.A. Gogos",
+        "J.A. Gordon"
+      ]
+    },
+    {
+      "title": "Space-like (56)Fe irradiation manifests mild, early sex-specific behavioral and neuropathological changes in wildtype and Alzheimer’s-like transgenic mice",
+      "authors": [
+        "B. Liu",
+        "R.G. Hinshaw",
+        "K.X. Le",
+        "M.A. Park",
+        "S. Wang",
+        "A.P. Belanger",
+        "S. Dubey",
+        "J.L. Frost",
+        "Q. Shi",
+        "P. Holton"
+      ]
+    },
+    {
+      "title": "28Silicon radiation-induced enhancement of synaptic plasticity in the hippocampus of naive and cognitively tested mice",
+      "authors": [
+        "J. Raber",
+        "E. Rudobeck",
+        "M. Campbell-Beachler",
+        "A.R. Allen",
+        "B. Allen",
+        "S. Rosi",
+        "G.A. Nelson",
+        "S. Ramachandran",
+        "J. Turner",
+        "J.R. Fike"
+      ]
+    },
+    {
+      "title": "VEGF in the nervous system",
+      "authors": [
+        "J.M. Rosenstein",
+        "J.M. Krum",
+        "C. Ruhrberg"
+      ]
+    },
+    {
+      "title": "Calcium and oxidative stress: From cell signaling to cell death",
+      "authors": [
+        "G. Ermak",
+        "K.J. Davies"
+      ]
+    },
+    {
+      "title": "Forkhead Homeobox Type O Transcription Factors in the Responses to Oxidative Stress",
+      "authors": [
+        "P. Storz"
+      ]
+    },
+    {
+      "title": "Linking Oxidative Stress and DNA Damage to Changes in the Expression of Extracellular Matrix Components",
+      "authors": [
+        "S.G. Martins",
+        "R. Zilhao",
+        "S. Thorsteinsdottir",
+        "A.R. Carlos"
+      ]
+    },
+    {
+      "title": "Shifts in metabolism and its regulation under the effect of spaceflight factors",
+      "authors": [
+        "I.M. Larina",
+        "I.A. Nichiporuk",
+        "O.M. Veselova",
+        "G.Y. Vasilieva",
+        "I.A. Popova"
+      ]
+    },
+    {
+      "title": "Spaceflight Activates Lipotoxic Pathways in Mouse Liver",
+      "authors": [
+        "K.R. Jonscher",
+        "A. Alfonso-Garcia",
+        "J.L. Suhalim",
+        "D.J. Orlicky",
+        "E.O. Potma",
+        "V.L. Ferguson",
+        "M.L. Bouxsein",
+        "T.A. Bateman",
+        "L.S. Stodieck",
+        "M. Levi"
+      ]
+    },
+    {
+      "title": "Nrf2 plays a critical role in the metabolic response during and after spaceflight",
+      "authors": [
+        "A. Uruno",
+        "D. Saigusa",
+        "T. Suzuki",
+        "A. Yumoto",
+        "T. Nakamura",
+        "N. Matsukawa",
+        "T. Yamazaki",
+        "R. Saito",
+        "K. Taguchi",
+        "M. Suzuki"
+      ]
+    },
+    {
+      "title": "Longitudinal metabolomic profiles reveal sex-specific adjustments to long-duration spaceflight and return to Earth",
+      "authors": [
+        "J.E. Stroud",
+        "M.S. Gale",
+        "S.R. Zwart",
+        "M. Heer",
+        "S.M. Smith",
+        "T. Montina",
+        "G.A.S. Metz"
+      ]
+    },
+    {
+      "title": "Spaceflight influences gene expression, photoreceptor integrity, and oxidative stress-related damage in the murine retina",
+      "authors": [
+        "E.G. Overbey",
+        "W.A. da Silveira",
+        "S. Stanbouly",
+        "N.C. Nishiyama",
+        "G.D. Roque-Torres",
+        "M.J. Pecaut",
+        "D.C. Zawieja",
+        "C. Wang",
+        "J.S. Willey",
+        "M.D. Delp"
+      ]
+    },
+    {
+      "title": "The development of lighting countermeasures for sleep disruption and circadian misalignment during spaceflight",
+      "authors": [
+        "G.C. Brainard",
+        "L.K. Barger",
+        "R.R. Soler",
+        "J.P. Hanifin"
+      ]
+    },
+    {
+      "title": "The alteration of human sleep and circadian rhythms during spaceflight",
+      "authors": [
+        "A. Gundel",
+        "V.V. Polyakov",
+        "J. Zulley"
+      ]
+    },
+    {
+      "title": "Multi-system responses to altered gravity and spaceflight: Insights from Drosophila melanogaster",
+      "authors": [
+        "J. Iyer",
+        "S.D. Mhatre",
+        "R. Gilbert",
+        "S. Bhattacharya"
+      ]
+    },
+    {
+      "title": "Circadian rhythms, sleep, and performance in space",
+      "authors": [
+        "M.M. Mallis",
+        "C.W. DeRoshia"
+      ]
+    },
+    {
+      "title": "Circadian misalignment affects sleep and medication use before and during spaceflight",
+      "authors": [
+        "E.E. Flynn-Evans",
+        "L.K. Barger",
+        "A.A. Kubey",
+        "J.P. Sullivan",
+        "C.A. Czeisler"
+      ]
+    },
+    {
+      "title": "Effects of dynamic lighting on circadian phase, self-reported sleep and performance during a 45-day space analog mission with chronic variable sleep deficiency",
+      "authors": [
+        "S.A. Rahman",
+        "B.A. Kent",
+        "L.K. Grant",
+        "T. Clark",
+        "J.P. Hanifin",
+        "L.K. Barger",
+        "C.A. Czeisler",
+        "G.C. Brainard",
+        "M.A. St Hilaire",
+        "S.W. Lockley"
+      ]
+    },
+    {
+      "title": "Anthropogenic Zinc Exposure Increases Mortality and Antioxidant Gene Expression in Monarch Butterflies with Low Access to Dietary Macronutrients",
+      "authors": [
+        "A.M. Shephard",
+        "N.S. Brown",
+        "E.C. Snell-Rood"
+      ]
+    },
+    {
+      "title": "Nonclinical Safety and Toxicokinetics of MnTnBuOE-2-PyP5+ (BMX-001)",
+      "authors": [
+        "S.C. Gad",
+        "D.W. Sullivan",
+        "I. Spasojevic",
+        "C.V. Mujer",
+        "C.B. Spainhour",
+        "J.D. Crapo"
+      ]
+    },
+    {
+      "title": "SOD therapeutics: Latest insights into their structure-activity relationships and impact on the cellular redox-based signaling pathways",
+      "authors": [
+        "I. Batinic-Haberle",
+        "A. Tovmasyan",
+        "E.R. Roberts",
+        "Z. Vujaskovic",
+        "K.W. Leong",
+        "I. Spasojevic"
+      ]
+    },
+    {
+      "title": "Impact of TREM2 risk variants on brain region-specific immune activation and plaque microenvironment in Alzheimer’s disease patient brain samples",
+      "authors": [
+        "S. Prokop",
+        "K.R. Miller",
+        "S.R. Labra",
+        "R.M. Pitkin",
+        "K. Hoxha",
+        "S. Narasimhan",
+        "L. Changolkar",
+        "A. Rosenbloom",
+        "V.M. Lee",
+        "J.Q. Trojanowski"
+      ]
+    },
+    {
+      "title": "Multiplex digital spatial profiling of proteins and RNA in fixed tissue",
+      "authors": [
+        "C.R. Merritt",
+        "G.T. Ong",
+        "S.E. Church",
+        "K. Barker",
+        "P. Danaher",
+        "G. Geiss",
+        "M. Hoang",
+        "J. Jung",
+        "Y. Liang",
+        "J. McKay-Fleisch"
+      ]
+    },
+    {
+      "title": "High-Plex Spatially Resolved RNA and Protein Detection Using Digital Spatial Profiling: A Technology Designed for Immuno-oncology Biomarker Discovery and Translational Research",
+      "authors": [
+        "J.M. Beechem"
+      ]
+    },
+    {
+      "title": "DisGeNET: A comprehensive platform integrating information on human disease-associated genes and variants",
+      "authors": [
+        "J. Pinero",
+        "A. Bravo",
+        "N. Queralt-Rosinach",
+        "A. Gutierrez-Sacristan",
+        "J. Deu-Pons",
+        "E. Centeno",
+        "J. Garcia-Garcia",
+        "F. Sanz",
+        "L.I. Furlong"
+      ]
+    },
+    {
+      "title": "Enrichr: Interactive and collaborative HTML5 gene list enrichment analysis tool",
+      "authors": [
+        "E.Y. Chen",
+        "C.M. Tan",
+        "Y. Kou",
+        "Q. Duan",
+        "Z. Wang",
+        "G.V. Meirelles",
+        "N.R. Clark",
+        "A. Ma’ayan"
+      ]
+    },
+    {
+      "title": "Enrichr: A comprehensive gene set enrichment analysis web server 2016 update",
+      "authors": [
+        "M.V. Kuleshov",
+        "M.R. Jones",
+        "A.D. Rouillard",
+        "N.F. Fernandez",
+        "Q. Duan",
+        "Z. Wang",
+        "S. Koplev",
+        "S.L. Jenkins",
+        "K.M. Jagodnik",
+        "A. Lachmann"
+      ]
+    },
+    {
+      "title": "KEGG: Kyoto encyclopedia of genes and genomes",
+      "authors": [
+        "M. Kanehisa",
+        "S. Goto"
+      ]
+    },
+    {
+      "title": "Analysis of Variance; Designed Experiments",
+      "authors": [
+        "J.M. Chambers",
+        "T. Hastie"
+      ]
+    },
+    {
+      "title": "The positive false discovery rate: A Bayesian interpretation and the q-value",
+      "authors": [
+        "J.D. Storey"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "F.O. Husson",
+        "S.B. Lê",
+        "J.R.M. Pageès"
+      ]
+    }
+  ],
+  "original_title": "Spaceflight-induced gene expression profiles in the mouse brain are attenuated by treatment with the antioxidant BuOE",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f7e/10487739/06c6242c8527/ijms-24-13569-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f7e/10487739/2be2b7e92fb6/ijms-24-13569-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f7e/10487739/417c5daf656f/ijms-24-13569-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f7e/10487739/f7169501aeb8/ijms-24-13569-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f7e/10487739/b51a3a96ce32/ijms-24-13569-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f7e/10487739/cbad7397aa4e/ijms-24-13569-g006.jpg"
+  ]
+}

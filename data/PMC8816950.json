@@ -1,0 +1,664 @@
+{
+  "pmcid": "PMC8816950",
+  "title": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis",
+  "abstract": "Water unavailability is an abiotic stress causing unfavourable conditions for life. Nevertheless, some animals evolved anhydrobiosis, a strategy allowing for the reversible organism dehydration and suspension of metabolism as a direct response to habitat desiccation. Anhydrobiotic animals undergo biochemical changes synthesizing bioprotectants to help combat desiccation stresses. One stress is the generation of reactive oxygen species (ROS). In this study, the eutardigrade Paramacrobiotus spatialis was used to investigate the occurrence of ROS associated with the desiccation process. We observed that the production of ROS significantly increases as a function of time spent in anhydrobiosis and represents a direct demonstration of oxidative stress in tardigrades. The degree of involvement of bioprotectants, including those combating ROS, in the P. spatialis was evaluated by perturbing their gene functions using RNA interference and assessing the successful recovery of animals after desiccation/rehydration. Targeting the glutathione peroxidase gene compromised survival during drying and rehydration, providing evidence for the role of the gene in desiccation tolerance. Targeting genes encoding glutathione reductase and catalase indicated that these molecules play roles during rehydration. Our study also confirms the involvement of aquaporins 3 and 10 during rehydration. Therefore, desiccation tolerance depends on the synergistic action of many different molecules working together.",
+  "introduction": "Introduction\n\nInsufficient hydration is extremely stressful for living organisms as water is required for metabolic reactions. Nevertheless, some animals living in habitats subject to periodic or unpredictable desiccation periods have evolved a remarkable adaptive strategy called anhydrobiosis. This physiological state allows for the nearly complete dehydration of the animal’s body and cells, a reduced or suspended metabolism leading to a temporary suspension of active life processes, and finally a developmental standstill as a direct response to the desiccation of the surrounding habitat of the animals. This state is reversed by the reappearance of environmental water, with the restoring of metabolism and of all features of active life, even after the permanence in a desiccated state for months to decades. However, anhydrobiosis, as well as the time spent in a desiccated state, can still cause cellular damages, including membrane destabilization, protein and nucleic acid denaturation, metabolic dysregulation, and oxidative stress with the eventual death of organisms.\n\nTo withstand stress caused by the drastic loss of body water, many anhydrobiotic animals first slow the rate of their dehydration by modifying their body in a compact structure that reduces the surface area, and consequently the evaporation rate. Simultaneously, they undergo biochemical changes associated with the synthesis of molecules working as bioprotectants, which replace cellular water or stabilize cellular machinery. To gain insights into anhydrobiosis and what bioprotectants help to mediate this phenomenon, tardigrades are an attractive model.\n\nTardigrades are hygrophilous animals that need to be surrounded by a film of water to perform active life. As a consequence, their capability to colonise terrestrial environments (e.g. moss, lichen, soil, and leaf litter) is linked to their well-known ability to enter anhydrobiosis at any stage of their life cycle, from egg to adult. As their surroundings lose water, tardigrades lose most (> 95%) of their free and bound body water and suspend their metabolism. The loss of water is accompanied by the invagination of the intersegmental cuticle and by the retraction of the head and legs, resulting in a compact tun-shaped body. Anhydrobiotic (desiccated) tardigrades can withstand several physical and chemical extremes (e.g. very low and high temperature, high pressure, vacuum, organic solvents and radiations) that are far more extreme than that imposed by their natural habitats, including space conditions. As well as in other anhydrobiotic animals, the desiccation in tardigrades is accomplished through morphological changes (tun) together with the synthesis of different bioprotectants. These molecules include, for example, osmolytes, trehalose, antioxidants, Heat Shock Proteins (HSPs), Aquaporin Proteins (AQPs) and Intrinsically Disordered Proteins (IDPs), including the Late Embryogenesis Abundant Proteins (LEA). Trehalose, a disaccharide with high ability for water-replacement during dehydration, immobilising macromolecules and stabilizing cellular structure through vitrification has long been implicated in desiccation tolerance. The presence and the amount of trehalose detected in tardigrades are different from species to species, but is much lower than the one recorded in other anhydrobiotic animals that use trehalose as mechanism to reduce damages induced by desiccation. Therefore, the degree of involvement of trehalose as a protective molecule in anhydrobiotic tardigrades is still debated. Antioxidants, such as scavenging enzymes, limit oxidative stress, which appears to be one of the most deleterious damages associated with desiccation. The depletion of water changes the ionic concentration of anhydrobiotic organisms, including tardigrades, leading to the formation of reactive oxygen species (ROS), consisting in free radicals [e.g. superoxide anion radical (O2−), hydroxyl radical (OH·), perhydroxy radical (HO2·)] and non-radical forms [e.g. hydrogen peroxide (H2O2) and singlet oxygen (1O2)]. Water loss therefore increases the susceptibility of biomolecules to the attack of reactive oxygen molecules, damaging proteins, membranes, and DNA. Since aquaporins contribute to water transport through plasma membranes, some researchers have suggested that they play some role in anhydrobiosis, hypothesizing their involvement in the regulation of water loss to fine tune desiccation kinetics. However, it remains unclear if aquaporins function in preparing anhydrobiotic animals for desiccation or play a role in rehydration.\n\nIn this paper, the eutardigrade Paramacrobiotus spatialis Guidetti et al., 2019 was selected as a model organism (Fig. 1) in light of its robust ability to survive desiccation. To understand what bioprotectants might be involved in mitigating the stresses imposed by desiccation, we first sought to identify exactly what those stresses are. As mentioned above, water loss can lead to the generation of deleterious ROS, however this has never been directly tested before in tardigrades. To verify whether desiccation induces production of ROS in tardigrades, we analysed the ROS production in the coelomocytes (storage cells; Fig. 1c). Coelomocytes are round free-floating cells in the body cavity of tardigrades which act as reservoirs and transporters of lipids and glycogen. The number of storage cells in a tardigrade specimen is in the range of a few hundred up to more than 1000 cells according to the species, while their size changes along with animal life cycle including oocyte developmental in females. Contrasting data are reported about the decline in size and number of storage cells after a period of anhydrobiosis in tardigrade species. A decline in size of storage cells is due to the use of stored material as energy requirements to enter and exit anhydrobiosis.\n\nNext, we investigated possible roles for endogenous protectants, such as antioxidant enzymes, aquaporin proteins and the sugar trehalose, in desiccation tolerance. Genes encoding five antioxidant enzymes (catalase, superoxide dismutase, glutathione peroxidase, glutathione transferase and glutathione reductase), for two aquaporins (aquaporins 3 and 10) and for the enzyme trehalose-6-phosphate synthase were thus targeted using RNA interference (RNAi), and later the successful recover of P. spatialis specimens after desiccation was verified.",
+  "methods": "Methods\n\nCollection of the target species\n\nThe eutardigrade Paramacrobiotus spatialis Guidetti et al. 2019 was used as target species. Specimens were collected from hazel-leaf litter at Formigine (80 m a.s.l.; 44° 34.253′ N, 10° 50.892′ E, Modena, Northern Italy). Leaf litter was immersed in tap water and then animals were extracted from their substrate by means of sieves, picked up with a glass pipette under a stereomicroscope and stored in tap water and natural mineral water 1:1 (rearing water) at 16 °C for 24 h before their use.\n\nExperimental desiccation and rehydration of tardigrades\n\nAnimals were desiccated using a climate chamber (CHL, Angelantoni Industrie, Milan, Italy) that allows to control air temperature and relative humidity (RH) of the air. Animals were placed on a blot filter paper with a drop of rearing water and kept at 18 °C and 80% RH for 4 h, then to 50% RH for 4 h, and finally at 20 °C and 0–3% RH overnight. At the end of these steps, the tardigrade body has the typical compact tun shape structure of a desiccated/anhydrobiotic tardigrade (Fig. 1d).\n\nTo rehydrate desiccated tardigrades, small amounts of rearing water were slowly added on each filter paper every 10 min for a total of 60 min, this rehydration step is here termed the “rehydration process”. Rehydrated tardigrades were maintained at 16 °C and observed under a stereomicroscope. Coordinated and active movements of the body (locomotion performance) constituted the criterion to evaluate tardigrade motility (survival). Locomotion performance was evaluated right after the rehydration process (t0) and after 1 h (t1) and 24 h (t24) (see Altiero et al.).\n\nDetection of reactive oxygen species production under desiccation\n\nThe production of Reactive Oxygen Species (ROS) was detected after specimens of P. spatialis were kept in a desiccated state for 1 and 20 days (see above protocol) at 16 °C and 0–3% RH. In particular, ROS production was evaluated in coelomocytes (storage cells) 3 and 12 h after the rehydration process. As control, specimens kept in rearing water were used.\n\nFor each experimental conditions and controls, 2–5 animals were used, and for each animal 6–45 singular storage cells randomly chosen were analysed (Table S1).\n\nThe fluorescent probe 2,7-dichlorodihydrofluorescein diacetate (DCFH2-DA) diluted in methanol was used. It is the most common probe to detect overall level of intracellular ROS. Preliminary tests evidenced that tardigrades survive when kept for 45 min in methanol used for dilution (methanol: distilled water, 1:10).\n\nEach tardigrade was sonicated for 90 s in rearing water to allow the entrance of the probe in the tardigrade, and then incubated in 1 ml of 10 µM DCFH2-DA in methanol for 45 min at 20 °C in the dark. After these steps, each tardigrade was washed with rearing water, mounted on a slide with rearing water as mounting medium. Then, the animal was gently broken with a pressure on cover slip to obtain the release of isolated storage cells. Cells were observed using Leica TCS SP2 AOBS spectral confocal scanner microscope mounted on a Leica DM IRE2 inverted fluorescence microscope, with an Ar excitation laser (λexc = 488 nm) for DCFH2-DA (λem = 543 nm) available at Centro Interdipartimentale Grandi Strumenti (CIGS) of University of Modena and Reggio Emilia.\n\nThe ROS signal was measured quantifying the intensity of the fluorescence signal of each storage cell using the program ImageJ (National Institutes of Health). The fluorescence intensity of storage cells was standardised removing the storage cell size effect and the background signal.\n\nThe following formula was used:\n\nIntensity of the storage cell signal = total fluorescence intensity of storage cell - [(x/y)·z].\n\nIn which: x = mean of two areas of the fluorescence intensity, y = mean of two background areas, z = storage cell area.\n\nThe mean value of fluorescence intensity of all previously measured storage cells was considered for each experimental condition (Table S2).\n\nThe statistical comparisons of ROS signals among the different experimental groups and controls were evaluated through the analysis of variance (one-way ANOVA) with a Tukey post-hoc test, using the program SPSS 23 (SPSS Inc., Chicago, IL. USA).\n\nTargeting of genes potentially involved in desiccation tolerance\n\nThe RNA interference technique was utilised to target eight tardigrade genes. The genes gpx, gr, gst, cat, sod and tps (encoding the enzymes glutathione peroxidase, glutathione reductase, glutathione transferase, catalase, superoxide dismutase, and trehalose-6-phosphate synthase, respectively), and aqp 3 and aqp 10 (encoding the membrane channel aquaporin proteins 3 and 10) were targeted in order to disrupt their function. To verify the involvement of these target genes in the desiccation tolerance of P. spatialis, three groups of animals were used: 1. uninjected control animals (control 1); 2. control animals injected with RNase free water (control 2); 3. injected animals with the dsRNA of a target gene (experimental group). For each target gene, three replicates each of 10 P. spatialis specimens (experimental group) were used. Each animal was injected with the dsRNA of a single target gene at the concentration of 4 µg/µl (see paragraph below). For both control groups, three replicates each of 10 animals were used.\n\nThe methodological steps applied to animals were: injection (except for control 1), desiccation, rehydration, and check of animal motility. The injection was performed following the protocol by Tenlen et al. with slight modifications. In particular, injection needles were pulled from borosilicate glass capillaries 1B100F-4 (Word Precision Instruments, Inc.) using a PC-10 Puller (Narishige). Injection slides were prepared as indicated by Tenlen et al.. Injections of the animals were performed using an inverted microscope (Nikon Eclipse TE300) and a manual micromanipulator (Leitz Wetzlar) linked to a Hamilton Microliter™ syringe. Needle tips were broken by gently stroking the tips against the edge of a triangular coverslip piece to obtain an opening in the needle tip of 2–3 µm in diameter. The successful injection of dsRNA or RNAfree water into the body cavity of tardigrades was confirmed by the swelling of the body as indicated by Tenlen et al..\n\nAll injected tardigrades were transferred in rearing water and left overnight to allow the dsRNA to disrupt the gene function, as indicated by Boothby et al.. Therefore, they were individually desiccated as described above, kept desiccated for 2 days, and rehydrated using the protocol described above. Tardigrade motility was recorded using the criterion of locomotion performance, which was evaluated right after the rehydration process (t0) and after 1 h (t1), 24 h (t24) and 48 h (t48).\n\nThe Kruskal–Wallis test was applied to compare the percentage of motile tardigrades (with locomotion performance) injected with dsRNA with respect to those of controls 1 and 2 at t0, t1, t24 and t48. The tps gene was chosen as a further control (Control 3) to exclude the possibility that the injection of large amount of dsRNA is harmful for P. spatialis, since animals targeted for this gene exhibited negligible effects on the motilities at every time of rehydration. The Kruskal–Wallis test was applied to compare the motility percentages of tardigrades injected with tps dsRNA with respect to those of animals injected with dsRNA of other target genes at t0, t1, t24 and t48. The statistical analysis was performed with the program SPSS 23 (SPSS Inc., Chicago, IL, USA).\n\nSynthesis of specific target gene dsRNA\n\nThe transcriptome of P. spatialis was compared with the transcriptome of the eutardigrade Hypsibius exemplaris Gąsiorek, Stec, Morek & Michalczyk, 2018 and with sequences of the nematode C. elegans Maupas, 1900 contained in WormBase and GenBank. Obtained sequences were aligned using the program BLAST to design gene-specific primers (Table S4). Genomic DNA was extracted from five specimens of P. spatialis using the Worm Lysis Buffer. Gene-specific primers (Table S4) were used to amplify the target sequence with these cycles: first denaturation step for 2 min at 95 °C, at least 15 cycles with 30 s at 95 °C, annealing at 70 °C for 1 min with a decreasing rate of 1 °C/cycle until the melting temperature (Tm; Table S4) of the tested primers is reached, 2 min at 72 °C, 30 cycles with 30 s at 95 °C, annealing at Tm of the tested primers for 1 min, and 2 min at 72 °C, with a final elongation step at 72 °C for 5 min. PCR products of each target gene were directly inserted into a plasmid vector (pCR™ -Blunt II-TOPO® vector) and cloned using the Zero Blunt TOPO PCR Cloning Kit (Thermo Fisher). The recombinant vector was then used to transform competent Mach1™ T1R cells of Escherichia coli (Thermo Fisher). To verify if the target gene has been inserted in the vector, a PCR reaction was performed using the purified plasmid DNA as a template and gene-specific primers, with this cycle: 30 cycles with denaturation at 95 °C for 30 s, annealing at 53 °C for 30 s min, and elongation at 72 °C for 1 min, with a final elongation step at 72 °C for 5 min. After successful control of the amplification, several clones were sequenced for each gene, using gene-specific primers. After sequencing, the plasmid sequence was aligned with the target gene sequence using the program BLAST to check the real insertion of the target gene in the plasmid and the absence of introns in the sequence. New primers were designed by adding the sequence of promoter T7 (5′-TAA TAC GAC TCA CTA TAG GG-3′) to the 5′ portion of each original gene specific primer sequence (Table S4) and they were used to synthesize dsRNA from the P. spatialis genomic DNA, using the T7 RiboMAX™ Express RNAi System (Promega), following the manufacturer’s protocol. Following ethanol precipitation, dsRNA of each target gene was resuspended in nuclease-free water and was ready to be used in RNAi. The targeted genes and their sequence references are reported in Table S2. The list of targeted sequences is reported in the supplementary section.\n\nProtocol to verify the successful targeting of genes by RNAi\n\nA protocol was designed to verify if RNAi led to a decrease of each target gene expression level. A new group of five specimens of P. spatialis were injected with each target gene specific dsRNA, then individually desiccated, and rehydrated following the protocols described above. At t0 (after the rehydration process), total RNA was extracted from each animal using the MasterPure Kit (Epicentre), and then used to synthesise cDNA using the SuperScript® III First-Strand Synthesis System for RT-PCR (Thermo Fisher), following the manufacturer’s protocol. Then, each target gene was amplified using the specific primers designed on P. spatialis transcriptome (Table S4) and applying the same thermal cycling conditions described above. As a PCR control, the same RNA extracted from each individual tardigrade was used to amplify the DNA polymerase II, which was used as control gene (accession number: GFGY01000030; position: 7492–7959; length: 468 bp; targeted sequence in supplementary section). For this gene, specific designed primers (F- 5′-GTC ACG GAC GAA GGA GAA TTT A-3′; R- 5′-ACG TGA AGA TGG GCG TAT TG-3′) were used.",
+  "results": "Results\n\nProduction of reactive oxygen species (ROS) in anhydrobiosis\n\nThe overall level of intracellular Reactive Oxygen Species (ROS) was assessed using the fluorescent probe 2,7-dichlorodihydrofluorescein diacetate (DCFH2-DA). The ROS production in anhydrobiosis was determined measuring the intensity of the fluorescent signal emitted by storage cells of the desiccation tolerant tardigrade P. spatialis. Storage cells are particularly useful as they are numerous as well as the only cell type within the tardigrade body cavity. Storage cells are also easy to obtain and manipulate, whereas other tissues in tardigrades are more difficult to obtain and work with (Fig. 1c,d). Figure 2 shows the fluorescence signals detected respectively 3 h and 12 h after the rehydration process in tardigrade storage cells previously kept in a desiccated state for 1 day and 20 days, and in the animals kept in a hydrated state as control.\n\nDisruption of target genes function\n\nRNA interference (RNAi) was used to disrupt the function of genes encoding proteins potentially involved in desiccation tolerance in the tardigrade Paramacrobiotus spatialis. RNAi has previously been characterized in tardigrades and is known to target specific gene products for destruction both in adults during desiccation and in embryos during development. Similarly, it has been shown that large amounts of non-specific dsRNA (e.g. double stranded RNA targeting GFP) do not affect tardigrade survival nor embryo viability and development. In this study, the eight genes targeted by RNAi were: gpx, gr, gst, cat and sod, encoding for enzymes (glutathione peroxidase, glutathione reductase, glutathione transferase, catalase, and superoxide dismutase, respectively) that counteract reactive oxygen species; tps, encoding for the enzyme trehalose-6-phosphate synthase, involved in the pathways of trehalose production; aqp 3 and aqp 10, encoding for aquaporin proteins 3 and 10, which are presumably involved in the rapid transport of water through cell membranes.\n\nThe involvement of these target genes was verified by comparing the motilities of P. spatialis animals that have exited tun belonging to three groups: 1. uninjected control animals (control 1); 2. injected with RNase free water control animals (control 2); 3. injected animals with the double stranded RNA (dsRNA) of the target gene (experimental group). The motility of the animals after a period of anhydrobiosis was evaluated by monitoring locomotion performance (i.e. coordinate movements of the body) immediately after the rehydration process (t0), 1 h (t1), 24 h (t24), and 48 h (t48) later.\n\nAdditionally, five specimens of P. spatialis were individually injected with dsRNA of each target gene, desiccated, and then rehydrated. A reverse transcriptase-polymerase chain reaction (RT-PCR) showed a marked decrease in the expression level of each target gene in comparison to DNA polymerase II (DNA pol II) used as a control gene (Fig. S1), indicating that RNA interference led to a decrease in the targeted gene’s expression level.\n\nThe assessment of motility in both control 1 (uninjected) and control 2 (water injected) animals always resulted 100% (Fig. 3a,b), since all animals are alive at each time point assayed after the rehydration process. These data demonstrate that the desiccation protocol was suitable for P. spatialis, and that the injection alone does not affect survival of the tardigrades during anhydrobiosis. On the other hand, significant differences were recorded between the motility percentages of both controls and most experimental groups (Fig. 3; Kruskal–Wallis test: number of pairwise comparisons = 132; p < 0.001). For treatments targeting antioxidant enzymes, specimens injected with dsRNA of gpx showed significantly lower motilities with respect to both types of controls at every time after the rehydration process (t0: p < 0.001; t1: p < 0.01; t24: p < 0.01; t48: p < 0.01; Fig. 3c). In animals injected with dsRNA for genes of gr, cat and sod, significant differences with respect to both types of controls were only observed between the percentages of animal motilities recorded at t0 (immediately after the rehydration process) (gr: p < 0.01; cat: p < 0.01; sod: p < 0.01; Fig. 3d,f,g). Significant differences in the motility percentages with respect to both types of controls were also evidenced at t0, t1 and t24 in animals injected with dsRNA of aqp 3 (t0: p < 0.01, t1: p < 0.05; t24: p < 0.05; Fig. 3i) and at t0, t1 and t24 in animals injected with dsRNA of aqp 10 (t0: p < 0.001, t24: p < 0.01; t48: p < 0.01; Fig. 3j).The motility percentages of animals injected with dsRNA of the gst and tps genes did not show significant differences with respect to both types of controls (uninjected and water injected) at every time after the rehydration process (Fig. 3e,h). Since RNAi knockdown of the tps gene resulted in negligible effects on the animal motilities at all times following rehydration, and since the tps dsRNA was the largest used in our study (Table S2), we consider this gene as a further control (control 3), and further evidences that the injection of large amount of dsRNA is not harmful for P. spatialis. The motility percentages of animals injected with dsRNA targeting the tps gene compared with the motility percentages of animals injected with dsRNA of other target genes shows significant differences (Table S3). These statistical differences are consistent with the scored significances of comparisons between controls (non-injected and water injected) and target genes, except for motility at t0 of animals injected with sod dsRNA, motilities at t1 and t24 of animals targeted for aqp 3 and motilities at t24 and t48 of animals targeted for aqp 10 (Fig. 3; Table S3). Therefore, only for these exceptions is it possible to presume an effect on P. spatialis motilities was due to injection of large dsRNA.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Evolution",
+    "Zoology",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Cryptobiosis — a peculiar state of biological organization",
+      "authors": [
+        "JS Clegg"
+      ]
+    },
+    {
+      "title": "The limits and frontiers of desiccation-tolerance life",
+      "authors": [
+        "P Alpert"
+      ]
+    },
+    {
+      "title": "Anhydrobiosis: The extreme limit of desiccation tolerance",
+      "authors": [
+        "L Rebecchi",
+        "T Altiero",
+        "R Guidetti"
+      ]
+    },
+    {
+      "title": "Survival in extreme environments: On the current knowledge of adaptations in tardigrades",
+      "authors": [
+        "N Møbjerg"
+      ]
+    },
+    {
+      "title": "Anhydrobiosis in invertebrates",
+      "authors": [
+        "M Watanabe"
+      ]
+    },
+    {
+      "title": "Extreme-tolerance mechanisms in meiofaunal organisms: A case study with tardigrades, rotifers and nematodes",
+      "authors": [
+        "L Rebecchi",
+        "C Boschetti",
+        "DR Nelson"
+      ]
+    },
+    {
+      "title": "Peroxides in Biological Systems, Functional Groups in Organic Chemistry",
+      "authors": [
+        "J Cadet",
+        "P Di Mascio",
+        "Z Rappoport"
+      ]
+    },
+    {
+      "title": "Nuclear and mitochondrial compartmentation of oxidative stress and redox signaling",
+      "authors": [
+        "JM Hansen",
+        "YM Go",
+        "DP Jones"
+      ]
+    },
+    {
+      "title": "Oxidative stress and its effects during dehydration",
+      "authors": [
+        "MB França",
+        "AD Panek",
+        "ECA Eleutherio"
+      ]
+    },
+    {
+      "title": "Survival and DNA degradation in anhydrobiotic tardigrades",
+      "authors": [
+        "L Rebecchi",
+        "M Cesari",
+        "T Altiero",
+        "A Frigieri",
+        "R Guidetti"
+      ]
+    },
+    {
+      "title": "The induction of anhydrobiosis in the sleeping chironomid: Current status of our knowledge",
+      "authors": [
+        "R Cornette",
+        "T Kikawada"
+      ]
+    },
+    {
+      "title": "Anhydrobiosis in tardigrades: The last decade",
+      "authors": [
+        "W Wełnicz",
+        "MA Grohme",
+        "Ł Kaczmarek",
+        "RO Schill",
+        "M Frohme"
+      ]
+    },
+    {
+      "title": "Dry and survive: The role of antioxidant defenses in anhydrobiotic organisms",
+      "authors": [
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "Introduction to desiccation biology: From old borders to new frontiers",
+      "authors": [
+        "O Leprince",
+        "J Buitinik"
+      ]
+    },
+    {
+      "title": "Role of intrinsic disorder in animal desiccation tolerance",
+      "authors": [
+        "B Janis",
+        "C Belott",
+        "MA Menze"
+      ]
+    },
+    {
+      "title": "The biology of tardigrade disordered proteins in extreme stress tolerance",
+      "authors": [
+        "C Hesgrove",
+        "TC Boothby"
+      ]
+    },
+    {
+      "title": "Anhydrobiotic coiling of nematodes in soil",
+      "authors": [
+        "Y Demeure",
+        "DW Freckman",
+        "SD Van Gundy"
+      ]
+    },
+    {
+      "title": "Cryptobiosis in Tardigrada",
+      "authors": [
+        "JC Wright",
+        "P Westh",
+        "H Ramløv"
+      ]
+    },
+    {
+      "title": "Dry and survive: Morphological changes during anhydrobiosis in a bdelloid rotifers",
+      "authors": [
+        "R Marotta",
+        "F Leasi",
+        "A Uggetti",
+        "C Ricci",
+        "G Melone"
+      ]
+    },
+    {
+      "title": "Trehalose and anhydrobiosis in tardigrades: Evidence for divergence in responses to dehydration",
+      "authors": [
+        "S Hengherr",
+        "AG Heyer",
+        "H-R Köhler",
+        "RO Schill"
+      ]
+    },
+    {
+      "title": "Induction of Hsp70 by desiccation, ionising radiation and heat-shock in the eutardigrade Richtersius coronifer",
+      "authors": [
+        "KI Jönsson",
+        "RO Schill"
+      ]
+    },
+    {
+      "title": "Antioxidant defences in hydrated and desiccated states of the tardigrade Paramacrobiotus richtersi",
+      "authors": [
+        "AM Rizzo"
+      ]
+    },
+    {
+      "title": "Current findings on the molecular mechanisms underlying anhydrobiosis in Polypedilum vanderplanki",
+      "authors": [
+        "Y Sogame",
+        "T Kikawada"
+      ]
+    },
+    {
+      "title": "Tardigrades use intrinsically disordered proteins to survive desiccation",
+      "authors": [
+        "TC Boothby"
+      ]
+    },
+    {
+      "title": "Comparative transcriptomics suggest unique molecular adaptations within tardigrade lineages",
+      "authors": [
+        "M Kamilari",
+        "A Jørgensen",
+        "M Schiøtt",
+        "N Møbjerg"
+      ]
+    },
+    {
+      "title": "Thermotolerance experiments on active and desiccated states of Ramazzottius varieornatus emphasize that tardigrades are sensitive to high temperatures",
+      "authors": [
+        "RC Neves",
+        "LKB Hvidepill",
+        "TL Sørensen-Hygum",
+        "RM Stuart",
+        "N Møbjerg"
+      ]
+    },
+    {
+      "title": "Mechanisms of desiccation tolerance: Themes and variations in brine shrimp, roundworms, and tardigrades",
+      "authors": [
+        "JD Hibshman",
+        "JS Clegg",
+        "B Goldstein"
+      ]
+    },
+    {
+      "title": "On dormancy strategies in tardigrades",
+      "authors": [
+        "R Guidetti",
+        "T Altiero",
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "Die anabiose der Tardigraden",
+      "authors": [
+        "H Baumann"
+      ]
+    },
+    {
+      "title": "The tardigrade cuticle II. Evidence for a dehydration-dependent permeability barrier in the cuticle",
+      "authors": [
+        "JC Wright"
+      ]
+    },
+    {
+      "title": "Tardigrade resistance to space effects: First results of experiments on the LIFE—TARSE Mission on FOTON-M3 (September 2007)",
+      "authors": [
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "Establishment of a rearing system of the extremotolerant tardigrade Ramazzottius varieornatus: A new model animal for astrobiology",
+      "authors": [
+        "DD Horikawa"
+      ]
+    },
+    {
+      "title": "Tardigrades survive exposure to space in low earth orbit",
+      "authors": [
+        "KI Jönsson"
+      ]
+    },
+    {
+      "title": "Ultraviolet radiation tolerance in hydrated and desiccated eutardigrades",
+      "authors": [
+        "T Altiero",
+        "R Guidetti",
+        "V Caselli",
+        "M Cesari",
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "Extremotolerant tardigrade genome and improved radiotolerance of human cultured cells by tardigrade-unique protein",
+      "authors": [
+        "T Hashimoto"
+      ]
+    },
+    {
+      "title": "Will the Antarctic tardigrade acutuncus antarcticus be able to withstand environmental stresses related to global climate change?",
+      "authors": [
+        "I Giovannini",
+        "T Altiero",
+        "R Guidetti",
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "From anhydrobiosis to freeze-drying of eukaryotic cells",
+      "authors": [
+        "WF Wolkers",
+        "F Tablin",
+        "JH Crowe"
+      ]
+    },
+    {
+      "title": "The physiology of cryptobiosis in tardigrada",
+      "authors": [
+        "JH Crowe"
+      ]
+    },
+    {
+      "title": "Trehalose accumulation in the tardigrade Adorybiotus coronifer during anhydrobiosis",
+      "authors": [
+        "P Westh",
+        "H Ramløw"
+      ]
+    },
+    {
+      "title": "Physiological traits of invertebrates entering cryptobiosis in a post-embryonic stage",
+      "authors": [
+        "M Watanabe"
+      ]
+    },
+    {
+      "title": "Inorganic ion composition in tardigrada: Cryptobionts contain a large fraction of unidentified organic solutes",
+      "authors": [
+        "KA Halberg",
+        "K Wulff Larsen",
+        "A Jørgensen",
+        "H Ramløv",
+        "N Møbjerg"
+      ]
+    },
+    {
+      "title": "Mechanism of oxygen activation during plant stress",
+      "authors": [
+        "EF Elstner",
+        "W Osswald"
+      ]
+    },
+    {
+      "title": "A modulating role for antioxidant in desiccation tolerance",
+      "authors": [
+        "I Kranner",
+        "S Birtić"
+      ]
+    },
+    {
+      "title": "Oxidants and human disease: some new concepts",
+      "authors": [
+        "B Halliwell"
+      ]
+    },
+    {
+      "title": "Dehydration-inducible changes in expression of two aquaporins in the sleeping chironomid polypedilum vanderplanki",
+      "authors": [
+        "T Kikawada"
+      ]
+    },
+    {
+      "title": "Transcriptome survey of the anhydrobiotic tardigrade Milnesium tardigradum in comparison with Hypsibius dujardini and Richtersius coronifer",
+      "authors": [
+        "B Mali"
+      ]
+    },
+    {
+      "title": "Comparative genomics of the tardigrades Hypsibius dujardini and Ramazzottius varieornatus",
+      "authors": [
+        "Y Yoshida"
+      ]
+    },
+    {
+      "title": "Dynamics of long-term anhydrobiotic survival of lichen-dwelling tardigrades",
+      "authors": [
+        "L Rebecchi",
+        "R Guidetti",
+        "S Borsari",
+        "T Altiero",
+        "R Bertolani"
+      ]
+    },
+    {
+      "title": "Ricerche di microscopia elettronica sui Tardigradi. II. I globuli cavitari",
+      "authors": [
+        "F Rosati"
+      ]
+    },
+    {
+      "title": "Studies on the morphology of Macrobiotus richtersi Murray, 1911",
+      "authors": [
+        "B Węglarska"
+      ]
+    },
+    {
+      "title": "Experimentally induced anhydrobiosis in the tardigrade Richtersius coronifer: phenotypic factors affecting survival",
+      "authors": [
+        "KI Jönsson",
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "Comparative studies on storage cells in tardigrades during starvation and anhydrobiosis",
+      "authors": [
+        "A Reuner",
+        "S Hengherr",
+        "F Brümmer",
+        "RO Schill"
+      ]
+    },
+    {
+      "title": "Experimentally induced repeated anhydrobiosis in the eutardigrade Richtersius coronifer",
+      "authors": [
+        "M Czernekova",
+        "KI Jönsson"
+      ]
+    },
+    {
+      "title": "Cell Biology of the Tardigrades: Current Knowledge and Perspectives",
+      "authors": [
+        "KI Jönsson",
+        "I Holm",
+        "H Tassidis",
+        "W Tworzydlo",
+        "SM Bilinski"
+      ]
+    },
+    {
+      "title": "Flow cytometric studies of oxidative product formation by neutrophils: a graded response to membrane stimulation",
+      "authors": [
+        "DA Bass"
+      ]
+    },
+    {
+      "title": "Oligomycin A and the IPLB-LdFB insect cell line: Actin and mitochondrial responses",
+      "authors": [
+        "G Tettamanti",
+        "D Malagoli",
+        "E Ottaviani",
+        "M de Eguileor"
+      ]
+    },
+    {
+      "title": "RNA interference can be used to disrupt gene function in tardigrades",
+      "authors": [
+        "JR Tenlen",
+        "S McCaskill",
+        "B Goldstein"
+      ]
+    },
+    {
+      "title": "Interdependence between storage bodies and egg developmental stages in Macrobiotus richtersi Murray, 1911 (Tardigrada)",
+      "authors": [
+        "B Szymańska"
+      ]
+    },
+    {
+      "title": "The mitochondrial generation of hydrogen peroxide. General properties and effect of hyperbaric oxygen",
+      "authors": [
+        "A Boveris",
+        "B Chance"
+      ]
+    },
+    {
+      "title": "Carbonylation accumulation of the Hypsibius exemplaris anhydrobiote reveals age-associated marks",
+      "authors": [
+        "M Kuzmic",
+        "M Richaud",
+        "P Cuq",
+        "S Frelon",
+        "S Galas"
+      ]
+    },
+    {
+      "title": "Desiccation tolerance of prokaryotes",
+      "authors": [
+        "M Potts"
+      ]
+    },
+    {
+      "title": "Protection against oxidation during dehydration of yeast",
+      "authors": [
+        "EJ Pereira",
+        "AD Panek",
+        "ECA Eleutherio"
+      ]
+    },
+    {
+      "title": "Desiccation stress in intertidal seaweeds: effects on morphology, antioxidant responses and photosynthetic performance",
+      "authors": [
+        "MR Flores-Molina"
+      ]
+    },
+    {
+      "title": "The impact of dehydration on the production and cellular location of reactive oxygen species in an aquatic moss",
+      "authors": [
+        "R Cruz de Carvalho",
+        "M Català",
+        "G Marques da Silva",
+        "C Branquinho",
+        "E Barreno"
+      ]
+    },
+    {
+      "title": "Effect of desiccation and resubmersion on the oxidative stress response of the kuruma shrimp Marsupenaeus japonicas",
+      "authors": [
+        "Y Duan"
+      ]
+    },
+    {
+      "title": "Expression profiling and cross-species RNA interference (RNAi) of desiccation-induced transcripts in the anhydrobiotic nematode Aphelenchus avenae",
+      "authors": [
+        "W Readon"
+      ]
+    },
+    {
+      "title": "Overexpression of glutathione S- transferase/glutathione peroxidase enhances the growth of transgenic tobacco seedlings during stress",
+      "authors": [
+        "VP Roxas",
+        "K Roger",
+        "Jr Smith",
+        "ER Allen",
+        "RD Allen"
+      ]
+    },
+    {
+      "title": "Molecular strategies of the Caenorhabditis elegans dauer larva to survive extreme desiccation",
+      "authors": [
+        "C Erkut"
+      ]
+    },
+    {
+      "title": "Desiccation survival in an Antarctic nematode: Molecular analysis using expressed sequenced tags",
+      "authors": [
+        "BN Adhikari",
+        "DH Wall",
+        "BJ Adams"
+      ]
+    },
+    {
+      "title": "A molecular analysis of desiccation tolerance mechanisms in the anhydrobiotic nematode Panagrolaimus superbus using expressed sequenced tags",
+      "authors": [
+        "T Tyson"
+      ]
+    },
+    {
+      "title": "Multiomics study of a heterotardigrade, Echiniscus testudo, suggests the possibility of convergent evolution of abundant heat-soluble proteins in tardigrada",
+      "authors": [
+        "Y Murai"
+      ]
+    },
+    {
+      "title": "Antioxidant metabolism of Xenopus leavis embryos the first days of development",
+      "authors": [
+        "AM Rizzo",
+        "L Adorni",
+        "G Montorfano",
+        "F Rossi",
+        "B Berra"
+      ]
+    },
+    {
+      "title": "Dehydration, rehydration, and overhydration alter patterns of gene expression in the Antarctic midge Belgica Antarctica",
+      "authors": [
+        "G Lopez-Martines"
+      ]
+    },
+    {
+      "title": "Induction of glutaredoxin expression in response to desiccation stress in the foliar nematode Aphelenchoides fragariae",
+      "authors": [
+        "Z Fu",
+        "P Agudelo",
+        "CE Wells"
+      ]
+    },
+    {
+      "title": "New insights into survival strategies of tardigrades",
+      "authors": [
+        "N Møbjerg",
+        "RC Neves"
+      ]
+    },
+    {
+      "title": "Trehalose in three species of desiccation tolerant tardigrades",
+      "authors": [
+        "KI Jönsson",
+        "O Persson"
+      ]
+    },
+    {
+      "title": "Identification of the trehalose-6-phosphate synthase (tps) gene in desiccation tolerant and intolerant tardigrades",
+      "authors": [
+        "M Cesari",
+        "T Altiero",
+        "L Rebecchi"
+      ]
+    },
+    {
+      "title": "Parallel evolution of trehalose production machinery in anhydrobiotic animals via recurrent gene loss and horizontal transfer",
+      "authors": [
+        "Y Hara",
+        "R Shibahara",
+        "K Kondo",
+        "W Abe",
+        "T Kunieda"
+      ]
+    },
+    {
+      "title": "Anhydrobiosis without trehalose in bdelloid rotifers",
+      "authors": [
+        "J Lapinski",
+        "A Tunnaclife"
+      ]
+    },
+    {
+      "title": "Aquaporins with selectivity for unconventional permeants",
+      "authors": [
+        "B Wu",
+        "E Beittz"
+      ]
+    },
+    {
+      "title": "The current knowledge of invertebrate aquaporin water channels with particular emphasis on insect AQPs",
+      "authors": [
+        "E Tomkowiak",
+        "JR Pienkowska"
+      ]
+    },
+    {
+      "title": "Functional analysis of the aquaporin gene family in Caenorhabditis elegans",
+      "authors": [
+        "CG Huang",
+        "T Lamitina",
+        "P Agre",
+        "K Strange"
+      ]
+    },
+    {
+      "title": "Aquaporins play a role in desiccation and freeze tolerance in larvae of the goldenrod gall fly",
+      "authors": [
+        "BN Philip",
+        "S Yi",
+        "MA Elnitsky",
+        "RE Lee"
+      ]
+    },
+    {
+      "title": "Comparative proteome analysis of Milnesium tardigradum in early embryonic state versus adults in active and anhydrobiotic state",
+      "authors": [
+        "E Schokraie"
+      ]
+    },
+    {
+      "title": "The aquaporin channel repertoire of the tardigrade Milnesium tardigradum",
+      "authors": [
+        "MA Grohme"
+      ]
+    },
+    {
+      "title": "The compact body plan of tardigrades evolved by the loss of a large body region",
+      "authors": [
+        "FW Smith"
+      ]
+    },
+    {
+      "title": "Consortium, C.e.S. Genome sequence of the nematode C. elegans: a platform for investigating biology. Science, 282, 2012–2018 (1998).",
+      "authors": []
+    }
+  ],
+  "original_title": "Production of reactive oxygen species and involvement of bioprotectants during anhydrobiosis in the tardigrade Paramacrobiotus spatialis",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/14bb/8816950/2d5d2e65a4fb/41598_2022_5734_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/14bb/8816950/bc78063098fc/41598_2022_5734_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/14bb/8816950/099e64ba4d04/41598_2022_5734_Fig3_HTML.jpg"
+  ]
+}

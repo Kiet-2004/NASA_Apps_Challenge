@@ -1,0 +1,629 @@
+{
+  "pmcid": "PMC7171750",
+  "title": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation",
+  "abstract": "Background\n\nSpaceflight impacts astronauts in many ways but little is known on how spaceflight affects the salivary microbiome and the consequences of these changes on astronaut health, such as viral reactivation. In order to understand this, the salivary microbiome was analyzed with 16S rRNA gene amplicon sequencing, and saliva viral titers were analyzed with quantitative polymerase chain reaction (qPCR) with primers specific for Epstein-Barr virus (EBV), herpes simplex virus (HSV), and varicella zoster virus (VZV) from 10 astronauts pre-flight, in-flight, and post-flight.\n\nResults\n\nStreptococcus was the most abundant organism in the saliva, making up 8% of the total organisms detected, and their diversity decreased during spaceflight. Other organisms that had statistically significant changes were Proteobacteria and Fusobacteria which increased during flight and Actinobacteria which decreased during flight. At the genus level, Catonella, Megasphera, and Actinobacillus were absent in more than half of saliva samples collected pre-flight but were then detected during flight. In those subjects that already had these genera pre-flight, their relative abundances increased during flight. Correlation analyses between the microbiome and viral titers revealed a positive correlation with Gracilibacteria, Absconditabacteria, and Abiotrophia and a negative correlation between Oribacterium, Veillonella, and Haemophilus. There was also a significant positive correlation between microbiome richness and EBV viral titers.\n\nConclusions\n\nThis is the first study to look at how the salivary microbiome changes as a result of spaceflight and the search for bacterial biomarkers for viral reactivation. Further studies examining the role of specific organisms that were shown to be correlative and predictive in viral reactivation, a serious problem in astronauts during spaceflight, could lead to mitigation strategies to help prevent disease during both short and long duration space missions.\n\nVideo abstract.",
+  "introduction": "Introduction\n\nThe World Health Organization published a surveillance strategy report in 2015 stating that worldwide, non-infectious disease (NIDs) represented 43% of global disease burden and was expected to be responsible for 60% of the disease burden and 73% of all deaths by 2020s. In 2016, 80% of NID deaths were due to cancers, cardiovascular diseases, chronic respiratory diseases, and diabetes, with the remaining 20% due to immune disorders, digestive issues, genitourinary disease, and oral or dental conditions. The collection of bacteria and less dominant micro-organisms that inhabit our body is termed the human microbiome and plays an integral role in maintaining health. Changes in the composition of one’s microbiome may promote the development of the aforementioned NIDs, as individuals with inflammatory bowel disease, asthma, diabetes, cardiovascular disease, colorectal cancer, and breast cancer have different bacterial communities than healthy individuals. While it is still unclear whether these microbial differences are a consequence or a cause of disease, there is evidence in favor of the latter, as healthy animals transplanted with feces from those with obesity, colitis, or colorectal cancer then go on to develop disease.\n\nThe importance of the human microbiome in health promotion is just as relevant to astronauts and perhaps even more so, as medical procedures and facilities are limited during spaceflight. As of 2018, there have been 557 astronauts/cosmonauts that have flown to outer space with well-documented physiological and immunological issues, such as bone loss, muscle atrophy, fatigue, elevated cortisol levels, nausea, skin/urinary tract/upper-respiratory tract infections, and impaired innate/adaptive immunity. However, data is still limited on how the human microbiome, which plays an integral role in human health, is impacted by spaceflight and whether changes in the astronaut microbiome contribute to the conditions experienced by many astronauts.\n\nCulture analyses conducted during the Skylab missions suggest that oral microbial populations may change during spaceflight, as increased counts of anaerobic bacteria from intra-oral sites were recorded in-flight compared to pre-flight samples from 18 astronauts studied. The effects of spaceflight on the oral microbiome should be examined in detail as imbalances have been implicated in oral cancer, caries, periodontitis, immune regulation, cardiovascular disease, and diabetes, and thus could significantly impact the health of astronauts during long-term spaceflight (i.e., manned missions to Mars).\n\nReactivation of latent herpesviruses has been documented in astronauts for years. Reactivation of Epstein-Barr virus (EBV), varicella-zoster virus (VZV), and cytomegalovirus (CMV) have been observed during both short (10–16 days) and long (60–180 days) duration ISS missions with longer missions producing higher viral titers and prolonged shedding upon return to Earth (shedding for 30 days post-flight [long duration mission] vs shedding for 5 days post flight [shorter duration]). The impact of EBV shedding, for example, on crew health could be limited to the minor symptoms of infection to an increased risk of lymphoma, oral squamous cell carcinoma, and mononucleosis. The role of the oral microbiome in viral reactivation during spaceflight has not yet been studied, but may be a key factor in this phenomenon. Its role may be indirect, through immune modulation or directly, through bacterial-viral interactions. Studies have shown that short-chain fatty acids produced by oral bacteria induce reactivation of latent human immunodeficiency virus (HIV), Kaposi’s sarcoma herpesvirus (KSHV), and EBV, by activating viral promotors and/or causing epigenetic modifications in the inserted viral genome.\n\nThe aim of this study was to examine, for the first time, whether and how the salivary microbiome changes as a result of spaceflight and whether there is a microbiome signature that may be influential in preventing or promoting viral reactivation in humans. The data acquired from this study could help inform the NASA medical team about the role of bacterial signatures in maintaining crew health while in space.",
+  "methods": "Methods\n\nSaliva sample collection and DNA extraction\n\nSaliva samples were collected from 10 male astronauts at various time points over the course of their mission. The duration of spaceflight ranged from 2–9 months with an average ISS mission being 4.4 months. Samples were collected (i) two times pre-flight, at 180 days (L-180) and 90 (L-90) days before launch, (ii) three times during flight, at early (1–2 months on ISS) and mid (2–4 months on ISS), and late (10 days before landing) time points and (iii) four times post-flight, on landing day (R + 0), 30 days (R + 30), 60 days (R + 60), and 180 days (R + 180) after return. These time points were adjusted (+/− 30 days) according to the convenience of crew members. The samples were collected by the astronauts themselves by placing a synthetic polymer swab (Salimetrics LLC, State College, PA) in one’s mouth and swirling it around for 2–3 min until saturation. The samples were stored at − 80 °C until ready to process. Once all samples from a given subject was collected, they were thawed and then centrifuged at ×1400g for 5 min to separate the fluid from the swab. The separated fluid was stored at − 80 °C until DNA extraction and the swab discarded.\n\nDNA isolation\n\nThe frozen fluid was allowed to thaw on ice and then vortexed and centrifuged at ×16,000g for 20 min to make a cell pellet at the bottom of the tube. The supernatant was discarded, and the cell pellet was re-suspended in 200 μL PBS. DNA was extracted from this re-suspended pellet with a QIA-Amp DNA kit (Qiagen; Germantown, MD). DNA concentration was determined with the NanoDrop ND-1000 spectrophotometer (NanoDrop Technologies, Inc. Wilmington, DE).\n\nDetection and quantification of EBV, HSV-1, and VZV\n\nQuantitative real-time PCR was performed in a TaqMan 7900 sequence detector (Applied Biosystems) using fluorescence-based amplification. Two microliters of viral DNA was added to 2× TaqManTM Fast Universal PCR master mix (Thermofischer, USA), with primers added to a final concentration of 100 nmol and probes added to a final concentration of 50 nmol. Primer sequences and probes for the herpes viruses (EBV, VZV, and HSV-1) along with the glyceraldehyde 6-phosphate dehydrogenase (GAPDH) DNA sequences are listed in Table 1 and have been described previously. Viral DNA standards generated from each herpes virus ranging from 100 to 106 copies/μl were included in all reactions. Reactions were performed in triplicate and were as follows: initial denaturation at 94 °C for 20 s, followed by 40 cycles of 95 °C for 1 s, and 60 °C for 20 s. A sample was considered negative for virus if it had lower than 10 copies of viral DNA.\n\nMicrobiome analysis\n\nThe scripts used to perform the following processing and analyses are presented in Dataset S3.\n\nLibrary preparation and sequencing\n\nThe V3/V4 region (~ 460 bp) of the isolated genomic DNA was paired-end sequenced (2 × 300 bp) on the Illumina Mi-Seq platform following the protocol outlined by Illumina (https://support.illumina.com/documents/documentation/chemistry_documentation/16s/16s-metagenomic-library-prep-guide-15044223-b.pdf). To summarize, amplicon PCR was performed by adding 2.5ul of 5 ng/ul of DNA to 5 ul of 1uM Forward primer, 5ul of 1uM reverse primer, and 12.5 ul of 2× KAPA HiFi HotStart ReadyMix. Forward primer sequences are 5′TCGTCGGCAGCGTCAGATGTGTATAAGAGACAGCCTACGGGNGGCWGCAG 3′. Reverse primer sequences are 5′GTCTCGTGGGCTCGGAGATGGTATAAGAGACAGGACTACHVGGGTATCTAATCC 3′. The PCR condition were as follows: 95 °C for 3 min followed by 25 cycles of 95 °C for 30 s, 55 °C for 30s, and 72 °C for 30s. A final elongation step was performed at 72 °C for 5 min.\n\nFollowing quality control and PCR clean up, index PCR was set up with the Nextera XT index kit and a limited-cycle amplification (8 cycles) to attach dual indices and adapters to the amplicons. The library was quantified using Qubit and normalized to 4 nM for all samples, after which all samples were pooled together. The pooled library was loaded onto the sequencer at 6pM with 10% phiX spiked in. The Miseq run utilized the v3 chemistry and 2 × 300 cycle sequencing kit (MS-102-3003). Samples were demultiplexed and adaptors removed using bcl2fastq from Illumina.\n\n16S rRNA raw data processing and quality control\n\nThe DADA2 pipeline (https://benjjneb.github.io/dada2/index.html) was used for quality control and processing (including chimera removal) of the raw demultiplexed reads resulting in an amplicon sequence variant (ASV) table, a “higher resolution analogue of the traditional OTU table.” The filter and trim parameters were truncLen = c (280, 220), trimLeft = c (17, 21), maxN = c (0, 0), maxEE = c (2, 2), truncQ = c (2, 2), and rm.phix = c (TRUE, TRUE).\n\nTaxonomy was assigned with the SILVA reference database (version 128) (https://benjjneb.github.io/dada2/training.html) using both the “nr” and “species assignment” databases. A custom script was used to filter the ASV table to keep only those samples that had greater than 100 reads and to keep only those ASV that were at least 0.01% abundant in a sample. The NTC sequencing control had 170 reads, with none of the ASV shared between the samples. The two kit controls had 6094 and 2969 reads. ASVs that were found exclusively in the kit control were removed from the table, along with 14 ASVs that were found in the kit controls and at least one sample. The average number of reads across all samples was 126,694 (ranging from 6216 to 312,133) totaling 697 ASVs.\n\nThe positive control that was processed with DADA2 (92,514 reads) validated our pipeline as the sequence was only present in the positive control and had a 100% match with 100% coverage to the reference sequence.\n\nBioinformatics analyses\n\nAlpha diversity metrics (Shannon’s diversity, Richness, Phylogenetic diversity) were calculated in QIIME. Multiple rarefactions were performed on the ASV table, with the following arguments: − m 1000 (seq/sample), − x 100000 (seq/sample), and − s 5000 (steps between min/max of seq/sample), with the number of reps being two, − n 2. For alpha diversity of Streptococcus ASVs, the conditions were as followed: − m 1000, − x 50000, − s 4000, and − n 1. The data generated in QIIME was plotted and visualized in Prism (v.7). Significance between pre-flight, flight, and post-flight samples was measured using the Kruskal-Wallis one-way analysis of variance, paired design, followed by the Benjamini-Hochberg multiple comparison post-hoc test in Prism. Linear regression analyses were also performed which produced the same results as the Kruskal-Wallis test. Significance was defined as P < 0.05.\n\nPhyla and genus level data used in various analyses were summarized from ASV data using QIIME. NMDS, heatmaps, and boxplots were generated in R (http://www.R-project.org/) using centered log ratio (clr) transformed data (transformed using the “compositions” package in R) with a uniform prior of 0.5 added to each value before transformation. The ALDEx2 package in R was used to compare the relative abundances of phyla and genera between the different flights. Significance was based on the Benjamini-Hochberg corrected p value of the Wilcoxon rank test (significance threshold P < 0.05).\n\nSpearman’s rho values and corresponding p values for correlation analyses between phyla (clr transformed data) from samples either positive or negative for virus (Fig. 5 data) were generated in R using the rcorr function. The p.adjust function was used to correct the p values using the Benjamini-Hochberg method. The heatmaps of rho values were generated using the heatmap.2 function in the “gplots” package.\n\nKendall tau and corresponding p values for correlation analysis between (i) Shannon’s diversity and qPCR viral load and (ii) observed richness and qPCR viral load was performed with the cor.test function in R for each rarefaction, followed by a false discovery rate p value correction using the p.adjust function.\n\nCorrelation analysis between the microbiome and viral load was performed using the ALDEx2 package as previously described. Briefly, the Spearman’s rank correlation between the relative abundances of each genus (clr transformed) in 128 inferred technical replicates and the EBV and HSV-1 viral load as measured by qPCR was calculated using the aldex.corr function. Spearman’s rho values were converted to p values and corrected by the Benjamini-Hochberg procedure using the cor.test function in R. The heatmap of Spearman’s rho values was generated using the heatmap.2 function in the “gplots” package.\n\nRandom forests analysis was performed in R using the “randomForest,” “plyr,” “rfUtilities,” and “caret” packages on clr transformed data. LOOCV and OOB methods were employed using 500 decision trees, 1000 permutations, and 7 features to be randomly sampled at each node in the tree (i.e., mtry = 7).\n\nAvailability of data and materials\n\nThe raw Illumina sequencing reads have been submitted to NCBI’s short read archive (SRA) under accession number PRJNA539937. The data can also be found in NASA's GeneLab data repository under the following link:https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-280\n\nEthics approval and consent to participate\n\nNot applicable\n\nConsent for publication\n\nNot applicable",
+  "results": "Results\n\nEighty-nine samples from ten astronauts were analyzed by 16S rRNA gene sequencing for microbiome analysis and qPCR for viral titer measurements. The timepoints for each sample collected the viral status, and flight history are presented in Dataset S1.\n\nImpact of spaceflight on the salivary microbiome\n\nAlpha diversity of the salivary microbiome was assessed with Shannon’s diversity (measure of richness and evenness), Faith’s phylogenetic diversity (phylogenetic difference between the observed sequences), and community richness (number. of observed amplicon sequence variants [ASVs]). All three metrics showed that microbiome diversity and richness increased during spaceflight (P < 0.05) but then dropped back to pre-flight levels upon return to Earth (Fig. 1).\n\nStreptococcus is the most abundant organism in the saliva, and in this dataset consisted of 58 amplicon sequence variants, making up 8% of the total. For this reason, it was of interest to examine how alpha diversity of Streptococcus sequences changed as a result of spaceflight. Unlike the collective microbiome, Shannon’s diversity of Streptococcus was lower in spaceflight samples compared to pre-flight and post-flight samples (P < 0.05), and while diversity did rebound after flight, it did not reach pre-flight values (Figure S1A). On the other hand, while pre-flight and in-flight samples did not show significant differences in richness (though the number of observed Streptococcus sequences did decrease slightly in-flight), there was a significant decrease in the number of streptococcal sequences in samples collected post-flight (Figure S1B).\n\nBeta diversity of the salivary microbiome was also compared. Non-metric multidimensional scaling (NMDS) of the centered log ratio (clr) transformed data did not show any distinct clustering, indicating no overall microbiome differences between subjects and based on flight status (Fig. 2). Statistical analyses using ALDEx2 did, however, show that the relative abundances of three phyla changed over time, with Proteobacteria and Fusobacteria increasing in relative abundances during flight and Actinobacteria decreasing (Fig. 3a). While post-flight samples resembled pre-flight values more so than flight values, they were either higher (Proteobacteria and Fusobacteria) or lower (Actinobacteria) than what was observed pre-flight. At the genus level, in more than half of the subjects tested, Catonella, Megasphera, and Actinobacillus were absent in saliva collected pre-flight but were then detected during flight (Fig. 3b). In those subjects that already had these genera pre-flight, their relative abundances increased during flight (Fig. 3b). The read counts of all genera detected and grouped by subject, and flight status is summarized as a heatmap in Figure S2.\n\nWhile NMDS analysis of the salivary microbiome showed no differences based on flight status at the population level (Fig. 2), studies have shown that in some cases, population level analyses may mask microbiome differences that occur at the individual level. For this reason, NMDS ordination was performed for each subject, in order to better understand the impact of spaceflight on the salivary microbiome. Five out of the 10 subjects clustered based on flight status with pre-flight, flight, and post-flight samples all different from each other (Fig. 4). It is important to note that different taxa were responsible for the differences based on flight status in these five individuals. For the other five subjects, while there was some overlap between samples collected from the different flight groups, pre-flight samples were never similar to post-flight samples.\n\nAssociation between viral reactivation and salivary microbiome\n\nThe correlation between members of the salivary microbiome was examined for saliva samples that were either positive or negative for EBV or HSV-1 (as determined by qPCR). Associations between phyla changed depending on whether samples were negative or positive for virus. In saliva devoid of virus (no viral reactivation), positive correlations were present between (i) Actinobacteria and Firmicutes and (ii) Fusobacteria and Proteobacteria, with an inverse relation between (i) Gracilibacteria and Proteobacteria and (ii) Absconditabacteria and Proteobacteria (Fig. 5a). However, in saliva with viral reactivation, all bacterial correlations disappeared except for the inverse association between Gracilibacteria and Proteobacteria (Fig. 5b).\n\nTo determine which genera were most discriminatory between viral negative and viral positive samples, the machine-learning algorithm random forests (RF) was applied to genus level abundance data. The out-of-bag (OOB) error rate was 24%, and the leave-one-out cross validation (LOOCV) showed our model to be 75% accurate. Taxa that proved most discriminatory between the two groups were ordered according to mean decrease in accuracy (Fig. 6). Gracilibacteria was the most predictive followed by Lactobacillus, Stomatobaculum, and Oribacetrium. RF was also applied to Streptococcus sequences due to their abundance in the samples. With an OOB error rate of 19% and a LOOCV accuracy of 81%, Streptococcus strains were discriminatory between the cohorts with S. mutans being the most predictive of viral status (Fig S3).\n\nCorrelations were examined between viral copy numbers (determined by qPCR) and the relative abundances of the microbiome (16S rRNA sequencing). Spearman’s rho correlation values between EBV or HSV-1 viral abundance and relative abundances of the salivary microbiome are shown in the heatmap in Fig. 7. For EBV, the strongest positive correlation was observed for the candidate phyla Gracilibacteria and Absconditabacteria and the genus Abiotrophia. The strongest inverse correlation was observed for Oribacterium, Clostridiales_FamilyXIII, Lachnoanaerobaculum, Haemophilus, Johnsonella, and Stomatobaculum. No significant correlations were, however, observed between HSV-1 viral abundance and microbiome relative abundances, as all Spearman’s rho correlations were under +/− 0.3 (“weak correlations”), and none of the correlations had p values less than 0.05. A summary of Spearman’s rho and p values for all genera for each virus is summarized in Dataset S2.\n\nCorrelations were next examined between viral abundance and microbiome diversity and richness. No significant correlations between qPCR viral load and Shannon’s diversity index was observed for EBV (p value 0.35, tau = − 0.03) nor HSV-1 (p value = 0.87, tau = − 0.092). However, when microbiome richness was examined, there was a significant positive correlation for EBV (p value = 0.005, tau = 0.25) but not for HSV-1 (p value = 0.34, tau = 0.09).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Salivary microbiome",
+    "Viral reactivation",
+    "Astronaut microbiome",
+    "Spaceflight",
+    "International space station",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "WHO NCD Surveillance strategy [https://www.who.int/ncd_surveillance/strategy/en/].",
+      "authors": []
+    },
+    {
+      "title": "Worldwide trends in non-communicable disease mortality and progress towards sustainable development goal target 3.4",
+      "authors": []
+    },
+    {
+      "title": "Molecular-phylogenetic characterization of microbial community imbalances in human inflammatory bowel diseases",
+      "authors": [
+        "DN Frank",
+        "AL St Amand",
+        "RA Feldman",
+        "EC Boedeker",
+        "N Harpaz",
+        "NR Pace"
+      ]
+    },
+    {
+      "title": "Role of the gut microbiota in inflammatory bowel disease pathogenesis: what have we learnt in the past 10 years?",
+      "authors": [
+        "GL Hold",
+        "M Smith",
+        "C Grange",
+        "ER Watt",
+        "EM El-Omar",
+        "I Mukhopadhya"
+      ]
+    },
+    {
+      "title": "Hilty M, Burke C, Pedro H, Cardenas P, Bush A, Bossley C, Davies J, Ervine A, Poulter L, Pachter L, et al. Disordered microbial communities in asthmatic airways. PloS one. 2010;5(1):–e8578.",
+      "authors": []
+    },
+    {
+      "title": "Larsen N, Vogensen FK, van den Berg FWJ, Nielsen DS, Andreasen AS, Pedersen BK, Al-Soud WA, Sørensen SJ, Hansen LH, Jakobsen M. Gut microbiota in human adults with type 2 diabetes differs from non-diabetic adults. PloS one. 2010;5(2):–e9085.",
+      "authors": []
+    },
+    {
+      "title": "Bridging the gap between gut microbial dysbiosis and cardiovascular diseases",
+      "authors": [
+        "K Lau",
+        "V Srivatsav",
+        "A Rizwan",
+        "A Nashed",
+        "R Liu",
+        "R Shen",
+        "M Akhtar"
+      ]
+    },
+    {
+      "title": "Microbial mucosal colonic shifts associated with the development of colorectal cancer reveal the presence of different bacterial and archaeal biomarkers",
+      "authors": [
+        "L Mira-Pascual",
+        "R Cabrera-Rubio",
+        "S Ocon",
+        "P Costales",
+        "A Parra",
+        "A Suarez",
+        "F Moris",
+        "L Rodrigo",
+        "A Mira",
+        "MC Collado"
+      ]
+    },
+    {
+      "title": "The microbiota of breast tissue and its association with breast cancer",
+      "authors": [
+        "C Urbaniak",
+        "GB Gloor",
+        "M Brackstone",
+        "L Scott",
+        "M Tangney",
+        "G Reid"
+      ]
+    },
+    {
+      "title": "A core gut microbiome in obese and lean twins",
+      "authors": [
+        "PJ Turnbaugh",
+        "M Hamady",
+        "T Yatsunenko",
+        "BL Cantarel",
+        "A Duncan",
+        "RE Ley",
+        "ML Sogin",
+        "WJ Jones",
+        "BA Roe",
+        "JP Affourtit"
+      ]
+    },
+    {
+      "title": "Communicable ulcerative colitis induced by T-bet deficiency in the innate immune system",
+      "authors": [
+        "WS Garrett",
+        "GM Lord",
+        "S Punit",
+        "G Lugo-Villarino",
+        "SK Mazmanian",
+        "S Ito",
+        "JN Glickman",
+        "LH Glimcher"
+      ]
+    },
+    {
+      "title": "The gut microbiome modulates colon tumorigenesis",
+      "authors": [
+        "JP Zackular",
+        "NT Baxter",
+        "KD Iverson",
+        "WD Sadler",
+        "JF Petrosino",
+        "GY Chen",
+        "PD Schloss"
+      ]
+    },
+    {
+      "title": "Acclimation during space flight: effects on human physiology",
+      "authors": [
+        "D Williams",
+        "A Kuipers",
+        "C Mukai",
+        "R Thirsk"
+      ]
+    },
+    {
+      "title": "The potential influence of the microbiota and probiotics on women during long spaceflights",
+      "authors": [
+        "C Urbaniak",
+        "G Reid"
+      ]
+    },
+    {
+      "title": "Incidence of clinical symptoms during long-duration orbital spaceflight",
+      "authors": [
+        "B Crucian",
+        "A Babiak-Vazquez",
+        "S Johnston",
+        "DL Pierson",
+        "CM Ott",
+        "C Sams"
+      ]
+    },
+    {
+      "title": "Effect of Skylab missions on clinical and microbiologic aspects of oral health",
+      "authors": [
+        "LR Brown",
+        "WJ Fromme",
+        "SF Handler",
+        "MG Wheatcroft",
+        "DA Johnston"
+      ]
+    },
+    {
+      "title": "The influence of the human microbiome and probiotics on cardiovascular health",
+      "authors": [
+        "G Ettinger",
+        "K MacDonald",
+        "G Reid",
+        "JP Burton"
+      ]
+    },
+    {
+      "title": "Variations in oral microbiota associated with oral cancer",
+      "authors": [
+        "H Zhao",
+        "M Chu",
+        "Z Huang",
+        "X Yang",
+        "S Ran",
+        "B Hu",
+        "C Zhang",
+        "J Liang"
+      ]
+    },
+    {
+      "title": "Oral microbiomes: more and more importance in oral cavity and whole body",
+      "authors": [
+        "L Gao",
+        "T Xu",
+        "G Huang",
+        "S Jiang",
+        "Y Gu",
+        "F Chen"
+      ]
+    },
+    {
+      "title": "Devine DA, Marsh PD, Meade J. Modulation of host responses by oral commensal bacteria. J Oral Microbiol. 2015;7. 10.3402/jom.v3407.26941.",
+      "authors": []
+    },
+    {
+      "title": "Human diseases, immunity and the oral microbiota—insights gained from metagenomic studies",
+      "authors": [
+        "A Idris",
+        "SZ Hasnain",
+        "LZ Huat",
+        "D Koh"
+      ]
+    },
+    {
+      "title": "Mehta SK, Laudenslager ML, Stowe RP, Crucian BE, Sams CF, Pierson DL. Multiple latent viruses reactivate in astronauts during space shuttle missions. Brain Behav Immun. 2014;41.",
+      "authors": []
+    },
+    {
+      "title": "Latent virus reactivation in astronauts on the international space station",
+      "authors": [
+        "SK Mehta",
+        "ML Laudenslager",
+        "RP Stowe",
+        "BE Crucian",
+        "AH Feiveson",
+        "CF Sams",
+        "DL Pierson"
+      ]
+    },
+    {
+      "title": "Progress and problems in understanding and managing primary Epstein-Barr virus infections",
+      "authors": [
+        "OA Odumade",
+        "KA Hogquist",
+        "HH Balfour"
+      ]
+    },
+    {
+      "title": "Epstein–Barr virus (EBV)-associated epithelial and non-epithelial lesions of the oral cavity",
+      "authors": [
+        "K Kikuchi",
+        "H Inoue",
+        "Y Miyazaki",
+        "F Ide",
+        "M Kojima",
+        "K Kusama"
+      ]
+    },
+    {
+      "title": "Oral bacteria induce a differential activation of human immunodeficiency virus-1 promoter in T cells, macrophages and dendritic cells",
+      "authors": [
+        "CB Huang",
+        "KA Emerson",
+        "OA Gonzalez",
+        "JL Ebersole"
+      ]
+    },
+    {
+      "title": "Polymicrobial infection and bacterium-mediated epigenetic modification of DNA tumor viruses contribute to pathogenesis",
+      "authors": [
+        "JM Doolittle",
+        "J Webster-Cyriaque"
+      ]
+    },
+    {
+      "title": "Bacterial short chain fatty acids push all the buttons needed to reactivate latent viruses",
+      "authors": [
+        "F Ye",
+        "J Karn"
+      ]
+    },
+    {
+      "title": "Reactivation of latent HIV-1 by a wide variety of butyric acid-producing bacteria",
+      "authors": [
+        "K Imai",
+        "K Yamada",
+        "M Tamura",
+        "K Ochiai",
+        "T Okamoto"
+      ]
+    },
+    {
+      "title": "The personal human oral microbiome obscures the effects of treatment on periodontal disease",
+      "authors": [
+        "K Schwarzberg",
+        "R Le",
+        "B Bharti",
+        "S Lindsay",
+        "G Casaburi",
+        "F Salvatore",
+        "MH Saber",
+        "F Alonaizan",
+        "J Slots",
+        "RA Gottlieb"
+      ]
+    },
+    {
+      "title": "The oral microbiome and human health",
+      "authors": [
+        "Y Yamashita",
+        "T Takeshita"
+      ]
+    },
+    {
+      "title": "Bacterial diversity in saliva and oral health-related conditions: the Hisayama Study",
+      "authors": [
+        "T Takeshita",
+        "S Kageyama",
+        "M Furuta",
+        "H Tsuboi",
+        "K Takeuchi",
+        "Y Shibata",
+        "Y Shimazaki",
+        "S Akifusa",
+        "T Ninomiya",
+        "Y Kiyohara"
+      ]
+    },
+    {
+      "title": "A multi-platform metabolomics approach identifies highly specific biomarkers of bacterial diversity in the vagina of pregnant and non-pregnant women",
+      "authors": [
+        "A McMillan",
+        "S Rulisa",
+        "M Sumarah",
+        "JM Macklaim",
+        "J Renaud",
+        "JE Bisanz",
+        "GB Gloor",
+        "G Reid"
+      ]
+    },
+    {
+      "title": "Oribacterium parvum sp. nov. and Oribacterium asaccharolyticum sp. nov., obligately anaerobic bacteria from the human oral cavity, and emended description of the genus Oribacterium",
+      "authors": [
+        "MV Sizova",
+        "PA Muller",
+        "D Stancyk",
+        "NS Panikov",
+        "M Mandalakis",
+        "A Hazen",
+        "T Hohmann",
+        "SN Doerfert",
+        "W Fowle",
+        "AM Earl"
+      ]
+    },
+    {
+      "title": "Microbial diversity in saliva of oral squamous cell carcinoma",
+      "authors": [
+        "S Pushalkar",
+        "SP Mane",
+        "X Ji",
+        "Y Li",
+        "C Evans",
+        "OR Crasta",
+        "D Morse",
+        "R Meagher",
+        "A Singh",
+        "D Saxena"
+      ]
+    },
+    {
+      "title": "Oribacterium sinus gen. nov., sp. nov., within the family 'Lachnospiraceae' (phylum Firmicutes)",
+      "authors": [
+        "JP Carlier",
+        "G K'Ouas",
+        "I Bonne",
+        "A Lozniewski",
+        "F Mory"
+      ]
+    },
+    {
+      "title": "Vaginal concentrations of lactic acid potently inactivate HIV",
+      "authors": [
+        "M Aldunate",
+        "D Tyssen",
+        "A Johnson",
+        "T Zakir",
+        "S Sonza",
+        "T Moench",
+        "R Cone",
+        "G Tachedjian"
+      ]
+    },
+    {
+      "title": "Lactobacilli inactivate chlamydia trachomatis through lactic acid but not H2O2",
+      "authors": [
+        "Z Gong",
+        "Y Luna",
+        "P Yu",
+        "H Fan"
+      ]
+    },
+    {
+      "title": "Effects of pH and lactate on hydrogen sulfide production by oral < span class = \"named-content genus-species\" id = \"named-content-1\" > Veillonella</span > spp",
+      "authors": [
+        "J Washio",
+        "Y Shimada",
+        "M Yamada",
+        "R Sakamaki",
+        "N Takahashi"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J Washio",
+        "Y Sakuma",
+        "Y Shimada",
+        "N Takahashi"
+      ]
+    },
+    {
+      "title": "Broad-range antiviral activity of hydrogen sulfide against highly pathogenic RNA viruses",
+      "authors": [
+        "N Bazhanov",
+        "O Escaffre",
+        "AN Freiberg",
+        "RP Garofalo",
+        "A Casola"
+      ]
+    },
+    {
+      "title": "Hydrogen sulfide is an antiviral and antiinflammatory endogenous gasotransmitter in the airways. Role in respiratory syncytial virus infection",
+      "authors": [
+        "T Ivanciuc",
+        "E Sbrana",
+        "M Ansar",
+        "N Bazhanov",
+        "C Szabo",
+        "A Casola",
+        "RP Garofalo"
+      ]
+    },
+    {
+      "title": "Hydrogen sulfide-producing bacteria in tongue biofilm and their relationship with oral malodour",
+      "authors": [
+        "J Washio",
+        "T Sato",
+        "T Koseki",
+        "N Takahashi"
+      ]
+    },
+    {
+      "title": "Lachnoanaerobaculum gen. nov., a new genus in the Lachnospiraceae: characterization of Lachnoanaerobaculum umeaense gen. nov., sp. nov., isolated from the human small intestine, and Lachnoanaerobaculum orale sp. nov., isolated from saliva, and reclassification of Eubacterium saburreum (Prévot 1966) Holdeman and Moore 1970 as Lachnoanaerobaculum saburreum comb. nov",
+      "authors": [
+        "ME Hedberg",
+        "ERB Moore",
+        "L Svensson-Stadler",
+        "P Hörstedt",
+        "V Baranov",
+        "O Hernell",
+        "SN Wai",
+        "S Hammarström",
+        "M-L Hammarström"
+      ]
+    },
+    {
+      "title": "The biological activity of hydrogen peroxide. III. Induction of Epstein-Barr virus via indirect action, as compared with TPA and teleocidin",
+      "authors": [
+        "Y Oya",
+        "A Tonomura",
+        "K Yamamoto"
+      ]
+    },
+    {
+      "title": "A novel role of hydrogen peroxide in Kaposi sarcoma-associated herpesvirus reactivation",
+      "authors": [
+        "F Ye",
+        "S-J Gao"
+      ]
+    },
+    {
+      "title": "Measuring glutathione redox potential of HIV-1-infected macrophages",
+      "authors": [
+        "A Bhaskar",
+        "M Munshi",
+        "SZ Khan",
+        "S Fatima",
+        "R Arya",
+        "S Jameel",
+        "A Singh"
+      ]
+    },
+    {
+      "title": "H < sub > 2</sub > S: A Universal defense against antibiotics in bacteria",
+      "authors": [
+        "K Shatalin",
+        "E Shatalina",
+        "A Mironov",
+        "E Nudler"
+      ]
+    },
+    {
+      "title": "Hydrogen sulfide prevents hydrogen peroxide-induced activation of epithelial sodium channel through a PTEN/PI(3,4,5)P(3) dependent pathway",
+      "authors": [
+        "J Zhang",
+        "S Chen",
+        "H Liu",
+        "B Zhang",
+        "Y Zhao",
+        "K Ma",
+        "D Zhao",
+        "Q Wang",
+        "H Ma",
+        "Z Zhang"
+      ]
+    },
+    {
+      "title": "Hydrogen sulfide in physiology and pathogenesis of bacteria and viruses",
+      "authors": [
+        "VK Pal",
+        "P Bandyopadhyay",
+        "A Singh"
+      ]
+    },
+    {
+      "title": "Bacteria in human mouths involved in the production and utilization of hydrogen peroxide",
+      "authors": [
+        "CS Ryan",
+        "I Kleinberg"
+      ]
+    },
+    {
+      "title": "Unexpected diversity and complexity of the Guerrero Negro hypersaline microbial mat",
+      "authors": [
+        "RE Ley",
+        "JK Harris",
+        "J Wilcox",
+        "JR Spear",
+        "SR Miller",
+        "BM Bebout",
+        "JA Maresca",
+        "DA Bryant",
+        "ML Sogin",
+        "NR Pace"
+      ]
+    },
+    {
+      "title": "Camanocha A, Dewhirst FE. Host-associated bacterial taxa from Chlorobi, Chloroflexi, GN02, Synergistetes, SR1, TM7, and WPS-2 phyla/candidate divisions. J Oral Microbiol. 2014;6. 10.3402/jom.v3406.25468.",
+      "authors": []
+    },
+    {
+      "title": "Insights into the phylogeny and coding potential of microbial dark matter",
+      "authors": [
+        "C Rinke",
+        "P Schwientek",
+        "A Sczyrba",
+        "NN Ivanova",
+        "IJ Anderson",
+        "J-F Cheng",
+        "A Darling",
+        "S Malfatti",
+        "BK Swan",
+        "EA Gies"
+      ]
+    },
+    {
+      "title": "A case of infective endocarditis caused by abiotrophia defectiva in Korea",
+      "authors": [
+        "S Park",
+        "HW Ann",
+        "JY Ahn",
+        "NS Ku",
+        "SH Han",
+        "GR Hong",
+        "JY Choi",
+        "YG Song",
+        "JM Kim"
+      ]
+    },
+    {
+      "title": "DADA2: High-resolution sample inference from Illumina amplicon data",
+      "authors": [
+        "BJ Callahan",
+        "PJ McMurdie",
+        "MJ Rosen",
+        "AW Han",
+        "AJ Johnson",
+        "SP Holmes"
+      ]
+    },
+    {
+      "title": "QIIME allows analysis of high-throughput community sequencing data",
+      "authors": [
+        "JG Caporaso",
+        "J Kuczynski",
+        "J Stombaugh",
+        "K Bittinger",
+        "FD Bushman",
+        "EK Costello",
+        "N Fierer",
+        "AG Pena",
+        "JK Goodrich",
+        "JI Gordon"
+      ]
+    },
+    {
+      "title": "Microbiome datasets are compositional: and this is not optional",
+      "authors": [
+        "GB Gloor",
+        "JM Macklaim",
+        "V Pawlowsky-Glahn",
+        "JJ Egozcue"
+      ]
+    },
+    {
+      "title": "Compositional analysis: a valid approach to analyze microbiome high-throughput sequencing data",
+      "authors": [
+        "GB Gloor",
+        "G Reid"
+      ]
+    }
+  ],
+  "original_title": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/1d43596b2df1/40168_2020_830_Fig1_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/bdfab70ac29a/40168_2020_830_Fig2_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/782f884a9029/40168_2020_830_Fig3_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/6b25e0303452/40168_2020_830_Fig4_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/9d89b24be929/40168_2020_830_Fig5_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/1f69cbb2ddc6/40168_2020_830_Fig6_HTML.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a51a/7171750/21657e2fa428/40168_2020_830_Fig7_HTML.jpg"
+  ]
+}

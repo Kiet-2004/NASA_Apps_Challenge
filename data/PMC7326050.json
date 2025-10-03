@@ -1,0 +1,546 @@
+{
+  "pmcid": "PMC7326050",
+  "title": "Metabolomic Analysis of Aspergillus niger Isolated From the International Space Station Reveals Enhanced Production Levels of the Antioxidant Pyranonigrin A",
+  "abstract": "Secondary metabolite (SM) production in Aspergillus niger JSC-093350089, isolated from the International Space Station (ISS), is reported, along with a comparison to the experimentally established strain ATCC 1015. The analysis revealed enhanced production levels of naphtho-γ-pyrones and therapeutically relevant SMs, including bicoumanigrin A, aurasperones A and B, and the antioxidant pyranonigrin A. Genetic variants that may be responsible for increased SM production levels in JSC-093350089 were identified. These findings include INDELs within the predicted promoter region of flbA, which encodes a developmental regulator that modulates pyranonigrin A production via regulation of Fum21. The pyranonigrin A biosynthetic gene cluster was confirmed in A. niger, which revealed the involvement of a previously undescribed gene, pyrE, in its biosynthesis. UVC sensitivity assays enabled characterization of pyranonigrin A as a UV resistance agent in the ISS isolate.",
+  "introduction": "Introduction\n\nFilamentous fungi are ubiquitous in spacecraft environments due to anthropogenic contamination and an inability to completely sterilize the craft and cargo. Microbial infections are a major health risk for astronauts, and are exacerbated by the combined stresses of microgravity, sleep disruption, alterations in food intake, confined living space, and high levels of radiation that can compromise the immune system. Additionally, several studies have indicated that spacecraft environments increase microbial virulence and antimicrobial resistance. As we make strides toward human interplanetary exploration, investigations into the characteristics of filamentous fungi that reside in spacecraft environments are critical for crew health. Additionally, such studies present diverse industrial and therapeutic opportunities, as fungi produce a plethora of bioactive secondary metabolites (SMs) in response to external stressors. These small molecules often kill or inhibit growth of other organisms, enabling fungi to successfully compete within the complex ecosystem they reside in. While some SMs are toxic to humans, others have diverse industrial and therapeutic applications, including antibiotic, anticancer, antioxidant, immunosuppressant, and cholesterol-lowering activities. The remarkable structural and functional diversity of fungal SMs arise from the combinatorial and modular nature of their biosynthesis, in which the SM core backbone is biosynthesized by a core synthase enzyme, such as a polyketide synthase (PKS), a nonribosomal peptide synthetase (NRPS), or a hybrid PKS-NRPS, and further diversified by a number of tailoring enzymes that are clustered together within the genome.\n\nIn order to understand the characteristics of microbes residing in the International Space Station (ISS), National Aeronautics and Space Administration (NASA) has implemented a robust microbial monitoring system. The filamentous fungus Aspergillus niger has been reported to be a predominant ISS isolate, and is frequently detected in other built environments. A. niger is a melanized fungal species commonly used in the biotech industry as a production host for citric acid and enzymes. Melanized fungi are commonly isolated from highly irradiated environments, and it has been reported that the electronic properties of melanin change following exposure to ionizing radiation. Additionally, several studies have reported the association of melanin production with fungal virulence. Together, these findings demonstrate the need for studies that assess the characteristics of melanized fungi inhabiting spacecraft environments.\n\nNaphtho-γ-pyrones are the predominant class of SMs produced by A. niger, and they possess a diverse array of reported biological properties, including anti-HIV, anti-hyperuricemia, anti-tubercular, antimicrobial, antitumor, and antioxidant activities. Advances in genome sequencing of A. niger have revealed its capacity to produce many other SMs in addition to the naphtho-γ-pyrones, as its genome harbors 46 PKSs, 35 NRPSs, and 9 NRPS-PKS hybrid genes. Many of these SM biosynthesis genes are silent or expressed at very low levels in standard laboratory conditions, which has resulted in a lack of studies on SMs that may have useful industrial and therapeutic properties. Given that fungi produce SMs in response to environmental stress, investigations into SM production of A. niger strains isolated from space environments may reveal enhanced production levels of bioactive molecules and provide insight into the mechanisms underlying such adaptations.\n\nHere, we report the SM production of JSC-093350089, a previously described strain of A. niger isolated from surfaces of the International Space Station (ISS). Our analysis revealed that the ISS isolate produces high levels of the antioxidant pyranonigrin A, along with other bioactive SMs, such as kotanin, pestalamide B, and naphtho-γ-pyrones, when compared to the experimentally established strain ATCC 1015. To investigate differences between the strains that may explain the increased production of some SMs in JSC-093350089, we conducted a comparative genetic analysis of biosynthesis clusters and regulators of differentially produced SMs. Finally, the UV resistance potential of pyranonigrin A was assessed.",
+  "methods": "Materials and Methods\n\nSecondary Metabolite Extraction and Analysis\n\nJSC-093350089 and ATCC 1015 were cultivated at 28°C on GMM agar plates, starting with 1 × 107 spores per Petri dish (D = 10 cm). After 5 days, agar was chopped into small pieces and extracted with 25 ml methanol (MeOH), followed by 25 ml 1:1 MeOH-dichloromethane, each with 1 h of sonication and filtration. The extract was evaporated in vacuo and re-dissolved in 2 ml of 20% dimethyl sulfoxide in MeOH and a portion (10 μl) was examined by high performance liquid chromatography-photodiode array detection-mass spectroscopy (HPLC-DAD-MS) analysis. HPLC-MS was carried out using a ThermoFinnigan LCQ Advantage ion trap mass spectrometer with a reverse-phase C18 column (3 μm; 2.1 by 100 mm; Alltech Prevail) at a flow rate of 125 μl/min. The solvent gradient for HPLC-DAD-MS was 95% MeCN/H2O (solvent B) in 5% MeCN/H2O (solvent A) both containing 0.05% formic acid, as follows: 0% solvent B from 0 to 5 min, 0 to 100% solvent B from 5 min to 35 min, 100 to 0% solvent B from 40 to 45 min, and re-equilibration with solvent B from 45 to 50 min.\n\nStrains and Molecular Manipulations\n\nThe A. niger wild-type and mutant strains used in this study are listed in Supplementary Table S1, primers used in this study are listed in Supplementary Table S2, and diagnostic PCR results are shown in Supplementary Figure S1. Deletion cassettes were generated using the double joint PCR technique (Supplementary Figure S2). DNA insertions into the A. niger genome were performed using protoplasts and standard PEG transformation. To develop an efficient gene targeting system in JSC-093350089, the kusA gene was first deleted by replacing it with the hygromycin resistance marker (hph). The two amplified flanking sequences and the hygromycin phosphortransferase gene (hph) marker cassette amplified from pCB1003 (Fungal Genetics Stock Center) were fused together into one construct by fusion PCR using nested primers, and the mutation was selected for by growth on media containing 100 μg/ml hygromycin. Diagnostic PCR was performed on the deletant strain using external primers (P1 and P6) from the first round of PCR. The difference in size between the gene replaced by the selection marker and the native gene allowed us to determine whether the transformants carried the correct gene replacement.\n\nNext, an auxotrophic mutant in the kusA- background was generated by deleting the pyrG gene. Two ∼1500 base pair fragments upstream and downstream of pyrG were amplified and fused together (Supplementary Figure S3). The mutation was selected for by growth on media supplemented with 1.5 mg/ml of 5-fluoroorotic acid (5-FOA), as only cells lacking the pyrG gene can survive when 5-FOA is present. The correct transformants were identified by performing diagnostic PCR on the deletant strain using external primers (P1 and P6) from the first round of PCR. All other deletant strains were generated by replacing each target gene with the A. fumigatus pyrG gene (AfpyrG). Double deletion mutants were generated by recycling the AfpyrG gene in CW12006. This involved amplifying two ∼1500 base pair fragments upstream and downstream from the alba::AfpyrG region of JSC-093350089 albAΔ genome, which were then fused together. The mutation was selected for by growth on media supplemented with 1.5 mg/ml of 5-FOA. Correct transformants were identified using diagnostic PCR with external and internal primers (P1 and AfpyrG rev; AfpyrG Fw and P6).\n\nTo reintegrate the kusA gene into the genome of CW12005, the AfpyrG gene used to initially delete pyrA was deleted according to the strategy described in Supplementary Figure S3, which generated CW12014. The kusA gene was amplified from JSC-093350089 gDNA to include ∼1500 base pair fragment upstream and ∼500 bp fragment downstream from kusA. This fragment was then fused to the AfpyrG gene and the original 3′ region amplified for initial kusA deletion (Supplementary Figure S4). The kusA was reintegrated into the genome of CW12014 to generate CW12015. Correct transformants were identified using diagnostic PCR with external primers (P1 and P6).\n\nGenetic Variant Analysis\n\nPaired-end Illumina sequence reads, obtained from a previous study, were trimmed using Trimmomatic v 0.36 and quality was checked using FastQC v 0.11.7. The A. niger ATCC 1015 genome and annotation files were downloaded from the FungiDB web portal. Trimmed reads were mapped to the ATCC 1015 reference genome using the Burrows-Wheeler Aligner (BWA) software package v 0.7.17. Mapped read files were further processed using SAMtools v 1.9) and PCR artifacts were removed using Picard tools MarkDuplicates1. Single nucleotide polymorphisms (SNPs) and insertions/deletions (INDELs) were identified using GATK v 3.8.7 (. Sequence reads containing putative INDELs were realigned using GATK’s IndelRealigner and variants within each sample were called using GATK’s Haplotype Caller. GATK’s VariantFiltration was used to filter the resulting Variant Call Format (VCF) file using stringent cutoffs for quality and coverage {SNPs: QD < 2.0, MQ < 40.0, QUAL < 100, FS > 60.0, MQRankSum < −12.5, SOR > 4.0, ReadPosRankSum < −8.0; INDELs: QD < 2.0, FS > 200.0, MQRankSum < −12.5, SOR > 4, InbreedingCoeff < −0.8, ReadPosRankSum < −20.0}, so that only high-quality variants remained. PromPredict was used to predict if any upstream intergenic variants within 1000 bps of the coding sequence (CDS) occurred within the promoter region.\n\nUVC Resistance Analysis\n\nUVC radiation resistance was assessed using JSC-093350089 WT and CW12015. Both strains were cultivated at 28°C on GMM agar plates by seeding 1 × 107 spores per Petri dish (D = 10 cm). Spores were collected after 5 days of growth and counted. An equal amount of spores were resuspended in 5 ml of GMM agar and poured onto Petri dishes consisting of 20 ml GMM agar. Mycelia-containing plates were exposed to varying doses of UVC radiation in triplicate using a CL-1000 Ultraviolet Crosslinker (UVP, Inc.).",
+  "results": "Results\n\nSecondary Metabolite Analysis of JSC-093350089\n\nSM profiles of JSC-093350089 and ATCC 1015 were examined after growth on GMM agar medium using high-performance liquid chromatography coupled with diode-array detection and electrospray ionization tandem mass spectrometry (HPLC-DAD-MS). SMs were identified based on mass, UV-Vis absorption, and retention time (Supplementary Figure S5), which were in good agreement with literature. The identity of pyranonigrin A was further verified by purchasing the pure compound from Enzo Life Sciences (Supplementary Figure S6). The data revealed that each strain produced a distinct SM profile, with the production yield of most SMs significantly altered (Figure 1A). Production yield analysis was carried out for each SM (Figure 1B and Supplementary Figure S7). Compared to ATCC 1015, a significant decrease in the production of nigragillin, an insecticide, was observed (P = 0.0001). The most significant difference was observed with the antioxidant pyranonigrin A, highlighted in purple in Figure 1A, which exhibited a 6000% increase in production in JSC-093350089 (P = 0.04), as it was produced at basal levels in ATCC 1015. Nigerazine B displayed no statistical difference in production levels (P = 0.06). In the ISS strain, pestalamide B production was approximately 2 times that of ATCC 1015 (P = 0.03), and bicoumanigrin, which was reported to have cytotoxic activity against human cancer cell lines, exhibited a production yield 2.5 times that of ATCC 1015 (P = 0.01). Kotanin production in the ISS strain was approximately 10 times that of ATCC 1015 (P = 0.03).\n\nThe majority of SMs produced were identified as naphtho-γ-pyrones, including aurasperone A, B, and C, fonsecinone A, B, and C, a fonsecinone C derivative, and asperpyrone B and C. These SMs, highlighted in green in Figure 1A, are biosynthesized by the PKS AlbA. The molecular formula of the final SM, labeled as peak 6 in Figure 1A, was predicted using high-resolution mass spectrometry, and a thorough literature search revealed that no known A. niger SM matched this formula. This SM was later determined to also be biosynthesized by the albA pathway when A. niger devoid of AlbA failed to produce the unknown compound. The combined production yields of albA pathway SMs were approximately 2.5 times higher in the ISS stain compared to ATCC 1015 (P = 0.03).\n\nAnalysis of the Potential Gene Clusters Responsible for Production of Pyranonigrin A in silico\n\nTo facilitate a more detailed analysis of the underlying genetics that may have led to enhanced production of pyranonigrin A in JSC-093350089, we set out to identify the biosynthetic gene cluster in A. niger. First, we searched for the core backbone synthase gene involved in pyranonigrin A biosynthesis. The biosynthetic pathway of pyranonigrin E, a SM very similar to pyranonigrin A, was recently proposed and pynA (An11g00250) was identified as the PKS-NRPS hybrid involved in its biosynthesis. We hypothesized that pyranonigrin A is either biosynthesized by the same cluster responsible for pyranonigrin E production, or by a different cluster harboring a PKS-NRPS hybrid gene similar to pynA. The genome of ATCC 1015 possesses 8 PKS-NRPS hybrid genes other than pynA. BLAST analysis was performed using the Joint Genome Institute (JGI) MycoCosm database on the 8 remaining PKS-NRPS hybrids to determine which genes possessed high sequence homology to pynA. The results revealed that An18g00520 (pyrA) possessed high sequence similarity to pynA, with 53.4% sequence identity and 89.8% subject coverage (Supplementary Table S3).\n\nDevelopment of an Efficient Gene Targeting System in JSC-093350089 and Identification of the PKS-NRPS Hybrid Responsible for Pyranonigrin A Biosynthesis\n\nTo determine which of the two putative PKS-NRPS hybrids is involved in the biosynthesis of pyranonigrin A, a genetic system was developed in JSC-093350089. The kusA gene was first deleted to decrease the rate of nonhomologous integration of transforming DNA fragments, thereby improving gene targeting efficiency. Next, the pyrG gene was deleted in the kusA- background to generate CW12003, an auxotrophic mutant that requires uracil and uridine supplementation. CW12003 was then used to generate mutant strains CW12004 and CW12005, which had the pynA gene and An18g00520 genes deleted, respectively. JSC-093350089 and the two mutant strains were then cultured on GMM, and SMs were extracted following 5 days of growth and subjected to HPLC-DAD-MS analysis. Observation of SM traces as detected by UV-Vis total scan and mass spectroscopy in positive ion mode [M+H]+ m/z = 224 revealed pyranonigrin A production in pynA- (CW12004) and the complete elimination of pyranonigrin A in An18g00520- (CW12005) (Supplementary Figure S8), indicating that An18g00520 is responsible for the production of pyranonigrin A. This finding was recently confirmed in Penicillium thymicola and reported while our work was being completed.\n\nIdentification of Pyranonigrin A Biosynthesis Gene Cluster\n\nNext, we aimed to identify additional genes involved in pyranonigrin A biosynthesis. To accomplish this, we identified genes surrounding pyrA (Figure 2A and Table 1), as the genes involved in fungal SM biosynthesis are usually clustered in the genome. Interestingly, when we compared the genes surrounding pyrA in A. niger to their homologs in P. thymicola using the JGI MycoCosm database, we noticed that the distribution of genes surrounding pyrA differed between the P. thymicola and A. niger genomes (Supplementary Figure S9). For example, pyrD, a hydrolase predicted to be involved in pyranonigrin A biosynthesis in P. thymicola, is adjacent to pyrC in the P. thymicola genome and has only two genes separating it from pyrA. However, its homolog within the A. niger genome, An18g00470, is adjacent to An18g00480 and has four genes separating it from pyrA. Similarly, although An18g00510 is adjacent to pyrA in the A. niger genome, its P. thymicola homolog has three genes separating it from pyrA in the P. thymicola genome, and was predicted to not be involved in pyranonigrin A biosynthesis. To investigate these observations and identify genes encoding pyranonigrin A biosynthetic tailoring enzymes, we generated a gene deletion library to identify the genes involved in pyranonigrin A biosynthesis.\n\nA. niger produces large quantities of naphtho-γ-pyrone SMs, which we suspected may hinder our ability to detect any intermediate compounds in JSC-093350089 tailoring enzyme deletant strains. To circumvent this, we first generated CW12006, a JSC-093350089 mutant strain deficient in AlbA, and therefore also deficient in naphtho-γ-pyrone production. The AfpyrG gene was then recycled (Supplementary Figure S3) to enable the generation of additional deletion mutations in CW12007. Next, we used CW12007 to individually delete 5 genes surrounding pyrA and generate a pyranonigrin A biosynthetic gene cluster mutant library with albA- genetic background. The deletant strains were cultured in pyranonigrin A-producing conditions and their SM production was analyzed using HPLC-DAD-MS (Figure 2B). Deletion strains CW12009, CW12010, and CW12011, which had An18g00490, An18g00500, and An18g00510 deleted, respectively, resulted in the complete elimination of pyranonigrin A, which confirmed their involvement in its biosynthesis. Deletion strains CW12008 and CW12013, which had An18g00480 and An18g00530 deleted, respectively, resulted in unchanged SM profiles, which indicated that these two genes are not involved in pyranonigrin A biosynthesis. These results suggest that the pyranonigrin A biosynthetic gene cluster includes pyrA, pyrB, pyrC, and An18g00510, which we designated as pyrE (Figure 2A and Table 1).\n\nThese findings are in contrast to the recent study conducted in P. thymicola, which did not include pyrE in the proposed pyranonigrin A biosynthetic gene cluster. In this study, heterologous expression of the suspected pyr cluster and adjacent genes, which included pyrE, led to production of pyranonigrin A. However, pyrE (orf2) was excluded from the proposed pathway because it was found to not be expressed with the rest of the cluster in pyranonigrin A-producing conditions. Our data indicates that pyrE is involved in pyranonigrin A biosynthesis, which as an oxidoreductase may be responsible for the final dehydrogenation or hydroxylation step, which were previously proposed to both be carried out by pyrB. This does not exclude the potential involvement of pyrD in pyranonigrin A biosynthesis, which was found by to be co-regulated with pyrA-pyrC and was suggested to be involved in tetramic acid formation.\n\nGenetic Variant Analysis of Clusters Producing SMs That Exhibit Increased Production Levels in JSC-093350089\n\nHaving identified the genes responsible for pyranonigrin A production in A. niger, we next conducted a genome-level analysis to investigate potential reasons for the enhanced pyranonigrin A production levels in JSC-093350089 relative to ATCC 1015. For this analysis, we also investigated genes involved in the production of kotanin, pestalamide B, and albA pathway SMs (aurasperones, fonsecinones, asperpyrones), all of which also featured increased production levels in JSC-093350089 (Figure 1). The biosynthetic gene cluster for kotanin has been identified in A. niger, and includes genes encoding non-reducing-PKS (NR-PKS) ktnS, O-methytransferase ktnB, cytochrome P450 ktnC, and flavine-binding monooxygenase ktnD. The biosynthetic gene cluster for pestalamide A was recently elucidated following deletion of the histone acetyltransferase gcnE, which led to production of pestalamide A as well as other SMs. Pestalamide A is a 4H-pyran-4-one derivative of pestalamide B, and therefore pestalamide B is likely formed from the same cluster as pestalamide A. This cluster harbors genes encoding NR-PKS epaA, ferulate:CoA ligase epaB, acyl-CoA transferase epaC, oxidoreductase orf1, 3-hydroxybenzoate 4-hydoxylase orf2, and salicylate hydroxylase orf3. Naphtho-γ-pyrones, including the aurasperones, fonsecinones, asperpyrones, are biosynthesized by albA, which encodes a PKS that is also crucial for melanin production. Tailoring enzymes involved in the biosynthesis of these naphtho-γ-pyrones are not clustered with albA and have not been identified.\n\nWith this information at hand, we set out to identify SNPs and INDELs occurring in SM cluster regions in JSC-093350089 when compared to ATCC 1015. To accomplish this, JSC-093350089 paired-end reads, obtained from a previous study, were aligned to the ATCC 1015 reference genome, which resulted in the identification of 5264 SNPs (Supplementary Table S4) and 47446 INDELs (Supplementary Table S5). Variants occurring within the pyr, ktn, and epa clusters and near the albA gene are displayed in Table 2. Within the pyr cluster, no variants were observed within the coding sequence (CDS) or in the upstream intergenic promoter region. One INDEL was identified downstream of the pyrA gene. Two INDEL variations were also observed in pyrC introns, and the region downstream of the pyrC gene was highly variable compared to ATCC 1015, harboring 19 INDELs.\n\nWithin the kotanin biosynthetic gene cluster, several mutations were observed which may have influenced regulation and/or activity of ktnD, whose specific role in kotanin biosynthesis remains uncharacterized. One synonymous and two missense SNPs were observed within ktnD, and 3 deletions were observed in the ktnD upstream intergenic region 339, 458, and 555 bps away from the 5′ untranslated region (UTR). Notably, the second of these deletions, which featured a loss of 13 bps, was predicted to be within the promoter region (genomic coordinates 23456–23311) using PromPredict, which predicts promoter regions based on DNA duplex stability and has been verified across a broad range of eukaryotic genomes. Other variations occurring within the ktn cluster included 3 SNPs within the intron region of ktnA.\n\nMany variants were observed within the pestalamide biosynthetic gene cluster, including two missense SNPs within epaA, whose gene product was proposed to perform the initial reaction in pestalamide biosynthesis. INDELs were observed within the 3′ UTR of epaB, and in both the 5′ and 3′ UTR of orf1. Additionally, intergenic INDELs were observed upstream of epaC, orf1, and orf3, and downstream of epaA, epaC, and orf2. One synonymous SNP was observed within PKS-encoding albA, along with a 2 bp insertion in the downstream intergenic region.\n\nGenetic Variant Analysis of SM Cluster Regulators\n\nNext, we turned our attention to variations occurring in genes known to regulate the SMs that exhibited differential production in JSC-093350089, as variations in these genes may explain increased SM production levels. The transcription factor Fum21 has been reported to play a role in both pyranonigrin A and fumonisin production, with Fum21 deficiency resulting in a 25% reduction in pyranonigrin A production and complete elimination of fumonisin production. Fum21 is regulated by FlbA, which is a regulator of G-protein signaling and plays a major role in sporulation. While the only variant associated with fum21 was a downstream intergenic INDEL, several genetic variants within the flbA promoter (genomic coordinates 815849-815999) were observed, including a 16 bp insertion, a 7 bp deletion, and a 6 bp deletion (Table 3). Our investigation also revealed one splice region insertion and two intergenic INDELs downstream of flbA.\n\nWe then searched for variations within and/or nearby gcnE, which encodes a histone acetyltransferase responsible for the repression of several SMs in FGSC A1279, a SM-silent strain of A. niger, including the pestalamides and albA pathway naphtho-γ-pyrones. Our analysis revealed an upstream intergenic SNP 26 bps away from the CDS start codon, as well as a deletion in the intron region and an insertion in the downstream intergenic region (Table 3). Finally, we turned our attention to azaR, which is harbored within the pestalamide biosynthetic gene cluster and encodes a pathway-specific transcription factor. We identified an insertion 222 bps away from the CDS start codon, along with a synonymous SNP and 2 downstream intergenic INDELs (Table 3).\n\nAssessment of the UV Resistance Potential of Pyranonigrin A\n\nWe hypothesized that the enhanced production levels of pyranonigrin A in the ISS isolate played a role in protecting the strain from the high levels of radiation present in the spacecraft. This hypothesis was evaluated by comparing the UV sensitivity of pyranonigrin A-producing JSC-093350089 to pyranonigrin A-deficient JSC-093350089. It has been reported that kusA deletion significantly enhances the sensitivity of A. niger to UV exposure. Therefore, to investigate whether pyranonigrin A confers UV resistance to A. niger, the kusA gene was first reintegrated into the pyrA- deletion strain (CW12005) to generate CW12015. Next, the JSC-093350089 WT and pyrA- strains were exposed to varying doses of UVC radiation ranging from 5–25 mJ/cm2 in triplicate. The results indicated that pyranonigrin A deficiency significantly reduces the viability of UV-exposed strains at doses greater than 15 mJ/cm2 (Figure 3). The effect became more pronounced as the radiation dose increased, with an approximate viability reduction of 34% observed at 15 mJ/cm2 (P = 0.005), 43% observed at 20 mJ/cm2 (P = 0.005), and 68% observed at 25 mJ/cm2 (P = 0.0002).",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "secondary metabolites",
+    "Aspergillus niger",
+    "International Space Station",
+    "pyranonigrin A",
+    "antioxidant",
+    "Microbiology",
+    "Original Research"
+  ],
+  "citations": [
+    {
+      "title": "The FlbA-regulated predicted transcription factor Fum21 of Aspergillus niger is involved in fumonisin production.",
+      "authors": [
+        "D. Aerts",
+        "E. E. Hauer",
+        "R. A. Ohm",
+        "M. Arentshorst",
+        "W. R. Teertstra",
+        "C. Phippen"
+      ]
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data.",
+      "authors": [
+        "S. Andrews"
+      ]
+    },
+    {
+      "title": "A new vector for efficient gene targeting to the pyrG locus in Aspergillus niger.",
+      "authors": [
+        "M. Arentshorst",
+        "E. L. Lagendijk",
+        "A. F. Ram"
+      ]
+    },
+    {
+      "title": "Pyranonigrin E: a PKS-NRPS hybrid metabolite from Aspergillus niger identified by genome mining.",
+      "authors": [
+        "T. Awakawa",
+        "X.-L. Yang",
+        "T. Wakimoto",
+        "I. Abe"
+      ]
+    },
+    {
+      "title": "Effects of spaceflight on innate immune function and antioxidant gene expression.",
+      "authors": [
+        "F. P. Baqai",
+        "D. S. Gridley",
+        "J. M. Slater",
+        "X. Luo-Owen",
+        "L. S. Stodieck",
+        "V. Ferguson"
+      ]
+    },
+    {
+      "title": "Trimmomatic: a flexible trimmer for illumina sequence data.",
+      "authors": [
+        "A. M. Bolger",
+        "M. Lohse",
+        "B. Usadel"
+      ]
+    },
+    {
+      "title": "Regulation of fungal secondary metabolism.",
+      "authors": [
+        "A. A. Brakhage"
+      ]
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities.",
+      "authors": [
+        "A. Checinska",
+        "A. J. Probst",
+        "P. Vaishampayan",
+        "J. R. White",
+        "D. Kumar",
+        "V. G. Stepanov"
+      ]
+    },
+    {
+      "title": "Characterization of a polyketide synthase in Aspergillus niger whose product is a precursor for both dihydroxynaphthalene (DHN) melanin and naphtho-γ-pyrone.",
+      "authors": [
+        "Y.-M. Chiang",
+        "K. M. Meyer",
+        "M. Praseuth",
+        "S. E. Baker",
+        "K. S. Bruno",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "Fungal naphtho-γ-pyrones—secondary metabolites of industrial interest.",
+      "authors": [
+        "E. Choque",
+        "Y. El Rayess",
+        "J. Raynal",
+        "F. Mathieu"
+      ]
+    },
+    {
+      "title": "Functions of fungal melanin beyond virulence.",
+      "authors": [
+        "R. J. B. Cordero",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Ionizing radiation changes the electronic properties of melanin and enhances the growth of melanized fungi.",
+      "authors": [
+        "E. Dadachova",
+        "R. A. Bryan",
+        "X. Huang",
+        "T. Moadel",
+        "A. D. Schweitzer",
+        "P. Aisen"
+      ]
+    },
+    {
+      "title": "Antioxidant therapy: current status and future prospects.",
+      "authors": [
+        "O. Firuzi",
+        "R. Miri",
+        "M. Tavakkoli",
+        "L. Saso"
+      ]
+    },
+    {
+      "title": "Assembly-line enzymology for polyketide and nonribosomal peptide antibiotics: logic, machinery, and mechanisms.",
+      "authors": [
+        "M. A. Fischbach",
+        "C. T. Walsh"
+      ]
+    },
+    {
+      "title": "Radiation-resistant extremophiles and their potential in biotechnology and therapeutics.",
+      "authors": [
+        "P. Gabani",
+        "O. V. Singh"
+      ]
+    },
+    {
+      "title": "Regio- and stereoselective oxidative phenol coupling in Aspergillus niger.",
+      "authors": [
+        "C. Gil Girol",
+        "K. M. Fisch",
+        "T. Heinekamp",
+        "S. Günther",
+        "W. Hüttel",
+        "J. Piel"
+      ]
+    },
+    {
+      "title": "MycoCosm portal: gearing up for 1000 fungal genomes.",
+      "authors": [
+        "I. V. Grigoriev",
+        "R. Nikitin",
+        "S. Haridas",
+        "A. Kuo",
+        "R. Ohm",
+        "R. Otillar"
+      ]
+    },
+    {
+      "title": "Fungal pollution of indoor environments and its management.",
+      "authors": [
+        "A. A. Haleem Khan",
+        "S. Mohan Karuppayil"
+      ]
+    },
+    {
+      "title": "New natural products from the sponge-derived fungus Aspergillus niger.",
+      "authors": [
+        "J. Hiort",
+        "K. Maksimenka",
+        "M. Reichert",
+        "S. PerovićOttstadt",
+        "W. H. Lin",
+        "V. Wray"
+      ]
+    },
+    {
+      "title": "Isolation and identification of nigragillin as a insecticidal metabolite produced by a Aspergillus niger.",
+      "authors": [
+        "A. Isogai",
+        "T. Horii",
+        "A. Suzuki",
+        "S. Murakoshi",
+        "K. Ikeda",
+        "S. Sato"
+      ]
+    },
+    {
+      "title": "Fungal secondary metabolism — from biochemistry to genomics.",
+      "authors": [
+        "N. P. Keller",
+        "G. Turner",
+        "J. W. Bennett"
+      ]
+    },
+    {
+      "title": "Deletion of flbA results in increased secretome complexity and reduced secretion heterogeneity in colonies of Aspergillus niger.",
+      "authors": [
+        "P. Krijgsheld",
+        "B. M. Nitsche",
+        "H. Post",
+        "A. M. Levin",
+        "W. H. Müller",
+        "A. J. R. Heck"
+      ]
+    },
+    {
+      "title": "Melanin-lacking mutants of Cryptococcus neoformans and their virulence for mice.",
+      "authors": [
+        "K. J. Kwon-Chung",
+        "I. Polacheck",
+        "T. J. Popkin"
+      ]
+    },
+    {
+      "title": "Exposure to low-level chemicals and ionizing radiation: reactive oxygen species and cellular pathways.",
+      "authors": [
+        "B. Lehnert",
+        "R. Iyer"
+      ]
+    },
+    {
+      "title": "Fast and accurate short read alignment with Burrows-Wheeler transform.",
+      "authors": [
+        "H. Li",
+        "R. Durbin"
+      ]
+    },
+    {
+      "title": "The sequence alignment/map format and SAMtools.",
+      "authors": [
+        "H. Li",
+        "B. Handsaker",
+        "A. Wysoker",
+        "T. Fennell",
+        "J. Ruan",
+        "N. Homer"
+      ]
+    },
+    {
+      "title": "The genome analysis toolkit: a map reduce framework for analyzing next-generation DNA sequencing data.",
+      "authors": [
+        "A. McKenna",
+        "M. Hanna",
+        "E. Banks",
+        "A. Sivachenko",
+        "K. Cibulskis",
+        "A. Kernytsky"
+      ]
+    },
+    {
+      "title": "Highly efficient gene targeting in the Aspergillus niger kusA mutant.",
+      "authors": [
+        "V. Meyer",
+        "M. Arentshorst",
+        "A. El-Ghezal",
+        "A.-C. Drews",
+        "R. Kooistra",
+        "C. A. M. J. J. van den Hondel"
+      ]
+    },
+    {
+      "title": "Isolation of the antioxidant Pyranonigrin-A from rice mold starters used in the manufacturing process of fermented foods.",
+      "authors": [
+        "Y. Miyake",
+        "C. Ito",
+        "M. Itoigawa",
+        "T. Osawa"
+      ]
+    },
+    {
+      "title": "Natural products as sources of new drugs over the 30 years from 1981 to 2010.",
+      "authors": [
+        "D. J. Newman",
+        "G. M. Cragg"
+      ]
+    },
+    {
+      "title": "The antibody response to fungal melanin in mice.",
+      "authors": [
+        "J. D. Nosanchuk",
+        "A. L. Rosas",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Survey of environmental biocontamination on board the International Space Station.",
+      "authors": [
+        "N. Novikova",
+        "P. De Boever",
+        "S. Poddubko",
+        "E. Deshevaya",
+        "N. Polikarpov",
+        "N. Rakova"
+      ]
+    },
+    {
+      "title": "Microbial contamination of spacecraft.",
+      "authors": [
+        "D. L. Pierson"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "D. L. Pierson",
+        "D. J. Botkin",
+        "R. J. Bruce",
+        "V. A. Castro",
+        "M. J. Smith",
+        "C. M. Oubre"
+      ]
+    },
+    {
+      "title": "High-quality annotation of promoter regions for 913 bacterial genomes.",
+      "authors": [
+        "V. Rangannan",
+        "M. Bansal"
+      ]
+    },
+    {
+      "title": "A major role for nonenzymatic antioxidant processes in the radioresistance of Halobacterium salinarum.",
+      "authors": [
+        "C. K. Robinson",
+        "K. Webb",
+        "A. Kaur",
+        "P. Jaruga",
+        "M. Dizdaroglu",
+        "N. S. Baliga"
+      ]
+    },
+    {
+      "title": "International Space Station conditions alter genomics, proteomics, and metabolomics in Aspergillus nidulans.",
+      "authors": [
+        "J. Romsdahl",
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "Y.-M. Chiang",
+        "S. Masonjones",
+        "J. Yaegashi"
+      ]
+    },
+    {
+      "title": "Characterization of Aspergillus niger isolated from the International Space Station.",
+      "authors": [
+        "J. Romsdahl",
+        "A. Blachowicz",
+        "A. J. Chiang",
+        "N. Singh",
+        "J. E. Stajich",
+        "M. Kalkum"
+      ]
+    },
+    {
+      "title": "Recent advances in the genome mining of Aspergillus secondary metabolites (covering 2012– 2018).",
+      "authors": [
+        "J. Romsdahl",
+        "C. C. C. Wang"
+      ]
+    },
+    {
+      "title": "On the safety of Aspergillus niger–a review.",
+      "authors": [
+        "E. Schuster",
+        "N. Dunn-Coleman",
+        "J. C. Frisvad",
+        "P. W. M. Van Dijck"
+      ]
+    },
+    {
+      "title": "Rock black fungi: excellence in the extremes, from the Antarctic to space.",
+      "authors": [
+        "L. Selbmann",
+        "L. Zucconi",
+        "D. Isola",
+        "S. Onofri"
+      ]
+    },
+    {
+      "title": "Seven naphtho-γ-pyrones from the marine-derived fungus Alternaria alternata: structure elucidation and biological properties.",
+      "authors": [
+        "M. Shaaban",
+        "K. A. Shaaban",
+        "M. S. Abdel-Aziz"
+      ]
+    },
+    {
+      "title": "Adaptive melanin response of the soil fungus Aspergillus niger to UV radiation stress at “evolution canyon”, Mount Carmel, Israel.",
+      "authors": [
+        "N. Singaravelan",
+        "I. Grishkan",
+        "A. Beharav",
+        "K. Wakamatsu",
+        "S. Ito",
+        "E. Nevo"
+      ]
+    },
+    {
+      "title": "Effects of the space flight environment on the immune system.",
+      "authors": [
+        "G. Sonnenfeld",
+        "J. S. Butel",
+        "W. T. Shearer"
+      ]
+    },
+    {
+      "title": "FungiDB: an integrated functional genomics database for fungi.",
+      "authors": [
+        "J. E. Stajich",
+        "T. Harris",
+        "B. P. Brunk",
+        "J. Brestelli",
+        "S. Fischer",
+        "O. S. Harb"
+      ]
+    },
+    {
+      "title": "Identification of the pyranonigrin A biosynthetic gene cluster by genome mining in Penicillium thymicola IBT 5891.",
+      "authors": [
+        "M.-C. Tang",
+        "Y. Zou",
+        "D. Yee",
+        "Y. Tang"
+      ]
+    },
+    {
+      "title": "Study of minimal inhibitory concentration of antibiotics on bacteria cultivated in vitro in space (Cytos 2 experiment).",
+      "authors": [
+        "R. Tixador",
+        "G. Richoilley",
+        "G. Gasset",
+        "J. Templier",
+        "J. Bes",
+        "N. Moatti"
+      ]
+    },
+    {
+      "title": "Microbial contamination monitoring and control during human space missions.",
+      "authors": [
+        "R. Van Houdt",
+        "K. Mijnendonckx",
+        "N. Leys"
+      ]
+    },
+    {
+      "title": "Occurrence of black Aspergilli in indoor environments of six countries.",
+      "authors": [
+        "J. Varga",
+        "S. Kocsubé",
+        "G. Szigeti",
+        "N. Baranyi",
+        "C. Vágvölgyi",
+        "D. Jakšić Despot"
+      ]
+    },
+    {
+      "title": "Deletion of the epigenetic regulator GcnE in Aspergillus niger FGSC A1279 activates the production of multiple polyketide metabolites.",
+      "authors": [
+        "B. Wang",
+        "X. Li",
+        "D. Yu",
+        "X. Chen",
+        "J. Tabudravu",
+        "H. Deng"
+      ]
+    },
+    {
+      "title": "Cryptococcus neoformans melanin and virulence: mechanism of action.",
+      "authors": [
+        "Y. Wang",
+        "P. Aisen",
+        "A. Casadevall"
+      ]
+    },
+    {
+      "title": "Media ion composition controls regulatory and virulence response of Salmonella in spaceflight.",
+      "authors": [
+        "J. W. Wilson",
+        "C. M. Ott",
+        "L. Quick",
+        "R. Davis",
+        "K. H. Zu Bentrup",
+        "A. Crabbé"
+      ]
+    },
+    {
+      "title": "Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq.",
+      "authors": [
+        "J. W. Wilson",
+        "C. M. Ott",
+        "K. H. Zu Bentrup",
+        "R. Ramamurthy",
+        "L. Quick",
+        "S. Porwollik"
+      ]
+    },
+    {
+      "title": "Identification of putative promoters in 48 eukaryotic genomes on the basis of DNA free energy.",
+      "authors": [
+        "V. R. Yella",
+        "A. Kumar",
+        "M. Bansal"
+      ]
+    },
+    {
+      "title": "Double-joint PCR: a PCR-based molecular tool for gene manipulations in filamentous fungi.",
+      "authors": [
+        "J.-H. Yu",
+        "Z. Hamari",
+        "K.-H. Han",
+        "J.-A. Seo",
+        "Y. Reyes-Domínguez",
+        "C. Scazzocchio"
+      ]
+    },
+    {
+      "title": "Characterization of a silent azaphilone gene cluster from Aspergillus niger ATCC 1015 reveals a hydroxylation-mediated pyran-ring formation.",
+      "authors": [
+        "A. O. Zabala",
+        "W. Xu",
+        "Y.-H. Chooi",
+        "Y. Tang"
+      ]
+    }
+  ],
+  "original_title": "Characterization of Aspergillus niger Isolated from the International Space Station",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e17b/7326050/0f988dac0629/fmicb-11-00931-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e17b/7326050/8f0ffb89c24d/fmicb-11-00931-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e17b/7326050/632efb9738e5/fmicb-11-00931-g003.jpg"
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "pmcid": "10144393",
+  "title": "Morphology of Penicillium rubens Biofilms Formed in Space",
+  "abstract": "Fungi biofilms have been found growing on spacecraft surfaces such as windows, piping, cables, etc. The contamination of these surfaces with fungi, although undesirable, is highly difficult to avoid. While several biofilm forming species, including Penicillium rubens, have been identified in spacecraft, the effect of microgravity on fungal biofilm formation is unknown. This study sent seven material surfaces (Stainless Steel 316, Aluminum Alloy, Titanium Alloy, Carbon Fiber, Quartz, Silicone, and Nanograss) inoculated with spores of P. rubens to the International Space Station and allowed biofilms to form for 10, 15, and 20 days to understand the effects of microgravity on biofilm morphology and growth. In general, microgravity did not induce changes in the shape of biofilms, nor did it affect growth in terms of biomass, thickness, and surface area coverage. However, microgravity increased or decreased biofilm formation in some cases, and this was incubation-time- and material-dependent. Nanograss was the material with significantly less biofilm formation, both in microgravity and on Earth, and it could potentially be interfering with hyphal adhesion and/or spore germination. Additionally, a decrease in biofilm formation at 20 days, potentially due to nutrient depletion, was seen in some space and Earth samples and was material-dependent.",
+  "introduction": "1. Introduction\n\nBiofilms are cell populations that grow embedded in an extracellular matrix (ECM), which has effects on its ability to adhere to itself and to surfaces, and which changes the interaction between cells and nutrients, quorum-sensing molecules, and its environment in general. For example, it is estimated that up to 80% of bacterial and archaeal cells in nature grow as biofilm populations. The ability of fungi, eukaryotic organisms, to form biofilms depends, in part, on the substratum upon which they form, and occurs in a six-phase fashion: arrival at substratum, adhesion, colonization, ECM production, biofilm maturation, and dispersal.\n\nOne of the most important phases in biofilm formation is adhesion and depends largely on cell–surface and cell–cell adhesion. Following adhesion, microbes proliferate and form the ECM. The ECM has antimicrobial-resistant properties complicating the removal of fungal cells from surfaces. If the process of adhesion is blocked, proliferation and formation of the extracellular matrix will be prevented, providing an ideal way to stop biofilm development. The factors contributing to the fungal biofilm adherence are dependent on the species and strain. Past studies have identified hydrophobicity as a determinant for fungal biofilm adhesion, while other studies concluded that hydrophobicity of the material alone is not enough to determine adhesion. The lack of a consensus on the role of material hydrophobicity in biofilm adherence complicates the development of a biofilm-resistant material.\n\nBecause fungal biofilms are challenging to remove from surfaces due to the ECM, fungal biofilms, or molds, which in the context of this investigation are considered equivalent to fungal biofilms, are a concern for human spaceflight for at least two reasons. The first comes from the potential damage to the surfaces (namely equipment) upon which they grow. Fungal biofilms can directly damage surfaces by using the material as a source of energy, or indirectly by degrading it with enzymes and other metabolic byproducts. This is not an unfounded concern, as there have been issues derived from fungal biofilm formation in previous space stations. On the Soviet Salyut 6 space station, fungal biofilms were observed on “piping and equipment behind the panels”. On Salyut 7, fungal growth was found on the water condensation system used for water recycling, the radiator of the thermal system, and on electric connectors and cables, in some of which “holes” on the insulation tape were observed. On the Mir space station, fungal biofilms (Penicillium chrysogenum now called Penicillium rubens) started growing on windows’ rubber seals and expanded onto (and damaged) the quartz and titanium frame. Fungal biofilms were also reported on components of the air conditioning system and on cables using the electric insulation as a source of food. Furthermore, there were “zones completely covered with growth of mold fungi destruction of the plates” on the oxygen electrolysis block, and fungal biofilms were observed on the head phone of the EVA suit, lavatory pan, piping of the thermal control system, urine processing assembly, etc. Cosmonauts reported fungal growths, usually observed on moist areas where water condensed over “cold” material surfaces, as yellow or orange, or as “white powder”, sometimes “the size of a football”. Both in the Mir space station as well as in the International Space Station (ISS), Penicillium has been the most isolated genus of fungi. Many of the fungi isolated from Mir were known biodegraders of polymers and showed more aggressive post-flight colony formation and biodegradation activity than reference strains, which the authors suggested could have been caused by the exposure to changes in radiation level, magnetic fields, or solar activity.\n\nThe second reason why fungal biofilms are a concern to human spaceflight is medical in nature. The ECM and altered cell–cell communication via quorum-sensing molecules can increase antifungal resistance and pathogenicity compared to planktonic cells, and the biofilms can serve as reservoirs of persistent sources of infections. Fungi can cause infections in humans that are harder to diagnose and treat than those of bacterial origin, resulting in failure of antifungal therapy, which may require surgical intervention and translate into high mortality rates. Catheters can be colonized by fungal biofilms, from which cells can detach and cause acute fungemia and disseminated infection that may require long-term antifungal treatments. Similarly, fungi can infect the respiratory tract, causing bronchitis and other types of infections. Fungi can cause superficial and invasive infections,, particularly among the immunocompromised, posing a threat to astronaut health as spaceflight has been shown to compromise immune response and confined environments, such as spacecraft, can increase exposure. Particularly, Penicillium rubens has been reported to cause rare but severe cases of esophagitis, endophthalmitis, and invasive pulmonary mycosis among immunocompromised individuals.\n\nWhile these challenges are significant for space stations orbiting Earth, even greater complications can arise in long-term missions. For example, in case of an emergency, such as critical equipment failure or urgent medical needs, the crew can potentially be back on the ground in a matter of hours. However, this will not be true for missions beyond the lower Earth orbit (LEO), including trips around the Moon, Earth–Mars transit, or on space habitats on the Moon and Mars. Although microbial planktonic growth has been studied in relative detail in space, little is known about fungal behavior in space when grown as biofilms. In fact, to the best of our knowledge, fungal biofilm growth in space has not been assessed and compared to ground controls, particularly how surface area coverage, biomass, and biofilm thickness change as a function of gravity, time, and material upon which they grow. Conversely, focus has been given to bacterial studies. This was one of the objectives of our Space Biofilms project performed on the ISS. Here, we report on morphological characteristics of P. rubens biofilms grown for 10, 15, or 20 days on seven different spacecraft- and nosocomial-relevant materials on board the ISS, and how they compare against their matched ground controls. Separately, we have reported on the original design of this experiment and on the changes in bacterial biofilm formation in microgravity, also as part of our Space Biofilm project. Due to the frequency of fungal contamination on spaceflight hardware and habitats and the risks fungal colonization poses to astronaut health and mission success, it is critical to better understand the effect of spaceflight on fungal biofilm development.",
+  "methods": "2. Materials and Methods\n\n2.1. Test Matrix: Fungal Strain, Materials, and Experimental Organization\n\nAluminum Alloy (Al6061), as it is used in spacecraft structures, thermal control, structures for electronic devices and panels, etc.;\n\nStainless Steel 316 (SS316), as it is used in spacecraft environmental control and life support system (ECLSS) tanks and tubing (including for potable water), and Extravehicular Mobility Unit (EMU) elements, and on Earth in surgical equipment and implants;\n\nQuartz, as it is used in spacecraft windows (at least one of them in the Mir space station damaged by P. rubens);\n\nSilicone, as it used in space in O-rings and on Earth in urological catheters, surgical incision drains, and respiratory devices;\n\nTitanium alloy (Ti-6Al-4V), as it is used in spacecraft structures, antennae, pressure vessels, brackets, fittings, etc., and on Earth in implants;\n\nCarbon fiber, as it is used in spacecraft aeroshells and other applications;\n\nMIT Nanograss, chosen to be interrogated as a potential solution to fungal biofilm formation in space. This was developed by the Massachusetts Institute of Technology (MIT) and is the substrate (nanoetched silicon wafer) described in the making of a lubricant-impregnated surface (LIS) without the lubricant oil and treated to increase hydrophobicity.\n\nPenicillium rubens ATCC® 28089™ was chosen given the genus ubiquity in space stations and this specific strain’s presence (and damage caused) in the Mir space station. The experiment examined the effect of (i) gravity (microgravity on board ISS vs. 1 g control in our lab on Earth), (ii) incubation duration (10, 15, and 20 days), and (iii) material substratum (seven materials tested) on fungal biofilm morphology. As described in further detail in, the materials chosen (and why there were chosen) for this experiment were:\n\nFor each of these materials except SS316, six replicates of each incubation time were launched to ISS to be fixed with 4% paraformaldehyde (PFA) at the end of the incubation period (for the post-flight morphology studies presented in this manuscript). SS316 was set up similarly but had 12 replicates per incubation time to enable more in-depth morphology analyses. Additionally, all materials had seven replicates of per incubation time launched to the ISS to be preserved in RNAlater (except MIT’s Nanograss, which only had 6 replicates) for post-flight differential gene expression analyses (samples available through NASA’s space Biology Biospecimen Sharing Program). This yielded a total of 288 space samples. An equivalent set (288 samples) was prepared at the same time as the Earth control. Additionally, a time zero (t0) set of samples that included seven replicates per material was also prepared.\n\n2.2. Pre-Launch Preparation\n\nThe following describes the preparation of the Space Biofilms fungal samples prior to launch. Preparation of space and Earth control samples took place simultaneously at the Eastern Virginia Medical School (EVMS), unless otherwise specified.\n\n2.2.1. Fungal Strain\n\nOne lyophilized vial of P. rubens was rehydrated with sterile water for 30 h, and then used to inoculate potato glucose agar (PGA, Sigma-Aldrich, St. Louis, MO, USA, Cat. 70139) plates. After incubation for eight days at 25 °C, the plates were flooded with 6 mL of 1X PBS (Sigma Cat. P4417) and colonies were gently rubbed with an inoculation loop to dislodge spores. The spore solution was then used to inoculate new PGA plates (working plates) in a 6 × 6 grid fashion. The working plates were six days old when used to inoculate the material coupons with spores (Section 2.2.5).\n\n2.2.2. Preparation of Syringes\n\nTo provide a humid environment ideal for fungal growth, a couple of absorbent mats inside the flight hardware needed to be wet at the experiment’s start (once in microgravity) (described in more detail in Section 2.2.5). Additionally, the experiment’s termination for morphology samples consisted of fixation with 4% PFA, while for transcriptomic samples, of preservation in RNAlater. In preparation for these tasks, 3 mL syringes filled with 3 mL of sterile distilled water, and 5 mL syringes filled with 4 mL of 4% PFA (diluted with 1X PBS from 16% PFA, Alfa Aesar, Haverhill, MA, USA, Cat. 43368) or RNAlater (Sigma-Aldrich, Cat. R0901) were prepared ahead of time.\n\n2.2.3. Preparation of Risers\n\nSilicone risers (Saint Gobain, Courbevoie, France, Cat. D1069809) were shortened to 13 mm height at BioServe Space Technologies, bag washed with 1% Liquinox (m/v) solution (Alconox, White Plains, NY, USA, Cat. No. 16-000-126) in distilled water, rinsed with distilled water, dried at 100 °C, and autoclaved for 30 min at 121 °C (dry cycle) before plate assembly (Section 2.2.5). More details on why these were used and how they were implemented are given in Section 2.2.5.\n\n2.2.4. Preparation of Material Coupons\n\nThe 1 cm2 material coupons (Table 1) were labeled and organized by plate ahead of time at BioServe Space Technologies (except Silicone, which was labeled after cleaning). When at EVMS, the labeled coupons were washed with 1% Liquinox by ultrasonic cleaning, rinsed with distilled water, and then dried at 100 °C. Silicone coupons were cleaned by bag wash, rinsed, dried, and subsequently labeled. MIT Nanograss coupons were not cleaned, as they were prepared in sterile conditions.\n\nAll coupons were submerged in 70% ethanol for 15 min on each side and left to air dry inside the biosafety cabinet to disinfect the material surfaces. Once completely dried, the coupons were submerged in sterile Potato Dextrose Broth (Sigma-Aldrich, P6685) for 30 min and allowed to air dry overnight at room temperature; this supplemented the surface with nutrients to promote fungal growth over the coupons. The next day, coupons were carefully handled (never touching the surface, only the edges) to stick the cardboard side of 1 cm2 pieces of double-sided tape (3M, Saint Paul, MN, USA, Cat. No. 9731) to the bottom of the coupons (over the label). The clear side of the tape was then peeled in preparation for spore inoculation (Section 2.2.5).\n\n2.2.5. Inoculation of Spores and Sample Assembly into Hardware\n\nEach coupon was inoculated with fungal spores per the “dry conidia” method. A 5 g weight (McMaster, Hamilton, ON, Canada, Cat. 1777T23) was stuck to the back of the coupon using double-sided tape and then gently placed face down on top of 6-day-old mold of P. rubens grown on PGA plates (Figure 1a,b). Each coupon was placed on a new unused area of the mold for exactly 10 s to transfer comparable amounts of spores (on average 777 spores/mm2, Appendix A) onto each coupon’s surface.\n\nOne sterile riser was inserted in each well of a commercial-off-the-shelf (COTS) 24-well plate (CellTreat, Pepperell, MA, USA, Cat. 229524) (Figure 2a). An inoculated coupon was then placed on top and adhered to the riser (Figure 2b) and secured in place by pressing gently on the corners. The plates contained 24 coupons placed in a random fashion (ISS and Earth equivalent plates matching) to reduce the effect of a possible humidity or oxygen gradient in the Plate Habitat (PHAB). To ensure the safety of the crew and the space station, a sterile and gas-permeable Breathe-Easy membrane (Sigma, Cat. Z380059) was placed over each plate (Figure 2c) to seal and contain the fungi and spores. The use of the silicone risers reduced the working volume in the well to 0.7 mL, rising the material coupon closer to the membrane, and minimizing the volume of fixative/preservative needed to terminate the experiment. This resulted in reduced crew time, launch mass, and volume.\n\nFour loaded plates (inside a bag) and a temperature and humidity recorder were housed in each of the spaceflight hardware: BioServe Space Technologies’ PHAB (Figure 3). The temperature and relative humidity (RH) recorder was used to determine whether the environment was similar between PHABs. The PHAB was used as the secondary containment for the samples as well as a tool to maintain humidity and promote fungal growth. Each PHAB was designated to a particular incubation time and gravitational condition; three were sent to the ISS (one corresponding to 10, 15, and 20 days of incubation), while three equivalent PHABs were kept on Earth as controls.\n\nThe assembled PHABs were transferred to cold stow (4 °C), where they remained at this temperature for pre-launch, launch, and ISS stowage until experiment activation. The reduction in temperature and the placement of plates inside a plastic bag to reduce gas permeability help prevent activation (fungal growth) until samples reach microgravity. Additionally, the PHABs were maintained oriented during pre-launch stowage and during launch so that the coupons were on top to minimize the risk of detachment from the risers.\n\n2.2.6. Sample Set t0\n\nThe t0 samples did not undergo any cold stowage, but were immediately activated after inoculation by transferring to 25 °C for 6 h to allow spores to adhere to the surface, then fixed with 4% PFA on Earth. The objective of including these samples was to determine if they showed a discrepancy in spore count between materials at the start of the experiment and to determine if later comparison across material type was valid, or a result of unequal inoculation. The 6-hour incubation was chosen to allow enough time for spore adherence to prevent spores from washing away during staining.\n\n2.3. Experiment Performance—On ISS and on Earth\n\nThe Earth controls were performed following the same timeline as the flight set, albeit with a 2-hour delayed start, described as step 3 in Figure 4 (asynchronous). This allowed the spaceflight session to conclude prior to start the equivalent on Earth. Therefore, the operations described in this section (Figure 4) pertain to both space and Earth control sets.\n\nThe start of the experiment began at sample “activation” when samples were removed from cold stow (after ~12.5 days) and provided with high relative humidity (RH) (> 90%), oxygen availability (ISS’ atmosphere), warm temperature (25 °C), and darkness, rendering the ideal environment for fungal growth. To activate the samples, the PHABs were opened, the plastic bag around the four plates was removed, and the two pieces of absorbent mat (one on the lid and one on the floor of the PHAB) were wet with three water syringes (9 mL total of water per PHAB). Then, the plates were returned to the PHAB, and the PHAB was placed at 25 °C undisturbed for 10 d 2 h, 14 d 19 h, or 20 d 3.5 h.\n\nAfter the designated incubation period, the samples were “terminated” while in microgravity to fix the spaceflight morphology or preserve the spaceflight transcriptome. Termination of the experiment consisted of flooding the wells with either 4% PFA (morphology samples) or RNAlater (transcriptomic samples), and took place inside the Life Sciences Glovebox (LSG). To terminate the samples, the Breathe-Easy membrane was pierced with a needle to inject enough fixative or preservative into each well. The punctured membranes were dried from the outside with sterile gauze, and sterile RNase-free sealing strips (Sigma-Aldrich, Cat. Z707392) were placed over to seal the holes left by the needles. Terminated plates fixed with 4% PFA were stowed at 4 °C, and plates preserved with RNAlater at −95 °C on orbit; immediately upon receiving them back on Earth, they were stowed at 4 and −80 °C, respectively, to prevent sample degradation.\n\n2.4. Post-Flight Biofilm Morphology Data Acquisition\n\nUpon return to Earth, the plates with the fixed coupons were maintained at 4 °C. When ready for morphology data acquisition, the coupons were transferred (without touching the coupon’s surface with the biofilm) into a new 24-well plate in batches of six or eight (space and Earth control of a respective coupon treated on the same session). Each coupon was stained with a mixture of 400 µL of Calcofluor White (Sigma-Aldrich, 18909-100ML-F), staining the chitin present in fungal cell walls, and 400 µL of Biofilm Ruby (Invitrogen, Waltham, MA, USA, F10318), marking proteins present in the extracellular matrix, for 30 min protected from light. Then, each coupon was gently dipped in distilled water four times to remove excess stain and glued onto a microscope slide. To prepare the slides for microscopy, 65 µL of VectaShield anti-fade hardening mounting medium (Vector Laboratories, Burlingame, CA, USA, H-1900) and a cover slip were gently placed on top of the coupon. The coupons then stayed protected from light for 2.5 h to allow the mounting medium to harden.\n\n2.5. Image Acquisition\n\nMicroscopy images were acquired with a Nikon A1 Confocal Microscope using the 40 × 0.6NA objective and the NIS Elements 5.21.03 (Nikon Instruments Inc., Tokyo, Japan) imaging software. Two emission filters were used: 425–475 nm for Calcofluor White and 500–550 nm for Biofilm Ruby, with a 405 nm and 561 nm laser, respectively. The 3D structure of the biofilm was captured using a z-stack (step size of 0.243–2.096, 30 slices minimum), and each coupon was imaged in one large field (2 × 2 fields of 302.35 µm × 302.35 µm each, for a total of 604.70 µm × 604.70 µm). The coupons were always imaged in the center to avoid potential user bias looking for a particular section of biofilm.\n\n2.6. Qualitative Analysis\n\nAfter imaging the biofilms, a qualitative analysis was performed on all the sample images using the NIS Elements Viewer 5.21.00 software (Nikon Instruments Inc., Tokyo, Japan). The qualitative analysis consisted of describing the morphology of the biofilms to find differences and similarities of the biofilms, namely observations regarding structure and distribution, based on material surface, incubation time, and gravity condition.\n\n2.7. Conversion from .nd2 Files to .tiff Files and Slicing of Images\n\nThe images taken with the microscope were stored as .nd2 files, which is an incompatible format for quantitative analysis with COMSTAT2. Thus, all the images were converted to .tiff files using ImageJ v1.48. To this end, the nd2 file was opened in the ImageJ software and the two channels were merged, and then the composite was subsequently converted to RGB color, 8-bit, and finally .tiff file. The ImageJ plugin Slice Remover was used to remove the slices of the image stacks that did not have any relevant biofilm information (i.e., underneath the bottom layer and over the topmost layer where no biofilm signal was recorded). This ensured the software would not yield incorrect biofilm data.\n\n2.8. Quantitative Analysis and Quality Control\n\nFor the analysis process, COMSTAT 2 software v2.1 was used as a plugin in ImageJ. The images were converted into OME-Tiff files using the ImageJ macro “Convert to OME-Tiff” to ensure compatibility with COMSTAT 2. Each OME-Tiff file was analyzed using the following parameters: (i) automatic thresholding with Otsu’s Method, and (ii) no connected volume filtering. The measurements produced by the software were (a) biomass and (b) thickness distribution. A proxy for biomass, which will be referred to as biomass for the purpose of this investigation, is calculated in COMSTAT2 as the ratio of volume per unit area. Using the data for 0 µm thickness, we calculated the (c) surface area coverage of the biofilm. As a quality control step, each mask created by COMSTAT2 was compared with the original .nd2 files to check for resemblance between the two files. The images which were far off from the original image were re-analyzed with a manual threshold instead of automatic threshold.\n\nThe biomass of each of the t0 samples was produced by COMSTAT2 using the same methodology. Thickness and surface area were not calculated as these samples only contained spores which could be stacked or clumped together, potentially leading to a false statistical significance when comparing amount of spores. Biomass was hence deemed the best parameter to examine for this set of samples as it takes into account the overall volume occupied by the spores.\n\n2.9. Statistical Analysis\n\nStatistical analysis was performed using R version 4.1.2 in RStudio (v4.1.2; R Core Team 2021). The data obtained from the quantitative analysis were first tested for normality and homogeneity to determine if parametric or nonparametric statistical tests would be used. Normality was tested using the Shapiro–Wilk test and homogeneity was tested using Levene’s test. The data did not comply with the assumptions of normality and homogeneity (only a few subsets complied); therefore, nonparametric statistical tests were used. The Kruskal–Wallis test and Dunn’s test with Bonferroni correction were used to compare the median values of biomass and surface area coverage of biofilms based on the gravity and incubation time per material as well as to compare the differences between materials. A significance level of 0.05 was used (p < 0.05).",
+  "results": "3. Results\n\nThe results presented below in Section 3.3, Section 3.4, Section 3.5, Section 3.6, Section 3.7, Section 3.8 and Section 3.9 are all statistically significant results. Any comparisons that were not statistically significant are not reported. All figures with statistically significant results are indicated using brackets. Comparisons without brackets indicate a lack of statistically significant differences.\n\n3.1. RH and Temperature Profiles\n\nThe temperature and RH registered inside the PHABs (Figure 5) shows a successful increase in temperature and humidity to promote fungal growth. The average temperature of incubation (activation to termination) was 24.8 ± 2.4 °C and 25.6 ± 0.9 °C for ground and spaceflight samples, respectively. The RH during incubation was 96.6 ± 6.0% for all spaceflight samples, while for Earth PHABs, the humidity was less stable for some cases. The average humidity on the ground was 56.1 ± 9.6%, 91.9 ± 5.9%, and 48.4 ± 16.9% for 10, 15, and 20 days of incubation, respectively.\n\n3.2. t0 Samples\n\nAs expected, low biofilm biomass was observed on the t0 samples for each material (Table 2). No significant differences in mass were found between materials at t0.\n\n3.3. Carbon Fiber\n\nNo significant differences in P. rubens biofilm mass and thickness were observed when comparing incubation time and gravity conditions on carbon fiber. Nevertheless, there were two statistical differences in surface area coverage between gravity conditions. When grown for 10 days, biofilms formed in space had 22.7% less surface area coverage compared to samples grown on Earth (p < 0.05). However, after 15 days of growth, the spaceflight samples had 37.8% more surface area coverage than the Earth controls (p < 0.05) (Figure 6).\n\n3.4. Stainless Steel 316\n\nThere were no significant differences observed in P. rubens biofilm mass or thickness when compared throughout the gravity conditions and incubation times. Nevertheless, there were two statistical differences in surface area coverage under two comparisons. Biofilms formed on Earth showed differences between days 10 and 20, where the surface area coverage had an 85.8% decrease from day 10 to day 20 (p < 0.05), as seen in Figure 7a. Comparing between spaceflight and Earth, the only difference observed was on day 15, when the samples grown in space had a 30.7% increase in surface area coverage with respect to the 1 g controls (p < 0.05); such an increase in microgravity was also noticeable in the microscopy images (Figure 7b,c).\n\n3.5. Quartz\n\nThere were no significant differences observed in mass or surface area coverage when comparing incubation times and gravity conditions of P. rubens biofilms grown on quartz. Nevertheless, biofilm thickness after 20 days had an 88.5% decrease compared to 15 days of incubation time in space conditions (p < 0.05). When comparing the samples grown for 20 days, those grown in space had 58.8% less thickness compared to Earth samples (p < 0.05), shown in Figure 8.\n\n3.6. Titanium Alloy\n\nThe biofilm mass (Figure 9a) and thickness (Figure 9c), when grown for 20 days on Earth, showed a significant decrease compared to samples grown for 15 days with an 8% decrease in mass and a 52.8% decrease in thickness (p < 0.05). Such a biofilm reduction (mass and thickness) was not observed in microgravity between 15 and 20 days. Surface area coverage (Figure 9b) of samples grown for 10 days on Earth was 4.6 times higher than those grown for 20 days under the same conditions (p < 0.05). Significant changes between space and Earth samples were also observed in biofilm thickness. After 10 days of incubation, samples grown in space were 2.3 times thicker compared to samples on Earth (p < 0.05). A similar observation was seen in the samples after 20 days, with samples grown in space being 1.97 times thicker compared to samples on Earth (p < 0.05) (Figure 9c).\n\n3.7. Silicone, MIT Nanograss, and Aluminum Alloy\n\nBiofilms grown on Silicone, Nanograss, and Aluminum Alloy presented no significant differences when compared by gravity and incubation time regarding biofilm mass, thickness, or surface area coverage.\n\n3.8. Effect of Surface Material on Earth\n\nAfter 15 days growing in Earth conditions (Figure 10), the biofilm surface area on silicone was 13% higher than the biofilm surface area on the Nanograss material (p < 0.05). There were no significant differences in biofilm thickness and mass between materials. There were also no significant differences between materials in biofilm thickness, mass, and surface area for Earth samples grown for 10 and 20 days.\n\n3.9. Effect of Surface Material in Space\n\n3.9.1. Space Samples after 10 Days\n\nAfter growing in space conditions for 10 days, Stainless Steel had 19 times more biofilm mass (p < 0.05) (Figure 11a) and 9% more surface area coverage (p < 0.01) (Figure 11b) than Nanograss. There was no significant difference in biofilm thickness between materials grown for 10 days in space.\n\n3.9.2. Space Samples after 15 Days\n\nBiofilm mass was significantly different between Nanograss and four other materials when grown in space for 15 days. Compared to the biofilm mass on Nanograss, 27-, 32-, and 30-fold increases in mass were observed on Stainless Steel, Quartz, and Titanium Alloy, respectively (p < 0.05) (Figure 12a). Stainless Steel and Titanium Alloy not only had more biofilm mass than Nanograss, but also had 5% (p < 0.01) and 4% (p < 0.05) more biofilm surface area coverage, respectively (Figure 12b). There were no significant differences in biofilm thickness when grown in space conditions for 15 days.\n\n3.9.3. Space Samples after 20 Days\n\nAfter growing for 20 days in space, Aluminum Alloy’s biofilm was 25% thicker than Nanograss’s biofilm (p < 0.05) (Figure 13). There were no significant differences in biofilm mass or surface area after 20 days of growth in space conditions.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "microgravity",
+    "Penicillium chrysogenum",
+    "fungal biofilm",
+    "International Space Station",
+    "microscopy",
+    "spacecraft",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Fungal Biofilms",
+      "authors": [
+        "S. Fanning",
+        "A.P. Mitchell"
+      ]
+    },
+    {
+      "title": "Three faces of biofilms: A microbial lifestyle, a nascent multicellular organism, and an incubator for diversity",
+      "authors": [
+        "A. Penesyan",
+        "I.T. Paulsen",
+        "S. Kjelleberg",
+        "M.R. Gillings"
+      ]
+    },
+    {
+      "title": "Our Current Understanding of Fungal Biofilms",
+      "authors": [
+        "G. Ramage",
+        "E. Mowat",
+        "B. Jones",
+        "C. Williams",
+        "J. Lopez-Ribot"
+      ]
+    },
+    {
+      "title": "Fungal Biofilm Resistance",
+      "authors": [
+        "G. Ramage",
+        "R. Rajendran",
+        "L. Sherry",
+        "C. Williams"
+      ]
+    },
+    {
+      "title": "How to build a biofilm: A fungal perspective",
+      "authors": [
+        "J. Blankenship",
+        "A.P. Mitchell"
+      ]
+    },
+    {
+      "title": "Candida glabrata, an emerging fungal pathogen, exhibits superior relative cell surface hydrophobicity and adhesion to denture acrylic surfaces compared with Candida albicans",
+      "authors": [
+        "G. Luo",
+        "L.P. Samaranayake"
+      ]
+    },
+    {
+      "title": "Adherence and biofilm formation of non-Candida albicans Candida species",
+      "authors": [
+        "S. Silva",
+        "M. Negri",
+        "M. Henriques",
+        "R. Oliveira",
+        "D.W. Williams",
+        "J. Azeredo"
+      ]
+    },
+    {
+      "title": "Biological induced corrosion of materials II: New test methods and experiences from mir station",
+      "authors": [
+        "R. Klintworth",
+        "H. Reher",
+        "A. Viktorov",
+        "D. Bohle"
+      ]
+    },
+    {
+      "title": "Design of a spaceflight biofilm experiment",
+      "authors": [
+        "L. Zea",
+        "Z. Nisar",
+        "P. Rubin",
+        "M. Cortesão",
+        "J. Luo",
+        "S.A. McBride",
+        "R. Moeller",
+        "D. Klaus",
+        "D. Müller",
+        "K.K. Varanasi"
+      ]
+    },
+    {
+      "title": "Microbial Contamination in the Spacecraft",
+      "authors": [
+        "D.L. Pierson"
+      ]
+    },
+    {
+      "title": "Review of the Knowledge of Microbial Contamination of the Russian Manned Spacecraft",
+      "authors": [
+        "N.D. Novikova"
+      ]
+    },
+    {
+      "title": "Fungal Biofilms and Polymicrobial Diseases",
+      "authors": [
+        "C.B. Costa-Orlandi",
+        "J.C.O. Sardi",
+        "N.S. Pitangui",
+        "H.C. De Oliveira",
+        "L. Scorzoni",
+        "M.C. Galeane",
+        "K.P. Medina-Alarcón",
+        "W.C.M.A. Melo",
+        "M.Y. Marcelino",
+        "J.D. Braz"
+      ]
+    },
+    {
+      "title": "Hidden Killers: Human Fungal Infections",
+      "authors": [
+        "G.D. Brown",
+        "D.W. Denning",
+        "N.A.R. Gow",
+        "S.M. Levitz",
+        "M.G. Netea",
+        "T.C. White"
+      ]
+    },
+    {
+      "title": "Identification and Antifungal Susceptibility of Penicillium-Like Fungi from Clinical Samples in the United States",
+      "authors": [
+        "M. Guevara-Suarez",
+        "D.A. Sutton",
+        "J.F. Cano-Lira",
+        "D. Garcia",
+        "A. Martin-Vicente",
+        "N. Wiederhold",
+        "J. Guarro",
+        "J. Gené"
+      ]
+    },
+    {
+      "title": "Microgravity and immune responsiveness: Implications for space travel",
+      "authors": [
+        "A.T. Borchers",
+        "C.L. Keen",
+        "M. Gershwin"
+      ]
+    },
+    {
+      "title": "Reduce Your Exposure to Mold in Your Home | Mold | CDC",
+      "authors": []
+    },
+    {
+      "title": "Invasive Mold Infections in Immunocompromised People | Mold | CDC",
+      "authors": []
+    },
+    {
+      "title": "Fatal necrotizing esophagitis due toPenicillium chrysogenum in a patient with acquired immunodeficiency syndrome",
+      "authors": [
+        "M. Hoffman",
+        "E. Bash",
+        "S.A. Berger",
+        "M. Burke",
+        "I. Yust"
+      ]
+    },
+    {
+      "title": "Penicillium chrysogenum endophthalmitis: First reported case. A New Invasive Pathogen",
+      "authors": [
+        "M.L. Eschete",
+        "J.W. King",
+        "B.C. West",
+        "A. Oberle"
+      ]
+    },
+    {
+      "title": "Invasive Pulmonary Mycosis Due to Penicillium chrysogenum",
+      "authors": [
+        "C. Geltner",
+        "C. Lass-Flörl",
+        "H. Bonatti",
+        "L. Müller",
+        "I. Stelzmüller"
+      ]
+    },
+    {
+      "title": "Potential biofilm control strategies for extended spaceflight missions",
+      "authors": [
+        "L. Zea",
+        "R.J. McLean",
+        "T.A. Rook",
+        "G. Angle",
+        "D.L. Carter",
+        "A. Delegard",
+        "A. Denvir",
+        "R. Gerlach",
+        "S. Gorti",
+        "D. McIlwaine"
+      ]
+    },
+    {
+      "title": "Space Microbiology",
+      "authors": [
+        "G. Horneck",
+        "D.M. Klaus",
+        "R.L. Mancinelli"
+      ]
+    },
+    {
+      "title": "A Molecular Genetic Basis Explaining Altered Bacterial Behavior in Space",
+      "authors": [
+        "L. Zea",
+        "N. Prasad",
+        "S.E. Levy",
+        "L. Stodieck",
+        "A. Jones",
+        "S. Shrestha",
+        "D. Klaus"
+      ]
+    },
+    {
+      "title": "Phenotypic Changes Exhibited by E. coli Cultured in Space",
+      "authors": [
+        "L. Zea",
+        "M. Larsen",
+        "F. Estante",
+        "K. Qvortrup",
+        "R. Moeller",
+        "S.D. de Oliveira",
+        "L. Stodieck",
+        "D. Klaus"
+      ]
+    },
+    {
+      "title": "Spaceflight Modifies Escherichia coli Gene Expression in Response to Antibiotic Exposure and Reveals Role of Oxidative Stress Response",
+      "authors": [
+        "T.R. Aunins",
+        "K.E. Erickson",
+        "N. Prasad",
+        "S.E. Levy",
+        "A. Jones",
+        "S. Shrestha",
+        "R. Mastracchio",
+        "L. Stodieck",
+        "D. Klaus",
+        "L. Zea"
+      ]
+    },
+    {
+      "title": "EXPOSE-R2 on the International Space Station (2014–2016): Results from the PSS and BOSS Astrobiology Experiments",
+      "authors": [
+        "H. Cottin",
+        "P. Rettberg"
+      ]
+    },
+    {
+      "title": "Decreased biofilm formation ability of Acinetobacter baumannii after spaceflight on China’s Shenzhou 11 spacecraft",
+      "authors": [
+        "X. Zhao",
+        "Y. Yu",
+        "X. Zhang",
+        "B. Huang",
+        "P. Bai",
+        "C. Xu",
+        "D. Li",
+        "B. Zhang",
+        "C. Liu"
+      ]
+    },
+    {
+      "title": "BioRock: New experiments and hardware to investigate microbe–mineral interactions in space",
+      "authors": [
+        "C.-M. Loudon",
+        "N. Nicholson",
+        "K. Finster",
+        "N. Leys",
+        "B. Byloos",
+        "R. Van Houdt",
+        "P. Rettberg",
+        "R. Moeller",
+        "F.M. Fuchs",
+        "R. Demets"
+      ]
+    },
+    {
+      "title": "Preparation for and performance of a Pseudomonas aeruginosa biofilm experiment on board the International Space Station",
+      "authors": [
+        "P. Flores",
+        "R. Schauer",
+        "S.A. McBride",
+        "J. Luo",
+        "C. Hoehn",
+        "S. Doraisingam",
+        "D. Widhalm",
+        "J. Chadha",
+        "L. Selman",
+        "D.W. Mueller"
+      ]
+    },
+    {
+      "title": "Space Biofilms—An Overview of the Morphology of Pseudomonas aeruginosa Biofilms Grown on Silicone and Cellulose Membranes on board the International Space Station",
+      "authors": [
+        "P. Flores",
+        "J. Luo",
+        "D. Mueller",
+        "F. Muecklich",
+        "L. Zea"
+      ]
+    },
+    {
+      "title": "Biofilms formation of Pseudomonas aeruginosa in spaceflight is minimized on Lubricant Impregnated Surface",
+      "authors": [
+        "P. Flores",
+        "S. McBride",
+        "K. Varanasi",
+        "J. Galazka",
+        "L. Zea"
+      ]
+    },
+    {
+      "title": "Droplet mobility on lubricant-impregnated surfaces",
+      "authors": [
+        "J.D. Smith",
+        "R. Dhiman",
+        "S. Anand",
+        "E. Reza-Garduno",
+        "R.E. Cohen",
+        "G.H. McKinley",
+        "K.K. Varanasi"
+      ]
+    },
+    {
+      "title": "Growth of Penicillium rubens after Desiccation",
+      "authors": [
+        "M.M. Bekker"
+      ]
+    },
+    {
+      "title": "NIH Image to ImageJ: 25 Years of image analysis",
+      "authors": [
+        "C.A. Schneider",
+        "W.S. Rasband",
+        "K.W. Eliceiri"
+      ]
+    },
+    {
+      "title": "Slice Remover. 2009. [ImageJ]",
+      "authors": [
+        "W. Rasband"
+      ]
+    },
+    {
+      "title": "Comstat2. 1 July 2015",
+      "authors": [
+        "A. Heydorn",
+        "B.K. Ersbøll",
+        "M. Vorregaard"
+      ]
+    },
+    {
+      "title": "Quantification of biofilm structures by the novel computer program comstat",
+      "authors": [
+        "A. Heydorn",
+        "A.T. Nielsen",
+        "M. Hentzer",
+        "C. Sternberg",
+        "M. Givskov",
+        "B.K. Ersbøll",
+        "S. Molin"
+      ]
+    },
+    {
+      "title": "Comstat2—A Modern 3D Image Analysis Environment for Biofilms",
+      "authors": [
+        "M. Vorregaard"
+      ]
+    },
+    {
+      "title": "Influence of Environmental Factors on The Growth of Building Deteriorating Fungi: Aspergillus Flavus and Penicillium Chrysogenum",
+      "authors": [
+        "P. Singh",
+        "M. Chauhan"
+      ]
+    },
+    {
+      "title": "Hyphal growth of Penicillium rubens in changing relative humidity",
+      "authors": [
+        "P. Ruijten",
+        "H.P. Huinink",
+        "O.C.G. Adan"
+      ]
+    },
+    {
+      "title": "The Indoor Fungus Cladosporium halotolerans Survives Humidity Dynamics Markedly Better than Aspergillus niger and Penicillium rubens despite Less Growth at Lowered Steady-State Water Activity",
+      "authors": [
+        "F.J.J. Segers",
+        "K.A. van Laarhoven",
+        "H.P. Huinink",
+        "O.C.G. Adan",
+        "H.A.B. Wösten",
+        "J. Dijksterhuis"
+      ]
+    },
+    {
+      "title": "Effect of water activity and relative air humidity on the growth of Penicillium chrysogenum thom, Aspergillus repens (Corda) Sacc., and Trichoderma viride Pers. isolated from living spaces",
+      "authors": [
+        "V.B. Ponizovskaya",
+        "A.B. Antropova",
+        "V.L. Mokeeva",
+        "E.N. Bilanenko",
+        "L.N. Chekunova"
+      ]
+    },
+    {
+      "title": "Evolutionary novelty in gravity sensing through horizontal gene transfer and high-order protein assembly",
+      "authors": [
+        "T.A. Nguyen",
+        "J. Greig",
+        "A. Khan",
+        "C. Goh",
+        "G. Jedd"
+      ]
+    },
+    {
+      "title": "Adhesion of filamentous fungi isolated from drinking water under different process conditions",
+      "authors": [
+        "S. Fernandes",
+        "L.C. Simões",
+        "N. Lima",
+        "M. Simões"
+      ]
+    },
+    {
+      "title": "Fungal Spores Viability on the International Space Station",
+      "authors": [
+        "I. Gomoiu",
+        "E. Chatzitheodoridis",
+        "S. Vadrucci",
+        "I. Walther",
+        "R. Cojoc"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "J.-P. Latgé"
+      ]
+    },
+    {
+      "title": "Aspergillus Hydrophobins: Physicochemical Properties, Biochemical Properties, and Functions in Solid Polymer Degradation",
+      "authors": [
+        "T. Tanaka",
+        "Y. Terauchi",
+        "A. Yoshimi",
+        "K. Abe"
+      ]
+    },
+    {
+      "title": "Highlights in pathogenic fungal biofilms",
+      "authors": [
+        "J.D.C.O. Sardi",
+        "N.D.S. Pitangui",
+        "G. Rodríguez-Arellanes",
+        "M.L. Taylor",
+        "A.M. Fusco-Almeida",
+        "M.J.S. Mendes-Giannini"
+      ]
+    },
+    {
+      "title": "Biofilms and Antibiotics",
+      "authors": [
+        "M.M. Harriott"
+      ]
+    },
+    {
+      "title": "Starvation survival and recovery in serum of Candida albicans compared with Enterococcus faecalis",
+      "authors": [
+        "D. Richards",
+        "J.K. Davies",
+        "D. Figdor"
+      ]
+    },
+    {
+      "title": "Flocculation, adhesion and biofilm formation in yeasts",
+      "authors": [
+        "K.J. Verstrepen",
+        "F.M. Klis"
+      ]
+    }
+  ],
+  "original_title": "Morphology of Penicillium rubens Biofilms Formed in Space",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/bb66296cce16/life-13-01001-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/ba532793f28e/life-13-01001-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/cb02e31dee45/life-13-01001-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/40e96b195a9a/life-13-01001-g004.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/6515daf0018c/life-13-01001-g005.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/789d9ae4096c/life-13-01001-g006.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/65ba9738a524/life-13-01001-g007.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/6a3b1fa97eb4/life-13-01001-g008.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/eaac7694b002/life-13-01001-g009.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/c13cae347677/life-13-01001-g010.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/3d88a47f3f4f/life-13-01001-g011.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/277a047fc4fb/life-13-01001-g012.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/4b0e90997f63/life-13-01001-g013.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/18a6f563ea02/life-13-01001-g0A1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/77704b64dec8/life-13-01001-g0A2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/853d4fd21fa5/life-13-01001-g0A3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/67925743f613/life-13-01001-g0A4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/81f33c202e6e/life-13-01001-g0A5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/fa2a5f8c1053/life-13-01001-g0A6.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/a0892a594792/life-13-01001-g0A7.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e465/10144393/67996bc0962a/life-13-01001-g0A8.jpg"
+  ]
+}

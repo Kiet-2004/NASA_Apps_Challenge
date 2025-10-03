@@ -1,0 +1,2037 @@
+{
+  "pmcid": "4096993",
+  "title": "Mimicking the host and its microenvironment in vitro for studying mucosal infections by Pseudomonas aeruginosa",
+  "abstract": "Why is a healthy person protected from Pseudomonas aeruginosa infections, while individuals with cystic fibrosis or damaged epithelium are particularly susceptible to this opportunistic pathogen? In order to address this question, it is essential to thoroughly understand the dynamic interplay between the host microenvironment and P. aeruginosa. Therefore, using modeI systems that represent key aspects of human mucosal tissues in health and disease allows recreating in vivo host-pathogen interactions in a physiologically relevant manner. In this review, we discuss how factors of mucosal tissues, such as apical-basolateral polarity, junctional complexes, extracellular matrix proteins, mucus, multicellular complexity (including indigenous microbiota), and other physicochemical factors affect P. aeruginosa pathogenesis and are thus important to mimic in vitro. We highlight in vitro cell and tissue culture model systems of increasing complexity that have been used over the past 35 years to study the infectious disease process of P. aeruginosa, mainly focusing on lung models, and their respective advantages and limitations. Continued improvements of in vitro models based on our expanding knowledge of host microenvironmental factors that participate in P. aeruginosa pathogenesis will help advance fundamental understanding of pathogenic mechanisms and increase the translational potential of research findings from bench to the patient’s bedside.",
+  "introduction": "Introduction\n\nAs a leading cause of life-threatening nosocomial infections, Pseudomonas aeruginosa has been extensively studied over the past 35 years. No currently available in vitro or in vivo model system is able to completely mimic the P. aeruginosa disease phenotype. Accordingly, the complexity of the host, pathogen and host-pathogen interactions has necessitated a combined use of different model systems to advance our understanding of P. aeruginosa infectious disease. P. aeruginosa is most commonly studied in the context of cystic fibrosis (CF) patients, where chronic lung inflammation caused by this microorganism is believed to be the major source of mortality. In the thick, viscous CF lung mucus, P. aeruginosa primarily exists as persistent alginate-overproducing (mucoid) biofilms that adhere to mucus compounds, but not to lung epithelium, and are resistant to available antimicrobial agents and the host immune system. P. aeruginosa-associated components (such as LPS, lectins, alginate) and secreted factors (such as quorum sensing molecules and pyocyanin) generate an extreme inflammatory response, which is destructive for the host but not the pathogen. Furthermore, acute P. aeruginosa infections frequently occur in patient populations with a damaged epithelial barrier (such as in burn wound patients, following intestinal surgery, at insertion sites of catheters or endotracheal tubes, or in scratched cornea), or compromised immune system (such as HIV and cancer patients). During acute infections, disease or injury-related epithelial modifications that mediate P. aeruginosa adhesion are believed to contribute to the infectious disease process, thereby necessitating direct host-pathogen interactions. Herewith, the type three secretion system (T3SS), various adhesins (such as lectins, flagella and type IV pili) and secreted virulence factors dictate the course of disease.\n\nIn vitro cell and tissue culture models have served as useful platforms to dissect the molecular mechanisms and phenotypic properties from both the host and pathogen side that underly the infectious disease process. While many in vitro models are oversimplistic and lack key properties of the parental tissue, increasing efforts are made to design more physiologically relevant models, and to explore their potential for P. aeruginosa pathogenesis studies. At the other extreme are animal models, which have advanced our knowledge on various P. aeruginosa-induced illnesses, but often do not mimic human physiology and disease, are complex and require extensive expertise. Since many in vitro findings have been confirmed using animal models, it is relevant to utilize in vitro model systems to initially explore fundamental questions and to verify select findings in vivo. This approach can significantly refine and reduce the use of animal models. Finally, with promising ongoing projects, such as Donald Ingber’s human-on-a-chip, complex multi-organ systems might one day be engineered which could accomplish the third “R”, replacement of animal models.\n\nThe host microenvironment affects virulence properties of P. aeruginosa. Therefore, mimicking the host microenvironment is essential for the development of in vitro infection models that better mimic in vivo phenotypes of P. aeruginosa, which will facilitate the design of novel efficacious antimicrobial treatments. In this review, we highlight that the choice of the model system, and the host characteristics that it mimics, can significantly impact the P. aeruginosa phenotype and outcome of the infection study. For detailed information about the immunomodulatory, cytotoxic and detrimental effects that P. aeruginosa and its virulence factors exert on the host during acute and chronic infections, we refer readers to excellent reviews. This review describes in vitro model systems of mucosal tissues with increasing complexity that reconcile key characteristics of the host involved in the P. aeruginosa infectious disease process. However, before discussing these models and the in vivo traits that they mimic, we start by providing a concise overview of host factors that affect P. aeruginosa disease initiation and progression, regardless of whether they are modified by P. aeruginosa upon host encounter. Given that most P. aeruginosa infections are located in mucosal tissues, we focus on this infection site, with particular emphasis on the lung.\n\nHow does the mucosal epithelium contribute to P. aeruginosa virulence?\n\nThe healthy mucosal epithelium is protected from P. aeruginosa\n\nThe first line of defense against mucosal pathogens like P. aeruginosa relies on physical, chemical and cellular factors. Key host factors that protect the lung from P. aeruginosa infection and are altered during disease are depicted in Figure 1. While additional host factors are altered during disease, due to space limitations, only those that have a well-documented effect on P. aeruginosa lung pathogenesis are presented. Physical factors include sealing of the epithelial paracellular pathway by tight junctions, subjacent adherens junctions, and desmosomes. In addition, the mucociliary escalator (with associated fluid shear levels) in the mucous lining of the trachea, bronchi and bronchioles captures and subsequently clears more than 90% of inhaled particles. Specifically, the biphasic mucus layer covering the airway epithelium enables continuous beating of epithelium-associated cilia, which moves the upper mucus layer towards the laryngopharynx. Besides the binding of P. aeruginosa to mucus components and subsequent removal, mucus contains antimicrobial substances, such as β-defensins and lactoferrins, which are part of the chemical factors that keep our lungs and other mucosal surfaces clear of infection by this microorganism. Furthermore, chemical factors such as normoxia, low iron levels, neutral pH, bicarbonate and phosphate levels, all contribute to keeping P. aeruginosa to a manageable phenotype, that can easily be cleared by the innate immune system. In addition to the basal level of innate immune cells such as macrophages present in healthy mucosal tissues, epithelial cells play a key role in the direct defense against P. aeruginosa and in the controlled recruitment of neutrophils for effective eradication of this microorganism. The cellular receptor CFTR (cystic fibrosis transmembrane conductance regulator) has been shown to bind P. aeruginosa in the healthy host, which results in bacterial internalization, apoptosis/exfoliation of the infected cell, and recruitment of phagocytes (reviewed in). On the other hand, additional host receptors that bind P. aeruginosa and mediate invasion, such as asialo ganglioside M1 (asialoGM1), and α5β1 integrins, are expressed at basal levels on the apical membrane of polarized epithelial cells. In healthy mucosal epithelium, the basolateral surface is not exposed, which prevents binding to basolateral cell membrane receptors and extracellular matrix (ECM) proteins. Furthermore, epithelial cells can produce enzymatic factors, such as paraoxonases that degrade P. aeruginosa quorum sensing molecules. Finally, the indigenous microbiota of mucosal tissues such as lung and intestine plays an essential role in host defense against P. aeruginosa, through competition for nutrients, activation of innate immune cells and epithelial cell differentiation (including tight junctions). Collectively, these physical, chemical and cellular factors of mucosal tissues protect the healthy host from P. aeruginosa infections.\n\nThe injured mucosal epithelium mediates P. aeruginosa infection\n\nEpithelial injury in patients undergoing bronchoscopy, intestinal surgery, or other damaging procedures, renders them particularly susceptible to P. aeruginosa infection (Figure 1, Table 1). First, disruption of tight junctions as part of the physical barrier enables paracellular migration to basolateral receptors, which is the preferred infection site for this opportunistic pathogen. In addition, binding to ECM proteins of the basement membrane, such as fibronectin, laminin, and collagens, is part of P. aeruginosa colonization and tissue invasion when the epithelial barrier is damaged. Since repairing epithelial cells are not ciliated, local disruption in mucociliary clearance could further contribute to enhanced P. aeruginosa adhesion and ultimately dissemination. Changes in the microenvironment following intestinal surgery have been found to increase virulence characteristics in P. aeruginosa. Specifically, host chemical factors altered during stress, such as release of opioids, low phosphate levels or higher pH trigger a lethal phenotype in P. aeruginosa. Moreover, the monosaccharide content of breastmilk versus formula was found to affect P. aeruginosa virulence gene expression, which could be correlated with the development of neonatal necrotic enterocolitis depending on the infant’s diet. Hypoxia following stress in intestinal or other mucosal tissues also profoundly affects virulence traits in P. aeruginosa, including the expression of the adhesin PA-I lectin and enhanced binding via exposure of basolateral membranes. Finally, the cytokine interferon-gamma (IFN-γ), produced by the inflamed tissues, has been shown to bind the outer membrane protein OprF of P. aeruginosa, which induces PA-I lectin expression. Cellular factors are also believed to contribute to the susceptibility of damaged and repairing epithelium upon P. aeruginosa encounter. Specifically, basolateral membrane receptors that bind P. aeruginosa (e.g., heparan sulfate chains of proteoglycans) are enriched at the apical side of repairing mucosal tissue, and apical receptors/binding sites such as asialoGM1, fibronectin and the integrin α5β1 are transiently enriched at the surface of spreading and repairing respiratory epithelial cells. Finally, repairing epithelium does not express apical CFTR, which could impede effective clearance of infected epithelial cells.\n\nThe CF lung environment is an ideal ecological niche for P. aeruginosa\n\nThe predominance of P. aeruginosa in the CF lung environment is believed to be multifactorial and is mostly related to the loss of a functional CFTR (Figure 1, Table 1). While ΔF508-CFTR airway epithelial cells have a decreased barrier function, this phenotypic characteristic is not believed to contribute significantly to P. aeruginosa infection. However, the primary physical barrier component that is causative for chronic infections in the CF lung environment is the absent mucociliary clearance, predominantly due to CFTR-mediated imbalances in bicarbonate levels. The resulting dehydrated mucus layer comprised of compact sticky mucins has been shown to cause many of the CF-related phenotypes of P. aeruginosa, including loss of motility, mucus-associated biofilm formation, anaerobic metabolism, and resistance to antibiotics and antimicrobial peptides. Further, lower fluid shear levels that could be present in the CF lung as a consequence of the impacted mucociliary escalator were also found to generate a CF-like P. aeruginosa phenotype, including self-aggregative biofilms, enhanced alginate production, microaerophilic/anaerobic metabolism, and resistance to oxidative stress. The chemical microenvironment of the CF lung also significantly contributes to P. aeruginosa virulence and persistence. Indeed, the microaerophilic and anaerobic conditions in the CF lung trigger antibiotic resistance, alginate production, and biofilm formation. Furthermore, high iron levels, specific amino acids, and lower pH have all been related to P. aeruginosa virulence in the CF lung mucus. The CF lung environment is also characterized by high levels of reactive oxygen species (ROS), mostly produced by the influx of neutrophils, which has been shown to induce the characteristic mucoid phenotype of P. aeruginosa. Finally, high protease levels in the CF lung, particularly neutrophil elastase, can degrade host antimicrobial peptides such as defensins and LL-37, which further impedes clearance of P. aeruginosa. The microbiome is becoming increasingly recognized as a major cellular component of the CF lung that contributes to P. aeruginosa virulence. Dozens of bacterial taxa (including Prevotella, Veillonella spp.), of which many are oropharyngeal flora, inhabit CF lung mucus. Decreased community diversity is related to more severe lung disease, and the community dynamics depend on CFTR genotype. It has been shown that microbial community members in the CF lung, including from the oropharyngeal flora, increase virulence characteristics of P. aeruginosa and could contribute to lung disease.\n\nSince host microenvironmental factors have been demonstrated to be key in the initial survival, persistence, and ultimately adaptation of P. aeruginosa in the lung, mimicking the host and the microenvironment is essential when studying the P. aeruginosa infectious disease process. In this review, we mainly focus on the lung mucosa environment.\n\nWhich in vitro cell culture models are used to study P. aeruginosa pathogenesis in mucosal tissues?\n\nTwo-dimensional monolayers\n\nAn overview of in vitro models of human lung mucosa used to study P. aeruginosa pathogenesis is presented in Table 2. The P. aeruginosa infectious disease process is most frequently studied using a single cell type grown on a non-permeable surface (plastic or glass), referred to as two-dimensional (2-D) monolayers. Two-dimensional monolayers of different cell lines have been used for study of lung disease (A549, 16HBE, CFBE) and intestinal disease (HeLa, T84, CaCo2, HT-29) by P. aeruginosa. In addition, primary cells recovered from nasal brushing of human volunteers, human lung biopsies, human nasal polyps and mouse lung grown as 2-D monolayers have been used. There are several advantages of using 2-D monolayers as models for infection studies, including that they are (i) cost effective, (ii) require limited equipment and materials, (iii) easy to set-up, maintain, monitor and manipulate, (iv) quickly ready for downstream assays (e.g., confluence is reached in 3–4 days for A549 cell line), and (v) high-throughput (e.g., multi-well assays). When 2-D monolayers of cell lines are used, a well-characterized homogeneous cell population is usually obtained, which results in high experimental reproducibility. On the other hand, 2-D monolayers often lack differentiation characteristics of the in vivo parental tissue, including 3-D architecture, phenotypic characteristics, multicellular complexity, and function. Specifically, most cell lines or primary cells grown as traditional monolayers on impermeable surfaces are not polarized, and thus do not express distinctive apical and basolateral markers (including surface receptors), which are important in studying aspects of the P. aeruginosa infection process that require cell polarity, including adhesion. Therefore, 2-D monolayers are limited in predicting the host response to disease and drug effectiveness. An additional limitation of 2-D monolayers is that cells easily detach from their substrate upon infection, and thus long-term studies are limited using this model system.\n\nBetween 2D and 3D: Air-liquid interface\n\nConsiderable knowledge on P. aeruginosa pathogenesis has been obtained by growing cells on semi-permeable supports or Transwell® membranes. In this model system, cells grown on the surface of ECM-coated (mostly collagen) semi-permeable membranes are submerged in culture medium both at their apical and basolateral sides. For respiratory mucosa, an air-liquid interface (ALI) can be generated upon reaching confluency (evaluated by Trans Epithelial Resistance (TER) measurement) for further maturation by removing medium at the apical cell surface. Primary airway epithelial cells grown as ALI are one of the best characterized model systems of the lung and closely mimic key aspects of the in vivo architecture, cellular composition and physiology of airway epithelium. Specifically, ALI of primary airway cells are pseudostratified, contain a highly differentiated mixed epithelial cell population (including basal, ciliated, and goblet cells), express relevant cilia coverage and beating, mucus production, polarity and tight junctions. While the overall morphology of ALI strikingly resembles the in vivo tissue, differences in the proportion of the lung epithelial cells have been reported compared to the native organ. However, the in vivo-like characteristics (such as polarity and CFTR expression) of epithelial cells grown on permeable supports strongly depend on the cell source used (Table 2). Limitations of Transwell model systems include that they are expensive, time-consuming (regarding manipulations and duration of maturation – e.g., 3–4 weeks for primary airway epithelial cells) and have limited high-throughput capabilities. Interestingly, permeable supports are amenable to co-culturing multiple cell types in a physiologically relevant manner, including innate immune cells, and inclusion of biomechanical forces (such as air pressure, viscoelastic stretch force and fluid shear).\n\nThree-dimensional cell culture models\n\nThree-dimensional (3-D) cell culture models that have been explored for P. aeruginosa infection studies include (i) 3-D models generated using the rotating wall vessel (RWV) bioreactor, and (ii) 3-D cell spheroids generated through gentle agitation. The RWV is an optimized form of suspension culture in which cells are typically grown on the surface of porous ECM-coated microcarrier beads under low fluid shear and gentle mixing conditions. The dynamic culture conditions in the RWV enable cells to differentiate into well-organized 3-D tissue-like structures (termed 3-D aggregates), which replicate many of the in vivo characteristics including apical-basolateral polarity, a single cell layer for lung and intestinal tissues, tight junctions, mucus production, and differentiation into several epithelial cell types. These models are amenable to most infectious disease-related assays, with the exception of transcytosis, enable co-culturing of multiple cell types, offer targeted high-throughput analysis and exhibit key in vivo-like responses to pathogens, their toxins, and antimicrobial therapeutics not observed with conventional cell culture models. Disadvantages are that these models are more expensive, labor-intensive, require relatively long incubation times (e.g. 9–12 days for 3-D A549 model) compared to 2-D monolayers, and are currently not amenable to chronic infection studies.\n\nAnother 3-D lung epithelial model is generated through incubation of primary airway epithelial cells under gentle agitation. As a result, cells naturally aggregate and generate sphere-shaped clumps (spheroids) that contain a mixed cell population, including ciliated and mucus-secreting goblet cells. A major advantage of this 3-D cell culture model is its long-term viability and differentiated state (6 months when derived from nasal polyps and 6 weeks when derived from lung tissue). In addition, this model is easy to generate, inexpensive and could allow targeted high-throughput studies. Downsides include the long culture time (4 weeks) and the questionable physiological relevance, with regard to in vivo-like architecture and polarity.\n\nIn vitro organ cultures\n\nEarlier studies have used small intact pieces (about 3 mm2, 2–3 mm thick) of human or animal tissue to study P. aeruginosa infection. For lung studies, in vitro organ cultures (IVOCs) were generated from adenoids (from adenoid hypertrophy patients), nasal polyps, human nasal turbinate tissue, non-transplanted lung tissue from transplant recipients, or from dissected mouse tissue. Advantages of this model system are that it enables research in physiologically relevant human/animal tissue that maintains the in vivo structure and integrity. IVOCs closely approximate the in vivo ratio of differentiated lung cell types (including leucocytes) that interact with the native ECM and submucosal tissues in a physiological 3-D environment. Moreover, these models secrete mucus and maintain epithelial integrity for 10 and 20 days, respectively. Disadvantages include the low availability of human tissue biopsies, limited life span of cell types within the tissues (such as leucocytes), and biological variation. In addition, this model requires specific expertise and is time-consuming. For P. aeruginosa infection studies specifically, exfoliation of epithelial cells is already observed after 4h of infection, which limits the usefulness of this model for long-term studies. Of note, in a similar manner as for Transwells, IVOCs can be grown at an air-liquid interface, which more closely simulates the conditions encountered by the respiratory mucosa in vivo, and can result in significant differences in the infectious disease outcome compared to submersion of the apical surface in medium.\n\nOther cell culture models with potential for P. aeruginosa pathogenesis\n\nIn this section, we briefly address other cell culture models that have, to our knowledge, not yet been utilized for studying P. aeruginosa pathogenesis in mucosal tissues, but could be of interest. Mucosal cell culture models with in vivo-like 3-D architecture, polarity and other physiological traits are commonly generated by growing cells in a 3-D matrix scaffold comprised of single or multiple ECMs, termed hydrogels, that mimic the lamina propria. Since bacteria will encounter the hydrogel first, followed by the basolateral cell surface, this model is relevant when studying basolateral P. aeruginosa infections. For mucosal tissues (where pathogens infect at the apical side), the infection process might not be physiologically relevant. Acellular (or decellularized) scaffolds generated from animal or human tissues have recently emerged that mimic the complex 3-D architecture and ECM composition of their parental counterpart (reviewed by). Exponential progress has been made over the past years to improve tissue decellularization and repopulation with different cell types. However, complete recellularization of the lung surface with differentiated functional lung epithelium (and establishment of barrier function) has to precede the usefulness of these models for infectious disease research purposes. In the future, model systems generated from decellularized scaffolds might offer attractive platforms to study infectious diseases, given the enhanced 3-D architectural complexity compared to currently available models and the possibility to include biomechanical forces, such as breathing movement. The recently developed organ-on-a-chip model simulates key characteristics of the host microenvironment, including biomechanical forces (fluid shear and viscoelastic stretch), 3-D organization of distinct tissues (e.g. interfaces between epithelium and vascular endothelium), and biochemical properties. For example, the lung-on-a-chip model reconstitutes the surfactant-producing alveolar-capillary interface on a collagen-coated porous silicon wafer, and mimics the cyclic biomechanical stretch force of breathing and vascular perfusion. Neutrophil transmigration in response to apical exposure with Escherichia coli was demonstrated, indicating the usefulness of this system to mimic the innate cellular response to bacterial infection. Therefore, the organ-on-a-chip model holds tremendous potential for further unraveling of P. aeruginosa pathogenesis mechanisms.\n\nWhich physiological characteristics of mucosal tissue models affect the study of P. aeruginosa pathogenesis?\n\nApical and basolateral polarity\n\nReceptors and other host-associated factors differentially expressed at apical and basolateral surfaces are important for the clearance of P. aeruginosa in the healthy host, and for colonization of damaged epithelium (reviewed in). Therefore, mucosal cell culture models that replicate epithelial cell polarity of the host tissue in health and disease are essential to assess host and pathogen responses to infection. When studying resistance of the healthy host to P. aeruginosa infection, it is relevant to mimic the in vivo-like cell polarity. On the other hand, it is key to replicate the affected polarity of damaged epithelium when studying P. aeruginosa in the context of acute infections. When the basolateral epithelial cell surface is accessible in the context of damaged epithelium, it is the preferred site for P. aeruginosa binding. Since basolateral receptors are enriched at the apical side of repairing (incompletely polarized) epithelium, P. aeruginosa adhesion, invasion, and cytotoxicity is enhanced compared to polarized epithelium. Interestingly, P. aeruginosa (both planktonic cells and aggregates) can enhance the expression of basolateral receptors at the apical surface to facilitate its uptake through activation of host signaling pathways. In addition, putative P. aeruginosa receptors such as apical asialo ganglioside M1 (asialoGM1), and the integrin α5β1 are transiently enriched at the surface of spreading and repairing respiratory epithelial cells, even though the role of asialoGM1 in P. aeruginosa binding is controversial. Furthermore, apical expression of N-glycoproteins depends on the differentiation/polarization status of epithelial cells, and affects type IV pili-mediated binding, invasion and cytotoxicity of P. aeruginosa. Therefore, binding of P. aeruginosa to apical surfaces can be inhibited by competitive blockage of exogenous sugars. To further validate the role of cell polarity during P. aeruginosa infections, adhesion and invasion of this bacterium was significantly reduced in a polarized 3-D A549 lung model compared to non-polarized 2-D A549 monolayers. Differential colonization of polarized and non-polarized epithelium is also observed for other mucosal pathogens (such as Salmonella).\n\nA host cell receptor that could be implicated in the clearance of P. aeruginosa from the healthy host is CFTR, even though controversies exist. Specifically, CFTR binds the outer LPS core of non-mucoid P. aeruginosa and initiates a swift, coordinated inflammatory response (through NF-κB) that results in pathogen removal via recruitment of innate immune cells (in vivo) and apoptosis of the infected cells (in vitro). When studying the role of CFTR in P. aeruginosa colonization, it is important to consider that CFTR trafficking, apical expression and functionality depends on cell polarity for many cell lines (e.g., HT-29, 16 HBE). Indeed, wild type bronchial epithelial cells grown as non-polarized 2-D monolayers express low levels of CFTR, and the functionality of CFTR has been shown to improve when cells are grown as ALI.\n\nTaken together, the loss of polarity in repairing epithelium facilitates P. aeruginosa colonization compared to intact epithelium, presumably through increased expression of apical receptors, enhanced binding to basolateral receptors, and absence of a functional CFTR. While these studies are relevant for acute infections involving damaged epithelium, they highlight that tissue culture models of improperly polarized epithelium can result in an artificially different susceptibility to P. aeruginosa infection.\n\nJunctional complexes\n\nWhen studying the influence of P. aeruginosa and its virulence factors on epithelial barrier integrity or other aspects of the P. aeruginosa infectious disease process, choosing a cell culture model that expresses markers of the apical junctional complex is critical. While most epithelial cells, including lung, require growth on permeable membranes or as 3-D cultures to form tight junctions (e.g. A549, ΔF508-CFTR and WT-CFTR bronchial epithelial cells), a limited number of epithelial cells are capable of forming tight junctions when grown as 2-D monolayers (e.g., Caco-2, HT-29, T84). Interestingly, certain epithelial cells show enhanced barrier function in response to lipoxins, azithromycin or hypoxia, while elevated (diabetic) glucose levels can reduce transepithelial resistance. Barrier integrity in an in vitro mucosal culture model is essential to avoid accessibility of P. aeruginosa to the basolateral surface, especially given its preferential binding to basolateral receptors. When studying the effect of P. aeruginosa virulence factors that affect barrier function (including ExoS, N-(3 oxododecanoyl)-l-homoserine lactone (3-oxo-C12 HSL), rhamnolipids, and elastase), it is important to distinguish targeted disruption of cell-cell contacts from host cell death and subsequent disruption of epithelial integrity. Using in vitro models that do not express tight junctions or have diminished barrier function are relevant for diseases involving repairing epithelium, while intact barrier integrity characterizes mucosal tissues of a healthy host.\n\nExtracellular matrix proteins\n\nAs mentioned earlier, breaching of the epithelial barrier through injury or disruption of tight junctions can expose the basolateral surface to P. aeruginosa. ECM proteins of the basement membrane, such as fibronectin, laminin and collagens, enable P. aeruginosa adhesion and can contribute to colonization and dissemination. Furthermore, cellular ECM components at the apical surface whose expression has been reported to be induced in repairing epithelium, bind P. aeruginosa. Therefore, the presence and distribution of these ECM proteins in an in vitro model of infection is of interest. Not only can the ECM composition of the basement membrane (and potentially apical surface) affect P. aeruginosa colonization, cellular differentiation is also greatly dependent on ECM proteins. By means of example, 16 HBE cells are not polarized and do not express functional CFTR when grown at an ALI on thin collagen I gels, while these same cells are polarized and express apical CFTR on thick collagen I gels or on a mixture of ECM proteins (Table 2). ECM composition of the basement membrane in an in vitro cell culture model will vary depending on (i) the ECM composition of the substrate on which the cells are grown (e.g. collagen I for ALI), (ii) the cell type chosen, and (iii) the experimental conditions for generating the model. Specifically, observations of lung and intestinal epithelial cells grown on microcarrier beads in 3-D in the RWV bioreactor exhibited higher levels of basolateral collagen IV and laminin, compared to the same cells grown as 2-D monolayers. The use of IVOC models in these applications is also of interest since the in vivo basement membrane is maintained in these model systems. Taken together, it is of particular importance to choose an in vitro cell culture model that appropriately represents the cellular and basement membrane ECM composition when studying P. aeruginosa in the context of damaged/repairing epithelium, since enhanced binding to basolateral (and possibly apical) ECM components contributes to the infectious disease process.\n\nMucus\n\nIn the airways, mucins are either gel-like mucous secretions produced by goblet cells and submucosal glands (MUC5AC, MUC5B, MUC2) or associated with the membranes or cilia of respiratory epithelial cells (MUC1, MUC4 and MUC16). Ciliated and non-ciliated epithelial cells produce membrane-associated mucins. Model systems that contain a mucus layer include IVOCs and primary airway epithelium grown at an ALI. In addition, RWV-derived 3-D culture models of several epithelial cell lines (A549, BEAS2-B, HT-29, Int-407) exhibit mucus production, including MUC5AC and MUC1, while the same cells grown as 2-D monolayers show a very low or absent mucus content. The absence or presence of this host-associated factor in an in vitro mucosal model can impact the outcome of a P. aeruginosa infectious disease study. The flagellum of P. aeruginosa binds carbohydrate structures of mucins (such as MUC1), which enhances P. aeruginosa adhesion. The presence of an apical mucus layer was shown to increase growth and/or adherence of P. aeruginosa compared to the same model in which the mucus layer was removed. These data further indicate the importance of mucus when studying P. aeruginosa virulence traits.\n\nIt is important to note that the physicochemical properties and/or thickness of the mucus layer in the airways and other tissues may vary depending on the disease studied. The most common example is the lungs of CF patients, where epithelial cells are covered with a thick dehydrated mucus layer that contains higher levels of DNA and lower levels of the MUC5AC and MUC5B mucins compared to normal lungs, even though concentrations of these mucins were not different during exacerbations. In addition, mucus glycosylation of both secreted and cell-associated mucins is affected in patients with CF and results in a unique glycosylation phenotype (reviewed by). A link between dysfunctional CFTR in the CF patient population and undersialyation of membrane-tethered but not secreted mucins has been suggested, which reiterates the importance of a functional CFTR depending on the disease studied (see section on Apical-basolateral polarity). The CF mucus composition has been shown to drastically affect the P. aeruginosa infectious disease process. Specifically, normally hydrated mucus does not result in the formation of P. aeruginosa biofilms as opposed to CF-like concentrated mucus. The unique CF glycosylation phenotype of mucins has been proposed to enhance P. aeruginosa adhesion to mucus, resulting in a diminished clearance.\n\nSince most ΔF508-CFTR mutant epithelial cell lines do not produce mucus or only limited amounts under currently tested culture conditions, the combined role of the airway epithelium and the distinct CF mucus composition has not been extensively studied. Therefore, developing in vitro cell culture models that mimic the differentiated CF host epithelium and the associated mucus layer are of interest to the field.\n\nCilia\n\nMimicking the in vivo mucociliary clearance is also of interest when choosing a model to study P. aeruginosa pathogenesis, whether it is in the context of a healthy population or of an underlying disease. Herewith, it needs to be taken into consideration that certain diseases are characterized by dysfunctional cilia. In patients with CF, the impaired or absent mucociliary clearance is believed to be at least in part causative for the susceptibility to P. aeruginosa infections. In addition, other chronic obstructive pulmonary disorders, immotile ciliary disorders, and physical injury (e.g., insertion of tracheal tubes, suction catheters, bronchoscopes) can result in impaired or absent ciliary function, and these patients frequently suffer from acute or chronic P. aeruginosa infections. Also, the ciliary beat frequency may vary depending on the location in the respiratory system. Therefore, the need for functional cilia in a lung tissue culture model largely depends on the disease studied and the experimental question being addressed.\n\nWhile P. aeruginosa was shown not to adhere to ciliated epithelial cells, ciliary beat frequency might affect the adherence of P. aeruginosa, with a higher beat frequency leading to lower adherence. These findings highlight the importance of mimicking mucociliary clearance in vitro. Most publications describing the effect of P. aeruginosa and its virulence factors (such as lectins, rhamnolipids, proteases and phenazines) on ciliary function have used primary respiratory epithelium grown as ALI or IVOCs. Indeed, these models contain ciliated cells at ratios similar to the respiratory mucosa. However, since cilia are already severely damaged after 2 hours of exposure to P. aeruginosa in IVOCs, it is challenging to assess the long-term role of cilia in the pathogenesis of this microorganism using currently available in vivo-like cell culture models. In this regard, it could be of interest to add antibiotics (such as bacitracin, clindamycin, gramicidin and roxithromycin) to the culture medium, since these agents were shown to partially counteract P. aeruginosa-induced effects on ciliary beat frequency.\n\nMulticellular complexity – The host and its indigenous microbiota\n\nMost in vitro cell culture models used to date for studying the P. aeruginosa infectious disease process were comprised of one cell type, whether that is a single cell line or primary cells. However, interactions between multiple cell types are necessary to mediate antimicrobial defense and inflammatory reactions normally observed in mucosal tissues. Therefore, using a series of hierarchical models with increasing complexity can help dissect molecular mechanisms of pathogenesis, and replicate the in vivo infectious disease process more closely. Two-dimensional monolayers of various epithelial cell lines typically result in a homogenous cell population of one cell type, while RWV-derived 3-D aggregates of these cell lines exhibit phenotypes of multiple cell types. For example, RWV-derived models of intestinal epithelium contained populations of enterocytes, M-like cells, Paneth cells and goblet cells, which represent four out of five major cell types in the in vivo parental tissue. ALI cultures of primary respiratory epithelium generate basal, goblet and ciliated cells, but do not recapitulate the more than forty epithelial cell types in the lung. Therefore, the collective role of multiple cell types, including innate immune and other cell populations, and their interactions, are not considered using available in vitro cell culture models. IVOCs offer an interesting alternative since in theory all cells from the biopsy region are present in the model. However, the limited lifespan of immune cells such as lymphocytes in these models are a limitation of IVOCs when attempting to replicate the in vivo multicellular complexity. Reconstituting the entire functional cell population of a parental tissue in an in vitro setting is challenging. Challenges include (i) finding an appropriate medium type that enables growth of all cell types simultaneously, (ii) obtaining relevant 3-D organization of all cell types relative to each other, (iii) maintaining viability and physiologically relevant ratios of each respective cell type, (iv) incorporating appropriate physical forces, and (v) incorporating the relevant ECM composition required to support in vivo-like function of tissue-like constructs. Therefore, existing model systems have co-cultured two to three different cell types, mostly epithelial cells with neutrophils, eosinophils, monocytes, macrophages, or lymphocytes, when investigating bacterial pathogenesis and host innate immunity in response to infection (reviewed by). Inclusion of immune cells such as macrophages or neutrophils are relevant given their generation of reactive oxygen and nitrogen species, and cytokines, which affect P. aeruginosa viability and expression of clinically important virulence factors. Limited available literature incorporated multiple cell types of mucosal tissues in an in vitro model to study P. aeruginosa pathogenesis. A RWV-derived 3-D co-culture model of alveolar epithelial cells and functional macrophages demonstrated that epithelial cells could protect macrophages from the cytotoxic effects of the quorum sensing molecule 3-oxo-C12 HSL, presumably by enzymatic degradation. A recent study by Tang et al. showed that co-culturing lung epithelial cells with wild type (but not CFTR knockout) lymphocytes affects bicarbonate secretion by CFTR, which in turn enhances the killing of P. aeruginosa. Using a Transwell model of wild type or ΔF508-CFTR primary airway cells, Farberman et al. showed that P. aeruginosa-induced expression of CXC chemokines could attract neutrophils from the basolateral to apical surface more efficiently in CF cells. While the full potential of co-culture models remains to be explored, these studies highlight that mimicking the multicellular complexity of the in vivo parental tissue can provide novel insights in P. aeruginosa pathogenesis, and can help dissect the role of each cell type and their interactions in the outcome of disease.\n\nMulticellular complexity of mucosal tissues also encompasses the thousands of microbial species that colonize the mucosal epithelium in health and disease. With the reciprocal interactions between the host and microbiome, and their key role in innate immunity, it has become increasingly clear that the indigenous microbiota are important in the infectious disease process. Since the microbiota is involved in tissue differentiation and function, such as epithelial barrier function, mucus production, innate immune cell activation, incorporating microbial communities when modeling in vivo P. aeruginosa infections is a logical consideration. As with building the host multicellular complexity, challenges arise with developing in vitro cell culture models that mimic the in vivo microbiome. These include the 70% as of yet unculturable bacteria in the human body, creating the right environment to maintain relevant ratios of community members (without having the faster growing organisms taking over the community), and maintaining host viability in the presence of large numbers of oxygen/nutrient-consuming organisms. To date, limited studies have incorporated host-associated microbial consortia in in vitro models, but we anticipate that future developments will further unveil the importance of the microbiome in host-pathogen interactions by P. aeruginosa. In vitro models of the microbiome are of particular importance since findings from animal models do not always translate to humans.\n\nOther host factors altered during disease\n\nIn this section, additional examples of disease-associated changes in the mucosal epithelium microenvironment that were found to alter the P. aeruginosa infectious disease process using in vitro cell culture models are discussed, i.e. iron, oxygen, pH and nutrients. Iron levels are increased in the CF lung environment (reviewed by), which is reflected in ΔF508-CFTR bronchial epithelial cells. These enhanced iron levels resulted in higher host-associated P. aeruginosa biofilm formation compared to wild type CFTR cells, which could be prevented by using a combination of iron chelators and tobramycin. Another host-associated factor that plays a role in P. aeruginosa pathogenesis is hypoxia. Hypoxic growth conditions, associated with surgical injury in the intestinal tract, triggers production of the PA-I lectin in P. aeruginosa by soluble and contact-mediated factors released by intestinal epithelial cells. Similarly, hypoxic conditions in the context of CF lung disease were suggested to affect internalization of P. aeruginosa into different lung epithelial cell lines. However, used non-polarized 2-D monolayers of lung epithelial cells that do not form tight junctions. Since reduced oxygen levels increase tight junction formation and polarization, this could have affected P. aeruginosa internalization (see section on Junctional complex). The pH of CF mucus has been shown to be lower than normal secretions, and could be correlated to differences in bicarbonate secretion by the epithelial cells. Lower pH levels in airway surface liquid reduced P. aeruginosa killing, presumably through inactivation of pH-sensitive antimicrobials. Finally, nutritional factors such as elevated basolateral glucose (CF-related diabetes) was shown to stimulate apical growth of P. aeruginosa, and this effect was more pronounced in CF airway epithelial cells. Additional host microenvironmental factors in mucosal tissues, such as changes in viscoelastic stretch forces during lung disease, are of interest to replicate in in vitro cell/tissue models when studying P. aeruginosa pathogenesis and have to our knowledge not yet been addressed.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Role of the corneal epithelial basement membrane in ocular defense against Pseudomonas aeruginosa",
+      "authors": [
+        "I Alarcon",
+        "L Kwan",
+        "C Yu",
+        "DJ Evans",
+        "SM Fleiszig"
+      ]
+    },
+    {
+      "title": "Effects of human neutrophil elastase and Pseudomonas aeruginosa proteinases on human respiratory epithelium",
+      "authors": [
+        "R Amitani",
+        "R Wilson",
+        "A Rutman"
+      ]
+    },
+    {
+      "title": "Eradication of Pseudomonas aeruginosa biofilms on cultured airway cells by a fosfomycin/tobramycin antibiotic combination",
+      "authors": [
+        "GG Anderson",
+        "TF Kenney",
+        "DL Macleod",
+        "NR Henig",
+        "GA O'Toole"
+      ]
+    },
+    {
+      "title": "Superoxide dismutase moderates basal and induced bacterial adherence and interleukin-8 expression in airway epithelial cells",
+      "authors": [
+        "Y Arita",
+        "A Joseph",
+        "HC Koo",
+        "Y Li",
+        "TA Palaia",
+        "JM Davis",
+        "JA Kazzaz"
+      ]
+    },
+    {
+      "title": "The Pseudomonas aeruginosa flagellar cap protein, FliD, is responsible for mucin adhesion",
+      "authors": [
+        "SK Arora",
+        "BW Ritchings",
+        "EC Almira",
+        "S Lory",
+        "R Ramphal"
+      ]
+    },
+    {
+      "title": "Novel effects of azithromycin on tight junction proteins in human airway epithelia",
+      "authors": [
+        "V Asgrimsson",
+        "T Gudjonsson",
+        "GH Gudmundsson",
+        "O Baldursson"
+      ]
+    },
+    {
+      "title": "A bacterial protease perturbs the paracellular barrier function of transporting epithelial monolayers in culture",
+      "authors": [
+        "AO Azghani",
+        "LD Gray",
+        "AR Johnson"
+      ]
+    },
+    {
+      "title": "The intestinal environment of surgical injury transforms Pseudomonas aeruginosa into a discrete hypervirulent morphotype capable of causing lethal peritonitis",
+      "authors": [
+        "T Babrowski",
+        "K Romanowski",
+        "D Fink",
+        "M Kim",
+        "V Gopalakrishnan",
+        "O Zaborina",
+        "JC Alverdy"
+      ]
+    },
+    {
+      "title": "Cytotoxicity of Pseudomonas aeruginosa internal lectin PA-I to respiratory epithelial cells in primary culture",
+      "authors": [
+        "O Bajolet-Laudinat",
+        "S Girod-de Bentzmann",
+        "JM Tournier",
+        "C Madoulet",
+        "MC Plotkowski",
+        "C Chippaux",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Iron and Pseudomonas aeruginosa biofilm formation",
+      "authors": [
+        "E Banin",
+        "ML Vasil",
+        "EP Greenberg"
+      ]
+    },
+    {
+      "title": "Defective acidification of the biosynthetic pathway in cystic fibrosis",
+      "authors": [
+        "J Barasch",
+        "Q al-Awqati"
+      ]
+    },
+    {
+      "title": "Organotypic 3D cell culture models: using the rotating wall vessel to study host-pathogen interactions",
+      "authors": [
+        "J Barrila",
+        "AL Radtke",
+        "A Crabbé",
+        "SF Sarker",
+        "MM Herbst-Kralovetz",
+        "CM Ott",
+        "CA Nickerson"
+      ]
+    },
+    {
+      "title": "Improved oxygenation promotes CFTR maturation and trafficking in MDCK monolayers",
+      "authors": [
+        "Z Bebok",
+        "A Tousson",
+        "LM Schwiebert",
+        "CJ Venglarik"
+      ]
+    },
+    {
+      "title": "Failure of cAMP agonists to activate rescued deltaF508 CFTR in CFBE41o-airway epithelial monolayers",
+      "authors": [
+        "Z Bebok",
+        "JF Collawn",
+        "J Wakefield"
+      ]
+    },
+    {
+      "title": "Dose-controlled exposure of A549 epithelial cells at the air-liquid interface to airborne ultrafine carbonaceous particles",
+      "authors": [
+        "E Bitterle",
+        "E Karg",
+        "A Schroeppel"
+      ]
+    },
+    {
+      "title": "A note on mucus shear rates",
+      "authors": [
+        "J Blake"
+      ]
+    },
+    {
+      "title": "Tracheobronchial mucus secretion in vivo and in vitro by epithelial tissues from cystic fibrosis and control subjects",
+      "authors": [
+        "TF Boat",
+        "P Cheng",
+        "RE Wood"
+      ]
+    },
+    {
+      "title": "Extracellular matrix signaling: integration of form and function in normal and malignant cells",
+      "authors": [
+        "N Boudreau",
+        "MJ Bissell"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa: all roads lead to resistance",
+      "authors": [
+        "EB Breidenstein",
+        "C de la Fuente-Nunez",
+        "RE Hancock"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa-mediated damage requires distinct receptors at the apical and basolateral surfaces of the polarized epithelium",
+      "authors": [
+        "I Bucior",
+        "K Mostov",
+        "JN Engel"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa pili and flagella mediate distinct binding and signaling events at the apical and basolateral surface of airway epithelium",
+      "authors": [
+        "I Bucior",
+        "JF Pielage",
+        "JN Engel"
+      ]
+    },
+    {
+      "title": "Sugar administration is an effective adjunctive therapy in the treatment of Pseudomonas aeruginosa pneumonia",
+      "authors": [
+        "I Bucior",
+        "J Abbott",
+        "Y Song",
+        "MA Matthay",
+        "JN Engel"
+      ]
+    },
+    {
+      "title": "Developmental mucin gene expression in the human respiratory tract",
+      "authors": [
+        "MP Buisine",
+        "L Devisme",
+        "MC Copin",
+        "M Durand-Reville",
+        "B Gosselin",
+        "JP Aubert",
+        "N Porchet"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa outer membrane adhesins for human respiratory mucus glycoproteins",
+      "authors": [
+        "C Carnoy",
+        "A Scharfman",
+        "E Van Brussel",
+        "G Lamblin",
+        "R Ramphal",
+        "P Roussel"
+      ]
+    },
+    {
+      "title": "A549 lung epithelial cells grown as three-dimensional aggregates: alternative tissue culture model for Pseudomonas aeruginosa pathogenesis",
+      "authors": [
+        "AJ Carterson",
+        "K Honer zu Bentrup",
+        "CM Ott"
+      ]
+    },
+    {
+      "title": "Innate immune recognition of the microbiota promotes host-microbial symbiosis",
+      "authors": [
+        "H Chu",
+        "SK Mazmanian"
+      ]
+    },
+    {
+      "title": "Inactivation of a Pseudomonas aeruginosa quorum-sensing signal by human airway epithelia",
+      "authors": [
+        "CK Chun",
+        "EA Ozer",
+        "MJ Welsh",
+        "J Zabner",
+        "EP Greenberg"
+      ]
+    },
+    {
+      "title": "Abnormal surface liquid pH regulation by cultured cystic fibrosis bronchial epithelium",
+      "authors": [
+        "RD Coakley",
+        "BR Grubb",
+        "AM Paradiso"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa adapts its iron uptake strategies in function of the type of infections",
+      "authors": [
+        "P Cornelis",
+        "J Dingemans"
+      ]
+    },
+    {
+      "title": "Influence of acellular natural lung matrix on murine embryonic stem cell differentiation and tissue formation",
+      "authors": [
+        "J Cortiella",
+        "J Niles",
+        "A Cantu"
+      ]
+    },
+    {
+      "title": "Azithromycin increases in vitro fibronectin production through interactions between macrophages and fibroblasts stimulated with Pseudomonas aeruginosa",
+      "authors": [
+        "TJ Cory",
+        "SE Birket",
+        "BS Murphy",
+        "C Mattingly",
+        "JM Breslow-Deckman",
+        "DJ Feola"
+      ]
+    },
+    {
+      "title": "Airway microbiota and pathogen abundance in age-stratified cystic fibrosis patients",
+      "authors": [
+        "MJ Cox",
+        "M Allgaier",
+        "B Taylor"
+      ]
+    },
+    {
+      "title": "CFTR expression and chloride secretion in polarized immortal human bronchial epithelial cells",
+      "authors": [
+        "AL Cozens",
+        "MJ Yezzi",
+        "K Kunzelmann"
+      ]
+    },
+    {
+      "title": "Use of the rotating wall vessel technology to study the effect of shear stress on growth behaviour of Pseudomonas aeruginosa PA01",
+      "authors": [
+        "A Crabbé",
+        "P De Boever",
+        "R Van Houdt",
+        "H Moors",
+        "M Mergeay",
+        "P Cornelis"
+      ]
+    },
+    {
+      "title": "Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation",
+      "authors": [
+        "A Crabbé",
+        "B Pycke",
+        "R Van Houdt",
+        "P Monsieurs",
+        "C Nickerson",
+        "N Leys",
+        "P Cornelis"
+      ]
+    },
+    {
+      "title": "Alveolar epithelium protects macrophages from quorum sensing-induced cytotoxicity in a three-dimensional co-culture model",
+      "authors": [
+        "A Crabbé",
+        "SF Sarker",
+        "R Van Houdt",
+        "CM Ott",
+        "N Leys",
+        "P Cornelis",
+        "CA Nickerson"
+      ]
+    },
+    {
+      "title": "Improved recellularization of decellularized lung scaffolds in low fluid shear suspension",
+      "authors": [
+        "A Crabbé",
+        "Y Liu",
+        "SF Sarker"
+      ]
+    },
+    {
+      "title": "Initial binding and recellularization of decellularized mouse lung scaffolds with bone marrow-derived mesenchymal stromal cells",
+      "authors": [
+        "AB Daly",
+        "JM Wallis",
+        "ZD Borg"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa adherence to remodelling respiratory epithelium",
+      "authors": [
+        "S de Bentzmann",
+        "P Roger",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Receptors in the Pseudomonas aeruginosa adherence to injured and repairing airway epithelium",
+      "authors": [
+        "S de Bentzmann",
+        "C Plotkowski",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Asialo GM1 is a receptor for Pseudomonas aeruginosa adherence to regenerating respiratory epithelial cells",
+      "authors": [
+        "S de Bentzmann",
+        "P Roger",
+        "F Dupuit",
+        "O Bajolet-Laudinat",
+        "C Fuchey",
+        "MC Plotkowski",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Development of primary human nasal epithelial cell cultures for the study of cystic fibrosis pathophysiology",
+      "authors": [
+        "F de Courcey",
+        "AV Zholos",
+        "H Atherton-Watson"
+      ]
+    },
+    {
+      "title": "Treatment of lung infection in patients with cystic fibrosis: current and future strategies",
+      "authors": [
+        "G Doring",
+        "P Flume",
+        "H Heijerman",
+        "JS Elborn"
+      ]
+    },
+    {
+      "title": "Heterologous expression of delta F508 CFTR results in decreased sialylation of membrane glycoconjugates",
+      "authors": [
+        "A Dosanjh",
+        "W Lencer",
+        "D Brown",
+        "DA Ausiello",
+        "JL Stow"
+      ]
+    },
+    {
+      "title": "The effect of rolipram, a type IV phosphodiesterase inhibitor, on Pseudomonas aeruginosa infection of respiratory mucosa",
+      "authors": [
+        "RB Dowling",
+        "M Johnson",
+        "PJ Cole",
+        "R Wilson"
+      ]
+    },
+    {
+      "title": "Effect of fluticasone propionate and salmeterol on Pseudomonas aeruginosa infection of the respiratory mucosa in vitro",
+      "authors": [
+        "RB Dowling",
+        "M Johnson",
+        "PJ Cole",
+        "R Wilson"
+      ]
+    },
+    {
+      "title": "Effect of salmeterol on Pseudomonas aeruginosa infection of respiratory mucosa",
+      "authors": [
+        "RB Dowling",
+        "CF Rayner",
+        "A Rutman"
+      ]
+    },
+    {
+      "title": "Modulation of Pseudomonas aeruginosa gene expression by host microflora through interspecies communication",
+      "authors": [
+        "K Duan",
+        "C Dammel",
+        "J Stein",
+        "H Rabin",
+        "MG Surette"
+      ]
+    },
+    {
+      "title": "Epithelial cell coculture models for studying infectious diseases: benefits and limitations",
+      "authors": [
+        "BL Duell",
+        "AW Cripps",
+        "MA Schembri",
+        "GC Ulett"
+      ]
+    },
+    {
+      "title": "CFTR and differentiation markers expression in non-CF and delta F 508 homozygous CF nasal epithelium",
+      "authors": [
+        "F Dupuit",
+        "N Kalin",
+        "S Brezillon",
+        "J Hinnrasky",
+        "B Tummler",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Do airway epithelium air-liquid cultures represent the in vivo airway epithelium transcriptome?",
+      "authors": [
+        "A Dvorak",
+        "AE Tilley",
+        "R Shaykhiev",
+        "R Wang",
+        "RG Crystal"
+      ]
+    },
+    {
+      "title": "The human microbiome: from symbiosis to pathogenesis",
+      "authors": [
+        "EA Eloe-Fadrosh",
+        "DA Rasko"
+      ]
+    },
+    {
+      "title": "Subversion of mucosal barrier polarity by Pseudomonas aeruginosa",
+      "authors": [
+        "J Engel",
+        "Y Eran"
+      ]
+    },
+    {
+      "title": "Airway mucus: the good, the bad the sticky",
+      "authors": [
+        "CM Evans",
+        "JS Koo"
+      ]
+    },
+    {
+      "title": "Effect of polarized release of CXC-chemokines from wild-type and cystic fibrosis murine airway epithelial cells",
+      "authors": [
+        "MM Farberman",
+        "A Ibricevic",
+        "TD Joseph"
+      ]
+    },
+    {
+      "title": "Pathogenesis of IgA1 protease-producing and -nonproducing Haemophilus influenzae in human nasopharyngeal organ cultures",
+      "authors": [
+        "MM Farley",
+        "DS Stephens",
+        "MH Mulks",
+        "MD Cooper",
+        "JV Bricker",
+        "SS Mirra",
+        "A Wright"
+      ]
+    },
+    {
+      "title": "Epithelial cell polarity affects susceptibility to Pseudomonas aeruginosa invasion and cytotoxicity",
+      "authors": [
+        "SM Fleiszig",
+        "DJ Evans",
+        "N Do",
+        "V Vallas",
+        "S Shin",
+        "KE Mostov"
+      ]
+    },
+    {
+      "title": "Susceptibility of epithelial cells to Pseudomonas aeruginosa invasion and cytotoxicity is upregulated by hepatocyte growth factor",
+      "authors": [
+        "SM Fleiszig",
+        "V Vallas",
+        "CH Jun",
+        "L Mok",
+        "DF Balkovetz",
+        "MG Roth",
+        "KE Mostov"
+      ]
+    },
+    {
+      "title": "Adaptation of Pseudomonas aeruginosa to the cystic fibrosis airway: an evolutionary perspective",
+      "authors": [
+        "A Folkesson",
+        "L Jelsbak",
+        "L Yang",
+        "HK Johansen",
+        "O Ciofu",
+        "N Hoiby",
+        "S Molin"
+      ]
+    },
+    {
+      "title": "Potential of host defense Peptide prodrugs as neutrophil elastase-dependent anti-infective agents for cystic fibrosis",
+      "authors": [
+        "E Forde",
+        "H Humphreys",
+        "CM Greene",
+        "D Fitzgerald-Hughes",
+        "M Devocelle"
+      ]
+    },
+    {
+      "title": "Reactive oxygen species and cell signaling: respiratory burst in macrophage signaling",
+      "authors": [
+        "HJ Forman",
+        "M Torres"
+      ]
+    },
+    {
+      "title": "Haemophilus influenzae resides and multiplies intracellularly in human adenoid tissue as demonstrated by in situ hybridization and bacterial viability assay",
+      "authors": [
+        "J Forsgren",
+        "A Samuelson",
+        "A Ahlin",
+        "J Jonasson",
+        "B Rynnel-Dagoo",
+        "A Lindberg"
+      ]
+    },
+    {
+      "title": "Gene expression of Pseudomonas aeruginosa in a mucin-containing synthetic growth medium mimicking cystic fibrosis lung sputum",
+      "authors": [
+        "C Fung",
+        "S Naughton",
+        "L Turnbull"
+      ]
+    },
+    {
+      "title": "Elevated paracellular glucose flux across cystic fibrosis airway epithelial monolayers is an important factor for Pseudomonas aeruginosa growth",
+      "authors": [
+        "JP Garnett",
+        "MA Gray",
+        "R Tarran",
+        "M Brodlie",
+        "C Ward",
+        "EH Baker",
+        "DL Baines"
+      ]
+    },
+    {
+      "title": "Phosphatidylinositol-3,4,5-trisphosphate regulates the formation of the basolateral plasma membrane in epithelial cells",
+      "authors": [
+        "A Gassama-Diagne",
+        "W Yu",
+        "M ter Beest",
+        "F Martin-Belmonte",
+        "A Kierbel",
+        "J Engel",
+        "K Mostov"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa: new insights into pathogenesis and host defenses",
+      "authors": [
+        "SL Gellatly",
+        "RE Hancock"
+      ]
+    },
+    {
+      "title": "Amplification of lipopolysaccharide-induced cytokine synthesis in non-small cell lung cancer/neutrophil cocultures",
+      "authors": [
+        "U Grandel",
+        "D Heygster",
+        "U Sibelius"
+      ]
+    },
+    {
+      "title": "Inhaled L-arginine improves exhaled nitric oxide and pulmonary function in patients with cystic fibrosis",
+      "authors": [
+        "H Grasemann",
+        "F Kurtz",
+        "F Ratjen"
+      ]
+    },
+    {
+      "title": "Regulation of MUC5AC mucin secretion and airway surface liquid metabolism by IL-1beta in human bronchial epithelia",
+      "authors": [
+        "T Gray",
+        "R Coakley",
+        "A Hirsh"
+      ]
+    },
+    {
+      "title": "Capturing complex 3D tissue physiology in vitro",
+      "authors": [
+        "LG Griffith",
+        "MA Swartz"
+      ]
+    },
+    {
+      "title": "Distribution of respiratory mucin proteins in human nasal mucosa",
+      "authors": [
+        "DA Groneberg",
+        "C Peiser",
+        "QT Dinh"
+      ]
+    },
+    {
+      "title": "LXA4 stimulates ZO-1 expression and transepithelial electrical resistance in human airway epithelial (16HBE14o-) cells",
+      "authors": [
+        "Y Grumbach",
+        "NV Quynh",
+        "R Chiron",
+        "V Urbach"
+      ]
+    },
+    {
+      "title": "Diet, microbiome, and the intestinal epithelium: an essential triumvirate?",
+      "authors": [
+        "JR Guzman",
+        "VS Conlin",
+        "C Jobin"
+      ]
+    },
+    {
+      "title": "Azithromycin maintains airway epithelial integrity during Pseudomonas aeruginosa infection",
+      "authors": [
+        "S Halldorsson",
+        "T Gudjonsson",
+        "M Gottfredsson",
+        "PK Singh",
+        "GH Gudmundsson",
+        "O Baldursson"
+      ]
+    },
+    {
+      "title": "Significance of the microbiome in obstructive lung disease",
+      "authors": [
+        "MK Han",
+        "YJ Huang",
+        "JJ Lipuma"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa hypoxic or anaerobic biofilm infections within cystic fibrosis airways",
+      "authors": [
+        "DJ Hassett",
+        "MD Sutton",
+        "MJ Schurr",
+        "AB Herr",
+        "CC Caldwell",
+        "JO Matu"
+      ]
+    },
+    {
+      "title": "Anaerobic metabolism and quorum sensing by Pseudomonas aeruginosa biofilms in chronically infected cystic fibrosis airways: rethinking antibiotic treatment strategies and drug targets",
+      "authors": [
+        "DJ Hassett",
+        "J Cuppoletti",
+        "B Trapnell"
+      ]
+    },
+    {
+      "title": "Structure and function of the cell surface (tethered) mucins",
+      "authors": [
+        "CL Hattrup",
+        "SJ Gendler"
+      ]
+    },
+    {
+      "title": "Infection of human mucosal tissue by Pseudomonas aeruginosa requires sequential and mutually dependent virulence factors and a novel pilus-associated adhesin",
+      "authors": [
+        "RW Heiniger",
+        "HC Winther-Larsen",
+        "RJ Pickles",
+        "M Koomey",
+        "MC Wolfgang"
+      ]
+    },
+    {
+      "title": "MUC5AC and MUC5B Mucins Are Decreased in Cystic Fibrosis Airway Secretions",
+      "authors": [
+        "MO Henke",
+        "A Renner",
+        "RM Huber",
+        "MC Seeds",
+        "BK Rubin"
+      ]
+    },
+    {
+      "title": "MUC5AC and MUC5B mucins increase in cystic fibrosis airway secretions during pulmonary exacerbation",
+      "authors": [
+        "MO Henke",
+        "G John",
+        "M Germann",
+        "H Lindemann",
+        "BK Rubin"
+      ]
+    },
+    {
+      "title": "An immunologic model for rapid vaccine assessment -- a clinical trial in a test tube",
+      "authors": [
+        "RG Higbee",
+        "AM Byers",
+        "V Dhir"
+      ]
+    },
+    {
+      "title": "Disruption of respiratory cilia by proteases including those of Pseudomonas aeruginosa",
+      "authors": [
+        "ST Hingley",
+        "AT Hastie",
+        "F Kueppers",
+        "ML Higgins"
+      ]
+    },
+    {
+      "title": "Effect of ciliostatic factors from Pseudomonas aeruginosa on rabbit respiratory cilia",
+      "authors": [
+        "ST Hingley",
+        "AT Hastie",
+        "F Kueppers",
+        "ML Higgins",
+        "G Weinbaum",
+        "T Shryock"
+      ]
+    },
+    {
+      "title": "Hypoxia-inducible factor signaling provides protection in Clostridium difficile-induced intestinal injury",
+      "authors": [
+        "SA Hirota",
+        "K Fines",
+        "J Ng"
+      ]
+    },
+    {
+      "title": "Time-dependent effects of low-temperature atmospheric-pressure argon plasma on epithelial cell attachment, viability and tight junction formation in vitro",
+      "authors": [
+        "M Hoentsch",
+        "T von Woedtke",
+        "KD Weltmann",
+        "JB Nebe"
+      ]
+    },
+    {
+      "title": "Nutrient availability as a mechanism for selection of antibiotic tolerant Pseudomonas aeruginosa within the CF airway",
+      "authors": [
+        "LR Hoffman",
+        "AR Richardson",
+        "LS Houston"
+      ]
+    },
+    {
+      "title": "Recent advances in the treatment of Pseudomonas aeruginosa infections in cystic fibrosis",
+      "authors": [
+        "N Hoiby"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa biofilms in cystic fibrosis",
+      "authors": [
+        "N Hoiby",
+        "O Ciofu",
+        "T Bjarnsholt"
+      ]
+    },
+    {
+      "title": "Gut microbiota composition and activity in relation to host metabolic phenotype and disease risk",
+      "authors": [
+        "E Holmes",
+        "JV Li",
+        "JR Marchesi",
+        "JK Nicholson"
+      ]
+    },
+    {
+      "title": "Three-dimensional organotypic models of human colonic epithelium to study the early stages of enteric salmonellosis",
+      "authors": [
+        "K Honer zu Bentrup",
+        "R Ramamurthy",
+        "CM Ott"
+      ]
+    },
+    {
+      "title": "Different mucins are produced by the surface epithelium and the submucosa in human trachea: identification of MUC5AC as a major mucin from the goblet cells",
+      "authors": [
+        "HW Hovenberg",
+        "JR Davies",
+        "I Carlstedt"
+      ]
+    },
+    {
+      "title": "From 3D cell culture to organs-on-chips",
+      "authors": [
+        "D Huh",
+        "GA Hamilton",
+        "DE Ingber"
+      ]
+    },
+    {
+      "title": "Reconstituting organ-level lung functions on a chip",
+      "authors": [
+        "D Huh",
+        "BD Matthews",
+        "A Mammoto",
+        "M Montoya-Zavala",
+        "HY Hsin",
+        "DE Ingber"
+      ]
+    },
+    {
+      "title": "Ferrous iron is a significant component of bioavailable iron in cystic fibrosis airways",
+      "authors": [
+        "RC Hunter",
+        "F Asfour",
+        "J Dingemans"
+      ]
+    },
+    {
+      "title": "Apical polarity in three-dimensional culture systems: where to now?",
+      "authors": [
+        "JL Inman",
+        "MJ Bissell"
+      ]
+    },
+    {
+      "title": "A human respiratory-tissue organ culture incorporating an air interface",
+      "authors": [
+        "AD Jackson",
+        "CF Rayner",
+        "A Dewar",
+        "PJ Cole",
+        "R Wilson"
+      ]
+    },
+    {
+      "title": "Protein kinase Czeta phosphorylates occludin and promotes assembly of epithelial tight junctions",
+      "authors": [
+        "S Jain",
+        "T Suzuki",
+        "A Seth",
+        "G Samak",
+        "R Rao"
+      ]
+    },
+    {
+      "title": "Effect of salmeterol on human nasal epithelial cell ciliary beating: inhibition of the ciliotoxin, pyocyanin",
+      "authors": [
+        "K Kanthakumar",
+        "DR Cundell",
+        "M Johnson",
+        "PJ Wills",
+        "GW Taylor",
+        "PJ Cole",
+        "R Wilson"
+      ]
+    },
+    {
+      "title": "Human nutrition, the gut microbiome and the immune system",
+      "authors": [
+        "AL Kau",
+        "PP Ahern",
+        "NW Griffin",
+        "AL Goodman",
+        "JI Gordon"
+      ]
+    },
+    {
+      "title": "Epithelial cell polarity alters Rho-GTPase responses to Pseudomonas aeruginosa",
+      "authors": [
+        "BI Kazmierczak",
+        "K Mostov",
+        "JN Engel"
+      ]
+    },
+    {
+      "title": "The phosphoinositol-3-kinase-protein kinase B/Akt pathway is critical for Pseudomonas aeruginosa strain PAK internalization",
+      "authors": [
+        "A Kierbel",
+        "A Gassama-Diagne",
+        "K Mostov",
+        "JN Engel"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa exploits a PIP3-dependent pathway to transform apical into basolateral membrane",
+      "authors": [
+        "A Kierbel",
+        "A Gassama-Diagne",
+        "C Rocha",
+        "L Radoshevich",
+        "J Olson",
+        "K Mostov",
+        "J Engel"
+      ]
+    },
+    {
+      "title": "A useful in vitro model for transport studies of alveolar epithelial barrier",
+      "authors": [
+        "KJ Kim",
+        "Z Borok",
+        "ED Crandall"
+      ]
+    },
+    {
+      "title": "Matrigel: basement membrane matrix with biological activity",
+      "authors": [
+        "HK Kleinman",
+        "GR Martin"
+      ]
+    },
+    {
+      "title": "Proteomic tracking and analysis of a bacterial mixed culture",
+      "authors": [
+        "S Kluge",
+        "M Hoffmann",
+        "D Benndorf",
+        "E Rapp",
+        "U Reichl"
+      ]
+    },
+    {
+      "title": "Components of intestinal epithelial hypoxia activate the virulence circuitry of Pseudomonas",
+      "authors": [
+        "JE Kohler",
+        "O Zaborina",
+        "L Wu"
+      ]
+    },
+    {
+      "title": "Quorum sensing inhibition selects for virulence and cooperation in Pseudomonas aeruginosa",
+      "authors": [
+        "T Kohler",
+        "GG Perron",
+        "A Buckling",
+        "C van Delden"
+      ]
+    },
+    {
+      "title": "Terminal sialylation is altered in airway cells with impaired CFTR-mediated chloride transport",
+      "authors": [
+        "D Kube",
+        "L Adams",
+        "A Perez",
+        "PB Davis"
+      ]
+    },
+    {
+      "title": "Relation of exaggerated cytokine responses of CF airway epithelial cells to PAO1 adherence",
+      "authors": [
+        "DM Kube",
+        "D Fletcher",
+        "PB Davis"
+      ]
+    },
+    {
+      "title": "In vitro and in vivo model systems for studying enteropathogenic Escherichia coli infections",
+      "authors": [
+        "RJ Law",
+        "L Gur-Arie",
+        "I Rosenshine",
+        "BB Finlay"
+      ]
+    },
+    {
+      "title": "Activities of Pseudomonas aeruginosa effectors secreted by the Type III secretion system in vitro and during infection",
+      "authors": [
+        "VT Lee",
+        "RS Smith",
+        "B Tummler",
+        "S Lory"
+      ]
+    },
+    {
+      "title": "An in vitro triple cell co-culture model with primary cells mimicking the human alveolar epithelial barrier",
+      "authors": [
+        "AD Lehmann",
+        "N Daum",
+        "M Bur",
+        "CM Lehr",
+        "P Gehr",
+        "BM Rothen-Rutishauser"
+      ]
+    },
+    {
+      "title": "A three-dimensional coculture of enterocytes, monocytes and dendritic cells to model inflamed intestinal mucosa in vitro",
+      "authors": [
+        "F Leonard",
+        "EM Collnot",
+        "CM Lehr"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa interacts with epithelial cells rapidly forming aggregates that are internalized by a Lyn-dependent mechanism",
+      "authors": [
+        "P Lepanto",
+        "DM Bryant",
+        "J Rossello",
+        "A Datta",
+        "KE Mostov",
+        "A Kierbel"
+      ]
+    },
+    {
+      "title": "Cystic fibrosis transmembrane conductance regulator trafficking modulates the barrier function of airway epithelial cell monolayers",
+      "authors": [
+        "P LeSimple",
+        "J Liao",
+        "R Robert",
+        "DC Gruenert",
+        "JW Hanrahan"
+      ]
+    },
+    {
+      "title": "Transcriptional activation of mucin by Pseudomonas aeruginosa lipopolysaccharide in the pathogenesis of cystic fibrosis lung disease",
+      "authors": [
+        "JD Li",
+        "AF Dohrman",
+        "M Gallup"
+      ]
+    },
+    {
+      "title": "Pseudomonal infections in patients with COPD: epidemiology and management",
+      "authors": [
+        "D Lieberman"
+      ]
+    },
+    {
+      "title": "Identification of Pseudomonas aeruginosa flagellin as an adhesin for Muc1 mucin",
+      "authors": [
+        "EP Lillehoj",
+        "BT Kim",
+        "KC Kim"
+      ]
+    },
+    {
+      "title": "Muc1 mucins on the cell surface are adhesion sites for Pseudomonas aeruginosa",
+      "authors": [
+        "EP Lillehoj",
+        "SW Hyun",
+        "BT Kim",
+        "XG Zhang",
+        "DI Lee",
+        "S Rowland",
+        "KC Kim"
+      ]
+    },
+    {
+      "title": "Trafficking of GFP-tagged DeltaF508-CFTR to the plasma membrane in a polarized epithelial cell line",
+      "authors": [
+        "D Loffing-Cueni",
+        "J Loffing",
+        "C Shaw",
+        "AM Taplin",
+        "M Govindan",
+        "CR Stanton",
+        "BA Stanton"
+      ]
+    },
+    {
+      "title": "Depletion of intestinal phosphate after operative injury activates the virulence of P. aeruginosa causing lethal gut-derived sepsis",
+      "authors": [
+        "J Long",
+        "O Zaborina",
+        "C Holbrook",
+        "A Zaborin",
+        "J Alverdy"
+      ]
+    },
+    {
+      "title": "Diversity, stability and resilience of the human gut microbiota",
+      "authors": [
+        "CA Lozupone",
+        "JI Stombaugh",
+        "JI Gordon",
+        "JK Jansson",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "Cutting edge: enhanced pulmonary clearance of Pseudomonas aeruginosa by Muc1 knockout mice",
+      "authors": [
+        "W Lu",
+        "A Hisatsune",
+        "T Koga"
+      ]
+    },
+    {
+      "title": "Beneficial effect of antibiotics on ciliary beat frequency of human nasal epithelial cells exposed to bacterial toxins",
+      "authors": [
+        "R Mallants",
+        "M Jorissen",
+        "P Augustijns"
+      ]
+    },
+    {
+      "title": "Epithelial barriers in homeostasis and disease",
+      "authors": [
+        "AM Marchiando",
+        "WV Graham",
+        "JR Turner"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa induces vascular endothelial growth factor synthesis in airway epithelium in vitro and in vivo",
+      "authors": [
+        "C Martin",
+        "G Thevenot",
+        "S Danel"
+      ]
+    },
+    {
+      "title": "N-glycosylation augmentation of the cystic fibrosis epithelium improves Pseudomonas aeruginosa clearance",
+      "authors": [
+        "AT Martino",
+        "C Mueller",
+        "S Braag",
+        "PE Cruz",
+        "M Campbell-Thompson",
+        "S Jin",
+        "TR Flotte"
+      ]
+    },
+    {
+      "title": "'Human-on-a-chip' developments: a translational cutting-edge alternative to systemic safety assessment and efficiency evaluation of substances in laboratory animals and man?",
+      "authors": [
+        "U Marx",
+        "H Walles",
+        "S Hoffmann"
+      ]
+    },
+    {
+      "title": "Mucoid conversion of Pseudomonas aeruginosa by hydrogen peroxide: a mechanism for virulence activation in the cystic fibrosis lung",
+      "authors": [
+        "K Mathee",
+        "O Ciofu",
+        "C Sternberg"
+      ]
+    },
+    {
+      "title": "A physical linkage between cystic fibrosis airway surface dehydration and Pseudomonas aeruginosa biofilms",
+      "authors": [
+        "H Matsui",
+        "VE Wagner",
+        "DB Hill"
+      ]
+    },
+    {
+      "title": "ATP transduces signals from ASGM1, a glycolipid that functions as a bacterial receptor",
+      "authors": [
+        "N McNamara",
+        "A Khong",
+        "D McKemy",
+        "M Caterina",
+        "J Boyer",
+        "D Julius",
+        "C Basbaum"
+      ]
+    },
+    {
+      "title": "Entry of protein toxins in polarized epithelial cells",
+      "authors": [
+        "EL Melby",
+        "J Jacobsen",
+        "S Olsnes",
+        "K Sandvig"
+      ]
+    },
+    {
+      "title": "Epithelial Cell Differentiation of Human Mesenchymal Stromal Cells in Decellularized Lung Scaffolds",
+      "authors": [
+        "JJ Mendez",
+        "M Ghaedi",
+        "D Steinbacher",
+        "L Niklason"
+      ]
+    },
+    {
+      "title": "In vitro models of infection I--human respiratory tissue organ culture",
+      "authors": [
+        "AM Middleton",
+        "P Keig",
+        "R Wilson"
+      ]
+    },
+    {
+      "title": "Structural basis for oligosaccharide-mediated adhesion of Pseudomonas aeruginosa in the lungs of cystic fibrosis patients",
+      "authors": [
+        "E Mitchell",
+        "C Houles",
+        "D Sudakevitz"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa biofilm formation in the cystic fibrosis airway",
+      "authors": [
+        "S Moreau-Marquis",
+        "BA Stanton",
+        "GA O'Toole"
+      ]
+    },
+    {
+      "title": "Tobramycin and FDA-approved iron chelators eliminate Pseudomonas aeruginosa biofilms on cystic fibrosis cells",
+      "authors": [
+        "S Moreau-Marquis",
+        "GA O'Toole",
+        "BA Stanton"
+      ]
+    },
+    {
+      "title": "The DeltaF508-CFTR mutation results in increased biofilm formation by Pseudomonas aeruginosa by increasing iron availability",
+      "authors": [
+        "S Moreau-Marquis",
+        "JM Bomberger",
+        "GG Anderson",
+        "A Swiatecka-Urban",
+        "S Ye",
+        "GA O'Toole",
+        "BA Stanton"
+      ]
+    },
+    {
+      "title": "Polarization-dependent apical membrane CFTR targeting underlies cAMP-stimulated Cl− secretion in epithelial cells",
+      "authors": [
+        "AP Morris",
+        "SA Cunningham",
+        "A Tousson",
+        "DJ Benos",
+        "RA Frizzell"
+      ]
+    },
+    {
+      "title": "Effect of pyocyanin and 1-hydroxyphenazine on in vivo tracheal mucus velocity",
+      "authors": [
+        "NC Munro",
+        "A Barker",
+        "A Rutman"
+      ]
+    },
+    {
+      "title": "Effect of dietary monosaccharides on Pseudomonas aeruginosa virulence",
+      "authors": [
+        "RK Nelson",
+        "V Poroyko",
+        "MJ Morowitz",
+        "D Liu",
+        "JC Alverdy"
+      ]
+    },
+    {
+      "title": "Three-dimensional tissue assemblies: novel models for the study of Salmonella enterica serovar Typhimurium pathogenesis",
+      "authors": [
+        "CA Nickerson",
+        "TJ Goodwin",
+        "J Terlonge"
+      ]
+    },
+    {
+      "title": "Activation of hypoxia-inducible factor-1 protects airway epithelium against oxidant-induced barrier dysfunction",
+      "authors": [
+        "N Olson",
+        "M Hristova",
+        "NH Heintz",
+        "KM Lounsbury",
+        "A van der Vliet"
+      ]
+    },
+    {
+      "title": "Regeneration and orthotopic transplantation of a bioartificial lung",
+      "authors": [
+        "HC Ott",
+        "B Clippinger",
+        "C Conrad"
+      ]
+    },
+    {
+      "title": "Human and murine paraoxonase 1 are host modulators of Pseudomonas aeruginosa quorum-sensing",
+      "authors": [
+        "EA Ozer",
+        "A Pezzulo",
+        "DM Shih"
+      ]
+    },
+    {
+      "title": "Nutritional cues control Pseudomonas aeruginosa multicellular behavior in cystic fibrosis sputum",
+      "authors": [
+        "KL Palmer",
+        "LM Aye",
+        "M Whiteley"
+      ]
+    },
+    {
+      "title": "Polarized distribution of HCO3-transport in human normal and cystic fibrosis nasal epithelia",
+      "authors": [
+        "AM Paradiso",
+        "RD Coakley",
+        "RC Boucher"
+      ]
+    },
+    {
+      "title": "Influence of quorum sensing and iron on twitching motility and biofilm formation in Pseudomonas aeruginosa",
+      "authors": [
+        "GM Patriquin",
+        "E Banin",
+        "C Gilmour",
+        "R Tuchman",
+        "EP Greenberg",
+        "K Poole"
+      ]
+    },
+    {
+      "title": "Matrix composition and mechanics of decellularized lung scaffolds",
+      "authors": [
+        "TH Petersen",
+        "EA Calle",
+        "MB Colehour",
+        "LE Niklason"
+      ]
+    },
+    {
+      "title": "Reduced airway surface pH impairs bacterial killing in the porcine cystic fibrosis lung",
+      "authors": [
+        "AA Pezzulo",
+        "XX Tang",
+        "MJ Hoegger"
+      ]
+    },
+    {
+      "title": "The challenges and promises of new therapies for cystic fibrosis",
+      "authors": [
+        "GB Pier"
+      ]
+    },
+    {
+      "title": "Cystic fibrosis transmembrane conductance regulator is an epithelial cell receptor for clearance of Pseudomonas aeruginosa from the lung",
+      "authors": [
+        "GB Pier",
+        "M Grout",
+        "TS Zaidi"
+      ]
+    },
+    {
+      "title": "How mutant CFTR may contribute to Pseudomonas aeruginosa infection in cystic fibrosis",
+      "authors": [
+        "GB Pier",
+        "M Grout",
+        "TS Zaidi",
+        "JB Goldberg"
+      ]
+    },
+    {
+      "title": "Role of mutant CFTR in hypersusceptibility of cystic fibrosis patients to lung infections",
+      "authors": [
+        "GB Pier",
+        "M Grout",
+        "TS Zaidi",
+        "JC Olsen",
+        "LG Johnson",
+        "JR Yankaskas",
+        "JB Goldberg"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa strains possess specific adhesins for laminin",
+      "authors": [
+        "MC Plotkowski",
+        "JM Tournier",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Epithelial respiratory cells from cystic fibrosis patients do not possess specific Pseudomonas aeruginosa-adhesive properties",
+      "authors": [
+        "MC Plotkowski",
+        "M Chevillard",
+        "D Pierrot",
+        "D Altemayer",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Adherence ofPseudomonas aeruginosa to respiratory epithelium and the effect of leucocyte elastase",
+      "authors": [
+        "MC Plotkowski",
+        "G Beck",
+        "JM Tournier",
+        "M Bernardo-Filho",
+        "EA Marques",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Differential adhesion of Pseudomonas aeruginosa to human respiratory epithelial cells in primary culture",
+      "authors": [
+        "MC Plotkowski",
+        "M Chevillard",
+        "D Pierrot",
+        "D Altemayer",
+        "JM Zahm",
+        "G Colliot",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa internalization by human epithelial respiratory cells depends on cell differentiation, polarity, and junctional complex integrity",
+      "authors": [
+        "MC Plotkowski",
+        "S de Bentzmann",
+        "SH Pereira",
+        "JM Zahm",
+        "O Bajolet-Laudinat",
+        "P Roger",
+        "E Puchelle"
+      ]
+    },
+    {
+      "title": "Airway epithelial repair, regeneration, and remodeling after injury in chronic obstructive pulmonary disease",
+      "authors": [
+        "E Puchelle",
+        "JM Zahm",
+        "JM Tournier",
+        "C Coraux"
+      ]
+    },
+    {
+      "title": "Cystic fibrosis: impaired bicarbonate secretion and mucoviscidosis",
+      "authors": [
+        "PM Quinton"
+      ]
+    },
+    {
+      "title": "Role of epithelial HCO3(-) transport in mucin secretion: lessons from cystic fibrosis",
+      "authors": [
+        "PM Quinton"
+      ]
+    },
+    {
+      "title": "Analysis of interactions of Salmonella type three secretion mutants with 3-D intestinal epithelial cells",
+      "authors": [
+        "AL Radtke",
+        "JW Wilson",
+        "S Sarker",
+        "CA Nickerson"
+      ]
+    },
+    {
+      "title": "Adherence of mucoid and nonmucoid Pseudomonas aeruginosa to acid-injured tracheal epithelium",
+      "authors": [
+        "R Ramphal",
+        "M Pyle"
+      ]
+    },
+    {
+      "title": "Effect of Pseudomonas aeruginosa rhamnolipids on mucociliary transport and ciliary beating",
+      "authors": [
+        "RC Read",
+        "P Roberts",
+        "N Munro"
+      ]
+    },
+    {
+      "title": "Increased airway iron as a potential factor in the persistence of Pseudomonas aeruginosa infection in cystic fibrosis",
+      "authors": [
+        "DW Reid",
+        "V Carroll",
+        "C O'May",
+        "A Champion",
+        "SM Kirov"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa infection destroys the barrier function of lung epithelium and enhances polyplex-mediated transfection",
+      "authors": [
+        "J Rejman",
+        "S Di Gioia",
+        "A Bragonzi",
+        "M Conese"
+      ]
+    },
+    {
+      "title": "Epithelial progenitor cells in lung development, maintenance, repair, and disease",
+      "authors": [
+        "JR Rock",
+        "BL Hogan"
+      ]
+    },
+    {
+      "title": "Fibronectin and alpha5beta1 integrin mediate binding of Pseudomonas aeruginosa to repairing airway epithelium",
+      "authors": [
+        "P Roger",
+        "E Puchelle",
+        "O Bajolet-Laudinat"
+      ]
+    },
+    {
+      "title": "Prevention of siderophore-mediated gut-derived sepsis due to P. aeruginosa can be achieved without iron provision by maintaining local phosphate abundance: role of pH",
+      "authors": [
+        "K Romanowski",
+        "A Zaborin",
+        "H Fernandez"
+      ]
+    },
+    {
+      "title": "Mucus structure and properties in cystic fibrosis",
+      "authors": [
+        "BK Rubin"
+      ]
+    },
+    {
+      "title": "Pathogen-host interactions in Pseudomonas aeruginosa pneumonia",
+      "authors": [
+        "RT Sadikot",
+        "TS Blackwell",
+        "JW Christman",
+        "AS Prince"
+      ]
+    },
+    {
+      "title": "Update of respiratory tract disease in children with primary ciliary dyskinesia",
+      "authors": [
+        "SD Sagel",
+        "SD Davis",
+        "P Campisi",
+        "SD Dell"
+      ]
+    },
+    {
+      "title": "The effect of piliation and exoproduct expression on the adherence of Pseudomonas aeruginosa to respiratory epithelial monolayers",
+      "authors": [
+        "L Saiman",
+        "K Ishimoto",
+        "S Lory",
+        "A Prince"
+      ]
+    },
+    {
+      "title": "A novel model to study bacterial adherence to the transplanted airway: inhibition of Burkholderia cepacia adherence to human airway by dextran and xylitol",
+      "authors": [
+        "U Sajjan",
+        "J Moreira",
+        "M Liu",
+        "A Humar",
+        "C Chaparro",
+        "J Forstner",
+        "S Keshavjee"
+      ]
+    },
+    {
+      "title": "Hypoxia modulates infection of epithelial cells by Pseudomonas aeruginosa",
+      "authors": [
+        "B Schaible",
+        "S McClean",
+        "A Selfridge",
+        "A Broquet",
+        "K Asehnoune",
+        "CT Taylor",
+        "K Schaffer"
+      ]
+    },
+    {
+      "title": "Modeling tissue-specific signaling and organ function in three dimensions",
+      "authors": [
+        "KL Schmeichel",
+        "MJ Bissell"
+      ]
+    },
+    {
+      "title": "Contribution of oxygen-limiting conditions to persistent infection of Pseudomonas aeruginosa",
+      "authors": [
+        "M Schobert",
+        "P Tielen"
+      ]
+    },
+    {
+      "title": "Anaerobic physiology of Pseudomonas aeruginosa in the cystic fibrosis lung",
+      "authors": [
+        "M Schobert",
+        "D Jahn"
+      ]
+    },
+    {
+      "title": "Lack of adherence of clinical isolates of Pseudomonas aeruginosa to asialo-GM(1) on epithelial cells",
+      "authors": [
+        "TH Schroeder",
+        "T Zaidi",
+        "GB Pier"
+      ]
+    },
+    {
+      "title": "CFTR is a pattern recognition molecule that extracts Pseudomonas aeruginosa LPS from the outer membrane into epithelial cells and activates NF-kappa B translocation",
+      "authors": [
+        "TH Schroeder",
+        "MM Lee",
+        "PW Yacono",
+        "CL Cannon",
+        "AA Gerceker",
+        "DE Golan",
+        "GB Pier"
+      ]
+    },
+    {
+      "title": "Mucin glycosylation changes in cystic fibrosis lung disease are not manifest in submucosal gland secretions",
+      "authors": [
+        "BL Schulz",
+        "AJ Sloane",
+        "LJ Robinson"
+      ]
+    },
+    {
+      "title": "MUC5B and MUC7 are differentially expressed in mucous and serous cells of submucosal glands in human bronchial airways",
+      "authors": [
+        "P Sharma",
+        "L Dudus",
+        "PA Nielsen",
+        "H Clausen",
+        "JR Yankaskas",
+        "MA Hollingsworth",
+        "JF Engelhardt"
+      ]
+    },
+    {
+      "title": "The laminins: role in intestinal morphogenesis and differentiation",
+      "authors": [
+        "P Simon-Assmann",
+        "O Lefebvre",
+        "A Bellissent-Waydelich",
+        "J Olsen",
+        "V Orian-Rousseau",
+        "A De Arcangelis"
+      ]
+    },
+    {
+      "title": "Hyperacidity of secreted fluid from submucosal glands in early cystic fibrosis",
+      "authors": [
+        "Y Song",
+        "D Salinas",
+        "DW Nielson",
+        "AS Verkman"
+      ]
+    },
+    {
+      "title": "The type III toxins of Pseudomonas aeruginosa disrupt epithelial barrier function",
+      "authors": [
+        "G Soong",
+        "D Parker",
+        "M Magargee",
+        "AS Prince"
+      ]
+    },
+    {
+      "title": "Salmonella effector proteins and host-cell responses",
+      "authors": [
+        "CV Srikanth",
+        "R Mercado-Lubo",
+        "K Hallstrom",
+        "BA McCormick"
+      ]
+    },
+    {
+      "title": "Microcolony formation: a novel biofilm model of Pseudomonas aeruginosa for the cystic fibrosis lung",
+      "authors": [
+        "DD Sriramulu",
+        "H Lunsdorf",
+        "JS Lam",
+        "U Romling"
+      ]
+    },
+    {
+      "title": "Mechanical stress is communicated between different cell types to elicit matrix remodeling",
+      "authors": [
+        "MA Swartz",
+        "DJ Tschumperlin",
+        "RD Kamm",
+        "JM Drazen"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa inhibits endocytic recycling of CFTR in polarized human airway epithelial cells",
+      "authors": [
+        "A Swiatecka-Urban",
+        "S Moreau-Marquis",
+        "DP Maceachran"
+      ]
+    },
+    {
+      "title": "Lymphocyte CFTR promotes epithelial bicarbonate secretion for bacterial killing",
+      "authors": [
+        "XX Tang",
+        "KL Fok",
+        "H Chen"
+      ]
+    },
+    {
+      "title": "Normal and cystic fibrosis airway surface liquid homeostasis. The effects of phasic shear stress and viral infections",
+      "authors": [
+        "R Tarran",
+        "B Button",
+        "M Picher"
+      ]
+    },
+    {
+      "title": "Dominant role of paraoxonases in inactivation of the Pseudomonas aeruginosa quorum-sensing signal N-(3-oxododecanoyl)-L-homoserine lactone",
+      "authors": [
+        "JF Teiber",
+        "S Horke",
+        "DC Haines"
+      ]
+    },
+    {
+      "title": "Effects of free and liposome-encapsulated antibiotics on adherence of Pseudomonas aeruginosa to collagen type I",
+      "authors": [
+        "EA Trafny",
+        "M Stepinska",
+        "M Antos",
+        "J Grzybowski"
+      ]
+    },
+    {
+      "title": "Interaction of Pseudomonas aeruginosa with human respiratory mucosa in vitro",
+      "authors": [
+        "KW Tsang",
+        "A Rutman",
+        "E Tanaka",
+        "V Lund",
+        "A Dewar",
+        "PJ Cole",
+        "R Wilson"
+      ]
+    },
+    {
+      "title": "Three-dimensional human airway epithelial cell cultures",
+      "authors": [
+        "M Ulrich",
+        "G Doring"
+      ]
+    },
+    {
+      "title": "Moxifloxacin and ciprofloxacin protect human respiratory epithelial cells against Streptococcus pneumoniae, Staphylococcus aureus, Pseudomonas aeruginosa, and Haemophilus influenzae in vitro",
+      "authors": [
+        "M Ulrich",
+        "J Berger",
+        "JG Moller",
+        "G Doring"
+      ]
+    },
+    {
+      "title": "A three-dimensional model of differentiation of immortalized human bronchial epithelial cells",
+      "authors": [
+        "MB Vaughan",
+        "RD Ramirez",
+        "WE Wright",
+        "JD Minna",
+        "JW Shay"
+      ]
+    },
+    {
+      "title": "Host mucin glycosylation plays a role in bacterial adhesion in lungs of individuals with cystic fibrosis",
+      "authors": [
+        "V Venkatakrishnan",
+        "NH Packer",
+        "M Thaysen-Andersen"
+      ]
+    },
+    {
+      "title": "Metabolite transfer with the fermentation product 2,3-butanediol enhances virulence by Pseudomonas aeruginosa",
+      "authors": [
+        "A Venkataraman",
+        "MA Rosenbaum",
+        "JJ Werner",
+        "SC Winans",
+        "LT Angenent"
+      ]
+    },
+    {
+      "title": "Cellular differentiation in three-dimensional lung cell cultures",
+      "authors": [
+        "RA Vertrees",
+        "JB Zwischenberger",
+        "PJ Boor",
+        "V Popov",
+        "M McCarthy",
+        "TN Solley",
+        "TJ Goodwin"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa quorum sensing molecule N-(3 oxododecanoyl)-l-homoserine lactone disrupts epithelial barrier integrity of Caco-2 cells",
+      "authors": [
+        "E Vikstrom",
+        "F Tafazoli",
+        "KE Magnusson"
+      ]
+    },
+    {
+      "title": "Respiratory syncytial virus interaction with human airway epithelium",
+      "authors": [
+        "R Villenave",
+        "MD Shields",
+        "UF Power"
+      ]
+    },
+    {
+      "title": "In vitro modeling of respiratory syncytial virus infection of pediatric bronchial epithelium, the primary target of infection in vivo",
+      "authors": [
+        "R Villenave",
+        "S Thavagnanam",
+        "S Sarlang"
+      ]
+    },
+    {
+      "title": "Mucins, mucus, and sputum",
+      "authors": [
+        "JA Voynow",
+        "BK Rubin"
+      ]
+    },
+    {
+      "title": "Can stem cells be used to generate new lungs? Ex vivo lung bioengineering with decellularized whole lung scaffolds",
+      "authors": [
+        "DE Wagner",
+        "RW Bonvillain",
+        "T Jensen"
+      ]
+    },
+    {
+      "title": "Three-dimensional scaffolds of acellular human and porcine lungs for high throughput studies of lung disease and regeneration",
+      "authors": [
+        "DE Wagner",
+        "NR Bonenfant",
+        "D Sokocevic"
+      ]
+    },
+    {
+      "title": "Effect of Rhamnolipids on Permeability Across Caco-2 Cell Monolayers",
+      "authors": [
+        "CJ Wallace",
+        "SH Medina",
+        "ME Elsayed"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa cytotoxicity is attenuated at high cell density and associated with the accumulation of phenylacetic acid",
+      "authors": [
+        "J Wang",
+        "Y Dong",
+        "T Zhou"
+      ]
+    },
+    {
+      "title": "Bioengineered 2'-fucosyllactose and 3-fucosyllactose inhibit the adhesion of Pseudomonas aeruginosa and enteric pathogens to human intestinal and respiratory cell lines",
+      "authors": [
+        "S Weichert",
+        "S Jennewein",
+        "E Hufner",
+        "C Weiss",
+        "J Borkowski",
+        "J Putze",
+        "H Schroten"
+      ]
+    },
+    {
+      "title": "The antimicrobial activity of the cathelicidin LL37 is inhibited by F-actin bundles and restored by gelsolin",
+      "authors": [
+        "DJ Weiner",
+        "R Bucki",
+        "PA Janmey"
+      ]
+    },
+    {
+      "title": "Effect of bacterial products on human ciliary function in vitro",
+      "authors": [
+        "R Wilson",
+        "D Roberts",
+        "P Cole"
+      ]
+    },
+    {
+      "title": "An in vitro model of Pseudomonas aeruginosa biofilms on viable airway epithelial cell monolayers",
+      "authors": [
+        "BA Woodworth",
+        "E Tamashiro",
+        "G Bhargave",
+        "NA Cohen",
+        "JN Palmer"
+      ]
+    },
+    {
+      "title": "Effects of reduced mucus oxygen concentration in airway Pseudomonas infections of cystic fibrosis patients",
+      "authors": [
+        "D Worlitzsch",
+        "R Tarran",
+        "M Ulrich"
+      ]
+    },
+    {
+      "title": "Recognition of host immune activation by Pseudomonas aeruginosa",
+      "authors": [
+        "L Wu",
+        "O Estrada",
+        "O Zaborina"
+      ]
+    },
+    {
+      "title": "Microbial ecology and adaptation in cystic fibrosis airways",
+      "authors": [
+        "L Yang",
+        "L Jelsbak",
+        "S Molin"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa anaerobic respiration in biofilms: relationships to cystic fibrosis pathogenesis",
+      "authors": [
+        "SS Yoon",
+        "RF Hennigan",
+        "GM Hilliard"
+      ]
+    },
+    {
+      "title": "Pseudomonas aeruginosa overrides the virulence inducing effect of opioids when it senses an abundance of phosphate",
+      "authors": [
+        "A Zaborin",
+        "S Gerdes",
+        "C Holbrook",
+        "DC Liu",
+        "OY Zaborina",
+        "JC Alverdy"
+      ]
+    },
+    {
+      "title": "Dynorphin activates quorum sensing quinolone signaling in Pseudomonas aeruginosa",
+      "authors": [
+        "O Zaborina",
+        "F Lepine",
+        "G Xiao"
+      ]
+    },
+    {
+      "title": "Antimicrobial peptide therapeutics for cystic fibrosis",
+      "authors": [
+        "L Zhang",
+        "J Parente",
+        "SM Harris",
+        "DE Woods",
+        "RE Hancock",
+        "TJ Falla"
+      ]
+    },
+    {
+      "title": "The reconstruction of lung alveolus-like structure in collagen-matrigel/microcapsules scaffolds in vitro",
+      "authors": [
+        "WJ Zhang",
+        "QX Lin",
+        "Y Zhang"
+      ]
+    },
+    {
+      "title": "Inherent differences in nasal and tracheal ciliary function in response to Pseudomonas aeruginosa challenge",
+      "authors": [
+        "KQ Zhao",
+        "N Goldstein",
+        "H Yang"
+      ]
+    },
+    {
+      "title": "Rhamnolipids are virulence factors that promote early infiltration of primary human airway epithelia by Pseudomonas aeruginosa",
+      "authors": [
+        "L Zulianello",
+        "C Canard",
+        "T Kohler",
+        "D Caille",
+        "JS Lacroix",
+        "P Meda"
+      ]
+    }
+  ],
+  "original_title": "Mimicking the host and its microenvironment in vitro for studying mucosal infections by Pseudomonas aeruginosa.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/72ba/4096993/ba4e0783df65/nihms586687f1.jpg"
+  ]
+}

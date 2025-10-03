@@ -1,0 +1,734 @@
+{
+  "pmcid": "PMC4095884",
+  "title": "Absence of γ-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+  "abstract": "Background\n\nThe dystrophin glycoprotein complex (DGC) is located at the sarcolemma of muscle fibers, providing structural integrity. Mutations in and loss of DGC proteins cause a spectrum of muscular dystrophies. When only the sarcoglycan subcomplex is absent, muscles display severe myofiber degeneration, but little susceptibility to contractile damage, suggesting that disease occurs not by structural deficits but through aberrant signaling, namely, loss of normal mechanotransduction signaling through the sarcoglycan complex. We extended our previous studies on mechanosensitive, γ-sarcoglycan-dependent ERK1/2 phosphorylation, to determine whether additional pathways are altered with the loss of γ-sarcoglycan.\n\nMethods\n\nWe examined mechanotransduction in the presence and absence of γ-sarcoglycan, using C2C12 myotubes, and primary cultures and isolated muscles from C57Bl/6 (C57) and γ-sarcoglycan-null (γ-SG-/-) mice. All were subjected to cyclic passive stretch. Signaling protein phosphorylation was determined by immunoblotting of lysates from stretched and non-stretched samples. Calcium dependence was assessed by maintaining muscles in calcium-free or tetracaine-supplemented Ringer’s solution. Dependence on mTOR was determined by stretching isolated muscles in the presence or absence of rapamycin.\n\nResults\n\nC2C12 myotube stretch caused a robust increase in P-p70S6K, but decreased P-FAK and P-ERK2. Neither Akt nor ERK1 were responsive to passive stretch. Similar but non-significant trends were observed in C57 primary cultures in response to stretch, and γ-SG-/- cultures displayed no p70S6K response. In contrast, in isolated muscles, p70S6K was mechanically responsive. Basal p70S6K activation was elevated in muscles of γ-SG-/- mice, in a calcium-independent manner. p70S6K activation increased with stretch in both C57 and γ-SG-/- isolated muscles, and was sustained in γ-SG-/- muscles, unlike the transient response in C57 muscles. Rapamycin treatment blocked all of p70S6K activation in stretched C57 muscles, and reduced downstream S6RP phosphorylation. However, even though rapamycin treatment decreased p70S6K activation in stretched γ-SG-/- muscles, S6RP phosphorylation remained elevated.\n\nConclusions\n\np70S6K is an important component of γ-sarcoglycan-dependent mechanotransduction in skeletal muscle. Our results suggest that loss of γ-sarcoglycan uncouples the response of p70S6K to stretch and implies that γ-sarcoglycan is important for inactivation of this pathway. Overall, we assert that altered load-sensing mechanisms exist in muscular dystrophies where the sarcoglycans are absent.",
+  "introduction": "Background\n\nThe dystrophin glycoprotein complex (DGC) is found at the sarcolemma of skeletal, cardiac, and smooth muscle cells, where it physically links the extracellular matrix (ECM) with the intracellular cytoskeleton, providing structural support. Mutations in DGC components cause different types of muscular dystrophy; for example, mutations in dystrophin cause Duchenne muscular dystrophy (DMD), while mutations in α-, β-, γ-, or δ-sarcoglycan (SG) cause limb girdle muscular dystrophy (LGMD). When dystrophin is mutated in DMD or in the mdx mouse model of DMD, the entire DGC is substantially reduced at the sarcolemma. In contrast, when any one of the SGs is mutated, in LGMD or any of the SG knock-out mice, the other three SGs are either absent or reduced at the sarcolemma, but the rest of the DGC remains, including the link formed by dystrophin and dystroglycan between the ECM and the cytoskeleton. Unlike the skeletal muscles of the mdx mouse, muscles of the γ-SG knock-out (γ-SG-/-) mouse display no mechanical fragility, at least until 4 months of age, as shown by a minimal loss of force-generating capacity following a series of eccentric contractions (ECCs). In spite of this, the γ-SG-/- mouse exhibits a severe dystrophic phenotype on histological examination, with extensive myofiber degeneration and regeneration, fibrosis, and disruption of sarcolemmal integrity, similar to the mdx mouse. The lack of mechanical fragility suggests that aberrant signaling may contribute to the muscle degeneration seen in the γ-SG-/- mouse. Indeed, our previous studies demonstrated that localization of the SG complex to the sarcolemma and phosphorylation of the tyrosine 6 residue of γ-SG are essential for normal signaling by extracellular signal-regulated kinases 1 and 2 (ERK1/2), in response to ECCs. Based upon these data, we have asserted that the SG complex acts as a mechanosensor in skeletal muscle because of its position within the DGC, the modifications that occur to γ-SG with mechanical perturbation, and the necessity of the complex for normal signaling.\n\nA complication of using ECCs to invoke signal transduction is that there are multiple processes in play. Not only is there externally applied tension on the sarcolemma and DGC as a result of lengthening, but also active contraction resulting in internally applied tension and Ca2+ flux within the fibers and across the sarcolemma, all of which could contribute to alterations in signaling in the absence of γ-SG. Calcium is known to be involved in many mechanosensitive signaling pathways (reviewed in) and aberrant calcium regulation is a feature of SG-deficient muscle. Indeed, an exaggerated ERK1/2 response to mechanical stimulation that is dependent on extracellular calcium has been demonstrated in the mdx mouse diaphragm. Studies suggest that aberrant calcium regulation in the muscular dystrophies results from abnormal levels and activity of the mechanosensitive TRP channels and/or misregulation of store operated calcium entry via the STIM1 and Orai1 channels. Direct disruption of the sarcolemma, for which there is evidence in SG-null animal models, could also contribute to loss of calcium homeostasis. Furthermore, several strategies to improve Ca2+ handling are known to counteract the pathology associated with the muscular dystrophies. Therefore, identification of mechanosensitive signaling that is attributable to the SG complex rather than other processes occurring during mechanical perturbation has been challenging.\n\nOne pathway of interest involves p70S6K, which is canonically activated in response to mitogens via the phosphoinositide 3-kinase (PI3K) pathway (reviewed in) and is known to respond to mechanical load. Activation of p70S6K involves a hierarchical series of phosphorylation events, beginning with phosphorylation of multiple sites in the C-terminal autoinhibitory domain, followed by mammalian target of rapamycin (mTOR)-dependent phosphorylation of sites in the linker region, which allows for full activation of the kinase via phosphorylation of threonine 229 (T229) in the catalytic domain by phosphoinositide-dependent kinase 1 (PDK1) (reviewed in). Although phosphorylation of T229 is required for p70S6K activation, phosphorylation of T389 in the linker region has been found to correlate most closely with in vivo activity, and can be used as a measure of kinase activation. p70S6K has a multitude of downstream targets, with roles in protein synthesis, growth, proliferation, survival, and more, including S6 ribosomal protein (S6RP), which closely correlates with protein translation rates.\n\nIn the current study, we examined ERK1/2, Akt, focal adhesion kinase (FAK), and p70S6K responses to passive stretch in C57 and γ-SG-/- skeletal muscle to further elucidate the importance of the SG complex for mechanotransduction. While differences in ERK1/2 phosphorylation between C57 and γ-SG-/- muscle were calcium-dependent, differences in p70S6K activation were independent of calcium. In addition, the p70S6K response to stretch in both primary myofiber cultures and isolated extensor digitorum longus (EDL) muscles was differentially regulated in the absence of γ-SG. Specifically, experiments in isolated muscles suggest that γ-SG is required for inactivation of p70S6K. The findings increase our understanding of the contribution of aberrant load-sensing to the pathology of muscular dystrophies where the SG complex is deficient.",
+  "methods": "Methods\n\nAnimals\n\nAdult C57BL/6 (C57) and γ-SG-null (γ-SG-/-) mice were used. For ex vivo protocols, mice were aged 8 to 16 weeks. The γ-SG-/- mouse lacks γ-SG due to gene targeting, resulting in an additional loss of β- and δ-SG and a decrease of α-SG. All experiments were approved by the University of Pennsylvania Institutional Animal Care and Use Committee.\n\nC2C12 myotube culture\n\nFlexible silicone membranes (Specialty Manufacturing, Inc.) were stretched across the bottom of custom cylinders which acted as a culture chamber. The membranes were held in place using an O-ring as described previously. Membranes were then coated with a thin layer of 2 mg/mL GFR Matrigel (BD #354230). C2C12 myoblasts (3.5 × 105/cylinder) were seeded onto the membranes and maintained at 5% CO2 at 37°C in growth media (10% FBS, 100 U penicillin, 100 μg streptomycin, 100 μg/mL gentamycin in DMEM) for approximately 24 h until 70% to 80% confluent, then switched to differentiation media (2% HS, 100 U penicillin, 100 μg streptomycin, 100 μg/mL Gentamycin in DMEM). Myoblasts were allowed to differentiate into multinucleated myotubes for 5 days, during which media was changed every other day before stretching as described below.\n\nPrimary myoblast culture\n\nMice were euthanized using CO2 inhalation. Flexor digitorum brevis (FDB) muscles were dissected and incubated with 2 mg/mL collagenase I (Sigma), 10% FBS in Tyrode’s solution (125 mM NaCl, 5 mM KCl, 1 mM CaCl2, 1 mM MgCl2, 1 mM KH2PO4, 20 mM HEPES (all from Fisher), 5.5 mM glucose (Sigma), pH 7.4) for 90 min at 37°C, with shaking, as previously described. Muscles were washed in 10% FBS in Tyrode’s solution and clumps of fibers were liberated by pipetting up and down in 10% FBS, 100 U penicillin, 100 μg streptomycin in Tyrode’s solution using a wide-mouthed glass pipette. Clumps of fibers were transferred to a second dish with the same solution and pipetted up and down again. Single fibers were transferred to a third dish before plating on silicone membranes coated with Matrigel (Becton Dickinson; 2 mg/mL diluted in DMEM). Growth media (20% FBS, 10 ng/mL mouse basic fibroblast growth factor (MP Bio), 100 U penicillin, 100 μg streptomycin, 1 μg/mL Fungizone, 100 μg/mL Gentamycin in Ham’s F-10 media) was carefully added and cultures were incubated without disturbance for 3 days at 37°C. Media was then changed every 2 days. After 7 to 10 days, when myoblast cultures were 70% to 80% confluent, media was switched to differentiation media (10% HS, 0.5% chicken embryo extract, 100 U penicillin, 100 μg streptomycin, 1 μg/mL Fungizone, 100 μg/mL Gentamycin in DMEM) and myoblasts were allowed to differentiate into multinucleated myotubes for 5 days before stretching as described below. Unless otherwise indicated, all cell culture reagents were purchased from Gibco.\n\nMyotube stretching protocol\n\nC2C12 myotubes were stretched using an apparatus that produces isotropic two-dimensional strain of cells in vitro, as described previously. Briefly, myotubes were subjected to 10% strain, 40 times per minute, for 30 min, at 37°C in a humidified atmosphere of 5% CO2 in air. Control myotubes were treated identically but were not stretched. Lysates were harvested immediately as described below. Primary myotubes were stretched using the protocol described for C2C12 myotubes. Stretched myotubes were then incubated without stretch for a further 1, 2, or 4 h at 37°C before harvesting lysates for immunoblotting as described below. Control (non-stretched) myotubes were harvested immediately after the end of the stretching protocol used for the stretched myotubes.\n\nIsolated muscle stretching protocol\n\nMice were anaesthetized using ketamine and xylazine. EDL muscles were dissected and placed in an organ bath containing oxygenated high-glucose (25 mM) DMEM with HEPES (25 mM) (Life Technologies), at room temperature. For rapamycin sensitivity experiments, high-glucose DMEM was supplemented with 150 nM rapamycin (Sigma) or vehicle only (0.1% DMSO). Muscles were adjusted to 9.3 mN of resting tension, approximately equivalent to optimal length, based on our previous experiments. After a 10-min equilibration period, the length of the muscle was measured using calipers, and the muscle was subjected to a stretching protocol of 15% strain (held for 100 ms with ramp times of 50 ms), 20 times per minute, for either 30 or 90 min, using an in vitro muscle test system (Aurora Scientific). Muscles were snap-frozen immediately following the end of the stretch protocol. Contralateral muscles were used as controls and were adjusted to the same length as the stretched muscles, then incubated in oxygenated high-glucose DMEM with HEPES at room temperature for the equivalent length of time, before snap-freezing.\n\nCalcium dependence experiments\n\nEDL muscles were dissected as described above and placed in an organ bath contained oxygenated Ringer’s solution (119 mM NaCl, 4.74 mM KCl, 2.54 mM CaCl2, 1.18 mM KH2PO4, 1.18 mM MgSO4, 25 mM HEPES, 2.75 mM glucose), calcium-free Ringer’s solution (CaCl2 replaced with 2.5 mM MgCl2) or Ringer’s solution supplemented with 100 μM tetracaine. They were incubated for 30 min before snap-freezing in liquid nitrogen.\n\nImmunoprecipitation\n\nImmunoprecipitation experiments were carried out using the Pierce Classic IP kit (Thermo Scientific). Muscle lysates containing 100 μg total protein was immunoprecipitated with anti-P-tyrosine (Cell Signaling #9411 1:100) overnight at 4°C with end-over-end mixing. Samples were purified using Protein A/G Plus Agarose beads (Roche) for 1 h at 4°C with end-over-end mixing. The immune complex was eluted with non-reducing sample buffer and boiled at 100°C for 5 min before being applied to a SDS-PAGE gel, transferred, and immunoblotted as described below.\n\nImmunoblotting\n\nC2C12 and primary myotubes were washed with ice-cold PBS before lysing in 100 to 200 μL of RIPA buffer (50 mM HEPES pH 7.5, 150 mM NaCl, 5 mM EDTA, 1 mM EGTA, 15 mM p-nitrophenyl phosphate disodium hexahydral, 1% NP-40, 0.1% SDS, 1% deoxycholate, 0.025% sodium azide) with protease and phosphatase inhibitor cocktails (Sigma). Lysates were incubated on ice for 30 min, centrifuged at 16,000 rcf for 20 min at 4°C and the supernatants retained. EDL muscles were ground using a dry ice-cooled pestle and mortar, and lysed in 200 μL of RIPA buffer with protease and phosphatase inhibitors. Lysates were incubated on ice for 1 h, vortexing half-way through, centrifuged at 16,000 rcf for 20 min at 4°C and the supernatants retained. Protein content was determined using a Bradford method protein assay kit (Bio-Rad). Lysates (30 μg total protein for myotube cultures, 90 μg total protein for EDL muscles) were separated by SDS-PAGE on Tris-HCl polyacrylamide gels (Bio-Rad) and transferred to PVDF membranes. Membranes were blocked in 5% milk in TTBS (10 mM Tris, 150 mM NaCl, 0.1% v/v Tween-20, pH 8), with 2% BSA added for some antibodies, then probed with antibodies to the following: phospho (P)-p70S6K (T389) (Cell Signaling #9205 1:200 for primary cultures, Cell Signaling #9234 1:250 for isolated muscles), P-p70S6K (T421/S424) (Cell Signaling #9204 1:1,000), P-S6RP (Cell Signaling #2211 1:2,000), P-ERK1/2 (Cell Signaling #9101 1:500), total (T)-ERK1/2 (Cell Signaling #9107 1:1,000), P-Akt (Cell Signaling #9271 1:300), T-Akt (Cell Signaling #2920 1:2,000), P-FAK (Millipore 05-1140, 1:500), T-FAK (Millipore 06-543, 1:1,000), γ-SG (Novocastra VP-G803 1:300), glyceraldehyde 3-phosphate dehydrogenase (GAPDH) (Santa Cruz sc-32233 1:5,000), and tubulin (Sigma T5168 1:20,000). Band intensities were quantified using ImageQuant TL, 1D gel analysis (C2C12 and myotube cultures, rapamycin sensitivity experiments) or ImageJ (NIH) (all other isolated muscles). P-p70S6K and P-S6RP were normalized to either GAPDH or tubulin, P-FAK was normalized to either T-FAK or GAPDH, P-Akt was normalized to T-Akt, and P-ERK1/2 was normalized to T-ERK1/2.\n\nMicroscopy\n\nImages of primary cultures were taken using a Leica DM RBE microscope and Leica DFC300 CCD camera, using OpenLab software (Perkin Elmer).\n\nStatistics\n\nComparisons between non-stretched and stretched C2C12 cells (Figure 1) were done by unpaired T test. Comparisons between C57 and γ-SG-/- primary cultures across time (Figure 2) were done by two-way ANOVA with Tukey’s multiple comparisons test. Comparisons between C57 and γ-SG-/- muscles in calcium experiments (Figure 3) were done by unpaired T test. Comparisons between C57 and γ-SG-/- muscles with and without stretch for each time point (Figure 4) or with and without rapamycin (Figure 5) were done by two-way ANOVA with Tukey’s multiple comparisons test.",
+  "results": "Results\n\np70S6K, but not ERK1/2 or Akt responds to passive stretch in vitro\n\nStudies using whole muscles from animal models of the dystrophies are made more complex by the presence of multiple cell types, as well as pathological processes such as fibrosis. Therefore, we initially investigated mechanotransduction signaling in passively stretched C2C12 myotubes. We found that passive stretching in vitro did not alter phosphorylation of ERK1 or Akt and that ERK2 and FAK phosphorylation decreased following stretch (Figure 1A,C-F,H-I). However, we found an increase in p70S6K phosphorylation at T389, which reflects activity, in response to passive stretching of C2C12 myotubes (Figure 1B,G). Therefore, this in vitro model reflected some, but not all, stretch responses observed in muscle in vivo, and highlighted p70S6K as a pathway of interest. The lack of Akt phosphorylation suggests that p70S6K phosphorylation occurred through an Akt-independent pathway, while the lack of FAK phosphorylation supports an integrin-independent mechanism.\n\nDifferential p70S6K stretch response occurs in C57 and γ-SG-/- primary cultures\n\nHaving established pathways of interest in vitro using the C2C12 cell line, we used primary myoblast cultures from C57 and γ-SG-/- mice (Figure 2A) to investigate the changes in mechanotransduction signaling associated solely with the loss of the SG complex in myofibers. C57 and γ-SG-/- cultures were stretched for 30 min as described above and lysates were harvested 1, 2, or 4 h after stretching ended, to allow observation of the signaling time course. Immunoblotting analysis showed that there was no difference in basal ERK1/2 phosphorylation between C57 and γ-SG-/- myotubes and little change in ERK1/2 phosphorylation in response to stretch (Figure 2B,D,E). Therefore, similar to the C2C12 cells, primary cultures did not reflect the ERK1/2 phosphorylation responses found previously in C57 and γ-SG-/- mice in vivo. Neither P-Akt nor P-FAK displayed significant differences between C57 and γ-SG-/- cultures (Figure 2B,F,G). Further, these proteins did not show any prolonged response to passive stretch in the primary cultures, consistent with the lack of an acute positive stretch response in C2C12 cells. Examination of p70S6K revealed a trend towards elevated T389 phosphorylation at baseline in γ-SG-/- myotubes, compared to C57 myotubes. Activation of p70S6K in γ-SG-/- myotubes upon stretch was not apparent (Figure 2B,C), but C57 myotubes displayed a trend for increased activation at 2 and 4 h after stretching (Figure 2B,C). Therefore, while the primary cultures reflect some of the responses found in C2C12 myotubes, the experimental system is too variable to draw firm conclusions regarding mechanical signaling pathways associated with γ-SG.\n\nElevated P-p70S6K in γ-SG-/- muscles is calcium independent\n\nOur experiments in myotubes, together with our previous studies in isolated muscles, suggested that ERK1/2 phosphorylation changes require active contraction in addition to stretch, whereas p70S6K responds to stretch alone. To test this hypothesis in vivo, we extended our analysis to examine the response of p70S6K to passive stretch of isolated muscles. P-p70S6k was elevated approximately 1.7-fold in resting γ-SG-/- EDL muscles incubated in normal oxygenated Ringer’s solution (Figure 3C; Normal). As in our previous studies, there was a 3- and 1.5-fold increase of P-ERK1 and P-ERK2, respectively, in resting γ-SG-/- EDL muscles (Figure 3A-B; Normal). Because both of these pathways converge to phosphorylate S6RP, we compared the phosphorylation state of this protein in muscles from both genotypes. γ-SG-/- EDL muscles exhibited an 8-fold increase in P-S6RP, which was consistent with the higher basal phosphorylation state of the upstream pathways (Figure 3D; Normal).\n\nHeightened mechanosensitive signaling could arise through increased flux of ions across the sarcolemma, particularly Ca2+. This could occur either through enhanced activity of channels, such as the TRP family of cation channels (reviewed in), or via membrane ruptures. To determine the calcium dependence of the observed differences in p70S6K and ERK1/2 phosphorylation in γ-SG-/- muscles, we incubated muscles in calcium-free Ringers solution, retaining the same ionic strength. Absence of extracellular Ca2+ did not alter the relative difference in P-p70S6K between γ-SG-/- and C57 muscles (Figure 3C). However, the increased P-ERK1/2 and P-S6RP found in γ-SG-/- muscles in normal Ringer’s solution was abrogated when there was no calcium in the bathing solution (Figure 3A,B,D). Thus, only p70S6K phosphorylation appeared to be calcium independent. Because intracellular calcium stores can also alter the intracellular calcium concentration, particularly during muscle activation, tetracaine was used to inhibit sarcoplasmic reticulum release of Ca2+ through the ryanodine receptors. Verification of this inhibition was established in a separate experiment, through measuring tetanic force generation by EDL muscles before and after addition of tetracaine. After 15 min incubation with tetracaine, force production was virtually eliminated (force was 297 mN prior to addition of tetracaine, 2.4 mN after 15 min incubation with tetracaine and not detectable after 20 min incubation with tetracaine). Again, relative P-p70S6K levels between the two muscle groups were not altered by tetracaine (Figure 3C). In contrast, blockade of SR Ca2+ release reduced P-ERK1 levels in γ-SG-/- muscles relative to C57 muscles, even though there was no alteration in P-ERK2 (Figure 3A,B). Phosphorylation of S6RP remained elevated in γ-SG-/- muscles in the presence of tetracaine, but to a lesser extent than in normal Ringer’s solution (Figure 3D). Taken together, both extracellular and intracellular calcium contribute to the heightened P-ERK1 levels in γ-SG-/- muscles, whereas the increase in basal P-p70S6K in γ-SG-/- muscles is not dependent on either extracellular or intracellular calcium.\n\nDifferential p70S6K stretch response occurs in isolated C57 and γ-SG-/- muscles\n\nHaving established that P-p70S6K changes at rest did not depend on calcium, we pursued the role of p70S6K in γ-SG-dependent mechanotransduction in vivo. A passive stretching protocol comprised of a 15% strain, 20 times per min, for 30 min in high-glucose DMEM was sufficient to cause increased γ-SG phosphorylation in the EDL, as is the case for eccentric contraction of the EDL (Figure 4A). We stretched C57 and γ-SG-/- EDL muscles for either 30 or 90 min and immediately snap-froze them in liquid nitrogen. We then used immunoblotting to measure phosphorylation of p70S6K at T389, as above, and also at T421/S424 in the auto-inhibitory domain. Basal phosphorylation of p70S6K at T389 showed a trend to be increased in unstretched γ-SG-/- muscles compared to C57 muscles (Figure 4B,C). However, basal phosphorylation at T421/S424 was not different between C57 and γ-SG-/- muscles (Figure 4D). After 30 min of stretch, phosphorylation of p70S6K at T389 and T421/S424 was increased to a similar degree in stretched C57 and γ-SG-/- EDL muscles, compared to non-stretched controls. However, after 90 min of stretch, phosphorylation at T389 and T421/S424 had decreased in stretched C57 muscles and was close to non-stretched levels. In contrast, phosphorylation at T389 was further increased, and T421/S424 phosphorylation remained elevated, in stretched γ-SG-/- muscles, compared to non-stretched controls (Figure 4B-D). For T389 phosphorylation after 90 min of stretch, genotype, stretch, and the interaction between them were all statistically significant, by two-way ANOVA. T421/S424 showed a similar trend to T389; however, while the effect of stretch was statistically significant, the difference between genotypes was not. Thus, in contrast to primary cultures, γ-SG-/- muscles exhibited heightened and prolonged activation of p70S6K in response to passive stretch, implying that γ-SG plays a role in p70S6K inactivation.\n\nStretch response of p70S6K T389, but not S6RP, is rapamycin-sensitive in γ-SG-/- muscles\n\nBecause mTOR is a key mediator of p70S6K activation, we examined the effect of the mTOR inhibitor rapamycin on stretch responses in isolated C57 and γ-SG-/- muscles. EDL muscles were subjected to cyclic stretch for 90 min, as described above. Unlike in C2C12 cells and primary cultures, P-Akt showed a trend to increase on stretching, which was statistically significant in γ-SG-/- muscles. As anticipated, P-Akt was unaffected by rapamycin (Figure 5A,B). Rapamycin treatment completely blocked the increase in p70S6K T389 phosphorylation after passive stretch of C57 muscles, consistent with previous studies. In γ-SG-/- muscles, rapamycin abrogated most p70S6K T389 phosphorylation, but residual phosphorylation remained in stretched muscles (Figure 5A,C). T421/S424 showed a trend to increase in response to stretch in both C57 and γ-SG-/- muscles. Surprisingly, rapamycin blunted the p70S6K T421/S424 stretch response in C57 muscles, which is inconsistent with previous studies. However, the T421/S424 response to stretch persisted in γ-SG-/- muscles in the presence of rapamycin (Figure 5A,D). S6RP phosphorylation increased in response to stretch in both C57 and γ-SG-/- muscles. Interestingly, while rapamycin blocked stretch-induced phosphorylation of S6RP in C57 muscles, phosphorylation in response to stretch was preserved in γ-SG-/- muscles (Figure 5A,E). Taken together, these results suggest either that the level of active p70S6K remaining in γ-SG-/- muscles is sufficient to phosphorylate S6RP regardless of rapamycin or that an alternate pathway bypasses p70S6K to phosphorylate S6RP in muscles lacking γ-SG.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Sarcoglycan",
+    "Sarcoglycanopathies",
+    "Limb girdle muscular dystrophy",
+    "Mechanotransduction",
+    "Mechano-sensing",
+    "Load-sensing",
+    "p70S6K",
+    "S6K",
+    "p70S6 kinase",
+    "ERK1/2",
+    "Research"
+  ],
+  "citations": [
+    {
+      "title": "Biology of the striated muscle dystrophin-glycoprotein complex",
+      "authors": [
+        "JM Ervasti",
+        "KJ Sonnemann"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "AE Emery",
+        "F Muntoni"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "AG Engel",
+        "C Franzini-Armstrong"
+      ]
+    },
+    {
+      "title": "Muscular dystrophies involving the dystrophin-glycoprotein complex: an overview of current mouse models",
+      "authors": [
+        "M Durbeej",
+        "KP Campbell"
+      ]
+    },
+    {
+      "title": "Function and genetics of dystrophin and dystrophin-related proteins in muscle",
+      "authors": [
+        "DJ Blake",
+        "A Weir",
+        "SE Newey",
+        "KE Davies"
+      ]
+    },
+    {
+      "title": "Molecular mechanisms of muscular dystrophies: old and new players",
+      "authors": [
+        "KE Davies",
+        "KJ Nowak"
+      ]
+    },
+    {
+      "title": "Muscle degeneration without mechanical injury in sarcoglycan deficiency",
+      "authors": [
+        "AA Hack",
+        "L Cordier",
+        "DI Shoturma",
+        "MY Lam",
+        "HL Sweeney",
+        "EM McNally"
+      ]
+    },
+    {
+      "title": "Dystrophin protects the sarcolemma from stresses developed during muscle contraction",
+      "authors": [
+        "BJ Petrof",
+        "JB Shrager",
+        "HH Stedman",
+        "AM Kelly",
+        "HL Sweeney"
+      ]
+    },
+    {
+      "title": "Gamma-sarcoglycan deficiency leads to muscle membrane defects and apoptosis independent of dystrophin",
+      "authors": [
+        "AA Hack",
+        "CT Ly",
+        "F Jiang",
+        "CJ Clendenin",
+        "KS Sigrist",
+        "RL Wollmann",
+        "EM McNally"
+      ]
+    },
+    {
+      "title": "Impact of sarcoglycan complex on mechanical signal transduction in murine skeletal muscle",
+      "authors": [
+        "ER Barton"
+      ]
+    },
+    {
+      "title": "Restoration of gamma-sarcoglycan localization and mechanical signal transduction are independent in murine skeletal muscle",
+      "authors": [
+        "ER Barton"
+      ]
+    },
+    {
+      "title": "Calcium’s role in mechanotransduction during muscle development",
+      "authors": [
+        "T Benavides Damm",
+        "M Egli"
+      ]
+    },
+    {
+      "title": "Mechanotransduction in skeletal muscle",
+      "authors": [
+        "TJ Burkholder"
+      ]
+    },
+    {
+      "title": "Leaky ryanodine receptors in beta-sarcoglycan deficient mice: a potential common defect in muscular dystrophy",
+      "authors": [
+        "D Andersson",
+        "A Meli",
+        "S Reiken",
+        "M Betzenhauser",
+        "A Umanskaya",
+        "T Shiomi",
+        "J D’Armiento",
+        "A Marks"
+      ]
+    },
+    {
+      "title": "Protective effects of Ca2+ handling drugs against abnormal Ca2+ homeostasis and cell damage in myopathic skeletal muscle cells",
+      "authors": [
+        "Y Iwata",
+        "Y Katanosaka",
+        "Z Shijun",
+        "Y Kobayashi",
+        "H Hanada",
+        "M Shigekawa",
+        "S Wakabayashi"
+      ]
+    },
+    {
+      "title": "Stretch-activated cation channels in skeletal muscle myotubes from sarcoglycan-deficient hamsters",
+      "authors": [
+        "TY Nakamura",
+        "Y Iwata",
+        "M Sampaolesi",
+        "H Hanada",
+        "N Saito",
+        "M Artman",
+        "WA Coetzee",
+        "M Shigekawa"
+      ]
+    },
+    {
+      "title": "Stretch-induced cell damage in sarcoglycan-deficient myotubes",
+      "authors": [
+        "M Sampaolesi",
+        "T Yoshida",
+        "Y Iwata",
+        "H Hanada",
+        "M Shigekawa"
+      ]
+    },
+    {
+      "title": "Altered calcium pump and secondary deficiency of gamma-sarcoglycan and microspan in sarcoplasmic reticulum membranes isolated from delta-sarcoglycan knockout mice",
+      "authors": [
+        "A Solares-Perez",
+        "R Alvarez",
+        "RH Crosbie",
+        "J Vega-Moreno",
+        "J Medina-Monares",
+        "FJ Estrada",
+        "A Ortega",
+        "R Coral-Vazquez"
+      ]
+    },
+    {
+      "title": "Intracellular Ca2+ transients in delta-sarcoglycan knockout mouse skeletal muscle",
+      "authors": [
+        "A Solares-Perez",
+        "JA Sanchez",
+        "A Zentella-Dehesa",
+        "MC Garcia",
+        "RM Coral-Vazquez"
+      ]
+    },
+    {
+      "title": "Calcium homeostasis and ultrastructural studies in a patient with limb girdle muscular dystrophy type 2C",
+      "authors": [
+        "C Hassoni"
+      ]
+    },
+    {
+      "title": "Ca2+ overload and mitochondrial permeability transition pore activation in living δ-sarcoglycan-deficient cardiomyocytes",
+      "authors": [
+        "B Fraysse",
+        "SM Nagi",
+        "B Boher",
+        "H Ragot",
+        "J Lainé",
+        "A Salmon",
+        "MY Fiszman",
+        "M Toussaint",
+        "Y Fromes"
+      ]
+    },
+    {
+      "title": "Mutation of δ-sarcoglycan is associated with Ca2 + -dependent vascular remodeling in the Syrian hamster",
+      "authors": [
+        "L Lipskaia",
+        "C Pinet",
+        "Y Fromes",
+        "S Hatem",
+        "I Cantaloube",
+        "A Coulombe",
+        "A-M Lompré"
+      ]
+    },
+    {
+      "title": "Loss of dystrophin causes aberrant mechanotransduction in skeletal muscle fibers",
+      "authors": [
+        "A Kumar",
+        "N Khandelwal",
+        "R Malya",
+        "MB Reid",
+        "AM Boriek"
+      ]
+    },
+    {
+      "title": "A novel mechanism of myocyte degeneration involving the Ca2 + -permeable growth factor–regulated channel",
+      "authors": [
+        "Y Iwata",
+        "Y Katanosaka",
+        "Y Arai",
+        "K Komamura",
+        "K Miyatake",
+        "M Shigekawa"
+      ]
+    },
+    {
+      "title": "Dominant-negative inhibition of Ca2+ influx via TRPV2 ameliorates muscular dystrophy in animal models",
+      "authors": [
+        "Y Iwata",
+        "Y Katanosaka",
+        "Y Arai",
+        "M Shigekawa",
+        "S Wakabayashi"
+      ]
+    },
+    {
+      "title": "Calcium influx is sufficient to induce muscular dystrophy through a TRPC-dependent mechanism",
+      "authors": [
+        "DP Millay",
+        "SA Goonasekera",
+        "MA Sargent",
+        "M Maillet",
+        "BJ Aronow",
+        "JD Molkentin"
+      ]
+    },
+    {
+      "title": "Enhanced Ca2+ influx from STIM1–Orai1 induces muscle pathology in mouse models of muscular dystrophy",
+      "authors": [
+        "SA Goonasekera",
+        "J Davis",
+        "JQ Kwong",
+        "F Accornero",
+        "L Wei-LaPierre",
+        "MA Sargent",
+        "RT Dirksen",
+        "JD Molkentin"
+      ]
+    },
+    {
+      "title": "TRP channels in skeletal muscle: gene expression, function and implications for disease",
+      "authors": [
+        "H Brinkmeier"
+      ]
+    },
+    {
+      "title": "TRP channels in normal and dystrophic skeletal muscle",
+      "authors": [
+        "P Gailly"
+      ]
+    },
+    {
+      "title": "Loss of the sarcoglycan complex and sarcospan leads to muscular dystrophy in β-sarcoglycan-deficient mice",
+      "authors": [
+        "K Araishi",
+        "T Sasaoka",
+        "M Imamura",
+        "S Noguchi",
+        "H Hama",
+        "E Wakabayashi",
+        "M Yoshida",
+        "T Hori",
+        "E Ozawa"
+      ]
+    },
+    {
+      "title": "Progressive muscular dystrophy in α-sarcoglycan-deficient mice",
+      "authors": [
+        "F Duclos",
+        "V Straub",
+        "KH Holt",
+        "LE Lim",
+        "JR Sanes",
+        "BL Davidson",
+        "JA Faulkner",
+        "R Williamson",
+        "KP Campbell",
+        "SA Moore",
+        "DP Venzke",
+        "RF Hrstka",
+        "RH Crosbie",
+        "M Durbeej",
+        "CS Lebakken",
+        "AJ Ettinger",
+        "J van der Meulen"
+      ]
+    },
+    {
+      "title": "Mitigation of muscular dystrophy in mice by SERCA overexpression in skeletal muscle",
+      "authors": [
+        "SA Goonasekera",
+        "CK Lam",
+        "DP Millay",
+        "MA Sargent",
+        "RJ Hajjar",
+        "EG Kranias",
+        "JD Molkentin"
+      ]
+    },
+    {
+      "title": "Overexpression of SERCA1a in the mdx diaphragm reduces susceptibility to contraction-induced damage",
+      "authors": [
+        "KJ Morine",
+        "MM Sleeper",
+        "ER Barton",
+        "HL Sweeney"
+      ]
+    },
+    {
+      "title": "Genetic disruption of calcineurin improves skeletal muscle pathology and cardiac disease in a mouse model of limb-girdle muscular dystrophy",
+      "authors": [
+        "SA Parsons",
+        "DP Millay",
+        "MA Sargent",
+        "FJ Naya",
+        "EM McNally",
+        "HL Sweeney",
+        "JD Molkentin"
+      ]
+    },
+    {
+      "title": "Functions and regulation of the 70 kDa ribosomal S6 kinases",
+      "authors": [
+        "TR Fenton",
+        "IT Gout"
+      ]
+    },
+    {
+      "title": "Mechanical stimuli regulate rapamycin-sensitive signalling by a phosphoinositide 3-kinase-, protein kinase B- and growth factor-independent mechanism",
+      "authors": [
+        "TA Hornberger",
+        "R Stuppard",
+        "KE Conley",
+        "MJ Fedele",
+        "ML Fiorotto",
+        "ER Chin",
+        "KA Esser"
+      ]
+    },
+    {
+      "title": "Ribosomal S6 kinase signaling and the control of translation",
+      "authors": [
+        "A Dufner",
+        "G Thomas"
+      ]
+    },
+    {
+      "title": "The principal target of rapamycin-induced p70s6k inactivation is a novel phosphorylation site within a conserved hydrophobic domain",
+      "authors": [
+        "RB Pearson",
+        "PB Dennis",
+        "JW Han",
+        "NA Williamson",
+        "SC Kozma",
+        "RE Wettenhall",
+        "G Thomas"
+      ]
+    },
+    {
+      "title": "The phosphorylation of ribosomal protein S6 in rat tissues following cycloheximide injection, in diabetes, and after denervation of diaphragm. A simple immunological determination of the extent of S6 phosphorylation on protein blots",
+      "authors": [
+        "PJ Nielsen",
+        "KL Manchester",
+        "H Towbin",
+        "J Gordon",
+        "G Thomas"
+      ]
+    },
+    {
+      "title": "Compression and tension: differential effects on matrix accumulation by periodontal ligament fibroblasts in vitro",
+      "authors": [
+        "Y He",
+        "EJ Macarak",
+        "JM Korostoff",
+        "PS Howard"
+      ]
+    },
+    {
+      "title": "Deletion of muscle GRP94 impairs both muscle and body growth by inhibiting local IGF production",
+      "authors": [
+        "ER Barton",
+        "S Park",
+        "Y Argon",
+        "JK James",
+        "CA Makarewich",
+        "A Philippou",
+        "D Eletto",
+        "H Lei",
+        "B Brisson",
+        "O Ostrovsky",
+        "Z Li"
+      ]
+    },
+    {
+      "title": "Isometric and eccentric force generation assessment of skeletal muscles isolated from murine models of muscular dystrophies",
+      "authors": [
+        "C Moorwood",
+        "M Liu",
+        "Z Tian",
+        "ER Barton"
+      ]
+    },
+    {
+      "title": "Aging does not alter the mechanosensitivity of the p38, p70S6k, and JNK2 signaling pathways in skeletal muscle",
+      "authors": [
+        "TA Hornberger",
+        "RD Mateja",
+        "ER Chin",
+        "JL Andrews",
+        "KA Esser"
+      ]
+    },
+    {
+      "title": "Insight into skeletal muscle mechanotransduction: MAPK activation is quantitatively related to tension",
+      "authors": [
+        "LC Martineau",
+        "PF Gardiner"
+      ]
+    },
+    {
+      "title": "Signalling pathways that mediate skeletal muscle hypertrophy and atrophy",
+      "authors": [
+        "DJ Glass"
+      ]
+    },
+    {
+      "title": "PP2A regulatory subunit PP2A-B’ counteracts S6K phosphorylation",
+      "authors": [
+        "K Hahn",
+        "M Miranda",
+        "VA Francis",
+        "J Vendrell",
+        "A Zorzano",
+        "AA Teleman"
+      ]
+    },
+    {
+      "title": "Protein phosphatase 2A interacts with the 70-kDa S6 kinase and is activated by inhibition of FKBP12-rapamycinassociated protein",
+      "authors": [
+        "RT Peterson",
+        "BN Desai",
+        "JS Hardwick",
+        "SL Schreiber"
+      ]
+    },
+    {
+      "title": "TGF-beta inhibits p70 S6 kinase via protein phosphatase 2A to induce G(1) arrest",
+      "authors": [
+        "C Petritsch",
+        "H Beug",
+        "A Balmain",
+        "M Oft"
+      ]
+    },
+    {
+      "title": "Troglitazone acutely inhibits protein synthesis in endothelial cells via a novel mechanism involving protein phosphatase 2A-dependent p70 S6 kinase inhibition",
+      "authors": [
+        "DH Cho",
+        "YJ Choi",
+        "SA Jo",
+        "J Ryou",
+        "JY Kim",
+        "J Chung",
+        "I Jo"
+      ]
+    },
+    {
+      "title": "PHLPP-mediated dephosphorylation of S6K1 inhibits protein translation and cell growth",
+      "authors": [
+        "J Liu",
+        "PD Stevens",
+        "X Li",
+        "MD Schmidt",
+        "T Gao"
+      ]
+    },
+    {
+      "title": "Lymphocyte cell-cycle inhibition by HLA-G is mediated by phosphatase SHP-2 and acts on the mTOR pathway",
+      "authors": [
+        "F Ketroussi",
+        "M Giuliani",
+        "R Bahri",
+        "B Azzarone",
+        "B Charpentier",
+        "A Durrbach"
+      ]
+    },
+    {
+      "title": "SHP-2 regulates cell growth by controlling the mTOR/S6 kinase 1 pathway",
+      "authors": [
+        "CI Zito",
+        "H Qin",
+        "J Blenis",
+        "AM Bennett"
+      ]
+    },
+    {
+      "title": "The role of phospholipase D and phosphatidic acid in the mechanical activation of mTOR signaling in skeletal muscle",
+      "authors": [
+        "TA Hornberger",
+        "WK Chu",
+        "YW Mak",
+        "JW Hsiung",
+        "SA Huang",
+        "S Chien"
+      ]
+    },
+    {
+      "title": "Mechanical stimulation induces mTOR signaling via an ERK-independent mechanism: implications for a direct activation of mTOR by phosphatidic acid",
+      "authors": [
+        "JS You",
+        "JW Frey",
+        "TA Hornberger"
+      ]
+    },
+    {
+      "title": "The role of diacylglycerol kinase zeta and phosphatidic acid in the mechanical activation of mammalian target of rapamycin (mTOR) signaling and skeletal muscle hypertrophy",
+      "authors": [
+        "JS You",
+        "HC Lincoln",
+        "CR Kim",
+        "JW Frey",
+        "CA Goodman",
+        "XP Zhong",
+        "TA Hornberger"
+      ]
+    },
+    {
+      "title": "Recovery of skeletal muscle mass after extensive injury: positive effects of increased contractile activity",
+      "authors": [
+        "H Richard-Bulteau",
+        "B Serrurier",
+        "B Crassous",
+        "S Banzet",
+        "A Peinnequin",
+        "X Bigard",
+        "N Koulmann"
+      ]
+    },
+    {
+      "title": "An array of insulin-activated, proline-directed serine/threonine protein kinases phosphorylate the p70 S6 kinase",
+      "authors": [
+        "NK Mukhopadhyay",
+        "DJ Price",
+        "JM Kyriakis",
+        "S Pelech",
+        "J Sanghera",
+        "J Avruch"
+      ]
+    },
+    {
+      "title": "ERK1/2 Phosphorylate Raptor to Promote Ras-dependent Activation of mTOR Complex 1 (mTORC1)",
+      "authors": [
+        "A Carriere",
+        "Y Romeo",
+        "HA Acosta-Jaquez",
+        "J Moreau",
+        "E Bonneil",
+        "P Thibault",
+        "DC Fingar",
+        "PP Roux"
+      ]
+    },
+    {
+      "title": "Phosphorylation and Functional Inactivation of TSC2 by Erk: Implications for Tuberous Sclerosisand Cancer Pathogenesis",
+      "authors": [
+        "L Ma",
+        "Z Chen",
+        "H Erdjument-Bromage",
+        "P Tempst",
+        "PP Pandolfi"
+      ]
+    },
+    {
+      "title": "Tumor-promoting phorbol esters and activated Ras inactivate the tuberous sclerosis tumor suppressor complex via p90 ribosomal S6 kinase",
+      "authors": [
+        "PP Roux",
+        "BA Ballif",
+        "R Anjum",
+        "SP Gygi",
+        "J Blenis"
+      ]
+    },
+    {
+      "title": "p70S6 kinase is a critical node that integrates HER-family and PI3 kinase signaling networks",
+      "authors": [
+        "MJ Axelrod",
+        "V Gordon",
+        "RE Mendez",
+        "SS Leimgruber",
+        "MR Conaway",
+        "ER Sharlow",
+        "MJ Jameson",
+        "DG Gioeli",
+        "MJ Weber"
+      ]
+    },
+    {
+      "title": "Mechanical stimuli and nutrients regulate rapamycin-sensitive signaling through distinct mechanisms in skeletal muscle",
+      "authors": [
+        "TA Hornberger",
+        "S Chien"
+      ]
+    },
+    {
+      "title": "Skeletal muscle-specific ablation of raptor, but not of rictor, causes metabolic changes and results in muscle dystrophy",
+      "authors": [
+        "CF Bentzinger",
+        "K Romanino",
+        "F Zorzato",
+        "MN Hall",
+        "MA Ruegg",
+        "D Cloëtta",
+        "S Lin",
+        "JB Mascarenhas",
+        "F Oliveri",
+        "J Xia",
+        "E Casanova",
+        "CF Costa",
+        "M Brink"
+      ]
+    },
+    {
+      "title": "Muscle inactivation of mTOR causes metabolic and dystrophin defects leading to severe myopathy",
+      "authors": [
+        "V Risson",
+        "L Mazelin",
+        "D Freyssenet",
+        "JF Tanti",
+        "Y Le-Marchand-Brustel",
+        "B Ferrier",
+        "K Conjard-Duplany Romanino",
+        "S Bauche",
+        "D Hantai",
+        "M Mueller",
+        "SC Kozma",
+        "G Thomas",
+        "M Roceri",
+        "MA Ruegg",
+        "A Ferry",
+        "M Pende",
+        "X Bigard",
+        "N Koulmann",
+        "L Schaeffer",
+        "YG Gangloff",
+        "H Sanchez",
+        "V Moncollin",
+        "C Corneloup",
+        "H Richard-Bulteau",
+        "A Vignaud",
+        "D Baas",
+        "A Defour"
+      ]
+    },
+    {
+      "title": "Activation of AKT signaling promotes cell growth and survival in α7β1 integrin-mediated alleviation of muscular dystrophy",
+      "authors": [
+        "MD Boppart",
+        "DJ Burkin",
+        "SJ Kaufman"
+      ]
+    },
+    {
+      "title": "Effect of rapamycin on immunity induced by vector-mediated dystrophin expression in mdx skeletal muscle",
+      "authors": [
+        "S Eghtesad",
+        "S Jhunjhunwala",
+        "SR Little",
+        "PR Clemens"
+      ]
+    },
+    {
+      "title": "Glucocorticoids abate p70S6k and eIF4E function in L6 skeletal myoblasts",
+      "authors": [
+        "OJ Shah",
+        "SR Kimball",
+        "LS Jefferson"
+      ]
+    }
+  ],
+  "original_title": "Absence of gamma-sarcoglycan alters the response of p70S6 kinase to mechanical perturbation in murine skeletal muscle",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/57bf/4095884/d2df6a1e9db4/2044-5040-4-13-1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/57bf/4095884/05bc853f0060/2044-5040-4-13-2.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/57bf/4095884/70414f6f1def/2044-5040-4-13-3.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/57bf/4095884/c22d33e9fbac/2044-5040-4-13-4.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/57bf/4095884/0861f0549616/2044-5040-4-13-5.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/57bf/4095884/e925a8e8d7e4/2044-5040-4-13-6.jpg"
+  ]
+}

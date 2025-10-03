@@ -1,0 +1,171 @@
+{
+  "pmcid": "PMC7484075",
+  "title": "Draft Genome Sequences of Enterobacteriales Strains Isolated from the International Space Station",
+  "abstract": "The whole-genome sequences of 26 strains isolated from the International Space Station were generated, and the strains were identified as being members of the order Enterobacteriales. Characterization of these whole-genome sequences might enable the identification of potential pathogenic bacteria that have been adapting to the space environment.\n\nABSTRACT\n\nThe whole-genome sequences of 26 strains isolated from the International Space Station were generated, and the strains were identified as being members of the order Enterobacteriales. Characterization of these whole-genome sequences might enable the identification of potential pathogenic bacteria that have been adapting to the space environment.",
+  "introduction": "ANNOUNCEMENT\n\nMembers of the order Enterobacteriales have been found to exhibit human pathogenicity and therefore pose a health risk for people on Earth and for astronauts aboard the International Space Station (ISS). The latter is of concern for long-duration missions, as astronauts have been shown to be immunocompromised. Importantly, these bacteria are able to adapt to extreme conditions such as microgravity and radiation and thus persist, necessitating the development of appropriate countermeasures to control them. Members of the order Enterobacteriales that were found on ISS surfaces were Pantoea brenneri, Pantoea agglomerans, Kalamiella piersonii, and Enterobacter bugandensis. On Earth, P. agglomerans and P. brenneri were reported to have been isolated from human infections. K. piersonii is a member of a novel genus in the family Erwiniaceae that has exhibited resistance to multiple clinical drugs, such as penicillin and vancomycin, allowing it to be an emerging pathogen. E. bugandensis was documented from blood as a causative agent of septicemia in various geological locations. Analyses of draft genome assemblies for these species might pave the way to identify the genetic processes responsible for potential pathogenicity, as previously reported for some of these strains.\n\nThe strains used for whole-genome sequencing (WGS) were isolated from four different locations in the ISS across three flights and are detailed in Table 1. The ISS surface samples collected and brought back to Earth were aseptically handled, suitable aliquots of the sample concentrate (100 μl) were plated onto Reasoner’s 2A (R2A) medium and incubated at 25°C for 7 days, and a single well-isolated colony was archived at −80°C until DNA extraction. DNA was extracted from cultures grown in R2A medium using the ZymoBIOMICS DNA MagBead kit according to the manufacturer’s instructions.\n\nWGS of 26 bacterial isolates from the ISS was performed using the Illumina Nextera Flex protocol for library preparation, as used in similar studies. The NovaSeq 6000 system with an S4 flow cell (paired-end 2 × 150-bp reads) was used to execute paired-end sequencing. FastQC (v0.11.7) was used to validate the quality of the raw sequencing data. Adapter trimming and quality filtering were carried out using the software fastp (v0.20.0) to perform quality control. The cleaned sequences were assembled using SPAdes (v3.11.1). The N50 values, numbers of contigs, and total genome lengths were generated using QUAST (v5.0.2) and used to assess the quality of the final assembly. The average nucleotide identity (ANI) values were calculated by comparing all strains to their respective type strains, and their taxonomic affiliations and genome statistics are given in Table 1. The NCBI Prokaryotic Genome Annotation Pipeline (PGAP) (v.4.11 and v.4.12) was used for genome annotation. Default parameters were used for all software.\n\nData availability.\n\nThis WGS project was deposited in DDBJ/ENA/GenBank (accession numbers are given in Table 1 [BioProject accession no. PRJNA635942]) and also deposited in the NASA GeneLab database (accession no. GLDS-302 and GLDS-311). The versions described in this paper are the first versions.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "Genome Sequences"
+  ],
+  "citations": [
+    {
+      "title": "One year cross-sectional study in adult and neonatal intensive care units reveals the bacterial and antimicrobial resistance genes profiles in patients and hospital surfaces",
+      "authors": [
+        "AP Christoff",
+        "AFR Sereia",
+        "BS Braga",
+        "TPL Raduan",
+        "MDV Martino",
+        "FG Menezes",
+        "LFV Oliveira",
+        "GNF Cruz",
+        "DC Bastiani",
+        "VL Silva",
+        "C Hernandes",
+        "APM Nascente",
+        "AA Reis",
+        "RG Viessi",
+        "ASP Marques"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "WC Wong",
+        "C Oubre",
+        "SK Mehta",
+        "CM Ott",
+        "DL Pierson",
+        "CJ Hurst"
+      ]
+    },
+    {
+      "title": "Impact of space flight on bacterial virulence and antibiotic susceptibility",
+      "authors": [
+        "PW Taylor"
+      ]
+    },
+    {
+      "title": "Pantoea agglomerans, a plant pathogen causing human disease",
+      "authors": [
+        "AT Cruz",
+        "AC Cazacu",
+        "CH Allen"
+      ]
+    },
+    {
+      "title": "Metagenome to phenome approach enables isolation and genomics characterization of Kalamiella piersonii gen. nov., sp. nov. from the International Space Station",
+      "authors": [
+        "NK Singh",
+        "JM Wood",
+        "SS Mhatre",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains",
+      "authors": [
+        "NK Singh",
+        "D Bezdan",
+        "A Checinska Sielaff",
+        "K Wheeler",
+        "CE Mason",
+        "K Venkateswaran"
+      ]
+    },
+    {
+      "title": "Enterobacter bugandensis sp. nov., isolated from neonatal blood",
+      "authors": [
+        "S Doijad",
+        "C Imirzalioglu",
+        "SE Mshana",
+        "T Chakraborty",
+        "Y Yao",
+        "NB Pati",
+        "L Falgenhauer",
+        "T Hain",
+        "BU Foesel",
+        "B Abt",
+        "J Overmann",
+        "MM Mirambo"
+      ]
+    },
+    {
+      "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+      "authors": [
+        "A Checinska Sielaff",
+        "C Urbaniak",
+        "F Karouia",
+        "GE Fox",
+        "K Venkateswaran",
+        "GBM Mohan",
+        "VG Stepanov",
+        "Q Tran",
+        "JM Wood",
+        "J Minich",
+        "D McDonald",
+        "T Mayer",
+        "R Knight"
+      ]
+    },
+    {
+      "title": "FastQC: a quality control tool for high throughput sequence data",
+      "authors": [
+        "S Andrews"
+      ]
+    },
+    {
+      "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+      "authors": [
+        "S Chen",
+        "Y Zhou",
+        "Y Chen",
+        "J Gu"
+      ]
+    },
+    {
+      "title": "SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing",
+      "authors": [
+        "A Bankevich",
+        "S Nurk",
+        "AV Pyshkin",
+        "AV Sirotkin",
+        "N Vyahhi",
+        "G Tesler",
+        "MA Alekseyev",
+        "PA Pevzner",
+        "D Antipov",
+        "AA Gurevich",
+        "M Dvorkin",
+        "AS Kulikov",
+        "VM Lesin",
+        "SI Nikolenko",
+        "S Pham",
+        "AD Prjibelski"
+      ]
+    },
+    {
+      "title": "QUAST: quality assessment tool for genome assemblies",
+      "authors": [
+        "A Gurevich",
+        "V Saveliev",
+        "N Vyahhi",
+        "G Tesler"
+      ]
+    },
+    {
+      "title": "A large-scale evaluation of algorithms to calculate average nucleotide identity",
+      "authors": [
+        "S-H Yoon",
+        "S Ha",
+        "J Lim",
+        "S Kwon",
+        "J Chun"
+      ]
+    }
+  ],
+  "original_title": "Draft Genome Sequences of Enterobacteriales Strains Isolated from the International Space Station"
+}

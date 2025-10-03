@@ -1,0 +1,381 @@
+{
+  "pmcid": "PMC7828077",
+  "title": "Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases",
+  "abstract": "There has long been an interest in understanding how the hazards from spaceflight may trigger or exacerbate human diseases. With the goal of advancing our knowledge on physiological changes during space travel, NASA GeneLab provides an open-source repository of multi-omics data from real and simulated spaceflight studies. Alone, this data enables identification of biological changes during spaceflight, but cannot infer how that may impact an astronaut at the phenotypic level. To bridge this gap, Scalable Precision Medicine Oriented Knowledge Engine (SPOKE), a heterogeneous knowledge graph connecting biological and clinical data from over 30 databases, was used in combination with GeneLab transcriptomic data from six studies. This integration identified critical symptoms and physiological changes incurred during spaceflight.",
+  "introduction": "1. Introduction\n\nNASA recognizes five main hazards of spaceflight to human health, including altered gravity (microgravity and hypergravity), ionizing radiation, isolation/confinement, hostile/closed environment, and distance from Earth. These health risks caused by the space environment resemble multiple disorders found on Earth, including muscle atrophy and bone loss, cardiovascular deconditioning, immune dysfunction, and central nervous system deficits. Therefore, repurposing current FDA-approved treatments for issues that arise during spaceflight could significantly reduce the time needed to develop new therapeutics and limit their side effects.\n\nSince its establishment in 2015, NASA GeneLab has become a prominent open-source repository of data from real and simulated spaceflight studies. This platform has enabled computational analysis of multi-omics data, visualization of results, and integration with descriptive metadata, such as environmental data (e.g., space radiation dosimetry). GeneLab has already supported dozens of published studies, created a global collaboration to develop uniform standards for spaceflight-omics, and resulted in new space biology discoveries. However, it has not yet been possible to use NASA GeneLab to combine and compare space and terrestrial data. Such capability would be a major advancement in fundamental spaceflight biology and its applications, including identifying new targets or repurposing terrestrial therapeutics for spaceflight countermeasures.\n\nNASA GeneLab is planning to set up a portal dedicated to computational modeling that enables comparisons between datasets in addition to already existing data input, query, analysis, and visualization capabilities. Knowledge graphs (KGs) would be a suitable approach to facilitate this goal by unifying disparate datasets into a human queryable framework. KGs have already been widely adopted in biomedical research to unravel the complex relationship between biological changes and disease phenotypes.\n\nSpecifically, a new massive UCSF-based KG database, the Scalable Precision Medicine Oriented Knowledge Engine (SPOKE) has transformed structured data from over 30 human biomedical databases (-omics, chemical structures, molecular and cellular responses, physiological data including e.g., patient symptoms and drug side effects, etc.) into a KG with almost 400,000 nodes of 12 types and over 10 million edges of 32 types. Therefore, SPOKE has the potential to be combined with the NASA GeneLab modeling portal, expanding it to link terrestrial biomedical sciences to space biosciences research and space medicine.\n\nIn this study, we integrated data from six different NASA GeneLab datasets in SPOKE to enable normalization that highlighted new nodes defining systems and effects that are known to be relevant for space travel but would have been impossible to uncover without using SPOKE (workflow Figure 1a). These results suggest that SPOKE can be utilized to gain a deeper biological understanding of the health hazards associated with spaceflight and provide the proof of concept for its broader utilization to integrate space and terrestrial biological data.",
+  "methods": "2. Materials and Methods\n\n2.1. GeneLab Data Processing and Analysis\n\nGene expression data were downloaded from the NASA GeneLab repository (), datasets GLDS-4, GLDS-244, GLDS-245, GLDS-246, GLDS-288, and GLDS-289. All data had been processed and analyzed using standard NASA GeneLab techniques detailed below. Matched flight/live animal return versus ground control data was used for analysis.\n\nPreviously, raw data were processed separately for each dataset by the NASA GeneLab data processing team. For datasets containing RNA Sequencing (RNA-Seq) assays (GLDS-244, GLDS-245, GLDS-246, GLDS-288, GLDS-289), raw FASTQ files were assessed for the percentage of rRNA using HTStream SeqScreener (version 1.1.0 for GLDS-244, GLDS-245, GLDS-246 and version 1.3.1 for GLDS-288, GLDS-289; ) and filtered using Trim Galore! (version 0.6.4; ). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.11.9). MultiQC (version 1.8 for GLDS-244, GLDS-245, GLDS-246 and version 1.9 for GLDS-288, GLDS-289) was used to generate MultiQC reports. Mus musculus STAR and RSEM references were built using STAR (version 2.7.1a for GLDS-244, GLDS-245, GLDS-246 and version 2.7.4a for GLDS-288, GLDS-289) and RSEM (version 1.3.1), respectively, genome version mm10-GRCm38 (Mus_musculus.GRCm38.dna.toplevel.fa), and the following gtf annotation file: Mus_musculus.GRCm38.96.gtf. Trimmed reads were aligned to the Mus musculus STAR reference with STAR (version 2.7.3a for GLDS-244, GLDS-245, GLDS-246 and version 2.7.4a for GLDS-288, GLDS-289) and aligned reads were quantified using RSEM (version 1.3.1 from the NASA GeneLab repository).\n\nData representing the quantitative analysis of gene expression for each dataset was downloaded from the NASA GeneLab repository, where it had been previously analyzed and imported into R (version 3.6.3). It was then combined to create a gene counts table containing the data for all samples of every dataset. For GLDS-244, GLDS-245, and GLDS-246, only non-ERCC (External RNA Controls Consortium, i.e., a spike-in mixture used for normalization) genes were used. Data was normalized with DESeq2 (version 1.26.0). A principal component analysis was performed using prcomp (stats version 3.6.3) and plotted using plotly (version 4.9.2.1). For datasets containing DNA microarray assays (GLDS-4) raw CEL files were read in and normalized using an in-house R script as described.\n\nTo quantify overlapping pathways between GLDS-244, -245, and -246, Entrez Gene IDs of genes that showed a significant difference (p < 0.05) between 29-day flight/live animal return and ground controls were used as the input to Molecular Signatures Database v7.2, GeneOntology (GO) gene sets. (GO biological process, GO cellular component, GO molecular function). The top 50 statistically significant gene sets were compared to identify overlaps. The same approach was applied to quantify the overlapping gene sets between GLDS-288 and -289.\n\n2.2. Scalable Precision Medicine Oriented Knowledge Engine\n\nScalable Precision Medicine Oriented Knowledge Engine (SPOKE) is a population level heterogeneous knowledge graph. SPOKE was generated by unifying over 30 publicly available databases. Currently, SPOKE contains almost 400,000 nodes of 12 types (Anatomy, BiologicalProcess, CellularComponent, Compound, Disease, Gene, MolecularFunction, Pathway, PharmacologicalClass, Protein, SideEffect, and Symptom). These nodes are connected by 32 types of biologically meaningful edges (n > 10 million).\n\n2.3. Gene-Specific Propagated SPOKE Entry Vectors\n\nPropagated SPOKE Entry Vectors (PSEVs) are generated using a modified version of topic-specific page rank to learn and embed the importance of each node in SPOKE for a given restart node or set of nodes. These restart nodes, called SPOKE Entry Points (SEPs), are any concept in the input data that overlaps with a node(s) in SPOKE. In this analysis, the SEPs were the mouse genes that have homologs to the human Gene nodes in SPOKE. A Gene PSEV was produced by allowing a random walker to traverse the edges in SPOKE and then forcing them to restart at a specific Gene SEP. The forced restart ensures that the walker will spend the majority of time on nodes that are important for that Gene. The significance of each node is then stored in an element of the PSEV such that the length of the PSEV is equal to the number of nodes in SPOKE (n = 389,297). Code used to generate the data in this manuscript is available at ().\n\n2.4. Integrating Gene Expression Data and PSEVs\n\nFor each study, the −log2 fold-change (FC) mouse gene expression data was mapped to the human gene nodes in SPOKE. The homologous mapping between species was achieved using HomoloGene IDs. If multiple mouse genes mapped to a single human gene, then the average FC was used. Additionally, some studies contained multiple comparisons between space and ground or baseline control mice. An example of this is the study GLDS-244 that compared mice at two space-time points (day-29 and days 53–56). In these instances, genes were removed if the FC comparisons were not in the same direction (i.e., if space versus ground day-29 had a positive FC and days-53–56 had a negative FC). This filter focuses on the data set of genes that remain consistent during space travel.\n\nAfter genes were mapped and filtered for a given study, the pre-computed PSEVs for the remaining genes were extracted. This PSEV matrix was z-score normalized and then ranked such that the most important node in a given PSEV was equal to the number of nodes in SPOKE (n = 389,297) and the least important was ranked one. Then for each comparison, the filtered PSEV matrix was adjusted using the FCs. This was accomplished by taking the product of a single column in the FC matrix and the filtered normalized PSEV matrix. It is necessary for the rows (genes) of the filtered normalized PSEV matrix to be in the same order as the rows in the FC matrix. Next, each column (node) in the adjusted PSEV-matrix was summed resulting in a vector in which each element or position corresponded to a node in SPOKE (length = 389,297). Each node was then ranked as before (with the highest value in the vector ranked 389,297). In practice, this was achieved by taking the dot product of the filtered FC matrix (transposed) and the filtered normalized PSEV matrix and then ranking the resulting matrix.\n\n2.5. Finding Significant Spoke Nodes\n\nThe PSEV comparisons from the six studies were pooled together and separated into three groups (Ground vs. Baseline, Space vs. Baseline, and Space vs. Ground). Welch’s t-test was used to evaluate whether the distribution of ranks of a given node in the Ground vs. Baseline group was significantly different from that in either Space vs. Baseline or Space vs. Ground (Table S1, in the Supplementary Materials). Top nodes, those that were ranked significantly different in either space travel comparisons (Space vs. Baseline and Space vs. Ground) than in Ground vs. Baseline, were identified using the p-values from the Welch’s t-test. Since 159,374 nodes had a p-value < 0.025 in either or both space travel comparisons, top nodes were further filtered by selecting the most significant 2.5% of each node type for Space vs. Ground and/or Space vs. Baseline (n = 15,801; 4.1%).\n\n2.6. Retracing Paths from Input Gene to SPOKE Node\n\nA high correlation between a gene’s FC and the rank of a specific node suggests that the gene FC is at least partially responsible for the prioritization of the node within a PSEVs. The correlation was calculated between genes (present in >20% of FC comparisons; n = 7567) and a set of top Anatomy, BiologicalProcess, CellularComponent, MolecularFunction, Pathway, and Symptom nodes (n = 22). Next, paths were found between genes that had a high correlation (correlation > 0.6) and the set of top nodes. Gene-node pairs were then filtered to only include pairs that had the same sign (positive gene expression and positive Welch t-statistic). Then, in order to visualize paths between gene-node pairs, paths were filtered to have a maximum of three edges and less than 100 possible combinations of nodes within the path. This left over 17,000 gene-node pairs and 234,000 possible paths.\n\nThe paths shown were selected based on their simplicity and the FC of the original genes (Figure S1, in the Supplementary Materials). The p-values, derived when calculating the FCs used as input for PSEV creation, were combined for Ground vs. Baseline and the space travel groups (Space vs. Baseline and Space vs. Ground together) using Stouffer’s method. Each gene FC was judged on whether the average space travel group had a combined p-value that was more significant than Ground v Baseline (Figure S1, y-axis). Then the Welch’s t-test was used to determine whether the FC distributions were significantly different between groups. Space vs. Baseline and Space vs. Ground distributions were compared to the Ground vs. Baseline separately and then averaged (Figure S1, x-axis).",
+  "results": "3. Results\n\n3.1. Transcriptional Profiling of Mice after Space Flight\n\nHere we conducted a meta-analysis of six independent transcriptomic datasets (GLDS-4, -244, -245, -246, -288, and -289) from experimental mice obtained during four different spaceflight missions (STS-118, TCU (SpaceX-9), MHU-2 (Space X-12), and RR-6 (SpaceX-13)), at five time- points of collection (13-, 29-, 30-, and 35-days live animal return (LAR); and 53–56 days (ISS terminal)), on the International Space Station (ISS) (Figure 1b and Table 1). While experiments varied in their design (i.e., duration of flight, age at launch, the genotype of mice, transcriptomic platform, time of collection), the objective of these experiments was to identify changes in gene expression induced by spaceflight in three different immune-related organs—thymus (primary lymphoid organ), spleen (secondary lymphoid organ), and liver (immune-associated/digestive organ, with lymphatic cells playing a role in its responses to injury).\n\nThese sample sets were selected to include multiple immune-associated organs (thymus, spleen, liver) collected from the same space-flown mice as well as between mice flown on different missions to increase sample diversity and to include RNA sequencing and microarray as two different sequencing methods to show that both can be used as inputs to SPOKE.\n\nAfter data normalization, the principal component analysis revealed a strong separation of samples by mission and tissues (Figure 2a). These findings are unsurprising, given that these variables are confounding factors of different missions/collections. However, we also observed that samples from the same time point of mission/collection from two different experiments clustered together, suggesting that some biological effects were captured. When PCA was used to plot samples from similar experimental conditions (space-flown, ground, and baseline from the same RR-6 mission), no obvious separation between samples obtained during flight, baseline, and the ground was observed (Figure 2b).\n\nDifferentially expressed genes were identified in the thymus, liver, and spleen in space-flown mice vs. ground controls after live animal return from the RR-6 (SpaceX-13) mission. Furthermore, using the differentially expressed genes as an input to pathway analysis (by a hypergeometric test) showed a number of statistically significant biological functions dysregulated by space flight in the thymus, liver, and spleen, including some that overlapped between the tissues (Figure 2c). While some gene sets were tissue-specific, nine of them were shared among the three tissues, including apoptosis, cell metabolic process, and cell membrane integrity (Figure 2d).\n\n3.2. Fold-Change Enhanced Propagated SPOKE Entry Vectors\n\nWhile established methods of transcriptional profiling can inform about dysregulated molecular pathways, they provide little insight into higher-order phenotypes, such as associated signs and symptoms of disease. Using SPOKE, a KG that integrates information of both biological and clinical databases, it is possible to score every node of the graph as a function of the “information flow” elicited by a defined set of quantitative inputs. SPOKE leverages the complexity of the hierarchical organization of complex organisms to identify nodes with shared information flow (regardless of whether the input itself was significant or not).\n\nGene-specific Propagated SPOKE Entry Vectors (PSEVs) were generated from the selected GeneLab studies prior to integrating gene expression results with SPOKE. Each gene-specific PSEV was created using a modified version of topic-specific page rank in which the random walker was forced to restart at the corresponding Gene node in SPOKE (See Methods, Figure 3a). This focused the random walker on nodes that were the most important for a given node (in this case, Gene node since the input is gene expression). The amount of time a random walker spent on a node was then stored in a defined element (position within) of the PSEV vector. All PSEVs were then stored in the pre-computed PSEV matrix. For each gene expression study, the pre-computed PSEV matrix was filtered and normalized to match the genes within the study (Figure 3b; Methods). The dot product was then used with the normalized PSEV matrix and the −log2 fold-change (FC) to produce the PSEVs for that study. After PSEVs were computed for each study, they were pooled and separated into specific experimental groups to enable meaningful comparisons to test the hypothesis that spaceflight alters gene expression (Ground vs. Baseline, Space vs. Baseline, and Space vs. Ground) (Figure 3c).\n\nEach element in a PSEV corresponds to a single node in SPOKE. Therefore, it is possible to determine the overall significance of a node for spaceflight by evaluating the differential distribution of node ranks in the PSEV. Welch’s t-test was utilized to compare a node’s rank distribution in the Ground vs. Baseline to that in either Space vs. Baseline or Space vs. Ground (Supplementary Table S1).\n\nStrikingly, nodes that are known to be relevant for space travel such as space motion sickness (Symptom), regulation of blood vessel diameter (BiologicalProcess), taste receptor complex (CellularComponent), Vitamin D (calciferol) metabolism (Pathway), and sympathetic nervous system (Anatomy) scored among the top 5% of nodes (top 2.5% per type for Space vs. Baseline and/or Space vs. Ground). Figure 4 shows violin plots from a select set of nodes (n = 22) in SPOKE that had significantly different ranks in spaceflight (Space vs. Baseline and/or Space vs. Ground) compared to Ground vs. Baseline. From these, 11 correspond to symptoms (pink boxed violin charts, Figure 4a), five to gene ontology/pathway concepts (teal boxed violin charts, Figure 4b–d), and six to anatomical regions (green boxed violin charts, Figure 4e). Violin plots for each category, sub-networks demonstrate how the gene expression results drive information from these 22 nodes. Among the other biological top nodes were nodes that reflected the results of the original studies such as those related to t-cell activity, regulation of stress, and TGFβ1.\n\nTaken together, these results show that potential human physiological changes during spaceflight can be inferred by embedding mouse gene expression data with a KG that integrates observed concepts (i.e., genes) with unobserved, higher-order phenotypes associated with each other in a biologically meaningful manner.",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "spaceflight",
+    "knowledge graph",
+    "transcriptomics",
+    "Article"
+  ],
+  "citations": [
+    {
+      "title": "Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration",
+      "authors": [
+        "E. Afshinnekoo",
+        "R.T. Scott",
+        "M.J. MacKay",
+        "E. Pariset",
+        "E. Cekanaviciute",
+        "R. Barker",
+        "S. Gilroy",
+        "D. Hassane",
+        "S.M. Smith",
+        "S.R. Zwart"
+      ]
+    },
+    {
+      "title": "NASA GeneLab: Interfaces for the exploration of space omics data",
+      "authors": [
+        "D.C. Berrios",
+        "J. Galazka",
+        "K. Grigorev",
+        "S. Gebre",
+        "S.V. Costes"
+      ]
+    },
+    {
+      "title": "A New Era for Space Life Science: International Standards for Space Omics Processing",
+      "authors": [
+        "L. Rutter",
+        "R. Barker",
+        "D. Bezdan",
+        "H. Cope",
+        "S.V. Costes",
+        "L. Degoricija",
+        "K.M. Fisch",
+        "M.I. Gabitto",
+        "S. Gebre",
+        "S. Giacomello"
+      ]
+    },
+    {
+      "title": "Multi-Omics Analysis Reveals Mitochondrial Stress as a Central Hub for Spaceflight Biological Impact",
+      "authors": [
+        "W. da Silveira",
+        "H. Fazelinia",
+        "S.B. Rosenthal",
+        "E. Laiakis",
+        "C. Meydan",
+        "Y. Kidane",
+        "S.M. Smith",
+        "K.S. Rathi",
+        "J. Foox",
+        "S. Zanello"
+      ]
+    },
+    {
+      "title": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development",
+      "authors": [
+        "S. Malkani",
+        "C.R. Chin",
+        "E. Cekanaviciute",
+        "M. Mortreux",
+        "H. Okinula",
+        "M. Tarbier",
+        "A.S. Schreurs",
+        "Y. Shirazi-Fard",
+        "C.G.T. Tahimic",
+        "D.N. Rodriguez"
+      ]
+    },
+    {
+      "title": "Network medicine: A network-based approach to human disease",
+      "authors": [
+        "A.L. Barabasi",
+        "N. Gulbahce",
+        "J. Loscalzo"
+      ]
+    },
+    {
+      "title": "The human disease network",
+      "authors": [
+        "K.I. Goh",
+        "M.E. Cusick",
+        "D. Valle",
+        "B. Childs",
+        "M. Vidal",
+        "A.L. Barabasi"
+      ]
+    },
+    {
+      "title": "Constructing knowledge graphs and their biomedical applications",
+      "authors": [
+        "D.N. Nicholson",
+        "C.S. Greene"
+      ]
+    },
+    {
+      "title": "PINBPA: Cytoscape app for network analysis of GWAS data",
+      "authors": [
+        "L. Wang",
+        "T. Matsushita",
+        "L. Madireddy",
+        "P. Mousavi",
+        "S.E. Baranzini"
+      ]
+    },
+    {
+      "title": "Human symptoms-disease network",
+      "authors": [
+        "X. Zhou",
+        "J. Menche",
+        "A.L. Barabasi",
+        "A. Sharma"
+      ]
+    },
+    {
+      "title": "Heterogeneous Network Edge Prediction: A Data Integration Approach to Prioritize Disease-Associated Genes",
+      "authors": [
+        "D.S. Himmelstein",
+        "S.E. Baranzini"
+      ]
+    },
+    {
+      "title": "Systematic integration of biomedical knowledge prioritizes drugs for repurposing",
+      "authors": [
+        "D.S. Himmelstein",
+        "A. Lizee",
+        "C. Hessler",
+        "L. Brueggeman",
+        "S.L. Chen",
+        "D. Hadley",
+        "A. Green",
+        "P. Khankhanian",
+        "S.E. Baranzini"
+      ]
+    },
+    {
+      "title": "Trim galore",
+      "authors": [
+        "F. Krueger"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S. Andrews"
+      ]
+    },
+    {
+      "title": "MultiQC: Summarize analysis results for multiple tools and samples in a single report",
+      "authors": [
+        "P. Ewels",
+        "M. Magnusson",
+        "S. Lundin",
+        "M. Käller"
+      ]
+    },
+    {
+      "title": "STAR: Ultrafast universal RNA-seq aligner",
+      "authors": [
+        "A. Dobin",
+        "C.A. Davis",
+        "F. Schlesinger",
+        "J. Drenkow",
+        "C. Zaleski",
+        "S. Jha",
+        "P. Batut",
+        "M. Chaisson",
+        "T.R. Gingeras"
+      ]
+    },
+    {
+      "title": "RSEM: Accurate transcript quantification from RNA-Seq data with or without a reference genome",
+      "authors": [
+        "B. Li",
+        "C.N. Dewey"
+      ]
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Assessing technical performance in differential gene expression experiments with external spike-in RNA control ratio mixtures",
+      "authors": [
+        "S.A. Munro",
+        "S.P. Lund",
+        "P.S. Pine",
+        "H. Binder",
+        "D.A. Clevert",
+        "A. Conesa",
+        "J. Dopazo",
+        "M. Fasold",
+        "S. Hochreiter",
+        "H. Hong"
+      ]
+    },
+    {
+      "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "authors": [
+        "M.I. Love",
+        "W. Huber",
+        "S. Anders"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "C. Sievert"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "T. Lebsack",
+        "NASA GeneLab"
+      ]
+    },
+    {
+      "title": "Gene ontology: Tool for the unification of biology. The Gene Ontology Consortium",
+      "authors": [
+        "M. Ashburner",
+        "C.A. Ball",
+        "J.A. Blake",
+        "D. Botstein",
+        "H. Butler",
+        "J.M. Cherry",
+        "A.P. Davis",
+        "K. Dolinski",
+        "S.S. Dwight",
+        "J.T. Eppig"
+      ]
+    },
+    {
+      "title": "PANTHER version 14: More genomes, a new PANTHER GO-slim and improvements in enrichment analysis tools",
+      "authors": [
+        "H. Mi",
+        "A. Muruganujan",
+        "D. Ebert",
+        "X. Huang",
+        "P.D. Thomas"
+      ]
+    },
+    {
+      "title": "The Gene Ontology Resource: 20 years and still GOing strong",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": [
+        "L. Page",
+        "S. Brin",
+        "R. Motwani",
+        "T. Winograd"
+      ]
+    },
+    {
+      "title": "Topic-sensitive pagerank",
+      "authors": [
+        "T.H. Haveliwala"
+      ]
+    },
+    {
+      "title": "Integrating biomedical research and electronic health records to create knowledge-based biologically meaningful machine-readable embeddings",
+      "authors": [
+        "C.A. Nelson",
+        "A.J. Butte",
+        "S.E. Baranzini"
+      ]
+    },
+    {
+      "title": "Database resources of the National Center for Biotechnology Information",
+      "authors": [
+        "E.W. Sayers",
+        "R. Agarwala",
+        "E.E. Bolton",
+        "J.R. Brister",
+        "K. Canese",
+        "K. Clark",
+        "R. Connor",
+        "N. Fiorini",
+        "K. Funk",
+        "T. Hefferon"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "S.A. Stouffer",
+        "E.A. Suchman",
+        "L.C. DeVinney",
+        "S.A. Star",
+        "R.M. Williams"
+      ]
+    },
+    {
+      "title": "The Role of Lymphatic Endothelial Cells in Liver Injury and Tumor Development",
+      "authors": [
+        "V. Lukacs-Kornek"
+      ]
+    },
+    {
+      "title": "On a test of whether one of two random variables is stochastically larger than the other",
+      "authors": [
+        "H.B. Mann",
+        "D.R. Whitney"
+      ]
+    },
+    {
+      "title": "Microarray analysis of spaceflown murine thymus tissue reveals changes in gene expression regulating stress and glucocorticoid receptors",
+      "authors": [
+        "T.W. Lebsack",
+        "V. Fa",
+        "C.C. Woods",
+        "R. Gruener",
+        "A.M. Manziello",
+        "M.J. Pecaut",
+        "D.S. Gridley",
+        "L.S. Stodieck",
+        "V.L. Ferguson",
+        "D. Deluca"
+      ]
+    },
+    {
+      "title": "Advancing the Integration of Biosciences Data Sharing to Further Enable Space Exploration",
+      "authors": [
+        "R.T. Scott",
+        "K. Grigorev",
+        "G. Mackintosh",
+        "S.G. Gebre",
+        "C.E. Mason",
+        "M.E. Del Alto",
+        "S.V. Costes"
+      ]
+    },
+    {
+      "title": "Introductory Chapter: Research Methods for the Next 60 Years of Space Exploration",
+      "authors": [
+        "R.J. Reynolds",
+        "M. Shelhamer"
+      ]
+    },
+    {
+      "title": "Policy Considerations for Precision Medicine in Human Spaceflight",
+      "authors": [
+        "E.L. Antonsen",
+        "R.D. Reed"
+      ]
+    },
+    {
+      "title": "",
+      "authors": [
+        "E. Antonsen",
+        "R. Reynolds"
+      ]
+    }
+  ],
+  "original_title": "Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e859/7828077/03f058e15f74/life-11-00042-g001.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e859/7828077/6711bd48c96e/life-11-00042-g002.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e859/7828077/e26999f04e3a/life-11-00042-g003.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e859/7828077/846ea57fa1ef/life-11-00042-g004.jpg"
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "pmcid": "PMC10848226",
+  "title": "Biocontrol in built environments to reduce pathogen exposure and infection risk",
+  "abstract": "Abstract\n\nThe microbiome of the built environment comprises bacterial, archaeal, fungal, and viral communities associated with human-made structures. Even though most of these microbes are benign, antibiotic-resistant pathogens can colonize and emerge indoors, creating infection risk through surface transmission or inhalation. Several studies have catalogued the microbial composition and ecology in different built environment types. These have informed in vitro studies that seek to replicate the physicochemical features that promote pathogenic survival and transmission, ultimately facilitating the development and validation of intervention techniques used to reduce pathogen accumulation. Such interventions include using Bacillus-based cleaning products on surfaces or integrating bacilli into printable materials. Though this work is in its infancy, early research suggests the potential to use microbial biocontrol to reduce hospital- and home-acquired multidrug-resistant infections. Although these techniques hold promise, there is an urgent need to better understand the microbial ecology of built environments and to determine how these biocontrol solutions alter species interactions. This review covers our current understanding of microbial ecology of the built environment and proposes strategies to translate that knowledge into effective biocontrol of antibiotic-resistant pathogens.",
+  "introduction": "Introduction\n\nCleaning and disinfection practices in homes and hospitals to combat bacteria, fungi, and viruses have a long history. Ancient civilizations used various disinfection methods to remove “pestilence,” from the rudimentary practices of boiling and sunlight exposure to the use of natural substances like vinegar and sulphur. However, it was not until the 19th century that the age of modern infection control began to take shape with targeted cleaning practices. For example, Ignaz Semmelweis introduced hand disinfection in hospitals, and Florence Nightingale introduced best practices to decrease infection rates and improve patient healing. In the following decades, the use of carbolic acid by Joseph Lister for surgical instrument sterilization, in conjunction with other antiseptic methods, further enhanced pathogen control in clinical settings. By the early-to-mid 20th century, the discovery of antibiotics and the development of chemical disinfectants, such as phenol and bleach, provided a newfound defence against infectious agents. Though antibiotics have been highly successful and saved many lives, the overuse of these drugs has led to the emergence of antibiotic-resistant bacteria, such as methicillin-resistant Staphylococcus aureus (MRSA) and vancomycin-resistant Enterococcus, making traditional antibiotics less effective. Additionally, pathogens are evolving resistance to biocidal compounds used in traditional cleaning solutions. However, chemical treatments such as phenol and bleach remain effective despite providing only temporary removal of pathogens on surfaces.\n\nTo reduce the risks associated with various disinfection cleaning agents, hospitals now more frequently use a variety of cleaning strategies for disinfection, including advanced technologies like exposure to ultraviolet (UV) light and hydrogen peroxide vapour. Despite these powerful treatments, outbreaks of Clostridioides difficile and other antimicrobial-resistant (AMR) organisms have continued to rise within healthcare settings, highlighting the enduring challenge of simultaneously disinfecting an area while avoiding selection for traits that increase pathogenic potential. Reducing the spread of AMR pathogens is a crucial priority for global human health. In 2019, 1.27 million deaths were directly caused by AMR pathogens globally, and they are projected to cause an additional 10 million deaths annually by 2050. We must therefore bolster our defences against persistent and emerging pathogens, safeguarding global health and well-being amidst the evolving landscape of microbial threats.\n\nThe inability of current hospital disinfection methods to fully combat these challenges emphasizes the crucial need for continuous research, development, and adaptation of infection control methods. Although traditional cleaning methods have helped to reduce the emergence and spread of antibiotic-resistant bacteria and viruses in the built environment, using microbes sourced from different environments to inhibit pathogen survival and transmission is an intriguing new tool that is posed to further improve the health of people indoors. Reintroducing specific microbes into buildings can potentially revolutionize how we prevent the emergence and persistence of unwanted microbes. However, deploying what could be called a microbial biocontrol product is hampered by a lack of basic understanding of the mechanisms of action for this ecological strategy to control disease. Despite this knowledge gap, cleaning products containing bacteria that demonstrate antimicrobial activity have been developed and are already publicly available for purchase. Bacillus spores are often used because many species are generally recognized as safe, nonpathogenic, produce a wide variety of antimicrobial compounds, and remain viable over long periods of time. Though it is unknown how effectively these spores germinate on dry, nutrient-depleted surfaces in built environments, it is important to determine why they are found to be associated with a reduction in the abundance of hospital-associated pathogens. It is unclear whether there is an actual competitive exclusion or inhibition effect or if the spores occupy niches on surfaces, thereby denying this space to pathogens. Alternatively, the spores may mask any detectable signal of the pathogens, as determined via DNA sequencing methods. If the latter is true, this could mean that the pathogens remain viable and can cause infection. Answering this open question and moving the field towards improved public health objectives will require using a diverse suite of experimental and analytical approaches, including techniques that have been so far underutilized in built environment research.\n\nIn the last decade, there have been critical innovations in the methods, study approaches, and experimental designs used to characterize diversity, survival, distribution, transmission, and health risk of microbes found in our buildings. A rapid explosion in observational studies over the last 15 years has provided a baseline analysis of the microbial diversity in built environments. High-throughput sequencing of bacterial 16S rRNA and fungal internal transcribed spacer (ITS) genes has demonstrated that microbes colonize and spread throughout buildings in predictable ways. In addition, shotgun metagenomic sequencing has been used to characterize the spread of AMR genes and to quantify the relative abundance of microbial taxa across surfaces and on the skin of indoor environment occupants. Also, quantitative polymerase chain reaction (qPCR) has been employed to determine the absolute abundance of specific AMR genes or species of interest in a diverse set of environments such as soil, water, air, faeces, and sediments. Further, targeted and untargeted metabolomics have been employed to characterize the distribution of chemicals around built spaces and infer the metabolic ecology of species interactions in experimental systems and real-world environments. These methods can be enhanced using specialized DNA extraction techniques and internal standards to compensate for the low biomass typically recovered in built environment samples.\n\nInvestigations in real-world built spaces have led to numerous new hypotheses regarding microbial survival and transmission, and the metabolic interactions that underpin these properties. Robustly testing these hypotheses has required innovations in experimental laboratory-based studies. Despite laboratories being built spaces themselves, recreating the inherent ecological dynamics that define the indoor microbiome has proven difficult and has required a reimagining of traditional microbiology techniques. Microbes in the built environment are generally assumed to be starving, dying, or dead. We are, therefore, attempting to study life on the edge of survival. Many microorganisms are unable to survive on surfaces, but some pathogens have demonstrated the ability to survive on surfaces common to the built environment. For example, MRSA shows robust viability on surfaces such as vinyl and plastic over days. Traditional microbiology cultivates microbes using media optimized over decades of experimentation to encourage their growth. Such conditions are unlikely to replicate microbial interactions in the built environment. So, it is necessary to use techniques that more closely reproduce the harsh conditions of most built environment surfaces to more accurately examine how microbes survive, grow, and interact in this environment.\n\nObservational studies and laboratory investigations inform intervention studies in ways that help determine the potential benefit of removing species of concern or introducing potentially beneficial microbes, both for the integrity of the building structure and the health of the occupants. Intervention studies have been performed in mock built environment microcosms, as well as in full-scale field trials, and are now elucidating the ecological dynamics of these environments. Unfortunately, due to the cost and added risk of conducting an intervention within buildings such as hospitals, only a few full-scale tests of these intervention techniques have been completed. This review will discuss recent advances in built environment microbiome research, with a focus on strategies related to the understanding and translation of biocontrol practices used to reduce antibiotic-resistant pathogens on surfaces in real-world clinical settings.\n\nTechniques for investigating the microbiome of the built environment\n\nObservational studies have investigated microbial dynamics in the built environment, detecting broad trends in the microbial composition and indoor ecological dynamics. For example, these studies describe how the diversity, composition, and functional potential of communities change over time and how occupants and building operations influence these interactions. Many built environments have been explored in this way, including workplaces, homes, and public transportation. Of critical importance to understanding the interaction between surface-associated microbial ecology and pathogenic activity, hospital environments have been well characterized, providing some of the most compelling results to justify further intervention studies. For example, one investigation demonstrated that surfaces in a newly built hospital were inoculated with microbes that closely resembled the outside environment. However, when that hospital became operational and therefore densely populated with patients and healthcare workers, the surface-associated microbiome began to resemble that of the occupants’ skin and respiratory tract. In addition, following the start of operational activity, hospital custodians cleaned surfaces with defined periodic frequency, which also influences microbial dynamics. Similar trends have been observed in studies that focused on closed hospital wards that were renovated and reopened for use. Using metagenomic reconstruction of bacterial genomes in hospitals over dense time series has demonstrated that bacteria in the hospital environment have increased selection pressure for the acquisition and accumulation of antimicrobial resistance genes. Although the mechanism of action has not been elucidated, bacterial adaptation and resistance to disinfectants (such as those used to clean the hospital) is well known, and we hypothesize that genetic adaptation to survival against such disinfection may also be concomitant with other genetic survival strategies, such as antimicrobial resistance. However, further research is needed to uncover the explicit relationship between these phenomena.\n\nOver the last 15 years, observational studies have generally applied relatively affordable microbiome analysis techniques, such as 16S rRNA or ITS gene sequencing, to characterize the diversity and taxonomic composition of bacterial and fungal communities, and qPCR of targeted genes to determine absolute abundances of microbial community members. Although approaches such as metagenomics, metatranscriptomics, metabolomics, and application of qPCR to quantify a variety of genes and microbial activity (e.g. the abundance of antibiotic resistance genes) can dramatically increase experimental costs, they can significantly improve our understanding of microbial interactions in these settings. These methods can be implemented to identify patterns of microbial metabolism in complex systems, or when observed over time, these data can reveal temporal dynamics. However, the implementation of these other ‘omics approaches is challenging due to the low microbial biomass found on surfaces in buildings, especially where resources such as water, carbon, nitrogen, and other essential nutrients to sustain life are limited and there is frequent cleaning. Additionally, although observing spatial or temporal trends in microbiome composition or metabolism is useful, it is hard to identify the features that influence these dynamics due to our inability to control for every factor in a real-world environment. Targeted interventions or manipulations of the environment and the subsequent measurement of the magnitude of effect are needed to better understand how to optimize beneficial change. Even in an observational study such as the Hospital Microbiome Project, where we can observe a pseudo-intervention, in this case a change in occupancy status in real-time, it is not possible to explicitly track the movement of individual microbes or infer microbial metabolic interactions and competitive dynamics. However, it is possible to predict how microbes interact with each other and model their behaviour in these environments using metabolic models.\n\nModelling microbial metabolism\n\nTo improve our understanding of microbial activity and ecology in these extreme environments, it is necessary to fundamentally understand their metabolic potential. Genome-scale metabolic models (GSMMs) are mathematical models of metabolic networks reconstructed from the organism’s annotated genome. Genome-scale metabolic modelling can help facilitate a clear understanding of the mechanisms that microbes deploy to survive, germinate, and compete for resources. These models predict growth rates in a simulated medium and determine what reaction rates are needed to support growth. Pairs or larger groups of models can be connected to determine which metabolites are being readily exchanged (commensally or symbiotically) and which limited nutrients drive competition between the organisms. These models can make predictions for hundreds of conditions within seconds, allowing for the rapid identification of important nutrients, uptakes, and secretions, thereby rationally informing the design of subsequent experiments. In an iterative process, experimental data can be incorporated into GSMMs, contextualizing the data and further refining their predictions. Transcriptomics can also be used to detect reactions associated with low-transcription genes, increasing the specificity of the model to the environment of interest. The refined model then yields insights into the biological relevance of transcriptional changes by identifying how they affect the expression of larger metabolic pathways. These models can also facilitate the analysis of multiomics data, by integrating them into an interpretable scaffold, which can then be used to predict how changes in the genome or to the environment influence survival or competitive outcomes. Using these modelling techniques on samples from the International Space Station, an extreme built environment revealed beneficial interactions between the pathogen Klebsiella pneumoniae and bacterial species of the genus Pantoea and the family Enterobacteriaceae. The model also predicted K. pneumoniae is parasitic towards the fungal genus Aspergillus, which was confirmed experimentally via co-culture. Predicting microbial interactions in built environments via modelling is a powerful technique to inform efficacious biocontrol strategies by identifying novel species interactions and predicting their differential effect in a range of scenarios. This information can be generated based solely on ‘omics data and subsequently confirmed in laboratory studies.\n\nInterpreting metabolic ecology\n\nStudies in controlled laboratory settings typically, but not always, use microcosms that contain small pieces of construction materials relevant to the built environment of interest, and conditions (e.g. humidity and temperature) are varied to determine whether they have an effect on microbial activity and survival. To mimic realistic microbial community interactions and successional dynamics, studies have seeded surface materials with microbes by leaving them exposed within built environments prior to initiating challenge studies. In a study of microbial metabolic dynamics, coupons of oriented strand board, medium-density fibreboard, regular gypsum wallboard, and mould-resistant gypsum were naturally inoculated by passive colonization in homes and in a laboratory. Following this seeding, the coupons were either soaked in water to simulate a water leak or kept dry and then all coupons were incubated for an additional 30 days within a high humidity (~94%) chamber. Swabs of the coupons were collected every 5 days and analysed with 16S/ITS rRNA gene amplicon sequencing and metabolomics to determine how these communities changed taxonomically and metabolically in response to wetting. Wetted coupons were dominated by the bacterial genera Bacillus, Erwinia, and Pseudomonas and the fungal genera Eurotium and Penicillium. When coupons had been wetted, Bacillus and Pseudomonas species were almost always negatively correlated in relative abundance, suggesting competitive exclusion. Even though Bacillus species are known to produce antifungal compounds, only the mould-resistant gypsum was dominated by Bacillus. The antibacterial compounds nigragillin and fumigaclavine C were found in high abundance. They were positively correlated with the presence of Aspergillus and negatively correlated with the abundance of Bacillus and Pseudomonas. These results suggest that the presence of Bacillus is not sufficient to prevent fungal growth on built environment surfaces. Although they did not purposefully inoculate surfaces with Bacillus, this study suggests that this genus did proliferate when coupons were wetted, but it only dominated on mould-resistant gypsum, which inherently inhibits fungal growth, and as such, the naturally occurring Bacillus species may not have antifungal activity.\n\nSemi-in vitro investigations are effective at discovering novel microbial interactions, but ecological dynamics can also be inferred from applying multiomic techniques to controlled building environments. For example, one study characterized the chemical and microbial compositions of two frequently wet surfaces in a residential setting, specifically the kitchen sink and bathroom shower. This study used a combination of culture-dependent and independent techniques, including transcriptional analysis of the 16S rRNA gene to determine which bacteria were active at the time of sampling, and assessment of both volatile and soluble chemicals to explore the links between the observed microbiota and chemical exudates. This study showed that microbes play a critical role in structuring the chemical profiles of surfaces in built environments, particularly in kitchen sinks and shower stalls. The microbial volatile organic compounds (mVOCs) were predominantly associated with fatty acid processing, and the composition of these mVOCs appeared more stable than that of the microbial communities themselves, which showed variations in response to changing environmental conditions. A second example demonstrated microbial colonization, succession, and viability in a tightly controlled restroom environment. This study focused on the ecological succession and viability of human-associated microbiota on restroom surfaces, including floors, toilet seats, and soap dispensers. The study demonstrated that a late-successional microbial community develops on restroom surfaces within 5 to 8 hours of decontamination. This community showed remarkable stability over weeks to months, indicating a quick establishment and persistence of specific microbial assemblages. The authors also showed that faecal taxa, particularly those able to enter a dormant phase, can persist for extended periods on restroom surfaces. This insight into microbial survival strategies in dry and nutrient-poor environments of built environments is crucial for understanding disease transmission, ecology, and environmental health. This study also found a significant positive correlation between bacterial and viral abundances, but with an unexpectedly low virus-to-bacterium ratio of nearly 1:1. This suggests that many bacteria on restroom surfaces are in a dormant state, influencing the dynamics of phages in these environments. Understanding microbial ecological dynamics in these systems is essential if we are able to control the survival, emergence, and persistence of pathogens. Next, we explore how biocontrol may be applied to manipulate these ecosystems to reduce the persistence of pathogens in the built environment.\n\nBiocontrol in the built environment\n\nIn agriculture, biocontrol has been rigorously investigated as a replacement for pesticidal, antimicrobial, and antifungal compounds used to eliminate disease-causing organisms. As many plant-associated microbes are naturally antagonistic towards human-associated pathogens, the adaptation of this method in built environments has become an emerging area of research. The Bacillus species used in probiotic cleaning products are also often associated with plants and soil. Additionally, Priestia megaterium (previously Bacillus megaterium) is often included in these formulations due to its biocontrol activity in agriculture. Some Bacillus species are also part of the healthy human microbiome and can confer health benefits when administered as an oral probiotic. For example, consuming B. subtilis spores can decolonize S. aureus from the human gut. Staphylococcus aureus is an opportunistic pathogen and present in approximately one-third of the human population, suggesting that decolonization can lower the overall risk of developing future S. aureus infections, although we also concede that removal of beneficial Staphylococcus species and strains may have negative health impacts.\n\nBacillus species form spores when starved for nutrients, making them resistant to damage by heat, UV, chemicals, and desiccation. Spores remain in this dormant state until conditions improve and then germinate upon exposure to certain amino acids, such as l-alanine, l-valine, and l-asparagine. This makes them ideal for inclusion in cleaning solutions because unlike probiotics that contains vegetative cells (which must be refrigerated), a spore-containing solution can be stored at room temperature indefinitely. Additionally, Bacillus spores will remain viable on built environment surfaces for at least 72 hours, can be incorporated into materials where they can repair microfractures, and facilitate changes to a material’s shape in response to changes in humidity. In the future, building materials might contain spores for the purpose of maintaining structural integrity and improving the health of occupants via biocontrol mechanisms and immune stimulation, although research in this area is still in the very early stages.\n\nWe posit that there are two potential mechanisms by which biocontrol bacteria, such as Bacillus spp., may regulate pathogen exposure in built environments: (A) competitive exclusion, either through competition for nutrients or through antibiotic production and (B) enhancing the ecological stability and pathogen exclusion potential of the native surface microbiome (Fig. 1). Additionally, as outlined below, studies have shown that Bacillus administration in hospitals leads to a significant reduction in the abundance of known pathogens on surfaces. This could be due to competitive exclusion or by influencing the ecological stability of the native community; another possibility is that the application of billions of Bacillus spores leads to overwhelming numerical dominance (iii) that results in a decrease in the ability to detect pathogens and maybe diminished likelihood of occupant exposure due to a reduction in the probability of encountering a pathogenic cell (Fig. 1). Below we explore specific examples that may help elucidate which mechanism or mechanisms is most likely.\n\nBacillus species can competitively exclude other organisms through the preferential uptake of nutrients from their surrounding environment. For example, iron, an important element for all life due to its frequent use as a cofactor in enzymes, can be sequestered by siderophores secreted by Bacillus species. These molecules bind tightly to individual iron atoms and require specialized membrane transport proteins for uptake and utilization by a cell. Cells without the proper transportation proteins are unable to import and use the iron, thereby inhibiting their growth. Competitive inhibition of pathogens can also occur via the direct production of antagonistic compounds by Bacillus species, including surfactin, iturin, fengycin/plipastatin, bacillomycin, and bacilysin (Fig. 2), although the effectiveness of these compounds has not specifically been demonstrated in the built environment. Several studies have demonstrated that Bacillus intervention enhances the pathogen exclusion properties of the extant surface microbiome. However, the lack of a defined mechanism of action behind such biocontrol suggests an urgent need to perform new studies aimed at elucidating these modalities. This is especially important due to the proliferation of commercial probiotic cleaners, whose efficacy should be validated against traditional cleaning methods and any impact on material integrity or human health assessed. However, studies that seek to demonstrate the effectiveness of an intervention against pathogen reduction cannot introduce pathogens into the environment to start the experiment and instead must rely on already existing exposure events, such as those occurring in hospitals. Additionally, there is a lack of control for complex factors such as occupancy rates, sunlight, and seasonality, which makes these studies susceptible to misleading conclusions (Fig. 1).\n\nA recent study showed that it was possible to impregnate materials with a bacterial spore-containing medium, either through direct inoculation or through embedding spores in 3D-printed materials. Spores of genetically modified Bacillus have been printed into soft hydrogel materials, where they remain viable and become metabolically reactive in response to a pathogen (e.g. S. aureus), resulting in the biocidal activity of those agents. Using sprays, materials can also be seeded with microbial spores. To test the activity of these spore sprays, a commercially available cleaner containing either Bacillus spp. spores or a spore-free version of the cleaner was applied to steel coupons; then, the coupons were inoculated with either Acinetobacter baumannii or K. pneumoniae. The coupons were sampled at 3, 24, and 72 hours for colony-forming unit (CFU) enumeration to determine whether the presence of the cleaner, with or without Bacillus spores, decreased the survival rate of the pathogens compared to cleaner-free controls. However, there was no significant difference in A. baumannii survival rates in the presence or absence of the cleaner, with or without Bacillus. Klebsiella pneumoniae survival was significantly reduced when exposed to any cleaner, and the presence of Bacillus did not enhance this effect. In partial explanation for this finding, metatranscriptomic sequencing data suggested a low (~1% of reads) recovery of Bacillus when in spore form, whereas samples with vegetative cells had ~40% of reads identified as Bacillus. The absence of any impact of Bacillus on pathogen survival, coupled with the lack of vegetative transcriptional activity, suggests that most of the spores failed to germinate and hence had no inhibitory effect on the pathogens. Another study tested the natural seeding of blocks of ceramic, linoleum, and stainless steel in both indoor and outdoor environments that were periodically cleaned over 8 months using either bleach, tap water, soap, or a Bacillus-containing probiotic cleaner. Following this seeding period, clinical E. coli and S. aureus strains were deposited on the blocks and desiccated. Their survival was then assessed after 24 hours via CFU enumeration. Blocks cleaned with either soap or the probiotic cleaner had almost no viable pathogens after 24 hours; however, pathogen abundance on the tap water and bleach-cleaned blocks was significantly higher. Additional linoleum blocks were seeded and cleaned as before and then inoculated with a fluorescently labelled P. aeruginosa strain. Following a 48-hour incubation within a flow cell with tryptic soy broth, the blocks were imaged to assess the extent of surface colonization by P. aeruginosa. Almost no growth was observed for the blocks cleaned with tap water or soap, but there was extensive colonization by P. aeruginosa on the bleach and probiotic cleaner blocks. These lab-based studies shed light on how Bacillus, the primary biocontrol bacteria used in commercial probiotic cleaning products, behaves in different environments and varied microbial communities. However, some lab studies show that Bacillus mostly fails to germinate and has a limited impact on the survival of pathogens like A. baumannii and K. pneumoniae. Conversely, using a probiotic cleaner appears to establish a microbial ecosystem that effectively kills or inhibits pathogens, but that cleaning with soap also leads to a microbial community that is just as effective at pathogen inhibition. However, the Bacillus cleaner did not appear to prevent the accumulation of P. aeruginosa when inoculated in a rich media, suggesting that environmental conditions are important for metabolic ecology. Although each study used different methods and conditions, they together reveal that Bacillus species do not automatically thrive and effectively compete with other microbes on surfaces. There appear to be only specific situations where Bacillus can effectively compete against other microbes in the built environment, which highlights the need for detailed investigation of biocontrol microbes on varied surface types before wide-scale deployment.\n\nAn important early study on the effectiveness of biocontrol cleaning methods used a solution containing B. subtilis, B. pumilus, and P. megaterium spores over 24 weeks. These spores reduced the CFUs recovered from coliforms, S. aureus, C. difficile, and Candida albicans on surfaces by 50%–89% after 3–4 weeks of application as compared to surfaces cleaned using standard cleaning methods. The observed reduction remained steady throughout the remaining 4 months of the study, but pathogen abundance rebounded when traditional cleaning was reintroduced. A subsequent study focused on the resistance of the surface microbial community to antibiotics when a probiotic cleaning solution was used, as well as whether patients were colonized by the Bacillus species in the cleaner and if the Bacillus germinated on the surfaces. Spores were found to germinate on the dry, relatively nutrient-deficient surfaces but were not found in samples of blood and urine from patients. Again, a decrease in pathogen abundance was observed on surfaces, as well as a reduction in the abundance of genes associated with antibiotic resistance. The study found no evidence that the Bacillus spp. were acquiring antibiotic resistance genes from the native microbial community.\n\nThese results prompted a large multicentre study focused on investigating whether Bacillus-based cleaning products could reduce the resistome of hospital-associated pathogens. A previous study demonstrated that healthcare-associated pathogens tended to acquire additional antibiotic resistance and virulence genes over time in the hospital. The internal medicine wards of five Italian hospitals were enrolled and samples were collected for an initial 6-month period, during which traditional cleaning methods were continued. Following this baseline period, a 6-month intervention was carried out using a Probiotic Cleaning Hygiene System (PCHS) that consisted of B. subtilis, B. pumilus, and P. megaterium spores, after which there was a 6-month postintervention period. The use of PCHS was associated with an up to 99% reduction in AMR genes contained in the hospital microbiome, with a 33%–100% decrease in the presence of resistant strains. The use of PCHS was also associated with a 60% decrease in the consumption of antimicrobial drugs by patients, leading to a 75% reduction in the costs associated with treating AMR infections. The cumulative incidence of healthcare-associated infections decreased significantly in the post-PCHS treatment period compared to the conventional treatment phase, from 4.8% to 2.3% (p < .0001). These results are promising, but replication by other research teams is necessary to increase confidence in this approach, as well as further investigations into mechanisms of action. Lacking this knowledge severely limits our ability to refine the process and to understand the ecological dynamics that underpin the observations.\n\nAdditional follow-up studies have confirmed the effectiveness of probiotic surface treatments in reducing the abundance of AMR genes and the potential pathogens that often harbour them. For example, bacteriophages are an attractive fast-acting alternative to spores. In a study using the PCHS combined with phage targeting Staphylococcus in hospital bathrooms, an 87% reduction in Staphylococcus species (including nonpathogenic strains) was observed after only 1 day of phage treatment. After six additional days, there was a 97% reduction in Staphylococcus observed, but there was a return to preintervention levels after 4 days of treatment cessation. Resuming the treatment for 7 days resulted in a reduction similar to that observed in the first treatment period. A larger follow-up study at two hospitals using the combined PCHS+Phage treatment had mixed results. One hospital showed a significant reduction in Staphylococcus, but the other did not. This study was performed during the COVID-19 pandemic, which led to the use of emergency applications of 3% NaClO disinfectant. One hospital used a greater number of NaClO applications, and this increase was correlated with an order of magnitude reduction in Bacillus and phage abundance, likely leading to a reduction in the effectiveness of the probiotic intervention. These results support an earlier study, also performed during the COVID-19 pandemic, that found a reduction in pathogen load through the use of PCHS was reversed when emergency 5% NaClO was implemented. These recent studies highlight the importance of understanding the dynamic nature of real-world applications, the limits of using phage as a treatment, and how probiotic cleaning methods might be rendered ineffective when harsh bleach cleaning agents are used in tandem.",
+  "methods": "",
+  "results": "",
+  "discussion": "",
+  "conclusion": "",
+  "keywords": [
+    "indoor microbiome",
+    "biocontrol",
+    "probiotic cleaning",
+    "bacillus",
+    "antibiotic resistance",
+    "built environment",
+    "AMR",
+    "metabolic modelling",
+    "Winogradsky Review",
+    "AcademicSubjects/SCI00010",
+    "AcademicSubjects/SCI00960",
+    "AcademicSubjects/SCI01150",
+    "AcademicSubjects/SCI02281"
+  ],
+  "citations": [
+    {
+      "title": "History of disinfection from early times until the end of the 18th century",
+      "authors": []
+    },
+    {
+      "title": "Rediscovering Ignaz Philipp Semmelweis (1818-1865)",
+      "authors": []
+    },
+    {
+      "title": "Florence Nightingale’s environmental theory and its influence on contemporary infection control",
+      "authors": []
+    },
+    {
+      "title": "Joseph Lister and the performance of antiseptic surgery",
+      "authors": []
+    },
+    {
+      "title": "Trends in infectious disease mortality in the United States during the 20th century",
+      "authors": []
+    },
+    {
+      "title": "The antibiotic resistance crisis: part 1: causes and threats",
+      "authors": []
+    },
+    {
+      "title": "Molecular basis of bacterial disinfectant resistance",
+      "authors": []
+    },
+    {
+      "title": "Effectiveness of ultraviolet devices and hydrogen peroxide systems for terminal room decontamination: focus on clinical trials",
+      "authors": []
+    },
+    {
+      "title": "Clostridium difficile infection: review",
+      "authors": []
+    },
+    {
+      "title": "The overlooked pandemic of antimicrobial resistance",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial resistance in Escherichia coli",
+      "authors": []
+    },
+    {
+      "title": "Klebsiella pneumoniae: an increasing threat to public health",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial resistance among Streptococcus pneumoniae",
+      "authors": []
+    },
+    {
+      "title": "Acinetobacter baumannii resistance: a real challenge for clinicians",
+      "authors": []
+    },
+    {
+      "title": "Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis",
+      "authors": []
+    },
+    {
+      "title": "Bracing for superbugs: strengthening environmental action in the one health response to antimicrobial resistance",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial resistance: a global multifaceted phenomenon",
+      "authors": []
+    },
+    {
+      "title": "Identification of bacterial species in probiotic consortiums in selected commercial cleaning preparations",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial Bacillus: metabolites and their mode of action",
+      "authors": []
+    },
+    {
+      "title": "Experimental studies addressing the longevity of Bacillus subtilis spores—the first data from a 500-year experiment",
+      "authors": []
+    },
+    {
+      "title": "Hard surface biocontrol in hospitals using microbial-based cleaning products",
+      "authors": []
+    },
+    {
+      "title": "Reducing healthcare-associated infections incidence by a probiotic-based sanitation system: a multicentre, prospective, intervention study",
+      "authors": []
+    },
+    {
+      "title": "Pathogen control in the built environment: a probiotic-based system as a remedy for the spread of antibiotic resistance",
+      "authors": []
+    },
+    {
+      "title": "Potential use of a combined bacteriophage-probiotic sanitation system to control microbial contamination and AMR in healthcare settings: a pre-post intervention study",
+      "authors": []
+    },
+    {
+      "title": "Bacterial colonization and succession in a newly opened hospital",
+      "authors": []
+    },
+    {
+      "title": "Bacterial colonization dynamics and antibiotic resistance gene dissemination in the hospital environment after first patient occupancy: a longitudinal metagenetic study",
+      "authors": []
+    },
+    {
+      "title": "Temporal variations in bacterial community diversity and composition throughout intensive care unit renovations",
+      "authors": []
+    },
+    {
+      "title": "Determinants of bacterial and fungal microbiota in Finnish home dust: impact of environmental biodiversity, pets, and occupants",
+      "authors": []
+    },
+    {
+      "title": "Season, vegetation proximity and building age shape the indoor fungal communities’ composition at city-scale",
+      "authors": []
+    },
+    {
+      "title": "Spatiotemporal variation of the indoor mycobiome in daycare centers",
+      "authors": []
+    },
+    {
+      "title": "Metagenomic approaches to analyze antimicrobial resistance: an overview",
+      "authors": []
+    },
+    {
+      "title": "synDNA-a synthetic DNA spike-in method for absolute quantification of shotgun metagenomic sequencing",
+      "authors": []
+    },
+    {
+      "title": "Quantitative PCR versus metagenomics for monitoring antibiotic resistance genes: balancing high sensitivity and broad coverage",
+      "authors": []
+    },
+    {
+      "title": "A global baseline for qPCR-determined antimicrobial resistance gene prevalence across environments",
+      "authors": []
+    },
+    {
+      "title": "Detection of 12 common food-borne bacterial pathogens by TaqMan real-time PCR using a single set of reaction conditions",
+      "authors": []
+    },
+    {
+      "title": "Creating a 3D microbial and chemical snapshot of a human habitat",
+      "authors": []
+    },
+    {
+      "title": "Sharing and community curation of mass spectrometry data with global natural products social molecular networking",
+      "authors": []
+    },
+    {
+      "title": "Feature-based molecular networking in the GNPS analysis environment",
+      "authors": []
+    },
+    {
+      "title": "An improved workflow for accurate and robust healthcare environmental surveillance using metagenomics",
+      "authors": []
+    },
+    {
+      "title": "KatharoSeq enables high-throughput microbiome analysis from low-biomass samples",
+      "authors": []
+    },
+    {
+      "title": "The built environment is a microbial wasteland",
+      "authors": []
+    },
+    {
+      "title": "An evaluation of methicillin-resistant Staphylococcus aureus survival on five environmental surfaces",
+      "authors": []
+    },
+    {
+      "title": "Human microbiome transfer in the built environment differs based on occupants, objects, and buildings",
+      "authors": []
+    },
+    {
+      "title": "Skin microbiota interact with microbes on office surfaces",
+      "authors": []
+    },
+    {
+      "title": "Geography and location are the primary drivers of office microbiome composition",
+      "authors": []
+    },
+    {
+      "title": "Indoor airborne microbiome and endotoxin: meteorological events and occupant characteristics are important determinants",
+      "authors": []
+    },
+    {
+      "title": "Metagenomics reveals novel microbial signatures of farm exposures in house dust",
+      "authors": []
+    },
+    {
+      "title": "Concurrent measurement of microbiome and allergens in the air of bedrooms of allergy disease patients in the Chicago area",
+      "authors": []
+    },
+    {
+      "title": "Evaluation of the kitchen microbiome and food safety behaviors of predominantly low-income families",
+      "authors": []
+    },
+    {
+      "title": "Characterization of the public transit air microbiome and resistome reveals geographical specificity",
+      "authors": []
+    },
+    {
+      "title": "Metagenomic characterization of bacterial community and antibiotic resistance genes found in the mass transit system in Seoul, South Korea",
+      "authors": []
+    },
+    {
+      "title": "Cartography of opportunistic pathogens and antibiotic resistance genes in a tertiary hospital environment",
+      "authors": []
+    },
+    {
+      "title": "Evaluation of disinfectant efficacy against multidrug-resistant bacteria: a comprehensive analysis of different methods",
+      "authors": []
+    },
+    {
+      "title": "Microbiome interplay: plants alter microbial abundance and diversity within the built environment",
+      "authors": []
+    },
+    {
+      "title": "Architectural design influences the diversity and structure of the built environment microbiome",
+      "authors": []
+    },
+    {
+      "title": "Home life: factors structuring the bacterial diversity found within and between homes",
+      "authors": []
+    },
+    {
+      "title": "Microbiota of the indoor environment: a meta-analysis",
+      "authors": []
+    },
+    {
+      "title": "Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities",
+      "authors": []
+    },
+    {
+      "title": "Longitudinal analysis of microbial interaction between humans and the indoor environment",
+      "authors": []
+    },
+    {
+      "title": "Microbial and metabolic succession on common building materials under high humidity conditions",
+      "authors": []
+    },
+    {
+      "title": "Ecological succession and viability of human-associated microbiota on restroom surfaces",
+      "authors": []
+    },
+    {
+      "title": "The sum is greater than the parts: exploiting microbial communities to achieve complex functions",
+      "authors": []
+    },
+    {
+      "title": "Genome-scale metabolic modeling enables in-depth understanding of big data",
+      "authors": []
+    },
+    {
+      "title": "A protocol for generating a high-quality genome-scale metabolic reconstruction",
+      "authors": []
+    },
+    {
+      "title": "Elucidation of complexity and prediction of interactions in microbial communities",
+      "authors": []
+    },
+    {
+      "title": "Environmental stimuli drive a transition from cooperation to competition in synthetic phototrophic communities",
+      "authors": []
+    },
+    {
+      "title": "Methods for integration of transcriptomic data in genome-scale metabolic models",
+      "authors": []
+    },
+    {
+      "title": "Metabolic modeling of the International Space Station microbiome reveals key microbial interactions",
+      "authors": []
+    },
+    {
+      "title": "Size-resolved emission rates of airborne bacteria and fungi in an occupied classroom",
+      "authors": []
+    },
+    {
+      "title": "Identification and use of potential bacterial organic antifungal volatiles in biocontrol",
+      "authors": []
+    },
+    {
+      "title": "Antifungal activity of Bacillus species against Fusarium and analysis of the potential mechanisms used in biocontrol",
+      "authors": []
+    },
+    {
+      "title": "Antifungal activity and genomic characterization of the biocontrol agent Bacillus velezensis CMRP 4489",
+      "authors": []
+    },
+    {
+      "title": "Microbes and associated soluble and volatile chemicals on periodically wet household surfaces",
+      "authors": []
+    },
+    {
+      "title": "Biological control of plant pathogens by Bacillus species",
+      "authors": []
+    },
+    {
+      "title": "Biological control of plant pathogens: a global perspective",
+      "authors": []
+    },
+    {
+      "title": "Phyllosphere-associated microbiota in built environment: do they have the potential to antagonize human pathogens?",
+      "authors": []
+    },
+    {
+      "title": "Bacillus species in soil as a natural resource for plant health and nutrition",
+      "authors": []
+    },
+    {
+      "title": "Antimicrobial activity and comparative metabolomic analysis of Priestia megaterium strains derived from potato and dendrobium",
+      "authors": []
+    },
+    {
+      "title": "Probiotic for pathogen-specific Staphylococcus aureus decolonisation in Thailand: a phase 2, double-blind, randomised, placebo-controlled trial",
+      "authors": []
+    },
+    {
+      "title": "Epidemiology and clinical relevance of Staphylococcus aureus intestinal carriage: a systematic review and meta-analysis",
+      "authors": []
+    },
+    {
+      "title": "The stealthy superbug: the role of asymptomatic enteric carriage in maintaining a long-term hospital outbreak of ST228 methicillin-resistant Staphylococcus aureus",
+      "authors": []
+    },
+    {
+      "title": "Undetected carriage explains apparent Staphylococcus aureus acquisition in a non-outbreak healthcare setting",
+      "authors": []
+    },
+    {
+      "title": "Germination of spores of Bacillus species: what we know and do not know",
+      "authors": []
+    },
+    {
+      "title": "Impact of a probiotic-based cleaning intervention on the microbiota ecosystem of the hospital surfaces: focus on the resistome remodulation",
+      "authors": []
+    },
+    {
+      "title": "Resilient living materials built by printing bacterial spores",
+      "authors": []
+    },
+    {
+      "title": "A systematic review of bacteria-based self-healing concrete: biomineralization, mechanical, and durability properties",
+      "authors": []
+    },
+    {
+      "title": "Bacterial spore-based hygromorphs: a novel active material with potential for architectural applications",
+      "authors": []
+    },
+    {
+      "title": "Our interface with the built environment: immunity and the indoor microbiota",
+      "authors": []
+    },
+    {
+      "title": "Hospital-associated microbiota and implications for nosocomial infections",
+      "authors": []
+    },
+    {
+      "title": "Effective elimination of staphylococcal contamination from hospital surfaces by a bacteriophage-probiotic sanitation strategy: a monocentric study",
+      "authors": []
+    },
+    {
+      "title": "Introduction of probiotic-based sanitation in the emergency Ward of a Children’s hospital during the COVID-19 pandemic",
+      "authors": []
+    },
+    {
+      "title": "Bacterial siderophores in community and host interactions",
+      "authors": []
+    },
+    {
+      "title": "Magnitude and mechanism of siderophore-mediated competition at low iron solubility in the Pseudomonas aeruginosa pyochelin system",
+      "authors": []
+    },
+    {
+      "title": "Biocontrol potential of bacteria belonging to the Bacillus subtilis group against pests and diseases of agricultural interest through genome exploration",
+      "authors": []
+    },
+    {
+      "title": "Clinically relevant pathogens on surfaces display differences in survival and transcriptomic response in relation to probiotic and traditional cleaning strategies",
+      "authors": []
+    },
+    {
+      "title": "Disinfectant, soap or probiotic cleaning? Surface microbiome diversity and biofilm competitive exclusion",
+      "authors": []
+    },
+    {
+      "title": "Probiotic design",
+      "authors": []
+    },
+    {
+      "title": "Impact of a probiotic-based hospital sanitation on antimicrobial resistance and HAI-associated antimicrobial consumption and costs: a multicenter study",
+      "authors": []
+    },
+    {
+      "title": "Fighting AMR in the healthcare environment: microbiome-based sanitation approaches and monitoring tools",
+      "authors": []
+    },
+    {
+      "title": "",
+      "authors": []
+    },
+    {
+      "title": "Daylight exposure modulates bacterial communities associated with household dust",
+      "authors": []
+    },
+    {
+      "title": "Built environment microbiomes transition from outdoor to human-associated communities after construction and commissioning",
+      "authors": []
+    },
+    {
+      "title": "Understanding building-occupant-microbiome interactions toward healthy built environments: a review",
+      "authors": []
+    },
+    {
+      "title": "Relationship between the microbiome and indoor temperature/humidity in a traditional Japanese house with a thatched roof in Kyoto, Japan",
+      "authors": []
+    },
+    {
+      "title": "Microbiology of the built environment",
+      "authors": []
+    },
+    {
+      "title": "Biosynthesis, molecular regulation, and application of bacilysin produced by Bacillus species",
+      "authors": []
+    },
+    {
+      "title": "Bacillus spore germination: knowns, unknowns and what we need to learn",
+      "authors": []
+    },
+    {
+      "title": "Bacillibactin-mediated iron transport in Bacillus subtilis",
+      "authors": []
+    },
+    {
+      "title": "A mini-review: mechanism of antimicrobial action and application of surfactin",
+      "authors": []
+    },
+    {
+      "title": "Bacillomycin D produced by Bacillus amyloliquefaciens is involved in the antagonistic interaction with the plant-pathogenic fungus Fusarium graminearum",
+      "authors": []
+    },
+    {
+      "title": "Fengycins, cyclic lipopeptides from marine Bacillus subtilis strains, kill the plant-pathogenic fungus Magnaporthe grisea by inducing reactive oxygen species production and chromatin condensation",
+      "authors": []
+    }
+  ],
+  "original_title": "Biocontrol in built environments to reduce pathogen exposure and infection risk.",
+  "image_download_links": [
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f657/10848226/28b14baa93b1/wrad024f1.jpg",
+    "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f657/10848226/5aedc5bf77c4/wrad024f2.jpg"
+  ]
+}
