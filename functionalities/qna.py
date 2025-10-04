@@ -1,5 +1,5 @@
-from google import genai
-from google.genai import types 
+import google.genai as genai
+from google.genai import types
 import os
 import json
 from dotenv import load_dotenv
