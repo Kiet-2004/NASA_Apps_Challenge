@@ -6,4 +6,3 @@ from functionalities.abstract_search import similarity_search
 if __name__ == "__main__":
 	response = generate_answer("Explain the main findings of the article", "PMC2925951", "default")
 	print(response)
-	
