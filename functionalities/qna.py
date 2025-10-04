@@ -2,6 +2,7 @@ import google.genai as genai
 from google.genai import types
 import os
 import json
+from pathlib import Path
 from dotenv import load_dotenv
 from utils.prompts import SYSTEM_PROMPT
 from pydantic import BaseModel
@@ -9,6 +10,9 @@ from pydantic import BaseModel
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
 
 class DefaultResponse(BaseModel):
     answer: str
@@ -34,8 +38,23 @@ def generate_answer(prompt: str, file_id: str, mode: str) -> dict:
     if mode not in SYSTEM_PROMPT.keys():
         mode = "default"
 
-    with open(f"./data/{file_id}.json", 'r') as f:
-        json_content = json.load(f)
+    json_path = DATA_DIR / f"{file_id}.json"
+
+    try:
+        with json_path.open("r", encoding="utf-8") as f:
+            json_content = json.load(f)
+    except FileNotFoundError as exc:
+        raise FileNotFoundError(f"JSON file '{json_path.name}' not found in data directory.") from exc
+    except UnicodeDecodeError as exc:
+        raise UnicodeDecodeError(
+            exc.encoding,
+            exc.object,
+            exc.start,
+            exc.end,
+            f"Unable to decode JSON file '{json_path.name}' with UTF-8 encoding."
+        ) from exc
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"JSON file '{json_path.name}' contains invalid JSON.") from exc
 
     json_str = json.dumps(json_content, indent=2)
     final_prompt = f"{SYSTEM_PROMPT[mode]} \n\nArticle Content: {json_str}\n\nUser Query: {prompt}"
