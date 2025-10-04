@@ -13,6 +13,18 @@ from tqdm import tqdm
 load_dotenv()
 conn_str = os.getenv("PGVECTOR_CONNECTION_STR")
 gemini_api_key = os.getenv("GEMINI_API_KEY")
+
+# Ensure connection string is present
+if not conn_str:
+    raise RuntimeError("Environment variable PGVECTOR_CONNECTION_STR is not set")
+
+# SQLAlchemy expects the 'postgresql' dialect name. Some providers or
+# platforms return a URL starting with 'postgres://'. Convert that to
+# a SQLAlchemy-friendly scheme using psycopg2. This prevents the
+# "Can't load plugin: sqlalchemy.dialects:postgres" error.
+if conn_str.startswith("postgres://"):
+    conn_str = conn_str.replace("postgres://", "postgresql+psycopg2://", 1)
+
 engine = create_engine(conn_str)
 
 gemini_embeddings = GoogleGenerativeAIEmbeddings(
@@ -107,7 +119,7 @@ def print_search_results(results: List[tuple]) -> None:
 
 # Example usage
 if __name__ == "__main__":
-    # embed_abstracts("./data")
+    embed_abstracts("./data")
     query = "Human stem cells research in space."
     results = similarity_search(query, k=5)
     print_search_results(results)
