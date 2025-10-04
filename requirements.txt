@@ -7,6 +7,6 @@ langchain-google-genai
 sqlalchemy>=2.0,<3.0
 tqdm
 numpy==1.26.4
-psycopg[binary]
+psycopg2
 fastapi
 uvicorn
