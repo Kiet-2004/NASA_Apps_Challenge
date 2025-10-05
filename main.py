@@ -4,7 +4,7 @@ from typing import Any, Dict, List, Optional
 
 from functionalities.qna import generate_answer
 from functionalities.abstract_search import similarity_search
-
+import os
 app = FastAPI()
 
 # ---- Request schema ----
@@ -46,4 +46,5 @@ def api_generate_answer(req: GenerateAnswerRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=9000, reload=True)
+    port = int(os.getenv("PORT", 9000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)
